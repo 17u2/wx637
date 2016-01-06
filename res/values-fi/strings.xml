@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="d_0">Virhe Google Play -palveluissa</string>
+    <string name="d_1">Asenna Google Play -palvelut, jotta sovellus toimii.</string>
+    <string name="d_2">Päivitä Google Play -palvelut, jotta sovellus toimii.</string>
+    <string name="d_3">Ota käyttöön Google Play -palvelut, jotta sovellus toimii.</string>
+    <string name="d_4">Pyynnön teki %1$s</string>
+    <string name="d_5">Asenna Google Play -palvelut</string>
+    <string name="d_6">Tämä sovellus ei toimi ilman Google Play -palveluita, jotka puuttuvat puhelimesta.</string>
+    <string name="d_7">Tämä sovellus ei toimi ilman Google Play -palveluita, jotka puuttuvat tablet-laitteesta.</string>
+    <string name="d_8">Asenna Google Play -palvelut</string>
+    <string name="d_9">Ota Google Play -palvelut käyttöön</string>
+    <string name="d__">Tämä sovellus ei toimi, ellet ota Google Play -palveluita käyttöön.</string>
+    <string name="d_a">Ota Google Play -palv. käyttöön</string>
+    <string name="d_b">Päivitä Google Play -palvelut</string>
+    <string name="d_c">Tämä sovellus ei toimi, ellet päivitä Google Play -palveluita.</string>
+    <string name="d_d">Verkkovirhe</string>
+    <string name="d_e">Google Play -palveluiden käyttöön tarvitaan tietoliikenneyhteys.</string>
+    <string name="d_f">Tili ei kelpaa</string>
+    <string name="d_g">Kyseistä tiliä ei ole tällä laitteella. Valitse toinen tili.</string>
+    <string name="d_h">Tuntematon ongelma käytettäessä Google Play -palveluita.</string>
+    <string name="d_i">Google Play -palvelut</string>
+    <string name="d_j">Google Play -palveluita, joita osa sovelluksistasi käyttää, ei tueta laitteellasi. Pyydä ohjeita laitteen valmistajalta.</string>
+    <string name="d_k">Laitteen päivämäärä vaikuttaa virheelliseltä. Tarkista laitteen päivämäärä.</string>
+    <string name="d_l">Päivitä</string>
+    <string name="d_m">Kirjaudu</string>
+    <string name="d_n">Kirjaudu Google-tiliin</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="d_0">Google Play szolgáltatások – hiba</string>
+    <string name="d_1">Egy alkalmazás Google Play-szolgáltatások telepítését kéri.</string>
+    <string name="d_2">Egy alkalmazás Google Play-szolgáltatások frissítését kéri.</string>
+    <string name="d_3">Egy alkalmazás Google Play-szolgáltatások engedélyezését kéri.</string>
+    <string name="d_4">A(z) %1$s kérésére</string>
+    <string name="d_5">Play Szolgáltatások telepítése</string>
+    <string name="d_6">Az alkalmazás működéséhez a Google Play Szolgáltatások szükségesek, ezek nincsenek telepítve a telefonon.</string>
+    <string name="d_7">Az alkalmazás működéséhez a Google Play Szolgáltatások szükségesek, ezek nincsenek telepítve a táblagépen.</string>
+    <string name="d_8">Play Szolgáltatások telepítése</string>
+    <string name="d_9">Google Play Szolgáltatások aktiválása</string>
+    <string name="d__">Az alkalmazás csak akkor fog működni, ha engedélyezi a Google Play Szolgáltatásokat.</string>
+    <string name="d_a">Play Szolgáltatások aktiválása</string>
+    <string name="d_b">Play Szolgáltatások frissítése</string>
+    <string name="d_c">Az alkalmazás csak akkor fog működni, ha frissíti a Google Play Szolgáltatásokat.</string>
+    <string name="d_d">Hálózati hiba</string>
+    <string name="d_e">A Google Play Szolgáltatásokhoz történő kapcsolódáshoz adatkapcsolat szükséges.</string>
+    <string name="d_f">Érvénytelen fiók</string>
+    <string name="d_g">A megadott fiók nem létezik ezen az eszközön. Kérjük, válasszon másik fiókot.</string>
+    <string name="d_h">Ismeretlen hiba a Google Play Szolgáltatásokban.</string>
+    <string name="d_i">Google Play Szolgáltatások</string>
+    <string name="d_j">A Google Play Szolgáltatásokat, amelyre egyes alkalmazások támaszkodnak, nem támogatja az eszköz. Segítségért forduljon az eszköz gyártójához.</string>
+    <string name="d_k">Az eszközön beállított dátum helytelen. Kérjük, ellenőrizze azt.</string>
+    <string name="d_l">Frissítés</string>
+    <string name="d_m">Belépés</string>
+    <string name="d_n">Google-bejelentkezés</string>
+</resources>

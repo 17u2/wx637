@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="d_0">Google Наадаан үйлчилгээний алдаа</string>
+    <string name="d_1">Аппликешн Google Наадаан Үйлчилгээг суулгахыг шаардана.</string>
+    <string name="d_2">Аппликешн Google Наадаан Үйлчилгээг шинэчлэхийг шаардана.</string>
+    <string name="d_3">Аппликешн Google Наадаан Үйлчилгээг идэвхжүүлсэн байхыг шаардана.</string>
+    <string name="d_4">%1$s хүсэлт гаргасан</string>
+    <string name="d_5">Google Play үйлчилгээ авах</string>
+    <string name="d_6">Таны утсанд байхгүй байгаа Google Play үйлчилгээг идэвхжүүлж байж энэ апп-г ажиллуулах боломжтой.</string>
+    <string name="d_7">Таны таблетэд байхгүй Google Play үйлчилгээг идэвхжүүлж байж энэ апп-г ажиллуулах боломжтой.</string>
+    <string name="d_8">Google Play үйлчилгээ авах</string>
+    <string name="d_9">Google Play үйлчилгээг идэвхжүүлэх</string>
+    <string name="d__">Та Google Play үйлчилгээг идэвхжүүлж байж энэ апп-г ажиллуулах боломжтой.</string>
+    <string name="d_a">Google Play үйлчилгээг идэвхжүүлэх</string>
+    <string name="d_b">Google Play үйлчилгээг шинэчлэх</string>
+    <string name="d_c">Та Google Play үйлчилгээг шинэчлэхгүй бол энэ апп ажиллах боломжгүй.</string>
+    <string name="d_d">Сүлжээний алдаа</string>
+    <string name="d_e">Google Play үйлчилгээнд холбогдохын тулд дата холболт шаардлагатай.</string>
+    <string name="d_f">Буруу акаунт</string>
+    <string name="d_g">Заасан акаунт энэ төхөөрөмж дээр байхгүй байна. Өөр акаунт сонгоно уу.</string>
+    <string name="d_h">Google Play үйлчилгээтэй холбоотой тодорхойгүй алдаа.</string>
+    <string name="d_i">Google Play үйлчилгээ</string>
+    <string name="d_j">Таны зарим аппликешнүүдийн хамаардаг Google Play үйлчилгээ таны төхөөрөмжид дэмжигдэхгүй байна. Тусламж авахын тулд үйлдвэрлэгчтэй холбоо барина уу.</string>
+    <string name="d_k">Төхөөрөмжийн огноо буруу байгаа бололтой. Төхөөрөмжийн огноог шалгана уу.</string>
+    <string name="d_l">Шинэчлэх</string>
+    <string name="d_m">Нэвтрэх</string>
+    <string name="d_n">Google-р нэвтрэх:</string>
+</resources>

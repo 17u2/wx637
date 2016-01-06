@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="d_0">Hitilafu kwenye huduma za Google Play</string>
+    <string name="d_1">Programu inahitaji usakinishaji wa huduma za Google Play.</string>
+    <string name="d_2">Programu inahitaji toleo jipya la huduma za Google Play.</string>
+    <string name="d_3">Programu inahitaji huduma za Google Play ili iwashwe.</string>
+    <string name="d_4">Imeombwa na %1$s</string>
+    <string name="d_5">Pata huduma za Google Play</string>
+    <string name="d_6">Programu hii haiwezi kuendeshwa bila huduma za Google Play, ambazo hazipo kwenye simu yako.</string>
+    <string name="d_7">Programu hii haiwezi kufanya kazi bila huduma za Google Play, ambazo hazipatikani kwenye kompyuta kibao yako.</string>
+    <string name="d_8">Pata huduma za Google Play</string>
+    <string name="d_9">Wezesha huduma za Google Play</string>
+    <string name="d__">Programu hii haitafanya kazi mpaka utakapowezesha huduma za Google Play.</string>
+    <string name="d_a">Wezesha huduma za Google Play</string>
+    <string name="d_b">Sasisha huduma za Google Play</string>
+    <string name="d_c">Programu hii haiwezi kuendeshwa mpaka utakaposasisha huduma za Google Play.</string>
+    <string name="d_d">Hitilafu ya Mtandao</string>
+    <string name="d_e">Muunganisho wa data unahitajika ili kuunganisha kwenye huduma za Google Play.</string>
+    <string name="d_f">Akaunti Batili</string>
+    <string name="d_g">Akaunti iliyobainishwa haipo kwenye kifaa hiki. Tafadhali chagua akaunti tofauti.</string>
+    <string name="d_h">Suala lisilojulikana na huduma za Google Play.</string>
+    <string name="d_i">Huduma za Google Play</string>
+    <string name="d_j">Huduma za Google Play, ambazo baadhi ya programu zako zinategemea, si linganifu na kifaa chako. Tafadhali wasiliana na mtengenezaji kwa usaidizi.</string>
+    <string name="d_k">Inaeonekana tarehe ya kifaa sio sahihi. Tafadhali angalia tarehe ya kifaa.</string>
+    <string name="d_l">Sasisha</string>
+    <string name="d_m">Ingia</string>
+    <string name="d_n">Ingia ukitumia Google</string>
+</resources>

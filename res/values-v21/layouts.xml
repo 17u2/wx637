@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="iz">r/z/iz.xml</item>
+    <item type="layout" name="s2">r/z/s2.xml</item>
+    <item type="layout" name="s4">r/z/s4.xml</item>
+</resources>

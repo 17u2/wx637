@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="ps">r/b/ps.9.png</item>
+    <item type="drawable" name="pt">r/b/pt.9.png</item>
+    <item type="drawable" name="pu">r/b/pu.9.png</item>
+    <item type="drawable" name="pv">r/b/pv.9.png</item>
+    <item type="drawable" name="pw">r/b/pw.9.png</item>
+    <item type="drawable" name="an7">r/b/an7.9.png</item>
+    <item type="drawable" name="an8">r/b/an8.9.png</item>
+    <item type="drawable" name="an9">r/b/an9.png</item>
+    <item type="drawable" name="an_">r/b/an_.png</item>
+    <item type="drawable" name="ana">r/b/ana.png</item>
+    <item type="drawable" name="anb">r/b/anb.png</item>
+    <item type="drawable" name="anc">r/b/anc.9.png</item>
+    <item type="drawable" name="and">r/b/and.9.png</item>
+</resources>

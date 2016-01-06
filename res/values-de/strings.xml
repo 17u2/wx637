@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ax5">WeChat</string>
+    <string name="ax6">WeChat</string>
+    <string name="ax7">WeChat</string>
+    <string name="ax8">An Momente senden</string>
+    <string name="ax9">WeChat-Favoriten</string>
+    <string name="bra">Zahlung mit Fingerabdruck</string>
+    <string name="brb">Nachdem Sie einen Fingerabdruck in den Einstellungen im Telefon festgelegt haben, können Sie es für WeChat-Zahlungen verwenden. Jetzt festlegen?</string>
+    <string name="brc">Fingerabdruck-Kennwort wird unterstützt. Für WeChat-Zahlung verwenden?</string>
+    <string name="brd">Fingerabdruck verifizieren</string>
+    <string name="bre">"Versuchen Sie es erneut!
+Vergewissern Sie sich, dass Sie einen Fingerabdruck festgelegt haben!"</string>
+    <string name="brf">Erfolgreich geöffnet</string>
+    <string name="brg">Aktivieren von Zahlung per Fingerabdruck nicht möglich!</string>
+    <string name="brh">Zahlung per Fingerabdruck deaktivieren?</string>
+    <string name="bri">Deaktivieren nicht möglich. Versuchen Sie es erneut.</string>
+    <string name="brj">Zahlung per Fingerabdruck deaktivieren</string>
+    <string name="brk">Festlegen</string>
+    <string name="brl">Aktivieren</string>
+    <string name="brm">Fingerabdruck wurde festgelegt und kann jetzt für WeChat-Zahlungen verwendet werden.</string>
+    <string name="brn">Zahlung mit Fingerabdruck wurde aktiviert und kann zur Autorisierung von Zahlungen verwendet werden.</string>
+    <string name="bro">Erneut versuchen!</string>
+    <string name="c5p">file:///android_asset/doc/en/network_warning.htm</string>
+    <string name="c5q">file:///android_asset/doc/default/oauth_network_error.html</string>
+    <string name="c5r">file:///android_asset/doc/en/qqsync_intro.htm</string>
+    <string name="c5s">file:///android_asset/doc/en/qqsync_privacy.htm</string>
+    <string name="c5t">http://weixin.qq.com/cgi-bin/readtemplate?t=weixin_msgtrans_agreement&amp;lang=en</string>
+    <string name="c5u">http://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=page/record_sync__course&amp;lang=zh_CN</string>
+    <string name="c5v">http://weixin.qq.com/cgi-bin/readtemplate?t=weixin_chat_migration_faq&amp;lang=zh_CN</string>
+    <string name="c5w">http://weixin.qq.com/cgi-bin/readtemplate?t=weixin_contract_agreement&amp;lang=en</string>
+    <string name="c5x">\?hl=en</string>
+    <string name="c5y">http://weixin.qq.com/agreement?lang=en</string>
+    <string name="c5z">http://weixin.qq.com/cgi-bin/readtemplate?lang=en_US&amp;check=false&amp;t=weixin_agreement&amp;s=terms</string>
+    <string name="c60">http://weixin.qq.com/cgi-bin/readtemplate?lang=en_US&amp;check=false&amp;t=weixin_agreement&amp;s=privacy</string>
+    <string name="c61">http://support.wechat.com/getpassword?lang=en</string>
+    <string name="c62">https://account.qq.com/cgi-bin/en/index</string>
+    <string name="c63">http://open.weixin.qq.com/emoticon#wechat_redirect</string>
+    <string name="c64">http://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=page/payment_security__intro</string>
+    <string name="c65">http://weixin.qq.com/cgi-bin/readtemplate?t=weixin_small_pay</string>
+    <string name="c66">http://action.weixin.qq.com/payact/readtemplate?t=mobile/shuaka/help_tmpl</string>
+    <string name="c67">sound/play_completed.mp3</string>
+    <string name="c68">sound/time_limit.mp3</string>
+    <string name="c69">sound/after_upload_voice.mp3</string>
+    <string name="c6_">sound/qrcode_completed.mp3</string>
+    <string name="c6a">sound/talkroom_begin.mp3</string>
+    <string name="c6b">sound/talkroom_press.mp3</string>
+    <string name="c6c">sound/talkroom_sasasa.mp3</string>
+    <string name="c6d">sound/talkroom_othersbegin.mp3</string>
+    <string name="c6e">sound/talkroom_up.mp3</string>
+    <string name="c6f">sound/shake_sound_male.mp3</string>
+    <string name="c6g">sound/shake_nomatch.mp3</string>
+    <string name="c6h">sound/shake_match.mp3</string>
+    <string name="c6i">sound/shakelucky_firework_sound.mp3</string>
+    <string name="c6j">http://weixin.qq.com/cgi-bin/readtemplate?t=weixin_business_pay&amp;lang=%s</string>
+    <string name="c6k">http://weixin.qq.com/cgi-bin/readtemplate?t=weixin_business_agreement&amp;lang=%s</string>
+    <string name="c6l" formatted="false">http://weixin.qq.com/cgi-bin/readtemplate?t=weixin_business_bank&amp;lang=%s&amp;banktype=%s</string>
+    <string name="c6m" formatted="false">http://weixin.qq.com/cgi-bin/readtemplate?t=weixin_person_pay&amp;lang=%s&amp;banktype=%s</string>
+    <string name="c6n" formatted="false">http://weixin.qq.com/cgi-bin/readtemplate?t=weixin_bank_wxcredit&amp;lang=%s&amp;banktype=%s</string>
+    <string name="c6o">http://weixin.qq.com/cgi-bin/readtemplate?&amp;lang=en&amp;check=false&amp;t=weixin_agreement&amp;s=pay#point</string>
+    <string name="c6p">http://weixin.qq.com/cgi-bin/readtemplate?t=weixin_emoji_agreement&amp;lang=</string>
+    <string name="c6q">http://weixin.qq.com/cgi-bin/readtemplate?lang=%s&amp;t=weixin_groupOwnerResponsibility</string>
+    <string name="c6r">http://weixin.qq.com/cgi-bin/readtemplate?lang=%s&amp;t=weixin_howToAdjustGroupNum</string>
+    <string name="c6s">http://weixin110.qq.com/?lang=</string>
+    <string name="c6t" formatted="false">https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx10583a7e974992ec&amp;redirect_uri=http%3A%2F%2Fkf.qq.com%2Ftouch%2Fscene_product.html%3Fscene_id%3Dkf338&amp;response_type=code&amp;scope=snsapi_base&amp;state=123#wechat_redirect</string>
+    <string name="c6u" formatted="false">https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx10583a7e974992ec&amp;redirect_uri=http%3A%2F%2Fkf.qq.com%2Ftouch%2Fscene_product.html%3Fscene_id%3Dkf348&amp;response_type=code&amp;scope=snsapi_base&amp;state=123#wechat_redirect</string>
+    <string name="c6v" formatted="false">https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx10583a7e974992ec&amp;redirect_uri=http%3A%2F%2Fkf.qq.com%2Ftouch%2Fscene_product.html%3Fscene_id%3Dkf350&amp;response_type=code&amp;scope=snsapi_base&amp;state=123#wechat_redirect</string>
+    <string name="c6w">file:///android_asset/doc/default/wx_wifi_faq.html</string>
+    <string name="c6x">file:///android_asset/doc/default/wx_wifi_service_terms_chs.html</string>
+    <string name="c6y">file:///android_asset/doc/default/mig_wifi_service_terms_chs.html</string>
+    <string name="c6z">file:///android_asset/doc/default/wx_feedback_index.html</string>
+    <string name="c70">https://support.weixin.qq.com/security/readtemplate?t=page/login_optimized__w_index&amp;lang=</string>
+    <string name="c71">https://support.weixin.qq.com/getpassword?lang=</string>
+    <string name="c72">http://weixin.qq.com/cgi-bin/readtemplate?t=emotion/wap/complain/msg_tmpl&amp;lang=</string>
+    <string name="d_0">Fehler bei Zugriff auf Google Play-Dienste</string>
+    <string name="d_1">App erfordert die Installation der Google Play-Dienste</string>
+    <string name="d_2">App erfordert ein Update der Google Play-Dienste</string>
+    <string name="d_3">App erfordert die Aktivierung der Google Play-Dienste</string>
+    <string name="d_4">Angefordert von %1$s</string>
+    <string name="d_5">Google Play-Dienste installieren</string>
+    <string name="d_6">Zur Nutzung dieser App sind Google Play-Dienste erforderlich, die auf Ihrem Telefon nicht installiert sind.</string>
+    <string name="d_7">Zur Nutzung dieser App sind Google Play-Dienste erforderlich, die auf Ihrem Tablet nicht installiert sind.</string>
+    <string name="d_8">Google Play-Dienste installieren</string>
+    <string name="d_9">Google Play-Dienste aktivieren</string>
+    <string name="d__">Diese App funktioniert nur, wenn Sie die Google Play-Dienste aktivieren.</string>
+    <string name="d_a">Google Play-Dienste aktivieren</string>
+    <string name="d_b">Google Play-Dienste aktualisieren</string>
+    <string name="d_c">Diese App wird nur ausgeführt, wenn Sie die Google Play-Dienste aktualisieren.</string>
+    <string name="d_d">Netzwerkfehler</string>
+    <string name="d_e">Um eine Verbindung zu den Google Play-Diensten herzustellen, ist eine Datenverbindung erforderlich.</string>
+    <string name="d_f">Ungültiges Konto</string>
+    <string name="d_g">Das angegebene Konto ist auf diesem Gerät nicht vorhanden. Bitte wählen Sie ein anderes Konto aus.</string>
+    <string name="d_h">Unbekanntes Problem mit Google Play-Diensten</string>
+    <string name="d_i">Google Play-Dienste</string>
+    <string name="d_j">Google Play-Dienste, auf denen einige Ihrer Apps basieren, werden von diesem Gerät nicht unterstützt. Wenden Sie sich für weitere Informationen an den Hersteller.</string>
+    <string name="d_k">Das Datum auf dem Gerät scheint falsch zu sein. Bitte überprüfen Sie das Datum auf dem Gerät.</string>
+    <string name="d_l">Aktualisieren</string>
+    <string name="d_m">Anmelden</string>
+    <string name="d_n">Über Google anmelden</string>
+</resources>

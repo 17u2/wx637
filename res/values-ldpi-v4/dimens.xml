@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mf">45.0dip</dimen>
+    <dimen name="mg">45.0dip</dimen>
+    <dimen name="mh">24.0dip</dimen>
+    <dimen name="mi">6.0dip</dimen>
+    <dimen name="mj">5.0dip</dimen>
+    <dimen name="mk">180.0dip</dimen>
+    <dimen name="mz">32.0dip</dimen>
+    <dimen name="n0">6.0dip</dimen>
+    <dimen name="n1">40.0dip</dimen>
+    <dimen name="n2">30.0dip</dimen>
+    <dimen name="n3">36.0dip</dimen>
+</resources>

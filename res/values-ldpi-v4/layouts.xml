@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="bw">r/k/bw.xml</item>
+    <item type="layout" name="eg">r/k/eg.xml</item>
+    <item type="layout" name="sv">r/k/sv.xml</item>
+    <item type="layout" name="yj">r/k/yj.xml</item>
+    <item type="layout" name="acj">r/k/acj.xml</item>
+    <item type="layout" name="ack">r/k/ack.xml</item>
+</resources>

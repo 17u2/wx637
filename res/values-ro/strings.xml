@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="d_0">Eroare a serviciilor Google Play</string>
+    <string name="d_1">O aplicație necesită instalarea serviciilor Google Play.</string>
+    <string name="d_2">O aplicație necesită o actualizare pentru serviciile Google Play.</string>
+    <string name="d_3">O aplicație necesită activarea serviciilor Google Play.</string>
+    <string name="d_4">Solicitată de %1$s</string>
+    <string name="d_5">Descărcaţi Servicii Google Play</string>
+    <string name="d_6">Această aplicaţie nu poate rula fără Servicii Google Play, care lipsesc de pe telefon.</string>
+    <string name="d_7">Această aplicaţie nu poate rula fără Servicii Google Play, care lipsesc de pe tabletă.</string>
+    <string name="d_8">Obţineţi Servicii Google Play</string>
+    <string name="d_9">Activaţi Servicii Google Play</string>
+    <string name="d__">Această aplicaţie nu va funcţiona decât dacă activaţi Servicii Google Play.</string>
+    <string name="d_a">Activaţi Servicii Google Play</string>
+    <string name="d_b">Actualizaţi Servicii Google Play</string>
+    <string name="d_c">Această aplicaţie nu poate rula decât dacă actualizaţi Servicii Google Play.</string>
+    <string name="d_d">Eroare de reţea</string>
+    <string name="d_e">Este necesară o conexiune de date pentru a vă conecta la serviciile Google Play.</string>
+    <string name="d_f">Cont nevalid</string>
+    <string name="d_g">Contul menționat nu există pe acest dispozitiv. Alegeți alt cont.</string>
+    <string name="d_h">Problemă necunoscută privind Servicii Google Play.</string>
+    <string name="d_i">Servicii Google Play</string>
+    <string name="d_j">Gadgetul nu acceptă serviciile Google Play, pe care se bazează unele dintre aplicații. Pentru asistență, contactați producătorul gadgetului.</string>
+    <string name="d_k">Data de pe dispozitiv pare să fie incorectă. Verificați data de pe dispozitiv.</string>
+    <string name="d_l">Actualizaţi</string>
+    <string name="d_m">Conectați</string>
+    <string name="d_n">Conectați-vă cu Google</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="fm">r/a1/fm.xml</item>
+    <item type="layout" name="ge">r/a1/ge.xml</item>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="d_0">Помилка сервісів Google Play</string>
+    <string name="d_1">Щоб додаток працював, потрібно встановити сервіси Google Play.</string>
+    <string name="d_2">Щоб додаток працював, потрібно оновити сервіси Google Play.</string>
+    <string name="d_3">Щоб додаток працював, потрібно ввімкнути сервіси Google Play.</string>
+    <string name="d_4">Запит від додатка %1$s</string>
+    <string name="d_5">Установити Google Play Послуги</string>
+    <string name="d_6">Ця програма не запуститься без Google Play Послуг, яких немає у вашому телефоні.</string>
+    <string name="d_7">Ця програма не запуститься без Google Play Послуг, яких немає на вашому планшетному ПК.</string>
+    <string name="d_8">Установити Google Play Послуги</string>
+    <string name="d_9">Увімкнути Google Play Послуги</string>
+    <string name="d__">Ця програма не працюватиме, поки ви не ввімкнете Google Play Послуги.</string>
+    <string name="d_a">Увімкнути Google Play Послуги</string>
+    <string name="d_b">Оновити Google Play Послуги</string>
+    <string name="d_c">Ця програма не запуститься, поки ви не оновите Google Play Послуги.</string>
+    <string name="d_d">Помилка мережі</string>
+    <string name="d_e">Для під’єднання до сервісів Google Play потрібне з’єднання з мережею.</string>
+    <string name="d_f">Недійсний обліковий запис</string>
+    <string name="d_g">Указаний обліковий запис не існує на цьому пристрої. Виберіть інший обліковий запис.</string>
+    <string name="d_h">Google Play Послуги – невідома проблема.</string>
+    <string name="d_i">Сервіси Google Play</string>
+    <string name="d_j">Ваш пристрій не підтримує Сервіси Google Play, від яких залежить робота деяких програм. Зверніться по допомогу до виробника.</string>
+    <string name="d_k">Схоже, на пристрої вказано неправильну дату. Перевірте її.</string>
+    <string name="d_l">Оновити</string>
+    <string name="d_m">Увійти</string>
+    <string name="d_n">Увійти в обл.запис Google</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="d_0">Fout met Google Play-services</string>
+    <string name="d_1">Google Play-services moet zijn geïnstalleerd voor een app.</string>
+    <string name="d_2">Google Play-services moet worden bijgewerkt voor een app.</string>
+    <string name="d_3">Google Play-services moet zijn ingeschakeld voor een app.</string>
+    <string name="d_4">Aangevraagd door %1$s</string>
+    <string name="d_5">Google Play-services ophalen</string>
+    <string name="d_6">Deze app kan niet worden uitgevoerd zonder Google Play-services die ontbreken op uw telefoon.</string>
+    <string name="d_7">Deze app kan niet worden uitgevoerd zonder Google Play-services die ontbreken op uw tablet.</string>
+    <string name="d_8">Google Play-services ophalen</string>
+    <string name="d_9">Google Play-services inschakelen</string>
+    <string name="d__">Deze app werkt niet, tenzij u Google Play-services inschakelt.</string>
+    <string name="d_a">Google Play-services inschak.</string>
+    <string name="d_b">Google Play-services bijwerken</string>
+    <string name="d_c">Deze app kan niet worden uitgevoerd, tenzij u Google Play-services bijwerkt.</string>
+    <string name="d_d">Netwerkfout</string>
+    <string name="d_e">Er is een gegevensverbinding nodig om verbinding te kunnen maken met Google Play-services.</string>
+    <string name="d_f">Ongeldig account</string>
+    <string name="d_g">Het gespecificeerde account bestaat niet op dit apparaat. Kies een ander account.</string>
+    <string name="d_h">Onbekend probleem met Google Play-services.</string>
+    <string name="d_i">Google Play-services</string>
+    <string name="d_j">Google Play-services, dat vereist is voor een aantal van uw applicaties, wordt niet ondersteund door uw apparaat. Neem contact op met de fabrikant voor ondersteuning.</string>
+    <string name="d_k">De datum op het apparaat lijkt onjuist. Controleer de datum op het apparaat.</string>
+    <string name="d_l">Bijwerken</string>
+    <string name="d_m">Inloggen</string>
+    <string name="d_n">Inloggen met Google</string>
+</resources>

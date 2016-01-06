@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="f6">60.0dip</dimen>
+    <dimen name="f7">50.0dip</dimen>
+    <dimen name="fi">60.0dip</dimen>
+    <dimen name="fj">42.0dip</dimen>
+    <dimen name="fk">12.0dip</dimen>
+    <dimen name="fl">4.0dip</dimen>
+    <dimen name="h4">30.0dip</dimen>
+    <dimen name="h5">32.0dip</dimen>
+    <dimen name="h6">30.0dip</dimen>
+    <dimen name="h7">20.0dip</dimen>
+    <dimen name="h8">10.0dip</dimen>
+    <dimen name="h9">12.0dip</dimen>
+    <dimen name="ha">240.0dip</dimen>
+    <dimen name="hj">70.0dip</dimen>
+</resources>

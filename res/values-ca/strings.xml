@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="d_0">Error dels serveis de Google Play</string>
+    <string name="d_1">"Una aplicació requereix que s'instal·lin els serveis de Google Play."</string>
+    <string name="d_2">"Una aplicació requereix que s'actualitzin els serveis de Google Play."</string>
+    <string name="d_3">"Una aplicació requereix que s'activin els serveis de Google Play."</string>
+    <string name="d_4">Sol·licitada per %1$s</string>
+    <string name="d_5">Baixa els serveis de Google Play</string>
+    <string name="d_6">"Aquesta aplicació no s'executarà si el telèfon no té instal·lats els serveis de  Google Play."</string>
+    <string name="d_7">Aquesta aplicació no funcionarà si la tauleta no té instal·lats els serveis de Google Play.</string>
+    <string name="d_8">Baixa els serveis de Google Play</string>
+    <string name="d_9">Activa els serveis de Google Play</string>
+    <string name="d__">Aquesta aplicació no funcionarà si no actives els serveis de Google Play.</string>
+    <string name="d_a">Activa els serveis de Google Play</string>
+    <string name="d_b">Actualitza els serveis de Google Play</string>
+    <string name="d_c">"Aquesta aplicació no s'executarà si no actualitzes els serveis de Google Play."</string>
+    <string name="d_d">Error de xarxa</string>
+    <string name="d_e">Es requereix una connexió de dades per connectar amb els serveis de Google Play.</string>
+    <string name="d_f">Compte no vàlid</string>
+    <string name="d_g">El compte especificat no existeix en aquest dispositiu. Tria un compte diferent.</string>
+    <string name="d_h">Error desconegut relacionat amb els serveis de Google Play.</string>
+    <string name="d_i">Serveis de Google Play</string>
+    <string name="d_j">El teu dispositiu no és compatible amb els serveis de Google Play, en què es basen les teves aplicacions. Per obtenir assistència, contacta amb el fabricant.</string>
+    <string name="d_k">Sembla que la data del dispositiu no és correcta. Comprova-la.</string>
+    <string name="d_l">Actualitza</string>
+    <string name="d_m">Inicia sessió</string>
+    <string name="d_n">Inicia sessió amb Google</string>
+</resources>

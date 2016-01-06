@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="sv">r/w/sv.xml</item>
+    <item type="layout" name="yj">r/w/yj.xml</item>
+    <item type="layout" name="a92">r/w/a92.xml</item>
+    <item type="layout" name="acj">r/w/acj.xml</item>
+    <item type="layout" name="ack">r/w/ack.xml</item>
+</resources>

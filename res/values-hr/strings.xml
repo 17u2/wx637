@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="d_0">Pogreška Usluga za Google Play</string>
+    <string name="d_1">Aplikacija zahtijeva instaliranje Usluga za Google Play.</string>
+    <string name="d_2">Aplikacija zahtijeva ažuriranje Usluga za Google Play.</string>
+    <string name="d_3">Aplikacija zahtijeva da Usluge za Google Play budu omogućene.</string>
+    <string name="d_4">Zahtijeva aplikacija %1$s</string>
+    <string name="d_5">Preuzmi usluge za Google Play</string>
+    <string name="d_6">Ova aplikacija neće funkcionirati bez usluga za Google Play, koje nisu instalirane na vašem telefonu.</string>
+    <string name="d_7">Ova aplikacija neće funkcionirati bez usluga za Google Play, koje nisu instalirane na vašem tabletnom računalu.</string>
+    <string name="d_8">Preuzmi usluge za Google Play</string>
+    <string name="d_9">Omogući usluge za Google Play</string>
+    <string name="d__">Ova aplikacija neće raditi ako ne omogućite usluge za Google Play.</string>
+    <string name="d_a">Omogući usluge za Google Play</string>
+    <string name="d_b">Ažuriraj usluge za Google Play</string>
+    <string name="d_c">Ova se aplikacija neće pokrenuti ako ne ažurirate usluge za Google Play.</string>
+    <string name="d_d">Mrežna pogreška</string>
+    <string name="d_e">Potrebna je podatkovna veza za povezivanje s uslugama Google Play.</string>
+    <string name="d_f">Nevažeći račun</string>
+    <string name="d_g">Navedeni račun ne postoji na ovom uređaju. Odaberite neki drugi račun.</string>
+    <string name="d_h">Nepoznata poteškoća s uslugama za Google Play.</string>
+    <string name="d_i">Usluge za Google Play</string>
+    <string name="d_j">Usluge za Google Play, koje su potrebne za funkcioniranje nekih vaših aplikacija, nisu podržane na vašem uređaju. Pomoć potražite od proizvođača.</string>
+    <string name="d_k">Čini se da datum na uređaju nije točan. Provjerite datum na uređaju.</string>
+    <string name="d_l">Ažuriranje</string>
+    <string name="d_m">Prijava</string>
+    <string name="d_n">Prijava uslugom Google</string>
+</resources>

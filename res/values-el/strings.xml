@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="d_0">Σφάλμα Υπηρεσιών Google Play</string>
+    <string name="d_1">Μια εφαρμογή απαιτεί την εγκατάσταση των Υπηρεσιών Google Play.</string>
+    <string name="d_2">Μια εφαρμογή απαιτεί την ενημέρωση των Υπηρεσιών Google Play.</string>
+    <string name="d_3">Μια εφαρμογή απαιτεί την ενεργοποίηση των Υπηρεσιών Google Play.</string>
+    <string name="d_4">Υποβλήθηκε αίτημα από την εφαρμογή %1$s</string>
+    <string name="d_5">Λήψη υπηρεσιών Google Play</string>
+    <string name="d_6">Αυτή η εφαρμογή δεν θα εκτελεστεί χωρίς τις υπηρεσίες Google Play, οι οποίες λείπουν από το τηλέφωνό σας.</string>
+    <string name="d_7">Αυτή η εφαρμογή δεν θα εκτελεστεί χωρίς τις υπηρεσίες Google Play, οι οποίες λείπουν από το tablet σας.</string>
+    <string name="d_8">Λήψη υπηρεσιών Google Play</string>
+    <string name="d_9">Ενεργοποίηση υπηρεσιών Google Play</string>
+    <string name="d__">Αυτή η εφαρμογή δεν θα λειτουργήσει εάν δεν έχετε ενεργοποιήσει τις υπηρεσίες Google Play.</string>
+    <string name="d_a">Ενεργοπ. υπηρεσιών Google Play</string>
+    <string name="d_b">Ενημέρωση υπηρεσιών Google Play</string>
+    <string name="d_c">Αυτή η εφαρμογή θα εκτελεστεί αφού ενημερώσετε τις υπηρεσίες Google Play.</string>
+    <string name="d_d">Σφάλμα δικτύου</string>
+    <string name="d_e">Απαιτείται σύνδεση δεδομένων για να συνδεθείτε με τις Υπηρεσίες Google Play.</string>
+    <string name="d_f">Μη έγκυρος λογαριασμός</string>
+    <string name="d_g">Ο συγκεκριμένος λογαριασμός δεν υπάρχει σε αυτήν τη συσκευή. Επιλέξτε έναν διαφορετικό λογαριασμό.</string>
+    <string name="d_h">Άγνωστο πρόβλημα με τις υπηρεσίες Google Play.</string>
+    <string name="d_i">Υπηρεσίες Google Play</string>
+    <string name="d_j">Οι υπηρεσίες Google Play, στις οποίες βασίζονται ορισμένες από τις εφαρμογές σας, δεν υποστηρίζονται στη συσκευή σας. Επικοινωνήστε με τον κατασκευαστή για υποστήριξη.</string>
+    <string name="d_k">Η ημερομηνία στη συσκευή φαίνεται λανθασμένη. Ελέγξτε την ημερομηνία στη συσκευή.</string>
+    <string name="d_l">Ενημέρωση</string>
+    <string name="d_m">Σύνδεση</string>
+    <string name="d_n">Συνδεθείτε στο Google</string>
+</resources>
