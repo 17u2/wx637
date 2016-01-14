@@ -470,11 +470,11 @@
     if-lez v1, :cond_b
 
     .line 202
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/model/c;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v0, v0, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
 
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
@@ -512,11 +512,11 @@
 
     .line 206
     :cond_a
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/model/c;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v0, v0, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
 
     invoke-virtual {v0, v6, v7}, Lcom/tencent/mm/aw/g;->dv(J)I
 

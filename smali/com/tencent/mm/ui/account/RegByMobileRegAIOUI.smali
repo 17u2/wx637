@@ -578,7 +578,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v2
 
@@ -612,7 +612,7 @@
 
     const-string/jumbo v2, "RE200_100"
 
-    invoke-static {v2}, Lcom/tencent/mm/model/ah;->eV(Ljava/lang/String;)I
+    invoke-static {v2}, Lcom/tencent/mm/model/AHclz;->eV(Ljava/lang/String;)I
 
     move-result v2
 
@@ -1023,7 +1023,7 @@
 
     invoke-virtual {v0, v6}, Lcom/tencent/mm/modelfriend/u;->di(I)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -1711,13 +1711,13 @@
     invoke-virtual {v2, v0}, Lcom/tencent/mm/ui/base/MMFormInputView;->setFocusListener(Landroid/view/View$OnFocusChangeListener;)V
 
     .line 293
-    invoke-static {}, Lcom/tencent/mm/model/au;->uq()Lcom/tencent/mm/model/au;
+    invoke-static {}, Lcom/tencent/mm/model/AUclz;->uq()Lcom/tencent/mm/model/AUclz;
 
     .line 294
     iput-boolean v7, p0, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;->jDK:Z
 
     .line 296
-    invoke-static {}, Lcom/tencent/mm/model/au;->uq()Lcom/tencent/mm/model/au;
+    invoke-static {}, Lcom/tencent/mm/model/AUclz;->uq()Lcom/tencent/mm/model/AUclz;
 
     .line 297
     iput-boolean v7, p0, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;->jDJ:Z
@@ -2082,7 +2082,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 619
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v0
 
@@ -2329,7 +2329,7 @@
 
     .line 568
     :cond_e
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v0
 
@@ -2560,7 +2560,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v1
 
@@ -2594,7 +2594,7 @@
 
     const-string/jumbo v1, "RE200_200"
 
-    invoke-static {v1}, Lcom/tencent/mm/model/ah;->eV(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/tencent/mm/model/AHclz;->eV(Ljava/lang/String;)I
 
     move-result v1
 
@@ -2689,7 +2689,7 @@
     invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/modelfriend/u;-><init>(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)V
 
     .line 838
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -3293,7 +3293,7 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;->fyv:Ljava/lang/String;
 
     .line 119
-    invoke-static {}, Lcom/tencent/mm/model/au;->uq()Lcom/tencent/mm/model/au;
+    invoke-static {}, Lcom/tencent/mm/model/AUclz;->uq()Lcom/tencent/mm/model/AUclz;
 
     const/16 v0, 0x14
 
@@ -3385,7 +3385,7 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onPause()V
 
     .line 149
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -3394,7 +3394,7 @@
     invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 150
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -3403,7 +3403,7 @@
     invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 151
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -3428,7 +3428,7 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onResume()V
 
     .line 133
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -3437,7 +3437,7 @@
     invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 134
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -3446,7 +3446,7 @@
     invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 135
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -3461,7 +3461,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v2
 
@@ -3495,7 +3495,7 @@
 
     const-string/jumbo v2, "RE200_100"
 
-    invoke-static {v2}, Lcom/tencent/mm/model/ah;->eV(Ljava/lang/String;)I
+    invoke-static {v2}, Lcom/tencent/mm/model/AHclz;->eV(Ljava/lang/String;)I
 
     move-result v2
 

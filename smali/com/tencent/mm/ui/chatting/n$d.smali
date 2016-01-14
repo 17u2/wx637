@@ -126,7 +126,7 @@
     if-eqz v2, :cond_4
 
     .line 156
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v2
 

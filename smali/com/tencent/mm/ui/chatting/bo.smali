@@ -126,7 +126,7 @@
     return-object p2
 .end method
 
-.method public final a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;Ljava/lang/String;)V
+.method public final a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;)V
     .locals 2
 
     .prologue
@@ -142,7 +142,7 @@
 
     .line 63
     :goto_0
-    invoke-interface {v0, p1, p2, p3, p4}, Lcom/tencent/mm/ui/chatting/bo$a;->a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)V
+    invoke-interface {v0, p1, p2, p3, p4}, Lcom/tencent/mm/ui/chatting/bo$a;->a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)V
 
     .line 64
     return-void
@@ -154,7 +154,7 @@
     goto :goto_0
 .end method
 
-.method public final a(Landroid/view/ContextMenu;Landroid/view/View;Lcom/tencent/mm/storage/ad;)Z
+.method public final a(Landroid/view/ContextMenu;Landroid/view/View;Lcom/tencent/mm/storage/ADclz;)Z
     .locals 1
 
     .prologue
@@ -164,7 +164,7 @@
     return v0
 .end method
 
-.method public final a(Landroid/view/MenuItem;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)Z
+.method public final a(Landroid/view/MenuItem;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)Z
     .locals 1
 
     .prologue
@@ -174,7 +174,7 @@
     return v0
 .end method
 
-.method public final a(Landroid/view/View;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)Z
+.method public final a(Landroid/view/View;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)Z
     .locals 1
 
     .prologue

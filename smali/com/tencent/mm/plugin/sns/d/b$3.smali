@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/plugin/sns/d/b;->a(Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/i$a;)Z
+    value = Lcom/tencent/mm/plugin/sns/d/b;->a(Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/Iclz$a;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,11 +26,11 @@
 
 .field final synthetic ggR:Lcom/tencent/mm/plugin/sns/data/d;
 
-.field final synthetic ggS:Lcom/tencent/mm/storage/i$a;
+.field final synthetic ggS:Lcom/tencent/mm/storage/Iclz$a;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/sns/d/b;Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/i$a;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/sns/d/b;Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/Iclz$a;)V
     .locals 1
 
     .prologue
@@ -43,7 +43,7 @@
 
     iput-object p4, p0, Lcom/tencent/mm/plugin/sns/d/b$3;->ggR:Lcom/tencent/mm/plugin/sns/data/d;
 
-    iput-object p5, p0, Lcom/tencent/mm/plugin/sns/d/b$3;->ggS:Lcom/tencent/mm/storage/i$a;
+    iput-object p5, p0, Lcom/tencent/mm/plugin/sns/d/b$3;->ggS:Lcom/tencent/mm/storage/Iclz$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -85,7 +85,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/d/b$3;->ggR:Lcom/tencent/mm/plugin/sns/data/d;
 
-    iget-object v6, p0, Lcom/tencent/mm/plugin/sns/d/b$3;->ggS:Lcom/tencent/mm/storage/i$a;
+    iget-object v6, p0, Lcom/tencent/mm/plugin/sns/d/b$3;->ggS:Lcom/tencent/mm/storage/Iclz$a;
 
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->amH()Ljava/lang/String;
 
@@ -200,7 +200,7 @@
 
     new-instance v8, Lcom/tencent/mm/plugin/sns/data/e;
 
-    invoke-direct {v8, v4, v5, v7, v6}, Lcom/tencent/mm/plugin/sns/data/e;-><init>(Lcom/tencent/mm/protocal/b/abp;ILjava/lang/String;Lcom/tencent/mm/storage/i$a;)V
+    invoke-direct {v8, v4, v5, v7, v6}, Lcom/tencent/mm/plugin/sns/data/e;-><init>(Lcom/tencent/mm/protocal/b/abp;ILjava/lang/String;Lcom/tencent/mm/storage/Iclz$a;)V
 
     invoke-virtual {v0, v8}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 

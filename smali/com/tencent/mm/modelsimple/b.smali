@@ -142,7 +142,7 @@
     monitor-enter p0
 
     :try_start_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -390,15 +390,15 @@
     move-result-object v4
 
     .line 123
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v4}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v1, v4}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v5
 

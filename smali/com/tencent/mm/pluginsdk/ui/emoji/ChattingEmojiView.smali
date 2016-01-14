@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private dbw:Lcom/tencent/mm/storage/a/c;
+.field private dbw:Lcom/tencent/mm/storage/a/Cclz;
 
 .field private hXn:I
 
@@ -104,21 +104,21 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/storage/a/c;Ljava/lang/String;)V
+.method public final a(Lcom/tencent/mm/storage/a/Cclz;Ljava/lang/String;)V
     .locals 2
 
     .prologue
     .line 84
-    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/emoji/ChattingEmojiView;->dbw:Lcom/tencent/mm/storage/a/c;
+    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/emoji/ChattingEmojiView;->dbw:Lcom/tencent/mm/storage/a/Cclz;
 
     .line 85
-    iget-object v0, p1, Lcom/tencent/mm/storage/a/c;->field_groupId:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/storage/a/Cclz;->field_groupId:Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/a/c;->xQ()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/a/Cclz;->xQ()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/tencent/mm/storage/a/c;->cg(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, v0, v1}, Lcom/tencent/mm/storage/a/Cclz;->cg(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

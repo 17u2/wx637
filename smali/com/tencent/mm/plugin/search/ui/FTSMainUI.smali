@@ -981,7 +981,7 @@
 
     invoke-direct {v0, p0, v2}, Lcom/tencent/mm/plugin/search/ui/FTSMainUI$2;-><init>(Lcom/tencent/mm/plugin/search/ui/FTSMainUI;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v3
 
@@ -993,7 +993,7 @@
 
     invoke-direct {v3, v2, v1}, Lcom/tencent/mm/modelsimple/z;-><init>(Ljava/lang/String;I)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -1154,7 +1154,7 @@
 
     invoke-direct {v0, v4, v5}, Lcom/tencent/mm/af/j;-><init>(II)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -1251,7 +1251,7 @@
 
     invoke-direct {v0, v5}, Lcom/tencent/mm/af/k;-><init>(I)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 

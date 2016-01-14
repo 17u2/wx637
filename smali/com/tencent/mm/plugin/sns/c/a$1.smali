@@ -123,9 +123,9 @@
 
     iget-object v2, v2, Lcom/tencent/mm/d/a/jn$a;->aEF:Lcom/tencent/mm/protocal/b/abp;
 
-    sget-object v3, Lcom/tencent/mm/storage/i$a;->jle:Lcom/tencent/mm/storage/i$a;
+    sget-object v3, Lcom/tencent/mm/storage/Iclz$a;->jle:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-virtual {v1, v2, v4, v0, v3}, Lcom/tencent/mm/plugin/sns/d/b;->a(Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/i$a;)Z
+    invoke-virtual {v1, v2, v4, v0, v3}, Lcom/tencent/mm/plugin/sns/d/b;->a(Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/Iclz$a;)Z
 
     .line 62
     :cond_0
@@ -155,9 +155,9 @@
 
     const/4 v3, 0x5
 
-    sget-object v4, Lcom/tencent/mm/storage/i$a;->jle:Lcom/tencent/mm/storage/i$a;
+    sget-object v4, Lcom/tencent/mm/storage/Iclz$a;->jle:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-virtual {v1, v2, v3, v0, v4}, Lcom/tencent/mm/plugin/sns/d/b;->a(Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/i$a;)Z
+    invoke-virtual {v1, v2, v3, v0, v4}, Lcom/tencent/mm/plugin/sns/d/b;->a(Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/Iclz$a;)Z
 
     goto :goto_0
 

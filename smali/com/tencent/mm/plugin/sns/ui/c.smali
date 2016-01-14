@@ -166,9 +166,9 @@
 
     move-result v2
 
-    sget-object v3, Lcom/tencent/mm/storage/i$a;->jlc:Lcom/tencent/mm/storage/i$a;
+    sget-object v3, Lcom/tencent/mm/storage/Iclz$a;->jlc:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-virtual {v1, v0, p2, v2, v3}, Lcom/tencent/mm/plugin/sns/d/g;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/i$a;)V
+    invoke-virtual {v1, v0, p2, v2, v3}, Lcom/tencent/mm/plugin/sns/d/g;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 222
     return-void

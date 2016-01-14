@@ -137,7 +137,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/c;
+    check-cast v0, Lcom/tencent/mm/storage/Cclz;
 
     .line 531
     if-nez v0, :cond_3
@@ -181,16 +181,16 @@
 
     .line 536
     :cond_3
-    iget-object v0, v0, Lcom/tencent/mm/storage/c;->field_username:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/storage/Cclz;->field_username:Ljava/lang/String;
 
     .line 537
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->eq(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->eq(Ljava/lang/String;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->er(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->er(Ljava/lang/String;)Z
 
     move-result v1
 

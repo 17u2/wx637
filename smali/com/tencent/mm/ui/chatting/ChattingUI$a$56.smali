@@ -58,13 +58,13 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$56;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     if-eqz v2, :cond_0
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$56;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -96,7 +96,7 @@
 
     iget-object v6, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$56;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v6, v6, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v6, v6, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     if-nez v6, :cond_1
 
@@ -121,15 +121,15 @@
 
     .line 1927
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v2}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, p2}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v2, p2}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v2
 
@@ -165,7 +165,7 @@
     .line 1934
     new-instance v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a$56$1;
 
-    invoke-direct {v1, p0, p2, v2, v0}, Lcom/tencent/mm/ui/chatting/ChattingUI$a$56$1;-><init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a$56;Ljava/lang/String;Lcom/tencent/mm/storage/k;Lcom/tencent/mm/s/Kclz;)V
+    invoke-direct {v1, p0, p2, v2, v0}, Lcom/tencent/mm/ui/chatting/ChattingUI$a$56$1;-><init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a$56;Ljava/lang/String;Lcom/tencent/mm/storage/Kclz;Lcom/tencent/mm/s/Kclz;)V
 
     invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
 

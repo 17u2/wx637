@@ -78,7 +78,7 @@
     iput-boolean v0, p0, Lcom/tencent/mm/af/c;->bPw:Z
 
     .line 48
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -141,11 +141,11 @@
     if-nez p2, :cond_2
 
     .line 57
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v0
 
@@ -157,7 +157,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v5, v1}, Lcom/tencent/mm/storage/h;->set(ILjava/lang/Object;)V
+    invoke-virtual {v0, v5, v1}, Lcom/tencent/mm/storage/Hclz;->set(ILjava/lang/Object;)V
 
     .line 64
     :cond_0
@@ -179,11 +179,11 @@
     if-gez v0, :cond_0
 
     .line 60
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v0
 
@@ -207,7 +207,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v5, v1}, Lcom/tencent/mm/storage/h;->set(ILjava/lang/Object;)V
+    invoke-virtual {v0, v5, v1}, Lcom/tencent/mm/storage/Hclz;->set(ILjava/lang/Object;)V
 
     .line 61
     const/4 v0, 0x3
@@ -251,11 +251,11 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/model/c;->isSDCardAvailable()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/model/Cclz;->isSDCardAvailable()Z
 
     move-result v2
 
@@ -274,11 +274,11 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->isSDCardAvailable()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->isSDCardAvailable()Z
 
     move-result v0
 
@@ -293,7 +293,7 @@
     iput-boolean v0, p0, Lcom/tencent/mm/af/c;->bPw:Z
 
     .line 39
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -309,7 +309,7 @@
     invoke-direct {v0, v1}, Lcom/tencent/mm/af/k;-><init>(I)V
 
     .line 42
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 

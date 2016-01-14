@@ -397,7 +397,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/model/f;->dD(Ljava/lang/String;)Ljava/util/List;
+    invoke-static {v0}, Lcom/tencent/mm/model/Fclz;->dD(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
@@ -427,7 +427,7 @@
     .line 10027
     const-string/jumbo v2, "Block_list"
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v3
 
@@ -443,7 +443,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$a;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -651,7 +651,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$a;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 

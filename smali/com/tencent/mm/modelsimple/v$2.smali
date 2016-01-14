@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/aq$a;
+.implements Lcom/tencent/mm/model/AQclz$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/modelsimple/v;->a(IIILjava/lang/String;Lcom/tencent/mm/network/o;[B)V
+    value = Lcom/tencent/mm/modelsimple/v;->a(IIILjava/lang/String;Lcom/tencent/mm/network/Oclz;[B)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -47,7 +47,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;)V
+.method public final a(Lcom/tencent/mm/network/Eclz;)V
     .locals 3
 
     .prologue
@@ -60,7 +60,7 @@
 
     .line 342
     :cond_0
-    invoke-interface {p1}, Lcom/tencent/mm/network/e;->vG()Lcom/tencent/mm/network/c;
+    invoke-interface {p1}, Lcom/tencent/mm/network/Eclz;->vG()Lcom/tencent/mm/network/Cclz;
 
     move-result-object v0
 
@@ -74,7 +74,7 @@
 
     iget v2, v2, Lcom/tencent/mm/protocal/b/adk;->dnq:I
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/network/c;->i([BI)V
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/network/Cclz;->i([BI)V
 
     goto :goto_0
 .end method

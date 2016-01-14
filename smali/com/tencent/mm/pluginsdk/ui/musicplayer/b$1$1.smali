@@ -259,11 +259,11 @@
     goto :goto_3
 
     :cond_5
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/u;->mO()Lcom/tencent/mm/model/u;
+    invoke-interface {v0}, Lcom/tencent/mm/model/Uclz;->mO()Lcom/tencent/mm/model/Uclz;
 
     new-instance v0, Landroid/content/Intent;
 
@@ -338,13 +338,13 @@
 
     invoke-direct {v5}, Lcom/tencent/mm/protocal/b/MSclz;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {v4, v0}, Lcom/tencent/mm/protocal/b/NCclz;->zS(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/NCclz;
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v0
 

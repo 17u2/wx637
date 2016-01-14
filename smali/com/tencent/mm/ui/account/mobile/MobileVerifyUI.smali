@@ -1307,7 +1307,7 @@
 
     .line 613
     :sswitch_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -1441,14 +1441,14 @@
 
     .line 667
     :sswitch_8
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tx()V
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tx()V
 
     .line 668
     iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
 
     iget-object v3, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tz()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tz()Ljava/lang/String;
 
     move-result-object v0
 
@@ -1496,7 +1496,7 @@
 
     .line 668
     :cond_3
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tz()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tz()Ljava/lang/String;
 
     move-result-object v0
 
@@ -1562,7 +1562,7 @@
     invoke-super {p0, p1}, Lcom/tencent/mm/ui/MMActivity;->onCreate(Landroid/os/Bundle;)V
 
     .line 158
-    invoke-static {}, Lcom/tencent/mm/model/au;->uq()Lcom/tencent/mm/model/au;
+    invoke-static {}, Lcom/tencent/mm/model/AUclz;->uq()Lcom/tencent/mm/model/AUclz;
 
     invoke-static {v3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 

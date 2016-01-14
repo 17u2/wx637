@@ -66,16 +66,16 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/r;
+    check-cast v0, Lcom/tencent/mm/storage/Rclz;
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->a(Lcom/tencent/mm/ui/conversation/BizConversationUI;Lcom/tencent/mm/storage/r;)Lcom/tencent/mm/storage/r;
+    invoke-static {v1, v0}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->a(Lcom/tencent/mm/ui/conversation/BizConversationUI;Lcom/tencent/mm/storage/Rclz;)Lcom/tencent/mm/storage/Rclz;
 
     .line 277
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$18;->kvP:Lcom/tencent/mm/ui/conversation/BizConversationUI;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$18;->kvP:Lcom/tencent/mm/ui/conversation/BizConversationUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->c(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/storage/r;
+    invoke-static {v1}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->c(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/storage/Rclz;
 
     move-result-object v1
 
@@ -86,7 +86,7 @@
     .line 278
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$18;->kvP:Lcom/tencent/mm/ui/conversation/BizConversationUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->c(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/storage/r;
+    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->c(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/storage/Rclz;
 
     move-result-object v1
 

@@ -48,11 +48,11 @@
 
     .prologue
     .line 68
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rM()Lcom/tencent/mm/model/b/c;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rM()Lcom/tencent/mm/model/b/Cclz;
 
     move-result-object v0
 
@@ -60,14 +60,14 @@
 
     iget-object v1, v1, Lcom/tencent/mm/ui/c/g;->jJA:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/b/c;->ft(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/b/Cclz;->ft(Ljava/lang/String;)V
 
     .line 69
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rM()Lcom/tencent/mm/model/b/c;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rM()Lcom/tencent/mm/model/b/Cclz;
 
     move-result-object v0
 
@@ -75,7 +75,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/ui/c/g;->jJB:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/b/c;->ft(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/b/Cclz;->ft(Ljava/lang/String;)V
 
     .line 70
     return-void

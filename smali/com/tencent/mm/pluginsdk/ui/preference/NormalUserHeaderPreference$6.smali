@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->a(Lcom/tencent/mm/storage/ak;)V
+    value = Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->a(Lcom/tencent/mm/storage/AKclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic eZb:Lcom/tencent/mm/storage/ak;
+.field final synthetic eZb:Lcom/tencent/mm/storage/AKclz;
 
 .field final synthetic hZW:Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;Lcom/tencent/mm/storage/ak;)V
+.method constructor <init>(Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;Lcom/tencent/mm/storage/AKclz;)V
     .locals 1
 
     .prologue
     .line 892
     iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference$6;->hZW:Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;
 
-    iput-object p2, p0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference$6;->eZb:Lcom/tencent/mm/storage/ak;
+    iput-object p2, p0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference$6;->eZb:Lcom/tencent/mm/storage/AKclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -54,27 +54,27 @@
     .line 895
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference$6;->hZW:Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->b(Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;)Lcom/tencent/mm/storage/k;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->b(Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference$6;->eZb:Lcom/tencent/mm/storage/ak;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference$6;->eZb:Lcom/tencent/mm/storage/AKclz;
 
     if-eqz v0, :cond_0
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference$6;->hZW:Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->b(Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;)Lcom/tencent/mm/storage/k;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->b(Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference$6;->eZb:Lcom/tencent/mm/storage/ak;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference$6;->eZb:Lcom/tencent/mm/storage/AKclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/storage/ak;->field_encryptUsername:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/storage/AKclz;->field_encryptUsername:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -85,15 +85,15 @@
     .line 896
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference$6;->hZW:Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->b(Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;)Lcom/tencent/mm/storage/k;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->b(Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference$6;->eZb:Lcom/tencent/mm/storage/ak;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference$6;->eZb:Lcom/tencent/mm/storage/AKclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/storage/ak;->field_conRemark:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/storage/AKclz;->field_conRemark:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/k;->bC(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Kclz;->bC(Ljava/lang/String;)V
 
     .line 897
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference$6;->hZW:Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;
@@ -131,7 +131,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference$6;->hZW:Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;
 
-    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->b(Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;)Lcom/tencent/mm/storage/k;
+    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->b(Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v2
 

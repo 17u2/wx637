@@ -606,7 +606,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/k;
+    check-cast v0, Lcom/tencent/mm/storage/Kclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -648,7 +648,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/k;
+    check-cast v0, Lcom/tencent/mm/storage/Kclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_nickname:Ljava/lang/String;
 
@@ -690,7 +690,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/k;
+    check-cast v0, Lcom/tencent/mm/storage/Kclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_conRemark:Ljava/lang/String;
 

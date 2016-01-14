@@ -52,11 +52,11 @@
 
     .prologue
     .line 1371
-    sget-object v0, Lcom/tencent/mm/model/z$a;->bth:Lcom/tencent/mm/model/z$c;
+    sget-object v0, Lcom/tencent/mm/model/Zclz$a;->bth:Lcom/tencent/mm/model/Zclz$c;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$23;->bwA:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/model/z$c;->eR(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/model/Zclz$c;->eR(Ljava/lang/String;)V
 
     .line 1372
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$23;->hGQ:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;

@@ -37,7 +37,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)V
+.method public final a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)V
     .locals 13
 
     .prologue
@@ -50,7 +50,7 @@
     const/4 v0, 0x0
 
     :try_start_0
-    invoke-virtual/range {p4 .. p4}, Lcom/tencent/mm/storage/ad;->aQY()Ljava/util/LinkedList;
+    invoke-virtual/range {p4 .. p4}, Lcom/tencent/mm/storage/ADclz;->aQY()Ljava/util/LinkedList;
     :try_end_0
     .catch Lorg/xmlpull/v1/XmlPullParserException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
@@ -201,13 +201,13 @@
     goto :goto_2
 
     :cond_1
-    instance-of v1, v0, Lcom/tencent/mm/storage/ad$a;
+    instance-of v1, v0, Lcom/tencent/mm/storage/ADclz$a;
 
     if-eqz v1, :cond_4
 
     move-object v8, v0
 
-    check-cast v8, Lcom/tencent/mm/storage/ad$a;
+    check-cast v8, Lcom/tencent/mm/storage/ADclz$a;
 
     new-instance v12, Lcom/tencent/mm/ui/chatting/bj$b;
 
@@ -223,7 +223,7 @@
 
     move v7, p2
 
-    invoke-direct/range {v0 .. v8}, Lcom/tencent/mm/ui/chatting/bj$1;-><init>(Lcom/tencent/mm/ui/chatting/bj;IILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/ui/chatting/bo$b;Lcom/tencent/mm/storage/ad;ILcom/tencent/mm/storage/ad$a;)V
+    invoke-direct/range {v0 .. v8}, Lcom/tencent/mm/ui/chatting/bj$1;-><init>(Lcom/tencent/mm/ui/chatting/bj;IILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/ui/chatting/bo$b;Lcom/tencent/mm/storage/ADclz;ILcom/tencent/mm/storage/ADclz$a;)V
 
     iput-object v0, v12, Lcom/tencent/mm/ui/chatting/bj$b;->kdI:Landroid/text/style/ClickableSpan;
 
@@ -241,7 +241,7 @@
 
     move-result-object v0
 
-    iget-object v1, v8, Lcom/tencent/mm/storage/ad$a;->text:Ljava/lang/String;
+    iget-object v1, v8, Lcom/tencent/mm/storage/ADclz$a;->text:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
 

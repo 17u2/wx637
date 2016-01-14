@@ -84,7 +84,7 @@
 
     iget v0, v0, Landroid/text/format/Time;->minute:I
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/network/aa;->aa(II)Z
+    invoke-static {v1, v0}, Lcom/tencent/mm/network/AAclz;->aa(II)Z
 
     move-result v0
 

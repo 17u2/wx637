@@ -405,7 +405,7 @@
 
     .line 55
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -444,7 +444,7 @@
 
     .line 57
     :cond_3
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -463,7 +463,7 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onDestroy()V
 
     .line 77
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -472,7 +472,7 @@
     invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 78
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -505,7 +505,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v2
 
@@ -539,7 +539,7 @@
 
     const-string/jumbo v2, "R200_500"
 
-    invoke-static {v2}, Lcom/tencent/mm/model/ah;->eV(Ljava/lang/String;)I
+    invoke-static {v2}, Lcom/tencent/mm/model/AHclz;->eV(Ljava/lang/String;)I
 
     move-result v2
 
@@ -629,7 +629,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v2
 
@@ -663,7 +663,7 @@
 
     const-string/jumbo v2, "R200_500"
 
-    invoke-static {v2}, Lcom/tencent/mm/model/ah;->eV(Ljava/lang/String;)I
+    invoke-static {v2}, Lcom/tencent/mm/model/AHclz;->eV(Ljava/lang/String;)I
 
     move-result v2
 

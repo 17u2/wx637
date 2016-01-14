@@ -569,7 +569,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -631,7 +631,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v2
 

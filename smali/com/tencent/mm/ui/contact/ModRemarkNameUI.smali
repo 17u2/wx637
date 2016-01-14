@@ -18,7 +18,7 @@
 # instance fields
 .field private aBT:Ljava/lang/String;
 
-.field private czx:Lcom/tencent/mm/storage/k;
+.field private czx:Lcom/tencent/mm/storage/Kclz;
 
 .field private eYS:I
 
@@ -28,7 +28,7 @@
 
 .field private eby:Ljava/lang/String;
 
-.field private fnX:Lcom/tencent/mm/storage/ak;
+.field private fnX:Lcom/tencent/mm/storage/AKclz;
 
 .field private jtM:Landroid/widget/TextView;
 
@@ -152,7 +152,7 @@
     const/4 v6, 0x1
 
     .line 53
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -247,17 +247,17 @@
 
     if-eqz v0, :cond_3
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/k;->bC(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Kclz;->bC(Ljava/lang/String;)V
 
-    new-instance v0, Lcom/tencent/mm/storage/ak;
+    new-instance v0, Lcom/tencent/mm/storage/AKclz;
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v2, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    invoke-direct {v0, v2, v1}, Lcom/tencent/mm/storage/ak;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v2, v1}, Lcom/tencent/mm/storage/AKclz;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->ktI:Landroid/widget/EditText;
 
@@ -273,7 +273,7 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/storage/ak;->field_conDescription:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/storage/AKclz;->field_conDescription:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->eZK:Ljava/lang/String;
 
@@ -285,18 +285,18 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->eZK:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/storage/ak;->field_contactLabels:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/storage/AKclz;->field_contactLabels:Ljava/lang/String;
 
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rj()Lcom/tencent/mm/storage/al;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rj()Lcom/tencent/mm/storage/ALclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/al;->c(Lcom/tencent/mm/storage/ak;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/ALclz;->c(Lcom/tencent/mm/storage/AKclz;)Z
 
     :goto_1
     invoke-virtual {p0}, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->finish()V
@@ -304,7 +304,7 @@
     goto/16 :goto_0
 
     :cond_3
-    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget v0, v0, Lcom/tencent/mm/d/b/o;->auY:I
 
@@ -313,25 +313,25 @@
     :cond_4
     :goto_2
     :pswitch_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rj()Lcom/tencent/mm/storage/al;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rj()Lcom/tencent/mm/storage/ALclz;
 
     move-result-object v0
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v2, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/al;->Dv(Ljava/lang/String;)Lcom/tencent/mm/storage/ak;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/ALclz;->Dv(Ljava/lang/String;)Lcom/tencent/mm/storage/AKclz;
 
     move-result-object v0
 
     if-eqz v0, :cond_5
 
-    iget-object v2, v0, Lcom/tencent/mm/storage/ak;->field_encryptUsername:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/storage/AKclz;->field_encryptUsername:Ljava/lang/String;
 
     invoke-static {v2}, Lcom/tencent/mm/platformtools/t;->jY(Ljava/lang/String;)Z
 
@@ -340,7 +340,7 @@
     if-eqz v2, :cond_6
 
     :cond_5
-    iget-object v2, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v2, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_encryptUsername:Ljava/lang/String;
 
@@ -350,26 +350,26 @@
 
     if-nez v2, :cond_6
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rj()Lcom/tencent/mm/storage/al;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rj()Lcom/tencent/mm/storage/ALclz;
 
     move-result-object v0
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v2, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_encryptUsername:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/al;->Dv(Ljava/lang/String;)Lcom/tencent/mm/storage/ak;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/ALclz;->Dv(Ljava/lang/String;)Lcom/tencent/mm/storage/AKclz;
 
     move-result-object v0
 
     :cond_6
     if-eqz v0, :cond_7
 
-    iget-object v2, v0, Lcom/tencent/mm/storage/ak;->field_encryptUsername:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/storage/AKclz;->field_encryptUsername:Ljava/lang/String;
 
     invoke-static {v2}, Lcom/tencent/mm/platformtools/t;->jY(Ljava/lang/String;)Z
 
@@ -377,22 +377,22 @@
 
     if-nez v2, :cond_7
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/model/c;->rj()Lcom/tencent/mm/storage/al;
+    invoke-virtual {v2}, Lcom/tencent/mm/model/Cclz;->rj()Lcom/tencent/mm/storage/ALclz;
 
     move-result-object v2
 
-    iget-object v0, v0, Lcom/tencent/mm/storage/ak;->field_encryptUsername:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/storage/AKclz;->field_encryptUsername:Ljava/lang/String;
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/storage/al;->Dw(Ljava/lang/String;)I
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/storage/ALclz;->Dw(Ljava/lang/String;)I
 
     :cond_7
-    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/model/i;->b(Lcom/tencent/mm/storage/k;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/model/Iclz;->b(Lcom/tencent/mm/storage/Kclz;Ljava/lang/String;)V
 
     invoke-direct {p0, v6}, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->hm(Z)V
 
@@ -403,7 +403,7 @@
 
     move-result-object v0
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v2, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -544,9 +544,9 @@
     goto :goto_0
 
     :cond_1
-    iget-object v1, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v1, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/k;->bE(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/Kclz;->bE(Ljava/lang/String;)V
 
     new-instance v1, Lcom/tencent/mm/protocal/b/ace;
 
@@ -582,11 +582,11 @@
 
     iput-object v0, v1, Lcom/tencent/mm/protocal/b/ace;->iMc:Lcom/tencent/mm/protocal/b/ajz;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rh()Lcom/tencent/mm/ae/c;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/c;
 
     move-result-object v0
 
@@ -644,7 +644,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v3, v3, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -658,7 +658,7 @@
 
     move-result-object v2
 
-    iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget v3, v3, Lcom/tencent/mm/d/b/o;->field_type:I
 
@@ -672,7 +672,7 @@
 
     move-result-object v2
 
-    iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget v3, v3, Lcom/tencent/mm/d/b/o;->field_type:I
 
@@ -728,7 +728,7 @@
     return-void
 
     :cond_0
-    iget-object v1, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v1, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget v1, v1, Lcom/tencent/mm/d/b/o;->field_type:I
 
@@ -745,9 +745,9 @@
     goto :goto_0
 
     :cond_1
-    iget-object v1, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v1, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/k;->bE(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/Kclz;->bE(Ljava/lang/String;)V
 
     new-instance v1, Lcom/tencent/mm/protocal/b/ace;
 
@@ -757,7 +757,7 @@
 
     invoke-direct {v2}, Lcom/tencent/mm/protocal/b/ajz;-><init>()V
 
-    iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v3, v3, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -785,11 +785,11 @@
 
     iput-object v0, v1, Lcom/tencent/mm/protocal/b/ace;->iMc:Lcom/tencent/mm/protocal/b/ajz;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rh()Lcom/tencent/mm/ae/c;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/c;
 
     move-result-object v0
 
@@ -801,9 +801,9 @@
 
     invoke-virtual {v0, v2}, Lcom/tencent/mm/ae/c;->b(Lcom/tencent/mm/ae/b$q;)V
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->o(Lcom/tencent/mm/storage/k;)V
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->o(Lcom/tencent/mm/storage/Kclz;)V
 
     const/4 v0, 0x0
 
@@ -949,22 +949,22 @@
     .line 484
     if-eqz p1, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     if-eqz v0, :cond_0
 
     .line 485
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v1, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/q;->L(Lcom/tencent/mm/storage/k;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Qclz;->L(Lcom/tencent/mm/storage/Kclz;)Z
 
     .line 487
     :cond_0
@@ -1220,45 +1220,45 @@
     if-lez v0, :cond_1
 
     .line 121
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v0
 
     iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->aBT:Ljava/lang/String;
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iput-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     .line 122
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rj()Lcom/tencent/mm/storage/al;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rj()Lcom/tencent/mm/storage/ALclz;
 
     move-result-object v0
 
     iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->aBT:Ljava/lang/String;
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/storage/al;->Dv(Ljava/lang/String;)Lcom/tencent/mm/storage/ak;
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/storage/ALclz;->Dv(Ljava/lang/String;)Lcom/tencent/mm/storage/AKclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->fnX:Lcom/tencent/mm/storage/ak;
+    iput-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->fnX:Lcom/tencent/mm/storage/AKclz;
 
     .line 124
-    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -1270,16 +1270,16 @@
 
     .line 125
     :cond_0
-    new-instance v0, Lcom/tencent/mm/storage/k;
+    new-instance v0, Lcom/tencent/mm/storage/Kclz;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->aBT:Ljava/lang/String;
 
-    invoke-direct {v0, v3}, Lcom/tencent/mm/storage/k;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v3}, Lcom/tencent/mm/storage/Kclz;-><init>(Ljava/lang/String;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iput-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     .line 126
-    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->ktG:Ljava/lang/String;
 
@@ -1287,10 +1287,10 @@
 
     move-result-object v3
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/storage/k;->bE(Ljava/lang/String;)V
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/storage/Kclz;->bE(Ljava/lang/String;)V
 
     .line 127
-    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->eby:Ljava/lang/String;
 
@@ -1298,7 +1298,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/storage/k;->bC(Ljava/lang/String;)V
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/storage/Kclz;->bC(Ljava/lang/String;)V
 
     .line 130
     :cond_1
@@ -1363,7 +1363,7 @@
     invoke-virtual {v0, v3}, Lcom/tencent/mm/ui/tools/a/c;->a(Lcom/tencent/mm/ui/tools/a/c$a;)V
 
     .line 167
-    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     if-eqz v0, :cond_3
 
@@ -1431,7 +1431,7 @@
 
     move-result-object v0
 
-    iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v3, v3, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -1653,16 +1653,16 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->append(Ljava/lang/CharSequence;)V
 
     .line 280
-    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->fnX:Lcom/tencent/mm/storage/ak;
+    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->fnX:Lcom/tencent/mm/storage/AKclz;
 
     if-eqz v0, :cond_5
 
     .line 281
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->ktI:Landroid/widget/EditText;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->fnX:Lcom/tencent/mm/storage/ak;
+    iget-object v1, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->fnX:Lcom/tencent/mm/storage/AKclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/storage/ak;->field_conDescription:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/storage/AKclz;->field_conDescription:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/tencent/mm/platformtools/t;->jX(Ljava/lang/String;)Ljava/lang/String;
 
@@ -1683,9 +1683,9 @@
     .line 282
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->ktH:Landroid/widget/TextView;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->fnX:Lcom/tencent/mm/storage/ak;
+    iget-object v1, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->fnX:Lcom/tencent/mm/storage/AKclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/storage/ak;->field_conDescription:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/storage/AKclz;->field_conDescription:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/tencent/mm/platformtools/t;->jX(Ljava/lang/String;)Ljava/lang/String;
 
@@ -1743,7 +1743,7 @@
 
     .line 173
     :cond_7
-    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_conRemark:Ljava/lang/String;
 
@@ -1756,7 +1756,7 @@
     .line 174
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->ktE:Landroid/widget/EditText;
 
-    iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v3, v3, Lcom/tencent/mm/d/b/o;->field_conRemark:Ljava/lang/String;
 
@@ -1813,7 +1813,7 @@
 
     .line 177
     :cond_9
-    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_nickname:Ljava/lang/String;
 
@@ -1826,7 +1826,7 @@
     .line 178
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->ktE:Landroid/widget/EditText;
 
-    iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v3, v3, Lcom/tencent/mm/d/b/o;->field_nickname:Ljava/lang/String;
 
@@ -1883,7 +1883,7 @@
 
     .line 182
     :cond_b
-    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_nickname:Ljava/lang/String;
 
@@ -1910,9 +1910,9 @@
     .line 183
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->ktE:Landroid/widget/EditText;
 
-    iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v3, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->czx:Lcom/tencent/mm/storage/Kclz;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/storage/k;->qy()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/tencent/mm/storage/Kclz;->qy()Ljava/lang/String;
 
     move-result-object v3
 
@@ -2446,29 +2446,29 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onResume()V
 
     .line 301
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rj()Lcom/tencent/mm/storage/al;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rj()Lcom/tencent/mm/storage/ALclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->aBT:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/al;->Dv(Ljava/lang/String;)Lcom/tencent/mm/storage/ak;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/ALclz;->Dv(Ljava/lang/String;)Lcom/tencent/mm/storage/AKclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->fnX:Lcom/tencent/mm/storage/ak;
+    iput-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->fnX:Lcom/tencent/mm/storage/AKclz;
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->fnX:Lcom/tencent/mm/storage/ak;
+    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->fnX:Lcom/tencent/mm/storage/AKclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->fnX:Lcom/tencent/mm/storage/ak;
+    iget-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->fnX:Lcom/tencent/mm/storage/AKclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/storage/ak;->field_contactLabels:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/storage/AKclz;->field_contactLabels:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI;->eZK:Ljava/lang/String;
 

@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/u/h;
-.super Lcom/tencent/mm/model/s;
+.super Lcom/tencent/mm/model/Sclz;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 13
-    invoke-direct {p0}, Lcom/tencent/mm/model/s;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/model/Sclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -79,11 +79,11 @@
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 33
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/model/c;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v0, v0, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
 
     .line 34
     new-instance v1, Ljava/lang/StringBuilder;
@@ -158,7 +158,7 @@
     invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 45
-    invoke-static {v1, v5}, Lcom/tencent/mm/model/i;->g(Ljava/lang/String;Z)V
+    invoke-static {v1, v5}, Lcom/tencent/mm/model/Iclz;->g(Ljava/lang/String;Z)V
 
     goto :goto_0
 

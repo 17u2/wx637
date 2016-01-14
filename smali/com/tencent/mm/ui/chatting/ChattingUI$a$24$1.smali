@@ -226,7 +226,7 @@
     packed-switch v2, :pswitch_data_1
 
     .line 9730
-    invoke-static {}, Lcom/tencent/mm/model/az;->ut()Lcom/tencent/mm/model/az;
+    invoke-static {}, Lcom/tencent/mm/model/AZclz;->ut()Lcom/tencent/mm/model/AZclz;
 
     move-result-object v0
 
@@ -240,7 +240,7 @@
 
     aput-object v4, v3, v7
 
-    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/model/az;->b(I[Ljava/lang/Object;)V
+    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/model/AZclz;->b(I[Ljava/lang/Object;)V
 
     .line 9732
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$24$1;->kjj:Lcom/tencent/mm/ui/chatting/ChattingUI$a$24;
@@ -375,7 +375,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1, v6}, Lcom/tencent/mm/model/h;->b(Ljava/lang/String;Ljava/lang/String;Z)Z
+    invoke-static {v0, v1, v6}, Lcom/tencent/mm/model/Hclz;->b(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     move-result v0
 

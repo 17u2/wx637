@@ -498,7 +498,7 @@
     invoke-direct {v1}, Ljava/util/LinkedList;-><init>()V
 
     .line 345
-    invoke-static {}, Lcom/tencent/mm/model/i;->sF()Ljava/util/List;
+    invoke-static {}, Lcom/tencent/mm/model/Iclz;->sF()Ljava/util/List;
 
     move-result-object v4
 
@@ -2381,11 +2381,11 @@
     const/4 v0, 0x0
 
     .line 428
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/model/c;->isSDCardAvailable()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/model/Cclz;->isSDCardAvailable()Z
 
     move-result v2
 

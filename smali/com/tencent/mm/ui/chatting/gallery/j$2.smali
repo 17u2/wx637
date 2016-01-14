@@ -58,7 +58,7 @@
 
     move-result-object v0
 
-    instance-of v0, v0, Lcom/tencent/mm/storage/ad;
+    instance-of v0, v0, Lcom/tencent/mm/storage/ADclz;
 
     if-eqz v0, :cond_0
 
@@ -67,7 +67,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/ad;
+    check-cast v0, Lcom/tencent/mm/storage/ADclz;
 
     .line 285
     iget-object v1, v0, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;

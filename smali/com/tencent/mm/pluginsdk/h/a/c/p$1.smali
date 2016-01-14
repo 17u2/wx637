@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/pluginsdk/h/a/c/p$1;
-.super Lcom/tencent/mm/network/m$a;
+.super Lcom/tencent/mm/network/Mclz$a;
 .source "SourceFile"
 
 
@@ -30,7 +30,7 @@
     .line 20
     iput-object p1, p0, Lcom/tencent/mm/pluginsdk/h/a/c/p$1;->hPt:Lcom/tencent/mm/pluginsdk/h/a/c/p;
 
-    invoke-direct {p0}, Lcom/tencent/mm/network/m$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/network/Mclz$a;-><init>()V
 
     .line 44
     const/4 v0, 0x1

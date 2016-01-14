@@ -197,9 +197,9 @@
 
     const-string/jumbo v2, ""
 
-    sget v3, Lcom/tencent/mm/storage/a/c;->jpR:I
+    sget v3, Lcom/tencent/mm/storage/a/Cclz;->jpR:I
 
-    sget v4, Lcom/tencent/mm/storage/a/c;->jpW:I
+    sget v4, Lcom/tencent/mm/storage/a/Cclz;->jpW:I
 
     iget v5, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/a;->len:I
 
@@ -209,7 +209,7 @@
 
     const-string/jumbo v8, ""
 
-    invoke-interface/range {v0 .. v8}, Lcom/tencent/mm/pluginsdk/h$f;->a(Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/a/c;
+    invoke-interface/range {v0 .. v8}, Lcom/tencent/mm/pluginsdk/h$f;->a(Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 
     move-result-object v0
 
@@ -224,9 +224,9 @@
 
     const-string/jumbo v2, ""
 
-    sget v3, Lcom/tencent/mm/storage/a/c;->jpR:I
+    sget v3, Lcom/tencent/mm/storage/a/Cclz;->jpR:I
 
-    sget v4, Lcom/tencent/mm/storage/a/c;->jpX:I
+    sget v4, Lcom/tencent/mm/storage/a/Cclz;->jpX:I
 
     iget v5, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/a;->len:I
 
@@ -236,7 +236,7 @@
 
     const-string/jumbo v8, ""
 
-    invoke-interface/range {v0 .. v8}, Lcom/tencent/mm/pluginsdk/h$f;->a(Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/a/c;
+    invoke-interface/range {v0 .. v8}, Lcom/tencent/mm/pluginsdk/h$f;->a(Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 
     move-result-object v0
 

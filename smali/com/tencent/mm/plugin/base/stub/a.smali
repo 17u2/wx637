@@ -4,7 +4,7 @@
 
 
 # static fields
-.field private static bYe:Lcom/tencent/mm/model/aa;
+.field private static bYe:Lcom/tencent/mm/model/AAclz;
 
 
 # direct methods
@@ -15,7 +15,7 @@
     .line 10
     const/4 v0, 0x0
 
-    sput-object v0, Lcom/tencent/mm/plugin/base/stub/a;->bYe:Lcom/tencent/mm/model/aa;
+    sput-object v0, Lcom/tencent/mm/plugin/base/stub/a;->bYe:Lcom/tencent/mm/model/AAclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -27,12 +27,12 @@
     return-void
 .end method
 
-.method public static a(Lcom/tencent/mm/model/aa;)V
+.method public static a(Lcom/tencent/mm/model/AAclz;)V
     .locals 0
 
     .prologue
     .line 14
-    sput-object p0, Lcom/tencent/mm/plugin/base/stub/a;->bYe:Lcom/tencent/mm/model/aa;
+    sput-object p0, Lcom/tencent/mm/plugin/base/stub/a;->bYe:Lcom/tencent/mm/model/AAclz;
 
     .line 15
     return-void

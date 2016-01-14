@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/aq$a;
+.implements Lcom/tencent/mm/model/AQclz$a;
 
 
 # annotations
@@ -47,12 +47,12 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;)V
+.method public final a(Lcom/tencent/mm/network/Eclz;)V
     .locals 5
 
     .prologue
     .line 346
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -62,7 +62,7 @@
 
     iget v3, p0, Lcom/tencent/mm/console/b$5;->bon:I
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v4
 

@@ -21,7 +21,7 @@
 
 .field public aCL:I
 
-.field public aCM:Lcom/tencent/mm/storage/ad;
+.field public aCM:Lcom/tencent/mm/storage/ADclz;
 
 .field public aCN:Ljava/util/List;
 

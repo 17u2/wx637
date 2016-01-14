@@ -165,7 +165,7 @@
     .line 64
     new-instance v0, Ljava/io/File;
 
-    sget-object v2, Lcom/tencent/mm/storage/j;->bpW:Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/storage/Jclz;->bpW:Ljava/lang/String;
 
     invoke-direct {v0, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
@@ -189,13 +189,13 @@
     sget-object v2, Lcom/tencent/mm/compatible/util/d;->bpY:Ljava/lang/String;
 
     .line 73
-    new-instance v4, Lcom/tencent/mm/storage/g;
+    new-instance v4, Lcom/tencent/mm/storage/Gclz;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v5, Lcom/tencent/mm/storage/j;->bpW:Ljava/lang/String;
+    sget-object v5, Lcom/tencent/mm/storage/Jclz;->bpW:Ljava/lang/String;
 
     invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -211,14 +211,14 @@
 
     move-result-object v0
 
-    invoke-direct {v4, v0}, Lcom/tencent/mm/storage/g;-><init>(Ljava/lang/String;)V
+    invoke-direct {v4, v0}, Lcom/tencent/mm/storage/Gclz;-><init>(Ljava/lang/String;)V
 
     .line 74
     const/4 v0, 0x1
 
     const-string/jumbo v5, ""
 
-    invoke-virtual {v4, v0, v5}, Lcom/tencent/mm/storage/g;->get(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v4, v0, v5}, Lcom/tencent/mm/storage/Gclz;->get(ILjava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -234,7 +234,7 @@
     .line 76
     const/4 v5, 0x1
 
-    invoke-virtual {v4, v5, v2}, Lcom/tencent/mm/storage/g;->set(ILjava/lang/Object;)V
+    invoke-virtual {v4, v5, v2}, Lcom/tencent/mm/storage/Gclz;->set(ILjava/lang/Object;)V
 
     .line 80
     :goto_0
@@ -588,7 +588,7 @@
 
     const/4 v1, 0x4
 
-    sget-object v2, Lcom/tencent/mm/storage/j;->bpW:Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/storage/Jclz;->bpW:Ljava/lang/String;
 
     aput-object v2, v4, v1
 

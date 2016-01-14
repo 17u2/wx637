@@ -106,7 +106,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/r;
+    check-cast v0, Lcom/tencent/mm/storage/Rclz;
 
     .line 739
     if-eqz v0, :cond_1
@@ -114,7 +114,7 @@
     .line 740
     iget-object v6, v0, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
 
-    invoke-static {v6}, Lcom/tencent/mm/model/i;->dS(Ljava/lang/String;)Z
+    invoke-static {v6}, Lcom/tencent/mm/model/Iclz;->dS(Ljava/lang/String;)Z
 
     move-result v6
 
@@ -170,15 +170,15 @@
     if-lez v0, :cond_3
 
     .line 751
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rl()Lcom/tencent/mm/storage/s;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rl()Lcom/tencent/mm/storage/Sclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v4}, Lcom/tencent/mm/storage/s;->R(Ljava/util/LinkedList;)V
+    invoke-virtual {v0, v4}, Lcom/tencent/mm/storage/Sclz;->R(Ljava/util/LinkedList;)V
 
     .line 752
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$11;->kvP:Lcom/tencent/mm/ui/conversation/BizConversationUI;

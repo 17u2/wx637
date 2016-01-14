@@ -111,7 +111,7 @@
     .line 549
     const-string/jumbo v2, "Contact_User"
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v3
 
@@ -120,7 +120,7 @@
     .line 550
     const-string/jumbo v2, "Contact_Nick"
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rU()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rU()Ljava/lang/String;
 
     move-result-object v3
 

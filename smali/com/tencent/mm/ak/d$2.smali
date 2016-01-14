@@ -54,7 +54,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ak/d$2;->bWP:Lcom/tencent/mm/ak/d;
 
-    invoke-static {v1}, Lcom/tencent/mm/ak/d;->j(Lcom/tencent/mm/ak/d;)Lcom/tencent/mm/network/e;
+    invoke-static {v1}, Lcom/tencent/mm/ak/d;->j(Lcom/tencent/mm/ak/d;)Lcom/tencent/mm/network/Eclz;
 
     move-result-object v1
 
@@ -64,7 +64,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ak/d;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ak/d;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
 
     move-result v0
 

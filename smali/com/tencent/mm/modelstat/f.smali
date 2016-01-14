@@ -344,7 +344,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/network/aa;->ba(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/tencent/mm/network/AAclz;->ba(Landroid/content/Context;)Z
 
     move-result v0
 

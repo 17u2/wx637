@@ -45,99 +45,99 @@
     return-object p0
 .end method
 
-.method static synthetic a(Landroid/content/Context;Lcom/tencent/mm/storage/ad;ZLjava/lang/String;)V
+.method static synthetic a(Landroid/content/Context;Lcom/tencent/mm/storage/ADclz;ZLjava/lang/String;)V
     .locals 1
 
     .prologue
     .line 30
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/ad;->aQJ()Z
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/ADclz;->aQJ()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    invoke-static {p0, p3, p1, p2}, Lcom/tencent/mm/ui/chatting/s;->a(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/storage/ad;Z)V
+    invoke-static {p0, p3, p1, p2}, Lcom/tencent/mm/ui/chatting/s;->a(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/storage/ADclz;Z)V
 
     :cond_0
     :goto_0
     return-void
 
     :cond_1
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/ad;->aQG()Z
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/ADclz;->aQG()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    invoke-static {p0, p3, p1}, Lcom/tencent/mm/ui/chatting/s;->b(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/storage/ad;)V
+    invoke-static {p0, p3, p1}, Lcom/tencent/mm/ui/chatting/s;->b(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/storage/ADclz;)V
 
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/ad;->aQK()Z
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/ADclz;->aQK()Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    invoke-static {p0, p3, p1}, Lcom/tencent/mm/ui/chatting/s;->c(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/storage/ad;)V
+    invoke-static {p0, p3, p1}, Lcom/tencent/mm/ui/chatting/s;->c(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/storage/ADclz;)V
 
     goto :goto_0
 
     :cond_3
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/ad;->aQI()Z
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/ADclz;->aQI()Z
 
     move-result v0
 
     if-eqz v0, :cond_4
 
-    invoke-static {p0, p3, p1, p2}, Lcom/tencent/mm/ui/chatting/s;->c(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/storage/ad;Z)V
+    invoke-static {p0, p3, p1, p2}, Lcom/tencent/mm/ui/chatting/s;->c(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/storage/ADclz;Z)V
 
     goto :goto_0
 
     :cond_4
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/ad;->aQM()Z
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/ADclz;->aQM()Z
 
     move-result v0
 
     if-nez v0, :cond_5
 
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/ad;->aQN()Z
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/ADclz;->aQN()Z
 
     move-result v0
 
     if-eqz v0, :cond_6
 
     :cond_5
-    invoke-static {p1}, Lcom/tencent/mm/ui/chatting/s;->I(Lcom/tencent/mm/storage/ad;)Z
+    invoke-static {p1}, Lcom/tencent/mm/ui/chatting/s;->I(Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    invoke-static {p0, p3, p1}, Lcom/tencent/mm/ui/chatting/s;->a(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/storage/ad;)V
+    invoke-static {p0, p3, p1}, Lcom/tencent/mm/ui/chatting/s;->a(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/storage/ADclz;)V
 
     goto :goto_0
 
     :cond_6
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/ad;->aQy()Z
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/ADclz;->aQy()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lcom/tencent/mm/ui/chatting/s;->J(Lcom/tencent/mm/storage/ad;)Z
+    invoke-static {p1}, Lcom/tencent/mm/ui/chatting/s;->J(Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    invoke-static {p0, p3, p1, p2}, Lcom/tencent/mm/ui/chatting/s;->b(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/storage/ad;Z)V
+    invoke-static {p0, p3, p1, p2}, Lcom/tencent/mm/ui/chatting/s;->b(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/storage/ADclz;Z)V
 
     goto :goto_0
 .end method
 
-.method public static a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Ljava/util/List;ZLcom/tencent/mm/ui/chatting/cn;Lcom/tencent/mm/storage/k;)V
+.method public static a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Ljava/util/List;ZLcom/tencent/mm/ui/chatting/cn;Lcom/tencent/mm/storage/Kclz;)V
     .locals 8
 
     .prologue
@@ -218,7 +218,7 @@
 
     move v6, p2
 
-    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/ui/chatting/u$4;-><init>(Ljava/util/List;Landroid/content/Context;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/k;Lcom/tencent/mm/ui/chatting/cn;Z)V
+    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/ui/chatting/u$4;-><init>(Ljava/util/List;Landroid/content/Context;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/Kclz;Lcom/tencent/mm/ui/chatting/cn;Z)V
 
     iput-object v0, v7, Lcom/tencent/mm/ui/tools/l;->kDZ:Lcom/tencent/mm/ui/base/m$d;
 

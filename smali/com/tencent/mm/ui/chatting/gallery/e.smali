@@ -502,7 +502,7 @@
 
     .line 1652
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v0
 

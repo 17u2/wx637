@@ -523,7 +523,7 @@
 
     sget v2, Lcom/tencent/mm/platformtools/r;->cen:I
 
-    sput v2, Lcom/tencent/mm/storage/i;->jkS:I
+    sput v2, Lcom/tencent/mm/storage/Iclz;->jkS:I
 
     const-string/jumbo v2, "!32@/B4Tb64lLpKDiUa1siRPtt5j20lPwojX"
 

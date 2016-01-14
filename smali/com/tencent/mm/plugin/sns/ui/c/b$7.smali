@@ -88,7 +88,7 @@
 
     iget-object v1, v0, Lcom/tencent/mm/plugin/sns/ui/j;->dRj:Ljava/lang/String;
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v2
 

@@ -44,7 +44,7 @@
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/model/l;->cMu:Landroid/app/ProgressDialog;
 
     .line 35
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -111,7 +111,7 @@
     invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 74
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -362,7 +362,7 @@
     invoke-direct {v0, p1, v3}, Lcom/tencent/mm/p/l;-><init>(ILjava/lang/String;)V
 
     .line 55
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v3
 
@@ -448,7 +448,7 @@
     invoke-direct {v0, v1, v3}, Lcom/tencent/mm/p/l;-><init>(ILjava/lang/String;)V
 
     .line 66
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v3
 

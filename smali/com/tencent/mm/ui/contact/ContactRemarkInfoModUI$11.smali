@@ -63,14 +63,14 @@
     .line 316
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ContactRemarkInfoModUI$11;->ksa:Lcom/tencent/mm/ui/contact/ContactRemarkInfoModUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ContactRemarkInfoModUI;->f(Lcom/tencent/mm/ui/contact/ContactRemarkInfoModUI;)Lcom/tencent/mm/storage/k;
+    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ContactRemarkInfoModUI;->f(Lcom/tencent/mm/ui/contact/ContactRemarkInfoModUI;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->p(Lcom/tencent/mm/storage/k;)V
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->p(Lcom/tencent/mm/storage/Kclz;)V
 
     .line 317
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

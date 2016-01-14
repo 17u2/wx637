@@ -74,7 +74,7 @@
     const/4 v5, 0x1
 
     .line 34
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v0
 
@@ -161,7 +161,7 @@
 
     .line 61
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v1
 
@@ -366,15 +366,15 @@
 
     .line 81
     :cond_5
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, p1}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v1, p1}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v3
 
@@ -424,7 +424,7 @@
     .line 94
     const-string/jumbo v0, "android.intent.extra.shortcut.NAME"
 
-    invoke-static {v3, p1}, Lcom/tencent/mm/model/i;->a(Lcom/tencent/mm/storage/k;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3, p1}, Lcom/tencent/mm/model/Iclz;->a(Lcom/tencent/mm/storage/Kclz;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -505,7 +505,7 @@
     .line 113
     const-string/jumbo v0, "com.tencent.qlauncher.extra.EXTRA_PUSH_ITEM_TYPE"
 
-    invoke-static {v3}, Lcom/tencent/mm/plugin/base/a/a;->w(Lcom/tencent/mm/storage/k;)I
+    invoke-static {v3}, Lcom/tencent/mm/plugin/base/a/a;->w(Lcom/tencent/mm/storage/Kclz;)I
 
     move-result v2
 
@@ -810,7 +810,7 @@
     if-eqz v1, :cond_4
 
     .line 221
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v1
 
@@ -823,11 +823,11 @@
 
     .line 224
     :cond_3
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    iget v0, v1, Lcom/tencent/mm/model/c;->uin:I
+    iget v0, v1, Lcom/tencent/mm/model/Cclz;->uin:I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -869,13 +869,13 @@
     .line 226
     :cond_4
     :try_start_1
-    invoke-static {}, Lcom/tencent/mm/network/z;->En()Lcom/tencent/mm/network/r;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->En()Lcom/tencent/mm/network/Rclz;
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/tencent/mm/network/r;->cal:Lcom/tencent/mm/network/a;
+    iget-object v1, v1, Lcom/tencent/mm/network/Rclz;->cal:Lcom/tencent/mm/network/Aclz;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/network/a;->qY()I
+    invoke-virtual {v1}, Lcom/tencent/mm/network/Aclz;->qY()I
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -961,7 +961,7 @@
     if-eqz v3, :cond_2
 
     .line 254
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v3
 
@@ -997,11 +997,11 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    iget v2, v2, Lcom/tencent/mm/model/c;->uin:I
+    iget v2, v2, Lcom/tencent/mm/model/Cclz;->uin:I
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -1037,13 +1037,13 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/network/z;->En()Lcom/tencent/mm/network/r;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->En()Lcom/tencent/mm/network/Rclz;
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/tencent/mm/network/r;->cal:Lcom/tencent/mm/network/a;
+    iget-object v2, v2, Lcom/tencent/mm/network/Rclz;->cal:Lcom/tencent/mm/network/Aclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/network/a;->qY()I
+    invoke-virtual {v2}, Lcom/tencent/mm/network/Aclz;->qY()I
 
     move-result v2
 
@@ -1186,12 +1186,12 @@
     goto :goto_0
 .end method
 
-.method public static w(Lcom/tencent/mm/storage/k;)I
+.method public static w(Lcom/tencent/mm/storage/Kclz;)I
     .locals 1
 
     .prologue
     .line 146
-    invoke-virtual {p0}, Lcom/tencent/mm/storage/k;->aPT()Z
+    invoke-virtual {p0}, Lcom/tencent/mm/storage/Kclz;->aPT()Z
 
     move-result v0
 
@@ -1208,7 +1208,7 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->eB(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->eB(Ljava/lang/String;)Z
 
     move-result v0
 

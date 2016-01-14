@@ -52,20 +52,20 @@
 
     .prologue
     .line 75
-    invoke-static {}, Lcom/tencent/mm/model/ah;->sS()Lcom/tencent/mm/model/w;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->sS()Lcom/tencent/mm/model/Wclz;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 76
-    invoke-static {}, Lcom/tencent/mm/model/ah;->sS()Lcom/tencent/mm/model/w;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->sS()Lcom/tencent/mm/model/Wclz;
 
     move-result-object v0
 
     iget v1, p0, Lcom/tencent/mm/app/d$2$1;->akN:I
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/model/w;->ce(I)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/model/Wclz;->ce(I)V
 
     .line 78
     :cond_0

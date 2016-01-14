@@ -121,7 +121,7 @@
     .line 67
     iget-object v0, p0, Lcom/tencent/mm/t/a$a;->bqj:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/h;->dJ(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Hclz;->dJ(Ljava/lang/String;)Z
 
     move-result v0
 

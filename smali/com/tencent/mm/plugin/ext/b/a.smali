@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static q(Lcom/tencent/mm/storage/ad;)I
+.method public static q(Lcom/tencent/mm/storage/ADclz;)I
     .locals 3
 
     .prologue

@@ -48,11 +48,11 @@
 
     .prologue
     .line 188
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v0
 
@@ -64,7 +64,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/h;->set(ILjava/lang/Object;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/Hclz;->set(ILjava/lang/Object;)V
 
     .line 189
     const-string/jumbo v0, "R200_100"
@@ -135,7 +135,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v2
 
@@ -171,7 +171,7 @@
 
     const-string/jumbo v2, "R300_200_phone"
 
-    invoke-static {v2}, Lcom/tencent/mm/model/ah;->eV(Ljava/lang/String;)I
+    invoke-static {v2}, Lcom/tencent/mm/model/AHclz;->eV(Ljava/lang/String;)I
 
     move-result v2
 

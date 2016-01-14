@@ -21,16 +21,16 @@
 .method public abstract W(Landroid/view/View;)V
 .end method
 
-.method public abstract a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/i$a;)Landroid/graphics/Bitmap;
+.method public abstract a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)Landroid/graphics/Bitmap;
 .end method
 
 .method public abstract asO()V
 .end method
 
-.method public abstract b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/i$a;)V
+.method public abstract b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 .end method
 
-.method public abstract c(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/i$a;)V
+.method public abstract c(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 .end method
 
 .method public abstract pause()V

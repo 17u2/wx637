@@ -63,16 +63,16 @@
     .line 3495
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$70;->kjD:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/f;->dF(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/tencent/mm/model/Fclz;->dF(Ljava/lang/String;)I
 
     move-result v4
 
     .line 3496
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rk()Lcom/tencent/mm/storage/ae;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rk()Lcom/tencent/mm/storage/AEclz;
 
     move-result-object v5
 
@@ -101,7 +101,7 @@
 
     invoke-direct {v7, v8}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v5, v6}, Lcom/tencent/mm/storage/ae;->Di(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v5, v6}, Lcom/tencent/mm/storage/AEclz;->Di(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v8
 
@@ -115,7 +115,7 @@
 
     move-result-object v7
 
-    invoke-virtual {v5, v6}, Lcom/tencent/mm/storage/ae;->CM(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v5, v6}, Lcom/tencent/mm/storage/AEclz;->CM(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
@@ -165,7 +165,7 @@
 
     invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v1, v5, Lcom/tencent/mm/storage/ae;->bvh:Lcom/tencent/mm/aw/g;
+    iget-object v1, v5, Lcom/tencent/mm/storage/AEclz;->bvh:Lcom/tencent/mm/aw/g;
 
     const/4 v2, 0x0
 
@@ -189,13 +189,13 @@
     if-eqz v3, :cond_1
 
     .line 3500
-    new-instance v3, Lcom/tencent/mm/storage/ad;
+    new-instance v3, Lcom/tencent/mm/storage/ADclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/storage/ad;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/storage/ADclz;-><init>()V
 
     .line 3502
     :cond_0
-    invoke-virtual {v3, v2}, Lcom/tencent/mm/storage/ad;->c(Landroid/database/Cursor;)V
+    invoke-virtual {v3, v2}, Lcom/tencent/mm/storage/ADclz;->c(Landroid/database/Cursor;)V
 
     .line 3503
     iget v5, v3, Lcom/tencent/mm/d/b/ba;->field_isSend:I

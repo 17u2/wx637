@@ -194,7 +194,7 @@
 
     .line 68
     :cond_5
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -210,7 +210,7 @@
     invoke-direct {v1, v4, v0}, Lcom/tencent/mm/p/l;-><init>(ILjava/lang/String;)V
 
     .line 70
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

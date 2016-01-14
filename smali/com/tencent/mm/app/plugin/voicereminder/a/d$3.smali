@@ -65,13 +65,13 @@
     .line 335
     iget-object v0, p1, Lcom/tencent/mm/d/a/ll;->aGt:Lcom/tencent/mm/d/a/ll$a;
 
-    iget-object v2, v0, Lcom/tencent/mm/d/a/ll$a;->arO:Lcom/tencent/mm/storage/ad;
+    iget-object v2, v0, Lcom/tencent/mm/d/a/ll$a;->arO:Lcom/tencent/mm/storage/ADclz;
 
     .line 337
     if-eqz v1, :cond_2
 
     .line 338
-    invoke-static {}, Lcom/tencent/mm/model/ah;->sU()Lcom/tencent/mm/model/ba;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->sU()Lcom/tencent/mm/model/BAclz;
 
     move-result-object v0
 
@@ -81,7 +81,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/model/ba;->fk(Ljava/lang/String;)Lcom/tencent/mm/model/ae;
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/model/BAclz;->fk(Ljava/lang/String;)Lcom/tencent/mm/model/AEclz;
 
     move-result-object v0
 

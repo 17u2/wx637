@@ -417,7 +417,7 @@
     invoke-virtual {p0, v0}, Lcom/tencent/mm/ui/chatting/SendImgProxyUI;->setContentView(I)V
 
     .line 61
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -431,7 +431,7 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 63
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tt()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tt()Z
 
     .line 65
     :cond_1
@@ -450,7 +450,7 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/chatting/SendImgProxyUI;->jtJ:Lcom/tencent/mm/ui/base/o;
 
     .line 68
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v0
 

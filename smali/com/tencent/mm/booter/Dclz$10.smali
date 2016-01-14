@@ -113,7 +113,7 @@
     .line 889
     iget-object v0, p0, Lcom/tencent/mm/booter/Dclz$10;->bfV:Lcom/tencent/mm/booter/Dclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/booter/Dclz;->mO()Lcom/tencent/mm/model/u;
+    invoke-virtual {v0}, Lcom/tencent/mm/booter/Dclz;->mO()Lcom/tencent/mm/model/Uclz;
 
     .line 890
     iget-object v0, p0, Lcom/tencent/mm/booter/Dclz$10;->bfV:Lcom/tencent/mm/booter/Dclz;
@@ -158,7 +158,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/model/v;
+    check-cast v0, Lcom/tencent/mm/model/Vclz;
 
     .line 895
     if-eqz v0, :cond_3
@@ -191,7 +191,7 @@
     invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 897
-    invoke-interface {v0}, Lcom/tencent/mm/model/v;->onFinish()V
+    invoke-interface {v0}, Lcom/tencent/mm/model/Vclz;->onFinish()V
 
     goto :goto_1
 
@@ -294,7 +294,7 @@
     goto/16 :goto_0
 
     :cond_7
-    invoke-virtual {v0}, Lcom/tencent/mm/booter/Dclz;->mN()Lcom/tencent/mm/model/u;
+    invoke-virtual {v0}, Lcom/tencent/mm/booter/Dclz;->mN()Lcom/tencent/mm/model/Uclz;
 
     goto/16 :goto_0
 .end method

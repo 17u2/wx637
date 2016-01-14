@@ -121,7 +121,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/modelsimple/v$1;->bTo:Lcom/tencent/mm/modelsimple/v;
 
-    iget-object v1, v1, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/e;
+    iget-object v1, v1, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/Eclz;
 
     iget-object v2, p0, Lcom/tencent/mm/modelsimple/v$1$1;->bTp:Lcom/tencent/mm/modelsimple/v$1;
 
@@ -129,7 +129,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/modelsimple/v;->ans:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/modelsimple/v;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/modelsimple/v;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
 
     goto :goto_0
 .end method

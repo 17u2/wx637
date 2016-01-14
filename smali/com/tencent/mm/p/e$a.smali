@@ -131,7 +131,7 @@
     const-string/jumbo v0, ""
 
     .line 147
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v4
 
@@ -152,11 +152,11 @@
 
     aput-object v6, v4, v1
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v6
 
-    iget v6, v6, Lcom/tencent/mm/model/c;->uin:I
+    iget v6, v6, Lcom/tencent/mm/model/Cclz;->uin:I
 
     invoke-static {v6}, Lcom/tencent/mm/a/n;->getString(I)Ljava/lang/String;
 
@@ -225,7 +225,7 @@
     const/4 v4, 0x0
 
     :try_start_0
-    invoke-static {v5, v4}, Lcom/tencent/mm/network/b;->a(Ljava/lang/String;Lcom/tencent/mm/network/b$b;)Lcom/tencent/mm/network/s;
+    invoke-static {v5, v4}, Lcom/tencent/mm/network/Bclz;->a(Ljava/lang/String;Lcom/tencent/mm/network/Bclz$b;)Lcom/tencent/mm/network/Sclz;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_2
 
@@ -235,25 +235,25 @@
     :try_start_1
     const-string/jumbo v4, "GET"
 
-    invoke-virtual {v6, v4}, Lcom/tencent/mm/network/s;->setRequestMethod(Ljava/lang/String;)V
+    invoke-virtual {v6, v4}, Lcom/tencent/mm/network/Sclz;->setRequestMethod(Ljava/lang/String;)V
 
     .line 160
     const-string/jumbo v4, "referer"
 
-    invoke-virtual {v6, v4, v0}, Lcom/tencent/mm/network/s;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v4, v0}, Lcom/tencent/mm/network/Sclz;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 161
     const/16 v0, 0x1388
 
-    invoke-virtual {v6, v0}, Lcom/tencent/mm/network/s;->setConnectTimeout(I)V
+    invoke-virtual {v6, v0}, Lcom/tencent/mm/network/Sclz;->setConnectTimeout(I)V
 
     .line 162
     const/16 v0, 0x1388
 
-    invoke-virtual {v6, v0}, Lcom/tencent/mm/network/s;->setReadTimeout(I)V
+    invoke-virtual {v6, v0}, Lcom/tencent/mm/network/Sclz;->setReadTimeout(I)V
 
     .line 163
-    invoke-static {v6}, Lcom/tencent/mm/network/b;->a(Lcom/tencent/mm/network/s;)I
+    invoke-static {v6}, Lcom/tencent/mm/network/Bclz;->a(Lcom/tencent/mm/network/Sclz;)I
 
     move-result v0
 
@@ -281,7 +281,7 @@
 
     .line 167
     :cond_2
-    invoke-virtual {v6}, Lcom/tencent/mm/network/s;->getInputStream()Ljava/io/InputStream;
+    invoke-virtual {v6}, Lcom/tencent/mm/network/Sclz;->getInputStream()Ljava/io/InputStream;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_3
 
@@ -399,7 +399,7 @@
 
     .line 191
     :try_start_4
-    iget-object v0, v5, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v0, v5, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
 
@@ -440,7 +440,7 @@
 
     .line 181
     :try_start_6
-    iget-object v0, v6, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v0, v6, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
     :try_end_6
@@ -629,12 +629,12 @@
     invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 218
-    sget-object v1, Lcom/tencent/mm/model/z$a;->bti:Lcom/tencent/mm/model/z$e;
+    sget-object v1, Lcom/tencent/mm/model/Zclz$a;->bti:Lcom/tencent/mm/model/Zclz$e;
 
     if-eqz v1, :cond_3
 
     .line 219
-    sget-object v1, Lcom/tencent/mm/model/z$a;->bti:Lcom/tencent/mm/model/z$e;
+    sget-object v1, Lcom/tencent/mm/model/Zclz$a;->bti:Lcom/tencent/mm/model/Zclz$e;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -662,7 +662,7 @@
 
     long-to-int v2, v2
 
-    invoke-interface {v1, v2, v0}, Lcom/tencent/mm/model/z$e;->I(II)V
+    invoke-interface {v1, v2, v0}, Lcom/tencent/mm/model/Zclz$e;->I(II)V
 
     .line 222
     :cond_3

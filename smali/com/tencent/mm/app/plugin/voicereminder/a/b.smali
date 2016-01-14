@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/network/j;
+.implements Lcom/tencent/mm/network/Jclz;
 
 
 # instance fields
@@ -108,7 +108,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+.method public final a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
     .locals 10
 
     .prologue
@@ -476,7 +476,7 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/ato;
 
     .line 185
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v6
 
@@ -802,7 +802,7 @@
     .line 212
     iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/b;->ant:Lcom/tencent/mm/q/Aclz;
 
-    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/app/plugin/voicereminder/a/b;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;)I
+    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/app/plugin/voicereminder/a/b;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/network/Oclz;Lcom/tencent/mm/network/Jclz;)I
 
     move-result v0
 
@@ -1385,7 +1385,7 @@
     goto/16 :goto_3
 .end method
 
-.method protected final a(Lcom/tencent/mm/network/o;)I
+.method protected final a(Lcom/tencent/mm/network/Oclz;)I
     .locals 4
 
     .prologue
@@ -1451,7 +1451,7 @@
     return v0
 .end method
 
-.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/o;[B)V
+.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/Oclz;[B)V
     .locals 15
 
     .prologue
@@ -1573,11 +1573,11 @@
 
     if-ne v4, v5, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lcom/tencent/mm/model/c;->rk()Lcom/tencent/mm/storage/ae;
+    invoke-virtual {v4}, Lcom/tencent/mm/model/Cclz;->rk()Lcom/tencent/mm/storage/AEclz;
 
     move-result-object v4
 
@@ -1585,7 +1585,7 @@
 
     int-to-long v5, v5
 
-    invoke-virtual {v4, v5, v6}, Lcom/tencent/mm/storage/ae;->dn(J)Lcom/tencent/mm/storage/ad;
+    invoke-virtual {v4, v5, v6}, Lcom/tencent/mm/storage/AEclz;->dn(J)Lcom/tencent/mm/storage/ADclz;
 
     move-result-object v4
 
@@ -1601,17 +1601,17 @@
 
     move-result-object v5
 
-    invoke-virtual {v4, v5}, Lcom/tencent/mm/storage/ad;->setContent(Ljava/lang/String;)V
+    invoke-virtual {v4, v5}, Lcom/tencent/mm/storage/ADclz;->setContent(Ljava/lang/String;)V
 
     const/4 v5, 0x2
 
-    invoke-virtual {v4, v5}, Lcom/tencent/mm/storage/ad;->bk(I)V
+    invoke-virtual {v4, v5}, Lcom/tencent/mm/storage/ADclz;->bk(I)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v5
 
-    invoke-virtual {v5}, Lcom/tencent/mm/model/c;->rk()Lcom/tencent/mm/storage/ae;
+    invoke-virtual {v5}, Lcom/tencent/mm/model/Cclz;->rk()Lcom/tencent/mm/storage/AEclz;
 
     move-result-object v5
 
@@ -1619,7 +1619,7 @@
 
     int-to-long v6, v6
 
-    invoke-virtual {v5, v6, v7, v4}, Lcom/tencent/mm/storage/ae;->a(JLcom/tencent/mm/storage/ad;)V
+    invoke-virtual {v5, v6, v7, v4}, Lcom/tencent/mm/storage/AEclz;->a(JLcom/tencent/mm/storage/ADclz;)V
 
     :cond_0
     const/16 v4, 0x61
@@ -2130,11 +2130,11 @@
 
     iput v3, v10, Lcom/tencent/mm/app/plugin/voicereminder/a/g;->aoa:I
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/tencent/mm/model/c;->rk()Lcom/tencent/mm/storage/ae;
+    invoke-virtual {v3}, Lcom/tencent/mm/model/Cclz;->rk()Lcom/tencent/mm/storage/AEclz;
 
     move-result-object v3
 
@@ -2142,21 +2142,21 @@
 
     int-to-long v6, v6
 
-    invoke-virtual {v3, v6, v7}, Lcom/tencent/mm/storage/ae;->dn(J)Lcom/tencent/mm/storage/ad;
+    invoke-virtual {v3, v6, v7}, Lcom/tencent/mm/storage/AEclz;->dn(J)Lcom/tencent/mm/storage/ADclz;
 
     move-result-object v3
 
     iget-object v6, v10, Lcom/tencent/mm/app/plugin/voicereminder/a/g;->field_user:Ljava/lang/String;
 
-    invoke-virtual {v3, v6}, Lcom/tencent/mm/storage/ad;->setTalker(Ljava/lang/String;)V
+    invoke-virtual {v3, v6}, Lcom/tencent/mm/storage/ADclz;->setTalker(Ljava/lang/String;)V
 
     iget-wide v6, v10, Lcom/tencent/mm/app/plugin/voicereminder/a/g;->field_msgid:J
 
-    invoke-virtual {v3, v6, v7}, Lcom/tencent/mm/storage/ad;->t(J)V
+    invoke-virtual {v3, v6, v7}, Lcom/tencent/mm/storage/ADclz;->t(J)V
 
     const/4 v6, 0x2
 
-    invoke-virtual {v3, v6}, Lcom/tencent/mm/storage/ad;->bk(I)V
+    invoke-virtual {v3, v6}, Lcom/tencent/mm/storage/ADclz;->bk(I)V
 
     iget-object v6, v10, Lcom/tencent/mm/app/plugin/voicereminder/a/g;->field_human:Ljava/lang/String;
 
@@ -2170,13 +2170,13 @@
 
     move-result-object v6
 
-    invoke-virtual {v3, v6}, Lcom/tencent/mm/storage/ad;->setContent(Ljava/lang/String;)V
+    invoke-virtual {v3, v6}, Lcom/tencent/mm/storage/ADclz;->setContent(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v6
 
-    invoke-virtual {v6}, Lcom/tencent/mm/model/c;->rk()Lcom/tencent/mm/storage/ae;
+    invoke-virtual {v6}, Lcom/tencent/mm/model/Cclz;->rk()Lcom/tencent/mm/storage/AEclz;
 
     move-result-object v6
 
@@ -2184,7 +2184,7 @@
 
     int-to-long v7, v7
 
-    invoke-virtual {v6, v7, v8, v3}, Lcom/tencent/mm/storage/ae;->a(JLcom/tencent/mm/storage/ad;)V
+    invoke-virtual {v6, v7, v8, v3}, Lcom/tencent/mm/storage/AEclz;->a(JLcom/tencent/mm/storage/ADclz;)V
 
     const-string/jumbo v3, "!44@/B4Tb64lLpLcQwGQMRj/JUta8syYGx1fpYWB6qoEDUU="
 

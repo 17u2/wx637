@@ -61,13 +61,13 @@
 
     .line 84
     :try_start_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tw()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tw()Z
 
     move-result v0
 
@@ -85,7 +85,7 @@
 
     const/4 v3, 0x0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v4
 
@@ -97,7 +97,7 @@
 
     const/4 v3, 0x1
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tw()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tw()Z
 
     move-result v4
 

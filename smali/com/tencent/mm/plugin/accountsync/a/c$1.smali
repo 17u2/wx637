@@ -71,11 +71,11 @@
 
     .line 94
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lc()Lcom/tencent/mm/model/y;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lc()Lcom/tencent/mm/model/Yclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/y;->nq()Z
+    invoke-interface {v0}, Lcom/tencent/mm/model/Yclz;->nq()Z
 
     .line 96
     :cond_1

@@ -110,7 +110,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v1}, Lcom/tencent/mm/model/ap;->k(Ljava/util/List;)V
+    invoke-static {v1}, Lcom/tencent/mm/model/APclz;->k(Ljava/util/List;)V
 
     .line 69
     const/4 v0, 0x1

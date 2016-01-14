@@ -19,11 +19,11 @@
 
 .field bpk:I
 
-.field bpl:Lcom/tencent/mm/storage/j$a;
+.field bpl:Lcom/tencent/mm/storage/Jclz$a;
 
 .field bpm:I
 
-.field bpn:Lcom/tencent/mm/storage/j$a;
+.field bpn:Lcom/tencent/mm/storage/Jclz$a;
 
 
 # direct methods

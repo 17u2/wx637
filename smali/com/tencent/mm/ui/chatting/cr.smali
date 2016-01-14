@@ -95,9 +95,9 @@
     check-cast v2, Lcom/tencent/mm/ui/chatting/dd;
 
     .line 1805
-    iget-object v3, v2, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v3, v2, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ADclz;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/storage/ad;->aQR()Z
+    invoke-virtual {v3}, Lcom/tencent/mm/storage/ADclz;->aQR()Z
 
     move-result v6
 
@@ -119,7 +119,7 @@
     .line 1809
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/cr;->kcm:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v3, v2, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v3, v2, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v5, v3, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
@@ -128,7 +128,7 @@
     invoke-virtual {v0, v5, v6, v3}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(JLcom/tencent/mm/ui/chatting/ChattingTranslateView$a;)V
 
     .line 1810
-    iget-object v0, v2, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v0, v2, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
 
@@ -168,7 +168,7 @@
     if-eqz v6, :cond_6
 
     .line 1814
-    iget-object v3, v2, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v3, v2, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v3, v3, Lcom/tencent/mm/d/b/ba;->field_transBrandWording:Ljava/lang/String;
 
@@ -177,7 +177,7 @@
     .line 1815
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/cr;->kcm:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v3, v2, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v3, v2, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v5, v3, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
@@ -186,7 +186,7 @@
     invoke-virtual {v0, v5, v6, v3}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(JLcom/tencent/mm/ui/chatting/ChattingTranslateView$a;)V
 
     .line 1816
-    iget-object v0, v2, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v0, v2, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/ba;->field_transContent:Ljava/lang/String;
 
@@ -224,7 +224,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v4, v2, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v4, v2, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v6, v4, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
@@ -241,7 +241,7 @@
     .line 1823
     iget-object v1, v0, Lcom/tencent/mm/d/a/kq;->aFI:Lcom/tencent/mm/d/a/kq$a;
 
-    iget-object v3, v2, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v3, v2, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v3, v3, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
 
@@ -260,7 +260,7 @@
     .line 1826
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/cr;->kcm:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v1, v2, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v1, v2, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v1, v1, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 

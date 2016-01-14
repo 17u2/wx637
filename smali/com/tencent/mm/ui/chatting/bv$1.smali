@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/chatting/bv;->a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;Ljava/lang/String;)V
+    value = Lcom/tencent/mm/ui/chatting/bv;->a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic kef:Lcom/tencent/mm/storage/ad;
+.field final synthetic kef:Lcom/tencent/mm/storage/ADclz;
 
 .field final synthetic keg:I
 
@@ -26,14 +26,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/bv;Lcom/tencent/mm/storage/ad;I)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/bv;Lcom/tencent/mm/storage/ADclz;I)V
     .locals 1
 
     .prologue
     .line 134
     iput-object p1, p0, Lcom/tencent/mm/ui/chatting/bv$1;->keh:Lcom/tencent/mm/ui/chatting/bv;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/bv$1;->kef:Lcom/tencent/mm/storage/ad;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/bv$1;->kef:Lcom/tencent/mm/storage/ADclz;
 
     iput p3, p0, Lcom/tencent/mm/ui/chatting/bv$1;->keg:I
 
@@ -56,7 +56,7 @@
 
     .prologue
     .line 139
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/bv$1;->kef:Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/bv$1;->kef:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
 
@@ -89,9 +89,9 @@
 
     iget v1, p0, Lcom/tencent/mm/ui/chatting/bv$1;->keg:I
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/bv$1;->kef:Lcom/tencent/mm/storage/ad;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/bv$1;->kef:Lcom/tencent/mm/storage/ADclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ui/chatting/k;->c(ILcom/tencent/mm/storage/ad;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ui/chatting/k;->c(ILcom/tencent/mm/storage/ADclz;)V
 
     goto :goto_0
 .end method

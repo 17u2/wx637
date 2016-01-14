@@ -50,16 +50,16 @@
     .line 452
     iget-object v0, p0, Lcom/tencent/mm/s/Fclz$1$1;->bzU:Lcom/tencent/mm/s/Fclz$1;
 
-    iget-object v0, v0, Lcom/tencent/mm/s/Fclz$1;->buu:Lcom/tencent/mm/model/ap$a;
+    iget-object v0, v0, Lcom/tencent/mm/s/Fclz$1;->buu:Lcom/tencent/mm/model/APclz$a;
 
     if-eqz v0, :cond_0
 
     .line 453
     iget-object v0, p0, Lcom/tencent/mm/s/Fclz$1$1;->bzU:Lcom/tencent/mm/s/Fclz$1;
 
-    iget-object v0, v0, Lcom/tencent/mm/s/Fclz$1;->buu:Lcom/tencent/mm/model/ap$a;
+    iget-object v0, v0, Lcom/tencent/mm/s/Fclz$1;->buu:Lcom/tencent/mm/model/APclz$a;
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/ap$a;->tT()V
+    invoke-interface {v0}, Lcom/tencent/mm/model/APclz$a;->tT()V
 
     .line 455
     :cond_0

@@ -367,7 +367,7 @@
     const/4 v9, 0x0
 
     .line 349
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v1
 

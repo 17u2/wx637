@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ac/g;->a(IIILjava/lang/String;Lcom/tencent/mm/network/o;[B)V
+    value = Lcom/tencent/mm/ac/g;->a(IIILjava/lang/String;Lcom/tencent/mm/network/Oclz;[B)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -74,7 +74,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ac/g$1;->bNI:Lcom/tencent/mm/ac/g;
 
-    invoke-static {v1}, Lcom/tencent/mm/ac/g;->a(Lcom/tencent/mm/ac/g;)Lcom/tencent/mm/network/e;
+    invoke-static {v1}, Lcom/tencent/mm/ac/g;->a(Lcom/tencent/mm/ac/g;)Lcom/tencent/mm/network/Eclz;
 
     move-result-object v1
 
@@ -82,7 +82,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ac/g$1$1;-><init>(Lcom/tencent/mm/ac/g$1;)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/modelsimple/ah;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/modelsimple/ah;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
 
     .line 376
     return-void

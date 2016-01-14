@@ -118,7 +118,7 @@
     return-void
 .end method
 
-.method private a(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/ak/m;)V
+.method private a(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/ak/m;)V
     .locals 5
 
     .prologue
@@ -131,7 +131,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-static {v0}, Lcom/tencent/mm/network/aa;->ba(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/tencent/mm/network/AAclz;->ba(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -156,7 +156,7 @@
 
     new-instance v3, Lcom/tencent/mm/ui/chatting/gallery/i$1;
 
-    invoke-direct {v3, p0, p1, p2}, Lcom/tencent/mm/ui/chatting/gallery/i$1;-><init>(Lcom/tencent/mm/ui/chatting/gallery/i;Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/ak/m;)V
+    invoke-direct {v3, p0, p1, p2}, Lcom/tencent/mm/ui/chatting/gallery/i$1;-><init>(Lcom/tencent/mm/ui/chatting/gallery/i;Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/ak/m;)V
 
     const/4 v4, 0x0
 
@@ -168,12 +168,12 @@
 
     .line 254
     :cond_0
-    invoke-direct {p0, p1, p2}, Lcom/tencent/mm/ui/chatting/gallery/i;->b(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/ak/m;)V
+    invoke-direct {p0, p1, p2}, Lcom/tencent/mm/ui/chatting/gallery/i;->b(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/ak/m;)V
 
     goto :goto_0
 .end method
 
-.method private a(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/ak/m;I)V
+.method private a(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/ak/m;I)V
     .locals 11
 
     .prologue
@@ -197,7 +197,7 @@
 
     .line 149
     :cond_1
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/ad;->aQS()Z
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/ADclz;->aQS()Z
 
     move-result v0
 
@@ -286,7 +286,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -297,7 +297,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/model/f;->dF(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/tencent/mm/model/Fclz;->dF(Ljava/lang/String;)I
 
     move-result v0
 
@@ -580,12 +580,12 @@
     goto/16 :goto_1
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/chatting/gallery/i;Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/ak/m;)V
+.method static synthetic a(Lcom/tencent/mm/ui/chatting/gallery/i;Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/ak/m;)V
     .locals 0
 
     .prologue
     .line 46
-    invoke-direct {p0, p1, p2}, Lcom/tencent/mm/ui/chatting/gallery/i;->b(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/ak/m;)V
+    invoke-direct {p0, p1, p2}, Lcom/tencent/mm/ui/chatting/gallery/i;->b(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/ak/m;)V
 
     return-void
 .end method
@@ -633,12 +633,12 @@
     goto :goto_0
 .end method
 
-.method public static as(Lcom/tencent/mm/storage/ad;)Lcom/tencent/mm/ak/m;
+.method public static as(Lcom/tencent/mm/storage/ADclz;)Lcom/tencent/mm/ak/m;
     .locals 1
 
     .prologue
     .line 96
-    invoke-static {p0}, Lcom/tencent/mm/ui/chatting/gallery/b;->ai(Lcom/tencent/mm/storage/ad;)Z
+    invoke-static {p0}, Lcom/tencent/mm/ui/chatting/gallery/b;->ai(Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v0
 
@@ -661,7 +661,7 @@
     goto :goto_0
 .end method
 
-.method private b(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/ak/m;)V
+.method private b(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/ak/m;)V
     .locals 3
 
     .prologue
@@ -835,11 +835,11 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/i;->kmJ:Lcom/tencent/mm/ui/chatting/gallery/b;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/ui/chatting/gallery/b;->qy(I)Lcom/tencent/mm/storage/ad;
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/ui/chatting/gallery/b;->qy(I)Lcom/tencent/mm/storage/ADclz;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/i;->as(Lcom/tencent/mm/storage/ad;)Lcom/tencent/mm/ak/m;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/i;->as(Lcom/tencent/mm/storage/ADclz;)Lcom/tencent/mm/ak/m;
 
     move-result-object p2
 
@@ -903,7 +903,7 @@
     if-eqz v0, :cond_0
 
     .line 438
-    iget-object v2, v0, Lcom/tencent/mm/ui/chatting/gallery/i$a;->arO:Lcom/tencent/mm/storage/ad;
+    iget-object v2, v0, Lcom/tencent/mm/ui/chatting/gallery/i$a;->arO:Lcom/tencent/mm/storage/ADclz;
 
     .line 440
     if-eqz v2, :cond_0
@@ -921,7 +921,7 @@
     if-eqz v1, :cond_0
 
     .line 444
-    invoke-static {v2}, Lcom/tencent/mm/ui/chatting/gallery/i;->as(Lcom/tencent/mm/storage/ad;)Lcom/tencent/mm/ak/m;
+    invoke-static {v2}, Lcom/tencent/mm/ui/chatting/gallery/i;->as(Lcom/tencent/mm/storage/ADclz;)Lcom/tencent/mm/ak/m;
 
     move-result-object v1
 
@@ -929,7 +929,7 @@
     if-eqz v1, :cond_0
 
     .line 449
-    invoke-virtual {v2}, Lcom/tencent/mm/storage/ad;->aQS()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/storage/ADclz;->aQS()Z
 
     move-result v3
 
@@ -1047,7 +1047,7 @@
 
     move-result v0
 
-    invoke-direct {p0, v2, v1, v0}, Lcom/tencent/mm/ui/chatting/gallery/i;->a(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/ak/m;I)V
+    invoke-direct {p0, v2, v1, v0}, Lcom/tencent/mm/ui/chatting/gallery/i;->a(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/ak/m;I)V
 
     goto/16 :goto_0
 
@@ -1058,17 +1058,17 @@
     goto/16 :goto_0
 .end method
 
-.method public final a(Lcom/tencent/mm/ui/chatting/gallery/j;Lcom/tencent/mm/storage/ad;I)Z
+.method public final a(Lcom/tencent/mm/ui/chatting/gallery/j;Lcom/tencent/mm/storage/ADclz;I)Z
     .locals 5
 
     .prologue
     const/4 v0, 0x0
 
     .line 66
-    invoke-super {p0, p1, p2, p3}, Lcom/tencent/mm/ui/chatting/gallery/a;->a(Lcom/tencent/mm/ui/chatting/gallery/j;Lcom/tencent/mm/storage/ad;I)Z
+    invoke-super {p0, p1, p2, p3}, Lcom/tencent/mm/ui/chatting/gallery/a;->a(Lcom/tencent/mm/ui/chatting/gallery/j;Lcom/tencent/mm/storage/ADclz;I)Z
 
     .line 67
-    invoke-static {p2}, Lcom/tencent/mm/ui/chatting/gallery/i;->as(Lcom/tencent/mm/storage/ad;)Lcom/tencent/mm/ak/m;
+    invoke-static {p2}, Lcom/tencent/mm/ui/chatting/gallery/i;->as(Lcom/tencent/mm/storage/ADclz;)Lcom/tencent/mm/ak/m;
 
     move-result-object v1
 
@@ -1100,7 +1100,7 @@
 
     new-instance v4, Lcom/tencent/mm/ui/chatting/gallery/i$a;
 
-    invoke-direct {v4, p2, p3}, Lcom/tencent/mm/ui/chatting/gallery/i$a;-><init>(Lcom/tencent/mm/storage/ad;I)V
+    invoke-direct {v4, p2, p3}, Lcom/tencent/mm/ui/chatting/gallery/i$a;-><init>(Lcom/tencent/mm/storage/ADclz;I)V
 
     invoke-virtual {v2, v3, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1323,7 +1323,7 @@
     return-void
 .end method
 
-.method public final c(Lcom/tencent/mm/storage/ad;I)V
+.method public final c(Lcom/tencent/mm/storage/ADclz;I)V
     .locals 4
 
     .prologue
@@ -1339,14 +1339,14 @@
 
     .line 113
     :cond_1
-    invoke-static {p1}, Lcom/tencent/mm/ui/chatting/gallery/b;->ai(Lcom/tencent/mm/storage/ad;)Z
+    invoke-static {p1}, Lcom/tencent/mm/ui/chatting/gallery/b;->ai(Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 117
-    invoke-static {p1}, Lcom/tencent/mm/ui/chatting/gallery/i;->as(Lcom/tencent/mm/storage/ad;)Lcom/tencent/mm/ak/m;
+    invoke-static {p1}, Lcom/tencent/mm/ui/chatting/gallery/i;->as(Lcom/tencent/mm/storage/ADclz;)Lcom/tencent/mm/ak/m;
 
     move-result-object v2
 
@@ -1419,11 +1419,11 @@
 
     .line 128
     :cond_3
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->isSDCardAvailable()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->isSDCardAvailable()Z
 
     move-result v0
 
@@ -1462,7 +1462,7 @@
     if-ne v0, v3, :cond_7
 
     :cond_5
-    invoke-direct {p0, p1, v2}, Lcom/tencent/mm/ui/chatting/gallery/i;->a(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/ak/m;)V
+    invoke-direct {p0, p1, v2}, Lcom/tencent/mm/ui/chatting/gallery/i;->a(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/ak/m;)V
 
     .line 137
     :cond_6
@@ -1472,7 +1472,7 @@
     if-ne v0, v1, :cond_0
 
     .line 138
-    invoke-direct {p0, p1, v2, p2}, Lcom/tencent/mm/ui/chatting/gallery/i;->a(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/ak/m;I)V
+    invoke-direct {p0, p1, v2, p2}, Lcom/tencent/mm/ui/chatting/gallery/i;->a(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/ak/m;I)V
 
     goto :goto_0
 
@@ -1484,7 +1484,7 @@
 
     if-ne v0, v3, :cond_8
 
-    invoke-direct {p0, p1, v2, p2}, Lcom/tencent/mm/ui/chatting/gallery/i;->a(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/ak/m;I)V
+    invoke-direct {p0, p1, v2, p2}, Lcom/tencent/mm/ui/chatting/gallery/i;->a(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/ak/m;I)V
 
     :cond_8
     iget v0, v2, Lcom/tencent/mm/ak/m;->status:I
@@ -1493,7 +1493,7 @@
 
     if-ne v0, v3, :cond_9
 
-    invoke-direct {p0, p1, v2}, Lcom/tencent/mm/ui/chatting/gallery/i;->a(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/ak/m;)V
+    invoke-direct {p0, p1, v2}, Lcom/tencent/mm/ui/chatting/gallery/i;->a(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/ak/m;)V
 
     :cond_9
     iget v0, v2, Lcom/tencent/mm/ak/m;->status:I
@@ -1502,7 +1502,7 @@
 
     if-ne v0, v3, :cond_6
 
-    invoke-direct {p0, p1, v2}, Lcom/tencent/mm/ui/chatting/gallery/i;->a(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/ak/m;)V
+    invoke-direct {p0, p1, v2}, Lcom/tencent/mm/ui/chatting/gallery/i;->a(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/ak/m;)V
 
     goto :goto_2
 .end method

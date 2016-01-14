@@ -28,16 +28,16 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 26
-    invoke-static {}, Lcom/tencent/mm/model/c/d;->uO()Lcom/tencent/mm/storage/b;
+    invoke-static {}, Lcom/tencent/mm/model/c/Dclz;->uO()Lcom/tencent/mm/storage/Bclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/storage/b;->BG(Ljava/lang/String;)Lcom/tencent/mm/storage/a;
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/storage/Bclz;->BG(Ljava/lang/String;)Lcom/tencent/mm/storage/Aclz;
 
     move-result-object v0
 
     .line 28
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/a;->isValid()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/Aclz;->isValid()Z
 
     move-result v1
 
@@ -52,7 +52,7 @@
 
     .line 37
     :cond_0
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/a;->aPK()Ljava/util/Map;
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/Aclz;->aPK()Ljava/util/Map;
 
     move-result-object v1
 
@@ -68,7 +68,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v0, v0, Lcom/tencent/mm/storage/a;->field_rawXML:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/storage/Aclz;->field_rawXML:Ljava/lang/String;
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

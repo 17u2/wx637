@@ -4,11 +4,11 @@
 
 
 # instance fields
-.field protected jJJ:Lcom/tencent/mm/model/an;
+.field protected jJJ:Lcom/tencent/mm/model/ANclz;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/tencent/mm/model/an;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/tencent/mm/model/ANclz;)V
     .locals 5
 
     .prologue
@@ -18,10 +18,10 @@
     invoke-direct {p0, p1}, Lcom/tencent/mm/pluginsdk/ui/b/b;-><init>(Landroid/content/Context;)V
 
     .line 54
-    iput-object v2, p0, Lcom/tencent/mm/ui/c/j;->jJJ:Lcom/tencent/mm/model/an;
+    iput-object v2, p0, Lcom/tencent/mm/ui/c/j;->jJJ:Lcom/tencent/mm/model/ANclz;
 
     .line 62
-    iput-object p2, p0, Lcom/tencent/mm/ui/c/j;->jJJ:Lcom/tencent/mm/model/an;
+    iput-object p2, p0, Lcom/tencent/mm/ui/c/j;->jJJ:Lcom/tencent/mm/model/ANclz;
 
     .line 63
     iget-object v0, p0, Lcom/tencent/mm/ui/c/j;->view:Landroid/view/View;
@@ -48,22 +48,22 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    iget-object v3, p0, Lcom/tencent/mm/ui/c/j;->jJJ:Lcom/tencent/mm/model/an;
+    iget-object v3, p0, Lcom/tencent/mm/ui/c/j;->jJJ:Lcom/tencent/mm/model/ANclz;
 
-    iget v3, v3, Lcom/tencent/mm/model/an;->type:I
+    iget v3, v3, Lcom/tencent/mm/model/ANclz;->type:I
 
     packed-switch v3, :pswitch_data_0
 
     :goto_0
     iget-object v1, p0, Lcom/tencent/mm/ui/c/j;->view:Landroid/view/View;
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/c/j;->jJJ:Lcom/tencent/mm/model/an;
+    iget-object v0, p0, Lcom/tencent/mm/ui/c/j;->jJJ:Lcom/tencent/mm/model/ANclz;
 
-    iget v3, v0, Lcom/tencent/mm/model/an;->type:I
+    iget v3, v0, Lcom/tencent/mm/model/ANclz;->type:I
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/c/j;->jJJ:Lcom/tencent/mm/model/an;
+    iget-object v0, p0, Lcom/tencent/mm/ui/c/j;->jJJ:Lcom/tencent/mm/model/ANclz;
 
-    iget v4, v0, Lcom/tencent/mm/model/an;->asl:I
+    iget v4, v0, Lcom/tencent/mm/model/ANclz;->asl:I
 
     packed-switch v3, :pswitch_data_1
 
@@ -354,19 +354,19 @@
 
     invoke-static {p0, v0}, Lcom/tencent/mm/ui/MMWizardActivity;->t(Landroid/content/Context;Landroid/content/Intent;)V
 
-    invoke-static {}, Lcom/tencent/mm/model/a/f;->uD()Lcom/tencent/mm/model/a/b;
+    invoke-static {}, Lcom/tencent/mm/model/a/Fclz;->uD()Lcom/tencent/mm/model/a/Bclz;
 
     move-result-object v0
 
     const-string/jumbo v1, "4"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/a/b;->fm(Ljava/lang/String;)Lcom/tencent/mm/model/a/d;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/a/Bclz;->fm(Ljava/lang/String;)Lcom/tencent/mm/model/a/Dclz;
 
     move-result-object v0
 
     if-eqz v0, :cond_3
 
-    iget-object v1, v0, Lcom/tencent/mm/model/a/d;->value:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/model/a/Dclz;->value:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -374,7 +374,7 @@
 
     if-nez v1, :cond_3
 
-    iget-object v1, v0, Lcom/tencent/mm/model/a/d;->value:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/model/a/Dclz;->value:Ljava/lang/String;
 
     const-string/jumbo v2, "1"
 
@@ -384,7 +384,7 @@
 
     if-nez v1, :cond_0
 
-    iget-object v1, v0, Lcom/tencent/mm/model/a/d;->value:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/model/a/Dclz;->value:Ljava/lang/String;
 
     const-string/jumbo v2, "2"
 
@@ -395,25 +395,25 @@
     if-eqz v1, :cond_3
 
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/a/f;->uD()Lcom/tencent/mm/model/a/b;
+    invoke-static {}, Lcom/tencent/mm/model/a/Fclz;->uD()Lcom/tencent/mm/model/a/Bclz;
 
     move-result-object v1
 
     const-string/jumbo v2, "4"
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/model/a/b;->fm(Ljava/lang/String;)Lcom/tencent/mm/model/a/d;
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/model/a/Bclz;->fm(Ljava/lang/String;)Lcom/tencent/mm/model/a/Dclz;
 
     move-result-object v1
 
     const-string/jumbo v2, "1"
 
-    iput-object v2, v1, Lcom/tencent/mm/model/a/d;->aya:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/model/a/Dclz;->aya:Ljava/lang/String;
 
     const-string/jumbo v1, "4"
 
-    invoke-static {v1}, Lcom/tencent/mm/model/a/e;->fr(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/tencent/mm/model/a/Eclz;->fr(Ljava/lang/String;)V
 
-    iget-object v0, v0, Lcom/tencent/mm/model/a/d;->value:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/model/a/Dclz;->value:Ljava/lang/String;
 
     const-string/jumbo v1, "1"
 
@@ -423,11 +423,11 @@
 
     if-eqz v0, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v0
 
@@ -437,18 +437,18 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/h;->set(ILjava/lang/Object;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/Hclz;->set(ILjava/lang/Object;)V
 
     :cond_1
     :goto_0
     return-void
 
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v0
 
@@ -458,7 +458,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/h;->set(ILjava/lang/Object;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/Hclz;->set(ILjava/lang/Object;)V
 
     goto :goto_0
 

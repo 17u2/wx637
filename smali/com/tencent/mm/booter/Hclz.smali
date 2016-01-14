@@ -22,11 +22,11 @@
     invoke-direct {v2}, Ljava/util/LinkedList;-><init>()V
 
     .line 21
-    invoke-static {}, Lcom/tencent/mm/model/ah;->te()Lcom/tencent/mm/storage/g;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->te()Lcom/tencent/mm/storage/Gclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v6}, Lcom/tencent/mm/storage/g;->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, v6}, Lcom/tencent/mm/storage/Gclz;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -67,11 +67,11 @@
 
     .line 29
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->te()Lcom/tencent/mm/storage/g;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->te()Lcom/tencent/mm/storage/Gclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v7}, Lcom/tencent/mm/storage/g;->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, v7}, Lcom/tencent/mm/storage/Gclz;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -119,10 +119,10 @@
     if-lez v0, :cond_2
 
     .line 38
-    invoke-static {v2}, Lcom/tencent/mm/model/az;->a(Ljava/util/LinkedList;)V
+    invoke-static {v2}, Lcom/tencent/mm/model/AZclz;->a(Ljava/util/LinkedList;)V
 
     .line 40
-    invoke-static {}, Lcom/tencent/mm/model/ah;->te()Lcom/tencent/mm/storage/g;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->te()Lcom/tencent/mm/storage/Gclz;
 
     move-result-object v0
 
@@ -130,10 +130,10 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v6, v2}, Lcom/tencent/mm/storage/g;->set(ILjava/lang/Object;)V
+    invoke-virtual {v0, v6, v2}, Lcom/tencent/mm/storage/Gclz;->set(ILjava/lang/Object;)V
 
     .line 41
-    invoke-static {}, Lcom/tencent/mm/model/ah;->te()Lcom/tencent/mm/storage/g;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->te()Lcom/tencent/mm/storage/Gclz;
 
     move-result-object v0
 
@@ -141,7 +141,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v7, v1}, Lcom/tencent/mm/storage/g;->set(ILjava/lang/Object;)V
+    invoke-virtual {v0, v7, v1}, Lcom/tencent/mm/storage/Gclz;->set(ILjava/lang/Object;)V
 
     .line 43
     :cond_2

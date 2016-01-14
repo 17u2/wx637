@@ -161,9 +161,9 @@
 
     const/4 v3, 0x0
 
-    sget-object v4, Lcom/tencent/mm/storage/i$a;->jld:Lcom/tencent/mm/storage/i$a;
+    sget-object v4, Lcom/tencent/mm/storage/Iclz$a;->jld:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/tencent/mm/plugin/sns/d/b;->a(Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/i$a;)Z
+    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/tencent/mm/plugin/sns/d/b;->a(Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/Iclz$a;)Z
 
     goto :goto_0
 
@@ -213,9 +213,9 @@
 
     iget v4, v8, Lcom/tencent/mm/plugin/sns/ui/ad;->position:I
 
-    sget-object v5, Lcom/tencent/mm/storage/i$a;->jld:Lcom/tencent/mm/storage/i$a;
+    sget-object v5, Lcom/tencent/mm/storage/Iclz$a;->jld:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-virtual/range {v0 .. v5}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/plugin/sight/decode/a/a;IILcom/tencent/mm/storage/i$a;)Z
+    invoke-virtual/range {v0 .. v5}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/plugin/sight/decode/a/a;IILcom/tencent/mm/storage/Iclz$a;)Z
 
     goto :goto_0
 
@@ -341,7 +341,7 @@
     invoke-direct/range {v2 .. v7}, Lcom/tencent/mm/plugin/sns/a/a/c;-><init>(Ljava/lang/String;IILjava/lang/String;I)V
 
     .line 1071
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v3
 

@@ -48,7 +48,7 @@
 
     .prologue
     .line 38
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -60,11 +60,11 @@
 
     .line 42
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rF()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rF()Ljava/lang/String;
 
     move-result-object v0
 

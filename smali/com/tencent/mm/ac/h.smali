@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/network/j;
+.implements Lcom/tencent/mm/network/Jclz;
 
 
 # annotations
@@ -17,7 +17,7 @@
 # instance fields
 .field private ans:Lcom/tencent/mm/q/Dclz;
 
-.field private final byM:Lcom/tencent/mm/network/o;
+.field private final byM:Lcom/tencent/mm/network/Oclz;
 
 
 # direct methods
@@ -33,31 +33,31 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/ac/h$a;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ac/h;->byM:Lcom/tencent/mm/network/o;
+    iput-object v0, p0, Lcom/tencent/mm/ac/h;->byM:Lcom/tencent/mm/network/Oclz;
 
     .line 31
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
     .line 32
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v0
 
@@ -65,16 +65,16 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/h;->get(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/Hclz;->get(ILjava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/String;
 
     .line 33
-    iget-object v1, p0, Lcom/tencent/mm/ac/h;->byM:Lcom/tencent/mm/network/o;
+    iget-object v1, p0, Lcom/tencent/mm/ac/h;->byM:Lcom/tencent/mm/network/Oclz;
 
-    invoke-interface {v1}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
+    invoke-interface {v1}, Lcom/tencent/mm/network/Oclz;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v1
 
@@ -87,26 +87,26 @@
     iput-object v0, v1, Lcom/tencent/mm/protocal/Xclz$a;->bNx:[B
 
     .line 34
-    iget-object v0, p0, Lcom/tencent/mm/ac/h;->byM:Lcom/tencent/mm/network/o;
+    iget-object v0, p0, Lcom/tencent/mm/ac/h;->byM:Lcom/tencent/mm/network/Oclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
+    invoke-interface {v0}, Lcom/tencent/mm/network/Oclz;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 
     check-cast v0, Lcom/tencent/mm/protocal/Xclz$a;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    iget v1, v1, Lcom/tencent/mm/model/c;->uin:I
+    iget v1, v1, Lcom/tencent/mm/model/Cclz;->uin:I
 
     iput v1, v0, Lcom/tencent/mm/protocal/Xclz$a;->uin:I
 
     .line 35
-    iget-object v0, p0, Lcom/tencent/mm/ac/h;->byM:Lcom/tencent/mm/network/o;
+    iget-object v0, p0, Lcom/tencent/mm/ac/h;->byM:Lcom/tencent/mm/network/Oclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
+    invoke-interface {v0}, Lcom/tencent/mm/network/Oclz;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 
@@ -123,9 +123,9 @@
     iput v1, v0, Lcom/tencent/mm/protocal/Xclz$a;->netType:I
 
     .line 36
-    iget-object v0, p0, Lcom/tencent/mm/ac/h;->byM:Lcom/tencent/mm/network/o;
+    iget-object v0, p0, Lcom/tencent/mm/ac/h;->byM:Lcom/tencent/mm/network/Oclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
+    invoke-interface {v0}, Lcom/tencent/mm/network/Oclz;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 
@@ -176,7 +176,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+.method public final a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
     .locals 1
 
     .prologue
@@ -184,21 +184,21 @@
     iput-object p2, p0, Lcom/tencent/mm/ac/h;->ans:Lcom/tencent/mm/q/Dclz;
 
     .line 46
-    iget-object v0, p0, Lcom/tencent/mm/ac/h;->byM:Lcom/tencent/mm/network/o;
+    iget-object v0, p0, Lcom/tencent/mm/ac/h;->byM:Lcom/tencent/mm/network/Oclz;
 
-    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/ac/h;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;)I
+    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/ac/h;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/network/Oclz;Lcom/tencent/mm/network/Jclz;)I
 
     move-result v0
 
     return v0
 .end method
 
-.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/o;[B)V
+.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/Oclz;[B)V
     .locals 5
 
     .prologue
     .line 62
-    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
+    invoke-interface {p5}, Lcom/tencent/mm/network/Oclz;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v0
 
@@ -226,20 +226,20 @@
     invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 70
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tw()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tw()Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
     .line 71
-    invoke-interface {p5}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
+    invoke-interface {p5}, Lcom/tencent/mm/network/Oclz;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v1
 

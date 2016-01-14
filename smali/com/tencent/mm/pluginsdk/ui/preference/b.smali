@@ -245,12 +245,12 @@
 
     .line 113
     :sswitch_4
-    invoke-static {p5}, Lcom/tencent/mm/storage/ad$b;->CI(Ljava/lang/String;)Lcom/tencent/mm/storage/ad$b;
+    invoke-static {p5}, Lcom/tencent/mm/storage/ADclz$b;->CI(Ljava/lang/String;)Lcom/tencent/mm/storage/ADclz$b;
 
     move-result-object v1
 
     .line 114
-    iget-object v1, v1, Lcom/tencent/mm/storage/ad$b;->fbl:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/storage/ADclz$b;->fbl:Ljava/lang/String;
 
     iput-object v1, v2, Lcom/tencent/mm/pluginsdk/ui/preference/b;->fbl:Ljava/lang/String;
 
@@ -357,19 +357,19 @@
 
     if-nez v6, :cond_0
 
-    invoke-static {v5}, Lcom/tencent/mm/storage/ad$b;->CI(Ljava/lang/String;)Lcom/tencent/mm/storage/ad$b;
+    invoke-static {v5}, Lcom/tencent/mm/storage/ADclz$b;->CI(Ljava/lang/String;)Lcom/tencent/mm/storage/ADclz$b;
 
     move-result-object v0
 
-    iget-object v7, v0, Lcom/tencent/mm/storage/ad$b;->gGy:Ljava/lang/String;
+    iget-object v7, v0, Lcom/tencent/mm/storage/ADclz$b;->gGy:Ljava/lang/String;
 
-    iget-object v8, v0, Lcom/tencent/mm/storage/ad$b;->bFP:Ljava/lang/String;
+    iget-object v8, v0, Lcom/tencent/mm/storage/ADclz$b;->bFP:Ljava/lang/String;
 
-    iget-object v9, v0, Lcom/tencent/mm/storage/ad$b;->joI:Ljava/lang/String;
+    iget-object v9, v0, Lcom/tencent/mm/storage/ADclz$b;->joI:Ljava/lang/String;
 
-    iget-object v10, v0, Lcom/tencent/mm/storage/ad$b;->joJ:Ljava/lang/String;
+    iget-object v10, v0, Lcom/tencent/mm/storage/ADclz$b;->joJ:Ljava/lang/String;
 
-    iget v12, v0, Lcom/tencent/mm/storage/ad$b;->arG:I
+    iget v12, v0, Lcom/tencent/mm/storage/ADclz$b;->arG:I
 
     :goto_0
     move-object v0, p0
@@ -383,15 +383,15 @@
     :cond_0
     if-nez v3, :cond_1
 
-    invoke-static {v5}, Lcom/tencent/mm/storage/ad$e;->CL(Ljava/lang/String;)Lcom/tencent/mm/storage/ad$e;
+    invoke-static {v5}, Lcom/tencent/mm/storage/ADclz$e;->CL(Ljava/lang/String;)Lcom/tencent/mm/storage/ADclz$e;
 
     move-result-object v0
 
-    iget-object v7, v0, Lcom/tencent/mm/storage/ad$e;->gGy:Ljava/lang/String;
+    iget-object v7, v0, Lcom/tencent/mm/storage/ADclz$e;->gGy:Ljava/lang/String;
 
-    iget-object v8, v0, Lcom/tencent/mm/storage/ad$e;->bFP:Ljava/lang/String;
+    iget-object v8, v0, Lcom/tencent/mm/storage/ADclz$e;->bFP:Ljava/lang/String;
 
-    iget-object v0, v0, Lcom/tencent/mm/storage/ad$e;->content:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/storage/ADclz$e;->content:Ljava/lang/String;
 
     move-object v10, v11
 
@@ -506,16 +506,16 @@
     :cond_1
     iget-object v0, p1, Lcom/tencent/mm/aj/j;->field_content:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/storage/ad$e;->CL(Ljava/lang/String;)Lcom/tencent/mm/storage/ad$e;
+    invoke-static {v0}, Lcom/tencent/mm/storage/ADclz$e;->CL(Ljava/lang/String;)Lcom/tencent/mm/storage/ADclz$e;
 
     move-result-object v0
 
     .line 182
-    iget-object v1, v0, Lcom/tencent/mm/storage/ad$e;->content:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/storage/ADclz$e;->content:Ljava/lang/String;
 
     if-eqz v1, :cond_2
 
-    iget-object v1, v0, Lcom/tencent/mm/storage/ad$e;->content:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/storage/ADclz$e;->content:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->trim()Ljava/lang/String;
 
@@ -530,13 +530,13 @@
     if-nez v1, :cond_2
 
     .line 183
-    iget-object v1, v0, Lcom/tencent/mm/storage/ad$e;->content:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/storage/ADclz$e;->content:Ljava/lang/String;
 
     iput-object v1, v2, Lcom/tencent/mm/pluginsdk/ui/preference/b;->brV:Ljava/lang/String;
 
     .line 187
     :goto_2
-    iget-object v0, v0, Lcom/tencent/mm/storage/ad$e;->bFP:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/storage/ADclz$e;->bFP:Ljava/lang/String;
 
     iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/preference/b;->bFP:Ljava/lang/String;
 
@@ -648,16 +648,16 @@
     :cond_1
     iget-object v0, p1, Lcom/tencent/mm/d/b/ax;->field_content:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/storage/ad$e;->CL(Ljava/lang/String;)Lcom/tencent/mm/storage/ad$e;
+    invoke-static {v0}, Lcom/tencent/mm/storage/ADclz$e;->CL(Ljava/lang/String;)Lcom/tencent/mm/storage/ADclz$e;
 
     move-result-object v0
 
     .line 158
-    iget-object v1, v0, Lcom/tencent/mm/storage/ad$e;->content:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/storage/ADclz$e;->content:Ljava/lang/String;
 
     if-eqz v1, :cond_2
 
-    iget-object v1, v0, Lcom/tencent/mm/storage/ad$e;->content:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/storage/ADclz$e;->content:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->trim()Ljava/lang/String;
 
@@ -672,13 +672,13 @@
     if-nez v1, :cond_2
 
     .line 159
-    iget-object v1, v0, Lcom/tencent/mm/storage/ad$e;->content:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/storage/ADclz$e;->content:Ljava/lang/String;
 
     iput-object v1, v2, Lcom/tencent/mm/pluginsdk/ui/preference/b;->brV:Ljava/lang/String;
 
     .line 163
     :goto_2
-    iget-object v0, v0, Lcom/tencent/mm/storage/ad$e;->bFP:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/storage/ADclz$e;->bFP:Ljava/lang/String;
 
     iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/preference/b;->bFP:Ljava/lang/String;
 

@@ -179,7 +179,7 @@
     :cond_0
     sget-object v0, Lcom/tencent/mm/ac/l;->bOx:Lcom/tencent/mm/ac/l;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v1
 
@@ -1328,11 +1328,11 @@
 
     .line 157
     :cond_4
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v6
 
-    iget v6, v6, Lcom/tencent/mm/model/c;->uin:I
+    iget v6, v6, Lcom/tencent/mm/model/Cclz;->uin:I
 
     invoke-static {v6}, Lcom/tencent/mm/a/g;->aG(I)I
 
@@ -1362,11 +1362,11 @@
 
     const/4 v7, 0x0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v8
 
-    iget v8, v8, Lcom/tencent/mm/model/c;->uin:I
+    iget v8, v8, Lcom/tencent/mm/model/Cclz;->uin:I
 
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

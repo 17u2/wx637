@@ -210,7 +210,7 @@
     invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 368
-    invoke-static {v0}, Lcom/tencent/mm/model/ah;->eX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/model/AHclz;->eX(Ljava/lang/String;)Ljava/lang/String;
 
     .line 371
     :goto_0
@@ -225,7 +225,7 @@
     invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 372
-    invoke-static {v0}, Lcom/tencent/mm/model/ah;->eX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/model/AHclz;->eX(Ljava/lang/String;)Ljava/lang/String;
 
     .line 373
     iget-object v0, p0, Lcom/tencent/mm/protocal/Gclz$e;->ihH:Lcom/tencent/mm/protocal/b/art;

@@ -92,7 +92,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/chatting/gallery/b;->aZx()Lcom/tencent/mm/storage/ad;
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/chatting/gallery/b;->aZx()Lcom/tencent/mm/storage/ADclz;
 
     move-result-object v1
 

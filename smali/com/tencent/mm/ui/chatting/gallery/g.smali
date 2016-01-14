@@ -109,7 +109,7 @@
     return-void
 .end method
 
-.method private dD(J)Lcom/tencent/mm/storage/ad;
+.method private dD(J)Lcom/tencent/mm/storage/ADclz;
     .locals 4
 
     .prologue
@@ -131,7 +131,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/ad;
+    check-cast v0, Lcom/tencent/mm/storage/ADclz;
 
     .line 50
     iget-wide v2, v0, Lcom/tencent/mm/d/b/ba;->field_msgId:J
@@ -152,7 +152,7 @@
 
 
 # virtual methods
-.method public final aq(Lcom/tencent/mm/storage/ad;)Z
+.method public final aq(Lcom/tencent/mm/storage/ADclz;)Z
     .locals 7
 
     .prologue
@@ -186,7 +186,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/ad;
+    check-cast v0, Lcom/tencent/mm/storage/ADclz;
 
     .line 97
     iget-wide v3, v0, Lcom/tencent/mm/d/b/ba;->field_msgId:J
@@ -209,7 +209,7 @@
     goto :goto_0
 .end method
 
-.method public final ar(Lcom/tencent/mm/storage/ad;)V
+.method public final ar(Lcom/tencent/mm/storage/ADclz;)V
     .locals 6
 
     .prologue
@@ -218,7 +218,7 @@
     const/4 v5, 0x0
 
     .line 105
-    invoke-virtual {p0, p1}, Lcom/tencent/mm/ui/chatting/gallery/g;->aq(Lcom/tencent/mm/storage/ad;)Z
+    invoke-virtual {p0, p1}, Lcom/tencent/mm/ui/chatting/gallery/g;->aq(Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v0
 
@@ -251,7 +251,7 @@
 
     iget-wide v1, p1, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
-    invoke-direct {p0, v1, v2}, Lcom/tencent/mm/ui/chatting/gallery/g;->dD(J)Lcom/tencent/mm/storage/ad;
+    invoke-direct {p0, v1, v2}, Lcom/tencent/mm/ui/chatting/gallery/g;->dD(J)Lcom/tencent/mm/storage/ADclz;
 
     move-result-object v1
 
@@ -292,7 +292,7 @@
 
     iget-wide v1, p1, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
-    invoke-direct {p0, v1, v2}, Lcom/tencent/mm/ui/chatting/gallery/g;->dD(J)Lcom/tencent/mm/storage/ad;
+    invoke-direct {p0, v1, v2}, Lcom/tencent/mm/ui/chatting/gallery/g;->dD(J)Lcom/tencent/mm/storage/ADclz;
 
     move-result-object v1
 

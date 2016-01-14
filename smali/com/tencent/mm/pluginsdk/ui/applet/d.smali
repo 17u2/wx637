@@ -528,7 +528,7 @@
 
     iput-object p1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->username:Ljava/lang/String;
 
-    invoke-static {p1}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -549,17 +549,17 @@
 
     if-nez v1, :cond_1
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->cRC:Lcom/tencent/mm/model/c;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->cRC:Lcom/tencent/mm/model/Cclz;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->ro()Lcom/tencent/mm/storage/f;
-
-    move-result-object v1
-
-    invoke-virtual {v1, p1}, Lcom/tencent/mm/storage/f;->BM(Ljava/lang/String;)Lcom/tencent/mm/storage/e;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->ro()Lcom/tencent/mm/storage/Fclz;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->cOY:Lcom/tencent/mm/storage/e;
+    invoke-virtual {v1, p1}, Lcom/tencent/mm/storage/Fclz;->BM(Ljava/lang/String;)Lcom/tencent/mm/storage/Eclz;
+
+    move-result-object v1
+
+    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->cOY:Lcom/tencent/mm/storage/Eclz;
 
     :cond_1
     iget-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->hTh:Z

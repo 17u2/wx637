@@ -125,7 +125,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v2, Lcom/tencent/mm/storage/j;->bpW:Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/storage/Jclz;->bpW:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -159,7 +159,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v1, Lcom/tencent/mm/storage/j;->bpW:Ljava/lang/String;
+    sget-object v1, Lcom/tencent/mm/storage/Jclz;->bpW:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -247,7 +247,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v1, Lcom/tencent/mm/storage/j;->bpW:Ljava/lang/String;
+    sget-object v1, Lcom/tencent/mm/storage/Jclz;->bpW:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -840,7 +840,7 @@
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v5, Lcom/tencent/mm/storage/j;->bpW:Ljava/lang/String;
+    sget-object v5, Lcom/tencent/mm/storage/Jclz;->bpW:Ljava/lang/String;
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -993,7 +993,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v1, Lcom/tencent/mm/storage/j;->bpW:Ljava/lang/String;
+    sget-object v1, Lcom/tencent/mm/storage/Jclz;->bpW:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1063,7 +1063,7 @@
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v5, Lcom/tencent/mm/storage/j;->bpW:Ljava/lang/String;
+    sget-object v5, Lcom/tencent/mm/storage/Jclz;->bpW:Ljava/lang/String;
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/network/j;
+.implements Lcom/tencent/mm/network/Jclz;
 
 
 # annotations
@@ -205,7 +205,7 @@
     .line 90
     new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
 
-    invoke-static {}, Lcom/tencent/mm/network/z;->Eq()Landroid/os/Looper;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->Eq()Landroid/os/Looper;
 
     move-result-object v1
 
@@ -244,7 +244,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+.method public final a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
     .locals 7
 
     .prologue
@@ -358,7 +358,7 @@
     if-eqz v0, :cond_1
 
     .line 149
-    invoke-virtual {p0, p1}, Lcom/tencent/mm/ac/a;->c(Lcom/tencent/mm/network/e;)V
+    invoke-virtual {p0, p1}, Lcom/tencent/mm/ac/a;->c(Lcom/tencent/mm/network/Eclz;)V
 
     .line 150
     iget-object v0, p0, Lcom/tencent/mm/ac/a;->any:Lcom/tencent/mm/sdk/platformtools/ag;
@@ -386,13 +386,13 @@
     invoke-direct {v2}, Lcom/tencent/mm/ac/a$a;-><init>()V
 
     .line 156
-    invoke-static {}, Lcom/tencent/mm/network/z;->En()Lcom/tencent/mm/network/r;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->En()Lcom/tencent/mm/network/Rclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/network/r;->cal:Lcom/tencent/mm/network/a;
+    iget-object v0, v0, Lcom/tencent/mm/network/Rclz;->cal:Lcom/tencent/mm/network/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/network/a;->qY()I
+    invoke-virtual {v0}, Lcom/tencent/mm/network/Aclz;->qY()I
 
     move-result v0
 
@@ -461,14 +461,14 @@
     iput-object v1, v0, Lcom/tencent/mm/protocal/b/adm;->ims:Ljava/lang/String;
 
     .line 168
-    invoke-virtual {p0, p1, v2, p0}, Lcom/tencent/mm/ac/a;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;)I
+    invoke-virtual {p0, p1, v2, p0}, Lcom/tencent/mm/ac/a;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/network/Oclz;Lcom/tencent/mm/network/Jclz;)I
 
     move-result v0
 
     goto :goto_0
 .end method
 
-.method protected final a(Lcom/tencent/mm/network/o;)I
+.method protected final a(Lcom/tencent/mm/network/Oclz;)I
     .locals 1
 
     .prologue
@@ -478,14 +478,14 @@
     return v0
 .end method
 
-.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/o;[B)V
+.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/Oclz;[B)V
     .locals 18
 
     .prologue
     .line 174
     if-eqz p5, :cond_0
 
-    invoke-interface/range {p5 .. p5}, Lcom/tencent/mm/network/o;->getType()I
+    invoke-interface/range {p5 .. p5}, Lcom/tencent/mm/network/Oclz;->getType()I
 
     move-result v4
 
@@ -525,7 +525,7 @@
 
     .line 175
     :cond_2
-    invoke-interface/range {p5 .. p5}, Lcom/tencent/mm/network/o;->getType()I
+    invoke-interface/range {p5 .. p5}, Lcom/tencent/mm/network/Oclz;->getType()I
 
     move-result v4
 
@@ -689,7 +689,7 @@
 
     .line 194
     :cond_5
-    invoke-interface/range {p5 .. p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
+    invoke-interface/range {p5 .. p5}, Lcom/tencent/mm/network/Oclz;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v4
 
@@ -701,7 +701,7 @@
     if-nez v5, :cond_9
 
     .line 197
-    invoke-interface/range {p5 .. p5}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
+    invoke-interface/range {p5 .. p5}, Lcom/tencent/mm/network/Oclz;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v4
 
@@ -1385,17 +1385,17 @@
 
     invoke-direct {v10, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/network/z;->En()Lcom/tencent/mm/network/r;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->En()Lcom/tencent/mm/network/Rclz;
 
     move-result-object v17
 
     move-object/from16 v0, v17
 
-    iget-object v0, v0, Lcom/tencent/mm/network/r;->cal:Lcom/tencent/mm/network/a;
+    iget-object v0, v0, Lcom/tencent/mm/network/Rclz;->cal:Lcom/tencent/mm/network/Aclz;
 
     move-object/from16 v17, v0
 
-    invoke-virtual/range {v17 .. v17}, Lcom/tencent/mm/network/a;->qY()I
+    invoke-virtual/range {v17 .. v17}, Lcom/tencent/mm/network/Aclz;->qY()I
 
     move-result v17
 
@@ -1505,13 +1505,13 @@
     move-result-object v4
 
     .line 252
-    invoke-static {}, Lcom/tencent/mm/network/z;->En()Lcom/tencent/mm/network/r;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->En()Lcom/tencent/mm/network/Rclz;
 
     move-result-object v5
 
-    iget-object v5, v5, Lcom/tencent/mm/network/r;->cal:Lcom/tencent/mm/network/a;
+    iget-object v5, v5, Lcom/tencent/mm/network/Rclz;->cal:Lcom/tencent/mm/network/Aclz;
 
-    invoke-virtual {v5}, Lcom/tencent/mm/network/a;->qY()I
+    invoke-virtual {v5}, Lcom/tencent/mm/network/Aclz;->qY()I
 
     move-result v5
 
@@ -1810,7 +1810,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/e;
+    iget-object v4, v0, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/Eclz;
 
     move-object/from16 v0, p0
 
@@ -1818,7 +1818,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/ac/a;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/ac/a;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
 
     .line 260
     :goto_11
@@ -1970,19 +1970,19 @@
 
     move-result-object v7
 
-    invoke-static {}, Lcom/tencent/mm/network/z;->En()Lcom/tencent/mm/network/r;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->En()Lcom/tencent/mm/network/Rclz;
 
     move-result-object v8
 
-    iget-object v8, v8, Lcom/tencent/mm/network/r;->cal:Lcom/tencent/mm/network/a;
+    iget-object v8, v8, Lcom/tencent/mm/network/Rclz;->cal:Lcom/tencent/mm/network/Aclz;
 
-    invoke-virtual {v8}, Lcom/tencent/mm/network/a;->qY()I
+    invoke-virtual {v8}, Lcom/tencent/mm/network/Aclz;->qY()I
 
     move-result v8
 
     invoke-direct {v4, v5, v6, v7, v8}, Lcom/tencent/mm/ac/e;-><init>(J[BI)V
 
-    invoke-static {}, Lcom/tencent/mm/network/z;->En()Lcom/tencent/mm/network/r;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->En()Lcom/tencent/mm/network/Rclz;
 
     move-result-object v5
 
@@ -1992,7 +1992,7 @@
 
     invoke-direct {v6, v0}, Lcom/tencent/mm/ac/a$2;-><init>(Lcom/tencent/mm/ac/a;)V
 
-    invoke-virtual {v4, v5, v6}, Lcom/tencent/mm/ac/e;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+    invoke-virtual {v4, v5, v6}, Lcom/tencent/mm/ac/e;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
 
     :cond_20
     move-object/from16 v0, p0

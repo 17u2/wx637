@@ -58,7 +58,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/k;
+    check-cast v0, Lcom/tencent/mm/storage/Kclz;
 
     .line 130
     new-instance v2, Landroid/content/Intent;
@@ -68,13 +68,13 @@
     .line 132
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneUI$3;->kaq:Lcom/tencent/mm/ui/chatting/AtSomeoneUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/AtSomeoneUI;->b(Lcom/tencent/mm/ui/chatting/AtSomeoneUI;)Lcom/tencent/mm/storage/e;
+    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/AtSomeoneUI;->b(Lcom/tencent/mm/ui/chatting/AtSomeoneUI;)Lcom/tencent/mm/storage/Eclz;
 
     move-result-object v1
 
     iget-object v3, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    invoke-static {v1, v3}, Lcom/tencent/mm/ui/chatting/AtSomeoneUI;->a(Lcom/tencent/mm/storage/e;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v3}, Lcom/tencent/mm/ui/chatting/AtSomeoneUI;->a(Lcom/tencent/mm/storage/Eclz;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -86,7 +86,7 @@
     if-eqz v3, :cond_0
 
     .line 135
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/k;->qx()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/Kclz;->qx()Ljava/lang/String;
 
     move-result-object v1
 

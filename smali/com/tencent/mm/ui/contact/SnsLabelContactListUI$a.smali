@@ -17,7 +17,7 @@
 # instance fields
 .field private context:Landroid/content/Context;
 
-.field private gwu:Lcom/tencent/mm/storage/q;
+.field private gwu:Lcom/tencent/mm/storage/Qclz;
 
 .field private kuv:Ljava/util/Map;
 
@@ -47,7 +47,7 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/contact/SnsLabelContactListUI$a;->kuv:Ljava/util/Map;
 
     .line 189
-    iput-object v1, p0, Lcom/tencent/mm/ui/contact/SnsLabelContactListUI$a;->gwu:Lcom/tencent/mm/storage/q;
+    iput-object v1, p0, Lcom/tencent/mm/ui/contact/SnsLabelContactListUI$a;->gwu:Lcom/tencent/mm/storage/Qclz;
 
     .line 194
     iput-object p1, p0, Lcom/tencent/mm/ui/contact/SnsLabelContactListUI$a;->context:Landroid/content/Context;
@@ -58,15 +58,15 @@
     invoke-interface {v0}, Ljava/util/Map;->clear()V
 
     .line 196
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/contact/SnsLabelContactListUI$a;->gwu:Lcom/tencent/mm/storage/q;
+    iput-object v0, p0, Lcom/tencent/mm/ui/contact/SnsLabelContactListUI$a;->gwu:Lcom/tencent/mm/storage/Qclz;
 
     .line 197
     const/4 v0, 0x0
@@ -251,11 +251,11 @@
     if-nez v1, :cond_0
 
     .line 229
-    iget-object v1, p0, Lcom/tencent/mm/ui/contact/SnsLabelContactListUI$a;->gwu:Lcom/tencent/mm/storage/q;
+    iget-object v1, p0, Lcom/tencent/mm/ui/contact/SnsLabelContactListUI$a;->gwu:Lcom/tencent/mm/storage/Qclz;
 
     iget-object v2, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v1
 
@@ -384,7 +384,7 @@
 
     iget-object v1, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->eA(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->eA(Ljava/lang/String;)Z
 
     move-result v1
 

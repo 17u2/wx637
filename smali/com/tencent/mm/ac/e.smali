@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/network/j;
+.implements Lcom/tencent/mm/network/Jclz;
 
 
 # annotations
@@ -22,7 +22,7 @@
 
 .field private bNx:[B
 
-.field private byM:Lcom/tencent/mm/network/o;
+.field private byM:Lcom/tencent/mm/network/Oclz;
 
 .field private uin:I
 
@@ -101,7 +101,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+.method public final a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
     .locals 7
 
     .prologue
@@ -149,7 +149,7 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/ac/e$a;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ac/e;->byM:Lcom/tencent/mm/network/o;
+    iput-object v0, p0, Lcom/tencent/mm/ac/e;->byM:Lcom/tencent/mm/network/Oclz;
 
     .line 53
     :goto_1
@@ -180,9 +180,9 @@
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 54
-    iget-object v0, p0, Lcom/tencent/mm/ac/e;->byM:Lcom/tencent/mm/network/o;
+    iget-object v0, p0, Lcom/tencent/mm/ac/e;->byM:Lcom/tencent/mm/network/Oclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
+    invoke-interface {v0}, Lcom/tencent/mm/network/Oclz;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 
@@ -195,9 +195,9 @@
     iput-wide v1, v0, Lcom/tencent/mm/protocal/Uclz$a;->iir:J
 
     .line 55
-    iget-object v0, p0, Lcom/tencent/mm/ac/e;->byM:Lcom/tencent/mm/network/o;
+    iget-object v0, p0, Lcom/tencent/mm/ac/e;->byM:Lcom/tencent/mm/network/Oclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
+    invoke-interface {v0}, Lcom/tencent/mm/network/Oclz;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 
@@ -213,9 +213,9 @@
     iput-object p2, p0, Lcom/tencent/mm/ac/e;->ans:Lcom/tencent/mm/q/Dclz;
 
     .line 58
-    iget-object v0, p0, Lcom/tencent/mm/ac/e;->byM:Lcom/tencent/mm/network/o;
+    iget-object v0, p0, Lcom/tencent/mm/ac/e;->byM:Lcom/tencent/mm/network/Oclz;
 
-    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/ac/e;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;)I
+    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/ac/e;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/network/Oclz;Lcom/tencent/mm/network/Jclz;)I
 
     move-result v0
 
@@ -227,10 +227,10 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/ac/e$b;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ac/e;->byM:Lcom/tencent/mm/network/o;
+    iput-object v0, p0, Lcom/tencent/mm/ac/e;->byM:Lcom/tencent/mm/network/Oclz;
 
     .line 50
-    iget-object v0, p0, Lcom/tencent/mm/ac/e;->byM:Lcom/tencent/mm/network/o;
+    iget-object v0, p0, Lcom/tencent/mm/ac/e;->byM:Lcom/tencent/mm/network/Oclz;
 
     check-cast v0, Lcom/tencent/mm/ac/e$b;
 
@@ -241,7 +241,7 @@
     goto :goto_1
 .end method
 
-.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/o;[B)V
+.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/Oclz;[B)V
     .locals 5
 
     .prologue

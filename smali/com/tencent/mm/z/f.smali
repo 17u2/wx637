@@ -1231,11 +1231,11 @@
     invoke-interface {v5}, Landroid/database/Cursor;->close()V
 
     .line 200
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v4
 
-    iget-object v4, v4, Lcom/tencent/mm/model/c;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v4, v4, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
 
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
@@ -1305,11 +1305,11 @@
     if-lez v0, :cond_9
 
     .line 217
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/model/c;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v0, v0, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
 
     invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/aw/g;->dv(J)I
 
@@ -1641,7 +1641,7 @@
 
     .prologue
     .line 665
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v6
 
@@ -2577,11 +2577,11 @@
     if-lez v6, :cond_4
 
     .line 1273
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v6
 
-    iget-object v6, v6, Lcom/tencent/mm/model/c;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v6, v6, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
 
     invoke-virtual {v6, v4, v5}, Lcom/tencent/mm/aw/g;->dv(J)I
 
@@ -4571,11 +4571,11 @@
     .line 1714
     new-instance v7, Lcom/tencent/mm/a/n;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v10
 
-    iget v10, v10, Lcom/tencent/mm/model/c;->uin:I
+    iget v10, v10, Lcom/tencent/mm/model/Cclz;->uin:I
 
     invoke-direct {v7, v10}, Lcom/tencent/mm/a/n;-><init>(I)V
 
@@ -6344,19 +6344,19 @@
 
     .line 243
     :goto_2
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rp()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rp()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rq()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rq()Ljava/lang/String;
 
     move-result-object v1
 
@@ -8997,7 +8997,7 @@
     goto :goto_0
 .end method
 
-.method public final h(Lcom/tencent/mm/storage/ad;)Lcom/tencent/mm/z/d;
+.method public final h(Lcom/tencent/mm/storage/ADclz;)Lcom/tencent/mm/z/d;
     .locals 5
 
     .prologue
@@ -9106,19 +9106,19 @@
 
     .line 267
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rp()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rp()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/model/c;->rq()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/model/Cclz;->rq()Ljava/lang/String;
 
     move-result-object v2
 
@@ -9324,7 +9324,7 @@
     return-object v0
 .end method
 
-.method public final i(Lcom/tencent/mm/storage/ad;)V
+.method public final i(Lcom/tencent/mm/storage/ADclz;)V
     .locals 10
 
     .prologue
@@ -9333,7 +9333,7 @@
     const/4 v8, 0x0
 
     .line 1022
-    invoke-virtual {p0, p1}, Lcom/tencent/mm/z/f;->h(Lcom/tencent/mm/storage/ad;)Lcom/tencent/mm/z/d;
+    invoke-virtual {p0, p1}, Lcom/tencent/mm/z/f;->h(Lcom/tencent/mm/storage/ADclz;)Lcom/tencent/mm/z/d;
 
     move-result-object v0
 

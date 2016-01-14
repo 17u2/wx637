@@ -86,7 +86,7 @@
     invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 94
-    invoke-static {}, Lcom/tencent/mm/network/z;->Ep()Lcom/tencent/mm/network/x;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->Ep()Lcom/tencent/mm/network/Xclz;
 
     move-result-object v1
 
@@ -94,7 +94,7 @@
 
     new-array v0, v0, [B
 
-    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/network/x;->f(I[B)V
+    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/network/Xclz;->f(I[B)V
 
     .line 96
     const/4 v0, 0x1

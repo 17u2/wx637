@@ -386,22 +386,22 @@
 
     .line 82
     :cond_b
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget v0, v0, Lcom/tencent/mm/model/c;->uin:I
+    iget v0, v0, Lcom/tencent/mm/model/Cclz;->uin:I
 
     if-eqz v0, :cond_e
 
     .line 86
-    invoke-static {}, Lcom/tencent/mm/model/ah;->sU()Lcom/tencent/mm/model/ba;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->sU()Lcom/tencent/mm/model/BAclz;
 
     move-result-object v0
 
     const-string/jumbo v1, "plugin.emoji"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/ba;->fk(Ljava/lang/String;)Lcom/tencent/mm/model/ae;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/BAclz;->fk(Ljava/lang/String;)Lcom/tencent/mm/model/AEclz;
 
     move-result-object v0
 
@@ -409,11 +409,11 @@
     if-eqz v0, :cond_c
 
     .line 88
-    invoke-interface {v0, v4}, Lcom/tencent/mm/model/ae;->aN(I)V
+    invoke-interface {v0, v4}, Lcom/tencent/mm/model/AEclz;->aN(I)V
 
     .line 90
     :cond_c
-    invoke-static {}, Lcom/tencent/mm/model/ah;->sU()Lcom/tencent/mm/model/ba;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->sU()Lcom/tencent/mm/model/BAclz;
 
     move-result-object v0
 
@@ -423,7 +423,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/ba;->fk(Ljava/lang/String;)Lcom/tencent/mm/model/ae;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/BAclz;->fk(Ljava/lang/String;)Lcom/tencent/mm/model/AEclz;
 
     move-result-object v0
 
@@ -452,7 +452,7 @@
     move-result-object v2
 
     .line 97
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v3
 
@@ -463,7 +463,7 @@
     invoke-virtual {v3, v4}, Lcom/tencent/mm/sdk/platformtools/ac;->r(Ljava/lang/Runnable;)I
 
     .line 98
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v3
 
@@ -480,7 +480,7 @@
     invoke-virtual {v2, v1}, Lcom/tencent/mm/ui/g/c;->a(Lcom/tencent/mm/ui/g/c$a;)Z
 
     .line 101
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v0
 

@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic cPI:Lcom/tencent/mm/storage/k;
+.field final synthetic cPI:Lcom/tencent/mm/storage/Kclz;
 
 .field final synthetic dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
 
@@ -26,14 +26,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS;Lcom/tencent/mm/storage/k;Lcom/tencent/mm/pluginsdk/d/a/a;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS;Lcom/tencent/mm/storage/Kclz;Lcom/tencent/mm/pluginsdk/d/a/a;)V
     .locals 1
 
     .prologue
     .line 386
     iput-object p1, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;->dxa:Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS;
 
-    iput-object p2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;->cPI:Lcom/tencent/mm/storage/k;
+    iput-object p2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;->cPI:Lcom/tencent/mm/storage/Kclz;
 
     iput-object p3, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;->dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
 
@@ -70,7 +70,7 @@
     .line 392
     iget-object v1, v0, Lcom/tencent/mm/d/a/cs;->avK:Lcom/tencent/mm/d/a/cs$a;
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;->cPI:Lcom/tencent/mm/storage/k;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;->cPI:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -116,7 +116,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2$1;-><init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;)V
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/cs$a;->avO:Lcom/tencent/mm/model/aq$a;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/cs$a;->avO:Lcom/tencent/mm/model/AQclz$a;
 
     .line 402
     sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;

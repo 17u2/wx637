@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/v;
+.implements Lcom/tencent/mm/model/Vclz;
 
 
 # annotations

@@ -524,7 +524,7 @@
 
     .line 430
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v6
 
@@ -1508,17 +1508,17 @@
     if-eqz v5, :cond_a
 
     .line 173
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v5
 
-    invoke-virtual {v5}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v5}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v5
 
     iget-object v6, v0, Lcom/tencent/mm/protocal/b/anw;->ilA:Ljava/lang/String;
 
-    invoke-virtual {v5, v6}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v5, v6}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v5
 
@@ -1533,7 +1533,7 @@
 
     if-eqz v6, :cond_b
 
-    invoke-virtual {v5}, Lcom/tencent/mm/storage/k;->qp()Z
+    invoke-virtual {v5}, Lcom/tencent/mm/storage/Kclz;->qp()Z
 
     move-result v5
 
@@ -1741,17 +1741,17 @@
     if-nez v3, :cond_12
 
     .line 207
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v3}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v3
 
     iget-object v5, v0, Lcom/tencent/mm/protocal/b/anw;->ilA:Ljava/lang/String;
 
-    invoke-virtual {v3, v5}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v3, v5}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v3
 
@@ -1766,7 +1766,7 @@
 
     if-eqz v5, :cond_13
 
-    invoke-virtual {v3}, Lcom/tencent/mm/storage/k;->qp()Z
+    invoke-virtual {v3}, Lcom/tencent/mm/storage/Kclz;->qp()Z
 
     move-result v3
 

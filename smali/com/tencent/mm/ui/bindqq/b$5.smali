@@ -92,7 +92,7 @@
     invoke-virtual {v1}, Lcom/tencent/mm/ui/bindqq/b;->ajq()V
 
     .line 151
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 

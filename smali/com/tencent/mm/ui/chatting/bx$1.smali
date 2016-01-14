@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/chatting/bx;->a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;Ljava/lang/String;)V
+    value = Lcom/tencent/mm/ui/chatting/bx;->a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
 # instance fields
 .field final synthetic bDj:Ljava/lang/String;
 
-.field final synthetic keo:Lcom/tencent/mm/storage/ad;
+.field final synthetic keo:Lcom/tencent/mm/storage/ADclz;
 
 .field final synthetic kep:I
 
@@ -28,14 +28,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/bx;Lcom/tencent/mm/storage/ad;Ljava/lang/String;I)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/bx;Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;I)V
     .locals 1
 
     .prologue
     .line 85
     iput-object p1, p0, Lcom/tencent/mm/ui/chatting/bx$1;->keq:Lcom/tencent/mm/ui/chatting/bx;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/bx$1;->keo:Lcom/tencent/mm/storage/ad;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/bx$1;->keo:Lcom/tencent/mm/storage/ADclz;
 
     iput-object p3, p0, Lcom/tencent/mm/ui/chatting/bx$1;->bDj:Ljava/lang/String;
 
@@ -103,7 +103,7 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 91
-    invoke-static {}, Lcom/tencent/mm/model/ah;->sU()Lcom/tencent/mm/model/ba;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->sU()Lcom/tencent/mm/model/BAclz;
 
     move-result-object v0
 
@@ -113,13 +113,13 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/ba;->fk(Ljava/lang/String;)Lcom/tencent/mm/model/ae;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/BAclz;->fk(Ljava/lang/String;)Lcom/tencent/mm/model/AEclz;
 
     move-result-object v0
 
     check-cast v0, Lcom/tencent/mm/app/plugin/voicereminder/a/d;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/bx$1;->keo:Lcom/tencent/mm/storage/ad;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/bx$1;->keo:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v1, v1, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
@@ -159,13 +159,13 @@
 
     iget v1, p0, Lcom/tencent/mm/ui/chatting/bx$1;->kep:I
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/bx$1;->keo:Lcom/tencent/mm/storage/ad;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/bx$1;->keo:Lcom/tencent/mm/storage/ADclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ui/chatting/k;->b(ILcom/tencent/mm/storage/ad;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ui/chatting/k;->b(ILcom/tencent/mm/storage/ADclz;)V
 
     .line 96
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

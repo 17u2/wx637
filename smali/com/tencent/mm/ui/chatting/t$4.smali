@@ -79,7 +79,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/ad;
+    check-cast v0, Lcom/tencent/mm/storage/ADclz;
 
     .line 215
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/t$4;->val$context:Landroid/content/Context;
@@ -92,7 +92,7 @@
 
     iget-boolean v4, v4, Lcom/tencent/mm/ui/chatting/t$a;->jJD:Z
 
-    invoke-static {v2, v3, v0, v4}, Lcom/tencent/mm/ui/chatting/t;->d(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/storage/ad;Z)V
+    invoke-static {v2, v3, v0, v4}, Lcom/tencent/mm/ui/chatting/t;->d(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/storage/ADclz;Z)V
 
     goto :goto_0
 

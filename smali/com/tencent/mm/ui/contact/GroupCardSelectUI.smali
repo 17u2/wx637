@@ -62,7 +62,7 @@
     return-object v0
 .end method
 
-.method private a(ILcom/tencent/mm/storage/k;J)V
+.method private a(ILcom/tencent/mm/storage/Kclz;J)V
     .locals 4
 
     .prologue
@@ -83,7 +83,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/k;
+    check-cast v0, Lcom/tencent/mm/storage/Kclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -297,11 +297,11 @@
     iput-boolean v0, p0, Lcom/tencent/mm/ui/contact/GroupCardSelectUI;->ksA:Z
 
     .line 54
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rl()Lcom/tencent/mm/storage/s;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rl()Lcom/tencent/mm/storage/Sclz;
 
     move-result-object v0
 
@@ -313,7 +313,7 @@
 
     invoke-direct {v8}, Ljava/util/HashMap;-><init>()V
 
-    iget-object v0, v0, Lcom/tencent/mm/storage/s;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v0, v0, Lcom/tencent/mm/storage/Sclz;->aoD:Lcom/tencent/mm/sdk/g/d;
 
     const-string/jumbo v1, "rconversation"
 
@@ -360,7 +360,7 @@
 
     iput-object v0, p0, Lcom/tencent/mm/ui/contact/GroupCardSelectUI;->eGh:Ljava/util/List;
 
-    invoke-static {}, Lcom/tencent/mm/model/i;->sA()Ljava/util/List;
+    invoke-static {}, Lcom/tencent/mm/model/Iclz;->sA()Ljava/util/List;
 
     move-result-object v3
 
@@ -387,7 +387,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/k;
+    check-cast v0, Lcom/tencent/mm/storage/Kclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/GroupCardSelectUI;->ksD:Ljava/util/HashMap;
 
@@ -517,7 +517,7 @@
 
     move-result-wide v5
 
-    invoke-direct {p0, v2, v0, v5, v6}, Lcom/tencent/mm/ui/contact/GroupCardSelectUI;->a(ILcom/tencent/mm/storage/k;J)V
+    invoke-direct {p0, v2, v0, v5, v6}, Lcom/tencent/mm/ui/contact/GroupCardSelectUI;->a(ILcom/tencent/mm/storage/Kclz;J)V
 
     add-int/lit8 v0, v2, 0x1
 

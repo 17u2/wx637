@@ -255,7 +255,7 @@
     :cond_1
     invoke-virtual {p0}, Lcom/tencent/mm/ui/account/LoginUI;->acY()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -279,7 +279,7 @@
 
     invoke-direct {v0, v1, v2, v3, v4}, Lcom/tencent/mm/modelsimple/t;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -349,7 +349,7 @@
     .line 72
     const-string/jumbo v0, ""
 
-    invoke-static {v0}, Lcom/tencent/mm/model/ah;->eW(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/tencent/mm/model/AHclz;->eW(Ljava/lang/String;)V
 
     new-instance v0, Landroid/content/Intent;
 
@@ -463,7 +463,7 @@
 
     .line 373
     :sswitch_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -545,7 +545,7 @@
 
     .line 404
     :sswitch_5
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -680,14 +680,14 @@
 
     .line 448
     :sswitch_6
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tx()V
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tx()V
 
     .line 449
     iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
 
     iget-object v1, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tz()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tz()Ljava/lang/String;
 
     move-result-object v0
 
@@ -733,7 +733,7 @@
 
     .line 449
     :cond_4
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tz()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tz()Ljava/lang/String;
 
     move-result-object v0
 
@@ -1200,7 +1200,7 @@
 
     .line 508
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -1310,17 +1310,17 @@
 
     .line 525
     :cond_4
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    new-instance v3, Lcom/tencent/mm/model/aq;
+    new-instance v3, Lcom/tencent/mm/model/AQclz;
 
     new-instance v4, Lcom/tencent/mm/ui/account/LoginUI$5;
 
     invoke-direct {v4, p0}, Lcom/tencent/mm/ui/account/LoginUI$5;-><init>(Lcom/tencent/mm/ui/account/LoginUI;)V
 
-    invoke-direct {v3, v4}, Lcom/tencent/mm/model/aq;-><init>(Lcom/tencent/mm/model/aq$a;)V
+    invoke-direct {v3, v4}, Lcom/tencent/mm/model/AQclz;-><init>(Lcom/tencent/mm/model/AQclz$a;)V
 
     invoke-virtual {v0, v3}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
@@ -1336,7 +1336,7 @@
 
     .line 538
     :cond_5
-    invoke-static {}, Lcom/tencent/mm/model/ah;->ty()V
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->ty()V
 
     .line 539
     iget-object v0, p0, Lcom/tencent/mm/ui/account/LoginUI;->jCq:Lcom/tencent/mm/ui/account/f;
@@ -1360,7 +1360,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v3
 
@@ -1394,7 +1394,7 @@
 
     const-string/jumbo v3, "R200_900_phone"
 
-    invoke-static {v3}, Lcom/tencent/mm/model/ah;->eV(Ljava/lang/String;)I
+    invoke-static {v3}, Lcom/tencent/mm/model/AHclz;->eV(Ljava/lang/String;)I
 
     move-result v3
 
@@ -1539,7 +1539,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1573,7 +1573,7 @@
 
     const-string/jumbo v1, "R400_100_login"
 
-    invoke-static {v1}, Lcom/tencent/mm/model/ah;->eV(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/tencent/mm/model/AHclz;->eV(Ljava/lang/String;)I
 
     move-result v1
 
@@ -1824,7 +1824,7 @@
 
     .line 166
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -1885,7 +1885,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1919,7 +1919,7 @@
 
     const-string/jumbo v1, "L100_100_logout"
 
-    invoke-static {v1}, Lcom/tencent/mm/model/ah;->eV(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/tencent/mm/model/AHclz;->eV(Ljava/lang/String;)I
 
     move-result v1
 
@@ -1957,7 +1957,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1991,7 +1991,7 @@
 
     const-string/jumbo v1, "L400_100_login"
 
-    invoke-static {v1}, Lcom/tencent/mm/model/ah;->eV(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/tencent/mm/model/AHclz;->eV(Ljava/lang/String;)I
 
     move-result v1
 
@@ -2033,7 +2033,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v1
 
@@ -2067,7 +2067,7 @@
 
     const-string/jumbo v1, "L100_100_logout"
 
-    invoke-static {v1}, Lcom/tencent/mm/model/ah;->eV(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/tencent/mm/model/AHclz;->eV(Ljava/lang/String;)I
 
     move-result v1
 
@@ -2108,7 +2108,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v1
 
@@ -2142,7 +2142,7 @@
 
     const-string/jumbo v1, "L400_100_login"
 
-    invoke-static {v1}, Lcom/tencent/mm/model/ah;->eV(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/tencent/mm/model/AHclz;->eV(Ljava/lang/String;)I
 
     move-result v1
 

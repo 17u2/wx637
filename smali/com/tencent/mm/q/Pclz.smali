@@ -1923,9 +1923,9 @@
     :sswitch_e
     iget-object v0, p0, Lcom/tencent/mm/q/Pclz;->bxW:Lcom/tencent/mm/protocal/Hclz$c;
 
-    check-cast v0, Lcom/tencent/mm/model/ak$a;
+    check-cast v0, Lcom/tencent/mm/model/AKclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/model/ak$a;->bug:Lcom/tencent/mm/protocal/b/VOclz;
+    iget-object v0, v0, Lcom/tencent/mm/model/AKclz$a;->bug:Lcom/tencent/mm/protocal/b/VOclz;
 
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/VOclz;->iov:Lcom/tencent/mm/protocal/b/ajy;
 
@@ -1941,9 +1941,9 @@
     :sswitch_f
     iget-object v0, p0, Lcom/tencent/mm/q/Pclz;->bxW:Lcom/tencent/mm/protocal/Hclz$c;
 
-    check-cast v0, Lcom/tencent/mm/model/am$a;
+    check-cast v0, Lcom/tencent/mm/model/AMclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/model/am$a;->buk:Lcom/tencent/mm/protocal/b/auj;
+    iget-object v0, v0, Lcom/tencent/mm/model/AMclz$a;->buk:Lcom/tencent/mm/protocal/b/auj;
 
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/auj;->iov:Lcom/tencent/mm/protocal/b/ajy;
 
@@ -1959,9 +1959,9 @@
     :sswitch_10
     iget-object v0, p0, Lcom/tencent/mm/q/Pclz;->bxW:Lcom/tencent/mm/protocal/Hclz$c;
 
-    check-cast v0, Lcom/tencent/mm/model/al$a;
+    check-cast v0, Lcom/tencent/mm/model/ALclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/model/al$a;->bui:Lcom/tencent/mm/protocal/b/VSclz;
+    iget-object v0, v0, Lcom/tencent/mm/model/ALclz$a;->bui:Lcom/tencent/mm/protocal/b/VSclz;
 
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/VSclz;->iov:Lcom/tencent/mm/protocal/b/ajy;
 

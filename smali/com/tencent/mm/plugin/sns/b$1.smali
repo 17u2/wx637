@@ -63,11 +63,11 @@
 
     iget-object v0, v0, Lcom/tencent/mm/d/a/cs;->avK:Lcom/tencent/mm/d/a/cs$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/cs$a;->avO:Lcom/tencent/mm/model/aq$a;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/cs$a;->avO:Lcom/tencent/mm/model/AQclz$a;
 
     const/4 v1, 0x0
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/model/aq$a;->a(Lcom/tencent/mm/network/e;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/model/AQclz$a;->a(Lcom/tencent/mm/network/Eclz;)V
 
     .line 40
     :cond_0

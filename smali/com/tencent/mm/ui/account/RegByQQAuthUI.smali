@@ -395,16 +395,16 @@
 
     .line 201
     :pswitch_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->ty()V
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->ty()V
 
     .line 204
-    sget-object v0, Lcom/tencent/mm/model/ag;->btl:Lcom/tencent/mm/model/ag;
+    sget-object v0, Lcom/tencent/mm/model/AGclz;->btl:Lcom/tencent/mm/model/AGclz;
 
     const-string/jumbo v2, "login_user_name"
 
     iget-object v3, p0, Lcom/tencent/mm/ui/account/RegByQQAuthUI;->bSR:Ljava/lang/String;
 
-    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/model/ag;->E(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/model/AGclz;->E(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 206
     new-instance v0, Landroid/content/Intent;
@@ -532,7 +532,7 @@
     goto :goto_1
 
     :sswitch_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -681,7 +681,7 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onPause()V
 
     .line 73
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -701,7 +701,7 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onResume()V
 
     .line 67
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

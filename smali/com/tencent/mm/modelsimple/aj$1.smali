@@ -93,7 +93,7 @@
     invoke-static {}, Lcom/tencent/mm/modelsimple/aj;->uf()Z
 
     .line 63
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

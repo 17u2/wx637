@@ -50,7 +50,7 @@
 
     .line 544
     :try_start_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -69,17 +69,17 @@
 
     .line 547
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    new-instance v1, Lcom/tencent/mm/model/aq;
+    new-instance v1, Lcom/tencent/mm/model/AQclz;
 
     new-instance v2, Lcom/tencent/mm/plugin/base/stub/WXCommProvider$5$1;
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/plugin/base/stub/WXCommProvider$5$1;-><init>(Lcom/tencent/mm/plugin/base/stub/WXCommProvider$5;)V
 
-    invoke-direct {v1, v2}, Lcom/tencent/mm/model/aq;-><init>(Lcom/tencent/mm/model/aq$a;)V
+    invoke-direct {v1, v2}, Lcom/tencent/mm/model/AQclz;-><init>(Lcom/tencent/mm/model/AQclz$a;)V
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 

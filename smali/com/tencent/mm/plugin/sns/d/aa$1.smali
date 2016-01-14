@@ -136,7 +136,7 @@
     :cond_0
     iget-wide v0, v0, Lcom/tencent/mm/plugin/sns/f/f;->gnq:J
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 
@@ -199,7 +199,7 @@
     :cond_3
     iget-wide v0, v0, Lcom/tencent/mm/plugin/sns/f/f;->gnq:J
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 

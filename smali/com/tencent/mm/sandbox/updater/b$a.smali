@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field private bfB:Lcom/tencent/mm/network/s;
+.field private bfB:Lcom/tencent/mm/network/Sclz;
 
 .field private host:Ljava/lang/String;
 
@@ -41,7 +41,7 @@
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 
     .line 208
-    iput-object v1, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iput-object v1, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     .line 209
     const/16 v0, 0xc8
@@ -225,106 +225,106 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v0, v4}, Lcom/tencent/mm/network/b;->a(Ljava/lang/String;Lcom/tencent/mm/network/b$b;)Lcom/tencent/mm/network/s;
+    invoke-static {v0, v4}, Lcom/tencent/mm/network/Bclz;->a(Ljava/lang/String;Lcom/tencent/mm/network/Bclz$b;)Lcom/tencent/mm/network/Sclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iput-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     .line 246
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     const-string/jumbo v4, "POST"
 
-    invoke-virtual {v0, v4}, Lcom/tencent/mm/network/s;->setRequestMethod(Ljava/lang/String;)V
+    invoke-virtual {v0, v4}, Lcom/tencent/mm/network/Sclz;->setRequestMethod(Ljava/lang/String;)V
 
     .line 247
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/network/s;->Ea()V
+    invoke-virtual {v0}, Lcom/tencent/mm/network/Sclz;->Ea()V
 
     .line 248
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/network/s;->Eb()V
+    invoke-virtual {v0}, Lcom/tencent/mm/network/Sclz;->Eb()V
 
     .line 249
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     const/4 v4, 0x0
 
-    invoke-virtual {v0, v4}, Lcom/tencent/mm/network/s;->setUseCaches(Z)V
+    invoke-virtual {v0, v4}, Lcom/tencent/mm/network/Sclz;->setUseCaches(Z)V
 
     .line 250
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     const-string/jumbo v4, "User-Agent"
 
     const-string/jumbo v5, "Android QQMail HTTP Client"
 
-    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/network/s;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/network/Sclz;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 252
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     const-string/jumbo v4, "Connection"
 
     const-string/jumbo v5, "Keep-Alive"
 
-    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/network/s;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/network/Sclz;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 253
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     const-string/jumbo v4, "Cache-Control"
 
     const-string/jumbo v5, "no-cache"
 
-    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/network/s;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/network/Sclz;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 254
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     const-string/jumbo v4, "Content-Type"
 
     const-string/jumbo v5, "application/octet-stream"
 
-    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/network/s;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/network/Sclz;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 255
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     const-string/jumbo v4, "accept"
 
     const-string/jumbo v5, "*/*"
 
-    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/network/s;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/network/Sclz;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 256
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     const-string/jumbo v4, "Accept-Charset"
 
     const-string/jumbo v5, "UTF-8"
 
-    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/network/s;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/network/Sclz;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 257
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     const/16 v4, 0x3a98
 
-    invoke-virtual {v0, v4}, Lcom/tencent/mm/network/s;->setConnectTimeout(I)V
+    invoke-virtual {v0, v4}, Lcom/tencent/mm/network/Sclz;->setConnectTimeout(I)V
 
     .line 258
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/network/s;->connect()V
+    invoke-virtual {v0}, Lcom/tencent/mm/network/Sclz;->connect()V
 
     .line 260
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/network/s;->getOutputStream()Ljava/io/OutputStream;
+    invoke-virtual {v0}, Lcom/tencent/mm/network/Sclz;->getOutputStream()Ljava/io/OutputStream;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_9
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -356,9 +356,9 @@
     invoke-interface {v0, v3, v4}, Lcom/tencent/mm/sandbox/b$a;->dc(J)V
 
     .line 267
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/network/s;->getResponseCode()I
+    invoke-virtual {v0}, Lcom/tencent/mm/network/Sclz;->getResponseCode()I
 
     move-result v0
 
@@ -386,21 +386,21 @@
     .line 331
     :cond_3
     :goto_1
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     if-eqz v0, :cond_4
 
     .line 342
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v0, v0, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
 
     .line 343
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iput-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     :cond_4
     const/4 v0, 0x0
@@ -438,18 +438,18 @@
     .line 272
     :cond_5
     :try_start_4
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     const-string/jumbo v1, "Content-Encoding"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/network/s;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/network/Sclz;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
     .line 273
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/network/s;->getInputStream()Ljava/io/InputStream;
+    invoke-virtual {v0}, Lcom/tencent/mm/network/Sclz;->getInputStream()Ljava/io/InputStream;
 
     move-result-object v4
 
@@ -631,21 +631,21 @@
     .line 338
     :cond_a
     :goto_7
-    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     if-eqz v1, :cond_1
 
     .line 342
-    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v1, v1, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
 
     .line 343
     const/4 v1, 0x0
 
-    iput-object v1, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iput-object v1, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     goto/16 :goto_0
 
@@ -720,21 +720,21 @@
     .line 338
     :cond_d
     :goto_a
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     if-eqz v0, :cond_e
 
     .line 342
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v0, v0, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
 
     .line 343
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iput-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     .line 347
     :cond_e
@@ -769,21 +769,21 @@
     .line 338
     :cond_10
     :goto_d
-    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     if-eqz v1, :cond_11
 
     .line 342
-    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v1, v1, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
 
     .line 343
     const/4 v1, 0x0
 
-    iput-object v1, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iput-object v1, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     :cond_11
     throw v0
@@ -897,14 +897,14 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 359
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
     if-eqz v0, :cond_0
 
     .line 360
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/s;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/b$a;->bfB:Lcom/tencent/mm/network/Sclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v0, v0, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
 

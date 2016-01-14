@@ -70,7 +70,7 @@
 
     .line 221
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tx()V
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tx()V
 
     .line 222
     iget-object v0, p0, Lcom/tencent/mm/ui/m$5;->cdP:Landroid/app/Activity;

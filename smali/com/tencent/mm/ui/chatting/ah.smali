@@ -91,7 +91,7 @@
     return-object p2
 .end method
 
-.method public final a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;Ljava/lang/String;)V
+.method public final a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;)V
     .locals 19
 
     .prologue
@@ -187,7 +187,7 @@
 
     move/from16 v6, p2
 
-    invoke-direct/range {v3 .. v9}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ad;ZILjava/lang/String;IB)V
+    invoke-direct/range {v3 .. v9}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ADclz;ZILjava/lang/String;IB)V
 
     .line 121
     if-eqz v17, :cond_4
@@ -272,7 +272,7 @@
 
     move-object/from16 v2, p4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/ui/chatting/ah;->b(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/m/a$a;Lcom/tencent/mm/storage/ad;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/ui/chatting/ah;->b(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/m/a$a;Lcom/tencent/mm/storage/ADclz;)V
 
     .line 137
     :cond_0
@@ -379,7 +379,7 @@
 
     move-object/from16 v2, v17
 
-    invoke-static {v0, v4, v1, v2, v5}, Lcom/tencent/mm/ui/chatting/ah;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Landroid/view/View;Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/m/a$a;Ljava/lang/String;)V
+    invoke-static {v0, v4, v1, v2, v5}, Lcom/tencent/mm/ui/chatting/ah;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Landroid/view/View;Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/m/a$a;Ljava/lang/String;)V
 
     .line 148
     :goto_4
@@ -618,7 +618,7 @@
 
     move-object/from16 v1, p4
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/chatting/dd;->a(Lcom/tencent/mm/m/a$a;Lcom/tencent/mm/storage/ad;)Lcom/tencent/mm/ui/chatting/dd;
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/chatting/dd;->a(Lcom/tencent/mm/m/a$a;Lcom/tencent/mm/storage/ADclz;)Lcom/tencent/mm/ui/chatting/dd;
 
     move-result-object v5
 
@@ -2478,7 +2478,7 @@
 
     move/from16 v6, p2
 
-    invoke-direct/range {v3 .. v15}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ad;ZILjava/lang/String;IZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v3 .. v15}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ADclz;ZILjava/lang/String;IZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 419
     move-object/from16 v0, v16
@@ -2674,7 +2674,7 @@
 
     move/from16 v5, p2
 
-    invoke-direct/range {v3 .. v14}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ad;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v3 .. v14}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ADclz;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 442
     move-object/from16 v0, v16
@@ -3064,7 +3064,7 @@
     .end packed-switch
 .end method
 
-.method public final a(Landroid/view/ContextMenu;Landroid/view/View;Lcom/tencent/mm/storage/ad;)Z
+.method public final a(Landroid/view/ContextMenu;Landroid/view/View;Lcom/tencent/mm/storage/ADclz;)Z
     .locals 11
 
     .prologue
@@ -3413,7 +3413,7 @@
     .end packed-switch
 .end method
 
-.method public final a(Landroid/view/MenuItem;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)Z
+.method public final a(Landroid/view/MenuItem;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)Z
     .locals 10
 
     .prologue
@@ -3492,7 +3492,7 @@
     :cond_2
     iget-wide v3, p3, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/model/ap;->C(J)I
+    invoke-static {v3, v4}, Lcom/tencent/mm/model/APclz;->C(J)I
 
     .line 632
     iget-object v1, v0, Lcom/tencent/mm/m/a$a;->appId:Ljava/lang/String;
@@ -3511,7 +3511,7 @@
     if-eqz v3, :cond_0
 
     .line 634
-    invoke-static {p2, v0, p3, v1}, Lcom/tencent/mm/ui/chatting/ah;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/m/a$a;Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/pluginsdk/model/app/f;)V
+    invoke-static {p2, v0, p3, v1}, Lcom/tencent/mm/ui/chatting/ah;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/m/a$a;Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/pluginsdk/model/app/f;)V
 
     goto :goto_0
 
@@ -3691,7 +3691,7 @@
 
     move-result-object v4
 
-    invoke-static {v4}, Lcom/tencent/mm/model/k;->eN(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4}, Lcom/tencent/mm/model/Kclz;->eN(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -3701,11 +3701,11 @@
     invoke-virtual {v3, v5, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 663
-    invoke-static {}, Lcom/tencent/mm/model/k;->sH()Lcom/tencent/mm/model/k;
+    invoke-static {}, Lcom/tencent/mm/model/Kclz;->sH()Lcom/tencent/mm/model/Kclz;
 
     move-result-object v5
 
-    invoke-virtual {v5, v4}, Lcom/tencent/mm/model/k;->eL(Ljava/lang/String;)Lcom/tencent/mm/model/k$a;
+    invoke-virtual {v5, v4}, Lcom/tencent/mm/model/Kclz;->eL(Ljava/lang/String;)Lcom/tencent/mm/model/Kclz$a;
 
     move-result-object v4
 
@@ -3728,21 +3728,21 @@
 
     move-result-object v6
 
-    invoke-virtual {v4, v5, v6}, Lcom/tencent/mm/model/k$a;->e(Ljava/lang/String;Ljava/lang/Object;)Lcom/tencent/mm/model/k$a;
+    invoke-virtual {v4, v5, v6}, Lcom/tencent/mm/model/Kclz$a;->e(Ljava/lang/String;Ljava/lang/Object;)Lcom/tencent/mm/model/Kclz$a;
 
     .line 665
     const-string/jumbo v5, "preUsername"
 
-    invoke-virtual {p0, p2, p3}, Lcom/tencent/mm/ui/chatting/ah;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)Ljava/lang/String;
+    invoke-virtual {p0, p2, p3}, Lcom/tencent/mm/ui/chatting/ah;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)Ljava/lang/String;
 
     move-result-object v6
 
-    invoke-virtual {v4, v5, v6}, Lcom/tencent/mm/model/k$a;->e(Ljava/lang/String;Ljava/lang/Object;)Lcom/tencent/mm/model/k$a;
+    invoke-virtual {v4, v5, v6}, Lcom/tencent/mm/model/Kclz$a;->e(Ljava/lang/String;Ljava/lang/Object;)Lcom/tencent/mm/model/Kclz$a;
 
     .line 666
     const-string/jumbo v5, "preChatName"
 
-    invoke-virtual {v4, v5, v0}, Lcom/tencent/mm/model/k$a;->e(Ljava/lang/String;Ljava/lang/Object;)Lcom/tencent/mm/model/k$a;
+    invoke-virtual {v4, v5, v0}, Lcom/tencent/mm/model/Kclz$a;->e(Ljava/lang/String;Ljava/lang/Object;)Lcom/tencent/mm/model/Kclz$a;
 
     .line 668
     const-string/jumbo v0, "sendAppMsgScene"
@@ -3751,7 +3751,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v4, v0, v1}, Lcom/tencent/mm/model/k$a;->e(Ljava/lang/String;Ljava/lang/Object;)Lcom/tencent/mm/model/k$a;
+    invoke-virtual {v4, v0, v1}, Lcom/tencent/mm/model/Kclz$a;->e(Ljava/lang/String;Ljava/lang/Object;)Lcom/tencent/mm/model/Kclz$a;
 
     goto :goto_2
 
@@ -3810,7 +3810,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-static {p3, v0, v1}, Lcom/tencent/mm/ui/chatting/dq;->a(Lcom/tencent/mm/storage/ad;Ljava/lang/String;Landroid/content/Context;)V
+    invoke-static {p3, v0, v1}, Lcom/tencent/mm/ui/chatting/dq;->a(Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;Landroid/content/Context;)V
 
     goto/16 :goto_0
 
@@ -3820,7 +3820,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-static {p3, v0}, Lcom/tencent/mm/ui/chatting/dq;->c(Lcom/tencent/mm/storage/ad;Landroid/content/Context;)V
+    invoke-static {p3, v0}, Lcom/tencent/mm/ui/chatting/dq;->c(Lcom/tencent/mm/storage/ADclz;Landroid/content/Context;)V
 
     goto/16 :goto_0
 
@@ -3838,7 +3838,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-static {p3, v0, v1}, Lcom/tencent/mm/ui/chatting/dq;->b(Lcom/tencent/mm/storage/ad;Ljava/lang/String;Landroid/content/Context;)V
+    invoke-static {p3, v0, v1}, Lcom/tencent/mm/ui/chatting/dq;->b(Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;Landroid/content/Context;)V
 
     goto/16 :goto_0
 
@@ -3848,7 +3848,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-static {p3, v0}, Lcom/tencent/mm/ui/chatting/dq;->a(Lcom/tencent/mm/storage/ad;Landroid/content/Context;)V
+    invoke-static {p3, v0}, Lcom/tencent/mm/ui/chatting/dq;->a(Lcom/tencent/mm/storage/ADclz;Landroid/content/Context;)V
 
     goto/16 :goto_0
 
@@ -3866,7 +3866,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-static {p3, v0, v1}, Lcom/tencent/mm/ui/chatting/dq;->c(Lcom/tencent/mm/storage/ad;Ljava/lang/String;Landroid/content/Context;)V
+    invoke-static {p3, v0, v1}, Lcom/tencent/mm/ui/chatting/dq;->c(Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;Landroid/content/Context;)V
 
     goto/16 :goto_0
 
@@ -3876,7 +3876,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-static {p3, v0}, Lcom/tencent/mm/ui/chatting/dq;->b(Lcom/tencent/mm/storage/ad;Landroid/content/Context;)V
+    invoke-static {p3, v0}, Lcom/tencent/mm/ui/chatting/dq;->b(Lcom/tencent/mm/storage/ADclz;Landroid/content/Context;)V
 
     goto/16 :goto_0
 
@@ -3902,7 +3902,7 @@
     .end packed-switch
 .end method
 
-.method public final a(Landroid/view/View;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)Z
+.method public final a(Landroid/view/View;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)Z
     .locals 15
 
     .prologue
@@ -3965,7 +3965,7 @@
     if-eqz v4, :cond_2
 
     .line 729
-    invoke-static/range {p2 .. p3}, Lcom/tencent/mm/ui/chatting/ah;->b(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)Ljava/lang/String;
+    invoke-static/range {p2 .. p3}, Lcom/tencent/mm/ui/chatting/ah;->b(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -4228,7 +4228,7 @@
 
     move-object/from16 v1, p3
 
-    invoke-virtual {p0, v0, v1}, Lcom/tencent/mm/ui/chatting/ah;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)Ljava/lang/String;
+    invoke-virtual {p0, v0, v1}, Lcom/tencent/mm/ui/chatting/ah;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -4268,7 +4268,7 @@
 
     move-object/from16 v1, p3
 
-    invoke-virtual {p0, v0, v1}, Lcom/tencent/mm/ui/chatting/ah;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)Ljava/lang/String;
+    invoke-virtual {p0, v0, v1}, Lcom/tencent/mm/ui/chatting/ah;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -4354,7 +4354,7 @@
 
     move-object/from16 v1, p3
 
-    invoke-static {v0, v3, v1}, Lcom/tencent/mm/ui/chatting/ah;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/m/a$a;Lcom/tencent/mm/storage/ad;)Z
+    invoke-static {v0, v3, v1}, Lcom/tencent/mm/ui/chatting/ah;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/m/a$a;Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v2
 
@@ -4426,7 +4426,7 @@
 
     move-object/from16 v14, p3
 
-    invoke-virtual/range {v2 .. v14}, Lcom/tencent/mm/ui/chatting/ah;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;ZJJLcom/tencent/mm/storage/ad;)V
+    invoke-virtual/range {v2 .. v14}, Lcom/tencent/mm/ui/chatting/ah;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;ZJJLcom/tencent/mm/storage/ADclz;)V
 
     .line 750
     const/4 v2, 0x1
@@ -4537,7 +4537,7 @@
 
     .line 771
     :cond_e
-    invoke-virtual/range {p2 .. p3}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->R(Lcom/tencent/mm/storage/ad;)V
+    invoke-virtual/range {p2 .. p3}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->R(Lcom/tencent/mm/storage/ADclz;)V
 
     .line 782
     :goto_7

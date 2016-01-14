@@ -104,14 +104,14 @@
 
     iget-object v2, p0, Lcom/tencent/mm/app/j$1;->amw:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->eC(Ljava/lang/String;)I
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->eC(Ljava/lang/String;)I
 
     move-result v2
 
     invoke-direct {v0, v1, p2, v2}, Lcom/tencent/mm/ac/g;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 323
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 

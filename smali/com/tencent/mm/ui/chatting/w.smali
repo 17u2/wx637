@@ -6,7 +6,7 @@
 # instance fields
 .field private jJD:Z
 
-.field private kaS:Lcom/tencent/mm/storage/k;
+.field private kaS:Lcom/tencent/mm/storage/Kclz;
 
 .field kbD:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -22,7 +22,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/ui/chatting/cj;Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;Lcom/tencent/mm/ui/chatting/ChatFooterCustom;Lcom/tencent/mm/storage/k;Z[J)V
+.method public constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/ui/chatting/cj;Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;Lcom/tencent/mm/ui/chatting/ChatFooterCustom;Lcom/tencent/mm/storage/Kclz;Z[J)V
     .locals 4
 
     .prologue
@@ -52,7 +52,7 @@
     iput-object p2, p0, Lcom/tencent/mm/ui/chatting/w;->kbE:Lcom/tencent/mm/ui/chatting/cj;
 
     .line 47
-    iput-object p5, p0, Lcom/tencent/mm/ui/chatting/w;->kaS:Lcom/tencent/mm/storage/k;
+    iput-object p5, p0, Lcom/tencent/mm/ui/chatting/w;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     .line 48
     iput-boolean p6, p0, Lcom/tencent/mm/ui/chatting/w;->jJD:Z

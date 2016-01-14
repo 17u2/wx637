@@ -50,7 +50,7 @@
     .line 662
     iget-object v0, p0, Lcom/tencent/mm/booter/NotifyReceiver$a$2;->bgm:Lcom/tencent/mm/booter/NotifyReceiver$a;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v1
 

@@ -1334,7 +1334,7 @@
     const/4 v2, 0x0
 
     .line 135
-    invoke-static {}, Lcom/tencent/mm/model/h;->sw()Lcom/tencent/mm/storage/k;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sw()Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v1
 

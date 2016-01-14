@@ -64,7 +64,7 @@
 
     .prologue
     .line 71
-    invoke-static {}, Lcom/tencent/mm/network/z;->Eg()Landroid/content/SharedPreferences;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->Eg()Landroid/content/SharedPreferences;
 
     move-result-object v0
 

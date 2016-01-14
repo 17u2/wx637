@@ -128,15 +128,15 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v2}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, p1}, Lcom/tencent/mm/storage/q;->Ce(Ljava/lang/String;)Z
+    invoke-virtual {v2, p1}, Lcom/tencent/mm/storage/Qclz;->Ce(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -345,15 +345,15 @@
     invoke-static {v1, v2}, Lcom/tencent/mm/plugin/ext/b/b;->a(Ljava/lang/String;Lcom/tencent/mm/plugin/ext/b/b$a;)V
 
     .line 263
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/q;->Ce(Ljava/lang/String;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/Qclz;->Ce(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -460,15 +460,15 @@
     invoke-static {v1, v2}, Lcom/tencent/mm/plugin/ext/b/b;->a(Ljava/lang/String;Lcom/tencent/mm/plugin/ext/b/b$a;)V
 
     .line 238
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/q;->Ce(Ljava/lang/String;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/Qclz;->Ce(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -803,7 +803,7 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 148
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -825,7 +825,7 @@
     invoke-direct {v0, v1, v2}, Lcom/tencent/mm/modelsimple/z;-><init>(Ljava/lang/String;I)V
 
     .line 151
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 

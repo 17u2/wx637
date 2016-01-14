@@ -159,7 +159,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/a;->cYT:Ljava/lang/String;
 
-    sget v1, Lcom/tencent/mm/storage/a/a;->jpE:I
+    sget v1, Lcom/tencent/mm/storage/a/Aclz;->jpE:I
 
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -175,7 +175,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/a;->cYT:Ljava/lang/String;
 
-    sget v1, Lcom/tencent/mm/storage/a/a;->jpD:I
+    sget v1, Lcom/tencent/mm/storage/a/Aclz;->jpD:I
 
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 

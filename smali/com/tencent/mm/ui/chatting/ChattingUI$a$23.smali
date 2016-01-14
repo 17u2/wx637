@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/aq$a;
+.implements Lcom/tencent/mm/model/AQclz$a;
 
 
 # annotations
@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;)V
+.method public final a(Lcom/tencent/mm/network/Eclz;)V
     .locals 0
 
     .prologue
@@ -56,7 +56,7 @@
 
     .line 1182
     :cond_0
-    invoke-interface {p1}, Lcom/tencent/mm/network/e;->stopSignalling()V
+    invoke-interface {p1}, Lcom/tencent/mm/network/Eclz;->stopSignalling()V
 
     goto :goto_0
 .end method

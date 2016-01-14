@@ -146,11 +146,11 @@
     if-lez v3, :cond_9
 
     .line 355
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/model/c;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v0, v0, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
 
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
@@ -394,7 +394,7 @@
     invoke-static {v0, v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 327
-    invoke-static {v3}, Lcom/tencent/mm/model/f;->dB(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/model/Fclz;->dB(Ljava/lang/String;)Z
 
     .line 328
     const/4 v4, 0x0
@@ -409,7 +409,7 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/tencent/mm/model/z$c$a;
+    check-cast v2, Lcom/tencent/mm/model/Zclz$c$a;
 
     .line 333
     invoke-static {v6}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
@@ -440,7 +440,7 @@
 
     move-object v1, p0
 
-    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/w/c$3$1;-><init>(Lcom/tencent/mm/w/c$3;Lcom/tencent/mm/model/z$c$a;Ljava/lang/String;ZLcom/tencent/mm/model/z$c$a;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/w/c$3$1;-><init>(Lcom/tencent/mm/w/c$3;Lcom/tencent/mm/model/Zclz$c$a;Ljava/lang/String;ZLcom/tencent/mm/model/Zclz$c$a;Ljava/lang/String;)V
 
     invoke-virtual {v14, v0}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
 
@@ -518,7 +518,7 @@
     invoke-static {v0, v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 321
-    invoke-static {v3}, Lcom/tencent/mm/model/f;->dB(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/model/Fclz;->dB(Ljava/lang/String;)Z
 
     .line 322
     const/4 v4, 0x0
@@ -536,7 +536,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/model/z$c$a;
+    check-cast v0, Lcom/tencent/mm/model/Zclz$c$a;
 
     move-object v5, v0
 
@@ -544,11 +544,11 @@
 
     .line 360
     :cond_8
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/model/c;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v0, v0, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
 
     invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/aw/g;->dv(J)I
 

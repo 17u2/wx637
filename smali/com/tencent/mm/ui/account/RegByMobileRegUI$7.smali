@@ -131,7 +131,7 @@
     invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/modelfriend/u;-><init>(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)V
 
     .line 724
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -151,7 +151,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v1
 
@@ -187,7 +187,7 @@
 
     const-string/jumbo v1, "R200_200"
 
-    invoke-static {v1}, Lcom/tencent/mm/model/ah;->eV(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/tencent/mm/model/AHclz;->eV(Ljava/lang/String;)I
 
     move-result v1
 
@@ -235,7 +235,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v1
 
@@ -271,7 +271,7 @@
 
     const-string/jumbo v1, "F200_200"
 
-    invoke-static {v1}, Lcom/tencent/mm/model/ah;->eV(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/tencent/mm/model/AHclz;->eV(Ljava/lang/String;)I
 
     move-result v1
 

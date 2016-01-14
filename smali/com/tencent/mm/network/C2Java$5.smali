@@ -48,7 +48,7 @@
 
     .prologue
     .line 249
-    invoke-static {}, Lcom/tencent/mm/network/z;->Ep()Lcom/tencent/mm/network/x;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->Ep()Lcom/tencent/mm/network/Xclz;
 
     move-result-object v1
 
@@ -65,7 +65,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/network/x;->f(I[B)V
+    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/network/Xclz;->f(I[B)V
 
     .line 250
     return-void

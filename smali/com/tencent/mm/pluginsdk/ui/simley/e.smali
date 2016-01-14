@@ -473,7 +473,7 @@
 
     .line 100
     :cond_4
-    sget v2, Lcom/tencent/mm/storage/a/a;->jpE:I
+    sget v2, Lcom/tencent/mm/storage/a/Aclz;->jpE:I
 
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 

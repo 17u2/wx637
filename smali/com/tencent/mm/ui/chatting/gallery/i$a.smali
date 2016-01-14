@@ -15,13 +15,13 @@
 
 
 # instance fields
-.field public arO:Lcom/tencent/mm/storage/ad;
+.field public arO:Lcom/tencent/mm/storage/ADclz;
 
 .field public pos:I
 
 
 # direct methods
-.method public constructor <init>(Lcom/tencent/mm/storage/ad;I)V
+.method public constructor <init>(Lcom/tencent/mm/storage/ADclz;I)V
     .locals 1
 
     .prologue
@@ -29,7 +29,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 355
-    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/gallery/i$a;->arO:Lcom/tencent/mm/storage/ad;
+    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/gallery/i$a;->arO:Lcom/tencent/mm/storage/ADclz;
 
     .line 356
     iput p2, p0, Lcom/tencent/mm/ui/chatting/gallery/i$a;->pos:I

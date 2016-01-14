@@ -298,7 +298,7 @@
     invoke-virtual {v1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     .line 86
-    sget-object v2, Lcom/tencent/mm/model/i;->bsR:[Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/model/Iclz;->bsR:[Ljava/lang/String;
 
     array-length v3, v2
 

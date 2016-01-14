@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic bJG:Lcom/tencent/mm/storage/ad;
+.field final synthetic bJG:Lcom/tencent/mm/storage/ADclz;
 
 .field final synthetic jyP:Landroid/view/MenuItem;
 
@@ -26,14 +26,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a$110;Lcom/tencent/mm/storage/ad;Landroid/view/MenuItem;)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a$110;Lcom/tencent/mm/storage/ADclz;Landroid/view/MenuItem;)V
     .locals 1
 
     .prologue
     .line 7042
     iput-object p1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$110$1;->kjU:Lcom/tencent/mm/ui/chatting/ChattingUI$a$110;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$110$1;->bJG:Lcom/tencent/mm/storage/ad;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$110$1;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iput-object p3, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$110$1;->jyP:Landroid/view/MenuItem;
 
@@ -60,13 +60,13 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$110;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$110$1;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$110$1;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$110$1;->jyP:Landroid/view/MenuItem;
 
     invoke-interface {v2}, Landroid/view/MenuItem;->getGroupId()I
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->e(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->e(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)V
 
     .line 7047
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V

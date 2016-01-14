@@ -47,21 +47,21 @@
 
     .prologue
     .line 626
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rl()Lcom/tencent/mm/storage/s;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rl()Lcom/tencent/mm/storage/Sclz;
 
     move-result-object v0
 
-    sget-object v1, Lcom/tencent/mm/model/i;->bsL:Ljava/lang/String;
+    sget-object v1, Lcom/tencent/mm/model/Iclz;->bsL:Ljava/lang/String;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$a;->cni:Ljava/util/List;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$a;->aBj:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/storage/s;->c(Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/storage/Sclz;->c(Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 

@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic bOh:Lcom/tencent/mm/model/aa;
+.field final synthetic bOh:Lcom/tencent/mm/model/AAclz;
 
 .field final synthetic bOi:Ljava/util/List;
 
@@ -26,14 +26,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ac/k;Lcom/tencent/mm/model/aa;Ljava/util/List;)V
+.method constructor <init>(Lcom/tencent/mm/ac/k;Lcom/tencent/mm/model/AAclz;Ljava/util/List;)V
     .locals 1
 
     .prologue
     .line 157
     iput-object p1, p0, Lcom/tencent/mm/ac/k$1;->bOj:Lcom/tencent/mm/ac/k;
 
-    iput-object p2, p0, Lcom/tencent/mm/ac/k$1;->bOh:Lcom/tencent/mm/model/aa;
+    iput-object p2, p0, Lcom/tencent/mm/ac/k$1;->bOh:Lcom/tencent/mm/model/AAclz;
 
     iput-object p3, p0, Lcom/tencent/mm/ac/k$1;->bOi:Ljava/util/List;
 
@@ -56,11 +56,11 @@
 
     .prologue
     .line 160
-    iget-object v0, p0, Lcom/tencent/mm/ac/k$1;->bOh:Lcom/tencent/mm/model/aa;
+    iget-object v0, p0, Lcom/tencent/mm/ac/k$1;->bOh:Lcom/tencent/mm/model/AAclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ac/k$1;->bOi:Ljava/util/List;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/model/aa;->i(Ljava/util/List;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/model/AAclz;->i(Ljava/util/List;)V
 
     .line 161
     return-void

@@ -140,7 +140,7 @@
     iput-object v2, v1, Lcom/tencent/mm/plugin/sns/ui/SnsTagPartlyUI;->cfz:Lcom/tencent/mm/ui/base/o;
 
     .line 190
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 

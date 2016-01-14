@@ -342,13 +342,13 @@
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     .line 450
-    invoke-static {}, Lcom/tencent/mm/model/ah;->ts()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->ts()Z
 
     move-result v1
 
     if-eqz v1, :cond_6
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tw()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tw()Z
 
     move-result v1
 
@@ -729,11 +729,11 @@
     if-lez v5, :cond_8
 
     .line 548
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v5
 
-    invoke-virtual {v5}, Lcom/tencent/mm/model/c;->isSDCardAvailable()Z
+    invoke-virtual {v5}, Lcom/tencent/mm/model/Cclz;->isSDCardAvailable()Z
 
     move-result v5
 
@@ -1778,13 +1778,13 @@
 
     invoke-virtual {v0, v4, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->ts()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->ts()Z
 
     move-result v3
 
     if-eqz v3, :cond_7
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tw()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tw()Z
 
     move-result v3
 
@@ -2256,13 +2256,13 @@
 
     if-nez v3, :cond_9
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->ts()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->ts()Z
 
     move-result v3
 
     if-eqz v3, :cond_9
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tw()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tw()Z
 
     move-result v3
 
@@ -2655,7 +2655,7 @@
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 654
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -2819,7 +2819,7 @@
     invoke-direct {p0}, Lcom/tencent/mm/ui/tools/ShareImgUI;->showDialog()V
 
     .line 109
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -2837,7 +2837,7 @@
     invoke-direct {v1, v0, v2, v3}, Lcom/tencent/mm/modelsimple/ag;-><init>(Ljava/lang/String;ILjava/util/LinkedList;)V
 
     .line 111
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -2865,13 +2865,13 @@
 
     .prologue
     .line 83
-    invoke-static {}, Lcom/tencent/mm/model/ah;->ts()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->ts()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tw()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tw()Z
 
     move-result v0
 
@@ -2926,7 +2926,7 @@
     invoke-super {p0}, Lcom/tencent/mm/pluginsdk/ui/AutoLoginActivity;->onDestroy()V
 
     .line 126
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

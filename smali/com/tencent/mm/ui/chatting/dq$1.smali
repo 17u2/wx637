@@ -94,14 +94,14 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/dq$1;->cdL:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->eC(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->eC(Ljava/lang/String;)I
 
     move-result v3
 
     invoke-direct {v1, v0, v2, v3}, Lcom/tencent/mm/ac/g;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 88
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 

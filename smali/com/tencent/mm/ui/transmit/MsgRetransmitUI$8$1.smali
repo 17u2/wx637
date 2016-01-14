@@ -109,21 +109,21 @@
     .line 653
     :cond_0
     :goto_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rk()Lcom/tencent/mm/storage/ae;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rk()Lcom/tencent/mm/storage/AEclz;
 
     move-result-object v0
 
     iget-wide v1, v1, Lcom/tencent/mm/z/d;->bIL:J
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/ae;->dq(J)I
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/AEclz;->dq(J)I
 
     .line 655
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

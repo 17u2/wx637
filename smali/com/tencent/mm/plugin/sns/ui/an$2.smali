@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/z$c$a;
+.implements Lcom/tencent/mm/model/Zclz$c$a;
 
 
 # annotations
@@ -48,7 +48,7 @@
 
     .prologue
     .line 1280
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 

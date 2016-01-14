@@ -79,7 +79,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/contact/ContactRemarkInfoViewUI$2;->ksg:Lcom/tencent/mm/ui/contact/ContactRemarkInfoViewUI;
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/contact/ContactRemarkInfoViewUI;->d(Lcom/tencent/mm/ui/contact/ContactRemarkInfoViewUI;)Lcom/tencent/mm/storage/k;
+    invoke-static {v2}, Lcom/tencent/mm/ui/contact/ContactRemarkInfoViewUI;->d(Lcom/tencent/mm/ui/contact/ContactRemarkInfoViewUI;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v2
 

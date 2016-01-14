@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/aq$a;
+.implements Lcom/tencent/mm/model/AQclz$a;
 
 
 # annotations
@@ -43,14 +43,14 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;)V
+.method public final a(Lcom/tencent/mm/network/Eclz;)V
     .locals 1
 
     .prologue
     .line 2012
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lcom/tencent/mm/network/e;->vG()Lcom/tencent/mm/network/c;
+    invoke-interface {p1}, Lcom/tencent/mm/network/Eclz;->vG()Lcom/tencent/mm/network/Cclz;
 
     move-result-object v0
 
@@ -63,11 +63,11 @@
 
     .line 2015
     :cond_1
-    invoke-interface {p1}, Lcom/tencent/mm/network/e;->vG()Lcom/tencent/mm/network/c;
+    invoke-interface {p1}, Lcom/tencent/mm/network/Eclz;->vG()Lcom/tencent/mm/network/Cclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/c;->reset()V
+    invoke-interface {v0}, Lcom/tencent/mm/network/Cclz;->reset()V
 
     goto :goto_0
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/network/j;
+.implements Lcom/tencent/mm/network/Jclz;
 
 
 # instance fields
@@ -205,17 +205,17 @@
     if-nez v1, :cond_4
 
     .line 150
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v1
 
     iget-object v2, v0, Lcom/tencent/mm/protocal/b/WFclz;->dRj:Ljava/lang/String;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v1
 
@@ -374,9 +374,9 @@
     .line 180
     :cond_1
     :goto_3
-    new-instance v1, Lcom/tencent/mm/storage/d$a;
+    new-instance v1, Lcom/tencent/mm/storage/Dclz$a;
 
-    invoke-direct {v1}, Lcom/tencent/mm/storage/d$a;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/storage/Dclz$a;-><init>()V
 
     .line 181
     iget-object v2, v0, Lcom/tencent/mm/protocal/b/WFclz;->dRj:Ljava/lang/String;
@@ -513,15 +513,15 @@
     invoke-virtual {v0, v8}, Lcom/tencent/mm/modelfriend/p;->g(Ljava/util/ArrayList;)Z
 
     .line 189
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rN()Lcom/tencent/mm/storage/d;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rN()Lcom/tencent/mm/storage/Dclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v9}, Lcom/tencent/mm/storage/d;->bf(Ljava/util/List;)V
+    invoke-virtual {v0, v9}, Lcom/tencent/mm/storage/Dclz;->bf(Ljava/util/List;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -534,7 +534,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+.method public final a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
     .locals 7
 
     .prologue
@@ -699,7 +699,7 @@
     :cond_1
     iget-object v0, p0, Lcom/tencent/mm/y/c;->ant:Lcom/tencent/mm/q/Aclz;
 
-    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/y/c;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;)I
+    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/y/c;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/network/Oclz;Lcom/tencent/mm/network/Jclz;)I
 
     move-result v0
 
@@ -712,7 +712,7 @@
     goto :goto_1
 .end method
 
-.method protected final a(Lcom/tencent/mm/network/o;)I
+.method protected final a(Lcom/tencent/mm/network/Oclz;)I
     .locals 1
 
     .prologue
@@ -722,7 +722,7 @@
     return v0
 .end method
 
-.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/o;[B)V
+.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/Oclz;[B)V
     .locals 7
 
     .prologue
@@ -801,11 +801,11 @@
     iput v0, p0, Lcom/tencent/mm/y/c;->bHW:I
 
     .line 121
-    iget-object v0, p0, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/e;
+    iget-object v0, p0, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/Eclz;
 
     iget-object v1, p0, Lcom/tencent/mm/y/c;->ans:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {p0, v0, v1}, Lcom/tencent/mm/y/c;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+    invoke-virtual {p0, v0, v1}, Lcom/tencent/mm/y/c;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
 
     move-result v0
 

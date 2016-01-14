@@ -1296,7 +1296,7 @@
 
     .line 355
     :cond_0
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/b/c;->createSubCore()Lcom/tencent/mm/model/ae;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/b/c;->createSubCore()Lcom/tencent/mm/model/AEclz;
 
     move-result-object v0
 

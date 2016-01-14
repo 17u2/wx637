@@ -155,15 +155,15 @@
     check-cast v0, Ljava/lang/String;
 
     .line 690
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v7
 
-    invoke-virtual {v7}, Lcom/tencent/mm/model/c;->rl()Lcom/tencent/mm/storage/s;
+    invoke-virtual {v7}, Lcom/tencent/mm/model/Cclz;->rl()Lcom/tencent/mm/storage/Sclz;
 
     move-result-object v7
 
-    invoke-virtual {v7, v0}, Lcom/tencent/mm/storage/s;->Cs(Ljava/lang/String;)Lcom/tencent/mm/storage/r;
+    invoke-virtual {v7, v0}, Lcom/tencent/mm/storage/Sclz;->Cs(Ljava/lang/String;)Lcom/tencent/mm/storage/Rclz;
 
     move-result-object v7
 
@@ -181,28 +181,28 @@
     invoke-static {v1, v7}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 694
-    new-instance v1, Lcom/tencent/mm/storage/r;
+    new-instance v1, Lcom/tencent/mm/storage/Rclz;
 
-    invoke-direct {v1, v0}, Lcom/tencent/mm/storage/r;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v0}, Lcom/tencent/mm/storage/Rclz;-><init>(Ljava/lang/String;)V
 
     .line 695
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$10;->dJp:Ljava/lang/String;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/r;->cd(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/Rclz;->cd(Ljava/lang/String;)V
 
     .line 696
-    invoke-virtual {v1}, Lcom/tencent/mm/storage/r;->wd()V
+    invoke-virtual {v1}, Lcom/tencent/mm/storage/Rclz;->wd()V
 
     .line 697
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rl()Lcom/tencent/mm/storage/s;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rl()Lcom/tencent/mm/storage/Sclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/s;->d(Lcom/tencent/mm/storage/r;)J
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Sclz;->d(Lcom/tencent/mm/storage/Rclz;)J
 
     move v1, v3
 
@@ -240,18 +240,18 @@
     .line 702
     iget-object v1, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$10;->dJp:Ljava/lang/String;
 
-    invoke-virtual {v7, v1}, Lcom/tencent/mm/storage/r;->cd(Ljava/lang/String;)V
+    invoke-virtual {v7, v1}, Lcom/tencent/mm/storage/Rclz;->cd(Ljava/lang/String;)V
 
     .line 703
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rl()Lcom/tencent/mm/storage/s;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rl()Lcom/tencent/mm/storage/Sclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v7, v0, v3}, Lcom/tencent/mm/storage/s;->a(Lcom/tencent/mm/storage/r;Ljava/lang/String;Z)I
+    invoke-virtual {v1, v7, v0, v3}, Lcom/tencent/mm/storage/Sclz;->a(Lcom/tencent/mm/storage/Rclz;Ljava/lang/String;Z)I
 
     move v0, v3
 

@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/modelstat/d;
-.super Lcom/tencent/mm/network/a/b$a;
+.super Lcom/tencent/mm/network/a/Bclz$a;
 .source "SourceFile"
 
 # interfaces
@@ -12,7 +12,7 @@
 
     .prologue
     .line 34
-    invoke-direct {p0}, Lcom/tencent/mm/network/a/b$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/network/a/Bclz$a;-><init>()V
 
     .line 35
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -32,7 +32,7 @@
     const/4 v3, 0x0
 
     .line 179
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -145,7 +145,7 @@
 
     .prologue
     .line 152
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v8
 
@@ -188,7 +188,7 @@
     const/4 v7, 0x0
 
     .line 40
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -549,7 +549,7 @@
     if-nez v2, :cond_7
 
     .line 110
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v2
 
@@ -564,13 +564,13 @@
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->appenderFlush()V
 
     .line 141
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/q/Lclz;->byu:Lcom/tencent/mm/network/e;
+    iget-object v0, v0, Lcom/tencent/mm/q/Lclz;->byu:Lcom/tencent/mm/network/Eclz;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/network/e;->fY(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/network/Eclz;->fY(Ljava/lang/String;)V
 
     .line 142
     invoke-static {}, Lcom/tencent/mm/xlog/LogLogicJni;->initLogInfo()V
@@ -596,7 +596,7 @@
     const/4 v0, 0x0
 
     .line 168
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v1
 
@@ -691,7 +691,7 @@
     goto :goto_4
 .end method
 
-.method public final d(Lcom/tencent/mm/storage/ad;)V
+.method public final d(Lcom/tencent/mm/storage/ADclz;)V
     .locals 0
 
     .prologue

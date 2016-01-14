@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field aCM:Lcom/tencent/mm/storage/ad;
+.field aCM:Lcom/tencent/mm/storage/ADclz;
 
 .field gGy:Ljava/lang/String;
 
@@ -12,7 +12,7 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Lcom/tencent/mm/storage/ad;Ljava/lang/String;)V
+.method public constructor <init>(Ljava/lang/String;Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;)V
     .locals 1
 
     .prologue
@@ -23,7 +23,7 @@
     iput-object p1, p0, Lcom/tencent/mm/ui/chatting/dt;->kks:Ljava/lang/String;
 
     .line 1766
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/dt;->aCM:Lcom/tencent/mm/storage/ad;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/dt;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     .line 1767
     iput-object p3, p0, Lcom/tencent/mm/ui/chatting/dt;->gGy:Ljava/lang/String;

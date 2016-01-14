@@ -541,11 +541,11 @@
 
     .line 306
     :pswitch_2
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v2}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v2
 
@@ -553,13 +553,13 @@
 
     move-result-object v4
 
-    invoke-virtual {v2, v4}, Lcom/tencent/mm/storage/q;->Ce(Ljava/lang/String;)Z
+    invoke-virtual {v2, v4}, Lcom/tencent/mm/storage/Qclz;->Ce(Ljava/lang/String;)Z
 
     move-result v2
 
     if-nez v2, :cond_4
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v2
 

@@ -15,11 +15,11 @@
 
 
 # instance fields
-.field public aCM:Lcom/tencent/mm/storage/ad;
+.field public aCM:Lcom/tencent/mm/storage/ADclz;
 
 .field public aDs:Ljava/lang/String;
 
-.field public aDt:Lcom/tencent/mm/storage/ad;
+.field public aDt:Lcom/tencent/mm/storage/ADclz;
 
 .field public avx:J
 

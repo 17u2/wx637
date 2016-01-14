@@ -72,7 +72,7 @@
     .line 339
     iget-object v0, p0, Lcom/tencent/mm/q/Lclz$4;->byD:Lcom/tencent/mm/q/Lclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/q/Lclz;->f(Lcom/tencent/mm/q/Lclz;)Lcom/tencent/mm/network/e;
+    invoke-static {v0}, Lcom/tencent/mm/q/Lclz;->f(Lcom/tencent/mm/q/Lclz;)Lcom/tencent/mm/network/Eclz;
 
     move-result-object v0
 
@@ -82,13 +82,13 @@
 
     iget-object v2, p0, Lcom/tencent/mm/q/Lclz$4;->byD:Lcom/tencent/mm/q/Lclz;
 
-    invoke-static {v2}, Lcom/tencent/mm/q/Lclz;->f(Lcom/tencent/mm/q/Lclz;)Lcom/tencent/mm/network/e;
+    invoke-static {v2}, Lcom/tencent/mm/q/Lclz;->f(Lcom/tencent/mm/q/Lclz;)Lcom/tencent/mm/network/Eclz;
 
     move-result-object v2
 
     iget-object v3, p0, Lcom/tencent/mm/q/Lclz$4;->byD:Lcom/tencent/mm/q/Lclz;
 
-    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/q/Jclz;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/q/Jclz;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
 
     move-result v0
 
@@ -184,7 +184,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/q/Lclz$4;->byD:Lcom/tencent/mm/q/Lclz;
 
-    invoke-static {v5}, Lcom/tencent/mm/q/Lclz;->f(Lcom/tencent/mm/q/Lclz;)Lcom/tencent/mm/network/e;
+    invoke-static {v5}, Lcom/tencent/mm/q/Lclz;->f(Lcom/tencent/mm/q/Lclz;)Lcom/tencent/mm/network/Eclz;
 
     move-result-object v5
 
@@ -253,7 +253,7 @@
     :cond_0
     iget-object v1, p0, Lcom/tencent/mm/q/Lclz$4;->byD:Lcom/tencent/mm/q/Lclz;
 
-    invoke-static {v1}, Lcom/tencent/mm/q/Lclz;->f(Lcom/tencent/mm/q/Lclz;)Lcom/tencent/mm/network/e;
+    invoke-static {v1}, Lcom/tencent/mm/q/Lclz;->f(Lcom/tencent/mm/q/Lclz;)Lcom/tencent/mm/network/Eclz;
 
     move-result-object v1
 
@@ -364,7 +364,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/q/Lclz$4;->byD:Lcom/tencent/mm/q/Lclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/q/Lclz;->f(Lcom/tencent/mm/q/Lclz;)Lcom/tencent/mm/network/e;
+    invoke-static {v0}, Lcom/tencent/mm/q/Lclz;->f(Lcom/tencent/mm/q/Lclz;)Lcom/tencent/mm/network/Eclz;
 
     move-result-object v0
 
@@ -392,7 +392,7 @@
     :cond_2
     iget-object v0, p0, Lcom/tencent/mm/q/Lclz$4;->byD:Lcom/tencent/mm/q/Lclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/q/Lclz;->f(Lcom/tencent/mm/q/Lclz;)Lcom/tencent/mm/network/e;
+    invoke-static {v0}, Lcom/tencent/mm/q/Lclz;->f(Lcom/tencent/mm/q/Lclz;)Lcom/tencent/mm/network/Eclz;
 
     move-result-object v0
 

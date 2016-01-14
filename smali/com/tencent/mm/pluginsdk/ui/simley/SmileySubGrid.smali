@@ -638,7 +638,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/a/c;
+    check-cast v0, Lcom/tencent/mm/storage/a/Cclz;
 
     iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->icr:Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid$c;
 
@@ -651,7 +651,7 @@
     iput-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->icr:Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid$c;
 
     :cond_0
-    invoke-virtual {p0, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->h(Lcom/tencent/mm/storage/a/c;)V
+    invoke-virtual {p0, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->h(Lcom/tencent/mm/storage/a/Cclz;)V
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->dia:Lcom/tencent/mm/pluginsdk/ui/emoji/PopEmojiView;
 
@@ -879,7 +879,7 @@
     return-void
 .end method
 
-.method public final h(Lcom/tencent/mm/storage/a/c;)V
+.method public final h(Lcom/tencent/mm/storage/a/Cclz;)V
     .locals 6
 
     .prologue
@@ -902,7 +902,7 @@
     if-eqz p1, :cond_1
 
     .line 435
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/a/c;->xQ()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/a/Cclz;->xQ()Ljava/lang/String;
 
     move-result-object v3
 
@@ -915,22 +915,22 @@
     if-nez v3, :cond_1
 
     .line 436
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/a/c;->xQ()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/a/Cclz;->xQ()Ljava/lang/String;
 
     move-result-object v3
 
     iput-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->icz:Ljava/lang/String;
 
     .line 437
-    iget v3, p1, Lcom/tencent/mm/storage/a/c;->field_catalog:I
+    iget v3, p1, Lcom/tencent/mm/storage/a/Cclz;->field_catalog:I
 
-    sget v4, Lcom/tencent/mm/storage/a/a;->jpE:I
+    sget v4, Lcom/tencent/mm/storage/a/Aclz;->jpE:I
 
     if-ne v3, v4, :cond_2
 
-    iget-object v3, p1, Lcom/tencent/mm/storage/a/c;->field_content:Ljava/lang/String;
+    iget-object v3, p1, Lcom/tencent/mm/storage/a/Cclz;->field_content:Ljava/lang/String;
 
-    sget v4, Lcom/tencent/mm/storage/a/c;->jpQ:I
+    sget v4, Lcom/tencent/mm/storage/a/Cclz;->jpQ:I
 
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -942,9 +942,9 @@
 
     if-nez v3, :cond_0
 
-    iget-object v3, p1, Lcom/tencent/mm/storage/a/c;->field_content:Ljava/lang/String;
+    iget-object v3, p1, Lcom/tencent/mm/storage/a/Cclz;->field_content:Ljava/lang/String;
 
-    sget v4, Lcom/tencent/mm/storage/a/c;->jpP:I
+    sget v4, Lcom/tencent/mm/storage/a/Cclz;->jpP:I
 
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -961,7 +961,7 @@
     if-eqz v0, :cond_3
 
     .line 438
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/a/c;->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/a/Cclz;->getName()Ljava/lang/String;
 
     move-result-object v0
 
@@ -1025,7 +1025,7 @@
 
     .line 443
     :cond_3
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/a/c;->aRV()Z
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/a/Cclz;->aRV()Z
 
     move-result v0
 
@@ -1038,15 +1038,15 @@
 
     move-result-object v1
 
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/a/c;->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/a/Cclz;->getName()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-static {v1, v3}, Lcom/tencent/mm/storage/a/c;->aP(Landroid/content/Context;Ljava/lang/String;)Ljava/io/InputStream;
+    invoke-static {v1, v3}, Lcom/tencent/mm/storage/a/Cclz;->aP(Landroid/content/Context;Ljava/lang/String;)Ljava/io/InputStream;
 
     move-result-object v1
 
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/a/c;->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/a/Cclz;->getName()Ljava/lang/String;
 
     move-result-object v3
 
@@ -1082,13 +1082,13 @@
     :try_start_1
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->dia:Lcom/tencent/mm/pluginsdk/ui/emoji/PopEmojiView;
 
-    iget-object v1, p1, Lcom/tencent/mm/storage/a/c;->field_groupId:Ljava/lang/String;
+    iget-object v1, p1, Lcom/tencent/mm/storage/a/Cclz;->field_groupId:Ljava/lang/String;
 
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/a/c;->xQ()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/a/Cclz;->xQ()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-virtual {p1, v1, v3}, Lcom/tencent/mm/storage/a/c;->cg(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, v1, v3}, Lcom/tencent/mm/storage/a/Cclz;->cg(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 

@@ -191,7 +191,7 @@
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/h;->sp()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sp()Z
 
     move-result v0
 
@@ -612,11 +612,11 @@
     if-eqz v0, :cond_3
 
     .line 236
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v0
 
@@ -624,7 +624,7 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/storage/h;->get(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/storage/Hclz;->get(ILjava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -921,7 +921,7 @@
     if-eqz v0, :cond_3
 
     .line 252
-    invoke-static {}, Lcom/tencent/mm/model/h;->sr()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sr()Z
 
     move-result v0
 
@@ -972,7 +972,7 @@
     if-nez v0, :cond_2
 
     .line 258
-    invoke-static {}, Lcom/tencent/mm/model/h;->sr()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sr()Z
 
     move-result v0
 

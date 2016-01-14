@@ -211,7 +211,7 @@
 
     invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -229,7 +229,7 @@
 
     invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/k;-><init>(ILjava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -559,12 +559,12 @@
 
     .line 242
     :cond_0
-    invoke-static {p0}, Lcom/tencent/mm/storage/ad$e;->CL(Ljava/lang/String;)Lcom/tencent/mm/storage/ad$e;
+    invoke-static {p0}, Lcom/tencent/mm/storage/ADclz$e;->CL(Ljava/lang/String;)Lcom/tencent/mm/storage/ADclz$e;
 
     move-result-object v1
 
     .line 243
-    iget v1, v1, Lcom/tencent/mm/storage/ad$e;->awa:I
+    iget v1, v1, Lcom/tencent/mm/storage/ADclz$e;->awa:I
 
     .line 249
     packed-switch v1, :pswitch_data_0
@@ -802,7 +802,7 @@
 
     .line 343
     :goto_2
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

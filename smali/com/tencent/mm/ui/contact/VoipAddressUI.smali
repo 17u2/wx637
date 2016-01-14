@@ -466,7 +466,7 @@
 
     .line 53
     :cond_1
-    iget-object v3, v0, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v3, v0, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/Kclz;
 
     if-eqz v3, :cond_0
 
@@ -485,7 +485,7 @@
     .line 58
     iget-object v4, v3, Lcom/tencent/mm/d/a/ln;->aGy:Lcom/tencent/mm/d/a/ln$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v0, v0, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 

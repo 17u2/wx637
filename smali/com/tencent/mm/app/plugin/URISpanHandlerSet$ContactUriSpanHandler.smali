@@ -69,7 +69,7 @@
 
     .line 284
     :cond_0
-    const-class v0, Lcom/tencent/mm/storage/aa;
+    const-class v0, Lcom/tencent/mm/storage/AAclz;
 
     invoke-virtual {p1, v0}, Lcom/tencent/mm/pluginsdk/ui/applet/g;->c(Ljava/lang/Class;)Ljava/lang/Object;
 
@@ -77,7 +77,7 @@
 
     move-object v8, v0
 
-    check-cast v8, Lcom/tencent/mm/storage/aa;
+    check-cast v8, Lcom/tencent/mm/storage/AAclz;
 
     .line 285
     if-eqz p2, :cond_1
@@ -133,7 +133,7 @@
 
     .line 293
     :cond_2
-    invoke-virtual {v8}, Lcom/tencent/mm/storage/aa;->getType()Ljava/lang/String;
+    invoke-virtual {v8}, Lcom/tencent/mm/storage/AAclz;->getType()Ljava/lang/String;
 
     move-result-object v0
 
@@ -146,17 +146,17 @@
     if-eqz v0, :cond_3
 
     .line 294
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rn()Lcom/tencent/mm/storage/ai;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rn()Lcom/tencent/mm/storage/AIclz;
 
     move-result-object v0
 
     const-string/jumbo v1, "@t.qq.com"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/ai;->Dr(Ljava/lang/String;)Lcom/tencent/mm/storage/ah;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/AIclz;->Dr(Ljava/lang/String;)Lcom/tencent/mm/storage/AHclz;
 
     move-result-object v0
 
@@ -204,7 +204,7 @@
 
     .line 298
     :cond_3
-    invoke-virtual {v8}, Lcom/tencent/mm/storage/aa;->getType()Ljava/lang/String;
+    invoke-virtual {v8}, Lcom/tencent/mm/storage/AAclz;->getType()Ljava/lang/String;
 
     move-result-object v0
 
@@ -217,11 +217,11 @@
     if-eqz v0, :cond_6
 
     .line 299
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rn()Lcom/tencent/mm/storage/ai;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rn()Lcom/tencent/mm/storage/AIclz;
 
     move-result-object v0
 
@@ -229,7 +229,7 @@
 
     invoke-direct {v9}, Ljava/util/LinkedList;-><init>()V
 
-    iget-object v0, v0, Lcom/tencent/mm/storage/ai;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v0, v0, Lcom/tencent/mm/storage/AIclz;->aoD:Lcom/tencent/mm/sdk/g/d;
 
     const-string/jumbo v1, "role_info"
 
@@ -272,11 +272,11 @@
 
     if-nez v1, :cond_5
 
-    new-instance v1, Lcom/tencent/mm/storage/ah;
+    new-instance v1, Lcom/tencent/mm/storage/AHclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/storage/ah;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/storage/AHclz;-><init>()V
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/ah;->c(Landroid/database/Cursor;)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/AHclz;->c(Landroid/database/Cursor;)V
 
     invoke-interface {v9, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -315,9 +315,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/ah;
+    check-cast v0, Lcom/tencent/mm/storage/AHclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/ah;->aRv()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/AHclz;->aRv()Z
 
     move-result v0
 
@@ -383,7 +383,7 @@
     .line 305
     const-string/jumbo v1, "Contact_GroupFilter_Type"
 
-    invoke-virtual {v8}, Lcom/tencent/mm/storage/aa;->getType()Ljava/lang/String;
+    invoke-virtual {v8}, Lcom/tencent/mm/storage/AAclz;->getType()Ljava/lang/String;
 
     move-result-object v2
 
@@ -393,7 +393,7 @@
 
     const-string/jumbo v2, "Contact_GroupFilter_Str"
 
-    invoke-virtual {v8}, Lcom/tencent/mm/storage/aa;->aQx()Ljava/lang/String;
+    invoke-virtual {v8}, Lcom/tencent/mm/storage/AAclz;->aQx()Ljava/lang/String;
 
     move-result-object v3
 
@@ -403,7 +403,7 @@
 
     const-string/jumbo v2, "Contact_GroupFilter_DisplayName"
 
-    invoke-virtual {v8}, Lcom/tencent/mm/storage/aa;->qx()Ljava/lang/String;
+    invoke-virtual {v8}, Lcom/tencent/mm/storage/AAclz;->qx()Ljava/lang/String;
 
     move-result-object v3
 
@@ -491,7 +491,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/model/n;->eQ(Ljava/lang/String;)Lcom/tencent/mm/storage/aa;
+    invoke-static {v0}, Lcom/tencent/mm/model/Nclz;->eQ(Ljava/lang/String;)Lcom/tencent/mm/storage/AAclz;
 
     move-result-object v0
 
@@ -517,7 +517,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/model/n;->eQ(Ljava/lang/String;)Lcom/tencent/mm/storage/aa;
+    invoke-static {v0}, Lcom/tencent/mm/model/Nclz;->eQ(Ljava/lang/String;)Lcom/tencent/mm/storage/AAclz;
 
     move-result-object v0
 
@@ -542,7 +542,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/model/n;->eQ(Ljava/lang/String;)Lcom/tencent/mm/storage/aa;
+    invoke-static {v0}, Lcom/tencent/mm/model/Nclz;->eQ(Ljava/lang/String;)Lcom/tencent/mm/storage/AAclz;
 
     move-result-object v0
 
@@ -569,7 +569,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/model/n;->eQ(Ljava/lang/String;)Lcom/tencent/mm/storage/aa;
+    invoke-static {v0}, Lcom/tencent/mm/model/Nclz;->eQ(Ljava/lang/String;)Lcom/tencent/mm/storage/AAclz;
 
     move-result-object v0
 
@@ -593,7 +593,7 @@
     .line 331
     const-string/jumbo v2, "Contact_GroupFilter_Type"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/aa;->getType()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/AAclz;->getType()Ljava/lang/String;
 
     move-result-object v3
 
@@ -603,7 +603,7 @@
 
     const-string/jumbo v3, "Contact_GroupFilter_Str"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/aa;->aQx()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/AAclz;->aQx()Ljava/lang/String;
 
     move-result-object v4
 
@@ -613,7 +613,7 @@
 
     const-string/jumbo v3, "Contact_GroupFilter_DisplayName"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/aa;->qx()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/AAclz;->qx()Ljava/lang/String;
 
     move-result-object v0
 
@@ -672,7 +672,7 @@
 
     move-result-object v3
 
-    new-instance v0, Lcom/tencent/mm/storage/aa;
+    new-instance v0, Lcom/tencent/mm/storage/AAclz;
 
     const-string/jumbo v1, "@all.android"
 
@@ -680,7 +680,7 @@
 
     move v6, v5
 
-    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/storage/aa;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V
+    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/storage/AAclz;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
     .line 248
     new-instance v2, Lcom/tencent/mm/pluginsdk/ui/applet/g;
@@ -721,7 +721,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/model/n;->eQ(Ljava/lang/String;)Lcom/tencent/mm/storage/aa;
+    invoke-static {v0}, Lcom/tencent/mm/model/Nclz;->eQ(Ljava/lang/String;)Lcom/tencent/mm/storage/AAclz;
 
     move-result-object v0
 
@@ -761,7 +761,7 @@
 
     move-result-object v3
 
-    new-instance v0, Lcom/tencent/mm/storage/aa;
+    new-instance v0, Lcom/tencent/mm/storage/AAclz;
 
     const-string/jumbo v1, "@micromsg.qq.com"
 
@@ -769,7 +769,7 @@
 
     move v6, v5
 
-    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/storage/aa;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V
+    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/storage/AAclz;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
     .line 254
     new-instance v2, Lcom/tencent/mm/pluginsdk/ui/applet/g;
@@ -862,7 +862,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/model/n;->C(Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/aa;
+    invoke-static {v0, v1}, Lcom/tencent/mm/model/Nclz;->C(Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/AAclz;
 
     move-result-object v0
 

@@ -94,7 +94,7 @@
 
     .line 63
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileDescribeView;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileDescribeView;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     if-nez v0, :cond_1
 
@@ -107,12 +107,12 @@
 
     .line 67
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileDescribeView;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileDescribeView;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v3, v0, Lcom/tencent/mm/d/b/o;->aOM:Ljava/lang/String;
 
     .line 68
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileDescribeView;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileDescribeView;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/o;->aON:Ljava/lang/String;
 
@@ -126,7 +126,7 @@
 
     .line 70
     :goto_1
-    iget-object v4, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileDescribeView;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v4, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileDescribeView;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     iget v4, v4, Lcom/tencent/mm/d/b/o;->field_type:I
 
@@ -428,7 +428,7 @@
 
     .line 100
     :cond_7
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileDescribeView;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileDescribeView;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_encryptUsername:Ljava/lang/String;
 
@@ -440,15 +440,15 @@
     if-nez v3, :cond_8
 
     .line 103
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/tencent/mm/model/c;->rj()Lcom/tencent/mm/storage/al;
+    invoke-virtual {v3}, Lcom/tencent/mm/model/Cclz;->rj()Lcom/tencent/mm/storage/ALclz;
 
     move-result-object v3
 
-    invoke-virtual {v3, v0}, Lcom/tencent/mm/storage/al;->Dv(Ljava/lang/String;)Lcom/tencent/mm/storage/ak;
+    invoke-virtual {v3, v0}, Lcom/tencent/mm/storage/ALclz;->Dv(Ljava/lang/String;)Lcom/tencent/mm/storage/AKclz;
 
     move-result-object v0
 
@@ -457,7 +457,7 @@
     if-eqz v0, :cond_9
 
     .line 109
-    iget-object v3, v0, Lcom/tencent/mm/storage/ak;->field_conDescription:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/storage/AKclz;->field_conDescription:Ljava/lang/String;
 
     invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -472,7 +472,7 @@
 
     move-result-object v3
 
-    iget-object v0, v0, Lcom/tencent/mm/storage/ak;->field_conDescription:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/storage/AKclz;->field_conDescription:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
 
@@ -497,19 +497,19 @@
 
     .line 105
     :cond_8
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rj()Lcom/tencent/mm/storage/al;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rj()Lcom/tencent/mm/storage/ALclz;
 
     move-result-object v0
 
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileDescribeView;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileDescribeView;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v3, v3, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/storage/al;->Dv(Ljava/lang/String;)Lcom/tencent/mm/storage/ak;
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/storage/ALclz;->Dv(Ljava/lang/String;)Lcom/tencent/mm/storage/AKclz;
 
     move-result-object v0
 

@@ -59,7 +59,7 @@
     .line 81
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/k$1;->hXg:Lcom/tencent/mm/pluginsdk/ui/chat/k;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/c;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/Cclz;
 
     if-eqz v0, :cond_0
 
@@ -82,9 +82,9 @@
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/k$1;->hXg:Lcom/tencent/mm/pluginsdk/ui/chat/k;
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/c;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/Cclz;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/simley/b;->f(Lcom/tencent/mm/storage/a/c;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/simley/b;->f(Lcom/tencent/mm/storage/a/Cclz;)V
 
     .line 83
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/k$1;->hXg:Lcom/tencent/mm/pluginsdk/ui/chat/k;

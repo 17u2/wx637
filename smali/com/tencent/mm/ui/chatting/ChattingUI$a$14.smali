@@ -92,7 +92,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$14;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -126,7 +126,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$14;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -178,7 +178,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$14;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/chatting/dq;->c(Lcom/tencent/mm/storage/ad;Landroid/content/Context;)V
+    value = Lcom/tencent/mm/ui/chatting/dq;->c(Lcom/tencent/mm/storage/ADclz;Landroid/content/Context;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,18 +18,18 @@
 
 
 # instance fields
-.field final synthetic bJG:Lcom/tencent/mm/storage/ad;
+.field final synthetic bJG:Lcom/tencent/mm/storage/ADclz;
 
 .field final synthetic val$context:Landroid/content/Context;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/storage/ad;Landroid/content/Context;)V
+.method constructor <init>(Lcom/tencent/mm/storage/ADclz;Landroid/content/Context;)V
     .locals 1
 
     .prologue
     .line 363
-    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/dq$9;->bJG:Lcom/tencent/mm/storage/ad;
+    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/dq$9;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iput-object p2, p0, Lcom/tencent/mm/ui/chatting/dq$9;->val$context:Landroid/content/Context;
 
@@ -79,16 +79,16 @@
     move-result-object v1
 
     .line 368
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/dq$9;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/dq$9;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/storage/v;->CG(Ljava/lang/String;)Lcom/tencent/mm/storage/v;
+    invoke-static {v0}, Lcom/tencent/mm/storage/Vclz;->CG(Ljava/lang/String;)Lcom/tencent/mm/storage/Vclz;
 
     move-result-object v0
 
     .line 369
-    iget-object v0, v0, Lcom/tencent/mm/storage/v;->atr:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/storage/Vclz;->atr:Ljava/lang/String;
 
     .line 370
     if-eqz v0, :cond_0
@@ -103,7 +103,7 @@
 
     .line 371
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/dq$9;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/dq$9;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
 

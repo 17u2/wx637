@@ -206,7 +206,7 @@
     iput-boolean v6, p0, Lcom/tencent/mm/c/b/h;->aqP:Z
 
     .line 365
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
 
     move-result-object v0
 
@@ -502,7 +502,7 @@
     if-eqz v2, :cond_1
 
     .line 207
-    invoke-static {}, Lcom/tencent/mm/model/h;->rW()I
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rW()I
 
     move-result v2
 
@@ -526,7 +526,7 @@
     if-eqz v2, :cond_4
 
     .line 217
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v2
 
@@ -601,14 +601,14 @@
 
     .line 232
     :cond_6
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
 
     move-result-object v2
 
     invoke-virtual {v2, p0}, Lcom/tencent/mm/compatible/b/d;->a(Lcom/tencent/mm/compatible/b/d$a;)V
 
     .line 233
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
 
     move-result-object v2
 
@@ -939,7 +939,7 @@
     const/4 v1, 0x0
 
     .line 285
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
 
     move-result-object v2
 

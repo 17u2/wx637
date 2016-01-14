@@ -258,11 +258,11 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/cn$4;->kfF:Lcom/tencent/mm/ui/chatting/cn;
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/chatting/cn;->g(Lcom/tencent/mm/ui/chatting/cn;)Lcom/tencent/mm/storage/k;
+    invoke-static {v2}, Lcom/tencent/mm/ui/chatting/cn;->g(Lcom/tencent/mm/ui/chatting/cn;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v2
 
-    invoke-static {v1, v0, v2}, Lcom/tencent/mm/ui/chatting/v;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Ljava/util/List;Lcom/tencent/mm/storage/k;)Z
+    invoke-static {v1, v0, v2}, Lcom/tencent/mm/ui/chatting/v;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Ljava/util/List;Lcom/tencent/mm/storage/Kclz;)Z
 
     move-result v0
 

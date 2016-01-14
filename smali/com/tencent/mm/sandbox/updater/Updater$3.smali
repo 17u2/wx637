@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/aq$a;
+.implements Lcom/tencent/mm/model/AQclz$a;
 
 
 # annotations
@@ -47,7 +47,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;)V
+.method public final a(Lcom/tencent/mm/network/Eclz;)V
     .locals 7
 
     .prologue
@@ -67,13 +67,13 @@
 
     .line 235
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lc()Lcom/tencent/mm/model/y;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lc()Lcom/tencent/mm/model/Yclz;
 
     move-result-object v0
 
     const/16 v1, 0x22
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/model/y;->cancel(I)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/model/Yclz;->cancel(I)V
 
     .line 237
     const-string/jumbo v0, "!32@/B4Tb64lLpJ7QNEsxPPC97dw8tpB2lT1"
@@ -371,7 +371,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jef:Lcom/tencent/mm/sandbox/a/a;
 
-    invoke-static {v1, v0, p1, v2}, Lcom/tencent/mm/sandbox/updater/Updater;->a(Lcom/tencent/mm/sandbox/updater/Updater;Landroid/content/Intent;Lcom/tencent/mm/network/e;Lcom/tencent/mm/sandbox/a/a;)V
+    invoke-static {v1, v0, p1, v2}, Lcom/tencent/mm/sandbox/updater/Updater;->a(Lcom/tencent/mm/sandbox/updater/Updater;Landroid/content/Intent;Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/sandbox/a/a;)V
 
     .line 293
     const-string/jumbo v1, "intent_extra_run_in_foreground"
@@ -433,7 +433,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jef:Lcom/tencent/mm/sandbox/a/a;
 
-    invoke-static {v1, v0, p1, v2}, Lcom/tencent/mm/sandbox/updater/Updater;->a(Lcom/tencent/mm/sandbox/updater/Updater;Landroid/content/Intent;Lcom/tencent/mm/network/e;Lcom/tencent/mm/sandbox/a/a;)V
+    invoke-static {v1, v0, p1, v2}, Lcom/tencent/mm/sandbox/updater/Updater;->a(Lcom/tencent/mm/sandbox/updater/Updater;Landroid/content/Intent;Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/sandbox/a/a;)V
 
     .line 304
     const-string/jumbo v1, "!32@/B4Tb64lLpJ7QNEsxPPC97dw8tpB2lT1"

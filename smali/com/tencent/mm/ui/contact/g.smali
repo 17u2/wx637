@@ -14,21 +14,21 @@
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     .line 41
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rl()Lcom/tencent/mm/storage/s;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rl()Lcom/tencent/mm/storage/Sclz;
 
     move-result-object v0
 
-    sget-object v2, Lcom/tencent/mm/model/i;->bsL:Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/model/Iclz;->bsL:Ljava/lang/String;
 
     const/4 v3, 0x1
 
     const/4 v4, 0x0
 
-    invoke-virtual {v0, v2, p0, v3, v4}, Lcom/tencent/mm/storage/s;->a(Ljava/lang/String;Ljava/util/List;ZLjava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v0, v2, p0, v3, v4}, Lcom/tencent/mm/storage/Sclz;->a(Ljava/lang/String;Ljava/util/List;ZLjava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v2
 
@@ -44,12 +44,12 @@
 
     .line 45
     :cond_0
-    new-instance v3, Lcom/tencent/mm/storage/r;
+    new-instance v3, Lcom/tencent/mm/storage/Rclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/storage/r;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/storage/Rclz;-><init>()V
 
     .line 46
-    invoke-virtual {v3, v2}, Lcom/tencent/mm/storage/r;->c(Landroid/database/Cursor;)V
+    invoke-virtual {v3, v2}, Lcom/tencent/mm/storage/Rclz;->c(Landroid/database/Cursor;)V
 
     .line 47
     iget-object v4, v3, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
@@ -93,7 +93,7 @@
     const/4 v0, 0x0
 
     .line 63
-    sget-object v2, Lcom/tencent/mm/model/i;->bsR:[Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/model/Iclz;->bsR:[Ljava/lang/String;
 
     array-length v3, v2
 
@@ -124,14 +124,14 @@
 
     .line 68
     :cond_2
-    invoke-static {p0}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
     .line 71
-    invoke-static {p0}, Lcom/tencent/mm/model/i;->dT(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/tencent/mm/model/Iclz;->dT(Ljava/lang/String;)Z
 
     move-result v1
 

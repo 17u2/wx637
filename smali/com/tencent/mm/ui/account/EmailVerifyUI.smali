@@ -111,7 +111,7 @@
 
     invoke-direct {v0, v1, v2, p1}, Lcom/tencent/mm/modelfriend/w;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -601,9 +601,9 @@
     .line 274
     check-cast v0, Lcom/tencent/mm/modelfriend/w;
 
-    iget-object v0, v0, Lcom/tencent/mm/modelfriend/w;->byM:Lcom/tencent/mm/network/o;
+    iget-object v0, v0, Lcom/tencent/mm/modelfriend/w;->byM:Lcom/tencent/mm/network/Oclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
+    invoke-interface {v0}, Lcom/tencent/mm/network/Oclz;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 
@@ -638,9 +638,9 @@
     .line 279
     check-cast v0, Lcom/tencent/mm/modelfriend/w;
 
-    iget-object v0, v0, Lcom/tencent/mm/modelfriend/w;->byM:Lcom/tencent/mm/network/o;
+    iget-object v0, v0, Lcom/tencent/mm/modelfriend/w;->byM:Lcom/tencent/mm/network/Oclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
+    invoke-interface {v0}, Lcom/tencent/mm/network/Oclz;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v0
 
@@ -708,7 +708,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v1
 
@@ -742,7 +742,7 @@
 
     const-string/jumbo v1, "R22_resend_email_code_alert"
 
-    invoke-static {v1}, Lcom/tencent/mm/model/ah;->eV(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/tencent/mm/model/AHclz;->eV(Ljava/lang/String;)I
 
     move-result v1
 
@@ -847,7 +847,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v4
 
@@ -881,7 +881,7 @@
 
     const-string/jumbo v4, "R500_260"
 
-    invoke-static {v4}, Lcom/tencent/mm/model/ah;->eV(Ljava/lang/String;)I
+    invoke-static {v4}, Lcom/tencent/mm/model/AHclz;->eV(Ljava/lang/String;)I
 
     move-result v4
 
@@ -1041,7 +1041,7 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onPause()V
 
     .line 74
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -1056,7 +1056,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1090,7 +1090,7 @@
 
     const-string/jumbo v2, "R500_200"
 
-    invoke-static {v2}, Lcom/tencent/mm/model/ah;->eV(Ljava/lang/String;)I
+    invoke-static {v2}, Lcom/tencent/mm/model/AHclz;->eV(Ljava/lang/String;)I
 
     move-result v2
 
@@ -1122,7 +1122,7 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onResume()V
 
     .line 64
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -1137,7 +1137,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1171,7 +1171,7 @@
 
     const-string/jumbo v2, "R500_200"
 
-    invoke-static {v2}, Lcom/tencent/mm/model/ah;->eV(Ljava/lang/String;)I
+    invoke-static {v2}, Lcom/tencent/mm/model/AHclz;->eV(Ljava/lang/String;)I
 
     move-result v2
 

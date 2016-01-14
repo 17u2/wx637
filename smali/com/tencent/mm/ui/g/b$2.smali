@@ -103,11 +103,11 @@
 
     .line 278
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget v0, v0, Lcom/tencent/mm/model/c;->uin:I
+    iget v0, v0, Lcom/tencent/mm/model/Cclz;->uin:I
 
     if-nez v0, :cond_2
 

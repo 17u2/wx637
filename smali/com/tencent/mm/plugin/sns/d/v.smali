@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/network/j;
+.implements Lcom/tencent/mm/network/Jclz;
 .implements Lcom/tencent/mm/plugin/sns/d/d;
 
 
@@ -794,7 +794,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+.method public final a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
     .locals 1
 
     .prologue
@@ -804,14 +804,14 @@
     .line 347
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/d/v;->ant:Lcom/tencent/mm/q/Aclz;
 
-    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/plugin/sns/d/v;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;)I
+    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/plugin/sns/d/v;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/network/Oclz;Lcom/tencent/mm/network/Jclz;)I
 
     move-result v0
 
     return v0
 .end method
 
-.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/o;[B)V
+.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/Oclz;[B)V
     .locals 9
 
     .prologue
@@ -876,7 +876,7 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/apc;
 
     .line 160
-    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
+    invoke-interface {p5}, Lcom/tencent/mm/network/Oclz;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v1
 
@@ -886,7 +886,7 @@
 
     if-eq v1, v2, :cond_0
 
-    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
+    invoke-interface {p5}, Lcom/tencent/mm/network/Oclz;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v1
 
@@ -972,7 +972,7 @@
 
     iget v1, v1, Lcom/tencent/mm/protocal/b/aor;->iVy:I
 
-    sput v1, Lcom/tencent/mm/storage/i;->jkT:I
+    sput v1, Lcom/tencent/mm/storage/Iclz;->jkT:I
 
     .line 179
     :cond_2
@@ -1796,7 +1796,7 @@
     invoke-static {v1, v2}, Lcom/tencent/mm/plugin/sns/d/a;->c(Ljava/util/LinkedList;Ljava/util/LinkedList;)V
 
     .line 281
-    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
+    invoke-interface {p5}, Lcom/tencent/mm/network/Oclz;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v1
 

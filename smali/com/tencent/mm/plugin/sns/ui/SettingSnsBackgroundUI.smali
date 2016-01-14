@@ -48,14 +48,14 @@
     const/4 v6, 0x1
 
     .line 87
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tq()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tq()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 88
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tt()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tt()Z
 
     .line 91
     :cond_0
@@ -607,11 +607,11 @@
     if-eqz v3, :cond_2
 
     .line 232
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/model/c;->isSDCardAvailable()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/model/Cclz;->isSDCardAvailable()Z
 
     move-result v2
 
@@ -647,11 +647,11 @@
     if-eqz v3, :cond_5
 
     .line 236
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/model/c;->isSDCardAvailable()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/model/Cclz;->isSDCardAvailable()Z
 
     move-result v2
 
@@ -819,7 +819,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v2
 

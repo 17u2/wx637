@@ -99,9 +99,9 @@
     if-nez v4, :cond_1
 
     .line 37
-    new-instance v0, Lcom/tencent/mm/model/b;
+    new-instance v0, Lcom/tencent/mm/model/Bclz;
 
-    invoke-direct {v0, v3}, Lcom/tencent/mm/model/b;-><init>(B)V
+    invoke-direct {v0, v3}, Lcom/tencent/mm/model/Bclz;-><init>(B)V
 
     throw v0
 

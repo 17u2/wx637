@@ -22,7 +22,7 @@
 
 .field cVG:Landroid/app/ProgressDialog;
 
-.field dfb:Lcom/tencent/mm/storage/k;
+.field dfb:Lcom/tencent/mm/storage/Kclz;
 
 .field private hSD:Lcom/tencent/mm/pluginsdk/ui/applet/b$a;
 
@@ -142,7 +142,7 @@
 
     .line 298
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -158,7 +158,7 @@
     invoke-direct {v0, p1}, Lcom/tencent/mm/modelsimple/z;-><init>(Ljava/lang/String;)V
 
     .line 300
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -170,7 +170,7 @@
 
 
 # virtual methods
-.method final H(Lcom/tencent/mm/storage/k;)V
+.method final H(Lcom/tencent/mm/storage/Kclz;)V
     .locals 14
 
     .prologue
@@ -231,7 +231,7 @@
     :cond_2
     if-eqz v0, :cond_c
 
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/k;->aPT()Z
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/Kclz;->aPT()Z
 
     move-result v1
 
@@ -272,7 +272,7 @@
     if-nez v0, :cond_3
 
     .line 141
-    invoke-virtual {p0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/b;->I(Lcom/tencent/mm/storage/k;)V
+    invoke-virtual {p0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/b;->I(Lcom/tencent/mm/storage/Kclz;)V
 
     goto :goto_0
 
@@ -286,13 +286,13 @@
 
     const-string/jumbo v6, ""
 
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/k;->aPT()Z
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/Kclz;->aPT()Z
 
     move-result v7
 
     new-instance v0, Lcom/tencent/mm/pluginsdk/ui/applet/b$2;
 
-    invoke-direct {v0, p0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/b$2;-><init>(Lcom/tencent/mm/pluginsdk/ui/applet/b;Lcom/tencent/mm/storage/k;)V
+    invoke-direct {v0, p0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/b$2;-><init>(Lcom/tencent/mm/pluginsdk/ui/applet/b;Lcom/tencent/mm/storage/Kclz;)V
 
     if-eqz v3, :cond_4
 
@@ -503,7 +503,7 @@
     goto/16 :goto_1
 .end method
 
-.method final I(Lcom/tencent/mm/storage/k;)V
+.method final I(Lcom/tencent/mm/storage/Kclz;)V
     .locals 4
 
     .prologue
@@ -594,26 +594,26 @@
     if-eqz p1, :cond_1
 
     .line 356
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/k;->qa()V
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/Kclz;->qa()V
 
     .line 357
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/q;->a(Ljava/lang/String;Lcom/tencent/mm/storage/k;)I
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/Qclz;->a(Ljava/lang/String;Lcom/tencent/mm/storage/Kclz;)I
 
     .line 358
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->mContext:Landroid/content/Context;
@@ -678,18 +678,18 @@
     const/4 v2, 0x0
 
     .line 182
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     if-eqz v0, :cond_3
 
     .line 183
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -703,17 +703,17 @@
 
     .line 184
     :goto_0
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/storage/k;->mi()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/tencent/mm/storage/Kclz;->mi()Ljava/lang/String;
 
     move-result-object v3
 
     if-eqz v3, :cond_2
 
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/storage/k;->mi()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/tencent/mm/storage/Kclz;->mi()Ljava/lang/String;
 
     move-result-object v3
 
@@ -799,28 +799,28 @@
     const/4 v6, 0x1
 
     .line 95
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v0
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->cEo:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     .line 97
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     iget-wide v2, v0, Lcom/tencent/mm/h/a;->boB:J
 
@@ -844,29 +844,29 @@
     invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 99
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v0
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->cEo:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/q;->Cf(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/Qclz;->Cf(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     .line 101
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     if-eqz v0, :cond_9
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     iget-wide v2, v0, Lcom/tencent/mm/h/a;->boB:J
 
@@ -882,7 +882,7 @@
     invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 103
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     if-nez v0, :cond_2
 
@@ -901,13 +901,13 @@
 
     .line 103
     :cond_2
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/storage/k;->aPT()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/storage/Kclz;->aPT()Z
 
     move-result v2
 
@@ -1108,7 +1108,7 @@
     goto :goto_2
 
     :cond_7
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     iget v0, v0, Lcom/tencent/mm/d/b/o;->field_type:I
 
@@ -1141,9 +1141,9 @@
     goto/16 :goto_0
 
     :cond_8
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
-    invoke-virtual {p0, v0}, Lcom/tencent/mm/pluginsdk/ui/applet/b;->H(Lcom/tencent/mm/storage/k;)V
+    invoke-virtual {p0, v0}, Lcom/tencent/mm/pluginsdk/ui/applet/b;->H(Lcom/tencent/mm/storage/Kclz;)V
 
     goto/16 :goto_0
 

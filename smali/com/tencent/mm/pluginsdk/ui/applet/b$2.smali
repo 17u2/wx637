@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/pluginsdk/ui/applet/b;->H(Lcom/tencent/mm/storage/k;)V
+    value = Lcom/tencent/mm/pluginsdk/ui/applet/b;->H(Lcom/tencent/mm/storage/Kclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic fmK:Lcom/tencent/mm/storage/k;
+.field final synthetic fmK:Lcom/tencent/mm/storage/Kclz;
 
 .field final synthetic hSH:Lcom/tencent/mm/pluginsdk/ui/applet/b;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/pluginsdk/ui/applet/b;Lcom/tencent/mm/storage/k;)V
+.method constructor <init>(Lcom/tencent/mm/pluginsdk/ui/applet/b;Lcom/tencent/mm/storage/Kclz;)V
     .locals 1
 
     .prologue
     .line 145
     iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b$2;->hSH:Lcom/tencent/mm/pluginsdk/ui/applet/b;
 
-    iput-object p2, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b$2;->fmK:Lcom/tencent/mm/storage/k;
+    iput-object p2, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b$2;->fmK:Lcom/tencent/mm/storage/Kclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -57,9 +57,9 @@
     .line 150
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b$2;->hSH:Lcom/tencent/mm/pluginsdk/ui/applet/b;
 
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b$2;->fmK:Lcom/tencent/mm/storage/k;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b$2;->fmK:Lcom/tencent/mm/storage/Kclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/b;->I(Lcom/tencent/mm/storage/k;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/b;->I(Lcom/tencent/mm/storage/Kclz;)V
 
     .line 155
     :goto_0

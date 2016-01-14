@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic bZY:Lcom/tencent/mm/network/a/b;
+.field final synthetic bZY:Lcom/tencent/mm/network/a/Bclz;
 
 .field final synthetic bZZ:I
 
@@ -30,12 +30,12 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/network/a/b;IIII)V
+.method constructor <init>(Lcom/tencent/mm/network/a/Bclz;IIII)V
     .locals 1
 
     .prologue
     .line 465
-    iput-object p1, p0, Lcom/tencent/mm/network/C2Java$7;->bZY:Lcom/tencent/mm/network/a/b;
+    iput-object p1, p0, Lcom/tencent/mm/network/C2Java$7;->bZY:Lcom/tencent/mm/network/a/Bclz;
 
     iput p2, p0, Lcom/tencent/mm/network/C2Java$7;->bZZ:I
 
@@ -65,7 +65,7 @@
     .prologue
     .line 469
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/network/C2Java$7;->bZY:Lcom/tencent/mm/network/a/b;
+    iget-object v0, p0, Lcom/tencent/mm/network/C2Java$7;->bZY:Lcom/tencent/mm/network/a/Bclz;
 
     iget v1, p0, Lcom/tencent/mm/network/C2Java$7;->bZZ:I
 
@@ -75,7 +75,7 @@
 
     iget v4, p0, Lcom/tencent/mm/network/C2Java$7;->cac:I
 
-    invoke-interface {v0, v1, v2, v3, v4}, Lcom/tencent/mm/network/a/b;->d(IIII)V
+    invoke-interface {v0, v1, v2, v3, v4}, Lcom/tencent/mm/network/a/Bclz;->d(IIII)V
     :try_end_0
     .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
 

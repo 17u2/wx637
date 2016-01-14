@@ -240,7 +240,7 @@
     .line 151
     iget-object v1, v0, Lcom/tencent/mm/ui/chatting/dd;->ajd:Ljava/lang/String;
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v2
 
@@ -534,7 +534,7 @@
     invoke-virtual {v1, v0}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
     .line 172
-    invoke-static {}, Lcom/tencent/mm/model/h;->sb()I
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sb()I
 
     move-result v0
 
@@ -670,7 +670,7 @@
 
     .line 182
     :cond_e
-    invoke-static {}, Lcom/tencent/mm/model/h;->sb()I
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sb()I
 
     move-result v1
 

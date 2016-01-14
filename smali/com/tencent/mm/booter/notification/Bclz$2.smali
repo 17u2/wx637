@@ -63,7 +63,7 @@
     .line 132
     iget-object v0, p1, Lcom/tencent/mm/d/a/ih;->aDr:Lcom/tencent/mm/d/a/ih$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/ih$a;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/ih$a;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     .line 133
     if-eqz v0, :cond_0
@@ -98,9 +98,9 @@
 
     .line 134
     :cond_1
-    iput-object v0, v1, Lcom/tencent/mm/booter/notification/Bclz;->aCM:Lcom/tencent/mm/storage/ad;
+    iput-object v0, v1, Lcom/tencent/mm/booter/notification/Bclz;->aCM:Lcom/tencent/mm/storage/ADclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/g/gclass;->b(Lcom/tencent/mm/storage/ad;)I
+    invoke-static {v0}, Lcom/tencent/mm/g/gclass;->b(Lcom/tencent/mm/storage/ADclz;)I
 
     move-result v2
 
@@ -170,9 +170,9 @@
 
     iget-object v5, v1, Lcom/tencent/mm/booter/notification/Bclz;->aoH:Ljava/lang/String;
 
-    iget-object v6, v1, Lcom/tencent/mm/booter/notification/Bclz;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v6, v1, Lcom/tencent/mm/booter/notification/Bclz;->aCM:Lcom/tencent/mm/storage/ADclz;
 
-    invoke-virtual {v0, v5, v6, v2, v10}, Lcom/tencent/mm/booter/notification/Fclz;->a(Ljava/lang/String;Lcom/tencent/mm/storage/ad;IZ)Z
+    invoke-virtual {v0, v5, v6, v2, v10}, Lcom/tencent/mm/booter/notification/Fclz;->a(Ljava/lang/String;Lcom/tencent/mm/storage/ADclz;IZ)Z
 
     move-result v0
 

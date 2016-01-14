@@ -50,7 +50,7 @@
     .line 5529
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$99;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 

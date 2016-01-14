@@ -63,7 +63,7 @@
 
     aget-object v0, v2, v0
 
-    invoke-static {v0}, Lcom/tencent/mm/storage/k;->BV(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/storage/Kclz;->BV(Ljava/lang/String;)Z
 
     move-result v0
 

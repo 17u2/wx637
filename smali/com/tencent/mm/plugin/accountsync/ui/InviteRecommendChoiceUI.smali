@@ -69,7 +69,7 @@
     check-cast v0, Lcom/tencent/mm/ui/base/preference/IconPreference;
 
     .line 90
-    invoke-static {}, Lcom/tencent/mm/model/h;->rR()I
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rR()I
 
     move-result v1
 
@@ -93,7 +93,7 @@
     check-cast v0, Lcom/tencent/mm/ui/base/preference/IconPreference;
 
     .line 95
-    invoke-static {}, Lcom/tencent/mm/model/h;->rR()I
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rR()I
 
     move-result v1
 
@@ -117,17 +117,17 @@
     check-cast v0, Lcom/tencent/mm/ui/base/preference/IconPreference;
 
     .line 100
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rn()Lcom/tencent/mm/storage/ai;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rn()Lcom/tencent/mm/storage/AIclz;
 
     move-result-object v1
 
     const-string/jumbo v2, "@t.qq.com"
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/storage/ai;->Dr(Ljava/lang/String;)Lcom/tencent/mm/storage/ah;
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/storage/AIclz;->Dr(Ljava/lang/String;)Lcom/tencent/mm/storage/AHclz;
 
     move-result-object v1
 
@@ -303,17 +303,17 @@
 
     new-array v3, v7, [Ljava/lang/Object;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v4}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v4
 
     const/4 v5, 0x0
 
-    invoke-virtual {v4, v8, v5}, Lcom/tencent/mm/storage/h;->get(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v4, v8, v5}, Lcom/tencent/mm/storage/Hclz;->get(ILjava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
 

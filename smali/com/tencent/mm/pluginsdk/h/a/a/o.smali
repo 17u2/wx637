@@ -32,7 +32,7 @@
 
 
 # virtual methods
-.method protected final aIW()Lcom/tencent/mm/network/o;
+.method protected final aIW()Lcom/tencent/mm/network/Oclz;
     .locals 3
 
     .prologue
@@ -68,7 +68,7 @@
     return-object v1
 .end method
 
-.method protected final d(Lcom/tencent/mm/network/o;)Lcom/tencent/mm/protocal/b/HMclz;
+.method protected final d(Lcom/tencent/mm/network/Oclz;)Lcom/tencent/mm/protocal/b/HMclz;
     .locals 1
 
     .prologue

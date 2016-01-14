@@ -53,11 +53,11 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/tencent/mm/model/c;->anD:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/model/Cclz;->anD:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -186,7 +186,7 @@
     iput-object p2, v0, Lcom/tencent/mm/ak/g$b;->atr:Ljava/lang/String;
 
     .line 59
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v1
 
@@ -223,7 +223,7 @@
     iput-object p5, v0, Lcom/tencent/mm/ak/g$c;->bWW:Lcom/tencent/mm/ak/g$a;
 
     .line 69
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v1
 

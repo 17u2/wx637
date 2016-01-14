@@ -91,7 +91,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/r;
+    check-cast v0, Lcom/tencent/mm/storage/Rclz;
 
     .line 95
     if-nez v0, :cond_1
@@ -142,14 +142,14 @@
     .line 101
     iget-object v1, v0, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->dX(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->dX(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_3
 
     .line 102
-    invoke-static {}, Lcom/tencent/mm/model/h;->sj()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sj()Z
 
     move-result v1
 
@@ -209,14 +209,14 @@
     :cond_3
     iget-object v1, v0, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->dZ(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->dZ(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_5
 
     .line 111
-    invoke-static {}, Lcom/tencent/mm/model/h;->sg()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sg()Z
 
     move-result v1
 
@@ -276,7 +276,7 @@
     :cond_5
     iget-object v1, v0, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->dY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->dY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -309,7 +309,7 @@
     :cond_6
     iget-object v1, v0, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->ed(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->ed(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -347,14 +347,14 @@
     :cond_7
     iget-object v1, v0, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->dV(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->dV(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_9
 
     .line 130
-    invoke-static {}, Lcom/tencent/mm/model/h;->ss()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->ss()Z
 
     move-result v1
 
@@ -415,14 +415,14 @@
     :cond_9
     iget-object v1, v0, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->ei(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->ei(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_b
 
     .line 137
-    invoke-static {}, Lcom/tencent/mm/model/h;->sn()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sn()Z
 
     move-result v1
 
@@ -479,14 +479,14 @@
     :cond_b
     iget-object v1, v0, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->ep(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->ep(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_d
 
     .line 146
-    invoke-static {}, Lcom/tencent/mm/model/h;->so()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->so()Z
 
     move-result v1
 
@@ -543,7 +543,7 @@
     :cond_d
     iget-object v1, v0, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->ea(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->ea(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -576,14 +576,14 @@
     :cond_e
     iget-object v1, v0, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->eb(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->eb(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_10
 
     .line 157
-    invoke-static {}, Lcom/tencent/mm/model/h;->sq()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sq()Z
 
     move-result v1
 
@@ -639,14 +639,14 @@
     :cond_10
     iget-object v1, v0, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->eh(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->eh(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_12
 
     .line 165
-    invoke-static {}, Lcom/tencent/mm/model/h;->sk()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sk()Z
 
     move-result v1
 
@@ -711,7 +711,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->ef(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->ef(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -723,7 +723,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->eg(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->eg(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -735,7 +735,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->ec(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->ec(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -747,7 +747,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->ej(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->ej(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -759,7 +759,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->ek(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->ek(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -771,7 +771,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->dW(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->dW(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -783,7 +783,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->es(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->es(Ljava/lang/String;)Z
 
     move-result v1
 

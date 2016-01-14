@@ -130,7 +130,7 @@
     goto :goto_0
 .end method
 
-.method public final a(Ljava/lang/String;Lcom/tencent/mm/storage/ad;IZ)Z
+.method public final a(Ljava/lang/String;Lcom/tencent/mm/storage/ADclz;IZ)Z
     .locals 1
 
     .prologue
@@ -149,7 +149,7 @@
     return v0
 
     :cond_0
-    invoke-static {p1, p2, p3, p4}, Lcom/tencent/mm/booter/notification/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/storage/ad;IZ)Z
+    invoke-static {p1, p2, p3, p4}, Lcom/tencent/mm/booter/notification/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/storage/ADclz;IZ)Z
 
     move-result v0
 

@@ -88,7 +88,7 @@
 
     new-array v2, v5, [Ljava/lang/Object;
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rU()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rU()Ljava/lang/String;
 
     move-result-object v3
 
@@ -138,7 +138,7 @@
     invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/k;-><init>(ILjava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 4388
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -176,7 +176,7 @@
     move-result-object v0
 
     .line 4392
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 
@@ -218,7 +218,7 @@
     :cond_1
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$80;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     iget-wide v2, v0, Lcom/tencent/mm/h/a;->boB:J
 
@@ -227,19 +227,19 @@
     if-nez v0, :cond_2
 
     .line 4399
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v0
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$80;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/q;->N(Lcom/tencent/mm/storage/k;)I
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/Qclz;->N(Lcom/tencent/mm/storage/Kclz;)I
 
     move-result v0
 
@@ -250,11 +250,11 @@
     .line 4400
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$80;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v2}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v2
 
@@ -264,11 +264,11 @@
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v2
 
-    iput-object v2, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iput-object v2, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     .line 4403
     :cond_2

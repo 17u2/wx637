@@ -58,7 +58,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/plugin/base/stub/c;->csq:Ljava/lang/String;
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rV()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rV()Ljava/lang/String;
 
     move-result-object v2
 

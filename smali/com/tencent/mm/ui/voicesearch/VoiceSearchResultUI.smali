@@ -132,7 +132,7 @@
     aget-object v4, p0, v0
 
     .line 149
-    invoke-static {v4}, Lcom/tencent/mm/model/i;->dR(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4}, Lcom/tencent/mm/model/Iclz;->dR(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -162,7 +162,7 @@
 
     if-eqz v6, :cond_2
 
-    invoke-static {v4}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {v4}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v6
 
@@ -342,19 +342,19 @@
     new-array v2, v2, [Landroid/database/Cursor;
 
     .line 333
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/tencent/mm/model/c;->rl()Lcom/tencent/mm/storage/s;
+    invoke-virtual {v3}, Lcom/tencent/mm/model/Cclz;->rl()Lcom/tencent/mm/storage/Sclz;
 
     move-result-object v3
 
-    sget-object v4, Lcom/tencent/mm/model/i;->bsL:Ljava/lang/String;
+    sget-object v4, Lcom/tencent/mm/model/Iclz;->bsL:Ljava/lang/String;
 
     const/4 v5, 0x0
 
-    invoke-virtual {v3, v4, v5, p0}, Lcom/tencent/mm/storage/s;->b(Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v3, v4, v5, p0}, Lcom/tencent/mm/storage/Sclz;->b(Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v3
 
@@ -446,17 +446,17 @@
 
     .line 358
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v5
 
-    invoke-virtual {v5}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v5}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v5
 
     const-string/jumbo v6, "@micromsg.with.all.biz.qq.com"
 
-    invoke-virtual {v5, p0, v6, v3, v4}, Lcom/tencent/mm/storage/q;->a(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;)Landroid/database/Cursor;
+    invoke-virtual {v5, p0, v6, v3, v4}, Lcom/tencent/mm/storage/Qclz;->a(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;)Landroid/database/Cursor;
 
     move-result-object v3
 
@@ -905,7 +905,7 @@
 
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->sb()I
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sb()I
 
     move-result v2
 
@@ -918,7 +918,7 @@
     invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_3
-    invoke-static {}, Lcom/tencent/mm/model/i;->sD()Z
+    invoke-static {}, Lcom/tencent/mm/model/Iclz;->sD()Z
 
     move-result v3
 
@@ -978,7 +978,7 @@
 
     if-nez v3, :cond_a
 
-    invoke-static {}, Lcom/tencent/mm/model/i;->sC()Z
+    invoke-static {}, Lcom/tencent/mm/model/Iclz;->sC()Z
 
     move-result v3
 

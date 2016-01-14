@@ -204,7 +204,7 @@
 
     move-result-wide v0
 
-    invoke-static {p0, v0, v1}, Lcom/tencent/mm/model/g;->b(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {p0, v0, v1}, Lcom/tencent/mm/model/Gclz;->b(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object v0
 

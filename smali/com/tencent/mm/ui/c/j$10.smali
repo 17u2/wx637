@@ -60,7 +60,7 @@
     const/4 v2, 0x1
 
     .line 191
-    invoke-static {}, Lcom/tencent/mm/model/ao;->tM()Lcom/tencent/mm/model/ao;
+    invoke-static {}, Lcom/tencent/mm/model/AOclz;->tM()Lcom/tencent/mm/model/AOclz;
 
     move-result-object v0
 
@@ -68,7 +68,7 @@
 
     iget v4, p0, Lcom/tencent/mm/ui/c/j$10;->jJK:I
 
-    invoke-virtual {v0, v1, v4}, Lcom/tencent/mm/model/ao;->K(II)V
+    invoke-virtual {v0, v1, v4}, Lcom/tencent/mm/model/AOclz;->K(II)V
 
     .line 192
     iget-object v0, p0, Lcom/tencent/mm/ui/c/j$10;->jJL:Lcom/tencent/mm/ui/c/j;
@@ -81,7 +81,7 @@
 
     check-cast v0, Landroid/content/Context;
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->sb()I
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sb()I
 
     move-result v1
 

@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field public arO:Lcom/tencent/mm/storage/ad;
+.field public arO:Lcom/tencent/mm/storage/ADclz;
 
 
 # direct methods

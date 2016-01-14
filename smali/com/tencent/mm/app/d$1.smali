@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/app/d$1;
-.super Lcom/tencent/mm/network/q$a;
+.super Lcom/tencent/mm/network/Qclz$a;
 .source "SourceFile"
 
 
@@ -26,7 +26,7 @@
     .line 58
     iput-object p1, p0, Lcom/tencent/mm/app/d$1;->akM:Lcom/tencent/mm/app/d;
 
-    invoke-direct {p0}, Lcom/tencent/mm/network/q$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/network/Qclz$a;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 

@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/modelcdntran/a$1;
-.super Lcom/tencent/mm/network/m$a;
+.super Lcom/tencent/mm/network/Mclz$a;
 .source "SourceFile"
 
 
@@ -26,7 +26,7 @@
     .line 35
     iput-object p1, p0, Lcom/tencent/mm/modelcdntran/a$1;->bDg:Lcom/tencent/mm/modelcdntran/a;
 
-    invoke-direct {p0}, Lcom/tencent/mm/network/m$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/network/Mclz$a;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -77,14 +77,14 @@
 
     .line 43
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 46
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

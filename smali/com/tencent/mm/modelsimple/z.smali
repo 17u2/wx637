@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/network/j;
+.implements Lcom/tencent/mm/network/Jclz;
 
 
 # instance fields
@@ -174,11 +174,11 @@
     check-cast v1, Lcom/tencent/mm/protocal/b/akj;
 
     .line 105
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/tencent/mm/model/c;->rN()Lcom/tencent/mm/storage/d;
+    invoke-virtual {v3}, Lcom/tencent/mm/model/Cclz;->rN()Lcom/tencent/mm/storage/Dclz;
 
     move-result-object v3
 
@@ -188,7 +188,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/protocal/b/akj;->iBr:Ljava/lang/String;
 
-    invoke-virtual {v3, v4, v1}, Lcom/tencent/mm/storage/d;->ca(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v4, v1}, Lcom/tencent/mm/storage/Dclz;->ca(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -197,7 +197,7 @@
     return-object v0
 .end method
 
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+.method public final a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
     .locals 1
 
     .prologue
@@ -207,14 +207,14 @@
     .line 58
     iget-object v0, p0, Lcom/tencent/mm/modelsimple/z;->ant:Lcom/tencent/mm/q/Aclz;
 
-    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/modelsimple/z;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;)I
+    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/modelsimple/z;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/network/Oclz;Lcom/tencent/mm/network/Jclz;)I
 
     move-result v0
 
     return v0
 .end method
 
-.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/o;[B)V
+.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/Oclz;[B)V
     .locals 7
 
     .prologue

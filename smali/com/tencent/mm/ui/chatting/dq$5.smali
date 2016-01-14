@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/chatting/dq;->a(Lcom/tencent/mm/storage/ad;Landroid/content/Context;)V
+    value = Lcom/tencent/mm/ui/chatting/dq;->a(Lcom/tencent/mm/storage/ADclz;Landroid/content/Context;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,18 +18,18 @@
 
 
 # instance fields
-.field final synthetic bJG:Lcom/tencent/mm/storage/ad;
+.field final synthetic bJG:Lcom/tencent/mm/storage/ADclz;
 
 .field final synthetic val$context:Landroid/content/Context;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/storage/ad;Landroid/content/Context;)V
+.method constructor <init>(Lcom/tencent/mm/storage/ADclz;Landroid/content/Context;)V
     .locals 1
 
     .prologue
     .line 164
-    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ad;
+    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iput-object p2, p0, Lcom/tencent/mm/ui/chatting/dq$5;->val$context:Landroid/content/Context;
 
@@ -79,7 +79,7 @@
     move-result-object v3
 
     .line 171
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v0, v0, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
@@ -92,7 +92,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v1, v1, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
@@ -111,7 +111,7 @@
     if-gtz v1, :cond_8
 
     :cond_0
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v1, v1, Lcom/tencent/mm/d/b/ba;->field_msgSvrId:J
 
@@ -124,7 +124,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v1, v1, Lcom/tencent/mm/d/b/ba;->field_msgSvrId:J
 
@@ -162,7 +162,7 @@
     if-eqz v0, :cond_7
 
     .line 186
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget v0, v0, Lcom/tencent/mm/d/b/ba;->field_isSend:I
 
@@ -182,7 +182,7 @@
 
     .line 202
     :goto_4
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v2
 
@@ -237,20 +237,20 @@
     invoke-direct/range {v0 .. v11}, Lcom/tencent/mm/z/k;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILcom/tencent/mm/q/Eclz;ILjava/lang/String;Ljava/lang/String;ZI)V
 
     .line 208
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
     invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 209
-    invoke-static {}, Lcom/tencent/mm/model/az;->ut()Lcom/tencent/mm/model/az;
+    invoke-static {}, Lcom/tencent/mm/model/AZclz;->ut()Lcom/tencent/mm/model/AZclz;
 
     move-result-object v0
 
-    sget v1, Lcom/tencent/mm/model/az;->bvu:I
+    sget v1, Lcom/tencent/mm/model/AZclz;->bvu:I
 
-    invoke-virtual {v0, v1, v6}, Lcom/tencent/mm/model/az;->b(I[Ljava/lang/Object;)V
+    invoke-virtual {v0, v1, v6}, Lcom/tencent/mm/model/AZclz;->b(I[Ljava/lang/Object;)V
 
     .line 217
     :cond_2
@@ -355,7 +355,7 @@
     .line 221
     const-string/jumbo v1, "img_gallery_msg_id"
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v4, v2, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
@@ -364,7 +364,7 @@
     .line 222
     const-string/jumbo v1, "img_gallery_msg_svr_id"
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v4, v2, Lcom/tencent/mm/d/b/ba;->field_msgSvrId:J
 
@@ -373,7 +373,7 @@
     .line 223
     const-string/jumbo v1, "img_gallery_talker"
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v2, v2, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
 
@@ -382,7 +382,7 @@
     .line 224
     const-string/jumbo v1, "img_gallery_chatroom_name"
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/dq$5;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v2, v2, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
 

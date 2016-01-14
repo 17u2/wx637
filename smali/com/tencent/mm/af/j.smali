@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/network/j;
+.implements Lcom/tencent/mm/network/Jclz;
 .implements Lcom/tencent/mm/q/Kclz;
 
 
@@ -105,11 +105,11 @@
     if-ne p2, v0, :cond_2
 
     .line 60
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/model/c;->cachePath:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/model/Cclz;->cachePath:Ljava/lang/String;
 
     .line 61
     const-string/jumbo v1, "brand_i18n.apk"
@@ -1334,11 +1334,11 @@
 
     .line 380
     :cond_9
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v0
 
@@ -1352,7 +1352,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/h;->set(ILjava/lang/Object;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/Hclz;->set(ILjava/lang/Object;)V
 
     .line 382
     :cond_a
@@ -1372,7 +1372,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+.method public final a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
     .locals 7
 
     .prologue
@@ -1637,14 +1637,14 @@
     .line 112
     iget-object v0, p0, Lcom/tencent/mm/af/j;->ant:Lcom/tencent/mm/q/Aclz;
 
-    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/af/j;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;)I
+    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/af/j;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/network/Oclz;Lcom/tencent/mm/network/Jclz;)I
 
     move-result v0
 
     goto/16 :goto_0
 .end method
 
-.method protected final a(Lcom/tencent/mm/network/o;)I
+.method protected final a(Lcom/tencent/mm/network/Oclz;)I
     .locals 4
 
     .prologue
@@ -1774,7 +1774,7 @@
     goto :goto_0
 .end method
 
-.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/o;[B)V
+.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/Oclz;[B)V
     .locals 9
 
     .prologue
@@ -2085,7 +2085,7 @@
     invoke-direct {v0, v1}, Lcom/tencent/mm/af/k;-><init>(I)V
 
     .line 188
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -2111,11 +2111,11 @@
     if-ne v0, v1, :cond_7
 
     .line 196
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget-object v1, v0, Lcom/tencent/mm/model/c;->cachePath:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/model/Cclz;->cachePath:Ljava/lang/String;
 
     .line 197
     const-string/jumbo v0, "brand_i18n.apk"
@@ -3101,11 +3101,11 @@
 
     .line 281
     :cond_1e
-    iget-object v0, p0, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/e;
+    iget-object v0, p0, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/Eclz;
 
     iget-object v1, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {p0, v0, v1}, Lcom/tencent/mm/af/j;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+    invoke-virtual {p0, v0, v1}, Lcom/tencent/mm/af/j;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
 
     move-result v0
 

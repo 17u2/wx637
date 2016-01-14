@@ -72,7 +72,7 @@
     .line 199
     const-string/jumbo v2, "app_msg_id"
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v3, v0, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 

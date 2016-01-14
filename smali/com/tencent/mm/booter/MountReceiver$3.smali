@@ -68,7 +68,7 @@
 
     const/4 v3, 0x1
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v4
 
@@ -81,7 +81,7 @@
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 108
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -93,7 +93,7 @@
 
     .line 111
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tk()V
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tk()V
 
     goto :goto_0
 .end method

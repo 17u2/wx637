@@ -55,19 +55,19 @@
     .line 450
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference$3;->hZW:Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v1
 
-    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v1
 
@@ -81,7 +81,7 @@
 
     iget-object v2, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v3, v3, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -91,10 +91,10 @@
 
     if-eqz v2, :cond_0
 
-    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->czx:Lcom/tencent/mm/storage/k;
+    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->czx:Lcom/tencent/mm/storage/Kclz;
 
     :cond_0
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget v1, v1, Lcom/tencent/mm/d/b/o;->field_type:I
 
@@ -134,7 +134,7 @@
 
     const-string/jumbo v2, "Contact_User"
 
-    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v3, v3, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -142,7 +142,7 @@
 
     const-string/jumbo v2, "Contact_Nick"
 
-    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v3, v3, Lcom/tencent/mm/d/b/o;->field_nickname:Ljava/lang/String;
 
@@ -150,7 +150,7 @@
 
     const-string/jumbo v2, "Contact_RemarkName"
 
-    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v3, v3, Lcom/tencent/mm/d/b/o;->field_conRemark:Ljava/lang/String;
 
@@ -186,7 +186,7 @@
 
     const-string/jumbo v2, "Contact_User"
 
-    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v3, v3, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 

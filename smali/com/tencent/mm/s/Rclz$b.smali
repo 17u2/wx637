@@ -101,7 +101,7 @@
 
     const/16 v5, 0x1388
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/network/b;->j(Ljava/lang/String;II)Ljava/io/InputStream;
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/network/Bclz;->j(Ljava/lang/String;II)Ljava/io/InputStream;
 
     move-result-object v3
 
@@ -236,20 +236,20 @@
 
     .line 460
     :cond_3
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v2
 
     if-eqz v2, :cond_4
 
     .line 462
-    sget-object v2, Lcom/tencent/mm/model/z$a;->bti:Lcom/tencent/mm/model/z$e;
+    sget-object v2, Lcom/tencent/mm/model/Zclz$a;->bti:Lcom/tencent/mm/model/Zclz$e;
 
     iget-object v3, p0, Lcom/tencent/mm/s/Rclz$b;->bwD:[B
 
     array-length v3, v3
 
-    invoke-interface {v2, v3, v0}, Lcom/tencent/mm/model/z$e;->I(II)V
+    invoke-interface {v2, v3, v0}, Lcom/tencent/mm/model/Zclz$e;->I(II)V
 
     .line 463
     invoke-static {}, Lcom/tencent/mm/s/AIclz;->xw()Lcom/tencent/mm/s/Rclz$a;

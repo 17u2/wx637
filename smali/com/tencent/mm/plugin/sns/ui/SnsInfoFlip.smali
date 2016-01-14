@@ -21,7 +21,7 @@
 
 .field gfZ:Z
 
-.field private ggk:Lcom/tencent/mm/storage/i$a;
+.field private ggk:Lcom/tencent/mm/storage/Iclz$a;
 
 .field private gwb:Z
 
@@ -1690,12 +1690,12 @@
     goto :goto_0
 .end method
 
-.method static synthetic h(Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;)Lcom/tencent/mm/storage/i$a;
+.method static synthetic h(Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;)Lcom/tencent/mm/storage/Iclz$a;
     .locals 1
 
     .prologue
     .line 55
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->ggk:Lcom/tencent/mm/storage/i$a;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->ggk:Lcom/tencent/mm/storage/Iclz$a;
 
     return-object v0
 .end method
@@ -3150,12 +3150,12 @@
     return-void
 .end method
 
-.method public setFromScene(Lcom/tencent/mm/storage/i$a;)V
+.method public setFromScene(Lcom/tencent/mm/storage/Iclz$a;)V
     .locals 0
 
     .prologue
     .line 115
-    iput-object p1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->ggk:Lcom/tencent/mm/storage/i$a;
+    iput-object p1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->ggk:Lcom/tencent/mm/storage/Iclz$a;
 
     .line 116
     return-void

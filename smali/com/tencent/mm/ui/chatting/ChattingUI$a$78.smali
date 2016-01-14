@@ -57,7 +57,7 @@
     .line 907
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$78;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     if-eqz v0, :cond_0
 
@@ -77,7 +77,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$78;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 

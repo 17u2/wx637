@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/q/Oclz;->a(IIILjava/lang/String;Lcom/tencent/mm/network/p;[B)V
+    value = Lcom/tencent/mm/q/Oclz;->a(IIILjava/lang/String;Lcom/tencent/mm/network/Pclz;[B)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -257,7 +257,7 @@
     .line 113
     iget-object v0, p0, Lcom/tencent/mm/q/Oclz$2;->byR:Lcom/tencent/mm/q/Oclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/q/Oclz;->g(Lcom/tencent/mm/q/Oclz;)Lcom/tencent/mm/network/j;
+    invoke-static {v0}, Lcom/tencent/mm/q/Oclz;->g(Lcom/tencent/mm/q/Oclz;)Lcom/tencent/mm/network/Jclz;
 
     move-result-object v0
 
@@ -267,13 +267,13 @@
 
     iget-object v5, p0, Lcom/tencent/mm/q/Oclz$2;->byR:Lcom/tencent/mm/q/Oclz;
 
-    invoke-static {v5}, Lcom/tencent/mm/q/Oclz;->f(Lcom/tencent/mm/q/Oclz;)Lcom/tencent/mm/network/o;
+    invoke-static {v5}, Lcom/tencent/mm/q/Oclz;->f(Lcom/tencent/mm/q/Oclz;)Lcom/tencent/mm/network/Oclz;
 
     move-result-object v5
 
     iget-object v6, p0, Lcom/tencent/mm/q/Oclz$2;->byW:[B
 
-    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/network/j;->a(IIILjava/lang/String;Lcom/tencent/mm/network/o;[B)V
+    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/network/Jclz;->a(IIILjava/lang/String;Lcom/tencent/mm/network/Oclz;[B)V
 
     .line 114
     iget-object v0, p0, Lcom/tencent/mm/q/Oclz$2;->byR:Lcom/tencent/mm/q/Oclz;

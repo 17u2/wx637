@@ -200,7 +200,7 @@
     sput-boolean v0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->aoK:Z
 
     .line 232
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -439,7 +439,7 @@
     sput-boolean v0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->aoK:Z
 
     .line 211
-    invoke-static {}, Lcom/tencent/mm/model/ah;->sU()Lcom/tencent/mm/model/ba;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->sU()Lcom/tencent/mm/model/BAclz;
 
     move-result-object v0
 
@@ -449,7 +449,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/ba;->fk(Ljava/lang/String;)Lcom/tencent/mm/model/ae;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/BAclz;->fk(Ljava/lang/String;)Lcom/tencent/mm/model/AEclz;
 
     move-result-object v0
 
@@ -481,7 +481,7 @@
     sput-boolean v0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->aoK:Z
 
     .line 198
-    invoke-static {}, Lcom/tencent/mm/model/ah;->sU()Lcom/tencent/mm/model/ba;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->sU()Lcom/tencent/mm/model/BAclz;
 
     move-result-object v0
 
@@ -491,7 +491,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/ba;->fk(Ljava/lang/String;)Lcom/tencent/mm/model/ae;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/BAclz;->fk(Ljava/lang/String;)Lcom/tencent/mm/model/AEclz;
 
     move-result-object v0
 

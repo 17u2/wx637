@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/storage/s$a;
+.implements Lcom/tencent/mm/storage/Sclz$a;
 
 
 # annotations
@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/storage/r;Lcom/tencent/mm/storage/s;)V
+.method public final a(Lcom/tencent/mm/storage/Rclz;Lcom/tencent/mm/storage/Sclz;)V
     .locals 5
 
     .prologue
@@ -66,15 +66,15 @@
     iget-object v0, p1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
 
     .line 319
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v1
 
@@ -88,13 +88,13 @@
 
     .line 323
     :cond_1
-    invoke-virtual {v1}, Lcom/tencent/mm/storage/k;->aPT()Z
+    invoke-virtual {v1}, Lcom/tencent/mm/storage/Kclz;->aPT()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->ee(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->ee(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -124,7 +124,7 @@
     if-nez v0, :cond_2
 
     .line 327
-    invoke-virtual {p1, v3}, Lcom/tencent/mm/storage/r;->cd(Ljava/lang/String;)V
+    invoke-virtual {p1, v3}, Lcom/tencent/mm/storage/Rclz;->cd(Ljava/lang/String;)V
 
     .line 328
     const-string/jumbo v0, "!32@/B4Tb64lLpIAhUt0Bg2QTg4i7yLWzKSf"
@@ -148,7 +148,7 @@
     if-nez v0, :cond_3
 
     .line 332
-    invoke-virtual {p1, v3}, Lcom/tencent/mm/storage/r;->cd(Ljava/lang/String;)V
+    invoke-virtual {p1, v3}, Lcom/tencent/mm/storage/Rclz;->cd(Ljava/lang/String;)V
 
     .line 333
     const-string/jumbo v0, "!32@/B4Tb64lLpIAhUt0Bg2QTg4i7yLWzKSf"
@@ -182,7 +182,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/tencent/mm/storage/r;->cd(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/tencent/mm/storage/Rclz;->cd(Ljava/lang/String;)V
 
     .line 338
     invoke-virtual {v1, v4}, Lcom/tencent/mm/s/Kclz;->aS(Z)Lcom/tencent/mm/s/Kclz$c;
@@ -220,7 +220,7 @@
 
     .line 342
     :cond_4
-    invoke-virtual {p1, v3}, Lcom/tencent/mm/storage/r;->cd(Ljava/lang/String;)V
+    invoke-virtual {p1, v3}, Lcom/tencent/mm/storage/Rclz;->cd(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -238,7 +238,7 @@
 
     if-nez v1, :cond_6
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->ez(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->ez(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -246,7 +246,7 @@
 
     .line 347
     :cond_6
-    invoke-virtual {p1, v3}, Lcom/tencent/mm/storage/r;->cd(Ljava/lang/String;)V
+    invoke-virtual {p1, v3}, Lcom/tencent/mm/storage/Rclz;->cd(Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -254,7 +254,7 @@
     :cond_7
     const-string/jumbo v0, "officialaccounts"
 
-    invoke-virtual {p1, v0}, Lcom/tencent/mm/storage/r;->cd(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/tencent/mm/storage/Rclz;->cd(Ljava/lang/String;)V
 
     goto/16 :goto_0
 .end method

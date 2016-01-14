@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field final synthetic bJG:Lcom/tencent/mm/storage/ad;
+.field final synthetic bJG:Lcom/tencent/mm/storage/ADclz;
 
 .field final synthetic cia:I
 
@@ -23,13 +23,13 @@
 
 .field final synthetic kdE:Lcom/tencent/mm/ui/chatting/bo$b;
 
-.field final synthetic kdF:Lcom/tencent/mm/storage/ad$a;
+.field final synthetic kdF:Lcom/tencent/mm/storage/ADclz$a;
 
 .field final synthetic kdG:Lcom/tencent/mm/ui/chatting/bj;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/bj;IILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/ui/chatting/bo$b;Lcom/tencent/mm/storage/ad;ILcom/tencent/mm/storage/ad$a;)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/bj;IILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/ui/chatting/bo$b;Lcom/tencent/mm/storage/ADclz;ILcom/tencent/mm/storage/ADclz$a;)V
     .locals 1
 
     .prologue
@@ -40,11 +40,11 @@
 
     iput-object p5, p0, Lcom/tencent/mm/ui/chatting/bj$1;->kdE:Lcom/tencent/mm/ui/chatting/bo$b;
 
-    iput-object p6, p0, Lcom/tencent/mm/ui/chatting/bj$1;->bJG:Lcom/tencent/mm/storage/ad;
+    iput-object p6, p0, Lcom/tencent/mm/ui/chatting/bj$1;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iput p7, p0, Lcom/tencent/mm/ui/chatting/bj$1;->cia:I
 
-    iput-object p8, p0, Lcom/tencent/mm/ui/chatting/bj$1;->kdF:Lcom/tencent/mm/storage/ad$a;
+    iput-object p8, p0, Lcom/tencent/mm/ui/chatting/bj$1;->kdF:Lcom/tencent/mm/storage/ADclz$a;
 
     invoke-direct {p0, p2, p3}, Lcom/tencent/mm/ui/chatting/bj$c;-><init>(II)V
 
@@ -71,9 +71,9 @@
 
     iget-object v1, v1, Lcom/tencent/mm/ui/chatting/bo$b;->gHi:Landroid/view/View;
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/bj$1;->kdF:Lcom/tencent/mm/storage/ad$a;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/bj$1;->kdF:Lcom/tencent/mm/storage/ADclz$a;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(Landroid/view/View;Lcom/tencent/mm/storage/ad$a;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(Landroid/view/View;Lcom/tencent/mm/storage/ADclz$a;)V
 
     .line 164
     return-void

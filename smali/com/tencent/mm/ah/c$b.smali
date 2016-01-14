@@ -111,7 +111,7 @@
     const-string/jumbo v0, ""
 
     .line 166
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v4
 
@@ -132,11 +132,11 @@
 
     aput-object v5, v4, v1
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v5
 
-    iget v5, v5, Lcom/tencent/mm/model/c;->uin:I
+    iget v5, v5, Lcom/tencent/mm/model/Cclz;->uin:I
 
     invoke-static {v5}, Lcom/tencent/mm/a/n;->getString(I)Ljava/lang/String;
 
@@ -205,7 +205,7 @@
 
     const/4 v5, 0x0
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/network/b;->a(Ljava/lang/String;Lcom/tencent/mm/network/b$b;)Lcom/tencent/mm/network/s;
+    invoke-static {v4, v5}, Lcom/tencent/mm/network/Bclz;->a(Ljava/lang/String;Lcom/tencent/mm/network/Bclz$b;)Lcom/tencent/mm/network/Sclz;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_d
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -216,25 +216,25 @@
     :try_start_1
     const-string/jumbo v4, "GET"
 
-    invoke-virtual {v6, v4}, Lcom/tencent/mm/network/s;->setRequestMethod(Ljava/lang/String;)V
+    invoke-virtual {v6, v4}, Lcom/tencent/mm/network/Sclz;->setRequestMethod(Ljava/lang/String;)V
 
     .line 179
     const-string/jumbo v4, "referer"
 
-    invoke-virtual {v6, v4, v0}, Lcom/tencent/mm/network/s;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v4, v0}, Lcom/tencent/mm/network/Sclz;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 180
     const/16 v0, 0x1388
 
-    invoke-virtual {v6, v0}, Lcom/tencent/mm/network/s;->setConnectTimeout(I)V
+    invoke-virtual {v6, v0}, Lcom/tencent/mm/network/Sclz;->setConnectTimeout(I)V
 
     .line 181
     const/16 v0, 0x1388
 
-    invoke-virtual {v6, v0}, Lcom/tencent/mm/network/s;->setReadTimeout(I)V
+    invoke-virtual {v6, v0}, Lcom/tencent/mm/network/Sclz;->setReadTimeout(I)V
 
     .line 182
-    invoke-static {v6}, Lcom/tencent/mm/network/b;->a(Lcom/tencent/mm/network/s;)I
+    invoke-static {v6}, Lcom/tencent/mm/network/Bclz;->a(Lcom/tencent/mm/network/Sclz;)I
 
     move-result v0
 
@@ -262,7 +262,7 @@
 
     .line 184
     :try_start_2
-    iget-object v0, v6, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v0, v6, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
     :try_end_2
@@ -298,7 +298,7 @@
     .line 186
     :cond_2
     :try_start_3
-    invoke-virtual {v6}, Lcom/tencent/mm/network/s;->getInputStream()Ljava/io/InputStream;
+    invoke-virtual {v6}, Lcom/tencent/mm/network/Sclz;->getInputStream()Ljava/io/InputStream;
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_e
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
@@ -331,7 +331,7 @@
 
     .line 189
     :try_start_5
-    iget-object v0, v6, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v0, v6, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
     :try_end_5
@@ -495,7 +495,7 @@
 
     .line 204
     :try_start_a
-    iget-object v0, v5, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v0, v5, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
     :try_end_a
@@ -542,7 +542,7 @@
 
     .line 203
     :try_start_e
-    iget-object v0, v6, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v0, v6, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
     :try_end_e
@@ -708,7 +708,7 @@
 
     .line 204
     :try_start_11
-    iget-object v5, v6, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v5, v6, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v5}, Ljava/net/HttpURLConnection;->disconnect()V
     :try_end_11

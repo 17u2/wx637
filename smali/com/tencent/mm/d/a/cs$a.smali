@@ -21,7 +21,7 @@
 
 .field public avN:I
 
-.field public avO:Lcom/tencent/mm/model/aq$a;
+.field public avO:Lcom/tencent/mm/model/AQclz$a;
 
 .field public type:I
 

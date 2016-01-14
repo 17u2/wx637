@@ -78,16 +78,16 @@
 
     move-result-object v0
 
-    invoke-interface {v0, p1}, Lcom/tencent/mm/pluginsdk/h$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/c;
+    invoke-interface {v0, p1}, Lcom/tencent/mm/pluginsdk/h$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 
     move-result-object v0
 
     .line 1055
     if-eqz v0, :cond_0
 
-    iget v0, v0, Lcom/tencent/mm/storage/a/c;->field_catalog:I
+    iget v0, v0, Lcom/tencent/mm/storage/a/Cclz;->field_catalog:I
 
-    sget v1, Lcom/tencent/mm/storage/a/c;->jpR:I
+    sget v1, Lcom/tencent/mm/storage/a/Cclz;->jpR:I
 
     if-ne v0, v1, :cond_0
 

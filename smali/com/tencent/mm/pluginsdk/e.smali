@@ -18,10 +18,10 @@
 .method public abstract a(Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;
 .end method
 
-.method public abstract a(Landroid/content/Context;Lcom/tencent/mm/storage/ad$b;Landroid/os/Bundle;)V
+.method public abstract a(Landroid/content/Context;Lcom/tencent/mm/storage/ADclz$b;Landroid/os/Bundle;)V
 .end method
 
-.method public abstract a(Landroid/content/Context;Lcom/tencent/mm/storage/k;Lcom/tencent/mm/storage/ad$b;Landroid/os/Bundle;Ljava/lang/String;)V
+.method public abstract a(Landroid/content/Context;Lcom/tencent/mm/storage/Kclz;Lcom/tencent/mm/storage/ADclz$b;Landroid/os/Bundle;Ljava/lang/String;)V
 .end method
 
 .method public abstract a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)V
@@ -36,13 +36,13 @@
 .method public abstract a(Landroid/content/Intent;Ljava/lang/String;)V
 .end method
 
-.method public abstract a(Lcom/tencent/mm/s/Kclz;Landroid/app/Activity;Lcom/tencent/mm/storage/k;ZLjava/lang/Runnable;)V
+.method public abstract a(Lcom/tencent/mm/s/Kclz;Landroid/app/Activity;Lcom/tencent/mm/storage/Kclz;ZLjava/lang/Runnable;)V
 .end method
 
 .method public abstract a(Landroid/content/Context;IILjava/lang/String;)Z
 .end method
 
-.method public abstract a(Lcom/tencent/mm/storage/k;)Z
+.method public abstract a(Lcom/tencent/mm/storage/Kclz;)Z
 .end method
 
 .method public abstract aJ(I)V

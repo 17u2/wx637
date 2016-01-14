@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ac/k;->a(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/protocal/b/AFclz;Z)V
+    value = Lcom/tencent/mm/ac/k;->a(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/protocal/b/AFclz;Z)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic bJG:Lcom/tencent/mm/storage/ad;
+.field final synthetic bJG:Lcom/tencent/mm/storage/ADclz;
 
 .field final synthetic bOj:Lcom/tencent/mm/ac/k;
 
@@ -26,11 +26,11 @@
 
 .field final synthetic bOl:Lcom/tencent/mm/protocal/b/AFclz;
 
-.field final synthetic bOm:Lcom/tencent/mm/model/aa;
+.field final synthetic bOm:Lcom/tencent/mm/model/AAclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ac/k;ZLcom/tencent/mm/protocal/b/AFclz;Lcom/tencent/mm/model/aa;Lcom/tencent/mm/storage/ad;)V
+.method constructor <init>(Lcom/tencent/mm/ac/k;ZLcom/tencent/mm/protocal/b/AFclz;Lcom/tencent/mm/model/AAclz;Lcom/tencent/mm/storage/ADclz;)V
     .locals 1
 
     .prologue
@@ -41,9 +41,9 @@
 
     iput-object p3, p0, Lcom/tencent/mm/ac/k$2;->bOl:Lcom/tencent/mm/protocal/b/AFclz;
 
-    iput-object p4, p0, Lcom/tencent/mm/ac/k$2;->bOm:Lcom/tencent/mm/model/aa;
+    iput-object p4, p0, Lcom/tencent/mm/ac/k$2;->bOm:Lcom/tencent/mm/model/AAclz;
 
-    iput-object p5, p0, Lcom/tencent/mm/ac/k$2;->bJG:Lcom/tencent/mm/storage/ad;
+    iput-object p5, p0, Lcom/tencent/mm/ac/k$2;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -105,7 +105,7 @@
     if-nez v0, :cond_0
 
     .line 203
-    iget-object v0, p0, Lcom/tencent/mm/ac/k$2;->bOm:Lcom/tencent/mm/model/aa;
+    iget-object v0, p0, Lcom/tencent/mm/ac/k$2;->bOm:Lcom/tencent/mm/model/AAclz;
 
     const/16 v1, 0x27
 
@@ -117,7 +117,7 @@
 
     move-object v6, v5
 
-    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/model/aa;->a(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)V
+    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/model/AAclz;->a(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)V
 
     .line 210
     :goto_0
@@ -125,21 +125,21 @@
 
     .line 205
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/ac/k$2;->bOm:Lcom/tencent/mm/model/aa;
+    iget-object v0, p0, Lcom/tencent/mm/ac/k$2;->bOm:Lcom/tencent/mm/model/AAclz;
 
-    iget-object v1, p0, Lcom/tencent/mm/ac/k$2;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v1, p0, Lcom/tencent/mm/ac/k$2;->bJG:Lcom/tencent/mm/storage/ADclz;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/model/aa;->a(Lcom/tencent/mm/storage/ad;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/model/AAclz;->a(Lcom/tencent/mm/storage/ADclz;)V
 
     goto :goto_0
 
     .line 208
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/ac/k$2;->bOm:Lcom/tencent/mm/model/aa;
+    iget-object v0, p0, Lcom/tencent/mm/ac/k$2;->bOm:Lcom/tencent/mm/model/AAclz;
 
-    iget-object v1, p0, Lcom/tencent/mm/ac/k$2;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v1, p0, Lcom/tencent/mm/ac/k$2;->bJG:Lcom/tencent/mm/storage/ADclz;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/model/aa;->a(Lcom/tencent/mm/storage/ad;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/model/AAclz;->a(Lcom/tencent/mm/storage/ADclz;)V
 
     goto :goto_0
 .end method

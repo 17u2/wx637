@@ -62,7 +62,7 @@
 
     const/16 v3, 0x4e20
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/network/b;->j(Ljava/lang/String;II)Ljava/io/InputStream;
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/network/Bclz;->j(Ljava/lang/String;II)Ljava/io/InputStream;
 
     move-result-object v1
 

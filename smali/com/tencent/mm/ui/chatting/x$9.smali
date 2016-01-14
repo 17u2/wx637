@@ -820,7 +820,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/x$9;->kbW:Lcom/tencent/mm/ui/chatting/x;
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/chatting/x;->p(Lcom/tencent/mm/ui/chatting/x;)Lcom/tencent/mm/storage/k;
+    invoke-static {v2}, Lcom/tencent/mm/ui/chatting/x;->p(Lcom/tencent/mm/ui/chatting/x;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v2
 
@@ -1177,7 +1177,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/model/f;->dF(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/tencent/mm/model/Fclz;->dF(Ljava/lang/String;)I
 
     move-result v1
 
@@ -1242,42 +1242,42 @@
 
     .line 896
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v0
 
-    sget-object v1, Lcom/tencent/mm/storage/j$a;->jlP:Lcom/tencent/mm/storage/j$a;
+    sget-object v1, Lcom/tencent/mm/storage/Jclz$a;->jlP:Lcom/tencent/mm/storage/Jclz$a;
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/h;->a(Lcom/tencent/mm/storage/j$a;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/Hclz;->a(Lcom/tencent/mm/storage/Jclz$a;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/Integer;
 
     .line 898
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v1
 
-    sget-object v2, Lcom/tencent/mm/storage/j$a;->jlQ:Lcom/tencent/mm/storage/j$a;
+    sget-object v2, Lcom/tencent/mm/storage/Jclz$a;->jlQ:Lcom/tencent/mm/storage/Jclz$a;
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/storage/h;->a(Lcom/tencent/mm/storage/j$a;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/storage/Hclz;->a(Lcom/tencent/mm/storage/Jclz$a;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1455,11 +1455,11 @@
 
     .prologue
     .line 943
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v0
 
@@ -1471,7 +1471,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/h;->set(ILjava/lang/Object;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/Hclz;->set(ILjava/lang/Object;)V
 
     .line 944
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x$9;->kbW:Lcom/tencent/mm/ui/chatting/x;

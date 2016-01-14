@@ -202,11 +202,11 @@
     const/4 v12, 0x0
 
     .line 140
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->isSDCardAvailable()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->isSDCardAvailable()Z
 
     move-result v0
 
@@ -350,7 +350,7 @@
     .line 156
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/d/a/b;->glq:Lcom/tencent/mm/plugin/sns/d/a/a;
 
-    iget-object v5, v0, Lcom/tencent/mm/plugin/sns/d/a/a;->glo:Lcom/tencent/mm/storage/i$a;
+    iget-object v5, v0, Lcom/tencent/mm/plugin/sns/d/a/a;->glo:Lcom/tencent/mm/storage/Iclz$a;
 
     .line 157
     const-string/jumbo v0, ""
@@ -476,13 +476,13 @@
     iput-wide v5, p0, Lcom/tencent/mm/plugin/sns/d/a/b;->dnsCostTime:J
 
     .line 186
-    new-instance v5, Lcom/tencent/mm/network/b$b;
+    new-instance v5, Lcom/tencent/mm/network/Bclz$b;
 
     iget-object v6, p0, Lcom/tencent/mm/plugin/sns/d/a/b;->glq:Lcom/tencent/mm/plugin/sns/d/a/a;
 
     iget-object v6, v6, Lcom/tencent/mm/plugin/sns/d/a/a;->url:Ljava/lang/String;
 
-    invoke-direct {v5, v6}, Lcom/tencent/mm/network/b$b;-><init>(Ljava/lang/String;)V
+    invoke-direct {v5, v6}, Lcom/tencent/mm/network/Bclz$b;-><init>(Ljava/lang/String;)V
 
     .line 187
     iget-wide v8, p0, Lcom/tencent/mm/plugin/sns/d/a/b;->dnsCostTime:J
@@ -524,7 +524,7 @@
 
     const/4 v10, 0x3
 
-    iget v11, v5, Lcom/tencent/mm/network/b$b;->caf:I
+    iget v11, v5, Lcom/tencent/mm/network/Bclz$b;->caf:I
 
     invoke-static {v11}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -534,7 +534,7 @@
 
     const/4 v10, 0x4
 
-    iget-object v11, v5, Lcom/tencent/mm/network/b$b;->ip:Ljava/lang/String;
+    iget-object v11, v5, Lcom/tencent/mm/network/Bclz$b;->ip:Ljava/lang/String;
 
     aput-object v11, v9, v10
 
@@ -561,7 +561,7 @@
     invoke-static {v6, v8, v9}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 190
-    iget-object v6, v5, Lcom/tencent/mm/network/b$b;->ip:Ljava/lang/String;
+    iget-object v6, v5, Lcom/tencent/mm/network/Bclz$b;->ip:Ljava/lang/String;
 
     invoke-static {v6}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -570,18 +570,18 @@
     if-nez v6, :cond_6
 
     .line 191
-    iget-object v6, v5, Lcom/tencent/mm/network/b$b;->ip:Ljava/lang/String;
+    iget-object v6, v5, Lcom/tencent/mm/network/Bclz$b;->ip:Ljava/lang/String;
 
     iput-object v6, p0, Lcom/tencent/mm/plugin/sns/d/a/b;->glz:Ljava/lang/String;
 
     .line 193
     :cond_6
-    iget-object v6, v5, Lcom/tencent/mm/network/b$b;->ip:Ljava/lang/String;
+    iget-object v6, v5, Lcom/tencent/mm/network/Bclz$b;->ip:Ljava/lang/String;
 
     iput-object v6, p0, Lcom/tencent/mm/plugin/sns/d/a/b;->glt:Ljava/lang/String;
 
     .line 194
-    iget v6, v5, Lcom/tencent/mm/network/b$b;->caf:I
+    iget v6, v5, Lcom/tencent/mm/network/Bclz$b;->caf:I
 
     iput v6, p0, Lcom/tencent/mm/plugin/sns/d/a/b;->caf:I
 
@@ -597,7 +597,7 @@
 
     iget-object v6, v6, Lcom/tencent/mm/plugin/sns/d/a/a;->url:Ljava/lang/String;
 
-    invoke-static {v6, v5}, Lcom/tencent/mm/network/b;->a(Ljava/lang/String;Lcom/tencent/mm/network/b$b;)Lcom/tencent/mm/network/s;
+    invoke-static {v6, v5}, Lcom/tencent/mm/network/Bclz;->a(Ljava/lang/String;Lcom/tencent/mm/network/Bclz$b;)Lcom/tencent/mm/network/Sclz;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_5
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
@@ -608,12 +608,12 @@
     :try_start_1
     const-string/jumbo v5, "GET"
 
-    invoke-virtual {v2, v5}, Lcom/tencent/mm/network/s;->setRequestMethod(Ljava/lang/String;)V
+    invoke-virtual {v2, v5}, Lcom/tencent/mm/network/Sclz;->setRequestMethod(Ljava/lang/String;)V
 
     .line 199
     const-string/jumbo v5, "referer"
 
-    invoke-virtual {v2, v5, v0}, Lcom/tencent/mm/network/s;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v5, v0}, Lcom/tencent/mm/network/Sclz;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 200
     invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
@@ -647,21 +647,21 @@
 
     const-string/jumbo v5, "close"
 
-    invoke-virtual {v2, v0, v5}, Lcom/tencent/mm/network/s;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v0, v5}, Lcom/tencent/mm/network/Sclz;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 206
     :cond_7
     const/16 v0, 0x61a8
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/network/s;->setConnectTimeout(I)V
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/network/Sclz;->setConnectTimeout(I)V
 
     .line 207
     const/16 v0, 0x61a8
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/network/s;->setReadTimeout(I)V
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/network/Sclz;->setReadTimeout(I)V
 
     .line 209
-    invoke-virtual {p0, v2}, Lcom/tencent/mm/plugin/sns/d/a/b;->b(Lcom/tencent/mm/network/s;)Lcom/tencent/mm/network/s;
+    invoke-virtual {p0, v2}, Lcom/tencent/mm/plugin/sns/d/a/b;->b(Lcom/tencent/mm/network/Sclz;)Lcom/tencent/mm/network/Sclz;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_5
     .catchall {:try_start_1 .. :try_end_1} :catchall_2
@@ -670,7 +670,7 @@
 
     .line 210
     :try_start_2
-    invoke-virtual {v8}, Lcom/tencent/mm/network/s;->getHeaderFields()Ljava/util/Map;
+    invoke-virtual {v8}, Lcom/tencent/mm/network/Sclz;->getHeaderFields()Ljava/util/Map;
 
     move-result-object v5
 
@@ -773,7 +773,7 @@
     .line 226
     :cond_a
     :try_start_3
-    invoke-virtual {v8}, Lcom/tencent/mm/network/s;->getResponseCode()I
+    invoke-virtual {v8}, Lcom/tencent/mm/network/Sclz;->getResponseCode()I
 
     move-result v0
 
@@ -793,7 +793,7 @@
     if-eq v0, v2, :cond_1a
 
     .line 228
-    invoke-virtual {v8}, Lcom/tencent/mm/network/s;->getHeaderFields()Ljava/util/Map;
+    invoke-virtual {v8}, Lcom/tencent/mm/network/Sclz;->getHeaderFields()Ljava/util/Map;
 
     move-result-object v0
 
@@ -903,7 +903,7 @@
     if-eqz v8, :cond_1
 
     .line 319
-    iget-object v1, v8, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v1, v8, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
 
@@ -912,7 +912,7 @@
     .line 160
     :cond_c
     :try_start_4
-    sget-object v6, Lcom/tencent/mm/storage/i$a;->jkV:Lcom/tencent/mm/storage/i$a;
+    sget-object v6, Lcom/tencent/mm/storage/Iclz$a;->jkV:Lcom/tencent/mm/storage/Iclz$a;
 
     if-ne v5, v6, :cond_d
 
@@ -923,7 +923,7 @@
 
     .line 162
     :cond_d
-    sget-object v6, Lcom/tencent/mm/storage/i$a;->jkW:Lcom/tencent/mm/storage/i$a;
+    sget-object v6, Lcom/tencent/mm/storage/Iclz$a;->jkW:Lcom/tencent/mm/storage/Iclz$a;
 
     if-ne v5, v6, :cond_e
 
@@ -934,7 +934,7 @@
 
     .line 164
     :cond_e
-    sget-object v6, Lcom/tencent/mm/storage/i$a;->jkX:Lcom/tencent/mm/storage/i$a;
+    sget-object v6, Lcom/tencent/mm/storage/Iclz$a;->jkX:Lcom/tencent/mm/storage/Iclz$a;
 
     if-ne v5, v6, :cond_f
 
@@ -945,7 +945,7 @@
 
     .line 166
     :cond_f
-    sget-object v6, Lcom/tencent/mm/storage/i$a;->jkY:Lcom/tencent/mm/storage/i$a;
+    sget-object v6, Lcom/tencent/mm/storage/Iclz$a;->jkY:Lcom/tencent/mm/storage/Iclz$a;
 
     if-ne v5, v6, :cond_10
 
@@ -956,7 +956,7 @@
 
     .line 168
     :cond_10
-    sget-object v6, Lcom/tencent/mm/storage/i$a;->jkZ:Lcom/tencent/mm/storage/i$a;
+    sget-object v6, Lcom/tencent/mm/storage/Iclz$a;->jkZ:Lcom/tencent/mm/storage/Iclz$a;
 
     if-ne v5, v6, :cond_11
 
@@ -967,7 +967,7 @@
 
     .line 170
     :cond_11
-    sget-object v6, Lcom/tencent/mm/storage/i$a;->jla:Lcom/tencent/mm/storage/i$a;
+    sget-object v6, Lcom/tencent/mm/storage/Iclz$a;->jla:Lcom/tencent/mm/storage/Iclz$a;
 
     if-ne v5, v6, :cond_12
 
@@ -978,7 +978,7 @@
 
     .line 172
     :cond_12
-    sget-object v6, Lcom/tencent/mm/storage/i$a;->jkU:Lcom/tencent/mm/storage/i$a;
+    sget-object v6, Lcom/tencent/mm/storage/Iclz$a;->jkU:Lcom/tencent/mm/storage/Iclz$a;
 
     if-ne v5, v6, :cond_4
 
@@ -1121,7 +1121,7 @@
     if-eqz v8, :cond_1
 
     .line 319
-    iget-object v1, v8, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v1, v8, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
 
@@ -1237,7 +1237,7 @@
     if-eqz v8, :cond_1
 
     .line 319
-    iget-object v1, v8, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v1, v8, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
 
@@ -1296,7 +1296,7 @@
     if-eqz v8, :cond_17
 
     .line 319
-    iget-object v1, v8, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v1, v8, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
 
@@ -1389,7 +1389,7 @@
     if-eqz v2, :cond_1
 
     .line 319
-    iget-object v1, v2, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v1, v2, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
 
@@ -1398,14 +1398,14 @@
     .line 269
     :cond_1a
     :try_start_e
-    invoke-virtual {v8}, Lcom/tencent/mm/network/s;->getHeaderFields()Ljava/util/Map;
+    invoke-virtual {v8}, Lcom/tencent/mm/network/Sclz;->getHeaderFields()Ljava/util/Map;
 
     move-result-object v0
 
     invoke-static {v0}, Lcom/tencent/mm/plugin/sns/d/a/b;->u(Ljava/util/Map;)V
 
     .line 270
-    invoke-static {v8}, Lcom/tencent/mm/plugin/sns/d/a/b;->c(Lcom/tencent/mm/network/s;)Z
+    invoke-static {v8}, Lcom/tencent/mm/plugin/sns/d/a/b;->c(Lcom/tencent/mm/network/Sclz;)Z
 
     move-result v0
 
@@ -1466,7 +1466,7 @@
     if-eqz v8, :cond_1
 
     .line 319
-    iget-object v1, v8, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v1, v8, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
 
@@ -1576,7 +1576,7 @@
     iput-wide v9, p0, Lcom/tencent/mm/plugin/sns/d/a/b;->glx:J
 
     .line 287
-    invoke-virtual {v8}, Lcom/tencent/mm/network/s;->getInputStream()Ljava/io/InputStream;
+    invoke-virtual {v8}, Lcom/tencent/mm/network/Sclz;->getInputStream()Ljava/io/InputStream;
     :try_end_f
     .catch Ljava/lang/Exception; {:try_start_f .. :try_end_f} :catch_2
     .catchall {:try_start_f .. :try_end_f} :catchall_0
@@ -1685,7 +1685,7 @@
     if-eqz v8, :cond_1f
 
     .line 319
-    iget-object v0, v8, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v0, v8, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
 
@@ -2227,7 +2227,7 @@
     goto/16 :goto_2
 .end method
 
-.method private static c(Lcom/tencent/mm/network/s;)Z
+.method private static c(Lcom/tencent/mm/network/Sclz;)Z
     .locals 5
 
     .prologue
@@ -2237,7 +2237,7 @@
 
     .line 365
     :try_start_0
-    invoke-virtual {p0}, Lcom/tencent/mm/network/s;->getHeaderFields()Ljava/util/Map;
+    invoke-virtual {p0}, Lcom/tencent/mm/network/Sclz;->getHeaderFields()Ljava/util/Map;
 
     move-result-object v0
 
@@ -2860,25 +2860,25 @@
     .line 451
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/d/a/b;->glz:Ljava/lang/String;
 
-    sget-object v1, Lcom/tencent/mm/network/b;->cae:Lcom/tencent/mm/network/b$a;
+    sget-object v1, Lcom/tencent/mm/network/Bclz;->cae:Lcom/tencent/mm/network/Bclz$a;
 
     if-eqz v1, :cond_1
 
-    sget-object v1, Lcom/tencent/mm/network/b;->cae:Lcom/tencent/mm/network/b$a;
+    sget-object v1, Lcom/tencent/mm/network/Bclz;->cae:Lcom/tencent/mm/network/Bclz$a;
 
-    invoke-interface {v1}, Lcom/tencent/mm/network/b$a;->tE()Lcom/tencent/mm/network/e;
+    invoke-interface {v1}, Lcom/tencent/mm/network/Bclz$a;->tE()Lcom/tencent/mm/network/Eclz;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    sget-object v1, Lcom/tencent/mm/network/b;->cae:Lcom/tencent/mm/network/b$a;
+    sget-object v1, Lcom/tencent/mm/network/Bclz;->cae:Lcom/tencent/mm/network/Bclz$a;
 
-    invoke-interface {v1}, Lcom/tencent/mm/network/b$a;->tE()Lcom/tencent/mm/network/e;
+    invoke-interface {v1}, Lcom/tencent/mm/network/Bclz$a;->tE()Lcom/tencent/mm/network/Eclz;
 
     move-result-object v1
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/network/e;->reportFailIp(Ljava/lang/String;)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/network/Eclz;->reportFailIp(Ljava/lang/String;)V
 
     .line 453
     :cond_1
@@ -3300,7 +3300,7 @@
 .method public abstract atY()Z
 .end method
 
-.method public b(Lcom/tencent/mm/network/s;)Lcom/tencent/mm/network/s;
+.method public b(Lcom/tencent/mm/network/Sclz;)Lcom/tencent/mm/network/Sclz;
     .locals 0
 
     .prologue

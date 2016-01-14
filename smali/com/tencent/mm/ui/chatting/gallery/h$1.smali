@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/chatting/gallery/h;->a(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/ui/chatting/gallery/j;)V
+    value = Lcom/tencent/mm/ui/chatting/gallery/h;->a(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/ui/chatting/gallery/j;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

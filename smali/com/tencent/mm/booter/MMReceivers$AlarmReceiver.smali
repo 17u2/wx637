@@ -258,7 +258,7 @@
 
     .line 154
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/network/z;->Ei()Z
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->Ei()Z
 
     move-result v2
 

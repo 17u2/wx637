@@ -22,20 +22,20 @@
 
 .field final synthetic dwH:Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;
 
-.field final synthetic dwI:Lcom/tencent/mm/storage/k;
+.field final synthetic dwI:Lcom/tencent/mm/storage/Kclz;
 
 .field final synthetic dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;Lcom/tencent/mm/storage/k;[Ljava/lang/String;Lcom/tencent/mm/pluginsdk/d/a/a;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;Lcom/tencent/mm/storage/Kclz;[Ljava/lang/String;Lcom/tencent/mm/pluginsdk/d/a/a;)V
     .locals 1
 
     .prologue
     .line 766
     iput-object p1, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;->dwH:Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;
 
-    iput-object p2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;->dwI:Lcom/tencent/mm/storage/k;
+    iput-object p2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;->dwI:Lcom/tencent/mm/storage/Kclz;
 
     iput-object p3, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;->dwG:[Ljava/lang/String;
 
@@ -69,7 +69,7 @@
     .line 771
     iget-object v1, v0, Lcom/tencent/mm/d/a/cm;->avu:Lcom/tencent/mm/d/a/cm$a;
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;->dwI:Lcom/tencent/mm/storage/k;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;->dwI:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -89,11 +89,11 @@
     .line 773
     iget-object v1, v0, Lcom/tencent/mm/d/a/cm;->avu:Lcom/tencent/mm/d/a/cm$a;
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;->dwI:Lcom/tencent/mm/storage/k;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;->dwI:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->eC(Ljava/lang/String;)I
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->eC(Ljava/lang/String;)I
 
     move-result v2
 
@@ -151,7 +151,7 @@
     invoke-direct {v2, p0, v0}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2$1;-><init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;Ljava/lang/String;)V
 
     .line 818
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -160,7 +160,7 @@
     invoke-virtual {v0, v3, v2}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 819
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

@@ -465,7 +465,7 @@
 
     const-string/jumbo v4, ""
 
-    invoke-static {v0, v1, v3, v2, v4}, Lcom/tencent/mm/model/ap;->a(Ljava/lang/String;Ljava/util/List;Ljava/lang/String;ZLjava/lang/String;)V
+    invoke-static {v0, v1, v3, v2, v4}, Lcom/tencent/mm/model/APclz;->a(Ljava/lang/String;Ljava/util/List;Ljava/lang/String;ZLjava/lang/String;)V
 
     .line 741
     iget-object v0, p4, Lcom/tencent/mm/d/a/fo;->azM:Lcom/tencent/mm/d/a/fo$b;
@@ -551,7 +551,7 @@
 
     move-result-object v4
 
-    invoke-static {v1, v3, v4, v9, v0}, Lcom/tencent/mm/model/ap;->a(Ljava/lang/String;Ljava/util/List;Ljava/lang/String;ZLjava/lang/String;)V
+    invoke-static {v1, v3, v4, v9, v0}, Lcom/tencent/mm/model/APclz;->a(Ljava/lang/String;Ljava/util/List;Ljava/lang/String;ZLjava/lang/String;)V
 
     .line 750
     :cond_d

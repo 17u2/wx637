@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/network/j;
+.implements Lcom/tencent/mm/network/Jclz;
 
 
 # annotations
@@ -19,7 +19,7 @@
 
 .field public bSE:Ljava/lang/String;
 
-.field private byM:Lcom/tencent/mm/network/o;
+.field private byM:Lcom/tencent/mm/network/Oclz;
 
 .field public content:[B
 
@@ -171,12 +171,12 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/modelsimple/j$a;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/modelsimple/j;->byM:Lcom/tencent/mm/network/o;
+    iput-object v0, p0, Lcom/tencent/mm/modelsimple/j;->byM:Lcom/tencent/mm/network/Oclz;
 
     .line 46
-    iget-object v0, p0, Lcom/tencent/mm/modelsimple/j;->byM:Lcom/tencent/mm/network/o;
+    iget-object v0, p0, Lcom/tencent/mm/modelsimple/j;->byM:Lcom/tencent/mm/network/Oclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
+    invoke-interface {v0}, Lcom/tencent/mm/network/Oclz;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 
@@ -296,7 +296,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+.method public final a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
     .locals 1
 
     .prologue
@@ -304,16 +304,16 @@
     iput-object p2, p0, Lcom/tencent/mm/modelsimple/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     .line 64
-    iget-object v0, p0, Lcom/tencent/mm/modelsimple/j;->byM:Lcom/tencent/mm/network/o;
+    iget-object v0, p0, Lcom/tencent/mm/modelsimple/j;->byM:Lcom/tencent/mm/network/Oclz;
 
-    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/modelsimple/j;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;)I
+    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/modelsimple/j;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/network/Oclz;Lcom/tencent/mm/network/Jclz;)I
 
     move-result v0
 
     return v0
 .end method
 
-.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/o;[B)V
+.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/Oclz;[B)V
     .locals 1
 
     .prologue

@@ -82,7 +82,7 @@
 
     move v7, v6
 
-    invoke-virtual/range {v4 .. v10}, Lcom/tencent/mm/ac/i;->a(IIILjava/lang/String;Lcom/tencent/mm/network/o;[B)V
+    invoke-virtual/range {v4 .. v10}, Lcom/tencent/mm/ac/i;->a(IIILjava/lang/String;Lcom/tencent/mm/network/Oclz;[B)V
 
     .line 321
     return v6

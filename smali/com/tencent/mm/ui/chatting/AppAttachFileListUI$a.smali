@@ -80,19 +80,19 @@
 
     move-result v1
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/tencent/mm/model/c;->rk()Lcom/tencent/mm/storage/ae;
+    invoke-virtual {v3}, Lcom/tencent/mm/model/Cclz;->rk()Lcom/tencent/mm/storage/AEclz;
 
     move-result-object v3
 
-    invoke-virtual {v3, v2, v0, v1}, Lcom/tencent/mm/storage/ae;->v(Ljava/lang/String;II)Ljava/util/List;
+    invoke-virtual {v3, v2, v0, v1}, Lcom/tencent/mm/storage/AEclz;->v(Ljava/lang/String;II)Ljava/util/List;
 
     move-result-object v0
 

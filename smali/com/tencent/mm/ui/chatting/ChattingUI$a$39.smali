@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(Landroid/view/View;Lcom/tencent/mm/storage/ad$a;)V
+    value = Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(Landroid/view/View;Lcom/tencent/mm/storage/ADclz$a;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic kdF:Lcom/tencent/mm/storage/ad$a;
+.field final synthetic kdF:Lcom/tencent/mm/storage/ADclz$a;
 
 .field final synthetic kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad$a;)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz$a;)V
     .locals 1
 
     .prologue
     .line 10409
     iput-object p1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;->kdF:Lcom/tencent/mm/storage/ad$a;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;->kdF:Lcom/tencent/mm/storage/ADclz$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -66,9 +66,9 @@
     :pswitch_0
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;->kdF:Lcom/tencent/mm/storage/ad$a;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;->kdF:Lcom/tencent/mm/storage/ADclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/storage/ad$a;->fnh:Ljava/util/LinkedList;
+    iget-object v1, v1, Lcom/tencent/mm/storage/ADclz$a;->fnh:Ljava/util/LinkedList;
 
     invoke-static {v0, v1}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Ljava/util/LinkedList;)V
 
@@ -120,7 +120,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -129,9 +129,9 @@
     .line 10428
     iget-object v1, v0, Lcom/tencent/mm/d/a/fu;->aAs:Lcom/tencent/mm/d/a/fu$a;
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;->kdF:Lcom/tencent/mm/storage/ad$a;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;->kdF:Lcom/tencent/mm/storage/ADclz$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/storage/ad$a;->aAu:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/storage/ADclz$a;->aAu:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/tencent/mm/d/a/fu$a;->aAu:Ljava/lang/String;
 

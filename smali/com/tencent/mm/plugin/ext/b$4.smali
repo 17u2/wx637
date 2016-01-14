@@ -134,17 +134,17 @@
     if-nez v5, :cond_2
 
     .line 374
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v5
 
-    invoke-virtual {v5}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v5}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v5
 
     iget-object v6, v0, Lcom/tencent/mm/protocal/b/atr;->dRj:Ljava/lang/String;
 
-    invoke-virtual {v5, v6}, Lcom/tencent/mm/storage/q;->Cg(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v5, v6}, Lcom/tencent/mm/storage/Qclz;->Cg(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v5
 
@@ -181,7 +181,7 @@
 
     .line 382
     :cond_5
-    invoke-virtual {v5}, Lcom/tencent/mm/storage/k;->aPT()Z
+    invoke-virtual {v5}, Lcom/tencent/mm/storage/Kclz;->aPT()Z
 
     move-result v5
 
@@ -233,7 +233,7 @@
     invoke-static {v1, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 391
-    new-instance v1, Lcom/tencent/mm/storage/am;
+    new-instance v1, Lcom/tencent/mm/storage/AMclz;
 
     iget-object v6, p1, Lcom/tencent/mm/pluginsdk/model/i;->hLe:Ljava/lang/String;
 
@@ -241,14 +241,14 @@
 
     iget-object v5, v5, Lcom/tencent/mm/pluginsdk/model/f$b;->hKN:Ljava/lang/String;
 
-    invoke-direct {v1, v6, v0, v5}, Lcom/tencent/mm/storage/am;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v6, v0, v5}, Lcom/tencent/mm/storage/AMclz;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 392
-    invoke-static {}, Lcom/tencent/mm/plugin/ext/b;->Tn()Lcom/tencent/mm/storage/an;
+    invoke-static {}, Lcom/tencent/mm/plugin/ext/b;->Tn()Lcom/tencent/mm/storage/ANclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/an;->a(Lcom/tencent/mm/storage/am;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/ANclz;->a(Lcom/tencent/mm/storage/AMclz;)Z
 
     move v1, v3
 

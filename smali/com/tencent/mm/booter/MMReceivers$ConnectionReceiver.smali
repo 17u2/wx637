@@ -103,7 +103,7 @@
 
     .line 51
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/network/z;->Em()Lcom/tencent/mm/network/z$a;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->Em()Lcom/tencent/mm/network/Zclz$a;
 
     move-result-object v0
 
@@ -150,7 +150,7 @@
     invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 64
-    invoke-static {}, Lcom/tencent/mm/network/z;->Em()Lcom/tencent/mm/network/z$a;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->Em()Lcom/tencent/mm/network/Zclz$a;
 
     move-result-object v1
 
@@ -166,7 +166,7 @@
     invoke-virtual {v0}, Landroid/net/NetworkInfo;->getSubtypeName()Ljava/lang/String;
 
     :cond_5
-    invoke-interface {v1, v2}, Lcom/tencent/mm/network/z$a;->ao(Z)V
+    invoke-interface {v1, v2}, Lcom/tencent/mm/network/Zclz$a;->ao(Z)V
 
     goto :goto_0
 
@@ -193,7 +193,7 @@
     invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 68
-    invoke-static {}, Lcom/tencent/mm/network/z;->Em()Lcom/tencent/mm/network/z$a;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->Em()Lcom/tencent/mm/network/Zclz$a;
 
     move-result-object v1
 
@@ -203,7 +203,7 @@
 
     invoke-virtual {v0}, Landroid/net/NetworkInfo;->getSubtypeName()Ljava/lang/String;
 
-    invoke-interface {v1, v2}, Lcom/tencent/mm/network/z$a;->ao(Z)V
+    invoke-interface {v1, v2}, Lcom/tencent/mm/network/Zclz$a;->ao(Z)V
 
     goto/16 :goto_0
 .end method

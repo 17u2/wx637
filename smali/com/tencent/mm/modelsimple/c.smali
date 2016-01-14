@@ -1103,9 +1103,9 @@
 
     .line 468
     :try_start_0
-    new-instance v2, Lcom/tencent/mm/network/t;
+    new-instance v2, Lcom/tencent/mm/network/Tclz;
 
-    invoke-direct {v2, v1}, Lcom/tencent/mm/network/t;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v1}, Lcom/tencent/mm/network/Tclz;-><init>(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_9
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_4
@@ -1113,7 +1113,7 @@
 
     .line 469
     :try_start_1
-    iget-object v3, v2, Lcom/tencent/mm/network/t;->caW:Ljavax/net/ssl/HttpsURLConnection;
+    iget-object v3, v2, Lcom/tencent/mm/network/Tclz;->caW:Ljavax/net/ssl/HttpsURLConnection;
 
     invoke-virtual {v3}, Ljavax/net/ssl/HttpsURLConnection;->getInputStream()Ljava/io/InputStream;
     :try_end_1
@@ -1148,7 +1148,7 @@
 
     .line 477
     :try_start_3
-    iget-object v1, v2, Lcom/tencent/mm/network/t;->caW:Ljavax/net/ssl/HttpsURLConnection;
+    iget-object v1, v2, Lcom/tencent/mm/network/Tclz;->caW:Ljavax/net/ssl/HttpsURLConnection;
 
     invoke-virtual {v1}, Ljavax/net/ssl/HttpsURLConnection;->disconnect()V
 
@@ -1247,7 +1247,7 @@
 
     .line 497
     :try_start_6
-    iget-object v1, v2, Lcom/tencent/mm/network/t;->caW:Ljavax/net/ssl/HttpsURLConnection;
+    iget-object v1, v2, Lcom/tencent/mm/network/Tclz;->caW:Ljavax/net/ssl/HttpsURLConnection;
 
     invoke-virtual {v1}, Ljavax/net/ssl/HttpsURLConnection;->disconnect()V
 
@@ -1308,7 +1308,7 @@
 
     .line 496
     :try_start_8
-    iget-object v1, v2, Lcom/tencent/mm/network/t;->caW:Ljavax/net/ssl/HttpsURLConnection;
+    iget-object v1, v2, Lcom/tencent/mm/network/Tclz;->caW:Ljavax/net/ssl/HttpsURLConnection;
 
     invoke-virtual {v1}, Ljavax/net/ssl/HttpsURLConnection;->disconnect()V
 
@@ -1379,7 +1379,7 @@
 
     .line 497
     :try_start_a
-    iget-object v1, v2, Lcom/tencent/mm/network/t;->caW:Ljavax/net/ssl/HttpsURLConnection;
+    iget-object v1, v2, Lcom/tencent/mm/network/Tclz;->caW:Ljavax/net/ssl/HttpsURLConnection;
 
     invoke-virtual {v1}, Ljavax/net/ssl/HttpsURLConnection;->disconnect()V
 
@@ -1435,7 +1435,7 @@
 
     .line 497
     :try_start_b
-    iget-object v1, v2, Lcom/tencent/mm/network/t;->caW:Ljavax/net/ssl/HttpsURLConnection;
+    iget-object v1, v2, Lcom/tencent/mm/network/Tclz;->caW:Ljavax/net/ssl/HttpsURLConnection;
 
     invoke-virtual {v1}, Ljavax/net/ssl/HttpsURLConnection;->disconnect()V
 

@@ -48,11 +48,11 @@
 
     .prologue
     .line 3778
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/u;->mP()Lcom/tencent/mm/model/u;
+    invoke-interface {v0}, Lcom/tencent/mm/model/Uclz;->mP()Lcom/tencent/mm/model/Uclz;
 
     .line 3779
     return-void

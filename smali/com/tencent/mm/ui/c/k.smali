@@ -245,7 +245,7 @@
     iput-object v1, v0, Lcom/tencent/mm/ui/c/k$a;->jJO:Ljava/lang/ref/WeakReference;
 
     .line 119
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v1
 

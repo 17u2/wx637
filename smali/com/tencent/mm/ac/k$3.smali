@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/z$c$a;
+.implements Lcom/tencent/mm/model/Zclz$c$a;
 
 
 # annotations
@@ -20,20 +20,20 @@
 # instance fields
 .field final synthetic bOj:Lcom/tencent/mm/ac/k;
 
-.field final synthetic bOn:Lcom/tencent/mm/storage/e;
+.field final synthetic bOn:Lcom/tencent/mm/storage/Eclz;
 
 .field final synthetic bsH:Ljava/lang/String;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ac/k;Lcom/tencent/mm/storage/e;Ljava/lang/String;)V
+.method constructor <init>(Lcom/tencent/mm/ac/k;Lcom/tencent/mm/storage/Eclz;Ljava/lang/String;)V
     .locals 1
 
     .prologue
     .line 936
     iput-object p1, p0, Lcom/tencent/mm/ac/k$3;->bOj:Lcom/tencent/mm/ac/k;
 
-    iput-object p2, p0, Lcom/tencent/mm/ac/k$3;->bOn:Lcom/tencent/mm/storage/e;
+    iput-object p2, p0, Lcom/tencent/mm/ac/k$3;->bOn:Lcom/tencent/mm/storage/Eclz;
 
     iput-object p3, p0, Lcom/tencent/mm/ac/k$3;->bsH:Ljava/lang/String;
 
@@ -56,13 +56,13 @@
 
     .prologue
     .line 938
-    iget-object v0, p0, Lcom/tencent/mm/ac/k$3;->bOn:Lcom/tencent/mm/storage/e;
+    iget-object v0, p0, Lcom/tencent/mm/ac/k$3;->bOn:Lcom/tencent/mm/storage/Eclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/ac/k$3;->bOn:Lcom/tencent/mm/storage/e;
+    iget-object v0, p0, Lcom/tencent/mm/ac/k$3;->bOn:Lcom/tencent/mm/storage/Eclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/e;->aPO()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/Eclz;->aPO()Z
 
     move-result v0
 
@@ -83,9 +83,9 @@
     .line 941
     iget-object v1, v0, Lcom/tencent/mm/d/a/fq;->aAa:Lcom/tencent/mm/d/a/fq$a;
 
-    iget-object v2, p0, Lcom/tencent/mm/ac/k$3;->bOn:Lcom/tencent/mm/storage/e;
+    iget-object v2, p0, Lcom/tencent/mm/ac/k$3;->bOn:Lcom/tencent/mm/storage/Eclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/storage/e;->aPN()I
+    invoke-virtual {v2}, Lcom/tencent/mm/storage/Eclz;->aPN()I
 
     move-result v2
 

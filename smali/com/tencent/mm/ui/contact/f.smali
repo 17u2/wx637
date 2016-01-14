@@ -4,9 +4,9 @@
 
 
 # instance fields
-.field public czx:Lcom/tencent/mm/storage/k;
+.field public czx:Lcom/tencent/mm/storage/Kclz;
 
-.field public kro:Lcom/tencent/mm/storage/r;
+.field public kro:Lcom/tencent/mm/storage/Rclz;
 
 
 # direct methods
@@ -18,18 +18,18 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 14
-    new-instance v0, Lcom/tencent/mm/storage/k;
+    new-instance v0, Lcom/tencent/mm/storage/Kclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/storage/k;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/storage/Kclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/contact/f;->czx:Lcom/tencent/mm/storage/k;
+    iput-object v0, p0, Lcom/tencent/mm/ui/contact/f;->czx:Lcom/tencent/mm/storage/Kclz;
 
     .line 15
-    new-instance v0, Lcom/tencent/mm/storage/r;
+    new-instance v0, Lcom/tencent/mm/storage/Rclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/storage/r;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/storage/Rclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/contact/f;->kro:Lcom/tencent/mm/storage/r;
+    iput-object v0, p0, Lcom/tencent/mm/ui/contact/f;->kro:Lcom/tencent/mm/storage/Rclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 

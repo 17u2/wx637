@@ -163,14 +163,14 @@
     invoke-static {v0, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 64
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
 
     move-result-object v0
 
     invoke-virtual {v0, p0}, Lcom/tencent/mm/compatible/b/d;->a(Lcom/tencent/mm/compatible/b/d$a;)V
 
     .line 65
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
 
     move-result-object v0
 
@@ -227,7 +227,7 @@
     iput-boolean p2, p0, Lcom/tencent/mm/c/a/aclass;->aoT:Z
 
     .line 93
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
 
     move-result-object v0
 
@@ -237,7 +237,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
 
     move-result-object v0
 
@@ -548,14 +548,14 @@
     invoke-virtual {p0, v0}, Lcom/tencent/mm/c/a/aclass;->ak(Z)V
 
     .line 315
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/tencent/mm/compatible/b/d;->nP()V
 
     .line 316
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
 
     move-result-object v0
 
@@ -608,7 +608,7 @@
 
     .line 190
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
 
     move-result-object v0
 
@@ -678,14 +678,14 @@
 
     .line 142
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/tencent/mm/compatible/b/d;->nO()I
 
     .line 143
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
 
     move-result-object v1
 
@@ -816,14 +816,14 @@
 
     .line 129
     :goto_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
 
     move-result-object v2
 
     invoke-virtual {v2}, Lcom/tencent/mm/compatible/b/d;->nP()V
 
     .line 130
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
 
     move-result-object v2
 
@@ -865,21 +865,21 @@
     invoke-interface {v0}, Lcom/tencent/mm/modelvoice/d;->lD()Z
 
     .line 172
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
 
     move-result-object v0
 
     invoke-virtual {v0, p0}, Lcom/tencent/mm/compatible/b/d;->b(Lcom/tencent/mm/compatible/b/d$a;)V
 
     .line 173
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/tencent/mm/compatible/b/d;->nP()V
 
     .line 174
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
 
     move-result-object v0
 

@@ -17,7 +17,7 @@
 # instance fields
 .field private bhs:J
 
-.field private fIG:[Lcom/tencent/mm/storage/ad;
+.field private fIG:[Lcom/tencent/mm/storage/ADclz;
 
 .field final synthetic fIw:Lcom/tencent/mm/plugin/search/a/h;
 
@@ -54,9 +54,9 @@
 
     move-result v0
 
-    new-array v0, v0, [Lcom/tencent/mm/storage/ad;
+    new-array v0, v0, [Lcom/tencent/mm/storage/ADclz;
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/h$f;->fIG:[Lcom/tencent/mm/storage/ad;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/h$f;->fIG:[Lcom/tencent/mm/storage/ADclz;
 
     .line 592
     invoke-interface {p2}, Ljava/util/List;->isEmpty()Z
@@ -66,7 +66,7 @@
     if-nez v0, :cond_0
 
     .line 593
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/h$f;->fIG:[Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/h$f;->fIG:[Lcom/tencent/mm/storage/ADclz;
 
     invoke-interface {p2, v0}, Ljava/util/List;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
@@ -93,11 +93,11 @@
     const/4 v10, 0x1
 
     .line 599
-    iget-object v1, p0, Lcom/tencent/mm/plugin/search/a/h$f;->fIG:[Lcom/tencent/mm/storage/ad;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/search/a/h$f;->fIG:[Lcom/tencent/mm/storage/ADclz;
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/search/a/h$f;->fIG:[Lcom/tencent/mm/storage/ad;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/search/a/h$f;->fIG:[Lcom/tencent/mm/storage/ADclz;
 
     array-length v1, v1
 
@@ -110,7 +110,7 @@
 
     .line 604
     :cond_1
-    iget-object v12, p0, Lcom/tencent/mm/plugin/search/a/h$f;->fIG:[Lcom/tencent/mm/storage/ad;
+    iget-object v12, p0, Lcom/tencent/mm/plugin/search/a/h$f;->fIG:[Lcom/tencent/mm/storage/ADclz;
 
     array-length v13, v12
 
@@ -126,7 +126,7 @@
 
     if-eq v2, v10, :cond_2
 
-    invoke-virtual {v1}, Lcom/tencent/mm/storage/ad;->aQy()Z
+    invoke-virtual {v1}, Lcom/tencent/mm/storage/ADclz;->aQy()Z
 
     move-result v2
 
@@ -161,7 +161,7 @@
     if-eqz v0, :cond_3
 
     .line 618
-    invoke-virtual {v1}, Lcom/tencent/mm/storage/ad;->aQy()Z
+    invoke-virtual {v1}, Lcom/tencent/mm/storage/ADclz;->aQy()Z
 
     move-result v3
 

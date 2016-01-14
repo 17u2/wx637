@@ -132,11 +132,11 @@
     invoke-virtual {v0, v1}, Lcom/tencent/mm/s/Qclz;->gQ(Ljava/lang/String;)V
 
     .line 48
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v0
 
@@ -144,7 +144,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/s/Qclz;->bBM:Lcom/tencent/mm/sdk/g/j$b;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/q;->b(Lcom/tencent/mm/sdk/g/j$b;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Qclz;->b(Lcom/tencent/mm/sdk/g/j$b;)V
 
     goto :goto_0
 .end method

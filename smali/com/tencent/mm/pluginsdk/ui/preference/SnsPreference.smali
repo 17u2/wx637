@@ -21,7 +21,7 @@
 
 .field private fMy:I
 
-.field private ggk:Lcom/tencent/mm/storage/i$a;
+.field private ggk:Lcom/tencent/mm/storage/Iclz$a;
 
 .field private iaa:Lcom/tencent/mm/ui/widget/QImageView;
 
@@ -355,9 +355,9 @@
 
     move-result v5
 
-    iget-object v6, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->ggk:Lcom/tencent/mm/storage/i$a;
+    iget-object v6, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->ggk:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v4, v5, v6}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/i$a;)V
+    invoke-interface {v1, v0, v4, v5, v6}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 106
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->iad:Landroid/widget/ImageView;
@@ -400,9 +400,9 @@
 
     move-result v5
 
-    iget-object v6, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->ggk:Lcom/tencent/mm/storage/i$a;
+    iget-object v6, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->ggk:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v4, v5, v6}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/i$a;)V
+    invoke-interface {v1, v0, v4, v5, v6}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 115
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->iae:Landroid/widget/ImageView;
@@ -453,9 +453,9 @@
 
     move-result v5
 
-    iget-object v6, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->ggk:Lcom/tencent/mm/storage/i$a;
+    iget-object v6, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->ggk:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v4, v5, v6}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/i$a;)V
+    invoke-interface {v1, v0, v4, v5, v6}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 124
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->iaf:Landroid/widget/ImageView;
@@ -772,15 +772,15 @@
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
     .line 206
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 
@@ -802,9 +802,9 @@
     if-eqz v0, :cond_4
 
     .line 208
-    sget-object v0, Lcom/tencent/mm/storage/i$a;->jkY:Lcom/tencent/mm/storage/i$a;
+    sget-object v0, Lcom/tencent/mm/storage/Iclz$a;->jkY:Lcom/tencent/mm/storage/Iclz$a;
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->ggk:Lcom/tencent/mm/storage/i$a;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->ggk:Lcom/tencent/mm/storage/Iclz$a;
 
     .line 217
     :goto_1
@@ -880,7 +880,7 @@
 
     .line 210
     :cond_4
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v0
 
@@ -892,17 +892,17 @@
     if-eqz v0, :cond_5
 
     .line 212
-    sget-object v0, Lcom/tencent/mm/storage/i$a;->jkY:Lcom/tencent/mm/storage/i$a;
+    sget-object v0, Lcom/tencent/mm/storage/Iclz$a;->jkY:Lcom/tencent/mm/storage/Iclz$a;
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->ggk:Lcom/tencent/mm/storage/i$a;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->ggk:Lcom/tencent/mm/storage/Iclz$a;
 
     goto :goto_1
 
     .line 214
     :cond_5
-    sget-object v0, Lcom/tencent/mm/storage/i$a;->jkZ:Lcom/tencent/mm/storage/i$a;
+    sget-object v0, Lcom/tencent/mm/storage/Iclz$a;->jkZ:Lcom/tencent/mm/storage/Iclz$a;
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->ggk:Lcom/tencent/mm/storage/i$a;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->ggk:Lcom/tencent/mm/storage/Iclz$a;
 
     goto :goto_1
 .end method

@@ -52,13 +52,13 @@
 
     .prologue
     .line 344
-    sget-object v0, Lcom/tencent/mm/model/z$a;->bth:Lcom/tencent/mm/model/z$c;
+    sget-object v0, Lcom/tencent/mm/model/Zclz$a;->bth:Lcom/tencent/mm/model/Zclz$c;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/at$4$2;->gGd:Lcom/tencent/mm/plugin/sns/ui/aq;
 
     iget-object v1, v1, Lcom/tencent/mm/plugin/sns/ui/aq;->gFI:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/model/z$c;->eR(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/model/Zclz$c;->eR(Ljava/lang/String;)V
 
     .line 345
     return-void

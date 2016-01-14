@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/storage/s$b;
+.implements Lcom/tencent/mm/storage/Sclz$b;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/app/WorkerProfile;->ld()Lcom/tencent/mm/storage/s$b;
+    value = Lcom/tencent/mm/app/WorkerProfile;->ld()Lcom/tencent/mm/storage/Sclz$b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -55,12 +55,12 @@
     return-object v0
 .end method
 
-.method public final a(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/pointers/PString;Lcom/tencent/mm/pointers/PString;Lcom/tencent/mm/pointers/PInt;Z)V
+.method public final a(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/pointers/PString;Lcom/tencent/mm/pointers/PString;Lcom/tencent/mm/pointers/PInt;Z)V
     .locals 0
 
     .prologue
     .line 1990
-    invoke-static {p1, p2, p3, p4, p5}, Lcom/tencent/mm/booter/notification/a/Hclz;->b(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/pointers/PString;Lcom/tencent/mm/pointers/PString;Lcom/tencent/mm/pointers/PInt;Z)Ljava/lang/String;
+    invoke-static {p1, p2, p3, p4, p5}, Lcom/tencent/mm/booter/notification/a/Hclz;->b(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/pointers/PString;Lcom/tencent/mm/pointers/PString;Lcom/tencent/mm/pointers/PInt;Z)Ljava/lang/String;
 
     .line 1991
     return-void

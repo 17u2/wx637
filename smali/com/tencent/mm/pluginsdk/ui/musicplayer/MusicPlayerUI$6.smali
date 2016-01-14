@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/v;
+.implements Lcom/tencent/mm/model/Vclz;
 
 
 # annotations
@@ -264,11 +264,11 @@
     .line 465
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI$6;->hYD:Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/tencent/mm/model/u;->mI()Lcom/tencent/mm/protocal/b/ada;
+    invoke-interface {v1}, Lcom/tencent/mm/model/Uclz;->mI()Lcom/tencent/mm/protocal/b/ada;
 
     move-result-object v1
 

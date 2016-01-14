@@ -123,7 +123,7 @@
 
     .prologue
     .line 81
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -398,7 +398,7 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/g;->fIl:Lcom/tencent/mm/plugin/search/a/b/b;
 
     .line 66
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

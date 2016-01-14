@@ -53,11 +53,11 @@
     invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->r(Lcom/tencent/mm/ui/LauncherUI;)V
 
     .line 2445
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v0
 
@@ -73,7 +73,7 @@
 
     move-result v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/h;->setInt(II)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/Hclz;->setInt(II)V
 
     .line 2446
     return-void

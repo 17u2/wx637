@@ -174,30 +174,30 @@
     invoke-virtual {p0, v0}, Lcom/tencent/mm/ui/friend/QQFriendUI;->a(Lcom/tencent/mm/ui/tools/q;)V
 
     .line 170
-    invoke-static {}, Lcom/tencent/mm/model/a/f;->uD()Lcom/tencent/mm/model/a/b;
+    invoke-static {}, Lcom/tencent/mm/model/a/Fclz;->uD()Lcom/tencent/mm/model/a/Bclz;
 
     move-result-object v0
 
     const-string/jumbo v2, "2"
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/model/a/b;->fm(Ljava/lang/String;)Lcom/tencent/mm/model/a/d;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/model/a/Bclz;->fm(Ljava/lang/String;)Lcom/tencent/mm/model/a/Dclz;
 
     move-result-object v0
 
     if-eqz v0, :cond_3
 
     .line 171
-    invoke-static {}, Lcom/tencent/mm/model/a/f;->uD()Lcom/tencent/mm/model/a/b;
+    invoke-static {}, Lcom/tencent/mm/model/a/Fclz;->uD()Lcom/tencent/mm/model/a/Bclz;
 
     move-result-object v0
 
     const-string/jumbo v2, "2"
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/model/a/b;->fm(Ljava/lang/String;)Lcom/tencent/mm/model/a/d;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/model/a/Bclz;->fm(Ljava/lang/String;)Lcom/tencent/mm/model/a/Dclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/model/a/d;->value:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/model/a/Dclz;->value:Ljava/lang/String;
 
     .line 172
     const-string/jumbo v2, "0"
@@ -215,7 +215,7 @@
     :goto_0
     const-string/jumbo v1, "2"
 
-    invoke-static {v1}, Lcom/tencent/mm/model/a/e;->fq(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/tencent/mm/model/a/Eclz;->fq(Ljava/lang/String;)V
 
     .line 180
     :goto_1
@@ -472,7 +472,7 @@
     invoke-super {p0, p1}, Lcom/tencent/mm/ui/MMActivity;->onCreate(Landroid/os/Bundle;)V
 
     .line 63
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -566,7 +566,7 @@
 
     invoke-direct {v1, v6, v2}, Lcom/tencent/mm/modelfriend/y;-><init>(II)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 
@@ -614,7 +614,7 @@
     .line 100
     const-string/jumbo v0, "2"
 
-    invoke-static {v0}, Lcom/tencent/mm/model/a/e;->fr(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/tencent/mm/model/a/Eclz;->fr(Ljava/lang/String;)V
 
     .line 102
     invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zf()Lcom/tencent/mm/modelfriend/ag;
@@ -626,7 +626,7 @@
     invoke-virtual {v0, v1}, Lcom/tencent/mm/modelfriend/ag;->b(Lcom/tencent/mm/sdk/g/j$b;)V
 
     .line 103
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

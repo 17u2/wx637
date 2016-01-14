@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/chatting/dq;->b(Lcom/tencent/mm/storage/ad;Landroid/content/Context;)V
+    value = Lcom/tencent/mm/ui/chatting/dq;->b(Lcom/tencent/mm/storage/ADclz;Landroid/content/Context;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,18 +18,18 @@
 
 
 # instance fields
-.field final synthetic bJG:Lcom/tencent/mm/storage/ad;
+.field final synthetic bJG:Lcom/tencent/mm/storage/ADclz;
 
 .field final synthetic val$context:Landroid/content/Context;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/storage/ad;Landroid/content/Context;)V
+.method constructor <init>(Lcom/tencent/mm/storage/ADclz;Landroid/content/Context;)V
     .locals 1
 
     .prologue
     .line 253
-    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/dq$6;->bJG:Lcom/tencent/mm/storage/ad;
+    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/dq$6;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iput-object p2, p0, Lcom/tencent/mm/ui/chatting/dq$6;->val$context:Landroid/content/Context;
 
@@ -73,7 +73,7 @@
     move-result-object v0
 
     .line 258
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/dq$6;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/dq$6;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v1, v1, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
 
@@ -92,7 +92,7 @@
 
     aput-object v0, v4, v6
 
-    iget-object v5, p0, Lcom/tencent/mm/ui/chatting/dq$6;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v5, p0, Lcom/tencent/mm/ui/chatting/dq$6;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v5, v5, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
 
@@ -144,7 +144,7 @@
     iput-object v4, v2, Lcom/tencent/mm/ui/transmit/MsgRetransmitUI$a;->context:Landroid/content/Context;
 
     .line 269
-    iget-object v4, p0, Lcom/tencent/mm/ui/chatting/dq$6;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v4, p0, Lcom/tencent/mm/ui/chatting/dq$6;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v4, v4, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
 
@@ -172,15 +172,15 @@
     invoke-virtual {v2, v0}, Lcom/tencent/mm/ui/transmit/MsgRetransmitUI$a;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     .line 275
-    invoke-static {}, Lcom/tencent/mm/model/az;->ut()Lcom/tencent/mm/model/az;
+    invoke-static {}, Lcom/tencent/mm/model/AZclz;->ut()Lcom/tencent/mm/model/AZclz;
 
     move-result-object v0
 
-    sget v1, Lcom/tencent/mm/model/az;->bvv:I
+    sget v1, Lcom/tencent/mm/model/AZclz;->bvv:I
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/model/az;->b(I[Ljava/lang/Object;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/model/AZclz;->b(I[Ljava/lang/Object;)V
 
     .line 276
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/dq$6;->val$context:Landroid/content/Context;

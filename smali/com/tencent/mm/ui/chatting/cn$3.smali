@@ -97,11 +97,11 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ui/chatting/cn$3;->kfF:Lcom/tencent/mm/ui/chatting/cn;
 
-    invoke-static {v4}, Lcom/tencent/mm/ui/chatting/cn;->g(Lcom/tencent/mm/ui/chatting/cn;)Lcom/tencent/mm/storage/k;
+    invoke-static {v4}, Lcom/tencent/mm/ui/chatting/cn;->g(Lcom/tencent/mm/ui/chatting/cn;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v4
 
-    invoke-static {v0, v1, v2, v3, v4}, Lcom/tencent/mm/ui/chatting/u;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Ljava/util/List;ZLcom/tencent/mm/ui/chatting/cn;Lcom/tencent/mm/storage/k;)V
+    invoke-static {v0, v1, v2, v3, v4}, Lcom/tencent/mm/ui/chatting/u;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Ljava/util/List;ZLcom/tencent/mm/ui/chatting/cn;Lcom/tencent/mm/storage/Kclz;)V
 
     goto :goto_0
 .end method

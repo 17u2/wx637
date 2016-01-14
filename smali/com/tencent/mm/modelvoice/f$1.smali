@@ -348,13 +348,13 @@
 
     iget-object v2, p0, Lcom/tencent/mm/modelvoice/f$1;->bYk:Lcom/tencent/mm/modelvoice/f;
 
-    iget-object v2, v2, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/e;
+    iget-object v2, v2, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/Eclz;
 
     iget-object v3, p0, Lcom/tencent/mm/modelvoice/f$1;->bYk:Lcom/tencent/mm/modelvoice/f;
 
     iget-object v3, v3, Lcom/tencent/mm/modelvoice/f;->ans:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelvoice/f;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelvoice/f;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
 
     move-result v1
 

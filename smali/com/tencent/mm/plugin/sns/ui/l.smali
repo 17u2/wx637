@@ -343,7 +343,7 @@
     invoke-direct {v1}, Ljava/util/LinkedList;-><init>()V
 
     .line 191
-    invoke-static {}, Lcom/tencent/mm/model/i;->sF()Ljava/util/List;
+    invoke-static {}, Lcom/tencent/mm/model/Iclz;->sF()Ljava/util/List;
 
     move-result-object v3
 

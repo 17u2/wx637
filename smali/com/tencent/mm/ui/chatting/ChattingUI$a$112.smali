@@ -65,7 +65,7 @@
     .line 7174
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$112;->amO:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -134,27 +134,27 @@
 
     .line 7185
     :pswitch_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/u;->my()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/tencent/mm/model/Uclz;->my()Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/u;->mx()I
+    invoke-interface {v0}, Lcom/tencent/mm/model/Uclz;->mx()I
 
     move-result v0
 
@@ -162,11 +162,11 @@
 
     .line 7188
     :try_start_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/u;->my()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/tencent/mm/model/Uclz;->my()Ljava/lang/String;
 
     move-result-object v0
 

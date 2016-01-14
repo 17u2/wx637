@@ -63,7 +63,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {p3}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {p3}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v0
 

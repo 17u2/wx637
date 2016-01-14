@@ -104,9 +104,9 @@
 
     iget v4, v4, Lcom/tencent/mm/plugin/sns/ui/ad;->position:I
 
-    sget-object v5, Lcom/tencent/mm/storage/i$a;->jld:Lcom/tencent/mm/storage/i$a;
+    sget-object v5, Lcom/tencent/mm/storage/Iclz$a;->jld:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-virtual/range {v0 .. v5}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/plugin/sight/decode/a/a;IILcom/tencent/mm/storage/i$a;)Z
+    invoke-virtual/range {v0 .. v5}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/plugin/sight/decode/a/a;IILcom/tencent/mm/storage/Iclz$a;)Z
 
     .line 1129
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/c/b$10$1;->gIL:Lcom/tencent/mm/plugin/sns/ui/ad;

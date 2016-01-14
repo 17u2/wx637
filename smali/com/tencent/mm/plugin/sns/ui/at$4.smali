@@ -131,17 +131,17 @@
 
     .line 297
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v1
 
     iget-object v2, v0, Lcom/tencent/mm/plugin/sns/ui/aq;->gFI:Ljava/lang/String;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v1
 
@@ -222,7 +222,7 @@
 
     .line 309
     :cond_2
-    sget-object v1, Lcom/tencent/mm/model/z$a;->bth:Lcom/tencent/mm/model/z$c;
+    sget-object v1, Lcom/tencent/mm/model/Zclz$a;->bth:Lcom/tencent/mm/model/Zclz$c;
 
     iget-object v2, v0, Lcom/tencent/mm/plugin/sns/ui/aq;->gFI:Ljava/lang/String;
 
@@ -232,7 +232,7 @@
 
     invoke-direct {v4, p0}, Lcom/tencent/mm/plugin/sns/ui/at$4$1;-><init>(Lcom/tencent/mm/plugin/sns/ui/at$4;)V
 
-    invoke-interface {v1, v2, v3, v4}, Lcom/tencent/mm/model/z$c;->a(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/model/z$c$a;)V
+    invoke-interface {v1, v2, v3, v4}, Lcom/tencent/mm/model/Zclz$c;->a(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/model/Zclz$c$a;)V
 
     .line 341
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/at$4;->gGb:Lcom/tencent/mm/plugin/sns/ui/at;

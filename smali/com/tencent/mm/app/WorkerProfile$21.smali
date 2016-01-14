@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/app/WorkerProfile$21;
-.super Lcom/tencent/mm/network/m$a;
+.super Lcom/tencent/mm/network/Mclz$a;
 .source "SourceFile"
 
 
@@ -26,7 +26,7 @@
     .line 586
     iput-object p1, p0, Lcom/tencent/mm/app/WorkerProfile$21;->amm:Lcom/tencent/mm/app/WorkerProfile;
 
-    invoke-direct {p0}, Lcom/tencent/mm/network/m$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/network/Mclz$a;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -60,19 +60,19 @@
 
     .line 593
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tu()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tu()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tw()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tw()Z
 
     move-result v0
 
@@ -86,7 +86,7 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 595
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

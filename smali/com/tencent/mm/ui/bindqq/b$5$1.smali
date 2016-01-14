@@ -59,7 +59,7 @@
     invoke-virtual {v0}, Lcom/tencent/mm/ui/bindqq/b;->onDetach()V
 
     .line 161
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

@@ -472,7 +472,7 @@
     const-string/jumbo v0, ""
 
     .line 40
-    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->xS(Ljava/lang/String;)Lcom/tencent/mm/storage/y;
+    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->xS(Ljava/lang/String;)Lcom/tencent/mm/storage/Yclz;
 
     move-result-object v2
 
@@ -480,7 +480,7 @@
     if-eqz v2, :cond_3
 
     .line 42
-    iget-wide v3, v2, Lcom/tencent/mm/storage/y;->field_sysDownloadId:J
+    iget-wide v3, v2, Lcom/tencent/mm/storage/Yclz;->field_sysDownloadId:J
 
     invoke-direct {p0, v3, v4}, Lcom/tencent/mm/pluginsdk/model/downloader/g;->cT(J)Lcom/tencent/mm/pluginsdk/model/downloader/e;
 
@@ -498,7 +498,7 @@
 
     .line 46
     :cond_2
-    iget-object v0, v2, Lcom/tencent/mm/storage/y;->field_filePath:Ljava/lang/String;
+    iget-object v0, v2, Lcom/tencent/mm/storage/Yclz;->field_filePath:Ljava/lang/String;
 
     .line 49
     :cond_3
@@ -559,7 +559,7 @@
     invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->xR(Ljava/lang/String;)Z
 
     .line 54
-    invoke-static {p1}, Lcom/tencent/mm/pluginsdk/model/downloader/f;->b(Lcom/tencent/mm/pluginsdk/model/downloader/d;)Lcom/tencent/mm/storage/y;
+    invoke-static {p1}, Lcom/tencent/mm/pluginsdk/model/downloader/f;->b(Lcom/tencent/mm/pluginsdk/model/downloader/d;)Lcom/tencent/mm/storage/Yclz;
 
     move-result-object v0
 
@@ -568,13 +568,13 @@
 
     move-result-wide v2
 
-    iput-wide v2, v0, Lcom/tencent/mm/storage/y;->field_downloadId:J
+    iput-wide v2, v0, Lcom/tencent/mm/storage/Yclz;->field_downloadId:J
 
     .line 56
-    iput v7, v0, Lcom/tencent/mm/storage/y;->field_status:I
+    iput v7, v0, Lcom/tencent/mm/storage/Yclz;->field_status:I
 
     .line 57
-    iput v6, v0, Lcom/tencent/mm/storage/y;->field_downloaderType:I
+    iput v6, v0, Lcom/tencent/mm/storage/Yclz;->field_downloaderType:I
 
     .line 58
     invoke-static {v1}, Lcom/tencent/mm/pluginsdk/model/downloader/g;->bk(Ljava/lang/String;)Ljava/lang/String;
@@ -614,29 +614,29 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/storage/y;->field_filePath:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/storage/Yclz;->field_filePath:Ljava/lang/String;
 
     .line 61
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->a(Lcom/tencent/mm/storage/y;)J
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->a(Lcom/tencent/mm/storage/Yclz;)J
 
     .line 63
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v1
 
     new-instance v2, Lcom/tencent/mm/pluginsdk/model/downloader/g$1;
 
-    invoke-direct {v2, p0, p1, v0}, Lcom/tencent/mm/pluginsdk/model/downloader/g$1;-><init>(Lcom/tencent/mm/pluginsdk/model/downloader/g;Lcom/tencent/mm/pluginsdk/model/downloader/d;Lcom/tencent/mm/storage/y;)V
+    invoke-direct {v2, p0, p1, v0}, Lcom/tencent/mm/pluginsdk/model/downloader/g$1;-><init>(Lcom/tencent/mm/pluginsdk/model/downloader/g;Lcom/tencent/mm/pluginsdk/model/downloader/d;Lcom/tencent/mm/storage/Yclz;)V
 
     invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ac;->r(Ljava/lang/Runnable;)I
 
     .line 93
-    iget-wide v0, v0, Lcom/tencent/mm/storage/y;->field_downloadId:J
+    iget-wide v0, v0, Lcom/tencent/mm/storage/Yclz;->field_downloadId:J
 
     goto/16 :goto_0
 .end method
 
-.method final c(Lcom/tencent/mm/storage/y;)J
+.method final c(Lcom/tencent/mm/storage/Yclz;)J
     .locals 7
 
     .prologue
@@ -644,7 +644,7 @@
 
     .line 167
     :try_start_0
-    iget-object v0, p1, Lcom/tencent/mm/storage/y;->field_downloadUrl:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/storage/Yclz;->field_downloadUrl:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -661,17 +661,17 @@
     invoke-virtual {v1, v0}, Landroid/app/DownloadManager$Request;->setAllowedNetworkTypes(I)Landroid/app/DownloadManager$Request;
 
     .line 171
-    iget-boolean v0, p1, Lcom/tencent/mm/storage/y;->field_showNotification:Z
+    iget-boolean v0, p1, Lcom/tencent/mm/storage/Yclz;->field_showNotification:Z
 
     invoke-virtual {v1, v0}, Landroid/app/DownloadManager$Request;->setShowRunningNotification(Z)Landroid/app/DownloadManager$Request;
 
     .line 172
-    iget-boolean v0, p1, Lcom/tencent/mm/storage/y;->field_showNotification:Z
+    iget-boolean v0, p1, Lcom/tencent/mm/storage/Yclz;->field_showNotification:Z
 
     invoke-virtual {v1, v0}, Landroid/app/DownloadManager$Request;->setVisibleInDownloadsUi(Z)Landroid/app/DownloadManager$Request;
 
     .line 173
-    iget-object v0, p1, Lcom/tencent/mm/storage/y;->field_fileName:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/storage/Yclz;->field_fileName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -680,7 +680,7 @@
     if-nez v0, :cond_0
 
     .line 174
-    iget-object v0, p1, Lcom/tencent/mm/storage/y;->field_fileName:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/storage/Yclz;->field_fileName:Ljava/lang/String;
 
     invoke-virtual {v1, v0}, Landroid/app/DownloadManager$Request;->setTitle(Ljava/lang/CharSequence;)Landroid/app/DownloadManager$Request;
 
@@ -688,7 +688,7 @@
     :cond_0
     new-instance v0, Ljava/io/File;
 
-    iget-object v4, p1, Lcom/tencent/mm/storage/y;->field_filePath:Ljava/lang/String;
+    iget-object v4, p1, Lcom/tencent/mm/storage/Yclz;->field_filePath:Ljava/lang/String;
 
     invoke-direct {v0, v4}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
@@ -754,7 +754,7 @@
 
     const/4 v0, 0x1
 
-    iget-object v6, p1, Lcom/tencent/mm/storage/y;->field_downloadUrl:Ljava/lang/String;
+    iget-object v6, p1, Lcom/tencent/mm/storage/Yclz;->field_downloadUrl:Ljava/lang/String;
 
     aput-object v6, v5, v0
 
@@ -800,7 +800,7 @@
 
     .line 146
     :cond_0
-    invoke-static {p1, p2}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->cN(J)Lcom/tencent/mm/storage/y;
+    invoke-static {p1, p2}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->cN(J)Lcom/tencent/mm/storage/Yclz;
 
     move-result-object v1
 
@@ -816,25 +816,25 @@
 
     .line 151
     :cond_1
-    iget v0, v1, Lcom/tencent/mm/storage/y;->field_status:I
+    iget v0, v1, Lcom/tencent/mm/storage/Yclz;->field_status:I
 
     const/4 v2, 0x4
 
     if-eq v0, v2, :cond_2
 
-    iget v0, v1, Lcom/tencent/mm/storage/y;->field_status:I
+    iget v0, v1, Lcom/tencent/mm/storage/Yclz;->field_status:I
 
     const/4 v2, 0x2
 
     if-eq v0, v2, :cond_2
 
-    iget v0, v1, Lcom/tencent/mm/storage/y;->field_status:I
+    iget v0, v1, Lcom/tencent/mm/storage/Yclz;->field_status:I
 
     const/4 v2, 0x5
 
     if-eq v0, v2, :cond_2
 
-    iget v0, v1, Lcom/tencent/mm/storage/y;->field_status:I
+    iget v0, v1, Lcom/tencent/mm/storage/Yclz;->field_status:I
 
     const/4 v2, 0x3
 
@@ -846,23 +846,23 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/model/downloader/e;-><init>()V
 
-    iget-wide v2, v1, Lcom/tencent/mm/storage/y;->field_downloadId:J
+    iget-wide v2, v1, Lcom/tencent/mm/storage/Yclz;->field_downloadId:J
 
     iput-wide v2, v0, Lcom/tencent/mm/pluginsdk/model/downloader/e;->id:J
 
-    iget-object v2, v1, Lcom/tencent/mm/storage/y;->field_downloadUrl:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/storage/Yclz;->field_downloadUrl:Ljava/lang/String;
 
     iput-object v2, v0, Lcom/tencent/mm/pluginsdk/model/downloader/e;->url:Ljava/lang/String;
 
-    iget v2, v1, Lcom/tencent/mm/storage/y;->field_status:I
+    iget v2, v1, Lcom/tencent/mm/storage/Yclz;->field_status:I
 
     iput v2, v0, Lcom/tencent/mm/pluginsdk/model/downloader/e;->status:I
 
-    iget-object v2, v1, Lcom/tencent/mm/storage/y;->field_filePath:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/storage/Yclz;->field_filePath:Ljava/lang/String;
 
     iput-object v2, v0, Lcom/tencent/mm/pluginsdk/model/downloader/e;->path:Ljava/lang/String;
 
-    iget-object v1, v1, Lcom/tencent/mm/storage/y;->field_md5:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/storage/Yclz;->field_md5:Ljava/lang/String;
 
     iput-object v1, v0, Lcom/tencent/mm/pluginsdk/model/downloader/e;->atr:Ljava/lang/String;
 
@@ -870,7 +870,7 @@
 
     .line 158
     :cond_3
-    iget-wide v2, v1, Lcom/tencent/mm/storage/y;->field_sysDownloadId:J
+    iget-wide v2, v1, Lcom/tencent/mm/storage/Yclz;->field_sysDownloadId:J
 
     invoke-direct {p0, v2, v3}, Lcom/tencent/mm/pluginsdk/model/downloader/g;->cT(J)Lcom/tencent/mm/pluginsdk/model/downloader/e;
 
@@ -880,7 +880,7 @@
     iput-wide p1, v0, Lcom/tencent/mm/pluginsdk/model/downloader/e;->id:J
 
     .line 160
-    iget-object v1, v1, Lcom/tencent/mm/storage/y;->field_md5:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/storage/Yclz;->field_md5:Ljava/lang/String;
 
     iput-object v1, v0, Lcom/tencent/mm/pluginsdk/model/downloader/e;->atr:Ljava/lang/String;
 
@@ -995,7 +995,7 @@
     const/4 v0, 0x0
 
     .line 285
-    invoke-static {p1, p2}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->cN(J)Lcom/tencent/mm/storage/y;
+    invoke-static {p1, p2}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->cN(J)Lcom/tencent/mm/storage/Yclz;
 
     move-result-object v2
 
@@ -1023,7 +1023,7 @@
 
     .line 291
     :cond_0
-    iget v3, v2, Lcom/tencent/mm/storage/y;->field_downloaderType:I
+    iget v3, v2, Lcom/tencent/mm/storage/Yclz;->field_downloaderType:I
 
     if-eq v3, v1, :cond_1
 
@@ -1046,7 +1046,7 @@
 
     .line 296
     :cond_1
-    iget v3, v2, Lcom/tencent/mm/storage/y;->field_status:I
+    iget v3, v2, Lcom/tencent/mm/storage/Yclz;->field_status:I
 
     const/4 v4, 0x5
 
@@ -1071,7 +1071,7 @@
 
     .line 301
     :cond_2
-    invoke-virtual {p0, v2}, Lcom/tencent/mm/pluginsdk/model/downloader/g;->c(Lcom/tencent/mm/storage/y;)J
+    invoke-virtual {p0, v2}, Lcom/tencent/mm/pluginsdk/model/downloader/g;->c(Lcom/tencent/mm/storage/Yclz;)J
 
     move-result-wide v3
 
@@ -1083,13 +1083,13 @@
     if-lez v5, :cond_3
 
     .line 303
-    iput-wide v3, v2, Lcom/tencent/mm/storage/y;->field_sysDownloadId:J
+    iput-wide v3, v2, Lcom/tencent/mm/storage/Yclz;->field_sysDownloadId:J
 
     .line 304
-    iput v1, v2, Lcom/tencent/mm/storage/y;->field_status:I
+    iput v1, v2, Lcom/tencent/mm/storage/Yclz;->field_status:I
 
     .line 305
-    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->b(Lcom/tencent/mm/storage/y;)J
+    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->b(Lcom/tencent/mm/storage/Yclz;)J
 
     move v0, v1
 
@@ -1148,7 +1148,7 @@
 
     .line 103
     :cond_0
-    invoke-static {p1, p2}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->cN(J)Lcom/tencent/mm/storage/y;
+    invoke-static {p1, p2}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->cN(J)Lcom/tencent/mm/storage/Yclz;
 
     move-result-object v3
 
@@ -1178,7 +1178,7 @@
 
     const/4 v4, 0x0
 
-    iget-wide v5, v3, Lcom/tencent/mm/storage/y;->field_sysDownloadId:J
+    iget-wide v5, v3, Lcom/tencent/mm/storage/Yclz;->field_sysDownloadId:J
 
     aput-wide v5, v2, v4
 
@@ -1212,7 +1212,7 @@
 
     .line 116
     :goto_1
-    iget-object v2, v3, Lcom/tencent/mm/storage/y;->field_filePath:Ljava/lang/String;
+    iget-object v2, v3, Lcom/tencent/mm/storage/Yclz;->field_filePath:Ljava/lang/String;
 
     invoke-static {v2}, Lcom/tencent/mm/loader/stub/b;->deleteFile(Ljava/lang/String;)Z
 
@@ -1223,7 +1223,7 @@
 
     new-array v5, v8, [Ljava/lang/Object;
 
-    iget-object v6, v3, Lcom/tencent/mm/storage/y;->field_filePath:Ljava/lang/String;
+    iget-object v6, v3, Lcom/tencent/mm/storage/Yclz;->field_filePath:Ljava/lang/String;
 
     aput-object v6, v5, v1
 
@@ -1232,10 +1232,10 @@
     .line 119
     const/4 v1, 0x5
 
-    iput v1, v3, Lcom/tencent/mm/storage/y;->field_status:I
+    iput v1, v3, Lcom/tencent/mm/storage/Yclz;->field_status:I
 
     .line 120
-    invoke-static {v3}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->b(Lcom/tencent/mm/storage/y;)J
+    invoke-static {v3}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->b(Lcom/tencent/mm/storage/Yclz;)J
 
     .line 121
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/model/downloader/g;->hNa:Lcom/tencent/mm/pluginsdk/model/downloader/a;

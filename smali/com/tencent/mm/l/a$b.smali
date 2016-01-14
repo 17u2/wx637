@@ -19,7 +19,7 @@
 
 .field bpk:I
 
-.field bpl:Lcom/tencent/mm/storage/j$a;
+.field bpl:Lcom/tencent/mm/storage/Jclz$a;
 
 .field type:I
 

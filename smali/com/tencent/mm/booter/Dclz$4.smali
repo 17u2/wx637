@@ -70,7 +70,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/model/v;
+    check-cast v0, Lcom/tencent/mm/model/Vclz;
 
     .line 247
     if-eqz v0, :cond_0
@@ -95,7 +95,7 @@
     invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 249
-    invoke-interface {v0}, Lcom/tencent/mm/model/v;->onResume()V
+    invoke-interface {v0}, Lcom/tencent/mm/model/Vclz;->onResume()V
 
     goto :goto_0
 

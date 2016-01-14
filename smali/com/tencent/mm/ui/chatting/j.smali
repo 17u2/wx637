@@ -61,7 +61,7 @@
 
     .prologue
     .line 46
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -286,7 +286,7 @@
 
     .line 236
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -469,18 +469,18 @@
     move-result-object v1
 
     .line 77
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_b
 
     .line 78
-    iget-object v1, v0, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v1, v0, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v1, v1, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/model/ap;->fb(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/model/APclz;->fb(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -622,7 +622,7 @@
 
     if-nez v0, :cond_8
 
-    iget-object v0, v3, Lcom/tencent/mm/ui/chatting/dt;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v0, v3, Lcom/tencent/mm/ui/chatting/dt;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     if-nez v0, :cond_a
 

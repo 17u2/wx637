@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic fuX:Lcom/tencent/mm/storage/ad;
+.field final synthetic fuX:Lcom/tencent/mm/storage/ADclz;
 
 .field final synthetic kcJ:Lcom/tencent/mm/ui/chatting/ap;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/ap;Lcom/tencent/mm/storage/ad;)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/ap;Lcom/tencent/mm/storage/ADclz;)V
     .locals 1
 
     .prologue
     .line 1881
     iput-object p1, p0, Lcom/tencent/mm/ui/chatting/ap$1;->kcJ:Lcom/tencent/mm/ui/chatting/ap;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/ap$1;->fuX:Lcom/tencent/mm/storage/ad;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/ap$1;->fuX:Lcom/tencent/mm/storage/ADclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,9 +52,9 @@
 
     .prologue
     .line 1899
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ap$1;->fuX:Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ap$1;->fuX:Lcom/tencent/mm/storage/ADclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/do;->y(Lcom/tencent/mm/storage/ad;)V
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/do;->y(Lcom/tencent/mm/storage/ADclz;)V
 
     .line 1900
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ap$1;->kcJ:Lcom/tencent/mm/ui/chatting/ap;

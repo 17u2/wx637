@@ -238,7 +238,7 @@
     .line 130
     const-string/jumbo v1, "username"
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v2
 
@@ -421,9 +421,9 @@
     if-ne v0, v5, :cond_4
 
     .line 42
-    new-instance v0, Lcom/tencent/mm/network/a/a$a;
+    new-instance v0, Lcom/tencent/mm/network/a/Aclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/network/a/a$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/network/a/Aclz$a;-><init>()V
 
     .line 43
     const-string/jumbo v1, "rtType"
@@ -434,7 +434,7 @@
 
     int-to-long v1, v1
 
-    iput-wide v1, v0, Lcom/tencent/mm/network/a/a$a;->rtType:J
+    iput-wide v1, v0, Lcom/tencent/mm/network/a/Aclz$a;->rtType:J
 
     .line 44
     const-string/jumbo v1, "beginTime"
@@ -443,7 +443,7 @@
 
     move-result-wide v1
 
-    iput-wide v1, v0, Lcom/tencent/mm/network/a/a$a;->beginTime:J
+    iput-wide v1, v0, Lcom/tencent/mm/network/a/Aclz$a;->beginTime:J
 
     .line 45
     const-string/jumbo v1, "endTime"
@@ -452,7 +452,7 @@
 
     move-result-wide v1
 
-    iput-wide v1, v0, Lcom/tencent/mm/network/a/a$a;->endTime:J
+    iput-wide v1, v0, Lcom/tencent/mm/network/a/Aclz$a;->endTime:J
 
     .line 46
     const-string/jumbo v1, "isSend"
@@ -471,7 +471,7 @@
 
     move-result-wide v2
 
-    iput-wide v2, v0, Lcom/tencent/mm/network/a/a$a;->cbH:J
+    iput-wide v2, v0, Lcom/tencent/mm/network/a/Aclz$a;->cbH:J
 
     .line 53
     :goto_1
@@ -481,7 +481,7 @@
 
     move-result-wide v2
 
-    iput-wide v2, v0, Lcom/tencent/mm/network/a/a$a;->bUK:J
+    iput-wide v2, v0, Lcom/tencent/mm/network/a/Aclz$a;->bUK:J
 
     .line 54
     const-string/jumbo v2, "doSceneCount"
@@ -490,7 +490,7 @@
 
     move-result-wide v2
 
-    iput-wide v2, v0, Lcom/tencent/mm/network/a/a$a;->cbI:J
+    iput-wide v2, v0, Lcom/tencent/mm/network/a/Aclz$a;->cbI:J
 
     .line 56
     const-string/jumbo v2, "!44@/B4Tb64lLpKEPjPLln9Idp+6rq1MKr03FVcWSWrfMmw="
@@ -501,7 +501,7 @@
 
     invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-wide v4, v0, Lcom/tencent/mm/network/a/a$a;->rtType:J
+    iget-wide v4, v0, Lcom/tencent/mm/network/a/Aclz$a;->rtType:J
 
     invoke-virtual {v3, v4, v5}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -523,7 +523,7 @@
 
     move-result-object v1
 
-    iget-wide v3, v0, Lcom/tencent/mm/network/a/a$a;->cbG:J
+    iget-wide v3, v0, Lcom/tencent/mm/network/a/Aclz$a;->cbG:J
 
     invoke-virtual {v1, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -535,7 +535,7 @@
 
     move-result-object v1
 
-    iget-wide v3, v0, Lcom/tencent/mm/network/a/a$a;->cbH:J
+    iget-wide v3, v0, Lcom/tencent/mm/network/a/Aclz$a;->cbH:J
 
     invoke-virtual {v1, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -547,7 +547,7 @@
 
     move-result-object v1
 
-    iget-wide v3, v0, Lcom/tencent/mm/network/a/a$a;->beginTime:J
+    iget-wide v3, v0, Lcom/tencent/mm/network/a/Aclz$a;->beginTime:J
 
     invoke-virtual {v1, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -559,7 +559,7 @@
 
     move-result-object v1
 
-    iget-wide v3, v0, Lcom/tencent/mm/network/a/a$a;->endTime:J
+    iget-wide v3, v0, Lcom/tencent/mm/network/a/Aclz$a;->endTime:J
 
     invoke-virtual {v1, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -572,33 +572,33 @@
     invoke-static {v2, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 58
-    iget-wide v1, v0, Lcom/tencent/mm/network/a/a$a;->cbI:J
+    iget-wide v1, v0, Lcom/tencent/mm/network/a/Aclz$a;->cbI:J
 
     cmp-long v1, v1, v6
 
     if-eqz v1, :cond_2
 
-    iget-wide v1, v0, Lcom/tencent/mm/network/a/a$a;->rtType:J
+    iget-wide v1, v0, Lcom/tencent/mm/network/a/Aclz$a;->rtType:J
 
     cmp-long v1, v1, v6
 
     if-eqz v1, :cond_2
 
-    iget-wide v1, v0, Lcom/tencent/mm/network/a/a$a;->beginTime:J
+    iget-wide v1, v0, Lcom/tencent/mm/network/a/Aclz$a;->beginTime:J
 
     cmp-long v1, v1, v6
 
     if-eqz v1, :cond_2
 
-    iget-wide v1, v0, Lcom/tencent/mm/network/a/a$a;->endTime:J
+    iget-wide v1, v0, Lcom/tencent/mm/network/a/Aclz$a;->endTime:J
 
     cmp-long v1, v1, v6
 
     if-eqz v1, :cond_2
 
-    iget-wide v1, v0, Lcom/tencent/mm/network/a/a$a;->endTime:J
+    iget-wide v1, v0, Lcom/tencent/mm/network/a/Aclz$a;->endTime:J
 
-    iget-wide v3, v0, Lcom/tencent/mm/network/a/a$a;->beginTime:J
+    iget-wide v3, v0, Lcom/tencent/mm/network/a/Aclz$a;->beginTime:J
 
     sub-long/2addr v1, v3
 
@@ -616,7 +616,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-wide v3, v0, Lcom/tencent/mm/network/a/a$a;->cbI:J
+    iget-wide v3, v0, Lcom/tencent/mm/network/a/Aclz$a;->cbI:J
 
     invoke-virtual {v2, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -628,7 +628,7 @@
 
     move-result-object v2
 
-    iget-wide v3, v0, Lcom/tencent/mm/network/a/a$a;->rtType:J
+    iget-wide v3, v0, Lcom/tencent/mm/network/a/Aclz$a;->rtType:J
 
     invoke-virtual {v2, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -640,7 +640,7 @@
 
     move-result-object v2
 
-    iget-wide v3, v0, Lcom/tencent/mm/network/a/a$a;->beginTime:J
+    iget-wide v3, v0, Lcom/tencent/mm/network/a/Aclz$a;->beginTime:J
 
     invoke-virtual {v2, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -652,7 +652,7 @@
 
     move-result-object v2
 
-    iget-wide v3, v0, Lcom/tencent/mm/network/a/a$a;->endTime:J
+    iget-wide v3, v0, Lcom/tencent/mm/network/a/Aclz$a;->endTime:J
 
     invoke-virtual {v2, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -674,7 +674,7 @@
 
     move-result-wide v2
 
-    iput-wide v2, v0, Lcom/tencent/mm/network/a/a$a;->cbG:J
+    iput-wide v2, v0, Lcom/tencent/mm/network/a/Aclz$a;->cbG:J
 
     goto/16 :goto_1
 

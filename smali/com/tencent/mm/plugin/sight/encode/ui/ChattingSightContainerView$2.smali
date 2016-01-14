@@ -76,7 +76,7 @@
 
     iput-object v3, v4, Lcom/tencent/mm/ak/g$d;->bWW:Lcom/tencent/mm/ak/g$a;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v0
 

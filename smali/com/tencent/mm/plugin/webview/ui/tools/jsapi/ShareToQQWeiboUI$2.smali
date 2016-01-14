@@ -98,7 +98,7 @@
     invoke-direct {v3, v0, v1, v2}, Lcom/tencent/mm/modelsimple/aa;-><init>(ILjava/lang/String;Ljava/lang/String;)V
 
     .line 94
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

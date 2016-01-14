@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static a(Lcom/tencent/mm/storage/y;)J
+.method public static a(Lcom/tencent/mm/storage/Yclz;)J
     .locals 5
 
     .prologue
@@ -20,7 +20,7 @@
 
     .line 32
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->rm()Lcom/tencent/mm/storage/z;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->rm()Lcom/tencent/mm/storage/Zclz;
 
     move-result-object v2
 
@@ -28,7 +28,7 @@
     if-eqz v2, :cond_0
 
     .line 37
-    invoke-virtual {v2, p0}, Lcom/tencent/mm/storage/z;->a(Lcom/tencent/mm/sdk/g/c;)Z
+    invoke-virtual {v2, p0}, Lcom/tencent/mm/storage/Zclz;->a(Lcom/tencent/mm/sdk/g/c;)Z
 
     move-result v0
 
@@ -41,7 +41,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-wide v3, p0, Lcom/tencent/mm/storage/y;->field_downloadId:J
+    iget-wide v3, p0, Lcom/tencent/mm/storage/Yclz;->field_downloadId:J
 
     invoke-virtual {v2, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -64,12 +64,12 @@
     invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 39
-    iget-wide v0, p0, Lcom/tencent/mm/storage/y;->field_downloadId:J
+    iget-wide v0, p0, Lcom/tencent/mm/storage/Yclz;->field_downloadId:J
 
     goto :goto_0
 .end method
 
-.method public static b(Lcom/tencent/mm/storage/y;)J
+.method public static b(Lcom/tencent/mm/storage/Yclz;)J
     .locals 7
 
     .prologue
@@ -87,7 +87,7 @@
 
     .line 46
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->rm()Lcom/tencent/mm/storage/z;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->rm()Lcom/tencent/mm/storage/Zclz;
 
     move-result-object v2
 
@@ -97,7 +97,7 @@
     .line 51
     new-array v0, v6, [Ljava/lang/String;
 
-    invoke-virtual {v2, p0, v0}, Lcom/tencent/mm/storage/z;->a(Lcom/tencent/mm/sdk/g/c;[Ljava/lang/String;)Z
+    invoke-virtual {v2, p0, v0}, Lcom/tencent/mm/storage/Zclz;->a(Lcom/tencent/mm/sdk/g/c;[Ljava/lang/String;)Z
 
     move-result v0
 
@@ -110,7 +110,7 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    iget-wide v4, p0, Lcom/tencent/mm/storage/y;->field_downloadId:J
+    iget-wide v4, p0, Lcom/tencent/mm/storage/Yclz;->field_downloadId:J
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -128,7 +128,7 @@
 
     const/4 v0, 0x2
 
-    iget v4, p0, Lcom/tencent/mm/storage/y;->field_status:I
+    iget v4, p0, Lcom/tencent/mm/storage/Yclz;->field_status:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -139,17 +139,17 @@
     invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 55
-    iget-wide v0, p0, Lcom/tencent/mm/storage/y;->field_downloadId:J
+    iget-wide v0, p0, Lcom/tencent/mm/storage/Yclz;->field_downloadId:J
 
     goto :goto_0
 .end method
 
-.method public static cN(J)Lcom/tencent/mm/storage/y;
+.method public static cN(J)Lcom/tencent/mm/storage/Yclz;
     .locals 1
 
     .prologue
     .line 13
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->rm()Lcom/tencent/mm/storage/z;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->rm()Lcom/tencent/mm/storage/Zclz;
 
     move-result-object v0
 
@@ -164,7 +164,7 @@
     return-object v0
 
     :cond_0
-    invoke-virtual {v0, p0, p1}, Lcom/tencent/mm/storage/z;->dl(J)Lcom/tencent/mm/storage/y;
+    invoke-virtual {v0, p0, p1}, Lcom/tencent/mm/storage/Zclz;->dl(J)Lcom/tencent/mm/storage/Yclz;
 
     move-result-object v0
 
@@ -176,7 +176,7 @@
 
     .prologue
     .line 77
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->rm()Lcom/tencent/mm/storage/z;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->rm()Lcom/tencent/mm/storage/Zclz;
 
     move-result-object v0
 
@@ -227,7 +227,7 @@
 
     const-string/jumbo v2, "FileDownloadInfo"
 
-    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/storage/z;->bX(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/storage/Zclz;->bX(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -239,7 +239,7 @@
 
     .prologue
     .line 68
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->rm()Lcom/tencent/mm/storage/z;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->rm()Lcom/tencent/mm/storage/Zclz;
 
     move-result-object v0
 
@@ -280,27 +280,27 @@
 
     const-string/jumbo v2, "FileDownloadInfo"
 
-    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/storage/z;->bX(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/storage/Zclz;->bX(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
 
     goto :goto_0
 .end method
 
-.method public static rm()Lcom/tencent/mm/storage/z;
+.method public static rm()Lcom/tencent/mm/storage/Zclz;
     .locals 3
 
     .prologue
     const/4 v0, 0x0
 
     .line 136
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tw()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tw()Z
 
     move-result v1
 
@@ -321,7 +321,7 @@
 
     .line 140
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
@@ -329,7 +329,7 @@
     if-eqz v1, :cond_1
 
     .line 144
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rm()Lcom/tencent/mm/storage/z;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rm()Lcom/tencent/mm/storage/Zclz;
 
     move-result-object v0
 
@@ -343,7 +343,7 @@
     const/4 v0, 0x0
 
     .line 86
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->rm()Lcom/tencent/mm/storage/z;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->rm()Lcom/tencent/mm/storage/Zclz;
 
     move-result-object v1
 
@@ -392,7 +392,7 @@
 
     const-string/jumbo v2, "FileDownloadInfo"
 
-    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/storage/z;->bX(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/storage/Zclz;->bX(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -406,7 +406,7 @@
     const/4 v0, 0x0
 
     .line 94
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->rm()Lcom/tencent/mm/storage/z;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->rm()Lcom/tencent/mm/storage/Zclz;
 
     move-result-object v1
 
@@ -455,21 +455,21 @@
 
     const-string/jumbo v2, "FileDownloadInfo"
 
-    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/storage/z;->bX(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/storage/Zclz;->bX(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
 
     goto :goto_0
 .end method
 
-.method public static xS(Ljava/lang/String;)Lcom/tencent/mm/storage/y;
+.method public static xS(Ljava/lang/String;)Lcom/tencent/mm/storage/Yclz;
     .locals 4
 
     .prologue
     const/4 v0, 0x0
 
     .line 102
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->rm()Lcom/tencent/mm/storage/z;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->rm()Lcom/tencent/mm/storage/Zclz;
 
     move-result-object v1
 
@@ -519,7 +519,7 @@
 
     new-array v3, v3, [Ljava/lang/String;
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/storage/z;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/storage/Zclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v1
 
@@ -531,11 +531,11 @@
 
     if-eqz v2, :cond_3
 
-    new-instance v0, Lcom/tencent/mm/storage/y;
+    new-instance v0, Lcom/tencent/mm/storage/Yclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/storage/y;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/storage/Yclz;-><init>()V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/y;->c(Landroid/database/Cursor;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Yclz;->c(Landroid/database/Cursor;)V
 
     :cond_3
     if-eqz v1, :cond_0

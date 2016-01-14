@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Ljava/util/List;Lcom/tencent/mm/storage/k;)Z
+.method public static a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Ljava/util/List;Lcom/tencent/mm/storage/Kclz;)Z
     .locals 3
 
     .prologue
@@ -66,14 +66,14 @@
 
     .line 62
     :cond_4
-    invoke-static {p0, p1, p2}, Lcom/tencent/mm/ui/chatting/v;->b(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Ljava/util/List;Lcom/tencent/mm/storage/k;)Z
+    invoke-static {p0, p1, p2}, Lcom/tencent/mm/ui/chatting/v;->b(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Ljava/util/List;Lcom/tencent/mm/storage/Kclz;)Z
 
     move-result v0
 
     goto :goto_0
 .end method
 
-.method private static b(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Ljava/util/List;Lcom/tencent/mm/storage/k;)Z
+.method private static b(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Ljava/util/List;Lcom/tencent/mm/storage/Kclz;)Z
     .locals 10
 
     .prologue
@@ -105,23 +105,23 @@
 
     new-array v1, v8, [Ljava/lang/Object;
 
-    invoke-virtual {p2}, Lcom/tencent/mm/storage/k;->qx()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/tencent/mm/storage/Kclz;->qx()Ljava/lang/String;
 
     move-result-object v2
 
     aput-object v2, v1, v5
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v2}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v2
 
     const/4 v3, 0x4
 
-    invoke-virtual {v2, v3, v9}, Lcom/tencent/mm/storage/h;->get(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, v3, v9}, Lcom/tencent/mm/storage/Hclz;->get(ILjava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -162,7 +162,7 @@
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/plugin/report/service/h;->g(I[Ljava/lang/Object;)V
 
     .line 91
-    invoke-static {}, Lcom/tencent/mm/model/h;->sb()I
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sb()I
 
     move-result v0
 
@@ -204,10 +204,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/ad;
+    check-cast v0, Lcom/tencent/mm/storage/ADclz;
 
     .line 97
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/ad;->aQK()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/ADclz;->aQK()Z
 
     move-result v7
 
@@ -273,7 +273,7 @@
     .line 75
     iget-object v0, p2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/f;->dD(Ljava/lang/String;)Ljava/util/List;
+    invoke-static {v0}, Lcom/tencent/mm/model/Fclz;->dD(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v1
 
@@ -301,7 +301,7 @@
     check-cast v0, Ljava/lang/String;
 
     .line 78
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->dR(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->dR(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -367,7 +367,7 @@
 
     .line 83
     :cond_4
-    invoke-virtual {p2}, Lcom/tencent/mm/storage/k;->qx()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/tencent/mm/storage/Kclz;->qx()Ljava/lang/String;
 
     move-result-object v0
 
@@ -375,7 +375,7 @@
 
     .line 100
     :cond_5
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/ad;->aQy()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/ADclz;->aQy()Z
 
     move-result v7
 
@@ -450,7 +450,7 @@
 
     iget-object v6, v6, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-direct {v0, v6, p1, p2}, Lcom/tencent/mm/ui/chatting/QQMailHistoryExporter;-><init>(Landroid/content/Context;Ljava/util/List;Lcom/tencent/mm/storage/k;)V
+    invoke-direct {v0, v6, p1, p2}, Lcom/tencent/mm/ui/chatting/QQMailHistoryExporter;-><init>(Landroid/content/Context;Ljava/util/List;Lcom/tencent/mm/storage/Kclz;)V
 
     .line 130
     invoke-virtual {v0}, Lcom/tencent/mm/ui/chatting/QQMailHistoryExporter;->aZs()Ljava/lang/String;
@@ -530,7 +530,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-direct {v1, v0, p1, p2}, Lcom/tencent/mm/ui/chatting/dl;-><init>(Landroid/content/Context;Ljava/util/List;Lcom/tencent/mm/storage/k;)V
+    invoke-direct {v1, v0, p1, p2}, Lcom/tencent/mm/ui/chatting/dl;-><init>(Landroid/content/Context;Ljava/util/List;Lcom/tencent/mm/storage/Kclz;)V
 
     .line 144
     invoke-virtual {v1}, Lcom/tencent/mm/ui/chatting/dl;->aZs()Ljava/lang/String;

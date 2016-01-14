@@ -57,7 +57,7 @@
     if-ne v0, v3, :cond_5
 
     .line 194
-    const-class v0, Lcom/tencent/mm/storage/aa;
+    const-class v0, Lcom/tencent/mm/storage/AAclz;
 
     invoke-virtual {p1, v0}, Lcom/tencent/mm/pluginsdk/ui/applet/g;->c(Ljava/lang/Class;)Ljava/lang/Object;
 
@@ -90,7 +90,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/model/n;->C(Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/aa;
+    invoke-static {v0, v2}, Lcom/tencent/mm/model/Nclz;->C(Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/AAclz;
 
     move-result-object v4
 
@@ -110,7 +110,7 @@
     :goto_0
     if-eqz v4, :cond_0
 
-    iget-boolean v0, v4, Lcom/tencent/mm/storage/aa;->czy:Z
+    iget-boolean v0, v4, Lcom/tencent/mm/storage/AAclz;->czy:Z
 
     if-nez v0, :cond_3
 

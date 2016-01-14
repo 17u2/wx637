@@ -220,17 +220,17 @@
     invoke-virtual {v0, v1}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->setOnDeleteAllAction(Ljava/lang/Runnable;)V
 
     .line 125
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsGalleryUI;->ajd:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 
@@ -252,13 +252,13 @@
     if-eqz v0, :cond_1
 
     .line 128
-    sget-object v0, Lcom/tencent/mm/storage/i$a;->jkY:Lcom/tencent/mm/storage/i$a;
+    sget-object v0, Lcom/tencent/mm/storage/Iclz$a;->jkY:Lcom/tencent/mm/storage/Iclz$a;
 
     .line 137
     :goto_2
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsGalleryUI;->gvZ:Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->setFromScene(Lcom/tencent/mm/storage/i$a;)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->setFromScene(Lcom/tencent/mm/storage/Iclz$a;)V
 
     .line 138
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsGalleryUI;->gvZ:Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;
@@ -298,7 +298,7 @@
 
     .line 130
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v0
 
@@ -312,13 +312,13 @@
     if-eqz v0, :cond_2
 
     .line 132
-    sget-object v0, Lcom/tencent/mm/storage/i$a;->jkY:Lcom/tencent/mm/storage/i$a;
+    sget-object v0, Lcom/tencent/mm/storage/Iclz$a;->jkY:Lcom/tencent/mm/storage/Iclz$a;
 
     goto :goto_2
 
     .line 134
     :cond_2
-    sget-object v0, Lcom/tencent/mm/storage/i$a;->jkZ:Lcom/tencent/mm/storage/i$a;
+    sget-object v0, Lcom/tencent/mm/storage/Iclz$a;->jkZ:Lcom/tencent/mm/storage/Iclz$a;
 
     goto :goto_2
 

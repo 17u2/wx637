@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/network/i;II)V
+    value = Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/network/Iclz;II)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
 # instance fields
 .field final synthetic bza:Lcom/tencent/mm/q/qclass;
 
-.field final synthetic bzb:Lcom/tencent/mm/network/i;
+.field final synthetic bzb:Lcom/tencent/mm/network/Iclz;
 
 .field final synthetic bzc:I
 
@@ -28,14 +28,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/q/qclass;Lcom/tencent/mm/network/i;II)V
+.method constructor <init>(Lcom/tencent/mm/q/qclass;Lcom/tencent/mm/network/Iclz;II)V
     .locals 1
 
     .prologue
     .line 110
     iput-object p1, p0, Lcom/tencent/mm/q/qclass$2;->bza:Lcom/tencent/mm/q/qclass;
 
-    iput-object p2, p0, Lcom/tencent/mm/q/qclass$2;->bzb:Lcom/tencent/mm/network/i;
+    iput-object p2, p0, Lcom/tencent/mm/q/qclass$2;->bzb:Lcom/tencent/mm/network/Iclz;
 
     iput p3, p0, Lcom/tencent/mm/q/qclass$2;->bzc:I
 
@@ -70,7 +70,7 @@
     const/4 v2, 0x0
 
     .line 114
-    invoke-static {}, Lcom/tencent/mm/model/ai;->tG()Landroid/content/SharedPreferences;
+    invoke-static {}, Lcom/tencent/mm/model/AIclz;->tG()Landroid/content/SharedPreferences;
 
     move-result-object v1
 
@@ -123,11 +123,11 @@
     :goto_0
     iget-object v4, p0, Lcom/tencent/mm/q/qclass$2;->bza:Lcom/tencent/mm/q/qclass;
 
-    invoke-static {v4}, Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/q/qclass;)Lcom/tencent/mm/network/o;
+    invoke-static {v4}, Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/q/qclass;)Lcom/tencent/mm/network/Oclz;
 
     move-result-object v4
 
-    invoke-interface {v4}, Lcom/tencent/mm/network/o;->getType()I
+    invoke-interface {v4}, Lcom/tencent/mm/network/Oclz;->getType()I
 
     move-result v4
 
@@ -137,11 +137,11 @@
 
     iget-object v4, p0, Lcom/tencent/mm/q/qclass$2;->bza:Lcom/tencent/mm/q/qclass;
 
-    invoke-static {v4}, Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/q/qclass;)Lcom/tencent/mm/network/o;
+    invoke-static {v4}, Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/q/qclass;)Lcom/tencent/mm/network/Oclz;
 
     move-result-object v4
 
-    invoke-interface {v4}, Lcom/tencent/mm/network/o;->getType()I
+    invoke-interface {v4}, Lcom/tencent/mm/network/Oclz;->getType()I
 
     move-result v4
 
@@ -150,11 +150,11 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/q/qclass$2;->bza:Lcom/tencent/mm/q/qclass;
 
-    invoke-static {v0}, Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/q/qclass;)Lcom/tencent/mm/network/o;
+    invoke-static {v0}, Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/q/qclass;)Lcom/tencent/mm/network/Oclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
+    invoke-interface {v0}, Lcom/tencent/mm/network/Oclz;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v0
 
@@ -176,11 +176,11 @@
 
     iget-object v7, p0, Lcom/tencent/mm/q/qclass$2;->bza:Lcom/tencent/mm/q/qclass;
 
-    invoke-static {v7}, Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/q/qclass;)Lcom/tencent/mm/network/o;
+    invoke-static {v7}, Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/q/qclass;)Lcom/tencent/mm/network/Oclz;
 
     move-result-object v7
 
-    invoke-interface {v7}, Lcom/tencent/mm/network/o;->getType()I
+    invoke-interface {v7}, Lcom/tencent/mm/network/Oclz;->getType()I
 
     move-result v7
 
@@ -207,7 +207,7 @@
     .line 128
     sget-object v4, Lcom/tencent/mm/protocal/Gclz$c$a;->ihE:Lcom/tencent/mm/protocal/Gclz$c;
 
-    invoke-interface {v4, v1, v0}, Lcom/tencent/mm/protocal/Gclz$c;->J(II)Lcom/tencent/mm/network/o;
+    invoke-interface {v4, v1, v0}, Lcom/tencent/mm/protocal/Gclz$c;->J(II)Lcom/tencent/mm/network/Oclz;
 
     move-result-object v1
 
@@ -219,7 +219,7 @@
     .line 132
     :goto_2
     :try_start_0
-    iget-object v1, p0, Lcom/tencent/mm/q/qclass$2;->bzb:Lcom/tencent/mm/network/i;
+    iget-object v1, p0, Lcom/tencent/mm/q/qclass$2;->bzb:Lcom/tencent/mm/network/Iclz;
 
     iget v4, p0, Lcom/tencent/mm/q/qclass$2;->bzc:I
 
@@ -227,7 +227,7 @@
 
     const-string/jumbo v6, ""
 
-    invoke-interface {v1, v0, v4, v5, v6}, Lcom/tencent/mm/network/i;->a(Lcom/tencent/mm/network/p;IILjava/lang/String;)V
+    invoke-interface {v1, v0, v4, v5, v6}, Lcom/tencent/mm/network/Iclz;->a(Lcom/tencent/mm/network/Pclz;IILjava/lang/String;)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -249,7 +249,7 @@
 
     iget-object v4, v4, Lcom/tencent/mm/q/qclass;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
 
-    invoke-direct {v0, v1, v4}, Lcom/tencent/mm/q/qclass;-><init>(Lcom/tencent/mm/network/o;Lcom/tencent/mm/sdk/platformtools/ab;)V
+    invoke-direct {v0, v1, v4}, Lcom/tencent/mm/q/qclass;-><init>(Lcom/tencent/mm/network/Oclz;Lcom/tencent/mm/sdk/platformtools/ab;)V
 
     goto :goto_2
 

@@ -40,7 +40,7 @@
     return-void
 .end method
 
-.method public static a(Lcom/tencent/mm/ui/chatting/dg;Lcom/tencent/mm/storage/ad;ZILcom/tencent/mm/ui/chatting/ChattingUI$a;)V
+.method public static a(Lcom/tencent/mm/ui/chatting/dg;Lcom/tencent/mm/storage/ADclz;ZILcom/tencent/mm/ui/chatting/ChattingUI$a;)V
     .locals 11
 
     .prologue
@@ -112,7 +112,7 @@
     .line 231
     iget-object v1, v0, Lcom/tencent/mm/d/a/eq;->ayE:Lcom/tencent/mm/d/a/eq$a;
 
-    iput-object p1, v1, Lcom/tencent/mm/d/a/eq$a;->arO:Lcom/tencent/mm/storage/ad;
+    iput-object p1, v1, Lcom/tencent/mm/d/a/eq$a;->arO:Lcom/tencent/mm/storage/ADclz;
 
     .line 232
     iget-object v1, v0, Lcom/tencent/mm/d/a/eq;->ayE:Lcom/tencent/mm/d/a/eq$a;
@@ -245,7 +245,7 @@
     .line 255
     iget-object v1, v0, Lcom/tencent/mm/d/a/fd;->azk:Lcom/tencent/mm/d/a/fd$a;
 
-    iput-object p1, v1, Lcom/tencent/mm/d/a/fd$a;->arO:Lcom/tencent/mm/storage/ad;
+    iput-object p1, v1, Lcom/tencent/mm/d/a/fd$a;->arO:Lcom/tencent/mm/storage/ADclz;
 
     .line 256
     sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
@@ -341,7 +341,7 @@
 
     move v6, v5
 
-    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ad;ZILjava/lang/String;IB)V
+    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ADclz;ZILjava/lang/String;IB)V
 
     invoke-virtual {v7, v0}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 

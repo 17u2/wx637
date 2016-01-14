@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/z$c$a;
+.implements Lcom/tencent/mm/model/Zclz$c$a;
 
 
 # annotations
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic bWs:Lcom/tencent/mm/storage/ad$e;
+.field final synthetic bWs:Lcom/tencent/mm/storage/ADclz$e;
 
 .field final synthetic bWt:Lcom/tencent/mm/aj/n;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/aj/n;Lcom/tencent/mm/storage/ad$e;)V
+.method constructor <init>(Lcom/tencent/mm/aj/n;Lcom/tencent/mm/storage/ADclz$e;)V
     .locals 1
 
     .prologue
     .line 64
     iput-object p1, p0, Lcom/tencent/mm/aj/n$1;->bWt:Lcom/tencent/mm/aj/n;
 
-    iput-object p2, p0, Lcom/tencent/mm/aj/n$1;->bWs:Lcom/tencent/mm/storage/ad$e;
+    iput-object p2, p0, Lcom/tencent/mm/aj/n$1;->bWs:Lcom/tencent/mm/storage/ADclz$e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,19 +52,19 @@
 
     .prologue
     .line 66
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/aj/n$1;->bWs:Lcom/tencent/mm/storage/ad$e;
+    iget-object v1, p0, Lcom/tencent/mm/aj/n$1;->bWs:Lcom/tencent/mm/storage/ADclz$e;
 
-    iget-object v1, v1, Lcom/tencent/mm/storage/ad$e;->joT:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/storage/ADclz$e;->joT:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 
@@ -85,9 +85,9 @@
     .line 69
     iget-object v1, v0, Lcom/tencent/mm/d/a/fb;->aze:Lcom/tencent/mm/d/a/fb$a;
 
-    iget-object v2, p0, Lcom/tencent/mm/aj/n$1;->bWs:Lcom/tencent/mm/storage/ad$e;
+    iget-object v2, p0, Lcom/tencent/mm/aj/n$1;->bWs:Lcom/tencent/mm/storage/ADclz$e;
 
-    iget-object v2, v2, Lcom/tencent/mm/storage/ad$e;->joT:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/storage/ADclz$e;->joT:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/tencent/mm/d/a/fb$a;->azf:Ljava/lang/String;
 

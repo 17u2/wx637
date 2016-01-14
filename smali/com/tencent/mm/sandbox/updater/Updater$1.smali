@@ -52,13 +52,13 @@
 
     .prologue
     .line 124
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lc()Lcom/tencent/mm/model/y;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lc()Lcom/tencent/mm/model/Yclz;
 
     move-result-object v0
 
     const/16 v1, 0x63
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/model/y;->cancel(I)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/model/Yclz;->cancel(I)V
 
     .line 126
     const/4 v0, 0x2

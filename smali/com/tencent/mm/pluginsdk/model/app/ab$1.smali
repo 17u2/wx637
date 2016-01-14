@@ -116,30 +116,30 @@
     .line 146
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/model/app/ab$1;->hMh:Lcom/tencent/mm/pluginsdk/model/app/ab;
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/app/ab;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/app/ab;->aCM:Lcom/tencent/mm/storage/ADclz;
 
-    invoke-virtual {v1, v8}, Lcom/tencent/mm/storage/ad;->bk(I)V
+    invoke-virtual {v1, v8}, Lcom/tencent/mm/storage/ADclz;->bk(I)V
 
     .line 147
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rk()Lcom/tencent/mm/storage/ae;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rk()Lcom/tencent/mm/storage/AEclz;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/model/app/ab$1;->hMh:Lcom/tencent/mm/pluginsdk/model/app/ab;
 
-    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/ab;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/ab;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v4, v2, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/model/app/ab$1;->hMh:Lcom/tencent/mm/pluginsdk/model/app/ab;
 
-    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/ab;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/ab;->aCM:Lcom/tencent/mm/storage/ADclz;
 
-    invoke-virtual {v1, v4, v5, v2}, Lcom/tencent/mm/storage/ae;->a(JLcom/tencent/mm/storage/ad;)V
+    invoke-virtual {v1, v4, v5, v2}, Lcom/tencent/mm/storage/AEclz;->a(JLcom/tencent/mm/storage/ADclz;)V
 
     .line 148
     sget-object v1, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;
@@ -318,30 +318,30 @@
     .line 160
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/model/app/ab$1;->hMh:Lcom/tencent/mm/pluginsdk/model/app/ab;
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/app/ab;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/app/ab;->aCM:Lcom/tencent/mm/storage/ADclz;
 
-    invoke-virtual {v1, v8}, Lcom/tencent/mm/storage/ad;->bk(I)V
+    invoke-virtual {v1, v8}, Lcom/tencent/mm/storage/ADclz;->bk(I)V
 
     .line 161
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rk()Lcom/tencent/mm/storage/ae;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rk()Lcom/tencent/mm/storage/AEclz;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/model/app/ab$1;->hMh:Lcom/tencent/mm/pluginsdk/model/app/ab;
 
-    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/ab;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/ab;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v4, v2, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/model/app/ab$1;->hMh:Lcom/tencent/mm/pluginsdk/model/app/ab;
 
-    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/ab;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/ab;->aCM:Lcom/tencent/mm/storage/ADclz;
 
-    invoke-virtual {v1, v4, v5, v2}, Lcom/tencent/mm/storage/ae;->a(JLcom/tencent/mm/storage/ad;)V
+    invoke-virtual {v1, v4, v5, v2}, Lcom/tencent/mm/storage/AEclz;->a(JLcom/tencent/mm/storage/ADclz;)V
 
     .line 162
     sget-object v1, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;
@@ -561,7 +561,7 @@
 
     .line 177
     :cond_4
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v7
 

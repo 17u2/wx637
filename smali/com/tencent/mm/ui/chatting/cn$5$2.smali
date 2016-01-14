@@ -97,7 +97,7 @@
 
     iget-object v3, v3, Lcom/tencent/mm/ui/chatting/cn$5;->kfF:Lcom/tencent/mm/ui/chatting/cn;
 
-    invoke-static {v3}, Lcom/tencent/mm/ui/chatting/cn;->g(Lcom/tencent/mm/ui/chatting/cn;)Lcom/tencent/mm/storage/k;
+    invoke-static {v3}, Lcom/tencent/mm/ui/chatting/cn;->g(Lcom/tencent/mm/ui/chatting/cn;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v3
 

@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field aCM:Lcom/tencent/mm/storage/ad;
+.field aCM:Lcom/tencent/mm/storage/ADclz;
 
 .field aDU:Ljava/lang/String;
 
@@ -68,7 +68,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/tencent/mm/storage/ad;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+.method public constructor <init>(Lcom/tencent/mm/storage/ADclz;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
 
     .prologue
@@ -78,7 +78,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 1615
-    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ad;
+    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     .line 1616
     iput-boolean v1, p0, Lcom/tencent/mm/ui/chatting/dd;->jJD:Z
@@ -132,7 +132,7 @@
     return-void
 .end method
 
-.method private constructor <init>(Lcom/tencent/mm/storage/ad;ZILjava/lang/String;I)V
+.method private constructor <init>(Lcom/tencent/mm/storage/ADclz;ZILjava/lang/String;I)V
     .locals 7
 
     .prologue
@@ -151,7 +151,7 @@
 
     move v5, p5
 
-    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ad;ZILjava/lang/String;IZ)V
+    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ADclz;ZILjava/lang/String;IZ)V
 
     .line 1660
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -164,12 +164,12 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/tencent/mm/storage/ad;ZILjava/lang/String;IB)V
+.method public constructor <init>(Lcom/tencent/mm/storage/ADclz;ZILjava/lang/String;IB)V
     .locals 1
 
     .prologue
     .line 1663
-    invoke-direct/range {p0 .. p5}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ad;ZILjava/lang/String;I)V
+    invoke-direct/range {p0 .. p5}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ADclz;ZILjava/lang/String;I)V
 
     .line 1664
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -182,7 +182,7 @@
     return-void
 .end method
 
-.method private constructor <init>(Lcom/tencent/mm/storage/ad;ZILjava/lang/String;IZ)V
+.method private constructor <init>(Lcom/tencent/mm/storage/ADclz;ZILjava/lang/String;IZ)V
     .locals 10
 
     .prologue
@@ -207,7 +207,7 @@
 
     move v5, p5
 
-    invoke-direct/range {v0 .. v9}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ad;ZILjava/lang/String;IZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v9}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ADclz;ZILjava/lang/String;IZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1656
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -220,7 +220,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/tencent/mm/storage/ad;ZILjava/lang/String;IZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+.method public constructor <init>(Lcom/tencent/mm/storage/ADclz;ZILjava/lang/String;IZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 11
 
     .prologue
@@ -247,7 +247,7 @@
 
     move-object/from16 v9, p9
 
-    invoke-direct/range {v0 .. v10}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ad;ZILjava/lang/String;IZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v10}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ADclz;ZILjava/lang/String;IZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1652
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -260,7 +260,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/tencent/mm/storage/ad;ZILjava/lang/String;IZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+.method public constructor <init>(Lcom/tencent/mm/storage/ADclz;ZILjava/lang/String;IZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 13
 
     .prologue
@@ -291,7 +291,7 @@
 
     move-object/from16 v10, p10
 
-    invoke-direct/range {v0 .. v12}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ad;ZILjava/lang/String;IZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v12}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ADclz;ZILjava/lang/String;IZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1648
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -304,7 +304,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/tencent/mm/storage/ad;ZILjava/lang/String;IZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+.method public constructor <init>(Lcom/tencent/mm/storage/ADclz;ZILjava/lang/String;IZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
     .prologue
@@ -312,7 +312,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 1632
-    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ad;
+    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     .line 1633
     iput-boolean p2, p0, Lcom/tencent/mm/ui/chatting/dd;->jJD:Z
@@ -358,7 +358,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/tencent/mm/storage/ad;ZILjava/lang/String;Ljava/lang/String;)V
+.method public constructor <init>(Lcom/tencent/mm/storage/ADclz;ZILjava/lang/String;Ljava/lang/String;)V
     .locals 6
 
     .prologue
@@ -375,7 +375,7 @@
 
     move-object v4, p4
 
-    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ad;ZILjava/lang/String;I)V
+    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ADclz;ZILjava/lang/String;I)V
 
     .line 1668
     iput-object p5, p0, Lcom/tencent/mm/ui/chatting/dd;->azY:Ljava/lang/String;
@@ -439,7 +439,7 @@
     return-object v0
 .end method
 
-.method public static a(Lcom/tencent/mm/m/a$a;Lcom/tencent/mm/storage/ad;)Lcom/tencent/mm/ui/chatting/dd;
+.method public static a(Lcom/tencent/mm/m/a$a;Lcom/tencent/mm/storage/ADclz;)Lcom/tencent/mm/ui/chatting/dd;
     .locals 1
 
     .prologue
@@ -452,13 +452,13 @@
     iput-object p0, v0, Lcom/tencent/mm/ui/chatting/dd;->kkO:Lcom/tencent/mm/m/a$a;
 
     .line 1727
-    iput-object p1, v0, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ad;
+    iput-object p1, v0, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     .line 1729
     return-object v0
 .end method
 
-.method public static a(Lcom/tencent/mm/storage/ad;ZI)Lcom/tencent/mm/ui/chatting/dd;
+.method public static a(Lcom/tencent/mm/storage/ADclz;ZI)Lcom/tencent/mm/ui/chatting/dd;
     .locals 2
 
     .prologue
@@ -470,7 +470,7 @@
     invoke-direct {v0}, Lcom/tencent/mm/ui/chatting/dd;-><init>()V
 
     .line 1734
-    iput-object p0, v0, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ad;
+    iput-object p0, v0, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     .line 1735
     iput-boolean p1, v0, Lcom/tencent/mm/ui/chatting/dd;->jJD:Z

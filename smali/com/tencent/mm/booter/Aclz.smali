@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/q;
+.implements Lcom/tencent/mm/model/Qclz;
 
 
 # instance fields
@@ -94,7 +94,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/model/r;)V
+.method public final a(Lcom/tencent/mm/model/Rclz;)V
     .locals 5
 
     .prologue
@@ -130,7 +130,7 @@
     return-void
 .end method
 
-.method public final b(Lcom/tencent/mm/model/r;)V
+.method public final b(Lcom/tencent/mm/model/Rclz;)V
     .locals 1
 
     .prologue
@@ -179,10 +179,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/model/r;
+    check-cast v0, Lcom/tencent/mm/model/Rclz;
 
     .line 105
-    invoke-interface {v0}, Lcom/tencent/mm/model/r;->sJ()V
+    invoke-interface {v0}, Lcom/tencent/mm/model/Rclz;->sJ()V
 
     goto :goto_0
 .end method
@@ -219,10 +219,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/model/r;
+    check-cast v0, Lcom/tencent/mm/model/Rclz;
 
     .line 115
-    invoke-interface {v0}, Lcom/tencent/mm/model/r;->sK()V
+    invoke-interface {v0}, Lcom/tencent/mm/model/Rclz;->sK()V
 
     goto :goto_0
 .end method

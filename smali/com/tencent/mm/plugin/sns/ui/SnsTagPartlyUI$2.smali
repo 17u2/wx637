@@ -118,7 +118,7 @@
     invoke-direct {v0}, Landroid/content/Intent;-><init>()V
 
     .line 114
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v1
 

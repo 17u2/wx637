@@ -660,22 +660,22 @@
 
     .line 134
     :pswitch_2
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rn()Lcom/tencent/mm/storage/ai;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rn()Lcom/tencent/mm/storage/AIclz;
 
     move-result-object v0
 
     const-string/jumbo v2, "@t.qq.com"
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/ai;->Dr(Ljava/lang/String;)Lcom/tencent/mm/storage/ah;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/AIclz;->Dr(Ljava/lang/String;)Lcom/tencent/mm/storage/AHclz;
 
     move-result-object v0
 
     .line 135
-    invoke-static {}, Lcom/tencent/mm/model/h;->sx()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sx()Z
 
     move-result v2
 
@@ -705,7 +705,7 @@
     :cond_3
     if-eqz v0, :cond_4
 
-    iget-object v0, v0, Lcom/tencent/mm/storage/ah;->name:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/storage/AHclz;->name:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -756,7 +756,7 @@
     invoke-direct {v3, v2, v0}, Lcom/tencent/mm/modelsimple/aa;-><init>(ILjava/lang/String;)V
 
     .line 150
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

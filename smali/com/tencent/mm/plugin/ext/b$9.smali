@@ -190,17 +190,17 @@
     invoke-interface {v3, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 655
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rn()Lcom/tencent/mm/storage/ai;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rn()Lcom/tencent/mm/storage/AIclz;
 
     move-result-object v0
 
     const-string/jumbo v1, "@t.qq.com"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/ai;->Dr(Ljava/lang/String;)Lcom/tencent/mm/storage/ah;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/AIclz;->Dr(Ljava/lang/String;)Lcom/tencent/mm/storage/AHclz;
 
     move-result-object v0
 
@@ -208,7 +208,7 @@
     if-eqz v0, :cond_1
 
     .line 657
-    iget-object v0, v0, Lcom/tencent/mm/storage/ah;->name:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/storage/AHclz;->name:Ljava/lang/String;
 
     invoke-interface {v3, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -219,11 +219,11 @@
     invoke-direct {v11}, Ljava/util/ArrayList;-><init>()V
 
     .line 661
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v0
 
@@ -237,7 +237,7 @@
 
     const/4 v6, 0x1
 
-    invoke-virtual/range {v0 .. v6}, Lcom/tencent/mm/storage/q;->a(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;ZZ)Landroid/database/Cursor;
+    invoke-virtual/range {v0 .. v6}, Lcom/tencent/mm/storage/Qclz;->a(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;ZZ)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -297,21 +297,21 @@
     if-nez v1, :cond_4
 
     .line 669
-    new-instance v1, Lcom/tencent/mm/storage/c;
+    new-instance v1, Lcom/tencent/mm/storage/Cclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/storage/c;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/storage/Cclz;-><init>()V
 
     .line 670
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/c;->c(Landroid/database/Cursor;)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/Cclz;->c(Landroid/database/Cursor;)V
 
     .line 671
     new-instance v2, Lcom/qq/wx/voice/embed/recognizer/d;
 
-    iget-object v3, v1, Lcom/tencent/mm/storage/c;->field_username:Ljava/lang/String;
+    iget-object v3, v1, Lcom/tencent/mm/storage/Cclz;->field_username:Ljava/lang/String;
 
-    iget-object v4, v1, Lcom/tencent/mm/storage/c;->field_nickname:Ljava/lang/String;
+    iget-object v4, v1, Lcom/tencent/mm/storage/Cclz;->field_nickname:Ljava/lang/String;
 
-    iget-object v1, v1, Lcom/tencent/mm/storage/c;->field_conRemark:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/storage/Cclz;->field_conRemark:Ljava/lang/String;
 
     invoke-direct {v2, v3, v4, v1}, Lcom/qq/wx/voice/embed/recognizer/d;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 

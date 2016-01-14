@@ -467,7 +467,7 @@
 
     .line 416
     :cond_1
-    invoke-static {p2}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {p2}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -480,7 +480,7 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    invoke-static {p2}, Lcom/tencent/mm/model/f;->dF(Ljava/lang/String;)I
+    invoke-static {p2}, Lcom/tencent/mm/model/Fclz;->dF(Ljava/lang/String;)I
 
     move-result v3
 
@@ -1562,7 +1562,7 @@
     if-eqz v0, :cond_0
 
     .line 264
-    iget-object v0, v0, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v0, v0, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/Kclz;
 
     .line 265
     if-eqz v0, :cond_0

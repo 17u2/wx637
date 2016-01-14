@@ -211,7 +211,7 @@
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 177
-    iget-object v2, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v2, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget v2, v2, Lcom/tencent/mm/d/b/ba;->field_isSend:I
 
@@ -255,7 +255,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$b;->jZv:Lcom/tencent/mm/ui/chatting/AppAttachFileListUI;
 
-    iget-object v4, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v4, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v4, v4, Lcom/tencent/mm/d/b/ba;->field_createTime:J
 
@@ -299,7 +299,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/m/a$a;->bqj:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->dR(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->dR(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 

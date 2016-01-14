@@ -55,9 +55,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$80;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->n(Lcom/tencent/mm/storage/k;)V
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->n(Lcom/tencent/mm/storage/Kclz;)V
 
     .line 4409
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$80$1;->kjL:Lcom/tencent/mm/ui/chatting/ChattingUI$a$80;

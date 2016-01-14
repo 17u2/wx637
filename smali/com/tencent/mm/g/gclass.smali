@@ -588,7 +588,7 @@
     return-void
 .end method
 
-.method public static b(Lcom/tencent/mm/storage/ad;)I
+.method public static b(Lcom/tencent/mm/storage/ADclz;)I
     .locals 7
 
     .prologue
@@ -597,7 +597,7 @@
     .line 246
     iget-object v0, p0, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->dT(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->dT(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -745,7 +745,7 @@
     goto :goto_1
 .end method
 
-.method public static c(Lcom/tencent/mm/storage/ad;)Z
+.method public static c(Lcom/tencent/mm/storage/ADclz;)Z
     .locals 1
 
     .prologue
@@ -760,11 +760,11 @@
     return v0
 
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/tencent/mm/storage/ad;->CH(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Lcom/tencent/mm/storage/ADclz;->CH(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -979,7 +979,7 @@
 
     if-eq v1, v2, :cond_0
 
-    sget-object v1, Lcom/tencent/mm/storage/ad;->joC:Ljava/lang/String;
+    sget-object v1, Lcom/tencent/mm/storage/ADclz;->joC:Ljava/lang/String;
 
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1032,7 +1032,7 @@
 
     if-eq v1, v2, :cond_0
 
-    sget-object v1, Lcom/tencent/mm/storage/ad;->joB:Ljava/lang/String;
+    sget-object v1, Lcom/tencent/mm/storage/ADclz;->joB:Ljava/lang/String;
 
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1057,7 +1057,7 @@
     .line 338
     const/4 v0, 0x0
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/model/j;->B(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, v0}, Lcom/tencent/mm/model/Jclz;->B(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v0
 
@@ -1069,7 +1069,7 @@
 
     .prologue
     .line 343
-    invoke-static {p0}, Lcom/tencent/mm/storage/k;->BV(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/tencent/mm/storage/Kclz;->BV(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1099,19 +1099,19 @@
 
     .prologue
     .line 379
-    invoke-static {p0}, Lcom/tencent/mm/model/i;->eF(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/tencent/mm/model/Iclz;->eF(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    invoke-static {p0}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    invoke-static {p0}, Lcom/tencent/mm/model/i;->eE(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/tencent/mm/model/Iclz;->eE(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1136,11 +1136,11 @@
     const/4 v0, 0x0
 
     .line 384
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rl()Lcom/tencent/mm/storage/s;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rl()Lcom/tencent/mm/storage/Sclz;
 
     move-result-object v1
 
@@ -1193,7 +1193,7 @@
 
     invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iget-object v1, v1, Lcom/tencent/mm/storage/s;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v1, v1, Lcom/tencent/mm/storage/Sclz;->aoD:Lcom/tencent/mm/sdk/g/d;
 
     const/4 v3, 0x0
 
@@ -1238,7 +1238,7 @@
     move-result v0
 
     .line 155
-    invoke-static {v0}, Lcom/tencent/mm/model/c;->cw(I)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Cclz;->cw(I)Z
 
     move-result v0
 
@@ -1263,7 +1263,7 @@
     move-result v0
 
     .line 165
-    invoke-static {v0}, Lcom/tencent/mm/model/h;->cx(I)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Hclz;->cx(I)Z
 
     move-result v0
 
@@ -1511,7 +1511,7 @@
 
     .prologue
     .line 284
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -1533,9 +1533,9 @@
 
     .line 288
     :cond_0
-    sget-object v0, Lcom/tencent/mm/model/i;->bsL:Ljava/lang/String;
+    sget-object v0, Lcom/tencent/mm/model/Iclz;->bsL:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/j;->eK(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/tencent/mm/model/Jclz;->eK(Ljava/lang/String;)I
 
     move-result v0
 
@@ -1553,9 +1553,9 @@
     const/4 v7, 0x0
 
     .line 304
-    sget-object v1, Lcom/tencent/mm/model/i;->bsL:Ljava/lang/String;
+    sget-object v1, Lcom/tencent/mm/model/Iclz;->bsL:Ljava/lang/String;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v2
 
@@ -1572,11 +1572,11 @@
     return-object v0
 
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/model/c;->rl()Lcom/tencent/mm/storage/s;
+    invoke-virtual {v2}, Lcom/tencent/mm/model/Cclz;->rl()Lcom/tencent/mm/storage/Sclz;
 
     move-result-object v2
 
@@ -1666,7 +1666,7 @@
 
     invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iget-object v2, v2, Lcom/tencent/mm/storage/s;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v2, v2, Lcom/tencent/mm/storage/Sclz;->aoD:Lcom/tencent/mm/sdk/g/d;
 
     invoke-interface {v2, v3, v0}, Lcom/tencent/mm/sdk/g/d;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
@@ -1714,15 +1714,15 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/model/c;->rl()Lcom/tencent/mm/storage/s;
+    invoke-virtual {v2}, Lcom/tencent/mm/model/Cclz;->rl()Lcom/tencent/mm/storage/Sclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/storage/s;->CB(Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/storage/Sclz;->CB(Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v1
 
@@ -1737,11 +1737,11 @@
 
     if-nez v2, :cond_5
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v2}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v2
 
@@ -1749,7 +1749,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v2
 
@@ -1765,7 +1765,7 @@
 
     new-array v5, v8, [Ljava/lang/Object;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/storage/k;->qx()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/storage/Kclz;->qx()Ljava/lang/String;
 
     move-result-object v6
 
@@ -1773,7 +1773,7 @@
 
     invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    invoke-virtual {v2}, Lcom/tencent/mm/storage/k;->qx()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/storage/Kclz;->qx()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1795,7 +1795,7 @@
 
     .prologue
     .line 313
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -1817,11 +1817,11 @@
 
     .line 318
     :cond_0
-    sget-object v0, Lcom/tencent/mm/model/i;->bsL:Ljava/lang/String;
+    sget-object v0, Lcom/tencent/mm/model/Iclz;->bsL:Ljava/lang/String;
 
     const/4 v1, 0x0
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/model/j;->a(Ljava/lang/String;Ljava/util/List;)I
+    invoke-static {v0, v1}, Lcom/tencent/mm/model/Jclz;->a(Ljava/lang/String;Ljava/util/List;)I
 
     move-result v0
 
@@ -1833,7 +1833,7 @@
 
     .prologue
     .line 371
-    invoke-static {}, Lcom/tencent/mm/model/j;->sG()I
+    invoke-static {}, Lcom/tencent/mm/model/Jclz;->sG()I
 
     move-result v0
 
@@ -1845,11 +1845,11 @@
 
     .prologue
     .line 408
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v0
 
@@ -1861,7 +1861,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/h;->get(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/Hclz;->get(ILjava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1879,11 +1879,11 @@
 
     .prologue
     .line 413
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v0
 
@@ -1895,7 +1895,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/h;->get(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/Hclz;->get(ILjava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 

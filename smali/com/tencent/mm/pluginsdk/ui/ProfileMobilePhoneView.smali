@@ -180,7 +180,7 @@
 
 
 # virtual methods
-.method public final G(Lcom/tencent/mm/storage/k;)Z
+.method public final G(Lcom/tencent/mm/storage/Kclz;)Z
     .locals 1
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation

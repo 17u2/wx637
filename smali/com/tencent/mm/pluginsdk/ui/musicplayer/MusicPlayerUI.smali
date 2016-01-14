@@ -17,7 +17,7 @@
 
 
 # instance fields
-.field private fvB:Lcom/tencent/mm/model/v;
+.field private fvB:Lcom/tencent/mm/model/Vclz;
 
 .field private hYA:Landroid/widget/TextView;
 
@@ -93,7 +93,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI$6;-><init>(Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->fvB:Lcom/tencent/mm/model/v;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->fvB:Lcom/tencent/mm/model/Vclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -307,12 +307,12 @@
     return-object v0
 .end method
 
-.method static synthetic c(Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;)Lcom/tencent/mm/model/v;
+.method static synthetic c(Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;)Lcom/tencent/mm/model/Vclz;
     .locals 1
 
     .prologue
     .line 30
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->fvB:Lcom/tencent/mm/model/v;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->fvB:Lcom/tencent/mm/model/Vclz;
 
     return-object v0
 .end method
@@ -594,11 +594,11 @@
     if-nez v0, :cond_1
 
     .line 536
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/u;->mI()Lcom/tencent/mm/protocal/b/ada;
+    invoke-interface {v0}, Lcom/tencent/mm/model/Uclz;->mI()Lcom/tencent/mm/protocal/b/ada;
 
     move-result-object v0
 
@@ -616,11 +616,11 @@
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYn:Lcom/tencent/mm/protocal/b/ada;
 
     .line 542
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/u;->release()V
+    invoke-interface {v0}, Lcom/tencent/mm/model/Uclz;->release()V
 
     .line 543
     const-string/jumbo v0, "!32@/B4Tb64lLpICIarghhJ+OutWbicE5vXX"
@@ -1062,11 +1062,11 @@
     if-eqz v0, :cond_0
 
     .line 112
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/u;->release()V
+    invoke-interface {v0}, Lcom/tencent/mm/model/Uclz;->release()V
 
     .line 115
     :cond_0
@@ -1302,13 +1302,13 @@
 
     .prologue
     .line 381
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->fvB:Lcom/tencent/mm/model/v;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->fvB:Lcom/tencent/mm/model/Vclz;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/model/u;->c(Lcom/tencent/mm/model/v;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/model/Uclz;->c(Lcom/tencent/mm/model/Vclz;)V
 
     .line 388
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYu:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
@@ -1436,11 +1436,11 @@
 
     if-eqz v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/u;->mB()Z
+    invoke-interface {v0}, Lcom/tencent/mm/model/Uclz;->mB()Z
 
     move-result v0
 
@@ -1456,13 +1456,13 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
-    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->fvB:Lcom/tencent/mm/model/v;
+    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->fvB:Lcom/tencent/mm/model/Vclz;
 
-    invoke-interface {v0, v2}, Lcom/tencent/mm/model/u;->a(Lcom/tencent/mm/model/v;)V
+    invoke-interface {v0, v2}, Lcom/tencent/mm/model/Uclz;->a(Lcom/tencent/mm/model/Vclz;)V
 
     invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->aqb()Z
 
@@ -1477,11 +1477,11 @@
 
     .line 148
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/u;->mB()Z
+    invoke-interface {v0}, Lcom/tencent/mm/model/Uclz;->mB()Z
 
     move-result v0
 

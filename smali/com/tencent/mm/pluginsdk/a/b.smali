@@ -118,7 +118,7 @@
     return-void
 .end method
 
-.method public final a(Lcom/tencent/mm/storage/a/c;)Lcom/tencent/mm/storage/a/c;
+.method public final a(Lcom/tencent/mm/storage/a/Cclz;)Lcom/tencent/mm/storage/a/Cclz;
     .locals 1
 
     .prologue
@@ -128,7 +128,7 @@
     return-object v0
 .end method
 
-.method public final a(Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/a/c;
+.method public final a(Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
     .locals 1
 
     .prologue
@@ -148,7 +148,7 @@
     return-object v0
 .end method
 
-.method public final a(Landroid/content/Context;Lcom/tencent/mm/storage/ad;)V
+.method public final a(Landroid/content/Context;Lcom/tencent/mm/storage/ADclz;)V
     .locals 0
 
     .prologue
@@ -164,7 +164,7 @@
     return-void
 .end method
 
-.method public final a(Ljava/lang/String;Lcom/tencent/mm/storage/a/c;Lcom/tencent/mm/storage/ad;)V
+.method public final a(Ljava/lang/String;Lcom/tencent/mm/storage/a/Cclz;Lcom/tencent/mm/storage/ADclz;)V
     .locals 0
 
     .prologue
@@ -172,7 +172,7 @@
     return-void
 .end method
 
-.method public final a(Landroid/content/Context;Lcom/tencent/mm/storage/a/c;I)Z
+.method public final a(Landroid/content/Context;Lcom/tencent/mm/storage/a/Cclz;I)Z
     .locals 1
 
     .prologue
@@ -192,7 +192,7 @@
     return v0
 .end method
 
-.method public final ar(Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/x;
+.method public final ar(Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/Xclz;
     .locals 1
 
     .prologue
@@ -220,7 +220,7 @@
     return-void
 .end method
 
-.method public final b(Lcom/tencent/mm/storage/a/c;)V
+.method public final b(Lcom/tencent/mm/storage/a/Cclz;)V
     .locals 0
 
     .prologue
@@ -248,7 +248,7 @@
     return-object v0
 .end method
 
-.method public final c(Lcom/tencent/mm/storage/a/c;)I
+.method public final c(Lcom/tencent/mm/storage/a/Cclz;)I
     .locals 1
 
     .prologue
@@ -290,7 +290,7 @@
     return-void
 .end method
 
-.method public final d(Lcom/tencent/mm/storage/a/c;)[I
+.method public final d(Lcom/tencent/mm/storage/a/Cclz;)[I
     .locals 1
 
     .prologue
@@ -330,7 +330,7 @@
     return v0
 .end method
 
-.method public final ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/c;
+.method public final ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
     .locals 1
 
     .prologue

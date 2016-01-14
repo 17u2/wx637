@@ -96,7 +96,7 @@
     .line 81
     if-nez p5, :cond_2
 
-    sget v0, Lcom/tencent/mm/storage/a/a;->jpD:I
+    sget v0, Lcom/tencent/mm/storage/a/Aclz;->jpD:I
 
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -265,7 +265,7 @@
     goto :goto_6
 
     :cond_9
-    sget v3, Lcom/tencent/mm/storage/a/a;->jpE:I
+    sget v3, Lcom/tencent/mm/storage/a/Aclz;->jpE:I
 
     invoke-static {v3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -277,11 +277,11 @@
 
     if-eqz v3, :cond_b
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->isSDCardAvailable()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->isSDCardAvailable()Z
 
     move-result v0
 
@@ -305,7 +305,7 @@
     goto/16 :goto_1
 
     :cond_b
-    sget v3, Lcom/tencent/mm/storage/a/a;->jpD:I
+    sget v3, Lcom/tencent/mm/storage/a/Aclz;->jpD:I
 
     invoke-static {v3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -321,11 +321,11 @@
 
     move-result v0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/tencent/mm/model/c;->isSDCardAvailable()Z
+    invoke-virtual {v3}, Lcom/tencent/mm/model/Cclz;->isSDCardAvailable()Z
 
     move-result v3
 
@@ -351,11 +351,11 @@
     move v0, v1
 
     :cond_d
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/tencent/mm/model/c;->isSDCardAvailable()Z
+    invoke-virtual {v3}, Lcom/tencent/mm/model/Cclz;->isSDCardAvailable()Z
 
     move-result v3
 
@@ -723,7 +723,7 @@
     goto :goto_0
 
     :cond_1
-    sget v1, Lcom/tencent/mm/storage/a/a;->jpE:I
+    sget v1, Lcom/tencent/mm/storage/a/Aclz;->jpE:I
 
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 

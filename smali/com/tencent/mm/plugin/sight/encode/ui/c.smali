@@ -326,15 +326,15 @@
     if-eqz v2, :cond_3
 
     .line 81
-    new-instance v0, Lcom/tencent/mm/storage/k;
+    new-instance v0, Lcom/tencent/mm/storage/Kclz;
 
     const-string/jumbo v2, "@sns.tencent"
 
-    invoke-direct {v0, v2}, Lcom/tencent/mm/storage/k;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Lcom/tencent/mm/storage/Kclz;-><init>(Ljava/lang/String;)V
 
     .line 89
     :goto_1
-    iput-object v0, v1, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/k;
+    iput-object v0, v1, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/Kclz;
 
     .line 90
     iget-boolean v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/c;->gbu:Z
@@ -355,11 +355,11 @@
     if-eqz v2, :cond_4
 
     .line 83
-    new-instance v0, Lcom/tencent/mm/storage/k;
+    new-instance v0, Lcom/tencent/mm/storage/Kclz;
 
     const-string/jumbo v2, "@search.tencent"
 
-    invoke-direct {v0, v2}, Lcom/tencent/mm/storage/k;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Lcom/tencent/mm/storage/Kclz;-><init>(Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -372,21 +372,21 @@
     if-eqz v0, :cond_5
 
     .line 85
-    new-instance v0, Lcom/tencent/mm/storage/k;
+    new-instance v0, Lcom/tencent/mm/storage/Kclz;
 
     const-string/jumbo v2, "@draft.tencent"
 
-    invoke-direct {v0, v2}, Lcom/tencent/mm/storage/k;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Lcom/tencent/mm/storage/Kclz;-><init>(Ljava/lang/String;)V
 
     goto :goto_1
 
     .line 87
     :cond_5
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v2
 
@@ -398,7 +398,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 

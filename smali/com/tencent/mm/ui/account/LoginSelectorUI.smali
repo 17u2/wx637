@@ -286,7 +286,7 @@
 
     .line 120
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/model/au;->uq()Lcom/tencent/mm/model/au;
+    invoke-static {}, Lcom/tencent/mm/model/AUclz;->uq()Lcom/tencent/mm/model/AUclz;
 
     .line 121
     new-instance v0, Landroid/content/Intent;
@@ -324,7 +324,7 @@
     invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/e;->kT()V
 
     .line 41
-    invoke-static {}, Lcom/tencent/mm/model/ah;->ti()V
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->ti()V
 
     .line 42
     invoke-virtual {p0}, Lcom/tencent/mm/ui/account/LoginSelectorUI;->Fi()V
@@ -397,7 +397,7 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onResume()V
 
     .line 52
-    invoke-static {}, Lcom/tencent/mm/model/ah;->ti()V
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->ti()V
 
     .line 53
     return-void

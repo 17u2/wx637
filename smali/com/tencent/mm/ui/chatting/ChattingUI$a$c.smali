@@ -80,7 +80,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$c;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -145,7 +145,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$c;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -185,7 +185,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/tencent/mm/model/i;->ey(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/model/Iclz;->ey(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -197,7 +197,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/tencent/mm/storage/k;->BR(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/storage/Kclz;->BR(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -209,7 +209,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/tencent/mm/storage/k;->BT(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/storage/Kclz;->BT(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -221,7 +221,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/tencent/mm/model/i;->eu(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/model/Iclz;->eu(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -233,7 +233,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/tencent/mm/storage/k;->BV(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/storage/Kclz;->BV(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -241,9 +241,9 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$c;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v3, v3, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/storage/k;->aPT()Z
+    invoke-virtual {v3}, Lcom/tencent/mm/storage/Kclz;->aPT()Z
 
     move-result v3
 

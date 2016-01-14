@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/network/j;
+.implements Lcom/tencent/mm/network/Jclz;
 
 
 # instance fields
@@ -56,7 +56,7 @@
     iput p6, p0, Lcom/tencent/mm/plugin/sns/d/q;->ggr:I
 
     .line 70
-    invoke-static {}, Lcom/tencent/mm/model/k;->sH()Lcom/tencent/mm/model/k;
+    invoke-static {}, Lcom/tencent/mm/model/Kclz;->sH()Lcom/tencent/mm/model/Kclz;
 
     move-result-object v1
 
@@ -64,7 +64,7 @@
 
     iget-object v2, v0, Lcom/tencent/mm/protocal/b/abq;->atj:Ljava/lang/String;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/model/k;->eM(Ljava/lang/String;)Lcom/tencent/mm/model/k$a;
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/model/Kclz;->eM(Ljava/lang/String;)Lcom/tencent/mm/model/Kclz$a;
 
     move-result-object v1
 
@@ -87,7 +87,7 @@
 
     const-string/jumbo v4, ""
 
-    invoke-virtual {v1, v3, v4}, Lcom/tencent/mm/model/k$a;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v3, v4}, Lcom/tencent/mm/model/Kclz$a;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -102,7 +102,7 @@
 
     const-string/jumbo v4, ""
 
-    invoke-virtual {v1, v3, v4}, Lcom/tencent/mm/model/k$a;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v3, v4}, Lcom/tencent/mm/model/Kclz$a;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -117,7 +117,7 @@
 
     const-string/jumbo v4, ""
 
-    invoke-virtual {v1, v3, v4}, Lcom/tencent/mm/model/k$a;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v3, v4}, Lcom/tencent/mm/model/Kclz$a;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -132,7 +132,7 @@
 
     const-string/jumbo v4, ""
 
-    invoke-virtual {v1, v3, v4}, Lcom/tencent/mm/model/k$a;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v3, v4}, Lcom/tencent/mm/model/Kclz$a;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -145,7 +145,7 @@
 
     const-string/jumbo v3, "preMsgIndex"
 
-    invoke-virtual {v1, v3}, Lcom/tencent/mm/model/k$a;->eO(Ljava/lang/String;)I
+    invoke-virtual {v1, v3}, Lcom/tencent/mm/model/Kclz$a;->eO(Ljava/lang/String;)I
 
     move-result v3
 
@@ -158,7 +158,7 @@
 
     const-string/jumbo v3, "sendAppMsgScene"
 
-    invoke-virtual {v1, v3}, Lcom/tencent/mm/model/k$a;->eO(Ljava/lang/String;)I
+    invoke-virtual {v1, v3}, Lcom/tencent/mm/model/Kclz$a;->eO(Ljava/lang/String;)I
 
     move-result v1
 
@@ -1177,7 +1177,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+.method public final a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
     .locals 1
 
     .prologue
@@ -1187,14 +1187,14 @@
     .line 166
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/d/q;->ant:Lcom/tencent/mm/q/Aclz;
 
-    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/plugin/sns/d/q;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;)I
+    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/plugin/sns/d/q;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/network/Oclz;Lcom/tencent/mm/network/Jclz;)I
 
     move-result v0
 
     return v0
 .end method
 
-.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/o;[B)V
+.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/Oclz;[B)V
     .locals 6
 
     .prologue

@@ -111,7 +111,7 @@
     .line 755
     iget v2, v0, Lcom/tencent/mm/protocal/b/akj;->iIW:I
 
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->cz(I)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->cz(I)Z
 
     move-result v2
 
@@ -304,7 +304,7 @@
     .line 790
     iget v0, v2, Lcom/tencent/mm/protocal/b/akj;->iIW:I
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->cz(I)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->cz(I)Z
 
     move-result v0
 

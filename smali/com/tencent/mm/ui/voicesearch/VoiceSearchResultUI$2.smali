@@ -138,7 +138,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p3}, Lcom/tencent/mm/ui/voicesearch/b;->fJ(I)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v0, p3}, Lcom/tencent/mm/ui/voicesearch/b;->fJ(I)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 
@@ -147,7 +147,7 @@
 
     iget-object v2, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/k;->qy()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/Kclz;->qy()Ljava/lang/String;
 
     move-result-object v0
 
@@ -223,25 +223,25 @@
 
     if-eq v3, v6, :cond_5
 
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->eB(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->eB(Ljava/lang/String;)Z
 
     move-result v3
 
     if-nez v3, :cond_5
 
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->dT(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->dT(Ljava/lang/String;)Z
 
     move-result v3
 
     if-nez v3, :cond_5
 
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v3
 
     if-nez v3, :cond_5
 
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->dM(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->dM(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -266,7 +266,7 @@
 
     invoke-virtual {v0, v3, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->dM(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->dM(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -358,13 +358,13 @@
     goto/16 :goto_1
 
     :cond_9
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->dX(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->dX(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_b
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->sj()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sj()Z
 
     move-result v0
 
@@ -412,13 +412,13 @@
     goto/16 :goto_1
 
     :cond_b
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->dZ(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->dZ(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_d
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->sg()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sg()Z
 
     move-result v0
 
@@ -466,7 +466,7 @@
     goto/16 :goto_1
 
     :cond_d
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->dY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->dY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -491,7 +491,7 @@
     goto/16 :goto_1
 
     :cond_e
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->ed(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->ed(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -518,13 +518,13 @@
     goto/16 :goto_1
 
     :cond_f
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->dV(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->dV(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_11
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->ss()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->ss()Z
 
     move-result v0
 
@@ -572,13 +572,13 @@
     goto/16 :goto_1
 
     :cond_11
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->ei(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->ei(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_13
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->sn()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sn()Z
 
     move-result v0
 
@@ -622,13 +622,13 @@
     goto/16 :goto_1
 
     :cond_13
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->ep(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->ep(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_15
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->so()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->so()Z
 
     move-result v0
 
@@ -672,7 +672,7 @@
     goto/16 :goto_1
 
     :cond_15
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->ea(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->ea(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -697,13 +697,13 @@
     goto/16 :goto_1
 
     :cond_16
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->eb(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->eb(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_18
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->sq()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sq()Z
 
     move-result v0
 
@@ -747,13 +747,13 @@
     goto/16 :goto_1
 
     :cond_18
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->eh(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->eh(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1a
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->sk()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sk()Z
 
     move-result v0
 
@@ -801,43 +801,43 @@
     goto/16 :goto_1
 
     :cond_1a
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->ef(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->ef(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_1b
 
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->eg(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->eg(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_1b
 
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->ec(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->ec(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_1b
 
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->ej(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->ej(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_1b
 
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->ek(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->ek(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_1b
 
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->dW(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->dW(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_1b
 
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->es(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->es(Ljava/lang/String;)Z
 
     move-result v0
 

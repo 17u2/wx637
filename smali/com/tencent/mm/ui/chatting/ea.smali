@@ -26,7 +26,7 @@
     return-void
 .end method
 
-.method public static a(Lcom/tencent/mm/ui/chatting/ea;Lcom/tencent/mm/storage/ad;ILcom/tencent/mm/ui/chatting/ChattingUI$a;)V
+.method public static a(Lcom/tencent/mm/ui/chatting/ea;Lcom/tencent/mm/storage/ADclz;ILcom/tencent/mm/ui/chatting/ChattingUI$a;)V
     .locals 8
 
     .prologue
@@ -55,7 +55,7 @@
 
     move v6, v5
 
-    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ad;ZILjava/lang/String;IB)V
+    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ADclz;ZILjava/lang/String;IB)V
 
     invoke-virtual {v7, v0}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 

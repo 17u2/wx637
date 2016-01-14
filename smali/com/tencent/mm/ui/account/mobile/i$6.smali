@@ -91,13 +91,13 @@
     iput-object v0, v1, Lcom/tencent/mm/ui/account/mobile/i;->fcS:Ljava/lang/String;
 
     .line 642
-    sget-object v0, Lcom/tencent/mm/model/ag;->btl:Lcom/tencent/mm/model/ag;
+    sget-object v0, Lcom/tencent/mm/model/AGclz;->btl:Lcom/tencent/mm/model/AGclz;
 
     const-string/jumbo v1, "login_user_name"
 
     iget-object v2, p0, Lcom/tencent/mm/ui/account/mobile/i$6;->jFn:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/model/ag;->E(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/model/AGclz;->E(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 656
     iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/i$6;->jFo:Ljava/lang/String;
@@ -249,7 +249,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v1
 
@@ -287,7 +287,7 @@
 
     const-string/jumbo v1, "R200_900_phone"
 
-    invoke-static {v1}, Lcom/tencent/mm/model/ah;->eV(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/tencent/mm/model/AHclz;->eV(Ljava/lang/String;)I
 
     move-result v1
 

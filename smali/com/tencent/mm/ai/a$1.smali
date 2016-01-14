@@ -124,13 +124,13 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ai/a$1;->bUg:Lcom/tencent/mm/ai/a;
 
-    iget-object v1, v1, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/e;
+    iget-object v1, v1, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/Eclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ai/a$1;->bUg:Lcom/tencent/mm/ai/a;
 
     iget-object v2, v2, Lcom/tencent/mm/ai/a;->ans:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ai/a;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ai/a;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
 
     move-result v0
 

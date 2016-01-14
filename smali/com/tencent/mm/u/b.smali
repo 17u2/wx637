@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/u/b;
-.super Lcom/tencent/mm/model/s;
+.super Lcom/tencent/mm/model/Sclz;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 19
-    invoke-direct {p0}, Lcom/tencent/mm/model/s;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/model/Sclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -91,11 +91,11 @@
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
     .line 36
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v1
 
@@ -105,7 +105,7 @@
 
     const/4 v4, 0x0
 
-    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/storage/q;->d(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Landroid/database/Cursor;
+    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/storage/Qclz;->d(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Landroid/database/Cursor;
 
     move-result-object v1
 
@@ -123,12 +123,12 @@
     if-nez v2, :cond_0
 
     .line 39
-    new-instance v2, Lcom/tencent/mm/storage/k;
+    new-instance v2, Lcom/tencent/mm/storage/Kclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/storage/k;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/storage/Kclz;-><init>()V
 
     .line 40
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/storage/k;->c(Landroid/database/Cursor;)V
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/storage/Kclz;->c(Landroid/database/Cursor;)V
 
     .line 41
     iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
@@ -226,11 +226,11 @@
     invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 56
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/tencent/mm/model/c;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v1, v1, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
 
     const-string/jumbo v2, "rconversation"
 

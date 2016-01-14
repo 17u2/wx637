@@ -77,21 +77,21 @@
     iput-object v3, p0, Lcom/tencent/mm/plugin/search/ui/a/f;->username:Ljava/lang/String;
 
     .line 100
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v3}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v3
 
     iget-object v4, p0, Lcom/tencent/mm/plugin/search/ui/a/f;->username:Ljava/lang/String;
 
-    invoke-virtual {v3, v4}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v3, v4}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v3
 
-    iput-object v3, p0, Lcom/tencent/mm/plugin/search/ui/a/f;->czx:Lcom/tencent/mm/storage/k;
+    iput-object v3, p0, Lcom/tencent/mm/plugin/search/ui/a/f;->czx:Lcom/tencent/mm/storage/Kclz;
 
     .line 101
     invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->za()Lcom/tencent/mm/modelfriend/c;

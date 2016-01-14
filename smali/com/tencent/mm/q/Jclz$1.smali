@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/q/Jclz;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;)I
+    value = Lcom/tencent/mm/q/Jclz;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/network/Oclz;Lcom/tencent/mm/network/Jclz;)I
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,24 +18,24 @@
 
 
 # instance fields
-.field final synthetic byi:Lcom/tencent/mm/network/j;
+.field final synthetic byi:Lcom/tencent/mm/network/Jclz;
 
-.field final synthetic byj:Lcom/tencent/mm/network/o;
+.field final synthetic byj:Lcom/tencent/mm/network/Oclz;
 
 .field final synthetic byk:Lcom/tencent/mm/q/Jclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/q/Jclz;Lcom/tencent/mm/network/j;Lcom/tencent/mm/network/o;)V
+.method constructor <init>(Lcom/tencent/mm/q/Jclz;Lcom/tencent/mm/network/Jclz;Lcom/tencent/mm/network/Oclz;)V
     .locals 1
 
     .prologue
     .line 215
     iput-object p1, p0, Lcom/tencent/mm/q/Jclz$1;->byk:Lcom/tencent/mm/q/Jclz;
 
-    iput-object p2, p0, Lcom/tencent/mm/q/Jclz$1;->byi:Lcom/tencent/mm/network/j;
+    iput-object p2, p0, Lcom/tencent/mm/q/Jclz$1;->byi:Lcom/tencent/mm/network/Jclz;
 
-    iput-object p3, p0, Lcom/tencent/mm/q/Jclz$1;->byj:Lcom/tencent/mm/network/o;
+    iput-object p3, p0, Lcom/tencent/mm/q/Jclz$1;->byj:Lcom/tencent/mm/network/Oclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -58,19 +58,19 @@
     const/4 v1, -0x1
 
     .line 218
-    iget-object v0, p0, Lcom/tencent/mm/q/Jclz$1;->byi:Lcom/tencent/mm/network/j;
+    iget-object v0, p0, Lcom/tencent/mm/q/Jclz$1;->byi:Lcom/tencent/mm/network/Jclz;
 
     const/4 v2, 0x3
 
     const-string/jumbo v4, "send to network failed"
 
-    iget-object v5, p0, Lcom/tencent/mm/q/Jclz$1;->byj:Lcom/tencent/mm/network/o;
+    iget-object v5, p0, Lcom/tencent/mm/q/Jclz$1;->byj:Lcom/tencent/mm/network/Oclz;
 
     const/4 v6, 0x0
 
     move v3, v1
 
-    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/network/j;->a(IIILjava/lang/String;Lcom/tencent/mm/network/o;[B)V
+    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/network/Jclz;->a(IIILjava/lang/String;Lcom/tencent/mm/network/Oclz;[B)V
 
     .line 219
     return-void

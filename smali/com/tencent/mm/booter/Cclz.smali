@@ -394,7 +394,7 @@
 
     move-result-object v1
 
-    sget-object v2, Lcom/tencent/mm/storage/j;->jlg:Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/storage/Jclz;->jlg:Ljava/lang/String;
 
     sget-object v3, Lcom/tencent/mm/compatible/util/d;->bnK:Ljava/lang/String;
 

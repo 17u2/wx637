@@ -77,15 +77,15 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1361
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lc()Lcom/tencent/mm/model/y;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lc()Lcom/tencent/mm/model/Yclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/y;->no()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/tencent/mm/model/Yclz;->no()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->eo(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->eo(Ljava/lang/String;)Z
 
     move-result v0
 

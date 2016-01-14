@@ -18,7 +18,7 @@
 
 .field public gln:I
 
-.field public glo:Lcom/tencent/mm/storage/i$a;
+.field public glo:Lcom/tencent/mm/storage/Iclz$a;
 
 .field public mediaId:Ljava/lang/String;
 

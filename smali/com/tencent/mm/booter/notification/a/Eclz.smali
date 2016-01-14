@@ -70,7 +70,7 @@
     return-void
 .end method
 
-.method public static a(Ljava/lang/String;Lcom/tencent/mm/storage/ad;)Z
+.method public static a(Ljava/lang/String;Lcom/tencent/mm/storage/ADclz;)Z
     .locals 6
 
     .prologue
@@ -85,7 +85,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lcom/tencent/mm/g/gclass;->c(Lcom/tencent/mm/storage/ad;)Z
+    invoke-static {p1}, Lcom/tencent/mm/g/gclass;->c(Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v0
 
@@ -469,7 +469,7 @@
 
     iget v0, v0, Landroid/text/format/Time;->minute:I
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/network/aa;->aa(II)Z
+    invoke-static {v1, v0}, Lcom/tencent/mm/network/AAclz;->aa(II)Z
 
     move-result v0
 

@@ -186,11 +186,11 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rC()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rC()Ljava/lang/String;
 
     move-result-object v1
 
@@ -228,11 +228,11 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rC()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rC()Ljava/lang/String;
 
     move-result-object v1
 
@@ -270,11 +270,11 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rC()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rC()Ljava/lang/String;
 
     move-result-object v1
 
@@ -312,11 +312,11 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rC()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rC()Ljava/lang/String;
 
     move-result-object v1
 
@@ -354,11 +354,11 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rC()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rC()Ljava/lang/String;
 
     move-result-object v1
 

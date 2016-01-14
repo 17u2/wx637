@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/chatting/bv;->a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;Ljava/lang/String;)V
+    value = Lcom/tencent/mm/ui/chatting/bv;->a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic kef:Lcom/tencent/mm/storage/ad;
+.field final synthetic kef:Lcom/tencent/mm/storage/ADclz;
 
 .field final synthetic keh:Lcom/tencent/mm/ui/chatting/bv;
 
@@ -26,14 +26,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/bv;Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/app/plugin/voicereminder/a/e;)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/bv;Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/app/plugin/voicereminder/a/e;)V
     .locals 1
 
     .prologue
     .line 229
     iput-object p1, p0, Lcom/tencent/mm/ui/chatting/bv$4;->keh:Lcom/tencent/mm/ui/chatting/bv;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/bv$4;->kef:Lcom/tencent/mm/storage/ad;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/bv$4;->kef:Lcom/tencent/mm/storage/ADclz;
 
     iput-object p3, p0, Lcom/tencent/mm/ui/chatting/bv$4;->kej:Lcom/tencent/mm/app/plugin/voicereminder/a/e;
 

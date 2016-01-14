@@ -49,7 +49,7 @@
 
     .line 25
     :try_start_0
-    invoke-static {}, Lcom/tencent/mm/network/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -156,7 +156,7 @@
     if-eqz v4, :cond_5
 
     .line 49
-    invoke-static {}, Lcom/tencent/mm/network/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 

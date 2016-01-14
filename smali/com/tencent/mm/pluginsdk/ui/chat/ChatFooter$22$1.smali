@@ -64,7 +64,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2, v0}, Lcom/tencent/mm/model/h;->b(Ljava/lang/String;Ljava/lang/String;Z)Z
+    invoke-static {v1, v2, v0}, Lcom/tencent/mm/model/Hclz;->b(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     move-result v1
 

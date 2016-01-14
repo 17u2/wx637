@@ -65,9 +65,9 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$69;->kjD:Ljava/lang/String;
 
-    sget-object v2, Lcom/tencent/mm/model/i;->bsL:Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/model/Iclz;->bsL:Ljava/lang/String;
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/model/j;->B(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/tencent/mm/model/Jclz;->B(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v1
 

@@ -1189,7 +1189,7 @@
     :goto_6
     if-lez v6, :cond_b
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->sy()Ljava/lang/Boolean;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sy()Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -1310,7 +1310,7 @@
     iput-boolean v3, p0, Lcom/tencent/mm/ui/conversation/ConversationOverscrollListView;->kwE:Z
 
     .line 211
-    invoke-static {}, Lcom/tencent/mm/model/h;->sy()Ljava/lang/Boolean;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sy()Ljava/lang/Boolean;
 
     move-result-object v0
 

@@ -586,7 +586,7 @@
 
     .line 98
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->te()Lcom/tencent/mm/storage/g;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->te()Lcom/tencent/mm/storage/Gclz;
 
     move-result-object v0
 
@@ -596,7 +596,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v4, v1}, Lcom/tencent/mm/storage/g;->get(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v4, v1}, Lcom/tencent/mm/storage/Gclz;->get(ILjava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -612,7 +612,7 @@
     if-eq v1, v0, :cond_1
 
     .line 100
-    invoke-static {}, Lcom/tencent/mm/model/ah;->te()Lcom/tencent/mm/storage/g;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->te()Lcom/tencent/mm/storage/Gclz;
 
     move-result-object v1
 
@@ -622,7 +622,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v4, v2}, Lcom/tencent/mm/storage/g;->set(ILjava/lang/Object;)V
+    invoke-virtual {v1, v4, v2}, Lcom/tencent/mm/storage/Gclz;->set(ILjava/lang/Object;)V
 
     .line 101
     new-instance v1, Lcom/tencent/mm/sdk/platformtools/ab;

@@ -120,7 +120,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -159,17 +159,17 @@
     invoke-virtual {v1, v8, v3}, Lcom/tencent/mm/plugin/report/service/h;->g(I[Ljava/lang/Object;)V
 
     .line 1281
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->ro()Lcom/tencent/mm/storage/f;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->ro()Lcom/tencent/mm/storage/Fclz;
 
     move-result-object v1
 
     iget-object v3, v0, Lcom/tencent/mm/ui/chatting/dd;->azY:Ljava/lang/String;
 
-    invoke-virtual {v1, v3}, Lcom/tencent/mm/storage/f;->BM(Ljava/lang/String;)Lcom/tencent/mm/storage/e;
+    invoke-virtual {v1, v3}, Lcom/tencent/mm/storage/Fclz;->BM(Ljava/lang/String;)Lcom/tencent/mm/storage/Eclz;
 
     move-result-object v1
 
@@ -272,7 +272,7 @@
     :cond_3
     iget-object v3, v0, Lcom/tencent/mm/ui/chatting/dd;->ajd:Ljava/lang/String;
 
-    invoke-static {v1, v3}, Lcom/tencent/mm/ui/chatting/AtSomeoneUI;->a(Lcom/tencent/mm/storage/e;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v3}, Lcom/tencent/mm/ui/chatting/AtSomeoneUI;->a(Lcom/tencent/mm/storage/Eclz;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -286,7 +286,7 @@
     .line 1288
     iget-object v0, v0, Lcom/tencent/mm/ui/chatting/dd;->ajd:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->dP(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->dP(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -300,7 +300,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->dS(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->dS(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -428,7 +428,7 @@
     :cond_5
     iget-object v0, v0, Lcom/tencent/mm/ui/chatting/dd;->ajd:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->dP(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->dP(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

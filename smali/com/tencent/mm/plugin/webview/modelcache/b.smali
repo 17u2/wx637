@@ -34,7 +34,7 @@
     const/4 v1, 0x0
 
     .line 23
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -48,25 +48,25 @@
 
     .line 26
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/c/d;->uO()Lcom/tencent/mm/storage/b;
+    invoke-static {}, Lcom/tencent/mm/model/c/Dclz;->uO()Lcom/tencent/mm/storage/Bclz;
 
     move-result-object v0
 
     sget-object v2, Lcom/tencent/mm/plugin/webview/modelcache/b;->hzw:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/b;->BG(Ljava/lang/String;)Lcom/tencent/mm/storage/a;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/Bclz;->BG(Ljava/lang/String;)Lcom/tencent/mm/storage/Aclz;
 
     move-result-object v0
 
     .line 27
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/a;->isValid()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/Aclz;->isValid()Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
     .line 28
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/a;->aPK()Ljava/util/Map;
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/Aclz;->aPK()Ljava/util/Map;
 
     move-result-object v0
 
@@ -108,7 +108,7 @@
     const/4 v1, 0x0
 
     .line 35
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -122,25 +122,25 @@
 
     .line 38
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/c/d;->uO()Lcom/tencent/mm/storage/b;
+    invoke-static {}, Lcom/tencent/mm/model/c/Dclz;->uO()Lcom/tencent/mm/storage/Bclz;
 
     move-result-object v0
 
     sget-object v2, Lcom/tencent/mm/plugin/webview/modelcache/b;->hzw:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/b;->BG(Ljava/lang/String;)Lcom/tencent/mm/storage/a;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/Bclz;->BG(Ljava/lang/String;)Lcom/tencent/mm/storage/Aclz;
 
     move-result-object v0
 
     .line 39
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/a;->isValid()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/Aclz;->isValid()Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
     .line 40
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/a;->aPK()Ljava/util/Map;
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/Aclz;->aPK()Ljava/util/Map;
 
     move-result-object v0
 

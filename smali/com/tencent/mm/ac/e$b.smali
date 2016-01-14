@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/network/o;
+.implements Lcom/tencent/mm/network/Oclz;
 
 
 # annotations

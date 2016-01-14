@@ -362,7 +362,7 @@
 
     invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/base/MMRadioImageButton;->setImageResource(I)V
 
-    sget v2, Lcom/tencent/mm/storage/a/a;->jpE:I
+    sget v2, Lcom/tencent/mm/storage/a/Aclz;->jpE:I
 
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -390,17 +390,17 @@
 
     invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/MMRadioImageButton;->setContentDescription(Ljava/lang/CharSequence;)V
 
-    new-instance v0, Lcom/tencent/mm/storage/a/a;
+    new-instance v0, Lcom/tencent/mm/storage/a/Aclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/storage/a/a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/storage/a/Aclz;-><init>()V
 
-    sget v2, Lcom/tencent/mm/storage/a/a;->jpE:I
+    sget v2, Lcom/tencent/mm/storage/a/Aclz;->jpE:I
 
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
 
-    iput-object v2, v0, Lcom/tencent/mm/storage/a/a;->field_productID:Ljava/lang/String;
+    iput-object v2, v0, Lcom/tencent/mm/storage/a/Aclz;->field_productID:Ljava/lang/String;
 
     const v2, 0x7f090bec
 
@@ -750,7 +750,7 @@
     return-object v0
 .end method
 
-.method private b(Lcom/tencent/mm/storage/a/a;)Lcom/tencent/mm/ui/base/MMRadioImageButton;
+.method private b(Lcom/tencent/mm/storage/a/Aclz;)Lcom/tencent/mm/ui/base/MMRadioImageButton;
     .locals 8
 
     .prologue
@@ -789,7 +789,7 @@
 
     sget-object v4, Lcom/tencent/mm/pluginsdk/ui/simley/h$1;->icH:[I
 
-    iget-object v0, p1, Lcom/tencent/mm/storage/a/a;->field_productID:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/storage/a/Aclz;->field_productID:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
@@ -805,7 +805,7 @@
     :goto_1
     invoke-virtual {v2, v7}, Lcom/tencent/mm/ui/base/MMRadioImageButton;->setBackgroundResource(I)V
 
-    iget-object v0, p1, Lcom/tencent/mm/storage/a/a;->field_productID:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/storage/a/Aclz;->field_productID:Ljava/lang/String;
 
     invoke-virtual {v2, v0}, Lcom/tencent/mm/ui/base/MMRadioImageButton;->setTag(Ljava/lang/Object;)V
 
@@ -850,7 +850,7 @@
     goto :goto_0
 
     :cond_2
-    sget v5, Lcom/tencent/mm/storage/a/a;->jpD:I
+    sget v5, Lcom/tencent/mm/storage/a/Aclz;->jpD:I
 
     invoke-static {v5}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -867,7 +867,7 @@
     goto :goto_0
 
     :cond_3
-    sget v5, Lcom/tencent/mm/storage/a/a;->jpE:I
+    sget v5, Lcom/tencent/mm/storage/a/Aclz;->jpE:I
 
     invoke-static {v5}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -889,19 +889,19 @@
     goto :goto_0
 
     :pswitch_0
-    invoke-static {p1}, Lcom/tencent/mm/pluginsdk/ui/simley/d;->c(Lcom/tencent/mm/storage/a/a;)Z
+    invoke-static {p1}, Lcom/tencent/mm/pluginsdk/ui/simley/d;->c(Lcom/tencent/mm/storage/a/Aclz;)Z
 
     move-result v0
 
     if-nez v0, :cond_5
 
-    iget-object v0, p1, Lcom/tencent/mm/storage/a/a;->field_packGrayIconUrl:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/storage/a/Aclz;->field_packGrayIconUrl:Ljava/lang/String;
 
     invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
 
     move-result-object v3
 
-    iget-object v4, p1, Lcom/tencent/mm/storage/a/a;->field_productID:Ljava/lang/String;
+    iget-object v4, p1, Lcom/tencent/mm/storage/a/Aclz;->field_productID:Ljava/lang/String;
 
     invoke-interface {v3, v4, v0}, Lcom/tencent/mm/pluginsdk/h$f;->as(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -948,7 +948,7 @@
 
     move-result-object v3
 
-    iget-object v4, p1, Lcom/tencent/mm/storage/a/a;->field_productID:Ljava/lang/String;
+    iget-object v4, p1, Lcom/tencent/mm/storage/a/Aclz;->field_productID:Ljava/lang/String;
 
     const-string/jumbo v5, ""
 
@@ -1387,7 +1387,7 @@
     if-nez v2, :cond_1
 
     .line 666
-    sget v2, Lcom/tencent/mm/storage/a/a;->jpD:I
+    sget v2, Lcom/tencent/mm/storage/a/Aclz;->jpD:I
 
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -1399,7 +1399,7 @@
 
     if-nez v2, :cond_7
 
-    sget v2, Lcom/tencent/mm/storage/a/a;->jpE:I
+    sget v2, Lcom/tencent/mm/storage/a/Aclz;->jpE:I
 
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -1426,14 +1426,14 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/a/a;
+    check-cast v0, Lcom/tencent/mm/storage/a/Aclz;
 
     .line 669
     if-eqz v0, :cond_a
 
     .line 671
     :cond_7
-    sget v0, Lcom/tencent/mm/storage/a/a;->jpE:I
+    sget v0, Lcom/tencent/mm/storage/a/Aclz;->jpE:I
 
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -2191,11 +2191,11 @@
 
     if-gt v1, v4, :cond_b
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v1
 
@@ -2207,7 +2207,7 @@
 
     move-result-object v6
 
-    invoke-virtual {v1, v3, v6}, Lcom/tencent/mm/storage/h;->get(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v3, v6}, Lcom/tencent/mm/storage/Hclz;->get(ILjava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -2405,13 +2405,13 @@
 
     move-object v0, v1
 
-    check-cast v0, Lcom/tencent/mm/storage/a/a;
+    check-cast v0, Lcom/tencent/mm/storage/a/Aclz;
 
     move-object v2, v0
 
     if-eqz v2, :cond_1c
 
-    iget-object v1, v2, Lcom/tencent/mm/storage/a/a;->field_productID:Ljava/lang/String;
+    iget-object v1, v2, Lcom/tencent/mm/storage/a/Aclz;->field_productID:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -2447,7 +2447,7 @@
 
     invoke-static {v1, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-direct {p0, v2}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->b(Lcom/tencent/mm/storage/a/a;)Lcom/tencent/mm/ui/base/MMRadioImageButton;
+    invoke-direct {p0, v2}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->b(Lcom/tencent/mm/storage/a/Aclz;)Lcom/tencent/mm/ui/base/MMRadioImageButton;
 
     move-result-object v4
 
@@ -2466,9 +2466,9 @@
 
     invoke-interface {v4, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    iget-object v2, v2, Lcom/tencent/mm/storage/a/a;->field_productID:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/storage/a/Aclz;->field_productID:Ljava/lang/String;
 
-    sget v4, Lcom/tencent/mm/storage/a/a;->jpE:I
+    sget v4, Lcom/tencent/mm/storage/a/Aclz;->jpE:I
 
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -2508,7 +2508,7 @@
 
     invoke-virtual {v1, p0, v4}, Lcom/tencent/mm/pluginsdk/ui/simley/a;->a(Lcom/tencent/mm/pluginsdk/ui/simley/c;Lcom/tencent/mm/pluginsdk/ui/simley/d;)Lcom/tencent/mm/pluginsdk/ui/simley/d$a;
 
-    invoke-direct {p0, v2}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->b(Lcom/tencent/mm/storage/a/a;)Lcom/tencent/mm/ui/base/MMRadioImageButton;
+    invoke-direct {p0, v2}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->b(Lcom/tencent/mm/storage/a/Aclz;)Lcom/tencent/mm/ui/base/MMRadioImageButton;
 
     move-result-object v1
 
@@ -2687,7 +2687,7 @@
 
     .line 735
     :cond_2
-    sget v4, Lcom/tencent/mm/storage/a/a;->jpD:I
+    sget v4, Lcom/tencent/mm/storage/a/Aclz;->jpD:I
 
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -2699,7 +2699,7 @@
 
     if-nez v4, :cond_0
 
-    sget v4, Lcom/tencent/mm/storage/a/a;->jpE:I
+    sget v4, Lcom/tencent/mm/storage/a/Aclz;->jpE:I
 
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -2718,12 +2718,12 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/a/a;
+    check-cast v0, Lcom/tencent/mm/storage/a/Aclz;
 
     .line 738
     if-eqz v0, :cond_4
 
-    iget v1, v0, Lcom/tencent/mm/storage/a/a;->field_packStatus:I
+    iget v1, v0, Lcom/tencent/mm/storage/a/Aclz;->field_packStatus:I
 
     if-nez v1, :cond_4
 
@@ -2741,49 +2741,49 @@
 
     const-string/jumbo v4, "extra_id"
 
-    iget-object v5, v0, Lcom/tencent/mm/storage/a/a;->field_productID:Ljava/lang/String;
+    iget-object v5, v0, Lcom/tencent/mm/storage/a/Aclz;->field_productID:Ljava/lang/String;
 
     invoke-virtual {v1, v4, v5}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string/jumbo v4, "extra_name"
 
-    iget-object v5, v0, Lcom/tencent/mm/storage/a/a;->field_packName:Ljava/lang/String;
+    iget-object v5, v0, Lcom/tencent/mm/storage/a/Aclz;->field_packName:Ljava/lang/String;
 
     invoke-virtual {v1, v4, v5}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string/jumbo v4, "extra_copyright"
 
-    iget-object v5, v0, Lcom/tencent/mm/storage/a/a;->field_packCopyright:Ljava/lang/String;
+    iget-object v5, v0, Lcom/tencent/mm/storage/a/Aclz;->field_packCopyright:Ljava/lang/String;
 
     invoke-virtual {v1, v4, v5}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string/jumbo v4, "extra_coverurl"
 
-    iget-object v5, v0, Lcom/tencent/mm/storage/a/a;->field_packCoverUrl:Ljava/lang/String;
+    iget-object v5, v0, Lcom/tencent/mm/storage/a/Aclz;->field_packCoverUrl:Ljava/lang/String;
 
     invoke-virtual {v1, v4, v5}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string/jumbo v4, "extra_description"
 
-    iget-object v5, v0, Lcom/tencent/mm/storage/a/a;->field_packDesc:Ljava/lang/String;
+    iget-object v5, v0, Lcom/tencent/mm/storage/a/Aclz;->field_packDesc:Ljava/lang/String;
 
     invoke-virtual {v1, v4, v5}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string/jumbo v4, "extra_price"
 
-    iget-object v5, v0, Lcom/tencent/mm/storage/a/a;->field_packPrice:Ljava/lang/String;
+    iget-object v5, v0, Lcom/tencent/mm/storage/a/Aclz;->field_packPrice:Ljava/lang/String;
 
     invoke-virtual {v1, v4, v5}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string/jumbo v4, "extra_type"
 
-    iget v5, v0, Lcom/tencent/mm/storage/a/a;->field_packType:I
+    iget v5, v0, Lcom/tencent/mm/storage/a/Aclz;->field_packType:I
 
     invoke-virtual {v1, v4, v5}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     const-string/jumbo v4, "extra_flag"
 
-    iget v0, v0, Lcom/tencent/mm/storage/a/a;->field_packFlag:I
+    iget v0, v0, Lcom/tencent/mm/storage/a/Aclz;->field_packFlag:I
 
     invoke-virtual {v1, v4, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 

@@ -42,7 +42,7 @@
 
     .prologue
     .line 155
-    sget-object v0, Lcom/tencent/mm/storage/an;->aoE:[Ljava/lang/String;
+    sget-object v0, Lcom/tencent/mm/storage/ANclz;->aoE:[Ljava/lang/String;
 
     return-object v0
 .end method

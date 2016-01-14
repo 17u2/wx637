@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/model/ac;
+    check-cast v0, Lcom/tencent/mm/model/ACclz;
 
     .line 358
     const-string/jumbo v2, "!44@/B4Tb64lLpK+IBX8XDgnvok/caRG32KkgeLwtVZImYI="
@@ -87,7 +87,7 @@
     .line 359
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/d/r$2;->gij:Lcom/tencent/mm/protocal/b/anr;
 
-    invoke-interface {v0, v2}, Lcom/tencent/mm/model/ac;->a(Lcom/tencent/mm/protocal/b/anr;)V
+    invoke-interface {v0, v2}, Lcom/tencent/mm/model/ACclz;->a(Lcom/tencent/mm/protocal/b/anr;)V
 
     goto :goto_0
 

@@ -124,7 +124,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/r;
+    check-cast v0, Lcom/tencent/mm/storage/Rclz;
 
     if-eqz v0, :cond_4
 
@@ -134,11 +134,11 @@
 
     if-eqz v3, :cond_3
 
-    invoke-virtual {v8, v0}, Lcom/tencent/mm/ui/conversation/d;->k(Lcom/tencent/mm/storage/r;)Lcom/tencent/mm/ui/conversation/d$d;
+    invoke-virtual {v8, v0}, Lcom/tencent/mm/ui/conversation/d;->k(Lcom/tencent/mm/storage/Rclz;)Lcom/tencent/mm/ui/conversation/d$d;
 
     move-result-object v10
 
-    invoke-static {v0, v10}, Lcom/tencent/mm/ui/conversation/d;->a(Lcom/tencent/mm/storage/r;Lcom/tencent/mm/ui/conversation/d$d;)I
+    invoke-static {v0, v10}, Lcom/tencent/mm/ui/conversation/d;->a(Lcom/tencent/mm/storage/Rclz;Lcom/tencent/mm/ui/conversation/d$d;)I
 
     move-result v0
 

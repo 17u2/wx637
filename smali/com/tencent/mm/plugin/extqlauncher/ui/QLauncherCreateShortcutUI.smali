@@ -79,7 +79,7 @@
     if-eqz p3, :cond_1
 
     .line 68
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -180,7 +180,7 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 86
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v4
 
@@ -203,11 +203,11 @@
     if-ge v1, v0, :cond_8
 
     .line 94
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v6
 
@@ -217,7 +217,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-virtual {v6, v0}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v6, v0}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v6
 
@@ -346,7 +346,7 @@
     .line 111
     const-string/jumbo v0, "item_type"
 
-    invoke-static {v6}, Lcom/tencent/mm/plugin/base/a/a;->w(Lcom/tencent/mm/storage/k;)I
+    invoke-static {v6}, Lcom/tencent/mm/plugin/base/a/a;->w(Lcom/tencent/mm/storage/Kclz;)I
 
     move-result v9
 
@@ -365,7 +365,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-static {v6, v0}, Lcom/tencent/mm/model/i;->a(Lcom/tencent/mm/storage/k;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v6, v0}, Lcom/tencent/mm/model/Iclz;->a(Lcom/tencent/mm/storage/Kclz;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -567,7 +567,7 @@
     .line 53
     const-string/jumbo v1, "block_contact"
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v2
 

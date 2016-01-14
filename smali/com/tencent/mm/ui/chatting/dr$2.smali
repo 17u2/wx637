@@ -63,7 +63,7 @@
     .line 499
     if-eqz v0, :cond_0
 
-    iget-object v1, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v1, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     if-nez v1, :cond_2
 
@@ -82,7 +82,7 @@
 
     .line 504
     :cond_2
-    iget-object v1, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v1, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v1, v1, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
 
@@ -102,13 +102,13 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    iget-object v4, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v4, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v4, v4, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
 
     aput-object v4, v3, v7
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v4, v0, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
@@ -147,7 +147,7 @@
     invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 514
-    iget-object v3, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v3, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v3, v3, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
@@ -210,7 +210,7 @@
 
     iget-object v2, v0, Lcom/tencent/mm/ui/chatting/dr$a;->fYg:Lcom/tencent/mm/plugin/sight/decode/a/a;
 
-    iget-object v4, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v4, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v4, v4, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
 
@@ -243,7 +243,7 @@
 
     iget-object v2, v0, Lcom/tencent/mm/ui/chatting/dr$a;->fYg:Lcom/tencent/mm/plugin/sight/decode/a/a;
 
-    iget-object v4, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v4, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v4, v4, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
 
@@ -252,7 +252,7 @@
     .line 532
     invoke-static {}, Lcom/tencent/mm/ak/j;->Di()Lcom/tencent/mm/ak/n;
 
-    iget-object v1, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v1, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v1, v1, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
 
@@ -352,7 +352,7 @@
 
     .line 557
     :cond_7
-    iget-object v1, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v1, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v1, v1, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
 
@@ -469,7 +469,7 @@
     if-eq v2, v10, :cond_1
 
     .line 586
-    iget-object v1, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v1, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v1, v1, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
@@ -527,7 +527,7 @@
 
     iget-object v3, v0, Lcom/tencent/mm/ui/chatting/dr$a;->fYg:Lcom/tencent/mm/plugin/sight/decode/a/a;
 
-    iget-object v4, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v4, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v4, v4, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
 
@@ -560,7 +560,7 @@
 
     iget-object v3, v0, Lcom/tencent/mm/ui/chatting/dr$a;->fYg:Lcom/tencent/mm/plugin/sight/decode/a/a;
 
-    iget-object v4, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v4, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v4, v4, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
 
@@ -569,7 +569,7 @@
     .line 603
     invoke-static {}, Lcom/tencent/mm/ak/j;->Di()Lcom/tencent/mm/ak/n;
 
-    iget-object v2, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v2, v0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v2, v2, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
 

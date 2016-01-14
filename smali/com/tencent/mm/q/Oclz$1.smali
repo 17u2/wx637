@@ -218,7 +218,7 @@
     .line 54
     iget-object v0, p0, Lcom/tencent/mm/q/Oclz$1;->byR:Lcom/tencent/mm/q/Oclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/q/Oclz;->g(Lcom/tencent/mm/q/Oclz;)Lcom/tencent/mm/network/j;
+    invoke-static {v0}, Lcom/tencent/mm/q/Oclz;->g(Lcom/tencent/mm/q/Oclz;)Lcom/tencent/mm/network/Jclz;
 
     move-result-object v0
 
@@ -228,7 +228,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/q/Oclz$1;->byR:Lcom/tencent/mm/q/Oclz;
 
-    invoke-static {v3}, Lcom/tencent/mm/q/Oclz;->f(Lcom/tencent/mm/q/Oclz;)Lcom/tencent/mm/network/o;
+    invoke-static {v3}, Lcom/tencent/mm/q/Oclz;->f(Lcom/tencent/mm/q/Oclz;)Lcom/tencent/mm/network/Oclz;
 
     move-result-object v5
 
@@ -236,7 +236,7 @@
 
     move v3, v1
 
-    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/network/j;->a(IIILjava/lang/String;Lcom/tencent/mm/network/o;[B)V
+    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/network/Jclz;->a(IIILjava/lang/String;Lcom/tencent/mm/network/Oclz;[B)V
 
     goto :goto_2
 

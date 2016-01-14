@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/modelstat/h$1;
-.super Lcom/tencent/mm/network/m$a;
+.super Lcom/tencent/mm/network/Mclz$a;
 .source "SourceFile"
 
 
@@ -26,7 +26,7 @@
     .line 31
     iput-object p1, p0, Lcom/tencent/mm/modelstat/h$1;->bVY:Lcom/tencent/mm/modelstat/h;
 
-    invoke-direct {p0}, Lcom/tencent/mm/network/m$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/network/Mclz$a;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -59,7 +59,7 @@
 
     .line 38
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v0
 

@@ -73,16 +73,16 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/ad;
+    check-cast v0, Lcom/tencent/mm/storage/ADclz;
 
     .line 360
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/ad;->aQN()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/ADclz;->aQN()Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/ad;->aQM()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/ADclz;->aQM()Z
 
     move-result v0
 

@@ -147,11 +147,11 @@
     move-result-wide v9
 
     .line 18
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget v0, v0, Lcom/tencent/mm/model/c;->uin:I
+    iget v0, v0, Lcom/tencent/mm/model/Cclz;->uin:I
 
     if-eqz v0, :cond_1
 
@@ -165,11 +165,11 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/tencent/mm/model/c;->cachePath:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/model/Cclz;->cachePath:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -199,11 +199,11 @@
     .line 21
     const-string/jumbo v1, ""
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget v0, v0, Lcom/tencent/mm/model/c;->uin:I
+    iget v0, v0, Lcom/tencent/mm/model/Cclz;->uin:I
 
     int-to-long v3, v0
 
@@ -222,9 +222,9 @@
     if-nez v0, :cond_2
 
     .line 22
-    new-instance v0, Lcom/tencent/mm/model/b;
+    new-instance v0, Lcom/tencent/mm/model/Bclz;
 
-    invoke-direct {v0, v8}, Lcom/tencent/mm/model/b;-><init>(B)V
+    invoke-direct {v0, v8}, Lcom/tencent/mm/model/Bclz;-><init>(B)V
 
     sget-boolean v1, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 

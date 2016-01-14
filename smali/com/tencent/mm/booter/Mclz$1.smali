@@ -257,25 +257,25 @@
     const/4 v6, 0x0
 
     :try_start_0
-    invoke-static {v0, v6}, Lcom/tencent/mm/network/b;->a(Ljava/lang/String;Lcom/tencent/mm/network/b$b;)Lcom/tencent/mm/network/s;
+    invoke-static {v0, v6}, Lcom/tencent/mm/network/Bclz;->a(Ljava/lang/String;Lcom/tencent/mm/network/Bclz$b;)Lcom/tencent/mm/network/Sclz;
 
     move-result-object v3
 
     .line 94
     const/16 v6, 0x2710
 
-    invoke-virtual {v3, v6}, Lcom/tencent/mm/network/s;->setConnectTimeout(I)V
+    invoke-virtual {v3, v6}, Lcom/tencent/mm/network/Sclz;->setConnectTimeout(I)V
 
     .line 99
     const/16 v6, 0x2710
 
-    invoke-virtual {v3, v6}, Lcom/tencent/mm/network/s;->setReadTimeout(I)V
+    invoke-virtual {v3, v6}, Lcom/tencent/mm/network/Sclz;->setReadTimeout(I)V
 
     .line 100
-    invoke-virtual {v3}, Lcom/tencent/mm/network/s;->connect()V
+    invoke-virtual {v3}, Lcom/tencent/mm/network/Sclz;->connect()V
 
     .line 101
-    invoke-virtual {v3}, Lcom/tencent/mm/network/s;->getResponseCode()I
+    invoke-virtual {v3}, Lcom/tencent/mm/network/Sclz;->getResponseCode()I
 
     move-result v6
 
@@ -370,7 +370,7 @@
     if-eqz v3, :cond_0
 
     .line 112
-    iget-object v0, v3, Lcom/tencent/mm/network/s;->caU:Ljava/net/HttpURLConnection;
+    iget-object v0, v3, Lcom/tencent/mm/network/Sclz;->caU:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
 

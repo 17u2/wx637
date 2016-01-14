@@ -556,7 +556,7 @@
     :goto_8
     iput-object v0, v2, Lcom/tencent/mm/protocal/b/aat;->iKt:Ljava/lang/String;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -572,7 +572,7 @@
 
     invoke-direct {v0, v1, v3, v2}, Lcom/tencent/mm/plugin/webview/c/r;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/aat;)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 

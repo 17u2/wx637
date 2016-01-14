@@ -52,13 +52,13 @@
 
     .prologue
     .line 367
-    invoke-static {}, Lcom/tencent/mm/network/z;->Ep()Lcom/tencent/mm/network/x;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->Ep()Lcom/tencent/mm/network/Xclz;
 
     iget-wide v0, p0, Lcom/tencent/mm/network/C2Java$6;->bZW:J
 
     iget-wide v2, p0, Lcom/tencent/mm/network/C2Java$6;->bZX:J
 
-    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/network/x;->onOOBNotify(JJ)V
+    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/network/Xclz;->onOOBNotify(JJ)V
 
     .line 368
     return-void

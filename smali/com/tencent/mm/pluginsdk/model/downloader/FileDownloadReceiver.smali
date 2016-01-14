@@ -95,13 +95,13 @@
     if-nez v0, :cond_0
 
     .line 39
-    sget-object v0, Lcom/tencent/mm/model/z$a;->bti:Lcom/tencent/mm/model/z$e;
+    sget-object v0, Lcom/tencent/mm/model/Zclz$a;->bti:Lcom/tencent/mm/model/Zclz$e;
 
     if-eqz v0, :cond_3
 
-    sget-object v0, Lcom/tencent/mm/model/z$a;->bti:Lcom/tencent/mm/model/z$e;
+    sget-object v0, Lcom/tencent/mm/model/Zclz$a;->bti:Lcom/tencent/mm/model/Zclz$e;
 
-    invoke-interface {v0, v7, v7}, Lcom/tencent/mm/model/z$e;->I(II)V
+    invoke-interface {v0, v7, v7}, Lcom/tencent/mm/model/Zclz$e;->I(II)V
 
     :cond_3
     :try_start_0
@@ -201,7 +201,7 @@
     goto/16 :goto_0
 
     :cond_5
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->rm()Lcom/tencent/mm/storage/z;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->rm()Lcom/tencent/mm/storage/Zclz;
 
     move-result-object v0
 
@@ -261,7 +261,7 @@
 
     new-array v3, v7, [Ljava/lang/String;
 
-    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/storage/z;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/storage/Zclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v2
 
@@ -278,11 +278,11 @@
 
     if-eqz v0, :cond_b
 
-    new-instance v0, Lcom/tencent/mm/storage/y;
+    new-instance v0, Lcom/tencent/mm/storage/Yclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/storage/y;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/storage/Yclz;-><init>()V
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/y;->c(Landroid/database/Cursor;)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/Yclz;->c(Landroid/database/Cursor;)V
 
     :goto_3
     if-eqz v2, :cond_6
@@ -302,7 +302,7 @@
 
     sget-object v2, Lcom/tencent/mm/pluginsdk/model/downloader/FileDownloadService;->EXTRA_ID:Ljava/lang/String;
 
-    iget-wide v3, v0, Lcom/tencent/mm/storage/y;->field_downloadId:J
+    iget-wide v3, v0, Lcom/tencent/mm/storage/Yclz;->field_downloadId:J
 
     invoke-virtual {v1, v2, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 

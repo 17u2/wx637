@@ -647,14 +647,14 @@
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/model/app/v$1;->hLZ:Lcom/tencent/mm/pluginsdk/model/app/v;
 
-    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/v;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/v;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     if-nez v2, :cond_8
 
     const-string/jumbo v2, ""
 
     :goto_2
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -684,7 +684,7 @@
     :cond_8
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/model/app/v$1;->hLZ:Lcom/tencent/mm/pluginsdk/model/app/v;
 
-    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/v;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/v;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v2, v2, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
 

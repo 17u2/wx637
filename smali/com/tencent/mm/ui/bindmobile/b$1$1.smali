@@ -104,7 +104,7 @@
     iput v6, v0, Lcom/tencent/mm/modelfriend/b;->status:I
 
     .line 74
-    invoke-static {}, Lcom/tencent/mm/model/az;->ut()Lcom/tencent/mm/model/az;
+    invoke-static {}, Lcom/tencent/mm/model/AZclz;->ut()Lcom/tencent/mm/model/AZclz;
 
     move-result-object v1
 
@@ -112,7 +112,7 @@
 
     new-array v3, v5, [Ljava/lang/Object;
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/model/az;->b(I[Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/model/AZclz;->b(I[Ljava/lang/Object;)V
 
     .line 75
     invoke-static {p3}, Lcom/tencent/mm/ui/bindmobile/b;->Eu(Ljava/lang/String;)V

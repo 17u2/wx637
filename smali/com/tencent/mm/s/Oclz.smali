@@ -177,7 +177,7 @@
     invoke-direct {v1, p1, v0}, Lcom/tencent/mm/s/ADclz;-><init>(Ljava/lang/String;Ljava/util/LinkedList;)V
 
     .line 102
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

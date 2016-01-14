@@ -27,7 +27,7 @@
 
 .field public cCY:Z
 
-.field public czx:Lcom/tencent/mm/storage/k;
+.field public czx:Lcom/tencent/mm/storage/Kclz;
 
 .field public final etc:I
 

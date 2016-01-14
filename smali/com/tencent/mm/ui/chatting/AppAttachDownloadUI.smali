@@ -9,7 +9,7 @@
 
 
 # instance fields
-.field private aCM:Lcom/tencent/mm/storage/ad;
+.field private aCM:Lcom/tencent/mm/storage/ADclz;
 
 .field private ani:Ljava/lang/String;
 
@@ -647,7 +647,7 @@
     .line 736
     const-string/jumbo v2, "key_message_id"
 
-    iget-object v3, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v3, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v3, v3, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
@@ -712,7 +712,7 @@
 
     const-string/jumbo v1, "Retr_Msg_Id"
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v2, v2, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
@@ -732,9 +732,9 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/d/a/as;-><init>()V
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ADclz;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/model/c;->a(Lcom/tencent/mm/d/a/as;Lcom/tencent/mm/storage/ad;)Z
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/model/c;->a(Lcom/tencent/mm/d/a/as;Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v1
 
@@ -998,27 +998,27 @@
 
     .line 105
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rk()Lcom/tencent/mm/storage/ae;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rk()Lcom/tencent/mm/storage/AEclz;
 
     move-result-object v0
 
     iget-wide v3, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->avx:J
 
-    invoke-virtual {v0, v3, v4}, Lcom/tencent/mm/storage/ae;->dn(J)Lcom/tencent/mm/storage/ad;
+    invoke-virtual {v0, v3, v4}, Lcom/tencent/mm/storage/AEclz;->dn(J)Lcom/tencent/mm/storage/ADclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ad;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ADclz;
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v3, v0, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
@@ -1026,7 +1026,7 @@
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
 
@@ -1038,17 +1038,17 @@
     goto :goto_0
 
     :cond_2
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->jJD:Z
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
 
@@ -1058,13 +1058,13 @@
 
     if-eqz v0, :cond_4
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget v0, v0, Lcom/tencent/mm/d/b/ba;->field_isSend:I
 
     if-nez v0, :cond_4
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
 
@@ -1074,7 +1074,7 @@
 
     if-eqz v0, :cond_3
 
-    invoke-static {v0}, Lcom/tencent/mm/model/ap;->fc(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/model/APclz;->fc(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1660,7 +1660,7 @@
 
     if-nez v0, :cond_4
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget v0, v0, Lcom/tencent/mm/d/b/ba;->field_isSend:I
 
@@ -1682,7 +1682,7 @@
 
     .line 254
     :cond_6
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget v0, v0, Lcom/tencent/mm/d/b/ba;->aXV:I
 
@@ -1773,7 +1773,7 @@
 
     iput-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->dak:Lcom/tencent/mm/pluginsdk/model/app/v;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -1992,7 +1992,7 @@
 
     invoke-direct {p0}, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aXi()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -2435,7 +2435,7 @@
 
     .prologue
     .line 191
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -2488,7 +2488,7 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onResume()V
 
     .line 180
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

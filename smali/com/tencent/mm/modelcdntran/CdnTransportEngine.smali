@@ -216,7 +216,7 @@
     .line 438
     new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v1
 
@@ -1027,7 +1027,7 @@
 
     .prologue
     .line 468
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -1093,13 +1093,13 @@
 
     .prologue
     .line 384
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/q/Lclz;->byu:Lcom/tencent/mm/network/e;
+    iget-object v0, v0, Lcom/tencent/mm/q/Lclz;->byu:Lcom/tencent/mm/network/Eclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/e;->vG()Lcom/tencent/mm/network/c;
+    invoke-interface {v0}, Lcom/tencent/mm/network/Eclz;->vG()Lcom/tencent/mm/network/Cclz;
 
     move-result-object v0
 
@@ -1108,14 +1108,14 @@
 
     new-array v1, v1, [B
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/c;->qY()I
+    invoke-interface {v0}, Lcom/tencent/mm/network/Cclz;->qY()I
 
     move-result v2
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/network/c;->i([BI)V
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/network/Cclz;->i([BI)V
 
     .line 386
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

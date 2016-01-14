@@ -424,7 +424,7 @@
     const/16 v5, 0x4e20
 
     :try_start_0
-    invoke-static {p1, v2, v5}, Lcom/tencent/mm/network/b;->j(Ljava/lang/String;II)Ljava/io/InputStream;
+    invoke-static {p1, v2, v5}, Lcom/tencent/mm/network/Bclz;->j(Ljava/lang/String;II)Ljava/io/InputStream;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_6
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1051,11 +1051,11 @@
     .line 37
     new-instance v0, Ljava/io/File;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rp()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rp()Ljava/lang/String;
 
     move-result-object v1
 

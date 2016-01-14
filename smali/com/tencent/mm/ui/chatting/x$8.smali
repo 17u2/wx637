@@ -161,10 +161,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/ad;
+    check-cast v0, Lcom/tencent/mm/storage/ADclz;
 
     .line 463
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/ad;->isSystem()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/ADclz;->isSystem()Z
 
     move-result v0
 

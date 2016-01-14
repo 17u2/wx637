@@ -63,7 +63,7 @@
     check-cast v0, Lcom/tencent/mm/l/a$b;
 
     .line 84
-    iget-object v1, v0, Lcom/tencent/mm/l/a$b;->bpl:Lcom/tencent/mm/storage/j$a;
+    iget-object v1, v0, Lcom/tencent/mm/l/a$b;->bpl:Lcom/tencent/mm/storage/Jclz$a;
 
     if-eqz v1, :cond_6
 
@@ -167,18 +167,18 @@
     check-cast v0, Lcom/tencent/mm/l/a$c;
 
     .line 94
-    iget-object v1, v0, Lcom/tencent/mm/l/a$c;->bpl:Lcom/tencent/mm/storage/j$a;
+    iget-object v1, v0, Lcom/tencent/mm/l/a$c;->bpl:Lcom/tencent/mm/storage/Jclz$a;
 
     if-eqz v1, :cond_7
 
     .line 95
     iget-object v1, p0, Lcom/tencent/mm/l/a$1;->bpj:Lcom/tencent/mm/l/a;
 
-    iget-object v2, v0, Lcom/tencent/mm/l/a$c;->bpn:Lcom/tencent/mm/storage/j$a;
+    iget-object v2, v0, Lcom/tencent/mm/l/a$c;->bpn:Lcom/tencent/mm/storage/Jclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/l/a$c;->bpl:Lcom/tencent/mm/storage/j$a;
+    iget-object v0, v0, Lcom/tencent/mm/l/a$c;->bpl:Lcom/tencent/mm/storage/Jclz$a;
 
-    invoke-static {v1, v2, v0}, Lcom/tencent/mm/l/a;->a(Lcom/tencent/mm/l/a;Lcom/tencent/mm/storage/j$a;Lcom/tencent/mm/storage/j$a;)V
+    invoke-static {v1, v2, v0}, Lcom/tencent/mm/l/a;->a(Lcom/tencent/mm/l/a;Lcom/tencent/mm/storage/Jclz$a;Lcom/tencent/mm/storage/Jclz$a;)V
 
     .line 101
     :cond_5

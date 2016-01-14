@@ -19,7 +19,7 @@
 
 .field bpg:Z
 
-.field czx:Lcom/tencent/mm/storage/k;
+.field czx:Lcom/tencent/mm/storage/Kclz;
 
 .field final synthetic kwk:Lcom/tencent/mm/ui/conversation/c;
 
@@ -50,7 +50,7 @@
     iput-boolean v1, p0, Lcom/tencent/mm/ui/conversation/c$e;->bpg:Z
 
     .line 505
-    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/c$e;->czx:Lcom/tencent/mm/storage/k;
+    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/c$e;->czx:Lcom/tencent/mm/storage/Kclz;
 
     .line 506
     iput-object v0, p0, Lcom/tencent/mm/ui/conversation/c$e;->kwz:Ljava/lang/Integer;

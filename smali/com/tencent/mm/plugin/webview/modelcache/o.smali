@@ -1377,7 +1377,7 @@
     const/16 v3, 0x2710
 
     :try_start_1
-    invoke-static {p0, v1, v3}, Lcom/tencent/mm/network/b;->j(Ljava/lang/String;II)Ljava/io/InputStream;
+    invoke-static {p0, v1, v3}, Lcom/tencent/mm/network/Bclz;->j(Ljava/lang/String;II)Ljava/io/InputStream;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_a
     .catchall {:try_start_1 .. :try_end_1} :catchall_1

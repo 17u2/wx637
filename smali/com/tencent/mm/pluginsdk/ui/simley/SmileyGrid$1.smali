@@ -99,12 +99,12 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/a/c;
+    check-cast v0, Lcom/tencent/mm/storage/a/Cclz;
 
     .line 123
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid$1;->iaE:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid;
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid;->a(Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid;Lcom/tencent/mm/storage/a/c;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid;->a(Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid;Lcom/tencent/mm/storage/a/Cclz;)V
 
     goto :goto_0
 

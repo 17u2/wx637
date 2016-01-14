@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private amX:Lcom/tencent/mm/storage/g;
+.field private amX:Lcom/tencent/mm/storage/Gclz;
 
 
 # direct methods
@@ -19,13 +19,13 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 21
-    new-instance v0, Lcom/tencent/mm/storage/g;
+    new-instance v0, Lcom/tencent/mm/storage/Gclz;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v2, Lcom/tencent/mm/storage/j;->bpW:Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/storage/Jclz;->bpW:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -41,9 +41,9 @@
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/storage/g;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/storage/Gclz;-><init>(Ljava/lang/String;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/app/plugin/a/b;->amX:Lcom/tencent/mm/storage/g;
+    iput-object v0, p0, Lcom/tencent/mm/app/plugin/a/b;->amX:Lcom/tencent/mm/storage/Gclz;
 
     .line 22
     const-string/jumbo v0, "!56@/B4Tb64lLpIRP68/fkv68wdny70logrGavHhEc8vXRtXDiMB7ipI9A=="
@@ -101,9 +101,9 @@
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 28
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/a/b;->amX:Lcom/tencent/mm/storage/g;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/a/b;->amX:Lcom/tencent/mm/storage/Gclz;
 
-    invoke-virtual {v0, p1, p2}, Lcom/tencent/mm/storage/g;->set(ILjava/lang/Object;)V
+    invoke-virtual {v0, p1, p2}, Lcom/tencent/mm/storage/Gclz;->set(ILjava/lang/Object;)V
 
     .line 29
     return-void
@@ -150,9 +150,9 @@
 
     .line 67
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/a/b;->amX:Lcom/tencent/mm/storage/g;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/a/b;->amX:Lcom/tencent/mm/storage/Gclz;
 
-    invoke-virtual {v0, p1, p2}, Lcom/tencent/mm/storage/g;->getInt(II)I
+    invoke-virtual {v0, p1, p2}, Lcom/tencent/mm/storage/Gclz;->getInt(II)I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -209,9 +209,9 @@
 
     .line 57
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/a/b;->amX:Lcom/tencent/mm/storage/g;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/a/b;->amX:Lcom/tencent/mm/storage/Gclz;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/tencent/mm/storage/g;->getLong(IJ)J
+    invoke-virtual {v0, p1, p2, p3}, Lcom/tencent/mm/storage/Gclz;->getLong(IJ)J
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -264,9 +264,9 @@
 
     .line 47
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/a/b;->amX:Lcom/tencent/mm/storage/g;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/a/b;->amX:Lcom/tencent/mm/storage/Gclz;
 
-    invoke-virtual {v0, p1, p2}, Lcom/tencent/mm/storage/g;->get(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, p2}, Lcom/tencent/mm/storage/Gclz;->get(ILjava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -326,9 +326,9 @@
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 34
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/a/b;->amX:Lcom/tencent/mm/storage/g;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/a/b;->amX:Lcom/tencent/mm/storage/Gclz;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/tencent/mm/storage/g;->setLong(IJ)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/tencent/mm/storage/Gclz;->setLong(IJ)V
 
     .line 35
     return-void
@@ -374,13 +374,13 @@
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 40
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/a/b;->amX:Lcom/tencent/mm/storage/g;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/a/b;->amX:Lcom/tencent/mm/storage/Gclz;
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
 
-    invoke-virtual {v0, p1, v1}, Lcom/tencent/mm/storage/g;->set(ILjava/lang/Object;)V
+    invoke-virtual {v0, p1, v1}, Lcom/tencent/mm/storage/Gclz;->set(ILjava/lang/Object;)V
 
     .line 41
     return-void

@@ -39,7 +39,7 @@
     return-object v0
 .end method
 
-.method public final createSubCore()Lcom/tencent/mm/model/ae;
+.method public final createSubCore()Lcom/tencent/mm/model/AEclz;
     .locals 1
 
     .prologue

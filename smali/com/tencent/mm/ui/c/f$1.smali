@@ -139,11 +139,11 @@
     invoke-virtual {v0, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
     .line 53
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rL()Lcom/tencent/mm/model/b/b;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rL()Lcom/tencent/mm/model/b/Bclz;
 
     move-result-object v0
 
@@ -151,14 +151,14 @@
 
     iget-object v1, v1, Lcom/tencent/mm/ui/c/f;->jJA:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/b/b;->ft(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/b/Bclz;->ft(Ljava/lang/String;)V
 
     .line 54
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rL()Lcom/tencent/mm/model/b/b;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rL()Lcom/tencent/mm/model/b/Bclz;
 
     move-result-object v0
 
@@ -166,7 +166,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/ui/c/f;->jJB:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/b/b;->ft(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/b/Bclz;->ft(Ljava/lang/String;)V
 
     .line 55
     sget-object v0, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;

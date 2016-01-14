@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/webview/d/c$3;
-.super Lcom/tencent/mm/network/m$a;
+.super Lcom/tencent/mm/network/Mclz$a;
 .source "SourceFile"
 
 
@@ -28,7 +28,7 @@
     .line 435
     iput-object p1, p0, Lcom/tencent/mm/plugin/webview/d/c$3;->hAS:Lcom/tencent/mm/plugin/webview/d/c;
 
-    invoke-direct {p0}, Lcom/tencent/mm/network/m$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/network/Mclz$a;-><init>()V
 
     .line 436
     const/4 v0, 0x0

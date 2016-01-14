@@ -69,7 +69,7 @@
 
     iget-object v4, v4, Lcom/tencent/mm/d/a/ij$a;->atr:Ljava/lang/String;
 
-    invoke-interface {v3, v4}, Lcom/tencent/mm/pluginsdk/h$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/c;
+    invoke-interface {v3, v4}, Lcom/tencent/mm/pluginsdk/h$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 
     move-result-object v3
 
@@ -78,7 +78,7 @@
 
     iget-object v4, v4, Lcom/tencent/mm/ui/chatting/ChattingUI$a$2;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v4, v4, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     if-eqz v4, :cond_0
 
@@ -100,7 +100,7 @@
 
     iget-object v5, v5, Lcom/tencent/mm/ui/chatting/ChattingUI$a$2;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v5, v5, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v5, v5, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v5, v5, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -118,7 +118,7 @@
 
     iget-object v5, v5, Lcom/tencent/mm/ui/chatting/ChattingUI$a$2;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v5, v5, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v5, v5, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v5, v5, Lcom/tencent/mm/d/b/o;->field_encryptUsername:Ljava/lang/String;
 
@@ -165,7 +165,7 @@
 
     move-result-object v4
 
-    iput-object v3, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->dbw:Lcom/tencent/mm/storage/a/c;
+    iput-object v3, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->dbw:Lcom/tencent/mm/storage/a/Cclz;
 
     iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/n;
 
@@ -198,7 +198,7 @@
 
     .line 1028
     :cond_4
-    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->dbw:Lcom/tencent/mm/storage/a/c;
+    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->dbw:Lcom/tencent/mm/storage/a/Cclz;
 
     if-eqz v0, :cond_5
 
@@ -222,19 +222,19 @@
     :cond_6
     if-eqz v3, :cond_7
 
-    invoke-virtual {v3}, Lcom/tencent/mm/storage/a/c;->aRU()Z
+    invoke-virtual {v3}, Lcom/tencent/mm/storage/a/Cclz;->aRU()Z
 
     move-result v0
 
     if-eqz v0, :cond_7
 
-    iget-object v0, v3, Lcom/tencent/mm/storage/a/c;->field_groupId:Ljava/lang/String;
+    iget-object v0, v3, Lcom/tencent/mm/storage/a/Cclz;->field_groupId:Ljava/lang/String;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/storage/a/c;->xQ()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/tencent/mm/storage/a/Cclz;->xQ()Ljava/lang/String;
 
     move-result-object v5
 
-    invoke-virtual {v3, v0, v5}, Lcom/tencent/mm/storage/a/c;->cg(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v3, v0, v5}, Lcom/tencent/mm/storage/a/Cclz;->cg(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

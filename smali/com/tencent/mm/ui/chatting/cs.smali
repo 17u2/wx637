@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/aa;
+.implements Lcom/tencent/mm/model/AAclz;
 
 
 # instance fields
@@ -51,7 +51,7 @@
     return-void
 .end method
 
-.method public final a(Lcom/tencent/mm/storage/ad;)V
+.method public final a(Lcom/tencent/mm/storage/ADclz;)V
     .locals 3
 
     .prologue
@@ -77,7 +77,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/ad;->aQJ()Z
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/ADclz;->aQJ()Z
 
     move-result v0
 
@@ -156,9 +156,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/ad;
+    check-cast v0, Lcom/tencent/mm/storage/ADclz;
 
-    invoke-virtual {v1, v0, v2, p2}, Lcom/tencent/mm/ui/chatting/cx;->a(Lcom/tencent/mm/storage/ad;Landroid/app/Activity;Z)Z
+    invoke-virtual {v1, v0, v2, p2}, Lcom/tencent/mm/ui/chatting/cx;->a(Lcom/tencent/mm/storage/ADclz;Landroid/app/Activity;Z)Z
 
     move-result v0
 
@@ -189,12 +189,12 @@
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 76
-    new-instance v1, Lcom/tencent/mm/storage/ad;
+    new-instance v1, Lcom/tencent/mm/storage/ADclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/storage/ad;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/storage/ADclz;-><init>()V
 
     .line 77
-    invoke-virtual {v1, p1}, Lcom/tencent/mm/storage/ad;->setContent(Ljava/lang/String;)V
+    invoke-virtual {v1, p1}, Lcom/tencent/mm/storage/ADclz;->setContent(Ljava/lang/String;)V
 
     .line 78
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -234,7 +234,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -267,7 +267,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/ad;
+    check-cast v0, Lcom/tencent/mm/storage/ADclz;
 
     .line 50
     iget-object v3, v0, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
@@ -284,7 +284,7 @@
 
     if-eqz v3, :cond_1
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/ad;->aQJ()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/ADclz;->aQJ()Z
 
     move-result v3
 

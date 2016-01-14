@@ -73,11 +73,11 @@
     iput-object v0, p0, Lcom/tencent/mm/modelsearch/k$a;->bRw:Ljava/util/HashMap;
 
     .line 180
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/model/c;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v0, v0, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
 
     iput-object v0, p0, Lcom/tencent/mm/modelsearch/k$a;->bRx:Lcom/tencent/mm/aw/g;
 

@@ -86,7 +86,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->khv:Ljava/util/Map;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/model/f;->b(Ljava/lang/String;Ljava/util/Map;)Z
+    invoke-static {v0, v1}, Lcom/tencent/mm/model/Fclz;->b(Ljava/lang/String;Ljava/util/Map;)Z
 
     .line 1556
     :goto_0

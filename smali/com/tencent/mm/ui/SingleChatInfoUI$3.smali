@@ -126,22 +126,22 @@
     if-eqz v2, :cond_0
 
     .line 219
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/model/c;->rj()Lcom/tencent/mm/storage/al;
+    invoke-virtual {v2}, Lcom/tencent/mm/model/Cclz;->rj()Lcom/tencent/mm/storage/ALclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/storage/al;->Dv(Ljava/lang/String;)Lcom/tencent/mm/storage/ak;
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/storage/ALclz;->Dv(Ljava/lang/String;)Lcom/tencent/mm/storage/AKclz;
 
     move-result-object v2
 
     .line 220
     if-eqz v2, :cond_0
 
-    iget-object v3, v2, Lcom/tencent/mm/storage/ak;->field_encryptUsername:Ljava/lang/String;
+    iget-object v3, v2, Lcom/tencent/mm/storage/AKclz;->field_encryptUsername:Ljava/lang/String;
 
     invoke-static {v3}, Lcom/tencent/mm/platformtools/t;->jY(Ljava/lang/String;)Z
 
@@ -150,7 +150,7 @@
     if-nez v3, :cond_0
 
     .line 221
-    iget-object v0, v2, Lcom/tencent/mm/storage/ak;->field_conRemark:Ljava/lang/String;
+    iget-object v0, v2, Lcom/tencent/mm/storage/AKclz;->field_conRemark:Ljava/lang/String;
 
     .line 225
     :cond_0
@@ -207,15 +207,15 @@
     invoke-virtual {v2, v0, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     .line 235
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 

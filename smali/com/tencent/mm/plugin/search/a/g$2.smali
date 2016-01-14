@@ -63,7 +63,7 @@
 
     invoke-direct {v1, v0, v2}, Lcom/tencent/mm/af/j;-><init>(II)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

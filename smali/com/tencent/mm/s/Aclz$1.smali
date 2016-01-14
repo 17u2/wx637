@@ -422,15 +422,15 @@
     goto :goto_4
 
     :cond_c
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v5
 
-    invoke-virtual {v5}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v5}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v5
 
-    invoke-virtual {v5, v0}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v5, v0}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v5
 
@@ -442,7 +442,7 @@
 
     if-eqz v6, :cond_d
 
-    invoke-virtual {v5}, Lcom/tencent/mm/storage/k;->aPT()Z
+    invoke-virtual {v5}, Lcom/tencent/mm/storage/Kclz;->aPT()Z
 
     move-result v6
 
@@ -472,10 +472,10 @@
 
     if-eqz v6, :cond_f
 
-    invoke-virtual {v5, v0}, Lcom/tencent/mm/storage/k;->setUsername(Ljava/lang/String;)V
+    invoke-virtual {v5, v0}, Lcom/tencent/mm/storage/Kclz;->setUsername(Ljava/lang/String;)V
 
     :cond_f
-    invoke-static {v5, v4, v1}, Lcom/tencent/mm/s/Aclz;->a(Lcom/tencent/mm/storage/k;Lcom/tencent/mm/s/Kclz;Ljava/util/List;)Z
+    invoke-static {v5, v4, v1}, Lcom/tencent/mm/s/Aclz;->a(Lcom/tencent/mm/storage/Kclz;Lcom/tencent/mm/s/Kclz;Ljava/util/List;)Z
 
     move-result v0
 

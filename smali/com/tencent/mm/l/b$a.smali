@@ -19,7 +19,7 @@
 
 .field bpk:I
 
-.field bpl:Lcom/tencent/mm/storage/j$a;
+.field bpl:Lcom/tencent/mm/storage/Jclz$a;
 
 .field final synthetic bpu:Lcom/tencent/mm/l/b;
 

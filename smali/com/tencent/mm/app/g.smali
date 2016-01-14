@@ -876,13 +876,13 @@
     invoke-interface {v0, v3}, Lcom/tencent/mm/sdk/b/c;->aa(Landroid/content/Context;)V
 
     .line 137
-    sget-object v3, Lcom/tencent/mm/model/ag;->btl:Lcom/tencent/mm/model/ag;
+    sget-object v3, Lcom/tencent/mm/model/AGclz;->btl:Lcom/tencent/mm/model/AGclz;
 
     const-string/jumbo v4, "last_login_uin"
 
     sget-object v5, Lcom/tencent/mm/app/g;->aly:Ljava/lang/String;
 
-    invoke-virtual {v3, v4, v5}, Lcom/tencent/mm/model/ag;->x(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v3, v4, v5}, Lcom/tencent/mm/model/AGclz;->x(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 138
     invoke-static {v0}, Lcom/tencent/mm/sdk/b/b;->a(Lcom/tencent/mm/sdk/b/c;)V
@@ -1021,7 +1021,7 @@
     :cond_1
     sget-object v0, Lcom/tencent/mm/compatible/util/d;->bpW:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/bf;->fl(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/tencent/mm/model/BFclz;->fl(Ljava/lang/String;)V
 
     move v0, v2
 
@@ -1168,7 +1168,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/model/bf;->uA()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/BFclz;->uA()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1194,13 +1194,13 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    sget-object v1, Lcom/tencent/mm/model/ag;->btl:Lcom/tencent/mm/model/ag;
+    sget-object v1, Lcom/tencent/mm/model/AGclz;->btl:Lcom/tencent/mm/model/AGclz;
 
     const-string/jumbo v5, "last_login_uin"
 
     sget-object v6, Lcom/tencent/mm/app/g;->aly:Ljava/lang/String;
 
-    invoke-virtual {v1, v5, v6}, Lcom/tencent/mm/model/ag;->x(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v5, v6}, Lcom/tencent/mm/model/AGclz;->x(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1987,13 +1987,13 @@
 
     .prologue
     .line 75
-    sget-object v0, Lcom/tencent/mm/model/ag;->btl:Lcom/tencent/mm/model/ag;
+    sget-object v0, Lcom/tencent/mm/model/AGclz;->btl:Lcom/tencent/mm/model/AGclz;
 
     const-string/jumbo v1, "login_weixin_username"
 
     const-string/jumbo v2, ""
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/model/ag;->x(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/model/AGclz;->x(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -2005,13 +2005,13 @@
     if-eqz v1, :cond_0
 
     .line 77
-    sget-object v0, Lcom/tencent/mm/model/ag;->btl:Lcom/tencent/mm/model/ag;
+    sget-object v0, Lcom/tencent/mm/model/AGclz;->btl:Lcom/tencent/mm/model/AGclz;
 
     const-string/jumbo v1, "login_user_name"
 
     const-string/jumbo v2, "never_login_crash"
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/model/ag;->x(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/model/AGclz;->x(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -3029,13 +3029,13 @@
     .line 533
     const-string/jumbo v2, "userName"
 
-    sget-object v3, Lcom/tencent/mm/model/ag;->btl:Lcom/tencent/mm/model/ag;
+    sget-object v3, Lcom/tencent/mm/model/AGclz;->btl:Lcom/tencent/mm/model/AGclz;
 
     const-string/jumbo v4, "login_user_name"
 
     const-string/jumbo v5, "never_login_crash"
 
-    invoke-virtual {v3, v4, v5}, Lcom/tencent/mm/model/ag;->x(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v3, v4, v5}, Lcom/tencent/mm/model/AGclz;->x(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 

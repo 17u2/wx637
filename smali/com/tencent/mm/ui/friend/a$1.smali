@@ -22,20 +22,20 @@
 
 .field final synthetic cia:I
 
-.field final synthetic fmK:Lcom/tencent/mm/storage/k;
+.field final synthetic fmK:Lcom/tencent/mm/storage/Kclz;
 
 .field final synthetic kyR:Lcom/tencent/mm/ui/friend/a;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/friend/a;Lcom/tencent/mm/storage/k;ILjava/lang/String;)V
+.method constructor <init>(Lcom/tencent/mm/ui/friend/a;Lcom/tencent/mm/storage/Kclz;ILjava/lang/String;)V
     .locals 1
 
     .prologue
     .line 39
     iput-object p1, p0, Lcom/tencent/mm/ui/friend/a$1;->kyR:Lcom/tencent/mm/ui/friend/a;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/friend/a$1;->fmK:Lcom/tencent/mm/storage/k;
+    iput-object p2, p0, Lcom/tencent/mm/ui/friend/a$1;->fmK:Lcom/tencent/mm/storage/Kclz;
 
     iput p3, p0, Lcom/tencent/mm/ui/friend/a$1;->cia:I
 
@@ -63,9 +63,9 @@
     if-eqz p1, :cond_0
 
     .line 44
-    iget-object v0, p0, Lcom/tencent/mm/ui/friend/a$1;->fmK:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/ui/friend/a$1;->fmK:Lcom/tencent/mm/storage/Kclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/friend/a;->R(Lcom/tencent/mm/storage/k;)V
+    invoke-static {v0}, Lcom/tencent/mm/ui/friend/a;->R(Lcom/tencent/mm/storage/Kclz;)V
 
     .line 45
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/a$1;->kyR:Lcom/tencent/mm/ui/friend/a;

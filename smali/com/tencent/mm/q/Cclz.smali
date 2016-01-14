@@ -16,5 +16,5 @@
 .method public abstract b(Lcom/tencent/mm/protocal/b/AFclz;)Lcom/tencent/mm/q/Cclz$a;
 .end method
 
-.method public abstract d(Lcom/tencent/mm/storage/ad;)V
+.method public abstract d(Lcom/tencent/mm/storage/ADclz;)V
 .end method

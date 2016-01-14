@@ -71,7 +71,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$40;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     if-eqz v2, :cond_2
 
@@ -99,7 +99,7 @@
     if-eqz v2, :cond_1
 
     .line 10466
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 
@@ -113,7 +113,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$40;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v5, v5, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v5, v5, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v5, v5, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -175,7 +175,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$40;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v5, v5, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v5, v5, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     aput-object v5, v4, v6
 

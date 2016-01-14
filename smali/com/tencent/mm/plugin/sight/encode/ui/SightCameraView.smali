@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/d$a;
+.implements Lcom/tencent/mm/model/Dclz$a;
 .implements Lcom/tencent/mm/plugin/sight/encode/a/b$a;
 
 
@@ -17,7 +17,7 @@
 
 
 # instance fields
-.field private bfG:Lcom/tencent/mm/model/d;
+.field private bfG:Lcom/tencent/mm/model/Dclz;
 
 .field private fSF:J
 
@@ -147,11 +147,11 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraView;->gcY:Ljava/lang/Runnable;
 
     .line 137
-    new-instance v0, Lcom/tencent/mm/model/d;
+    new-instance v0, Lcom/tencent/mm/model/Dclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/model/d;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/model/Dclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraView;->bfG:Lcom/tencent/mm/model/d;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraView;->bfG:Lcom/tencent/mm/model/Dclz;
 
     invoke-static {}, Lcom/tencent/mm/plugin/sight/base/c;->aqu()Z
 
@@ -422,7 +422,7 @@
 
     .line 344
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v0
 
@@ -495,7 +495,7 @@
     invoke-interface {v0}, Lcom/tencent/mm/plugin/sight/encode/a/b;->ark()V
 
     .line 251
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v0
 
@@ -560,18 +560,18 @@
 
     .line 397
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/u;->resume()V
+    invoke-interface {v0}, Lcom/tencent/mm/model/Uclz;->resume()V
 
     .line 398
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lf()Lcom/tencent/mm/model/q;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lf()Lcom/tencent/mm/model/Qclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/q;->mt()V
+    invoke-interface {v0}, Lcom/tencent/mm/model/Qclz;->mt()V
 
     .line 399
     return-void
@@ -600,18 +600,18 @@
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraView;->arV()V
 
     .line 384
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/u;->pause()V
+    invoke-interface {v0}, Lcom/tencent/mm/model/Uclz;->pause()V
 
     .line 385
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lf()Lcom/tencent/mm/model/q;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lf()Lcom/tencent/mm/model/Qclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/q;->mu()V
+    invoke-interface {v0}, Lcom/tencent/mm/model/Qclz;->mu()V
 
     .line 386
     return-void
@@ -746,7 +746,7 @@
 
     .line 318
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v0
 
@@ -759,7 +759,7 @@
     invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
 
     .line 320
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v0
 
@@ -859,9 +859,9 @@
 
     .prologue
     .line 402
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraView;->bfG:Lcom/tencent/mm/model/d;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraView;->bfG:Lcom/tencent/mm/model/Dclz;
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/model/d;->a(Lcom/tencent/mm/model/d$a;)Z
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/model/Dclz;->a(Lcom/tencent/mm/model/Dclz$a;)Z
 
     .line 403
     return-void
@@ -872,11 +872,11 @@
 
     .prologue
     .line 406
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraView;->bfG:Lcom/tencent/mm/model/d;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraView;->bfG:Lcom/tencent/mm/model/Dclz;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/d;->aI(Z)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/Dclz;->aI(Z)Z
 
     .line 407
     return-void

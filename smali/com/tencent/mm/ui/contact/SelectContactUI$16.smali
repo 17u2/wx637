@@ -58,7 +58,7 @@
     const/4 v5, 0x0
 
     .line 557
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v2
 
@@ -98,7 +98,7 @@
     invoke-static {v1, v4, v7}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 562
-    invoke-static {v3}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -135,19 +135,19 @@
     invoke-direct/range {v0 .. v11}, Lcom/tencent/mm/z/k;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILcom/tencent/mm/q/Eclz;ILjava/lang/String;Ljava/lang/String;ZI)V
 
     .line 567
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
     invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 568
-    iget-object v1, v0, Lcom/tencent/mm/z/k;->arO:Lcom/tencent/mm/storage/ad;
+    iget-object v1, v0, Lcom/tencent/mm/z/k;->arO:Lcom/tencent/mm/storage/ADclz;
 
     if-eqz v1, :cond_0
 
     .line 569
-    iget-object v0, v0, Lcom/tencent/mm/z/k;->arO:Lcom/tencent/mm/storage/ad;
+    iget-object v0, v0, Lcom/tencent/mm/z/k;->arO:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v9, v0, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
 

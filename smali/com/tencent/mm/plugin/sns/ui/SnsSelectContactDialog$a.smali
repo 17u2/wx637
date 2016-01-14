@@ -199,7 +199,7 @@
 
     move-result v0
 
-    sget v2, Lcom/tencent/mm/storage/i;->jkT:I
+    sget v2, Lcom/tencent/mm/storage/Iclz;->jkT:I
 
     if-lt v0, v2, :cond_0
 

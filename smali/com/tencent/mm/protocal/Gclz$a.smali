@@ -75,7 +75,7 @@
     .line 95
     const-string/jumbo v0, ""
 
-    invoke-static {v0}, Lcom/tencent/mm/model/ah;->eX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/model/AHclz;->eX(Ljava/lang/String;)Ljava/lang/String;
 
     .line 97
     const-string/jumbo v0, "!32@/B4Tb64lLpLT9v0+cA9vJqFBOPSOvtFn"
@@ -143,7 +143,7 @@
     iput-object v0, v2, Lcom/tencent/mm/protocal/b/BUclz;->imo:Ljava/lang/String;
 
     .line 111
-    invoke-static {}, Lcom/tencent/mm/model/ar;->tY()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/ARclz;->tY()Ljava/lang/String;
 
     move-result-object v0
 
@@ -153,14 +153,14 @@
     iput v10, v2, Lcom/tencent/mm/protocal/b/BUclz;->imq:I
 
     .line 113
-    invoke-static {}, Lcom/tencent/mm/model/ah;->th()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->th()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, v2, Lcom/tencent/mm/protocal/b/BUclz;->imr:Ljava/lang/String;
 
     .line 114
-    invoke-static {}, Lcom/tencent/mm/model/ar;->tX()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/ARclz;->tX()Ljava/lang/String;
 
     move-result-object v0
 
@@ -172,7 +172,7 @@
     iput-object v0, v2, Lcom/tencent/mm/protocal/b/BUclz;->dnC:Ljava/lang/String;
 
     .line 116
-    invoke-static {}, Lcom/tencent/mm/storage/aj;->aRB()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/storage/AJclz;->aRB()Ljava/lang/String;
 
     move-result-object v0
 
@@ -205,13 +205,13 @@
     iput-object v0, v2, Lcom/tencent/mm/protocal/b/BUclz;->dnA:Ljava/lang/String;
 
     .line 120
-    invoke-static {}, Lcom/tencent/mm/model/ah;->te()Lcom/tencent/mm/storage/g;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->te()Lcom/tencent/mm/storage/Gclz;
 
     move-result-object v0
 
     const/16 v3, 0x12
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/storage/g;->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/storage/Gclz;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 

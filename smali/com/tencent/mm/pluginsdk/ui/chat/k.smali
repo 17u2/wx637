@@ -14,7 +14,7 @@
 # instance fields
 .field cIk:Landroid/view/View;
 
-.field dbw:Lcom/tencent/mm/storage/a/c;
+.field dbw:Lcom/tencent/mm/storage/a/Cclz;
 
 .field private gAy:Landroid/view/View;
 

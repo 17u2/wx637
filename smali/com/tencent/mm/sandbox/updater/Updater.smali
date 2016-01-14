@@ -90,7 +90,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/sandbox/updater/Updater;Landroid/content/Intent;Lcom/tencent/mm/network/e;Lcom/tencent/mm/sandbox/a/a;)V
+.method static synthetic a(Lcom/tencent/mm/sandbox/updater/Updater;Landroid/content/Intent;Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/sandbox/a/a;)V
     .locals 2
 
     .prologue
@@ -111,11 +111,11 @@
 
     const-string/jumbo v0, "intent_extra_session"
 
-    invoke-interface {p2}, Lcom/tencent/mm/network/e;->vG()Lcom/tencent/mm/network/c;
+    invoke-interface {p2}, Lcom/tencent/mm/network/Eclz;->vG()Lcom/tencent/mm/network/Cclz;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/tencent/mm/network/c;->ta()[B
+    invoke-interface {v1}, Lcom/tencent/mm/network/Cclz;->ta()[B
 
     move-result-object v1
 
@@ -123,11 +123,11 @@
 
     const-string/jumbo v0, "intent_extra_cookie"
 
-    invoke-interface {p2}, Lcom/tencent/mm/network/e;->vG()Lcom/tencent/mm/network/c;
+    invoke-interface {p2}, Lcom/tencent/mm/network/Eclz;->vG()Lcom/tencent/mm/network/Cclz;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/tencent/mm/network/c;->vB()[B
+    invoke-interface {v1}, Lcom/tencent/mm/network/Cclz;->vB()[B
 
     move-result-object v1
 
@@ -135,11 +135,11 @@
 
     const-string/jumbo v0, "intent_extra_ecdhkey"
 
-    invoke-interface {p2}, Lcom/tencent/mm/network/e;->vG()Lcom/tencent/mm/network/c;
+    invoke-interface {p2}, Lcom/tencent/mm/network/Eclz;->vG()Lcom/tencent/mm/network/Cclz;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/tencent/mm/network/c;->vD()[B
+    invoke-interface {v1}, Lcom/tencent/mm/network/Cclz;->vD()[B
 
     move-result-object v1
 
@@ -147,11 +147,11 @@
 
     const-string/jumbo v0, "intent_extra_uin"
 
-    invoke-interface {p2}, Lcom/tencent/mm/network/e;->vG()Lcom/tencent/mm/network/c;
+    invoke-interface {p2}, Lcom/tencent/mm/network/Eclz;->vG()Lcom/tencent/mm/network/Cclz;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/tencent/mm/network/c;->qY()I
+    invoke-interface {v1}, Lcom/tencent/mm/network/Cclz;->qY()I
 
     move-result v1
 
@@ -456,13 +456,13 @@
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
     .line 109
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lc()Lcom/tencent/mm/model/y;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lc()Lcom/tencent/mm/model/Yclz;
 
     move-result-object v0
 
     const/16 v2, 0x22
 
-    invoke-interface {v0, v2}, Lcom/tencent/mm/model/y;->cancel(I)V
+    invoke-interface {v0, v2}, Lcom/tencent/mm/model/Yclz;->cancel(I)V
 
     .line 111
     const-string/jumbo v0, "!32@/B4Tb64lLpJ7QNEsxPPC97dw8tpB2lT1"
@@ -582,13 +582,13 @@
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
     .line 193
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lc()Lcom/tencent/mm/model/y;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lc()Lcom/tencent/mm/model/Yclz;
 
     move-result-object v0
 
     const/16 v1, 0x22
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/model/y;->cancel(I)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/model/Yclz;->cancel(I)V
 
     .line 195
     const-string/jumbo v0, "!32@/B4Tb64lLpJ7QNEsxPPC97dw8tpB2lT1"
@@ -653,13 +653,13 @@
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
     .line 161
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lc()Lcom/tencent/mm/model/y;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lc()Lcom/tencent/mm/model/Yclz;
 
     move-result-object v0
 
     const/16 v1, 0x22
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/model/y;->cancel(I)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/model/Yclz;->cancel(I)V
 
     .line 163
     const-string/jumbo v0, "!32@/B4Tb64lLpJ7QNEsxPPC97dw8tpB2lT1"
@@ -845,7 +845,7 @@
 
     .prologue
     .line 82
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -862,7 +862,7 @@
 
     .prologue
     .line 422
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -893,11 +893,11 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 427
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rh()Lcom/tencent/mm/ae/c;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/c;
 
     move-result-object v0
 
@@ -947,7 +947,7 @@
     invoke-direct {v0, p1}, Lcom/tencent/mm/sandbox/a/a;-><init>(I)V
 
     .line 401
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -1023,17 +1023,17 @@
     check-cast p4, Lcom/tencent/mm/sandbox/a/a;
 
     .line 228
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    new-instance v1, Lcom/tencent/mm/model/aq;
+    new-instance v1, Lcom/tencent/mm/model/AQclz;
 
     new-instance v2, Lcom/tencent/mm/sandbox/updater/Updater$3;
 
     invoke-direct {v2, p0, p4}, Lcom/tencent/mm/sandbox/updater/Updater$3;-><init>(Lcom/tencent/mm/sandbox/updater/Updater;Lcom/tencent/mm/sandbox/a/a;)V
 
-    invoke-direct {v1, v2}, Lcom/tencent/mm/model/aq;-><init>(Lcom/tencent/mm/model/aq$a;)V
+    invoke-direct {v1, v2}, Lcom/tencent/mm/model/AQclz;-><init>(Lcom/tencent/mm/model/AQclz$a;)V
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
@@ -1119,7 +1119,7 @@
 
     .prologue
     .line 368
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

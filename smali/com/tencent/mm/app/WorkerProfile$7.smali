@@ -406,11 +406,11 @@
     move-result-object v12
 
     .line 877
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lc()Lcom/tencent/mm/model/y;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lc()Lcom/tencent/mm/model/Yclz;
 
     move-result-object v1
 
-    invoke-interface/range {v1 .. v13}, Lcom/tencent/mm/model/y;->a(Landroid/app/Notification;ILandroid/app/PendingIntent;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/graphics/Bitmap;Ljava/lang/String;Landroid/app/PendingIntent;Ljava/lang/String;Landroid/app/PendingIntent;Ljava/lang/String;)Landroid/app/Notification;
+    invoke-interface/range {v1 .. v13}, Lcom/tencent/mm/model/Yclz;->a(Landroid/app/Notification;ILandroid/app/PendingIntent;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/graphics/Bitmap;Ljava/lang/String;Landroid/app/PendingIntent;Ljava/lang/String;Landroid/app/PendingIntent;Ljava/lang/String;)Landroid/app/Notification;
 
     move-result-object v1
 
@@ -452,7 +452,7 @@
 
     .line 901
     :goto_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lc()Lcom/tencent/mm/model/y;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lc()Lcom/tencent/mm/model/Yclz;
 
     move-result-object v2
 
@@ -466,7 +466,7 @@
 
     const/4 v4, 0x0
 
-    invoke-interface {v2, v3, v1, v4}, Lcom/tencent/mm/model/y;->a(ILandroid/app/Notification;Z)V
+    invoke-interface {v2, v3, v1, v4}, Lcom/tencent/mm/model/Yclz;->a(ILandroid/app/Notification;Z)V
 
     .line 902
     if-nez v24, :cond_4
@@ -576,7 +576,7 @@
     move-result-object v21
 
     .line 889
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lc()Lcom/tencent/mm/model/y;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lc()Lcom/tencent/mm/model/Yclz;
 
     move-result-object v14
 
@@ -590,7 +590,7 @@
 
     move-object/from16 v23, v13
 
-    invoke-interface/range {v14 .. v23}, Lcom/tencent/mm/model/y;->a(Landroid/app/Notification;IILandroid/app/PendingIntent;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/graphics/Bitmap;Ljava/lang/String;)Landroid/app/Notification;
+    invoke-interface/range {v14 .. v23}, Lcom/tencent/mm/model/Yclz;->a(Landroid/app/Notification;IILandroid/app/PendingIntent;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/graphics/Bitmap;Ljava/lang/String;)Landroid/app/Notification;
 
     move-result-object v1
 

@@ -212,7 +212,7 @@
     return-void
 .end method
 
-.method private static a(Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/ui/widget/QImageView;ILcom/tencent/mm/storage/i$a;)V
+.method private static a(Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/ui/widget/QImageView;ILcom/tencent/mm/storage/Iclz$a;)V
     .locals 1
 
     .prologue
@@ -221,7 +221,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p0, p1, p2, p3}, Lcom/tencent/mm/plugin/sns/d/g;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/i$a;)V
+    invoke-virtual {v0, p0, p1, p2, p3}, Lcom/tencent/mm/plugin/sns/d/g;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 170
     return-void
@@ -229,7 +229,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/plugin/sns/ui/PhotosContent;Lcom/tencent/mm/protocal/b/aqx;Ljava/lang/String;IIIZLcom/tencent/mm/storage/i$a;)V
+.method public final a(Lcom/tencent/mm/plugin/sns/ui/PhotosContent;Lcom/tencent/mm/protocal/b/aqx;Ljava/lang/String;IIIZLcom/tencent/mm/storage/Iclz$a;)V
     .locals 16
 
     .prologue
@@ -580,7 +580,7 @@
 
     move-object/from16 v1, p8
 
-    invoke-virtual {v8, v2, v7, v0, v1}, Lcom/tencent/mm/plugin/sns/d/g;->c(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/i$a;)V
+    invoke-virtual {v8, v2, v7, v0, v1}, Lcom/tencent/mm/plugin/sns/d/g;->c(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     iget-object v8, v2, Lcom/tencent/mm/protocal/b/abp;->iLl:Lcom/tencent/mm/protocal/b/abr;
 
@@ -851,7 +851,7 @@
 
     move-object/from16 v1, p8
 
-    invoke-static {v2, v8, v0, v1}, Lcom/tencent/mm/plugin/sns/ui/ai;->a(Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/ui/widget/QImageView;ILcom/tencent/mm/storage/i$a;)V
+    invoke-static {v2, v8, v0, v1}, Lcom/tencent/mm/plugin/sns/ui/ai;->a(Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/ui/widget/QImageView;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 117
     :goto_9
@@ -960,7 +960,7 @@
 
     move-object/from16 v1, p8
 
-    invoke-static {v2, v7, v0, v1}, Lcom/tencent/mm/plugin/sns/ui/ai;->a(Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/ui/widget/QImageView;ILcom/tencent/mm/storage/i$a;)V
+    invoke-static {v2, v7, v0, v1}, Lcom/tencent/mm/plugin/sns/ui/ai;->a(Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/ui/widget/QImageView;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 143
     :goto_b

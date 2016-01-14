@@ -291,11 +291,11 @@
     .line 214
     const-string/jumbo v0, "_auth_uin"
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    iget v2, v2, Lcom/tencent/mm/model/c;->uin:I
+    iget v2, v2, Lcom/tencent/mm/model/Cclz;->uin:I
 
     invoke-interface {v1, v0, v2}, Landroid/content/SharedPreferences$Editor;->putInt(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;
 
@@ -465,7 +465,7 @@
     const/4 v4, 0x0
 
     .line 53
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -492,7 +492,7 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/account/SetPwdUI;->atX:Ljava/lang/String;
 
     .line 57
-    invoke-static {}, Lcom/tencent/mm/model/ai;->tG()Landroid/content/SharedPreferences;
+    invoke-static {}, Lcom/tencent/mm/model/AIclz;->tG()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -601,7 +601,7 @@
 
     .prologue
     .line 78
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

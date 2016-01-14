@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/ap$a;
+.implements Lcom/tencent/mm/model/APclz$a;
 
 
 # annotations

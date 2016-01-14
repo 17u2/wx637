@@ -114,11 +114,11 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/tencent/mm/model/c;->cachePath:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/model/Cclz;->cachePath:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -307,11 +307,11 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/tencent/mm/model/c;->cachePath:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/model/Cclz;->cachePath:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -502,11 +502,11 @@
 
     iget v1, v0, Lcom/tencent/mm/app/WorkerProfile$16$1;->amo:I
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    iget v2, v2, Lcom/tencent/mm/model/c;->uin:I
+    iget v2, v2, Lcom/tencent/mm/model/Cclz;->uin:I
 
     if-eq v1, v2, :cond_1
 
@@ -515,11 +515,11 @@
     invoke-direct/range {p0 .. p0}, Lcom/tencent/mm/app/WorkerProfile$16$1;->load()Z
 
     .line 1370
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    iget v1, v1, Lcom/tencent/mm/model/c;->uin:I
+    iget v1, v1, Lcom/tencent/mm/model/Cclz;->uin:I
 
     move-object/from16 v0, p0
 

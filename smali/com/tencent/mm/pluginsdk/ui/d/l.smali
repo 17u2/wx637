@@ -52,13 +52,13 @@
 
     const-string/jumbo v1, "http://dianhua.qq.com/cgi-bin/cloudgrptemplate?t=dianhuaben_download&channel=100008"
 
-    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->xS(Ljava/lang/String;)Lcom/tencent/mm/storage/y;
+    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->xS(Ljava/lang/String;)Lcom/tencent/mm/storage/Yclz;
 
     move-result-object v1
 
     if-eqz v1, :cond_2
 
-    iget-wide v1, v1, Lcom/tencent/mm/storage/y;->field_downloadId:J
+    iget-wide v1, v1, Lcom/tencent/mm/storage/Yclz;->field_downloadId:J
 
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->cA(J)Lcom/tencent/mm/pluginsdk/model/downloader/e;
 
@@ -186,7 +186,7 @@
     const/4 v1, 0x0
 
     .line 35
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -264,19 +264,19 @@
 
     .line 50
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v0
 
-    sget-object v3, Lcom/tencent/mm/storage/j$a;->jme:Lcom/tencent/mm/storage/j$a;
+    sget-object v3, Lcom/tencent/mm/storage/Jclz$a;->jme:Lcom/tencent/mm/storage/Jclz$a;
 
     const/4 v4, 0x0
 
-    invoke-virtual {v0, v3, v4}, Lcom/tencent/mm/storage/h;->a(Lcom/tencent/mm/storage/j$a;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v3, v4}, Lcom/tencent/mm/storage/Hclz;->a(Lcom/tencent/mm/storage/Jclz$a;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 

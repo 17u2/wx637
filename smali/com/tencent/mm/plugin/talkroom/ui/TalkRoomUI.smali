@@ -474,7 +474,7 @@
     .line 926
     iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;->euo:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->dR(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->dR(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -582,7 +582,7 @@
     .line 962
     iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;->gPN:Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomAvatarsFrame;
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1423,7 +1423,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    invoke-static {p1}, Lcom/tencent/mm/model/i;->dR(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/tencent/mm/model/Iclz;->dR(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -1454,7 +1454,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    invoke-static {p2}, Lcom/tencent/mm/model/i;->dR(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2}, Lcom/tencent/mm/model/Iclz;->dR(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -2118,7 +2118,7 @@
     invoke-virtual {v0, v4}, Landroid/view/animation/AlphaAnimation;->setFillAfter(Z)V
 
     .line 192
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -2174,23 +2174,23 @@
 
     .line 185
     :cond_0
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    invoke-static {v0}, Lcom/tencent/mm/model/f;->dD(Ljava/lang/String;)Ljava/util/List;
+    invoke-static {v0}, Lcom/tencent/mm/model/Fclz;->dD(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v1
 
     if-nez v1, :cond_1
 
-    sget-object v1, Lcom/tencent/mm/model/z$a;->bth:Lcom/tencent/mm/model/z$c;
+    sget-object v1, Lcom/tencent/mm/model/Zclz$a;->bth:Lcom/tencent/mm/model/Zclz$c;
 
     const-string/jumbo v2, ""
 
-    invoke-interface {v1, v0, v2}, Lcom/tencent/mm/model/z$c;->D(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-interface {v1, v0, v2}, Lcom/tencent/mm/model/Zclz$c;->D(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
     new-instance v1, Lcom/tencent/mm/sdk/platformtools/ab;
@@ -2225,7 +2225,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;->azO:Ljava/util/List;
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v2
 
@@ -2246,7 +2246,7 @@
     invoke-virtual {v0, p0}, Lcom/tencent/mm/plugin/talkroom/model/g;->b(Lcom/tencent/mm/pluginsdk/h$v;)V
 
     .line 544
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -2497,7 +2497,7 @@
 
     iget-object v4, v0, Lcom/tencent/mm/plugin/talkroom/model/c;->etJ:Ljava/lang/String;
 
-    invoke-static {v4}, Lcom/tencent/mm/model/i;->dR(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4}, Lcom/tencent/mm/model/Iclz;->dR(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 

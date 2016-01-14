@@ -160,7 +160,7 @@
 
     move-result-object v4
 
-    invoke-static {}, Lcom/tencent/mm/storage/k;->aPV()I
+    invoke-static {}, Lcom/tencent/mm/storage/Kclz;->aPV()I
 
     move-result v5
 

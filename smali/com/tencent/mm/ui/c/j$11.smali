@@ -62,7 +62,7 @@
     const/4 v3, 0x1
 
     .line 199
-    invoke-static {}, Lcom/tencent/mm/model/ao;->tM()Lcom/tencent/mm/model/ao;
+    invoke-static {}, Lcom/tencent/mm/model/AOclz;->tM()Lcom/tencent/mm/model/AOclz;
 
     move-result-object v0
 
@@ -70,7 +70,7 @@
 
     iget v4, p0, Lcom/tencent/mm/ui/c/j$11;->jJK:I
 
-    invoke-virtual {v0, v1, v4}, Lcom/tencent/mm/model/ao;->K(II)V
+    invoke-virtual {v0, v1, v4}, Lcom/tencent/mm/model/AOclz;->K(II)V
 
     .line 200
     iget-object v0, p0, Lcom/tencent/mm/ui/c/j$11;->jJL:Lcom/tencent/mm/ui/c/j;
@@ -83,33 +83,33 @@
 
     check-cast v0, Landroid/content/Context;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v1
 
     const/4 v4, 0x0
 
-    invoke-virtual {v1, v6, v4}, Lcom/tencent/mm/storage/h;->get(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v6, v4}, Lcom/tencent/mm/storage/Hclz;->get(ILjava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/lang/String;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v4}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v4
 
     const-string/jumbo v5, ""
 
-    invoke-virtual {v4, v6, v5}, Lcom/tencent/mm/storage/h;->set(ILjava/lang/Object;)V
+    invoke-virtual {v4, v6, v5}, Lcom/tencent/mm/storage/Hclz;->set(ILjava/lang/Object;)V
 
     new-instance v4, Landroid/content/Intent;
 

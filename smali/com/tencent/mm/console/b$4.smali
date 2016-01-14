@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/w;
+.implements Lcom/tencent/mm/model/Wclz;
 
 
 # annotations
@@ -78,7 +78,7 @@
     if-gez p1, :cond_0
 
     .line 307
-    invoke-static {v6}, Lcom/tencent/mm/model/ah;->a(Lcom/tencent/mm/model/w;)V
+    invoke-static {v6}, Lcom/tencent/mm/model/AHclz;->a(Lcom/tencent/mm/model/Wclz;)V
 
     .line 308
     iget-object v0, p0, Lcom/tencent/mm/console/b$4;->boo:Landroid/app/ProgressDialog;
@@ -103,7 +103,7 @@
     if-lt p1, v0, :cond_1
 
     .line 311
-    invoke-static {v6}, Lcom/tencent/mm/model/ah;->a(Lcom/tencent/mm/model/w;)V
+    invoke-static {v6}, Lcom/tencent/mm/model/AHclz;->a(Lcom/tencent/mm/model/Wclz;)V
 
     .line 312
     iget-object v0, p0, Lcom/tencent/mm/console/b$4;->boo:Landroid/app/ProgressDialog;

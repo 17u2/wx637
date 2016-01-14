@@ -272,7 +272,7 @@
     return-wide p1
 .end method
 
-.method public static a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/storage/i$a;)Landroid/graphics/Bitmap;
+.method public static a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/storage/Iclz$a;)Landroid/graphics/Bitmap;
     .locals 9
 
     .prologue
@@ -421,7 +421,7 @@
 
     const/4 v2, 0x3
 
-    invoke-virtual {v1, v0, v2, v7, p4}, Lcom/tencent/mm/plugin/sns/d/b;->a(Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/i$a;)Z
+    invoke-virtual {v1, v0, v2, v7, p4}, Lcom/tencent/mm/plugin/sns/d/b;->a(Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/Iclz$a;)Z
 
     :cond_5
     move-object v0, v8
@@ -900,7 +900,7 @@
     goto/16 :goto_0
 .end method
 
-.method private a(ILcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/i$a;)Z
+.method private a(ILcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/Iclz$a;)Z
     .locals 2
 
     .prologue
@@ -924,7 +924,7 @@
 
     new-instance v1, Lcom/tencent/mm/plugin/sns/d/g$7;
 
-    invoke-direct {v1, p0, p1, p2, p3}, Lcom/tencent/mm/plugin/sns/d/g$7;-><init>(Lcom/tencent/mm/plugin/sns/d/g;ILcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/i$a;)V
+    invoke-direct {v1, p0, p1, p2, p3}, Lcom/tencent/mm/plugin/sns/d/g$7;-><init>(Lcom/tencent/mm/plugin/sns/d/g;ILcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/Iclz$a;)V
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
 
@@ -1491,7 +1491,7 @@
     return p1
 .end method
 
-.method public static a(Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/i$a;)Z
+.method public static a(Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/Iclz$a;)Z
     .locals 4
 
     .prologue
@@ -1583,7 +1583,7 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {v0, p0, v2, v3, p1}, Lcom/tencent/mm/plugin/sns/d/b;->a(Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/i$a;)Z
+    invoke-virtual {v0, p0, v2, v3, p1}, Lcom/tencent/mm/plugin/sns/d/b;->a(Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/Iclz$a;)Z
 
     move v0, v1
 
@@ -2592,7 +2592,7 @@
     return v0
 .end method
 
-.method public final a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/i$a;)Landroid/graphics/Bitmap;
+.method public final a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)Landroid/graphics/Bitmap;
     .locals 6
 
     .prologue
@@ -2609,14 +2609,14 @@
 
     move-object v5, p4
 
-    invoke-virtual/range {v0 .. v5}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IZLcom/tencent/mm/storage/i$a;)Landroid/graphics/Bitmap;
+    invoke-virtual/range {v0 .. v5}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IZLcom/tencent/mm/storage/Iclz$a;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public final a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IZLcom/tencent/mm/storage/i$a;)Landroid/graphics/Bitmap;
+.method public final a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IZLcom/tencent/mm/storage/Iclz$a;)Landroid/graphics/Bitmap;
     .locals 10
 
     .prologue
@@ -2933,7 +2933,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, p1, v1, v2, p5}, Lcom/tencent/mm/plugin/sns/d/b;->a(Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/i$a;)Z
+    invoke-virtual {v0, p1, v1, v2, p5}, Lcom/tencent/mm/plugin/sns/d/b;->a(Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/Iclz$a;)Z
 
     .line 1324
     :cond_b
@@ -2947,7 +2947,7 @@
     goto/16 :goto_1
 .end method
 
-.method public final a(Lcom/tencent/mm/protocal/b/abp;Landroid/widget/ImageView;ILcom/tencent/mm/storage/i$a;)Landroid/graphics/Bitmap;
+.method public final a(Lcom/tencent/mm/protocal/b/abp;Landroid/widget/ImageView;ILcom/tencent/mm/storage/Iclz$a;)Landroid/graphics/Bitmap;
     .locals 4
 
     .prologue
@@ -3012,7 +3012,7 @@
     if-nez v2, :cond_3
 
     .line 1339
-    invoke-direct {p0, v3, p1, p4}, Lcom/tencent/mm/plugin/sns/d/g;->a(ILcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/i$a;)Z
+    invoke-direct {p0, v3, p1, p4}, Lcom/tencent/mm/plugin/sns/d/g;->a(ILcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/Iclz$a;)Z
 
     goto :goto_0
 
@@ -3023,7 +3023,7 @@
     goto :goto_0
 .end method
 
-.method public final a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IIILcom/tencent/mm/storage/i$a;)V
+.method public final a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IIILcom/tencent/mm/storage/Iclz$a;)V
     .locals 9
 
     .prologue
@@ -3118,7 +3118,7 @@
     .line 350
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0, p1, p6}, Lcom/tencent/mm/plugin/sns/d/g;->a(ILcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/i$a;)Z
+    invoke-direct {p0, v0, p1, p6}, Lcom/tencent/mm/plugin/sns/d/g;->a(ILcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/Iclz$a;)Z
 
     goto :goto_0
 
@@ -3129,7 +3129,7 @@
     goto :goto_0
 .end method
 
-.method public final a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IILcom/tencent/mm/storage/i$a;)V
+.method public final a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IILcom/tencent/mm/storage/Iclz$a;)V
     .locals 7
 
     .prologue
@@ -3148,7 +3148,7 @@
 
     move-object v6, p5
 
-    invoke-virtual/range {v0 .. v6}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IIILcom/tencent/mm/storage/i$a;)V
+    invoke-virtual/range {v0 .. v6}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IIILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 308
     return-void
@@ -3183,7 +3183,7 @@
     return-void
 .end method
 
-.method public final a(Ljava/util/List;Landroid/view/View;IILcom/tencent/mm/storage/i$a;)V
+.method public final a(Ljava/util/List;Landroid/view/View;IILcom/tencent/mm/storage/Iclz$a;)V
     .locals 10
 
     .prologue
@@ -3222,7 +3222,7 @@
 
     check-cast v0, Lcom/tencent/mm/protocal/b/abp;
 
-    invoke-virtual {p0, v0, p2, p3, p5}, Lcom/tencent/mm/plugin/sns/d/g;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/i$a;)V
+    invoke-virtual {p0, v0, p2, p3, p5}, Lcom/tencent/mm/plugin/sns/d/g;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     goto :goto_0
 
@@ -3307,7 +3307,7 @@
 
     new-instance v1, Lcom/tencent/mm/plugin/sns/d/g$4;
 
-    invoke-direct {v1, p0, p1, v9, p5}, Lcom/tencent/mm/plugin/sns/d/g$4;-><init>(Lcom/tencent/mm/plugin/sns/d/g;Ljava/util/List;ILcom/tencent/mm/storage/i$a;)V
+    invoke-direct {v1, p0, p1, v9, p5}, Lcom/tencent/mm/plugin/sns/d/g$4;-><init>(Lcom/tencent/mm/plugin/sns/d/g;Ljava/util/List;ILcom/tencent/mm/storage/Iclz$a;)V
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
 
@@ -3468,7 +3468,7 @@
     goto :goto_1
 .end method
 
-.method public final a(Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/plugin/sight/decode/a/a;IILcom/tencent/mm/storage/i$a;)Z
+.method public final a(Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/plugin/sight/decode/a/a;IILcom/tencent/mm/storage/Iclz$a;)Z
     .locals 9
 
     .prologue
@@ -3770,7 +3770,7 @@
 
     new-instance v4, Lcom/tencent/mm/plugin/sns/d/g$8;
 
-    invoke-direct {v4, p0, p1, p5}, Lcom/tencent/mm/plugin/sns/d/g$8;-><init>(Lcom/tencent/mm/plugin/sns/d/g;Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/i$a;)V
+    invoke-direct {v4, p0, p1, p5}, Lcom/tencent/mm/plugin/sns/d/g$8;-><init>(Lcom/tencent/mm/plugin/sns/d/g;Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/Iclz$a;)V
 
     const-wide/16 v5, 0x0
 
@@ -3853,7 +3853,7 @@
     if-nez v0, :cond_0
 
     .line 490
-    invoke-direct {p0, v2, p1, p5}, Lcom/tencent/mm/plugin/sns/d/g;->a(ILcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/i$a;)Z
+    invoke-direct {p0, v2, p1, p5}, Lcom/tencent/mm/plugin/sns/d/g;->a(ILcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/Iclz$a;)Z
 
     goto/16 :goto_0
 
@@ -4179,11 +4179,11 @@
     move-result v1
 
     .line 862
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v0
 
@@ -4191,7 +4191,7 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/storage/h;->get(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/storage/Hclz;->get(ILjava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -4349,7 +4349,7 @@
     return-void
 .end method
 
-.method public final b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IILcom/tencent/mm/storage/i$a;)V
+.method public final b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IILcom/tencent/mm/storage/Iclz$a;)V
     .locals 7
 
     .prologue
@@ -4368,13 +4368,13 @@
 
     move-object v6, p5
 
-    invoke-virtual/range {v0 .. v6}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IIILcom/tencent/mm/storage/i$a;)V
+    invoke-virtual/range {v0 .. v6}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IIILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 320
     return-void
 .end method
 
-.method public final b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/i$a;)V
+.method public final b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
     .locals 6
 
     .prologue
@@ -4391,7 +4391,7 @@
 
     move-object v5, p4
 
-    invoke-virtual/range {v0 .. v5}, Lcom/tencent/mm/plugin/sns/d/g;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IILcom/tencent/mm/storage/i$a;)V
+    invoke-virtual/range {v0 .. v5}, Lcom/tencent/mm/plugin/sns/d/g;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 304
     return-void
@@ -4790,7 +4790,7 @@
     goto :goto_0
 .end method
 
-.method public final c(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/i$a;)V
+.method public final c(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
     .locals 6
 
     .prologue
@@ -4807,13 +4807,13 @@
 
     move-object v5, p4
 
-    invoke-virtual/range {v0 .. v5}, Lcom/tencent/mm/plugin/sns/d/g;->c(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IILcom/tencent/mm/storage/i$a;)Z
+    invoke-virtual/range {v0 .. v5}, Lcom/tencent/mm/plugin/sns/d/g;->c(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IILcom/tencent/mm/storage/Iclz$a;)Z
 
     .line 433
     return-void
 .end method
 
-.method public final c(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IILcom/tencent/mm/storage/i$a;)Z
+.method public final c(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IILcom/tencent/mm/storage/Iclz$a;)Z
     .locals 8
 
     .prologue
@@ -4910,7 +4910,7 @@
     if-nez v2, :cond_1
 
     .line 519
-    invoke-direct {p0, v0, p1, p5}, Lcom/tencent/mm/plugin/sns/d/g;->a(ILcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/i$a;)Z
+    invoke-direct {p0, v0, p1, p5}, Lcom/tencent/mm/plugin/sns/d/g;->a(ILcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/Iclz$a;)Z
 
     move v0, v1
 

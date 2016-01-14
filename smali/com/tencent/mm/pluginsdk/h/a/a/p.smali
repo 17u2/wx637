@@ -14,7 +14,7 @@
     invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/h/a/a/m;-><init>()V
 
     .line 36
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 

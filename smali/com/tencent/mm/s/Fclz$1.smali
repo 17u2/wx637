@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic buu:Lcom/tencent/mm/model/ap$a;
+.field final synthetic buu:Lcom/tencent/mm/model/APclz$a;
 
 .field final synthetic bzS:Ljava/lang/String;
 
@@ -26,7 +26,7 @@
 
 
 # direct methods
-.method constructor <init>(Ljava/lang/String;ZLcom/tencent/mm/model/ap$a;)V
+.method constructor <init>(Ljava/lang/String;ZLcom/tencent/mm/model/APclz$a;)V
     .locals 1
 
     .prologue
@@ -37,7 +37,7 @@
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/s/Fclz$1;->buu:Lcom/tencent/mm/model/ap$a;
+    iput-object v0, p0, Lcom/tencent/mm/s/Fclz$1;->buu:Lcom/tencent/mm/model/APclz$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -152,17 +152,17 @@
 
     .line 436
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rl()Lcom/tencent/mm/storage/s;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rl()Lcom/tencent/mm/storage/Sclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/s/Fclz$1;->bzS:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/s;->Cq(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Sclz;->Cq(Ljava/lang/String;)V
 
     .line 437
     invoke-static {}, Lcom/tencent/mm/s/AIclz;->xs()Lcom/tencent/mm/s/Eclz;

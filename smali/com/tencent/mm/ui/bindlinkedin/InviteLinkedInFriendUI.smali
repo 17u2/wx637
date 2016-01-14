@@ -262,12 +262,12 @@
     invoke-virtual {v0}, Landroid/widget/EditText;->clearFocus()V
 
     .line 78
-    invoke-static {}, Lcom/tencent/mm/model/h;->rT()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rT()Ljava/lang/String;
 
     move-result-object v1
 
     .line 79
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v0
 
@@ -569,7 +569,7 @@
 
     .prologue
     .line 112
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -592,7 +592,7 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onResume()V
 
     .line 108
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

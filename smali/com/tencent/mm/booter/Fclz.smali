@@ -449,7 +449,7 @@
 
     invoke-direct {v0, v9, v8, p4, p5}, Lcom/tencent/mm/ac/a;-><init>(Lcom/tencent/mm/protocal/Tclz$b;IJ)V
 
-    invoke-static {}, Lcom/tencent/mm/network/z;->En()Lcom/tencent/mm/network/r;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->En()Lcom/tencent/mm/network/Rclz;
 
     move-result-object v1
 
@@ -457,7 +457,7 @@
 
     invoke-direct {v2}, Lcom/tencent/mm/booter/Fclz$1;-><init>()V
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ac/a;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ac/a;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -549,7 +549,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v2, Lcom/tencent/mm/storage/j;->bpW:Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/storage/Jclz;->bpW:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -822,7 +822,7 @@
     invoke-direct {v0}, Lcom/tencent/mm/ac/a;-><init>()V
 
     .line 267
-    invoke-static {}, Lcom/tencent/mm/network/z;->En()Lcom/tencent/mm/network/r;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->En()Lcom/tencent/mm/network/Rclz;
 
     move-result-object v1
 
@@ -830,7 +830,7 @@
 
     invoke-direct {v2}, Lcom/tencent/mm/booter/Fclz$2;-><init>()V
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ac/a;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ac/a;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
 
     .line 276
     :cond_1

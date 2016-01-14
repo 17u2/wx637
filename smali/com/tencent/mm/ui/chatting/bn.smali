@@ -83,7 +83,7 @@
     return-object p2
 .end method
 
-.method public final a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;Ljava/lang/String;)V
+.method public final a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;)V
     .locals 6
 
     .prologue
@@ -106,7 +106,7 @@
 
     move-object v4, p3
 
-    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/ui/chatting/dr;->a(Lcom/tencent/mm/ui/chatting/dr;Lcom/tencent/mm/storage/ad;ZILcom/tencent/mm/ui/chatting/ChattingUI$a;I)V
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/ui/chatting/dr;->a(Lcom/tencent/mm/ui/chatting/dr;Lcom/tencent/mm/storage/ADclz;ZILcom/tencent/mm/ui/chatting/ChattingUI$a;I)V
 
     .line 103
     invoke-static {}, Lcom/tencent/mm/ui/chatting/bn;->aXL()Z
@@ -172,7 +172,7 @@
     goto :goto_0
 .end method
 
-.method public final a(Landroid/view/ContextMenu;Landroid/view/View;Lcom/tencent/mm/storage/ad;)Z
+.method public final a(Landroid/view/ContextMenu;Landroid/view/View;Lcom/tencent/mm/storage/ADclz;)Z
     .locals 8
 
     .prologue
@@ -183,11 +183,11 @@
     const/4 v5, 0x0
 
     .line 63
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->isSDCardAvailable()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->isSDCardAvailable()Z
 
     move-result v0
 
@@ -267,13 +267,13 @@
 
     .line 79
     :cond_1
-    invoke-virtual {p3}, Lcom/tencent/mm/storage/ad;->aQz()Z
+    invoke-virtual {p3}, Lcom/tencent/mm/storage/ADclz;->aQz()Z
 
     move-result v2
 
     if-nez v2, :cond_3
 
-    invoke-virtual {p3}, Lcom/tencent/mm/storage/ad;->aQL()Z
+    invoke-virtual {p3}, Lcom/tencent/mm/storage/ADclz;->aQL()Z
 
     move-result v2
 
@@ -382,7 +382,7 @@
     return v7
 .end method
 
-.method public final a(Landroid/view/MenuItem;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)Z
+.method public final a(Landroid/view/MenuItem;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)Z
     .locals 1
 
     .prologue
@@ -392,7 +392,7 @@
     return v0
 .end method
 
-.method public final a(Landroid/view/View;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)Z
+.method public final a(Landroid/view/View;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)Z
     .locals 1
 
     .prologue

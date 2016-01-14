@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field bpn:Lcom/tencent/mm/storage/j$a;
+.field bpn:Lcom/tencent/mm/storage/Jclz$a;
 
 .field final synthetic bpu:Lcom/tencent/mm/l/b;
 

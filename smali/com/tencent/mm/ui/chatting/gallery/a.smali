@@ -31,7 +31,7 @@
 
 
 # virtual methods
-.method public a(Lcom/tencent/mm/ui/chatting/gallery/j;Lcom/tencent/mm/storage/ad;I)Z
+.method public a(Lcom/tencent/mm/ui/chatting/gallery/j;Lcom/tencent/mm/storage/ADclz;I)Z
     .locals 1
 
     .prologue
@@ -138,11 +138,11 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/gallery/a;->kmJ:Lcom/tencent/mm/ui/chatting/gallery/b;
 
-    invoke-virtual {v1, p1}, Lcom/tencent/mm/ui/chatting/gallery/b;->qy(I)Lcom/tencent/mm/storage/ad;
+    invoke-virtual {v1, p1}, Lcom/tencent/mm/ui/chatting/gallery/b;->qy(I)Lcom/tencent/mm/storage/ADclz;
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1, p1}, Lcom/tencent/mm/ui/chatting/gallery/a;->a(Lcom/tencent/mm/ui/chatting/gallery/j;Lcom/tencent/mm/storage/ad;I)Z
+    invoke-virtual {p0, v0, v1, p1}, Lcom/tencent/mm/ui/chatting/gallery/a;->a(Lcom/tencent/mm/ui/chatting/gallery/j;Lcom/tencent/mm/storage/ADclz;I)Z
 
     goto :goto_0
 .end method

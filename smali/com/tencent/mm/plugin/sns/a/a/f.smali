@@ -690,7 +690,7 @@
     invoke-direct {v1, p3, v2}, Lcom/tencent/mm/plugin/sns/a/a/d;-><init>(Ljava/lang/String;I)V
 
     .line 343
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 
@@ -1899,7 +1899,7 @@
 
     .line 400
     :goto_6
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 

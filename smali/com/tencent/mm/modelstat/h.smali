@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/ae;
+.implements Lcom/tencent/mm/model/AEclz;
 
 
 # static fields
@@ -11,13 +11,13 @@
 
 
 # instance fields
-.field private bCZ:Lcom/tencent/mm/network/m;
+.field private bCZ:Lcom/tencent/mm/network/Mclz;
 
 .field private bVU:Lcom/tencent/mm/modelstat/d;
 
 .field private bVV:Lcom/tencent/mm/modelstat/e;
 
-.field private bVW:Lcom/tencent/mm/network/v;
+.field private bVW:Lcom/tencent/mm/network/Vclz;
 
 .field private bVX:Lcom/tencent/mm/modelstat/a;
 
@@ -77,11 +77,11 @@
     iput-object v0, p0, Lcom/tencent/mm/modelstat/h;->bVU:Lcom/tencent/mm/modelstat/d;
 
     .line 27
-    new-instance v0, Lcom/tencent/mm/network/v;
+    new-instance v0, Lcom/tencent/mm/network/Vclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/network/v;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/network/Vclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/modelstat/h;->bVW:Lcom/tencent/mm/network/v;
+    iput-object v0, p0, Lcom/tencent/mm/modelstat/h;->bVW:Lcom/tencent/mm/network/Vclz;
 
     .line 29
     const/4 v0, 0x0
@@ -93,7 +93,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/modelstat/h$1;-><init>(Lcom/tencent/mm/modelstat/h;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/modelstat/h;->bCZ:Lcom/tencent/mm/network/m;
+    iput-object v0, p0, Lcom/tencent/mm/modelstat/h;->bCZ:Lcom/tencent/mm/network/Mclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -110,18 +110,18 @@
 
     .prologue
     .line 62
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget v0, v0, Lcom/tencent/mm/model/c;->uin:I
+    iget v0, v0, Lcom/tencent/mm/model/Cclz;->uin:I
 
     if-nez v0, :cond_0
 
     .line 63
-    new-instance v0, Lcom/tencent/mm/model/b;
+    new-instance v0, Lcom/tencent/mm/model/Bclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/model/b;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/model/Bclz;-><init>()V
 
     throw v0
 
@@ -142,7 +142,7 @@
 
     new-instance v1, Lcom/tencent/mm/modelstat/a;
 
-    sget-object v2, Lcom/tencent/mm/storage/j;->bpW:Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/storage/Jclz;->bpW:Ljava/lang/String;
 
     invoke-direct {v1, v2}, Lcom/tencent/mm/modelstat/a;-><init>(Ljava/lang/String;)V
 
@@ -164,7 +164,7 @@
 
     .prologue
     .line 73
-    invoke-static {}, Lcom/tencent/mm/model/ah;->sU()Lcom/tencent/mm/model/ba;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->sU()Lcom/tencent/mm/model/BAclz;
 
     move-result-object v0
 
@@ -174,7 +174,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/ba;->fk(Ljava/lang/String;)Lcom/tencent/mm/model/ae;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/BAclz;->fk(Ljava/lang/String;)Lcom/tencent/mm/model/AEclz;
 
     move-result-object v0
 
@@ -189,7 +189,7 @@
     invoke-direct {v0}, Lcom/tencent/mm/modelstat/h;-><init>()V
 
     .line 76
-    invoke-static {}, Lcom/tencent/mm/model/ah;->sU()Lcom/tencent/mm/model/ba;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->sU()Lcom/tencent/mm/model/BAclz;
 
     move-result-object v1
 
@@ -199,7 +199,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/model/ba;->a(Ljava/lang/String;Lcom/tencent/mm/model/ae;)Z
+    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/model/BAclz;->a(Ljava/lang/String;Lcom/tencent/mm/model/AEclz;)Z
 
     .line 78
     :cond_0
@@ -211,18 +211,18 @@
 
     .prologue
     .line 82
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget v0, v0, Lcom/tencent/mm/model/c;->uin:I
+    iget v0, v0, Lcom/tencent/mm/model/Cclz;->uin:I
 
     if-nez v0, :cond_0
 
     .line 83
-    new-instance v0, Lcom/tencent/mm/model/b;
+    new-instance v0, Lcom/tencent/mm/model/Bclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/model/b;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/model/Bclz;-><init>()V
 
     throw v0
 
@@ -243,11 +243,11 @@
 
     new-instance v1, Lcom/tencent/mm/modelstat/e;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/tencent/mm/model/c;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v2, v2, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
 
     invoke-direct {v1, v2}, Lcom/tencent/mm/modelstat/e;-><init>(Lcom/tencent/mm/aw/g;)V
 
@@ -264,7 +264,7 @@
     return-object v0
 .end method
 
-.method public static d(Lcom/tencent/mm/network/e;)V
+.method public static d(Lcom/tencent/mm/network/Eclz;)V
     .locals 5
 
     .prologue
@@ -302,13 +302,13 @@
 
     iget-object v0, v0, Lcom/tencent/mm/modelstat/h;->bVU:Lcom/tencent/mm/modelstat/d;
 
-    invoke-interface {p0, v0}, Lcom/tencent/mm/network/e;->a(Lcom/tencent/mm/network/a/b;)V
+    invoke-interface {p0, v0}, Lcom/tencent/mm/network/Eclz;->a(Lcom/tencent/mm/network/a/Bclz;)V
 
     .line 105
     return-void
 .end method
 
-.method public static e(Lcom/tencent/mm/network/e;)V
+.method public static e(Lcom/tencent/mm/network/Eclz;)V
     .locals 5
 
     .prologue
@@ -344,9 +344,9 @@
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/modelstat/h;->bVW:Lcom/tencent/mm/network/v;
+    iget-object v0, v0, Lcom/tencent/mm/modelstat/h;->bVW:Lcom/tencent/mm/network/Vclz;
 
-    invoke-interface {p0, v0}, Lcom/tencent/mm/network/e;->a(Lcom/tencent/mm/network/n;)V
+    invoke-interface {p0, v0}, Lcom/tencent/mm/network/Eclz;->a(Lcom/tencent/mm/network/Nclz;)V
 
     .line 114
     return-void
@@ -378,16 +378,16 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/q/Cclz$b;->a(Ljava/lang/Object;Lcom/tencent/mm/q/Cclz;)V
 
     .line 148
-    iget-object v0, p0, Lcom/tencent/mm/modelstat/h;->bCZ:Lcom/tencent/mm/network/m;
+    iget-object v0, p0, Lcom/tencent/mm/modelstat/h;->bCZ:Lcom/tencent/mm/network/Mclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/ah;->a(Lcom/tencent/mm/network/m;)V
+    invoke-static {v0}, Lcom/tencent/mm/model/AHclz;->a(Lcom/tencent/mm/network/Mclz;)V
 
     .line 150
     new-instance v0, Lcom/tencent/mm/modelstat/h$3;
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/modelstat/h$3;-><init>(Lcom/tencent/mm/modelstat/h;)V
 
-    sput-object v0, Lcom/tencent/mm/model/z$a;->bti:Lcom/tencent/mm/model/z$e;
+    sput-object v0, Lcom/tencent/mm/model/Zclz$a;->bti:Lcom/tencent/mm/model/Zclz$e;
 
     .line 158
     return-void
@@ -416,9 +416,9 @@
 
     .prologue
     .line 118
-    iget-object v0, p0, Lcom/tencent/mm/modelstat/h;->bCZ:Lcom/tencent/mm/network/m;
+    iget-object v0, p0, Lcom/tencent/mm/modelstat/h;->bCZ:Lcom/tencent/mm/network/Mclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/ah;->b(Lcom/tencent/mm/network/m;)V
+    invoke-static {v0}, Lcom/tencent/mm/model/AHclz;->b(Lcom/tencent/mm/network/Mclz;)V
 
     .line 119
     const/16 v0, 0x270e
@@ -439,7 +439,7 @@
     .line 121
     const/4 v0, 0x0
 
-    sput-object v0, Lcom/tencent/mm/model/z$a;->bti:Lcom/tencent/mm/model/z$e;
+    sput-object v0, Lcom/tencent/mm/model/Zclz$a;->bti:Lcom/tencent/mm/model/Zclz$e;
 
     .line 122
     return-void

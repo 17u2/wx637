@@ -54,11 +54,11 @@
     .line 227
     iget-object v0, p0, Lcom/tencent/mm/ui/voicesearch/b$7;->kJx:Lcom/tencent/mm/ui/voicesearch/b;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/voicesearch/b;->b(Lcom/tencent/mm/ui/voicesearch/b;)Lcom/tencent/mm/storage/k;
+    invoke-static {v0}, Lcom/tencent/mm/ui/voicesearch/b;->b(Lcom/tencent/mm/ui/voicesearch/b;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/k;->isHidden()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/Kclz;->isHidden()Z
 
     move-result v0
 
@@ -67,7 +67,7 @@
     .line 228
     iget-object v0, p0, Lcom/tencent/mm/ui/voicesearch/b$7;->kJx:Lcom/tencent/mm/ui/voicesearch/b;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/voicesearch/b;->b(Lcom/tencent/mm/ui/voicesearch/b;)Lcom/tencent/mm/storage/k;
+    invoke-static {v0}, Lcom/tencent/mm/ui/voicesearch/b;->b(Lcom/tencent/mm/ui/voicesearch/b;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 
@@ -96,7 +96,7 @@
     invoke-direct {v0, v1, v2}, Lcom/tencent/mm/modelsimple/z;-><init>(Ljava/lang/String;I)V
 
     .line 231
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -116,11 +116,11 @@
     :cond_1
     iget-object v0, p0, Lcom/tencent/mm/ui/voicesearch/b$7;->kJx:Lcom/tencent/mm/ui/voicesearch/b;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/voicesearch/b;->b(Lcom/tencent/mm/ui/voicesearch/b;)Lcom/tencent/mm/storage/k;
+    invoke-static {v0}, Lcom/tencent/mm/ui/voicesearch/b;->b(Lcom/tencent/mm/ui/voicesearch/b;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/k;->qg()V
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/Kclz;->qg()V
 
     goto :goto_0
 .end method

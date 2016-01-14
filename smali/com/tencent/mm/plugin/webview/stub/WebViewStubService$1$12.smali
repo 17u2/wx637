@@ -53,7 +53,7 @@
     .line 166
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService$1$12;->bwA:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->dS(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->dS(Ljava/lang/String;)Z
 
     move-result v0
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/aq$a;
+.implements Lcom/tencent/mm/model/AQclz$a;
 
 
 # annotations
@@ -37,7 +37,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;)V
+.method public final a(Lcom/tencent/mm/network/Eclz;)V
     .locals 9
 
     .prologue
@@ -56,7 +56,7 @@
 
     .line 782
     :cond_1
-    invoke-interface {p1, v7}, Lcom/tencent/mm/network/e;->getIPsString(Z)[Ljava/lang/String;
+    invoke-interface {p1, v7}, Lcom/tencent/mm/network/Eclz;->getIPsString(Z)[Ljava/lang/String;
 
     move-result-object v2
 
@@ -102,11 +102,11 @@
 
     aget-object v6, v2, v0
 
-    invoke-static {v6}, Lcom/tencent/mm/network/a/c;->jK(Ljava/lang/String;)Lcom/tencent/mm/network/a/c;
+    invoke-static {v6}, Lcom/tencent/mm/network/a/Cclz;->jK(Ljava/lang/String;)Lcom/tencent/mm/network/a/Cclz;
 
     move-result-object v6
 
-    invoke-virtual {v6}, Lcom/tencent/mm/network/a/c;->toString()Ljava/lang/String;
+    invoke-virtual {v6}, Lcom/tencent/mm/network/a/Cclz;->toString()Ljava/lang/String;
 
     move-result-object v6
 
@@ -121,7 +121,7 @@
 
     .line 787
     :cond_2
-    invoke-interface {p1, v1}, Lcom/tencent/mm/network/e;->getIPsString(Z)[Ljava/lang/String;
+    invoke-interface {p1, v1}, Lcom/tencent/mm/network/Eclz;->getIPsString(Z)[Ljava/lang/String;
 
     move-result-object v2
 
@@ -167,11 +167,11 @@
 
     aget-object v6, v2, v0
 
-    invoke-static {v6}, Lcom/tencent/mm/network/a/c;->jK(Ljava/lang/String;)Lcom/tencent/mm/network/a/c;
+    invoke-static {v6}, Lcom/tencent/mm/network/a/Cclz;->jK(Ljava/lang/String;)Lcom/tencent/mm/network/a/Cclz;
 
     move-result-object v6
 
-    invoke-virtual {v6}, Lcom/tencent/mm/network/a/c;->toString()Ljava/lang/String;
+    invoke-virtual {v6}, Lcom/tencent/mm/network/a/Cclz;->toString()Ljava/lang/String;
 
     move-result-object v6
 

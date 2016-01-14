@@ -111,7 +111,7 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ui/chatting/j$1;->kag:Lcom/tencent/mm/ui/chatting/dt;
 
-    iget-object v4, v4, Lcom/tencent/mm/ui/chatting/dt;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v4, v4, Lcom/tencent/mm/ui/chatting/dt;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v4, v4, Lcom/tencent/mm/d/b/ba;->field_msgSvrId:J
 
@@ -125,7 +125,7 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ui/chatting/j$1;->kag:Lcom/tencent/mm/ui/chatting/dt;
 
-    iget-object v4, v4, Lcom/tencent/mm/ui/chatting/dt;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v4, v4, Lcom/tencent/mm/ui/chatting/dt;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v4, v4, Lcom/tencent/mm/d/b/ba;->field_createTime:J
 
@@ -239,7 +239,7 @@
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 137
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

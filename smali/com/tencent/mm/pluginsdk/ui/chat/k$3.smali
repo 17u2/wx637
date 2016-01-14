@@ -80,13 +80,13 @@
 
     move-result-object v4
 
-    invoke-interface {v4, v3}, Lcom/tencent/mm/pluginsdk/h$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/c;
+    invoke-interface {v4, v3}, Lcom/tencent/mm/pluginsdk/h$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 
     move-result-object v3
 
-    iput-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/c;
+    iput-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/Cclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/c;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/Cclz;
 
     if-eqz v0, :cond_1
 
@@ -98,7 +98,7 @@
     .line 174
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/k$3;->hXg:Lcom/tencent/mm/pluginsdk/ui/chat/k;
 
-    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/c;
+    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/Cclz;
 
     if-eqz v3, :cond_0
 
@@ -137,9 +137,9 @@
 
     .line 174
     :cond_2
-    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/c;
+    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/Cclz;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/storage/a/c;->aRV()Z
+    invoke-virtual {v3}, Lcom/tencent/mm/storage/a/Cclz;->aRV()Z
 
     move-result v3
 
@@ -149,19 +149,19 @@
 
     iget-object v4, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->mContext:Landroid/content/Context;
 
-    iget-object v5, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/c;
+    iget-object v5, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/Cclz;
 
-    invoke-virtual {v5}, Lcom/tencent/mm/storage/a/c;->getName()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/tencent/mm/storage/a/Cclz;->getName()Ljava/lang/String;
 
     move-result-object v5
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/storage/a/c;->aP(Landroid/content/Context;Ljava/lang/String;)Ljava/io/InputStream;
+    invoke-static {v4, v5}, Lcom/tencent/mm/storage/a/Cclz;->aP(Landroid/content/Context;Ljava/lang/String;)Ljava/io/InputStream;
 
     move-result-object v4
 
-    iget-object v5, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/c;
+    iget-object v5, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/Cclz;
 
-    invoke-virtual {v5}, Lcom/tencent/mm/storage/a/c;->getName()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/tencent/mm/storage/a/Cclz;->getName()Ljava/lang/String;
 
     move-result-object v5
 
@@ -207,19 +207,19 @@
     :cond_3
     iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->hWG:Lcom/tencent/mm/pluginsdk/ui/emoji/PreViewEmojiView;
 
-    iget-object v4, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/c;
+    iget-object v4, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/Cclz;
 
-    iget-object v5, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/c;
+    iget-object v5, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/Cclz;
 
-    iget-object v5, v5, Lcom/tencent/mm/storage/a/c;->field_groupId:Ljava/lang/String;
+    iget-object v5, v5, Lcom/tencent/mm/storage/a/Cclz;->field_groupId:Ljava/lang/String;
 
-    iget-object v6, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/c;
+    iget-object v6, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->dbw:Lcom/tencent/mm/storage/a/Cclz;
 
-    invoke-virtual {v6}, Lcom/tencent/mm/storage/a/c;->xQ()Ljava/lang/String;
+    invoke-virtual {v6}, Lcom/tencent/mm/storage/a/Cclz;->xQ()Ljava/lang/String;
 
     move-result-object v6
 
-    invoke-virtual {v4, v5, v6}, Lcom/tencent/mm/storage/a/c;->cg(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v4, v5, v6}, Lcom/tencent/mm/storage/a/Cclz;->cg(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 

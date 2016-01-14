@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/chatting/by;->a(Landroid/view/MenuItem;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)Z
+    value = Lcom/tencent/mm/ui/chatting/by;->a(Landroid/view/MenuItem;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic bJG:Lcom/tencent/mm/storage/ad;
+.field final synthetic bJG:Lcom/tencent/mm/storage/ADclz;
 
 .field final synthetic kco:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -26,7 +26,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/by;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/by;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)V
     .locals 1
 
     .prologue
@@ -35,7 +35,7 @@
 
     iput-object p2, p0, Lcom/tencent/mm/ui/chatting/by$1;->kco:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iput-object p3, p0, Lcom/tencent/mm/ui/chatting/by$1;->bJG:Lcom/tencent/mm/storage/ad;
+    iput-object p3, p0, Lcom/tencent/mm/ui/chatting/by$1;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -61,9 +61,9 @@
     .line 199
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/by$1;->kco:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/by$1;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/by$1;->bJG:Lcom/tencent/mm/storage/ADclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->aa(Lcom/tencent/mm/storage/ad;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->aa(Lcom/tencent/mm/storage/ADclz;)V
 
     .line 200
     return-void

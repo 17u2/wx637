@@ -196,13 +196,13 @@
     invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 554
-    invoke-static {}, Lcom/tencent/mm/plugin/ext/b;->Tm()Lcom/tencent/mm/storage/ag;
+    invoke-static {}, Lcom/tencent/mm/plugin/ext/b;->Tm()Lcom/tencent/mm/storage/AGclz;
 
     move-result-object v0
 
     iget-object v4, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
 
-    invoke-virtual {v0, v4}, Lcom/tencent/mm/storage/ag;->Dl(Ljava/lang/String;)Lcom/tencent/mm/storage/af;
+    invoke-virtual {v0, v4}, Lcom/tencent/mm/storage/AGclz;->Dl(Ljava/lang/String;)Lcom/tencent/mm/storage/AFclz;
 
     move-result-object v4
 
@@ -237,18 +237,18 @@
     if-eqz v0, :cond_6
 
     .line 560
-    iget v0, v4, Lcom/tencent/mm/storage/af;->field_status:I
+    iget v0, v4, Lcom/tencent/mm/storage/AFclz;->field_status:I
 
     if-eq v0, v10, :cond_1
 
     .line 561
     const/4 v0, 0x1
 
-    iput v0, v4, Lcom/tencent/mm/storage/af;->field_status:I
+    iput v0, v4, Lcom/tencent/mm/storage/AFclz;->field_status:I
 
     .line 570
     :goto_2
-    invoke-static {}, Lcom/tencent/mm/plugin/ext/b;->Tm()Lcom/tencent/mm/storage/ag;
+    invoke-static {}, Lcom/tencent/mm/plugin/ext/b;->Tm()Lcom/tencent/mm/storage/AGclz;
 
     move-result-object v0
 
@@ -262,7 +262,7 @@
 
     if-eqz v4, :cond_5
 
-    iget-object v5, v4, Lcom/tencent/mm/storage/af;->field_appId:Ljava/lang/String;
+    iget-object v5, v4, Lcom/tencent/mm/storage/AFclz;->field_appId:Ljava/lang/String;
 
     invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -281,20 +281,20 @@
 
     .line 565
     :cond_6
-    iget v0, v4, Lcom/tencent/mm/storage/af;->field_status:I
+    iget v0, v4, Lcom/tencent/mm/storage/AFclz;->field_status:I
 
     if-eqz v0, :cond_1
 
     .line 566
     const/4 v0, 0x0
 
-    iput v0, v4, Lcom/tencent/mm/storage/af;->field_status:I
+    iput v0, v4, Lcom/tencent/mm/storage/AFclz;->field_status:I
 
     goto :goto_2
 
     .line 570
     :cond_7
-    invoke-virtual {v4}, Lcom/tencent/mm/storage/af;->md()Landroid/content/ContentValues;
+    invoke-virtual {v4}, Lcom/tencent/mm/storage/AFclz;->md()Landroid/content/ContentValues;
 
     move-result-object v5
 
@@ -304,7 +304,7 @@
 
     if-lez v6, :cond_9
 
-    iget-object v0, v0, Lcom/tencent/mm/storage/ag;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v0, v0, Lcom/tencent/mm/storage/AGclz;->aoD:Lcom/tencent/mm/sdk/g/d;
 
     const-string/jumbo v6, "OpenMsgListener"
 
@@ -337,7 +337,7 @@
 
     const/4 v7, 0x0
 
-    iget-object v4, v4, Lcom/tencent/mm/storage/af;->field_appId:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/storage/AFclz;->field_appId:Ljava/lang/String;
 
     aput-object v4, v6, v7
 

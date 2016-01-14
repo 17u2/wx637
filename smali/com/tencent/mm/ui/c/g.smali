@@ -56,11 +56,11 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rM()Lcom/tencent/mm/model/b/c;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rM()Lcom/tencent/mm/model/b/Cclz;
 
     move-result-object v1
 
@@ -68,15 +68,15 @@
 
     const-string/jumbo v3, "wording"
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/model/b/c;->H(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/model/b/Cclz;->H(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/model/c;->rM()Lcom/tencent/mm/model/b/c;
+    invoke-virtual {v2}, Lcom/tencent/mm/model/Cclz;->rM()Lcom/tencent/mm/model/b/Cclz;
 
     move-result-object v2
 
@@ -84,7 +84,7 @@
 
     const-string/jumbo v4, "wording"
 
-    invoke-virtual {v2, v3, v4}, Lcom/tencent/mm/model/b/c;->H(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v3, v4}, Lcom/tencent/mm/model/b/Cclz;->H(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 

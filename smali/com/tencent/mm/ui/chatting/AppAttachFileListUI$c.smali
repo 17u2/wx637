@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field public aCM:Lcom/tencent/mm/storage/ad;
+.field public aCM:Lcom/tencent/mm/storage/ADclz;
 
 .field final synthetic jZv:Lcom/tencent/mm/ui/chatting/AppAttachFileListUI;
 

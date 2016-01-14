@@ -119,7 +119,7 @@
     invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 446
-    sget-object v0, Lcom/tencent/mm/model/z$a;->bti:Lcom/tencent/mm/model/z$e;
+    sget-object v0, Lcom/tencent/mm/model/Zclz$a;->bti:Lcom/tencent/mm/model/Zclz$e;
 
     iget-object v2, p0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$1;->bCY:Lcom/tencent/mm/modelcdntran/CdnTransportEngine;
 
@@ -133,7 +133,7 @@
 
     move-result v3
 
-    invoke-interface {v0, v2, v3}, Lcom/tencent/mm/model/z$e;->I(II)V
+    invoke-interface {v0, v2, v3}, Lcom/tencent/mm/model/Zclz$e;->I(II)V
 
     .line 447
     iget-object v0, p0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$1;->bCY:Lcom/tencent/mm/modelcdntran/CdnTransportEngine;

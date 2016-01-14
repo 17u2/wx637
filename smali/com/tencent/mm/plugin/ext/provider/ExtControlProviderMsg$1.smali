@@ -83,7 +83,7 @@
 
     iget-wide v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$1;->dwF:J
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/plugin/ext/b;->aV(J)Lcom/tencent/mm/storage/k;
+    invoke-static {v0, v1}, Lcom/tencent/mm/plugin/ext/b;->aV(J)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 

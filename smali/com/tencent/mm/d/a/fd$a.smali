@@ -17,7 +17,7 @@
 # instance fields
 .field public ajD:Ljava/lang/String;
 
-.field public arO:Lcom/tencent/mm/storage/ad;
+.field public arO:Lcom/tencent/mm/storage/ADclz;
 
 .field public azm:I
 

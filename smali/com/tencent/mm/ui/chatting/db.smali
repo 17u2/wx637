@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static a(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/m/a$a;)Ljava/lang/String;
+.method public static a(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/m/a$a;)Ljava/lang/String;
     .locals 5
 
     .prologue

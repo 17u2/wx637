@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/talkroom/model/b$1;
-.super Lcom/tencent/mm/network/m$a;
+.super Lcom/tencent/mm/network/Mclz$a;
 .source "SourceFile"
 
 
@@ -26,7 +26,7 @@
     .line 31
     iput-object p1, p0, Lcom/tencent/mm/plugin/talkroom/model/b$1;->gOe:Lcom/tencent/mm/plugin/talkroom/model/b;
 
-    invoke-direct {p0}, Lcom/tencent/mm/network/m$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/network/Mclz$a;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 

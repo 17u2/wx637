@@ -173,13 +173,13 @@
     .line 379
     iget-object v2, p0, Lcom/tencent/mm/booter/CoreService$2;->bfo:Lcom/tencent/mm/booter/CoreService;
 
-    invoke-static {v2}, Lcom/tencent/mm/booter/CoreService;->b(Lcom/tencent/mm/booter/CoreService;)Lcom/tencent/mm/network/r;
+    invoke-static {v2}, Lcom/tencent/mm/booter/CoreService;->b(Lcom/tencent/mm/booter/CoreService;)Lcom/tencent/mm/network/Rclz;
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/tencent/mm/network/r;->cal:Lcom/tencent/mm/network/a;
+    iget-object v2, v2, Lcom/tencent/mm/network/Rclz;->cal:Lcom/tencent/mm/network/Aclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/network/a;->ta()[B
+    invoke-virtual {v2}, Lcom/tencent/mm/network/Aclz;->ta()[B
 
     move-result-object v2
 
@@ -188,11 +188,11 @@
     move-result v6
 
     .line 380
-    invoke-static {}, Lcom/tencent/mm/network/z;->En()Lcom/tencent/mm/network/r;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->En()Lcom/tencent/mm/network/Rclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/network/r;->DY()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/network/Rclz;->DY()Z
 
     move-result v7
 
@@ -205,13 +205,13 @@
 
     iget-object v3, p0, Lcom/tencent/mm/booter/CoreService$2;->bfo:Lcom/tencent/mm/booter/CoreService;
 
-    invoke-static {v3}, Lcom/tencent/mm/booter/CoreService;->b(Lcom/tencent/mm/booter/CoreService;)Lcom/tencent/mm/network/r;
+    invoke-static {v3}, Lcom/tencent/mm/booter/CoreService;->b(Lcom/tencent/mm/booter/CoreService;)Lcom/tencent/mm/network/Rclz;
 
     move-result-object v3
 
-    iget-object v3, v3, Lcom/tencent/mm/network/r;->cal:Lcom/tencent/mm/network/a;
+    iget-object v3, v3, Lcom/tencent/mm/network/Rclz;->cal:Lcom/tencent/mm/network/Aclz;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/network/a;->ta()[B
+    invoke-virtual {v3}, Lcom/tencent/mm/network/Aclz;->ta()[B
 
     move-result-object v3
 

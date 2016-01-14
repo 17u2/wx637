@@ -24,28 +24,28 @@
 
 .field final synthetic bHB:Lcom/tencent/mm/w/c$3;
 
-.field final synthetic bHx:Lcom/tencent/mm/model/z$c$a;
+.field final synthetic bHx:Lcom/tencent/mm/model/Zclz$c$a;
 
 .field final synthetic bHy:Z
 
-.field final synthetic bHz:Lcom/tencent/mm/model/z$c$a;
+.field final synthetic bHz:Lcom/tencent/mm/model/Zclz$c$a;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/w/c$3;Lcom/tencent/mm/model/z$c$a;Ljava/lang/String;ZLcom/tencent/mm/model/z$c$a;Ljava/lang/String;)V
+.method constructor <init>(Lcom/tencent/mm/w/c$3;Lcom/tencent/mm/model/Zclz$c$a;Ljava/lang/String;ZLcom/tencent/mm/model/Zclz$c$a;Ljava/lang/String;)V
     .locals 1
 
     .prologue
     .line 336
     iput-object p1, p0, Lcom/tencent/mm/w/c$3$1;->bHB:Lcom/tencent/mm/w/c$3;
 
-    iput-object p2, p0, Lcom/tencent/mm/w/c$3$1;->bHx:Lcom/tencent/mm/model/z$c$a;
+    iput-object p2, p0, Lcom/tencent/mm/w/c$3$1;->bHx:Lcom/tencent/mm/model/Zclz$c$a;
 
     iput-object p3, p0, Lcom/tencent/mm/w/c$3$1;->amO:Ljava/lang/String;
 
     iput-boolean p4, p0, Lcom/tencent/mm/w/c$3$1;->bHy:Z
 
-    iput-object p5, p0, Lcom/tencent/mm/w/c$3$1;->bHz:Lcom/tencent/mm/model/z$c$a;
+    iput-object p5, p0, Lcom/tencent/mm/w/c$3$1;->bHz:Lcom/tencent/mm/model/Zclz$c$a;
 
     iput-object p6, p0, Lcom/tencent/mm/w/c$3$1;->bHA:Ljava/lang/String;
 
@@ -68,22 +68,22 @@
 
     .prologue
     .line 340
-    iget-object v0, p0, Lcom/tencent/mm/w/c$3$1;->bHx:Lcom/tencent/mm/model/z$c$a;
+    iget-object v0, p0, Lcom/tencent/mm/w/c$3$1;->bHx:Lcom/tencent/mm/model/Zclz$c$a;
 
     if-eqz v0, :cond_0
 
     .line 341
-    iget-object v0, p0, Lcom/tencent/mm/w/c$3$1;->bHx:Lcom/tencent/mm/model/z$c$a;
+    iget-object v0, p0, Lcom/tencent/mm/w/c$3$1;->bHx:Lcom/tencent/mm/model/Zclz$c$a;
 
     iget-object v1, p0, Lcom/tencent/mm/w/c$3$1;->amO:Ljava/lang/String;
 
     iget-boolean v2, p0, Lcom/tencent/mm/w/c$3$1;->bHy:Z
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/model/z$c$a;->e(Ljava/lang/String;Z)V
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/model/Zclz$c$a;->e(Ljava/lang/String;Z)V
 
     .line 343
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/w/c$3$1;->bHz:Lcom/tencent/mm/model/z$c$a;
+    iget-object v0, p0, Lcom/tencent/mm/w/c$3$1;->bHz:Lcom/tencent/mm/model/Zclz$c$a;
 
     if-eqz v0, :cond_1
 
@@ -96,13 +96,13 @@
     if-nez v0, :cond_1
 
     .line 344
-    iget-object v0, p0, Lcom/tencent/mm/w/c$3$1;->bHz:Lcom/tencent/mm/model/z$c$a;
+    iget-object v0, p0, Lcom/tencent/mm/w/c$3$1;->bHz:Lcom/tencent/mm/model/Zclz$c$a;
 
     iget-object v1, p0, Lcom/tencent/mm/w/c$3$1;->bHA:Ljava/lang/String;
 
     iget-boolean v2, p0, Lcom/tencent/mm/w/c$3$1;->bHy:Z
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/model/z$c$a;->e(Ljava/lang/String;Z)V
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/model/Zclz$c$a;->e(Ljava/lang/String;Z)V
 
     .line 347
     :cond_1

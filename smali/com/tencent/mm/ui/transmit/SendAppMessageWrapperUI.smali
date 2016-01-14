@@ -120,7 +120,7 @@
 
     if-nez v0, :cond_6
 
-    invoke-static {}, Lcom/tencent/mm/model/az;->ut()Lcom/tencent/mm/model/az;
+    invoke-static {}, Lcom/tencent/mm/model/AZclz;->ut()Lcom/tencent/mm/model/AZclz;
 
     move-result-object v0
 
@@ -134,7 +134,7 @@
 
     aput-object v3, v2, v7
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/model/az;->b(I[Ljava/lang/Object;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/model/AZclz;->b(I[Ljava/lang/Object;)V
 
     invoke-virtual {p1}, Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;->getType()I
 
@@ -290,13 +290,13 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->awK:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->eC(Ljava/lang/String;)I
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->eC(Ljava/lang/String;)I
 
     move-result v2
 
     invoke-direct {v0, v1, p2, v2}, Lcom/tencent/mm/ac/g;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 

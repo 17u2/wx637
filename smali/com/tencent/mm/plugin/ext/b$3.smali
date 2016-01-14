@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/storage/ae$a;
+.implements Lcom/tencent/mm/storage/AEclz$a;
 
 
 # annotations
@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/storage/ae;Lcom/tencent/mm/storage/ae$c;)V
+.method public final a(Lcom/tencent/mm/storage/AEclz;Lcom/tencent/mm/storage/AEclz$c;)V
     .locals 8
 
     .prologue
@@ -54,7 +54,7 @@
 
     if-eqz p2, :cond_0
 
-    iget-object v1, p2, Lcom/tencent/mm/storage/ae$c;->jpn:Ljava/util/ArrayList;
+    iget-object v1, p2, Lcom/tencent/mm/storage/AEclz$c;->jpn:Ljava/util/ArrayList;
 
     if-nez v1, :cond_1
 
@@ -81,7 +81,7 @@
     .line 327
     :goto_1
     :try_start_0
-    iget-object v0, p2, Lcom/tencent/mm/storage/ae$c;->jpn:Ljava/util/ArrayList;
+    iget-object v0, p2, Lcom/tencent/mm/storage/AEclz$c;->jpn:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
@@ -90,13 +90,13 @@
     if-ge v2, v0, :cond_4
 
     .line 328
-    iget-object v0, p2, Lcom/tencent/mm/storage/ae$c;->jpn:Ljava/util/ArrayList;
+    iget-object v0, p2, Lcom/tencent/mm/storage/AEclz$c;->jpn:Ljava/util/ArrayList;
 
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/ad;
+    check-cast v0, Lcom/tencent/mm/storage/ADclz;
 
     .line 329
     if-eqz v0, :cond_2
@@ -127,7 +127,7 @@
     .line 333
     iget-object v1, v0, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->eB(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->eB(Ljava/lang/String;)Z
 
     move-result v1
 

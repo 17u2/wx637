@@ -15,8 +15,8 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/tencent/mm/model/ac;)V
+.method public abstract a(Lcom/tencent/mm/model/ACclz;)V
 .end method
 
-.method public abstract b(Lcom/tencent/mm/model/ac;)V
+.method public abstract b(Lcom/tencent/mm/model/ACclz;)V
 .end method

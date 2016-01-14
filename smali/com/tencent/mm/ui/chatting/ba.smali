@@ -77,7 +77,7 @@
     return-object p2
 .end method
 
-.method public final a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;Ljava/lang/String;)V
+.method public final a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;)V
     .locals 8
 
     .prologue
@@ -102,28 +102,28 @@
     if-ne v0, v1, :cond_5
 
     .line 55
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rk()Lcom/tencent/mm/storage/ae;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rk()Lcom/tencent/mm/storage/AEclz;
 
     move-result-object v0
 
     iget-object v1, p4, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/ae;->Da(Ljava/lang/String;)Lcom/tencent/mm/storage/ad$e;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/AEclz;->Da(Ljava/lang/String;)Lcom/tencent/mm/storage/ADclz$e;
 
     move-result-object v0
 
     .line 56
     if-eqz v0, :cond_0
 
-    iget-object v1, v0, Lcom/tencent/mm/storage/ad$e;->gGy:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/storage/ADclz$e;->gGy:Ljava/lang/String;
 
     if-eqz v1, :cond_0
 
-    iget-object v1, v0, Lcom/tencent/mm/storage/ad$e;->gGy:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/storage/ADclz$e;->gGy:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
@@ -145,16 +145,16 @@
 
     .line 60
     :cond_1
-    iget-object v1, v0, Lcom/tencent/mm/storage/ad$e;->gGy:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/storage/ADclz$e;->gGy:Ljava/lang/String;
 
-    iget v2, v0, Lcom/tencent/mm/storage/ad$e;->joH:I
+    iget v2, v0, Lcom/tencent/mm/storage/ADclz$e;->joH:I
 
     invoke-static {v1, v2}, Lcom/tencent/mm/p/b;->r(Ljava/lang/String;I)Z
 
     .line 62
-    iget-object v1, v0, Lcom/tencent/mm/storage/ad$e;->gGy:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/storage/ADclz$e;->gGy:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->dS(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->dS(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -193,7 +193,7 @@
 
     .line 78
     :goto_1
-    iget v1, v0, Lcom/tencent/mm/storage/ad$e;->arG:I
+    iget v1, v0, Lcom/tencent/mm/storage/ADclz$e;->arG:I
 
     packed-switch v1, :pswitch_data_0
 
@@ -214,7 +214,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/ad$e;->getDisplayName()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/ADclz$e;->getDisplayName()Ljava/lang/String;
 
     move-result-object v3
 
@@ -233,7 +233,7 @@
     .line 128
     iget-object v1, p1, Lcom/tencent/mm/ui/chatting/da;->crp:Landroid/widget/ImageView;
 
-    iget-object v2, v0, Lcom/tencent/mm/storage/ad$e;->gGy:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/storage/ADclz$e;->gGy:Ljava/lang/String;
 
     invoke-static {v1, v2}, Lcom/tencent/mm/ui/chatting/ba;->m(Landroid/widget/ImageView;Ljava/lang/String;)V
 
@@ -243,11 +243,11 @@
     invoke-virtual {v1, v5}, Landroid/widget/TextView;->setVisibility(I)V
 
     .line 131
-    iget-object v1, v0, Lcom/tencent/mm/storage/ad$e;->content:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/storage/ADclz$e;->content:Ljava/lang/String;
 
     if-eqz v1, :cond_4
 
-    iget-object v1, v0, Lcom/tencent/mm/storage/ad$e;->content:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/storage/ADclz$e;->content:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->trim()Ljava/lang/String;
 
@@ -264,7 +264,7 @@
     .line 132
     iget-object v1, p1, Lcom/tencent/mm/ui/chatting/da;->kec:Landroid/widget/TextView;
 
-    iget-object v0, v0, Lcom/tencent/mm/storage/ad$e;->content:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/storage/ADclz$e;->content:Ljava/lang/String;
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -284,7 +284,7 @@
 
     move v6, v5
 
-    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ad;ZILjava/lang/String;IB)V
+    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ADclz;ZILjava/lang/String;IB)V
 
     invoke-virtual {v7, v0}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
@@ -388,7 +388,7 @@
 
     move-result-object v1
 
-    iget-object v2, v0, Lcom/tencent/mm/storage/ad$e;->gGy:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/storage/ADclz$e;->gGy:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/tencent/mm/modelfriend/c;->hc(Ljava/lang/String;)Lcom/tencent/mm/modelfriend/b;
 
@@ -470,28 +470,28 @@
     if-ne v0, v1, :cond_b
 
     .line 138
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rk()Lcom/tencent/mm/storage/ae;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rk()Lcom/tencent/mm/storage/AEclz;
 
     move-result-object v0
 
     iget-object v1, p4, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/ae;->Db(Ljava/lang/String;)Lcom/tencent/mm/storage/ad$b;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/AEclz;->Db(Ljava/lang/String;)Lcom/tencent/mm/storage/ADclz$b;
 
     move-result-object v1
 
     .line 140
     if-eqz v1, :cond_6
 
-    iget-object v0, v1, Lcom/tencent/mm/storage/ad$b;->gGy:Ljava/lang/String;
+    iget-object v0, v1, Lcom/tencent/mm/storage/ADclz$b;->gGy:Ljava/lang/String;
 
     if-eqz v0, :cond_6
 
-    iget-object v0, v1, Lcom/tencent/mm/storage/ad$b;->gGy:Ljava/lang/String;
+    iget-object v0, v1, Lcom/tencent/mm/storage/ADclz$b;->gGy:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
@@ -511,16 +511,16 @@
 
     .line 144
     :cond_7
-    iget-object v0, v1, Lcom/tencent/mm/storage/ad$b;->gGy:Ljava/lang/String;
+    iget-object v0, v1, Lcom/tencent/mm/storage/ADclz$b;->gGy:Ljava/lang/String;
 
-    iget v2, v1, Lcom/tencent/mm/storage/ad$b;->joH:I
+    iget v2, v1, Lcom/tencent/mm/storage/ADclz$b;->joH:I
 
     invoke-static {v0, v2}, Lcom/tencent/mm/p/b;->r(Ljava/lang/String;I)Z
 
     .line 146
-    iget-object v0, v1, Lcom/tencent/mm/storage/ad$b;->gGy:Ljava/lang/String;
+    iget-object v0, v1, Lcom/tencent/mm/storage/ADclz$b;->gGy:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->dS(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->dS(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -559,7 +559,7 @@
 
     .line 162
     :goto_5
-    iget v0, v1, Lcom/tencent/mm/storage/ad$b;->arG:I
+    iget v0, v1, Lcom/tencent/mm/storage/ADclz$b;->arG:I
 
     sparse-switch v0, :sswitch_data_0
 
@@ -570,7 +570,7 @@
 
     new-array v3, v6, [Ljava/lang/Object;
 
-    iget v4, v1, Lcom/tencent/mm/storage/ad$b;->arG:I
+    iget v4, v1, Lcom/tencent/mm/storage/ADclz$b;->arG:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -601,7 +601,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/storage/ad$b;->getDisplayName()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/storage/ADclz$b;->getDisplayName()Ljava/lang/String;
 
     move-result-object v3
 
@@ -621,7 +621,7 @@
     :goto_6
     iget-object v0, p1, Lcom/tencent/mm/ui/chatting/da;->crp:Landroid/widget/ImageView;
 
-    iget-object v1, v1, Lcom/tencent/mm/storage/ad$b;->gGy:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/storage/ADclz$b;->gGy:Ljava/lang/String;
 
     invoke-static {v0, v1}, Lcom/tencent/mm/ui/chatting/ba;->m(Landroid/widget/ImageView;Ljava/lang/String;)V
 
@@ -677,7 +677,7 @@
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
     .line 167
-    invoke-virtual {v1}, Lcom/tencent/mm/storage/ad$b;->aRd()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/storage/ADclz$b;->aRd()Ljava/lang/String;
 
     move-result-object v0
 
@@ -685,7 +685,7 @@
     if-nez v0, :cond_9
 
     .line 170
-    invoke-virtual {v1}, Lcom/tencent/mm/storage/ad$b;->getDisplayName()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/storage/ADclz$b;->getDisplayName()Ljava/lang/String;
 
     move-result-object v0
 
@@ -720,7 +720,7 @@
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
     .line 179
-    iget-object v0, v1, Lcom/tencent/mm/storage/ad$b;->joI:Ljava/lang/String;
+    iget-object v0, v1, Lcom/tencent/mm/storage/ADclz$b;->joI:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/modelfriend/m;->hk(Ljava/lang/String;)Ljava/lang/String;
 
@@ -734,7 +734,7 @@
     if-eqz v2, :cond_a
 
     .line 181
-    iget-object v0, v1, Lcom/tencent/mm/storage/ad$b;->joJ:Ljava/lang/String;
+    iget-object v0, v1, Lcom/tencent/mm/storage/ADclz$b;->joJ:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/modelfriend/m;->hk(Ljava/lang/String;)Ljava/lang/String;
 
@@ -763,7 +763,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/storage/ad$b;->getDisplayName()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/storage/ADclz$b;->getDisplayName()Ljava/lang/String;
 
     move-result-object v3
 
@@ -803,7 +803,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/storage/ad$b;->getDisplayName()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/storage/ADclz$b;->getDisplayName()Ljava/lang/String;
 
     move-result-object v3
 
@@ -843,7 +843,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/storage/ad$b;->getDisplayName()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/storage/ADclz$b;->getDisplayName()Ljava/lang/String;
 
     move-result-object v3
 
@@ -919,7 +919,7 @@
     .end sparse-switch
 .end method
 
-.method public final a(Landroid/view/ContextMenu;Landroid/view/View;Lcom/tencent/mm/storage/ad;)Z
+.method public final a(Landroid/view/ContextMenu;Landroid/view/View;Lcom/tencent/mm/storage/ADclz;)Z
     .locals 1
 
     .prologue
@@ -929,7 +929,7 @@
     return v0
 .end method
 
-.method public final a(Landroid/view/MenuItem;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)Z
+.method public final a(Landroid/view/MenuItem;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)Z
     .locals 1
 
     .prologue
@@ -939,7 +939,7 @@
     return v0
 .end method
 
-.method public final a(Landroid/view/View;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)Z
+.method public final a(Landroid/view/View;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)Z
     .locals 1
 
     .prologue

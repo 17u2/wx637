@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/ui/conversation/e$1;
-.super Lcom/tencent/mm/network/m$a;
+.super Lcom/tencent/mm/network/Mclz$a;
 .source "SourceFile"
 
 
@@ -28,7 +28,7 @@
     .line 175
     iput-object p1, p0, Lcom/tencent/mm/ui/conversation/e$1;->kxT:Lcom/tencent/mm/ui/conversation/e;
 
-    invoke-direct {p0}, Lcom/tencent/mm/network/m$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/network/Mclz$a;-><init>()V
 
     .line 177
     new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;

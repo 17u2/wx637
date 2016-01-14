@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/z$c;
+.implements Lcom/tencent/mm/model/Zclz$c;
 
 
 # annotations
@@ -102,7 +102,7 @@
     .line 100
     new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v1
 
@@ -123,7 +123,7 @@
     .line 263
     new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v1
 
@@ -176,12 +176,12 @@
 
     .line 86
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v0
 
     .line 87
-    invoke-static {}, Lcom/tencent/mm/model/h;->rT()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rT()Ljava/lang/String;
 
     move-result-object v2
 
@@ -816,13 +816,13 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/model/z$c$a;
+    check-cast v0, Lcom/tencent/mm/model/Zclz$c$a;
 
     .line 145
     if-eqz v0, :cond_6
 
     .line 146
-    invoke-interface {v0, v6, v3}, Lcom/tencent/mm/model/z$c$a;->e(Ljava/lang/String;Z)V
+    invoke-interface {v0, v6, v3}, Lcom/tencent/mm/model/Zclz$c$a;->e(Ljava/lang/String;Z)V
 
     .line 148
     :cond_6
@@ -854,7 +854,7 @@
     check-cast v0, Ljava/lang/String;
 
     .line 172
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -969,7 +969,7 @@
     return-void
 .end method
 
-.method public final a(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/model/z$c$a;)V
+.method public final a(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/model/Zclz$c$a;)V
     .locals 3
 
     .prologue

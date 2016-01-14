@@ -35,7 +35,7 @@
 
 
 # virtual methods
-.method protected final a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)Ljava/lang/String;
+.method protected final a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)Ljava/lang/String;
     .locals 1
 
     .prologue

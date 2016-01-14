@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/chatting/dq;->a(Lcom/tencent/mm/storage/ad;Ljava/lang/String;Landroid/content/Context;I)V
+    value = Lcom/tencent/mm/ui/chatting/dq;->a(Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;Landroid/content/Context;I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic bJG:Lcom/tencent/mm/storage/ad;
+.field final synthetic bJG:Lcom/tencent/mm/storage/ADclz;
 
 .field final synthetic cHz:Ljava/lang/String;
 
@@ -28,12 +28,12 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/storage/ad;Ljava/lang/String;ILandroid/content/Context;)V
+.method constructor <init>(Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;ILandroid/content/Context;)V
     .locals 1
 
     .prologue
     .line 436
-    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/dq$10;->bJG:Lcom/tencent/mm/storage/ad;
+    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/dq$10;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iput-object p2, p0, Lcom/tencent/mm/ui/chatting/dq$10;->cHz:Ljava/lang/String;
 
@@ -77,7 +77,7 @@
     move-result-object v2
 
     .line 441
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/dq$10;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/dq$10;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/dq$10;->cHz:Ljava/lang/String;
 
@@ -248,11 +248,11 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v5
 
-    invoke-virtual {v5}, Lcom/tencent/mm/model/c;->rD()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/tencent/mm/model/Cclz;->rD()Ljava/lang/String;
 
     move-result-object v5
 

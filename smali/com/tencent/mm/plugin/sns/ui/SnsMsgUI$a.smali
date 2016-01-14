@@ -713,13 +713,13 @@
     :goto_2
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/SnsMsgUI$a;->gzL:Lcom/tencent/mm/plugin/sns/ui/SnsMsgUI;
 
-    invoke-static {v2}, Lcom/tencent/mm/plugin/sns/ui/SnsMsgUI;->o(Lcom/tencent/mm/plugin/sns/ui/SnsMsgUI;)Lcom/tencent/mm/storage/q;
+    invoke-static {v2}, Lcom/tencent/mm/plugin/sns/ui/SnsMsgUI;->o(Lcom/tencent/mm/plugin/sns/ui/SnsMsgUI;)Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v2
 
     iget-object v5, v1, Lcom/tencent/mm/protocal/b/anr;->iQx:Ljava/lang/String;
 
-    invoke-virtual {v2, v5}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v2, v5}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v2
 
@@ -1024,11 +1024,11 @@
     :try_start_4
     iget-object v4, p0, Lcom/tencent/mm/plugin/sns/ui/SnsMsgUI$a;->gzL:Lcom/tencent/mm/plugin/sns/ui/SnsMsgUI;
 
-    invoke-static {v4}, Lcom/tencent/mm/plugin/sns/ui/SnsMsgUI;->o(Lcom/tencent/mm/plugin/sns/ui/SnsMsgUI;)Lcom/tencent/mm/storage/q;
+    invoke-static {v4}, Lcom/tencent/mm/plugin/sns/ui/SnsMsgUI;->o(Lcom/tencent/mm/plugin/sns/ui/SnsMsgUI;)Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v4
 
-    invoke-virtual {v4, v2}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v4, v2}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v4
 
@@ -1512,9 +1512,9 @@
 
     move-result v7
 
-    sget-object v8, Lcom/tencent/mm/storage/i$a;->jla:Lcom/tencent/mm/storage/i$a;
+    sget-object v8, Lcom/tencent/mm/storage/Iclz$a;->jla:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-virtual {v6, v1, v5, v7, v8}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Landroid/widget/ImageView;ILcom/tencent/mm/storage/i$a;)Landroid/graphics/Bitmap;
+    invoke-virtual {v6, v1, v5, v7, v8}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Landroid/widget/ImageView;ILcom/tencent/mm/storage/Iclz$a;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -1710,7 +1710,7 @@
     if-eqz v1, :cond_5
 
     .line 874
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 

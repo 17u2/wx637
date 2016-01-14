@@ -109,17 +109,17 @@
     .line 328
     :cond_0
     :goto_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI$4;->hYD:Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->c(Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;)Lcom/tencent/mm/model/v;
+    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->c(Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;)Lcom/tencent/mm/model/Vclz;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/model/u;->a(Lcom/tencent/mm/model/v;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/model/Uclz;->a(Lcom/tencent/mm/model/Vclz;)V
 
     .line 329
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI$4;->hYD:Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;
@@ -131,7 +131,7 @@
     if-eqz v0, :cond_2
 
     .line 330
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
@@ -153,7 +153,7 @@
 
     move-result-object v3
 
-    invoke-interface {v0, v1, v2, v3}, Lcom/tencent/mm/model/u;->a(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/ada;)Lcom/tencent/mm/model/u;
+    invoke-interface {v0, v1, v2, v3}, Lcom/tencent/mm/model/Uclz;->a(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/ada;)Lcom/tencent/mm/model/Uclz;
 
     .line 334
     :goto_1
@@ -173,11 +173,11 @@
 
     .line 332
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/u;->mN()Lcom/tencent/mm/model/u;
+    invoke-interface {v0}, Lcom/tencent/mm/model/Uclz;->mN()Lcom/tencent/mm/model/Uclz;
 
     goto :goto_1
 .end method

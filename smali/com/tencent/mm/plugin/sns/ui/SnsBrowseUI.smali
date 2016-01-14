@@ -184,9 +184,9 @@
     .line 139
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsBrowseUI;->gvZ:Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;
 
-    sget-object v1, Lcom/tencent/mm/storage/i$a;->jkU:Lcom/tencent/mm/storage/i$a;
+    sget-object v1, Lcom/tencent/mm/storage/Iclz$a;->jkU:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->setFromScene(Lcom/tencent/mm/storage/i$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->setFromScene(Lcom/tencent/mm/storage/Iclz$a;)V
 
     .line 140
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsBrowseUI;->gvZ:Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;
@@ -1002,7 +1002,7 @@
     :goto_5
     invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/plugin/sns/a/a/c;-><init>(Ljava/lang/String;IILjava/lang/String;I)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 

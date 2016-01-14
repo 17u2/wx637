@@ -647,18 +647,18 @@
 
     iget-object v2, p0, Lcom/tencent/mm/z/j$2;->bKl:Lcom/tencent/mm/z/j;
 
-    iget-object v2, v2, Lcom/tencent/mm/z/j;->arO:Lcom/tencent/mm/storage/ad;
+    iget-object v2, v2, Lcom/tencent/mm/z/j;->arO:Lcom/tencent/mm/storage/ADclz;
 
     if-eqz v2, :cond_a
 
     iget-object v2, p0, Lcom/tencent/mm/z/j$2;->bKl:Lcom/tencent/mm/z/j;
 
-    iget-object v2, v2, Lcom/tencent/mm/z/j;->arO:Lcom/tencent/mm/storage/ad;
+    iget-object v2, v2, Lcom/tencent/mm/z/j;->arO:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v2, v2, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
 
     :goto_6
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -778,18 +778,18 @@
 
     iget-object v2, p0, Lcom/tencent/mm/z/j$2;->bKl:Lcom/tencent/mm/z/j;
 
-    iget-object v2, v2, Lcom/tencent/mm/z/j;->arO:Lcom/tencent/mm/storage/ad;
+    iget-object v2, v2, Lcom/tencent/mm/z/j;->arO:Lcom/tencent/mm/storage/ADclz;
 
     if-eqz v2, :cond_d
 
     iget-object v2, p0, Lcom/tencent/mm/z/j$2;->bKl:Lcom/tencent/mm/z/j;
 
-    iget-object v2, v2, Lcom/tencent/mm/z/j;->arO:Lcom/tencent/mm/storage/ad;
+    iget-object v2, v2, Lcom/tencent/mm/z/j;->arO:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v2, v2, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
 
     :goto_9
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v2
 

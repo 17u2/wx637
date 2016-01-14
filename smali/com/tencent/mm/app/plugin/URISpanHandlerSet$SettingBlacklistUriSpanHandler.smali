@@ -74,7 +74,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/model/n;->eP(Ljava/lang/String;)Lcom/tencent/mm/storage/aa;
+    invoke-static {v0}, Lcom/tencent/mm/model/Nclz;->eP(Ljava/lang/String;)Lcom/tencent/mm/storage/AAclz;
 
     move-result-object v0
 
@@ -97,7 +97,7 @@
     .line 877
     const-string/jumbo v2, "Contact_GroupFilter_Type"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/aa;->getType()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/AAclz;->getType()Ljava/lang/String;
 
     move-result-object v3
 
@@ -106,7 +106,7 @@
     .line 878
     const-string/jumbo v2, "Contact_GroupFilter_DisplayName"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/aa;->qx()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/AAclz;->qx()Ljava/lang/String;
 
     move-result-object v0
 
@@ -179,7 +179,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/model/n;->eP(Ljava/lang/String;)Lcom/tencent/mm/storage/aa;
+    invoke-static {v0}, Lcom/tencent/mm/model/Nclz;->eP(Ljava/lang/String;)Lcom/tencent/mm/storage/AAclz;
 
     move-result-object v0
 
@@ -202,7 +202,7 @@
     .line 899
     const-string/jumbo v2, "Contact_GroupFilter_Type"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/aa;->getType()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/AAclz;->getType()Ljava/lang/String;
 
     move-result-object v3
 
@@ -211,7 +211,7 @@
     .line 900
     const-string/jumbo v2, "Contact_GroupFilter_DisplayName"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/aa;->qx()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/AAclz;->qx()Ljava/lang/String;
 
     move-result-object v0
 

@@ -193,7 +193,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->username:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->di(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
     move-result v0
 

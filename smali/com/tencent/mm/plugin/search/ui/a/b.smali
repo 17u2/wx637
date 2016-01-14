@@ -21,7 +21,7 @@
 
 .field public cFk:Ljava/lang/CharSequence;
 
-.field public czx:Lcom/tencent/mm/storage/k;
+.field public czx:Lcom/tencent/mm/storage/Kclz;
 
 .field fKN:Lcom/tencent/mm/plugin/search/ui/a/b$a;
 

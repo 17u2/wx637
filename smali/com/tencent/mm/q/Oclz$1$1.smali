@@ -62,7 +62,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/Oclz$1;->byR:Lcom/tencent/mm/q/Oclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/q/Oclz;->e(Lcom/tencent/mm/q/Oclz;)Lcom/tencent/mm/network/e;
+    invoke-static {v0}, Lcom/tencent/mm/q/Oclz;->e(Lcom/tencent/mm/q/Oclz;)Lcom/tencent/mm/network/Eclz;
 
     move-result-object v0
 
@@ -94,7 +94,7 @@
 
     move-result-object v2
 
-    invoke-interface {v0, v2}, Lcom/tencent/mm/network/e;->fZ(Ljava/lang/String;)V
+    invoke-interface {v0, v2}, Lcom/tencent/mm/network/Eclz;->fZ(Ljava/lang/String;)V
 
     .line 51
     const-string/jumbo v2, "!44@/B4Tb64lLpJVmBcdRgwcnCA6wpOd+TXyJoUPBDMn8CE="

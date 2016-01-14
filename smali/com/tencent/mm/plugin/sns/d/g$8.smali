@@ -20,13 +20,13 @@
 # instance fields
 .field final synthetic ggP:Lcom/tencent/mm/protocal/b/abp;
 
-.field final synthetic ggS:Lcom/tencent/mm/storage/i$a;
+.field final synthetic ggS:Lcom/tencent/mm/storage/Iclz$a;
 
 .field final synthetic ghj:Lcom/tencent/mm/plugin/sns/d/g;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/sns/d/g;Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/i$a;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/sns/d/g;Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/Iclz$a;)V
     .locals 1
 
     .prologue
@@ -35,7 +35,7 @@
 
     iput-object p2, p0, Lcom/tencent/mm/plugin/sns/d/g$8;->ggP:Lcom/tencent/mm/protocal/b/abp;
 
-    iput-object p3, p0, Lcom/tencent/mm/plugin/sns/d/g$8;->ggS:Lcom/tencent/mm/storage/i$a;
+    iput-object p3, p0, Lcom/tencent/mm/plugin/sns/d/g$8;->ggS:Lcom/tencent/mm/storage/Iclz$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -66,9 +66,9 @@
 
     const/4 v3, 0x0
 
-    iget-object v4, p0, Lcom/tencent/mm/plugin/sns/d/g$8;->ggS:Lcom/tencent/mm/storage/i$a;
+    iget-object v4, p0, Lcom/tencent/mm/plugin/sns/d/g$8;->ggS:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/tencent/mm/plugin/sns/d/b;->a(Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/i$a;)Z
+    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/tencent/mm/plugin/sns/d/b;->a(Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/Iclz$a;)Z
 
     .line 1001
     return-void

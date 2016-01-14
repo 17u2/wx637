@@ -208,7 +208,7 @@
 
     move-object v3, v0
 
-    check-cast v3, Lcom/tencent/mm/storage/ad;
+    check-cast v3, Lcom/tencent/mm/storage/ADclz;
 
     .line 699
     if-eqz v3, :cond_2
@@ -217,7 +217,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-virtual {v3}, Lcom/tencent/mm/storage/ad;->aQG()Z
+    invoke-virtual {v3}, Lcom/tencent/mm/storage/ADclz;->aQG()Z
 
     move-result v0
 

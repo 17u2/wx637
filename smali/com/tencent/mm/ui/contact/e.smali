@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static a(Landroid/content/Context;Lcom/tencent/mm/storage/ad$b;)V
+.method public static a(Landroid/content/Context;Lcom/tencent/mm/storage/ADclz$b;)V
     .locals 2
 
     .prologue
@@ -13,13 +13,13 @@
     .line 73
     const/4 v0, 0x0
 
-    invoke-static {p0, p1, v1, v1, v0}, Lcom/tencent/mm/ui/contact/e;->a(Landroid/content/Context;Lcom/tencent/mm/storage/ad$b;ZZLandroid/os/Bundle;)V
+    invoke-static {p0, p1, v1, v1, v0}, Lcom/tencent/mm/ui/contact/e;->a(Landroid/content/Context;Lcom/tencent/mm/storage/ADclz$b;ZZLandroid/os/Bundle;)V
 
     .line 74
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;Lcom/tencent/mm/storage/ad$b;ZZLandroid/os/Bundle;)V
+.method public static a(Landroid/content/Context;Lcom/tencent/mm/storage/ADclz$b;ZZLandroid/os/Bundle;)V
     .locals 7
 
     .prologue
@@ -35,34 +35,34 @@
 
     .line 81
     :cond_1
-    new-instance v1, Lcom/tencent/mm/storage/k;
+    new-instance v1, Lcom/tencent/mm/storage/Kclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/storage/k;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/storage/Kclz;-><init>()V
 
     .line 82
-    iget-object v0, p1, Lcom/tencent/mm/storage/ad$b;->gGy:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/storage/ADclz$b;->gGy:Ljava/lang/String;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/k;->setUsername(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/Kclz;->setUsername(Ljava/lang/String;)V
 
     .line 83
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/ad$b;->getDisplayName()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/ADclz$b;->getDisplayName()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/k;->bE(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/Kclz;->bE(Ljava/lang/String;)V
 
     .line 84
-    iget-object v0, p1, Lcom/tencent/mm/storage/ad$b;->bFQ:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/storage/ADclz$b;->bFQ:Ljava/lang/String;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/k;->bF(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/Kclz;->bF(Ljava/lang/String;)V
 
     .line 85
-    iget-object v0, p1, Lcom/tencent/mm/storage/ad$b;->bFR:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/storage/ADclz$b;->bFR:Ljava/lang/String;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/k;->bG(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/Kclz;->bG(Ljava/lang/String;)V
 
     .line 86
-    iget-object v6, p1, Lcom/tencent/mm/storage/ad$b;->fbl:Ljava/lang/String;
+    iget-object v6, p1, Lcom/tencent/mm/storage/ADclz$b;->fbl:Ljava/lang/String;
 
     move-object v0, p0
 
@@ -74,12 +74,12 @@
 
     move-object v5, p4
 
-    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/ui/contact/e;->a(Landroid/content/Context;Lcom/tencent/mm/storage/k;Lcom/tencent/mm/storage/ad$b;ZZLandroid/os/Bundle;Ljava/lang/String;)V
+    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/ui/contact/e;->a(Landroid/content/Context;Lcom/tencent/mm/storage/Kclz;Lcom/tencent/mm/storage/ADclz$b;ZZLandroid/os/Bundle;Ljava/lang/String;)V
 
     goto :goto_0
 .end method
 
-.method public static a(Landroid/content/Context;Lcom/tencent/mm/storage/k;Lcom/tencent/mm/storage/ad$b;)V
+.method public static a(Landroid/content/Context;Lcom/tencent/mm/storage/Kclz;Lcom/tencent/mm/storage/ADclz$b;)V
     .locals 7
 
     .prologue
@@ -88,7 +88,7 @@
     .line 90
     const/4 v5, 0x0
 
-    iget-object v6, p2, Lcom/tencent/mm/storage/ad$b;->fbl:Ljava/lang/String;
+    iget-object v6, p2, Lcom/tencent/mm/storage/ADclz$b;->fbl:Ljava/lang/String;
 
     move-object v0, p0
 
@@ -98,13 +98,13 @@
 
     move v4, v3
 
-    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/ui/contact/e;->a(Landroid/content/Context;Lcom/tencent/mm/storage/k;Lcom/tencent/mm/storage/ad$b;ZZLandroid/os/Bundle;Ljava/lang/String;)V
+    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/ui/contact/e;->a(Landroid/content/Context;Lcom/tencent/mm/storage/Kclz;Lcom/tencent/mm/storage/ADclz$b;ZZLandroid/os/Bundle;Ljava/lang/String;)V
 
     .line 91
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;Lcom/tencent/mm/storage/k;Lcom/tencent/mm/storage/ad$b;ZZLandroid/os/Bundle;Ljava/lang/String;)V
+.method public static a(Landroid/content/Context;Lcom/tencent/mm/storage/Kclz;Lcom/tencent/mm/storage/ADclz$b;ZZLandroid/os/Bundle;Ljava/lang/String;)V
     .locals 5
 
     .prologue
@@ -149,7 +149,7 @@
     .line 106
     const-string/jumbo v1, "Contact_Alias"
 
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/k;->mi()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/Kclz;->mi()Ljava/lang/String;
 
     move-result-object v2
 
@@ -158,7 +158,7 @@
     .line 107
     const-string/jumbo v1, "Contact_Nick"
 
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/k;->qx()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/Kclz;->qx()Ljava/lang/String;
 
     move-result-object v2
 
@@ -167,7 +167,7 @@
     .line 108
     const-string/jumbo v1, "Contact_QuanPin"
 
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/k;->mk()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/Kclz;->mk()Ljava/lang/String;
 
     move-result-object v2
 
@@ -176,7 +176,7 @@
     .line 109
     const-string/jumbo v1, "Contact_PyInitial"
 
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/k;->mj()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/Kclz;->mj()Ljava/lang/String;
 
     move-result-object v2
 
@@ -185,14 +185,14 @@
     .line 110
     const-string/jumbo v1, "Contact_Sex"
 
-    iget v2, p2, Lcom/tencent/mm/storage/ad$b;->aOs:I
+    iget v2, p2, Lcom/tencent/mm/storage/ADclz$b;->aOs:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 111
     const-string/jumbo v1, "Contact_Province"
 
-    invoke-virtual {p2}, Lcom/tencent/mm/storage/ad$b;->getProvince()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/tencent/mm/storage/ADclz$b;->getProvince()Ljava/lang/String;
 
     move-result-object v2
 
@@ -201,7 +201,7 @@
     .line 112
     const-string/jumbo v1, "Contact_City"
 
-    invoke-virtual {p2}, Lcom/tencent/mm/storage/ad$b;->getCity()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/tencent/mm/storage/ADclz$b;->getCity()Ljava/lang/String;
 
     move-result-object v2
 
@@ -210,35 +210,35 @@
     .line 113
     const-string/jumbo v1, "Contact_Signature"
 
-    iget-object v2, p2, Lcom/tencent/mm/storage/ad$b;->aOC:Ljava/lang/String;
+    iget-object v2, p2, Lcom/tencent/mm/storage/ADclz$b;->aOC:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 114
     const-string/jumbo v1, "Contact_Uin"
 
-    iget-wide v2, p2, Lcom/tencent/mm/storage/ad$b;->fbi:J
+    iget-wide v2, p2, Lcom/tencent/mm/storage/ADclz$b;->fbi:J
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
     .line 115
     const-string/jumbo v1, "Contact_Mobile_MD5"
 
-    iget-object v2, p2, Lcom/tencent/mm/storage/ad$b;->joI:Ljava/lang/String;
+    iget-object v2, p2, Lcom/tencent/mm/storage/ADclz$b;->joI:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 116
     const-string/jumbo v1, "Contact_full_Mobile_MD5"
 
-    iget-object v2, p2, Lcom/tencent/mm/storage/ad$b;->joJ:Ljava/lang/String;
+    iget-object v2, p2, Lcom/tencent/mm/storage/ADclz$b;->joJ:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 117
     const-string/jumbo v1, "Contact_QQNick"
 
-    invoke-virtual {p2}, Lcom/tencent/mm/storage/ad$b;->aRd()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/tencent/mm/storage/ADclz$b;->aRd()Ljava/lang/String;
 
     move-result-object v2
 
@@ -254,7 +254,7 @@
     .line 120
     const-string/jumbo v1, "Contact_Scene"
 
-    iget v2, p2, Lcom/tencent/mm/storage/ad$b;->arG:I
+    iget v2, p2, Lcom/tencent/mm/storage/ADclz$b;->arG:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 

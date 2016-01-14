@@ -532,7 +532,7 @@
     const/4 v6, 0x0
 
     .line 323
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v3
 
@@ -570,7 +570,7 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jui:Lcom/tencent/mm/modelsimple/l;
 
     .line 343
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -1762,7 +1762,7 @@
     if-eqz v0, :cond_0
 
     .line 504
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -1851,7 +1851,7 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/base/preference/MMPreference;->onPause()V
 
     .line 139
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -1871,7 +1871,7 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/base/preference/MMPreference;->onResume()V
 
     .line 134
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

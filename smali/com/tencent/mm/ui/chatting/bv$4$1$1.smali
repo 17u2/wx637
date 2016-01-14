@@ -102,7 +102,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/chatting/bv$4$1;->kek:Lcom/tencent/mm/ui/chatting/bv$4;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/bv$4;->kef:Lcom/tencent/mm/storage/ad;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/bv$4;->kef:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
 
@@ -129,11 +129,11 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/chatting/bv$4$1;->kek:Lcom/tencent/mm/ui/chatting/bv$4;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/bv$4;->kef:Lcom/tencent/mm/storage/ad;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/bv$4;->kef:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v2, v0, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/model/ap;->C(J)I
+    invoke-static {v2, v3}, Lcom/tencent/mm/model/APclz;->C(J)I
 
     .line 255
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/bv$4$1$1;->kel:Lcom/tencent/mm/ui/chatting/bv$4$1;
@@ -172,7 +172,7 @@
 
     .line 260
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

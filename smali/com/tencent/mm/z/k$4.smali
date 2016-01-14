@@ -1289,7 +1289,7 @@
     if-eqz v0, :cond_11
 
     .line 783
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 
@@ -1873,11 +1873,11 @@
     .line 866
     iget-object v0, p0, Lcom/tencent/mm/z/k$4;->bKx:Lcom/tencent/mm/z/k;
 
-    invoke-static {v0}, Lcom/tencent/mm/z/k;->s(Lcom/tencent/mm/z/k;)Lcom/tencent/mm/network/e;
+    invoke-static {v0}, Lcom/tencent/mm/z/k;->s(Lcom/tencent/mm/z/k;)Lcom/tencent/mm/network/Eclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/e;->vG()Lcom/tencent/mm/network/c;
+    invoke-interface {v0}, Lcom/tencent/mm/network/Eclz;->vG()Lcom/tencent/mm/network/Cclz;
 
     move-result-object v4
 
@@ -1904,22 +1904,22 @@
     .line 868
     if-eqz v4, :cond_2
 
-    invoke-interface {v4}, Lcom/tencent/mm/network/c;->vC()Z
+    invoke-interface {v4}, Lcom/tencent/mm/network/Cclz;->vC()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
     .line 869
-    invoke-interface {v4}, Lcom/tencent/mm/network/c;->ta()[B
+    invoke-interface {v4}, Lcom/tencent/mm/network/Cclz;->ta()[B
 
     move-result-object v0
 
-    invoke-interface {v4}, Lcom/tencent/mm/network/c;->vB()[B
+    invoke-interface {v4}, Lcom/tencent/mm/network/Cclz;->vB()[B
 
     move-result-object v1
 
-    invoke-interface {v4}, Lcom/tencent/mm/network/c;->vD()[B
+    invoke-interface {v4}, Lcom/tencent/mm/network/Cclz;->vD()[B
 
     move-result-object v2
 
@@ -1927,7 +1927,7 @@
 
     move-result-object v3
 
-    invoke-interface {v4}, Lcom/tencent/mm/network/c;->vE()Z
+    invoke-interface {v4}, Lcom/tencent/mm/network/Cclz;->vE()Z
 
     move-result v5
 
@@ -1962,7 +1962,7 @@
 
     .line 867
     :cond_0
-    invoke-interface {v4}, Lcom/tencent/mm/network/c;->vC()Z
+    invoke-interface {v4}, Lcom/tencent/mm/network/Cclz;->vC()Z
 
     move-result v0
 
@@ -2028,17 +2028,17 @@
 
     .line 884
     :try_start_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/q/Lclz;->byu:Lcom/tencent/mm/network/e;
+    iget-object v0, v0, Lcom/tencent/mm/q/Lclz;->byu:Lcom/tencent/mm/network/Eclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/e;->vG()Lcom/tencent/mm/network/c;
+    invoke-interface {v0}, Lcom/tencent/mm/network/Eclz;->vG()Lcom/tencent/mm/network/Cclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/c;->ta()[B
+    invoke-interface {v0}, Lcom/tencent/mm/network/Cclz;->ta()[B
 
     move-result-object v0
 

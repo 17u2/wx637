@@ -338,7 +338,7 @@
     if-eqz v2, :cond_5
 
     .line 85
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 
@@ -400,7 +400,7 @@
     iput-boolean v0, p0, Lcom/tencent/mm/plugin/webview/b/a$a;->aBA:Z
 
     .line 93
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -501,7 +501,7 @@
     iput-object v1, p0, Lcom/tencent/mm/plugin/webview/b/a$a;->hxw:Lcom/tencent/mm/plugin/webview/b/e;
 
     .line 97
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 

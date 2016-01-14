@@ -300,7 +300,7 @@
     return v0
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid;Lcom/tencent/mm/storage/a/c;)V
+.method static synthetic a(Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid;Lcom/tencent/mm/storage/a/Cclz;)V
     .locals 5
 
     .prologue
@@ -345,15 +345,15 @@
 
     if-eqz p1, :cond_1
 
-    iget v0, p1, Lcom/tencent/mm/storage/a/c;->field_type:I
+    iget v0, p1, Lcom/tencent/mm/storage/a/Cclz;->field_type:I
 
-    sget v1, Lcom/tencent/mm/storage/a/c;->jpW:I
+    sget v1, Lcom/tencent/mm/storage/a/Cclz;->jpW:I
 
     if-eq v0, v1, :cond_3
 
-    iget v0, p1, Lcom/tencent/mm/storage/a/c;->field_type:I
+    iget v0, p1, Lcom/tencent/mm/storage/a/Cclz;->field_type:I
 
-    sget v1, Lcom/tencent/mm/storage/a/c;->jpX:I
+    sget v1, Lcom/tencent/mm/storage/a/Cclz;->jpX:I
 
     if-ne v0, v1, :cond_5
 
@@ -368,7 +368,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid;->iaw:Lcom/tencent/mm/pluginsdk/ui/simley/b;
 
-    invoke-interface {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/simley/b;->g(Lcom/tencent/mm/storage/a/c;)V
+    invoke-interface {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/simley/b;->g(Lcom/tencent/mm/storage/a/Cclz;)V
 
     const-string/jumbo v0, "!44@/B4Tb64lLpIUhDmLVZ6YSaSjb8IjuvWozOZNBfbefjw="
 
@@ -376,7 +376,7 @@
 
     new-array v2, v3, [Ljava/lang/Object;
 
-    invoke-virtual {p1}, Lcom/tencent/mm/storage/a/c;->xQ()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/storage/a/Cclz;->xQ()Ljava/lang/String;
 
     move-result-object v3
 
@@ -414,7 +414,7 @@
 
     move-result-object v0
 
-    invoke-interface {v0, p1}, Lcom/tencent/mm/pluginsdk/h$f;->a(Lcom/tencent/mm/storage/a/c;)Lcom/tencent/mm/storage/a/c;
+    invoke-interface {v0, p1}, Lcom/tencent/mm/pluginsdk/h$f;->a(Lcom/tencent/mm/storage/a/Cclz;)Lcom/tencent/mm/storage/a/Cclz;
 
     move-result-object v0
 
@@ -422,7 +422,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid;->iaw:Lcom/tencent/mm/pluginsdk/ui/simley/b;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/b;->f(Lcom/tencent/mm/storage/a/c;)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/b;->f(Lcom/tencent/mm/storage/a/Cclz;)V
 
     const-string/jumbo v1, "!44@/B4Tb64lLpIUhDmLVZ6YSaSjb8IjuvWozOZNBfbefjw="
 
@@ -430,7 +430,7 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/a/c;->xQ()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/a/Cclz;->xQ()Ljava/lang/String;
 
     move-result-object v0
 
@@ -465,9 +465,9 @@
     goto/16 :goto_0
 
     :cond_8
-    iget v0, p1, Lcom/tencent/mm/storage/a/c;->field_catalog:I
+    iget v0, p1, Lcom/tencent/mm/storage/a/Cclz;->field_catalog:I
 
-    sget v1, Lcom/tencent/mm/storage/a/a;->jpE:I
+    sget v1, Lcom/tencent/mm/storage/a/Aclz;->jpE:I
 
     if-ne v0, v1, :cond_1
 

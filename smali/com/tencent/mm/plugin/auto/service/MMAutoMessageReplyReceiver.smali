@@ -111,7 +111,7 @@
 
     move-result-object v0
 
-    invoke-static {v1}, Lcom/tencent/mm/model/i;->eC(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->eC(Ljava/lang/String;)I
 
     move-result v3
 

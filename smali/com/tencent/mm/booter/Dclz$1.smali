@@ -133,7 +133,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/model/v;
+    check-cast v0, Lcom/tencent/mm/model/Vclz;
 
     .line 116
     if-eqz v0, :cond_1
@@ -159,7 +159,7 @@
 
     move-result v4
 
-    invoke-interface {v0, v3, v4}, Lcom/tencent/mm/model/v;->H(II)V
+    invoke-interface {v0, v3, v4}, Lcom/tencent/mm/model/Vclz;->H(II)V
 
     goto :goto_0
 

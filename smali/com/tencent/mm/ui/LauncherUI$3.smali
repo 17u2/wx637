@@ -139,7 +139,7 @@
 
     if-nez v0, :cond_3
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -172,17 +172,17 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ui/LauncherUI$3;->jwy:Lcom/tencent/mm/ui/LauncherUI;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->ts()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->ts()Z
 
     move-result v0
 
-    sget-object v5, Lcom/tencent/mm/model/ag;->btl:Lcom/tencent/mm/model/ag;
+    sget-object v5, Lcom/tencent/mm/model/AGclz;->btl:Lcom/tencent/mm/model/AGclz;
 
     const-string/jumbo v6, "login_user_name"
 
     const-string/jumbo v7, ""
 
-    invoke-virtual {v5, v6, v7}, Lcom/tencent/mm/model/ag;->x(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v5, v6, v7}, Lcom/tencent/mm/model/AGclz;->x(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -227,7 +227,7 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/h/a/a/o;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v5
 

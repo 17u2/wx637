@@ -87,7 +87,7 @@
     invoke-virtual {v1, v0}, Landroid/support/v4/app/o$d;->b(Ljava/lang/CharSequence;)Landroid/support/v4/app/o$d;
 
     .line 45
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lc()Lcom/tencent/mm/model/y;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lc()Lcom/tencent/mm/model/Yclz;
 
     move-result-object v0
 
@@ -97,7 +97,7 @@
 
     move-result-object v1
 
-    invoke-interface {v0, v4, v1}, Lcom/tencent/mm/model/y;->notify(ILandroid/app/Notification;)V
+    invoke-interface {v0, v4, v1}, Lcom/tencent/mm/model/Yclz;->notify(ILandroid/app/Notification;)V
 
     .line 53
     :cond_0
@@ -117,7 +117,7 @@
     invoke-virtual {v0, v1}, Landroid/support/v4/app/o$d;->b(Ljava/lang/CharSequence;)Landroid/support/v4/app/o$d;
 
     .line 49
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lc()Lcom/tencent/mm/model/y;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lc()Lcom/tencent/mm/model/Yclz;
 
     move-result-object v0
 
@@ -129,7 +129,7 @@
 
     move-result-object v2
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/model/y;->notify(ILandroid/app/Notification;)V
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/model/Yclz;->notify(ILandroid/app/Notification;)V
 
     goto :goto_0
 .end method

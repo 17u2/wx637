@@ -54,7 +54,7 @@
     .line 41
     iget-object v0, p1, Lcom/tencent/mm/d/a/iw;->aEb:Lcom/tencent/mm/d/a/iw$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/iw$a;->arO:Lcom/tencent/mm/storage/ad;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/iw$a;->arO:Lcom/tencent/mm/storage/ADclz;
 
     .line 42
     invoke-static {}, Lcom/tencent/mm/z/n;->zU()Lcom/tencent/mm/z/h;

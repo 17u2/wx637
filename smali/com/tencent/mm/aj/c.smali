@@ -455,11 +455,11 @@
 
     .line 296
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v3
 
-    iget v3, v3, Lcom/tencent/mm/model/c;->uin:I
+    iget v3, v3, Lcom/tencent/mm/model/Cclz;->uin:I
 
     if-nez v3, :cond_3
 
@@ -579,32 +579,32 @@
     .line 316
     iget-object v5, v3, Lcom/tencent/mm/aj/f;->field_msgContent:Ljava/lang/String;
 
-    invoke-static {v5}, Lcom/tencent/mm/storage/ad$b;->CI(Ljava/lang/String;)Lcom/tencent/mm/storage/ad$b;
+    invoke-static {v5}, Lcom/tencent/mm/storage/ADclz$b;->CI(Ljava/lang/String;)Lcom/tencent/mm/storage/ADclz$b;
 
     move-result-object v5
 
     .line 317
-    invoke-virtual {v5}, Lcom/tencent/mm/storage/ad$b;->getDisplayName()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/tencent/mm/storage/ADclz$b;->getDisplayName()Ljava/lang/String;
 
     move-result-object v6
 
     iput-object v6, v4, Lcom/tencent/mm/aj/b;->field_displayName:Ljava/lang/String;
 
     .line 318
-    iget v6, v5, Lcom/tencent/mm/storage/ad$b;->arG:I
+    iget v6, v5, Lcom/tencent/mm/storage/ADclz$b;->arG:I
 
     const/4 v7, 0x4
 
     if-ne v6, v7, :cond_5
 
-    invoke-virtual {v5}, Lcom/tencent/mm/storage/ad$b;->aRd()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/tencent/mm/storage/ADclz$b;->aRd()Ljava/lang/String;
 
     move-result-object v6
 
     if-eqz v6, :cond_5
 
     .line 319
-    invoke-virtual {v5}, Lcom/tencent/mm/storage/ad$b;->aRd()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/tencent/mm/storage/ADclz$b;->aRd()Ljava/lang/String;
 
     move-result-object v6
 
@@ -612,7 +612,7 @@
 
     .line 321
     :cond_5
-    iget v6, v5, Lcom/tencent/mm/storage/ad$b;->arG:I
+    iget v6, v5, Lcom/tencent/mm/storage/ADclz$b;->arG:I
 
     iput v6, v4, Lcom/tencent/mm/aj/b;->field_addScene:I
 
@@ -620,22 +620,22 @@
     iput v8, v4, Lcom/tencent/mm/aj/b;->field_isNew:I
 
     .line 325
-    iget-object v6, v5, Lcom/tencent/mm/storage/ad$b;->gGy:Ljava/lang/String;
+    iget-object v6, v5, Lcom/tencent/mm/storage/ADclz$b;->gGy:Ljava/lang/String;
 
     iput-object v6, v4, Lcom/tencent/mm/aj/b;->field_contentFromUsername:Ljava/lang/String;
 
     .line 326
-    iget-object v6, v5, Lcom/tencent/mm/storage/ad$b;->bFP:Ljava/lang/String;
+    iget-object v6, v5, Lcom/tencent/mm/storage/ADclz$b;->bFP:Ljava/lang/String;
 
     iput-object v6, v4, Lcom/tencent/mm/aj/b;->field_contentNickname:Ljava/lang/String;
 
     .line 327
-    iget-object v6, v5, Lcom/tencent/mm/storage/ad$b;->joI:Ljava/lang/String;
+    iget-object v6, v5, Lcom/tencent/mm/storage/ADclz$b;->joI:Ljava/lang/String;
 
     iput-object v6, v4, Lcom/tencent/mm/aj/b;->field_contentPhoneNumMD5:Ljava/lang/String;
 
     .line 328
-    iget-object v5, v5, Lcom/tencent/mm/storage/ad$b;->joJ:Ljava/lang/String;
+    iget-object v5, v5, Lcom/tencent/mm/storage/ADclz$b;->joJ:Ljava/lang/String;
 
     iput-object v5, v4, Lcom/tencent/mm/aj/b;->field_contentFullPhoneNumMD5:Ljava/lang/String;
 
@@ -766,19 +766,19 @@
     .line 333
     iget-object v5, v3, Lcom/tencent/mm/aj/f;->field_msgContent:Ljava/lang/String;
 
-    invoke-static {v5}, Lcom/tencent/mm/storage/ad$e;->CL(Ljava/lang/String;)Lcom/tencent/mm/storage/ad$e;
+    invoke-static {v5}, Lcom/tencent/mm/storage/ADclz$e;->CL(Ljava/lang/String;)Lcom/tencent/mm/storage/ADclz$e;
 
     move-result-object v5
 
     .line 334
-    invoke-virtual {v5}, Lcom/tencent/mm/storage/ad$e;->getDisplayName()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/tencent/mm/storage/ADclz$e;->getDisplayName()Ljava/lang/String;
 
     move-result-object v6
 
     iput-object v6, v4, Lcom/tencent/mm/aj/b;->field_displayName:Ljava/lang/String;
 
     .line 335
-    iget v6, v5, Lcom/tencent/mm/storage/ad$e;->arG:I
+    iget v6, v5, Lcom/tencent/mm/storage/ADclz$e;->arG:I
 
     iput v6, v4, Lcom/tencent/mm/aj/b;->field_addScene:I
 
@@ -786,17 +786,17 @@
     iput v8, v4, Lcom/tencent/mm/aj/b;->field_isNew:I
 
     .line 338
-    iget-object v6, v5, Lcom/tencent/mm/storage/ad$e;->gGy:Ljava/lang/String;
+    iget-object v6, v5, Lcom/tencent/mm/storage/ADclz$e;->gGy:Ljava/lang/String;
 
     iput-object v6, v4, Lcom/tencent/mm/aj/b;->field_contentFromUsername:Ljava/lang/String;
 
     .line 339
-    iget-object v6, v5, Lcom/tencent/mm/storage/ad$e;->bFP:Ljava/lang/String;
+    iget-object v6, v5, Lcom/tencent/mm/storage/ADclz$e;->bFP:Ljava/lang/String;
 
     iput-object v6, v4, Lcom/tencent/mm/aj/b;->field_contentNickname:Ljava/lang/String;
 
     .line 340
-    iget-object v5, v5, Lcom/tencent/mm/storage/ad$e;->content:Ljava/lang/String;
+    iget-object v5, v5, Lcom/tencent/mm/storage/ADclz$e;->content:Ljava/lang/String;
 
     iput-object v5, v4, Lcom/tencent/mm/aj/b;->field_contentVerifyContent:Ljava/lang/String;
 
@@ -936,27 +936,27 @@
     .line 377
     iget-object v1, v3, Lcom/tencent/mm/aj/f;->field_msgContent:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/storage/ad$b;->CI(Ljava/lang/String;)Lcom/tencent/mm/storage/ad$b;
+    invoke-static {v1}, Lcom/tencent/mm/storage/ADclz$b;->CI(Ljava/lang/String;)Lcom/tencent/mm/storage/ADclz$b;
 
     move-result-object v1
 
     .line 378
-    iget-object v2, v1, Lcom/tencent/mm/storage/ad$b;->gGy:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/storage/ADclz$b;->gGy:Ljava/lang/String;
 
     iput-object v2, v4, Lcom/tencent/mm/aj/b;->field_contentFromUsername:Ljava/lang/String;
 
     .line 379
-    iget-object v2, v1, Lcom/tencent/mm/storage/ad$b;->bFP:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/storage/ADclz$b;->bFP:Ljava/lang/String;
 
     iput-object v2, v4, Lcom/tencent/mm/aj/b;->field_contentNickname:Ljava/lang/String;
 
     .line 380
-    iget-object v2, v1, Lcom/tencent/mm/storage/ad$b;->joI:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/storage/ADclz$b;->joI:Ljava/lang/String;
 
     iput-object v2, v4, Lcom/tencent/mm/aj/b;->field_contentPhoneNumMD5:Ljava/lang/String;
 
     .line 381
-    iget-object v1, v1, Lcom/tencent/mm/storage/ad$b;->joJ:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/storage/ADclz$b;->joJ:Ljava/lang/String;
 
     iput-object v1, v4, Lcom/tencent/mm/aj/b;->field_contentFullPhoneNumMD5:Ljava/lang/String;
 
@@ -1013,11 +1013,11 @@
     if-nez v0, :cond_8
 
     .line 401
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v0
 
@@ -1031,7 +1031,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/h;->set(ILjava/lang/Object;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/Hclz;->set(ILjava/lang/Object;)V
 
     goto/16 :goto_3
 
@@ -1044,22 +1044,22 @@
     .line 386
     iget-object v1, v3, Lcom/tencent/mm/aj/f;->field_msgContent:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/storage/ad$e;->CL(Ljava/lang/String;)Lcom/tencent/mm/storage/ad$e;
+    invoke-static {v1}, Lcom/tencent/mm/storage/ADclz$e;->CL(Ljava/lang/String;)Lcom/tencent/mm/storage/ADclz$e;
 
     move-result-object v1
 
     .line 387
-    iget-object v2, v1, Lcom/tencent/mm/storage/ad$e;->content:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/storage/ADclz$e;->content:Ljava/lang/String;
 
     iput-object v2, v4, Lcom/tencent/mm/aj/b;->field_contentVerifyContent:Ljava/lang/String;
 
     .line 389
-    iget-object v2, v1, Lcom/tencent/mm/storage/ad$e;->gGy:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/storage/ADclz$e;->gGy:Ljava/lang/String;
 
     iput-object v2, v4, Lcom/tencent/mm/aj/b;->field_contentFromUsername:Ljava/lang/String;
 
     .line 390
-    iget-object v1, v1, Lcom/tencent/mm/storage/ad$e;->bFP:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/storage/ADclz$e;->bFP:Ljava/lang/String;
 
     iput-object v1, v4, Lcom/tencent/mm/aj/b;->field_contentNickname:Ljava/lang/String;
 

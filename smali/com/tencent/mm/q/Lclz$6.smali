@@ -57,7 +57,7 @@
     .line 598
     iget-object v0, p0, Lcom/tencent/mm/q/Lclz$6;->byD:Lcom/tencent/mm/q/Lclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/q/Lclz;->f(Lcom/tencent/mm/q/Lclz;)Lcom/tencent/mm/network/e;
+    invoke-static {v0}, Lcom/tencent/mm/q/Lclz;->f(Lcom/tencent/mm/q/Lclz;)Lcom/tencent/mm/network/Eclz;
 
     move-result-object v0
 

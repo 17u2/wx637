@@ -74,7 +74,7 @@
     if-eqz v0, :cond_2
 
     .line 265
-    invoke-static {}, Lcom/tencent/mm/model/h;->rZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rZ()Z
 
     move-result v0
 

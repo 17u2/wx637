@@ -3,17 +3,17 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/network/e;
+.implements Lcom/tencent/mm/network/Eclz;
 
 
 # instance fields
-.field public final byJ:Lcom/tencent/mm/network/f;
+.field public final byJ:Lcom/tencent/mm/network/Fclz;
 
 .field private byK:Lcom/tencent/mm/q/Mclz;
 
 
 # direct methods
-.method public constructor <init>(Lcom/tencent/mm/network/f;)V
+.method public constructor <init>(Lcom/tencent/mm/network/Fclz;)V
     .locals 1
 
     .prologue
@@ -21,7 +21,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 27
-    iput-object p1, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iput-object p1, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
     .line 28
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -36,7 +36,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/p;Lcom/tencent/mm/network/k;)I
+.method public final a(Lcom/tencent/mm/network/Pclz;Lcom/tencent/mm/network/Kclz;)I
     .locals 6
 
     .prologue
@@ -46,9 +46,9 @@
 
     .line 33
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0, p1, p2}, Lcom/tencent/mm/network/f;->a(Lcom/tencent/mm/network/p;Lcom/tencent/mm/network/k;)I
+    invoke-interface {v0, p1, p2}, Lcom/tencent/mm/network/Fclz;->a(Lcom/tencent/mm/network/Pclz;Lcom/tencent/mm/network/Kclz;)I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -100,9 +100,9 @@
     .prologue
     .line 231
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0, p1, p2, p3, p4}, Lcom/tencent/mm/network/f;->a(ILjava/lang/String;IZ)V
+    invoke-interface {v0, p1, p2, p3, p4}, Lcom/tencent/mm/network/Fclz;->a(ILjava/lang/String;IZ)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -136,15 +136,15 @@
     goto :goto_0
 .end method
 
-.method public final a(Lcom/tencent/mm/network/a/b;)V
+.method public final a(Lcom/tencent/mm/network/a/Bclz;)V
     .locals 5
 
     .prologue
     .line 151
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0, p1}, Lcom/tencent/mm/network/f;->a(Lcom/tencent/mm/network/a/b;)V
+    invoke-interface {v0, p1}, Lcom/tencent/mm/network/Fclz;->a(Lcom/tencent/mm/network/a/Bclz;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -178,15 +178,15 @@
     goto :goto_0
 .end method
 
-.method public final a(Lcom/tencent/mm/network/n;)V
+.method public final a(Lcom/tencent/mm/network/Nclz;)V
     .locals 5
 
     .prologue
     .line 299
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0, p1}, Lcom/tencent/mm/network/f;->a(Lcom/tencent/mm/network/n;)V
+    invoke-interface {v0, p1}, Lcom/tencent/mm/network/Fclz;->a(Lcom/tencent/mm/network/Nclz;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -226,9 +226,9 @@
     .prologue
     .line 193
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0, p1}, Lcom/tencent/mm/network/f;->a(Lcom/tencent/mm/protocal/Yclz;)V
+    invoke-interface {v0, p1}, Lcom/tencent/mm/network/Fclz;->a(Lcom/tencent/mm/protocal/Yclz;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -268,7 +268,7 @@
     .prologue
     .line 105
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
     move v1, p1
 
@@ -288,7 +288,7 @@
 
     move-object/from16 v9, p9
 
-    invoke-interface/range {v0 .. v9}, Lcom/tencent/mm/network/f;->a(ZLjava/lang/String;Ljava/lang/String;[I[IIILjava/lang/String;Ljava/lang/String;)V
+    invoke-interface/range {v0 .. v9}, Lcom/tencent/mm/network/Fclz;->a(ZLjava/lang/String;Ljava/lang/String;[I[IIILjava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -347,9 +347,9 @@
 
     .line 160
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0, p1}, Lcom/tencent/mm/network/f;->aP(Z)V
+    invoke-interface {v0, p1}, Lcom/tencent/mm/network/Fclz;->aP(Z)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -396,9 +396,9 @@
     .prologue
     .line 327
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0, p1}, Lcom/tencent/mm/network/f;->aQ(Z)V
+    invoke-interface {v0, p1}, Lcom/tencent/mm/network/Fclz;->aQ(Z)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -438,9 +438,9 @@
     .prologue
     .line 336
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0, p1}, Lcom/tencent/mm/network/f;->aR(Z)V
+    invoke-interface {v0, p1}, Lcom/tencent/mm/network/Fclz;->aR(Z)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -480,9 +480,9 @@
     .prologue
     .line 212
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0, p1, p2}, Lcom/tencent/mm/network/f;->c(Ljava/lang/String;Ljava/util/List;)I
+    invoke-interface {v0, p1, p2}, Lcom/tencent/mm/network/Fclz;->c(Ljava/lang/String;Ljava/util/List;)I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -531,9 +531,9 @@
 
     .line 72
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0, p1}, Lcom/tencent/mm/network/f;->cancel(I)V
+    invoke-interface {v0, p1}, Lcom/tencent/mm/network/Fclz;->cancel(I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -592,9 +592,9 @@
 
     .line 202
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0, p1}, Lcom/tencent/mm/network/f;->fY(Ljava/lang/String;)V
+    invoke-interface {v0, p1}, Lcom/tencent/mm/network/Fclz;->fY(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -641,9 +641,9 @@
     .prologue
     .line 318
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0, p1}, Lcom/tencent/mm/network/f;->fZ(Ljava/lang/String;)V
+    invoke-interface {v0, p1}, Lcom/tencent/mm/network/Fclz;->fZ(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -687,9 +687,9 @@
 
     .line 59
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0, p1}, Lcom/tencent/mm/network/f;->getIPsString(Z)[Ljava/lang/String;
+    invoke-interface {v0, p1}, Lcom/tencent/mm/network/Fclz;->getIPsString(Z)[Ljava/lang/String;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -741,9 +741,9 @@
     .prologue
     .line 241
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/f;->getIspId()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/tencent/mm/network/Fclz;->getIspId()Ljava/lang/String;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -792,9 +792,9 @@
 
     .line 46
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/f;->getNetworkServerIp()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/tencent/mm/network/Fclz;->getNetworkServerIp()Ljava/lang/String;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -846,9 +846,9 @@
     .prologue
     .line 261
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/f;->keepSignalling()V
+    invoke-interface {v0}, Lcom/tencent/mm/network/Fclz;->keepSignalling()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -888,9 +888,9 @@
     .prologue
     .line 308
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0, p1}, Lcom/tencent/mm/network/f;->reportFailIp(Ljava/lang/String;)V
+    invoke-interface {v0, p1}, Lcom/tencent/mm/network/Fclz;->reportFailIp(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -934,9 +934,9 @@
 
     .line 94
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/f;->reset()V
+    invoke-interface {v0}, Lcom/tencent/mm/network/Fclz;->reset()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -983,9 +983,9 @@
     .prologue
     .line 222
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0, p1, p2, p3}, Lcom/tencent/mm/network/f;->setHostInfo([Ljava/lang/String;[Ljava/lang/String;[I)V
+    invoke-interface {v0, p1, p2, p3}, Lcom/tencent/mm/network/Fclz;->setHostInfo([Ljava/lang/String;[Ljava/lang/String;[I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1025,9 +1025,9 @@
     .prologue
     .line 251
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0, p1, p2, p3, p4}, Lcom/tencent/mm/network/f;->setSignallingStrategy(JJ)V
+    invoke-interface {v0, p1, p2, p3, p4}, Lcom/tencent/mm/network/Fclz;->setSignallingStrategy(JJ)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1067,9 +1067,9 @@
     .prologue
     .line 271
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/f;->stopSignalling()V
+    invoke-interface {v0}, Lcom/tencent/mm/network/Fclz;->stopSignalling()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1103,7 +1103,7 @@
     goto :goto_0
 .end method
 
-.method public final vG()Lcom/tencent/mm/network/c;
+.method public final vG()Lcom/tencent/mm/network/Cclz;
     .locals 6
 
     .prologue
@@ -1120,13 +1120,13 @@
     .line 138
     new-instance v0, Lcom/tencent/mm/q/Mclz;
 
-    iget-object v1, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v1, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v1}, Lcom/tencent/mm/network/f;->DQ()Lcom/tencent/mm/network/d;
+    invoke-interface {v1}, Lcom/tencent/mm/network/Fclz;->DQ()Lcom/tencent/mm/network/Dclz;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/q/Mclz;-><init>(Lcom/tencent/mm/network/d;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/q/Mclz;-><init>(Lcom/tencent/mm/network/Dclz;)V
 
     iput-object v0, p0, Lcom/tencent/mm/q/Nclz;->byK:Lcom/tencent/mm/q/Mclz;
 
@@ -1176,15 +1176,15 @@
     goto :goto_0
 .end method
 
-.method public final vH()Lcom/tencent/mm/network/h;
+.method public final vH()Lcom/tencent/mm/network/Hclz;
     .locals 5
 
     .prologue
     .line 183
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/f;->DS()Lcom/tencent/mm/network/h;
+    invoke-interface {v0}, Lcom/tencent/mm/network/Fclz;->DS()Lcom/tencent/mm/network/Hclz;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1229,9 +1229,9 @@
     .prologue
     .line 345
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v0, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/f;->vI()V
+    invoke-interface {v0}, Lcom/tencent/mm/network/Fclz;->vI()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1275,9 +1275,9 @@
 
     .line 171
     :try_start_0
-    iget-object v1, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v1, p0, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/Fclz;
 
-    invoke-interface {v1}, Lcom/tencent/mm/network/f;->vw()Z
+    invoke-interface {v1}, Lcom/tencent/mm/network/Fclz;->vw()Z
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

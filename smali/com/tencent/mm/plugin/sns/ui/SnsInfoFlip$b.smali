@@ -485,11 +485,11 @@
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$b;->gyJ:Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;
 
-    invoke-static {v1}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->h(Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;)Lcom/tencent/mm/storage/i$a;
+    invoke-static {v1}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->h(Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;)Lcom/tencent/mm/storage/Iclz$a;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/i$a;)Z
+    invoke-static {v0, v1}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/Iclz$a;)Z
 
     move-result v1
 
@@ -1274,7 +1274,7 @@
 
     iget-object v7, v0, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$b;->gyJ:Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;
 
-    invoke-static {v7}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->h(Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;)Lcom/tencent/mm/storage/i$a;
+    invoke-static {v7}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->h(Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;)Lcom/tencent/mm/storage/Iclz$a;
 
     move-result-object v7
 
@@ -1658,7 +1658,7 @@
 
     new-instance v8, Lcom/tencent/mm/plugin/sns/d/g$9;
 
-    invoke-direct {v8, v6, v3, v7}, Lcom/tencent/mm/plugin/sns/d/g$9;-><init>(Lcom/tencent/mm/plugin/sns/d/g;Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/i$a;)V
+    invoke-direct {v8, v6, v3, v7}, Lcom/tencent/mm/plugin/sns/d/g$9;-><init>(Lcom/tencent/mm/plugin/sns/d/g;Lcom/tencent/mm/protocal/b/abp;Lcom/tencent/mm/storage/Iclz$a;)V
 
     const-wide/16 v6, 0x0
 
@@ -1800,11 +1800,11 @@
 
     iget-object v7, v0, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$b;->gyJ:Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;
 
-    invoke-static {v7}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->h(Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;)Lcom/tencent/mm/storage/i$a;
+    invoke-static {v7}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->h(Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;)Lcom/tencent/mm/storage/Iclz$a;
 
     move-result-object v7
 
-    invoke-virtual/range {v2 .. v7}, Lcom/tencent/mm/plugin/sns/d/g;->c(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IILcom/tencent/mm/storage/i$a;)Z
+    invoke-virtual/range {v2 .. v7}, Lcom/tencent/mm/plugin/sns/d/g;->c(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IILcom/tencent/mm/storage/Iclz$a;)Z
 
     goto/16 :goto_4
 
@@ -2101,11 +2101,11 @@
 
     iget-object v7, v0, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$b;->gyJ:Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;
 
-    invoke-static {v7}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->h(Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;)Lcom/tencent/mm/storage/i$a;
+    invoke-static {v7}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->h(Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;)Lcom/tencent/mm/storage/Iclz$a;
 
     move-result-object v7
 
-    invoke-virtual/range {v2 .. v7}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IZLcom/tencent/mm/storage/i$a;)Landroid/graphics/Bitmap;
+    invoke-virtual/range {v2 .. v7}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IZLcom/tencent/mm/storage/Iclz$a;)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
@@ -2399,11 +2399,11 @@
 
     iget-object v7, v0, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$b;->gyJ:Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;
 
-    invoke-static {v7}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->h(Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;)Lcom/tencent/mm/storage/i$a;
+    invoke-static {v7}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->h(Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;)Lcom/tencent/mm/storage/Iclz$a;
 
     move-result-object v7
 
-    invoke-virtual/range {v2 .. v7}, Lcom/tencent/mm/plugin/sns/d/g;->c(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IILcom/tencent/mm/storage/i$a;)Z
+    invoke-virtual/range {v2 .. v7}, Lcom/tencent/mm/plugin/sns/d/g;->c(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IILcom/tencent/mm/storage/Iclz$a;)Z
 
     :goto_c
     if-eqz v9, :cond_13
@@ -2432,7 +2432,7 @@
 
     iget-object v2, v0, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$b;->context:Landroid/content/Context;
 
-    invoke-static {v2}, Lcom/tencent/mm/network/aa;->ba(Landroid/content/Context;)Z
+    invoke-static {v2}, Lcom/tencent/mm/network/AAclz;->ba(Landroid/content/Context;)Z
 
     move-result v2
 
@@ -2567,11 +2567,11 @@
 
     iget-object v7, v0, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$b;->gyJ:Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;
 
-    invoke-static {v7}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->h(Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;)Lcom/tencent/mm/storage/i$a;
+    invoke-static {v7}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->h(Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;)Lcom/tencent/mm/storage/Iclz$a;
 
     move-result-object v7
 
-    invoke-virtual/range {v2 .. v7}, Lcom/tencent/mm/plugin/sns/d/g;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IILcom/tencent/mm/storage/i$a;)V
+    invoke-virtual/range {v2 .. v7}, Lcom/tencent/mm/plugin/sns/d/g;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;IILcom/tencent/mm/storage/Iclz$a;)V
 
     goto/16 :goto_c
 
@@ -2662,13 +2662,13 @@
 
     iget-object v6, v0, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$b;->gyJ:Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;
 
-    invoke-static {v6}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->h(Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;)Lcom/tencent/mm/storage/i$a;
+    invoke-static {v6}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->h(Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;)Lcom/tencent/mm/storage/Iclz$a;
 
     move-result-object v6
 
     move-object/from16 v0, p2
 
-    invoke-virtual {v4, v3, v0, v5, v6}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/i$a;)Landroid/graphics/Bitmap;
+    invoke-virtual {v4, v3, v0, v5, v6}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)Landroid/graphics/Bitmap;
 
     move-object/from16 v0, p2
 
@@ -2707,11 +2707,11 @@
 
     iget-object v7, v0, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$b;->gyJ:Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;
 
-    invoke-static {v7}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->h(Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;)Lcom/tencent/mm/storage/i$a;
+    invoke-static {v7}, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;->h(Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip;)Lcom/tencent/mm/storage/Iclz$a;
 
     move-result-object v7
 
-    invoke-virtual {v4, v3, v5, v6, v7}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/i$a;)Landroid/graphics/Bitmap;
+    invoke-virtual {v4, v3, v5, v6, v7}, Lcom/tencent/mm/plugin/sns/d/g;->a(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)Landroid/graphics/Bitmap;
 
     iget-object v3, v8, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->ayG:Landroid/widget/ImageView;
 

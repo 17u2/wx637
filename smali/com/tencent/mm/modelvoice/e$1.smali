@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic bJG:Lcom/tencent/mm/storage/ad;
+.field final synthetic bJG:Lcom/tencent/mm/storage/ADclz;
 
 .field final synthetic bYh:Lcom/tencent/mm/modelvoice/c;
 
@@ -26,7 +26,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/modelvoice/e;Lcom/tencent/mm/modelvoice/c;Lcom/tencent/mm/storage/ad;)V
+.method constructor <init>(Lcom/tencent/mm/modelvoice/e;Lcom/tencent/mm/modelvoice/c;Lcom/tencent/mm/storage/ADclz;)V
     .locals 1
 
     .prologue
@@ -35,7 +35,7 @@
 
     iput-object p2, p0, Lcom/tencent/mm/modelvoice/e$1;->bYh:Lcom/tencent/mm/modelvoice/c;
 
-    iput-object p3, p0, Lcom/tencent/mm/modelvoice/e$1;->bJG:Lcom/tencent/mm/storage/ad;
+    iput-object p3, p0, Lcom/tencent/mm/modelvoice/e$1;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -58,9 +58,9 @@
     .line 81
     iget-object v0, p0, Lcom/tencent/mm/modelvoice/e$1;->bYh:Lcom/tencent/mm/modelvoice/c;
 
-    iget-object v1, p0, Lcom/tencent/mm/modelvoice/e$1;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v1, p0, Lcom/tencent/mm/modelvoice/e$1;->bJG:Lcom/tencent/mm/storage/ADclz;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/modelvoice/c;->l(Lcom/tencent/mm/storage/ad;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/modelvoice/c;->l(Lcom/tencent/mm/storage/ADclz;)V
 
     .line 83
     return-void

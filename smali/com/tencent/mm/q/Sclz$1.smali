@@ -21,7 +21,7 @@
 
 .field bzl:I
 
-.field private bzm:Lcom/tencent/mm/network/j;
+.field private bzm:Lcom/tencent/mm/network/Jclz;
 
 .field bzn:Lcom/tencent/mm/sdk/platformtools/ag;
 
@@ -73,7 +73,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/q/Sclz$1$1;-><init>(Lcom/tencent/mm/q/Sclz$1;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/q/Sclz$1;->bzm:Lcom/tencent/mm/network/j;
+    iput-object v0, p0, Lcom/tencent/mm/q/Sclz$1;->bzm:Lcom/tencent/mm/network/Jclz;
 
     .line 99
     new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
@@ -112,7 +112,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+.method public final a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
     .locals 10
 
     .prologue
@@ -124,9 +124,9 @@
     .line 127
     iget-object v0, p0, Lcom/tencent/mm/q/Sclz$1;->bzo:Lcom/tencent/mm/q/Aclz;
 
-    iget-object v1, p0, Lcom/tencent/mm/q/Sclz$1;->bzm:Lcom/tencent/mm/network/j;
+    iget-object v1, p0, Lcom/tencent/mm/q/Sclz$1;->bzm:Lcom/tencent/mm/network/Jclz;
 
-    invoke-virtual {p0, p1, v0, v1}, Lcom/tencent/mm/q/Sclz$1;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;)I
+    invoke-virtual {p0, p1, v0, v1}, Lcom/tencent/mm/q/Sclz$1;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/network/Oclz;Lcom/tencent/mm/network/Jclz;)I
 
     move-result v7
 

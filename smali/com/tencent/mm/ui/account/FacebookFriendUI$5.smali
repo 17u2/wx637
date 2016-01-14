@@ -52,7 +52,7 @@
 
     .prologue
     .line 142
-    invoke-static {}, Lcom/tencent/mm/model/h;->sr()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sr()Z
 
     move-result v0
 

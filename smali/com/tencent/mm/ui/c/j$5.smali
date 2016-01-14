@@ -58,7 +58,7 @@
     const/4 v5, 0x1
 
     .line 151
-    invoke-static {}, Lcom/tencent/mm/model/ao;->tM()Lcom/tencent/mm/model/ao;
+    invoke-static {}, Lcom/tencent/mm/model/AOclz;->tM()Lcom/tencent/mm/model/AOclz;
 
     move-result-object v0
 
@@ -66,7 +66,7 @@
 
     iget v2, p0, Lcom/tencent/mm/ui/c/j$5;->jJK:I
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/model/ao;->K(II)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/model/AOclz;->K(II)V
 
     .line 152
     iget-object v0, p0, Lcom/tencent/mm/ui/c/j$5;->jJL:Lcom/tencent/mm/ui/c/j;
@@ -81,11 +81,11 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->isSDCardAvailable()Z
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->isSDCardAvailable()Z
 
     move-result v1
 

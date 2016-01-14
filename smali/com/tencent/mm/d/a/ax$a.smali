@@ -17,7 +17,7 @@
 # instance fields
 .field public arG:I
 
-.field public atl:Lcom/tencent/mm/storage/a/c;
+.field public atl:Lcom/tencent/mm/storage/a/Cclz;
 
 .field public context:Landroid/content/Context;
 

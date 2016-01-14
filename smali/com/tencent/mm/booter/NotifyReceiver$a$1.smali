@@ -48,7 +48,7 @@
 
     .prologue
     .line 622
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tx()V
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tx()V
 
     .line 623
     const/4 v0, 0x1

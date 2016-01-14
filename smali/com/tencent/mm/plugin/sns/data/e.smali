@@ -8,7 +8,7 @@
 
 .field public biF:Ljava/lang/String;
 
-.field public ggk:Lcom/tencent/mm/storage/i$a;
+.field public ggk:Lcom/tencent/mm/storage/Iclz$a;
 
 .field public requestType:I
 
@@ -32,7 +32,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/tencent/mm/protocal/b/abp;ILjava/lang/String;Lcom/tencent/mm/storage/i$a;)V
+.method public constructor <init>(Lcom/tencent/mm/protocal/b/abp;ILjava/lang/String;Lcom/tencent/mm/storage/Iclz$a;)V
     .locals 1
 
     .prologue
@@ -46,7 +46,7 @@
     iput p2, p0, Lcom/tencent/mm/plugin/sns/data/e;->requestType:I
 
     .line 19
-    iput-object p4, p0, Lcom/tencent/mm/plugin/sns/data/e;->ggk:Lcom/tencent/mm/storage/i$a;
+    iput-object p4, p0, Lcom/tencent/mm/plugin/sns/data/e;->ggk:Lcom/tencent/mm/storage/Iclz$a;
 
     .line 20
     iput-object p3, p0, Lcom/tencent/mm/plugin/sns/data/e;->biF:Ljava/lang/String;

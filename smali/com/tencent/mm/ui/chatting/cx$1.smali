@@ -51,7 +51,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -90,7 +90,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/ad;
+    check-cast v0, Lcom/tencent/mm/storage/ADclz;
 
     .line 52
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/cx$1;->kkA:Lcom/tencent/mm/ui/chatting/cx;
@@ -103,7 +103,7 @@
 
     iget-boolean v4, v4, Lcom/tencent/mm/ui/chatting/cx;->bDI:Z
 
-    invoke-virtual {v2, v0, v3, v4}, Lcom/tencent/mm/ui/chatting/cx;->a(Lcom/tencent/mm/storage/ad;Landroid/app/Activity;Z)Z
+    invoke-virtual {v2, v0, v3, v4}, Lcom/tencent/mm/ui/chatting/cx;->a(Lcom/tencent/mm/storage/ADclz;Landroid/app/Activity;Z)Z
 
     move-result v0
 

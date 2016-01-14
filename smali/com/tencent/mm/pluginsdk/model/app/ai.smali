@@ -382,7 +382,7 @@
     invoke-direct {v0, p1, p0}, Lcom/tencent/mm/pluginsdk/model/app/z;-><init>(ILjava/lang/String;)V
 
     .line 247
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -422,7 +422,7 @@
 
     .prologue
     .line 111
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -792,11 +792,11 @@
 
     .line 174
     :cond_c
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v0
 
@@ -806,7 +806,7 @@
 
     move-result-wide v2
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/storage/h;->setLong(IJ)V
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/storage/Hclz;->setLong(IJ)V
 
     .line 175
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -834,7 +834,7 @@
 
     .prologue
     .line 252
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v1
 
@@ -1077,11 +1077,11 @@
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
     .line 288
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v1
 
@@ -1091,7 +1091,7 @@
 
     move-result-wide v3
 
-    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/storage/h;->setLong(IJ)V
+    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/storage/Hclz;->setLong(IJ)V
 
     .line 289
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -1732,11 +1732,11 @@
 
     .line 348
     :goto_5
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v1
 
@@ -1746,7 +1746,7 @@
 
     move-result-wide v3
 
-    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/storage/h;->setLong(IJ)V
+    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/storage/Hclz;->setLong(IJ)V
 
     .line 349
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -1781,7 +1781,7 @@
 
     .prologue
     .line 48
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -1802,7 +1802,7 @@
     invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/pluginsdk/model/app/d;->a(ILcom/tencent/mm/pluginsdk/model/app/q;)V
 
     .line 52
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -1820,7 +1820,7 @@
     const/4 v2, 0x0
 
     .line 57
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
@@ -1841,7 +1841,7 @@
     invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/pluginsdk/model/app/d;->b(ILcom/tencent/mm/pluginsdk/model/app/q;)V
 
     .line 61
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

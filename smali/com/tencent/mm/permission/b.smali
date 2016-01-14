@@ -206,13 +206,13 @@
 
     move-result-object v0
 
-    sget-object v2, Lcom/tencent/mm/model/ag;->btl:Lcom/tencent/mm/model/ag;
+    sget-object v2, Lcom/tencent/mm/model/AGclz;->btl:Lcom/tencent/mm/model/AGclz;
 
     const-string/jumbo v3, "last_login_uin"
 
     sget-object v4, Lcom/tencent/mm/permission/b;->aly:Ljava/lang/String;
 
-    invoke-virtual {v2, v3, v4}, Lcom/tencent/mm/model/ag;->x(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v3, v4}, Lcom/tencent/mm/model/AGclz;->x(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -367,13 +367,13 @@
     .line 333
     const-string/jumbo v3, "userName"
 
-    sget-object v0, Lcom/tencent/mm/model/ag;->btl:Lcom/tencent/mm/model/ag;
+    sget-object v0, Lcom/tencent/mm/model/AGclz;->btl:Lcom/tencent/mm/model/AGclz;
 
     const-string/jumbo v4, "login_weixin_username"
 
     const-string/jumbo v5, ""
 
-    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/model/ag;->x(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/model/AGclz;->x(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -383,13 +383,13 @@
 
     if-eqz v4, :cond_0
 
-    sget-object v0, Lcom/tencent/mm/model/ag;->btl:Lcom/tencent/mm/model/ag;
+    sget-object v0, Lcom/tencent/mm/model/AGclz;->btl:Lcom/tencent/mm/model/AGclz;
 
     const-string/jumbo v4, "login_user_name"
 
     const-string/jumbo v5, "never_login_crash"
 
-    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/model/ag;->x(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/model/AGclz;->x(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -575,7 +575,7 @@
 
     .line 308
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->te()Lcom/tencent/mm/storage/g;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->te()Lcom/tencent/mm/storage/Gclz;
 
     move-result-object v1
 
@@ -598,7 +598,7 @@
     const/4 v0, 0x1
 
     :goto_2
-    invoke-virtual {v1, v3, v0}, Lcom/tencent/mm/storage/g;->setInt(II)V
+    invoke-virtual {v1, v3, v0}, Lcom/tencent/mm/storage/Gclz;->setInt(II)V
 
     .line 309
     sget-object v0, Lcom/tencent/mm/permission/b;->ccY:Ljava/util/Map;
@@ -751,7 +751,7 @@
     move v1, v2
 
     :goto_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->te()Lcom/tencent/mm/storage/g;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->te()Lcom/tencent/mm/storage/Gclz;
 
     move-result-object v4
 
@@ -769,7 +769,7 @@
 
     iget v0, v0, Lcom/tencent/mm/permission/b$a;->cdc:I
 
-    invoke-virtual {v4, v0, v1}, Lcom/tencent/mm/storage/g;->setInt(II)V
+    invoke-virtual {v4, v0, v1}, Lcom/tencent/mm/storage/Gclz;->setInt(II)V
 
     if-ne v2, p1, :cond_0
 
@@ -784,7 +784,7 @@
 
     if-ne v2, p2, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->te()Lcom/tencent/mm/storage/g;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->te()Lcom/tencent/mm/storage/Gclz;
 
     move-result-object v1
 
@@ -802,7 +802,7 @@
 
     iget v0, v0, Lcom/tencent/mm/permission/b$a;->cdd:I
 
-    invoke-virtual {v1, v0, v8, v9}, Lcom/tencent/mm/storage/g;->getLong(IJ)J
+    invoke-virtual {v1, v0, v8, v9}, Lcom/tencent/mm/storage/Gclz;->getLong(IJ)J
 
     move-result-wide v4
 
@@ -822,7 +822,7 @@
 
     if-ltz v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->te()Lcom/tencent/mm/storage/g;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->te()Lcom/tencent/mm/storage/Gclz;
 
     move-result-object v1
 
@@ -840,7 +840,7 @@
 
     iget v0, v0, Lcom/tencent/mm/permission/b$a;->cde:I
 
-    invoke-virtual {v1, v0, v3}, Lcom/tencent/mm/storage/g;->getInt(II)I
+    invoke-virtual {v1, v0, v3}, Lcom/tencent/mm/storage/Gclz;->getInt(II)I
 
     move-result v0
 
@@ -885,7 +885,7 @@
     :goto_1
     invoke-static {v1, v0}, Lcom/tencent/mm/permission/b;->E(Ljava/lang/String;I)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->te()Lcom/tencent/mm/storage/g;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->te()Lcom/tencent/mm/storage/Gclz;
 
     move-result-object v1
 
@@ -903,7 +903,7 @@
 
     iget v0, v0, Lcom/tencent/mm/permission/b$a;->cdd:I
 
-    invoke-virtual {v1, v0, v8, v9}, Lcom/tencent/mm/storage/g;->setLong(IJ)V
+    invoke-virtual {v1, v0, v8, v9}, Lcom/tencent/mm/storage/Gclz;->setLong(IJ)V
 
     :cond_1
     return-void
@@ -1095,7 +1095,7 @@
     const/4 v1, 0x0
 
     .line 39
-    invoke-static {}, Lcom/tencent/mm/model/ah;->te()Lcom/tencent/mm/storage/g;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->te()Lcom/tencent/mm/storage/Gclz;
 
     move-result-object v2
 
@@ -1113,7 +1113,7 @@
 
     iget v0, v0, Lcom/tencent/mm/permission/b$a;->cdc:I
 
-    invoke-virtual {v2, v0, v1}, Lcom/tencent/mm/storage/g;->getInt(II)I
+    invoke-virtual {v2, v0, v1}, Lcom/tencent/mm/storage/Gclz;->getInt(II)I
 
     move-result v0
 
@@ -1217,7 +1217,7 @@
 
     const/4 v8, 0x0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v3
 
@@ -1308,7 +1308,7 @@
 
     check-cast v0, Lcom/tencent/mm/permission/b$a;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->te()Lcom/tencent/mm/storage/g;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->te()Lcom/tencent/mm/storage/Gclz;
 
     move-result-object v6
 
@@ -1316,7 +1316,7 @@
 
     const-wide/16 v11, 0x0
 
-    invoke-virtual {v6, v0, v11, v12}, Lcom/tencent/mm/storage/g;->getLong(IJ)J
+    invoke-virtual {v6, v0, v11, v12}, Lcom/tencent/mm/storage/Gclz;->getLong(IJ)J
 
     move-result-wide v6
 
@@ -1671,7 +1671,7 @@
     move v1, v0
 
     :goto_a
-    invoke-static {}, Lcom/tencent/mm/model/ah;->te()Lcom/tencent/mm/storage/g;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->te()Lcom/tencent/mm/storage/Gclz;
 
     move-result-object v2
 
@@ -1693,7 +1693,7 @@
 
     move-result-wide v3
 
-    invoke-virtual {v2, v0, v3, v4}, Lcom/tencent/mm/storage/g;->setLong(IJ)V
+    invoke-virtual {v2, v0, v3, v4}, Lcom/tencent/mm/storage/Gclz;->setLong(IJ)V
 
     :goto_b
     const-string/jumbo v0, "!32@/B4Tb64lLpL0qTj+UKAbT3of3Pv5i+ze"
@@ -1721,7 +1721,7 @@
     return v1
 
     :cond_d
-    invoke-static {}, Lcom/tencent/mm/model/ah;->te()Lcom/tencent/mm/storage/g;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->te()Lcom/tencent/mm/storage/Gclz;
 
     move-result-object v0
 
@@ -1729,7 +1729,7 @@
 
     const-wide/16 v3, 0x0
 
-    invoke-virtual {v0, v1, v3, v4}, Lcom/tencent/mm/storage/g;->getLong(IJ)J
+    invoke-virtual {v0, v1, v3, v4}, Lcom/tencent/mm/storage/Gclz;->getLong(IJ)J
 
     move-result-wide v0
 
@@ -1760,7 +1760,7 @@
 
     if-ne v0, p0, :cond_e
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->te()Lcom/tencent/mm/storage/g;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->te()Lcom/tencent/mm/storage/Gclz;
 
     move-result-object v0
 
@@ -1770,7 +1770,7 @@
 
     move-result-wide v3
 
-    invoke-virtual {v0, v1, v3, v4}, Lcom/tencent/mm/storage/g;->setLong(IJ)V
+    invoke-virtual {v0, v1, v3, v4}, Lcom/tencent/mm/storage/Gclz;->setLong(IJ)V
 
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
 

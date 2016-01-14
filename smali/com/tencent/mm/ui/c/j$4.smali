@@ -60,7 +60,7 @@
     const/4 v5, 0x1
 
     .line 143
-    invoke-static {}, Lcom/tencent/mm/model/ao;->tM()Lcom/tencent/mm/model/ao;
+    invoke-static {}, Lcom/tencent/mm/model/AOclz;->tM()Lcom/tencent/mm/model/AOclz;
 
     move-result-object v0
 
@@ -68,7 +68,7 @@
 
     iget v2, p0, Lcom/tencent/mm/ui/c/j$4;->jJK:I
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/model/ao;->K(II)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/model/AOclz;->K(II)V
 
     .line 144
     iget-object v0, p0, Lcom/tencent/mm/ui/c/j$4;->jJL:Lcom/tencent/mm/ui/c/j;
@@ -107,11 +107,11 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/plugin/report/service/h;->g(I[Ljava/lang/Object;)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v1
 
@@ -119,7 +119,7 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/storage/h;->get(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/storage/Hclz;->get(ILjava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -152,7 +152,7 @@
 
     .line 144
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/av;->us()Lcom/tencent/mm/model/av;
+    invoke-static {}, Lcom/tencent/mm/model/AVclz;->us()Lcom/tencent/mm/model/AVclz;
 
     move-result-object v1
 
@@ -167,7 +167,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-virtual {v1}, Lcom/tencent/mm/model/av;->getProvince()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/AVclz;->getProvince()Ljava/lang/String;
 
     move-result-object v2
 
@@ -175,7 +175,7 @@
 
     move-result-object v2
 
-    iget v1, v1, Lcom/tencent/mm/model/av;->aOs:I
+    iget v1, v1, Lcom/tencent/mm/model/AVclz;->aOs:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

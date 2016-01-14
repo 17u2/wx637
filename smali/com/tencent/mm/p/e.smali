@@ -55,7 +55,7 @@
     iput-object v1, p0, Lcom/tencent/mm/p/e;->bwT:Lcom/tencent/mm/sdk/platformtools/aq;
 
     .line 46
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -119,14 +119,14 @@
     iput-object p2, p0, Lcom/tencent/mm/p/e;->bwQ:Lcom/tencent/mm/p/e$b;
 
     .line 81
-    invoke-static {p1}, Lcom/tencent/mm/storage/k;->BV(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/storage/Kclz;->BV(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_8
 
     .line 82
-    invoke-static {p1}, Lcom/tencent/mm/storage/k;->BX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/tencent/mm/storage/Kclz;->BX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -228,7 +228,7 @@
     iput-object v3, p0, Lcom/tencent/mm/p/e;->bwR:Lcom/tencent/mm/p/k;
 
     .line 93
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -331,7 +331,7 @@
 
     .prologue
     .line 50
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

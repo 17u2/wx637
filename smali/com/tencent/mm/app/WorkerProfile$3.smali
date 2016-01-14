@@ -284,9 +284,9 @@
     goto/16 :goto_0
 
     :cond_1
-    new-instance v5, Lcom/tencent/mm/storage/ad;
+    new-instance v5, Lcom/tencent/mm/storage/ADclz;
 
-    invoke-direct {v5}, Lcom/tencent/mm/storage/ad;-><init>()V
+    invoke-direct {v5}, Lcom/tencent/mm/storage/ADclz;-><init>()V
 
     iget-object v1, v2, Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;->thumbData:[B
 
@@ -355,7 +355,7 @@
 
     if-nez v6, :cond_2
 
-    invoke-virtual {v5, v1}, Lcom/tencent/mm/storage/ad;->cj(Ljava/lang/String;)V
+    invoke-virtual {v5, v1}, Lcom/tencent/mm/storage/ADclz;->cj(Ljava/lang/String;)V
 
     const-string/jumbo v6, "!32@/B4Tb64lLpJ6sk5Ca9iJZZMT3XTYi1Xb"
 
@@ -399,23 +399,23 @@
 
     move-result-object v1
 
-    invoke-virtual {v5, v1}, Lcom/tencent/mm/storage/ad;->setContent(Ljava/lang/String;)V
+    invoke-virtual {v5, v1}, Lcom/tencent/mm/storage/ADclz;->setContent(Ljava/lang/String;)V
 
     const/4 v1, 0x1
 
-    invoke-virtual {v5, v1}, Lcom/tencent/mm/storage/ad;->bk(I)V
+    invoke-virtual {v5, v1}, Lcom/tencent/mm/storage/ADclz;->bk(I)V
 
-    invoke-virtual {v5, v4}, Lcom/tencent/mm/storage/ad;->setTalker(Ljava/lang/String;)V
+    invoke-virtual {v5, v4}, Lcom/tencent/mm/storage/ADclz;->setTalker(Ljava/lang/String;)V
 
-    invoke-static {v4}, Lcom/tencent/mm/model/ap;->fd(Ljava/lang/String;)J
+    invoke-static {v4}, Lcom/tencent/mm/model/APclz;->fd(Ljava/lang/String;)J
 
     move-result-wide v6
 
-    invoke-virtual {v5, v6, v7}, Lcom/tencent/mm/storage/ad;->u(J)V
+    invoke-virtual {v5, v6, v7}, Lcom/tencent/mm/storage/ADclz;->u(J)V
 
     const/4 v1, 0x1
 
-    invoke-virtual {v5, v1}, Lcom/tencent/mm/storage/ad;->bl(I)V
+    invoke-virtual {v5, v1}, Lcom/tencent/mm/storage/ADclz;->bl(I)V
 
     iget v1, v13, Lcom/tencent/mm/m/a$a;->type:I
 
@@ -429,17 +429,17 @@
 
     move-result v1
 
-    invoke-virtual {v5, v1}, Lcom/tencent/mm/storage/ad;->setType(I)V
+    invoke-virtual {v5, v1}, Lcom/tencent/mm/storage/ADclz;->setType(I)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rk()Lcom/tencent/mm/storage/ae;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v5}, Lcom/tencent/mm/storage/ae;->E(Lcom/tencent/mm/storage/ad;)J
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rk()Lcom/tencent/mm/storage/AEclz;
+
+    move-result-object v1
+
+    invoke-virtual {v1, v5}, Lcom/tencent/mm/storage/AEclz;->E(Lcom/tencent/mm/storage/ADclz;)J
 
     move-result-wide v6
 
@@ -549,7 +549,7 @@
 
     invoke-static {v1, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {v5, v6, v7}, Lcom/tencent/mm/storage/ad;->s(J)V
+    invoke-virtual {v5, v6, v7}, Lcom/tencent/mm/storage/ADclz;->s(J)V
 
     new-instance v1, Lcom/tencent/mm/m/a;
 

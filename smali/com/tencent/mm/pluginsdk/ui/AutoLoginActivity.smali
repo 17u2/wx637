@@ -44,13 +44,13 @@
 
     .prologue
     .line 89
-    invoke-static {}, Lcom/tencent/mm/model/ah;->ts()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->ts()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tw()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tw()Z
 
     move-result v0
 
@@ -242,7 +242,7 @@
 
     .line 55
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tt()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tt()Z
 
     .line 56
     sget-object v1, Lcom/tencent/mm/pluginsdk/ui/AutoLoginActivity$a;->hQp:Lcom/tencent/mm/pluginsdk/ui/AutoLoginActivity$a;

@@ -48,11 +48,11 @@
 
     .prologue
     .line 169
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/u;->mO()Lcom/tencent/mm/model/u;
+    invoke-interface {v0}, Lcom/tencent/mm/model/Uclz;->mO()Lcom/tencent/mm/model/Uclz;
 
     .line 173
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/w$2;->gtK:Lcom/tencent/mm/plugin/sns/ui/w;

@@ -265,7 +265,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/l/a;Lcom/tencent/mm/storage/j$a;Lcom/tencent/mm/storage/j$a;)V
+.method static synthetic a(Lcom/tencent/mm/l/a;Lcom/tencent/mm/storage/Jclz$a;Lcom/tencent/mm/storage/Jclz$a;)V
     .locals 4
 
     .prologue
@@ -864,15 +864,15 @@
     .line 113
     iget-object v0, p0, Lcom/tencent/mm/l/a;->bpe:Lcom/tencent/mm/l/b;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/l/b;->bpt:Lcom/tencent/mm/storage/h;
+    iput-object v1, v0, Lcom/tencent/mm/l/b;->bpt:Lcom/tencent/mm/storage/Hclz;
 
     .line 114
     return-void

@@ -131,7 +131,7 @@
 
     iget-boolean v7, p0, Lcom/tencent/mm/plugin/sns/ui/b/d;->gwb:Z
 
-    sget-object v8, Lcom/tencent/mm/storage/i$a;->jkU:Lcom/tencent/mm/storage/i$a;
+    sget-object v8, Lcom/tencent/mm/storage/Iclz$a;->jkU:Lcom/tencent/mm/storage/Iclz$a;
 
     move-object v2, p4
 
@@ -139,7 +139,7 @@
 
     move v6, p2
 
-    invoke-virtual/range {v0 .. v8}, Lcom/tencent/mm/plugin/sns/ui/ai;->a(Lcom/tencent/mm/plugin/sns/ui/PhotosContent;Lcom/tencent/mm/protocal/b/aqx;Ljava/lang/String;IIIZLcom/tencent/mm/storage/i$a;)V
+    invoke-virtual/range {v0 .. v8}, Lcom/tencent/mm/plugin/sns/ui/ai;->a(Lcom/tencent/mm/plugin/sns/ui/PhotosContent;Lcom/tencent/mm/protocal/b/aqx;Ljava/lang/String;IIIZLcom/tencent/mm/storage/Iclz$a;)V
 
     .line 86
     return-void

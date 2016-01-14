@@ -50,7 +50,7 @@
     .line 386
     const-string/jumbo v0, ""
 
-    invoke-static {v0}, Lcom/tencent/mm/model/ah;->eW(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/tencent/mm/model/AHclz;->eW(Ljava/lang/String;)V
 
     .line 387
     const/4 v0, 0x1

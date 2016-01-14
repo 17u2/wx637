@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/network/i;IILjava/lang/String;)V
+    value = Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/network/Iclz;IILjava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -72,11 +72,11 @@
 
     iget-object v4, p0, Lcom/tencent/mm/q/qclass$1;->bza:Lcom/tencent/mm/q/qclass;
 
-    invoke-static {v4}, Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/q/qclass;)Lcom/tencent/mm/network/o;
+    invoke-static {v4}, Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/q/qclass;)Lcom/tencent/mm/network/Oclz;
 
     move-result-object v4
 
-    invoke-interface {v4}, Lcom/tencent/mm/network/o;->getType()I
+    invoke-interface {v4}, Lcom/tencent/mm/network/Oclz;->getType()I
 
     move-result v4
 
@@ -99,20 +99,20 @@
     .line 93
     iget-object v0, p0, Lcom/tencent/mm/q/qclass$1;->bza:Lcom/tencent/mm/q/qclass;
 
-    invoke-static {v0}, Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/q/qclass;)Lcom/tencent/mm/network/o;
+    invoke-static {v0}, Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/q/qclass;)Lcom/tencent/mm/network/Oclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
+    invoke-interface {v0}, Lcom/tencent/mm/network/Oclz;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     .line 94
     iget-object v0, p0, Lcom/tencent/mm/q/qclass$1;->bza:Lcom/tencent/mm/q/qclass;
 
-    invoke-static {v0}, Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/q/qclass;)Lcom/tencent/mm/network/o;
+    invoke-static {v0}, Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/q/qclass;)Lcom/tencent/mm/network/Oclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
+    invoke-interface {v0}, Lcom/tencent/mm/network/Oclz;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v0
 

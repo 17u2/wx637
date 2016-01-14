@@ -18,15 +18,15 @@
     move-result-object v1
 
     .line 32
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v2
 
@@ -41,7 +41,7 @@
 
     .line 38
     :cond_0
-    invoke-virtual {v2}, Lcom/tencent/mm/storage/k;->aPT()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/storage/Kclz;->aPT()Z
 
     move-result v1
 
@@ -74,7 +74,7 @@
 
     const/4 v5, 0x1
 
-    invoke-virtual {v2}, Lcom/tencent/mm/storage/k;->qx()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/storage/Kclz;->qx()Ljava/lang/String;
 
     move-result-object v6
 
@@ -86,7 +86,7 @@
 
     const/4 v5, 0x2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/storage/k;->mi()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/storage/Kclz;->mi()Ljava/lang/String;
 
     move-result-object v6
 
@@ -98,7 +98,7 @@
 
     const/4 v5, 0x3
 
-    invoke-virtual {v2}, Lcom/tencent/mm/storage/k;->qx()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/storage/Kclz;->qx()Ljava/lang/String;
 
     move-result-object v6
 
@@ -110,7 +110,7 @@
 
     const/4 v5, 0x4
 
-    invoke-virtual {v2}, Lcom/tencent/mm/storage/k;->mj()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/storage/Kclz;->mj()Ljava/lang/String;
 
     move-result-object v6
 
@@ -130,7 +130,7 @@
 
     const/4 v0, 0x6
 
-    invoke-virtual {v2}, Lcom/tencent/mm/storage/k;->getProvince()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/storage/Kclz;->getProvince()Ljava/lang/String;
 
     move-result-object v5
 
@@ -142,7 +142,7 @@
 
     const/4 v0, 0x7
 
-    invoke-virtual {v2}, Lcom/tencent/mm/storage/k;->getCity()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/storage/Kclz;->getCity()Ljava/lang/String;
 
     move-result-object v5
 
@@ -282,7 +282,7 @@
     invoke-direct {v2, p1, v0, v3}, Lcom/tencent/mm/ac/g;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 66
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

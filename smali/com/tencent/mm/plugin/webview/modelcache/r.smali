@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field public final hNY:Lcom/tencent/mm/model/bb$b;
+.field public final hNY:Lcom/tencent/mm/model/BBclz$b;
 
 
 # direct methods
@@ -20,7 +20,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/webview/modelcache/r$1;-><init>(Lcom/tencent/mm/plugin/webview/modelcache/r;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/r;->hNY:Lcom/tencent/mm/model/bb$b;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/r;->hNY:Lcom/tencent/mm/model/BBclz$b;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 

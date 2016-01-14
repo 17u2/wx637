@@ -13,8 +13,8 @@
 .method public abstract afc()Z
 .end method
 
-.method public abstract f(Lcom/tencent/mm/storage/a/c;)V
+.method public abstract f(Lcom/tencent/mm/storage/a/Cclz;)V
 .end method
 
-.method public abstract g(Lcom/tencent/mm/storage/a/c;)V
+.method public abstract g(Lcom/tencent/mm/storage/a/Cclz;)V
 .end method

@@ -21,7 +21,7 @@
 
 
 # virtual methods
-.method public abstract J(II)Lcom/tencent/mm/network/o;
+.method public abstract J(II)Lcom/tencent/mm/network/Oclz;
 .end method
 
 .method public abstract a(Lcom/tencent/mm/protocal/Gclz$g;IILjava/lang/String;)V

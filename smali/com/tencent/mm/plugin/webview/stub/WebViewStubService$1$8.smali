@@ -47,7 +47,7 @@
 
     .prologue
     .line 740
-    invoke-static {}, Lcom/tencent/mm/model/h;->sx()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->sx()Z
 
     move-result v0
 

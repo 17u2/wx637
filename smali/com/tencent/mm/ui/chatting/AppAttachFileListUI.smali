@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/storage/ae$a;
+.implements Lcom/tencent/mm/storage/AEclz$a;
 
 
 # annotations
@@ -78,7 +78,7 @@
     return-void
 .end method
 
-.method private G(Lcom/tencent/mm/storage/ad;)Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;
+.method private G(Lcom/tencent/mm/storage/ADclz;)Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;
     .locals 3
 
     .prologue
@@ -108,7 +108,7 @@
     invoke-direct {v0, p0, v2}, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;-><init>(Lcom/tencent/mm/ui/chatting/AppAttachFileListUI;B)V
 
     .line 132
-    iput-object p1, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->aCM:Lcom/tencent/mm/storage/ad;
+    iput-object p1, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     .line 133
     iput-object v1, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->jZw:Lcom/tencent/mm/m/a$a;
@@ -189,10 +189,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/ad;
+    check-cast v0, Lcom/tencent/mm/storage/ADclz;
 
     .line 115
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI;->G(Lcom/tencent/mm/storage/ad;)Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI;->G(Lcom/tencent/mm/storage/ADclz;)Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;
 
     move-result-object v0
 
@@ -324,14 +324,14 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/storage/ae;Lcom/tencent/mm/storage/ae$c;)V
+.method public final a(Lcom/tencent/mm/storage/AEclz;Lcom/tencent/mm/storage/AEclz$c;)V
     .locals 4
 
     .prologue
     .line 280
     const-string/jumbo v0, "insert"
 
-    iget-object v1, p2, Lcom/tencent/mm/storage/ae$c;->jpm:Ljava/lang/String;
+    iget-object v1, p2, Lcom/tencent/mm/storage/AEclz$c;->jpm:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -347,7 +347,7 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 282
-    iget-object v0, p2, Lcom/tencent/mm/storage/ae$c;->jpn:Ljava/util/ArrayList;
+    iget-object v0, p2, Lcom/tencent/mm/storage/AEclz$c;->jpn:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
@@ -361,23 +361,23 @@
     if-ltz v1, :cond_1
 
     .line 283
-    iget-object v0, p2, Lcom/tencent/mm/storage/ae$c;->jpn:Ljava/util/ArrayList;
+    iget-object v0, p2, Lcom/tencent/mm/storage/AEclz$c;->jpn:Ljava/util/ArrayList;
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/ad;
+    check-cast v0, Lcom/tencent/mm/storage/ADclz;
 
     .line 284
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/ad;->aQy()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/ADclz;->aQy()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
     .line 285
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI;->G(Lcom/tencent/mm/storage/ad;)Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI;->G(Lcom/tencent/mm/storage/ADclz;)Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;
 
     move-result-object v0
 
@@ -501,21 +501,21 @@
 
     iput-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI;->jZp:Ljava/util/ArrayList;
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rk()Lcom/tencent/mm/storage/ae;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rk()Lcom/tencent/mm/storage/AEclz;
 
     move-result-object v1
 
     const/16 v2, 0x14
 
-    invoke-virtual {v1, v0, v3, v2}, Lcom/tencent/mm/storage/ae;->v(Ljava/lang/String;II)Ljava/util/List;
+    invoke-virtual {v1, v0, v3, v2}, Lcom/tencent/mm/storage/AEclz;->v(Ljava/lang/String;II)Ljava/util/List;
 
     move-result-object v0
 
@@ -550,11 +550,11 @@
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setOnScrollListener(Landroid/widget/AbsListView$OnScrollListener;)V
 
     .line 86
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rk()Lcom/tencent/mm/storage/ae;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rk()Lcom/tencent/mm/storage/AEclz;
 
     move-result-object v0
 
@@ -562,7 +562,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, p0, v1}, Lcom/tencent/mm/storage/ae;->a(Lcom/tencent/mm/storage/ae$a;Landroid/os/Looper;)V
+    invoke-virtual {v0, p0, v1}, Lcom/tencent/mm/storage/AEclz;->a(Lcom/tencent/mm/storage/AEclz$a;Landroid/os/Looper;)V
 
     .line 87
     return-void
@@ -573,15 +573,15 @@
 
     .prologue
     .line 105
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rk()Lcom/tencent/mm/storage/ae;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rk()Lcom/tencent/mm/storage/AEclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/storage/ae;->a(Lcom/tencent/mm/storage/ae$a;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/storage/AEclz;->a(Lcom/tencent/mm/storage/AEclz$a;)V
 
     .line 106
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onDestroy()V

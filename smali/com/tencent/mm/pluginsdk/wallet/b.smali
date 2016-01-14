@@ -76,7 +76,7 @@
 
     .line 370
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/h;->se()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->se()Z
 
     move-result v1
 
@@ -325,7 +325,7 @@
     invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     .line 226
-    invoke-static {}, Lcom/tencent/mm/model/h;->se()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->se()Z
 
     move-result v1
 
@@ -598,7 +598,7 @@
     .line 144
     const-string/jumbo v2, "ftf_can_set_amount"
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->se()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->se()Z
 
     move-result v0
 
@@ -675,7 +675,7 @@
     invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 323
-    invoke-static {}, Lcom/tencent/mm/model/h;->se()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->se()Z
 
     move-result v1
 

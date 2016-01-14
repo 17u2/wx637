@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/z/g;
-.super Lcom/tencent/mm/model/e;
+.super Lcom/tencent/mm/model/Eclz;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 43
-    invoke-direct {p0}, Lcom/tencent/mm/model/e;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/model/Eclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -23,7 +23,7 @@
 
 
 # virtual methods
-.method protected final a(Lcom/tencent/mm/protocal/b/AFclz;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/ad;
+.method protected final a(Lcom/tencent/mm/protocal/b/AFclz;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/ADclz;
     .locals 19
 
     .prologue
@@ -33,7 +33,7 @@
     move-result-object v14
 
     .line 51
-    invoke-super/range {p0 .. p4}, Lcom/tencent/mm/model/e;->a(Lcom/tencent/mm/protocal/b/AFclz;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/ad;
+    invoke-super/range {p0 .. p4}, Lcom/tencent/mm/model/Eclz;->a(Lcom/tencent/mm/protocal/b/AFclz;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/ADclz;
 
     move-result-object v15
 
@@ -434,17 +434,17 @@
     .line 91
     iget-object v5, v9, Lcom/tencent/mm/pointers/PString;->value:Ljava/lang/String;
 
-    invoke-virtual {v15, v5}, Lcom/tencent/mm/storage/ad;->cj(Ljava/lang/String;)V
+    invoke-virtual {v15, v5}, Lcom/tencent/mm/storage/ADclz;->cj(Ljava/lang/String;)V
 
     .line 92
     iget v5, v10, Lcom/tencent/mm/pointers/PInt;->value:I
 
-    invoke-virtual {v15, v5}, Lcom/tencent/mm/storage/ad;->bt(I)V
+    invoke-virtual {v15, v5}, Lcom/tencent/mm/storage/ADclz;->bt(I)V
 
     .line 93
     iget v5, v11, Lcom/tencent/mm/pointers/PInt;->value:I
 
-    invoke-virtual {v15, v5}, Lcom/tencent/mm/storage/ad;->bu(I)V
+    invoke-virtual {v15, v5}, Lcom/tencent/mm/storage/ADclz;->bu(I)V
 
     .line 94
     const-wide/16 v5, 0x0
@@ -683,7 +683,7 @@
 
     move-object v10, v15
 
-    invoke-direct/range {v3 .. v14}, Lcom/tencent/mm/z/g$1;-><init>(Lcom/tencent/mm/z/g;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/storage/ad;JILjava/lang/String;)V
+    invoke-direct/range {v3 .. v14}, Lcom/tencent/mm/z/g$1;-><init>(Lcom/tencent/mm/z/g;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/storage/ADclz;JILjava/lang/String;)V
 
     move-object/from16 v0, v16
 
@@ -691,7 +691,7 @@
 
     const/4 v3, 0x4
 
-    invoke-virtual {v15, v3}, Lcom/tencent/mm/storage/ad;->bk(I)V
+    invoke-virtual {v15, v3}, Lcom/tencent/mm/storage/ADclz;->bk(I)V
 
     invoke-static {}, Lcom/tencent/mm/modelcdntran/d;->xI()Lcom/tencent/mm/modelcdntran/a;
 
@@ -715,7 +715,7 @@
     goto/16 :goto_1
 .end method
 
-.method public final d(Lcom/tencent/mm/storage/ad;)V
+.method public final d(Lcom/tencent/mm/storage/ADclz;)V
     .locals 1
 
     .prologue
@@ -724,7 +724,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/z/f;->i(Lcom/tencent/mm/storage/ad;)V
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/z/f;->i(Lcom/tencent/mm/storage/ADclz;)V
 
     .line 202
     return-void

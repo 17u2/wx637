@@ -19,7 +19,7 @@
 
 .field private bpg:Z
 
-.field private czx:Lcom/tencent/mm/storage/k;
+.field private czx:Lcom/tencent/mm/storage/Kclz;
 
 .field private kwz:Ljava/lang/Integer;
 
@@ -50,7 +50,7 @@
     iput-boolean v1, p0, Lcom/tencent/mm/ui/conversation/d$e;->bpg:Z
 
     .line 427
-    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/d$e;->czx:Lcom/tencent/mm/storage/k;
+    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/d$e;->czx:Lcom/tencent/mm/storage/Kclz;
 
     .line 428
     iput-object v0, p0, Lcom/tencent/mm/ui/conversation/d$e;->kwz:Ljava/lang/Integer;
@@ -68,7 +68,7 @@
 
 
 # virtual methods
-.method public final baL()Lcom/tencent/mm/storage/k;
+.method public final baL()Lcom/tencent/mm/storage/Kclz;
     .locals 2
 
     .prologue
@@ -77,36 +77,36 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/d$e;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/d$e;->czx:Lcom/tencent/mm/storage/Kclz;
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 444
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ui/conversation/d$e;->aoH:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/d$e;->czx:Lcom/tencent/mm/storage/k;
+    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/d$e;->czx:Lcom/tencent/mm/storage/Kclz;
 
     .line 446
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/d$e;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/d$e;->czx:Lcom/tencent/mm/storage/Kclz;
 
     return-object v0
 .end method
@@ -121,7 +121,7 @@
     iput-object p1, p0, Lcom/tencent/mm/ui/conversation/d$e;->aoH:Ljava/lang/String;
 
     .line 433
-    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/d$e;->czx:Lcom/tencent/mm/storage/k;
+    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/d$e;->czx:Lcom/tencent/mm/storage/Kclz;
 
     .line 434
     iput-object v0, p0, Lcom/tencent/mm/ui/conversation/d$e;->kwz:Ljava/lang/Integer;

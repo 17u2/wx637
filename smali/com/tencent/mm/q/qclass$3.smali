@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/network/d;Lcom/tencent/mm/network/i;II)V
+    value = Lcom/tencent/mm/q/qclass;->a(Lcom/tencent/mm/network/Dclz;Lcom/tencent/mm/network/Iclz;II)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
 # instance fields
 .field final synthetic bza:Lcom/tencent/mm/q/qclass;
 
-.field final synthetic bzb:Lcom/tencent/mm/network/i;
+.field final synthetic bzb:Lcom/tencent/mm/network/Iclz;
 
 .field final synthetic bzc:I
 
@@ -28,14 +28,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/q/qclass;Lcom/tencent/mm/network/i;II)V
+.method constructor <init>(Lcom/tencent/mm/q/qclass;Lcom/tencent/mm/network/Iclz;II)V
     .locals 1
 
     .prologue
     .line 143
     iput-object p1, p0, Lcom/tencent/mm/q/qclass$3;->bza:Lcom/tencent/mm/q/qclass;
 
-    iput-object p2, p0, Lcom/tencent/mm/q/qclass$3;->bzb:Lcom/tencent/mm/network/i;
+    iput-object p2, p0, Lcom/tencent/mm/q/qclass$3;->bzb:Lcom/tencent/mm/network/Iclz;
 
     iput p3, p0, Lcom/tencent/mm/q/qclass$3;->bzc:I
 
@@ -71,11 +71,11 @@
 
     iget-object v2, v2, Lcom/tencent/mm/q/qclass;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
 
-    invoke-direct {v1, v0, v2}, Lcom/tencent/mm/q/qclass;-><init>(Lcom/tencent/mm/network/o;Lcom/tencent/mm/sdk/platformtools/ab;)V
+    invoke-direct {v1, v0, v2}, Lcom/tencent/mm/q/qclass;-><init>(Lcom/tencent/mm/network/Oclz;Lcom/tencent/mm/sdk/platformtools/ab;)V
 
     .line 150
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/q/qclass$3;->bzb:Lcom/tencent/mm/network/i;
+    iget-object v0, p0, Lcom/tencent/mm/q/qclass$3;->bzb:Lcom/tencent/mm/network/Iclz;
 
     iget v2, p0, Lcom/tencent/mm/q/qclass$3;->bzc:I
 
@@ -83,7 +83,7 @@
 
     const-string/jumbo v4, ""
 
-    invoke-interface {v0, v1, v2, v3, v4}, Lcom/tencent/mm/network/i;->a(Lcom/tencent/mm/network/p;IILjava/lang/String;)V
+    invoke-interface {v0, v1, v2, v3, v4}, Lcom/tencent/mm/network/Iclz;->a(Lcom/tencent/mm/network/Pclz;IILjava/lang/String;)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 

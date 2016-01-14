@@ -218,13 +218,13 @@
     invoke-virtual {v3, v4, v1, v0, v2}, Landroid/app/Notification;->setLatestEventInfo(Landroid/content/Context;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Landroid/app/PendingIntent;)V
 
     .line 188
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lc()Lcom/tencent/mm/model/y;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lc()Lcom/tencent/mm/model/Yclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/model/c;->bWb:Landroid/app/Notification;
 
-    invoke-interface {v0, v6, v1, v5}, Lcom/tencent/mm/model/y;->a(ILandroid/app/Notification;Z)V
+    invoke-interface {v0, v6, v1, v5}, Lcom/tencent/mm/model/Yclz;->a(ILandroid/app/Notification;Z)V
 
     goto :goto_0
 
@@ -277,13 +277,13 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 193
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lc()Lcom/tencent/mm/model/y;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lc()Lcom/tencent/mm/model/Yclz;
 
     move-result-object v0
 
     const/16 v1, 0x64
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/model/y;->cancel(I)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/model/Yclz;->cancel(I)V
 
     .line 194
     return-void

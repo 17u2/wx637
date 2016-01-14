@@ -196,13 +196,13 @@
     const/4 v1, 0x0
 
     .line 133
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->ta()[B
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->ta()[B
 
     move-result-object v2
 
@@ -273,11 +273,11 @@
     .line 146
     :cond_2
     :try_start_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/tencent/mm/model/c;->rh()Lcom/tencent/mm/ae/c;
+    invoke-virtual {v3}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/c;
 
     move-result-object v3
 
@@ -346,7 +346,7 @@
 
     .line 118
     :try_start_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->sQ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->sQ()Z
 
     move-result v1
 
@@ -370,7 +370,7 @@
     invoke-direct {v1, p0}, Lcom/tencent/mm/plugin/report/b/f;-><init>([B)V
 
     .line 123
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 

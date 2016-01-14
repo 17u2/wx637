@@ -478,7 +478,7 @@
     goto :goto_0
 .end method
 
-.method public final a(Lcom/tencent/mm/protocal/b/AFclz;Lcom/tencent/mm/storage/ad$e;)V
+.method public final a(Lcom/tencent/mm/protocal/b/AFclz;Lcom/tencent/mm/storage/ADclz$e;)V
     .locals 5
 
     .prologue
@@ -544,17 +544,17 @@
     iput-object v0, v2, Lcom/tencent/mm/aj/j;->field_imgpath:Ljava/lang/String;
 
     .line 123
-    iget-object v0, p2, Lcom/tencent/mm/storage/ad$e;->content:Ljava/lang/String;
+    iget-object v0, p2, Lcom/tencent/mm/storage/ADclz$e;->content:Ljava/lang/String;
 
     iput-object v0, v2, Lcom/tencent/mm/aj/j;->field_sayhicontent:Ljava/lang/String;
 
     .line 124
-    iget-object v0, p2, Lcom/tencent/mm/storage/ad$e;->gGy:Ljava/lang/String;
+    iget-object v0, p2, Lcom/tencent/mm/storage/ADclz$e;->gGy:Ljava/lang/String;
 
     iput-object v0, v2, Lcom/tencent/mm/aj/j;->field_sayhiuser:Ljava/lang/String;
 
     .line 125
-    iget v0, p2, Lcom/tencent/mm/storage/ad$e;->arG:I
+    iget v0, p2, Lcom/tencent/mm/storage/ADclz$e;->arG:I
 
     iput v0, v2, Lcom/tencent/mm/aj/j;->field_scene:I
 

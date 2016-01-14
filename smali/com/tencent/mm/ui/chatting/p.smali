@@ -40,7 +40,7 @@
     return-void
 .end method
 
-.method public static a(Lcom/tencent/mm/storage/ad$b;)Ljava/lang/String;
+.method public static a(Lcom/tencent/mm/storage/ADclz$b;)Ljava/lang/String;
     .locals 4
 
     .prologue
@@ -49,7 +49,7 @@
     const/4 v0, 0x0
 
     .line 292
-    iget-object v2, p0, Lcom/tencent/mm/storage/ad$b;->aVV:Ljava/lang/String;
+    iget-object v2, p0, Lcom/tencent/mm/storage/ADclz$b;->aVV:Ljava/lang/String;
 
     .line 295
     invoke-static {v2}, Lcom/tencent/mm/platformtools/t;->jY(Ljava/lang/String;)Z
@@ -59,16 +59,16 @@
     if-eqz v3, :cond_1
 
     .line 296
-    iget-object v2, p0, Lcom/tencent/mm/storage/ad$b;->gGy:Ljava/lang/String;
+    iget-object v2, p0, Lcom/tencent/mm/storage/ADclz$b;->gGy:Ljava/lang/String;
 
     .line 298
-    invoke-static {v2}, Lcom/tencent/mm/storage/k;->BW(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/storage/Kclz;->BW(Ljava/lang/String;)Z
 
     move-result v3
 
     if-nez v3, :cond_0
 
-    invoke-static {v2}, Lcom/tencent/mm/model/i;->dN(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->dN(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -81,15 +81,15 @@
     :cond_1
     if-nez v0, :cond_4
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v3}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v3
 
-    invoke-virtual {v3, v2}, Lcom/tencent/mm/storage/q;->Ce(Ljava/lang/String;)Z
+    invoke-virtual {v3, v2}, Lcom/tencent/mm/storage/Qclz;->Ce(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -97,9 +97,9 @@
 
     .line 304
     :goto_0
-    iget v0, p0, Lcom/tencent/mm/storage/ad$b;->hxL:I
+    iget v0, p0, Lcom/tencent/mm/storage/ADclz$b;->hxL:I
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->cz(I)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->cz(I)Z
 
     move-result v0
 

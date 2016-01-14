@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/ae;
+.implements Lcom/tencent/mm/model/AEclz;
 
 
 # static fields
@@ -13,7 +13,7 @@
 # instance fields
 .field private bZd:Lcom/tencent/mm/modelvoice/u;
 
-.field private bZe:Lcom/tencent/mm/storage/ap;
+.field private bZe:Lcom/tencent/mm/storage/APclz;
 
 .field private bZf:Lcom/tencent/mm/c/b/i;
 
@@ -117,7 +117,7 @@
 
     .prologue
     .line 41
-    invoke-static {}, Lcom/tencent/mm/model/ah;->sU()Lcom/tencent/mm/model/ba;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->sU()Lcom/tencent/mm/model/BAclz;
 
     move-result-object v0
 
@@ -127,7 +127,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/ba;->fk(Ljava/lang/String;)Lcom/tencent/mm/model/ae;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/BAclz;->fk(Ljava/lang/String;)Lcom/tencent/mm/model/AEclz;
 
     move-result-object v0
 
@@ -142,7 +142,7 @@
     invoke-direct {v0}, Lcom/tencent/mm/modelvoice/m;-><init>()V
 
     .line 44
-    invoke-static {}, Lcom/tencent/mm/model/ah;->sU()Lcom/tencent/mm/model/ba;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->sU()Lcom/tencent/mm/model/BAclz;
 
     move-result-object v1
 
@@ -152,7 +152,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/model/ba;->a(Ljava/lang/String;Lcom/tencent/mm/model/ae;)Z
+    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/model/BAclz;->a(Ljava/lang/String;Lcom/tencent/mm/model/AEclz;)Z
 
     .line 46
     :cond_0
@@ -164,18 +164,18 @@
 
     .prologue
     .line 50
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget v0, v0, Lcom/tencent/mm/model/c;->uin:I
+    iget v0, v0, Lcom/tencent/mm/model/Cclz;->uin:I
 
     if-nez v0, :cond_0
 
     .line 51
-    new-instance v0, Lcom/tencent/mm/model/b;
+    new-instance v0, Lcom/tencent/mm/model/Bclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/model/b;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/model/Bclz;-><init>()V
 
     throw v0
 
@@ -192,11 +192,11 @@
     .line 54
     const-string/jumbo v1, "dataDB is null "
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/model/c;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v0, v0, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
 
     if-eqz v0, :cond_2
 
@@ -212,11 +212,11 @@
 
     new-instance v1, Lcom/tencent/mm/modelvoice/u;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/tencent/mm/model/c;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v2, v2, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
 
     invoke-direct {v1, v2}, Lcom/tencent/mm/modelvoice/u;-><init>(Lcom/tencent/mm/aw/g;)V
 
@@ -239,23 +239,23 @@
     goto :goto_0
 .end method
 
-.method public static DE()Lcom/tencent/mm/storage/ap;
+.method public static DE()Lcom/tencent/mm/storage/APclz;
     .locals 3
 
     .prologue
     .line 61
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget v0, v0, Lcom/tencent/mm/model/c;->uin:I
+    iget v0, v0, Lcom/tencent/mm/model/Cclz;->uin:I
 
     if-nez v0, :cond_0
 
     .line 62
-    new-instance v0, Lcom/tencent/mm/model/b;
+    new-instance v0, Lcom/tencent/mm/model/Bclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/model/b;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/model/Bclz;-><init>()V
 
     throw v0
 
@@ -265,18 +265,18 @@
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/modelvoice/m;->bZe:Lcom/tencent/mm/storage/ap;
+    iget-object v0, v0, Lcom/tencent/mm/modelvoice/m;->bZe:Lcom/tencent/mm/storage/APclz;
 
     if-nez v0, :cond_1
 
     .line 66
     const-string/jumbo v1, "dataDB is null "
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/model/c;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v0, v0, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
 
     if-eqz v0, :cond_2
 
@@ -290,17 +290,17 @@
 
     move-result-object v0
 
-    new-instance v1, Lcom/tencent/mm/storage/ap;
+    new-instance v1, Lcom/tencent/mm/storage/APclz;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/tencent/mm/model/c;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v2, v2, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
 
-    invoke-direct {v1, v2}, Lcom/tencent/mm/storage/ap;-><init>(Lcom/tencent/mm/sdk/g/d;)V
+    invoke-direct {v1, v2}, Lcom/tencent/mm/storage/APclz;-><init>(Lcom/tencent/mm/sdk/g/d;)V
 
-    iput-object v1, v0, Lcom/tencent/mm/modelvoice/m;->bZe:Lcom/tencent/mm/storage/ap;
+    iput-object v1, v0, Lcom/tencent/mm/modelvoice/m;->bZe:Lcom/tencent/mm/storage/APclz;
 
     .line 69
     :cond_1
@@ -308,7 +308,7 @@
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/modelvoice/m;->bZe:Lcom/tencent/mm/storage/ap;
+    iget-object v0, v0, Lcom/tencent/mm/modelvoice/m;->bZe:Lcom/tencent/mm/storage/APclz;
 
     return-object v0
 
@@ -324,18 +324,18 @@
 
     .prologue
     .line 73
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget v0, v0, Lcom/tencent/mm/model/c;->uin:I
+    iget v0, v0, Lcom/tencent/mm/model/Cclz;->uin:I
 
     if-nez v0, :cond_0
 
     .line 74
-    new-instance v0, Lcom/tencent/mm/model/b;
+    new-instance v0, Lcom/tencent/mm/model/Bclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/model/b;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/model/Bclz;-><init>()V
 
     throw v0
 

@@ -18,18 +18,18 @@
 
 
 # instance fields
-.field final synthetic bJG:Lcom/tencent/mm/storage/ad;
+.field final synthetic bJG:Lcom/tencent/mm/storage/ADclz;
 
 .field final synthetic val$context:Landroid/content/Context;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/storage/ad;Landroid/content/Context;)V
+.method constructor <init>(Lcom/tencent/mm/storage/ADclz;Landroid/content/Context;)V
     .locals 1
 
     .prologue
     .line 119
-    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/dq$4;->bJG:Lcom/tencent/mm/storage/ad;
+    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/dq$4;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iput-object p2, p0, Lcom/tencent/mm/ui/chatting/dq$4;->val$context:Landroid/content/Context;
 
@@ -75,7 +75,7 @@
     move-result-object v2
 
     .line 125
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/dq$4;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/dq$4;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
 
@@ -98,7 +98,7 @@
 
     .line 129
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/dq$4;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/dq$4;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
 
@@ -111,7 +111,7 @@
     move-result-object v0
 
     .line 130
-    iget-object v3, p0, Lcom/tencent/mm/ui/chatting/dq$4;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v3, p0, Lcom/tencent/mm/ui/chatting/dq$4;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v3, v3, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
 
@@ -143,7 +143,7 @@
     invoke-direct {v3, v0, v6}, Lcom/tencent/mm/modelvoice/f;-><init>(Ljava/lang/String;I)V
 
     .line 133
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

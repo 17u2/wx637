@@ -70,7 +70,7 @@
     .line 206
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b$3;->hSH:Lcom/tencent/mm/pluginsdk/ui/applet/b;
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -85,9 +85,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b$3;->hSH:Lcom/tencent/mm/pluginsdk/ui/applet/b;
 
-    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/k;
+    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/storage/k;->aPT()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/storage/Kclz;->aPT()Z
 
     move-result v2
 

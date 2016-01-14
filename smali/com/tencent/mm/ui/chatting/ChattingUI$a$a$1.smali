@@ -148,11 +148,11 @@
 
     move-result-object v2
 
-    invoke-interface {v2, v1}, Lcom/tencent/mm/pluginsdk/h$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/c;
+    invoke-interface {v2, v1}, Lcom/tencent/mm/pluginsdk/h$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/chatting/cq;->g(Lcom/tencent/mm/storage/a/c;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/chatting/cq;->g(Lcom/tencent/mm/storage/a/Cclz;)V
 
     .line 10093
     :cond_0
@@ -196,7 +196,7 @@
     invoke-direct/range {v0 .. v11}, Lcom/tencent/mm/z/k;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILcom/tencent/mm/q/Eclz;ILjava/lang/String;Ljava/lang/String;ZI)V
 
     .line 10090
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 

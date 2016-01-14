@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field public dfb:Lcom/tencent/mm/storage/k;
+.field public dfb:Lcom/tencent/mm/storage/Kclz;
 
 
 # direct methods
@@ -62,12 +62,12 @@
 
 
 # virtual methods
-.method public G(Lcom/tencent/mm/storage/k;)Z
+.method public G(Lcom/tencent/mm/storage/Kclz;)Z
     .locals 1
 
     .prologue
     .line 32
-    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileItemView;->dfb:Lcom/tencent/mm/storage/k;
+    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileItemView;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     .line 33
     invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/ui/ProfileItemView;->ajx()Z

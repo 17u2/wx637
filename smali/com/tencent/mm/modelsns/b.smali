@@ -60,11 +60,11 @@
     .line 25
     const-string/jumbo v0, "100024"
 
-    invoke-static {}, Lcom/tencent/mm/model/c/d;->uO()Lcom/tencent/mm/storage/b;
+    invoke-static {}, Lcom/tencent/mm/model/c/Dclz;->uO()Lcom/tencent/mm/storage/Bclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/b;->BG(Ljava/lang/String;)Lcom/tencent/mm/storage/a;
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/Bclz;->BG(Ljava/lang/String;)Lcom/tencent/mm/storage/Aclz;
 
     move-result-object v0
 
@@ -77,7 +77,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v3, v0, Lcom/tencent/mm/storage/a;->field_rawXML:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/storage/Aclz;->field_rawXML:Ljava/lang/String;
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -89,7 +89,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/a;->isValid()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/Aclz;->isValid()Z
 
     move-result v3
 
@@ -104,14 +104,14 @@
     invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 31
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/a;->isValid()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/Aclz;->isValid()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
     .line 32
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/a;->aPK()Ljava/util/Map;
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/Aclz;->aPK()Ljava/util/Map;
 
     move-result-object v0
 

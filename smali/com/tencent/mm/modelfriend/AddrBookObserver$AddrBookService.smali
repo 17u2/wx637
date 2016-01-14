@@ -272,7 +272,7 @@
 
     .line 135
     :cond_4
-    invoke-static {}, Lcom/tencent/mm/model/ah;->sQ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->sQ()Z
 
     move-result v0
 
@@ -292,11 +292,11 @@
 
     .line 141
     :cond_5
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tt()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tt()Z
 
     .line 143
     :try_start_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 

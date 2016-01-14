@@ -165,7 +165,7 @@
     return-object p2
 .end method
 
-.method public a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;Ljava/lang/String;)V
+.method public a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;)V
     .locals 10
 
     .prologue
@@ -236,7 +236,7 @@
     invoke-virtual {v0, v4}, Lcom/tencent/mm/ui/base/MMTextView;->setBackgroundResource(I)V
 
     .line 71
-    iput-boolean v3, p4, Lcom/tencent/mm/storage/ad;->joD:Z
+    iput-boolean v3, p4, Lcom/tencent/mm/storage/ADclz;->joD:Z
 
     .line 94
     :cond_3
@@ -289,7 +289,7 @@
     invoke-virtual {v0, v2}, Lcom/tencent/mm/ui/chatting/ChattingTranslateView;->ha(Z)V
 
     .line 103
-    invoke-virtual {p4}, Lcom/tencent/mm/storage/ad;->aQR()Z
+    invoke-virtual {p4}, Lcom/tencent/mm/storage/ADclz;->aQR()Z
 
     move-result v0
 
@@ -297,7 +297,7 @@
     if-eqz v0, :cond_b
 
     .line 105
-    invoke-virtual {p4}, Lcom/tencent/mm/storage/ad;->aQV()Z
+    invoke-virtual {p4}, Lcom/tencent/mm/storage/ADclz;->aQV()Z
 
     move-result v0
 
@@ -423,7 +423,7 @@
     :goto_4
     iget-boolean v0, p3, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->jJD:Z
 
-    invoke-static {p4, v0, p2}, Lcom/tencent/mm/ui/chatting/dd;->a(Lcom/tencent/mm/storage/ad;ZI)Lcom/tencent/mm/ui/chatting/dd;
+    invoke-static {p4, v0, p2}, Lcom/tencent/mm/ui/chatting/dd;->a(Lcom/tencent/mm/storage/ADclz;ZI)Lcom/tencent/mm/ui/chatting/dd;
 
     move-result-object v0
 
@@ -474,7 +474,7 @@
 
     move-object v2, p4
 
-    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/ui/chatting/br;->a(ILcom/tencent/mm/ui/chatting/y$a;Lcom/tencent/mm/storage/ad;Ljava/lang/String;ZLcom/tencent/mm/ui/chatting/ck;)V
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/ui/chatting/br;->a(ILcom/tencent/mm/ui/chatting/y$a;Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;ZLcom/tencent/mm/ui/chatting/ck;)V
 
     .line 178
     return-void
@@ -504,7 +504,7 @@
     if-eqz v4, :cond_7
 
     .line 76
-    iget-boolean v0, p4, Lcom/tencent/mm/storage/ad;->joD:Z
+    iget-boolean v0, p4, Lcom/tencent/mm/storage/ADclz;->joD:Z
 
     if-eqz v0, :cond_6
 
@@ -528,7 +528,7 @@
     invoke-virtual {v4, v0}, Lcom/tencent/mm/ui/base/MMTextView;->startAnimation(Landroid/view/animation/Animation;)V
 
     .line 80
-    iput-boolean v2, p4, Lcom/tencent/mm/storage/ad;->joD:Z
+    iput-boolean v2, p4, Lcom/tencent/mm/storage/ADclz;->joD:Z
 
     .line 82
     :cond_6
@@ -581,7 +581,7 @@
 
     .line 112
     :cond_b
-    invoke-virtual {p3, p4}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->Q(Lcom/tencent/mm/storage/ad;)Lcom/tencent/mm/ui/chatting/ChattingTranslateView$a;
+    invoke-virtual {p3, p4}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->Q(Lcom/tencent/mm/storage/ADclz;)Lcom/tencent/mm/ui/chatting/ChattingTranslateView$a;
 
     move-result-object v0
 
@@ -810,7 +810,7 @@
     goto/16 :goto_4
 .end method
 
-.method public a(Landroid/view/ContextMenu;Landroid/view/View;Lcom/tencent/mm/storage/ad;)Z
+.method public a(Landroid/view/ContextMenu;Landroid/view/View;Lcom/tencent/mm/storage/ADclz;)Z
     .locals 8
 
     .prologue
@@ -839,13 +839,13 @@
 
     .line 224
     :goto_0
-    invoke-virtual {p3}, Lcom/tencent/mm/storage/ad;->aQJ()Z
+    invoke-virtual {p3}, Lcom/tencent/mm/storage/ADclz;->aQJ()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    invoke-virtual {p3}, Lcom/tencent/mm/storage/ad;->aQB()Z
+    invoke-virtual {p3}, Lcom/tencent/mm/storage/ADclz;->aQB()Z
 
     move-result v0
 
@@ -863,7 +863,7 @@
     iget v0, v0, Lcom/tencent/mm/ui/chatting/dd;->position:I
 
     .line 228
-    invoke-virtual {p3}, Lcom/tencent/mm/storage/ad;->aQJ()Z
+    invoke-virtual {p3}, Lcom/tencent/mm/storage/ADclz;->aQJ()Z
 
     move-result v4
 
@@ -951,13 +951,13 @@
     :cond_3
     if-nez v1, :cond_5
 
-    invoke-virtual {p3}, Lcom/tencent/mm/storage/ad;->aQz()Z
+    invoke-virtual {p3}, Lcom/tencent/mm/storage/ADclz;->aQz()Z
 
     move-result v1
 
     if-nez v1, :cond_5
 
-    invoke-virtual {p3}, Lcom/tencent/mm/storage/ad;->aQJ()Z
+    invoke-virtual {p3}, Lcom/tencent/mm/storage/ADclz;->aQJ()Z
 
     move-result v1
 
@@ -1012,13 +1012,13 @@
     if-eqz v1, :cond_6
 
     .line 245
-    invoke-virtual {p3}, Lcom/tencent/mm/storage/ad;->aQR()Z
+    invoke-virtual {p3}, Lcom/tencent/mm/storage/ADclz;->aQR()Z
 
     move-result v1
 
     if-eqz v1, :cond_a
 
-    invoke-virtual {p3}, Lcom/tencent/mm/storage/ad;->aQV()Z
+    invoke-virtual {p3}, Lcom/tencent/mm/storage/ADclz;->aQV()Z
 
     move-result v1
 
@@ -1040,7 +1040,7 @@
     .line 252
     :cond_6
     :goto_1
-    invoke-virtual {p3}, Lcom/tencent/mm/storage/ad;->aQJ()Z
+    invoke-virtual {p3}, Lcom/tencent/mm/storage/ADclz;->aQJ()Z
 
     move-result v1
 
@@ -1108,7 +1108,7 @@
     goto :goto_1
 .end method
 
-.method public final a(Landroid/view/MenuItem;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)Z
+.method public final a(Landroid/view/MenuItem;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)Z
     .locals 1
 
     .prologue
@@ -1118,7 +1118,7 @@
     return v0
 .end method
 
-.method public final a(Landroid/view/View;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)Z
+.method public final a(Landroid/view/View;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)Z
     .locals 1
 
     .prologue

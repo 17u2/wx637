@@ -23,7 +23,7 @@
 
 .field private bps:Ljava/util/Random;
 
-.field bpt:Lcom/tencent/mm/storage/h;
+.field bpt:Lcom/tencent/mm/storage/Hclz;
 
 
 # direct methods
@@ -72,7 +72,7 @@
     .line 42
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/l/b;->bpt:Lcom/tencent/mm/storage/h;
+    iput-object v0, p0, Lcom/tencent/mm/l/b;->bpt:Lcom/tencent/mm/storage/Hclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -95,9 +95,9 @@
     const/4 v6, 0x0
 
     .line 104
-    iget-object v0, p0, Lcom/tencent/mm/l/b;->bpt:Lcom/tencent/mm/storage/h;
+    iget-object v0, p0, Lcom/tencent/mm/l/b;->bpt:Lcom/tencent/mm/storage/Hclz;
 
-    invoke-virtual {v0, p1, v1}, Lcom/tencent/mm/storage/h;->get(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, v1}, Lcom/tencent/mm/storage/Hclz;->get(ILjava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -229,9 +229,9 @@
     const/4 v4, 0x0
 
     .line 146
-    iget-object v0, p0, Lcom/tencent/mm/l/b;->bpt:Lcom/tencent/mm/storage/h;
+    iget-object v0, p0, Lcom/tencent/mm/l/b;->bpt:Lcom/tencent/mm/storage/Hclz;
 
-    invoke-virtual {v0, p1, v1}, Lcom/tencent/mm/storage/h;->get(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, v1}, Lcom/tencent/mm/storage/Hclz;->get(ILjava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -469,20 +469,20 @@
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
     .line 62
-    iget-object v1, p1, Lcom/tencent/mm/l/b$a;->bpl:Lcom/tencent/mm/storage/j$a;
+    iget-object v1, p1, Lcom/tencent/mm/l/b$a;->bpl:Lcom/tencent/mm/storage/Jclz$a;
 
     if-eqz v1, :cond_0
 
     .line 63
-    iget-object v1, p0, Lcom/tencent/mm/l/b;->bpt:Lcom/tencent/mm/storage/h;
+    iget-object v1, p0, Lcom/tencent/mm/l/b;->bpt:Lcom/tencent/mm/storage/Hclz;
 
-    iget-object v2, p1, Lcom/tencent/mm/l/b$a;->bpl:Lcom/tencent/mm/storage/j$a;
+    iget-object v2, p1, Lcom/tencent/mm/l/b$a;->bpl:Lcom/tencent/mm/storage/Jclz$a;
 
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/storage/h;->b(Lcom/tencent/mm/storage/j$a;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/storage/Hclz;->b(Lcom/tencent/mm/storage/Jclz$a;Ljava/lang/Object;)V
 
     .line 67
     :goto_0
@@ -490,7 +490,7 @@
 
     .line 65
     :cond_0
-    iget-object v1, p0, Lcom/tencent/mm/l/b;->bpt:Lcom/tencent/mm/storage/h;
+    iget-object v1, p0, Lcom/tencent/mm/l/b;->bpt:Lcom/tencent/mm/storage/Hclz;
 
     iget v2, p1, Lcom/tencent/mm/l/b$a;->bpk:I
 
@@ -498,7 +498,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/storage/h;->set(ILjava/lang/Object;)V
+    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/storage/Hclz;->set(ILjava/lang/Object;)V
 
     goto :goto_0
 .end method
@@ -515,7 +515,7 @@
     invoke-direct {v3}, Ljava/lang/StringBuffer;-><init>()V
 
     .line 71
-    iget-object v1, p1, Lcom/tencent/mm/l/b$b;->bpn:Lcom/tencent/mm/storage/j$a;
+    iget-object v1, p1, Lcom/tencent/mm/l/b$b;->bpn:Lcom/tencent/mm/storage/Jclz$a;
 
     if-eqz v1, :cond_2
 
@@ -595,15 +595,15 @@
 
     .line 86
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/l/b;->bpt:Lcom/tencent/mm/storage/h;
+    iget-object v0, p0, Lcom/tencent/mm/l/b;->bpt:Lcom/tencent/mm/storage/Hclz;
 
-    iget-object v1, p1, Lcom/tencent/mm/l/b$b;->bpn:Lcom/tencent/mm/storage/j$a;
+    iget-object v1, p1, Lcom/tencent/mm/l/b$b;->bpn:Lcom/tencent/mm/storage/Jclz$a;
 
     invoke-virtual {v3}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/h;->b(Lcom/tencent/mm/storage/j$a;Ljava/lang/Object;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/Hclz;->b(Lcom/tencent/mm/storage/Jclz$a;Ljava/lang/Object;)V
 
     .line 101
     :goto_1
@@ -671,7 +671,7 @@
 
     .line 99
     :cond_4
-    iget-object v0, p0, Lcom/tencent/mm/l/b;->bpt:Lcom/tencent/mm/storage/h;
+    iget-object v0, p0, Lcom/tencent/mm/l/b;->bpt:Lcom/tencent/mm/storage/Hclz;
 
     iget v1, p1, Lcom/tencent/mm/l/b$b;->bpv:I
 
@@ -679,7 +679,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/h;->set(ILjava/lang/Object;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/Hclz;->set(ILjava/lang/Object;)V
 
     goto :goto_1
 .end method

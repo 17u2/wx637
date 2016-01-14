@@ -107,7 +107,7 @@
 
     iput-object v0, v3, Lcom/tencent/mm/pluginsdk/ui/applet/i;->cfz:Lcom/tencent/mm/ui/base/o;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v6
 

@@ -15,7 +15,7 @@
 # instance fields
 .field private aoH:Ljava/lang/String;
 
-.field private cOY:Lcom/tencent/mm/storage/e;
+.field private cOY:Lcom/tencent/mm/storage/Eclz;
 
 .field private cRo:Landroid/widget/ListView;
 
@@ -59,7 +59,7 @@
     return-object v0
 .end method
 
-.method protected static a(Lcom/tencent/mm/storage/e;Ljava/lang/String;)Ljava/lang/String;
+.method protected static a(Lcom/tencent/mm/storage/Eclz;Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
     .prologue
@@ -74,19 +74,19 @@
     return-object v0
 
     :cond_0
-    invoke-virtual {p0, p1}, Lcom/tencent/mm/storage/e;->dR(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Lcom/tencent/mm/storage/Eclz;->dR(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     goto :goto_0
 .end method
 
-.method static synthetic b(Lcom/tencent/mm/ui/chatting/AtSomeoneUI;)Lcom/tencent/mm/storage/e;
+.method static synthetic b(Lcom/tencent/mm/ui/chatting/AtSomeoneUI;)Lcom/tencent/mm/storage/Eclz;
     .locals 1
 
     .prologue
     .line 46
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneUI;->cOY:Lcom/tencent/mm/storage/e;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneUI;->cOY:Lcom/tencent/mm/storage/Eclz;
 
     return-object v0
 .end method
@@ -146,11 +146,11 @@
     .line 122
     new-instance v0, Lcom/tencent/mm/ui/chatting/AtSomeoneUI$a;
 
-    new-instance v2, Lcom/tencent/mm/storage/k;
+    new-instance v2, Lcom/tencent/mm/storage/Kclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/storage/k;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/storage/Kclz;-><init>()V
 
-    iget-object v3, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneUI;->cOY:Lcom/tencent/mm/storage/e;
+    iget-object v3, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneUI;->cOY:Lcom/tencent/mm/storage/Eclz;
 
     const/4 v4, 0x0
 
@@ -212,30 +212,30 @@
     move-result-object v5
 
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/c;->rn()Lcom/tencent/mm/storage/ai;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rn()Lcom/tencent/mm/storage/AIclz;
 
     move-result-object v1
 
     const-string/jumbo v6, "@t.qq.com"
 
-    invoke-virtual {v1, v6}, Lcom/tencent/mm/storage/ai;->Dr(Ljava/lang/String;)Lcom/tencent/mm/storage/ah;
+    invoke-virtual {v1, v6}, Lcom/tencent/mm/storage/AIclz;->Dr(Ljava/lang/String;)Lcom/tencent/mm/storage/AHclz;
 
     move-result-object v1
 
     if-eqz v1, :cond_2
 
-    iget-object v1, v1, Lcom/tencent/mm/storage/ah;->name:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/storage/AHclz;->name:Ljava/lang/String;
 
     invoke-interface {v5, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_2
     move-object v1, p0
 
-    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/ui/chatting/AtSomeoneUI$a;-><init>(Landroid/content/Context;Lcom/tencent/mm/storage/k;Lcom/tencent/mm/storage/e;[Ljava/lang/String;Ljava/util/List;)V
+    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/ui/chatting/AtSomeoneUI$a;-><init>(Landroid/content/Context;Lcom/tencent/mm/storage/Kclz;Lcom/tencent/mm/storage/Eclz;[Ljava/lang/String;Ljava/util/List;)V
 
     iput-object v0, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneUI;->kap:Lcom/tencent/mm/ui/chatting/AtSomeoneUI$a;
 
@@ -329,21 +329,21 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneUI;->mTitle:Ljava/lang/String;
 
     .line 69
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ro()Lcom/tencent/mm/storage/f;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ro()Lcom/tencent/mm/storage/Fclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneUI;->aoH:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/f;->BM(Ljava/lang/String;)Lcom/tencent/mm/storage/e;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Fclz;->BM(Ljava/lang/String;)Lcom/tencent/mm/storage/Eclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneUI;->cOY:Lcom/tencent/mm/storage/e;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneUI;->cOY:Lcom/tencent/mm/storage/Eclz;
 
     .line 71
     invoke-virtual {p0}, Lcom/tencent/mm/ui/chatting/AtSomeoneUI;->Fi()V

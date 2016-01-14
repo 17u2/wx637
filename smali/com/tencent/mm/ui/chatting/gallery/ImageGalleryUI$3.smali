@@ -141,12 +141,12 @@
 
     move-result-object v1
 
-    invoke-virtual {v1, p1}, Lcom/tencent/mm/ui/chatting/gallery/b;->qy(I)Lcom/tencent/mm/storage/ad;
+    invoke-virtual {v1, p1}, Lcom/tencent/mm/ui/chatting/gallery/b;->qy(I)Lcom/tencent/mm/storage/ADclz;
 
     move-result-object v1
 
     .line 791
-    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/gallery/b;->ah(Lcom/tencent/mm/storage/ad;)Z
+    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/gallery/b;->ah(Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v2
 
@@ -188,12 +188,12 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, v1, v6}, Lcom/tencent/mm/ui/chatting/gallery/b;->a(Lcom/tencent/mm/storage/ad;Z)Lcom/tencent/mm/z/d;
+    invoke-virtual {v0, v1, v6}, Lcom/tencent/mm/ui/chatting/gallery/b;->a(Lcom/tencent/mm/storage/ADclz;Z)Lcom/tencent/mm/z/d;
 
     move-result-object v0
 
     .line 797
-    invoke-static {v1, v0}, Lcom/tencent/mm/ui/chatting/gallery/b;->a(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/z/d;)Z
+    invoke-static {v1, v0}, Lcom/tencent/mm/ui/chatting/gallery/b;->a(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/z/d;)Z
 
     move-result v2
 
@@ -303,7 +303,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/chatting/gallery/b;->ak(Lcom/tencent/mm/storage/ad;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/chatting/gallery/b;->ak(Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v0
 
@@ -366,7 +366,7 @@
     :cond_9
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$3;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-virtual {v0, p1, v1}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(ILcom/tencent/mm/storage/ad;)V
+    invoke-virtual {v0, p1, v1}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(ILcom/tencent/mm/storage/ADclz;)V
 
     goto :goto_2
 .end method

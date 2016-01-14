@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic fuX:Lcom/tencent/mm/storage/ad;
+.field final synthetic fuX:Lcom/tencent/mm/storage/ADclz;
 
 .field final synthetic kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -26,14 +26,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/modelsimple/w;)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/modelsimple/w;)V
     .locals 1
 
     .prologue
     .line 9893
     iput-object p1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$25;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$25;->fuX:Lcom/tencent/mm/storage/ad;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$25;->fuX:Lcom/tencent/mm/storage/ADclz;
 
     iput-object p3, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$25;->kjk:Lcom/tencent/mm/modelsimple/w;
 
@@ -66,7 +66,7 @@
 
     const/4 v3, 0x0
 
-    iget-object v4, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$25;->fuX:Lcom/tencent/mm/storage/ad;
+    iget-object v4, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$25;->fuX:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v4, v4, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
@@ -79,7 +79,7 @@
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 9896
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

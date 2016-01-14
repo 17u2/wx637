@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static a(Lcom/tencent/mm/storage/ad;Landroid/content/Context;)V
+.method public static a(Lcom/tencent/mm/storage/ADclz;Landroid/content/Context;)V
     .locals 2
 
     .prologue
@@ -37,11 +37,11 @@
 
     .line 158
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->isSDCardAvailable()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->isSDCardAvailable()Z
 
     move-result v0
 
@@ -73,27 +73,27 @@
 
     new-instance v1, Lcom/tencent/mm/ui/chatting/dq$5;
 
-    invoke-direct {v1, p0, p1}, Lcom/tencent/mm/ui/chatting/dq$5;-><init>(Lcom/tencent/mm/storage/ad;Landroid/content/Context;)V
+    invoke-direct {v1, p0, p1}, Lcom/tencent/mm/ui/chatting/dq$5;-><init>(Lcom/tencent/mm/storage/ADclz;Landroid/content/Context;)V
 
     invoke-static {v0, p1, v1}, Lcom/tencent/mm/ui/chatting/dq;->a(Ljava/util/List;Landroid/content/Context;Lcom/tencent/mm/ui/base/m$d;)V
 
     goto :goto_0
 .end method
 
-.method public static a(Lcom/tencent/mm/storage/ad;Ljava/lang/String;Landroid/content/Context;)V
+.method public static a(Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;Landroid/content/Context;)V
     .locals 1
 
     .prologue
     .line 398
     const/16 v0, 0x200
 
-    invoke-static {p0, p1, p2, v0}, Lcom/tencent/mm/ui/chatting/dq;->a(Lcom/tencent/mm/storage/ad;Ljava/lang/String;Landroid/content/Context;I)V
+    invoke-static {p0, p1, p2, v0}, Lcom/tencent/mm/ui/chatting/dq;->a(Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;Landroid/content/Context;I)V
 
     .line 399
     return-void
 .end method
 
-.method private static a(Lcom/tencent/mm/storage/ad;Ljava/lang/String;Landroid/content/Context;I)V
+.method private static a(Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;Landroid/content/Context;I)V
     .locals 2
 
     .prologue
@@ -135,7 +135,7 @@
     :goto_1
     new-instance v1, Lcom/tencent/mm/ui/chatting/dq$10;
 
-    invoke-direct {v1, p0, p1, p3, p2}, Lcom/tencent/mm/ui/chatting/dq$10;-><init>(Lcom/tencent/mm/storage/ad;Ljava/lang/String;ILandroid/content/Context;)V
+    invoke-direct {v1, p0, p1, p3, p2}, Lcom/tencent/mm/ui/chatting/dq$10;-><init>(Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;ILandroid/content/Context;)V
 
     invoke-static {v0, p2, v1}, Lcom/tencent/mm/ui/chatting/dq;->a(Ljava/util/List;Landroid/content/Context;Lcom/tencent/mm/ui/base/m$d;)V
 
@@ -247,7 +247,7 @@
     goto :goto_0
 .end method
 
-.method public static b(Lcom/tencent/mm/storage/ad;Landroid/content/Context;)V
+.method public static b(Lcom/tencent/mm/storage/ADclz;Landroid/content/Context;)V
     .locals 2
 
     .prologue
@@ -280,11 +280,11 @@
 
     .line 247
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->isSDCardAvailable()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->isSDCardAvailable()Z
 
     move-result v0
 
@@ -316,27 +316,27 @@
 
     new-instance v1, Lcom/tencent/mm/ui/chatting/dq$6;
 
-    invoke-direct {v1, p0, p1}, Lcom/tencent/mm/ui/chatting/dq$6;-><init>(Lcom/tencent/mm/storage/ad;Landroid/content/Context;)V
+    invoke-direct {v1, p0, p1}, Lcom/tencent/mm/ui/chatting/dq$6;-><init>(Lcom/tencent/mm/storage/ADclz;Landroid/content/Context;)V
 
     invoke-static {v0, p1, v1}, Lcom/tencent/mm/ui/chatting/dq;->a(Ljava/util/List;Landroid/content/Context;Lcom/tencent/mm/ui/base/m$d;)V
 
     goto :goto_0
 .end method
 
-.method public static b(Lcom/tencent/mm/storage/ad;Ljava/lang/String;Landroid/content/Context;)V
+.method public static b(Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;Landroid/content/Context;)V
     .locals 1
 
     .prologue
     .line 402
     const/16 v0, 0x100
 
-    invoke-static {p0, p1, p2, v0}, Lcom/tencent/mm/ui/chatting/dq;->a(Lcom/tencent/mm/storage/ad;Ljava/lang/String;Landroid/content/Context;I)V
+    invoke-static {p0, p1, p2, v0}, Lcom/tencent/mm/ui/chatting/dq;->a(Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;Landroid/content/Context;I)V
 
     .line 403
     return-void
 .end method
 
-.method public static c(Lcom/tencent/mm/storage/ad;Landroid/content/Context;)V
+.method public static c(Lcom/tencent/mm/storage/ADclz;Landroid/content/Context;)V
     .locals 2
 
     .prologue
@@ -369,11 +369,11 @@
 
     .line 357
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->isSDCardAvailable()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->isSDCardAvailable()Z
 
     move-result v0
 
@@ -405,21 +405,21 @@
 
     new-instance v1, Lcom/tencent/mm/ui/chatting/dq$9;
 
-    invoke-direct {v1, p0, p1}, Lcom/tencent/mm/ui/chatting/dq$9;-><init>(Lcom/tencent/mm/storage/ad;Landroid/content/Context;)V
+    invoke-direct {v1, p0, p1}, Lcom/tencent/mm/ui/chatting/dq$9;-><init>(Lcom/tencent/mm/storage/ADclz;Landroid/content/Context;)V
 
     invoke-static {v0, p1, v1}, Lcom/tencent/mm/ui/chatting/dq;->a(Ljava/util/List;Landroid/content/Context;Lcom/tencent/mm/ui/base/m$d;)V
 
     goto :goto_0
 .end method
 
-.method public static c(Lcom/tencent/mm/storage/ad;Ljava/lang/String;Landroid/content/Context;)V
+.method public static c(Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;Landroid/content/Context;)V
     .locals 1
 
     .prologue
     .line 406
     const/16 v0, 0x80
 
-    invoke-static {p0, p1, p2, v0}, Lcom/tencent/mm/ui/chatting/dq;->a(Lcom/tencent/mm/storage/ad;Ljava/lang/String;Landroid/content/Context;I)V
+    invoke-static {p0, p1, p2, v0}, Lcom/tencent/mm/ui/chatting/dq;->a(Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;Landroid/content/Context;I)V
 
     .line 407
     return-void

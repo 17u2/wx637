@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/chatting/am;->a(Landroid/view/MenuItem;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;)Z
+    value = Lcom/tencent/mm/ui/chatting/am;->a(Landroid/view/MenuItem;Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -119,7 +119,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 164
-    invoke-static {}, Lcom/tencent/mm/model/h;->se()Z
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->se()Z
 
     move-result v1
 

@@ -110,7 +110,7 @@
 
     const/4 v4, 0x2
 
-    sget v5, Lcom/tencent/mm/storage/i;->jkT:I
+    sget v5, Lcom/tencent/mm/storage/Iclz;->jkT:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -277,14 +277,14 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p1, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v0, p1, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/Kclz;
 
     if-eqz v0, :cond_0
 
     .line 243
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/SnsAddressUI;->cRH:Ljava/util/HashSet;
 
-    iget-object v1, p1, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v1, p1, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -675,7 +675,7 @@
 
     .line 125
     :cond_1
-    iget-object v2, v1, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v2, v1, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/Kclz;
 
     if-eqz v2, :cond_0
 
@@ -686,7 +686,7 @@
 
     new-array v4, v7, [Ljava/lang/Object;
 
-    iget-object v5, v1, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v5, v1, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v5, v5, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -695,7 +695,7 @@
     invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 130
-    iget-object v1, v1, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v1, v1, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
@@ -738,7 +738,7 @@
 
     move-result v2
 
-    sget v3, Lcom/tencent/mm/storage/i;->jkT:I
+    sget v3, Lcom/tencent/mm/storage/Iclz;->jkT:I
 
     if-ge v2, v3, :cond_3
 
@@ -771,7 +771,7 @@
 
     new-array v3, v7, [Ljava/lang/Object;
 
-    sget v4, Lcom/tencent/mm/storage/i;->jkT:I
+    sget v4, Lcom/tencent/mm/storage/Iclz;->jkT:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

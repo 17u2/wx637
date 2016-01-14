@@ -53,7 +53,7 @@
     return-void
 .end method
 
-.method private static ag(Lcom/tencent/mm/storage/ad;)V
+.method private static ag(Lcom/tencent/mm/storage/ADclz;)V
     .locals 8
 
     .prologue
@@ -122,7 +122,7 @@
 
     move-result-object v1
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 
@@ -213,7 +213,7 @@
     .line 49
     iget-object v0, p1, Lcom/tencent/mm/d/a/ih;->aDr:Lcom/tencent/mm/d/a/ih$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/ih$a;->aDt:Lcom/tencent/mm/storage/ad;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/ih$a;->aDt:Lcom/tencent/mm/storage/ADclz;
 
     .line 50
     if-eqz v0, :cond_0
@@ -228,7 +228,7 @@
     :cond_0
     iget-object v0, p1, Lcom/tencent/mm/d/a/ih;->aDr:Lcom/tencent/mm/d/a/ih$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/ih$a;->aDt:Lcom/tencent/mm/storage/ad;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/ih$a;->aDt:Lcom/tencent/mm/storage/ADclz;
 
     move-object v3, v0
 
@@ -337,7 +337,7 @@
     invoke-static {v0, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 69
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -346,7 +346,7 @@
     invoke-virtual {v0, v7}, Lcom/tencent/mm/q/Lclz;->cancel(I)V
 
     .line 70
-    invoke-static {v3}, Lcom/tencent/mm/ui/chatting/gallery/d;->ap(Lcom/tencent/mm/storage/ad;)Lcom/tencent/mm/z/d;
+    invoke-static {v3}, Lcom/tencent/mm/ui/chatting/gallery/d;->ap(Lcom/tencent/mm/storage/ADclz;)Lcom/tencent/mm/z/d;
 
     move-result-object v0
 
@@ -459,7 +459,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v8
 
@@ -499,7 +499,7 @@
 
     .line 97
     :pswitch_1
-    invoke-static {v3}, Lcom/tencent/mm/ui/chatting/dp;->ag(Lcom/tencent/mm/storage/ad;)V
+    invoke-static {v3}, Lcom/tencent/mm/ui/chatting/dp;->ag(Lcom/tencent/mm/storage/ADclz;)V
 
     .line 99
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/dp;->asr:Landroid/app/Activity;
@@ -518,7 +518,7 @@
 
     if-eqz v4, :cond_6
 
-    invoke-static {v3}, Lcom/tencent/mm/ui/chatting/gallery/b;->ai(Lcom/tencent/mm/storage/ad;)Z
+    invoke-static {v3}, Lcom/tencent/mm/ui/chatting/gallery/b;->ai(Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v4
 
@@ -528,7 +528,7 @@
 
     iget-object v5, v0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->kmJ:Lcom/tencent/mm/ui/chatting/gallery/b;
 
-    invoke-virtual {v5}, Lcom/tencent/mm/ui/chatting/gallery/b;->aZx()Lcom/tencent/mm/storage/ad;
+    invoke-virtual {v5}, Lcom/tencent/mm/ui/chatting/gallery/b;->aZx()Lcom/tencent/mm/storage/ADclz;
 
     move-result-object v5
 
@@ -594,7 +594,7 @@
 
     .line 112
     :pswitch_2
-    invoke-static {v3}, Lcom/tencent/mm/ui/chatting/dp;->ag(Lcom/tencent/mm/storage/ad;)V
+    invoke-static {v3}, Lcom/tencent/mm/ui/chatting/dp;->ag(Lcom/tencent/mm/storage/ADclz;)V
 
     goto/16 :goto_1
 

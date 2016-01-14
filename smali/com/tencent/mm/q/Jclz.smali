@@ -16,7 +16,7 @@
 # instance fields
 .field public aiD:I
 
-.field public bya:Lcom/tencent/mm/network/e;
+.field public bya:Lcom/tencent/mm/network/Eclz;
 
 .field public byb:J
 
@@ -30,7 +30,7 @@
 
 .field public byg:Z
 
-.field private byh:Lcom/tencent/mm/network/o;
+.field private byh:Lcom/tencent/mm/network/Oclz;
 
 .field priority:I
 
@@ -81,7 +81,7 @@
 
 
 # virtual methods
-.method public a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;)I
+.method public a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/network/Oclz;Lcom/tencent/mm/network/Jclz;)I
     .locals 9
 
     .prologue
@@ -92,10 +92,10 @@
     const/4 v7, 0x0
 
     .line 166
-    invoke-virtual {p0, p1}, Lcom/tencent/mm/q/Jclz;->c(Lcom/tencent/mm/network/e;)V
+    invoke-virtual {p0, p1}, Lcom/tencent/mm/q/Jclz;->c(Lcom/tencent/mm/network/Eclz;)V
 
     .line 167
-    iput-object p2, p0, Lcom/tencent/mm/q/Jclz;->byh:Lcom/tencent/mm/network/o;
+    iput-object p2, p0, Lcom/tencent/mm/q/Jclz;->byh:Lcom/tencent/mm/network/Oclz;
 
     .line 169
     iget v0, p0, Lcom/tencent/mm/q/Jclz;->aiD:I
@@ -143,7 +143,7 @@
     .line 176
     sget-object v0, Lcom/tencent/mm/q/Jclz$2;->byl:[I
 
-    invoke-virtual {p0, p2}, Lcom/tencent/mm/q/Jclz;->a(Lcom/tencent/mm/network/o;)I
+    invoke-virtual {p0, p2}, Lcom/tencent/mm/q/Jclz;->a(Lcom/tencent/mm/network/Oclz;)I
 
     move-result v1
 
@@ -214,7 +214,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-interface {p2}, Lcom/tencent/mm/network/o;->getType()I
+    invoke-interface {p2}, Lcom/tencent/mm/network/Oclz;->getType()I
 
     move-result v1
 
@@ -228,7 +228,7 @@
 
     move-result-object v0
 
-    invoke-interface {p2}, Lcom/tencent/mm/network/o;->getUri()Ljava/lang/String;
+    invoke-interface {p2}, Lcom/tencent/mm/network/Oclz;->getUri()Ljava/lang/String;
 
     move-result-object v1
 
@@ -260,7 +260,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-interface {p2}, Lcom/tencent/mm/network/o;->getType()I
+    invoke-interface {p2}, Lcom/tencent/mm/network/Oclz;->getType()I
 
     move-result v2
 
@@ -274,7 +274,7 @@
 
     move-result-object v1
 
-    invoke-interface {p2}, Lcom/tencent/mm/network/o;->getUri()Ljava/lang/String;
+    invoke-interface {p2}, Lcom/tencent/mm/network/Oclz;->getUri()Ljava/lang/String;
 
     move-result-object v2
 
@@ -319,7 +319,7 @@
     .line 206
     new-instance v6, Lcom/tencent/mm/q/qclass;
 
-    invoke-direct {v6, p2}, Lcom/tencent/mm/q/qclass;-><init>(Lcom/tencent/mm/network/o;)V
+    invoke-direct {v6, p2}, Lcom/tencent/mm/q/qclass;-><init>(Lcom/tencent/mm/network/Oclz;)V
 
     .line 207
     iget-object v0, p0, Lcom/tencent/mm/q/Jclz;->bye:Lcom/tencent/mm/q/Oclz;
@@ -345,14 +345,14 @@
 
     move-object v5, p1
 
-    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/q/Oclz;-><init>(Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;Lcom/tencent/mm/q/Jclz;Lcom/tencent/mm/q/Dclz;Lcom/tencent/mm/network/e;)V
+    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/q/Oclz;-><init>(Lcom/tencent/mm/network/Oclz;Lcom/tencent/mm/network/Jclz;Lcom/tencent/mm/q/Jclz;Lcom/tencent/mm/q/Dclz;Lcom/tencent/mm/network/Eclz;)V
 
     iput-object v0, p0, Lcom/tencent/mm/q/Jclz;->bye:Lcom/tencent/mm/q/Oclz;
 
     .line 212
     iget-object v0, p0, Lcom/tencent/mm/q/Jclz;->bye:Lcom/tencent/mm/q/Oclz;
 
-    invoke-interface {p1, v6, v0}, Lcom/tencent/mm/network/e;->a(Lcom/tencent/mm/network/p;Lcom/tencent/mm/network/k;)I
+    invoke-interface {p1, v6, v0}, Lcom/tencent/mm/network/Eclz;->a(Lcom/tencent/mm/network/Pclz;Lcom/tencent/mm/network/Kclz;)I
 
     move-result v0
 
@@ -387,7 +387,7 @@
 
     new-instance v1, Lcom/tencent/mm/q/Jclz$1;
 
-    invoke-direct {v1, p0, p3, p2}, Lcom/tencent/mm/q/Jclz$1;-><init>(Lcom/tencent/mm/q/Jclz;Lcom/tencent/mm/network/j;Lcom/tencent/mm/network/o;)V
+    invoke-direct {v1, p0, p3, p2}, Lcom/tencent/mm/q/Jclz$1;-><init>(Lcom/tencent/mm/q/Jclz;Lcom/tencent/mm/network/Jclz;Lcom/tencent/mm/network/Oclz;)V
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
 
@@ -422,10 +422,10 @@
     .end packed-switch
 .end method
 
-.method public abstract a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+.method public abstract a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
 .end method
 
-.method public a(Lcom/tencent/mm/network/o;)I
+.method public a(Lcom/tencent/mm/network/Oclz;)I
     .locals 1
 
     .prologue
@@ -463,7 +463,7 @@
     return v0
 .end method
 
-.method public final c(Lcom/tencent/mm/network/e;)V
+.method public final c(Lcom/tencent/mm/network/Eclz;)V
     .locals 2
 
     .prologue
@@ -475,7 +475,7 @@
     iput-wide v0, p0, Lcom/tencent/mm/q/Jclz;->byb:J
 
     .line 142
-    iput-object p1, p0, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/e;
+    iput-object p1, p0, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/Eclz;
 
     .line 143
     return-void
@@ -527,7 +527,7 @@
 
     if-eq v0, v5, :cond_1
 
-    iget-object v0, p0, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/e;
+    iget-object v0, p0, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/Eclz;
 
     if-eqz v0, :cond_1
 
@@ -538,9 +538,9 @@
     iput v5, p0, Lcom/tencent/mm/q/Jclz;->byc:I
 
     .line 271
-    iget-object v1, p0, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/e;
+    iget-object v1, p0, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/Eclz;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/network/e;->cancel(I)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/network/Eclz;->cancel(I)V
 
     .line 273
     :cond_1
@@ -612,12 +612,12 @@
     goto :goto_0
 .end method
 
-.method public vr()Lcom/tencent/mm/network/o;
+.method public vr()Lcom/tencent/mm/network/Oclz;
     .locals 1
 
     .prologue
     .line 252
-    iget-object v0, p0, Lcom/tencent/mm/q/Jclz;->byh:Lcom/tencent/mm/network/o;
+    iget-object v0, p0, Lcom/tencent/mm/q/Jclz;->byh:Lcom/tencent/mm/network/Oclz;
 
     return-object v0
 .end method
@@ -627,7 +627,7 @@
 
     .prologue
     .line 256
-    iget-object v0, p0, Lcom/tencent/mm/q/Jclz;->byh:Lcom/tencent/mm/network/o;
+    iget-object v0, p0, Lcom/tencent/mm/q/Jclz;->byh:Lcom/tencent/mm/network/Oclz;
 
     if-nez v0, :cond_0
 
@@ -637,7 +637,7 @@
     return v0
 
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Jclz;->byh:Lcom/tencent/mm/network/o;
+    iget-object v0, p0, Lcom/tencent/mm/q/Jclz;->byh:Lcom/tencent/mm/network/Oclz;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
 

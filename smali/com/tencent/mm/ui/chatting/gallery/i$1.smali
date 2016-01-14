@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/chatting/gallery/i;->a(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/ak/m;)V
+    value = Lcom/tencent/mm/ui/chatting/gallery/i;->a(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/ak/m;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic bJG:Lcom/tencent/mm/storage/ad;
+.field final synthetic bJG:Lcom/tencent/mm/storage/ADclz;
 
 .field final synthetic kfq:Lcom/tencent/mm/ak/m;
 
@@ -26,14 +26,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/gallery/i;Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/ak/m;)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/gallery/i;Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/ak/m;)V
     .locals 1
 
     .prologue
     .line 244
     iput-object p1, p0, Lcom/tencent/mm/ui/chatting/gallery/i$1;->kpf:Lcom/tencent/mm/ui/chatting/gallery/i;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/gallery/i$1;->bJG:Lcom/tencent/mm/storage/ad;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/gallery/i$1;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iput-object p3, p0, Lcom/tencent/mm/ui/chatting/gallery/i$1;->kfq:Lcom/tencent/mm/ak/m;
 
@@ -63,11 +63,11 @@
     .line 249
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/i$1;->kpf:Lcom/tencent/mm/ui/chatting/gallery/i;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/gallery/i$1;->bJG:Lcom/tencent/mm/storage/ad;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/gallery/i$1;->bJG:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/gallery/i$1;->kfq:Lcom/tencent/mm/ak/m;
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/ui/chatting/gallery/i;->a(Lcom/tencent/mm/ui/chatting/gallery/i;Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/ak/m;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/ui/chatting/gallery/i;->a(Lcom/tencent/mm/ui/chatting/gallery/i;Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/ak/m;)V
 
     .line 250
     return-void

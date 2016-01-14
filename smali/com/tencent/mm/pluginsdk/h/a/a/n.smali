@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/network/j;
+.implements Lcom/tencent/mm/network/Jclz;
 
 
 # instance fields
@@ -71,7 +71,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+.method public final a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
     .locals 2
 
     .prologue
@@ -88,18 +88,18 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 44
-    invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/h/a/a/n;->aIW()Lcom/tencent/mm/network/o;
+    invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/h/a/a/n;->aIW()Lcom/tencent/mm/network/Oclz;
 
     move-result-object v0
 
-    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/pluginsdk/h/a/a/n;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;)I
+    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/pluginsdk/h/a/a/n;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/network/Oclz;Lcom/tencent/mm/network/Jclz;)I
 
     move-result v0
 
     return v0
 .end method
 
-.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/o;[B)V
+.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/Oclz;[B)V
     .locals 10
 
     .prologue
@@ -138,7 +138,7 @@
     if-nez p3, :cond_0
 
     .line 52
-    invoke-virtual {p0, p5}, Lcom/tencent/mm/pluginsdk/h/a/a/n;->d(Lcom/tencent/mm/network/o;)Lcom/tencent/mm/protocal/b/HMclz;
+    invoke-virtual {p0, p5}, Lcom/tencent/mm/pluginsdk/h/a/a/n;->d(Lcom/tencent/mm/network/Oclz;)Lcom/tencent/mm/protocal/b/HMclz;
 
     move-result-object v0
 
@@ -467,10 +467,10 @@
     goto/16 :goto_1
 .end method
 
-.method protected abstract aIW()Lcom/tencent/mm/network/o;
+.method protected abstract aIW()Lcom/tencent/mm/network/Oclz;
 .end method
 
-.method protected abstract d(Lcom/tencent/mm/network/o;)Lcom/tencent/mm/protocal/b/HMclz;
+.method protected abstract d(Lcom/tencent/mm/network/Oclz;)Lcom/tencent/mm/protocal/b/HMclz;
 .end method
 
 .method protected abstract getTag()Ljava/lang/String;

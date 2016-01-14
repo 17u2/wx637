@@ -118,7 +118,7 @@
     const/4 v1, 0x0
 
     .line 61
-    sget-object v2, Lcom/tencent/mm/model/i;->bsR:[Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/model/Iclz;->bsR:[Ljava/lang/String;
 
     .line 62
     iget v0, p0, Lcom/tencent/mm/ui/contact/ContactCountView;->krn:I
@@ -126,17 +126,17 @@
     if-ne v0, v10, :cond_3
 
     .line 63
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v3
 
     new-array v4, v12, [Ljava/lang/String;
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v0
 
@@ -316,7 +316,7 @@
 
     move-result-object v2
 
-    iget-object v0, v3, Lcom/tencent/mm/storage/q;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v0, v3, Lcom/tencent/mm/storage/Qclz;->aoD:Lcom/tencent/mm/sdk/g/d;
 
     const/4 v3, 0x0
 
@@ -424,17 +424,17 @@
 
     .line 65
     :cond_3
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v0
 
     new-array v3, v12, [Ljava/lang/String;
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v4
 
@@ -452,7 +452,7 @@
 
     aput-object v4, v3, v5
 
-    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/storage/q;->b([Ljava/lang/String;[Ljava/lang/String;)I
+    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/storage/Qclz;->b([Ljava/lang/String;[Ljava/lang/String;)I
 
     move-result v0
 

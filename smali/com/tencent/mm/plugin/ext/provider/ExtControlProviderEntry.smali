@@ -286,18 +286,18 @@
 
     .line 227
     :try_start_0
-    invoke-static {}, Lcom/tencent/mm/plugin/ext/b;->Tn()Lcom/tencent/mm/storage/an;
+    invoke-static {}, Lcom/tencent/mm/plugin/ext/b;->Tn()Lcom/tencent/mm/storage/ANclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v4}, Lcom/tencent/mm/storage/an;->Dx(Ljava/lang/String;)Lcom/tencent/mm/storage/am;
+    invoke-virtual {v0, v4}, Lcom/tencent/mm/storage/ANclz;->Dx(Ljava/lang/String;)Lcom/tencent/mm/storage/AMclz;
 
     move-result-object v0
 
     .line 228
     if-eqz v0, :cond_4
 
-    iget-object v4, v0, Lcom/tencent/mm/storage/am;->field_openId:Ljava/lang/String;
+    iget-object v4, v0, Lcom/tencent/mm/storage/AMclz;->field_openId:Ljava/lang/String;
 
     invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -305,7 +305,7 @@
 
     if-nez v4, :cond_4
 
-    iget-object v4, v0, Lcom/tencent/mm/storage/am;->field_username:Ljava/lang/String;
+    iget-object v4, v0, Lcom/tencent/mm/storage/AMclz;->field_username:Ljava/lang/String;
 
     invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -339,17 +339,17 @@
 
     .line 233
     :cond_6
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v4}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v4
 
-    iget-object v0, v0, Lcom/tencent/mm/storage/am;->field_username:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/storage/AMclz;->field_username:Ljava/lang/String;
 
-    invoke-virtual {v4, v0}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v4, v0}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -381,11 +381,11 @@
     .line 235
     :cond_8
     :try_start_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v0
 
@@ -393,7 +393,7 @@
 
     move-result-wide v4
 
-    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/storage/q;->dj(J)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v0, v4, v5}, Lcom/tencent/mm/storage/Qclz;->dj(J)Lcom/tencent/mm/storage/Kclz;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -553,11 +553,11 @@
     .line 182
     :cond_3
     :try_start_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v2}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v2
 
@@ -565,7 +565,7 @@
 
     move-result-wide v3
 
-    invoke-virtual {v2, v3, v4}, Lcom/tencent/mm/storage/q;->dj(J)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v2, v3, v4}, Lcom/tencent/mm/storage/Qclz;->dj(J)Lcom/tencent/mm/storage/Kclz;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

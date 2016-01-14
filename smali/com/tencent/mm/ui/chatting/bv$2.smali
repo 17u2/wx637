@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/chatting/bv;->a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;Ljava/lang/String;)V
+    value = Lcom/tencent/mm/ui/chatting/bv;->a(Lcom/tencent/mm/ui/chatting/y$a;ILcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
 # instance fields
 .field final synthetic bDj:Ljava/lang/String;
 
-.field final synthetic kef:Lcom/tencent/mm/storage/ad;
+.field final synthetic kef:Lcom/tencent/mm/storage/ADclz;
 
 .field final synthetic keg:I
 
@@ -28,14 +28,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/bv;Lcom/tencent/mm/storage/ad;Ljava/lang/String;I)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/bv;Lcom/tencent/mm/storage/ADclz;Ljava/lang/String;I)V
     .locals 1
 
     .prologue
     .line 165
     iput-object p1, p0, Lcom/tencent/mm/ui/chatting/bv$2;->keh:Lcom/tencent/mm/ui/chatting/bv;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/bv$2;->kef:Lcom/tencent/mm/storage/ad;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/bv$2;->kef:Lcom/tencent/mm/storage/ADclz;
 
     iput-object p3, p0, Lcom/tencent/mm/ui/chatting/bv$2;->bDj:Ljava/lang/String;
 
@@ -103,7 +103,7 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 171
-    invoke-static {}, Lcom/tencent/mm/model/ah;->sU()Lcom/tencent/mm/model/ba;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->sU()Lcom/tencent/mm/model/BAclz;
 
     move-result-object v0
 
@@ -113,13 +113,13 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/ba;->fk(Ljava/lang/String;)Lcom/tencent/mm/model/ae;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/BAclz;->fk(Ljava/lang/String;)Lcom/tencent/mm/model/AEclz;
 
     move-result-object v0
 
     check-cast v0, Lcom/tencent/mm/app/plugin/voicereminder/a/d;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/bv$2;->kef:Lcom/tencent/mm/storage/ad;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/bv$2;->kef:Lcom/tencent/mm/storage/ADclz;
 
     iget-wide v1, v1, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
@@ -149,23 +149,23 @@
     if-eqz v0, :cond_0
 
     .line 173
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/bv$2;->kef:Lcom/tencent/mm/storage/ad;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/bv$2;->kef:Lcom/tencent/mm/storage/ADclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/storage/ad;->B(Lcom/tencent/mm/storage/ad;)Lcom/tencent/mm/storage/ad;
+    invoke-static {v0}, Lcom/tencent/mm/storage/ADclz;->B(Lcom/tencent/mm/storage/ADclz;)Lcom/tencent/mm/storage/ADclz;
 
     move-result-object v0
 
     .line 174
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/bv$2;->kef:Lcom/tencent/mm/storage/ad;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/bv$2;->kef:Lcom/tencent/mm/storage/ADclz;
 
     iget-object v1, v1, Lcom/tencent/mm/d/b/ba;->field_reserved:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/ad;->cj(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/ADclz;->cj(Ljava/lang/String;)V
 
     .line 175
     const-wide/16 v1, -0x1
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/ad;->s(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/ADclz;->s(J)V
 
     .line 176
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/bv$2;->keh:Lcom/tencent/mm/ui/chatting/bv;
@@ -178,11 +178,11 @@
 
     iget v2, p0, Lcom/tencent/mm/ui/chatting/bv$2;->keg:I
 
-    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/ui/chatting/k;->c(ILcom/tencent/mm/storage/ad;)V
+    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/ui/chatting/k;->c(ILcom/tencent/mm/storage/ADclz;)V
 
     .line 178
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

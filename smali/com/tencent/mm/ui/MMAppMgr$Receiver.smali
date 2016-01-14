@@ -120,7 +120,7 @@
 
     .line 122
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->sZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->sZ()Z
 
     move-result v0
 
@@ -427,7 +427,7 @@
     invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 181
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v1
 
@@ -472,7 +472,7 @@
     move-result v4
 
     .line 208
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v5
 
@@ -557,7 +557,7 @@
     invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 188
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v1
 

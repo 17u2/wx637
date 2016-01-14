@@ -92,7 +92,7 @@
 
     .prologue
     .line 62
-    invoke-static {}, Lcom/tencent/mm/model/h;->rR()I
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rR()I
 
     move-result v0
 

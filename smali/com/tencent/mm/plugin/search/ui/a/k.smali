@@ -21,7 +21,7 @@
 
 .field public cFk:Ljava/lang/CharSequence;
 
-.field public czx:Lcom/tencent/mm/storage/k;
+.field public czx:Lcom/tencent/mm/storage/Kclz;
 
 .field private fLA:Lcom/tencent/mm/plugin/search/ui/a/k$b;
 
@@ -199,15 +199,15 @@
     aget-object v9, p3, v8
 
     .line 243
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v13
 
-    invoke-virtual {v13}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v13}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v13
 
-    invoke-virtual {v13, v9}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v13, v9}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v13
 
@@ -226,7 +226,7 @@
     iget-object v14, v13, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
     .line 250
-    invoke-static {v13, v14}, Lcom/tencent/mm/model/i;->a(Lcom/tencent/mm/storage/k;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v13, v14}, Lcom/tencent/mm/model/Iclz;->a(Lcom/tencent/mm/storage/Kclz;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v9
 
@@ -319,7 +319,7 @@
 
     .line 258
     :pswitch_0
-    invoke-virtual {v13}, Lcom/tencent/mm/storage/k;->mi()Ljava/lang/String;
+    invoke-virtual {v13}, Lcom/tencent/mm/storage/Kclz;->mi()Ljava/lang/String;
 
     move-result-object v2
 
@@ -804,21 +804,21 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/k;->username:Ljava/lang/String;
 
     .line 124
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->ri()Lcom/tencent/mm/storage/q;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->ri()Lcom/tencent/mm/storage/Qclz;
 
     move-result-object v0
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/k;->username:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/k;->czx:Lcom/tencent/mm/storage/k;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/k;->czx:Lcom/tencent/mm/storage/Kclz;
 
     .line 125
     iget-object v4, p0, Lcom/tencent/mm/plugin/search/ui/a/k;->cEm:Ljava/util/List;
@@ -831,21 +831,21 @@
 
     move-result-object v8
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/k;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/k;->czx:Lcom/tencent/mm/storage/Kclz;
 
     iget-object v0, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    invoke-static {v2, v0}, Lcom/tencent/mm/model/i;->a(Lcom/tencent/mm/storage/k;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v0}, Lcom/tencent/mm/model/Iclz;->a(Lcom/tencent/mm/storage/Kclz;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v9
 
     const-string/jumbo v0, "SELECT memberlist FROM chatroom WHERE chatroomname=?;"
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v3
 
-    iget-object v3, v3, Lcom/tencent/mm/model/c;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v3, v3, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
 
     new-array v10, v6, [Ljava/lang/String;
 

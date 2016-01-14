@@ -523,7 +523,7 @@
     return-void
 .end method
 
-.method public final a(Lcom/tencent/mm/protocal/b/AFclz;Lcom/tencent/mm/storage/ad$e;)V
+.method public final a(Lcom/tencent/mm/protocal/b/AFclz;Lcom/tencent/mm/storage/ADclz$e;)V
     .locals 5
 
     .prologue
@@ -589,17 +589,17 @@
     iput-object v0, v2, Lcom/tencent/mm/aj/h;->field_imgpath:Ljava/lang/String;
 
     .line 142
-    iget-object v0, p2, Lcom/tencent/mm/storage/ad$e;->content:Ljava/lang/String;
+    iget-object v0, p2, Lcom/tencent/mm/storage/ADclz$e;->content:Ljava/lang/String;
 
     iput-object v0, v2, Lcom/tencent/mm/aj/h;->field_sayhicontent:Ljava/lang/String;
 
     .line 143
-    iget-object v0, p2, Lcom/tencent/mm/storage/ad$e;->gGy:Ljava/lang/String;
+    iget-object v0, p2, Lcom/tencent/mm/storage/ADclz$e;->gGy:Ljava/lang/String;
 
     iput-object v0, v2, Lcom/tencent/mm/aj/h;->field_sayhiuser:Ljava/lang/String;
 
     .line 144
-    iget v0, p2, Lcom/tencent/mm/storage/ad$e;->arG:I
+    iget v0, p2, Lcom/tencent/mm/storage/ADclz$e;->arG:I
 
     iput v0, v2, Lcom/tencent/mm/aj/h;->field_scene:I
 
@@ -638,12 +638,12 @@
     iput v0, v2, Lcom/tencent/mm/aj/h;->field_isSend:I
 
     .line 150
-    iget-object v0, p2, Lcom/tencent/mm/storage/ad$e;->joT:Ljava/lang/String;
+    iget-object v0, p2, Lcom/tencent/mm/storage/ADclz$e;->joT:Ljava/lang/String;
 
     iput-object v0, v2, Lcom/tencent/mm/aj/h;->field_sayhiencryptuser:Ljava/lang/String;
 
     .line 151
-    iget-object v0, p2, Lcom/tencent/mm/storage/ad$e;->eYT:Ljava/lang/String;
+    iget-object v0, p2, Lcom/tencent/mm/storage/ADclz$e;->eYT:Ljava/lang/String;
 
     iput-object v0, v2, Lcom/tencent/mm/aj/h;->field_ticket:Ljava/lang/String;
 

@@ -19,7 +19,7 @@
 
 .field private jJD:Z
 
-.field private kaS:Lcom/tencent/mm/storage/k;
+.field private kaS:Lcom/tencent/mm/storage/Kclz;
 
 .field kbD:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -66,7 +66,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/ui/chatting/ChattingFooterMoreBtnBar;Lcom/tencent/mm/ui/chatting/cj;Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;Lcom/tencent/mm/ui/chatting/ChatFooterCustom;Lcom/tencent/mm/storage/k;Z)V
+.method public constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/ui/chatting/ChattingFooterMoreBtnBar;Lcom/tencent/mm/ui/chatting/cj;Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;Lcom/tencent/mm/ui/chatting/ChatFooterCustom;Lcom/tencent/mm/storage/Kclz;Z)V
     .locals 5
 
     .prologue
@@ -102,7 +102,7 @@
     iput-object p3, p0, Lcom/tencent/mm/ui/chatting/cn;->kbE:Lcom/tencent/mm/ui/chatting/cj;
 
     .line 80
-    invoke-virtual {p0, p6, p7}, Lcom/tencent/mm/ui/chatting/cn;->c(Lcom/tencent/mm/storage/k;Z)V
+    invoke-virtual {p0, p6, p7}, Lcom/tencent/mm/ui/chatting/cn;->c(Lcom/tencent/mm/storage/Kclz;Z)V
 
     .line 84
     iget-object v0, p1, Lcom/tencent/mm/ui/n;->jxX:Lcom/tencent/mm/ui/j;
@@ -340,15 +340,15 @@
 
     invoke-static {v0, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rk()Lcom/tencent/mm/storage/ae;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rk()Lcom/tencent/mm/storage/AEclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v3, v4}, Lcom/tencent/mm/storage/ae;->dn(J)Lcom/tencent/mm/storage/ad;
+    invoke-virtual {v0, v3, v4}, Lcom/tencent/mm/storage/AEclz;->dn(J)Lcom/tencent/mm/storage/ADclz;
 
     move-result-object v0
 
@@ -370,12 +370,12 @@
     return v0
 .end method
 
-.method static synthetic g(Lcom/tencent/mm/ui/chatting/cn;)Lcom/tencent/mm/storage/k;
+.method static synthetic g(Lcom/tencent/mm/ui/chatting/cn;)Lcom/tencent/mm/storage/Kclz;
     .locals 1
 
     .prologue
     .line 43
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/cn;->kaS:Lcom/tencent/mm/storage/k;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/cn;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     return-object v0
 .end method
@@ -545,12 +545,12 @@
     return v0
 .end method
 
-.method public final c(Lcom/tencent/mm/storage/k;Z)V
+.method public final c(Lcom/tencent/mm/storage/Kclz;Z)V
     .locals 0
 
     .prologue
     .line 89
-    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/cn;->kaS:Lcom/tencent/mm/storage/k;
+    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/cn;->kaS:Lcom/tencent/mm/storage/Kclz;
 
     .line 90
     iput-boolean p2, p0, Lcom/tencent/mm/ui/chatting/cn;->jJD:Z

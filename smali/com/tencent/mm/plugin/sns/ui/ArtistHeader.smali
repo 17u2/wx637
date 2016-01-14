@@ -403,9 +403,9 @@
 
     move-result v3
 
-    sget-object v4, Lcom/tencent/mm/storage/i$a;->jlc:Lcom/tencent/mm/storage/i$a;
+    sget-object v4, Lcom/tencent/mm/storage/Iclz$a;->jlc:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/tencent/mm/plugin/sns/d/g;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/i$a;)V
+    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/tencent/mm/plugin/sns/d/g;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 121
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->gqk:Lcom/tencent/mm/plugin/sns/ui/ArtistHeader$b;

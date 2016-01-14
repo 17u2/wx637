@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/u/a;
-.super Lcom/tencent/mm/model/s;
+.super Lcom/tencent/mm/model/Sclz;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 20
-    invoke-direct {p0}, Lcom/tencent/mm/model/s;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/model/Sclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -86,11 +86,11 @@
     if-ge p1, v0, :cond_4
 
     .line 40
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/model/c;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v0, v0, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
 
     .line 41
     new-instance v1, Ljava/lang/StringBuilder;

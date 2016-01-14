@@ -33,7 +33,7 @@
     return-void
 .end method
 
-.method public static a(Lcom/tencent/mm/ui/chatting/dz;Lcom/tencent/mm/storage/ad;ZILcom/tencent/mm/ui/chatting/ChattingUI$a;)V
+.method public static a(Lcom/tencent/mm/ui/chatting/dz;Lcom/tencent/mm/storage/ADclz;ZILcom/tencent/mm/ui/chatting/ChattingUI$a;)V
     .locals 9
 
     .prologue
@@ -85,7 +85,7 @@
 
     move v6, v5
 
-    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ad;ZILjava/lang/String;IB)V
+    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/ui/chatting/dd;-><init>(Lcom/tencent/mm/storage/ADclz;ZILjava/lang/String;IB)V
 
     invoke-virtual {v8, v0}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
@@ -131,7 +131,7 @@
     .line 340
     iget-object v0, p1, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
 
-    sget-object v1, Lcom/tencent/mm/storage/ad;->joB:Ljava/lang/String;
+    sget-object v1, Lcom/tencent/mm/storage/ADclz;->joB:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -232,7 +232,7 @@
     :cond_9
     iget-object v0, p1, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
 
-    sget-object v1, Lcom/tencent/mm/storage/ad;->joC:Ljava/lang/String;
+    sget-object v1, Lcom/tencent/mm/storage/ADclz;->joC:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

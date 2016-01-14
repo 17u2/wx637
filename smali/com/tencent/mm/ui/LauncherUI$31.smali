@@ -48,18 +48,18 @@
 
     .prologue
     .line 4291
-    invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 4292
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/c;->rf()Lcom/tencent/mm/storage/h;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rf()Lcom/tencent/mm/storage/Hclz;
 
     move-result-object v0
 
@@ -69,7 +69,7 @@
     .line 4294
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/h;->ge(Z)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Hclz;->ge(Z)V
 
     .line 4297
     :cond_0

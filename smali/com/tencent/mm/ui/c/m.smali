@@ -267,7 +267,7 @@
 
     .line 86
     .line 89
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -276,7 +276,7 @@
     move-result v0
 
     .line 91
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v4
 
@@ -317,7 +317,7 @@
 
     aput-object v7, v6, v3
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v7
 
@@ -726,23 +726,23 @@
 
     .line 179
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget v0, v0, Lcom/tencent/mm/model/c;->bsx:I
+    iget v0, v0, Lcom/tencent/mm/model/Cclz;->bsx:I
 
-    invoke-static {v0}, Lcom/tencent/mm/model/c;->cw(I)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Cclz;->cw(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget v0, v0, Lcom/tencent/mm/model/c;->bsy:I
+    iget v0, v0, Lcom/tencent/mm/model/Cclz;->bsy:I
 
     invoke-static {v0}, Lcom/tencent/mm/modelsimple/r;->dP(I)Z
 
@@ -751,17 +751,17 @@
     if-eqz v0, :cond_3
 
     .line 180
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     new-instance v5, Lcom/tencent/mm/modelsimple/r;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v6
 
-    iget v6, v6, Lcom/tencent/mm/model/c;->bsy:I
+    iget v6, v6, Lcom/tencent/mm/model/Cclz;->bsy:I
 
     invoke-direct {v5, v6}, Lcom/tencent/mm/modelsimple/r;-><init>(I)V
 
@@ -771,13 +771,13 @@
 
     .line 182
     :cond_3
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    iget v0, v0, Lcom/tencent/mm/model/c;->bsx:I
+    iget v0, v0, Lcom/tencent/mm/model/Cclz;->bsx:I
 
-    invoke-static {v0}, Lcom/tencent/mm/model/c;->cw(I)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Cclz;->cw(I)Z
 
     move-result v0
 
@@ -881,11 +881,11 @@
     .line 209
     iget-object v4, p0, Lcom/tencent/mm/ui/c/m;->jKf:Landroid/widget/ImageView;
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rX()I
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rX()I
 
     move-result v0
 
-    invoke-static {v0}, Lcom/tencent/mm/model/h;->cx(I)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Hclz;->cx(I)Z
 
     move-result v0
 
@@ -899,11 +899,11 @@
     .line 210
     iget-object v4, p0, Lcom/tencent/mm/ui/c/m;->jKc:Landroid/widget/TextView;
 
-    invoke-static {}, Lcom/tencent/mm/model/h;->rX()I
+    invoke-static {}, Lcom/tencent/mm/model/Hclz;->rX()I
 
     move-result v0
 
-    invoke-static {v0}, Lcom/tencent/mm/model/h;->cx(I)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Hclz;->cx(I)Z
 
     move-result v0
 

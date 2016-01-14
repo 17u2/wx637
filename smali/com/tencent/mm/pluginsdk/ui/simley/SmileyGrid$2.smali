@@ -62,7 +62,7 @@
     .line 158
     if-eqz v0, :cond_0
 
-    instance-of v1, v0, Lcom/tencent/mm/storage/a/c;
+    instance-of v1, v0, Lcom/tencent/mm/storage/a/Cclz;
 
     if-eqz v1, :cond_0
 
@@ -81,9 +81,9 @@
     .line 161
     iget-object v2, v1, Lcom/tencent/mm/d/a/ax;->atk:Lcom/tencent/mm/d/a/ax$a;
 
-    check-cast v0, Lcom/tencent/mm/storage/a/c;
+    check-cast v0, Lcom/tencent/mm/storage/a/Cclz;
 
-    iput-object v0, v2, Lcom/tencent/mm/d/a/ax$a;->atl:Lcom/tencent/mm/storage/a/c;
+    iput-object v0, v2, Lcom/tencent/mm/d/a/ax$a;->atl:Lcom/tencent/mm/storage/a/Cclz;
 
     .line 162
     iget-object v0, v1, Lcom/tencent/mm/d/a/ax;->atk:Lcom/tencent/mm/d/a/ax$a;

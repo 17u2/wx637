@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field aCM:Lcom/tencent/mm/storage/ad;
+.field aCM:Lcom/tencent/mm/storage/ADclz;
 
 .field ayJ:I
 
@@ -29,7 +29,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ad;ZLandroid/widget/ImageView;Lcom/tencent/mm/plugin/sight/decode/a/a;I)V
+.method public constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;ZLandroid/widget/ImageView;Lcom/tencent/mm/plugin/sight/decode/a/a;I)V
     .locals 1
 
     .prologue
@@ -40,7 +40,7 @@
     iput-object p1, p0, Lcom/tencent/mm/ui/chatting/dr$a;->kmg:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
     .line 325
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ad;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/dr$a;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     .line 326
     iput-boolean p3, p0, Lcom/tencent/mm/ui/chatting/dr$a;->kmh:Z

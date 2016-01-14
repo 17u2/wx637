@@ -58,7 +58,7 @@
     const/4 v5, 0x1
 
     .line 135
-    invoke-static {}, Lcom/tencent/mm/model/ao;->tM()Lcom/tencent/mm/model/ao;
+    invoke-static {}, Lcom/tencent/mm/model/AOclz;->tM()Lcom/tencent/mm/model/AOclz;
 
     move-result-object v0
 
@@ -66,7 +66,7 @@
 
     iget v2, p0, Lcom/tencent/mm/ui/c/j$1;->jJK:I
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/model/ao;->K(II)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/model/AOclz;->K(II)V
 
     .line 136
     iget-object v0, p0, Lcom/tencent/mm/ui/c/j$1;->jJL:Lcom/tencent/mm/ui/c/j;

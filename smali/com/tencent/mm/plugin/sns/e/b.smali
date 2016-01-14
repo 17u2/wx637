@@ -157,15 +157,15 @@
 
     const-string/jumbo v2, "100007"
 
-    invoke-static {}, Lcom/tencent/mm/model/c/d;->uO()Lcom/tencent/mm/storage/b;
+    invoke-static {}, Lcom/tencent/mm/model/c/Dclz;->uO()Lcom/tencent/mm/storage/Bclz;
 
     move-result-object v3
 
-    invoke-virtual {v3, v2}, Lcom/tencent/mm/storage/b;->BG(Ljava/lang/String;)Lcom/tencent/mm/storage/a;
+    invoke-virtual {v3, v2}, Lcom/tencent/mm/storage/Bclz;->BG(Ljava/lang/String;)Lcom/tencent/mm/storage/Aclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/storage/a;->isValid()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/storage/Aclz;->isValid()Z
 
     move-result v3
 
@@ -306,7 +306,7 @@
 
     .line 181
     :cond_3
-    invoke-virtual {v2}, Lcom/tencent/mm/storage/a;->aPK()Ljava/util/Map;
+    invoke-virtual {v2}, Lcom/tencent/mm/storage/Aclz;->aPK()Ljava/util/Map;
 
     move-result-object v3
 
@@ -320,7 +320,7 @@
 
     invoke-direct {v5, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v6, v2, Lcom/tencent/mm/storage/a;->field_expId:Ljava/lang/String;
+    iget-object v6, v2, Lcom/tencent/mm/storage/Aclz;->field_expId:Ljava/lang/String;
 
     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -332,7 +332,7 @@
 
     move-result-object v5
 
-    iget-object v6, v2, Lcom/tencent/mm/storage/a;->field_layerId:Ljava/lang/String;
+    iget-object v6, v2, Lcom/tencent/mm/storage/Aclz;->field_layerId:Ljava/lang/String;
 
     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -344,7 +344,7 @@
 
     move-result-object v5
 
-    iget-wide v6, v2, Lcom/tencent/mm/storage/a;->field_startTime:J
+    iget-wide v6, v2, Lcom/tencent/mm/storage/Aclz;->field_startTime:J
 
     invoke-virtual {v5, v6, v7}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -356,7 +356,7 @@
 
     move-result-object v5
 
-    iget-wide v6, v2, Lcom/tencent/mm/storage/a;->field_endTime:J
+    iget-wide v6, v2, Lcom/tencent/mm/storage/Aclz;->field_endTime:J
 
     invoke-virtual {v5, v6, v7}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -368,9 +368,9 @@
 
     invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v4, v2, Lcom/tencent/mm/storage/a;->field_layerId:Ljava/lang/String;
+    iget-object v4, v2, Lcom/tencent/mm/storage/Aclz;->field_layerId:Ljava/lang/String;
 
-    iget-object v2, v2, Lcom/tencent/mm/storage/a;->field_expId:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/storage/Aclz;->field_expId:Ljava/lang/String;
 
     invoke-virtual {v0, v4, v2, v3}, Lcom/tencent/mm/plugin/sns/e/h;->b(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)Z
 

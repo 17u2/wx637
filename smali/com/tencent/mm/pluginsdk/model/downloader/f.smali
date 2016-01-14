@@ -4,19 +4,19 @@
 
 
 # direct methods
-.method public static b(Lcom/tencent/mm/pluginsdk/model/downloader/d;)Lcom/tencent/mm/storage/y;
+.method public static b(Lcom/tencent/mm/pluginsdk/model/downloader/d;)Lcom/tencent/mm/storage/Yclz;
     .locals 2
 
     .prologue
     .line 37
-    new-instance v0, Lcom/tencent/mm/storage/y;
+    new-instance v0, Lcom/tencent/mm/storage/Yclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/storage/y;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/storage/Yclz;-><init>()V
 
     .line 38
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/model/downloader/d;->hNc:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/storage/y;->field_downloadUrl:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/storage/Yclz;->field_downloadUrl:Ljava/lang/String;
 
     .line 39
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/model/downloader/d;->hNc:Ljava/lang/String;
@@ -25,37 +25,37 @@
 
     move-result v1
 
-    iput v1, v0, Lcom/tencent/mm/storage/y;->field_downloadUrlHashCode:I
+    iput v1, v0, Lcom/tencent/mm/storage/Yclz;->field_downloadUrlHashCode:I
 
     .line 40
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/model/downloader/d;->mFileName:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/storage/y;->field_fileName:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/storage/Yclz;->field_fileName:Ljava/lang/String;
 
     .line 41
     iget v1, p0, Lcom/tencent/mm/pluginsdk/model/downloader/d;->hNe:I
 
-    iput v1, v0, Lcom/tencent/mm/storage/y;->field_fileType:I
+    iput v1, v0, Lcom/tencent/mm/storage/Yclz;->field_fileType:I
 
     .line 42
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/model/downloader/d;->hNd:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/storage/y;->field_md5:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/storage/Yclz;->field_md5:Ljava/lang/String;
 
     .line 43
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/model/downloader/d;->dQa:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/storage/y;->field_appId:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/storage/Yclz;->field_appId:Ljava/lang/String;
 
     .line 44
     iget-boolean v1, p0, Lcom/tencent/mm/pluginsdk/model/downloader/d;->hNf:Z
 
-    iput-boolean v1, v0, Lcom/tencent/mm/storage/y;->field_autoInstall:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/storage/Yclz;->field_autoInstall:Z
 
     .line 45
     iget-boolean v1, p0, Lcom/tencent/mm/pluginsdk/model/downloader/d;->hNg:Z
 
-    iput-boolean v1, v0, Lcom/tencent/mm/storage/y;->field_showNotification:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/storage/Yclz;->field_showNotification:Z
 
     .line 47
     return-object v0

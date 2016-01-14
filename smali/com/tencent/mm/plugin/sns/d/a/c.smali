@@ -504,7 +504,7 @@
     goto :goto_0
 .end method
 
-.method public final b(Lcom/tencent/mm/network/s;)Lcom/tencent/mm/network/s;
+.method public final b(Lcom/tencent/mm/network/Sclz;)Lcom/tencent/mm/network/Sclz;
     .locals 4
 
     .prologue
@@ -598,7 +598,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/tencent/mm/network/s;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/tencent/mm/network/Sclz;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 47
     :cond_0

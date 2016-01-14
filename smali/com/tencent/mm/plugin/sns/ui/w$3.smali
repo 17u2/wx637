@@ -70,15 +70,15 @@
     iput-boolean v6, v0, Lcom/tencent/mm/plugin/sns/ui/w;->fBB:Z
 
     .line 195
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/w$3;->gtK:Lcom/tencent/mm/plugin/sns/ui/w;
 
-    iget-object v1, v1, Lcom/tencent/mm/plugin/sns/ui/w;->fvB:Lcom/tencent/mm/model/v;
+    iget-object v1, v1, Lcom/tencent/mm/plugin/sns/ui/w;->fvB:Lcom/tencent/mm/model/Vclz;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/model/u;->a(Lcom/tencent/mm/model/v;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/model/Uclz;->a(Lcom/tencent/mm/model/Vclz;)V
 
     .line 196
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/w$3;->gtK:Lcom/tencent/mm/plugin/sns/ui/w;
@@ -128,11 +128,11 @@
 
     .line 202
     :try_start_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v2
 
-    invoke-interface {v2}, Lcom/tencent/mm/model/u;->my()Ljava/lang/String;
+    invoke-interface {v2}, Lcom/tencent/mm/model/Uclz;->my()Ljava/lang/String;
 
     move-result-object v2
 
@@ -142,7 +142,7 @@
 
     .line 207
     :goto_2
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v2
 
@@ -241,7 +241,7 @@
     iput-object v0, v2, Lcom/tencent/mm/protocal/b/ada;->ijl:Ljava/lang/String;
 
     .line 230
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
@@ -253,7 +253,7 @@
 
     iget-object v3, v3, Lcom/tencent/mm/plugin/sns/ui/w;->dan:Ljava/lang/String;
 
-    invoke-interface {v0, v1, v3, v2}, Lcom/tencent/mm/model/u;->a(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/ada;)Lcom/tencent/mm/model/u;
+    invoke-interface {v0, v1, v3, v2}, Lcom/tencent/mm/model/Uclz;->a(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/ada;)Lcom/tencent/mm/model/Uclz;
 
     .line 242
     :cond_0

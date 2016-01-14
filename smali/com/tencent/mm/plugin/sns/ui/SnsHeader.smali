@@ -791,9 +791,9 @@
 
     invoke-virtual {v8}, Ljava/lang/Object;->hashCode()I
 
-    sget-object v8, Lcom/tencent/mm/storage/i$a;->jlc:Lcom/tencent/mm/storage/i$a;
+    sget-object v8, Lcom/tencent/mm/storage/Iclz$a;->jlc:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-static {v1, v5, v7, v3, v8}, Lcom/tencent/mm/plugin/sns/d/g;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/storage/i$a;)Landroid/graphics/Bitmap;
+    invoke-static {v1, v5, v7, v3, v8}, Lcom/tencent/mm/plugin/sns/d/g;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/storage/Iclz$a;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -856,9 +856,9 @@
 
     invoke-virtual {v8}, Ljava/lang/Object;->hashCode()I
 
-    sget-object v8, Lcom/tencent/mm/storage/i$a;->jlc:Lcom/tencent/mm/storage/i$a;
+    sget-object v8, Lcom/tencent/mm/storage/Iclz$a;->jlc:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-static {v1, v5, v7, v4, v8}, Lcom/tencent/mm/plugin/sns/d/g;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/storage/i$a;)Landroid/graphics/Bitmap;
+    invoke-static {v1, v5, v7, v4, v8}, Lcom/tencent/mm/plugin/sns/d/g;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/storage/Iclz$a;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 

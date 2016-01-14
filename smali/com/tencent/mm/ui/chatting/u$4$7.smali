@@ -122,33 +122,33 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/storage/ad;
+    check-cast v0, Lcom/tencent/mm/storage/ADclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/ad;->aQA()Z
-
-    move-result v3
-
-    if-nez v3, :cond_5
-
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/s;->I(Lcom/tencent/mm/storage/ad;)Z
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/ADclz;->aQA()Z
 
     move-result v3
 
     if-nez v3, :cond_5
 
-    invoke-virtual {v0}, Lcom/tencent/mm/storage/ad;->aQH()Z
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/s;->I(Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v3
 
     if-nez v3, :cond_5
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/s;->J(Lcom/tencent/mm/storage/ad;)Z
+    invoke-virtual {v0}, Lcom/tencent/mm/storage/ADclz;->aQH()Z
 
     move-result v3
 
     if-nez v3, :cond_5
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/s;->K(Lcom/tencent/mm/storage/ad;)Z
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/s;->J(Lcom/tencent/mm/storage/ADclz;)Z
+
+    move-result v3
+
+    if-nez v3, :cond_5
+
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/s;->K(Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v3
 
@@ -161,13 +161,13 @@
     if-ne v3, v4, :cond_6
 
     :cond_5
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/s;->M(Lcom/tencent/mm/storage/ad;)Z
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/s;->M(Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v3
 
     if-nez v3, :cond_6
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/s;->L(Lcom/tencent/mm/storage/ad;)Z
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/s;->L(Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v0
 

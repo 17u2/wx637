@@ -62,7 +62,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v1, Lcom/tencent/mm/storage/j;->bpW:Ljava/lang/String;
+    sget-object v1, Lcom/tencent/mm/storage/Jclz;->bpW:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -79,14 +79,14 @@
     move-result-object v0
 
     .line 741
-    new-instance v1, Lcom/tencent/mm/storage/g;
+    new-instance v1, Lcom/tencent/mm/storage/Gclz;
 
-    invoke-direct {v1, v0}, Lcom/tencent/mm/storage/g;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v0}, Lcom/tencent/mm/storage/Gclz;-><init>(Ljava/lang/String;)V
 
     .line 742
     iget-object v0, p0, Lcom/tencent/mm/console/b$8;->bor:Ljava/lang/String;
 
-    invoke-virtual {v1, v4, v0}, Lcom/tencent/mm/storage/g;->set(ILjava/lang/Object;)V
+    invoke-virtual {v1, v4, v0}, Lcom/tencent/mm/storage/Gclz;->set(ILjava/lang/Object;)V
 
     .line 743
     const-string/jumbo v0, "!44@/B4Tb64lLpJLD/TSzHAWHSAf/GG2c9mYEhKZ1EHpY7c="
@@ -97,7 +97,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v1, v4}, Lcom/tencent/mm/storage/g;->get(I)Ljava/lang/Object;
+    invoke-virtual {v1, v4}, Lcom/tencent/mm/storage/Gclz;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -148,11 +148,11 @@
     invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/e;->kT()V
 
     .line 754
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lc()Lcom/tencent/mm/model/y;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lc()Lcom/tencent/mm/model/Yclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/y;->np()V
+    invoke-interface {v0}, Lcom/tencent/mm/model/Yclz;->np()V
 
     .line 756
     new-instance v0, Landroid/content/Intent;

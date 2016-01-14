@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/network/j;
+.implements Lcom/tencent/mm/network/Jclz;
 
 
 # instance fields
@@ -337,11 +337,11 @@
     invoke-direct {v6}, Lcom/tencent/mm/protocal/b/agl;-><init>()V
 
     .line 68
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v7
 
-    invoke-virtual {v7}, Lcom/tencent/mm/model/c;->rk()Lcom/tencent/mm/storage/ae;
+    invoke-virtual {v7}, Lcom/tencent/mm/model/Cclz;->rk()Lcom/tencent/mm/storage/AEclz;
 
     move-result-object v7
 
@@ -349,7 +349,7 @@
 
     move-result-wide v8
 
-    invoke-virtual {v7, v8, v9}, Lcom/tencent/mm/storage/ae;->dn(J)Lcom/tencent/mm/storage/ad;
+    invoke-virtual {v7, v8, v9}, Lcom/tencent/mm/storage/AEclz;->dn(J)Lcom/tencent/mm/storage/ADclz;
 
     move-result-object v5
 
@@ -359,7 +359,7 @@
     iput-wide v7, v6, Lcom/tencent/mm/protocal/b/agl;->ikC:J
 
     .line 71
-    invoke-virtual {v5}, Lcom/tencent/mm/storage/ad;->aQy()Z
+    invoke-virtual {v5}, Lcom/tencent/mm/storage/ADclz;->aQy()Z
 
     move-result v7
 
@@ -372,7 +372,7 @@
 
     .line 76
     :goto_2
-    invoke-virtual {v5}, Lcom/tencent/mm/storage/ad;->aQJ()Z
+    invoke-virtual {v5}, Lcom/tencent/mm/storage/ADclz;->aQJ()Z
 
     move-result v7
 
@@ -387,7 +387,7 @@
     :goto_3
     iget-object v7, v5, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
 
-    invoke-static {v7}, Lcom/tencent/mm/model/ap;->fb(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v7}, Lcom/tencent/mm/model/APclz;->fb(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
@@ -512,7 +512,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+.method public final a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
     .locals 1
 
     .prologue
@@ -522,14 +522,14 @@
     .line 111
     iget-object v0, p0, Lcom/tencent/mm/modelsimple/l;->bMV:Lcom/tencent/mm/q/Aclz;
 
-    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/modelsimple/l;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;)I
+    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/modelsimple/l;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/network/Oclz;Lcom/tencent/mm/network/Jclz;)I
 
     move-result v0
 
     return v0
 .end method
 
-.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/o;[B)V
+.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/Oclz;[B)V
     .locals 1
 
     .prologue

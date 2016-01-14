@@ -182,7 +182,7 @@
     if-eqz v3, :cond_3
 
     .line 1482
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ad;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/dd;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     if-eqz v0, :cond_3
 

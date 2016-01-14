@@ -27,7 +27,7 @@
     iput-object p1, p0, Lcom/tencent/mm/ae/c$a;->bPq:Lcom/tencent/mm/ae/c;
 
     .line 143
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
 
     move-result-object v0
 

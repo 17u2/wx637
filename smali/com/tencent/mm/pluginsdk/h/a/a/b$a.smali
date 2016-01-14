@@ -20,7 +20,7 @@
 # instance fields
 .field private final hNX:Lcom/tencent/mm/sdk/c/c;
 
-.field private final hNY:Lcom/tencent/mm/model/bb$b;
+.field private final hNY:Lcom/tencent/mm/model/BBclz$b;
 
 .field private final hNZ:Lcom/tencent/mm/pluginsdk/h/a/a/h;
 
@@ -45,7 +45,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/pluginsdk/h/a/a/b$a$2;-><init>(Lcom/tencent/mm/pluginsdk/h/a/a/b$a;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/a/b$a;->hNY:Lcom/tencent/mm/model/bb$b;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/a/b$a;->hNY:Lcom/tencent/mm/model/BBclz$b;
 
     .line 58
     new-instance v0, Lcom/tencent/mm/pluginsdk/h/a/a/h;
@@ -121,17 +121,17 @@
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
 
     .line 63
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tg()Lcom/tencent/mm/model/bb;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tg()Lcom/tencent/mm/model/BBclz;
 
     move-result-object v0
 
     const-string/jumbo v1, "resourcemgr"
 
-    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/h/a/a/b$a;->hNY:Lcom/tencent/mm/model/bb$b;
+    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/h/a/a/b$a;->hNY:Lcom/tencent/mm/model/BBclz$b;
 
     const/4 v3, 0x1
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/model/bb;->a(Ljava/lang/String;Lcom/tencent/mm/model/bb$b;Z)V
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/model/BBclz;->a(Ljava/lang/String;Lcom/tencent/mm/model/BBclz$b;Z)V
 
     .line 64
     invoke-static {}, Lcom/tencent/mm/pluginsdk/h/a/a/p;->IC()V
@@ -184,17 +184,17 @@
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
 
     .line 70
-    invoke-static {}, Lcom/tencent/mm/model/ah;->tg()Lcom/tencent/mm/model/bb;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tg()Lcom/tencent/mm/model/BBclz;
 
     move-result-object v0
 
     const-string/jumbo v1, "resourcemgr"
 
-    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/h/a/a/b$a;->hNY:Lcom/tencent/mm/model/bb$b;
+    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/h/a/a/b$a;->hNY:Lcom/tencent/mm/model/BBclz$b;
 
     const/4 v3, 0x1
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/model/bb;->b(Ljava/lang/String;Lcom/tencent/mm/model/bb$b;Z)V
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/model/BBclz;->b(Ljava/lang/String;Lcom/tencent/mm/model/BBclz$b;Z)V
 
     .line 71
     return-void

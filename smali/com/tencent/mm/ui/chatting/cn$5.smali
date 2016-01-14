@@ -77,13 +77,13 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/cn$5;->kfF:Lcom/tencent/mm/ui/chatting/cn;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/cn;->g(Lcom/tencent/mm/ui/chatting/cn;)Lcom/tencent/mm/storage/k;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/cn;->g(Lcom/tencent/mm/ui/chatting/cn;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->dT(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->dT(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -91,13 +91,13 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/cn$5;->kfF:Lcom/tencent/mm/ui/chatting/cn;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/cn;->g(Lcom/tencent/mm/ui/chatting/cn;)Lcom/tencent/mm/storage/k;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/cn;->g(Lcom/tencent/mm/ui/chatting/cn;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v0
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/i;->eB(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->eB(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -136,7 +136,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/chatting/cn$5;->kfF:Lcom/tencent/mm/ui/chatting/cn;
 
-    invoke-static {v3}, Lcom/tencent/mm/ui/chatting/cn;->g(Lcom/tencent/mm/ui/chatting/cn;)Lcom/tencent/mm/storage/k;
+    invoke-static {v3}, Lcom/tencent/mm/ui/chatting/cn;->g(Lcom/tencent/mm/ui/chatting/cn;)Lcom/tencent/mm/storage/Kclz;
 
     move-result-object v3
 

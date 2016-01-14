@@ -184,7 +184,7 @@
     const/4 v5, 0x0
 
     .line 146
-    iget-object v1, p3, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/k;
+    iget-object v1, p3, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/Kclz;
 
     move-object v0, p2
 

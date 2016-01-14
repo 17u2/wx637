@@ -263,12 +263,12 @@
 
 
 # virtual methods
-.method public final G(Lcom/tencent/mm/storage/k;)Z
+.method public final G(Lcom/tencent/mm/storage/Kclz;)Z
     .locals 1
 
     .prologue
     .line 79
-    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileEditPhoneNumberView;->dfb:Lcom/tencent/mm/storage/k;
+    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileEditPhoneNumberView;->dfb:Lcom/tencent/mm/storage/Kclz;
 
     .line 80
     const/4 v0, 0x1

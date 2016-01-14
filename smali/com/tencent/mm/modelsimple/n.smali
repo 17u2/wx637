@@ -3,13 +3,13 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/network/j;
+.implements Lcom/tencent/mm/network/Jclz;
 
 
 # instance fields
 .field private ans:Lcom/tencent/mm/q/Dclz;
 
-.field private final byM:Lcom/tencent/mm/network/o;
+.field private final byM:Lcom/tencent/mm/network/Oclz;
 
 
 # direct methods
@@ -25,7 +25,7 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/q/Iclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/modelsimple/n;->byM:Lcom/tencent/mm/network/o;
+    iput-object v0, p0, Lcom/tencent/mm/modelsimple/n;->byM:Lcom/tencent/mm/network/Oclz;
 
     .line 21
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -40,7 +40,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
+.method public final a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/q/Dclz;)I
     .locals 1
 
     .prologue
@@ -48,16 +48,16 @@
     iput-object p2, p0, Lcom/tencent/mm/modelsimple/n;->ans:Lcom/tencent/mm/q/Dclz;
 
     .line 36
-    iget-object v0, p0, Lcom/tencent/mm/modelsimple/n;->byM:Lcom/tencent/mm/network/o;
+    iget-object v0, p0, Lcom/tencent/mm/modelsimple/n;->byM:Lcom/tencent/mm/network/Oclz;
 
-    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/modelsimple/n;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;)I
+    invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/modelsimple/n;->a(Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/network/Oclz;Lcom/tencent/mm/network/Jclz;)I
 
     move-result v0
 
     return v0
 .end method
 
-.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/o;[B)V
+.method public final a(IIILjava/lang/String;Lcom/tencent/mm/network/Oclz;[B)V
     .locals 5
 
     .prologue

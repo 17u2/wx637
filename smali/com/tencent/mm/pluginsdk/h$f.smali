@@ -45,31 +45,31 @@
 .method public abstract P(Landroid/view/View;)V
 .end method
 
-.method public abstract a(Lcom/tencent/mm/storage/a/c;)Lcom/tencent/mm/storage/a/c;
+.method public abstract a(Lcom/tencent/mm/storage/a/Cclz;)Lcom/tencent/mm/storage/a/Cclz;
 .end method
 
-.method public abstract a(Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/a/c;
+.method public abstract a(Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 .end method
 
 .method public abstract a(Landroid/content/Context;Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;)Ljava/lang/String;
 .end method
 
-.method public abstract a(Landroid/content/Context;Lcom/tencent/mm/storage/ad;)V
+.method public abstract a(Landroid/content/Context;Lcom/tencent/mm/storage/ADclz;)V
 .end method
 
 .method public abstract a(Lcom/tencent/mm/sdk/g/g$a;)V
 .end method
 
-.method public abstract a(Ljava/lang/String;Lcom/tencent/mm/storage/a/c;Lcom/tencent/mm/storage/ad;)V
+.method public abstract a(Ljava/lang/String;Lcom/tencent/mm/storage/a/Cclz;Lcom/tencent/mm/storage/ADclz;)V
 .end method
 
-.method public abstract a(Landroid/content/Context;Lcom/tencent/mm/storage/a/c;I)Z
+.method public abstract a(Landroid/content/Context;Lcom/tencent/mm/storage/a/Cclz;I)Z
 .end method
 
 .method public abstract a(Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;)Z
 .end method
 
-.method public abstract ar(Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/x;
+.method public abstract ar(Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/Xclz;
 .end method
 
 .method public abstract as(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -78,7 +78,7 @@
 .method public abstract b(Lcom/tencent/mm/sdk/g/g$a;)V
 .end method
 
-.method public abstract b(Lcom/tencent/mm/storage/a/c;)V
+.method public abstract b(Lcom/tencent/mm/storage/a/Cclz;)V
 .end method
 
 .method public abstract bI(Z)I
@@ -87,7 +87,7 @@
 .method public abstract bm(Landroid/content/Context;)Landroid/view/View;
 .end method
 
-.method public abstract c(Lcom/tencent/mm/storage/a/c;)I
+.method public abstract c(Lcom/tencent/mm/storage/a/Cclz;)I
 .end method
 
 .method public abstract c(ILandroid/view/View;)V
@@ -102,7 +102,7 @@
 .method public abstract d(Lcom/tencent/mm/sdk/g/g$a;)V
 .end method
 
-.method public abstract d(Lcom/tencent/mm/storage/a/c;)[I
+.method public abstract d(Lcom/tencent/mm/storage/a/Cclz;)[I
 .end method
 
 .method public abstract extractForeground([III)Z
@@ -114,7 +114,7 @@
 .method public abstract k(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
 .end method
 
-.method public abstract ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/c;
+.method public abstract ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 .end method
 
 .method public abstract mb(Ljava/lang/String;)I

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/model/d$a;
+.implements Lcom/tencent/mm/model/Dclz$a;
 .implements Lcom/tencent/mm/plugin/sns/d/b$b;
 
 
@@ -26,7 +26,7 @@
 
 .field private bMh:Ljava/lang/String;
 
-.field private bfG:Lcom/tencent/mm/model/d;
+.field private bfG:Lcom/tencent/mm/model/Dclz;
 
 .field private bwa:Z
 
@@ -576,11 +576,11 @@
     invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->pause()V
 
     .line 468
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->bfG:Lcom/tencent/mm/model/d;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->bfG:Lcom/tencent/mm/model/Dclz;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/d;->aI(Z)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/model/Dclz;->aI(Z)Z
 
     .line 469
     return-void
@@ -668,9 +668,9 @@
     invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 457
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->bfG:Lcom/tencent/mm/model/d;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->bfG:Lcom/tencent/mm/model/Dclz;
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/model/d;->a(Lcom/tencent/mm/model/d$a;)Z
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/model/Dclz;->a(Lcom/tencent/mm/model/Dclz$a;)Z
 
     .line 458
     if-eqz p1, :cond_0
@@ -1352,7 +1352,7 @@
     invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/plugin/sns/a/a/c;-><init>(Ljava/lang/String;IILjava/lang/String;I)V
 
     .line 750
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -1445,7 +1445,7 @@
     invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/plugin/sns/a/a/c;-><init>(Ljava/lang/String;IILjava/lang/String;I)V
 
     .line 757
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -1608,11 +1608,11 @@
     invoke-virtual {v0, v5, v5}, Landroid/view/Window;->setFlags(II)V
 
     .line 164
-    new-instance v0, Lcom/tencent/mm/model/d;
+    new-instance v0, Lcom/tencent/mm/model/Dclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/model/d;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/model/Dclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->bfG:Lcom/tencent/mm/model/d;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->bfG:Lcom/tencent/mm/model/Dclz;
 
     .line 166
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->getIntent()Landroid/content/Intent;
@@ -1790,33 +1790,33 @@
 
     .line 177
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
     if-eqz v0, :cond_3
 
     .line 178
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/u;->pause()V
+    invoke-interface {v0}, Lcom/tencent/mm/model/Uclz;->pause()V
 
     .line 180
     :cond_3
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lf()Lcom/tencent/mm/model/q;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lf()Lcom/tencent/mm/model/Qclz;
 
     move-result-object v0
 
     if-eqz v0, :cond_4
 
     .line 181
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lf()Lcom/tencent/mm/model/q;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lf()Lcom/tencent/mm/model/Qclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/q;->mu()V
+    invoke-interface {v0}, Lcom/tencent/mm/model/Qclz;->mu()V
 
     .line 184
     :cond_4
@@ -2337,9 +2337,9 @@
 
     const/4 v7, 0x0
 
-    sget-object v8, Lcom/tencent/mm/storage/i$a;->jlc:Lcom/tencent/mm/storage/i$a;
+    sget-object v8, Lcom/tencent/mm/storage/Iclz$a;->jlc:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-virtual {v0, v5, v6, v7, v8}, Lcom/tencent/mm/plugin/sns/d/b;->a(Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/i$a;)Z
+    invoke-virtual {v0, v5, v6, v7, v8}, Lcom/tencent/mm/plugin/sns/d/b;->a(Lcom/tencent/mm/protocal/b/abp;ILcom/tencent/mm/plugin/sns/data/d;Lcom/tencent/mm/storage/Iclz$a;)Z
 
     .line 408
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->gCb:Lcom/tencent/mm/ui/widget/MMPinProgressBtn;
@@ -2389,7 +2389,7 @@
 
     move-result-object v8
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v10
 
@@ -2464,33 +2464,33 @@
 
     .line 528
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
     if-eqz v0, :cond_2
 
     .line 529
-    invoke-static {}, Lcom/tencent/mm/model/ah;->le()Lcom/tencent/mm/model/u;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->le()Lcom/tencent/mm/model/Uclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/u;->resume()V
+    invoke-interface {v0}, Lcom/tencent/mm/model/Uclz;->resume()V
 
     .line 531
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lf()Lcom/tencent/mm/model/q;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lf()Lcom/tencent/mm/model/Qclz;
 
     move-result-object v0
 
     if-eqz v0, :cond_3
 
     .line 532
-    invoke-static {}, Lcom/tencent/mm/model/ah;->lf()Lcom/tencent/mm/model/q;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->lf()Lcom/tencent/mm/model/Qclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/model/q;->mt()V
+    invoke-interface {v0}, Lcom/tencent/mm/model/Qclz;->mt()V
 
     .line 534
     :cond_3
@@ -2557,9 +2557,9 @@
 
     .line 556
     :cond_5
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->bfG:Lcom/tencent/mm/model/d;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->bfG:Lcom/tencent/mm/model/Dclz;
 
-    invoke-virtual {v0, v9}, Lcom/tencent/mm/model/d;->aI(Z)Z
+    invoke-virtual {v0, v9}, Lcom/tencent/mm/model/Dclz;->aI(Z)Z
 
     .line 557
     return-void
