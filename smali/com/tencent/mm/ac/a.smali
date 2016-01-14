@@ -1425,7 +1425,7 @@
 
     move-result-object v10
 
-    invoke-static {}, Lcom/tencent/mm/booter/notification/f$a;->ny()Lcom/tencent/mm/booter/notification/f;
+    invoke-static {}, Lcom/tencent/mm/booter/notification/Fclz$a;->ny()Lcom/tencent/mm/booter/notification/Fclz;
 
     move-result-object v4
 
@@ -1455,7 +1455,7 @@
 
     move-result-object v10
 
-    invoke-virtual/range {v4 .. v11}, Lcom/tencent/mm/booter/notification/f;->a(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-virtual/range {v4 .. v11}, Lcom/tencent/mm/booter/notification/Fclz;->a(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
     goto/16 :goto_b
 
@@ -1515,11 +1515,11 @@
 
     move-result v5
 
-    invoke-static {v5}, Lcom/tencent/mm/booter/f;->bz(I)Ljava/lang/String;
+    invoke-static {v5}, Lcom/tencent/mm/booter/Fclz;->bz(I)Ljava/lang/String;
 
     move-result-object v6
 
-    invoke-static {v6}, Lcom/tencent/mm/booter/f;->cA(Ljava/lang/String;)I
+    invoke-static {v6}, Lcom/tencent/mm/booter/Fclz;->cA(Ljava/lang/String;)I
 
     move-result v7
 
@@ -1629,7 +1629,7 @@
 
     const/4 v15, 0x4
 
-    invoke-static {v4}, Lcom/tencent/mm/booter/f;->v([B)Ljava/lang/String;
+    invoke-static {v4}, Lcom/tencent/mm/booter/Fclz;->v([B)Ljava/lang/String;
 
     move-result-object v4
 
@@ -1637,7 +1637,7 @@
 
     const/4 v4, 0x5
 
-    invoke-static {v9}, Lcom/tencent/mm/booter/f;->v([B)Ljava/lang/String;
+    invoke-static {v9}, Lcom/tencent/mm/booter/Fclz;->v([B)Ljava/lang/String;
 
     move-result-object v15
 
@@ -1649,7 +1649,7 @@
 
     move-result-object v5
 
-    invoke-static {v5}, Lcom/tencent/mm/booter/f;->v([B)Ljava/lang/String;
+    invoke-static {v5}, Lcom/tencent/mm/booter/Fclz;->v([B)Ljava/lang/String;
 
     move-result-object v5
 

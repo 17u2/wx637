@@ -4,7 +4,7 @@
 
 
 # static fields
-.field private static fxf:Lcom/tencent/b/a/a/h;
+.field private static fxf:Lcom/tencent/b/a/a/Hclz;
 
 .field private static fxg:I
 
@@ -19,11 +19,11 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/b/a/a/h;->O(Landroid/content/Context;)Lcom/tencent/b/a/a/h;
+    invoke-static {v0}, Lcom/tencent/b/a/a/Hclz;->O(Landroid/content/Context;)Lcom/tencent/b/a/a/Hclz;
 
     move-result-object v0
 
-    sput-object v0, Lcom/tencent/mm/plugin/report/b/c;->fxf:Lcom/tencent/b/a/a/h;
+    sput-object v0, Lcom/tencent/mm/plugin/report/b/c;->fxf:Lcom/tencent/b/a/a/Hclz;
 
     .line 29
     const/4 v0, 0x2
@@ -64,10 +64,10 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/plugin/report/b/c$1;-><init>()V
 
-    invoke-static {v0}, Lcom/tencent/b/a/a/h;->a(Lcom/tencent/b/a/a/f;)V
+    invoke-static {v0}, Lcom/tencent/b/a/a/Hclz;->a(Lcom/tencent/b/a/a/Fclz;)V
 
     .line 69
-    invoke-static {}, Lcom/tencent/b/a/a/h;->km()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/b/a/a/Hclz;->km()Ljava/lang/String;
 
     move-result-object v0
 
@@ -86,7 +86,7 @@
 
     const/4 v4, 0x1
 
-    invoke-static {}, Lcom/tencent/b/a/a/h;->kn()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/b/a/a/Hclz;->kn()Ljava/lang/String;
 
     move-result-object v5
 
@@ -395,17 +395,17 @@
 
     .line 80
     :try_start_0
-    sget-object v0, Lcom/tencent/mm/plugin/report/b/c;->fxf:Lcom/tencent/b/a/a/h;
+    sget-object v0, Lcom/tencent/mm/plugin/report/b/c;->fxf:Lcom/tencent/b/a/a/Hclz;
 
-    sget-object v1, Lcom/tencent/b/a/a/h;->mHandler:Landroid/os/Handler;
+    sget-object v1, Lcom/tencent/b/a/a/Hclz;->mHandler:Landroid/os/Handler;
 
     if-eqz v1, :cond_0
 
-    sget-object v1, Lcom/tencent/b/a/a/h;->mHandler:Landroid/os/Handler;
+    sget-object v1, Lcom/tencent/b/a/a/Hclz;->mHandler:Landroid/os/Handler;
 
-    new-instance v2, Lcom/tencent/b/a/a/h$1;
+    new-instance v2, Lcom/tencent/b/a/a/Hclz$1;
 
-    invoke-direct {v2, v0, p0}, Lcom/tencent/b/a/a/h$1;-><init>(Lcom/tencent/b/a/a/h;Ljava/lang/String;)V
+    invoke-direct {v2, v0, p0}, Lcom/tencent/b/a/a/Hclz$1;-><init>(Lcom/tencent/b/a/a/Hclz;Ljava/lang/String;)V
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
@@ -421,7 +421,7 @@
 
     const/4 v3, 0x0
 
-    invoke-static {}, Lcom/tencent/b/a/a/h;->kn()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/b/a/a/Hclz;->kn()Ljava/lang/String;
 
     move-result-object v4
 

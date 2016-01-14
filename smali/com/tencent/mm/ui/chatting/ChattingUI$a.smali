@@ -23602,7 +23602,7 @@
 
     .line 2486
     :cond_b
-    invoke-static {}, Lcom/tencent/mm/booter/notification/queue/b;->nz()Lcom/tencent/mm/booter/notification/queue/b;
+    invoke-static {}, Lcom/tencent/mm/booter/notification/queue/Bclz;->nz()Lcom/tencent/mm/booter/notification/queue/Bclz;
 
     move-result-object v0
 
@@ -23616,9 +23616,9 @@
 
     if-nez v2, :cond_c
 
-    iget-object v0, v0, Lcom/tencent/mm/booter/notification/queue/b;->bhE:Lcom/tencent/mm/booter/notification/queue/a;
+    iget-object v0, v0, Lcom/tencent/mm/booter/notification/queue/Bclz;->bhE:Lcom/tencent/mm/booter/notification/queue/Aclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/notification/queue/a;->cI(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/notification/queue/Aclz;->cI(Ljava/lang/String;)Z
 
     .line 2488
     :cond_c

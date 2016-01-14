@@ -28,7 +28,7 @@
 
     .prologue
     .line 25
-    sget-object v0, Lcom/tencent/mm/booter/cache/a;->bgK:Lcom/tencent/mm/booter/cache/a;
+    sget-object v0, Lcom/tencent/mm/booter/cache/Aclz;->bgK:Lcom/tencent/mm/booter/cache/Aclz;
 
     return-object v0
 .end method
@@ -41,7 +41,7 @@
     invoke-super {p0}, Landroid/app/Service;->onCreate()V
 
     .line 13
-    invoke-static {}, Lcom/tencent/mm/booter/cache/a;->prepare()V
+    invoke-static {}, Lcom/tencent/mm/booter/cache/Aclz;->prepare()V
 
     .line 14
     return-void
@@ -55,7 +55,7 @@
     invoke-super {p0}, Landroid/app/Service;->onDestroy()V
 
     .line 20
-    invoke-static {}, Lcom/tencent/mm/booter/cache/a;->destroy()V
+    invoke-static {}, Lcom/tencent/mm/booter/cache/Aclz;->destroy()V
 
     .line 21
     return-void

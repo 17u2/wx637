@@ -11,7 +11,7 @@
 # instance fields
 .field private bfd:Lcom/tencent/mm/network/r;
 
-.field private bfe:Lcom/tencent/mm/booter/e;
+.field private bfe:Lcom/tencent/mm/booter/Eclz;
 
 .field private bff:Z
 
@@ -41,11 +41,11 @@
     invoke-direct {p0}, Landroid/app/Service;-><init>()V
 
     .line 64
-    new-instance v0, Lcom/tencent/mm/booter/e;
+    new-instance v0, Lcom/tencent/mm/booter/Eclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/booter/e;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/booter/Eclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/booter/CoreService;->bfe:Lcom/tencent/mm/booter/e;
+    iput-object v0, p0, Lcom/tencent/mm/booter/CoreService;->bfe:Lcom/tencent/mm/booter/Eclz;
 
     .line 66
     const/4 v0, 0x1
@@ -314,11 +314,11 @@
     invoke-virtual {v0}, Lcom/tencent/mm/network/r;->DR()V
 
     .line 315
-    iget-object v0, p0, Lcom/tencent/mm/booter/CoreService;->bfe:Lcom/tencent/mm/booter/e;
+    iget-object v0, p0, Lcom/tencent/mm/booter/CoreService;->bfe:Lcom/tencent/mm/booter/Eclz;
 
-    iput-object v3, v0, Lcom/tencent/mm/booter/e;->bge:Landroid/net/NetworkInfo;
+    iput-object v3, v0, Lcom/tencent/mm/booter/Eclz;->bge:Landroid/net/NetworkInfo;
 
-    iput-object v3, v0, Lcom/tencent/mm/booter/e;->bgf:Landroid/net/wifi/WifiInfo;
+    iput-object v3, v0, Lcom/tencent/mm/booter/Eclz;->bgf:Landroid/net/wifi/WifiInfo;
 
     .line 318
     :cond_0
@@ -344,9 +344,9 @@
     iput-boolean v2, v0, Lcom/tencent/mm/network/aa;->cbw:Z
 
     .line 327
-    iget-object v0, p0, Lcom/tencent/mm/booter/CoreService;->bfe:Lcom/tencent/mm/booter/e;
+    iget-object v0, p0, Lcom/tencent/mm/booter/CoreService;->bfe:Lcom/tencent/mm/booter/Eclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/booter/e;->mV()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/booter/Eclz;->mV()Z
 
     move-result v0
 
@@ -548,7 +548,7 @@
 
     move-object v2, p2
 
-    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/booter/f;->a(II[B[BJ)Z
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/booter/Fclz;->a(II[B[BJ)Z
 
     move-result v1
 
@@ -914,7 +914,7 @@
     invoke-static {v2, v0}, Lcom/tencent/mm/jni/platformcomm/PlatformComm;->a(Landroid/content/Context;Lcom/tencent/mm/sdk/platformtools/ab;)V
 
     .line 102
-    invoke-static {p0}, Lcom/tencent/mm/booter/c;->ah(Landroid/content/Context;)Lcom/tencent/mm/booter/c;
+    invoke-static {p0}, Lcom/tencent/mm/booter/Cclz;->ah(Landroid/content/Context;)Lcom/tencent/mm/booter/Cclz;
 
     move-result-object v2
 
@@ -1062,28 +1062,28 @@
     :cond_2
     const-string/jumbo v0, ".com.tencent.mm.debug.server.host.http"
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/booter/c;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/booter/Cclz;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 159
     const-string/jumbo v3, ".com.tencent.mm.debug.server.ports.http"
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/booter/c;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/booter/Cclz;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
     .line 160
     const-string/jumbo v4, ".com.tencent.mm.debug.server.host.socket"
 
-    invoke-virtual {v2, v4}, Lcom/tencent/mm/booter/c;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v4}, Lcom/tencent/mm/booter/Cclz;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
     .line 161
     const-string/jumbo v5, ".com.tencent.mm.debug.server.ports.socket"
 
-    invoke-virtual {v2, v5}, Lcom/tencent/mm/booter/c;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v5}, Lcom/tencent/mm/booter/Cclz;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -1095,7 +1095,7 @@
     .line 165
     const-string/jumbo v0, ".com.tencent.mm.debug.server.host.newdns"
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/booter/c;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/booter/Cclz;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

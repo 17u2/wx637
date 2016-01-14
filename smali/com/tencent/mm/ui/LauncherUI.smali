@@ -8819,7 +8819,7 @@
     if-ne p2, v0, :cond_2
 
     .line 3040
-    invoke-static {}, Lcom/tencent/mm/booter/i;->run()V
+    invoke-static {}, Lcom/tencent/mm/booter/Iclz;->run()V
 
     .line 3043
     :cond_2

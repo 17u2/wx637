@@ -96,7 +96,7 @@
 
     iget-object v2, v0, Lcom/tencent/mm/app/WorkerProfile$7;->amm:Lcom/tencent/mm/app/WorkerProfile;
 
-    invoke-static {v2}, Lcom/tencent/mm/app/WorkerProfile;->c(Lcom/tencent/mm/app/WorkerProfile;)Lcom/tencent/mm/booter/notification/a/g;
+    invoke-static {v2}, Lcom/tencent/mm/app/WorkerProfile;->c(Lcom/tencent/mm/app/WorkerProfile;)Lcom/tencent/mm/booter/notification/a/Gclz;
 
     move-result-object v2
 
@@ -107,15 +107,15 @@
 
     iget-object v2, v0, Lcom/tencent/mm/app/WorkerProfile$7;->amm:Lcom/tencent/mm/app/WorkerProfile;
 
-    new-instance v3, Lcom/tencent/mm/booter/notification/a/g;
+    new-instance v3, Lcom/tencent/mm/booter/notification/a/Gclz;
 
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
 
     move-result-object v4
 
-    invoke-direct {v3, v4}, Lcom/tencent/mm/booter/notification/a/g;-><init>(Landroid/content/Context;)V
+    invoke-direct {v3, v4}, Lcom/tencent/mm/booter/notification/a/Gclz;-><init>(Landroid/content/Context;)V
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/app/WorkerProfile;->a(Lcom/tencent/mm/app/WorkerProfile;Lcom/tencent/mm/booter/notification/a/g;)Lcom/tencent/mm/booter/notification/a/g;
+    invoke-static {v2, v3}, Lcom/tencent/mm/app/WorkerProfile;->a(Lcom/tencent/mm/app/WorkerProfile;Lcom/tencent/mm/booter/notification/a/Gclz;)Lcom/tencent/mm/booter/notification/a/Gclz;
 
     .line 838
     :cond_0
@@ -123,7 +123,7 @@
 
     iget-object v2, v0, Lcom/tencent/mm/app/WorkerProfile$7;->amm:Lcom/tencent/mm/app/WorkerProfile;
 
-    invoke-static {v2}, Lcom/tencent/mm/app/WorkerProfile;->c(Lcom/tencent/mm/app/WorkerProfile;)Lcom/tencent/mm/booter/notification/a/g;
+    invoke-static {v2}, Lcom/tencent/mm/app/WorkerProfile;->c(Lcom/tencent/mm/app/WorkerProfile;)Lcom/tencent/mm/booter/notification/a/Gclz;
 
     invoke-static {}, Lcom/tencent/mm/an/a;->aHx()I
 

@@ -219,7 +219,7 @@
 
     move-result-wide v4
 
-    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/booter/f;->a(II[B[BJ)Z
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/booter/Fclz;->a(II[B[BJ)Z
 
     move-result v2
 

@@ -367,7 +367,7 @@
 
 
 # virtual methods
-.method public final declared-synchronized a(Lcom/tencent/mm/booter/notification/a/g;)I
+.method public final declared-synchronized a(Lcom/tencent/mm/booter/notification/a/Gclz;)I
     .locals 14
 
     .prologue
@@ -389,13 +389,13 @@
 
     if-ne v0, v2, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/booter/notification/queue/b;->nz()Lcom/tencent/mm/booter/notification/queue/b;
+    invoke-static {}, Lcom/tencent/mm/booter/notification/queue/Bclz;->nz()Lcom/tencent/mm/booter/notification/queue/Bclz;
 
     move-result-object v0
 
     iget-boolean v5, p0, Lcom/tencent/mm/booter/notification/NotificationItem;->bhu:Z
 
-    invoke-virtual {v0, v5}, Lcom/tencent/mm/booter/notification/queue/b;->at(Z)I
+    invoke-virtual {v0, v5}, Lcom/tencent/mm/booter/notification/queue/Bclz;->at(Z)I
 
     move-result v0
 
@@ -454,7 +454,7 @@
 
     .line 138
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/booter/notification/queue/b;->nz()Lcom/tencent/mm/booter/notification/queue/b;
+    invoke-static {}, Lcom/tencent/mm/booter/notification/queue/Bclz;->nz()Lcom/tencent/mm/booter/notification/queue/Bclz;
 
     move-result-object v0
 
@@ -473,7 +473,7 @@
     if-eqz v0, :cond_3
 
     .line 143
-    invoke-static {}, Lcom/tencent/mm/booter/notification/queue/b;->nz()Lcom/tencent/mm/booter/notification/queue/b;
+    invoke-static {}, Lcom/tencent/mm/booter/notification/queue/Bclz;->nz()Lcom/tencent/mm/booter/notification/queue/Bclz;
 
     move-result-object v6
 
@@ -497,7 +497,7 @@
 
     invoke-static {v8, v9, v10}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iput v7, v6, Lcom/tencent/mm/booter/notification/queue/b;->mark:I
+    iput v7, v6, Lcom/tencent/mm/booter/notification/queue/Bclz;->mark:I
 
     .line 156
     :cond_3
@@ -558,7 +558,7 @@
 
     .line 160
     :cond_4
-    invoke-static {}, Lcom/tencent/mm/booter/notification/queue/b;->nz()Lcom/tencent/mm/booter/notification/queue/b;
+    invoke-static {}, Lcom/tencent/mm/booter/notification/queue/Bclz;->nz()Lcom/tencent/mm/booter/notification/queue/Bclz;
 
     move-result-object v0
 
@@ -575,19 +575,19 @@
     if-eqz v1, :cond_5
 
     .line 162
-    invoke-static {}, Lcom/tencent/mm/booter/notification/queue/b;->nz()Lcom/tencent/mm/booter/notification/queue/b;
+    invoke-static {}, Lcom/tencent/mm/booter/notification/queue/Bclz;->nz()Lcom/tencent/mm/booter/notification/queue/Bclz;
 
     move-result-object v0
 
     iget v1, v1, Lcom/tencent/mm/booter/notification/NotificationItem;->id:I
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/notification/queue/b;->cancel(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/notification/queue/Bclz;->cancel(I)V
 
     .line 165
     :cond_5
     iget-object v0, p0, Lcom/tencent/mm/booter/notification/NotificationItem;->db:Landroid/app/Notification;
 
-    invoke-static {v0, p1}, Lcom/tencent/mm/booter/notification/d;->a(Landroid/app/Notification;Lcom/tencent/mm/booter/notification/a/g;)I
+    invoke-static {v0, p1}, Lcom/tencent/mm/booter/notification/Dclz;->a(Landroid/app/Notification;Lcom/tencent/mm/booter/notification/a/Gclz;)I
 
     move-result v0
 
@@ -615,7 +615,7 @@
 
     .line 138
     :cond_7
-    invoke-virtual {v0}, Lcom/tencent/mm/booter/notification/queue/b;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Lcom/tencent/mm/booter/notification/queue/Bclz;->iterator()Ljava/util/Iterator;
 
     move-result-object v7
 
@@ -675,11 +675,11 @@
     .line 160
     :cond_a
     :try_start_2
-    iget v2, v0, Lcom/tencent/mm/booter/notification/queue/b;->mark:I
+    iget v2, v0, Lcom/tencent/mm/booter/notification/queue/Bclz;->mark:I
 
     if-lez v2, :cond_c
 
-    iget v2, v0, Lcom/tencent/mm/booter/notification/queue/b;->mark:I
+    iget v2, v0, Lcom/tencent/mm/booter/notification/queue/Bclz;->mark:I
 
     iget v6, p0, Lcom/tencent/mm/booter/notification/NotificationItem;->id:I
 
@@ -695,7 +695,7 @@
 
     const/4 v8, 0x0
 
-    iget v9, v0, Lcom/tencent/mm/booter/notification/queue/b;->mark:I
+    iget v9, v0, Lcom/tencent/mm/booter/notification/queue/Bclz;->mark:I
 
     invoke-static {v9}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -705,21 +705,21 @@
 
     invoke-static {v2, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iget v2, v0, Lcom/tencent/mm/booter/notification/queue/b;->mark:I
+    iget v2, v0, Lcom/tencent/mm/booter/notification/queue/Bclz;->mark:I
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/booter/notification/queue/b;->remove(I)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/booter/notification/queue/Bclz;->remove(I)V
 
     :cond_b
     const/4 v2, -0x1
 
-    iput v2, v0, Lcom/tencent/mm/booter/notification/queue/b;->mark:I
+    iput v2, v0, Lcom/tencent/mm/booter/notification/queue/Bclz;->mark:I
 
     :cond_c
     iget v2, p0, Lcom/tencent/mm/booter/notification/NotificationItem;->id:I
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/booter/notification/queue/b;->remove(I)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/booter/notification/queue/Bclz;->remove(I)V
 
-    invoke-virtual {v0}, Lcom/tencent/mm/booter/notification/queue/b;->size()I
+    invoke-virtual {v0}, Lcom/tencent/mm/booter/notification/queue/Bclz;->size()I
 
     move-result v2
 
@@ -727,18 +727,18 @@
 
     if-lt v2, v6, :cond_d
 
-    invoke-virtual {v0}, Lcom/tencent/mm/booter/notification/queue/b;->nA()Lcom/tencent/mm/booter/notification/NotificationItem;
+    invoke-virtual {v0}, Lcom/tencent/mm/booter/notification/queue/Bclz;->nA()Lcom/tencent/mm/booter/notification/NotificationItem;
 
     move-result-object v1
 
     :cond_d
-    iget-object v2, v0, Lcom/tencent/mm/booter/notification/queue/b;->bhD:Lcom/tencent/mm/booter/notification/queue/NotificationQueue;
+    iget-object v2, v0, Lcom/tencent/mm/booter/notification/queue/Bclz;->bhD:Lcom/tencent/mm/booter/notification/queue/NotificationQueue;
 
     invoke-virtual {v2, p0}, Lcom/tencent/mm/booter/notification/queue/NotificationQueue;->d(Lcom/tencent/mm/booter/notification/NotificationItem;)Z
 
-    iget-object v2, v0, Lcom/tencent/mm/booter/notification/queue/b;->bhE:Lcom/tencent/mm/booter/notification/queue/a;
+    iget-object v2, v0, Lcom/tencent/mm/booter/notification/queue/Bclz;->bhE:Lcom/tencent/mm/booter/notification/queue/Aclz;
 
-    invoke-virtual {v2, p0}, Lcom/tencent/mm/booter/notification/queue/a;->b(Lcom/tencent/mm/booter/notification/NotificationItem;)V
+    invoke-virtual {v2, p0}, Lcom/tencent/mm/booter/notification/queue/Aclz;->b(Lcom/tencent/mm/booter/notification/NotificationItem;)V
 
     const-string/jumbo v2, "!44@/B4Tb64lLpKR3MWtFvfaIPwtPgb87rUCyQv3l0JxiQQ="
 
@@ -760,7 +760,7 @@
 
     const/4 v8, 0x1
 
-    invoke-virtual {v0}, Lcom/tencent/mm/booter/notification/queue/b;->size()I
+    invoke-virtual {v0}, Lcom/tencent/mm/booter/notification/queue/Bclz;->size()I
 
     move-result v0
 
@@ -824,7 +824,7 @@
 
     iget-object v6, v6, Landroid/app/Notification;->vibrate:[J
 
-    invoke-static {v6}, Lcom/tencent/mm/booter/notification/a/g;->a([J)Ljava/lang/String;
+    invoke-static {v6}, Lcom/tencent/mm/booter/notification/a/Gclz;->a([J)Ljava/lang/String;
 
     move-result-object v6
 
@@ -835,7 +835,7 @@
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
     :try_start_3
-    invoke-static {}, Lcom/tencent/mm/booter/notification/a/e;->nI()I
+    invoke-static {}, Lcom/tencent/mm/booter/notification/a/Eclz;->nI()I
 
     move-result v0
 
@@ -940,7 +940,7 @@
 
     iget-wide v0, p0, Lcom/tencent/mm/booter/notification/NotificationItem;->bhs:J
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/booter/notification/c;->z(J)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/booter/notification/Cclz;->z(J)V
 
     goto/16 :goto_4
 

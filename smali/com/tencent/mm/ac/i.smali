@@ -534,11 +534,11 @@
 
     iget v4, v0, Lcom/tencent/mm/model/c;->uin:I
 
-    invoke-static {v4}, Lcom/tencent/mm/booter/f;->bz(I)Ljava/lang/String;
+    invoke-static {v4}, Lcom/tencent/mm/booter/Fclz;->bz(I)Ljava/lang/String;
 
     move-result-object v5
 
-    invoke-static {v5}, Lcom/tencent/mm/booter/f;->cA(Ljava/lang/String;)I
+    invoke-static {v5}, Lcom/tencent/mm/booter/Fclz;->cA(Ljava/lang/String;)I
 
     move-result v6
 
@@ -668,7 +668,7 @@
 
     const/4 v11, 0x2
 
-    invoke-static {v0}, Lcom/tencent/mm/booter/f;->v([B)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/booter/Fclz;->v([B)Ljava/lang/String;
 
     move-result-object v0
 
@@ -676,7 +676,7 @@
 
     const/4 v0, 0x3
 
-    invoke-static {v1}, Lcom/tencent/mm/booter/f;->v([B)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/booter/Fclz;->v([B)Ljava/lang/String;
 
     move-result-object v11
 
@@ -688,7 +688,7 @@
 
     move-result-object v7
 
-    invoke-static {v7}, Lcom/tencent/mm/booter/f;->v([B)Ljava/lang/String;
+    invoke-static {v7}, Lcom/tencent/mm/booter/Fclz;->v([B)Ljava/lang/String;
 
     move-result-object v7
 
@@ -879,7 +879,7 @@
 
     iget v1, v1, Lcom/tencent/mm/model/c;->uin:I
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/booter/f;->B(II)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/booter/Fclz;->B(II)V
 
     .line 301
     const/4 v0, 0x0
@@ -2321,7 +2321,7 @@
 
     iget v1, v1, Lcom/tencent/mm/model/c;->uin:I
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/booter/f;->B(II)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/booter/Fclz;->B(II)V
 
     .line 448
     :cond_4
@@ -2360,7 +2360,7 @@
 
     iget v1, v1, Lcom/tencent/mm/model/c;->uin:I
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/booter/f;->B(II)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/booter/Fclz;->B(II)V
 
     .line 456
     iput-object v10, p0, Lcom/tencent/mm/ac/i;->bNP:Lcom/tencent/mm/sdk/platformtools/ag;

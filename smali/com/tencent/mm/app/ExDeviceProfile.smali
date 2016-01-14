@@ -128,7 +128,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/booter/c;->ah(Landroid/content/Context;)Lcom/tencent/mm/booter/c;
+    invoke-static {v0}, Lcom/tencent/mm/booter/Cclz;->ah(Landroid/content/Context;)Lcom/tencent/mm/booter/Cclz;
 
     move-result-object v0
 
@@ -152,11 +152,11 @@
     .line 38
     const-string/jumbo v1, "EXDEVICE"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cr(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cr(Ljava/lang/String;)V
 
     const-string/jumbo v1, ".com.tencent.mm.debug.test.display_errcode"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -168,7 +168,7 @@
 
     const-string/jumbo v1, ".com.tencent.mm.debug.test.display_msgstate"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -180,7 +180,7 @@
 
     const-string/jumbo v1, ".com.tencent.mm.debug.test.network.simulate_fault"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -192,7 +192,7 @@
 
     const-string/jumbo v1, ".com.tencent.mm.debug.test.network.force_touch"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -204,7 +204,7 @@
 
     const-string/jumbo v1, ".com.tencent.mm.debug.test.outputToSdCardlog"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -216,7 +216,7 @@
 
     const-string/jumbo v1, ".com.tencent.mm.debug.test.crashIsExit"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -228,7 +228,7 @@
 
     const-string/jumbo v1, ".com.tencent.mm.debug.test.album_show_info"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -240,7 +240,7 @@
 
     const-string/jumbo v1, ".com.tencent.mm.debug.test.location_help"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -252,7 +252,7 @@
 
     const-string/jumbo v1, ".com.tencent.mm.debug.test.force_soso"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -264,7 +264,7 @@
 
     const-string/jumbo v1, ".com.tencent.mm.debug.test.simulatePostServerError"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -276,7 +276,7 @@
 
     const-string/jumbo v1, ".com.tencent.mm.debug.test.simulateUploadServerError"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -288,7 +288,7 @@
 
     const-string/jumbo v1, ".com.tencent.mm.debug.test.snsNotwirteThumb"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -300,7 +300,7 @@
 
     const-string/jumbo v1, ".com.tencent.mm.debug.test.filterfpnp"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -312,7 +312,7 @@
 
     const-string/jumbo v1, ".com.tencent.mm.debug.test.testForPull"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -324,7 +324,7 @@
 
     const-string/jumbo v1, ".com.tencent.mm.debug.test.cdnDownloadThread"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->getInteger(Ljava/lang/String;)Ljava/lang/Integer;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->getInteger(Ljava/lang/String;)Ljava/lang/Integer;
 
     move-result-object v1
 
@@ -369,7 +369,7 @@
     :cond_0
     const-string/jumbo v1, ".com.tencent.mm.debug.test.logShowSnsItemXml"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -382,7 +382,7 @@
     :try_start_0
     const-string/jumbo v1, ".com.tencent.mm.debug.log.setversion"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -414,7 +414,7 @@
     :try_start_1
     const-string/jumbo v1, ".com.tencent.mm.debug.log.setapilevel"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -491,7 +491,7 @@
     :try_start_2
     const-string/jumbo v1, ".com.tencent.mm.debug.log.setuin"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -533,7 +533,7 @@
     :try_start_3
     const-string/jumbo v1, ".com.tencent.mm.debug.report.debugmodel"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -545,7 +545,7 @@
 
     const-string/jumbo v2, ".com.tencent.mm.debug.report.kvstat"
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v2
 
@@ -557,7 +557,7 @@
 
     const-string/jumbo v3, ".com.tencent.mm.debug.report.clientpref"
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v3
 
@@ -569,7 +569,7 @@
 
     const-string/jumbo v4, ".com.tencent.mm.debug.report.useraction"
 
-    invoke-virtual {v0, v4}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v4}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v4
 
@@ -630,7 +630,7 @@
     :goto_3
     const-string/jumbo v1, ".com.tencent.mm.debug.jsapi.permission"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -664,7 +664,7 @@
 
     const-string/jumbo v1, ".com.tencent.mm.debug.generalcontrol.permission"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -698,7 +698,7 @@
 
     const-string/jumbo v1, ".com.tencent.mm.debug.skiploadurlcheck"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v0
 

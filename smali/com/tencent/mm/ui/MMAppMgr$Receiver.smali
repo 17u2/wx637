@@ -245,7 +245,7 @@
 
     .line 143
     :cond_4
-    invoke-static {}, Lcom/tencent/mm/booter/l;->nn()V
+    invoke-static {}, Lcom/tencent/mm/booter/Lclz;->nn()V
 
     .line 145
     iget-object v0, p0, Lcom/tencent/mm/ui/MMAppMgr$Receiver;->alW:Lcom/tencent/mm/ui/MMAppMgr;

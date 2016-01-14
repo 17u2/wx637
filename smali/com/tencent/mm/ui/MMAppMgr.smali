@@ -682,7 +682,7 @@
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/MMNativeJpeg;->Destroy()V
 
     .line 637
-    invoke-static {}, Lcom/tencent/mm/booter/l;->kW()V
+    invoke-static {}, Lcom/tencent/mm/booter/Lclz;->kW()V
 
     .line 638
     invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;

@@ -94,7 +94,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/booter/c;->ah(Landroid/content/Context;)Lcom/tencent/mm/booter/c;
+    invoke-static {v0}, Lcom/tencent/mm/booter/Cclz;->ah(Landroid/content/Context;)Lcom/tencent/mm/booter/Cclz;
 
     move-result-object v0
 
@@ -124,11 +124,11 @@
     :try_start_0
     const-string/jumbo v1, "SANDBOX"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cr(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cr(Ljava/lang/String;)V
 
     const-string/jumbo v1, ".com.tencent.mm.debug.test.network.simulate_down_fault"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/c;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/Cclz;->cs(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v0
 

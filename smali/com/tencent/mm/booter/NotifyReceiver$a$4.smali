@@ -314,7 +314,7 @@
     :goto_3
     if-eqz v0, :cond_b
 
-    invoke-static {}, Lcom/tencent/mm/booter/g;->ne()Z
+    invoke-static {}, Lcom/tencent/mm/booter/Gclz;->ne()Z
 
     move-result v0
 
@@ -549,7 +549,7 @@
     invoke-static {}, Lcom/tencent/mm/ap/a;->run()V
 
     .line 747
-    invoke-static {}, Lcom/tencent/mm/booter/j;->run()V
+    invoke-static {}, Lcom/tencent/mm/booter/Jclz;->run()V
 
     .line 749
     invoke-static {}, Lcom/tencent/mm/model/az;->ut()Lcom/tencent/mm/model/az;
@@ -559,7 +559,7 @@
     invoke-virtual {v0}, Lcom/tencent/mm/model/az;->uu()V
 
     .line 750
-    invoke-static {}, Lcom/tencent/mm/booter/h;->run()V
+    invoke-static {}, Lcom/tencent/mm/booter/Hclz;->run()V
 
     .line 751
     invoke-static {}, Lcom/tencent/mm/ap/d;->ne()Z
@@ -572,7 +572,7 @@
 
     .line 752
     :cond_c
-    invoke-static {}, Lcom/tencent/mm/booter/k;->run()V
+    invoke-static {}, Lcom/tencent/mm/booter/Kclz;->run()V
 
     .line 754
     invoke-static {}, Lcom/tencent/mm/model/ah;->sX()Z
@@ -916,7 +916,7 @@
     .line 765
     :cond_16
     :goto_c
-    invoke-static {}, Lcom/tencent/mm/booter/i;->run()V
+    invoke-static {}, Lcom/tencent/mm/booter/Iclz;->run()V
 
     .line 766
     invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;

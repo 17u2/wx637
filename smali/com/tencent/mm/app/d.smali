@@ -248,7 +248,7 @@
     .line 113
     const-string/jumbo v0, "noop"
 
-    invoke-static {p1, v0}, Lcom/tencent/mm/booter/b;->o(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-static {p1, v0}, Lcom/tencent/mm/booter/Bclz;->o(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v0
 

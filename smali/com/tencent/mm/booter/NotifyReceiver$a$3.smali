@@ -113,13 +113,13 @@
     if-eqz v0, :cond_1
 
     .line 702
-    invoke-static {}, Lcom/tencent/mm/booter/notification/f$a;->ny()Lcom/tencent/mm/booter/notification/f;
+    invoke-static {}, Lcom/tencent/mm/booter/notification/Fclz$a;->ny()Lcom/tencent/mm/booter/notification/Fclz;
 
     move-result-object v0
 
     const/4 v1, -0x1
 
-    invoke-virtual {v0, v1, v5}, Lcom/tencent/mm/booter/notification/f;->i(ILjava/lang/String;)V
+    invoke-virtual {v0, v1, v5}, Lcom/tencent/mm/booter/notification/Fclz;->i(ILjava/lang/String;)V
 
     .line 703
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->appenderFlushSync()V

@@ -81,13 +81,13 @@
 
     .line 54
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/booter/notification/queue/b;->nz()Lcom/tencent/mm/booter/notification/queue/b;
+    invoke-static {}, Lcom/tencent/mm/booter/notification/queue/Bclz;->nz()Lcom/tencent/mm/booter/notification/queue/Bclz;
 
     move-result-object v0
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/booter/notification/queue/b;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Lcom/tencent/mm/booter/notification/queue/Bclz;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
 
@@ -147,11 +147,11 @@
     .line 62
     :cond_3
     :goto_3
-    invoke-static {}, Lcom/tencent/mm/booter/notification/queue/b;->nz()Lcom/tencent/mm/booter/notification/queue/b;
+    invoke-static {}, Lcom/tencent/mm/booter/notification/queue/Bclz;->nz()Lcom/tencent/mm/booter/notification/queue/Bclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/notification/queue/b;->remove(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/booter/notification/queue/Bclz;->remove(I)V
 
     goto :goto_1
 

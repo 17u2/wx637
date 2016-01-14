@@ -48,7 +48,7 @@
 
     .prologue
     .line 1995
-    invoke-static {p1, p2, p3, p4, p5}, Lcom/tencent/mm/booter/notification/a/h;->a(ILjava/lang/String;Ljava/lang/String;ILandroid/content/Context;)Ljava/lang/String;
+    invoke-static {p1, p2, p3, p4, p5}, Lcom/tencent/mm/booter/notification/a/Hclz;->a(ILjava/lang/String;Ljava/lang/String;ILandroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -60,7 +60,7 @@
 
     .prologue
     .line 1990
-    invoke-static {p1, p2, p3, p4, p5}, Lcom/tencent/mm/booter/notification/a/h;->b(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/pointers/PString;Lcom/tencent/mm/pointers/PString;Lcom/tencent/mm/pointers/PInt;Z)Ljava/lang/String;
+    invoke-static {p1, p2, p3, p4, p5}, Lcom/tencent/mm/booter/notification/a/Hclz;->b(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/pointers/PString;Lcom/tencent/mm/pointers/PString;Lcom/tencent/mm/pointers/PInt;Z)Ljava/lang/String;
 
     .line 1991
     return-void

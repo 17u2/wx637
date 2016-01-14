@@ -1090,7 +1090,7 @@
 
     iget-object v6, p0, Lcom/tencent/mm/ui/conversation/c;->context:Landroid/content/Context;
 
-    invoke-static {v0, v1, v4, v5, v6}, Lcom/tencent/mm/booter/notification/a/h;->a(ILjava/lang/String;Ljava/lang/String;ILandroid/content/Context;)Ljava/lang/String;
+    invoke-static {v0, v1, v4, v5, v6}, Lcom/tencent/mm/booter/notification/a/Hclz;->a(ILjava/lang/String;Ljava/lang/String;ILandroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -2737,7 +2737,7 @@
 
     move-result v4
 
-    invoke-static {v4}, Lcom/tencent/mm/booter/notification/a/h;->bL(I)V
+    invoke-static {v4}, Lcom/tencent/mm/booter/notification/a/Hclz;->bL(I)V
 
     .line 708
     iget-object v4, v3, Lcom/tencent/mm/ui/conversation/c$g;->kvo:Lcom/tencent/mm/ui/base/NoMeasuredTextView;
@@ -2748,7 +2748,7 @@
 
     float-to-int v4, v4
 
-    invoke-static {v4}, Lcom/tencent/mm/booter/notification/a/h;->bM(I)V
+    invoke-static {v4}, Lcom/tencent/mm/booter/notification/a/Hclz;->bM(I)V
 
     .line 709
     iget-object v4, v3, Lcom/tencent/mm/ui/conversation/c$g;->kvo:Lcom/tencent/mm/ui/base/NoMeasuredTextView;
@@ -2757,7 +2757,7 @@
 
     move-result-object v4
 
-    invoke-static {v4}, Lcom/tencent/mm/booter/notification/a/h;->a(Landroid/text/TextPaint;)V
+    invoke-static {v4}, Lcom/tencent/mm/booter/notification/a/Hclz;->a(Landroid/text/TextPaint;)V
 
     .line 711
     invoke-virtual {v5}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;

@@ -146,22 +146,22 @@
 
     .line 2352
     :cond_3
-    new-instance v0, Lcom/tencent/mm/booter/m;
+    new-instance v0, Lcom/tencent/mm/booter/Mclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/LauncherUI$8;->jwy:Lcom/tencent/mm/ui/LauncherUI;
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/booter/m;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/booter/Mclz;-><init>(Landroid/content/Context;)V
 
-    new-instance v1, Lcom/tencent/mm/booter/m$1;
+    new-instance v1, Lcom/tencent/mm/booter/Mclz$1;
 
-    invoke-direct {v1, v0}, Lcom/tencent/mm/booter/m$1;-><init>(Lcom/tencent/mm/booter/m;)V
+    invoke-direct {v1, v0}, Lcom/tencent/mm/booter/Mclz$1;-><init>(Lcom/tencent/mm/booter/Mclz;)V
 
     const-string/jumbo v0, "StartupReport_report"
 
     invoke-static {v1, v0}, Lcom/tencent/mm/sdk/h/e;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
 
     .line 2353
-    invoke-static {v3}, Lcom/tencent/mm/booter/l;->aq(Z)V
+    invoke-static {v3}, Lcom/tencent/mm/booter/Lclz;->aq(Z)V
 
     .line 2354
     invoke-static {}, Lcom/tencent/mm/ui/LauncherUI;->aUg()V

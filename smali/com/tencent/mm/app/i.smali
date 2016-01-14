@@ -998,7 +998,7 @@
 
     .prologue
     .line 458
-    invoke-static {}, Lcom/tencent/mm/booter/l;->kW()V
+    invoke-static {}, Lcom/tencent/mm/booter/Lclz;->kW()V
 
     .line 459
     return-void
