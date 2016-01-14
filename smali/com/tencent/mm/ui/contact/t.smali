@@ -49,7 +49,7 @@
 
     iget-object v1, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/s/m;->gG(Ljava/lang/String;)Lcom/tencent/mm/s/k;
+    invoke-static {v1}, Lcom/tencent/mm/s/Mclz;->gG(Ljava/lang/String;)Lcom/tencent/mm/s/Kclz;
 
     move-result-object v1
 
@@ -236,7 +236,7 @@
 
     .line 40
     :cond_2
-    iget-object v0, v1, Lcom/tencent/mm/s/k;->field_brandIconURL:Ljava/lang/String;
+    iget-object v0, v1, Lcom/tencent/mm/s/Kclz;->field_brandIconURL:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->Bi(Ljava/lang/String;)Ljava/lang/String;
 
@@ -282,11 +282,11 @@
     invoke-direct {v2, p1, v0, v3}, Lcom/tencent/mm/ac/g;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 66
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     goto :goto_0
 

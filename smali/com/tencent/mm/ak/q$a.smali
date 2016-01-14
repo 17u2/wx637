@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 
 
 # annotations
@@ -151,22 +151,22 @@
     iput-object v0, p0, Lcom/tencent/mm/ak/q$a;->aoy:Lcom/tencent/mm/sdk/platformtools/ag;
 
     .line 32
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x95
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 33
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x96
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 34
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -803,13 +803,13 @@
 
     iput-object v1, p0, Lcom/tencent/mm/ak/q$a;->bXZ:Lcom/tencent/mm/ak/b;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ak/q$a;->bXZ:Lcom/tencent/mm/ak/b;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     :cond_b
     iget-boolean v0, p0, Lcom/tencent/mm/ak/q$a;->aos:Z
@@ -877,13 +877,13 @@
 
     iput-object v1, p0, Lcom/tencent/mm/ak/q$a;->bYa:Lcom/tencent/mm/ak/d;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ak/q$a;->bYa:Lcom/tencent/mm/ak/d;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     goto/16 :goto_1
 
@@ -970,7 +970,7 @@
 
 
 # virtual methods
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 2
 
     .prologue
@@ -981,7 +981,7 @@
 
     new-instance v1, Lcom/tencent/mm/ak/q$a$1;
 
-    invoke-direct {v1, p0, p4, p1, p2}, Lcom/tencent/mm/ak/q$a$1;-><init>(Lcom/tencent/mm/ak/q$a;Lcom/tencent/mm/q/j;II)V
+    invoke-direct {v1, p0, p4, p1, p2}, Lcom/tencent/mm/ak/q$a$1;-><init>(Lcom/tencent/mm/ak/q$a;Lcom/tencent/mm/q/Jclz;II)V
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ac;->r(Ljava/lang/Runnable;)I
 

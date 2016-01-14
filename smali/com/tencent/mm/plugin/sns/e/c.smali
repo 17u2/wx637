@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lcom/tencent/mm/plugin/sns/d/e;
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 
 
 # annotations
@@ -999,11 +999,11 @@
     invoke-direct/range {v0 .. v7}, Lcom/tencent/mm/plugin/sns/d/t;-><init>(IJLjava/lang/String;ILjava/util/List;I)V
 
     .line 645
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     goto/16 :goto_0
 .end method
@@ -2201,7 +2201,7 @@
 
 
 # virtual methods
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 3
 
     .prologue

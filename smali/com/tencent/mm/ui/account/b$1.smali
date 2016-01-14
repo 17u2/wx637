@@ -56,7 +56,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/account/b$1;->jAK:Lcom/tencent/mm/ui/account/b;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/account/b;->jAI:Lcom/tencent/mm/q/j;
+    iget-object v1, v1, Lcom/tencent/mm/ui/account/b;->jAI:Lcom/tencent/mm/q/Jclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/account/b$1;->jAK:Lcom/tencent/mm/ui/account/b;
 
@@ -66,16 +66,16 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ui/account/b;->d(Lcom/tencent/mm/q/j;Ljava/lang/String;)Lcom/tencent/mm/q/j;
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ui/account/b;->d(Lcom/tencent/mm/q/Jclz;Ljava/lang/String;)Lcom/tencent/mm/q/Jclz;
 
     move-result-object v0
 
     .line 39
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 40
     iget-object v1, p0, Lcom/tencent/mm/ui/account/b$1;->jAJ:Landroid/content/Context;
@@ -98,7 +98,7 @@
 
     new-instance v4, Lcom/tencent/mm/ui/account/b$1$1;
 
-    invoke-direct {v4, p0, v0}, Lcom/tencent/mm/ui/account/b$1$1;-><init>(Lcom/tencent/mm/ui/account/b$1;Lcom/tencent/mm/q/j;)V
+    invoke-direct {v4, p0, v0}, Lcom/tencent/mm/ui/account/b$1$1;-><init>(Lcom/tencent/mm/ui/account/b$1;Lcom/tencent/mm/q/Jclz;)V
 
     invoke-static {v1, v2, v3, v4}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
 

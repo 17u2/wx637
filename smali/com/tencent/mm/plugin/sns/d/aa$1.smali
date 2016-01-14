@@ -136,7 +136,7 @@
     :cond_0
     iget-wide v0, v0, Lcom/tencent/mm/plugin/sns/f/f;->gnq:J
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 
@@ -146,7 +146,7 @@
 
     invoke-direct {v3, v0, v1, v4}, Lcom/tencent/mm/plugin/sns/d/p;-><init>(JI)V
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 80
     :cond_1
@@ -199,7 +199,7 @@
     :cond_3
     iget-wide v0, v0, Lcom/tencent/mm/plugin/sns/f/f;->gnq:J
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 
@@ -209,7 +209,7 @@
 
     invoke-direct {v3, v0, v1, v4}, Lcom/tencent/mm/plugin/sns/d/p;-><init>(JI)V
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     goto :goto_1
 .end method

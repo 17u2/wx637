@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 .implements Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI$b;
 
 
@@ -56,7 +56,7 @@
 
 
 # virtual methods
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 9
 
     .prologue
@@ -143,7 +143,7 @@
 
     .line 144
     :cond_1
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
@@ -154,11 +154,11 @@
     if-eqz v0, :cond_6
 
     .line 145
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v3, p0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v3, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 147
     iget-object v1, p0, Lcom/tencent/mm/ui/account/mobile/f;->jCq:Lcom/tencent/mm/ui/account/f;
@@ -227,11 +227,11 @@
 
     .line 154
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v3, p0}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v3, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 155
     iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/f;->jzu:Lcom/tencent/mm/ui/applet/SecurityImage;
@@ -369,7 +369,7 @@
 
     move-object v5, p4
 
-    invoke-virtual/range {v0 .. v5}, Lcom/tencent/mm/ui/account/mobile/a;->a(Lcom/tencent/mm/ui/MMActivity;IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-virtual/range {v0 .. v5}, Lcom/tencent/mm/ui/account/mobile/a;->a(Lcom/tencent/mm/ui/MMActivity;IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 197
     if-nez p1, :cond_3
@@ -398,7 +398,7 @@
 
     .line 207
     :cond_6
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
@@ -431,11 +431,11 @@
     iput-object v0, v1, Lcom/tencent/mm/ui/account/f;->jCP:Ljava/lang/String;
 
     .line 212
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v4, p0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v4, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     move-object v0, p4
 
@@ -457,11 +457,11 @@
     if-nez p2, :cond_7
 
     .line 220
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v3, p0}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v3, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 221
     new-instance v1, Lcom/tencent/mm/ui/account/mobile/a;
@@ -545,7 +545,7 @@
     if-nez v0, :cond_3
 
     .line 251
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
@@ -656,11 +656,11 @@
 
     .line 65
     :pswitch_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v3, p0}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v3, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     new-instance v0, Lcom/tencent/mm/modelfriend/u;
 
@@ -688,11 +688,11 @@
 
     invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/modelfriend/u;-><init>(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     iget-object v1, p0, Lcom/tencent/mm/ui/account/mobile/f;->jHC:Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI;
 
@@ -782,11 +782,11 @@
 
     invoke-static {v0}, Lcom/tencent/mm/plugin/a/b;->kc(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v3, p0}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v3, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     new-instance v0, Lcom/tencent/mm/modelfriend/u;
 
@@ -802,11 +802,11 @@
 
     invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/modelfriend/u;-><init>(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     goto/16 :goto_0
 
@@ -870,11 +870,11 @@
 
     invoke-static {v0}, Lcom/tencent/mm/plugin/a/b;->kc(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v3, p0}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v3, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     new-instance v0, Lcom/tencent/mm/modelfriend/u;
 
@@ -902,11 +902,11 @@
 
     invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/modelfriend/u;-><init>(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     iget-object v1, p0, Lcom/tencent/mm/ui/account/mobile/f;->jHC:Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI;
 

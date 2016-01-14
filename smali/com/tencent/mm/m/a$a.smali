@@ -3824,7 +3824,7 @@
 
     .line 548
     :cond_2
-    invoke-static {v4}, Lcom/tencent/mm/s/k$c$b$a;->l(Ljava/util/Map;)Ljava/util/LinkedList;
+    invoke-static {v4}, Lcom/tencent/mm/s/Kclz$c$b$a;->l(Ljava/util/Map;)Ljava/util/LinkedList;
 
     move-result-object v0
 
@@ -5865,7 +5865,7 @@
 
     .line 378
     :cond_8
-    invoke-static {v2}, Lcom/tencent/mm/s/k$c$b$a;->l(Ljava/util/Map;)Ljava/util/LinkedList;
+    invoke-static {v2}, Lcom/tencent/mm/s/Kclz$c$b$a;->l(Ljava/util/Map;)Ljava/util/LinkedList;
 
     move-result-object v0
 

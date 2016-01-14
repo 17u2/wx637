@@ -1,5 +1,5 @@
 .class public abstract Lcom/tencent/mm/al/a;
-.super Lcom/tencent/mm/q/j;
+.super Lcom/tencent/mm/q/Jclz;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 5
-    invoke-direct {p0}, Lcom/tencent/mm/q/j;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/q/Jclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 

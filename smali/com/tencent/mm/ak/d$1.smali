@@ -214,7 +214,7 @@
     .line 224
     iget-object v0, p0, Lcom/tencent/mm/ak/d$1;->bWP:Lcom/tencent/mm/ak/d;
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/d;->e(Lcom/tencent/mm/ak/d;)Lcom/tencent/mm/q/d;
+    invoke-static {v0}, Lcom/tencent/mm/ak/d;->e(Lcom/tencent/mm/ak/d;)Lcom/tencent/mm/q/Dclz;
 
     move-result-object v0
 
@@ -222,7 +222,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ak/d$1;->bWP:Lcom/tencent/mm/ak/d;
 
-    invoke-interface {v0, v8, p2, v1, v2}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v8, p2, v1, v2}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto :goto_0
 
@@ -307,7 +307,7 @@
     .line 233
     iget-object v1, p0, Lcom/tencent/mm/ak/d$1;->bWP:Lcom/tencent/mm/ak/d;
 
-    invoke-static {v1}, Lcom/tencent/mm/ak/d;->e(Lcom/tencent/mm/ak/d;)Lcom/tencent/mm/q/d;
+    invoke-static {v1}, Lcom/tencent/mm/ak/d;->e(Lcom/tencent/mm/ak/d;)Lcom/tencent/mm/q/Dclz;
 
     move-result-object v1
 
@@ -327,7 +327,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ak/d$1;->bWP:Lcom/tencent/mm/ak/d;
 
-    invoke-interface {v1, v8, p2, v0, v2}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v1, v8, p2, v0, v2}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto/16 :goto_0
 
@@ -625,7 +625,7 @@
     .line 260
     iget-object v0, p0, Lcom/tencent/mm/ak/d$1;->bWP:Lcom/tencent/mm/ak/d;
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/d;->e(Lcom/tencent/mm/ak/d;)Lcom/tencent/mm/q/d;
+    invoke-static {v0}, Lcom/tencent/mm/ak/d;->e(Lcom/tencent/mm/ak/d;)Lcom/tencent/mm/q/Dclz;
 
     move-result-object v0
 
@@ -635,7 +635,7 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ak/d$1;->bWP:Lcom/tencent/mm/ak/d;
 
-    invoke-interface {v0, v8, v1, v2, v4}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v8, v1, v2, v4}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto/16 :goto_0
 
@@ -1076,7 +1076,7 @@
 
     .line 293
     :cond_b
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -1094,7 +1094,7 @@
 
     invoke-direct {v1, v2, p4, v4}, Lcom/tencent/mm/ak/e;-><init>(Ljava/lang/String;Lcom/tencent/mm/modelcdntran/keep_SceneResult;Lcom/tencent/mm/ak/e$a;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     goto/16 :goto_0
 

@@ -56,7 +56,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ac/d$1;->bNq:Lcom/tencent/mm/ac/d;
 
-    iget-object v0, v0, Lcom/tencent/mm/ac/d;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, v0, Lcom/tencent/mm/ac/d;->ans:Lcom/tencent/mm/q/Dclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ac/d$1$1;->bNr:Lcom/tencent/mm/ac/d$a;
 
@@ -74,7 +74,7 @@
 
     iget-object v4, v4, Lcom/tencent/mm/ac/d$1;->bNq:Lcom/tencent/mm/ac/d;
 
-    invoke-interface {v0, v1, v2, v3, v4}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v1, v2, v3, v4}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 253
     return-void

@@ -142,7 +142,7 @@
     :cond_0
     iget-object v6, v0, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
 
-    invoke-static {v6}, Lcom/tencent/mm/s/m;->gL(Ljava/lang/String;)Z
+    invoke-static {v6}, Lcom/tencent/mm/s/Mclz;->gL(Ljava/lang/String;)Z
 
     move-result v6
 
@@ -215,7 +215,7 @@
     if-ge v1, v0, :cond_4
 
     .line 757
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xy()Lcom/tencent/mm/s/a;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xy()Lcom/tencent/mm/s/Aclz;
 
     move-result-object v2
 
@@ -227,7 +227,7 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {v2, v0, v3}, Lcom/tencent/mm/s/a;->a(Ljava/lang/String;Lcom/tencent/mm/s/a$a;)Z
+    invoke-virtual {v2, v0, v3}, Lcom/tencent/mm/s/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/s/Aclz$a;)Z
 
     .line 756
     add-int/lit8 v0, v1, 0x1

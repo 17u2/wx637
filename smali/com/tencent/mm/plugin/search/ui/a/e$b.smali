@@ -232,7 +232,7 @@
     .line 79
     iget-object v0, p2, Lcom/tencent/mm/plugin/search/ui/a/e;->username:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/s/m;->gJ(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/s/Mclz;->gJ(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -264,7 +264,7 @@
     :cond_0
     iget-object v0, p2, Lcom/tencent/mm/plugin/search/ui/a/e;->username:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/s/m;->gK(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/s/Mclz;->gK(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -339,7 +339,7 @@
     :cond_2
     iget-object v0, p2, Lcom/tencent/mm/plugin/search/ui/a/e;->username:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/s/m;->gK(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/s/Mclz;->gK(Ljava/lang/String;)Z
 
     move-result v0
 

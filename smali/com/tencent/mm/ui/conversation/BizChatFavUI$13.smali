@@ -63,11 +63,11 @@
     move-result v5
 
     .line 921
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xs()Lcom/tencent/mm/s/e;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xs()Lcom/tencent/mm/s/Eclz;
 
     move-result-object v0
 
-    iget-object v1, v0, Lcom/tencent/mm/s/e;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v1, v0, Lcom/tencent/mm/s/Eclz;->aoD:Lcom/tencent/mm/sdk/g/d;
 
     .line 922
     const-wide/16 v2, 0x0
@@ -114,19 +114,19 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/s/d;
+    check-cast v0, Lcom/tencent/mm/s/Dclz;
 
     .line 928
     if-eqz v0, :cond_2
 
-    iget-object v6, v0, Lcom/tencent/mm/s/d;->field_bizChatServId:Ljava/lang/String;
+    iget-object v6, v0, Lcom/tencent/mm/s/Dclz;->field_bizChatServId:Ljava/lang/String;
 
     if-eqz v6, :cond_2
 
     .line 929
     iget-object v6, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$13;->kvF:Ljava/util/LinkedList;
 
-    iget-object v7, v0, Lcom/tencent/mm/s/d;->field_bizChatServId:Ljava/lang/String;
+    iget-object v7, v0, Lcom/tencent/mm/s/Dclz;->field_bizChatServId:Ljava/lang/String;
 
     invoke-virtual {v6, v7}, Ljava/util/LinkedList;->contains(Ljava/lang/Object;)Z
 
@@ -135,19 +135,19 @@
     if-nez v6, :cond_1
 
     .line 932
-    iget v6, v0, Lcom/tencent/mm/s/d;->field_bitFlag:I
+    iget v6, v0, Lcom/tencent/mm/s/Dclz;->field_bitFlag:I
 
     and-int/lit8 v6, v6, -0x9
 
-    iput v6, v0, Lcom/tencent/mm/s/d;->field_bitFlag:I
+    iput v6, v0, Lcom/tencent/mm/s/Dclz;->field_bitFlag:I
 
     .line 934
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xs()Lcom/tencent/mm/s/e;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xs()Lcom/tencent/mm/s/Eclz;
 
     move-result-object v6
 
-    invoke-virtual {v6, v0}, Lcom/tencent/mm/s/e;->b(Lcom/tencent/mm/s/d;)Z
+    invoke-virtual {v6, v0}, Lcom/tencent/mm/s/Eclz;->b(Lcom/tencent/mm/s/Dclz;)Z
 
     .line 926
     :cond_2

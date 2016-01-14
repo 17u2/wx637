@@ -290,7 +290,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/z/k$4;->bKx:Lcom/tencent/mm/z/k;
 
-    invoke-static {v0}, Lcom/tencent/mm/z/k;->f(Lcom/tencent/mm/z/k;)Lcom/tencent/mm/q/d;
+    invoke-static {v0}, Lcom/tencent/mm/z/k;->f(Lcom/tencent/mm/z/k;)Lcom/tencent/mm/q/Dclz;
 
     move-result-object v0
 
@@ -300,7 +300,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/z/k$4;->bKx:Lcom/tencent/mm/z/k;
 
-    invoke-interface {v0, p4, p5, v1, v2}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, p4, p5, v1, v2}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 794
     iget-object v0, p0, Lcom/tencent/mm/z/k$4$1;->bKy:Lcom/tencent/mm/z/k$4;

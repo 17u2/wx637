@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic cDy:Lcom/tencent/mm/s/v;
+.field final synthetic cDy:Lcom/tencent/mm/s/Vclz;
 
 .field final synthetic kvu:Lcom/tencent/mm/ui/conversation/BizChatConversationUI;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/conversation/BizChatConversationUI;Lcom/tencent/mm/s/v;)V
+.method constructor <init>(Lcom/tencent/mm/ui/conversation/BizChatConversationUI;Lcom/tencent/mm/s/Vclz;)V
     .locals 1
 
     .prologue
     .line 474
     iput-object p1, p0, Lcom/tencent/mm/ui/conversation/BizChatConversationUI$4;->kvu:Lcom/tencent/mm/ui/conversation/BizChatConversationUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/conversation/BizChatConversationUI$4;->cDy:Lcom/tencent/mm/s/v;
+    iput-object p2, p0, Lcom/tencent/mm/ui/conversation/BizChatConversationUI$4;->cDy:Lcom/tencent/mm/s/Vclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,13 +52,13 @@
 
     .prologue
     .line 477
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/conversation/BizChatConversationUI$4;->cDy:Lcom/tencent/mm/s/v;
+    iget-object v1, p0, Lcom/tencent/mm/ui/conversation/BizChatConversationUI$4;->cDy:Lcom/tencent/mm/s/Vclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->c(Lcom/tencent/mm/q/j;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 
     .line 478
     return-void

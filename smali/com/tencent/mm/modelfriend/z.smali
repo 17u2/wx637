@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/modelfriend/z;
-.super Lcom/tencent/mm/q/j;
+.super Lcom/tencent/mm/q/Jclz;
 .source "SourceFile"
 
 # interfaces
@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field ans:Lcom/tencent/mm/q/d;
+.field ans:Lcom/tencent/mm/q/Dclz;
 
 .field public final byM:Lcom/tencent/mm/network/o;
 
@@ -26,12 +26,12 @@
 
     .prologue
     .line 35
-    invoke-direct {p0}, Lcom/tencent/mm/q/j;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/q/Jclz;-><init>()V
 
     .line 27
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/modelfriend/z;->ans:Lcom/tencent/mm/q/d;
+    iput-object v0, p0, Lcom/tencent/mm/modelfriend/z;->ans:Lcom/tencent/mm/q/Dclz;
 
     .line 36
     new-instance v0, Lcom/tencent/mm/modelfriend/z$a;
@@ -117,12 +117,12 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/d;)I
+.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
     .locals 1
 
     .prologue
     .line 51
-    iput-object p2, p0, Lcom/tencent/mm/modelfriend/z;->ans:Lcom/tencent/mm/q/d;
+    iput-object p2, p0, Lcom/tencent/mm/modelfriend/z;->ans:Lcom/tencent/mm/q/Dclz;
 
     .line 52
     iget-object v0, p0, Lcom/tencent/mm/modelfriend/z;->byM:Lcom/tencent/mm/network/o;
@@ -139,7 +139,7 @@
 
     .prologue
     .line 67
-    sget v0, Lcom/tencent/mm/q/j$b;->byq:I
+    sget v0, Lcom/tencent/mm/q/Jclz$b;->byq:I
 
     return v0
 .end method
@@ -202,14 +202,14 @@
 
     .line 106
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/modelfriend/z;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/modelfriend/z;->ans:Lcom/tencent/mm/q/Dclz;
 
-    invoke-interface {v0, p2, p3, p4, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, p2, p3, p4, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto :goto_0
 .end method
 
-.method protected final a(Lcom/tencent/mm/q/j$a;)V
+.method protected final a(Lcom/tencent/mm/q/Jclz$a;)V
     .locals 0
 
     .prologue

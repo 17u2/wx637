@@ -3245,7 +3245,7 @@
 
     .line 529
     :pswitch_2
-    invoke-static {}, Lcom/tencent/mm/s/m;->xc()Z
+    invoke-static {}, Lcom/tencent/mm/s/Mclz;->xc()Z
 
     move-result v0
 
@@ -3253,7 +3253,7 @@
 
     .line 532
     :pswitch_3
-    invoke-static {}, Lcom/tencent/mm/s/m;->wY()Z
+    invoke-static {}, Lcom/tencent/mm/s/Mclz;->wY()Z
 
     move-result v0
 
@@ -3261,7 +3261,7 @@
 
     .line 535
     :pswitch_4
-    invoke-static {}, Lcom/tencent/mm/s/m;->xb()Z
+    invoke-static {}, Lcom/tencent/mm/s/Mclz;->xb()Z
 
     move-result v0
 
@@ -3269,7 +3269,7 @@
 
     .line 538
     :pswitch_5
-    invoke-static {}, Lcom/tencent/mm/s/m;->wT()Z
+    invoke-static {}, Lcom/tencent/mm/s/Mclz;->wT()Z
 
     move-result v0
 
@@ -3277,7 +3277,7 @@
 
     .line 541
     :pswitch_6
-    invoke-static {}, Lcom/tencent/mm/s/m;->wR()Z
+    invoke-static {}, Lcom/tencent/mm/s/Mclz;->wR()Z
 
     move-result v0
 
@@ -3285,7 +3285,7 @@
 
     .line 544
     :pswitch_7
-    invoke-static {}, Lcom/tencent/mm/s/m;->xa()Z
+    invoke-static {}, Lcom/tencent/mm/s/Mclz;->xa()Z
 
     move-result v0
 
@@ -3293,7 +3293,7 @@
 
     .line 547
     :pswitch_8
-    invoke-static {}, Lcom/tencent/mm/s/m;->wU()Z
+    invoke-static {}, Lcom/tencent/mm/s/Mclz;->wU()Z
 
     move-result v0
 

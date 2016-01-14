@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 .implements Lcom/tencent/mm/ui/account/mobile/MobileInputUI$b;
 
 
@@ -131,11 +131,11 @@
     invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/modelfriend/u;-><init>(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)V
 
     .line 245
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 246
     return-void
@@ -143,7 +143,7 @@
 
 
 # virtual methods
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 8
 
     .prologue
@@ -271,7 +271,7 @@
 
     .line 152
     :cond_5
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
@@ -943,11 +943,11 @@
 
     invoke-virtual {v0, v6}, Lcom/tencent/mm/modelfriend/u;->di(I)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/b;->jGQ:Lcom/tencent/mm/ui/account/mobile/MobileInputUI;
 
@@ -1019,13 +1019,13 @@
 
     .prologue
     .line 55
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x91
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 56
     const/4 v0, 0x1
@@ -1107,13 +1107,13 @@
 
     .prologue
     .line 69
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x91
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 70
     const/4 v0, 0x0

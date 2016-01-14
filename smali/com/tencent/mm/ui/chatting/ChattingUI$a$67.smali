@@ -50,34 +50,34 @@
     .line 2945
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$67;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->K(Lcom/tencent/mm/ui/chatting/ChattingUI$a;)Lcom/tencent/mm/s/k;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->K(Lcom/tencent/mm/ui/chatting/ChattingUI$a;)Lcom/tencent/mm/s/Kclz;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
-    iput v1, v0, Lcom/tencent/mm/s/k;->field_hadAlert:I
+    iput v1, v0, Lcom/tencent/mm/s/Kclz;->field_hadAlert:I
 
     .line 2946
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$67;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->K(Lcom/tencent/mm/ui/chatting/ChattingUI$a;)Lcom/tencent/mm/s/k;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->K(Lcom/tencent/mm/ui/chatting/ChattingUI$a;)Lcom/tencent/mm/s/Kclz;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    iget v1, v0, Lcom/tencent/mm/s/k;->field_brandFlag:I
+    iget v1, v0, Lcom/tencent/mm/s/Kclz;->field_brandFlag:I
 
     and-int/lit8 v1, v1, -0x5
 
-    iput v1, v0, Lcom/tencent/mm/s/k;->field_brandFlag:I
+    iput v1, v0, Lcom/tencent/mm/s/Kclz;->field_brandFlag:I
 
-    invoke-static {v0}, Lcom/tencent/mm/s/m;->f(Lcom/tencent/mm/s/k;)V
+    invoke-static {v0}, Lcom/tencent/mm/s/Mclz;->f(Lcom/tencent/mm/s/Kclz;)V
 
     .line 2947
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xx()Lcom/tencent/mm/s/q;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xx()Lcom/tencent/mm/s/Qclz;
 
     move-result-object v0
 
@@ -87,7 +87,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/q;->gQ(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/Qclz;->gQ(Ljava/lang/String;)V
 
     .line 2948
     return-void

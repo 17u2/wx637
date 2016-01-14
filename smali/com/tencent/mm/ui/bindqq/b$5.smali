@@ -92,11 +92,11 @@
     invoke-virtual {v1}, Lcom/tencent/mm/ui/bindqq/b;->ajq()V
 
     .line 151
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 155
     iget-object v1, p0, Lcom/tencent/mm/ui/bindqq/b$5;->jYK:Lcom/tencent/mm/ui/bindqq/b;

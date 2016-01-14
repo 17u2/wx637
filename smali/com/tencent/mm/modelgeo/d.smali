@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/modelgeo/d;
-.super Lcom/tencent/mm/q/j;
+.super Lcom/tencent/mm/q/Jclz;
 .source "SourceFile"
 
 # interfaces
@@ -7,23 +7,23 @@
 
 
 # instance fields
-.field private ans:Lcom/tencent/mm/q/d;
+.field private ans:Lcom/tencent/mm/q/Dclz;
 
-.field public final ant:Lcom/tencent/mm/q/a;
+.field public final ant:Lcom/tencent/mm/q/Aclz;
 
 .field private axI:Ljava/lang/String;
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/d;)I
+.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
     .locals 1
 
     .prologue
     .line 51
-    iput-object p2, p0, Lcom/tencent/mm/modelgeo/d;->ans:Lcom/tencent/mm/q/d;
+    iput-object p2, p0, Lcom/tencent/mm/modelgeo/d;->ans:Lcom/tencent/mm/q/Dclz;
 
     .line 52
-    iget-object v0, p0, Lcom/tencent/mm/modelgeo/d;->ant:Lcom/tencent/mm/q/a;
+    iget-object v0, p0, Lcom/tencent/mm/modelgeo/d;->ant:Lcom/tencent/mm/q/Aclz;
 
     invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/modelgeo/d;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;)I
 
@@ -69,11 +69,11 @@
     if-nez p3, :cond_1
 
     .line 59
-    check-cast p5, Lcom/tencent/mm/q/a;
+    check-cast p5, Lcom/tencent/mm/q/Aclz;
 
-    iget-object v0, p5, Lcom/tencent/mm/q/a;->bxJ:Lcom/tencent/mm/q/a$c;
+    iget-object v0, p5, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/OPclz;
 
@@ -90,14 +90,14 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 62
-    iget-object v0, p0, Lcom/tencent/mm/modelgeo/d;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/modelgeo/d;->ans:Lcom/tencent/mm/q/Dclz;
 
     if-eqz v0, :cond_0
 
     .line 63
-    iget-object v0, p0, Lcom/tencent/mm/modelgeo/d;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/modelgeo/d;->ans:Lcom/tencent/mm/q/Dclz;
 
-    invoke-interface {v0, p2, p3, p4, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, p2, p3, p4, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 70
     :cond_0
@@ -106,14 +106,14 @@
 
     .line 66
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/modelgeo/d;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/modelgeo/d;->ans:Lcom/tencent/mm/q/Dclz;
 
     if-eqz v0, :cond_0
 
     .line 67
-    iget-object v0, p0, Lcom/tencent/mm/modelgeo/d;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/modelgeo/d;->ans:Lcom/tencent/mm/q/Dclz;
 
-    invoke-interface {v0, p2, p3, p4, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, p2, p3, p4, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto :goto_0
 .end method

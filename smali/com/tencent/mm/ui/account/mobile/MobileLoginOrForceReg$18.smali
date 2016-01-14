@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    value = Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic aoz:Lcom/tencent/mm/q/j;
+.field final synthetic aoz:Lcom/tencent/mm/q/Jclz;
 
 .field final synthetic jHu:Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;
 
@@ -30,7 +30,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/q/j;Ljava/lang/Boolean;)V
+.method constructor <init>(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/q/Jclz;Ljava/lang/Boolean;)V
     .locals 1
 
     .prologue
@@ -41,7 +41,7 @@
 
     iput-object p3, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$18;->jHw:Ljava/lang/String;
 
-    iput-object p4, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$18;->aoz:Lcom/tencent/mm/q/j;
+    iput-object p4, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$18;->aoz:Lcom/tencent/mm/q/Jclz;
 
     iput-object p5, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$18;->jHx:Ljava/lang/Boolean;
 
@@ -112,7 +112,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v13, v0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$18;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v13, v0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$18;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v13, Lcom/tencent/mm/modelsimple/v;
 
@@ -147,11 +147,11 @@
     invoke-direct/range {v1 .. v16}, Lcom/tencent/mm/modelsimple/v;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
     .line 437
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 439
     move-object/from16 v0, p0

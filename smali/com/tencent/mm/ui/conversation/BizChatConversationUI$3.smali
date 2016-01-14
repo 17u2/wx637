@@ -74,7 +74,7 @@
 
     .line 400
     :pswitch_1
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xt()Lcom/tencent/mm/s/c;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xt()Lcom/tencent/mm/s/Cclz;
 
     move-result-object v0
 
@@ -84,32 +84,32 @@
 
     move-result-wide v1
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/s/c;->I(J)Lcom/tencent/mm/s/b;
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/s/Cclz;->I(J)Lcom/tencent/mm/s/Bclz;
 
     move-result-object v0
 
     .line 401
     const/4 v1, 0x1
 
-    iput v1, v0, Lcom/tencent/mm/s/b;->field_unReadCount:I
+    iput v1, v0, Lcom/tencent/mm/s/Bclz;->field_unReadCount:I
 
     .line 403
     const/4 v1, 0x0
 
-    iput v1, v0, Lcom/tencent/mm/s/b;->field_atCount:I
+    iput v1, v0, Lcom/tencent/mm/s/Bclz;->field_atCount:I
 
     .line 404
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xt()Lcom/tencent/mm/s/c;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xt()Lcom/tencent/mm/s/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/s/c;->b(Lcom/tencent/mm/s/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/s/Cclz;->b(Lcom/tencent/mm/s/Bclz;)Z
 
     goto :goto_0
 
     .line 409
     :pswitch_2
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xt()Lcom/tencent/mm/s/c;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xt()Lcom/tencent/mm/s/Cclz;
 
     move-result-object v0
 
@@ -119,7 +119,7 @@
 
     move-result-wide v1
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/s/c;->K(J)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/s/Cclz;->K(J)Z
 
     goto :goto_0
 

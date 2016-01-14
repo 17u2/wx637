@@ -737,7 +737,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/s/i;
+    check-cast v0, Lcom/tencent/mm/s/Iclz;
 
     move-object v5, v0
 
@@ -873,7 +873,7 @@
 
     move-result-object v0
 
-    iget-object v4, v5, Lcom/tencent/mm/s/i;->field_headImageUrl:Ljava/lang/String;
+    iget-object v4, v5, Lcom/tencent/mm/s/Iclz;->field_headImageUrl:Ljava/lang/String;
 
     iget-object v9, v1, Lcom/tencent/mm/pluginsdk/ui/applet/e$b;->crp:Landroid/widget/ImageView;
 
@@ -904,7 +904,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->hTw:Ljava/lang/String;
 
-    iget-object v2, v5, Lcom/tencent/mm/s/i;->field_userId:Ljava/lang/String;
+    iget-object v2, v5, Lcom/tencent/mm/s/Iclz;->field_userId:Ljava/lang/String;
 
     invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -931,7 +931,7 @@
     .line 713
     iget-object v0, v1, Lcom/tencent/mm/pluginsdk/ui/applet/e$b;->cyH:Landroid/widget/ImageView;
 
-    iget-object v2, v5, Lcom/tencent/mm/s/i;->field_userId:Ljava/lang/String;
+    iget-object v2, v5, Lcom/tencent/mm/s/Iclz;->field_userId:Ljava/lang/String;
 
     invoke-direct {p0, v0, v2}, Lcom/tencent/mm/pluginsdk/ui/applet/e;->l(Landroid/widget/ImageView;Ljava/lang/String;)V
 
@@ -1100,7 +1100,7 @@
     .line 586
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->mContext:Landroid/content/Context;
 
-    iget-object v4, v5, Lcom/tencent/mm/s/i;->field_userName:Ljava/lang/String;
+    iget-object v4, v5, Lcom/tencent/mm/s/Iclz;->field_userName:Ljava/lang/String;
 
     iget-object v9, v1, Lcom/tencent/mm/pluginsdk/ui/applet/e$b;->cyE:Landroid/widget/TextView;
 
@@ -1889,17 +1889,17 @@
 
     if-eqz v7, :cond_5
 
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xu()Lcom/tencent/mm/s/j;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xu()Lcom/tencent/mm/s/Jclz;
 
     move-result-object v7
 
-    invoke-virtual {v7, v0}, Lcom/tencent/mm/s/j;->gp(Ljava/lang/String;)Lcom/tencent/mm/s/i;
+    invoke-virtual {v7, v0}, Lcom/tencent/mm/s/Jclz;->gp(Ljava/lang/String;)Lcom/tencent/mm/s/Iclz;
 
     move-result-object v7
 
     if-eqz v7, :cond_3
 
-    iget-object v8, v7, Lcom/tencent/mm/s/i;->field_userId:Ljava/lang/String;
+    iget-object v8, v7, Lcom/tencent/mm/s/Iclz;->field_userId:Ljava/lang/String;
 
     invoke-static {v8}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -1907,7 +1907,7 @@
 
     if-nez v8, :cond_3
 
-    iget-object v8, v7, Lcom/tencent/mm/s/i;->field_userId:Ljava/lang/String;
+    iget-object v8, v7, Lcom/tencent/mm/s/Iclz;->field_userId:Ljava/lang/String;
 
     invoke-virtual {v8, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2016,11 +2016,11 @@
 
     if-eqz v7, :cond_8
 
-    new-instance v7, Lcom/tencent/mm/s/i;
+    new-instance v7, Lcom/tencent/mm/s/Iclz;
 
-    invoke-direct {v7}, Lcom/tencent/mm/s/i;-><init>()V
+    invoke-direct {v7}, Lcom/tencent/mm/s/Iclz;-><init>()V
 
-    iput-object v0, v7, Lcom/tencent/mm/s/i;->field_userId:Ljava/lang/String;
+    iput-object v0, v7, Lcom/tencent/mm/s/Iclz;->field_userId:Ljava/lang/String;
 
     iget-object v8, p0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->hTj:Ljava/util/List;
 
@@ -2088,11 +2088,11 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/s/i;
+    check-cast v0, Lcom/tencent/mm/s/Iclz;
 
     iget-object v7, p0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->hTw:Ljava/lang/String;
 
-    iget-object v8, v0, Lcom/tencent/mm/s/i;->field_userId:Ljava/lang/String;
+    iget-object v8, v0, Lcom/tencent/mm/s/Iclz;->field_userId:Ljava/lang/String;
 
     invoke-virtual {v7, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2118,13 +2118,13 @@
 
     if-eqz v0, :cond_13
 
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xu()Lcom/tencent/mm/s/j;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xu()Lcom/tencent/mm/s/Jclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->username:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/j;->gs(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/Jclz;->gs(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -2145,9 +2145,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/s/i;
+    check-cast v0, Lcom/tencent/mm/s/Iclz;
 
-    iget-object v6, v0, Lcom/tencent/mm/s/i;->field_userId:Ljava/lang/String;
+    iget-object v6, v0, Lcom/tencent/mm/s/Iclz;->field_userId:Ljava/lang/String;
 
     invoke-virtual {v1, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

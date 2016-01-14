@@ -750,43 +750,43 @@
     invoke-static {v4, v5, v7}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 460
-    new-instance v2, Lcom/tencent/mm/q/a$a;
+    new-instance v2, Lcom/tencent/mm/q/Aclz$a;
 
-    invoke-direct {v2}, Lcom/tencent/mm/q/a$a;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/q/Aclz$a;-><init>()V
 
     .line 461
     new-instance v3, Lcom/tencent/mm/protocal/b/aiq;
 
     invoke-direct {v3}, Lcom/tencent/mm/protocal/b/aiq;-><init>()V
 
-    iput-object v3, v2, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
+    iput-object v3, v2, Lcom/tencent/mm/q/Aclz$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 462
     new-instance v3, Lcom/tencent/mm/protocal/b/air;
 
     invoke-direct {v3}, Lcom/tencent/mm/protocal/b/air;-><init>()V
 
-    iput-object v3, v2, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
+    iput-object v3, v2, Lcom/tencent/mm/q/Aclz$a;->bxN:Lcom/tencent/mm/aq/a;
 
     .line 463
     const-string/jumbo v3, "/cgi-bin/micromsg-bin/rtkvreport"
 
-    iput-object v3, v2, Lcom/tencent/mm/q/a$a;->uri:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/q/Aclz$a;->uri:Ljava/lang/String;
 
     .line 464
     const/16 v3, 0x2cc
 
-    iput v3, v2, Lcom/tencent/mm/q/a$a;->bxK:I
+    iput v3, v2, Lcom/tencent/mm/q/Aclz$a;->bxK:I
 
     .line 465
-    invoke-virtual {v2}, Lcom/tencent/mm/q/a$a;->vl()Lcom/tencent/mm/q/a;
+    invoke-virtual {v2}, Lcom/tencent/mm/q/Aclz$a;->vl()Lcom/tencent/mm/q/Aclz;
 
     move-result-object v12
 
     .line 467
-    iget-object v2, v12, Lcom/tencent/mm/q/a;->bxI:Lcom/tencent/mm/q/a$b;
+    iget-object v2, v12, Lcom/tencent/mm/q/Aclz;->bxI:Lcom/tencent/mm/q/Aclz$b;
 
-    iget-object v5, v2, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v5, v2, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/a;
 
     check-cast v5, Lcom/tencent/mm/protocal/b/aiq;
 
@@ -947,7 +947,7 @@
 
     const/4 v3, 0x1
 
-    invoke-static {v12, v2, v3}, Lcom/tencent/mm/q/s;->a(Lcom/tencent/mm/q/a;Lcom/tencent/mm/q/s$a;Z)Lcom/tencent/mm/q/j;
+    invoke-static {v12, v2, v3}, Lcom/tencent/mm/q/Sclz;->a(Lcom/tencent/mm/q/Aclz;Lcom/tencent/mm/q/Sclz$a;Z)Lcom/tencent/mm/q/Jclz;
 
     goto/16 :goto_0
 .end method

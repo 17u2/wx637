@@ -22,11 +22,11 @@
 
 .field final synthetic fJo:Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;
 
-.field final synthetic fJp:Lcom/tencent/mm/q/d;
+.field final synthetic fJp:Lcom/tencent/mm/q/Dclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;Lcom/tencent/mm/modelsimple/z;Lcom/tencent/mm/q/d;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;Lcom/tencent/mm/modelsimple/z;Lcom/tencent/mm/q/Dclz;)V
     .locals 1
 
     .prologue
@@ -35,7 +35,7 @@
 
     iput-object p2, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$2;->cyy:Lcom/tencent/mm/modelsimple/z;
 
-    iput-object p3, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$2;->fJp:Lcom/tencent/mm/q/d;
+    iput-object p3, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$2;->fJp:Lcom/tencent/mm/q/Dclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -56,24 +56,24 @@
 
     .prologue
     .line 166
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$2;->cyy:Lcom/tencent/mm/modelsimple/z;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->c(Lcom/tencent/mm/q/j;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 
     .line 167
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x6a
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$2;->fJp:Lcom/tencent/mm/q/d;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$2;->fJp:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 170
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$2;->fJo:Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;

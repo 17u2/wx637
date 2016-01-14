@@ -1,5 +1,5 @@
 .class public abstract Lcom/tencent/mm/pluginsdk/h/a/a/n;
-.super Lcom/tencent/mm/q/j;
+.super Lcom/tencent/mm/q/Jclz;
 .source "SourceFile"
 
 # interfaces
@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private volatile ans:Lcom/tencent/mm/q/d;
+.field private volatile ans:Lcom/tencent/mm/q/Dclz;
 
 .field protected final hOC:Ljava/util/List;
 
@@ -18,7 +18,7 @@
 
     .prologue
     .line 32
-    invoke-direct {p0}, Lcom/tencent/mm/q/j;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/q/Jclz;-><init>()V
 
     .line 30
     new-instance v0, Ljava/util/LinkedList;
@@ -71,12 +71,12 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/d;)I
+.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
     .locals 2
 
     .prologue
     .line 42
-    iput-object p2, p0, Lcom/tencent/mm/pluginsdk/h/a/a/n;->ans:Lcom/tencent/mm/q/d;
+    iput-object p2, p0, Lcom/tencent/mm/pluginsdk/h/a/a/n;->ans:Lcom/tencent/mm/q/Dclz;
 
     .line 43
     invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/h/a/a/n;->getTag()Ljava/lang/String;
@@ -158,9 +158,9 @@
 
     .line 74
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/a/n;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/a/n;->ans:Lcom/tencent/mm/q/Dclz;
 
-    invoke-interface {v0, p2, p3, p4, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, p2, p3, p4, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 75
     return-void

@@ -753,7 +753,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/q/c$b;->X(Ljava/lang/Object;)Lcom/tencent/mm/q/c;
+    invoke-static {v0}, Lcom/tencent/mm/q/Cclz$b;->X(Ljava/lang/Object;)Lcom/tencent/mm/q/Cclz;
 
     move-result-object v0
 
@@ -761,7 +761,7 @@
     if-eqz v0, :cond_0
 
     .line 237
-    invoke-interface {v0, p0}, Lcom/tencent/mm/q/c;->d(Lcom/tencent/mm/storage/ad;)V
+    invoke-interface {v0, p0}, Lcom/tencent/mm/q/Cclz;->d(Lcom/tencent/mm/storage/ad;)V
 
     goto :goto_0
 

@@ -55,24 +55,24 @@
     return-void
 .end method
 
-.method private qh(I)Lcom/tencent/mm/s/k$c$b$a;
+.method private qh(I)Lcom/tencent/mm/s/Kclz$c$b$a;
     .locals 1
 
     .prologue
     .line 204
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/q$b;->kbl:Lcom/tencent/mm/ui/chatting/q;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/q;->b(Lcom/tencent/mm/ui/chatting/q;)Lcom/tencent/mm/s/k$c$b$a;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/q;->b(Lcom/tencent/mm/ui/chatting/q;)Lcom/tencent/mm/s/Kclz$c$b$a;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/s/k$c$b$a;->bBd:Ljava/util/List;
+    iget-object v0, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->bBd:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/s/k$c$b$a;
+    check-cast v0, Lcom/tencent/mm/s/Kclz$c$b$a;
 
     return-object v0
 .end method
@@ -98,7 +98,7 @@
 
     .prologue
     .line 195
-    invoke-direct {p0, p1}, Lcom/tencent/mm/ui/chatting/q$b;->qh(I)Lcom/tencent/mm/s/k$c$b$a;
+    invoke-direct {p0, p1}, Lcom/tencent/mm/ui/chatting/q$b;->qh(I)Lcom/tencent/mm/s/Kclz$c$b$a;
 
     move-result-object v0
 
@@ -141,7 +141,7 @@
 
     .line 220
     :goto_0
-    invoke-direct {p0, p1}, Lcom/tencent/mm/ui/chatting/q$b;->qh(I)Lcom/tencent/mm/s/k$c$b$a;
+    invoke-direct {p0, p1}, Lcom/tencent/mm/ui/chatting/q$b;->qh(I)Lcom/tencent/mm/s/Kclz$c$b$a;
 
     move-result-object v1
 
@@ -155,7 +155,7 @@
 
     move-result-object v2
 
-    iget-object v1, v1, Lcom/tencent/mm/s/k$c$b$a;->name:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/s/Kclz$c$b$a;->name:Ljava/lang/String;
 
     invoke-static {v2, v1}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
 

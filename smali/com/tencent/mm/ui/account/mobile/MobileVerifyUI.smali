@@ -1307,11 +1307,11 @@
 
     .line 613
     :sswitch_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/l;->vv()I
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Lclz;->vv()I
 
     move-result v0
 

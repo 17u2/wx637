@@ -137,7 +137,7 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/z/a/a/c$a;-><init>()V
 
-    invoke-static {p0}, Lcom/tencent/mm/s/f;->gk(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/tencent/mm/s/Fclz;->gk(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 

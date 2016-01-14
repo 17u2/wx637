@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/s$b;
+.implements Lcom/tencent/mm/q/Sclz$b;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/model/ah;-><init>(Lcom/tencent/mm/model/x;Lcom/tencent/mm/storage/g;Lcom/tencent/mm/q/l$a;)V
+    value = Lcom/tencent/mm/model/ah;-><init>(Lcom/tencent/mm/model/x;Lcom/tencent/mm/storage/g;Lcom/tencent/mm/q/Lclz$a;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -43,14 +43,14 @@
 
 
 # virtual methods
-.method public final tB()Lcom/tencent/mm/q/l;
+.method public final tB()Lcom/tencent/mm/q/Lclz;
     .locals 1
 
     .prologue
     .line 478
     iget-object v0, p0, Lcom/tencent/mm/model/ah$5;->btU:Lcom/tencent/mm/model/ah;
 
-    invoke-static {v0}, Lcom/tencent/mm/model/ah;->g(Lcom/tencent/mm/model/ah;)Lcom/tencent/mm/q/l;
+    invoke-static {v0}, Lcom/tencent/mm/model/ah;->g(Lcom/tencent/mm/model/ah;)Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 

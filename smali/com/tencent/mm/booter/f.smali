@@ -457,7 +457,7 @@
 
     invoke-direct {v2}, Lcom/tencent/mm/booter/f$1;-><init>()V
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ac/a;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/d;)I
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ac/a;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -830,7 +830,7 @@
 
     invoke-direct {v2}, Lcom/tencent/mm/booter/f$2;-><init>()V
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ac/a;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/d;)I
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ac/a;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
 
     .line 276
     :cond_1

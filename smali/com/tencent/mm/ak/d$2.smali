@@ -60,11 +60,11 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ak/d$2;->bWP:Lcom/tencent/mm/ak/d;
 
-    invoke-static {v2}, Lcom/tencent/mm/ak/d;->e(Lcom/tencent/mm/ak/d;)Lcom/tencent/mm/q/d;
+    invoke-static {v2}, Lcom/tencent/mm/ak/d;->e(Lcom/tencent/mm/ak/d;)Lcom/tencent/mm/q/Dclz;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ak/d;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/d;)I
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ak/d;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
 
     move-result v0
 
@@ -86,7 +86,7 @@
     .line 736
     iget-object v0, p0, Lcom/tencent/mm/ak/d$2;->bWP:Lcom/tencent/mm/ak/d;
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/d;->e(Lcom/tencent/mm/ak/d;)Lcom/tencent/mm/q/d;
+    invoke-static {v0}, Lcom/tencent/mm/ak/d;->e(Lcom/tencent/mm/ak/d;)Lcom/tencent/mm/q/Dclz;
 
     move-result-object v0
 
@@ -96,7 +96,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ak/d$2;->bWP:Lcom/tencent/mm/ak/d;
 
-    invoke-interface {v0, v1, v4, v2, v3}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v1, v4, v2, v3}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 739
     :cond_0

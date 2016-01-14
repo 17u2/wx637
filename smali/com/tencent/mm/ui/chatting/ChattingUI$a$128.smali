@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    value = Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic aoz:Lcom/tencent/mm/q/j;
+.field final synthetic aoz:Lcom/tencent/mm/q/Jclz;
 
 .field final synthetic kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/q/j;)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/q/Jclz;)V
     .locals 1
 
     .prologue
     .line 8253
     iput-object p1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$128;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$128;->aoz:Lcom/tencent/mm/q/j;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$128;->aoz:Lcom/tencent/mm/q/Jclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -57,7 +57,7 @@
     move-result-wide v0
 
     .line 8257
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$128;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$128;->aoz:Lcom/tencent/mm/q/Jclz;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$128;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -65,7 +65,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/s/f;->b(Lcom/tencent/mm/q/j;Ljava/lang/String;)Z
+    invoke-static {v2, v3}, Lcom/tencent/mm/s/Fclz;->b(Lcom/tencent/mm/q/Jclz;Ljava/lang/String;)Z
 
     move-result v2
 
@@ -98,7 +98,7 @@
     if-eqz v2, :cond_0
 
     .line 8260
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xs()Lcom/tencent/mm/s/e;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xs()Lcom/tencent/mm/s/Eclz;
 
     move-result-object v0
 
@@ -108,14 +108,14 @@
 
     move-result-wide v1
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/s/e;->O(J)Lcom/tencent/mm/s/d;
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/s/Eclz;->O(J)Lcom/tencent/mm/s/Dclz;
 
     move-result-object v0
 
     .line 8261
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$128;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iput-object v0, v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/d;
+    iput-object v0, v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/Dclz;
 
     .line 8263
     new-instance v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$128$1;

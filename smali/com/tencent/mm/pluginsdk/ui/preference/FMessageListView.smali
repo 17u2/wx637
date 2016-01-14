@@ -1258,13 +1258,13 @@
     .line 108
     check-cast v0, Lcom/tencent/mm/pluginsdk/ui/preference/a;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v3
 
     const/16 v4, 0x1e
 
-    invoke-virtual {v3, v4, v0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v3, v4, v0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/preference/a;->cfz:Lcom/tencent/mm/ui/base/o;
 

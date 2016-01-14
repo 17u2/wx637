@@ -731,7 +731,7 @@
 
 
 # virtual methods
-.method public final a(JIILjava/lang/Object;IILcom/tencent/mm/q/j;)V
+.method public final a(JIILjava/lang/Object;IILcom/tencent/mm/q/Jclz;)V
     .locals 0
 
     .prologue

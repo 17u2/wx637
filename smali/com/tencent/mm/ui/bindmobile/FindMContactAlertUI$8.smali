@@ -50,14 +50,14 @@
     .line 419
     iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI$8;->jXP:Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;->h(Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;)Lcom/tencent/mm/q/d;
+    invoke-static {v0}, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;->h(Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;)Lcom/tencent/mm/q/Dclz;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 420
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -65,16 +65,16 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI$8;->jXP:Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;->h(Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;)Lcom/tencent/mm/q/d;
+    invoke-static {v2}, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;->h(Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;)Lcom/tencent/mm/q/Dclz;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 421
     iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI$8;->jXP:Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;->i(Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;)Lcom/tencent/mm/q/d;
+    invoke-static {v0}, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;->i(Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;)Lcom/tencent/mm/q/Dclz;
 
     .line 422
     iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI$8;->jXP:Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;

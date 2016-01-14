@@ -60,9 +60,9 @@
 
     .prologue
     .line 146
-    new-instance v0, Lcom/tencent/mm/q/i;
+    new-instance v0, Lcom/tencent/mm/q/Iclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/q/i;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/q/Iclz;-><init>()V
 
     .line 147
     new-instance v1, Lcom/tencent/mm/q/qclass;

@@ -109,7 +109,7 @@
     .line 317
     iget-object v10, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI$4;->jYG:Lcom/tencent/mm/ui/bindqq/NewBindQQUI;
 
-    new-instance v0, Lcom/tencent/mm/r/a;
+    new-instance v0, Lcom/tencent/mm/r/Aclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI$4;->jYG:Lcom/tencent/mm/ui/bindqq/NewBindQQUI;
 
@@ -165,22 +165,22 @@
 
     move-result-object v8
 
-    invoke-direct/range {v0 .. v9}, Lcom/tencent/mm/r/a;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+    invoke-direct/range {v0 .. v9}, Lcom/tencent/mm/r/Aclz;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-static {v10, v0}, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->a(Lcom/tencent/mm/ui/bindqq/NewBindQQUI;Lcom/tencent/mm/r/a;)Lcom/tencent/mm/r/a;
+    invoke-static {v10, v0}, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->a(Lcom/tencent/mm/ui/bindqq/NewBindQQUI;Lcom/tencent/mm/r/Aclz;)Lcom/tencent/mm/r/Aclz;
 
     .line 318
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI$4;->jYG:Lcom/tencent/mm/ui/bindqq/NewBindQQUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->j(Lcom/tencent/mm/ui/bindqq/NewBindQQUI;)Lcom/tencent/mm/r/a;
+    invoke-static {v1}, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->j(Lcom/tencent/mm/ui/bindqq/NewBindQQUI;)Lcom/tencent/mm/r/Aclz;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 319
     iget-object v0, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI$4;->jYG:Lcom/tencent/mm/ui/bindqq/NewBindQQUI;

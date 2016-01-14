@@ -15,7 +15,7 @@
 
 .field private final cBF:Lcom/tencent/mm/sdk/platformtools/ag;
 
-.field private final cBI:Lcom/tencent/mm/q/g$a;
+.field private final cBI:Lcom/tencent/mm/q/Gclz$a;
 
 .field private cBk:Landroid/media/ToneGenerator;
 
@@ -27,7 +27,7 @@
 
 .field private eGe:Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;
 
-.field private final eGj:Lcom/tencent/mm/q/g$b;
+.field private final eGj:Lcom/tencent/mm/q/Gclz$b;
 
 .field private jJD:Z
 
@@ -37,7 +37,7 @@
 
 .field private kbM:Lcom/tencent/mm/ui/chatting/cj;
 
-.field private kbN:Lcom/tencent/mm/q/g;
+.field private kbN:Lcom/tencent/mm/q/Gclz;
 
 .field private kbO:Ljava/lang/String;
 
@@ -94,14 +94,14 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/chatting/x$1;-><init>(Lcom/tencent/mm/ui/chatting/x;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->cBI:Lcom/tencent/mm/q/g$a;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->cBI:Lcom/tencent/mm/q/Gclz$a;
 
     .line 172
     new-instance v0, Lcom/tencent/mm/ui/chatting/x$2;
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/chatting/x$2;-><init>(Lcom/tencent/mm/ui/chatting/x;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->eGj:Lcom/tencent/mm/q/g$b;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->eGj:Lcom/tencent/mm/q/Gclz$b;
 
     .line 180
     iput-boolean v1, p0, Lcom/tencent/mm/ui/chatting/x;->kbT:Z
@@ -245,7 +245,7 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/app/plugin/voicereminder/a/i;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/g;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/Gclz;
 
     const-string/jumbo v0, "!56@/B4Tb64lLpKwUcOR+EdWcty+WvCaqY0r1h+IytP2caAOFJMyUBO6MA=="
 
@@ -254,17 +254,17 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/Gclz;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/x;->eGj:Lcom/tencent/mm/q/g$b;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/x;->eGj:Lcom/tencent/mm/q/Gclz$b;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/q/g;->a(Lcom/tencent/mm/q/g$b;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/q/Gclz;->a(Lcom/tencent/mm/q/Gclz$b;)V
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/Gclz;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/x;->cBI:Lcom/tencent/mm/q/g$a;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/x;->cBI:Lcom/tencent/mm/q/Gclz$a;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/q/g;->a(Lcom/tencent/mm/q/g$a;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/q/Gclz;->a(Lcom/tencent/mm/q/Gclz$a;)V
 
     .line 115
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->eGT:Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel$a;
@@ -312,7 +312,7 @@
 
     invoke-direct {v0, v1, v2}, Lcom/tencent/mm/c/b/h;-><init>(Landroid/content/Context;Z)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/g;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/Gclz;
 
     const-string/jumbo v0, "!56@/B4Tb64lLpKwUcOR+EdWcty+WvCaqY0r1h+IytP2caAOFJMyUBO6MA=="
 
@@ -345,25 +345,25 @@
 
     iget-object v3, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    invoke-static {v3}, Lcom/tencent/mm/s/m;->gG(Ljava/lang/String;)Lcom/tencent/mm/s/k;
+    invoke-static {v3}, Lcom/tencent/mm/s/Mclz;->gG(Ljava/lang/String;)Lcom/tencent/mm/s/Kclz;
 
     move-result-object v3
 
     if-eqz v3, :cond_6
 
-    invoke-virtual {v3, v1}, Lcom/tencent/mm/s/k;->aS(Z)Lcom/tencent/mm/s/k$c;
+    invoke-virtual {v3, v1}, Lcom/tencent/mm/s/Kclz;->aS(Z)Lcom/tencent/mm/s/Kclz$c;
 
     move-result-object v3
 
     if-eqz v3, :cond_6
 
-    iget-object v4, v3, Lcom/tencent/mm/s/k$c;->bAr:Lorg/json/JSONObject;
+    iget-object v4, v3, Lcom/tencent/mm/s/Kclz$c;->bAr:Lorg/json/JSONObject;
 
     if-eqz v4, :cond_5
 
     const-string/jumbo v4, "1"
 
-    iget-object v5, v3, Lcom/tencent/mm/s/k$c;->bAr:Lorg/json/JSONObject;
+    iget-object v5, v3, Lcom/tencent/mm/s/Kclz$c;->bAr:Lorg/json/JSONObject;
 
     const-string/jumbo v6, "CanReceiveSpeexVoice"
 
@@ -375,10 +375,10 @@
 
     move-result v4
 
-    iput-boolean v4, v3, Lcom/tencent/mm/s/k$c;->bAv:Z
+    iput-boolean v4, v3, Lcom/tencent/mm/s/Kclz$c;->bAv:Z
 
     :cond_5
-    iget-boolean v3, v3, Lcom/tencent/mm/s/k$c;->bAv:Z
+    iget-boolean v3, v3, Lcom/tencent/mm/s/Kclz$c;->bAv:Z
 
     if-eqz v3, :cond_6
 
@@ -428,7 +428,7 @@
 
     invoke-direct {v0, v2, v1}, Lcom/tencent/mm/c/b/h;-><init>(Landroid/content/Context;Z)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/g;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/Gclz;
 
     const-string/jumbo v0, "!56@/B4Tb64lLpKwUcOR+EdWcty+WvCaqY0r1h+IytP2caAOFJMyUBO6MA=="
 
@@ -439,12 +439,12 @@
     goto/16 :goto_1
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/chatting/x;)Lcom/tencent/mm/q/g;
+.method static synthetic a(Lcom/tencent/mm/ui/chatting/x;)Lcom/tencent/mm/q/Gclz;
     .locals 1
 
     .prologue
     .line 69
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/Gclz;
 
     return-object v0
 .end method
@@ -495,14 +495,14 @@
     invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->gx(Z)V
 
     .line 490
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/Gclz;
 
     if-eqz v0, :cond_5
 
     .line 492
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/Gclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/q/g;->lC()Z
+    invoke-interface {v0}, Lcom/tencent/mm/q/Gclz;->lC()Z
 
     move-result v0
 
@@ -537,9 +537,9 @@
 
     .line 494
     :goto_1
-    iget-object v3, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/g;
+    iget-object v3, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/Gclz;
 
-    invoke-interface {v3}, Lcom/tencent/mm/q/g;->lD()Z
+    invoke-interface {v3}, Lcom/tencent/mm/q/Gclz;->lD()Z
 
     move-result v3
 
@@ -581,9 +581,9 @@
 
     move-result-object v1
 
-    iget-object v4, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/g;
+    iget-object v4, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/Gclz;
 
-    invoke-interface {v4}, Lcom/tencent/mm/q/g;->lF()I
+    invoke-interface {v4}, Lcom/tencent/mm/q/Gclz;->lF()I
 
     move-result v4
 
@@ -603,9 +603,9 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/ad;->u(J)V
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/g;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/Gclz;
 
-    invoke-interface {v1}, Lcom/tencent/mm/q/g;->lG()I
+    invoke-interface {v1}, Lcom/tencent/mm/q/Gclz;->lG()I
 
     move-result v1
 
@@ -845,7 +845,7 @@
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->gx(Z)V
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/Gclz;
 
     if-eqz v0, :cond_0
 
@@ -865,27 +865,27 @@
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->setRecordNormalWording(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/Gclz;
 
     invoke-virtual {p0}, Lcom/tencent/mm/ui/chatting/x;->getTalkerUserName()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/q/g;->bi(Ljava/lang/String;)Z
+    invoke-interface {v0, v1}, Lcom/tencent/mm/q/Gclz;->bi(Ljava/lang/String;)Z
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/Gclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/q/g;->getFileName()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/tencent/mm/q/Gclz;->getFileName()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbP:Ljava/lang/String;
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/Gclz;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/x;->eGj:Lcom/tencent/mm/q/g$b;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/x;->eGj:Lcom/tencent/mm/q/Gclz$b;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/q/g;->a(Lcom/tencent/mm/q/g$b;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/q/Gclz;->a(Lcom/tencent/mm/q/Gclz$b;)V
 
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->cBn:Landroid/os/Vibrator;
 
@@ -901,11 +901,11 @@
 
     invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/x;->gX(Z)V
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/Gclz;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/x;->cBI:Lcom/tencent/mm/q/g$a;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/x;->cBI:Lcom/tencent/mm/q/Gclz$a;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/q/g;->a(Lcom/tencent/mm/q/g$a;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/q/Gclz;->a(Lcom/tencent/mm/q/Gclz$a;)V
 
     :goto_0
     return-void
@@ -1222,13 +1222,13 @@
 
     invoke-virtual {v2, v1}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->gx(Z)V
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/g;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/Gclz;
 
     if-eqz v2, :cond_1
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/g;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/Gclz;
 
-    invoke-interface {v2}, Lcom/tencent/mm/q/g;->cancel()Z
+    invoke-interface {v2}, Lcom/tencent/mm/q/Gclz;->cancel()Z
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/x;->cBE:Lcom/tencent/mm/sdk/platformtools/ag;
 
@@ -1408,7 +1408,7 @@
 
     .line 270
     :cond_3
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x;->kbN:Lcom/tencent/mm/q/Gclz;
 
     if-eqz v0, :cond_6
 

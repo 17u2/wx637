@@ -16,7 +16,7 @@
 
 
 # instance fields
-.field final ans:Lcom/tencent/mm/q/d;
+.field final ans:Lcom/tencent/mm/q/Dclz;
 
 .field private dwa:Ljava/lang/String;
 
@@ -72,7 +72,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/ext/b/b$1;-><init>(Lcom/tencent/mm/plugin/ext/b/b;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/ext/b/b;->ans:Lcom/tencent/mm/q/d;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/ext/b/b;->ans:Lcom/tencent/mm/q/Dclz;
 
     .line 56
     iput-object p1, p0, Lcom/tencent/mm/plugin/ext/b/b;->mContext:Landroid/content/Context;
@@ -803,15 +803,15 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 148
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x6a
 
-    iget-object v3, p0, Lcom/tencent/mm/plugin/ext/b/b;->ans:Lcom/tencent/mm/q/d;
+    iget-object v3, p0, Lcom/tencent/mm/plugin/ext/b/b;->ans:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v0, v1, v3}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, v3}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 150
     new-instance v0, Lcom/tencent/mm/modelsimple/z;
@@ -825,11 +825,11 @@
     invoke-direct {v0, v1, v2}, Lcom/tencent/mm/modelsimple/z;-><init>(Ljava/lang/String;I)V
 
     .line 151
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 152
     new-instance v0, Landroid/content/Intent;

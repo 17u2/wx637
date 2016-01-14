@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/s/a$a;
+.implements Lcom/tencent/mm/s/Aclz$a;
 
 
 # annotations
@@ -158,14 +158,14 @@
 
     .line 1933
     :cond_4
-    invoke-static {p2}, Lcom/tencent/mm/s/m;->gG(Ljava/lang/String;)Lcom/tencent/mm/s/k;
+    invoke-static {p2}, Lcom/tencent/mm/s/Mclz;->gG(Ljava/lang/String;)Lcom/tencent/mm/s/Kclz;
 
     move-result-object v0
 
     .line 1934
     new-instance v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a$56$1;
 
-    invoke-direct {v1, p0, p2, v2, v0}, Lcom/tencent/mm/ui/chatting/ChattingUI$a$56$1;-><init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a$56;Ljava/lang/String;Lcom/tencent/mm/storage/k;Lcom/tencent/mm/s/k;)V
+    invoke-direct {v1, p0, p2, v2, v0}, Lcom/tencent/mm/ui/chatting/ChattingUI$a$56$1;-><init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a$56;Ljava/lang/String;Lcom/tencent/mm/storage/k;Lcom/tencent/mm/s/Kclz;)V
 
     invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
 

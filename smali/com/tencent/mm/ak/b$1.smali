@@ -183,13 +183,13 @@
     .line 202
     iget-object v0, p0, Lcom/tencent/mm/ak/b$1;->bWB:Lcom/tencent/mm/ak/b;
 
-    iget-object v0, v0, Lcom/tencent/mm/ak/b;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, v0, Lcom/tencent/mm/ak/b;->ans:Lcom/tencent/mm/q/Dclz;
 
     const-string/jumbo v1, ""
 
     iget-object v2, p0, Lcom/tencent/mm/ak/b$1;->bWB:Lcom/tencent/mm/ak/b;
 
-    invoke-interface {v0, v6, p2, v1, v2}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v6, p2, v1, v2}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto :goto_0
 
@@ -264,7 +264,7 @@
     .line 211
     iget-object v1, p0, Lcom/tencent/mm/ak/b$1;->bWB:Lcom/tencent/mm/ak/b;
 
-    iget-object v1, v1, Lcom/tencent/mm/ak/b;->ans:Lcom/tencent/mm/q/d;
+    iget-object v1, v1, Lcom/tencent/mm/ak/b;->ans:Lcom/tencent/mm/q/Dclz;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -282,7 +282,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ak/b$1;->bWB:Lcom/tencent/mm/ak/b;
 
-    invoke-interface {v1, v6, p2, v0, v2}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v1, v6, p2, v0, v2}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto/16 :goto_0
 
@@ -369,13 +369,13 @@
     .line 223
     iget-object v0, p0, Lcom/tencent/mm/ak/b$1;->bWB:Lcom/tencent/mm/ak/b;
 
-    iget-object v0, v0, Lcom/tencent/mm/ak/b;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, v0, Lcom/tencent/mm/ak/b;->ans:Lcom/tencent/mm/q/Dclz;
 
     const-string/jumbo v1, ""
 
     iget-object v2, p0, Lcom/tencent/mm/ak/b$1;->bWB:Lcom/tencent/mm/ak/b;
 
-    invoke-interface {v0, v6, p2, v1, v2}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v6, p2, v1, v2}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto/16 :goto_0
 
@@ -485,7 +485,7 @@
     .line 240
     iget-object v0, p0, Lcom/tencent/mm/ak/b$1;->bWB:Lcom/tencent/mm/ak/b;
 
-    iget-object v0, v0, Lcom/tencent/mm/ak/b;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, v0, Lcom/tencent/mm/ak/b;->ans:Lcom/tencent/mm/q/Dclz;
 
     iget v1, p4, Lcom/tencent/mm/modelcdntran/keep_SceneResult;->field_retCode:I
 
@@ -493,7 +493,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ak/b$1;->bWB:Lcom/tencent/mm/ak/b;
 
-    invoke-interface {v0, v6, v1, v2, v3}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v6, v1, v2, v3}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 273
     :goto_2

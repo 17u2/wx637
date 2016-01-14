@@ -818,7 +818,7 @@
 
     iget-object v1, v0, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/s/m;->gJ(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/s/Mclz;->gJ(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -904,7 +904,7 @@
 
     iget-object v1, v0, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/s/m;->gK(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/s/Mclz;->gK(Ljava/lang/String;)Z
 
     move-result v1
 

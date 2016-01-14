@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/plugin/accountsync/a/b;->a(IILcom/tencent/mm/q/j;)V
+    value = Lcom/tencent/mm/plugin/accountsync/a/b;->a(IILcom/tencent/mm/q/Jclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

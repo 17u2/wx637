@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/ac/h$a;
-.super Lcom/tencent/mm/q/h;
+.super Lcom/tencent/mm/q/Hclz;
 .source "SourceFile"
 
 
@@ -26,7 +26,7 @@
 
     .prologue
     .line 82
-    invoke-direct {p0}, Lcom/tencent/mm/q/h;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/q/Hclz;-><init>()V
 
     .line 83
     new-instance v0, Lcom/tencent/mm/protocal/Xclz$a;

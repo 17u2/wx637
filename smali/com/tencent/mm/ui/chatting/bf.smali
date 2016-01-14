@@ -1053,7 +1053,7 @@
 
     .line 147
     :cond_4
-    invoke-static {}, Lcom/tencent/mm/s/m;->wT()Z
+    invoke-static {}, Lcom/tencent/mm/s/Mclz;->wT()Z
 
     move-result v0
 

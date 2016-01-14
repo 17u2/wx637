@@ -58,13 +58,13 @@
 
     iget-object v1, p0, Lcom/tencent/mm/modelfriend/u$1;->bFm:Lcom/tencent/mm/modelfriend/u;
 
-    iget-object v1, v1, Lcom/tencent/mm/q/j;->bya:Lcom/tencent/mm/network/e;
+    iget-object v1, v1, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/e;
 
     new-instance v2, Lcom/tencent/mm/modelfriend/u$1$1;
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/modelfriend/u$1$1;-><init>(Lcom/tencent/mm/modelfriend/u$1;)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/modelsimple/n;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/d;)I
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/modelsimple/n;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
 
     .line 198
     return-void

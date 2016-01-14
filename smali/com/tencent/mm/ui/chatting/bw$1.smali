@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 
 
 # annotations
@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 3
 
     .prologue
@@ -76,7 +76,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v2
 
@@ -91,7 +91,7 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 153
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -99,16 +99,16 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/bw$1;->ken:Lcom/tencent/mm/ui/chatting/bw;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/bw;->bUB:Lcom/tencent/mm/q/d;
+    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/bw;->bUB:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 154
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/bw$1;->ken:Lcom/tencent/mm/ui/chatting/bw;
 
     const/4 v1, 0x0
 
-    iput-object v1, v0, Lcom/tencent/mm/ui/chatting/bw;->bUB:Lcom/tencent/mm/q/d;
+    iput-object v1, v0, Lcom/tencent/mm/ui/chatting/bw;->bUB:Lcom/tencent/mm/q/Dclz;
 
     .line 155
     return-void

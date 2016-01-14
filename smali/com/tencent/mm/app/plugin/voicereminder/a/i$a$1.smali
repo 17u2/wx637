@@ -78,7 +78,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/app/plugin/voicereminder/a/i$a;->aol:Lcom/tencent/mm/app/plugin/voicereminder/a/i;
 
-    iget-object v0, v0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aob:Lcom/tencent/mm/q/g$b;
+    iget-object v0, v0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aob:Lcom/tencent/mm/q/Gclz$b;
 
     if-nez v0, :cond_2
 
@@ -107,7 +107,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/app/plugin/voicereminder/a/i$a;->aol:Lcom/tencent/mm/app/plugin/voicereminder/a/i;
 
-    iget-object v0, v0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aob:Lcom/tencent/mm/q/g$b;
+    iget-object v0, v0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aob:Lcom/tencent/mm/q/Gclz$b;
 
     if-eqz v0, :cond_0
 
@@ -116,9 +116,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/app/plugin/voicereminder/a/i$a;->aol:Lcom/tencent/mm/app/plugin/voicereminder/a/i;
 
-    iget-object v0, v0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aob:Lcom/tencent/mm/q/g$b;
+    iget-object v0, v0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aob:Lcom/tencent/mm/q/Gclz$b;
 
-    invoke-interface {v0}, Lcom/tencent/mm/q/g$b;->vm()V
+    invoke-interface {v0}, Lcom/tencent/mm/q/Gclz$b;->vm()V
 
     goto :goto_0
 

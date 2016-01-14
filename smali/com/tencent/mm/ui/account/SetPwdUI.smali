@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 
 
 # annotations
@@ -129,7 +129,7 @@
     return-object v0
 .end method
 
-.method protected a(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/ajy;)Lcom/tencent/mm/q/j;
+.method protected a(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/ajy;)Lcom/tencent/mm/q/Jclz;
     .locals 1
 
     .prologue
@@ -141,7 +141,7 @@
     return-object v0
 .end method
 
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 6
 
     .prologue
@@ -152,7 +152,7 @@
     const/4 v4, 0x0
 
     .line 195
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v1
 
@@ -183,7 +183,7 @@
 
     .line 202
     :cond_2
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v1
 
@@ -212,23 +212,23 @@
     .line 206
     check-cast p4, Lcom/tencent/mm/modelsimple/ae;
 
-    iget-object v1, p4, Lcom/tencent/mm/modelsimple/ae;->ant:Lcom/tencent/mm/q/a;
+    iget-object v1, p4, Lcom/tencent/mm/modelsimple/ae;->ant:Lcom/tencent/mm/q/Aclz;
 
     if-eqz v1, :cond_3
 
-    iget-object v1, p4, Lcom/tencent/mm/modelsimple/ae;->ant:Lcom/tencent/mm/q/a;
+    iget-object v1, p4, Lcom/tencent/mm/modelsimple/ae;->ant:Lcom/tencent/mm/q/Aclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/q/a;->bxJ:Lcom/tencent/mm/q/a$c;
+    iget-object v1, v1, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v1, v1, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v1, v1, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
 
     if-eqz v1, :cond_3
 
-    iget-object v0, p4, Lcom/tencent/mm/modelsimple/ae;->ant:Lcom/tencent/mm/q/a;
+    iget-object v0, p4, Lcom/tencent/mm/modelsimple/ae;->ant:Lcom/tencent/mm/q/Aclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a;->bxJ:Lcom/tencent/mm/q/a$c;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/amh;
 
@@ -465,7 +465,7 @@
     const/4 v4, 0x0
 
     .line 53
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -473,7 +473,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 54
     invoke-super {p0, p1}, Lcom/tencent/mm/ui/MMActivity;->onCreate(Landroid/os/Bundle;)V
@@ -601,7 +601,7 @@
 
     .prologue
     .line 78
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -609,7 +609,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 79
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onDestroy()V

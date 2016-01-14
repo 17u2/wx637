@@ -63,7 +63,7 @@
 
     check-cast v0, Ljava/lang/Integer;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 
@@ -71,7 +71,7 @@
 
     move-result v0
 
-    invoke-virtual {v2, v0, p0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v2, v0, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     goto :goto_0
 

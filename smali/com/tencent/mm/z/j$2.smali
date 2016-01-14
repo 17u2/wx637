@@ -252,13 +252,13 @@
     .line 258
     iget-object v0, p0, Lcom/tencent/mm/z/j$2;->bKl:Lcom/tencent/mm/z/j;
 
-    iget-object v0, v0, Lcom/tencent/mm/z/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, v0, Lcom/tencent/mm/z/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     const-string/jumbo v1, ""
 
     iget-object v2, p0, Lcom/tencent/mm/z/j$2;->bKl:Lcom/tencent/mm/z/j;
 
-    invoke-interface {v0, v10, p2, v1, v2}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v10, p2, v1, v2}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto/16 :goto_0
 
@@ -439,7 +439,7 @@
     .line 281
     iget-object v0, p0, Lcom/tencent/mm/z/j$2;->bKl:Lcom/tencent/mm/z/j;
 
-    iget-object v0, v0, Lcom/tencent/mm/z/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, v0, Lcom/tencent/mm/z/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     iget v1, p4, Lcom/tencent/mm/modelcdntran/keep_SceneResult;->field_retCode:I
 
@@ -447,7 +447,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/z/j$2;->bKl:Lcom/tencent/mm/z/j;
 
-    invoke-interface {v0, v10, v1, v2, v3}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v10, v1, v2, v3}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 312
     :goto_3

@@ -48,7 +48,7 @@
 
     .prologue
     .line 239
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -62,9 +62,9 @@
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/ui/chatting/bv$4$1$1;-><init>(Lcom/tencent/mm/ui/chatting/bv$4$1;)V
 
-    iput-object v3, v2, Lcom/tencent/mm/ui/chatting/bv;->bUB:Lcom/tencent/mm/q/d;
+    iput-object v3, v2, Lcom/tencent/mm/ui/chatting/bv;->bUB:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v0, v1, v3}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, v3}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 267
     new-instance v0, Ljava/util/LinkedList;
@@ -98,11 +98,11 @@
     invoke-direct {v1, v0, v2}, Lcom/tencent/mm/app/plugin/voicereminder/a/a;-><init>(Ljava/util/LinkedList;I)V
 
     .line 272
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 273
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/bv$4$1;->kek:Lcom/tencent/mm/ui/chatting/bv$4;

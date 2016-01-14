@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field public atC:Lcom/tencent/mm/q/j;
+.field public atC:Lcom/tencent/mm/q/Jclz;
 
 
 # direct methods

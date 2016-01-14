@@ -902,11 +902,11 @@
 
     if-ne v5, p1, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/q/l;->vv()I
+    invoke-virtual {v1}, Lcom/tencent/mm/q/Lclz;->vv()I
 
     move-result v1
 

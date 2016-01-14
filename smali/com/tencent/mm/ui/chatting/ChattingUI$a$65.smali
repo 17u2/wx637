@@ -57,11 +57,11 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$65;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->K(Lcom/tencent/mm/ui/chatting/ChattingUI$a;)Lcom/tencent/mm/s/k;
+    invoke-static {v2}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->K(Lcom/tencent/mm/ui/chatting/ChattingUI$a;)Lcom/tencent/mm/s/Kclz;
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/tencent/mm/s/k;->field_username:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/s/Kclz;->field_username:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/tencent/mm/d/a/io$a;->ajd:Ljava/lang/String;
 

@@ -50,7 +50,7 @@
     .line 517
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/v$2;->hLZ:Lcom/tencent/mm/pluginsdk/model/app/v;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/v;->bJU:Lcom/tencent/mm/q/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/v;->bJU:Lcom/tencent/mm/q/Eclz;
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/model/app/v$2;->hLZ:Lcom/tencent/mm/pluginsdk/model/app/v;
 
@@ -70,7 +70,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/pluginsdk/model/app/v$2;->hLZ:Lcom/tencent/mm/pluginsdk/model/app/v;
 
-    invoke-interface {v0, v1, v2, v3}, Lcom/tencent/mm/q/e;->a(IILcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v1, v2, v3}, Lcom/tencent/mm/q/Eclz;->a(IILcom/tencent/mm/q/Jclz;)V
 
     .line 518
     return-void

@@ -48,7 +48,7 @@
 
     .prologue
     .line 116
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -58,7 +58,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->c(Lcom/tencent/mm/q/j;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 
     .line 117
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI$1;->kkH:Lcom/tencent/mm/ui/chatting/ImageDownloadUI;

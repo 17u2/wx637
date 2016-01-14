@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field bUB:Lcom/tencent/mm/q/d;
+.field bUB:Lcom/tencent/mm/q/Dclz;
 
 .field kcm:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -190,7 +190,7 @@
 
     if-lez v0, :cond_1
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/bx;->bUB:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/bx;->bUB:Lcom/tencent/mm/q/Dclz;
 
     if-nez v0, :cond_1
 
@@ -254,7 +254,7 @@
     if-eqz v0, :cond_1
 
     .line 85
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -264,9 +264,9 @@
 
     invoke-direct {v3, p0, p4, v0, p2}, Lcom/tencent/mm/ui/chatting/bx$1;-><init>(Lcom/tencent/mm/ui/chatting/bx;Lcom/tencent/mm/storage/ad;Ljava/lang/String;I)V
 
-    iput-object v3, p0, Lcom/tencent/mm/ui/chatting/bx;->bUB:Lcom/tencent/mm/q/d;
+    iput-object v3, p0, Lcom/tencent/mm/ui/chatting/bx;->bUB:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 100
     new-instance v1, Lcom/tencent/mm/pluginsdk/model/app/v;
@@ -277,11 +277,11 @@
     invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/model/app/v;->aIs()V
 
     .line 102
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 109
     :cond_1

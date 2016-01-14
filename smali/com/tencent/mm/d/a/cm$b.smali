@@ -17,7 +17,7 @@
 # instance fields
 .field public avx:J
 
-.field public avy:Lcom/tencent/mm/q/j;
+.field public avy:Lcom/tencent/mm/q/Jclz;
 
 
 # direct methods

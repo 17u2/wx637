@@ -63,7 +63,7 @@
 
     .line 369
     :cond_1
-    iget-object v0, p1, Lcom/tencent/mm/pluginsdk/model/i;->dmy:Lcom/tencent/mm/q/a;
+    iget-object v0, p1, Lcom/tencent/mm/pluginsdk/model/i;->dmy:Lcom/tencent/mm/q/Aclz;
 
     if-nez v0, :cond_4
 
@@ -169,11 +169,11 @@
 
     .line 369
     :cond_4
-    iget-object v0, p1, Lcom/tencent/mm/pluginsdk/model/i;->dmy:Lcom/tencent/mm/q/a;
+    iget-object v0, p1, Lcom/tencent/mm/pluginsdk/model/i;->dmy:Lcom/tencent/mm/q/Aclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a;->bxJ:Lcom/tencent/mm/q/a$c;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/VEclz;
 

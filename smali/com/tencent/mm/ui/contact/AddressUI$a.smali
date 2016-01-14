@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 
 
 # annotations
@@ -945,7 +945,7 @@
     return-void
 .end method
 
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 2
 
     .prologue
@@ -1146,13 +1146,13 @@
 
     iput-object v7, p0, Lcom/tencent/mm/ui/contact/AddressUI$a;->kqg:Ljava/lang/String;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x8a
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     const-string/jumbo v0, "@all.contact.without.chatroom"
 
@@ -1723,13 +1723,13 @@
 
     if-eqz v0, :cond_7
 
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xq()Lcom/tencent/mm/s/l;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xq()Lcom/tencent/mm/s/Lclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/AddressUI$a;->kqt:Lcom/tencent/mm/ui/contact/i;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/l;->a(Lcom/tencent/mm/s/l$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/Lclz;->a(Lcom/tencent/mm/s/Lclz$a;)V
 
     .line 990
     :cond_7
@@ -2218,13 +2218,13 @@
 
     .line 1158
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x8a
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 1159
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/AddressUI$a;->kqe:Lcom/tencent/mm/ui/contact/a;
@@ -2311,13 +2311,13 @@
     if-eqz v0, :cond_5
 
     .line 1174
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xq()Lcom/tencent/mm/s/l;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xq()Lcom/tencent/mm/s/Lclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/AddressUI$a;->kqt:Lcom/tencent/mm/ui/contact/i;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/l;->b(Lcom/tencent/mm/s/l$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/Lclz;->b(Lcom/tencent/mm/s/Lclz$a;)V
 
     .line 1176
     :cond_5

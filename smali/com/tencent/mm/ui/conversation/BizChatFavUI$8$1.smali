@@ -20,20 +20,20 @@
 # instance fields
 .field final synthetic cDA:Z
 
-.field final synthetic cDz:Lcom/tencent/mm/s/d;
+.field final synthetic cDz:Lcom/tencent/mm/s/Dclz;
 
 .field final synthetic kvH:Lcom/tencent/mm/ui/conversation/BizChatFavUI$8;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/conversation/BizChatFavUI$8;Lcom/tencent/mm/s/d;Z)V
+.method constructor <init>(Lcom/tencent/mm/ui/conversation/BizChatFavUI$8;Lcom/tencent/mm/s/Dclz;Z)V
     .locals 1
 
     .prologue
     .line 618
     iput-object p1, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$8$1;->kvH:Lcom/tencent/mm/ui/conversation/BizChatFavUI$8;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$8$1;->cDz:Lcom/tencent/mm/s/d;
+    iput-object p2, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$8$1;->cDz:Lcom/tencent/mm/s/Dclz;
 
     iput-boolean p3, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$8$1;->cDA:Z
 
@@ -60,7 +60,7 @@
     const/4 v2, 0x0
 
     .line 621
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$8$1;->cDz:Lcom/tencent/mm/s/d;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$8$1;->cDz:Lcom/tencent/mm/s/Dclz;
 
     if-nez v0, :cond_0
 
@@ -98,9 +98,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$8;->kvD:Lcom/tencent/mm/ui/conversation/BizChatFavUI;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$8$1;->cDz:Lcom/tencent/mm/s/d;
+    iget-object v1, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$8$1;->cDz:Lcom/tencent/mm/s/Dclz;
 
-    iget-wide v1, v1, Lcom/tencent/mm/s/d;->field_bizChatLocalId:J
+    iget-wide v1, v1, Lcom/tencent/mm/s/Dclz;->field_bizChatLocalId:J
 
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/ui/conversation/BizChatFavUI;->a(Lcom/tencent/mm/ui/conversation/BizChatFavUI;J)V
 

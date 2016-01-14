@@ -64,7 +64,7 @@
     const-wide/16 v0, -0x1
 
     .line 728
-    invoke-static {}, Lcom/tencent/mm/model/ah;->sR()Lcom/tencent/mm/q/b;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->sR()Lcom/tencent/mm/q/Bclz;
 
     move-result-object v3
 
@@ -75,7 +75,7 @@
     if-eqz v3, :cond_0
 
     .line 729
-    invoke-static {}, Lcom/tencent/mm/model/ah;->sR()Lcom/tencent/mm/q/b;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->sR()Lcom/tencent/mm/q/Bclz;
 
     move-result-object v0
 
@@ -85,7 +85,7 @@
 
     iget-object v4, p0, Lcom/tencent/mm/model/ai$1;->buc:Lcom/tencent/mm/protocal/b/FZclz;
 
-    invoke-interface {v0, v1, v3, v4}, Lcom/tencent/mm/q/b;->a(Lcom/tencent/mm/protocal/b/FZclz;Lcom/tencent/mm/protocal/b/FZclz;Lcom/tencent/mm/protocal/b/FZclz;)V
+    invoke-interface {v0, v1, v3, v4}, Lcom/tencent/mm/q/Bclz;->a(Lcom/tencent/mm/protocal/b/FZclz;Lcom/tencent/mm/protocal/b/FZclz;Lcom/tencent/mm/protocal/b/FZclz;)V
 
     .line 730
     invoke-virtual {v2}, Lcom/tencent/mm/compatible/util/f$a;->pc()J

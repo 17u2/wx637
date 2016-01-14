@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 
 
 # annotations
@@ -51,7 +51,7 @@
 
 
 # virtual methods
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 11
 
     .prologue
@@ -102,7 +102,7 @@
     check-cast p4, Lcom/tencent/mm/plugin/webview/c/q;
 
     .line 6850
-    iget-object v0, p4, Lcom/tencent/mm/plugin/webview/c/q;->ant:Lcom/tencent/mm/q/a;
+    iget-object v0, p4, Lcom/tencent/mm/plugin/webview/c/q;->ant:Lcom/tencent/mm/q/Aclz;
 
     if-nez v0, :cond_3
 
@@ -247,11 +247,11 @@
 
     .line 6850
     :cond_3
-    iget-object v0, p4, Lcom/tencent/mm/plugin/webview/c/q;->ant:Lcom/tencent/mm/q/a;
+    iget-object v0, p4, Lcom/tencent/mm/plugin/webview/c/q;->ant:Lcom/tencent/mm/q/Aclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a;->bxJ:Lcom/tencent/mm/q/a$c;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/ard;
 

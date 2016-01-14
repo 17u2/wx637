@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    value = Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic aoz:Lcom/tencent/mm/q/j;
+.field final synthetic aoz:Lcom/tencent/mm/q/Jclz;
 
 .field final synthetic kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/q/j;)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/q/Jclz;)V
     .locals 1
 
     .prologue
     .line 8308
     iput-object p1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$4;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$4;->aoz:Lcom/tencent/mm/q/j;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$4;->aoz:Lcom/tencent/mm/q/Jclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -57,7 +57,7 @@
     move-result-wide v0
 
     .line 8312
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$4;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$4;->aoz:Lcom/tencent/mm/q/Jclz;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$4;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -65,7 +65,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/s/f;->a(Lcom/tencent/mm/q/j;Ljava/lang/String;)Z
+    invoke-static {v2, v3}, Lcom/tencent/mm/s/Fclz;->a(Lcom/tencent/mm/q/Jclz;Ljava/lang/String;)Z
 
     move-result v2
 

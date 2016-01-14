@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 
 
 # annotations
@@ -343,22 +343,22 @@
 
 
 # virtual methods
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 6
 
     .prologue
     const v5, 0x14018
 
     .line 393
-    instance-of v0, p4, Lcom/tencent/mm/q/k;
+    instance-of v0, p4, Lcom/tencent/mm/q/Kclz;
 
     if-eqz v0, :cond_0
 
     move-object v0, p4
 
-    check-cast v0, Lcom/tencent/mm/q/k;
+    check-cast v0, Lcom/tencent/mm/q/Kclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/q/k;->vu()I
+    invoke-interface {v0}, Lcom/tencent/mm/q/Kclz;->vu()I
 
     move-result v0
 
@@ -381,7 +381,7 @@
 
     .line 398
     :cond_2
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
@@ -480,13 +480,13 @@
     iput-boolean v0, p0, Lcom/tencent/mm/ai/c;->bPw:Z
 
     .line 388
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x9f
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 389
     return-void

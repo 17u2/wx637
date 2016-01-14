@@ -2189,7 +2189,7 @@
     if-nez v0, :cond_1
 
     .line 315
-    invoke-static {}, Lcom/tencent/mm/s/m;->xa()Z
+    invoke-static {}, Lcom/tencent/mm/s/Mclz;->xa()Z
 
     move-result v0
 

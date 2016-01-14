@@ -292,7 +292,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ak/b$1;->bWB:Lcom/tencent/mm/ak/b;
 
-    iget-object v0, v0, Lcom/tencent/mm/ak/b;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, v0, Lcom/tencent/mm/ak/b;->ans:Lcom/tencent/mm/q/Dclz;
 
     const-string/jumbo v1, ""
 
@@ -300,7 +300,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/ak/b$1;->bWB:Lcom/tencent/mm/ak/b;
 
-    invoke-interface {v0, v6, v6, v1, v2}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v6, v6, v1, v2}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 270
     return-void

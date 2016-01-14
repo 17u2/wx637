@@ -192,26 +192,26 @@
     if-nez v1, :cond_1
 
     .line 56
-    new-instance v1, Lcom/tencent/mm/s/k;
+    new-instance v1, Lcom/tencent/mm/s/Kclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/s/k;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/s/Kclz;-><init>()V
 
     .line 57
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/s/k;->c(Landroid/database/Cursor;)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/s/Kclz;->c(Landroid/database/Cursor;)V
 
     .line 58
-    invoke-virtual {v1, v7}, Lcom/tencent/mm/s/k;->aS(Z)Lcom/tencent/mm/s/k$c;
+    invoke-virtual {v1, v7}, Lcom/tencent/mm/s/Kclz;->aS(Z)Lcom/tencent/mm/s/Kclz$c;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/s/k$c;->wK()I
+    invoke-virtual {v2}, Lcom/tencent/mm/s/Kclz$c;->wK()I
 
     move-result v2
 
     if-ne v2, v8, :cond_0
 
     .line 59
-    iget-object v1, v1, Lcom/tencent/mm/s/k;->field_username:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/s/Kclz;->field_username:Ljava/lang/String;
 
     invoke-interface {v3, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -302,13 +302,13 @@
     invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 76
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xq()Lcom/tencent/mm/s/l;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xq()Lcom/tencent/mm/s/Lclz;
 
     move-result-object v1
 
     const-string/jumbo v2, "BizInfo"
 
-    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/s/l;->bX(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/s/Lclz;->bX(Ljava/lang/String;Ljava/lang/String;)Z
 
     .line 79
     :cond_4

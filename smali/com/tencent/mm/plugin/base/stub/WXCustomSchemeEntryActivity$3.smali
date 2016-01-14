@@ -47,7 +47,7 @@
 
 
 # virtual methods
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;Z)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;Z)V
     .locals 6
 
     .prologue

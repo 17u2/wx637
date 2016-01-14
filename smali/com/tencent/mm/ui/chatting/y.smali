@@ -2290,14 +2290,14 @@
     if-nez v1, :cond_5
 
     .line 130
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xp()Lcom/tencent/mm/s/p;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xp()Lcom/tencent/mm/s/Pclz;
 
     move-result-object v1
 
     .line 131
     iget-object v2, p3, Lcom/tencent/mm/d/b/ba;->aXZ:Ljava/lang/String;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/s/p;->gM(Ljava/lang/String;)Lcom/tencent/mm/s/n;
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/s/Pclz;->gM(Ljava/lang/String;)Lcom/tencent/mm/s/Nclz;
 
     move-result-object v2
 
@@ -2307,7 +2307,7 @@
     .line 133
     if-eqz v2, :cond_2
 
-    iget-object v3, v2, Lcom/tencent/mm/s/n;->field_openId:Ljava/lang/String;
+    iget-object v3, v2, Lcom/tencent/mm/s/Nclz;->field_openId:Ljava/lang/String;
 
     invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -2315,7 +2315,7 @@
 
     if-nez v3, :cond_2
 
-    iget-object v3, v2, Lcom/tencent/mm/s/n;->field_nickname:Ljava/lang/String;
+    iget-object v3, v2, Lcom/tencent/mm/s/Nclz;->field_nickname:Ljava/lang/String;
 
     invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -2324,7 +2324,7 @@
     if-nez v3, :cond_2
 
     .line 134
-    iget-object v1, v2, Lcom/tencent/mm/s/n;->field_nickname:Ljava/lang/String;
+    iget-object v1, v2, Lcom/tencent/mm/s/Nclz;->field_nickname:Ljava/lang/String;
 
     .line 135
     const/4 v0, 0x0
@@ -2339,7 +2339,7 @@
     :cond_2
     if-nez v1, :cond_3
 
-    invoke-static {v2}, Lcom/tencent/mm/s/p;->a(Lcom/tencent/mm/s/n;)Z
+    invoke-static {v2}, Lcom/tencent/mm/s/Pclz;->a(Lcom/tencent/mm/s/Nclz;)Z
 
     move-result v1
 
@@ -2347,7 +2347,7 @@
 
     .line 138
     :cond_3
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xr()Lcom/tencent/mm/s/o;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xr()Lcom/tencent/mm/s/Oclz;
 
     move-result-object v1
 
@@ -2359,10 +2359,10 @@
 
     invoke-direct {v2, v3, v4}, Lcom/tencent/mm/ui/chatting/y$d;-><init>(Lcom/tencent/mm/ui/chatting/cj;Ljava/lang/String;)V
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/s/o;->a(Lcom/tencent/mm/s/o$a;)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/s/Oclz;->a(Lcom/tencent/mm/s/Oclz$a;)V
 
     .line 140
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xr()Lcom/tencent/mm/s/o;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xr()Lcom/tencent/mm/s/Oclz;
 
     move-result-object v1
 
@@ -2372,7 +2372,7 @@
 
     iget-object v3, p3, Lcom/tencent/mm/d/b/ba;->aXZ:Ljava/lang/String;
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/s/o;->P(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/s/Oclz;->P(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 150
     :cond_4

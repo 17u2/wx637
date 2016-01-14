@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/pluginsdk/ui/applet/a;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    value = Lcom/tencent/mm/pluginsdk/ui/applet/a;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic aoz:Lcom/tencent/mm/q/j;
+.field final synthetic aoz:Lcom/tencent/mm/q/Jclz;
 
 .field final synthetic hSC:Lcom/tencent/mm/pluginsdk/ui/applet/a;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/pluginsdk/ui/applet/a;Lcom/tencent/mm/q/j;)V
+.method constructor <init>(Lcom/tencent/mm/pluginsdk/ui/applet/a;Lcom/tencent/mm/q/Jclz;)V
     .locals 1
 
     .prologue
     .line 222
     iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/applet/a$3;->hSC:Lcom/tencent/mm/pluginsdk/ui/applet/a;
 
-    iput-object p2, p0, Lcom/tencent/mm/pluginsdk/ui/applet/a$3;->aoz:Lcom/tencent/mm/q/j;
+    iput-object p2, p0, Lcom/tencent/mm/pluginsdk/ui/applet/a$3;->aoz:Lcom/tencent/mm/q/Jclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -61,27 +61,27 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 228
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/a$3;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/a$3;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/pluginsdk/model/k;
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/k;->ant:Lcom/tencent/mm/q/a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/k;->ant:Lcom/tencent/mm/q/Aclz;
 
     if-eqz v1, :cond_1
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/k;->ant:Lcom/tencent/mm/q/a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/k;->ant:Lcom/tencent/mm/q/Aclz;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/q/a;->vn()Lcom/tencent/mm/protocal/Hclz$c;
+    invoke-virtual {v1}, Lcom/tencent/mm/q/Aclz;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/k;->ant:Lcom/tencent/mm/q/a;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/k;->ant:Lcom/tencent/mm/q/Aclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a;->bxI:Lcom/tencent/mm/q/a$b;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxI:Lcom/tencent/mm/q/Aclz$b;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/a;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/auf;
 
@@ -93,7 +93,7 @@
 
     .line 229
     :goto_0
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/a$3;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/a$3;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/pluginsdk/model/k;
 

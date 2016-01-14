@@ -43,21 +43,21 @@
 
     if-eqz v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/l;->vw()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Lclz;->vw()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/l;->getNetworkServerIp()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Lclz;->getNetworkServerIp()Ljava/lang/String;
 
     move-result-object v0
 

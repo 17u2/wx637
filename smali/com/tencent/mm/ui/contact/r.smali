@@ -78,13 +78,13 @@
 
     .line 39
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xt()Lcom/tencent/mm/s/c;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xt()Lcom/tencent/mm/s/Cclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/r;->cOm:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/c;->ge(Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/Cclz;->ge(Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -230,13 +230,13 @@
 
     invoke-direct {v0, p1}, Lcom/tencent/mm/ui/contact/a/b;-><init>(I)V
 
-    new-instance v1, Lcom/tencent/mm/s/b;
+    new-instance v1, Lcom/tencent/mm/s/Bclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/s/b;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/s/Bclz;-><init>()V
 
     iget-object v2, p0, Lcom/tencent/mm/ui/contact/r;->eIL:Landroid/database/Cursor;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/s/b;->c(Landroid/database/Cursor;)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/s/Bclz;->c(Landroid/database/Cursor;)V
 
     iget-wide v2, v0, Lcom/tencent/mm/ui/contact/a/b;->cOn:J
 
@@ -246,35 +246,35 @@
 
     if-nez v2, :cond_0
 
-    iget-wide v2, v1, Lcom/tencent/mm/s/b;->field_bizChatId:J
+    iget-wide v2, v1, Lcom/tencent/mm/s/Bclz;->field_bizChatId:J
 
     iput-wide v2, v0, Lcom/tencent/mm/ui/contact/a/b;->cOn:J
 
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xs()Lcom/tencent/mm/s/e;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xs()Lcom/tencent/mm/s/Eclz;
 
     move-result-object v2
 
-    iget-wide v3, v1, Lcom/tencent/mm/s/b;->field_bizChatId:J
+    iget-wide v3, v1, Lcom/tencent/mm/s/Bclz;->field_bizChatId:J
 
-    invoke-virtual {v2, v3, v4}, Lcom/tencent/mm/s/e;->O(J)Lcom/tencent/mm/s/d;
+    invoke-virtual {v2, v3, v4}, Lcom/tencent/mm/s/Eclz;->O(J)Lcom/tencent/mm/s/Dclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/s/d;->wf()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/s/Dclz;->wf()Z
 
     move-result v3
 
     if-eqz v3, :cond_4
 
-    iget-object v3, v2, Lcom/tencent/mm/s/d;->field_chatName:Ljava/lang/String;
+    iget-object v3, v2, Lcom/tencent/mm/s/Dclz;->field_chatName:Ljava/lang/String;
 
     iput-object v3, v0, Lcom/tencent/mm/ui/contact/a/b;->cCn:Ljava/lang/CharSequence;
 
-    iget-object v3, v2, Lcom/tencent/mm/s/d;->field_headImageUrl:Ljava/lang/String;
+    iget-object v3, v2, Lcom/tencent/mm/s/Dclz;->field_headImageUrl:Ljava/lang/String;
 
     iput-object v3, v0, Lcom/tencent/mm/ui/contact/a/b;->kuK:Ljava/lang/String;
 
-    iget-object v2, v2, Lcom/tencent/mm/s/d;->field_brandUserName:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/s/Dclz;->field_brandUserName:Ljava/lang/String;
 
     iput-object v2, v0, Lcom/tencent/mm/ui/contact/a/b;->username:Ljava/lang/String;
 
@@ -315,34 +315,34 @@
 
     if-eqz v2, :cond_0
 
-    iget-object v1, v1, Lcom/tencent/mm/s/b;->field_brandUserName:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/s/Bclz;->field_brandUserName:Ljava/lang/String;
 
     iput-object v1, v0, Lcom/tencent/mm/ui/contact/a/b;->username:Ljava/lang/String;
 
     goto :goto_0
 
     :cond_4
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xu()Lcom/tencent/mm/s/j;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xu()Lcom/tencent/mm/s/Jclz;
 
     move-result-object v3
 
-    iget-object v2, v2, Lcom/tencent/mm/s/d;->field_bizChatServId:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/s/Dclz;->field_bizChatServId:Ljava/lang/String;
 
-    invoke-virtual {v3, v2}, Lcom/tencent/mm/s/j;->gp(Ljava/lang/String;)Lcom/tencent/mm/s/i;
+    invoke-virtual {v3, v2}, Lcom/tencent/mm/s/Jclz;->gp(Ljava/lang/String;)Lcom/tencent/mm/s/Iclz;
 
     move-result-object v2
 
     if-eqz v2, :cond_2
 
-    iget-object v3, v2, Lcom/tencent/mm/s/i;->field_userName:Ljava/lang/String;
+    iget-object v3, v2, Lcom/tencent/mm/s/Iclz;->field_userName:Ljava/lang/String;
 
     iput-object v3, v0, Lcom/tencent/mm/ui/contact/a/b;->cCn:Ljava/lang/CharSequence;
 
-    iget-object v3, v2, Lcom/tencent/mm/s/i;->field_headImageUrl:Ljava/lang/String;
+    iget-object v3, v2, Lcom/tencent/mm/s/Iclz;->field_headImageUrl:Ljava/lang/String;
 
     iput-object v3, v0, Lcom/tencent/mm/ui/contact/a/b;->kuK:Ljava/lang/String;
 
-    iget-object v2, v2, Lcom/tencent/mm/s/i;->field_brandUserName:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/s/Iclz;->field_brandUserName:Ljava/lang/String;
 
     iput-object v2, v0, Lcom/tencent/mm/ui/contact/a/b;->username:Ljava/lang/String;
 

@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lcom/tencent/mm/pluginsdk/model/app/q;
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 
 
 # static fields
@@ -382,11 +382,11 @@
     invoke-direct {v0, p1, p0}, Lcom/tencent/mm/pluginsdk/model/app/z;-><init>(ILjava/lang/String;)V
 
     .line 247
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 248
     return-void
@@ -508,11 +508,11 @@
 
     const/4 v4, 0x0
 
-    iget-object v0, p4, Lcom/tencent/mm/pluginsdk/model/app/aa;->dmy:Lcom/tencent/mm/q/a;
+    iget-object v0, p4, Lcom/tencent/mm/pluginsdk/model/app/aa;->dmy:Lcom/tencent/mm/q/Aclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a;->bxJ:Lcom/tencent/mm/q/a$c;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/USclz;
 
@@ -829,7 +829,7 @@
     .end packed-switch
 .end method
 
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 13
 
     .prologue
@@ -976,27 +976,27 @@
 
     move-object/from16 v0, p4
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/app/z;->ant:Lcom/tencent/mm/q/a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/app/z;->ant:Lcom/tencent/mm/q/Aclz;
 
     if-eqz v1, :cond_4
 
     move-object/from16 v0, p4
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/app/z;->ant:Lcom/tencent/mm/q/a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/app/z;->ant:Lcom/tencent/mm/q/Aclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/q/a;->bxJ:Lcom/tencent/mm/q/a$c;
+    iget-object v1, v1, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v1, v1, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v1, v1, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
 
     if-eqz v1, :cond_4
 
     move-object/from16 v0, p4
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/app/z;->ant:Lcom/tencent/mm/q/a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/app/z;->ant:Lcom/tencent/mm/q/Aclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/q/a;->bxJ:Lcom/tencent/mm/q/a$c;
+    iget-object v1, v1, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v1, v1, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v1, v1, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
 
     check-cast v1, Lcom/tencent/mm/protocal/b/aar;
 
@@ -1802,13 +1802,13 @@
     invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/pluginsdk/model/app/d;->a(ILcom/tencent/mm/pluginsdk/model/app/q;)V
 
     .line 52
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x424
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     goto :goto_0
 .end method
@@ -1841,13 +1841,13 @@
     invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/pluginsdk/model/app/d;->b(ILcom/tencent/mm/pluginsdk/model/app/q;)V
 
     .line 61
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x424
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 62
     iput-boolean v2, p0, Lcom/tencent/mm/pluginsdk/model/app/ai;->hMG:Z

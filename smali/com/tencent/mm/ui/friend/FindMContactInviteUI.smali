@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private bUB:Lcom/tencent/mm/q/d;
+.field private bUB:Lcom/tencent/mm/q/Dclz;
 
 .field private cge:Landroid/widget/ListView;
 
@@ -74,7 +74,7 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->kzb:Ljava/lang/String;
 
     .line 58
-    iput-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->bUB:Lcom/tencent/mm/q/d;
+    iput-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->bUB:Lcom/tencent/mm/q/Dclz;
 
     .line 59
     const/4 v0, 0x2
@@ -118,12 +118,12 @@
     return-object p1
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;Lcom/tencent/mm/q/d;)Lcom/tencent/mm/q/d;
+.method static synthetic a(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;Lcom/tencent/mm/q/Dclz;)Lcom/tencent/mm/q/Dclz;
     .locals 0
 
     .prologue
     .line 38
-    iput-object p1, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->bUB:Lcom/tencent/mm/q/d;
+    iput-object p1, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->bUB:Lcom/tencent/mm/q/Dclz;
 
     return-object p1
 .end method
@@ -279,12 +279,12 @@
     return v0
 .end method
 
-.method static synthetic k(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;)Lcom/tencent/mm/q/d;
+.method static synthetic k(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;)Lcom/tencent/mm/q/Dclz;
     .locals 1
 
     .prologue
     .line 38
-    iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->bUB:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->bUB:Lcom/tencent/mm/q/Dclz;
 
     return-object v0
 .end method
@@ -764,23 +764,23 @@
     const/4 v3, 0x0
 
     .line 154
-    iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->bUB:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->bUB:Lcom/tencent/mm/q/Dclz;
 
     if-eqz v0, :cond_0
 
     .line 155
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x1b0
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->bUB:Lcom/tencent/mm/q/d;
+    iget-object v2, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->bUB:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 156
-    iput-object v3, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->bUB:Lcom/tencent/mm/q/d;
+    iput-object v3, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->bUB:Lcom/tencent/mm/q/Dclz;
 
     .line 158
     :cond_0

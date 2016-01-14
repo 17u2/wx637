@@ -8,8 +8,8 @@
 .implements Lcom/tencent/mm/model/t;
 .implements Lcom/tencent/mm/model/x;
 .implements Lcom/tencent/mm/plugin/report/service/IKVReportNotify;
-.implements Lcom/tencent/mm/q/d;
-.implements Lcom/tencent/mm/q/r$a;
+.implements Lcom/tencent/mm/q/Dclz;
+.implements Lcom/tencent/mm/q/Rclz$a;
 
 
 # annotations
@@ -453,11 +453,11 @@
 
     .line 1857
     :try_start_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/q/l;->byu:Lcom/tencent/mm/network/e;
+    iget-object v0, v0, Lcom/tencent/mm/q/Lclz;->byu:Lcom/tencent/mm/network/e;
 
     .line 1858
     if-eqz v0, :cond_1
@@ -633,7 +633,7 @@
 
 
 # virtual methods
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 10
 
     .prologue
@@ -654,7 +654,7 @@
 
     new-array v2, v5, [Ljava/lang/Object;
 
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v3
 
@@ -1167,7 +1167,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/app/WorkerProfile$20;-><init>(Lcom/tencent/mm/app/WorkerProfile;)V
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/model/ah;->a(Lcom/tencent/mm/model/x;Lcom/tencent/mm/q/l$a;)V
+    invoke-static {p0, v0}, Lcom/tencent/mm/model/ah;->a(Lcom/tencent/mm/model/x;Lcom/tencent/mm/q/Lclz$a;)V
 
     .line 579
     invoke-static {}, Lcom/tencent/mm/ui/g/a;->bbV()Lcom/tencent/mm/ui/g/a;
@@ -1228,14 +1228,14 @@
     invoke-static {v5, v6}, Lcom/tencent/mm/sdk/platformtools/af;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/platformtools/af$b;)V
 
     .line 580
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v12, p0}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v12, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 581
-    invoke-static {p0}, Lcom/tencent/mm/q/r;->a(Lcom/tencent/mm/q/r$a;)V
+    invoke-static {p0}, Lcom/tencent/mm/q/Rclz;->a(Lcom/tencent/mm/q/Rclz$a;)V
 
     .line 582
     invoke-static {}, Lcom/tencent/mm/model/ah;->tg()Lcom/tencent/mm/model/bb;
@@ -3360,15 +3360,15 @@
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2044
-    const-class v1, Lcom/tencent/mm/s/ai;
+    const-class v1, Lcom/tencent/mm/s/AIclz;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object v1
 
-    new-instance v2, Lcom/tencent/mm/s/ai;
+    new-instance v2, Lcom/tencent/mm/s/AIclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/s/ai;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/s/AIclz;-><init>()V
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

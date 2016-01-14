@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/conversation/BizChatFavUI;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    value = Lcom/tencent/mm/ui/conversation/BizChatFavUI;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic aoz:Lcom/tencent/mm/q/j;
+.field final synthetic aoz:Lcom/tencent/mm/q/Jclz;
 
 .field final synthetic kvD:Lcom/tencent/mm/ui/conversation/BizChatFavUI;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/conversation/BizChatFavUI;Lcom/tencent/mm/q/j;)V
+.method constructor <init>(Lcom/tencent/mm/ui/conversation/BizChatFavUI;Lcom/tencent/mm/q/Jclz;)V
     .locals 1
 
     .prologue
     .line 637
     iput-object p1, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$9;->kvD:Lcom/tencent/mm/ui/conversation/BizChatFavUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$9;->aoz:Lcom/tencent/mm/q/j;
+    iput-object p2, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$9;->aoz:Lcom/tencent/mm/q/Jclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -59,11 +59,11 @@
     .line 641
     move-object/from16 v0, p0
 
-    iget-object v1, v0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$9;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v1, v0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$9;->aoz:Lcom/tencent/mm/q/Jclz;
 
-    check-cast v1, Lcom/tencent/mm/s/x;
+    check-cast v1, Lcom/tencent/mm/s/Xclz;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/s/x;->xi()Lcom/tencent/mm/protocal/b/PJclz;
+    invoke-virtual {v1}, Lcom/tencent/mm/s/Xclz;->xi()Lcom/tencent/mm/protocal/b/PJclz;
 
     move-result-object v1
 
@@ -210,11 +210,11 @@
 
     const/4 v6, 0x0
 
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xs()Lcom/tencent/mm/s/e;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xs()Lcom/tencent/mm/s/Eclz;
 
     move-result-object v1
 
-    iget-object v2, v1, Lcom/tencent/mm/s/e;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v2, v1, Lcom/tencent/mm/s/Eclz;->aoD:Lcom/tencent/mm/sdk/g/d;
 
     const-wide/16 v3, 0x0
 
@@ -278,11 +278,11 @@
 
     if-lez v1, :cond_5
 
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xu()Lcom/tencent/mm/s/j;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xu()Lcom/tencent/mm/s/Jclz;
 
     move-result-object v1
 
-    iget-object v2, v1, Lcom/tencent/mm/s/j;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v2, v1, Lcom/tencent/mm/s/Jclz;->aoD:Lcom/tencent/mm/sdk/g/d;
 
     instance-of v1, v2, Lcom/tencent/mm/aw/g;
 
@@ -323,48 +323,48 @@
 
     check-cast v1, Lcom/tencent/mm/protocal/b/EVclz;
 
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xu()Lcom/tencent/mm/s/j;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xu()Lcom/tencent/mm/s/Jclz;
 
     move-result-object v7
 
     iget-object v10, v1, Lcom/tencent/mm/protocal/b/EVclz;->ipx:Ljava/lang/String;
 
-    invoke-virtual {v7, v10}, Lcom/tencent/mm/s/j;->gp(Ljava/lang/String;)Lcom/tencent/mm/s/i;
+    invoke-virtual {v7, v10}, Lcom/tencent/mm/s/Jclz;->gp(Ljava/lang/String;)Lcom/tencent/mm/s/Iclz;
 
     move-result-object v7
 
     if-nez v7, :cond_17
 
-    new-instance v7, Lcom/tencent/mm/s/i;
+    new-instance v7, Lcom/tencent/mm/s/Iclz;
 
-    invoke-direct {v7}, Lcom/tencent/mm/s/i;-><init>()V
+    invoke-direct {v7}, Lcom/tencent/mm/s/Iclz;-><init>()V
 
     iget-object v10, v1, Lcom/tencent/mm/protocal/b/EVclz;->ipx:Ljava/lang/String;
 
-    iput-object v10, v7, Lcom/tencent/mm/s/i;->field_userId:Ljava/lang/String;
+    iput-object v10, v7, Lcom/tencent/mm/s/Iclz;->field_userId:Ljava/lang/String;
 
     iget-object v1, v1, Lcom/tencent/mm/protocal/b/EVclz;->cIg:Ljava/lang/String;
 
-    iput-object v1, v7, Lcom/tencent/mm/s/i;->field_userName:Ljava/lang/String;
+    iput-object v1, v7, Lcom/tencent/mm/s/Iclz;->field_userName:Ljava/lang/String;
 
     sget-object v1, Lcom/tencent/mm/ui/conversation/BizChatFavUI;->cOm:Ljava/lang/String;
 
-    iput-object v1, v7, Lcom/tencent/mm/s/i;->field_brandUserName:Ljava/lang/String;
+    iput-object v1, v7, Lcom/tencent/mm/s/Iclz;->field_brandUserName:Ljava/lang/String;
 
     const/4 v1, 0x1
 
-    iput-boolean v1, v7, Lcom/tencent/mm/s/i;->field_needToUpdate:Z
+    iput-boolean v1, v7, Lcom/tencent/mm/s/Iclz;->field_needToUpdate:Z
 
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xu()Lcom/tencent/mm/s/j;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xu()Lcom/tencent/mm/s/Jclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v7}, Lcom/tencent/mm/s/j;->a(Lcom/tencent/mm/s/i;)Z
+    invoke-virtual {v1, v7}, Lcom/tencent/mm/s/Jclz;->a(Lcom/tencent/mm/s/Iclz;)Z
 
     goto :goto_4
 
     :cond_b
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xs()Lcom/tencent/mm/s/e;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xs()Lcom/tencent/mm/s/Eclz;
 
     move-result-object v6
 
@@ -372,7 +372,7 @@
 
     iget-object v7, v7, Lcom/tencent/mm/protocal/b/ETclz;->ipq:Ljava/lang/String;
 
-    invoke-virtual {v6, v7}, Lcom/tencent/mm/s/e;->gg(Ljava/lang/String;)Lcom/tencent/mm/s/d;
+    invoke-virtual {v6, v7}, Lcom/tencent/mm/s/Eclz;->gg(Ljava/lang/String;)Lcom/tencent/mm/s/Dclz;
 
     move-result-object v7
 
@@ -388,15 +388,15 @@
 
     invoke-static {v7, v12}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
 
-    new-instance v7, Lcom/tencent/mm/s/d;
+    new-instance v7, Lcom/tencent/mm/s/Dclz;
 
-    invoke-direct {v7}, Lcom/tencent/mm/s/d;-><init>()V
+    invoke-direct {v7}, Lcom/tencent/mm/s/Dclz;-><init>()V
 
     iget-object v12, v1, Lcom/tencent/mm/protocal/b/NQclz;->iAv:Lcom/tencent/mm/protocal/b/ETclz;
 
     iget-object v12, v12, Lcom/tencent/mm/protocal/b/ETclz;->ipq:Ljava/lang/String;
 
-    iput-object v12, v7, Lcom/tencent/mm/s/d;->field_bizChatServId:Ljava/lang/String;
+    iput-object v12, v7, Lcom/tencent/mm/s/Dclz;->field_bizChatServId:Ljava/lang/String;
 
     :cond_c
     iget-object v12, v1, Lcom/tencent/mm/protocal/b/NQclz;->ipy:Ljava/util/LinkedList;
@@ -412,7 +412,7 @@
     goto/16 :goto_3
 
     :cond_d
-    invoke-virtual {v7}, Lcom/tencent/mm/s/d;->wg()Z
+    invoke-virtual {v7}, Lcom/tencent/mm/s/Dclz;->wg()Z
 
     move-result v12
 
@@ -422,7 +422,7 @@
 
     iget v12, v12, Lcom/tencent/mm/protocal/b/ETclz;->hLr:I
 
-    iget v13, v7, Lcom/tencent/mm/s/d;->field_chatVersion:I
+    iget v13, v7, Lcom/tencent/mm/s/Dclz;->field_chatVersion:I
 
     if-le v12, v13, :cond_13
 
@@ -431,13 +431,13 @@
 
     iget v3, v3, Lcom/tencent/mm/protocal/b/ETclz;->type:I
 
-    iput v3, v7, Lcom/tencent/mm/s/d;->field_chatType:I
+    iput v3, v7, Lcom/tencent/mm/s/Dclz;->field_chatType:I
 
     iget-object v3, v1, Lcom/tencent/mm/protocal/b/NQclz;->iAv:Lcom/tencent/mm/protocal/b/ETclz;
 
     iget-object v3, v3, Lcom/tencent/mm/protocal/b/ETclz;->ipr:Ljava/lang/String;
 
-    iput-object v3, v7, Lcom/tencent/mm/s/d;->field_headImageUrl:Ljava/lang/String;
+    iput-object v3, v7, Lcom/tencent/mm/s/Dclz;->field_headImageUrl:Ljava/lang/String;
 
     iget-object v3, v1, Lcom/tencent/mm/protocal/b/NQclz;->iAv:Lcom/tencent/mm/protocal/b/ETclz;
 
@@ -449,7 +449,7 @@
 
     iget-object v3, v3, Lcom/tencent/mm/protocal/b/ETclz;->name:Ljava/lang/String;
 
-    iget-object v12, v7, Lcom/tencent/mm/s/d;->field_chatName:Ljava/lang/String;
+    iget-object v12, v7, Lcom/tencent/mm/s/Dclz;->field_chatName:Ljava/lang/String;
 
     invoke-virtual {v3, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -461,7 +461,7 @@
 
     iget-object v3, v3, Lcom/tencent/mm/protocal/b/ETclz;->name:Ljava/lang/String;
 
-    iput-object v3, v7, Lcom/tencent/mm/s/d;->field_chatName:Ljava/lang/String;
+    iput-object v3, v7, Lcom/tencent/mm/s/Dclz;->field_chatName:Ljava/lang/String;
 
     if-nez v7, :cond_10
 
@@ -477,39 +477,39 @@
 
     iget v3, v3, Lcom/tencent/mm/protocal/b/ETclz;->hLr:I
 
-    iput v3, v7, Lcom/tencent/mm/s/d;->field_chatVersion:I
+    iput v3, v7, Lcom/tencent/mm/s/Dclz;->field_chatVersion:I
 
     const/4 v3, 0x0
 
-    iput-boolean v3, v7, Lcom/tencent/mm/s/d;->field_needToUpdate:Z
+    iput-boolean v3, v7, Lcom/tencent/mm/s/Dclz;->field_needToUpdate:Z
 
     iget-object v3, v1, Lcom/tencent/mm/protocal/b/NQclz;->iAv:Lcom/tencent/mm/protocal/b/ETclz;
 
     iget v3, v3, Lcom/tencent/mm/protocal/b/ETclz;->ips:I
 
-    iput v3, v7, Lcom/tencent/mm/s/d;->field_bitFlag:I
+    iput v3, v7, Lcom/tencent/mm/s/Dclz;->field_bitFlag:I
 
     iget-object v3, v1, Lcom/tencent/mm/protocal/b/NQclz;->iAv:Lcom/tencent/mm/protocal/b/ETclz;
 
     iget v3, v3, Lcom/tencent/mm/protocal/b/ETclz;->ipt:I
 
-    iput v3, v7, Lcom/tencent/mm/s/d;->field_maxMemberCnt:I
+    iput v3, v7, Lcom/tencent/mm/s/Dclz;->field_maxMemberCnt:I
 
     iget-object v3, v1, Lcom/tencent/mm/protocal/b/NQclz;->iAv:Lcom/tencent/mm/protocal/b/ETclz;
 
     iget-object v3, v3, Lcom/tencent/mm/protocal/b/ETclz;->ipu:Ljava/lang/String;
 
-    iput-object v3, v7, Lcom/tencent/mm/s/d;->field_ownerUserId:Ljava/lang/String;
+    iput-object v3, v7, Lcom/tencent/mm/s/Dclz;->field_ownerUserId:Ljava/lang/String;
 
     iget-object v3, v1, Lcom/tencent/mm/protocal/b/NQclz;->iAv:Lcom/tencent/mm/protocal/b/ETclz;
 
     iget-object v3, v3, Lcom/tencent/mm/protocal/b/ETclz;->ipv:Ljava/lang/String;
 
-    iput-object v3, v7, Lcom/tencent/mm/s/d;->field_addMemberUrl:Ljava/lang/String;
+    iput-object v3, v7, Lcom/tencent/mm/s/Dclz;->field_addMemberUrl:Ljava/lang/String;
 
     sget-object v3, Lcom/tencent/mm/ui/conversation/BizChatFavUI;->cOm:Ljava/lang/String;
 
-    iput-object v3, v7, Lcom/tencent/mm/s/d;->field_brandUserName:Ljava/lang/String;
+    iput-object v3, v7, Lcom/tencent/mm/s/Dclz;->field_brandUserName:Ljava/lang/String;
 
     new-instance v12, Ljava/util/LinkedList;
 
@@ -590,7 +590,7 @@
 
     sget-object v14, Lcom/tencent/mm/ui/conversation/BizChatFavUI;->cOm:Ljava/lang/String;
 
-    iget-wide v15, v7, Lcom/tencent/mm/s/d;->field_bizChatLocalId:J
+    iget-wide v15, v7, Lcom/tencent/mm/s/Dclz;->field_bizChatLocalId:J
 
     invoke-virtual/range {v13 .. v16}, Lcom/tencent/mm/storage/ae;->t(Ljava/lang/String;J)Lcom/tencent/mm/storage/ad;
 
@@ -636,7 +636,7 @@
 
     if-eqz v14, :cond_f
 
-    iget-object v13, v7, Lcom/tencent/mm/s/d;->field_chatName:Ljava/lang/String;
+    iget-object v13, v7, Lcom/tencent/mm/s/Dclz;->field_chatName:Ljava/lang/String;
 
     invoke-virtual {v14, v13}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -648,7 +648,7 @@
 
     invoke-direct {v13}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v14, v7, Lcom/tencent/mm/s/d;->field_chatName:Ljava/lang/String;
+    iget-object v14, v7, Lcom/tencent/mm/s/Dclz;->field_chatName:Ljava/lang/String;
 
     invoke-virtual {v13, v14}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -693,15 +693,15 @@
 
     move-result-object v3
 
-    iput-object v3, v7, Lcom/tencent/mm/s/d;->field_userList:Ljava/lang/String;
+    iput-object v3, v7, Lcom/tencent/mm/s/Dclz;->field_userList:Ljava/lang/String;
 
     if-eqz v6, :cond_16
 
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xs()Lcom/tencent/mm/s/e;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xs()Lcom/tencent/mm/s/Eclz;
 
     move-result-object v3
 
-    invoke-virtual {v3, v7}, Lcom/tencent/mm/s/e;->a(Lcom/tencent/mm/s/d;)Z
+    invoke-virtual {v3, v7}, Lcom/tencent/mm/s/Eclz;->a(Lcom/tencent/mm/s/Dclz;)Z
 
     :goto_7
     const/4 v3, 0x1
@@ -740,13 +740,13 @@
 
     check-cast v1, Lcom/tencent/mm/protocal/b/EVclz;
 
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xu()Lcom/tencent/mm/s/j;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xu()Lcom/tencent/mm/s/Jclz;
 
     move-result-object v7
 
     iget-object v12, v1, Lcom/tencent/mm/protocal/b/EVclz;->ipx:Ljava/lang/String;
 
-    invoke-virtual {v7, v12}, Lcom/tencent/mm/s/j;->gq(Ljava/lang/String;)I
+    invoke-virtual {v7, v12}, Lcom/tencent/mm/s/Jclz;->gq(Ljava/lang/String;)I
 
     move-result v7
 
@@ -765,30 +765,30 @@
     goto :goto_8
 
     :cond_16
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xs()Lcom/tencent/mm/s/e;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xs()Lcom/tencent/mm/s/Eclz;
 
     move-result-object v3
 
-    invoke-virtual {v3, v7}, Lcom/tencent/mm/s/e;->b(Lcom/tencent/mm/s/d;)Z
+    invoke-virtual {v3, v7}, Lcom/tencent/mm/s/Eclz;->b(Lcom/tencent/mm/s/Dclz;)Z
 
     goto :goto_7
 
     :cond_17
     iget v1, v1, Lcom/tencent/mm/protocal/b/EVclz;->hLr:I
 
-    iget v10, v7, Lcom/tencent/mm/s/i;->field_UserVersion:I
+    iget v10, v7, Lcom/tencent/mm/s/Iclz;->field_UserVersion:I
 
     if-le v1, v10, :cond_a
 
     const/4 v1, 0x1
 
-    iput-boolean v1, v7, Lcom/tencent/mm/s/i;->field_needToUpdate:Z
+    iput-boolean v1, v7, Lcom/tencent/mm/s/Iclz;->field_needToUpdate:Z
 
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xu()Lcom/tencent/mm/s/j;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xu()Lcom/tencent/mm/s/Jclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v7}, Lcom/tencent/mm/s/j;->b(Lcom/tencent/mm/s/i;)Z
+    invoke-virtual {v1, v7}, Lcom/tencent/mm/s/Jclz;->b(Lcom/tencent/mm/s/Iclz;)Z
 
     goto/16 :goto_4
 

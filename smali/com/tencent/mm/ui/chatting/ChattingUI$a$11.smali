@@ -71,9 +71,9 @@
     .line 8750
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$11;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/d;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/Dclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/s/f;->d(Lcom/tencent/mm/s/d;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/s/Fclz;->d(Lcom/tencent/mm/s/Dclz;)Ljava/lang/String;
 
     .line 8752
     :cond_0

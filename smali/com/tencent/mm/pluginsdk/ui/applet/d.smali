@@ -538,7 +538,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {p1}, Lcom/tencent/mm/s/m;->gK(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/s/Mclz;->gK(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -572,7 +572,7 @@
 
     iget-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->username:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/s/f;->gl(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/s/Fclz;->gl(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 

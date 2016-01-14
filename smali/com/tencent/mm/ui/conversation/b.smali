@@ -38,9 +38,9 @@
     const/4 v2, 0x1
 
     .line 40
-    new-instance v0, Lcom/tencent/mm/s/d;
+    new-instance v0, Lcom/tencent/mm/s/Dclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/s/d;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/s/Dclz;-><init>()V
 
     invoke-direct {p0, p1, v0}, Lcom/tencent/mm/ui/i;-><init>(Landroid/content/Context;Ljava/lang/Object;)V
 
@@ -74,7 +74,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/conversation/b;->cOm:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/s/f;->gk(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/s/Fclz;->gk(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -112,7 +112,7 @@
 
     .prologue
     .line 59
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xs()Lcom/tencent/mm/s/e;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xs()Lcom/tencent/mm/s/Eclz;
 
     move-result-object v0
 
@@ -156,7 +156,7 @@
 
     move-result-object v1
 
-    invoke-static {}, Lcom/tencent/mm/s/e;->wi()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/s/Eclz;->wi()Ljava/lang/String;
 
     move-result-object v3
 
@@ -180,7 +180,7 @@
 
     invoke-static {v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iget-object v0, v0, Lcom/tencent/mm/s/e;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v0, v0, Lcom/tencent/mm/s/Eclz;->aoD:Lcom/tencent/mm/sdk/g/d;
 
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -228,16 +228,16 @@
 
     .prologue
     .line 28
-    check-cast p1, Lcom/tencent/mm/s/d;
+    check-cast p1, Lcom/tencent/mm/s/Dclz;
 
     if-nez p1, :cond_0
 
-    new-instance p1, Lcom/tencent/mm/s/d;
+    new-instance p1, Lcom/tencent/mm/s/Dclz;
 
-    invoke-direct {p1}, Lcom/tencent/mm/s/d;-><init>()V
+    invoke-direct {p1}, Lcom/tencent/mm/s/Dclz;-><init>()V
 
     :cond_0
-    invoke-virtual {p1, p2}, Lcom/tencent/mm/s/d;->c(Landroid/database/Cursor;)V
+    invoke-virtual {p1, p2}, Lcom/tencent/mm/s/Dclz;->c(Landroid/database/Cursor;)V
 
     return-object p1
 .end method
@@ -283,7 +283,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/s/d;
+    check-cast v0, Lcom/tencent/mm/s/Dclz;
 
     .line 100
     if-nez p2, :cond_0
@@ -337,7 +337,7 @@
 
     move-result-object v2
 
-    iget-object v3, v0, Lcom/tencent/mm/s/d;->field_headImageUrl:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/s/Dclz;->field_headImageUrl:Ljava/lang/String;
 
     iget-object v4, v1, Lcom/tencent/mm/ui/conversation/b$a;->crp:Landroid/widget/ImageView;
 
@@ -350,7 +350,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/conversation/b;->arA:Lcom/tencent/mm/ui/MMActivity;
 
-    iget-object v0, v0, Lcom/tencent/mm/s/d;->field_chatName:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/s/Dclz;->field_chatName:Ljava/lang/String;
 
     iget-object v1, v1, Lcom/tencent/mm/ui/conversation/b$a;->cyE:Landroid/widget/TextView;
 

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    value = Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic aoz:Lcom/tencent/mm/q/j;
+.field final synthetic aoz:Lcom/tencent/mm/q/Jclz;
 
 .field final synthetic jFn:Ljava/lang/String;
 
@@ -26,14 +26,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;Lcom/tencent/mm/q/j;Ljava/lang/String;)V
+.method constructor <init>(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;Lcom/tencent/mm/q/Jclz;Ljava/lang/String;)V
     .locals 1
 
     .prologue
     .line 518
     iput-object p1, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$5;->jHu:Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$5;->aoz:Lcom/tencent/mm/q/j;
+    iput-object p2, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$5;->aoz:Lcom/tencent/mm/q/Jclz;
 
     iput-object p3, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$5;->jFn:Ljava/lang/String;
 
@@ -58,7 +58,7 @@
     .line 522
     iget-object v1, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$5;->jHu:Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$5;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$5;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/modelsimple/v;
 

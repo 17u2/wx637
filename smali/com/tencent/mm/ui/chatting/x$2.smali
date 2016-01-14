@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/g$b;
+.implements Lcom/tencent/mm/q/Gclz$b;
 
 
 # annotations

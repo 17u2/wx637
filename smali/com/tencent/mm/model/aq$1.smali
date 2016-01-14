@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/model/aq;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/d;)I
+    value = Lcom/tencent/mm/model/aq;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

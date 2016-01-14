@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/s/o$a;
+.implements Lcom/tencent/mm/s/Oclz$a;
 
 
 # annotations
@@ -55,11 +55,11 @@
 
     .prologue
     .line 702
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xr()Lcom/tencent/mm/s/o;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xr()Lcom/tencent/mm/s/Oclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/s/o;->b(Lcom/tencent/mm/s/o$a;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/s/Oclz;->b(Lcom/tencent/mm/s/Oclz$a;)V
 
     .line 703
     const-string/jumbo v0, "!32@/B4Tb64lLpKwUcOR+EdWcpgJkyl6H9WI"

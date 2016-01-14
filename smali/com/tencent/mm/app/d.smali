@@ -396,13 +396,13 @@
 
     .line 57
     :cond_0
-    new-instance v7, Lcom/tencent/mm/q/n;
+    new-instance v7, Lcom/tencent/mm/q/Nclz;
 
     invoke-static {p2}, Lcom/tencent/mm/network/f$a;->X(Landroid/os/IBinder;)Lcom/tencent/mm/network/f;
 
     move-result-object v0
 
-    invoke-direct {v7, v0}, Lcom/tencent/mm/q/n;-><init>(Lcom/tencent/mm/network/f;)V
+    invoke-direct {v7, v0}, Lcom/tencent/mm/q/Nclz;-><init>(Lcom/tencent/mm/network/f;)V
 
     .line 58
     new-instance v0, Lcom/tencent/mm/app/d$1;
@@ -410,7 +410,7 @@
     invoke-direct {v0, p0}, Lcom/tencent/mm/app/d$1;-><init>(Lcom/tencent/mm/app/d;)V
 
     :try_start_1
-    iget-object v1, v7, Lcom/tencent/mm/q/n;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v1, v7, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
 
     invoke-interface {v1, v0}, Lcom/tencent/mm/network/f;->a(Lcom/tencent/mm/network/q;)V
     :try_end_1
@@ -423,7 +423,7 @@
     invoke-direct {v0, p0}, Lcom/tencent/mm/app/d$2;-><init>(Lcom/tencent/mm/app/d;)V
 
     :try_start_2
-    iget-object v1, v7, Lcom/tencent/mm/q/n;->byJ:Lcom/tencent/mm/network/f;
+    iget-object v1, v7, Lcom/tencent/mm/q/Nclz;->byJ:Lcom/tencent/mm/network/f;
 
     invoke-interface {v1, v0}, Lcom/tencent/mm/network/f;->a(Lcom/tencent/mm/network/g;)V
     :try_end_2
@@ -447,11 +447,11 @@
 
     iget-object v8, v0, Lcom/tencent/mm/model/c;->bsu:Lcom/tencent/mm/model/a;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/q/l;->byu:Lcom/tencent/mm/network/e;
+    iget-object v0, v0, Lcom/tencent/mm/q/Lclz;->byu:Lcom/tencent/mm/network/e;
 
     invoke-interface {v0}, Lcom/tencent/mm/network/e;->vG()Lcom/tencent/mm/network/c;
 
@@ -492,26 +492,26 @@
 
     if-eqz v0, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     if-eqz v0, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/q/l;->byu:Lcom/tencent/mm/network/e;
+    iget-object v0, v0, Lcom/tencent/mm/q/Lclz;->byu:Lcom/tencent/mm/network/e;
 
     if-eqz v0, :cond_2
 
     .line 88
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/q/l;->byu:Lcom/tencent/mm/network/e;
+    iget-object v0, v0, Lcom/tencent/mm/q/Lclz;->byu:Lcom/tencent/mm/network/e;
 
     invoke-interface {v0, v11}, Lcom/tencent/mm/network/e;->aQ(Z)V
 
@@ -887,11 +887,11 @@
     if-nez v0, :cond_0
 
     .line 104
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/l;->vx()V
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Lclz;->vx()V
 
     .line 105
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
@@ -906,18 +906,18 @@
 
     .line 107
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/l;->vy()V
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Lclz;->vy()V
 
     .line 108
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/l;->reset()V
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Lclz;->reset()V
 
     goto :goto_0
 .end method

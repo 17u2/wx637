@@ -167,22 +167,22 @@
     const/16 v2, 0x27
 
     .line 108
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     sget-object v1, Lcom/tencent/mm/booter/NotifyReceiver;->bgh:Lcom/tencent/mm/booter/NotifyReceiver$a;
 
-    invoke-virtual {v0, v3, v1}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v3, v1}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 109
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     sget-object v1, Lcom/tencent/mm/booter/NotifyReceiver;->bgh:Lcom/tencent/mm/booter/NotifyReceiver$a;
 
-    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 111
     sget-object v0, Lcom/tencent/mm/booter/NotifyReceiver;->bgh:Lcom/tencent/mm/booter/NotifyReceiver$a;
@@ -198,22 +198,22 @@
 
     .line 115
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     sget-object v1, Lcom/tencent/mm/booter/NotifyReceiver;->bgh:Lcom/tencent/mm/booter/NotifyReceiver$a;
 
-    invoke-virtual {v0, v3, v1}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v3, v1}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 116
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     sget-object v1, Lcom/tencent/mm/booter/NotifyReceiver;->bgh:Lcom/tencent/mm/booter/NotifyReceiver$a;
 
-    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 117
     return-void

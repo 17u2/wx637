@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/account/mobile/i;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    value = Lcom/tencent/mm/ui/account/mobile/i;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic aoz:Lcom/tencent/mm/q/j;
+.field final synthetic aoz:Lcom/tencent/mm/q/Jclz;
 
 .field final synthetic jHL:Lcom/tencent/mm/ui/account/mobile/i;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/account/mobile/i;Lcom/tencent/mm/q/j;)V
+.method constructor <init>(Lcom/tencent/mm/ui/account/mobile/i;Lcom/tencent/mm/q/Jclz;)V
     .locals 1
 
     .prologue
     .line 311
     iput-object p1, p0, Lcom/tencent/mm/ui/account/mobile/i$15;->jHL:Lcom/tencent/mm/ui/account/mobile/i;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/account/mobile/i$15;->aoz:Lcom/tencent/mm/q/j;
+    iput-object p2, p0, Lcom/tencent/mm/ui/account/mobile/i$15;->aoz:Lcom/tencent/mm/q/Jclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,7 +52,7 @@
 
     .prologue
     .line 314
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -60,7 +60,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/account/mobile/i$15;->jHL:Lcom/tencent/mm/ui/account/mobile/i;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 315
     iget-object v1, p0, Lcom/tencent/mm/ui/account/mobile/i$15;->jHL:Lcom/tencent/mm/ui/account/mobile/i;
@@ -71,7 +71,7 @@
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/ui/account/mobile/i$15$1;-><init>(Lcom/tencent/mm/ui/account/mobile/i$15;)V
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/i$15;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/i$15;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/modelfriend/u;
 
@@ -79,7 +79,7 @@
 
     move-result-object v4
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/i$15;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/i$15;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/modelfriend/u;
 

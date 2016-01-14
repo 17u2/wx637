@@ -171,17 +171,17 @@
     invoke-virtual {p0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 96
-    new-instance v1, Lcom/tencent/mm/s/k;
+    new-instance v1, Lcom/tencent/mm/s/Kclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/s/k;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/s/Kclz;-><init>()V
 
     .line 97
-    iput-object v0, v1, Lcom/tencent/mm/s/k;->field_username:Ljava/lang/String;
+    iput-object v0, v1, Lcom/tencent/mm/s/Kclz;->field_username:Ljava/lang/String;
 
     .line 98
     iget-object v0, p1, Lcom/tencent/mm/protocal/b/akj;->bEx:Ljava/lang/String;
 
-    iput-object v0, v1, Lcom/tencent/mm/s/k;->field_brandList:Ljava/lang/String;
+    iput-object v0, v1, Lcom/tencent/mm/s/Kclz;->field_brandList:Ljava/lang/String;
 
     .line 100
     iget-object v0, p1, Lcom/tencent/mm/protocal/b/akj;->iJd:Lcom/tencent/mm/protocal/b/IWclz;
@@ -192,41 +192,41 @@
     .line 102
     iget v2, v0, Lcom/tencent/mm/protocal/b/IWclz;->bEB:I
 
-    iput v2, v1, Lcom/tencent/mm/s/k;->field_brandFlag:I
+    iput v2, v1, Lcom/tencent/mm/s/Kclz;->field_brandFlag:I
 
     .line 103
     iget-object v2, v0, Lcom/tencent/mm/protocal/b/IWclz;->bED:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/s/k;->field_brandInfo:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/s/Kclz;->field_brandInfo:Ljava/lang/String;
 
     .line 104
     iget-object v2, v0, Lcom/tencent/mm/protocal/b/IWclz;->bEC:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/s/k;->field_extInfo:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/s/Kclz;->field_extInfo:Ljava/lang/String;
 
     .line 105
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/IWclz;->bEE:Ljava/lang/String;
 
-    iput-object v0, v1, Lcom/tencent/mm/s/k;->field_brandIconURL:Ljava/lang/String;
+    iput-object v0, v1, Lcom/tencent/mm/s/Kclz;->field_brandIconURL:Ljava/lang/String;
 
     .line 109
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xq()Lcom/tencent/mm/s/l;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xq()Lcom/tencent/mm/s/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/l;->d(Lcom/tencent/mm/s/k;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/Lclz;->d(Lcom/tencent/mm/s/Kclz;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
     .line 110
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xq()Lcom/tencent/mm/s/l;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xq()Lcom/tencent/mm/s/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/l;->c(Lcom/tencent/mm/s/k;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/Lclz;->c(Lcom/tencent/mm/s/Kclz;)Z
 
     .line 112
     :cond_1
@@ -407,22 +407,22 @@
     invoke-virtual {p0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 46
-    new-instance v1, Lcom/tencent/mm/s/k;
+    new-instance v1, Lcom/tencent/mm/s/Kclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/s/k;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/s/Kclz;-><init>()V
 
     .line 47
-    iput-object v0, v1, Lcom/tencent/mm/s/k;->field_username:Ljava/lang/String;
+    iput-object v0, v1, Lcom/tencent/mm/s/Kclz;->field_username:Ljava/lang/String;
 
     .line 48
     iget-object v0, p1, Lcom/tencent/mm/protocal/b/akl;->bEx:Ljava/lang/String;
 
-    iput-object v0, v1, Lcom/tencent/mm/s/k;->field_brandList:Ljava/lang/String;
+    iput-object v0, v1, Lcom/tencent/mm/s/Kclz;->field_brandList:Ljava/lang/String;
 
     .line 49
     iget-object v0, p1, Lcom/tencent/mm/protocal/b/akl;->iSI:Ljava/lang/String;
 
-    iput-object v0, v1, Lcom/tencent/mm/s/k;->field_kfWorkerId:Ljava/lang/String;
+    iput-object v0, v1, Lcom/tencent/mm/s/Kclz;->field_kfWorkerId:Ljava/lang/String;
 
     .line 51
     iget-object v0, p1, Lcom/tencent/mm/protocal/b/akl;->iJd:Lcom/tencent/mm/protocal/b/IWclz;
@@ -433,41 +433,41 @@
     .line 53
     iget v2, v0, Lcom/tencent/mm/protocal/b/IWclz;->bEB:I
 
-    iput v2, v1, Lcom/tencent/mm/s/k;->field_brandFlag:I
+    iput v2, v1, Lcom/tencent/mm/s/Kclz;->field_brandFlag:I
 
     .line 54
     iget-object v2, v0, Lcom/tencent/mm/protocal/b/IWclz;->bED:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/s/k;->field_brandInfo:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/s/Kclz;->field_brandInfo:Ljava/lang/String;
 
     .line 55
     iget-object v2, v0, Lcom/tencent/mm/protocal/b/IWclz;->bEC:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/s/k;->field_extInfo:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/s/Kclz;->field_extInfo:Ljava/lang/String;
 
     .line 56
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/IWclz;->bEE:Ljava/lang/String;
 
-    iput-object v0, v1, Lcom/tencent/mm/s/k;->field_brandIconURL:Ljava/lang/String;
+    iput-object v0, v1, Lcom/tencent/mm/s/Kclz;->field_brandIconURL:Ljava/lang/String;
 
     .line 60
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xq()Lcom/tencent/mm/s/l;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xq()Lcom/tencent/mm/s/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/l;->d(Lcom/tencent/mm/s/k;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/Lclz;->d(Lcom/tencent/mm/s/Kclz;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
     .line 61
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xq()Lcom/tencent/mm/s/l;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xq()Lcom/tencent/mm/s/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/l;->c(Lcom/tencent/mm/s/k;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/Lclz;->c(Lcom/tencent/mm/s/Kclz;)Z
 
     .line 63
     :cond_1

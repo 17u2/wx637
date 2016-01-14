@@ -111,13 +111,13 @@
     .line 292
     iget-object v1, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/b$1;->anz:Lcom/tencent/mm/app/plugin/voicereminder/a/b;
 
-    iget-object v1, v1, Lcom/tencent/mm/app/plugin/voicereminder/a/b;->ans:Lcom/tencent/mm/q/d;
+    iget-object v1, v1, Lcom/tencent/mm/app/plugin/voicereminder/a/b;->ans:Lcom/tencent/mm/q/Dclz;
 
     const-string/jumbo v2, "doScene failed"
 
     iget-object v3, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/b$1;->anz:Lcom/tencent/mm/app/plugin/voicereminder/a/b;
 
-    invoke-interface {v1, v10, v9, v2, v3}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v1, v10, v9, v2, v3}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 323
     :cond_1
@@ -193,13 +193,13 @@
     .line 302
     iget-object v1, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/b$1;->anz:Lcom/tencent/mm/app/plugin/voicereminder/a/b;
 
-    iget-object v1, v1, Lcom/tencent/mm/app/plugin/voicereminder/a/b;->ans:Lcom/tencent/mm/q/d;
+    iget-object v1, v1, Lcom/tencent/mm/app/plugin/voicereminder/a/b;->ans:Lcom/tencent/mm/q/Dclz;
 
     const-string/jumbo v2, "doScene failed"
 
     iget-object v3, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/b$1;->anz:Lcom/tencent/mm/app/plugin/voicereminder/a/b;
 
-    invoke-interface {v1, v10, v9, v2, v3}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v1, v10, v9, v2, v3}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto :goto_0
 
@@ -342,13 +342,13 @@
 
     iget-object v2, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/b$1;->anz:Lcom/tencent/mm/app/plugin/voicereminder/a/b;
 
-    iget-object v2, v2, Lcom/tencent/mm/q/j;->bya:Lcom/tencent/mm/network/e;
+    iget-object v2, v2, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/e;
 
     iget-object v3, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/b$1;->anz:Lcom/tencent/mm/app/plugin/voicereminder/a/b;
 
-    iget-object v3, v3, Lcom/tencent/mm/app/plugin/voicereminder/a/b;->ans:Lcom/tencent/mm/q/d;
+    iget-object v3, v3, Lcom/tencent/mm/app/plugin/voicereminder/a/b;->ans:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/app/plugin/voicereminder/a/b;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/d;)I
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/app/plugin/voicereminder/a/b;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
 
     move-result v1
 
@@ -368,13 +368,13 @@
     .line 321
     iget-object v1, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/b$1;->anz:Lcom/tencent/mm/app/plugin/voicereminder/a/b;
 
-    iget-object v1, v1, Lcom/tencent/mm/app/plugin/voicereminder/a/b;->ans:Lcom/tencent/mm/q/d;
+    iget-object v1, v1, Lcom/tencent/mm/app/plugin/voicereminder/a/b;->ans:Lcom/tencent/mm/q/Dclz;
 
     const-string/jumbo v2, "doScene failed"
 
     iget-object v3, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/b$1;->anz:Lcom/tencent/mm/app/plugin/voicereminder/a/b;
 
-    invoke-interface {v1, v10, v9, v2, v3}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v1, v10, v9, v2, v3}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto/16 :goto_0
 .end method

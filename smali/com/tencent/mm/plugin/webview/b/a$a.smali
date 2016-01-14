@@ -338,13 +338,13 @@
     if-eqz v2, :cond_5
 
     .line 85
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 
     iget-object v3, p0, Lcom/tencent/mm/plugin/webview/b/a$a;->hxw:Lcom/tencent/mm/plugin/webview/b/e;
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/q/l;->c(Lcom/tencent/mm/q/j;)V
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 
     .line 87
     :cond_5
@@ -400,7 +400,7 @@
     iput-boolean v0, p0, Lcom/tencent/mm/plugin/webview/b/a$a;->aBA:Z
 
     .line 93
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -408,7 +408,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/plugin/webview/b/a$a;->hxv:Lcom/tencent/mm/plugin/webview/b/a;
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 94
     new-instance v1, Lcom/tencent/mm/plugin/webview/b/e;
@@ -501,13 +501,13 @@
     iput-object v1, p0, Lcom/tencent/mm/plugin/webview/b/a$a;->hxw:Lcom/tencent/mm/plugin/webview/b/e;
 
     .line 97
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/b/a$a;->hxw:Lcom/tencent/mm/plugin/webview/b/e;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     goto/16 :goto_0
 

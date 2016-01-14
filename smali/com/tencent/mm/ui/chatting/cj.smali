@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lcom/tencent/mm/ak/n$a;
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 
 
 # annotations
@@ -2530,7 +2530,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/s/f;->gl(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/s/Fclz;->gl(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -4968,7 +4968,7 @@
     return-object v0
 .end method
 
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 2
 
     .prologue

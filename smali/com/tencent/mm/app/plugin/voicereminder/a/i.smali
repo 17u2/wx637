@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lcom/tencent/mm/compatible/b/d$a;
-.implements Lcom/tencent/mm/q/g;
+.implements Lcom/tencent/mm/q/Gclz;
 
 
 # annotations
@@ -24,9 +24,9 @@
 
 .field private ank:Lcom/tencent/mm/modelvoice/k;
 
-.field protected aob:Lcom/tencent/mm/q/g$b;
+.field protected aob:Lcom/tencent/mm/q/Gclz$b;
 
-.field protected aoc:Lcom/tencent/mm/q/g$a;
+.field protected aoc:Lcom/tencent/mm/q/Gclz$a;
 
 .field private aod:I
 
@@ -80,7 +80,7 @@
     iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/k;
 
     .line 23
-    iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aoc:Lcom/tencent/mm/q/g$a;
+    iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aoc:Lcom/tencent/mm/q/Gclz$a;
 
     .line 24
     iput v1, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aod:I
@@ -236,23 +236,23 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/q/g$a;)V
+.method public final a(Lcom/tencent/mm/q/Gclz$a;)V
     .locals 0
 
     .prologue
     .line 216
-    iput-object p1, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aoc:Lcom/tencent/mm/q/g$a;
+    iput-object p1, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aoc:Lcom/tencent/mm/q/Gclz$a;
 
     .line 218
     return-void
 .end method
 
-.method public final a(Lcom/tencent/mm/q/g$b;)V
+.method public final a(Lcom/tencent/mm/q/Gclz$b;)V
     .locals 0
 
     .prologue
     .line 222
-    iput-object p1, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aob:Lcom/tencent/mm/q/g$b;
+    iput-object p1, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aob:Lcom/tencent/mm/q/Gclz$b;
 
     .line 224
     return-void

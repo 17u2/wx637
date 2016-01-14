@@ -70,7 +70,7 @@
     return-void
 .end method
 
-.method public static a(Lcom/tencent/mm/s/k;)Z
+.method public static a(Lcom/tencent/mm/s/Kclz;)Z
     .locals 3
 
     .prologue
@@ -89,24 +89,24 @@
     if-eqz p0, :cond_0
 
     .line 244
-    invoke-virtual {p0, v0}, Lcom/tencent/mm/s/k;->aS(Z)Lcom/tencent/mm/s/k$c;
+    invoke-virtual {p0, v0}, Lcom/tencent/mm/s/Kclz;->aS(Z)Lcom/tencent/mm/s/Kclz$c;
 
     move-result-object v1
 
     .line 245
     if-eqz v1, :cond_0
 
-    invoke-virtual {v1}, Lcom/tencent/mm/s/k$c;->wG()Lcom/tencent/mm/s/k$c$a;
+    invoke-virtual {v1}, Lcom/tencent/mm/s/Kclz$c;->wG()Lcom/tencent/mm/s/Kclz$c$a;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    invoke-virtual {v1}, Lcom/tencent/mm/s/k$c;->wG()Lcom/tencent/mm/s/k$c$a;
+    invoke-virtual {v1}, Lcom/tencent/mm/s/Kclz$c;->wG()Lcom/tencent/mm/s/Kclz$c$a;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/s/k$c$a;->wP()Z
+    invoke-virtual {v1}, Lcom/tencent/mm/s/Kclz$c$a;->wP()Z
 
     move-result v1
 
@@ -120,7 +120,7 @@
 
 
 # virtual methods
-.method public final a(ILcom/tencent/mm/s/k;)V
+.method public final a(ILcom/tencent/mm/s/Kclz;)V
     .locals 2
 
     .prologue
@@ -156,7 +156,7 @@
     if-eqz v0, :cond_0
 
     .line 200
-    invoke-static {p2}, Lcom/tencent/mm/app/plugin/a/a;->a(Lcom/tencent/mm/s/k;)Z
+    invoke-static {p2}, Lcom/tencent/mm/app/plugin/a/a;->a(Lcom/tencent/mm/s/Kclz;)Z
 
     move-result v0
 
@@ -235,12 +235,12 @@
     .line 121
     :cond_2
     :try_start_1
-    invoke-static {p2}, Lcom/tencent/mm/s/m;->gG(Ljava/lang/String;)Lcom/tencent/mm/s/k;
+    invoke-static {p2}, Lcom/tencent/mm/s/Mclz;->gG(Ljava/lang/String;)Lcom/tencent/mm/s/Kclz;
 
     move-result-object v0
 
     .line 122
-    invoke-static {v0}, Lcom/tencent/mm/app/plugin/a/a;->a(Lcom/tencent/mm/s/k;)Z
+    invoke-static {v0}, Lcom/tencent/mm/app/plugin/a/a;->a(Lcom/tencent/mm/s/Kclz;)Z
 
     move-result v1
 
@@ -308,16 +308,16 @@
     :cond_5
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/s/k;->aS(Z)Lcom/tencent/mm/s/k$c;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/s/Kclz;->aS(Z)Lcom/tencent/mm/s/Kclz$c;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/s/k$c;->wG()Lcom/tencent/mm/s/k$c$a;
+    invoke-virtual {v0}, Lcom/tencent/mm/s/Kclz$c;->wG()Lcom/tencent/mm/s/Kclz$c$a;
 
     move-result-object v0
 
     .line 133
-    iget v0, v0, Lcom/tencent/mm/s/k$c$a;->bAV:I
+    iget v0, v0, Lcom/tencent/mm/s/Kclz$c$a;->bAV:I
 
     if-ne v0, v5, :cond_6
 

@@ -31,7 +31,7 @@
 
 .field fIU:Lcom/tencent/mm/sdk/c/c;
 
-.field fIV:Lcom/tencent/mm/q/d;
+.field fIV:Lcom/tencent/mm/q/Dclz;
 
 .field private fIW:Landroid/content/BroadcastReceiver;
 
@@ -88,7 +88,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/search/a/k$5;-><init>(Lcom/tencent/mm/plugin/search/a/k;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/k;->fIV:Lcom/tencent/mm/q/d;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/k;->fIV:Lcom/tencent/mm/q/Dclz;
 
     .line 377
     new-instance v0, Lcom/tencent/mm/plugin/search/a/k$6;
@@ -1074,15 +1074,15 @@
     if-nez v0, :cond_2
 
     .line 281
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x8a
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/search/a/k;->fIV:Lcom/tencent/mm/q/d;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/search/a/k;->fIV:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 283
     const-string/jumbo v0, "!44@/B4Tb64lLpLhUUySPoOHPaiQtvjhToCGnzBQOcrz2uA="
@@ -1239,15 +1239,15 @@
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
 
     .line 259
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x8a
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/search/a/k;->fIV:Lcom/tencent/mm/q/d;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/search/a/k;->fIV:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 260
     sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;

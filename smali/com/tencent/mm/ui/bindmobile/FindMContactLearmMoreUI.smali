@@ -8,7 +8,7 @@
 
 .field private bEK:Ljava/util/List;
 
-.field private bUB:Lcom/tencent/mm/q/d;
+.field private bUB:Lcom/tencent/mm/q/Dclz;
 
 .field private cgh:Landroid/app/ProgressDialog;
 
@@ -52,7 +52,7 @@
     iput-object v1, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;->bEK:Ljava/util/List;
 
     .line 48
-    iput-object v1, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;->bUB:Lcom/tencent/mm/q/d;
+    iput-object v1, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;->bUB:Lcom/tencent/mm/q/Dclz;
 
     .line 49
     iput-object v1, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;->cgh:Landroid/app/ProgressDialog;
@@ -94,7 +94,7 @@
     const/4 v3, 0x1
 
     .line 40
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -104,9 +104,9 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI$3;-><init>(Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;)V
 
-    iput-object v2, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;->bUB:Lcom/tencent/mm/q/d;
+    iput-object v2, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;->bUB:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
 
@@ -197,24 +197,24 @@
     return-object v0
 .end method
 
-.method static synthetic e(Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;)Lcom/tencent/mm/q/d;
+.method static synthetic e(Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;)Lcom/tencent/mm/q/Dclz;
     .locals 1
 
     .prologue
     .line 40
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;->bUB:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;->bUB:Lcom/tencent/mm/q/Dclz;
 
     return-object v0
 .end method
 
-.method static synthetic f(Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;)Lcom/tencent/mm/q/d;
+.method static synthetic f(Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;)Lcom/tencent/mm/q/Dclz;
     .locals 1
 
     .prologue
     .line 40
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;->bUB:Lcom/tencent/mm/q/d;
+    iput-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;->bUB:Lcom/tencent/mm/q/Dclz;
 
     return-object v0
 .end method
@@ -470,25 +470,25 @@
 
     .prologue
     .line 68
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;->bUB:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;->bUB:Lcom/tencent/mm/q/Dclz;
 
     if-eqz v0, :cond_0
 
     .line 69
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x1af
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;->bUB:Lcom/tencent/mm/q/d;
+    iget-object v2, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;->bUB:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 70
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;->bUB:Lcom/tencent/mm/q/d;
+    iput-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;->bUB:Lcom/tencent/mm/q/Dclz;
 
     .line 72
     :cond_0

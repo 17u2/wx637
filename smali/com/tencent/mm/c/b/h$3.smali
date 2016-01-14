@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/g$a;
+.implements Lcom/tencent/mm/q/Gclz$a;
 
 
 # annotations
@@ -87,16 +87,16 @@
     .line 339
     iget-object v0, p0, Lcom/tencent/mm/c/b/h$3;->aqW:Lcom/tencent/mm/c/b/h;
 
-    iget-object v0, v0, Lcom/tencent/mm/c/b/h;->aqU:Lcom/tencent/mm/q/g$a;
+    iget-object v0, v0, Lcom/tencent/mm/c/b/h;->aqU:Lcom/tencent/mm/q/Gclz$a;
 
     if-eqz v0, :cond_0
 
     .line 340
     iget-object v0, p0, Lcom/tencent/mm/c/b/h$3;->aqW:Lcom/tencent/mm/c/b/h;
 
-    iget-object v0, v0, Lcom/tencent/mm/c/b/h;->aqU:Lcom/tencent/mm/q/g$a;
+    iget-object v0, v0, Lcom/tencent/mm/c/b/h;->aqU:Lcom/tencent/mm/q/Gclz$a;
 
-    invoke-interface {v0}, Lcom/tencent/mm/q/g$a;->onError()V
+    invoke-interface {v0}, Lcom/tencent/mm/q/Gclz$a;->onError()V
 
     .line 342
     :cond_0

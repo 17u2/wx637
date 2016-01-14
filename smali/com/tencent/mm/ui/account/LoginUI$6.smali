@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/account/LoginUI;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    value = Lcom/tencent/mm/ui/account/LoginUI;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic aoz:Lcom/tencent/mm/q/j;
+.field final synthetic aoz:Lcom/tencent/mm/q/Jclz;
 
 .field final synthetic jDd:Lcom/tencent/mm/ui/account/LoginUI;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/account/LoginUI;Lcom/tencent/mm/q/j;)V
+.method constructor <init>(Lcom/tencent/mm/ui/account/LoginUI;Lcom/tencent/mm/q/Jclz;)V
     .locals 1
 
     .prologue
     .line 543
     iput-object p1, p0, Lcom/tencent/mm/ui/account/LoginUI$6;->jDd:Lcom/tencent/mm/ui/account/LoginUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/account/LoginUI$6;->aoz:Lcom/tencent/mm/q/j;
+    iput-object p2, p0, Lcom/tencent/mm/ui/account/LoginUI$6;->aoz:Lcom/tencent/mm/q/Jclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -75,7 +75,7 @@
     .line 550
     const-string/jumbo v2, "kstyle_show_bind_mobile_afterauth"
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/LoginUI$6;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/LoginUI$6;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/modelsimple/t;
 
@@ -88,7 +88,7 @@
     .line 551
     const-string/jumbo v2, "kstyle_bind_wording"
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/LoginUI$6;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/LoginUI$6;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/modelsimple/t;
 
@@ -101,7 +101,7 @@
     .line 552
     const-string/jumbo v2, "kstyle_bind_recommend_show"
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/LoginUI$6;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/LoginUI$6;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/modelsimple/t;
 

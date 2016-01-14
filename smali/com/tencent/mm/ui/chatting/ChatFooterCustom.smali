@@ -51,7 +51,7 @@
 
 .field private final kaX:Ljava/lang/String;
 
-.field private kaY:Lcom/tencent/mm/s/k$c$b$a;
+.field private kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
 
 # direct methods
@@ -152,7 +152,7 @@
     return-void
 .end method
 
-.method private a(Lcom/tencent/mm/s/k$c$b$a;)Z
+.method private a(Lcom/tencent/mm/s/Kclz$c$b$a;)Z
     .locals 8
 
     .prologue
@@ -177,13 +177,13 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget v3, p1, Lcom/tencent/mm/s/k$c$b$a;->id:I
+    iget v3, p1, Lcom/tencent/mm/s/Kclz$c$b$a;->id:I
 
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
-    iget-object v3, p1, Lcom/tencent/mm/s/k$c$b$a;->biF:Ljava/lang/String;
+    iget-object v3, p1, Lcom/tencent/mm/s/Kclz$c$b$a;->biF:Ljava/lang/String;
 
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -662,13 +662,13 @@
     invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 601
-    iget-object v7, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v7, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
     if-eqz v7, :cond_2
 
-    iget-object v7, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v7, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    iget v7, v7, Lcom/tencent/mm/s/k$c$b$a;->bBf:I
+    iget v7, v7, Lcom/tencent/mm/s/Kclz$c$b$a;->bBf:I
 
     const/16 v8, 0x69
 
@@ -686,14 +686,14 @@
 
     .line 605
     :cond_3
-    iget-object v7, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v7, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    sget-object v8, Lcom/tencent/mm/s/k$c$b$a;->bBb:Ljava/lang/String;
+    sget-object v8, Lcom/tencent/mm/s/Kclz$c$b$a;->bBb:Ljava/lang/String;
 
-    iput-object v8, v7, Lcom/tencent/mm/s/k$c$b$a;->bBe:Ljava/lang/String;
+    iput-object v8, v7, Lcom/tencent/mm/s/Kclz$c$b$a;->bBe:Ljava/lang/String;
 
     .line 606
-    iget-object v7, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v7, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
     :try_start_0
     new-instance v8, Lorg/json/JSONObject;
@@ -740,11 +740,11 @@
 
     move-result-object v0
 
-    iput-object v0, v7, Lcom/tencent/mm/s/k$c$b$a;->content:Ljava/lang/String;
+    iput-object v0, v7, Lcom/tencent/mm/s/Kclz$c$b$a;->content:Ljava/lang/String;
 
     const-string/jumbo v0, "!32@/B4Tb64lLpJBvWFKDfNn3dzjRXM90kQR"
 
-    iget-object v1, v7, Lcom/tencent/mm/s/k$c$b$a;->content:Ljava/lang/String;
+    iget-object v1, v7, Lcom/tencent/mm/s/Kclz$c$b$a;->content:Ljava/lang/String;
 
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
@@ -752,23 +752,23 @@
 
     .line 607
     :goto_1
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->a(Lcom/tencent/mm/s/k$c$b$a;)Z
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->a(Lcom/tencent/mm/s/Kclz$c$b$a;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 608
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->d(Lcom/tencent/mm/s/k$c$b$a;)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->d(Lcom/tencent/mm/s/Kclz$c$b$a;)V
 
     .line 609
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->c(Lcom/tencent/mm/s/k$c$b$a;)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->c(Lcom/tencent/mm/s/Kclz$c$b$a;)V
 
     goto/16 :goto_0
 
@@ -820,21 +820,21 @@
     check-cast p1, Lcom/tencent/mm/d/a/hb;
 
     .line 620
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    iget v0, v0, Lcom/tencent/mm/s/k$c$b$a;->bBf:I
+    iget v0, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->bBf:I
 
     const/16 v3, 0x64
 
     if-eq v0, v3, :cond_2
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    iget v0, v0, Lcom/tencent/mm/s/k$c$b$a;->bBf:I
+    iget v0, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->bBf:I
 
     const/16 v3, 0x65
 
@@ -883,14 +883,14 @@
     invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 627
-    iget-object v4, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v4, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    sget-object v5, Lcom/tencent/mm/s/k$c$b$a;->bBb:Ljava/lang/String;
+    sget-object v5, Lcom/tencent/mm/s/Kclz$c$b$a;->bBb:Ljava/lang/String;
 
-    iput-object v5, v4, Lcom/tencent/mm/s/k$c$b$a;->bBe:Ljava/lang/String;
+    iput-object v5, v4, Lcom/tencent/mm/s/Kclz$c$b$a;->bBe:Ljava/lang/String;
 
     .line 628
-    iget-object v4, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v4, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
     const-string/jumbo v5, "!32@/B4Tb64lLpJBvWFKDfNn3dzjRXM90kQR"
 
@@ -929,7 +929,7 @@
 
     move-result-object v0
 
-    iput-object v0, v4, Lcom/tencent/mm/s/k$c$b$a;->content:Ljava/lang/String;
+    iput-object v0, v4, Lcom/tencent/mm/s/Kclz$c$b$a;->content:Ljava/lang/String;
 
     const-string/jumbo v0, "!32@/B4Tb64lLpJBvWFKDfNn3dzjRXM90kQR"
 
@@ -941,7 +941,7 @@
 
     const/4 v5, 0x0
 
-    iget-object v4, v4, Lcom/tencent/mm/s/k$c$b$a;->content:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/s/Kclz$c$b$a;->content:Ljava/lang/String;
 
     aput-object v4, v3, v5
 
@@ -951,23 +951,23 @@
 
     .line 629
     :goto_2
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->a(Lcom/tencent/mm/s/k$c$b$a;)Z
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->a(Lcom/tencent/mm/s/Kclz$c$b$a;)Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
     .line 630
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->d(Lcom/tencent/mm/s/k$c$b$a;)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->d(Lcom/tencent/mm/s/Kclz$c$b$a;)V
 
     .line 631
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->c(Lcom/tencent/mm/s/k$c$b$a;)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->c(Lcom/tencent/mm/s/Kclz$c$b$a;)V
 
     :cond_3
     move v0, v2
@@ -1010,7 +1010,7 @@
     .end packed-switch
 .end method
 
-.method private b(Lcom/tencent/mm/s/k$c$b$a;)V
+.method private b(Lcom/tencent/mm/s/Kclz$c$b$a;)V
     .locals 5
 
     .prologue
@@ -1031,7 +1031,7 @@
 
     const/4 v3, 0x1
 
-    iget v4, p1, Lcom/tencent/mm/s/k$c$b$a;->id:I
+    iget v4, p1, Lcom/tencent/mm/s/Kclz$c$b$a;->id:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1041,13 +1041,13 @@
 
     const/4 v3, 0x2
 
-    iget-object v4, p1, Lcom/tencent/mm/s/k$c$b$a;->biF:Ljava/lang/String;
+    iget-object v4, p1, Lcom/tencent/mm/s/Kclz$c$b$a;->biF:Ljava/lang/String;
 
     aput-object v4, v2, v3
 
     const/4 v3, 0x3
 
-    sget-object v4, Lcom/tencent/mm/s/k$c$b$a;->bAZ:Ljava/lang/String;
+    sget-object v4, Lcom/tencent/mm/s/Kclz$c$b$a;->bAZ:Ljava/lang/String;
 
     aput-object v4, v2, v3
 
@@ -1073,7 +1073,7 @@
     return-void
 .end method
 
-.method private c(Lcom/tencent/mm/s/k$c$b$a;)V
+.method private c(Lcom/tencent/mm/s/Kclz$c$b$a;)V
     .locals 5
 
     .prologue
@@ -1094,7 +1094,7 @@
 
     const/4 v3, 0x1
 
-    iget v4, p1, Lcom/tencent/mm/s/k$c$b$a;->id:I
+    iget v4, p1, Lcom/tencent/mm/s/Kclz$c$b$a;->id:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1104,19 +1104,19 @@
 
     const/4 v3, 0x2
 
-    iget-object v4, p1, Lcom/tencent/mm/s/k$c$b$a;->biF:Ljava/lang/String;
+    iget-object v4, p1, Lcom/tencent/mm/s/Kclz$c$b$a;->biF:Ljava/lang/String;
 
     aput-object v4, v2, v3
 
     const/4 v3, 0x3
 
-    sget-object v4, Lcom/tencent/mm/s/k$c$b$a;->bBb:Ljava/lang/String;
+    sget-object v4, Lcom/tencent/mm/s/Kclz$c$b$a;->bBb:Ljava/lang/String;
 
     aput-object v4, v2, v3
 
     const/4 v3, 0x4
 
-    iget-object v4, p1, Lcom/tencent/mm/s/k$c$b$a;->content:Ljava/lang/String;
+    iget-object v4, p1, Lcom/tencent/mm/s/Kclz$c$b$a;->content:Ljava/lang/String;
 
     aput-object v4, v2, v3
 
@@ -1146,38 +1146,38 @@
     return-object v0
 .end method
 
-.method private d(Lcom/tencent/mm/s/k$c$b$a;)V
+.method private d(Lcom/tencent/mm/s/Kclz$c$b$a;)V
     .locals 4
 
     .prologue
     .line 669
     const-string/jumbo v0, "!32@VFuxRDy9S3iHyB/EdEmcj1cAXarHNdCf"
 
-    invoke-virtual {p1}, Lcom/tencent/mm/s/k$c$b$a;->getInfo()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/s/Kclz$c$b$a;->getInfo()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 670
-    new-instance v0, Lcom/tencent/mm/s/u;
+    new-instance v0, Lcom/tencent/mm/s/Uclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->cEo:Ljava/lang/String;
 
     const/4 v2, 0x1
 
-    invoke-virtual {p1}, Lcom/tencent/mm/s/k$c$b$a;->getInfo()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/s/Kclz$c$b$a;->getInfo()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/s/u;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/s/Uclz;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 671
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 672
     return-void
@@ -1453,7 +1453,7 @@
     .end packed-switch
 .end method
 
-.method public final a(Lcom/tencent/mm/ui/n;Lcom/tencent/mm/s/k$c$b;Ljava/lang/String;)V
+.method public final a(Lcom/tencent/mm/ui/n;Lcom/tencent/mm/s/Kclz$c$b;Ljava/lang/String;)V
     .locals 12
 
     .prologue
@@ -1470,7 +1470,7 @@
     .line 169
     if-eqz p2, :cond_0
 
-    iget-object v0, p2, Lcom/tencent/mm/s/k$c$b;->bAY:Ljava/util/List;
+    iget-object v0, p2, Lcom/tencent/mm/s/Kclz$c$b;->bAY:Ljava/util/List;
 
     if-eqz v0, :cond_0
 
@@ -1486,7 +1486,7 @@
     throw v0
 
     :cond_1
-    iget-object v0, p2, Lcom/tencent/mm/s/k$c$b;->bAY:Ljava/util/List;
+    iget-object v0, p2, Lcom/tencent/mm/s/Kclz$c$b;->bAY:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -1603,13 +1603,13 @@
 
     if-ge v4, v3, :cond_5
 
-    iget-object v3, p2, Lcom/tencent/mm/s/k$c$b;->bAY:Ljava/util/List;
+    iget-object v3, p2, Lcom/tencent/mm/s/Kclz$c$b;->bAY:Ljava/util/List;
 
     invoke-interface {v3, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
-    check-cast v3, Lcom/tencent/mm/s/k$c$b$a;
+    check-cast v3, Lcom/tencent/mm/s/Kclz$c$b$a;
 
     invoke-virtual {v0, v3}, Landroid/widget/FrameLayout;->setTag(Ljava/lang/Object;)V
 
@@ -1617,7 +1617,7 @@
 
     move-result-object v6
 
-    iget-object v7, v3, Lcom/tencent/mm/s/k$c$b$a;->name:Ljava/lang/String;
+    iget-object v7, v3, Lcom/tencent/mm/s/Kclz$c$b$a;->name:Ljava/lang/String;
 
     invoke-static {v6, v7}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
 
@@ -1625,7 +1625,7 @@
 
     invoke-virtual {v1, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    iget v1, v3, Lcom/tencent/mm/s/k$c$b$a;->type:I
+    iget v1, v3, Lcom/tencent/mm/s/Kclz$c$b$a;->type:I
 
     if-nez v1, :cond_3
 
@@ -1945,19 +1945,19 @@
     invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 494
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
     if-eqz v1, :cond_4
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    iget v1, v1, Lcom/tencent/mm/s/k$c$b$a;->bBf:I
+    iget v1, v1, Lcom/tencent/mm/s/Kclz$c$b$a;->bBf:I
 
     if-eq v1, v9, :cond_5
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    iget v1, v1, Lcom/tencent/mm/s/k$c$b$a;->bBf:I
+    iget v1, v1, Lcom/tencent/mm/s/Kclz$c$b$a;->bBf:I
 
     if-eq v1, v10, :cond_5
 
@@ -1981,35 +1981,35 @@
     invoke-virtual {v1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 500
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    sget-object v2, Lcom/tencent/mm/s/k$c$b$a;->bBb:Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/s/Kclz$c$b$a;->bBb:Ljava/lang/String;
 
-    iput-object v2, v0, Lcom/tencent/mm/s/k$c$b$a;->bBe:Ljava/lang/String;
+    iput-object v2, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->bBe:Ljava/lang/String;
 
     .line 501
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/k$c$b$a;->f(Ljava/util/ArrayList;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/Kclz$c$b$a;->f(Ljava/util/ArrayList;)V
 
     .line 502
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->a(Lcom/tencent/mm/s/k$c$b$a;)Z
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->a(Lcom/tencent/mm/s/Kclz$c$b$a;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 503
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->d(Lcom/tencent/mm/s/k$c$b$a;)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->d(Lcom/tencent/mm/s/Kclz$c$b$a;)V
 
     .line 504
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->c(Lcom/tencent/mm/s/k$c$b$a;)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->c(Lcom/tencent/mm/s/Kclz$c$b$a;)V
 
     goto/16 :goto_0
 
@@ -2181,27 +2181,27 @@
 
     .line 541
     :cond_a
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
     if-eqz v0, :cond_b
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    iget v0, v0, Lcom/tencent/mm/s/k$c$b$a;->bBf:I
+    iget v0, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->bBf:I
 
     const/16 v2, 0x68
 
     if-eq v0, v2, :cond_c
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    iget v0, v0, Lcom/tencent/mm/s/k$c$b$a;->bBf:I
+    iget v0, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->bBf:I
 
     if-eq v0, v10, :cond_c
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    iget v0, v0, Lcom/tencent/mm/s/k$c$b$a;->bBf:I
+    iget v0, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->bBf:I
 
     if-eq v0, v9, :cond_c
 
@@ -2217,35 +2217,35 @@
 
     .line 548
     :cond_c
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    sget-object v2, Lcom/tencent/mm/s/k$c$b$a;->bBb:Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/s/Kclz$c$b$a;->bBb:Ljava/lang/String;
 
-    iput-object v2, v0, Lcom/tencent/mm/s/k$c$b$a;->bBe:Ljava/lang/String;
+    iput-object v2, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->bBe:Ljava/lang/String;
 
     .line 549
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/k$c$b$a;->f(Ljava/util/ArrayList;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/Kclz$c$b$a;->f(Ljava/util/ArrayList;)V
 
     .line 550
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->a(Lcom/tencent/mm/s/k$c$b$a;)Z
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->a(Lcom/tencent/mm/s/Kclz$c$b$a;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 551
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->d(Lcom/tencent/mm/s/k$c$b$a;)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->d(Lcom/tencent/mm/s/Kclz$c$b$a;)V
 
     .line 552
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->c(Lcom/tencent/mm/s/k$c$b$a;)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->c(Lcom/tencent/mm/s/Kclz$c$b$a;)V
 
     goto/16 :goto_0
 
@@ -2463,7 +2463,7 @@
     move-result-object v0
 
     .line 262
-    instance-of v1, v0, Lcom/tencent/mm/s/k$c$b$a;
+    instance-of v1, v0, Lcom/tencent/mm/s/Kclz$c$b$a;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -2484,15 +2484,15 @@
     invoke-static {v1}, Lcom/tencent/mm/pluginsdk/wallet/c;->oe(I)V
 
     .line 268
-    check-cast v0, Lcom/tencent/mm/s/k$c$b$a;
+    check-cast v0, Lcom/tencent/mm/s/Kclz$c$b$a;
 
     .line 270
     const-string/jumbo v1, ""
 
-    iput-object v1, v0, Lcom/tencent/mm/s/k$c$b$a;->content:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->content:Ljava/lang/String;
 
     .line 271
-    iget v1, v0, Lcom/tencent/mm/s/k$c$b$a;->type:I
+    iget v1, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->type:I
 
     packed-switch v1, :pswitch_data_0
 
@@ -2581,7 +2581,7 @@
 
     const/4 v4, 0x0
 
-    invoke-virtual {v2, v0, v3, v1, v4}, Lcom/tencent/mm/ui/chatting/q;->a(Lcom/tencent/mm/s/k$c$b$a;IIZ)Z
+    invoke-virtual {v2, v0, v3, v1, v4}, Lcom/tencent/mm/ui/chatting/q;->a(Lcom/tencent/mm/s/Kclz$c$b$a;IIZ)Z
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -2602,19 +2602,19 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v4, v2, Lcom/tencent/mm/ui/chatting/q;->kbg:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v4, v2, Lcom/tencent/mm/ui/chatting/q;->kbg:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    iget v4, v4, Lcom/tencent/mm/s/k$c$b$a;->id:I
+    iget v4, v4, Lcom/tencent/mm/s/Kclz$c$b$a;->id:I
 
-    iget v5, v0, Lcom/tencent/mm/s/k$c$b$a;->id:I
+    iget v5, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->id:I
 
     if-ne v4, v5, :cond_3
 
-    iget-object v4, v2, Lcom/tencent/mm/ui/chatting/q;->kbg:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v4, v2, Lcom/tencent/mm/ui/chatting/q;->kbg:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/s/k$c$b$a;->biF:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/s/Kclz$c$b$a;->biF:Ljava/lang/String;
 
-    iget-object v5, v0, Lcom/tencent/mm/s/k$c$b$a;->biF:Ljava/lang/String;
+    iget-object v5, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->biF:Ljava/lang/String;
 
     invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2625,7 +2625,7 @@
     :cond_3
     const/4 v4, 0x0
 
-    invoke-virtual {v2, v0, v3, v1, v4}, Lcom/tencent/mm/ui/chatting/q;->a(Lcom/tencent/mm/s/k$c$b$a;IIZ)Z
+    invoke-virtual {v2, v0, v3, v1, v4}, Lcom/tencent/mm/ui/chatting/q;->a(Lcom/tencent/mm/s/Kclz$c$b$a;IIZ)Z
 
     goto :goto_0
 
@@ -2646,15 +2646,15 @@
     invoke-virtual {v1}, Lcom/tencent/mm/ui/chatting/q;->aXz()Z
 
     .line 284
-    sget-object v1, Lcom/tencent/mm/s/k$c$b$a;->bAZ:Ljava/lang/String;
+    sget-object v1, Lcom/tencent/mm/s/Kclz$c$b$a;->bAZ:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/s/k$c$b$a;->bBe:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->bBe:Ljava/lang/String;
 
     .line 285
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->b(Lcom/tencent/mm/s/k$c$b$a;)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->b(Lcom/tencent/mm/s/Kclz$c$b$a;)V
 
     .line 286
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->d(Lcom/tencent/mm/s/k$c$b$a;)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->d(Lcom/tencent/mm/s/Kclz$c$b$a;)V
 
     .line 288
     sget-object v1, Lcom/tencent/mm/pluginsdk/h$a;->hJT:Lcom/tencent/mm/pluginsdk/h$ad;
@@ -2663,7 +2663,7 @@
 
     move-result-object v2
 
-    iget-object v3, v0, Lcom/tencent/mm/s/k$c$b$a;->value:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->value:Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -2675,7 +2675,7 @@
 
     if-nez v1, :cond_0
 
-    iget-object v1, v0, Lcom/tencent/mm/s/k$c$b$a;->bBc:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->bBc:Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->getContext()Landroid/content/Context;
 
@@ -2699,7 +2699,7 @@
     .line 291
     const-string/jumbo v2, "rawUrl"
 
-    iget-object v0, v0, Lcom/tencent/mm/s/k$c$b$a;->value:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->value:Ljava/lang/String;
 
     invoke-virtual {v1, v2, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -2740,15 +2740,15 @@
     invoke-direct {p0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->aXx()V
 
     .line 301
-    sget-object v1, Lcom/tencent/mm/s/k$c$b$a;->bAZ:Ljava/lang/String;
+    sget-object v1, Lcom/tencent/mm/s/Kclz$c$b$a;->bAZ:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/s/k$c$b$a;->bBe:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->bBe:Ljava/lang/String;
 
     .line 302
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->b(Lcom/tencent/mm/s/k$c$b$a;)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->b(Lcom/tencent/mm/s/Kclz$c$b$a;)V
 
     .line 303
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->d(Lcom/tencent/mm/s/k$c$b$a;)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->d(Lcom/tencent/mm/s/Kclz$c$b$a;)V
 
     goto/16 :goto_0
 
@@ -2769,15 +2769,15 @@
     invoke-virtual {v1}, Lcom/tencent/mm/ui/chatting/q;->aXz()Z
 
     .line 310
-    sget-object v1, Lcom/tencent/mm/s/k$c$b$a;->bAZ:Ljava/lang/String;
+    sget-object v1, Lcom/tencent/mm/s/Kclz$c$b$a;->bAZ:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/s/k$c$b$a;->bBe:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->bBe:Ljava/lang/String;
 
     .line 311
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->b(Lcom/tencent/mm/s/k$c$b$a;)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->b(Lcom/tencent/mm/s/Kclz$c$b$a;)V
 
     .line 312
-    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->d(Lcom/tencent/mm/s/k$c$b$a;)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->d(Lcom/tencent/mm/s/Kclz$c$b$a;)V
 
     .line 313
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaP:Lcom/tencent/mm/ui/chatting/ChattingUI$a$b;
@@ -2803,22 +2803,22 @@
     invoke-virtual {v1}, Lcom/tencent/mm/ui/chatting/q;->aXz()Z
 
     .line 321
-    sget-object v1, Lcom/tencent/mm/s/k$c$b$a;->bBa:Ljava/lang/String;
+    sget-object v1, Lcom/tencent/mm/s/Kclz$c$b$a;->bBa:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/s/k$c$b$a;->bBe:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->bBe:Ljava/lang/String;
 
     .line 323
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget v2, v0, Lcom/tencent/mm/s/k$c$b$a;->id:I
+    iget v2, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->id:I
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     move-result-object v1
 
-    iget-object v2, v0, Lcom/tencent/mm/s/k$c$b$a;->biF:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->biF:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2889,7 +2889,7 @@
 
     const/4 v4, 0x1
 
-    iget v5, v0, Lcom/tencent/mm/s/k$c$b$a;->id:I
+    iget v5, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->id:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2899,13 +2899,13 @@
 
     const/4 v4, 0x2
 
-    iget-object v5, v0, Lcom/tencent/mm/s/k$c$b$a;->biF:Ljava/lang/String;
+    iget-object v5, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->biF:Ljava/lang/String;
 
     aput-object v5, v3, v4
 
     const/4 v4, 0x3
 
-    sget-object v5, Lcom/tencent/mm/s/k$c$b$a;->bBa:Ljava/lang/String;
+    sget-object v5, Lcom/tencent/mm/s/Kclz$c$b$a;->bBa:Ljava/lang/String;
 
     aput-object v5, v3, v4
 
@@ -2918,10 +2918,10 @@
     invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/plugin/report/service/h;->g(I[Ljava/lang/Object;)V
 
     .line 325
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/k$c$b$a;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->kaY:Lcom/tencent/mm/s/Kclz$c$b$a;
 
     .line 326
-    iget v0, v0, Lcom/tencent/mm/s/k$c$b$a;->bBf:I
+    iget v0, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->bBf:I
 
     packed-switch v0, :pswitch_data_1
 

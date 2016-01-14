@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Landroid/view/View$OnClickListener;
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 
 
 # annotations
@@ -26,7 +26,7 @@
 
 .field private jYA:Landroid/widget/ProgressBar;
 
-.field private jYB:Lcom/tencent/mm/r/a;
+.field private jYB:Lcom/tencent/mm/r/Aclz;
 
 .field private jYC:J
 
@@ -194,12 +194,12 @@
     goto :goto_0
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/bindqq/NewBindQQUI;Lcom/tencent/mm/r/a;)Lcom/tencent/mm/r/a;
+.method static synthetic a(Lcom/tencent/mm/ui/bindqq/NewBindQQUI;Lcom/tencent/mm/r/Aclz;)Lcom/tencent/mm/r/Aclz;
     .locals 0
 
     .prologue
     .line 41
-    iput-object p1, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->jYB:Lcom/tencent/mm/r/a;
+    iput-object p1, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->jYB:Lcom/tencent/mm/r/Aclz;
 
     return-object p1
 .end method
@@ -383,12 +383,12 @@
     return-object v0
 .end method
 
-.method static synthetic j(Lcom/tencent/mm/ui/bindqq/NewBindQQUI;)Lcom/tencent/mm/r/a;
+.method static synthetic j(Lcom/tencent/mm/ui/bindqq/NewBindQQUI;)Lcom/tencent/mm/r/Aclz;
     .locals 1
 
     .prologue
     .line 41
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->jYB:Lcom/tencent/mm/r/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->jYB:Lcom/tencent/mm/r/Aclz;
 
     return-object v0
 .end method
@@ -594,7 +594,7 @@
     return-void
 .end method
 
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 9
 
     .prologue
@@ -650,18 +650,18 @@
     move-object v0, p4
 
     .line 170
-    check-cast v0, Lcom/tencent/mm/r/a;
+    check-cast v0, Lcom/tencent/mm/r/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/r/a;->wa()[B
+    invoke-virtual {v0}, Lcom/tencent/mm/r/Aclz;->wa()[B
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->bwD:[B
 
     .line 171
-    check-cast p4, Lcom/tencent/mm/r/a;
+    check-cast p4, Lcom/tencent/mm/r/Aclz;
 
-    invoke-virtual {p4}, Lcom/tencent/mm/r/a;->wb()Ljava/lang/String;
+    invoke-virtual {p4}, Lcom/tencent/mm/r/Aclz;->wb()Ljava/lang/String;
 
     move-result-object v0
 
@@ -989,18 +989,18 @@
     if-eqz v0, :cond_1
 
     .line 373
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->jYB:Lcom/tencent/mm/r/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->jYB:Lcom/tencent/mm/r/Aclz;
 
     if-eqz v0, :cond_0
 
     .line 374
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->jYB:Lcom/tencent/mm/r/a;
+    iget-object v1, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->jYB:Lcom/tencent/mm/r/Aclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->c(Lcom/tencent/mm/q/j;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 
     .line 376
     :cond_0
@@ -1096,7 +1096,7 @@
     :cond_1
     invoke-virtual {p0}, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->acY()V
 
-    new-instance v0, Lcom/tencent/mm/r/a;
+    new-instance v0, Lcom/tencent/mm/r/Aclz;
 
     iget-wide v1, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->jYC:J
 
@@ -1112,9 +1112,9 @@
 
     iget-object v8, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->ayy:Ljava/lang/String;
 
-    invoke-direct/range {v0 .. v9}, Lcom/tencent/mm/r/a;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+    invoke-direct/range {v0 .. v9}, Lcom/tencent/mm/r/Aclz;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->jYB:Lcom/tencent/mm/r/a;
+    iput-object v0, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->jYB:Lcom/tencent/mm/r/Aclz;
 
     iget-object v0, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->jYA:Landroid/widget/ProgressBar;
 
@@ -1158,13 +1158,13 @@
 
     iput-boolean v0, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->jYF:Z
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->jYB:Lcom/tencent/mm/r/a;
+    iget-object v1, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->jYB:Lcom/tencent/mm/r/Aclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     goto :goto_0
 .end method
@@ -1177,13 +1177,13 @@
     invoke-super {p0, p1}, Lcom/tencent/mm/ui/MMActivity;->onCreate(Landroid/os/Bundle;)V
 
     .line 75
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x90
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 76
     invoke-virtual {p0}, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->Fi()V
@@ -1200,13 +1200,13 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onDestroy()V
 
     .line 82
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x90
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 83
     return-void

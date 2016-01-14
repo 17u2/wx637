@@ -50,7 +50,7 @@
     const/4 v9, 0x1
 
     .line 219
-    new-instance v0, Lcom/tencent/mm/r/a;
+    new-instance v0, Lcom/tencent/mm/r/Aclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/bindqq/VerifyQQUI$4;->jYY:Lcom/tencent/mm/ui/bindqq/VerifyQQUI;
 
@@ -106,14 +106,14 @@
 
     move-result-object v8
 
-    invoke-direct/range {v0 .. v9}, Lcom/tencent/mm/r/a;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+    invoke-direct/range {v0 .. v9}, Lcom/tencent/mm/r/Aclz;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
 
     .line 220
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 222
     iget-object v1, p0, Lcom/tencent/mm/ui/bindqq/VerifyQQUI$4;->jYY:Lcom/tencent/mm/ui/bindqq/VerifyQQUI;
@@ -140,7 +140,7 @@
 
     new-instance v4, Lcom/tencent/mm/ui/bindqq/VerifyQQUI$4$1;
 
-    invoke-direct {v4, p0, v0}, Lcom/tencent/mm/ui/bindqq/VerifyQQUI$4$1;-><init>(Lcom/tencent/mm/ui/bindqq/VerifyQQUI$4;Lcom/tencent/mm/r/a;)V
+    invoke-direct {v4, p0, v0}, Lcom/tencent/mm/ui/bindqq/VerifyQQUI$4$1;-><init>(Lcom/tencent/mm/ui/bindqq/VerifyQQUI$4;Lcom/tencent/mm/r/Aclz;)V
 
     invoke-static {v2, v3, v9, v4}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
 

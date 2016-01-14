@@ -176,7 +176,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/q/g$a;)V
+.method public final a(Lcom/tencent/mm/q/Gclz$a;)V
     .locals 0
 
     .prologue

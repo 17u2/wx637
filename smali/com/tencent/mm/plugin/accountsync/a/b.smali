@@ -3,8 +3,8 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/d;
-.implements Lcom/tencent/mm/q/e;
+.implements Lcom/tencent/mm/q/Dclz;
+.implements Lcom/tencent/mm/q/Eclz;
 
 
 # annotations
@@ -16,7 +16,7 @@
 
 
 # instance fields
-.field public atC:Lcom/tencent/mm/q/j;
+.field public atC:Lcom/tencent/mm/q/Jclz;
 
 .field private cfA:Lcom/tencent/mm/plugin/accountsync/a/b$a;
 
@@ -65,7 +65,7 @@
 
 
 # virtual methods
-.method public final a(IILcom/tencent/mm/q/j;)V
+.method public final a(IILcom/tencent/mm/q/Jclz;)V
     .locals 4
 
     .prologue
@@ -104,7 +104,7 @@
     goto :goto_0
 .end method
 
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 3
 
     .prologue
@@ -113,18 +113,18 @@
     const/16 v1, 0x8a
 
     .line 88
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
     if-ne v0, v2, :cond_2
 
     .line 89
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v2, p0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v2, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 94
     :cond_0
@@ -155,18 +155,18 @@
 
     .line 90
     :cond_2
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
     if-ne v0, v1, :cond_0
 
     .line 91
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     goto :goto_0
 

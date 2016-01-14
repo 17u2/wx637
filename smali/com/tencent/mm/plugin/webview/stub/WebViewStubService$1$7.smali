@@ -49,7 +49,7 @@
 
     .prologue
     .line 688
-    invoke-static {}, Lcom/tencent/mm/s/m;->wZ()Ljava/util/List;
+    invoke-static {}, Lcom/tencent/mm/s/Mclz;->wZ()Ljava/util/List;
 
     move-result-object v0
 

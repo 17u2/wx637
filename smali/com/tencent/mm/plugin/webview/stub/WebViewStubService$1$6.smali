@@ -47,7 +47,7 @@
 
     .prologue
     .line 669
-    invoke-static {}, Lcom/tencent/mm/s/m;->xa()Z
+    invoke-static {}, Lcom/tencent/mm/s/Mclz;->xa()Z
 
     move-result v0
 

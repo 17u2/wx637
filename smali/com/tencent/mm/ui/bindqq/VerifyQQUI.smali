@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 
 
 # annotations
@@ -305,7 +305,7 @@
     return-void
 .end method
 
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 10
 
     .prologue
@@ -375,18 +375,18 @@
     move-object v0, p4
 
     .line 148
-    check-cast v0, Lcom/tencent/mm/r/a;
+    check-cast v0, Lcom/tencent/mm/r/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/r/a;->wa()[B
+    invoke-virtual {v0}, Lcom/tencent/mm/r/Aclz;->wa()[B
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/ui/bindqq/VerifyQQUI;->bwD:[B
 
     .line 149
-    check-cast p4, Lcom/tencent/mm/r/a;
+    check-cast p4, Lcom/tencent/mm/r/Aclz;
 
-    invoke-virtual {p4}, Lcom/tencent/mm/r/a;->wb()Ljava/lang/String;
+    invoke-virtual {p4}, Lcom/tencent/mm/r/Aclz;->wb()Ljava/lang/String;
 
     move-result-object v0
 
@@ -819,13 +819,13 @@
     invoke-super {p0, p1}, Lcom/tencent/mm/ui/MMWizardActivity;->onCreate(Landroid/os/Bundle;)V
 
     .line 46
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x90
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 47
     return-void
@@ -839,13 +839,13 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMWizardActivity;->onDestroy()V
 
     .line 52
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x90
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 53
     return-void

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/e;
+.implements Lcom/tencent/mm/q/Eclz;
 
 
 # annotations
@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final a(IILcom/tencent/mm/q/j;)V
+.method public final a(IILcom/tencent/mm/q/Jclz;)V
     .locals 7
 
     .prologue

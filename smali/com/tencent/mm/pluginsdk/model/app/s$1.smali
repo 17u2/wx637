@@ -55,15 +55,15 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 67
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/model/app/s$1;->hLR:Lcom/tencent/mm/pluginsdk/model/app/s;
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/app/s;->atC:Lcom/tencent/mm/q/j;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/app/s;->atC:Lcom/tencent/mm/q/Jclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->c(Lcom/tencent/mm/q/j;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 
     .line 68
     invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->YE()Lcom/tencent/mm/pluginsdk/model/app/d;

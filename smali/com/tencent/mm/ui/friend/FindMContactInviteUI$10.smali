@@ -119,7 +119,7 @@
 
     .line 342
     :goto_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -131,11 +131,11 @@
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/ui/friend/FindMContactInviteUI$10$1;-><init>(Lcom/tencent/mm/ui/friend/FindMContactInviteUI$10;)V
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->a(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;Lcom/tencent/mm/q/d;)Lcom/tencent/mm/q/d;
+    invoke-static {v2, v3}, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->a(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;Lcom/tencent/mm/q/Dclz;)Lcom/tencent/mm/q/Dclz;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 358
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI$10;->kzc:Lcom/tencent/mm/ui/friend/FindMContactInviteUI;

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/g$a;
+.implements Lcom/tencent/mm/q/Gclz$a;
 
 
 # annotations
@@ -84,16 +84,16 @@
     .line 96
     iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i$2;->aol:Lcom/tencent/mm/app/plugin/voicereminder/a/i;
 
-    iget-object v0, v0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aoc:Lcom/tencent/mm/q/g$a;
+    iget-object v0, v0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aoc:Lcom/tencent/mm/q/Gclz$a;
 
     if-eqz v0, :cond_0
 
     .line 97
     iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i$2;->aol:Lcom/tencent/mm/app/plugin/voicereminder/a/i;
 
-    iget-object v0, v0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aoc:Lcom/tencent/mm/q/g$a;
+    iget-object v0, v0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aoc:Lcom/tencent/mm/q/Gclz$a;
 
-    invoke-interface {v0}, Lcom/tencent/mm/q/g$a;->onError()V
+    invoke-interface {v0}, Lcom/tencent/mm/q/Gclz$a;->onError()V
 
     .line 99
     :cond_0

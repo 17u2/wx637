@@ -1120,23 +1120,23 @@
     move-result-wide v2
 
     .line 287
-    invoke-static {v1}, Lcom/tencent/mm/s/m;->gK(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/s/Mclz;->gK(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 288
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xs()Lcom/tencent/mm/s/e;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xs()Lcom/tencent/mm/s/Eclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/s/e;->O(J)Lcom/tencent/mm/s/d;
+    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/s/Eclz;->O(J)Lcom/tencent/mm/s/Dclz;
 
     move-result-object v0
 
     .line 289
-    invoke-static {v0}, Lcom/tencent/mm/s/f;->d(Lcom/tencent/mm/s/d;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/s/Fclz;->d(Lcom/tencent/mm/s/Dclz;)Ljava/lang/String;
 
     .line 292
     :cond_0

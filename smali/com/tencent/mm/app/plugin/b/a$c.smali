@@ -84,7 +84,7 @@
     .line 210
     iget-object v1, p1, Lcom/tencent/mm/d/a/cm;->avv:Lcom/tencent/mm/d/a/cm$b;
 
-    iput-object v0, v1, Lcom/tencent/mm/d/a/cm$b;->avy:Lcom/tencent/mm/q/j;
+    iput-object v0, v1, Lcom/tencent/mm/d/a/cm$b;->avy:Lcom/tencent/mm/q/Jclz;
 
     .line 211
     iget-object v1, p1, Lcom/tencent/mm/d/a/cm;->avv:Lcom/tencent/mm/d/a/cm$b;

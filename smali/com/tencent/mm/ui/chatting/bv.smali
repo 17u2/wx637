@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field bUB:Lcom/tencent/mm/q/d;
+.field bUB:Lcom/tencent/mm/q/Dclz;
 
 .field fNd:Landroid/app/ProgressDialog;
 
@@ -446,7 +446,7 @@
     if-eqz v0, :cond_3
 
     .line 165
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -456,9 +456,9 @@
 
     invoke-direct {v3, p0, p4, v0, p2}, Lcom/tencent/mm/ui/chatting/bv$2;-><init>(Lcom/tencent/mm/ui/chatting/bv;Lcom/tencent/mm/storage/ad;Ljava/lang/String;I)V
 
-    iput-object v3, p0, Lcom/tencent/mm/ui/chatting/bv;->bUB:Lcom/tencent/mm/q/d;
+    iput-object v3, p0, Lcom/tencent/mm/ui/chatting/bv;->bUB:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 182
     new-instance v1, Lcom/tencent/mm/pluginsdk/model/app/v;
@@ -469,11 +469,11 @@
     invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/model/app/v;->aIs()V
 
     .line 184
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 190
     :cond_3
@@ -590,7 +590,7 @@
 
     if-lez v0, :cond_5
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/bv;->bUB:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/bv;->bUB:Lcom/tencent/mm/q/Dclz;
 
     if-nez v0, :cond_5
 
@@ -668,7 +668,7 @@
     if-eqz v1, :cond_5
 
     .line 211
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -678,9 +678,9 @@
 
     invoke-direct {v3, p0, v0}, Lcom/tencent/mm/ui/chatting/bv$3;-><init>(Lcom/tencent/mm/ui/chatting/bv;Lcom/tencent/mm/pluginsdk/model/app/b;)V
 
-    iput-object v3, p0, Lcom/tencent/mm/ui/chatting/bv;->bUB:Lcom/tencent/mm/q/d;
+    iput-object v3, p0, Lcom/tencent/mm/ui/chatting/bv;->bUB:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 223
     new-instance v1, Lcom/tencent/mm/pluginsdk/model/app/v;
@@ -688,11 +688,11 @@
     invoke-direct {v1, v0}, Lcom/tencent/mm/pluginsdk/model/app/v;-><init>(Lcom/tencent/mm/pluginsdk/model/app/b;)V
 
     .line 224
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 229
     :cond_5

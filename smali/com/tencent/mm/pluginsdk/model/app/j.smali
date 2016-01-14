@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/c;
+.implements Lcom/tencent/mm/q/Cclz;
 
 
 # direct methods
@@ -168,7 +168,7 @@
 
 
 # virtual methods
-.method public final b(Lcom/tencent/mm/protocal/b/AFclz;)Lcom/tencent/mm/q/c$a;
+.method public final b(Lcom/tencent/mm/protocal/b/AFclz;)Lcom/tencent/mm/q/Cclz$a;
     .locals 24
 
     .prologue
@@ -740,11 +740,11 @@
 
     invoke-virtual {v4, v3}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
 
-    new-instance v3, Lcom/tencent/mm/q/c$a;
+    new-instance v3, Lcom/tencent/mm/q/Cclz$a;
 
     const/4 v4, 0x1
 
-    invoke-direct {v3, v5, v4}, Lcom/tencent/mm/q/c$a;-><init>(Lcom/tencent/mm/storage/ad;Z)V
+    invoke-direct {v3, v5, v4}, Lcom/tencent/mm/q/Cclz$a;-><init>(Lcom/tencent/mm/storage/ad;Z)V
 
     :goto_8
     iget v4, v5, Lcom/tencent/mm/d/b/ba;->field_type:I
@@ -767,7 +767,7 @@
 
     .line 112
     :cond_c
-    iget-object v4, v3, Lcom/tencent/mm/q/c$a;->arO:Lcom/tencent/mm/storage/ad;
+    iget-object v4, v3, Lcom/tencent/mm/q/Cclz$a;->arO:Lcom/tencent/mm/storage/ad;
 
     if-nez v4, :cond_17
 
@@ -1280,17 +1280,17 @@
 
     invoke-virtual {v0, v3, v4, v5}, Lcom/tencent/mm/storage/ae;->b(JLcom/tencent/mm/storage/ad;)V
 
-    new-instance v3, Lcom/tencent/mm/q/c$a;
+    new-instance v3, Lcom/tencent/mm/q/Cclz$a;
 
     const/4 v4, 0x0
 
-    invoke-direct {v3, v5, v4}, Lcom/tencent/mm/q/c$a;-><init>(Lcom/tencent/mm/storage/ad;Z)V
+    invoke-direct {v3, v5, v4}, Lcom/tencent/mm/q/Cclz$a;-><init>(Lcom/tencent/mm/storage/ad;Z)V
 
     goto/16 :goto_8
 
     .line 115
     :cond_17
-    iget-object v4, v3, Lcom/tencent/mm/q/c$a;->arO:Lcom/tencent/mm/storage/ad;
+    iget-object v4, v3, Lcom/tencent/mm/q/Cclz$a;->arO:Lcom/tencent/mm/storage/ad;
 
     .line 116
     iget v5, v4, Lcom/tencent/mm/d/b/ba;->field_type:I
@@ -1403,7 +1403,7 @@
     .line 135
     const/4 v4, 0x1
 
-    iput-boolean v4, v3, Lcom/tencent/mm/q/c$a;->bxU:Z
+    iput-boolean v4, v3, Lcom/tencent/mm/q/Cclz$a;->bxU:Z
 
     goto/16 :goto_0
 

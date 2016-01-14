@@ -194,11 +194,11 @@
 
     invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    invoke-static {v1}, Lcom/tencent/mm/s/m;->gG(Ljava/lang/String;)Lcom/tencent/mm/s/k;
+    invoke-static {v1}, Lcom/tencent/mm/s/Mclz;->gG(Ljava/lang/String;)Lcom/tencent/mm/s/Kclz;
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/app/plugin/a/a;->a(Lcom/tencent/mm/s/k;)Z
+    invoke-static {v2}, Lcom/tencent/mm/app/plugin/a/a;->a(Lcom/tencent/mm/s/Kclz;)Z
 
     move-result v3
 
@@ -217,15 +217,15 @@
     goto/16 :goto_0
 
     :cond_5
-    invoke-virtual {v2, v6}, Lcom/tencent/mm/s/k;->aS(Z)Lcom/tencent/mm/s/k$c;
+    invoke-virtual {v2, v6}, Lcom/tencent/mm/s/Kclz;->aS(Z)Lcom/tencent/mm/s/Kclz$c;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/s/k$c;->wG()Lcom/tencent/mm/s/k$c$a;
+    invoke-virtual {v1}, Lcom/tencent/mm/s/Kclz$c;->wG()Lcom/tencent/mm/s/Kclz$c$a;
 
     move-result-object v1
 
-    iget v1, v1, Lcom/tencent/mm/s/k$c$a;->bAV:I
+    iget v1, v1, Lcom/tencent/mm/s/Kclz$c$a;->bAV:I
 
     if-ne v1, v7, :cond_0
 

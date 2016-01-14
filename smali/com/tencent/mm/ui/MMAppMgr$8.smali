@@ -129,11 +129,11 @@
     invoke-static {v2}, Lcom/tencent/mm/app/WorkerProfile;->ag(Z)V
 
     .line 275
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->aN(Z)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->aN(Z)V
 
     .line 277
     invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z
@@ -158,7 +158,7 @@
     invoke-static {v1}, Lcom/tencent/mm/modelsimple/f;->aZ(Z)V
 
     .line 282
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -166,10 +166,10 @@
 
     invoke-direct {v3, v6}, Lcom/tencent/mm/ac/i;-><init>(I)V
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 283
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -177,7 +177,7 @@
 
     invoke-direct {v3}, Lcom/tencent/mm/ac/g;-><init>()V
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 285
     invoke-static {}, Lcom/tencent/mm/model/ah;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
@@ -259,11 +259,11 @@
 
     .line 324
     :cond_3
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/q/l;->aM(Z)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/q/Lclz;->aM(Z)V
 
     .line 326
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
@@ -337,11 +337,11 @@
     iput-object v3, v0, Lcom/tencent/mm/ui/MMAppMgr;->jzg:Ljava/lang/String;
 
     .line 341
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/q/l;->aN(Z)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/q/Lclz;->aN(Z)V
 
     .line 348
     invoke-static {}, Lcom/tencent/mm/model/ah;->qZ()Z

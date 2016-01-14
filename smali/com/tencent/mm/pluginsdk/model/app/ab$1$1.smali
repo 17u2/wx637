@@ -226,7 +226,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/ab$1;->hMh:Lcom/tencent/mm/pluginsdk/model/app/ab;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/ab;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/ab;->ans:Lcom/tencent/mm/q/Dclz;
 
     const-string/jumbo v1, ""
 
@@ -234,7 +234,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/ab$1;->hMh:Lcom/tencent/mm/pluginsdk/model/app/ab;
 
-    invoke-interface {v0, p1, p2, v1, v2}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, p1, p2, v1, v2}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 188
     return-void

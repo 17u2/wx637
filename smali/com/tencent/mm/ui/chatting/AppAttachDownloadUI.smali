@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lcom/tencent/mm/pluginsdk/model/app/v$a;
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 .implements Lcom/tencent/mm/sdk/g/g$a;
 
 
@@ -27,7 +27,7 @@
 
 .field private dak:Lcom/tencent/mm/pluginsdk/model/app/v;
 
-.field private dal:Lcom/tencent/mm/q/e;
+.field private dal:Lcom/tencent/mm/q/Eclz;
 
 .field private fhB:Lcom/tencent/mm/ui/MMImageView;
 
@@ -1268,12 +1268,12 @@
     return-object v0
 .end method
 
-.method static synthetic m(Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;)Lcom/tencent/mm/q/e;
+.method static synthetic m(Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;)Lcom/tencent/mm/q/Eclz;
     .locals 1
 
     .prologue
     .line 63
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->dal:Lcom/tencent/mm/q/e;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->dal:Lcom/tencent/mm/q/Eclz;
 
     return-object v0
 .end method
@@ -1727,7 +1727,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI$4;-><init>(Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->dal:Lcom/tencent/mm/q/e;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->dal:Lcom/tencent/mm/q/Eclz;
 
     .line 267
     iget v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->hMg:I
@@ -1767,19 +1767,19 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->mediaId:Ljava/lang/String;
 
-    iget-object v4, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->dal:Lcom/tencent/mm/q/e;
+    iget-object v4, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->dal:Lcom/tencent/mm/q/Eclz;
 
-    invoke-direct {v0, v1, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/model/app/v;-><init>(JLjava/lang/String;Lcom/tencent/mm/q/e;)V
+    invoke-direct {v0, v1, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/model/app/v;-><init>(JLjava/lang/String;Lcom/tencent/mm/q/Eclz;)V
 
     iput-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->dak:Lcom/tencent/mm/pluginsdk/model/app/v;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->dak:Lcom/tencent/mm/pluginsdk/model/app/v;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     goto/16 :goto_2
 
@@ -1984,21 +1984,21 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->mediaId:Ljava/lang/String;
 
-    iget-object v5, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->dal:Lcom/tencent/mm/q/e;
+    iget-object v5, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->dal:Lcom/tencent/mm/q/Eclz;
 
-    invoke-direct {v0, v2, v3, v4, v5}, Lcom/tencent/mm/pluginsdk/model/app/v;-><init>(JLjava/lang/String;Lcom/tencent/mm/q/e;)V
+    invoke-direct {v0, v2, v3, v4, v5}, Lcom/tencent/mm/pluginsdk/model/app/v;-><init>(JLjava/lang/String;Lcom/tencent/mm/q/Eclz;)V
 
     iput-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->dak:Lcom/tencent/mm/pluginsdk/model/app/v;
 
     invoke-direct {p0}, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->aXi()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->dak:Lcom/tencent/mm/pluginsdk/model/app/v;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     goto/16 :goto_3
 
@@ -2031,7 +2031,7 @@
     .end packed-switch
 .end method
 
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 4
 
     .prologue
@@ -2040,7 +2040,7 @@
     const/16 v2, 0x8
 
     .line 756
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
@@ -2435,13 +2435,13 @@
 
     .prologue
     .line 191
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0xdd
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 192
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onPause()V
@@ -2488,13 +2488,13 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onResume()V
 
     .line 180
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0xdd
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 182
     new-instance v0, Lcom/tencent/mm/d/a/gs;

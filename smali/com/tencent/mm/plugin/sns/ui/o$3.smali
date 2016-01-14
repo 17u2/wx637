@@ -137,11 +137,11 @@
 
     invoke-direct {v2, v3, v4, v7}, Lcom/tencent/mm/plugin/sns/d/p;-><init>(JI)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     iget-object v1, v0, Lcom/tencent/mm/plugin/sns/ui/o;->context:Landroid/content/Context;
 
@@ -203,11 +203,11 @@
 
     invoke-direct {v2, v3, v4, v6}, Lcom/tencent/mm/plugin/sns/d/p;-><init>(JI)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     iget-object v1, v0, Lcom/tencent/mm/plugin/sns/ui/o;->context:Landroid/content/Context;
 

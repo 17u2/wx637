@@ -290,16 +290,16 @@
 
     iget-object v3, v3, Lcom/tencent/mm/ui/account/SetPwdUI;->jFC:Lcom/tencent/mm/protocal/b/ajy;
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/ui/account/SetPwdUI;->a(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/ajy;)Lcom/tencent/mm/q/j;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/ui/account/SetPwdUI;->a(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/ajy;)Lcom/tencent/mm/q/Jclz;
 
     move-result-object v0
 
     .line 160
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 161
     iget-object v1, p0, Lcom/tencent/mm/ui/account/SetPwdUI$1;->jFD:Lcom/tencent/mm/ui/account/SetPwdUI;
@@ -326,7 +326,7 @@
 
     new-instance v6, Lcom/tencent/mm/ui/account/SetPwdUI$1$1;
 
-    invoke-direct {v6, p0, v0}, Lcom/tencent/mm/ui/account/SetPwdUI$1$1;-><init>(Lcom/tencent/mm/ui/account/SetPwdUI$1;Lcom/tencent/mm/q/j;)V
+    invoke-direct {v6, p0, v0}, Lcom/tencent/mm/ui/account/SetPwdUI$1$1;-><init>(Lcom/tencent/mm/ui/account/SetPwdUI$1;Lcom/tencent/mm/q/Jclz;)V
 
     invoke-virtual {v2, v3, v4, v5, v6}, Lcom/tencent/mm/ui/account/SetPwdUI;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/ProgressDialog;
 

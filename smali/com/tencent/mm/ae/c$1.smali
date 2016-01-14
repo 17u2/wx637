@@ -233,7 +233,7 @@
 
     iput-boolean v11, v3, Lcom/tencent/mm/ae/c;->bwr:Z
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -241,7 +241,7 @@
 
     invoke-direct {v6, v0}, Lcom/tencent/mm/ae/a;-><init>(Ljava/util/List;)V
 
-    invoke-virtual {v1, v6}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v6}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     :cond_5
     const-string/jumbo v0, "!32@/B4Tb64lLpKS9SFT4r6jy7MddUmu706u"

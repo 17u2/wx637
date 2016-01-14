@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    value = Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic aoz:Lcom/tencent/mm/q/j;
+.field final synthetic aoz:Lcom/tencent/mm/q/Jclz;
 
 .field final synthetic kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/q/j;)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/q/Jclz;)V
     .locals 1
 
     .prologue
     .line 8276
     iput-object p1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$3;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$3;->aoz:Lcom/tencent/mm/q/j;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$3;->aoz:Lcom/tencent/mm/q/Jclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -57,7 +57,7 @@
     move-result-wide v0
 
     .line 8280
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$3;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$3;->aoz:Lcom/tencent/mm/q/Jclz;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$3;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -65,7 +65,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/s/f;->c(Lcom/tencent/mm/q/j;Ljava/lang/String;)Z
+    invoke-static {v2, v3}, Lcom/tencent/mm/s/Fclz;->c(Lcom/tencent/mm/q/Jclz;Ljava/lang/String;)Z
 
     move-result v2
 
@@ -100,23 +100,23 @@
     .line 8283
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$3;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/d;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/Dclz;
 
-    iget-object v1, v0, Lcom/tencent/mm/s/d;->bzI:Ljava/util/Map;
+    iget-object v1, v0, Lcom/tencent/mm/s/Dclz;->bzI:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->clear()V
 
-    iget-object v1, v0, Lcom/tencent/mm/s/d;->bzJ:Ljava/util/List;
+    iget-object v1, v0, Lcom/tencent/mm/s/Dclz;->bzJ:Ljava/util/List;
 
     if-eqz v1, :cond_0
 
-    iget-object v1, v0, Lcom/tencent/mm/s/d;->bzJ:Ljava/util/List;
+    iget-object v1, v0, Lcom/tencent/mm/s/Dclz;->bzJ:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
     const/4 v1, 0x0
 
-    iput-object v1, v0, Lcom/tencent/mm/s/d;->bzJ:Ljava/util/List;
+    iput-object v1, v0, Lcom/tencent/mm/s/Dclz;->bzJ:Ljava/util/List;
 
     .line 8284
     :cond_0

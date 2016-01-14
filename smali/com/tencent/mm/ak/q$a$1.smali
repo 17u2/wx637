@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ak/q$a;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    value = Lcom/tencent/mm/ak/q$a;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,20 +22,20 @@
 
 .field final synthetic aoB:I
 
-.field final synthetic aoz:Lcom/tencent/mm/q/j;
+.field final synthetic aoz:Lcom/tencent/mm/q/Jclz;
 
 .field final synthetic bYb:Lcom/tencent/mm/ak/q$a;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ak/q$a;Lcom/tencent/mm/q/j;II)V
+.method constructor <init>(Lcom/tencent/mm/ak/q$a;Lcom/tencent/mm/q/Jclz;II)V
     .locals 1
 
     .prologue
     .line 139
     iput-object p1, p0, Lcom/tencent/mm/ak/q$a$1;->bYb:Lcom/tencent/mm/ak/q$a;
 
-    iput-object p2, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iput-object p2, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
     iput p3, p0, Lcom/tencent/mm/ak/q$a$1;->aoA:I
 
@@ -68,9 +68,9 @@
     const/4 v0, 0x0
 
     .line 147
-    iget-object v1, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v1, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {v1}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v1
 
@@ -84,7 +84,7 @@
     invoke-static {v0}, Lcom/tencent/mm/ak/q$a;->a(Lcom/tencent/mm/ak/q$a;)Z
 
     .line 149
-    iget-object v0, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/ak/b;
 
@@ -94,7 +94,7 @@
     sput-object v1, Lcom/tencent/mm/ak/q;->bXY:Ljava/lang/String;
 
     .line 151
-    iget-object v0, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/ak/b;
 
@@ -158,9 +158,9 @@
 
     invoke-direct {v6, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v7, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v7, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
-    invoke-virtual {v7}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {v7}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v7
 
@@ -356,9 +356,9 @@
 
     .line 153
     :cond_3
-    iget-object v1, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v1, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {v1}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v1
 
@@ -377,21 +377,21 @@
     invoke-static {v1}, Lcom/tencent/mm/ak/q$a;->d(Lcom/tencent/mm/ak/q$a;)Lcom/tencent/mm/ak/d;
 
     .line 156
-    iget-object v1, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v1, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
     instance-of v1, v1, Lcom/tencent/mm/ak/d;
 
     if-eqz v1, :cond_4
 
     .line 157
-    iget-object v0, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/ak/d;
 
     iget-object v1, v0, Lcom/tencent/mm/ak/d;->ani:Ljava/lang/String;
 
     .line 158
-    iget-object v0, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/ak/d;
 
@@ -405,14 +405,14 @@
 
     .line 160
     :cond_4
-    iget-object v1, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v1, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
     instance-of v1, v1, Lcom/tencent/mm/ak/e;
 
     if-eqz v1, :cond_8
 
     .line 161
-    iget-object v0, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/ak/e;
 
@@ -435,9 +435,9 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v2, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v2, p0, Lcom/tencent/mm/ak/q$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {v2}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v2
 

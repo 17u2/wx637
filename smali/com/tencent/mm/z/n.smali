@@ -635,7 +635,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/z/n;->bLi:Lcom/tencent/mm/z/g;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/q/c$b;->a(Ljava/lang/Object;Lcom/tencent/mm/q/c;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/q/Cclz$b;->a(Ljava/lang/Object;Lcom/tencent/mm/q/Cclz;)V
 
     .line 258
     const/16 v0, 0x17
@@ -646,7 +646,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/z/n;->bLi:Lcom/tencent/mm/z/g;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/q/c$b;->a(Ljava/lang/Object;Lcom/tencent/mm/q/c;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/q/Cclz$b;->a(Ljava/lang/Object;Lcom/tencent/mm/q/Cclz;)V
 
     .line 260
     const-string/jumbo v0, "local_cdn_img_cache"
@@ -711,13 +711,13 @@
 
     iput v6, v0, Lcom/tencent/mm/z/h;->aou:I
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 
     const/16 v3, 0x6e
 
-    invoke-virtual {v2, v3, v0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v2, v3, v0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 185
     :cond_0
@@ -826,13 +826,13 @@
     :cond_2
     invoke-virtual {v2}, Lcom/tencent/mm/z/c;->zB()V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v3, 0x6d
 
-    invoke-virtual {v0, v3, v2}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v3, v2}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 193
     :cond_3
@@ -866,7 +866,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/q/c$b;->W(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcom/tencent/mm/q/Cclz$b;->W(Ljava/lang/Object;)V
 
     .line 203
     const/16 v0, 0x17
@@ -875,7 +875,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/q/c$b;->W(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcom/tencent/mm/q/Cclz$b;->W(Ljava/lang/Object;)V
 
     .line 205
     const-string/jumbo v0, "local_cdn_img_cache"

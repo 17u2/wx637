@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field atC:Lcom/tencent/mm/q/j;
+.field atC:Lcom/tencent/mm/q/Jclz;
 
 .field public cfz:Lcom/tencent/mm/ui/base/o;
 

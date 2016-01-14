@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lcom/tencent/mm/compatible/b/d$a;
-.implements Lcom/tencent/mm/q/f;
+.implements Lcom/tencent/mm/q/Fclz;
 
 
 # instance fields
@@ -20,9 +20,9 @@
 
 .field private aoT:Z
 
-.field public aoU:Lcom/tencent/mm/q/f$b;
+.field public aoU:Lcom/tencent/mm/q/Fclz$b;
 
-.field public aoV:Lcom/tencent/mm/q/f$a;
+.field public aoV:Lcom/tencent/mm/q/Fclz$a;
 
 .field context:Landroid/content/Context;
 
@@ -78,7 +78,7 @@
     iput-boolean v0, p0, Lcom/tencent/mm/c/a/aclass;->aoT:Z
 
     .line 193
-    iput-object v1, p0, Lcom/tencent/mm/c/a/aclass;->aoU:Lcom/tencent/mm/q/f$b;
+    iput-object v1, p0, Lcom/tencent/mm/c/a/aclass;->aoU:Lcom/tencent/mm/q/Fclz$b;
 
     .line 46
     iput-object p1, p0, Lcom/tencent/mm/c/a/aclass;->context:Landroid/content/Context;
@@ -111,23 +111,23 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/q/f$a;)V
+.method public final a(Lcom/tencent/mm/q/Fclz$a;)V
     .locals 0
 
     .prologue
     .line 229
-    iput-object p1, p0, Lcom/tencent/mm/c/a/aclass;->aoV:Lcom/tencent/mm/q/f$a;
+    iput-object p1, p0, Lcom/tencent/mm/c/a/aclass;->aoV:Lcom/tencent/mm/q/Fclz$a;
 
     .line 230
     return-void
 .end method
 
-.method public final a(Lcom/tencent/mm/q/f$b;)V
+.method public final a(Lcom/tencent/mm/q/Fclz$b;)V
     .locals 0
 
     .prologue
     .line 197
-    iput-object p1, p0, Lcom/tencent/mm/c/a/aclass;->aoU:Lcom/tencent/mm/q/f$b;
+    iput-object p1, p0, Lcom/tencent/mm/c/a/aclass;->aoU:Lcom/tencent/mm/q/Fclz$b;
 
     .line 198
     return-void

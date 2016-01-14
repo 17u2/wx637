@@ -181,13 +181,13 @@
     .line 274
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/v$1;->hLZ:Lcom/tencent/mm/pluginsdk/model/app/v;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/v;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/v;->ans:Lcom/tencent/mm/q/Dclz;
 
     const-string/jumbo v1, ""
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/model/app/v$1;->hLZ:Lcom/tencent/mm/pluginsdk/model/app/v;
 
-    invoke-interface {v0, v9, p2, v1, v2}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v9, p2, v1, v2}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto :goto_0
 
@@ -276,13 +276,13 @@
     .line 287
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/v$1;->hLZ:Lcom/tencent/mm/pluginsdk/model/app/v;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/v;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/v;->ans:Lcom/tencent/mm/q/Dclz;
 
     const-string/jumbo v1, ""
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/model/app/v$1;->hLZ:Lcom/tencent/mm/pluginsdk/model/app/v;
 
-    invoke-interface {v0, v9, p2, v1, v2}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v9, p2, v1, v2}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto/16 :goto_0
 
@@ -314,7 +314,7 @@
     .line 294
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/v$1;->hLZ:Lcom/tencent/mm/pluginsdk/model/app/v;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/v;->bJU:Lcom/tencent/mm/q/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/v;->bJU:Lcom/tencent/mm/q/Eclz;
 
     if-eqz v0, :cond_5
 
@@ -397,7 +397,7 @@
     .line 311
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/v$1;->hLZ:Lcom/tencent/mm/pluginsdk/model/app/v;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/v;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/v;->ans:Lcom/tencent/mm/q/Dclz;
 
     iget v1, p4, Lcom/tencent/mm/modelcdntran/keep_SceneResult;->field_retCode:I
 
@@ -405,7 +405,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/pluginsdk/model/app/v$1;->hLZ:Lcom/tencent/mm/pluginsdk/model/app/v;
 
-    invoke-interface {v0, v9, v1, v2, v3}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v9, v1, v2, v3}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 326
     :goto_1
@@ -550,7 +550,7 @@
     .line 331
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/v$1;->hLZ:Lcom/tencent/mm/pluginsdk/model/app/v;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/v;->bJU:Lcom/tencent/mm/q/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/v;->bJU:Lcom/tencent/mm/q/Eclz;
 
     if-eqz v0, :cond_0
 
@@ -670,13 +670,13 @@
     .line 324
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/v$1;->hLZ:Lcom/tencent/mm/pluginsdk/model/app/v;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/v;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/v;->ans:Lcom/tencent/mm/q/Dclz;
 
     const-string/jumbo v1, ""
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/model/app/v$1;->hLZ:Lcom/tencent/mm/pluginsdk/model/app/v;
 
-    invoke-interface {v0, v6, v6, v1, v2}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v6, v6, v1, v2}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto/16 :goto_1
 

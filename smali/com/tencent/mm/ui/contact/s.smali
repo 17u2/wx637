@@ -107,11 +107,11 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/contact/s;->eIL:Landroid/database/Cursor;
 
     .line 48
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xq()Lcom/tencent/mm/s/l;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xq()Lcom/tencent/mm/s/Lclz;
 
     const/4 v0, 0x2
 
-    invoke-static {v0}, Lcom/tencent/mm/s/l;->db(I)Ljava/util/List;
+    invoke-static {v0}, Lcom/tencent/mm/s/Lclz;->db(I)Ljava/util/List;
 
     move-result-object v0
 

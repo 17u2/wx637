@@ -177,11 +177,11 @@
 
     .line 650
     :goto_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     move-result v0
 
@@ -252,11 +252,11 @@
     invoke-direct {v4, v0, v1, v2, v3}, Lcom/tencent/mm/plugin/webview/c/i;-><init>(Ljava/lang/String;Ljava/lang/String;II)V
 
     .line 660
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v4}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v4}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     move-result v0
 
@@ -5125,11 +5125,11 @@
 
     invoke-direct {v2, v0}, Lcom/tencent/mm/plugin/webview/c/p;-><init>(Ljava/util/List;)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     goto :goto_8
 
@@ -6492,7 +6492,7 @@
     return-object v0
 
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/s/m;->wZ()Ljava/util/List;
+    invoke-static {}, Lcom/tencent/mm/s/Mclz;->wZ()Ljava/util/List;
 
     move-result-object v0
 
@@ -6924,7 +6924,7 @@
     return v0
 
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/s/m;->xa()Z
+    invoke-static {}, Lcom/tencent/mm/s/Mclz;->xa()Z
 
     move-result v0
 

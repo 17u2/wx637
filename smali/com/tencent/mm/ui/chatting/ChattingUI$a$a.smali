@@ -602,9 +602,9 @@
     .line 10039
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$a;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/d;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/s/d;->field_userList:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/s/Dclz;->field_userList:Ljava/lang/String;
 
     .line 10040
     new-instance v1, Landroid/content/Intent;
@@ -625,7 +625,7 @@
     .line 10042
     const-string/jumbo v2, "Block_list"
 
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xu()Lcom/tencent/mm/s/j;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xu()Lcom/tencent/mm/s/Jclz;
 
     move-result-object v3
 
@@ -635,7 +635,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v3, v4}, Lcom/tencent/mm/s/j;->gs(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v3, v4}, Lcom/tencent/mm/s/Jclz;->gs(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 

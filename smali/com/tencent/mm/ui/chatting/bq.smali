@@ -796,7 +796,7 @@
 
     if-eqz v1, :cond_3
 
-    invoke-static {}, Lcom/tencent/mm/s/m;->wR()Z
+    invoke-static {}, Lcom/tencent/mm/s/Mclz;->wR()Z
 
     move-result v1
 

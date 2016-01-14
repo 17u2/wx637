@@ -486,9 +486,9 @@
     .line 129
     iget-object v3, p0, Lcom/tencent/mm/ui/chatting/ck;->kcm:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/d;
+    iget-object v3, v3, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/Dclz;
 
-    invoke-virtual {v3, v0}, Lcom/tencent/mm/s/d;->gf(Ljava/lang/String;)Lcom/tencent/mm/s/i;
+    invoke-virtual {v3, v0}, Lcom/tencent/mm/s/Dclz;->gf(Ljava/lang/String;)Lcom/tencent/mm/s/Iclz;
 
     move-result-object v0
 
@@ -498,7 +498,7 @@
     .line 131
     if-eqz v0, :cond_2
 
-    iget-object v3, v0, Lcom/tencent/mm/s/i;->field_profileUrl:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/s/Iclz;->field_profileUrl:Ljava/lang/String;
 
     invoke-static {v3}, Lcom/tencent/mm/platformtools/t;->jY(Ljava/lang/String;)Z
 
@@ -542,7 +542,7 @@
 
     new-array v5, v1, [Ljava/lang/Object;
 
-    iget-object v6, v0, Lcom/tencent/mm/s/i;->field_profileUrl:Ljava/lang/String;
+    iget-object v6, v0, Lcom/tencent/mm/s/Iclz;->field_profileUrl:Ljava/lang/String;
 
     aput-object v6, v5, v2
 
@@ -556,7 +556,7 @@
     .line 137
     const-string/jumbo v3, "rawUrl"
 
-    iget-object v0, v0, Lcom/tencent/mm/s/i;->field_profileUrl:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/s/Iclz;->field_profileUrl:Ljava/lang/String;
 
     invoke-virtual {v2, v3, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 

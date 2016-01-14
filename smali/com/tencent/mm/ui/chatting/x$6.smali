@@ -56,11 +56,11 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/x$6;->kbW:Lcom/tencent/mm/ui/chatting/x;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/x;->a(Lcom/tencent/mm/ui/chatting/x;)Lcom/tencent/mm/q/g;
+    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/x;->a(Lcom/tencent/mm/ui/chatting/x;)Lcom/tencent/mm/q/Gclz;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/tencent/mm/q/g;->getMaxAmplitude()I
+    invoke-interface {v1}, Lcom/tencent/mm/q/Gclz;->getMaxAmplitude()I
 
     move-result v1
 

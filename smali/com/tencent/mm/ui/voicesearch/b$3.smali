@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/voicesearch/b;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    value = Lcom/tencent/mm/ui/voicesearch/b;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic aoz:Lcom/tencent/mm/q/j;
+.field final synthetic aoz:Lcom/tencent/mm/q/Jclz;
 
 .field final synthetic kJx:Lcom/tencent/mm/ui/voicesearch/b;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/voicesearch/b;Lcom/tencent/mm/q/j;)V
+.method constructor <init>(Lcom/tencent/mm/ui/voicesearch/b;Lcom/tencent/mm/q/Jclz;)V
     .locals 1
 
     .prologue
     .line 743
     iput-object p1, p0, Lcom/tencent/mm/ui/voicesearch/b$3;->kJx:Lcom/tencent/mm/ui/voicesearch/b;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/voicesearch/b$3;->aoz:Lcom/tencent/mm/q/j;
+    iput-object p2, p0, Lcom/tencent/mm/ui/voicesearch/b$3;->aoz:Lcom/tencent/mm/q/Jclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,7 +52,7 @@
 
     .prologue
     .line 748
-    iget-object v0, p0, Lcom/tencent/mm/ui/voicesearch/b$3;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/voicesearch/b$3;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/modelsimple/z;
 

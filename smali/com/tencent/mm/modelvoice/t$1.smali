@@ -50,7 +50,7 @@
     .line 70
     iget-object v0, p0, Lcom/tencent/mm/modelvoice/t$1;->bZp:Lcom/tencent/mm/modelvoice/t;
 
-    invoke-static {v0}, Lcom/tencent/mm/modelvoice/t;->a(Lcom/tencent/mm/modelvoice/t;)Lcom/tencent/mm/q/g$a;
+    invoke-static {v0}, Lcom/tencent/mm/modelvoice/t;->a(Lcom/tencent/mm/modelvoice/t;)Lcom/tencent/mm/q/Gclz$a;
 
     move-result-object v0
 
@@ -59,11 +59,11 @@
     .line 71
     iget-object v0, p0, Lcom/tencent/mm/modelvoice/t$1;->bZp:Lcom/tencent/mm/modelvoice/t;
 
-    invoke-static {v0}, Lcom/tencent/mm/modelvoice/t;->a(Lcom/tencent/mm/modelvoice/t;)Lcom/tencent/mm/q/g$a;
+    invoke-static {v0}, Lcom/tencent/mm/modelvoice/t;->a(Lcom/tencent/mm/modelvoice/t;)Lcom/tencent/mm/q/Gclz$a;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/q/g$a;->onError()V
+    invoke-interface {v0}, Lcom/tencent/mm/q/Gclz$a;->onError()V
 
     .line 74
     :cond_0

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/c;
+.implements Lcom/tencent/mm/q/Cclz;
 
 
 # direct methods
@@ -175,7 +175,7 @@
     return-void
 .end method
 
-.method public final b(Lcom/tencent/mm/protocal/b/AFclz;)Lcom/tencent/mm/q/c$a;
+.method public final b(Lcom/tencent/mm/protocal/b/AFclz;)Lcom/tencent/mm/q/Cclz$a;
     .locals 10
 
     .prologue
@@ -564,11 +564,11 @@
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->appenderFlush()V
 
     .line 141
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/q/l;->byu:Lcom/tencent/mm/network/e;
+    iget-object v0, v0, Lcom/tencent/mm/q/Lclz;->byu:Lcom/tencent/mm/network/e;
 
     invoke-interface {v0, v1}, Lcom/tencent/mm/network/e;->fY(Ljava/lang/String;)V
 

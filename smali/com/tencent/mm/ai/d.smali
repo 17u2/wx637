@@ -12,7 +12,7 @@
 
 .field private bUA:[B
 
-.field private bUB:Lcom/tencent/mm/q/d;
+.field private bUB:Lcom/tencent/mm/q/Dclz;
 
 .field private bUz:Ljava/lang/String;
 
@@ -67,7 +67,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ai/d$3;-><init>(Lcom/tencent/mm/ai/d;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ai/d;->bUB:Lcom/tencent/mm/q/d;
+    iput-object v0, p0, Lcom/tencent/mm/ai/d;->bUB:Lcom/tencent/mm/q/Dclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -652,15 +652,15 @@
     :cond_a
     :goto_3
     :try_start_4
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0xf0
 
-    iget-object v3, p0, Lcom/tencent/mm/ai/d;->bUB:Lcom/tencent/mm/q/d;
+    iget-object v3, p0, Lcom/tencent/mm/ai/d;->bUB:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v0, v1, v3}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, v3}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     new-instance v0, Lcom/tencent/mm/ai/a;
 
@@ -678,11 +678,11 @@
 
     invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/ai/a;-><init>(Ljava/lang/String;IIII)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_1
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
@@ -786,12 +786,12 @@
     return-object v0
 .end method
 
-.method static synthetic d(Lcom/tencent/mm/ai/d;)Lcom/tencent/mm/q/d;
+.method static synthetic d(Lcom/tencent/mm/ai/d;)Lcom/tencent/mm/q/Dclz;
     .locals 1
 
     .prologue
     .line 21
-    iget-object v0, p0, Lcom/tencent/mm/ai/d;->bUB:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/ai/d;->bUB:Lcom/tencent/mm/q/Dclz;
 
     return-object v0
 .end method

@@ -65,7 +65,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$40;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/d;
+    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/Dclz;
 
     if-eqz v2, :cond_2
 
@@ -90,26 +90,26 @@
     .line 10465
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$40;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/d;
+    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/Dclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/s/d;->wg()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/s/Dclz;->wg()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
     .line 10466
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 
-    new-instance v3, Lcom/tencent/mm/s/w;
+    new-instance v3, Lcom/tencent/mm/s/Wclz;
 
     iget-object v4, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$40;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/d;
+    iget-object v4, v4, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/Dclz;
 
-    iget-object v4, v4, Lcom/tencent/mm/s/d;->field_bizChatServId:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/s/Dclz;->field_bizChatServId:Ljava/lang/String;
 
     iget-object v5, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$40;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -117,9 +117,9 @@
 
     iget-object v5, v5, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
 
-    invoke-direct {v3, v4, v5}, Lcom/tencent/mm/s/w;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v3, v4, v5}, Lcom/tencent/mm/s/Wclz;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 10474
     :cond_0
@@ -151,9 +151,9 @@
     :cond_1
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$40;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/d;
+    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/Dclz;
 
-    invoke-static {v2}, Lcom/tencent/mm/s/f;->e(Lcom/tencent/mm/s/d;)Z
+    invoke-static {v2}, Lcom/tencent/mm/s/Fclz;->e(Lcom/tencent/mm/s/Dclz;)Z
 
     goto :goto_0
 
@@ -169,7 +169,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$40;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v5, v5, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/d;
+    iget-object v5, v5, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->cOw:Lcom/tencent/mm/s/Dclz;
 
     aput-object v5, v4, v7
 

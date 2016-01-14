@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private jch:Lcom/tencent/mm/remoteservice/c$a;
+.field private jch:Lcom/tencent/mm/remoteservice/Cclz$a;
 
 
 # direct methods
@@ -20,7 +20,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/remoteservice/RemoteService$1;-><init>(Lcom/tencent/mm/remoteservice/RemoteService;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/remoteservice/RemoteService;->jch:Lcom/tencent/mm/remoteservice/c$a;
+    iput-object v0, p0, Lcom/tencent/mm/remoteservice/RemoteService;->jch:Lcom/tencent/mm/remoteservice/Cclz$a;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -56,7 +56,7 @@
     invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
     .line 20
-    iget-object v0, p0, Lcom/tencent/mm/remoteservice/RemoteService;->jch:Lcom/tencent/mm/remoteservice/c$a;
+    iget-object v0, p0, Lcom/tencent/mm/remoteservice/RemoteService;->jch:Lcom/tencent/mm/remoteservice/Cclz$a;
 
     return-object v0
 .end method

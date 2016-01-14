@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/g$a;
+.implements Lcom/tencent/mm/q/Gclz$a;
 
 
 # annotations
@@ -52,11 +52,11 @@
     .line 158
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x$1;->kbW:Lcom/tencent/mm/ui/chatting/x;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/x;->a(Lcom/tencent/mm/ui/chatting/x;)Lcom/tencent/mm/q/g;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/x;->a(Lcom/tencent/mm/ui/chatting/x;)Lcom/tencent/mm/q/Gclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/q/g;->reset()V
+    invoke-interface {v0}, Lcom/tencent/mm/q/Gclz;->reset()V
 
     .line 159
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/x$1;->kbW:Lcom/tencent/mm/ui/chatting/x;

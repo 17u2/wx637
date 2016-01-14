@@ -31,9 +31,9 @@
     const/4 v4, 0x0
 
     .line 44
-    new-instance v0, Lcom/tencent/mm/q/a$a;
+    new-instance v0, Lcom/tencent/mm/q/Aclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/q/Aclz$a;-><init>()V
 
     .line 45
     new-instance v1, Lcom/tencent/mm/protocal/b/HLclz;
@@ -48,33 +48,33 @@
     invoke-virtual {v2, v3}, Ljava/util/LinkedList;->addAll(Ljava/util/Collection;)Z
 
     .line 47
-    iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
+    iput-object v1, v0, Lcom/tencent/mm/q/Aclz$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 48
     new-instance v1, Lcom/tencent/mm/protocal/b/HMclz;
 
     invoke-direct {v1}, Lcom/tencent/mm/protocal/b/HMclz;-><init>()V
 
-    iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
+    iput-object v1, v0, Lcom/tencent/mm/q/Aclz$a;->bxN:Lcom/tencent/mm/aq/a;
 
     .line 49
     const-string/jumbo v1, "/cgi-bin/micromsg-bin/checkresupdate"
 
-    iput-object v1, v0, Lcom/tencent/mm/q/a$a;->uri:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/q/Aclz$a;->uri:Ljava/lang/String;
 
     .line 50
     const/16 v1, 0x2d1
 
-    iput v1, v0, Lcom/tencent/mm/q/a$a;->bxK:I
+    iput v1, v0, Lcom/tencent/mm/q/Aclz$a;->bxK:I
 
     .line 51
-    iput v4, v0, Lcom/tencent/mm/q/a$a;->bxO:I
+    iput v4, v0, Lcom/tencent/mm/q/Aclz$a;->bxO:I
 
     .line 52
-    iput v4, v0, Lcom/tencent/mm/q/a$a;->bxP:I
+    iput v4, v0, Lcom/tencent/mm/q/Aclz$a;->bxP:I
 
     .line 53
-    invoke-virtual {v0}, Lcom/tencent/mm/q/a$a;->vl()Lcom/tencent/mm/q/a;
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Aclz$a;->vl()Lcom/tencent/mm/q/Aclz;
 
     move-result-object v0
 
@@ -86,11 +86,11 @@
 
     .prologue
     .line 26
-    check-cast p1, Lcom/tencent/mm/q/a;
+    check-cast p1, Lcom/tencent/mm/q/Aclz;
 
-    iget-object v0, p1, Lcom/tencent/mm/q/a;->bxJ:Lcom/tencent/mm/q/a$c;
+    iget-object v0, p1, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/HMclz;
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/c;
+.implements Lcom/tencent/mm/q/Cclz;
 
 
 # direct methods
@@ -26,7 +26,7 @@
 
 
 # virtual methods
-.method public final b(Lcom/tencent/mm/protocal/b/AFclz;)Lcom/tencent/mm/q/c$a;
+.method public final b(Lcom/tencent/mm/protocal/b/AFclz;)Lcom/tencent/mm/q/Cclz$a;
     .locals 21
 
     .prologue
@@ -1182,13 +1182,13 @@
     .line 241
     :cond_d
     :goto_5
-    new-instance v3, Lcom/tencent/mm/q/c$a;
+    new-instance v3, Lcom/tencent/mm/q/Cclz$a;
 
     const/4 v4, 0x1
 
     move-object/from16 v0, v16
 
-    invoke-direct {v3, v0, v4}, Lcom/tencent/mm/q/c$a;-><init>(Lcom/tencent/mm/storage/ad;Z)V
+    invoke-direct {v3, v0, v4}, Lcom/tencent/mm/q/Cclz$a;-><init>(Lcom/tencent/mm/storage/ad;Z)V
 
     goto/16 :goto_0
 

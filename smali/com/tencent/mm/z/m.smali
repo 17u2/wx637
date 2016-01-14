@@ -1060,14 +1060,14 @@
     :cond_e
     iget-object v6, v2, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
 
-    invoke-static {v6}, Lcom/tencent/mm/s/m;->gK(Ljava/lang/String;)Z
+    invoke-static {v6}, Lcom/tencent/mm/s/Mclz;->gK(Ljava/lang/String;)Z
 
     move-result v6
 
     if-eqz v6, :cond_f
 
     .line 286
-    invoke-static {}, Lcom/tencent/mm/s/f;->mr()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/s/Fclz;->mr()Ljava/lang/String;
 
     move-result-object v6
 

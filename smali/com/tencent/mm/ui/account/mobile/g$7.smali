@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/account/mobile/g;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    value = Lcom/tencent/mm/ui/account/mobile/g;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic aoz:Lcom/tencent/mm/q/j;
+.field final synthetic aoz:Lcom/tencent/mm/q/Jclz;
 
 .field final synthetic jHH:Lcom/tencent/mm/ui/account/mobile/g;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/account/mobile/g;Lcom/tencent/mm/q/j;)V
+.method constructor <init>(Lcom/tencent/mm/ui/account/mobile/g;Lcom/tencent/mm/q/Jclz;)V
     .locals 1
 
     .prologue
     .line 275
     iput-object p1, p0, Lcom/tencent/mm/ui/account/mobile/g$7;->jHH:Lcom/tencent/mm/ui/account/mobile/g;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/account/mobile/g$7;->aoz:Lcom/tencent/mm/q/j;
+    iput-object p2, p0, Lcom/tencent/mm/ui/account/mobile/g$7;->aoz:Lcom/tencent/mm/q/Jclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -186,7 +186,7 @@
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
     .line 295
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/g$7;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/g$7;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/modelfriend/u;
 
@@ -218,7 +218,7 @@
     .line 299
     const-string/jumbo v2, "regsetinfo_NextControl"
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/g$7;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/g$7;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/modelfriend/u;
 

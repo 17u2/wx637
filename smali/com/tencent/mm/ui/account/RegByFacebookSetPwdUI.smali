@@ -65,7 +65,7 @@
     return-object v0
 .end method
 
-.method protected final a(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/ajy;)Lcom/tencent/mm/q/j;
+.method protected final a(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/ajy;)Lcom/tencent/mm/q/Jclz;
     .locals 1
 
     .prologue

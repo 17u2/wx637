@@ -48,7 +48,7 @@
 
     .prologue
     .line 324
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -56,11 +56,11 @@
 
     iget-object v1, v1, Lcom/tencent/mm/ui/bindqq/NewBindQQUI$4;->jYG:Lcom/tencent/mm/ui/bindqq/NewBindQQUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->j(Lcom/tencent/mm/ui/bindqq/NewBindQQUI;)Lcom/tencent/mm/r/a;
+    invoke-static {v1}, Lcom/tencent/mm/ui/bindqq/NewBindQQUI;->j(Lcom/tencent/mm/ui/bindqq/NewBindQQUI;)Lcom/tencent/mm/r/Aclz;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->c(Lcom/tencent/mm/q/j;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 
     .line 325
     iget-object v0, p0, Lcom/tencent/mm/ui/bindqq/NewBindQQUI$4$1;->jYH:Lcom/tencent/mm/ui/bindqq/NewBindQQUI$4;

@@ -175,7 +175,7 @@
 
     .line 164
     :cond_1
-    invoke-static {p2, v0, v2}, Lcom/tencent/mm/s/r;->b(Ljava/lang/String;Ljava/lang/String;I)Landroid/graphics/Bitmap;
+    invoke-static {p2, v0, v2}, Lcom/tencent/mm/s/Rclz;->b(Ljava/lang/String;Ljava/lang/String;I)Landroid/graphics/Bitmap;
 
     move-result-object v1
 

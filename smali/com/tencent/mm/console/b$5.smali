@@ -52,7 +52,7 @@
 
     .prologue
     .line 346
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -66,7 +66,7 @@
 
     move-result v4
 
-    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/tencent/mm/q/l;->a(ILjava/lang/String;IZ)V
+    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/tencent/mm/q/Lclz;->a(ILjava/lang/String;IZ)V
 
     .line 347
     return-void

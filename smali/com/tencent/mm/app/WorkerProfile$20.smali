@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/l$a;
+.implements Lcom/tencent/mm/q/Lclz$a;
 
 
 # annotations
@@ -43,14 +43,14 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/q/l;Z)V
+.method public final a(Lcom/tencent/mm/q/Lclz;Z)V
     .locals 3
 
     .prologue
     .line 539
     if-eqz p2, :cond_0
 
-    iget-boolean v0, p1, Lcom/tencent/mm/q/l;->foreground:Z
+    iget-boolean v0, p1, Lcom/tencent/mm/q/Lclz;->foreground:Z
 
     if-nez v0, :cond_0
 

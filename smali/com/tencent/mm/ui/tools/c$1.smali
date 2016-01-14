@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/tools/c;->a(Lcom/tencent/mm/s/k;Landroid/app/Activity;Lcom/tencent/mm/storage/k;ZLjava/lang/Runnable;)V
+    value = Lcom/tencent/mm/ui/tools/c;->a(Lcom/tencent/mm/s/Kclz;Landroid/app/Activity;Lcom/tencent/mm/storage/k;ZLjava/lang/Runnable;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,7 +22,7 @@
 
 .field final synthetic cdP:Landroid/app/Activity;
 
-.field final synthetic kBE:Lcom/tencent/mm/s/k;
+.field final synthetic kBE:Lcom/tencent/mm/s/Kclz;
 
 .field final synthetic kBF:Z
 
@@ -30,12 +30,12 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/s/k;Landroid/app/Activity;Lcom/tencent/mm/storage/k;ZLjava/lang/Runnable;)V
+.method constructor <init>(Lcom/tencent/mm/s/Kclz;Landroid/app/Activity;Lcom/tencent/mm/storage/k;ZLjava/lang/Runnable;)V
     .locals 1
 
     .prologue
     .line 65
-    iput-object p1, p0, Lcom/tencent/mm/ui/tools/c$1;->kBE:Lcom/tencent/mm/s/k;
+    iput-object p1, p0, Lcom/tencent/mm/ui/tools/c$1;->kBE:Lcom/tencent/mm/s/Kclz;
 
     iput-object p2, p0, Lcom/tencent/mm/ui/tools/c$1;->cdP:Landroid/app/Activity;
 
@@ -64,7 +64,7 @@
 
     .prologue
     .line 69
-    iget-object v0, p0, Lcom/tencent/mm/ui/tools/c$1;->kBE:Lcom/tencent/mm/s/k;
+    iget-object v0, p0, Lcom/tencent/mm/ui/tools/c$1;->kBE:Lcom/tencent/mm/s/Kclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/tools/c$1;->cdP:Landroid/app/Activity;
 
@@ -72,7 +72,7 @@
 
     iget-boolean v3, p0, Lcom/tencent/mm/ui/tools/c$1;->kBF:Z
 
-    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/ui/tools/c;->a(Lcom/tencent/mm/s/k;Landroid/app/Activity;Lcom/tencent/mm/storage/k;Z)V
+    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/ui/tools/c;->a(Lcom/tencent/mm/s/Kclz;Landroid/app/Activity;Lcom/tencent/mm/storage/k;Z)V
 
     .line 70
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/c$1;->kBG:Ljava/lang/Runnable;

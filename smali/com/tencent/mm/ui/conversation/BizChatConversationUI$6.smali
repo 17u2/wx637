@@ -61,22 +61,22 @@
     if-eqz v0, :cond_0
 
     .line 511
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xs()Lcom/tencent/mm/s/e;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xs()Lcom/tencent/mm/s/Eclz;
 
     move-result-object v0
 
     iget-wide v1, p0, Lcom/tencent/mm/ui/conversation/BizChatConversationUI$6;->buw:J
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/s/e;->J(J)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/s/Eclz;->J(J)Z
 
     .line 512
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xt()Lcom/tencent/mm/s/c;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xt()Lcom/tencent/mm/s/Cclz;
 
     move-result-object v0
 
     iget-wide v1, p0, Lcom/tencent/mm/ui/conversation/BizChatConversationUI$6;->buw:J
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/s/c;->J(J)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/s/Cclz;->J(J)Z
 
     .line 513
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizChatConversationUI$6;->cOE:Landroid/app/ProgressDialog;

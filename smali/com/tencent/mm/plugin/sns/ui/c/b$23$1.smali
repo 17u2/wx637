@@ -313,7 +313,7 @@
     invoke-virtual {v2, v3, v4}, Lcom/tencent/mm/plugin/sns/d/aa;->cb(J)V
 
     .line 715
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 
@@ -325,7 +325,7 @@
 
     invoke-direct {v3, v4, v5, v7}, Lcom/tencent/mm/plugin/sns/d/p;-><init>(JI)V
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 719
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atw()Lcom/tencent/mm/plugin/sns/h/l;

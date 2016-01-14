@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic aoz:Lcom/tencent/mm/q/j;
+.field final synthetic aoz:Lcom/tencent/mm/q/Jclz;
 
 .field final synthetic jFE:Lcom/tencent/mm/ui/account/SetPwdUI$1;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/account/SetPwdUI$1;Lcom/tencent/mm/q/j;)V
+.method constructor <init>(Lcom/tencent/mm/ui/account/SetPwdUI$1;Lcom/tencent/mm/q/Jclz;)V
     .locals 1
 
     .prologue
     .line 161
     iput-object p1, p0, Lcom/tencent/mm/ui/account/SetPwdUI$1$1;->jFE:Lcom/tencent/mm/ui/account/SetPwdUI$1;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/account/SetPwdUI$1$1;->aoz:Lcom/tencent/mm/q/j;
+    iput-object p2, p0, Lcom/tencent/mm/ui/account/SetPwdUI$1$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,13 +52,13 @@
 
     .prologue
     .line 164
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/account/SetPwdUI$1$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v1, p0, Lcom/tencent/mm/ui/account/SetPwdUI$1$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->c(Lcom/tencent/mm/q/j;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 
     .line 165
     return-void

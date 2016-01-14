@@ -554,7 +554,7 @@
     if-eqz v3, :cond_2
 
     .line 1281
-    invoke-static {v2}, Lcom/tencent/mm/s/m;->gH(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/s/Mclz;->gH(Ljava/lang/String;)Z
 
     move-result v2
 

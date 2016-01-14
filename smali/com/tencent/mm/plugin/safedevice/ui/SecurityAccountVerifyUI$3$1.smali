@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic fyF:Lcom/tencent/mm/plugin/safedevice/ui/SecurityAccountVerifyUI$3;
 
-.field final synthetic fyx:Lcom/tencent/mm/q/j;
+.field final synthetic fyx:Lcom/tencent/mm/q/Jclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/safedevice/ui/SecurityAccountVerifyUI$3;Lcom/tencent/mm/q/j;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/safedevice/ui/SecurityAccountVerifyUI$3;Lcom/tencent/mm/q/Jclz;)V
     .locals 1
 
     .prologue
     .line 168
     iput-object p1, p0, Lcom/tencent/mm/plugin/safedevice/ui/SecurityAccountVerifyUI$3$1;->fyF:Lcom/tencent/mm/plugin/safedevice/ui/SecurityAccountVerifyUI$3;
 
-    iput-object p2, p0, Lcom/tencent/mm/plugin/safedevice/ui/SecurityAccountVerifyUI$3$1;->fyx:Lcom/tencent/mm/q/j;
+    iput-object p2, p0, Lcom/tencent/mm/plugin/safedevice/ui/SecurityAccountVerifyUI$3$1;->fyx:Lcom/tencent/mm/q/Jclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,13 +52,13 @@
 
     .prologue
     .line 172
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/safedevice/ui/SecurityAccountVerifyUI$3$1;->fyx:Lcom/tencent/mm/q/j;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/safedevice/ui/SecurityAccountVerifyUI$3$1;->fyx:Lcom/tencent/mm/q/Jclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->c(Lcom/tencent/mm/q/j;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 
     .line 173
     return-void

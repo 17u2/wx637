@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/ac/d;
-.super Lcom/tencent/mm/q/j;
+.super Lcom/tencent/mm/q/Jclz;
 .source "SourceFile"
 
 # interfaces
@@ -16,13 +16,13 @@
 
 
 # instance fields
-.field ans:Lcom/tencent/mm/q/d;
+.field ans:Lcom/tencent/mm/q/Dclz;
 
 .field private final any:Lcom/tencent/mm/sdk/platformtools/ag;
 
 .field final bHq:Ljava/util/Queue;
 
-.field bJU:Lcom/tencent/mm/q/e;
+.field bJU:Lcom/tencent/mm/q/Eclz;
 
 .field bMZ:Lcom/tencent/mm/compatible/util/f$a;
 
@@ -46,7 +46,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/tencent/mm/q/e;)V
+.method public constructor <init>(Lcom/tencent/mm/q/Eclz;)V
     .locals 6
 
     .prologue
@@ -55,12 +55,12 @@
     const/4 v4, 0x0
 
     .line 63
-    invoke-direct {p0}, Lcom/tencent/mm/q/j;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/q/Jclz;-><init>()V
 
     .line 44
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/ac/d;->bJU:Lcom/tencent/mm/q/e;
+    iput-object v0, p0, Lcom/tencent/mm/ac/d;->bJU:Lcom/tencent/mm/q/Eclz;
 
     .line 45
     new-instance v0, Lcom/tencent/mm/protocal/b/adg;
@@ -196,7 +196,7 @@
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 66
-    iput-object p1, p0, Lcom/tencent/mm/ac/d;->bJU:Lcom/tencent/mm/q/e;
+    iput-object p1, p0, Lcom/tencent/mm/ac/d;->bJU:Lcom/tencent/mm/q/Eclz;
 
     .line 67
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -230,7 +230,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-wide v2, p0, Lcom/tencent/mm/q/j;->byb:J
+    iget-wide v2, p0, Lcom/tencent/mm/q/Jclz;->byb:J
 
     invoke-virtual {v1, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -613,7 +613,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/d;)I
+.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
     .locals 4
 
     .prologue
@@ -627,7 +627,7 @@
     iput-object v0, p0, Lcom/tencent/mm/ac/d;->bMZ:Lcom/tencent/mm/compatible/util/f$a;
 
     .line 73
-    iput-object p2, p0, Lcom/tencent/mm/ac/d;->ans:Lcom/tencent/mm/q/d;
+    iput-object p2, p0, Lcom/tencent/mm/ac/d;->ans:Lcom/tencent/mm/q/Dclz;
 
     .line 74
     sget-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKd:Lcom/tencent/mm/pluginsdk/h$n$b;
@@ -707,7 +707,7 @@
 
     .prologue
     .line 320
-    sget v0, Lcom/tencent/mm/q/j$b;->byq:I
+    sget v0, Lcom/tencent/mm/q/Jclz$b;->byq:I
 
     return v0
 .end method
@@ -797,9 +797,9 @@
     iput-boolean v0, p0, Lcom/tencent/mm/ac/d;->bNo:Z
 
     .line 130
-    iget-object v0, p0, Lcom/tencent/mm/ac/d;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/ac/d;->ans:Lcom/tencent/mm/q/Dclz;
 
-    invoke-interface {v0, p2, p3, p4, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, p2, p3, p4, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 168
     :cond_0
@@ -888,7 +888,7 @@
     iput v0, p0, Lcom/tencent/mm/ac/d;->retryCount:I
 
     .line 139
-    iget-object v0, p0, Lcom/tencent/mm/q/j;->bya:Lcom/tencent/mm/network/e;
+    iget-object v0, p0, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/e;
 
     const/4 v1, 0x0
 
@@ -909,7 +909,7 @@
     iput-boolean v0, p0, Lcom/tencent/mm/ac/d;->bNo:Z
 
     .line 146
-    iget-object v0, p0, Lcom/tencent/mm/ac/d;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/ac/d;->ans:Lcom/tencent/mm/q/Dclz;
 
     const/4 v1, 0x3
 
@@ -917,7 +917,7 @@
 
     const-string/jumbo v3, ""
 
-    invoke-interface {v0, v1, v2, v3, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v1, v2, v3, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto :goto_0
 
@@ -1047,14 +1047,14 @@
 
     if-eqz v0, :cond_6
 
-    invoke-super {p0}, Lcom/tencent/mm/q/j;->vp()Z
+    invoke-super {p0}, Lcom/tencent/mm/q/Jclz;->vp()Z
 
     move-result v0
 
     if-nez v0, :cond_6
 
     .line 159
-    iget-object v0, p0, Lcom/tencent/mm/q/j;->bya:Lcom/tencent/mm/network/e;
+    iget-object v0, p0, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/e;
 
     iget-object v1, v5, Lcom/tencent/mm/protocal/b/adh;->iNv:Lcom/tencent/mm/protocal/b/ajy;
 
@@ -1187,7 +1187,7 @@
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 173
-    invoke-super {p0}, Lcom/tencent/mm/q/j;->cancel()V
+    invoke-super {p0}, Lcom/tencent/mm/q/Jclz;->cancel()V
 
     .line 174
     iput-boolean v5, p0, Lcom/tencent/mm/ac/d;->bNo:Z
@@ -1235,7 +1235,7 @@
 
     .prologue
     .line 325
-    invoke-super {p0}, Lcom/tencent/mm/q/j;->vp()Z
+    invoke-super {p0}, Lcom/tencent/mm/q/Jclz;->vp()Z
 
     move-result v0
 

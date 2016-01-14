@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 
 
 # annotations
@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 7
 
     .prologue
@@ -54,7 +54,7 @@
     const/4 v5, 0x0
 
     .line 361
-    iput-boolean v4, p4, Lcom/tencent/mm/q/j;->byg:Z
+    iput-boolean v4, p4, Lcom/tencent/mm/q/Jclz;->byg:Z
 
     .line 362
     const-string/jumbo v0, "!44@/B4Tb64lLpK+IBX8XDgnvsPvmyRJXaBBLjDRbPDJXV4="
@@ -191,7 +191,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ac/g$1;->bNI:Lcom/tencent/mm/ac/g;
 
-    invoke-static {v0}, Lcom/tencent/mm/ac/g;->e(Lcom/tencent/mm/ac/g;)Lcom/tencent/mm/q/d;
+    invoke-static {v0}, Lcom/tencent/mm/ac/g;->e(Lcom/tencent/mm/ac/g;)Lcom/tencent/mm/q/Dclz;
 
     move-result-object v0
 
@@ -205,7 +205,7 @@
 
     iget-object v3, v3, Lcom/tencent/mm/ac/g$1;->bNI:Lcom/tencent/mm/ac/g;
 
-    invoke-interface {v0, v6, v1, v2, v3}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v6, v1, v2, v3}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 369
     iget-object v0, p0, Lcom/tencent/mm/ac/g$1$1;->bNJ:Lcom/tencent/mm/ac/g$1;

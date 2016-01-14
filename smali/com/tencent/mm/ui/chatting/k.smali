@@ -5,8 +5,8 @@
 # interfaces
 .implements Lcom/tencent/mm/model/r;
 .implements Lcom/tencent/mm/modelvoice/c;
-.implements Lcom/tencent/mm/q/f$a;
-.implements Lcom/tencent/mm/q/f$b;
+.implements Lcom/tencent/mm/q/Fclz$a;
+.implements Lcom/tencent/mm/q/Fclz$b;
 .implements Lcom/tencent/mm/sdk/platformtools/SensorController$a;
 
 
@@ -27,7 +27,7 @@
 
 .field czZ:Z
 
-.field dAg:Lcom/tencent/mm/q/f;
+.field dAg:Lcom/tencent/mm/q/Fclz;
 
 .field private kaA:Lcom/tencent/mm/sdk/platformtools/ab;
 
@@ -688,7 +688,7 @@
 
     invoke-direct {v0, v1, v5}, Lcom/tencent/mm/c/a/aclass;-><init>(Landroid/content/Context;I)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/f;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/Fclz;
 
     goto :goto_0
 
@@ -707,7 +707,7 @@
 
     invoke-direct {v0, v1, v4}, Lcom/tencent/mm/c/a/aclass;-><init>(Landroid/content/Context;I)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/f;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/Fclz;
 
     goto :goto_0
 .end method
@@ -852,9 +852,9 @@
 
     .line 232
     :cond_6
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/q/f;->isPlaying()Z
+    invoke-interface {v0}, Lcom/tencent/mm/q/Fclz;->isPlaying()Z
 
     move-result v0
 
@@ -1304,9 +1304,9 @@
 
     invoke-static {v0}, Lcom/tencent/mm/modelvoice/q;->o(Lcom/tencent/mm/storage/ad;)V
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/f;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/Fclz;
 
-    invoke-interface {v1}, Lcom/tencent/mm/q/f;->stop()V
+    invoke-interface {v1}, Lcom/tencent/mm/q/Fclz;->stop()V
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/k;->kau:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -1359,7 +1359,7 @@
     move-result-object v1
 
     :goto_7
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/f;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/Fclz;
 
     iget-boolean v3, p0, Lcom/tencent/mm/ui/chatting/k;->czZ:Z
 
@@ -1367,19 +1367,19 @@
 
     const/4 v5, -0x1
 
-    invoke-interface {v2, v1, v3, v4, v5}, Lcom/tencent/mm/q/f;->a(Ljava/lang/String;ZZI)Z
+    invoke-interface {v2, v1, v3, v4, v5}, Lcom/tencent/mm/q/Fclz;->a(Ljava/lang/String;ZZI)Z
 
     move-result v1
 
     if-eqz v1, :cond_d
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/f;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/Fclz;
 
-    invoke-interface {v1, p0}, Lcom/tencent/mm/q/f;->a(Lcom/tencent/mm/q/f$a;)V
+    invoke-interface {v1, p0}, Lcom/tencent/mm/q/Fclz;->a(Lcom/tencent/mm/q/Fclz$a;)V
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/f;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/Fclz;
 
-    invoke-interface {v1, p0}, Lcom/tencent/mm/q/f;->a(Lcom/tencent/mm/q/f$b;)V
+    invoke-interface {v1, p0}, Lcom/tencent/mm/q/Fclz;->a(Lcom/tencent/mm/q/Fclz$b;)V
 
     iget-wide v0, v0, Lcom/tencent/mm/d/b/ba;->field_msgId:J
 
@@ -1453,13 +1453,13 @@
 
     .prologue
     .line 448
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/Fclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/q/f;->isPlaying()Z
+    invoke-interface {v0}, Lcom/tencent/mm/q/Fclz;->isPlaying()Z
 
     move-result v0
 
@@ -1486,9 +1486,9 @@
 
     const/4 v3, 0x1
 
-    iget-object v4, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/f;
+    iget-object v4, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/Fclz;
 
-    invoke-interface {v4}, Lcom/tencent/mm/q/f;->isPlaying()Z
+    invoke-interface {v4}, Lcom/tencent/mm/q/Fclz;->isPlaying()Z
 
     move-result v4
 
@@ -1501,11 +1501,11 @@
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 450
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/Fclz;
 
     iget-boolean v1, p0, Lcom/tencent/mm/ui/chatting/k;->czZ:Z
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/q/f;->ak(Z)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/q/Fclz;->ak(Z)V
 
     .line 452
     :cond_0
@@ -1620,9 +1620,9 @@
 
     .line 258
     :cond_2
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/q/f;->isPlaying()Z
+    invoke-interface {v0}, Lcom/tencent/mm/q/Fclz;->isPlaying()Z
 
     move-result v0
 
@@ -1804,9 +1804,9 @@
     iput-boolean v1, p0, Lcom/tencent/mm/ui/chatting/k;->cAg:Z
 
     .line 598
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/f;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/Fclz;
 
-    invoke-interface {v2}, Lcom/tencent/mm/q/f;->lK()Z
+    invoke-interface {v2}, Lcom/tencent/mm/q/Fclz;->lK()Z
 
     move-result v2
 
@@ -2017,9 +2017,9 @@
 
     .line 282
     :cond_2
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/q/f;->isPlaying()Z
+    invoke-interface {v0}, Lcom/tencent/mm/q/Fclz;->isPlaying()Z
 
     move-result v0
 
@@ -2154,9 +2154,9 @@
 
     .line 306
     :cond_2
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/q/f;->isPlaying()Z
+    invoke-interface {v0}, Lcom/tencent/mm/q/Fclz;->isPlaying()Z
 
     move-result v0
 
@@ -2254,9 +2254,9 @@
     invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/aa;->AJ(Ljava/lang/String;)V
 
     .line 525
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/q/f;->stop()V
+    invoke-interface {v0}, Lcom/tencent/mm/q/Fclz;->stop()V
 
     .line 526
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->kau:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
@@ -2321,9 +2321,9 @@
 
     .prologue
     .line 557
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/q/f;->isPlaying()Z
+    invoke-interface {v0}, Lcom/tencent/mm/q/Fclz;->isPlaying()Z
 
     move-result v0
 
@@ -2388,11 +2388,11 @@
     if-eqz v0, :cond_0
 
     .line 337
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-boolean v0, v0, Lcom/tencent/mm/q/l;->foreground:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/q/Lclz;->foreground:Z
 
     if-eqz v0, :cond_0
 
@@ -2429,9 +2429,9 @@
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/q/f;->isPlaying()Z
+    invoke-interface {v0}, Lcom/tencent/mm/q/Fclz;->isPlaying()Z
 
     move-result v0
 

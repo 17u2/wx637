@@ -170,7 +170,7 @@
     move-result-object v1
 
     .line 138
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -178,7 +178,7 @@
 
     iget-object v6, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI$1;->jFl:Lcom/tencent/mm/ui/account/RegSetInfoUI;
 
-    invoke-virtual {v0, v2, v6}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v2, v6}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 139
     new-instance v0, Lcom/tencent/mm/modelfriend/z;
@@ -196,11 +196,11 @@
     invoke-direct/range {v0 .. v7}, Lcom/tencent/mm/modelfriend/z;-><init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 140
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 141
     iget-object v0, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI$1;->jFl:Lcom/tencent/mm/ui/account/RegSetInfoUI;

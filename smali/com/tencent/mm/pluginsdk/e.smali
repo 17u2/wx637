@@ -12,7 +12,7 @@
 .method public abstract a(Landroid/app/Activity;IILandroid/content/Intent;)Landroid/graphics/Bitmap;
 .end method
 
-.method public abstract a(Lcom/tencent/mm/q/e;)Lcom/tencent/mm/q/j;
+.method public abstract a(Lcom/tencent/mm/q/Eclz;)Lcom/tencent/mm/q/Jclz;
 .end method
 
 .method public abstract a(Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;
@@ -36,7 +36,7 @@
 .method public abstract a(Landroid/content/Intent;Ljava/lang/String;)V
 .end method
 
-.method public abstract a(Lcom/tencent/mm/s/k;Landroid/app/Activity;Lcom/tencent/mm/storage/k;ZLjava/lang/Runnable;)V
+.method public abstract a(Lcom/tencent/mm/s/Kclz;Landroid/app/Activity;Lcom/tencent/mm/storage/k;ZLjava/lang/Runnable;)V
 .end method
 
 .method public abstract a(Landroid/content/Context;IILjava/lang/String;)Z
@@ -60,7 +60,7 @@
 .method public abstract ab(Landroid/content/Context;)V
 .end method
 
-.method public abstract af(Z)Lcom/tencent/mm/q/j;
+.method public abstract af(Z)Lcom/tencent/mm/q/Jclz;
 .end method
 
 .method public abstract b(Landroid/content/Context;IILjava/lang/String;)Z
@@ -84,7 +84,7 @@
 .method public abstract kO()V
 .end method
 
-.method public abstract kP()Lcom/tencent/mm/q/f;
+.method public abstract kP()Lcom/tencent/mm/q/Fclz;
 .end method
 
 .method public abstract kQ()V

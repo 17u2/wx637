@@ -289,7 +289,7 @@
 
     .line 1471
     :cond_3
-    invoke-static {p0}, Lcom/tencent/mm/s/m;->gK(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/tencent/mm/s/Mclz;->gK(Ljava/lang/String;)Z
 
     move-result v0
 

@@ -267,20 +267,20 @@
 
     .line 86
     .line 89
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/l;->vv()I
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Lclz;->vv()I
 
     move-result v0
 
     .line 91
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lcom/tencent/mm/q/l;->getNetworkServerIp()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/tencent/mm/q/Lclz;->getNetworkServerIp()Ljava/lang/String;
 
     move-result-object v4
 
@@ -751,7 +751,7 @@
     if-eqz v0, :cond_3
 
     .line 180
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -765,7 +765,7 @@
 
     invoke-direct {v5, v6}, Lcom/tencent/mm/modelsimple/r;-><init>(I)V
 
-    invoke-virtual {v0, v5}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v5}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     goto/16 :goto_1
 

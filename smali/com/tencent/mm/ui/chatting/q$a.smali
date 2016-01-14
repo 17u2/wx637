@@ -93,9 +93,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/s/k$c$b$a;
+    check-cast v0, Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/s/k$c$b$a;->name:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->name:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/text/TextPaint;->measureText(Ljava/lang/String;)F
 

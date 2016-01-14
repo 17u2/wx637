@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/v/a;
-.super Lcom/tencent/mm/q/j;
+.super Lcom/tencent/mm/q/Jclz;
 .source "SourceFile"
 
 # interfaces
@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private ans:Lcom/tencent/mm/q/d;
+.field private ans:Lcom/tencent/mm/q/Dclz;
 
 .field private arO:Lcom/tencent/mm/storage/ad;
 
@@ -22,7 +22,7 @@
     const/4 v0, 0x1
 
     .line 33
-    invoke-direct {p0}, Lcom/tencent/mm/q/j;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/q/Jclz;-><init>()V
 
     .line 25
     new-instance v1, Lcom/tencent/mm/v/a$1;
@@ -139,12 +139,12 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/d;)I
+.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
     .locals 4
 
     .prologue
     .line 50
-    iput-object p2, p0, Lcom/tencent/mm/v/a;->ans:Lcom/tencent/mm/q/d;
+    iput-object p2, p0, Lcom/tencent/mm/v/a;->ans:Lcom/tencent/mm/q/Dclz;
 
     .line 52
     const-string/jumbo v0, "!44@/B4Tb64lLpK+IBX8XDgnvsPvmyRJXaBBy0B7+2aqDGs="
@@ -189,7 +189,7 @@
 
     .prologue
     .line 64
-    sget v0, Lcom/tencent/mm/q/j$b;->byq:I
+    sget v0, Lcom/tencent/mm/q/Jclz$b;->byq:I
 
     return v0
 .end method
@@ -267,9 +267,9 @@
     invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/storage/ae;->a(JLcom/tencent/mm/storage/ad;)V
 
     .line 72
-    iget-object v0, p0, Lcom/tencent/mm/v/a;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/v/a;->ans:Lcom/tencent/mm/q/Dclz;
 
-    invoke-interface {v0, v6, v6, p4, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v6, v6, p4, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 73
     return-void

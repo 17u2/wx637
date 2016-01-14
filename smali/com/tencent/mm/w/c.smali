@@ -1225,32 +1225,32 @@
     iput-boolean v1, p0, Lcom/tencent/mm/w/c;->bwr:Z
 
     .line 212
-    new-instance v1, Lcom/tencent/mm/q/a$a;
+    new-instance v1, Lcom/tencent/mm/q/Aclz$a;
 
-    invoke-direct {v1}, Lcom/tencent/mm/q/a$a;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/q/Aclz$a;-><init>()V
 
     .line 213
-    iput-object v0, v1, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
+    iput-object v0, v1, Lcom/tencent/mm/q/Aclz$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 214
     new-instance v0, Lcom/tencent/mm/protocal/b/QXclz;
 
     invoke-direct {v0}, Lcom/tencent/mm/protocal/b/QXclz;-><init>()V
 
-    iput-object v0, v1, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
+    iput-object v0, v1, Lcom/tencent/mm/q/Aclz$a;->bxN:Lcom/tencent/mm/aq/a;
 
     .line 215
     const-string/jumbo v0, "/cgi-bin/micromsg-bin/getcontact"
 
-    iput-object v0, v1, Lcom/tencent/mm/q/a$a;->uri:Ljava/lang/String;
+    iput-object v0, v1, Lcom/tencent/mm/q/Aclz$a;->uri:Ljava/lang/String;
 
     .line 216
     const/16 v0, 0xb6
 
-    iput v0, v1, Lcom/tencent/mm/q/a$a;->bxK:I
+    iput v0, v1, Lcom/tencent/mm/q/Aclz$a;->bxK:I
 
     .line 218
-    invoke-virtual {v1}, Lcom/tencent/mm/q/a$a;->vl()Lcom/tencent/mm/q/a;
+    invoke-virtual {v1}, Lcom/tencent/mm/q/Aclz$a;->vl()Lcom/tencent/mm/q/Aclz;
 
     move-result-object v0
 
@@ -1260,7 +1260,7 @@
 
     const/4 v2, 0x1
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/q/s;->a(Lcom/tencent/mm/q/a;Lcom/tencent/mm/q/s$a;Z)Lcom/tencent/mm/q/j;
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/q/Sclz;->a(Lcom/tencent/mm/q/Aclz;Lcom/tencent/mm/q/Sclz$a;Z)Lcom/tencent/mm/q/Jclz;
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 

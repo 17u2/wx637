@@ -114,7 +114,7 @@
     .line 1204
     iget-object v0, p0, Lcom/tencent/mm/z/k$6;->bKx:Lcom/tencent/mm/z/k;
 
-    invoke-static {v0}, Lcom/tencent/mm/z/k;->t(Lcom/tencent/mm/z/k;)Lcom/tencent/mm/q/e;
+    invoke-static {v0}, Lcom/tencent/mm/z/k;->t(Lcom/tencent/mm/z/k;)Lcom/tencent/mm/q/Eclz;
 
     move-result-object v0
 
@@ -124,7 +124,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/z/k$6;->bKx:Lcom/tencent/mm/z/k;
 
-    invoke-interface {v0, v1, v2, v3}, Lcom/tencent/mm/q/e;->a(IILcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v1, v2, v3}, Lcom/tencent/mm/q/Eclz;->a(IILcom/tencent/mm/q/Jclz;)V
 
     .line 1205
     return-void

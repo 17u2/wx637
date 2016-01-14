@@ -15,7 +15,7 @@
 
 .field private ara:Lcom/tencent/mm/c/b/bclass;
 
-.field private bZo:Lcom/tencent/mm/q/g$a;
+.field private bZo:Lcom/tencent/mm/q/Gclz$a;
 
 .field private status:I
 
@@ -55,7 +55,7 @@
     .line 15
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/modelvoice/t;->bZo:Lcom/tencent/mm/q/g$a;
+    iput-object v0, p0, Lcom/tencent/mm/modelvoice/t;->bZo:Lcom/tencent/mm/q/Gclz$a;
 
     .line 27
     const/4 v0, 0x0
@@ -80,12 +80,12 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/modelvoice/t;)Lcom/tencent/mm/q/g$a;
+.method static synthetic a(Lcom/tencent/mm/modelvoice/t;)Lcom/tencent/mm/q/Gclz$a;
     .locals 1
 
     .prologue
     .line 10
-    iget-object v0, p0, Lcom/tencent/mm/modelvoice/t;->bZo:Lcom/tencent/mm/q/g$a;
+    iget-object v0, p0, Lcom/tencent/mm/modelvoice/t;->bZo:Lcom/tencent/mm/q/Gclz$a;
 
     return-object v0
 .end method
@@ -114,12 +114,12 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/q/g$a;)V
+.method public final a(Lcom/tencent/mm/q/Gclz$a;)V
     .locals 0
 
     .prologue
     .line 46
-    iput-object p1, p0, Lcom/tencent/mm/modelvoice/t;->bZo:Lcom/tencent/mm/q/g$a;
+    iput-object p1, p0, Lcom/tencent/mm/modelvoice/t;->bZo:Lcom/tencent/mm/q/Gclz$a;
 
     .line 47
     return-void

@@ -1,16 +1,16 @@
 .class public final Lcom/tencent/mm/af/j;
-.super Lcom/tencent/mm/q/j;
+.super Lcom/tencent/mm/q/Jclz;
 .source "SourceFile"
 
 # interfaces
 .implements Lcom/tencent/mm/network/j;
-.implements Lcom/tencent/mm/q/k;
+.implements Lcom/tencent/mm/q/Kclz;
 
 
 # instance fields
-.field private ans:Lcom/tencent/mm/q/d;
+.field private ans:Lcom/tencent/mm/q/Dclz;
 
-.field private ant:Lcom/tencent/mm/q/a;
+.field private ant:Lcom/tencent/mm/q/Aclz;
 
 .field public atc:I
 
@@ -25,7 +25,7 @@
 
     .prologue
     .line 45
-    invoke-direct {p0}, Lcom/tencent/mm/q/j;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/q/Jclz;-><init>()V
 
     .line 46
     iput p1, p0, Lcom/tencent/mm/af/j;->bPM:I
@@ -253,11 +253,11 @@
     invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/af/n;->V(II)V
 
     .line 411
-    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     const-string/jumbo v2, "open regioncode file fail"
 
-    invoke-interface {v0, v4, v1, v2, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v4, v1, v2, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     move v0, v1
 
@@ -335,11 +335,11 @@
     invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/af/n;->V(II)V
 
     .line 419
-    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     const-string/jumbo v2, "no regioncode file found"
 
-    invoke-interface {v0, v4, v1, v2, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v4, v1, v2, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     move v0, v1
 
@@ -483,7 +483,7 @@
     invoke-virtual {v4, v5, v7}, Lcom/tencent/mm/af/n;->V(II)V
 
     .line 471
-    iget-object v4, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v4, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     const/4 v5, 0x3
 
@@ -493,7 +493,7 @@
 
     move-result-object v0
 
-    invoke-interface {v4, v5, v7, v0, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v4, v5, v7, v0, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -1372,7 +1372,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/d;)I
+.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
     .locals 7
 
     .prologue
@@ -1381,7 +1381,7 @@
     const/4 v0, -0x1
 
     .line 73
-    iput-object p2, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iput-object p2, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     .line 75
     const-string/jumbo v1, "!56@/B4Tb64lLpK+IBX8XDgnvjP7O0awxQNTwJWiJx8q4eImzb/JZ7+Fdg=="
@@ -1551,53 +1551,53 @@
 
     .line 92
     :cond_2
-    new-instance v0, Lcom/tencent/mm/q/a$a;
+    new-instance v0, Lcom/tencent/mm/q/Aclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/q/Aclz$a;-><init>()V
 
     .line 93
     new-instance v2, Lcom/tencent/mm/protocal/b/JXclz;
 
     invoke-direct {v2}, Lcom/tencent/mm/protocal/b/JXclz;-><init>()V
 
-    iput-object v2, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
+    iput-object v2, v0, Lcom/tencent/mm/q/Aclz$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 94
     new-instance v2, Lcom/tencent/mm/protocal/b/JYclz;
 
     invoke-direct {v2}, Lcom/tencent/mm/protocal/b/JYclz;-><init>()V
 
-    iput-object v2, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
+    iput-object v2, v0, Lcom/tencent/mm/q/Aclz$a;->bxN:Lcom/tencent/mm/aq/a;
 
     .line 95
     const-string/jumbo v2, "/cgi-bin/micromsg-bin/downloadpackage"
 
-    iput-object v2, v0, Lcom/tencent/mm/q/a$a;->uri:Ljava/lang/String;
+    iput-object v2, v0, Lcom/tencent/mm/q/Aclz$a;->uri:Ljava/lang/String;
 
     .line 96
     const/16 v2, 0xa0
 
-    iput v2, v0, Lcom/tencent/mm/q/a$a;->bxK:I
+    iput v2, v0, Lcom/tencent/mm/q/Aclz$a;->bxK:I
 
     .line 97
-    iput v6, v0, Lcom/tencent/mm/q/a$a;->bxO:I
+    iput v6, v0, Lcom/tencent/mm/q/Aclz$a;->bxO:I
 
     .line 98
-    iput v6, v0, Lcom/tencent/mm/q/a$a;->bxP:I
+    iput v6, v0, Lcom/tencent/mm/q/Aclz$a;->bxP:I
 
     .line 99
-    invoke-virtual {v0}, Lcom/tencent/mm/q/a$a;->vl()Lcom/tencent/mm/q/a;
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Aclz$a;->vl()Lcom/tencent/mm/q/Aclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/af/j;->ant:Lcom/tencent/mm/q/a;
+    iput-object v0, p0, Lcom/tencent/mm/af/j;->ant:Lcom/tencent/mm/q/Aclz;
 
     .line 101
-    iget-object v0, p0, Lcom/tencent/mm/af/j;->ant:Lcom/tencent/mm/q/a;
+    iget-object v0, p0, Lcom/tencent/mm/af/j;->ant:Lcom/tencent/mm/q/Aclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a;->bxI:Lcom/tencent/mm/q/a$b;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxI:Lcom/tencent/mm/q/Aclz$b;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/a;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/JXclz;
 
@@ -1635,7 +1635,7 @@
     iput v1, v0, Lcom/tencent/mm/protocal/b/JXclz;->dnV:I
 
     .line 112
-    iget-object v0, p0, Lcom/tencent/mm/af/j;->ant:Lcom/tencent/mm/q/a;
+    iget-object v0, p0, Lcom/tencent/mm/af/j;->ant:Lcom/tencent/mm/q/Aclz;
 
     invoke-virtual {p0, p1, v0, p0}, Lcom/tencent/mm/af/j;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;)I
 
@@ -1649,11 +1649,11 @@
 
     .prologue
     .line 117
-    check-cast p1, Lcom/tencent/mm/q/a;
+    check-cast p1, Lcom/tencent/mm/q/Aclz;
 
-    iget-object v0, p1, Lcom/tencent/mm/q/a;->bxI:Lcom/tencent/mm/q/a$b;
+    iget-object v0, p1, Lcom/tencent/mm/q/Aclz;->bxI:Lcom/tencent/mm/q/Aclz$b;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/a;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/JXclz;
 
@@ -1695,7 +1695,7 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 122
-    sget v0, Lcom/tencent/mm/q/j$b;->byr:I
+    sget v0, Lcom/tencent/mm/q/Jclz$b;->byr:I
 
     .line 131
     :goto_0
@@ -1763,13 +1763,13 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 129
-    sget v0, Lcom/tencent/mm/q/j$b;->byr:I
+    sget v0, Lcom/tencent/mm/q/Jclz$b;->byr:I
 
     goto :goto_0
 
     .line 131
     :cond_2
-    sget v0, Lcom/tencent/mm/q/j$b;->byq:I
+    sget v0, Lcom/tencent/mm/q/Jclz$b;->byq:I
 
     goto :goto_0
 .end method
@@ -1875,9 +1875,9 @@
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/af/n;->V(II)V
 
     .line 155
-    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
-    invoke-interface {v0, p2, p3, p4, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, p2, p3, p4, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 285
     :cond_0
@@ -1886,11 +1886,11 @@
 
     .line 159
     :cond_1
-    check-cast p5, Lcom/tencent/mm/q/a;
+    check-cast p5, Lcom/tencent/mm/q/Aclz;
 
-    iget-object v0, p5, Lcom/tencent/mm/q/a;->bxJ:Lcom/tencent/mm/q/a$c;
+    iget-object v0, p5, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/JYclz;
 
@@ -1920,7 +1920,7 @@
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/af/n;->V(II)V
 
     .line 163
-    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     const/4 v1, 0x3
 
@@ -1928,7 +1928,7 @@
 
     const-string/jumbo v3, ""
 
-    invoke-interface {v0, v1, v2, v3, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v1, v2, v3, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto :goto_0
 
@@ -1981,13 +1981,13 @@
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/af/n;->V(II)V
 
     .line 171
-    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     const/4 v1, 0x3
 
     const/4 v2, -0x1
 
-    invoke-interface {v0, v1, v2, p4, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v1, v2, p4, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto :goto_0
 
@@ -2041,13 +2041,13 @@
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/af/n;->V(II)V
 
     .line 179
-    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     const/4 v1, 0x3
 
     const/4 v2, -0x1
 
-    invoke-interface {v0, v1, v2, p4, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v1, v2, p4, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto/16 :goto_0
 
@@ -2085,20 +2085,20 @@
     invoke-direct {v0, v1}, Lcom/tencent/mm/af/k;-><init>(I)V
 
     .line 188
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 189
-    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     const/4 v1, 0x3
 
     const/4 v2, -0x1
 
-    invoke-interface {v0, v1, v2, p4, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v1, v2, p4, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto/16 :goto_0
 
@@ -2198,13 +2198,13 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 209
-    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     const/4 v1, 0x3
 
     const/4 v2, -0x1
 
-    invoke-interface {v0, v1, v2, p4, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v1, v2, p4, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto/16 :goto_0
 
@@ -2345,7 +2345,7 @@
 
     invoke-virtual {v2, v5, v6}, Lcom/tencent/mm/af/n;->V(II)V
 
-    iget-object v2, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v2, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     const/4 v5, 0x3
 
@@ -2353,7 +2353,7 @@
 
     const-string/jumbo v7, "unzip fail"
 
-    invoke-interface {v2, v5, v6, v7, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v2, v5, v6, v7, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     const/4 v2, 0x0
 
@@ -2421,7 +2421,7 @@
 
     invoke-virtual {v2, v5, v6}, Lcom/tencent/mm/af/n;->V(II)V
 
-    iget-object v2, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v2, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     const/4 v5, 0x3
 
@@ -2429,7 +2429,7 @@
 
     const-string/jumbo v7, "open permission pkg failed"
 
-    invoke-interface {v2, v5, v6, v7, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v2, v5, v6, v7, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     const/4 v2, 0x0
 
@@ -2468,7 +2468,7 @@
     const/4 v2, 0x1
 
     .line 240
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xA()V
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xA()V
 
     .line 243
     :cond_f
@@ -2604,7 +2604,7 @@
 
     invoke-virtual {v2, v5, v6}, Lcom/tencent/mm/af/n;->V(II)V
 
-    iget-object v2, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v2, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     const/4 v5, 0x3
 
@@ -2612,7 +2612,7 @@
 
     const-string/jumbo v7, "unzip fail"
 
-    invoke-interface {v2, v5, v6, v7, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v2, v5, v6, v7, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     const/4 v2, 0x0
 
@@ -2702,7 +2702,7 @@
 
     invoke-static {v2, v3, v5}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     const/4 v1, 0x3
 
@@ -2710,7 +2710,7 @@
 
     const-string/jumbo v3, "open IPCallContryCodeConfigs pkg failed"
 
-    invoke-interface {v0, v1, v2, v3, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v1, v2, v3, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     const/4 v0, 0x0
 
@@ -2736,7 +2736,7 @@
     invoke-virtual {v0, v4}, Lcom/tencent/mm/af/n;->b(Lcom/tencent/mm/af/m;)Z
 
     .line 275
-    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     const/4 v1, 0x0
 
@@ -2744,7 +2744,7 @@
 
     const-string/jumbo v3, ""
 
-    invoke-interface {v0, v1, v2, v3, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v1, v2, v3, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto/16 :goto_0
 
@@ -2810,7 +2810,7 @@
 
     invoke-virtual {v2, v5, v6}, Lcom/tencent/mm/af/n;->V(II)V
 
-    iget-object v2, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v2, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     const/4 v5, 0x3
 
@@ -2818,7 +2818,7 @@
 
     const-string/jumbo v7, "file not exist"
 
-    invoke-interface {v2, v5, v6, v7, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v2, v5, v6, v7, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     const/4 v2, 0x0
 
@@ -2887,7 +2887,7 @@
 
     invoke-virtual {v2, v5, v6}, Lcom/tencent/mm/af/n;->V(II)V
 
-    iget-object v2, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v2, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     const/4 v5, 0x3
 
@@ -2895,7 +2895,7 @@
 
     const-string/jumbo v7, "copy file failed"
 
-    invoke-interface {v2, v5, v6, v7, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v2, v5, v6, v7, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     const/4 v2, 0x0
 
@@ -2997,7 +2997,7 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/af/n;->V(II)V
 
-    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     const/4 v1, 0x3
 
@@ -3005,7 +3005,7 @@
 
     const-string/jumbo v3, "file not exist"
 
-    invoke-interface {v0, v1, v2, v3, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v1, v2, v3, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     const/4 v0, 0x0
 
@@ -3074,7 +3074,7 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/af/n;->V(II)V
 
-    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     const/4 v1, 0x3
 
@@ -3082,7 +3082,7 @@
 
     const-string/jumbo v3, "copy file failed"
 
-    invoke-interface {v0, v1, v2, v3, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v1, v2, v3, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     const/4 v0, 0x0
 
@@ -3101,11 +3101,11 @@
 
     .line 281
     :cond_1e
-    iget-object v0, p0, Lcom/tencent/mm/q/j;->bya:Lcom/tencent/mm/network/e;
+    iget-object v0, p0, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/e;
 
-    iget-object v1, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v1, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {p0, v0, v1}, Lcom/tencent/mm/af/j;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/d;)I
+    invoke-virtual {p0, v0, v1}, Lcom/tencent/mm/af/j;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
 
     move-result v0
 
@@ -3123,13 +3123,13 @@
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/af/n;->V(II)V
 
     .line 283
-    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/af/j;->ans:Lcom/tencent/mm/q/Dclz;
 
     const/4 v1, 0x3
 
     const/4 v2, -0x1
 
-    invoke-interface {v0, v1, v2, p4, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v1, v2, p4, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     goto/16 :goto_0
 
@@ -3139,7 +3139,7 @@
     goto/16 :goto_6
 .end method
 
-.method protected final a(Lcom/tencent/mm/q/j$a;)V
+.method protected final a(Lcom/tencent/mm/q/Jclz$a;)V
     .locals 3
 
     .prologue

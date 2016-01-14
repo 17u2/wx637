@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/account/RegSetInfoUI;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    value = Lcom/tencent/mm/ui/account/RegSetInfoUI;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic aoz:Lcom/tencent/mm/q/j;
+.field final synthetic aoz:Lcom/tencent/mm/q/Jclz;
 
 .field final synthetic jFl:Lcom/tencent/mm/ui/account/RegSetInfoUI;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/account/RegSetInfoUI;Lcom/tencent/mm/q/j;)V
+.method constructor <init>(Lcom/tencent/mm/ui/account/RegSetInfoUI;Lcom/tencent/mm/q/Jclz;)V
     .locals 1
 
     .prologue
     .line 827
     iput-object p1, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI$11;->jFl:Lcom/tencent/mm/ui/account/RegSetInfoUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI$11;->aoz:Lcom/tencent/mm/q/j;
+    iput-object p2, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI$11;->aoz:Lcom/tencent/mm/q/Jclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -129,7 +129,7 @@
     move-result v11
 
     .line 840
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -139,7 +139,7 @@
 
     iget-object v3, v0, Lcom/tencent/mm/ui/account/RegSetInfoUI$11;->jFl:Lcom/tencent/mm/ui/account/RegSetInfoUI;
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 841
     new-instance v1, Lcom/tencent/mm/modelsimple/v;
@@ -192,7 +192,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v13, v0, Lcom/tencent/mm/ui/account/RegSetInfoUI$11;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v13, v0, Lcom/tencent/mm/ui/account/RegSetInfoUI$11;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v13, Lcom/tencent/mm/modelsimple/v;
 
@@ -233,11 +233,11 @@
     invoke-direct/range {v1 .. v16}, Lcom/tencent/mm/modelsimple/v;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
     .line 843
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 845
     move-object/from16 v0, p0

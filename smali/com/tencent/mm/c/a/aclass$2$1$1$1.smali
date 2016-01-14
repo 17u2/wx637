@@ -114,9 +114,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/c/a/aclass$2;->aoW:Lcom/tencent/mm/c/a/aclass;
 
-    iget-object v0, v0, Lcom/tencent/mm/c/a/aclass;->aoV:Lcom/tencent/mm/q/f$a;
+    iget-object v0, v0, Lcom/tencent/mm/c/a/aclass;->aoV:Lcom/tencent/mm/q/Fclz$a;
 
-    invoke-interface {v0}, Lcom/tencent/mm/q/f$a;->lN()V
+    invoke-interface {v0}, Lcom/tencent/mm/q/Fclz$a;->lN()V
 
     .line 264
     return-void

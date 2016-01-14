@@ -82,7 +82,7 @@
     .line 209
     iget-object v0, p0, Lcom/tencent/mm/c/a/aclass$1;->aoW:Lcom/tencent/mm/c/a/aclass;
 
-    iget-object v0, v0, Lcom/tencent/mm/c/a/aclass;->aoU:Lcom/tencent/mm/q/f$b;
+    iget-object v0, v0, Lcom/tencent/mm/c/a/aclass;->aoU:Lcom/tencent/mm/q/Fclz$b;
 
     if-eqz v0, :cond_0
 

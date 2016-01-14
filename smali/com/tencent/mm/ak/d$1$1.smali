@@ -213,7 +213,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ak/d$1;->bWP:Lcom/tencent/mm/ak/d;
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/d;->e(Lcom/tencent/mm/ak/d;)Lcom/tencent/mm/q/d;
+    invoke-static {v0}, Lcom/tencent/mm/ak/d;->e(Lcom/tencent/mm/ak/d;)Lcom/tencent/mm/q/Dclz;
 
     move-result-object v0
 
@@ -223,7 +223,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/ak/d$1;->bWP:Lcom/tencent/mm/ak/d;
 
-    invoke-interface {v0, p1, p2, v1, v2}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, p1, p2, v1, v2}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 304
     return-void

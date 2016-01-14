@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic aoz:Lcom/tencent/mm/q/j;
+.field final synthetic aoz:Lcom/tencent/mm/q/Jclz;
 
 .field final synthetic kah:Lcom/tencent/mm/ui/chatting/j;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/j;Lcom/tencent/mm/q/j;)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/j;Lcom/tencent/mm/q/Jclz;)V
     .locals 1
 
     .prologue
     .line 196
     iput-object p1, p0, Lcom/tencent/mm/ui/chatting/j$4;->kah:Lcom/tencent/mm/ui/chatting/j;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/j$4;->aoz:Lcom/tencent/mm/q/j;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/j$4;->aoz:Lcom/tencent/mm/q/Jclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,13 +52,13 @@
 
     .prologue
     .line 200
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/j$4;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/j$4;->aoz:Lcom/tencent/mm/q/Jclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->c(Lcom/tencent/mm/q/j;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 
     .line 201
     invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->YE()Lcom/tencent/mm/pluginsdk/model/app/d;

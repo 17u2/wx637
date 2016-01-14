@@ -56,11 +56,11 @@
     .line 379
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/x$7;->kbW:Lcom/tencent/mm/ui/chatting/x;
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/chatting/x;->a(Lcom/tencent/mm/ui/chatting/x;)Lcom/tencent/mm/q/g;
+    invoke-static {v2}, Lcom/tencent/mm/ui/chatting/x;->a(Lcom/tencent/mm/ui/chatting/x;)Lcom/tencent/mm/q/Gclz;
 
     move-result-object v2
 
-    invoke-interface {v2}, Lcom/tencent/mm/q/g;->lE()J
+    invoke-interface {v2}, Lcom/tencent/mm/q/Gclz;->lE()J
 
     move-result-wide v2
 

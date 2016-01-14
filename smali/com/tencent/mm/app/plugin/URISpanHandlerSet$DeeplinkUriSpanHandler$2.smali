@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic amM:Lcom/tencent/mm/s/k;
+.field final synthetic amM:Lcom/tencent/mm/s/Kclz;
 
 .field final synthetic amN:Ljava/lang/String;
 
@@ -28,14 +28,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/app/plugin/URISpanHandlerSet$DeeplinkUriSpanHandler;Lcom/tencent/mm/s/k;Ljava/lang/String;Ljava/lang/String;)V
+.method constructor <init>(Lcom/tencent/mm/app/plugin/URISpanHandlerSet$DeeplinkUriSpanHandler;Lcom/tencent/mm/s/Kclz;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
     .prologue
     .line 1451
     iput-object p1, p0, Lcom/tencent/mm/app/plugin/URISpanHandlerSet$DeeplinkUriSpanHandler$2;->amP:Lcom/tencent/mm/app/plugin/URISpanHandlerSet$DeeplinkUriSpanHandler;
 
-    iput-object p2, p0, Lcom/tencent/mm/app/plugin/URISpanHandlerSet$DeeplinkUriSpanHandler$2;->amM:Lcom/tencent/mm/s/k;
+    iput-object p2, p0, Lcom/tencent/mm/app/plugin/URISpanHandlerSet$DeeplinkUriSpanHandler$2;->amM:Lcom/tencent/mm/s/Kclz;
 
     iput-object p3, p0, Lcom/tencent/mm/app/plugin/URISpanHandlerSet$DeeplinkUriSpanHandler$2;->amN:Ljava/lang/String;
 
@@ -60,20 +60,20 @@
 
     .prologue
     .line 1454
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/URISpanHandlerSet$DeeplinkUriSpanHandler$2;->amM:Lcom/tencent/mm/s/k;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/URISpanHandlerSet$DeeplinkUriSpanHandler$2;->amM:Lcom/tencent/mm/s/Kclz;
 
-    iget v0, v0, Lcom/tencent/mm/s/k;->field_brandFlag:I
+    iget v0, v0, Lcom/tencent/mm/s/Kclz;->field_brandFlag:I
 
     .line 1455
-    iget-object v1, p0, Lcom/tencent/mm/app/plugin/URISpanHandlerSet$DeeplinkUriSpanHandler$2;->amM:Lcom/tencent/mm/s/k;
+    iget-object v1, p0, Lcom/tencent/mm/app/plugin/URISpanHandlerSet$DeeplinkUriSpanHandler$2;->amM:Lcom/tencent/mm/s/Kclz;
 
-    iget-object v2, p0, Lcom/tencent/mm/app/plugin/URISpanHandlerSet$DeeplinkUriSpanHandler$2;->amM:Lcom/tencent/mm/s/k;
+    iget-object v2, p0, Lcom/tencent/mm/app/plugin/URISpanHandlerSet$DeeplinkUriSpanHandler$2;->amM:Lcom/tencent/mm/s/Kclz;
 
-    iget v2, v2, Lcom/tencent/mm/s/k;->field_brandFlag:I
+    iget v2, v2, Lcom/tencent/mm/s/Kclz;->field_brandFlag:I
 
     and-int/lit8 v2, v2, -0x2
 
-    iput v2, v1, Lcom/tencent/mm/s/k;->field_brandFlag:I
+    iput v2, v1, Lcom/tencent/mm/s/Kclz;->field_brandFlag:I
 
     .line 1456
     const-string/jumbo v1, "!44@/B4Tb64lLpLEFJxLgdI361HE0ZAZBDDP6VGz8aUvRl4="
@@ -106,9 +106,9 @@
 
     const/4 v0, 0x3
 
-    iget-object v4, p0, Lcom/tencent/mm/app/plugin/URISpanHandlerSet$DeeplinkUriSpanHandler$2;->amM:Lcom/tencent/mm/s/k;
+    iget-object v4, p0, Lcom/tencent/mm/app/plugin/URISpanHandlerSet$DeeplinkUriSpanHandler$2;->amM:Lcom/tencent/mm/s/Kclz;
 
-    iget v4, v4, Lcom/tencent/mm/s/k;->field_brandFlag:I
+    iget v4, v4, Lcom/tencent/mm/s/Kclz;->field_brandFlag:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -119,9 +119,9 @@
     invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1457
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/URISpanHandlerSet$DeeplinkUriSpanHandler$2;->amM:Lcom/tencent/mm/s/k;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/URISpanHandlerSet$DeeplinkUriSpanHandler$2;->amM:Lcom/tencent/mm/s/Kclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/s/m;->e(Lcom/tencent/mm/s/k;)V
+    invoke-static {v0}, Lcom/tencent/mm/s/Mclz;->e(Lcom/tencent/mm/s/Kclz;)V
 
     .line 1458
     return-void

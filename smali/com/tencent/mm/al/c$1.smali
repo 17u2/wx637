@@ -167,13 +167,13 @@
 
     iget-object v1, p0, Lcom/tencent/mm/al/c$1;->bZz:Lcom/tencent/mm/al/c;
 
-    iget-object v1, v1, Lcom/tencent/mm/q/j;->bya:Lcom/tencent/mm/network/e;
+    iget-object v1, v1, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/e;
 
     iget-object v2, p0, Lcom/tencent/mm/al/c$1;->bZz:Lcom/tencent/mm/al/c;
 
-    iget-object v2, v2, Lcom/tencent/mm/al/c;->ans:Lcom/tencent/mm/q/d;
+    iget-object v2, v2, Lcom/tencent/mm/al/c;->ans:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/al/c;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/d;)I
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/al/c;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
 
     move-result v0
 
@@ -195,7 +195,7 @@
     .line 210
     iget-object v0, p0, Lcom/tencent/mm/al/c$1;->bZz:Lcom/tencent/mm/al/c;
 
-    iget-object v0, v0, Lcom/tencent/mm/al/c;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, v0, Lcom/tencent/mm/al/c;->ans:Lcom/tencent/mm/q/Dclz;
 
     const/4 v1, 0x3
 
@@ -203,7 +203,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/al/c$1;->bZz:Lcom/tencent/mm/al/c;
 
-    invoke-interface {v0, v1, v5, v2, v3}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v1, v5, v2, v3}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 213
     :cond_1

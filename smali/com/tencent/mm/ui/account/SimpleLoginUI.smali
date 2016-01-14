@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 
 
 # instance fields
@@ -174,11 +174,11 @@
 
     invoke-direct {v0, v1, v2, v3, v4}, Lcom/tencent/mm/modelsimple/t;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     const v1, 0x7f090ad3
 
@@ -442,7 +442,7 @@
     return-void
 .end method
 
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 11
 
     .prologue
@@ -504,7 +504,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v2
 
@@ -544,7 +544,7 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/account/SimpleLoginUI;->aFc:Ljava/lang/String;
 
     .line 398
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
@@ -643,7 +643,7 @@
 
     .line 413
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -655,7 +655,7 @@
 
     invoke-direct {v1, v2}, Lcom/tencent/mm/model/aq;-><init>(Lcom/tencent/mm/model/aq$a;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     move v0, v9
 
@@ -696,15 +696,15 @@
 
     sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
 
-    invoke-interface {v0, v2}, Lcom/tencent/mm/pluginsdk/e;->a(Lcom/tencent/mm/q/e;)Lcom/tencent/mm/q/j;
+    invoke-interface {v0, v2}, Lcom/tencent/mm/pluginsdk/e;->a(Lcom/tencent/mm/q/Eclz;)Lcom/tencent/mm/q/Jclz;
 
     move-result-object v0
 
-    iput-object v0, v2, Lcom/tencent/mm/plugin/accountsync/a/b;->atC:Lcom/tencent/mm/q/j;
+    iput-object v0, v2, Lcom/tencent/mm/plugin/accountsync/a/b;->atC:Lcom/tencent/mm/q/Jclz;
 
-    iget-object v0, v2, Lcom/tencent/mm/plugin/accountsync/a/b;->atC:Lcom/tencent/mm/q/j;
+    iget-object v0, v2, Lcom/tencent/mm/plugin/accountsync/a/b;->atC:Lcom/tencent/mm/q/Jclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
@@ -712,23 +712,23 @@
 
     if-ne v0, v1, :cond_6
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x8b
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     :cond_4
     :goto_1
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v1, v2, Lcom/tencent/mm/plugin/accountsync/a/b;->atC:Lcom/tencent/mm/q/j;
+    iget-object v1, v2, Lcom/tencent/mm/plugin/accountsync/a/b;->atC:Lcom/tencent/mm/q/Jclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     iget-object v0, v2, Lcom/tencent/mm/plugin/accountsync/a/b;->context:Landroid/content/Context;
 
@@ -761,9 +761,9 @@
 
     .line 431
     :cond_6
-    iget-object v0, v2, Lcom/tencent/mm/plugin/accountsync/a/b;->atC:Lcom/tencent/mm/q/j;
+    iget-object v0, v2, Lcom/tencent/mm/plugin/accountsync/a/b;->atC:Lcom/tencent/mm/q/Jclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
@@ -771,13 +771,13 @@
 
     if-ne v0, v1, :cond_4
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x8a
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     goto :goto_1
 
@@ -859,11 +859,11 @@
     goto :goto_3
 
     :sswitch_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/l;->vv()I
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Lclz;->vv()I
 
     move-result v0
 
@@ -1236,13 +1236,13 @@
     invoke-virtual {p0}, Lcom/tencent/mm/ui/account/SimpleLoginUI;->Fi()V
 
     .line 95
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x2bd
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 96
     return-void
@@ -1253,13 +1253,13 @@
 
     .prologue
     .line 100
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x2bd
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 101
     invoke-super {p0}, Lcom/tencent/mm/ui/MMWizardActivity;->onDestroy()V

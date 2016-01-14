@@ -20,13 +20,13 @@
 # instance fields
 .field final synthetic cDA:Z
 
-.field final synthetic cDz:Lcom/tencent/mm/s/d;
+.field final synthetic cDz:Lcom/tencent/mm/s/Dclz;
 
 .field final synthetic kIl:Lcom/tencent/mm/ui/transmit/SelectBizChatConversationUI$3;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/transmit/SelectBizChatConversationUI$3;ZLcom/tencent/mm/s/d;)V
+.method constructor <init>(Lcom/tencent/mm/ui/transmit/SelectBizChatConversationUI$3;ZLcom/tencent/mm/s/Dclz;)V
     .locals 1
 
     .prologue
@@ -35,7 +35,7 @@
 
     iput-boolean p2, p0, Lcom/tencent/mm/ui/transmit/SelectBizChatConversationUI$3$1;->cDA:Z
 
-    iput-object p3, p0, Lcom/tencent/mm/ui/transmit/SelectBizChatConversationUI$3$1;->cDz:Lcom/tencent/mm/s/d;
+    iput-object p3, p0, Lcom/tencent/mm/ui/transmit/SelectBizChatConversationUI$3$1;->cDz:Lcom/tencent/mm/s/Dclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -73,13 +73,13 @@
 
     move-result-object v1
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/transmit/SelectBizChatConversationUI$3$1;->cDz:Lcom/tencent/mm/s/d;
+    iget-object v2, p0, Lcom/tencent/mm/ui/transmit/SelectBizChatConversationUI$3$1;->cDz:Lcom/tencent/mm/s/Dclz;
 
-    iget-wide v2, v2, Lcom/tencent/mm/s/d;->field_bizChatLocalId:J
+    iget-wide v2, v2, Lcom/tencent/mm/s/Dclz;->field_bizChatLocalId:J
 
-    iget-object v4, p0, Lcom/tencent/mm/ui/transmit/SelectBizChatConversationUI$3$1;->cDz:Lcom/tencent/mm/s/d;
+    iget-object v4, p0, Lcom/tencent/mm/ui/transmit/SelectBizChatConversationUI$3$1;->cDz:Lcom/tencent/mm/s/Dclz;
 
-    iget-object v4, v4, Lcom/tencent/mm/s/d;->field_chatName:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/s/Dclz;->field_chatName:Ljava/lang/String;
 
     invoke-static {v0, v1, v2, v3, v4}, Lcom/tencent/mm/ui/transmit/SelectBizChatConversationUI;->a(Lcom/tencent/mm/ui/transmit/SelectBizChatConversationUI;Ljava/lang/String;JLjava/lang/CharSequence;)V
 

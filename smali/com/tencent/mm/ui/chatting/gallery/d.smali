@@ -2402,7 +2402,7 @@
     goto/16 :goto_0
 .end method
 
-.method public final a(JIILjava/lang/Object;IILcom/tencent/mm/q/j;)V
+.method public final a(JIILjava/lang/Object;IILcom/tencent/mm/q/Jclz;)V
     .locals 13
 
     .prologue

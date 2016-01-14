@@ -50,11 +50,11 @@
     const/4 v2, 0x0
 
     .line 54
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-boolean v0, v0, Lcom/tencent/mm/q/l;->foreground:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/q/Lclz;->foreground:Z
 
     if-eqz v0, :cond_0
 

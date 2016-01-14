@@ -487,13 +487,13 @@
 
     .prologue
     .line 389
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xq()Lcom/tencent/mm/s/l;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xq()Lcom/tencent/mm/s/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x19
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/l;->cZ(I)Ljava/util/List;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/s/Lclz;->cZ(I)Ljava/util/List;
 
     move-result-object v0
 

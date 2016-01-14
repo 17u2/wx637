@@ -316,7 +316,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/modelcdntran/d$1;-><init>(Lcom/tencent/mm/modelcdntran/d;)V
 
-    invoke-static {v0}, Lcom/tencent/mm/model/ah;->a(Lcom/tencent/mm/q/b;)V
+    invoke-static {v0}, Lcom/tencent/mm/model/ah;->a(Lcom/tencent/mm/q/Bclz;)V
 
     .line 96
     return-void
@@ -347,7 +347,7 @@
     const/4 v3, 0x0
 
     .line 120
-    invoke-static {v3}, Lcom/tencent/mm/model/ah;->a(Lcom/tencent/mm/q/b;)V
+    invoke-static {v3}, Lcom/tencent/mm/model/ah;->a(Lcom/tencent/mm/q/Bclz;)V
 
     .line 121
     iget-object v0, p0, Lcom/tencent/mm/modelcdntran/d;->bDE:Lcom/tencent/mm/modelcdntran/CdnTransportEngine;
@@ -394,13 +394,13 @@
 
     invoke-static {v1}, Lcom/tencent/mm/model/ah;->b(Lcom/tencent/mm/network/m;)V
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
     const/16 v2, 0x17b
 
-    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 127
     iput-object v3, p0, Lcom/tencent/mm/modelcdntran/d;->bDF:Lcom/tencent/mm/modelcdntran/a;

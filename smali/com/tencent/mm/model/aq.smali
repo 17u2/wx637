@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/model/aq;
-.super Lcom/tencent/mm/q/j;
+.super Lcom/tencent/mm/q/Jclz;
 .source "SourceFile"
 
 # interfaces
@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field private ans:Lcom/tencent/mm/q/d;
+.field private ans:Lcom/tencent/mm/q/Dclz;
 
 .field private final buK:Lcom/tencent/mm/model/aq$a;
 
@@ -50,7 +50,7 @@
 
     .prologue
     .line 31
-    invoke-direct {p0}, Lcom/tencent/mm/q/j;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/q/Jclz;-><init>()V
 
     .line 32
     const-string/jumbo v0, "!44@/B4Tb64lLpK+IBX8XDgnvr3T0yqJHb2jPIO3R3Mts1U="
@@ -94,7 +94,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/d;)I
+.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
     .locals 2
 
     .prologue
@@ -102,7 +102,7 @@
     invoke-virtual {p0, p1}, Lcom/tencent/mm/model/aq;->c(Lcom/tencent/mm/network/e;)V
 
     .line 46
-    iput-object p2, p0, Lcom/tencent/mm/model/aq;->ans:Lcom/tencent/mm/q/d;
+    iput-object p2, p0, Lcom/tencent/mm/model/aq;->ans:Lcom/tencent/mm/q/Dclz;
 
     .line 48
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->Fa()J
@@ -171,17 +171,17 @@
     .line 71
     iget-object v0, p0, Lcom/tencent/mm/model/aq;->buK:Lcom/tencent/mm/model/aq$a;
 
-    iget-object v1, p0, Lcom/tencent/mm/q/j;->bya:Lcom/tencent/mm/network/e;
+    iget-object v1, p0, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/e;
 
     invoke-interface {v0, v1}, Lcom/tencent/mm/model/aq$a;->a(Lcom/tencent/mm/network/e;)V
 
     .line 74
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/model/aq;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/model/aq;->ans:Lcom/tencent/mm/q/Dclz;
 
     const/4 v1, 0x0
 
-    invoke-interface {v0, v6, v6, v1, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v6, v6, v1, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 75
     return-void

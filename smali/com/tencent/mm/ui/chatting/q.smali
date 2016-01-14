@@ -34,7 +34,7 @@
 
 .field private kbf:I
 
-.field kbg:Lcom/tencent/mm/s/k$c$b$a;
+.field kbg:Lcom/tencent/mm/s/Kclz$c$b$a;
 
 .field private kbh:Z
 
@@ -71,7 +71,7 @@
     iput v0, p0, Lcom/tencent/mm/ui/chatting/q;->kbe:I
 
     .line 172
-    iput-object v1, p0, Lcom/tencent/mm/ui/chatting/q;->kbg:Lcom/tencent/mm/s/k$c$b$a;
+    iput-object v1, p0, Lcom/tencent/mm/ui/chatting/q;->kbg:Lcom/tencent/mm/s/Kclz$c$b$a;
 
     .line 179
     const/4 v0, 0x1
@@ -229,12 +229,12 @@
     return v0
 .end method
 
-.method static synthetic b(Lcom/tencent/mm/ui/chatting/q;)Lcom/tencent/mm/s/k$c$b$a;
+.method static synthetic b(Lcom/tencent/mm/ui/chatting/q;)Lcom/tencent/mm/s/Kclz$c$b$a;
     .locals 1
 
     .prologue
     .line 40
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/q;->kbg:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/q;->kbg:Lcom/tencent/mm/s/Kclz$c$b$a;
 
     return-object v0
 .end method
@@ -261,7 +261,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/s/k$c$b$a;IIZ)Z
+.method public final a(Lcom/tencent/mm/s/Kclz$c$b$a;IIZ)Z
     .locals 7
     .annotation build Landroid/annotation/SuppressLint;
         value = {
@@ -286,11 +286,11 @@
     .line 71
     if-eqz p1, :cond_2
 
-    iget-object v0, p1, Lcom/tencent/mm/s/k$c$b$a;->bBd:Ljava/util/List;
+    iget-object v0, p1, Lcom/tencent/mm/s/Kclz$c$b$a;->bBd:Ljava/util/List;
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p1, Lcom/tencent/mm/s/k$c$b$a;->bBd:Ljava/util/List;
+    iget-object v0, p1, Lcom/tencent/mm/s/Kclz$c$b$a;->bBd:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -299,23 +299,23 @@
     if-lez v0, :cond_2
 
     .line 73
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/q;->kbg:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/q;->kbg:Lcom/tencent/mm/s/Kclz$c$b$a;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/q;->kbg:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/q;->kbg:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    iget v0, v0, Lcom/tencent/mm/s/k$c$b$a;->id:I
+    iget v0, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->id:I
 
-    iget v3, p1, Lcom/tencent/mm/s/k$c$b$a;->id:I
+    iget v3, p1, Lcom/tencent/mm/s/Kclz$c$b$a;->id:I
 
     if-ne v0, v3, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/q;->kbg:Lcom/tencent/mm/s/k$c$b$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/q;->kbg:Lcom/tencent/mm/s/Kclz$c$b$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/s/k$c$b$a;->biF:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/s/Kclz$c$b$a;->biF:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/tencent/mm/s/k$c$b$a;->biF:Ljava/lang/String;
+    iget-object v3, p1, Lcom/tencent/mm/s/Kclz$c$b$a;->biF:Ljava/lang/String;
 
     invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -332,10 +332,10 @@
     iput-boolean v2, p0, Lcom/tencent/mm/ui/chatting/q;->kbh:Z
 
     .line 76
-    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/q;->kbg:Lcom/tencent/mm/s/k$c$b$a;
+    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/q;->kbg:Lcom/tencent/mm/s/Kclz$c$b$a;
 
     .line 77
-    iget-object v0, p1, Lcom/tencent/mm/s/k$c$b$a;->bBd:Ljava/util/List;
+    iget-object v0, p1, Lcom/tencent/mm/s/Kclz$c$b$a;->bBd:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -398,7 +398,7 @@
 
     move-result-object v0
 
-    iget-object v4, p1, Lcom/tencent/mm/s/k$c$b$a;->bBd:Ljava/util/List;
+    iget-object v4, p1, Lcom/tencent/mm/s/Kclz$c$b$a;->bBd:Ljava/util/List;
 
     invoke-static {v3, v0, v4, p2}, Lcom/tencent/mm/ui/chatting/q$a;->a(Landroid/content/Context;Landroid/text/TextPaint;Ljava/util/List;I)Lcom/tencent/mm/ui/chatting/q$a$a;
 

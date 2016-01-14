@@ -54,7 +54,7 @@
     const/4 v8, 0x0
 
     .line 106
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xq()Lcom/tencent/mm/s/l;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xq()Lcom/tencent/mm/s/Lclz;
 
     move-result-object v0
 
@@ -98,7 +98,7 @@
 
     new-array v4, v8, [Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v4}, Lcom/tencent/mm/s/l;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v0, v1, v4}, Lcom/tencent/mm/s/Lclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 

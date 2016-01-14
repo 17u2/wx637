@@ -56,7 +56,7 @@
     .line 64
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/o$1;->ktm:Lcom/tencent/mm/ui/contact/o;
 
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xs()Lcom/tencent/mm/s/e;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xs()Lcom/tencent/mm/s/Eclz;
 
     move-result-object v0
 
@@ -139,7 +139,7 @@
 
     move-result-object v2
 
-    invoke-static {}, Lcom/tencent/mm/s/e;->wi()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/s/Eclz;->wi()Ljava/lang/String;
 
     move-result-object v3
 
@@ -167,7 +167,7 @@
 
     new-array v3, v7, [Ljava/lang/String;
 
-    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/s/e;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/s/Eclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/z/j;-><init>(JJILcom/tencent/mm/q/e;I)V
+    value = Lcom/tencent/mm/z/j;-><init>(JJILcom/tencent/mm/q/Eclz;I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic bKi:Lcom/tencent/mm/q/e;
+.field final synthetic bKi:Lcom/tencent/mm/q/Eclz;
 
 .field final synthetic bKj:I
 
@@ -28,14 +28,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/z/j;Lcom/tencent/mm/q/e;II)V
+.method constructor <init>(Lcom/tencent/mm/z/j;Lcom/tencent/mm/q/Eclz;II)V
     .locals 1
 
     .prologue
     .line 131
     iput-object p1, p0, Lcom/tencent/mm/z/j$1;->bKl:Lcom/tencent/mm/z/j;
 
-    iput-object p2, p0, Lcom/tencent/mm/z/j$1;->bKi:Lcom/tencent/mm/q/e;
+    iput-object p2, p0, Lcom/tencent/mm/z/j$1;->bKi:Lcom/tencent/mm/q/Eclz;
 
     iput p3, p0, Lcom/tencent/mm/z/j$1;->bKj:I
 
@@ -60,7 +60,7 @@
 
     .prologue
     .line 135
-    iget-object v0, p0, Lcom/tencent/mm/z/j$1;->bKi:Lcom/tencent/mm/q/e;
+    iget-object v0, p0, Lcom/tencent/mm/z/j$1;->bKi:Lcom/tencent/mm/q/Eclz;
 
     iget v1, p0, Lcom/tencent/mm/z/j$1;->bKj:I
 
@@ -68,7 +68,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/z/j$1;->bKl:Lcom/tencent/mm/z/j;
 
-    invoke-interface {v0, v1, v2, v3}, Lcom/tencent/mm/q/e;->a(IILcom/tencent/mm/q/j;)V
+    invoke-interface {v0, v1, v2, v3}, Lcom/tencent/mm/q/Eclz;->a(IILcom/tencent/mm/q/Jclz;)V
 
     .line 136
     return-void

@@ -58,12 +58,12 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/s/d;
+    check-cast v0, Lcom/tencent/mm/s/Dclz;
 
     .line 255
     iget-object v1, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$19;->kvD:Lcom/tencent/mm/ui/conversation/BizChatFavUI;
 
-    iget-wide v2, v0, Lcom/tencent/mm/s/d;->field_bizChatLocalId:J
+    iget-wide v2, v0, Lcom/tencent/mm/s/Dclz;->field_bizChatLocalId:J
 
     invoke-static {v1, v2, v3}, Lcom/tencent/mm/ui/conversation/BizChatFavUI;->a(Lcom/tencent/mm/ui/conversation/BizChatFavUI;J)V
 

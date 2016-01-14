@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 
 
 # instance fields
@@ -19,7 +19,7 @@
 
 .field private gqs:Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;
 
-.field private gqt:Lcom/tencent/mm/q/j;
+.field private gqt:Lcom/tencent/mm/q/Jclz;
 
 
 # direct methods
@@ -38,7 +38,7 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->eqp:Ljava/lang/String;
 
     .line 39
-    iput-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->gqt:Lcom/tencent/mm/q/j;
+    iput-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->gqt:Lcom/tencent/mm/q/Jclz;
 
     .line 40
     iput-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->cfz:Lcom/tencent/mm/ui/base/o;
@@ -103,12 +103,12 @@
     return-object v0
 .end method
 
-.method static synthetic f(Lcom/tencent/mm/plugin/sns/ui/ArtistUI;)Lcom/tencent/mm/q/j;
+.method static synthetic f(Lcom/tencent/mm/plugin/sns/ui/ArtistUI;)Lcom/tencent/mm/q/Jclz;
     .locals 1
 
     .prologue
     .line 32
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->gqt:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->gqt:Lcom/tencent/mm/q/Jclz;
 
     return-object v0
 .end method
@@ -163,7 +163,7 @@
 
     const/4 v1, 0x0
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/e;->af(Z)Lcom/tencent/mm/q/j;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/e;->af(Z)Lcom/tencent/mm/q/Jclz;
 
     .line 105
     new-instance v0, Lcom/tencent/mm/plugin/sns/ui/c;
@@ -226,20 +226,20 @@
     return-void
 .end method
 
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 3
 
     .prologue
     .line 168
-    instance-of v0, p4, Lcom/tencent/mm/q/k;
+    instance-of v0, p4, Lcom/tencent/mm/q/Kclz;
 
     if-eqz v0, :cond_0
 
     move-object v0, p4
 
-    check-cast v0, Lcom/tencent/mm/q/k;
+    check-cast v0, Lcom/tencent/mm/q/Kclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/q/k;->vu()I
+    invoke-interface {v0}, Lcom/tencent/mm/q/Kclz;->vu()I
 
     move-result v0
 
@@ -300,7 +300,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v2
 
@@ -335,7 +335,7 @@
 
     .line 175
     :cond_3
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
@@ -356,7 +356,7 @@
 
     .line 180
     :cond_4
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
@@ -379,7 +379,7 @@
     :cond_5
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->gqt:Lcom/tencent/mm/q/j;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->gqt:Lcom/tencent/mm/q/Jclz;
 
     goto :goto_0
 
@@ -492,13 +492,13 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 61
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x9f
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 62
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOp()Ljava/lang/String;
@@ -587,13 +587,13 @@
     invoke-virtual {v0, p0}, Lcom/tencent/mm/plugin/sns/d/g;->H(Landroid/app/Activity;)V
 
     .line 77
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x9f
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 78
     return-void

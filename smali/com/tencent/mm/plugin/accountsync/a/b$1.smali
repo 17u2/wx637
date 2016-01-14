@@ -59,35 +59,35 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 62
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/accountsync/a/b$1;->cfB:Lcom/tencent/mm/plugin/accountsync/a/b;
 
-    iget-object v1, v1, Lcom/tencent/mm/plugin/accountsync/a/b;->atC:Lcom/tencent/mm/q/j;
+    iget-object v1, v1, Lcom/tencent/mm/plugin/accountsync/a/b;->atC:Lcom/tencent/mm/q/Jclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->c(Lcom/tencent/mm/q/j;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 
     .line 63
     iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/a/b$1;->cfB:Lcom/tencent/mm/plugin/accountsync/a/b;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/accountsync/a/b;->atC:Lcom/tencent/mm/q/j;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/accountsync/a/b;->atC:Lcom/tencent/mm/q/Jclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
     if-ne v0, v3, :cond_1
 
     .line 64
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/accountsync/a/b$1;->cfB:Lcom/tencent/mm/plugin/accountsync/a/b;
 
-    invoke-virtual {v0, v3, v1}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v3, v1}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 68
     :cond_0
@@ -98,22 +98,22 @@
     :cond_1
     iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/a/b$1;->cfB:Lcom/tencent/mm/plugin/accountsync/a/b;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/accountsync/a/b;->atC:Lcom/tencent/mm/q/j;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/accountsync/a/b;->atC:Lcom/tencent/mm/q/Jclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
     if-ne v0, v2, :cond_0
 
     .line 66
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/accountsync/a/b$1;->cfB:Lcom/tencent/mm/plugin/accountsync/a/b;
 
-    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     goto :goto_0
 .end method

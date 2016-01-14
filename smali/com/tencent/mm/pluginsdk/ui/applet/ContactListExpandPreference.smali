@@ -528,7 +528,7 @@
     goto :goto_0
 .end method
 
-.method public final nH(I)Lcom/tencent/mm/s/i;
+.method public final nH(I)Lcom/tencent/mm/s/Iclz;
     .locals 2
 
     .prologue
@@ -558,7 +558,7 @@
 
     move-result-object v1
 
-    instance-of v1, v1, Lcom/tencent/mm/s/i;
+    instance-of v1, v1, Lcom/tencent/mm/s/Iclz;
 
     if-eqz v1, :cond_0
 
@@ -571,7 +571,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/s/i;
+    check-cast v0, Lcom/tencent/mm/s/Iclz;
 
     .line 222
     :cond_0

@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field private cOw:Lcom/tencent/mm/s/d;
+.field private cOw:Lcom/tencent/mm/s/Dclz;
 
 .field cRy:Ljava/lang/String;
 
@@ -27,7 +27,7 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/tencent/mm/s/i;Lcom/tencent/mm/s/d;[Ljava/lang/String;Ljava/util/List;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/tencent/mm/s/Iclz;Lcom/tencent/mm/s/Dclz;[Ljava/lang/String;Ljava/util/List;)V
     .locals 3
 
     .prologue
@@ -42,7 +42,7 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI$a;->hTB:Lcom/tencent/mm/z/a/a/c;
 
     .line 201
-    iput-object p3, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI$a;->cOw:Lcom/tencent/mm/s/d;
+    iput-object p3, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI$a;->cOw:Lcom/tencent/mm/s/Dclz;
 
     .line 202
     iput-object p4, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI$a;->kao:[Ljava/lang/String;
@@ -55,11 +55,11 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/z/a/a/c$a;-><init>()V
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI$a;->cOw:Lcom/tencent/mm/s/d;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI$a;->cOw:Lcom/tencent/mm/s/Dclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/s/d;->field_brandUserName:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/s/Dclz;->field_brandUserName:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/s/f;->gl(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/s/Fclz;->gl(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -97,7 +97,7 @@
 
     .prologue
     .line 248
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xu()Lcom/tencent/mm/s/j;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xu()Lcom/tencent/mm/s/Jclz;
 
     move-result-object v1
 
@@ -115,7 +115,7 @@
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/s/j;->a([Ljava/lang/String;Ljava/util/List;)Ljava/lang/String;
+    invoke-static {v0, v3}, Lcom/tencent/mm/s/Jclz;->a([Ljava/lang/String;Ljava/util/List;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -177,7 +177,7 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v0, v1, Lcom/tencent/mm/s/j;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v0, v1, Lcom/tencent/mm/s/Jclz;->aoD:Lcom/tencent/mm/sdk/g/d;
 
     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -251,11 +251,11 @@
 
     .prologue
     .line 191
-    new-instance v0, Lcom/tencent/mm/s/i;
+    new-instance v0, Lcom/tencent/mm/s/Iclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/s/i;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/s/Iclz;-><init>()V
 
-    invoke-virtual {v0, p2}, Lcom/tencent/mm/s/i;->c(Landroid/database/Cursor;)V
+    invoke-virtual {v0, p2}, Lcom/tencent/mm/s/Iclz;->c(Landroid/database/Cursor;)V
 
     return-object v0
 .end method
@@ -318,7 +318,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/s/i;
+    check-cast v0, Lcom/tencent/mm/s/Iclz;
 
     .line 234
     iget-object v1, v2, Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI$b;->crr:Landroid/widget/TextView;
@@ -347,7 +347,7 @@
 
     move-result-object v3
 
-    iget-object v4, v0, Lcom/tencent/mm/s/i;->field_headImageUrl:Ljava/lang/String;
+    iget-object v4, v0, Lcom/tencent/mm/s/Iclz;->field_headImageUrl:Ljava/lang/String;
 
     iget-object v5, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI$a;->hTB:Lcom/tencent/mm/z/a/a/c;
 
@@ -359,11 +359,11 @@
     invoke-virtual {v1, v6}, Lcom/tencent/mm/ui/base/MaskLayout;->setMaskDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 240
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI$a;->cOw:Lcom/tencent/mm/s/d;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI$a;->cOw:Lcom/tencent/mm/s/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/s/i;->field_userId:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/s/Iclz;->field_userId:Ljava/lang/String;
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI;->a(Lcom/tencent/mm/s/d;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI;->a(Lcom/tencent/mm/s/Dclz;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

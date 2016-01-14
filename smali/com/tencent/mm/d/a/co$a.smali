@@ -19,9 +19,9 @@
 
 .field public aoP:Z
 
-.field public avD:Lcom/tencent/mm/q/f$a;
+.field public avD:Lcom/tencent/mm/q/Fclz$a;
 
-.field public avE:Lcom/tencent/mm/q/f$b;
+.field public avE:Lcom/tencent/mm/q/Fclz$b;
 
 .field public op:I
 

@@ -318,7 +318,7 @@
     if-eqz v1, :cond_3
 
     .line 233
-    invoke-static {v1}, Lcom/tencent/mm/s/r;->gR(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {v1}, Lcom/tencent/mm/s/Rclz;->gR(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 

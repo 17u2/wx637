@@ -73,9 +73,9 @@
     .line 635
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/k$4;->kaB:Lcom/tencent/mm/ui/chatting/k;
 
-    iget-object v1, v0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/f;
+    iget-object v1, v0, Lcom/tencent/mm/ui/chatting/k;->dAg:Lcom/tencent/mm/q/Fclz;
 
-    invoke-interface {v1}, Lcom/tencent/mm/q/f;->isPlaying()Z
+    invoke-interface {v1}, Lcom/tencent/mm/q/Fclz;->isPlaying()Z
 
     move-result v1
 

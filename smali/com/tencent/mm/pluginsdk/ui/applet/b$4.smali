@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 
 
 # annotations
@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 8
 
     .prologue
@@ -73,12 +73,12 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b$4;->hSH:Lcom/tencent/mm/pluginsdk/ui/applet/b;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->hSF:Lcom/tencent/mm/q/d;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->hSF:Lcom/tencent/mm/q/Dclz;
 
     if-eqz v0, :cond_1
 
     .line 229
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -86,9 +86,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b$4;->hSH:Lcom/tencent/mm/pluginsdk/ui/applet/b;
 
-    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/ui/applet/b;->hSF:Lcom/tencent/mm/q/d;
+    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/ui/applet/b;->hSF:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 232
     :cond_1

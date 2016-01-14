@@ -344,11 +344,11 @@
 
     .line 199
     :cond_8
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/tencent/mm/q/l;->byu:Lcom/tencent/mm/network/e;
+    iget-object v1, v1, Lcom/tencent/mm/q/Lclz;->byu:Lcom/tencent/mm/network/e;
 
     if-nez v1, :cond_9
 
@@ -372,13 +372,13 @@
     invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 201
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
     const/4 v2, 0x1
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/q/l;->aM(Z)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/q/Lclz;->aM(Z)V
 
     .line 204
     :cond_9
@@ -476,11 +476,11 @@
     goto/16 :goto_0
 
     :cond_b
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    iget-boolean v1, v1, Lcom/tencent/mm/q/l;->foreground:Z
+    iget-boolean v1, v1, Lcom/tencent/mm/q/Lclz;->foreground:Z
 
     if-nez v1, :cond_c
 
@@ -498,7 +498,7 @@
     if-nez v0, :cond_e
 
     :cond_c
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -508,7 +508,7 @@
 
     invoke-direct {v1, v2}, Lcom/tencent/mm/ac/i;-><init>(I)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     :goto_3
     invoke-static {}, Lcom/tencent/mm/modelvoice/m;->DF()Lcom/tencent/mm/c/b/i;
@@ -557,7 +557,7 @@
     goto :goto_2
 
     :cond_e
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -565,7 +565,7 @@
 
     invoke-direct {v1}, Lcom/tencent/mm/ac/h;-><init>()V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     goto :goto_3
 
@@ -678,24 +678,24 @@
 
     iput-object v1, v0, Lcom/tencent/mm/protocal/Lclz$b;->deviceID:Ljava/lang/String;
 
-    new-instance v1, Lcom/tencent/mm/q/r;
+    new-instance v1, Lcom/tencent/mm/q/Rclz;
 
     const/16 v2, 0xa
 
-    invoke-direct {v1, v0, v2}, Lcom/tencent/mm/q/r;-><init>(Lcom/tencent/mm/protocal/Hclz$d;I)V
+    invoke-direct {v1, v0, v2}, Lcom/tencent/mm/q/Rclz;-><init>(Lcom/tencent/mm/protocal/Hclz$d;I)V
 
     const/16 v2, 0xa
 
     const/4 v4, 0x0
 
     :try_start_0
-    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/q/r;->a(I[B[B)Z
+    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/q/Rclz;->a(I[B[B)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
@@ -709,7 +709,7 @@
 
     invoke-direct {v5, v0}, Lcom/tencent/mm/modelsimple/j;-><init>(Lcom/tencent/mm/protocal/Hclz$d;)V
 
-    invoke-virtual {v1, v2, v3, v4, v5}, Lcom/tencent/mm/q/l;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-virtual {v1, v2, v3, v4, v5}, Lcom/tencent/mm/q/Lclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1021,7 +1021,7 @@
     goto/16 :goto_0
 
     :cond_17
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -1029,7 +1029,7 @@
 
     invoke-direct {v1, v9, v8, v6, v7}, Lcom/tencent/mm/ac/i;-><init>(Lcom/tencent/mm/protocal/Tclz$b;IJ)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_1
 
@@ -1225,7 +1225,7 @@
     goto :goto_8
 
     :sswitch_8
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -1233,7 +1233,7 @@
 
     invoke-direct {v1}, Lcom/tencent/mm/ac/h;-><init>()V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     goto/16 :goto_0
 

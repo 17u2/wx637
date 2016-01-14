@@ -48,7 +48,7 @@
 
     .prologue
     .line 43
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -58,7 +58,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/applet/j;->fFr:Lcom/tencent/mm/modelsimple/m;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->c(Lcom/tencent/mm/q/j;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 
     .line 44
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/j$1$1;->hTX:Lcom/tencent/mm/pluginsdk/ui/applet/j$1;

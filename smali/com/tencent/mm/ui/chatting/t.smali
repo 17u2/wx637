@@ -1027,7 +1027,7 @@
     return-void
 
     :cond_1
-    invoke-static {p1}, Lcom/tencent/mm/s/m;->gK(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/s/Mclz;->gK(Ljava/lang/String;)Z
 
     move-result v0
 

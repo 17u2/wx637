@@ -66,7 +66,7 @@
     iput-object p1, p0, Lcom/tencent/mm/q/qclass;->byM:Lcom/tencent/mm/network/o;
 
     .line 39
-    new-instance v0, Lcom/tencent/mm/q/p;
+    new-instance v0, Lcom/tencent/mm/q/Pclz;
 
     invoke-interface {p1}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
@@ -76,12 +76,12 @@
 
     move-result v2
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/q/p;-><init>(Lcom/tencent/mm/protocal/Hclz$c;I)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/q/Pclz;-><init>(Lcom/tencent/mm/protocal/Hclz$c;I)V
 
     iput-object v0, p0, Lcom/tencent/mm/q/qclass;->byY:Lcom/tencent/mm/protocal/Eclz;
 
     .line 40
-    new-instance v0, Lcom/tencent/mm/q/r;
+    new-instance v0, Lcom/tencent/mm/q/Rclz;
 
     invoke-interface {p1}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
@@ -91,7 +91,7 @@
 
     move-result v2
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/q/r;-><init>(Lcom/tencent/mm/protocal/Hclz$d;I)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/q/Rclz;-><init>(Lcom/tencent/mm/protocal/Hclz$d;I)V
 
     iput-object v0, p0, Lcom/tencent/mm/q/qclass;->byZ:Lcom/tencent/mm/protocal/Fclz;
 

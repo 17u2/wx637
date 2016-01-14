@@ -139,18 +139,18 @@
 
     iget-object v2, p1, Lcom/tencent/mm/d/a/co;->avB:Lcom/tencent/mm/d/a/co$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/a/co$a;->avD:Lcom/tencent/mm/q/f$a;
+    iget-object v2, v2, Lcom/tencent/mm/d/a/co$a;->avD:Lcom/tencent/mm/q/Fclz$a;
 
-    iput-object v2, v0, Lcom/tencent/mm/c/a/aclass;->aoV:Lcom/tencent/mm/q/f$a;
+    iput-object v2, v0, Lcom/tencent/mm/c/a/aclass;->aoV:Lcom/tencent/mm/q/Fclz$a;
 
     .line 131
     iget-object v0, p0, Lcom/tencent/mm/app/plugin/b/a$d;->anh:Lcom/tencent/mm/c/a/aclass;
 
     iget-object v2, p1, Lcom/tencent/mm/d/a/co;->avB:Lcom/tencent/mm/d/a/co$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/a/co$a;->avE:Lcom/tencent/mm/q/f$b;
+    iget-object v2, v2, Lcom/tencent/mm/d/a/co$a;->avE:Lcom/tencent/mm/q/Fclz$b;
 
-    iput-object v2, v0, Lcom/tencent/mm/c/a/aclass;->aoU:Lcom/tencent/mm/q/f$b;
+    iput-object v2, v0, Lcom/tencent/mm/c/a/aclass;->aoU:Lcom/tencent/mm/q/Fclz$b;
 
     .line 132
     iget-object v0, p1, Lcom/tencent/mm/d/a/co;->avC:Lcom/tencent/mm/d/a/co$b;

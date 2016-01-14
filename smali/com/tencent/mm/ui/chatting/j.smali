@@ -5,7 +5,7 @@
 # interfaces
 .implements Landroid/view/View$OnClickListener;
 .implements Lcom/tencent/mm/pluginsdk/model/app/q;
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 
 
 # instance fields
@@ -56,16 +56,16 @@
     return-object v0
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/chatting/j;Lcom/tencent/mm/q/j;)V
+.method static synthetic a(Lcom/tencent/mm/ui/chatting/j;Lcom/tencent/mm/q/Jclz;)V
     .locals 4
 
     .prologue
     .line 46
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/j;->amR:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -91,7 +91,7 @@
 
     new-instance v3, Lcom/tencent/mm/ui/chatting/j$4;
 
-    invoke-direct {v3, p0, p1}, Lcom/tencent/mm/ui/chatting/j$4;-><init>(Lcom/tencent/mm/ui/chatting/j;Lcom/tencent/mm/q/j;)V
+    invoke-direct {v3, p0, p1}, Lcom/tencent/mm/ui/chatting/j$4;-><init>(Lcom/tencent/mm/ui/chatting/j;Lcom/tencent/mm/q/Jclz;)V
 
     invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
 
@@ -255,7 +255,7 @@
     goto :goto_0
 .end method
 
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 7
 
     .prologue
@@ -286,13 +286,13 @@
 
     .line 236
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x406
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 238
     if-nez p1, :cond_1

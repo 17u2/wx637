@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 
 
 # static fields
@@ -112,18 +112,18 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/q/j;
+    check-cast v0, Lcom/tencent/mm/q/Jclz;
 
     .line 61
     :goto_0
     if-eqz v0, :cond_1
 
     .line 62
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->c(Lcom/tencent/mm/q/j;)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 
     .line 63
     sget-object v1, Lcom/tencent/mm/pluginsdk/c/c;->hKC:Ljava/util/HashMap;
@@ -152,7 +152,7 @@
     if-nez v0, :cond_0
 
     .line 73
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -160,7 +160,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 75
     :cond_0
@@ -177,10 +177,10 @@
 .method public abstract MB()I
 .end method
 
-.method public abstract a(ILcom/tencent/mm/q/j;Lcom/tencent/mm/sdk/c/b;)Lcom/tencent/mm/sdk/c/b;
+.method public abstract a(ILcom/tencent/mm/q/Jclz;Lcom/tencent/mm/sdk/c/b;)Lcom/tencent/mm/sdk/c/b;
 .end method
 
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 3
 
     .prologue
@@ -189,7 +189,7 @@
 
     move-result v0
 
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v1
 
@@ -221,7 +221,7 @@
     .line 42
     iget-object v2, v1, Lcom/tencent/mm/d/a/ft;->aAq:Lcom/tencent/mm/d/a/ft$a;
 
-    invoke-virtual {p0, p2, p4, v0}, Lcom/tencent/mm/pluginsdk/c/c;->a(ILcom/tencent/mm/q/j;Lcom/tencent/mm/sdk/c/b;)Lcom/tencent/mm/sdk/c/b;
+    invoke-virtual {p0, p2, p4, v0}, Lcom/tencent/mm/pluginsdk/c/c;->a(ILcom/tencent/mm/q/Jclz;Lcom/tencent/mm/sdk/c/b;)Lcom/tencent/mm/sdk/c/b;
 
     move-result-object v0
 
@@ -278,7 +278,7 @@
     if-nez v0, :cond_0
 
     .line 84
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -286,12 +286,12 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     goto :goto_0
 .end method
 
-.method public abstract b(Lcom/tencent/mm/sdk/c/b;)Lcom/tencent/mm/q/j;
+.method public abstract b(Lcom/tencent/mm/sdk/c/b;)Lcom/tencent/mm/q/Jclz;
 .end method
 
 .method public final f(Lcom/tencent/mm/sdk/c/b;)V
@@ -299,16 +299,16 @@
 
     .prologue
     .line 89
-    invoke-virtual {p0, p1}, Lcom/tencent/mm/pluginsdk/c/c;->b(Lcom/tencent/mm/sdk/c/b;)Lcom/tencent/mm/q/j;
+    invoke-virtual {p0, p1}, Lcom/tencent/mm/pluginsdk/c/c;->b(Lcom/tencent/mm/sdk/c/b;)Lcom/tencent/mm/q/Jclz;
 
     move-result-object v0
 
     .line 91
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 92
     sget-object v1, Lcom/tencent/mm/pluginsdk/c/c;->hKC:Ljava/util/HashMap;

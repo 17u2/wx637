@@ -239,14 +239,14 @@
     .line 340
     iget-object v1, v4, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/s/m;->gK(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/s/Mclz;->gK(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_3
 
     .line 341
-    invoke-static {}, Lcom/tencent/mm/s/f;->mr()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/s/Fclz;->mr()Ljava/lang/String;
 
     move-result-object v1
 
@@ -840,14 +840,14 @@
     .line 511
     iget-object v1, v5, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/s/m;->gK(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/s/Mclz;->gK(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_4
 
     .line 512
-    invoke-static {}, Lcom/tencent/mm/s/f;->mr()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/s/Fclz;->mr()Ljava/lang/String;
 
     move-result-object v1
 

@@ -560,7 +560,7 @@
     .line 279
     iget-object v6, p0, Lcom/tencent/mm/ac/d$1;->bNq:Lcom/tencent/mm/ac/d;
 
-    iget-object v1, v6, Lcom/tencent/mm/ac/d;->bJU:Lcom/tencent/mm/q/e;
+    iget-object v1, v6, Lcom/tencent/mm/ac/d;->bJU:Lcom/tencent/mm/q/Eclz;
 
     if-nez v1, :cond_b
 
@@ -826,11 +826,11 @@
 
     invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iget-object v1, v6, Lcom/tencent/mm/ac/d;->bJU:Lcom/tencent/mm/q/e;
+    iget-object v1, v6, Lcom/tencent/mm/ac/d;->bJU:Lcom/tencent/mm/q/Eclz;
 
     const/16 v3, 0x64
 
-    invoke-interface {v1, v2, v3, v6}, Lcom/tencent/mm/q/e;->a(IILcom/tencent/mm/q/j;)V
+    invoke-interface {v1, v2, v3, v6}, Lcom/tencent/mm/q/Eclz;->a(IILcom/tencent/mm/q/Jclz;)V
 
     goto/16 :goto_5
 

@@ -231,7 +231,7 @@
     .end packed-switch
 .end method
 
-.method public final a(Lcom/tencent/mm/q/e;)Lcom/tencent/mm/q/j;
+.method public final a(Lcom/tencent/mm/q/Eclz;)Lcom/tencent/mm/q/Jclz;
     .locals 2
 
     .prologue
@@ -245,7 +245,7 @@
     .line 367
     new-instance v0, Lcom/tencent/mm/ac/d;
 
-    invoke-direct {v0, p1}, Lcom/tencent/mm/ac/d;-><init>(Lcom/tencent/mm/q/e;)V
+    invoke-direct {v0, p1}, Lcom/tencent/mm/ac/d;-><init>(Lcom/tencent/mm/q/Eclz;)V
 
     .line 369
     :goto_0
@@ -397,12 +397,12 @@
     return-void
 .end method
 
-.method public final a(Lcom/tencent/mm/s/k;Landroid/app/Activity;Lcom/tencent/mm/storage/k;ZLjava/lang/Runnable;)V
+.method public final a(Lcom/tencent/mm/s/Kclz;Landroid/app/Activity;Lcom/tencent/mm/storage/k;ZLjava/lang/Runnable;)V
     .locals 0
 
     .prologue
     .line 440
-    invoke-static {p1, p2, p3, p4, p5}, Lcom/tencent/mm/ui/tools/c;->a(Lcom/tencent/mm/s/k;Landroid/app/Activity;Lcom/tencent/mm/storage/k;ZLjava/lang/Runnable;)V
+    invoke-static {p1, p2, p3, p4, p5}, Lcom/tencent/mm/ui/tools/c;->a(Lcom/tencent/mm/s/Kclz;Landroid/app/Activity;Lcom/tencent/mm/storage/k;ZLjava/lang/Runnable;)V
 
     .line 441
     return-void
@@ -458,7 +458,7 @@
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 86
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -466,7 +466,7 @@
 
     invoke-direct {v1, p1}, Lcom/tencent/mm/ac/i;-><init>(I)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 87
     return-void
@@ -578,7 +578,7 @@
     return-void
 .end method
 
-.method public final af(Z)Lcom/tencent/mm/q/j;
+.method public final af(Z)Lcom/tencent/mm/q/Jclz;
     .locals 2
 
     .prologue
@@ -601,11 +601,11 @@
     invoke-direct {v0, v1}, Lcom/tencent/mm/af/k;-><init>(I)V
 
     .line 175
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 176
     return-object v0
@@ -708,7 +708,7 @@
 
     .prologue
     .line 80
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -718,13 +718,13 @@
 
     invoke-direct {v1, v2}, Lcom/tencent/mm/ac/i;-><init>(I)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 81
     return-void
 .end method
 
-.method public final kP()Lcom/tencent/mm/q/f;
+.method public final kP()Lcom/tencent/mm/q/Fclz;
     .locals 2
 
     .prologue
@@ -797,7 +797,7 @@
     if-eqz v0, :cond_0
 
     .line 187
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -807,7 +807,7 @@
 
     invoke-direct {v1, v2}, Lcom/tencent/mm/ac/i;-><init>(I)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 189
     :cond_0
@@ -928,11 +928,11 @@
     invoke-direct {v1, v0}, Lcom/tencent/mm/modelsimple/s;-><init>(Ljava/lang/String;)V
 
     .line 220
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 222
     :cond_0

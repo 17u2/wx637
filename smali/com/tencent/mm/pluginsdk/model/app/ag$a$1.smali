@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/pluginsdk/model/app/ag$a;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    value = Lcom/tencent/mm/pluginsdk/model/app/ag$a;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,20 +22,20 @@
 
 .field final synthetic aoB:I
 
-.field final synthetic aoz:Lcom/tencent/mm/q/j;
+.field final synthetic aoz:Lcom/tencent/mm/q/Jclz;
 
 .field final synthetic hMr:Lcom/tencent/mm/pluginsdk/model/app/ag$a;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/pluginsdk/model/app/ag$a;Lcom/tencent/mm/q/j;II)V
+.method constructor <init>(Lcom/tencent/mm/pluginsdk/model/app/ag$a;Lcom/tencent/mm/q/Jclz;II)V
     .locals 1
 
     .prologue
     .line 201
     iput-object p1, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->hMr:Lcom/tencent/mm/pluginsdk/model/app/ag$a;
 
-    iput-object p2, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iput-object p2, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
     iput p3, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoA:I
 
@@ -67,9 +67,9 @@
     invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ag$a;->kM()I
 
     .line 208
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
@@ -178,9 +178,9 @@
 
     invoke-direct {v7, v8}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v8, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v8, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
-    invoke-virtual {v8}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {v8}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v8
 
@@ -376,9 +376,9 @@
 
     .line 210
     :cond_4
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
@@ -392,14 +392,14 @@
     invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/ag$a;->a(Lcom/tencent/mm/pluginsdk/model/app/ag$a;)Z
 
     .line 212
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/pluginsdk/model/app/v;
 
     iget-wide v1, v0, Lcom/tencent/mm/pluginsdk/model/app/v;->fHB:J
 
     .line 213
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/pluginsdk/model/app/v;
 
@@ -413,9 +413,9 @@
 
     .line 214
     :cond_5
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
@@ -429,21 +429,21 @@
     invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/ag$a;->b(Lcom/tencent/mm/pluginsdk/model/app/ag$a;)Z
 
     .line 216
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/pluginsdk/model/app/ae;
 
     iget-wide v4, v0, Lcom/tencent/mm/pluginsdk/model/app/ae;->fHB:J
 
     .line 217
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/pluginsdk/model/app/ae;
 
     iget v2, v0, Lcom/tencent/mm/pluginsdk/model/app/ae;->anv:I
 
     .line 218
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/pluginsdk/model/app/ae;
 
@@ -457,7 +457,7 @@
 
     .line 219
     :goto_4
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
     check-cast v0, Lcom/tencent/mm/pluginsdk/model/app/ae;
 
@@ -545,9 +545,9 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/j;
+    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/model/app/ag$a$1;->aoz:Lcom/tencent/mm/q/Jclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {v2}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v2
 

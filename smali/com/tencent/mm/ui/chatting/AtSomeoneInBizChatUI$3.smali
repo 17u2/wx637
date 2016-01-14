@@ -63,25 +63,25 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/s/i;
+    check-cast v0, Lcom/tencent/mm/s/Iclz;
 
     .line 132
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI$3;->kan:Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI;
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI;->b(Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI;)Lcom/tencent/mm/s/d;
+    invoke-static {v2}, Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI;->b(Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI;)Lcom/tencent/mm/s/Dclz;
 
     move-result-object v2
 
-    iget-object v3, v0, Lcom/tencent/mm/s/i;->field_userId:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/s/Iclz;->field_userId:Ljava/lang/String;
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI;->a(Lcom/tencent/mm/s/d;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/tencent/mm/ui/chatting/AtSomeoneInBizChatUI;->a(Lcom/tencent/mm/s/Dclz;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     .line 133
     const-string/jumbo v3, "select_raw_user_name"
 
-    iget-object v0, v0, Lcom/tencent/mm/s/i;->field_userId:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/s/Iclz;->field_userId:Ljava/lang/String;
 
     invoke-virtual {v1, v3, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 

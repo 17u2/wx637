@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/modelsimple/aa;
-.super Lcom/tencent/mm/q/j;
+.super Lcom/tencent/mm/q/Jclz;
 .source "SourceFile"
 
 # interfaces
@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private ans:Lcom/tencent/mm/q/d;
+.field private ans:Lcom/tencent/mm/q/Dclz;
 
 .field private final byM:Lcom/tencent/mm/network/o;
 
@@ -40,7 +40,7 @@
     const/16 v1, 0x40
 
     .line 30
-    invoke-direct {p0}, Lcom/tencent/mm/q/j;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/q/Jclz;-><init>()V
 
     .line 31
     new-instance v0, Lcom/tencent/mm/modelsimple/e;
@@ -170,7 +170,7 @@
 
     .prologue
     .line 47
-    invoke-direct {p0}, Lcom/tencent/mm/q/j;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/q/Jclz;-><init>()V
 
     .line 48
     new-instance v0, Lcom/tencent/mm/modelsimple/e;
@@ -282,7 +282,7 @@
     const/4 v2, 0x0
 
     .line 65
-    invoke-direct {p0}, Lcom/tencent/mm/q/j;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/q/Jclz;-><init>()V
 
     .line 66
     new-instance v0, Lcom/tencent/mm/modelsimple/e;
@@ -417,12 +417,12 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/d;)I
+.method public final a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
     .locals 1
 
     .prologue
     .line 87
-    iput-object p2, p0, Lcom/tencent/mm/modelsimple/aa;->ans:Lcom/tencent/mm/q/d;
+    iput-object p2, p0, Lcom/tencent/mm/modelsimple/aa;->ans:Lcom/tencent/mm/q/Dclz;
 
     .line 88
     iget-object v0, p0, Lcom/tencent/mm/modelsimple/aa;->byM:Lcom/tencent/mm/network/o;
@@ -439,7 +439,7 @@
 
     .prologue
     .line 99
-    iget-object v0, p0, Lcom/tencent/mm/modelsimple/aa;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, p0, Lcom/tencent/mm/modelsimple/aa;->ans:Lcom/tencent/mm/q/Dclz;
 
     invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
@@ -447,7 +447,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/protocal/Hclz$d;->ihS:Ljava/lang/String;
 
-    invoke-interface {v0, p2, p3, v1, p0}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, p2, p3, v1, p0}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 101
     return-void

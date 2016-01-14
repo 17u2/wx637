@@ -23,7 +23,7 @@
 
 .field public kvj:Z
 
-.field public kvk:Lcom/tencent/mm/s/b;
+.field public kvk:Lcom/tencent/mm/s/Bclz;
 
 .field final synthetic kvl:Lcom/tencent/mm/ui/conversation/a;
 

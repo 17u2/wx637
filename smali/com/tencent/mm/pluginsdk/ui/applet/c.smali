@@ -1631,29 +1631,29 @@
     invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/NoMeasuredTextView;->setTextColor(Landroid/content/res/ColorStateList;)V
 
     .line 887
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xs()Lcom/tencent/mm/s/e;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xs()Lcom/tencent/mm/s/Eclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, p1, p2}, Lcom/tencent/mm/s/e;->O(J)Lcom/tencent/mm/s/d;
+    invoke-virtual {v1, p1, p2}, Lcom/tencent/mm/s/Eclz;->O(J)Lcom/tencent/mm/s/Dclz;
 
     move-result-object v1
 
     .line 889
-    invoke-virtual {v1}, Lcom/tencent/mm/s/d;->wf()Z
+    invoke-virtual {v1}, Lcom/tencent/mm/s/Dclz;->wf()Z
 
     move-result v2
 
     if-eqz v2, :cond_3
 
     .line 890
-    iget-object v3, v1, Lcom/tencent/mm/s/d;->field_chatName:Ljava/lang/String;
+    iget-object v3, v1, Lcom/tencent/mm/s/Dclz;->field_chatName:Ljava/lang/String;
 
     .line 891
-    iget-object v2, v1, Lcom/tencent/mm/s/d;->field_headImageUrl:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/s/Dclz;->field_headImageUrl:Ljava/lang/String;
 
     .line 892
-    iget-object v1, v1, Lcom/tencent/mm/s/d;->field_brandUserName:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/s/Dclz;->field_brandUserName:Ljava/lang/String;
 
     .line 905
     :goto_1
@@ -1719,7 +1719,7 @@
     invoke-direct {v0}, Lcom/tencent/mm/z/a/a/c$a;-><init>()V
 
     .line 932
-    invoke-static {v1}, Lcom/tencent/mm/s/f;->gk(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/s/Fclz;->gk(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1778,13 +1778,13 @@
 
     .line 894
     :cond_3
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xu()Lcom/tencent/mm/s/j;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xu()Lcom/tencent/mm/s/Jclz;
 
     move-result-object v2
 
-    iget-object v1, v1, Lcom/tencent/mm/s/d;->field_bizChatServId:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/s/Dclz;->field_bizChatServId:Ljava/lang/String;
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/s/j;->gp(Ljava/lang/String;)Lcom/tencent/mm/s/i;
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/s/Jclz;->gp(Ljava/lang/String;)Lcom/tencent/mm/s/Iclz;
 
     move-result-object v1
 
@@ -1792,13 +1792,13 @@
     if-eqz v1, :cond_4
 
     .line 896
-    iget-object v3, v1, Lcom/tencent/mm/s/i;->field_userName:Ljava/lang/String;
+    iget-object v3, v1, Lcom/tencent/mm/s/Iclz;->field_userName:Ljava/lang/String;
 
     .line 897
-    iget-object v2, v1, Lcom/tencent/mm/s/i;->field_headImageUrl:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/s/Iclz;->field_headImageUrl:Ljava/lang/String;
 
     .line 898
-    iget-object v1, v1, Lcom/tencent/mm/s/i;->field_brandUserName:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/s/Iclz;->field_brandUserName:Ljava/lang/String;
 
     goto :goto_1
 

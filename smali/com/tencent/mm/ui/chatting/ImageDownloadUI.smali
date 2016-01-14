@@ -3,8 +3,8 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/d;
-.implements Lcom/tencent/mm/q/e;
+.implements Lcom/tencent/mm/q/Dclz;
+.implements Lcom/tencent/mm/q/Eclz;
 
 
 # instance fields
@@ -328,7 +328,7 @@
     return-void
 .end method
 
-.method public final a(IILcom/tencent/mm/q/j;)V
+.method public final a(IILcom/tencent/mm/q/Jclz;)V
     .locals 4
 
     .prologue
@@ -364,7 +364,7 @@
     invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 127
-    invoke-virtual {p3}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p3}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
@@ -401,12 +401,12 @@
     goto :goto_0
 .end method
 
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 3
 
     .prologue
     .line 182
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
@@ -711,17 +711,17 @@
 
     move-object v6, p0
 
-    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/z/j;-><init>(JJILcom/tencent/mm/q/e;)V
+    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/z/j;-><init>(JJILcom/tencent/mm/q/Eclz;)V
 
     iput-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkY:Lcom/tencent/mm/z/j;
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkY:Lcom/tencent/mm/z/j;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     goto :goto_0
 .end method
@@ -734,13 +734,13 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onPause()V
 
     .line 90
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x6d
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 91
     return-void
@@ -754,13 +754,13 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onResume()V
 
     .line 96
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v1, 0x6d
 
-    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 97
     return-void

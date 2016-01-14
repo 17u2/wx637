@@ -88,7 +88,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$20$1;-><init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$20;)V
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/co$a;->avD:Lcom/tencent/mm/q/f$a;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/co$a;->avD:Lcom/tencent/mm/q/Fclz$a;
 
     .line 4911
     iget-object v1, v0, Lcom/tencent/mm/d/a/co;->avB:Lcom/tencent/mm/d/a/co$a;
@@ -97,7 +97,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$20$2;-><init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$20;)V
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/co$a;->avE:Lcom/tencent/mm/q/f$b;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/co$a;->avE:Lcom/tencent/mm/q/Fclz$b;
 
     .line 4925
     sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;

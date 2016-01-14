@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 
 
 # annotations
@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 5
 
     .prologue
@@ -58,7 +58,7 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {p4}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v4
 
@@ -97,7 +97,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/modelfriend/z$1;->bFt:Lcom/tencent/mm/modelfriend/z;
 
-    iget-object v0, v0, Lcom/tencent/mm/modelfriend/z;->ans:Lcom/tencent/mm/q/d;
+    iget-object v0, v0, Lcom/tencent/mm/modelfriend/z;->ans:Lcom/tencent/mm/q/Dclz;
 
     const-string/jumbo v1, ""
 
@@ -105,7 +105,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/modelfriend/z$1;->bFt:Lcom/tencent/mm/modelfriend/z;
 
-    invoke-interface {v0, p1, p2, v1, v2}, Lcom/tencent/mm/q/d;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+    invoke-interface {v0, p1, p2, v1, v2}, Lcom/tencent/mm/q/Dclz;->a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
 
     .line 97
     :goto_0
@@ -121,15 +121,15 @@
 
     iget-object v1, v1, Lcom/tencent/mm/modelfriend/z$1;->bFt:Lcom/tencent/mm/modelfriend/z;
 
-    iget-object v1, v1, Lcom/tencent/mm/q/j;->bya:Lcom/tencent/mm/network/e;
+    iget-object v1, v1, Lcom/tencent/mm/q/Jclz;->bya:Lcom/tencent/mm/network/e;
 
     iget-object v2, p0, Lcom/tencent/mm/modelfriend/z$1$1;->bFu:Lcom/tencent/mm/modelfriend/z$1;
 
     iget-object v2, v2, Lcom/tencent/mm/modelfriend/z$1;->bFt:Lcom/tencent/mm/modelfriend/z;
 
-    iget-object v2, v2, Lcom/tencent/mm/modelfriend/z;->ans:Lcom/tencent/mm/q/d;
+    iget-object v2, v2, Lcom/tencent/mm/modelfriend/z;->ans:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/modelfriend/z;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/d;)I
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/modelfriend/z;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
 
     goto :goto_0
 .end method

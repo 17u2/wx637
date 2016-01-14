@@ -34,7 +34,7 @@
     return-void
 .end method
 
-.method public static a(Lcom/tencent/mm/s/k;Landroid/app/Activity;Lcom/tencent/mm/storage/k;)V
+.method public static a(Lcom/tencent/mm/s/Kclz;Landroid/app/Activity;Lcom/tencent/mm/storage/k;)V
     .locals 2
 
     .prologue
@@ -43,13 +43,13 @@
 
     const/4 v1, 0x0
 
-    invoke-static {p0, p1, p2, v0, v1}, Lcom/tencent/mm/ui/tools/c;->a(Lcom/tencent/mm/s/k;Landroid/app/Activity;Lcom/tencent/mm/storage/k;ZLjava/lang/Runnable;)V
+    invoke-static {p0, p1, p2, v0, v1}, Lcom/tencent/mm/ui/tools/c;->a(Lcom/tencent/mm/s/Kclz;Landroid/app/Activity;Lcom/tencent/mm/storage/k;ZLjava/lang/Runnable;)V
 
     .line 44
     return-void
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/s/k;Landroid/app/Activity;Lcom/tencent/mm/storage/k;Z)V
+.method static synthetic a(Lcom/tencent/mm/s/Kclz;Landroid/app/Activity;Lcom/tencent/mm/storage/k;Z)V
     .locals 12
 
     .prologue
@@ -176,7 +176,7 @@
 
     :cond_6
     :goto_4
-    invoke-static {p0}, Lcom/tencent/mm/app/plugin/a/a;->a(Lcom/tencent/mm/s/k;)Z
+    invoke-static {p0}, Lcom/tencent/mm/app/plugin/a/a;->a(Lcom/tencent/mm/s/Kclz;)Z
 
     move-result v0
 
@@ -195,7 +195,7 @@
     invoke-virtual {v3, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
 
     :cond_7
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xp()Lcom/tencent/mm/s/p;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xp()Lcom/tencent/mm/s/Pclz;
 
     move-result-object v0
 
@@ -205,7 +205,7 @@
 
     if-nez v3, :cond_8
 
-    iget-object v0, v0, Lcom/tencent/mm/s/p;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v0, v0, Lcom/tencent/mm/s/Pclz;->aoD:Lcom/tencent/mm/sdk/g/d;
 
     const-string/jumbo v3, "BizKF"
 
@@ -304,7 +304,7 @@
 
     invoke-virtual {v0, v4, p2}, Lcom/tencent/mm/storage/q;->a(Ljava/lang/String;Lcom/tencent/mm/storage/k;)I
 
-    invoke-virtual {p0}, Lcom/tencent/mm/s/k;->wr()Z
+    invoke-virtual {p0}, Lcom/tencent/mm/s/Kclz;->wr()Z
 
     move-result v0
 
@@ -363,9 +363,9 @@
     invoke-virtual {v0, v3, v0, v4}, Lcom/tencent/mm/storage/s;->b(ILcom/tencent/mm/sdk/g/j;Ljava/lang/Object;)V
 
     :cond_b
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xq()Lcom/tencent/mm/s/l;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xq()Lcom/tencent/mm/s/Lclz;
 
-    invoke-static {v4}, Lcom/tencent/mm/s/l;->gC(Ljava/lang/String;)Ljava/util/List;
+    invoke-static {v4}, Lcom/tencent/mm/s/Lclz;->gC(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v6
 
@@ -384,7 +384,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/s/m;->gK(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/s/Mclz;->gK(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -396,7 +396,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/s/f;->l(Ljava/lang/String;Z)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/s/Fclz;->l(Ljava/lang/String;Z)V
 
     :cond_c
     if-eqz v6, :cond_d
@@ -415,11 +415,11 @@
     invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_6
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xq()Lcom/tencent/mm/s/l;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xq()Lcom/tencent/mm/s/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v4}, Lcom/tencent/mm/s/l;->gB(Ljava/lang/String;)V
+    invoke-virtual {v0, v4}, Lcom/tencent/mm/s/Lclz;->gB(Ljava/lang/String;)V
 
     if-eqz p1, :cond_6
 
@@ -481,7 +481,7 @@
     goto :goto_6
 .end method
 
-.method public static a(Lcom/tencent/mm/s/k;Landroid/app/Activity;Lcom/tencent/mm/storage/k;ZLjava/lang/Runnable;)V
+.method public static a(Lcom/tencent/mm/s/Kclz;Landroid/app/Activity;Lcom/tencent/mm/storage/k;ZLjava/lang/Runnable;)V
     .locals 11
 
     .prologue
@@ -563,7 +563,7 @@
 
     .line 59
     :cond_4
-    invoke-virtual {p0}, Lcom/tencent/mm/s/k;->ws()Z
+    invoke-virtual {p0}, Lcom/tencent/mm/s/Kclz;->ws()Z
 
     move-result v0
 
@@ -606,7 +606,7 @@
 
     move-object v5, p4
 
-    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/ui/tools/c$1;-><init>(Lcom/tencent/mm/s/k;Landroid/app/Activity;Lcom/tencent/mm/storage/k;ZLjava/lang/Runnable;)V
+    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/ui/tools/c$1;-><init>(Lcom/tencent/mm/s/Kclz;Landroid/app/Activity;Lcom/tencent/mm/storage/k;ZLjava/lang/Runnable;)V
 
     const/4 v7, 0x0
 

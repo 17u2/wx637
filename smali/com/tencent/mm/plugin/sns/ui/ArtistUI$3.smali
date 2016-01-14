@@ -149,7 +149,7 @@
     .line 139
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI$3;->gqu:Lcom/tencent/mm/plugin/sns/ui/ArtistUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->f(Lcom/tencent/mm/plugin/sns/ui/ArtistUI;)Lcom/tencent/mm/q/j;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->f(Lcom/tencent/mm/plugin/sns/ui/ArtistUI;)Lcom/tencent/mm/q/Jclz;
 
     move-result-object v0
 
@@ -175,7 +175,7 @@
 
     const/4 v1, 0x1
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/e;->af(Z)Lcom/tencent/mm/q/j;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/e;->af(Z)Lcom/tencent/mm/q/Jclz;
 
     .line 143
     :cond_0

@@ -22,13 +22,13 @@
 
 .field final synthetic fmK:Lcom/tencent/mm/storage/k;
 
-.field final synthetic kjy:Lcom/tencent/mm/s/k;
+.field final synthetic kjy:Lcom/tencent/mm/s/Kclz;
 
 .field final synthetic kjz:Lcom/tencent/mm/ui/chatting/ChattingUI$a$56;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a$56;Ljava/lang/String;Lcom/tencent/mm/storage/k;Lcom/tencent/mm/s/k;)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a$56;Ljava/lang/String;Lcom/tencent/mm/storage/k;Lcom/tencent/mm/s/Kclz;)V
     .locals 1
 
     .prologue
@@ -39,7 +39,7 @@
 
     iput-object p3, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$56$1;->fmK:Lcom/tencent/mm/storage/k;
 
-    iput-object p4, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$56$1;->kjy:Lcom/tencent/mm/s/k;
+    iput-object p4, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$56$1;->kjy:Lcom/tencent/mm/s/Kclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -122,9 +122,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$56;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$56$1;->kjy:Lcom/tencent/mm/s/k;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$56$1;->kjy:Lcom/tencent/mm/s/Kclz;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/s/k;)Lcom/tencent/mm/s/k;
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/s/Kclz;)Lcom/tencent/mm/s/Kclz;
 
     .line 1945
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$56$1;->kjz:Lcom/tencent/mm/ui/chatting/ChattingUI$a$56;

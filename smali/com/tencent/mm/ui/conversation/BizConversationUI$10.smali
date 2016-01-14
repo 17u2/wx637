@@ -88,11 +88,11 @@
     move-result v5
 
     .line 682
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xq()Lcom/tencent/mm/s/l;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xq()Lcom/tencent/mm/s/Lclz;
 
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$10;->dJp:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/s/l;->gD(Ljava/lang/String;)Ljava/util/List;
+    invoke-static {v0}, Lcom/tencent/mm/s/Lclz;->gD(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
@@ -231,7 +231,7 @@
 
     .line 701
     :cond_3
-    invoke-static {v0}, Lcom/tencent/mm/s/m;->gK(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/s/Mclz;->gK(Ljava/lang/String;)Z
 
     move-result v8
 

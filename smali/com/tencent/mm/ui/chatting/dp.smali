@@ -122,13 +122,13 @@
 
     move-result-object v1
 
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v2
 
     iget-object v3, v1, Lcom/tencent/mm/ak/q$a;->bXZ:Lcom/tencent/mm/ak/b;
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/q/l;->c(Lcom/tencent/mm/q/j;)V
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 
     invoke-virtual {v1}, Lcom/tencent/mm/ak/q$a;->lH()V
 
@@ -337,13 +337,13 @@
     invoke-static {v0, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 69
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     const/16 v7, 0x6d
 
-    invoke-virtual {v0, v7}, Lcom/tencent/mm/q/l;->cancel(I)V
+    invoke-virtual {v0, v7}, Lcom/tencent/mm/q/Lclz;->cancel(I)V
 
     .line 70
     invoke-static {v3}, Lcom/tencent/mm/ui/chatting/gallery/d;->ap(Lcom/tencent/mm/storage/ad;)Lcom/tencent/mm/z/d;

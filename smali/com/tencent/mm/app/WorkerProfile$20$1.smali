@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/app/WorkerProfile$20;->a(Lcom/tencent/mm/q/l;Z)V
+    value = Lcom/tencent/mm/app/WorkerProfile$20;->a(Lcom/tencent/mm/q/Lclz;Z)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

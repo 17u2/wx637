@@ -82,7 +82,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ac/g$1$1;-><init>(Lcom/tencent/mm/ac/g$1;)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/modelsimple/ah;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/d;)I
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/modelsimple/ah;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/q/Dclz;)I
 
     .line 376
     return-void

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/s$a;
+.implements Lcom/tencent/mm/q/Sclz$a;
 
 
 # annotations
@@ -43,14 +43,14 @@
 
 
 # virtual methods
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/a;Lcom/tencent/mm/q/j;)I
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Aclz;Lcom/tencent/mm/q/Jclz;)I
     .locals 4
 
     .prologue
     const/4 v3, 0x0
 
     .line 222
-    invoke-virtual {p5}, Lcom/tencent/mm/q/j;->getType()I
+    invoke-virtual {p5}, Lcom/tencent/mm/q/Jclz;->getType()I
 
     move-result v0
 
@@ -173,9 +173,9 @@
     iput-object p3, v1, Lcom/tencent/mm/w/c$a;->awX:Ljava/lang/String;
 
     .line 243
-    iget-object v0, p4, Lcom/tencent/mm/q/a;->bxJ:Lcom/tencent/mm/q/a$c;
+    iget-object v0, p4, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/QXclz;
 

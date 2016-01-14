@@ -625,11 +625,11 @@
     iput-object v5, p0, Lcom/tencent/mm/e/b;->bin:Ljava/lang/String;
 
     .line 240
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-boolean v0, v0, Lcom/tencent/mm/q/l;->foreground:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/q/Lclz;->foreground:Z
 
     if-eqz v0, :cond_a
 

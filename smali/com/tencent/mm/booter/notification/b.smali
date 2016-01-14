@@ -2232,7 +2232,7 @@
 
     if-eqz v5, :cond_40
 
-    invoke-static {v12}, Lcom/tencent/mm/s/m;->gK(Ljava/lang/String;)Z
+    invoke-static {v12}, Lcom/tencent/mm/s/Mclz;->gK(Ljava/lang/String;)Z
 
     move-result v5
 
@@ -2240,7 +2240,7 @@
 
     const/4 v7, 0x1
 
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xs()Lcom/tencent/mm/s/e;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xs()Lcom/tencent/mm/s/Eclz;
 
     move-result-object v5
 
@@ -2252,17 +2252,17 @@
 
     move-wide/from16 v0, v24
 
-    invoke-virtual {v5, v0, v1}, Lcom/tencent/mm/s/e;->O(J)Lcom/tencent/mm/s/d;
+    invoke-virtual {v5, v0, v1}, Lcom/tencent/mm/s/Eclz;->O(J)Lcom/tencent/mm/s/Dclz;
 
     move-result-object v5
 
-    invoke-virtual {v5}, Lcom/tencent/mm/s/d;->wf()Z
+    invoke-virtual {v5}, Lcom/tencent/mm/s/Dclz;->wf()Z
 
     move-result v11
 
     if-eqz v11, :cond_3e
 
-    iget-object v8, v5, Lcom/tencent/mm/s/d;->field_chatName:Ljava/lang/String;
+    iget-object v8, v5, Lcom/tencent/mm/s/Dclz;->field_chatName:Ljava/lang/String;
 
     invoke-static {v8}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -2351,7 +2351,7 @@
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v5, v5, Lcom/tencent/mm/s/d;->field_chatName:Ljava/lang/String;
+    iget-object v5, v5, Lcom/tencent/mm/s/Dclz;->field_chatName:Ljava/lang/String;
 
     invoke-virtual {v8, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2378,7 +2378,7 @@
     goto :goto_25
 
     :cond_3e
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xu()Lcom/tencent/mm/s/j;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xu()Lcom/tencent/mm/s/Jclz;
 
     move-result-object v5
 
@@ -2386,13 +2386,13 @@
 
     iget-object v11, v0, Lcom/tencent/mm/d/b/ba;->field_bizChatUserId:Ljava/lang/String;
 
-    invoke-virtual {v5, v11}, Lcom/tencent/mm/s/j;->gp(Ljava/lang/String;)Lcom/tencent/mm/s/i;
+    invoke-virtual {v5, v11}, Lcom/tencent/mm/s/Jclz;->gp(Ljava/lang/String;)Lcom/tencent/mm/s/Iclz;
 
     move-result-object v5
 
     if-eqz v5, :cond_53
 
-    iget-object v8, v5, Lcom/tencent/mm/s/i;->field_userName:Ljava/lang/String;
+    iget-object v8, v5, Lcom/tencent/mm/s/Iclz;->field_userName:Ljava/lang/String;
 
     invoke-static {v8}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -2411,7 +2411,7 @@
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v5, v5, Lcom/tencent/mm/s/i;->field_userName:Ljava/lang/String;
+    iget-object v5, v5, Lcom/tencent/mm/s/Iclz;->field_userName:Ljava/lang/String;
 
     invoke-virtual {v8, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

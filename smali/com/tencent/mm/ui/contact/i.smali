@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/s/l$a;
+.implements Lcom/tencent/mm/s/Lclz$a;
 
 
 # annotations
@@ -118,7 +118,7 @@
     const/4 v1, 0x0
 
     .line 48
-    invoke-static {}, Lcom/tencent/mm/s/ai;->xq()Lcom/tencent/mm/s/l;
+    invoke-static {}, Lcom/tencent/mm/s/AIclz;->xq()Lcom/tencent/mm/s/Lclz;
 
     move-result-object v0
 
@@ -196,7 +196,7 @@
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-static {}, Lcom/tencent/mm/s/l;->wQ()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/s/Lclz;->wQ()Ljava/lang/String;
 
     move-result-object v4
 
@@ -218,7 +218,7 @@
 
     new-array v4, v1, [Ljava/lang/String;
 
-    invoke-virtual {v0, v3, v4}, Lcom/tencent/mm/s/l;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v0, v3, v4}, Lcom/tencent/mm/s/Lclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -400,12 +400,12 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/s/l$a$b;)V
+.method public final a(Lcom/tencent/mm/s/Lclz$a$b;)V
     .locals 2
 
     .prologue
     .line 74
-    iget-object v0, p1, Lcom/tencent/mm/s/l$a$b;->bBE:Lcom/tencent/mm/s/k;
+    iget-object v0, p1, Lcom/tencent/mm/s/Lclz$a$b;->bBE:Lcom/tencent/mm/s/Kclz;
 
     if-nez v0, :cond_0
 
@@ -415,9 +415,9 @@
 
     .line 77
     :cond_0
-    iget-object v0, p1, Lcom/tencent/mm/s/l$a$b;->bBE:Lcom/tencent/mm/s/k;
+    iget-object v0, p1, Lcom/tencent/mm/s/Lclz$a$b;->bBE:Lcom/tencent/mm/s/Kclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/s/k;->wr()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/s/Kclz;->wr()Z
 
     move-result v0
 
@@ -436,7 +436,7 @@
     :cond_1
     new-instance v0, Lcom/tencent/mm/ui/contact/i$1;
 
-    invoke-direct {v0, p0, p1}, Lcom/tencent/mm/ui/contact/i$1;-><init>(Lcom/tencent/mm/ui/contact/i;Lcom/tencent/mm/s/l$a$b;)V
+    invoke-direct {v0, p0, p1}, Lcom/tencent/mm/ui/contact/i$1;-><init>(Lcom/tencent/mm/ui/contact/i;Lcom/tencent/mm/s/Lclz$a$b;)V
 
     invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
 

@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public dmy:Lcom/tencent/mm/q/a;
+.field public dmy:Lcom/tencent/mm/q/Aclz;
 
 
 # direct methods

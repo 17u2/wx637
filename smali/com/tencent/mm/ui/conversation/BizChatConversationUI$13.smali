@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/s/c$a;
+.implements Lcom/tencent/mm/s/Cclz$a;
 
 
 # annotations
@@ -43,14 +43,14 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/s/c$a$b;)V
+.method public final a(Lcom/tencent/mm/s/Cclz$a$b;)V
     .locals 3
 
     .prologue
     .line 977
     if-eqz p1, :cond_0
 
-    iget-object v0, p1, Lcom/tencent/mm/s/c$a$b;->bzH:Lcom/tencent/mm/s/b;
+    iget-object v0, p1, Lcom/tencent/mm/s/Cclz$a$b;->bzH:Lcom/tencent/mm/s/Bclz;
 
     if-eqz v0, :cond_0
 
@@ -58,9 +58,9 @@
 
     move-result-object v0
 
-    iget-object v1, p1, Lcom/tencent/mm/s/c$a$b;->bzH:Lcom/tencent/mm/s/b;
+    iget-object v1, p1, Lcom/tencent/mm/s/Cclz$a$b;->bzH:Lcom/tencent/mm/s/Bclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/s/b;->field_brandUserName:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/s/Bclz;->field_brandUserName:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -82,7 +82,7 @@
 
     move-result-object v0
 
-    iget-wide v1, p1, Lcom/tencent/mm/s/c$a$b;->bzG:J
+    iget-wide v1, p1, Lcom/tencent/mm/s/Cclz$a$b;->bzG:J
 
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ui/conversation/a;->dE(J)V
 

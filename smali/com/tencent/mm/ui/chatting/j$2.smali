@@ -82,7 +82,7 @@
     .line 172
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/j$2;->kah:Lcom/tencent/mm/ui/chatting/j;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/chatting/j;->a(Lcom/tencent/mm/ui/chatting/j;Lcom/tencent/mm/q/j;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/chatting/j;->a(Lcom/tencent/mm/ui/chatting/j;Lcom/tencent/mm/q/Jclz;)V
 
     .line 173
     sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJN:Lcom/tencent/mm/pluginsdk/h$o;

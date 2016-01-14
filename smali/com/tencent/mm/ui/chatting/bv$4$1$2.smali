@@ -52,16 +52,16 @@
 
     .prologue
     .line 277
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/bv$4$1$2;->kem:Lcom/tencent/mm/app/plugin/voicereminder/a/a;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->c(Lcom/tencent/mm/q/j;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 
     .line 278
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -73,9 +73,9 @@
 
     iget-object v2, v2, Lcom/tencent/mm/ui/chatting/bv$4;->keh:Lcom/tencent/mm/ui/chatting/bv;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/bv;->bUB:Lcom/tencent/mm/q/d;
+    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/bv;->bUB:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 279
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/bv$4$1$2;->kel:Lcom/tencent/mm/ui/chatting/bv$4$1;
@@ -86,7 +86,7 @@
 
     const/4 v1, 0x0
 
-    iput-object v1, v0, Lcom/tencent/mm/ui/chatting/bv;->bUB:Lcom/tencent/mm/q/d;
+    iput-object v1, v0, Lcom/tencent/mm/ui/chatting/bv;->bUB:Lcom/tencent/mm/q/Dclz;
 
     .line 280
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/bv$4$1$2;->kel:Lcom/tencent/mm/ui/chatting/bv$4$1;

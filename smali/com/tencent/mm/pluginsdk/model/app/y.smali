@@ -18,46 +18,46 @@
     invoke-direct {p0}, Lcom/tencent/mm/pluginsdk/model/app/t;-><init>()V
 
     .line 23
-    new-instance v0, Lcom/tencent/mm/q/a$a;
+    new-instance v0, Lcom/tencent/mm/q/Aclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/q/Aclz$a;-><init>()V
 
     .line 24
     new-instance v1, Lcom/tencent/mm/protocal/b/OUclz;
 
     invoke-direct {v1}, Lcom/tencent/mm/protocal/b/OUclz;-><init>()V
 
-    iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
+    iput-object v1, v0, Lcom/tencent/mm/q/Aclz$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 25
     new-instance v1, Lcom/tencent/mm/protocal/b/OVclz;
 
     invoke-direct {v1}, Lcom/tencent/mm/protocal/b/OVclz;-><init>()V
 
-    iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
+    iput-object v1, v0, Lcom/tencent/mm/q/Aclz$a;->bxN:Lcom/tencent/mm/aq/a;
 
     .line 26
     const-string/jumbo v1, "/cgi-bin/micromsg-bin/getappsetting"
 
-    iput-object v1, v0, Lcom/tencent/mm/q/a$a;->uri:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/q/Aclz$a;->uri:Ljava/lang/String;
 
     .line 27
     const/16 v1, 0x18b
 
-    iput v1, v0, Lcom/tencent/mm/q/a$a;->bxK:I
+    iput v1, v0, Lcom/tencent/mm/q/Aclz$a;->bxK:I
 
     .line 28
-    iput v2, v0, Lcom/tencent/mm/q/a$a;->bxO:I
+    iput v2, v0, Lcom/tencent/mm/q/Aclz$a;->bxO:I
 
     .line 29
-    iput v2, v0, Lcom/tencent/mm/q/a$a;->bxP:I
+    iput v2, v0, Lcom/tencent/mm/q/Aclz$a;->bxP:I
 
     .line 31
-    invoke-virtual {v0}, Lcom/tencent/mm/q/a$a;->vl()Lcom/tencent/mm/q/a;
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Aclz$a;->vl()Lcom/tencent/mm/q/Aclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/y;->dmy:Lcom/tencent/mm/q/a;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/y;->dmy:Lcom/tencent/mm/q/Aclz;
 
     .line 32
     iput-object p1, p0, Lcom/tencent/mm/pluginsdk/model/app/y;->hMc:Ljava/util/List;
@@ -148,11 +148,11 @@
 
     .line 47
     :cond_2
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/y;->dmy:Lcom/tencent/mm/q/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/y;->dmy:Lcom/tencent/mm/q/Aclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a;->bxI:Lcom/tencent/mm/q/a$b;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxI:Lcom/tencent/mm/q/Aclz$b;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/a;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/OUclz;
 
@@ -185,15 +185,15 @@
     .prologue
     .line 91
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/y;->dmy:Lcom/tencent/mm/q/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/y;->dmy:Lcom/tencent/mm/q/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/a;->vn()Lcom/tencent/mm/protocal/Hclz$c;
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Aclz;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/q/a$b;
+    check-cast v0, Lcom/tencent/mm/q/Aclz$b;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/a$b;->tK()[B
+    invoke-virtual {v0}, Lcom/tencent/mm/q/Aclz$b;->tK()[B
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -313,11 +313,11 @@
 
     .line 61
     :cond_2
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/y;->dmy:Lcom/tencent/mm/q/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/y;->dmy:Lcom/tencent/mm/q/Aclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a;->bxJ:Lcom/tencent/mm/q/a$c;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/OVclz;
 
@@ -471,11 +471,11 @@
     .line 106
     :cond_0
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/y;->dmy:Lcom/tencent/mm/q/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/y;->dmy:Lcom/tencent/mm/q/Aclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/a;->bxJ:Lcom/tencent/mm/q/a$c;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/q/a$c;->x([B)I
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/q/Aclz$c;->x([B)I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

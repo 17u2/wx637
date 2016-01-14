@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/c;
+.implements Lcom/tencent/mm/q/Cclz;
 
 
 # direct methods
@@ -371,7 +371,7 @@
     goto/16 :goto_0
 .end method
 
-.method public b(Lcom/tencent/mm/protocal/b/AFclz;)Lcom/tencent/mm/q/c$a;
+.method public b(Lcom/tencent/mm/protocal/b/AFclz;)Lcom/tencent/mm/q/Cclz$a;
     .locals 12
 
     .prologue
@@ -639,9 +639,9 @@
     invoke-virtual {v2, v0, v1}, Lcom/tencent/mm/storage/ad;->s(J)V
 
     .line 103
-    new-instance v0, Lcom/tencent/mm/q/c$a;
+    new-instance v0, Lcom/tencent/mm/q/Cclz$a;
 
-    invoke-direct {v0, v2, v3}, Lcom/tencent/mm/q/c$a;-><init>(Lcom/tencent/mm/storage/ad;Z)V
+    invoke-direct {v0, v2, v3}, Lcom/tencent/mm/q/Cclz$a;-><init>(Lcom/tencent/mm/storage/ad;Z)V
 
     .line 109
     :goto_4
@@ -818,9 +818,9 @@
     invoke-virtual {v0, v8, v9, v2}, Lcom/tencent/mm/storage/ae;->b(JLcom/tencent/mm/storage/ad;)V
 
     .line 106
-    new-instance v0, Lcom/tencent/mm/q/c$a;
+    new-instance v0, Lcom/tencent/mm/q/Cclz$a;
 
-    invoke-direct {v0, v2, v4}, Lcom/tencent/mm/q/c$a;-><init>(Lcom/tencent/mm/storage/ad;Z)V
+    invoke-direct {v0, v2, v4}, Lcom/tencent/mm/q/Cclz$a;-><init>(Lcom/tencent/mm/storage/ad;Z)V
 
     goto/16 :goto_4
 

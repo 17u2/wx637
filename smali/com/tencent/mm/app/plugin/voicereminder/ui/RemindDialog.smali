@@ -200,11 +200,11 @@
     sput-boolean v0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->aoK:Z
 
     .line 232
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-boolean v0, v0, Lcom/tencent/mm/q/l;->foreground:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/q/Lclz;->foreground:Z
 
     if-eqz v0, :cond_1
 

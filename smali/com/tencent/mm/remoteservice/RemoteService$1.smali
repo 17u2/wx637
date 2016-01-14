@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/remoteservice/RemoteService$1;
-.super Lcom/tencent/mm/remoteservice/c$a;
+.super Lcom/tencent/mm/remoteservice/Cclz$a;
 .source "SourceFile"
 
 
@@ -26,7 +26,7 @@
     .line 41
     iput-object p1, p0, Lcom/tencent/mm/remoteservice/RemoteService$1;->jci:Lcom/tencent/mm/remoteservice/RemoteService;
 
-    invoke-direct {p0}, Lcom/tencent/mm/remoteservice/c$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/remoteservice/Cclz$a;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -40,7 +40,7 @@
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;Lcom/tencent/mm/remoteservice/b;)V
+.method public final a(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;Lcom/tencent/mm/remoteservice/Bclz;)V
     .locals 5
 
     .prologue
@@ -97,21 +97,21 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/remoteservice/a;
+    check-cast v0, Lcom/tencent/mm/remoteservice/Aclz;
 
     .line 58
     :goto_0
-    iput-object p4, v0, Lcom/tencent/mm/remoteservice/a;->jce:Lcom/tencent/mm/remoteservice/b;
+    iput-object p4, v0, Lcom/tencent/mm/remoteservice/Aclz;->jce:Lcom/tencent/mm/remoteservice/Bclz;
 
     .line 59
     iget-object v1, p0, Lcom/tencent/mm/remoteservice/RemoteService$1;->jci:Lcom/tencent/mm/remoteservice/RemoteService;
 
-    iput-object v1, v0, Lcom/tencent/mm/remoteservice/a;->jcd:Lcom/tencent/mm/remoteservice/RemoteService;
+    iput-object v1, v0, Lcom/tencent/mm/remoteservice/Aclz;->jcd:Lcom/tencent/mm/remoteservice/RemoteService;
 
     .line 60
     const/4 v1, 0x0
 
-    invoke-virtual {v0, p2, p3, v1}, Lcom/tencent/mm/remoteservice/a;->onCallback(Ljava/lang/String;Landroid/os/Bundle;Z)V
+    invoke-virtual {v0, p2, p3, v1}, Lcom/tencent/mm/remoteservice/Aclz;->onCallback(Ljava/lang/String;Landroid/os/Bundle;Z)V
 
     .line 65
     :goto_1
@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/remoteservice/a;
+    check-cast v0, Lcom/tencent/mm/remoteservice/Aclz;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

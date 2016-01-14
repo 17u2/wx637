@@ -54,7 +54,7 @@
     const/4 v3, 0x0
 
     .line 293
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -62,13 +62,13 @@
 
     const-string/jumbo v2, ""
 
-    invoke-virtual {v0, v1, v2, v3, v3}, Lcom/tencent/mm/q/l;->a(ILjava/lang/String;IZ)V
+    invoke-virtual {v0, v1, v2, v3, v3}, Lcom/tencent/mm/q/Lclz;->a(ILjava/lang/String;IZ)V
 
     .line 294
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->appenderFlush()V
 
     .line 295
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -82,7 +82,7 @@
 
     move-result v4
 
-    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/tencent/mm/q/l;->a(ILjava/lang/String;IZ)V
+    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/tencent/mm/q/Lclz;->a(ILjava/lang/String;IZ)V
 
     .line 296
     return-void

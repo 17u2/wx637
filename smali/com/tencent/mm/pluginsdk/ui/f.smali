@@ -537,7 +537,7 @@
 
     const v2, 0x7f0204c5
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/s/r;->b(Ljava/lang/String;Ljava/lang/String;I)Landroid/graphics/Bitmap;
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/s/Rclz;->b(Ljava/lang/String;Ljava/lang/String;I)Landroid/graphics/Bitmap;
 
     move-result-object v0
 

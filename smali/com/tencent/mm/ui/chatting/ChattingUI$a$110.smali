@@ -1635,7 +1635,7 @@
     goto :goto_d
 
     :cond_28
-    invoke-static {}, Lcom/tencent/mm/s/m;->wS()Ljava/util/List;
+    invoke-static {}, Lcom/tencent/mm/s/Mclz;->wS()Ljava/util/List;
 
     move-result-object v2
 
@@ -1728,7 +1728,7 @@
     goto/16 :goto_d
 
     :cond_2d
-    invoke-static {}, Lcom/tencent/mm/s/m;->wV()Ljava/util/List;
+    invoke-static {}, Lcom/tencent/mm/s/Mclz;->wV()Ljava/util/List;
 
     move-result-object v3
 
@@ -1783,7 +1783,7 @@
     goto/16 :goto_d
 
     :cond_30
-    invoke-static {}, Lcom/tencent/mm/s/m;->wX()Ljava/util/List;
+    invoke-static {}, Lcom/tencent/mm/s/Mclz;->wX()Ljava/util/List;
 
     move-result-object v3
 

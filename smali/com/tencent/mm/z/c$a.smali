@@ -15,7 +15,7 @@
 
 
 # virtual methods
-.method public abstract a(JIILjava/lang/Object;IILcom/tencent/mm/q/j;)V
+.method public abstract a(JIILjava/lang/Object;IILcom/tencent/mm/q/Jclz;)V
 .end method
 
 .method public abstract a(JJILjava/lang/Object;II)V

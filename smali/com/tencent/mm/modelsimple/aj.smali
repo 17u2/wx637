@@ -4,7 +4,7 @@
 
 
 # static fields
-.field private static ans:Lcom/tencent/mm/q/d;
+.field private static ans:Lcom/tencent/mm/q/Dclz;
 
 .field private static bTx:Z
 
@@ -21,7 +21,7 @@
     .line 20
     const/4 v0, 0x0
 
-    sput-object v0, Lcom/tencent/mm/modelsimple/aj;->ans:Lcom/tencent/mm/q/d;
+    sput-object v0, Lcom/tencent/mm/modelsimple/aj;->ans:Lcom/tencent/mm/q/Dclz;
 
     .line 21
     const/4 v0, 0x0
@@ -48,12 +48,12 @@
     return-void
 .end method
 
-.method static synthetic Cb()Lcom/tencent/mm/q/d;
+.method static synthetic Cb()Lcom/tencent/mm/q/Dclz;
     .locals 1
 
     .prologue
     .line 17
-    sget-object v0, Lcom/tencent/mm/modelsimple/aj;->ans:Lcom/tencent/mm/q/d;
+    sget-object v0, Lcom/tencent/mm/modelsimple/aj;->ans:Lcom/tencent/mm/q/Dclz;
 
     return-object v0
 .end method
@@ -181,7 +181,7 @@
 
     .line 52
     :cond_4
-    sget-object v1, Lcom/tencent/mm/modelsimple/aj;->ans:Lcom/tencent/mm/q/d;
+    sget-object v1, Lcom/tencent/mm/modelsimple/aj;->ans:Lcom/tencent/mm/q/Dclz;
 
     if-nez v1, :cond_5
 
@@ -190,19 +190,19 @@
 
     invoke-direct {v1, v0}, Lcom/tencent/mm/modelsimple/aj$1;-><init>(Ljava/lang/String;)V
 
-    sput-object v1, Lcom/tencent/mm/modelsimple/aj;->ans:Lcom/tencent/mm/q/d;
+    sput-object v1, Lcom/tencent/mm/modelsimple/aj;->ans:Lcom/tencent/mm/q/Dclz;
 
     .line 68
     :cond_5
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v1
 
     const/16 v2, 0x9d
 
-    sget-object v3, Lcom/tencent/mm/modelsimple/aj;->ans:Lcom/tencent/mm/q/d;
+    sget-object v3, Lcom/tencent/mm/modelsimple/aj;->ans:Lcom/tencent/mm/q/Dclz;
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/q/l;->a(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 69
     new-instance v1, Lcom/tencent/mm/p/l;
@@ -210,11 +210,11 @@
     invoke-direct {v1, v4, v0}, Lcom/tencent/mm/p/l;-><init>(ILjava/lang/String;)V
 
     .line 70
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 71
     sput-boolean v4, Lcom/tencent/mm/modelsimple/aj;->bTx:Z

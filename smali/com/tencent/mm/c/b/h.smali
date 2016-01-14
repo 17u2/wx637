@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lcom/tencent/mm/compatible/b/d$a;
-.implements Lcom/tencent/mm/q/g;
+.implements Lcom/tencent/mm/q/Gclz;
 
 
 # annotations
@@ -42,9 +42,9 @@
 
 .field private aqS:Lcom/tencent/mm/compatible/b/b$a;
 
-.field protected aqT:Lcom/tencent/mm/q/g$b;
+.field protected aqT:Lcom/tencent/mm/q/Gclz$b;
 
-.field protected aqU:Lcom/tencent/mm/q/g$a;
+.field protected aqU:Lcom/tencent/mm/q/Gclz$a;
 
 .field private aqV:Lcom/tencent/mm/sdk/platformtools/ag;
 
@@ -103,7 +103,7 @@
     iput-object v0, p0, Lcom/tencent/mm/c/b/h;->aqS:Lcom/tencent/mm/compatible/b/b$a;
 
     .line 76
-    iput-object v3, p0, Lcom/tencent/mm/c/b/h;->aqU:Lcom/tencent/mm/q/g$a;
+    iput-object v3, p0, Lcom/tencent/mm/c/b/h;->aqU:Lcom/tencent/mm/q/Gclz$a;
 
     .line 125
     new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
@@ -141,23 +141,23 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/q/g$a;)V
+.method public final a(Lcom/tencent/mm/q/Gclz$a;)V
     .locals 0
 
     .prologue
     .line 387
-    iput-object p1, p0, Lcom/tencent/mm/c/b/h;->aqU:Lcom/tencent/mm/q/g$a;
+    iput-object p1, p0, Lcom/tencent/mm/c/b/h;->aqU:Lcom/tencent/mm/q/Gclz$a;
 
     .line 388
     return-void
 .end method
 
-.method public final a(Lcom/tencent/mm/q/g$b;)V
+.method public final a(Lcom/tencent/mm/q/Gclz$b;)V
     .locals 0
 
     .prologue
     .line 392
-    iput-object p1, p0, Lcom/tencent/mm/c/b/h;->aqT:Lcom/tencent/mm/q/g$b;
+    iput-object p1, p0, Lcom/tencent/mm/c/b/h;->aqT:Lcom/tencent/mm/q/Gclz$b;
 
     .line 393
     return-void
@@ -241,7 +241,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/c/b/h;->aqG:Lcom/tencent/mm/c/b/a;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/c/b/a;->a(Lcom/tencent/mm/q/g$a;)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/c/b/a;->a(Lcom/tencent/mm/q/Gclz$a;)V
 
     .line 376
     :cond_1

@@ -102,16 +102,16 @@
 
     iget-object v5, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI$6;->jZo:Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;
 
-    invoke-static {v5}, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->m(Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;)Lcom/tencent/mm/q/e;
+    invoke-static {v5}, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->m(Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;)Lcom/tencent/mm/q/Eclz;
 
     move-result-object v5
 
-    invoke-direct {v1, v2, v3, v4, v5}, Lcom/tencent/mm/pluginsdk/model/app/v;-><init>(JLjava/lang/String;Lcom/tencent/mm/q/e;)V
+    invoke-direct {v1, v2, v3, v4, v5}, Lcom/tencent/mm/pluginsdk/model/app/v;-><init>(JLjava/lang/String;Lcom/tencent/mm/q/Eclz;)V
 
     invoke-static {v0, v1}, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->a(Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;Lcom/tencent/mm/pluginsdk/model/app/v;)Lcom/tencent/mm/pluginsdk/model/app/v;
 
     .line 467
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -121,7 +121,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 468
     return-void

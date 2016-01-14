@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/q/d;
+.implements Lcom/tencent/mm/q/Dclz;
 
 
 # annotations
@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
     .locals 3
 
     .prologue
@@ -74,14 +74,14 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactAddUI$2;->kza:Lcom/tencent/mm/ui/friend/FindMContactAddUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->o(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/q/d;
+    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->o(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/q/Dclz;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
     .line 354
-    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;
+    invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
@@ -89,16 +89,16 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/friend/FindMContactAddUI$2;->kza:Lcom/tencent/mm/ui/friend/FindMContactAddUI;
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->o(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/q/d;
+    invoke-static {v2}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->o(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/q/Dclz;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/l;->b(ILcom/tencent/mm/q/d;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 355
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactAddUI$2;->kza:Lcom/tencent/mm/ui/friend/FindMContactAddUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->p(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/q/d;
+    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->p(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/q/Dclz;
 
     .line 358
     :cond_1

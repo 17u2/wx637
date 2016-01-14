@@ -381,7 +381,7 @@
     invoke-interface {p1, v1, v0, v4, v2}, Landroid/view/ContextMenu;->add(IIILjava/lang/CharSequence;)Landroid/view/MenuItem;
 
     .line 306
-    invoke-static {}, Lcom/tencent/mm/s/m;->wT()Z
+    invoke-static {}, Lcom/tencent/mm/s/Mclz;->wT()Z
 
     move-result v0
 

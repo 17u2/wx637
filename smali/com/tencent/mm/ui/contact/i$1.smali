@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/contact/i;->a(Lcom/tencent/mm/s/l$a$b;)V
+    value = Lcom/tencent/mm/ui/contact/i;->a(Lcom/tencent/mm/s/Lclz$a$b;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic ksq:Lcom/tencent/mm/s/l$a$b;
+.field final synthetic ksq:Lcom/tencent/mm/s/Lclz$a$b;
 
 .field final synthetic ksr:Lcom/tencent/mm/ui/contact/i;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/contact/i;Lcom/tencent/mm/s/l$a$b;)V
+.method constructor <init>(Lcom/tencent/mm/ui/contact/i;Lcom/tencent/mm/s/Lclz$a$b;)V
     .locals 1
 
     .prologue
     .line 82
     iput-object p1, p0, Lcom/tencent/mm/ui/contact/i$1;->ksr:Lcom/tencent/mm/ui/contact/i;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/contact/i$1;->ksq:Lcom/tencent/mm/s/l$a$b;
+    iput-object p2, p0, Lcom/tencent/mm/ui/contact/i$1;->ksq:Lcom/tencent/mm/s/Lclz$a$b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -60,9 +60,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/contact/i$1;->ksq:Lcom/tencent/mm/s/l$a$b;
+    iget-object v1, p0, Lcom/tencent/mm/ui/contact/i$1;->ksq:Lcom/tencent/mm/s/Lclz$a$b;
 
-    iget-object v1, v1, Lcom/tencent/mm/s/l$a$b;->bBD:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/s/Lclz$a$b;->bBD:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
 
@@ -95,9 +95,9 @@
 
     move-result-object v1
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/contact/i$1;->ksq:Lcom/tencent/mm/s/l$a$b;
+    iget-object v2, p0, Lcom/tencent/mm/ui/contact/i$1;->ksq:Lcom/tencent/mm/s/Lclz$a$b;
 
-    iget-object v2, v2, Lcom/tencent/mm/s/l$a$b;->bBD:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/s/Lclz$a$b;->bBD:Ljava/lang/String;
 
     invoke-interface {v1, v2}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
@@ -134,9 +134,9 @@
 
     const/4 v3, 0x0
 
-    iget-object v4, p0, Lcom/tencent/mm/ui/contact/i$1;->ksq:Lcom/tencent/mm/s/l$a$b;
+    iget-object v4, p0, Lcom/tencent/mm/ui/contact/i$1;->ksq:Lcom/tencent/mm/s/Lclz$a$b;
 
-    iget-object v4, v4, Lcom/tencent/mm/s/l$a$b;->bBD:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/s/Lclz$a$b;->bBD:Ljava/lang/String;
 
     aput-object v4, v2, v3
 
@@ -149,9 +149,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/contact/i$1;->ksq:Lcom/tencent/mm/s/l$a$b;
+    iget-object v1, p0, Lcom/tencent/mm/ui/contact/i$1;->ksq:Lcom/tencent/mm/s/Lclz$a$b;
 
-    iget-object v1, v1, Lcom/tencent/mm/s/l$a$b;->bBD:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/s/Lclz$a$b;->bBD:Ljava/lang/String;
 
     invoke-interface {v0, v1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
@@ -175,9 +175,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/contact/i$1;->ksq:Lcom/tencent/mm/s/l$a$b;
+    iget-object v1, p0, Lcom/tencent/mm/ui/contact/i$1;->ksq:Lcom/tencent/mm/s/Lclz$a$b;
 
-    iget-object v1, v1, Lcom/tencent/mm/s/l$a$b;->bBD:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/s/Lclz$a$b;->bBD:Ljava/lang/String;
 
     invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 

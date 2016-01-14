@@ -258,7 +258,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/model/b;->gOa:Lcom/tencent/mm/plugin/talkroom/model/d;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/q/c$b;->a(Ljava/lang/Object;Lcom/tencent/mm/q/c;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/q/Cclz$b;->a(Ljava/lang/Object;Lcom/tencent/mm/q/Cclz;)V
 
     .line 123
     iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/model/b;->fAO:Lcom/tencent/mm/network/m;
@@ -314,7 +314,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/q/c$b;->W(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcom/tencent/mm/q/Cclz$b;->W(Ljava/lang/Object;)V
 
     .line 136
     iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/model/b;->fAO:Lcom/tencent/mm/network/m;

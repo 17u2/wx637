@@ -4,7 +4,7 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/tencent/mm/q/g$a;)V
+.method public abstract a(Lcom/tencent/mm/q/Gclz$a;)V
 .end method
 
 .method public abstract bm(Ljava/lang/String;)Z
