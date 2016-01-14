@@ -259,14 +259,14 @@
     invoke-virtual {v2, v7, v0}, Lcom/tencent/mm/storage/h;->set(ILjava/lang/Object;)V
 
     .line 267
-    new-instance v2, Lcom/tencent/mm/protocal/b/ns;
+    new-instance v2, Lcom/tencent/mm/protocal/b/NSclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/ns;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/NSclz;-><init>()V
 
     .line 268
     const/16 v0, 0x8
 
-    iput v0, v2, Lcom/tencent/mm/protocal/b/ns;->iAx:I
+    iput v0, v2, Lcom/tencent/mm/protocal/b/NSclz;->iAx:I
 
     .line 269
     if-eqz p2, :cond_4
@@ -274,7 +274,7 @@
     move v0, v1
 
     :goto_3
-    iput v0, v2, Lcom/tencent/mm/protocal/b/ns;->iAy:I
+    iput v0, v2, Lcom/tencent/mm/protocal/b/NSclz;->iAy:I
 
     .line 270
     invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
@@ -292,18 +292,18 @@
     invoke-virtual {v0, v4}, Lcom/tencent/mm/ae/c;->b(Lcom/tencent/mm/ae/b$q;)V
 
     .line 271
-    new-instance v0, Lcom/tencent/mm/protocal/b/ns;
+    new-instance v0, Lcom/tencent/mm/protocal/b/NSclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/ns;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/NSclz;-><init>()V
 
     .line 272
-    iput v7, v0, Lcom/tencent/mm/protocal/b/ns;->iAx:I
+    iput v7, v0, Lcom/tencent/mm/protocal/b/NSclz;->iAx:I
 
     .line 273
     if-eqz p1, :cond_5
 
     :goto_4
-    iput v1, v2, Lcom/tencent/mm/protocal/b/ns;->iAy:I
+    iput v1, v2, Lcom/tencent/mm/protocal/b/NSclz;->iAy:I
 
     .line 274
     invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
@@ -1178,13 +1178,13 @@
 
     move-result v0
 
-    new-instance v3, Lcom/tencent/mm/protocal/b/ns;
+    new-instance v3, Lcom/tencent/mm/protocal/b/NSclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/ns;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/NSclz;-><init>()V
 
-    iput v1, v3, Lcom/tencent/mm/protocal/b/ns;->iAx:I
+    iput v1, v3, Lcom/tencent/mm/protocal/b/NSclz;->iAx:I
 
-    iput v0, v3, Lcom/tencent/mm/protocal/b/ns;->iAy:I
+    iput v0, v3, Lcom/tencent/mm/protocal/b/NSclz;->iAy:I
 
     invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
 

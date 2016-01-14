@@ -764,13 +764,13 @@
 
     if-ne v4, v1, :cond_1
 
-    iget-object v4, v0, Lcom/tencent/mm/ui/e/h$b;->kAI:Lcom/tencent/mm/protocal/b/fr;
+    iget-object v4, v0, Lcom/tencent/mm/ui/e/h$b;->kAI:Lcom/tencent/mm/protocal/b/FRclz;
 
     if-eqz v4, :cond_1
 
-    iget-object v4, v0, Lcom/tencent/mm/ui/e/h$b;->kAI:Lcom/tencent/mm/protocal/b/fr;
+    iget-object v4, v0, Lcom/tencent/mm/ui/e/h$b;->kAI:Lcom/tencent/mm/protocal/b/FRclz;
 
-    iget-object v4, v4, Lcom/tencent/mm/protocal/b/fr;->iqu:Ljava/util/LinkedList;
+    iget-object v4, v4, Lcom/tencent/mm/protocal/b/FRclz;->iqu:Ljava/util/LinkedList;
 
     invoke-virtual {v4}, Ljava/util/LinkedList;->size()I
 
@@ -778,9 +778,9 @@
 
     if-lez v4, :cond_1
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/e/h$b;->kAI:Lcom/tencent/mm/protocal/b/fr;
+    iget-object v0, v0, Lcom/tencent/mm/ui/e/h$b;->kAI:Lcom/tencent/mm/protocal/b/FRclz;
 
-    sput-object v0, Lcom/tencent/mm/plugin/search/ui/a/m;->fLF:Lcom/tencent/mm/protocal/b/fr;
+    sput-object v0, Lcom/tencent/mm/plugin/search/ui/a/m;->fLF:Lcom/tencent/mm/protocal/b/FRclz;
 
     .line 151
     :cond_2

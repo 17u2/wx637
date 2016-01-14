@@ -203,9 +203,9 @@
     goto :goto_1
 
     :cond_2
-    new-instance v3, Lcom/tencent/mm/protocal/b/af;
+    new-instance v3, Lcom/tencent/mm/protocal/b/AFclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/af;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/AFclz;-><init>()V
 
     new-instance v4, Lcom/tencent/mm/protocal/b/ajz;
 
@@ -219,11 +219,11 @@
 
     move-result-object v4
 
-    iput-object v4, v3, Lcom/tencent/mm/protocal/b/af;->ikv:Lcom/tencent/mm/protocal/b/ajz;
+    iput-object v4, v3, Lcom/tencent/mm/protocal/b/AFclz;->ikv:Lcom/tencent/mm/protocal/b/ajz;
 
     const/4 v4, 0x2
 
-    iput v4, v3, Lcom/tencent/mm/protocal/b/af;->cio:I
+    iput v4, v3, Lcom/tencent/mm/protocal/b/AFclz;->cio:I
 
     new-instance v4, Lcom/tencent/mm/protocal/b/ajy;
 
@@ -237,7 +237,7 @@
 
     move-result-object v4
 
-    iput-object v4, v3, Lcom/tencent/mm/protocal/b/af;->ikz:Lcom/tencent/mm/protocal/b/ajy;
+    iput-object v4, v3, Lcom/tencent/mm/protocal/b/AFclz;->ikz:Lcom/tencent/mm/protocal/b/ajy;
 
     const/4 v4, 0x0
 
@@ -247,7 +247,7 @@
 
     move-result v4
 
-    iput v4, v3, Lcom/tencent/mm/protocal/b/af;->ikw:I
+    iput v4, v3, Lcom/tencent/mm/protocal/b/AFclz;->ikw:I
 
     const/4 v4, 0x1
 
@@ -257,7 +257,7 @@
 
     move-result v4
 
-    iput v4, v3, Lcom/tencent/mm/protocal/b/af;->iky:I
+    iput v4, v3, Lcom/tencent/mm/protocal/b/AFclz;->iky:I
 
     new-instance v4, Lcom/tencent/mm/protocal/b/ajz;
 
@@ -271,7 +271,7 @@
 
     move-result-object v2
 
-    iput-object v2, v3, Lcom/tencent/mm/protocal/b/af;->ikx:Lcom/tencent/mm/protocal/b/ajz;
+    iput-object v2, v3, Lcom/tencent/mm/protocal/b/AFclz;->ikx:Lcom/tencent/mm/protocal/b/ajz;
 
     sget-object v2, Lcom/tencent/mm/ac/n;->bOH:Ljava/util/ArrayList;
 

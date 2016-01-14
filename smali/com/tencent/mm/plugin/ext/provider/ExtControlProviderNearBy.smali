@@ -47,7 +47,7 @@
 
 .field private dwQ:Ljava/util/concurrent/CountDownLatch;
 
-.field private dwR:Lcom/tencent/mm/protocal/b/zn;
+.field private dwR:Lcom/tencent/mm/protocal/b/ZNclz;
 
 .field private dwS:Z
 
@@ -244,20 +244,20 @@
     invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 363
-    invoke-direct {p0, v0}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->ni(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/zn;
+    invoke-direct {p0, v0}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->ni(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/ZNclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->dwR:Lcom/tencent/mm/protocal/b/zn;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->dwR:Lcom/tencent/mm/protocal/b/ZNclz;
 
     .line 364
-    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->dwR:Lcom/tencent/mm/protocal/b/zn;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->dwR:Lcom/tencent/mm/protocal/b/ZNclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->dwR:Lcom/tencent/mm/protocal/b/zn;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->dwR:Lcom/tencent/mm/protocal/b/ZNclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/zn;->dRj:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ZNclz;->dRj:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
@@ -270,9 +270,9 @@
 
     const/4 v3, 0x0
 
-    iget-object v4, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->dwR:Lcom/tencent/mm/protocal/b/zn;
+    iget-object v4, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->dwR:Lcom/tencent/mm/protocal/b/ZNclz;
 
-    iget-object v4, v4, Lcom/tencent/mm/protocal/b/zn;->iiZ:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/protocal/b/ZNclz;->iiZ:Ljava/lang/String;
 
     aput-object v4, v2, v3
 
@@ -284,25 +284,25 @@
 
     const/4 v3, 0x2
 
-    iget-object v4, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->dwR:Lcom/tencent/mm/protocal/b/zn;
+    iget-object v4, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->dwR:Lcom/tencent/mm/protocal/b/ZNclz;
 
-    iget-object v4, v4, Lcom/tencent/mm/protocal/b/zn;->iIV:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/protocal/b/ZNclz;->iIV:Ljava/lang/String;
 
     aput-object v4, v2, v3
 
     const/4 v3, 0x3
 
-    iget-object v4, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->dwR:Lcom/tencent/mm/protocal/b/zn;
+    iget-object v4, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->dwR:Lcom/tencent/mm/protocal/b/ZNclz;
 
-    iget-object v4, v4, Lcom/tencent/mm/protocal/b/zn;->bEq:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/protocal/b/ZNclz;->bEq:Ljava/lang/String;
 
     aput-object v4, v2, v3
 
     const/4 v3, 0x4
 
-    iget-object v4, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->dwR:Lcom/tencent/mm/protocal/b/zn;
+    iget-object v4, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->dwR:Lcom/tencent/mm/protocal/b/ZNclz;
 
-    iget v4, v4, Lcom/tencent/mm/protocal/b/zn;->bEn:I
+    iget v4, v4, Lcom/tencent/mm/protocal/b/ZNclz;->bEn:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -367,7 +367,7 @@
     return-object p1
 .end method
 
-.method private a(Lcom/tencent/mm/protocal/b/zn;)V
+.method private a(Lcom/tencent/mm/protocal/b/ZNclz;)V
     .locals 6
 
     .prologue
@@ -376,7 +376,7 @@
     .line 260
     if-eqz p1, :cond_0
 
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/zn;->dRj:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/ZNclz;->dRj:Ljava/lang/String;
 
     if-nez v0, :cond_2
 
@@ -397,12 +397,12 @@
     :cond_2
     iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->dwO:Ljava/util/Set;
 
-    iget-object v1, p1, Lcom/tencent/mm/protocal/b/zn;->dRj:Ljava/lang/String;
+    iget-object v1, p1, Lcom/tencent/mm/protocal/b/ZNclz;->dRj:Ljava/lang/String;
 
     invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     .line 266
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/zn;->dRj:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/ZNclz;->dRj:Ljava/lang/String;
 
     const/4 v1, -0x1
 
@@ -473,7 +473,7 @@
     :cond_3
     iget-object v2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->dwO:Ljava/util/Set;
 
-    iget-object v3, p1, Lcom/tencent/mm/protocal/b/zn;->dRj:Ljava/lang/String;
+    iget-object v3, p1, Lcom/tencent/mm/protocal/b/ZNclz;->dRj:Ljava/lang/String;
 
     invoke-interface {v2, v3}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
 
@@ -484,7 +484,7 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    iget-object v4, p1, Lcom/tencent/mm/protocal/b/zn;->iiZ:Ljava/lang/String;
+    iget-object v4, p1, Lcom/tencent/mm/protocal/b/ZNclz;->iiZ:Ljava/lang/String;
 
     aput-object v4, v3, v5
 
@@ -494,19 +494,19 @@
 
     const/4 v0, 0x2
 
-    iget-object v4, p1, Lcom/tencent/mm/protocal/b/zn;->iIV:Ljava/lang/String;
+    iget-object v4, p1, Lcom/tencent/mm/protocal/b/ZNclz;->iIV:Ljava/lang/String;
 
     aput-object v4, v3, v0
 
     const/4 v0, 0x3
 
-    iget-object v4, p1, Lcom/tencent/mm/protocal/b/zn;->bEq:Ljava/lang/String;
+    iget-object v4, p1, Lcom/tencent/mm/protocal/b/ZNclz;->bEq:Ljava/lang/String;
 
     aput-object v4, v3, v0
 
     const/4 v0, 0x4
 
-    iget v4, p1, Lcom/tencent/mm/protocal/b/zn;->bEn:I
+    iget v4, p1, Lcom/tencent/mm/protocal/b/ZNclz;->bEn:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -629,9 +629,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/zn;
+    check-cast v0, Lcom/tencent/mm/protocal/b/ZNclz;
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->a(Lcom/tencent/mm/protocal/b/zn;)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->a(Lcom/tencent/mm/protocal/b/ZNclz;)V
 
     goto :goto_0
 
@@ -750,7 +750,7 @@
     return v0
 .end method
 
-.method private ni(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/zn;
+.method private ni(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/ZNclz;
     .locals 4
 
     .prologue
@@ -798,10 +798,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/zn;
+    check-cast v0, Lcom/tencent/mm/protocal/b/ZNclz;
 
     .line 251
-    iget-object v3, v0, Lcom/tencent/mm/protocal/b/zn;->dRj:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/protocal/b/ZNclz;->dRj:Ljava/lang/String;
 
     invoke-virtual {v3, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -883,11 +883,11 @@
 
     .line 355
     :cond_0
-    invoke-direct {p0, p1}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->ni(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/zn;
+    invoke-direct {p0, p1}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->ni(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/ZNclz;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->a(Lcom/tencent/mm/protocal/b/zn;)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->a(Lcom/tencent/mm/protocal/b/ZNclz;)V
 
     .line 356
     iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->dwQ:Ljava/util/concurrent/CountDownLatch;

@@ -138,12 +138,12 @@
     if-nez p3, :cond_0
 
     .line 52
-    invoke-virtual {p0, p5}, Lcom/tencent/mm/pluginsdk/h/a/a/n;->d(Lcom/tencent/mm/network/o;)Lcom/tencent/mm/protocal/b/hm;
+    invoke-virtual {p0, p5}, Lcom/tencent/mm/pluginsdk/h/a/a/n;->d(Lcom/tencent/mm/network/o;)Lcom/tencent/mm/protocal/b/HMclz;
 
     move-result-object v0
 
     .line 54
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/hm;->itb:Ljava/util/LinkedList;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/HMclz;->itb:Ljava/util/LinkedList;
 
     if-nez v1, :cond_1
 
@@ -179,7 +179,7 @@
 
     const/4 v4, 0x0
 
-    iget-object v5, v0, Lcom/tencent/mm/protocal/b/hm;->itb:Ljava/util/LinkedList;
+    iget-object v5, v0, Lcom/tencent/mm/protocal/b/HMclz;->itb:Ljava/util/LinkedList;
 
     invoke-virtual {v5}, Ljava/util/LinkedList;->size()I
 
@@ -194,7 +194,7 @@
     invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 59
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/hm;->itb:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/HMclz;->itb:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
 
@@ -470,7 +470,7 @@
 .method protected abstract aIW()Lcom/tencent/mm/network/o;
 .end method
 
-.method protected abstract d(Lcom/tencent/mm/network/o;)Lcom/tencent/mm/protocal/b/hm;
+.method protected abstract d(Lcom/tencent/mm/network/o;)Lcom/tencent/mm/protocal/b/HMclz;
 .end method
 
 .method protected abstract getTag()Ljava/lang/String;

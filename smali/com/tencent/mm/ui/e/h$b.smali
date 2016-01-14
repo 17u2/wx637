@@ -23,7 +23,7 @@
 
 .field public kAH:I
 
-.field public kAI:Lcom/tencent/mm/protocal/b/fr;
+.field public kAI:Lcom/tencent/mm/protocal/b/FRclz;
 
 
 # direct methods
@@ -47,7 +47,7 @@
     .line 41
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/e/h$b;->kAI:Lcom/tencent/mm/protocal/b/fr;
+    iput-object v0, p0, Lcom/tencent/mm/ui/e/h$b;->kAI:Lcom/tencent/mm/protocal/b/FRclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 

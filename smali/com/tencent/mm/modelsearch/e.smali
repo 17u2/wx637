@@ -189,7 +189,7 @@
     return-void
 .end method
 
-.method public static AY()Lcom/tencent/mm/protocal/b/zq;
+.method public static AY()Lcom/tencent/mm/protocal/b/ZQclz;
     .locals 9
 
     .prologue
@@ -225,9 +225,9 @@
     if-eqz v0, :cond_0
 
     .line 817
-    new-instance v1, Lcom/tencent/mm/protocal/b/zq;
+    new-instance v1, Lcom/tencent/mm/protocal/b/ZQclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/zq;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ZQclz;-><init>()V
 
     .line 818
     const-string/jumbo v3, ","
@@ -249,7 +249,7 @@
 
     move-result v3
 
-    iput v3, v1, Lcom/tencent/mm/protocal/b/zq;->ixo:I
+    iput v3, v1, Lcom/tencent/mm/protocal/b/ZQclz;->ixo:I
 
     .line 820
     const/4 v3, 0x1
@@ -264,7 +264,7 @@
 
     move-result v3
 
-    iput v3, v1, Lcom/tencent/mm/protocal/b/zq;->ixr:I
+    iput v3, v1, Lcom/tencent/mm/protocal/b/ZQclz;->ixr:I
 
     .line 821
     const/4 v3, 0x2
@@ -283,7 +283,7 @@
 
     div-float/2addr v3, v4
 
-    iput v3, v1, Lcom/tencent/mm/protocal/b/zq;->irn:F
+    iput v3, v1, Lcom/tencent/mm/protocal/b/ZQclz;->irn:F
 
     .line 822
     const/4 v3, 0x3
@@ -302,7 +302,7 @@
 
     div-float/2addr v0, v4
 
-    iput v0, v1, Lcom/tencent/mm/protocal/b/zq;->irm:F
+    iput v0, v1, Lcom/tencent/mm/protocal/b/ZQclz;->irm:F
 
     .line 823
     const-string/jumbo v0, "!44@/B4Tb64lLpKLxeMowbLUcJSuljXRWtoQ/+Kd7Z3HpJU="
@@ -315,7 +315,7 @@
 
     const/4 v5, 0x0
 
-    iget v6, v1, Lcom/tencent/mm/protocal/b/zq;->irn:F
+    iget v6, v1, Lcom/tencent/mm/protocal/b/ZQclz;->irn:F
 
     invoke-static {v6}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
@@ -325,7 +325,7 @@
 
     const/4 v5, 0x1
 
-    iget v6, v1, Lcom/tencent/mm/protocal/b/zq;->irm:F
+    iget v6, v1, Lcom/tencent/mm/protocal/b/ZQclz;->irm:F
 
     invoke-static {v6}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 

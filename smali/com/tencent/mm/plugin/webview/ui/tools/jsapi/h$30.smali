@@ -128,9 +128,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ox;
+    check-cast v0, Lcom/tencent/mm/protocal/b/OXclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ox;->atX:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/OXclz;->atX:Ljava/lang/String;
 
     invoke-interface {v1, v2, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

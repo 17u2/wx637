@@ -1565,59 +1565,59 @@
 
     invoke-static {v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    new-instance v5, Lcom/tencent/mm/protocal/b/p;
+    new-instance v5, Lcom/tencent/mm/protocal/b/Pclz;
 
-    invoke-direct {v5}, Lcom/tencent/mm/protocal/b/p;-><init>()V
+    invoke-direct {v5}, Lcom/tencent/mm/protocal/b/Pclz;-><init>()V
 
     iget-wide v8, v0, Lcom/tencent/mm/plugin/sns/a/a/a;->geT:J
 
-    iput-wide v8, v5, Lcom/tencent/mm/protocal/b/p;->ijS:J
+    iput-wide v8, v5, Lcom/tencent/mm/protocal/b/Pclz;->ijS:J
 
     iget-wide v8, v0, Lcom/tencent/mm/plugin/sns/a/a/a;->geW:J
 
-    iput-wide v8, v5, Lcom/tencent/mm/protocal/b/p;->ijT:J
+    iput-wide v8, v5, Lcom/tencent/mm/protocal/b/Pclz;->ijT:J
 
     iget v6, v0, Lcom/tencent/mm/plugin/sns/a/a/a;->gfa:I
 
-    iput v6, v5, Lcom/tencent/mm/protocal/b/p;->gfa:I
+    iput v6, v5, Lcom/tencent/mm/protocal/b/Pclz;->gfa:I
 
     iget v6, v0, Lcom/tencent/mm/plugin/sns/a/a/a;->gfb:I
 
-    iput v6, v5, Lcom/tencent/mm/protocal/b/p;->gfb:I
+    iput v6, v5, Lcom/tencent/mm/protocal/b/Pclz;->gfb:I
 
     iget v6, v0, Lcom/tencent/mm/plugin/sns/a/a/a;->geX:I
 
     int-to-float v6, v6
 
-    iput v6, v5, Lcom/tencent/mm/protocal/b/p;->ijN:F
+    iput v6, v5, Lcom/tencent/mm/protocal/b/Pclz;->ijN:F
 
     iget v6, v0, Lcom/tencent/mm/plugin/sns/a/a/a;->geY:I
 
     int-to-float v6, v6
 
-    iput v6, v5, Lcom/tencent/mm/protocal/b/p;->ijO:F
+    iput v6, v5, Lcom/tencent/mm/protocal/b/Pclz;->ijO:F
 
     iget v6, v0, Lcom/tencent/mm/plugin/sns/a/a/a;->geZ:I
 
     int-to-float v6, v6
 
-    iput v6, v5, Lcom/tencent/mm/protocal/b/p;->ijP:F
+    iput v6, v5, Lcom/tencent/mm/protocal/b/Pclz;->ijP:F
 
     iget-wide v8, v0, Lcom/tencent/mm/plugin/sns/a/a/a;->geN:J
 
-    iput-wide v8, v5, Lcom/tencent/mm/protocal/b/p;->ijQ:J
+    iput-wide v8, v5, Lcom/tencent/mm/protocal/b/Pclz;->ijQ:J
 
     iget-wide v8, v0, Lcom/tencent/mm/plugin/sns/a/a/a;->geQ:J
 
-    iput-wide v8, v5, Lcom/tencent/mm/protocal/b/p;->ijR:J
+    iput-wide v8, v5, Lcom/tencent/mm/protocal/b/Pclz;->ijR:J
 
     iget-wide v8, v0, Lcom/tencent/mm/plugin/sns/a/a/a;->geJ:J
 
-    iput-wide v8, v5, Lcom/tencent/mm/protocal/b/p;->startTime:J
+    iput-wide v8, v5, Lcom/tencent/mm/protocal/b/Pclz;->startTime:J
 
     iget-wide v8, v0, Lcom/tencent/mm/plugin/sns/a/a/a;->geK:J
 
-    iput-wide v8, v5, Lcom/tencent/mm/protocal/b/p;->endTime:J
+    iput-wide v8, v5, Lcom/tencent/mm/protocal/b/Pclz;->endTime:J
 
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atr()Lcom/tencent/mm/plugin/sns/a/a/h;
 
@@ -1726,9 +1726,9 @@
     :cond_5
     iget-object v4, p0, Lcom/tencent/mm/plugin/sns/a/a/f;->gfq:Lcom/tencent/mm/plugin/sns/a/a/a;
 
-    new-instance v0, Lcom/tencent/mm/protocal/b/s;
+    new-instance v0, Lcom/tencent/mm/protocal/b/Sclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/s;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/Sclz;-><init>()V
 
     iget-object v6, v4, Lcom/tencent/mm/plugin/sns/a/a/a;->gev:Lcom/tencent/mm/protocal/b/aod;
 
@@ -1738,13 +1738,13 @@
 
     iget v6, v6, Lcom/tencent/mm/protocal/b/aod;->iUQ:I
 
-    iput v6, v0, Lcom/tencent/mm/protocal/b/s;->ijY:I
+    iput v6, v0, Lcom/tencent/mm/protocal/b/Sclz;->ijY:I
 
     iget-object v4, v4, Lcom/tencent/mm/plugin/sns/a/a/a;->gev:Lcom/tencent/mm/protocal/b/aod;
 
     iget v4, v4, Lcom/tencent/mm/protocal/b/aod;->iUN:I
 
-    iput v4, v0, Lcom/tencent/mm/protocal/b/s;->ijX:I
+    iput v4, v0, Lcom/tencent/mm/protocal/b/Sclz;->ijX:I
 
     .line 377
     :goto_3
@@ -1895,7 +1895,7 @@
 
     move v7, v3
 
-    invoke-direct/range {v0 .. v8}, Lcom/tencent/mm/plugin/sns/a/a/d;-><init>(Ljava/lang/String;IIILcom/tencent/mm/protocal/b/p;Lcom/tencent/mm/protocal/b/s;ILjava/lang/String;)V
+    invoke-direct/range {v0 .. v8}, Lcom/tencent/mm/plugin/sns/a/a/d;-><init>(Ljava/lang/String;IIILcom/tencent/mm/protocal/b/Pclz;Lcom/tencent/mm/protocal/b/Sclz;ILjava/lang/String;)V
 
     .line 400
     :goto_6
@@ -1919,7 +1919,7 @@
 
     move-object v1, p3
 
-    invoke-direct/range {v0 .. v8}, Lcom/tencent/mm/plugin/sns/a/a/d;-><init>(Ljava/lang/String;IIILcom/tencent/mm/protocal/b/p;Lcom/tencent/mm/protocal/b/s;ILjava/lang/String;)V
+    invoke-direct/range {v0 .. v8}, Lcom/tencent/mm/plugin/sns/a/a/d;-><init>(Ljava/lang/String;IIILcom/tencent/mm/protocal/b/Pclz;Lcom/tencent/mm/protocal/b/Sclz;ILjava/lang/String;)V
 
     goto :goto_6
 

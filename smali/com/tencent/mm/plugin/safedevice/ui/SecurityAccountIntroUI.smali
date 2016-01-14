@@ -343,11 +343,11 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ej;
+    check-cast v0, Lcom/tencent/mm/protocal/b/EJclz;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ej;
+    check-cast v0, Lcom/tencent/mm/protocal/b/EJclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ej;->imj:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/EJclz;->imj:Ljava/lang/String;
 
     goto :goto_0
 

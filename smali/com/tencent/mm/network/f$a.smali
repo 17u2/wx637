@@ -264,7 +264,7 @@
 
     .line 86
     :goto_2
-    invoke-virtual {p0, v0}, Lcom/tencent/mm/network/f$a;->a(Lcom/tencent/mm/protocal/y;)V
+    invoke-virtual {p0, v0}, Lcom/tencent/mm/network/f$a;->a(Lcom/tencent/mm/protocal/Yclz;)V
 
     .line 87
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
@@ -281,18 +281,18 @@
 
     if-eqz v0, :cond_4
 
-    instance-of v2, v0, Lcom/tencent/mm/protocal/y;
+    instance-of v2, v0, Lcom/tencent/mm/protocal/Yclz;
 
     if-eqz v2, :cond_4
 
-    check-cast v0, Lcom/tencent/mm/protocal/y;
+    check-cast v0, Lcom/tencent/mm/protocal/Yclz;
 
     goto :goto_2
 
     :cond_4
-    new-instance v0, Lcom/tencent/mm/protocal/y$a$a;
+    new-instance v0, Lcom/tencent/mm/protocal/Yclz$a$a;
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/protocal/y$a$a;-><init>(Landroid/os/IBinder;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/protocal/Yclz$a$a;-><init>(Landroid/os/IBinder;)V
 
     goto :goto_2
 

@@ -50,7 +50,7 @@
 
 .field private aYu:Z
 
-.field public field_dataProto:Lcom/tencent/mm/protocal/b/nb;
+.field public field_dataProto:Lcom/tencent/mm/protocal/b/NBclz;
 
 .field public field_desc:Ljava/lang/String;
 
@@ -398,17 +398,17 @@
     if-lez v4, :cond_2
 
     .line 132
-    new-instance v4, Lcom/tencent/mm/protocal/b/nb;
+    new-instance v4, Lcom/tencent/mm/protocal/b/NBclz;
 
-    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/nb;-><init>()V
+    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/NBclz;-><init>()V
 
-    invoke-virtual {v4, v0}, Lcom/tencent/mm/protocal/b/nb;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v4, v0}, Lcom/tencent/mm/protocal/b/NBclz;->ak([B)Lcom/tencent/mm/aq/a;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/nb;
+    check-cast v0, Lcom/tencent/mm/protocal/b/NBclz;
 
-    iput-object v0, p0, Lcom/tencent/mm/d/b/bf;->field_dataProto:Lcom/tencent/mm/protocal/b/nb;
+    iput-object v0, p0, Lcom/tencent/mm/d/b/bf;->field_dataProto:Lcom/tencent/mm/protocal/b/NBclz;
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -606,7 +606,7 @@
     if-eqz v0, :cond_7
 
     .line 184
-    iget-object v0, p0, Lcom/tencent/mm/d/b/bf;->field_dataProto:Lcom/tencent/mm/protocal/b/nb;
+    iget-object v0, p0, Lcom/tencent/mm/d/b/bf;->field_dataProto:Lcom/tencent/mm/protocal/b/NBclz;
 
     if-eqz v0, :cond_7
 
@@ -614,9 +614,9 @@
     :try_start_0
     const-string/jumbo v0, "dataProto"
 
-    iget-object v2, p0, Lcom/tencent/mm/d/b/bf;->field_dataProto:Lcom/tencent/mm/protocal/b/nb;
+    iget-object v2, p0, Lcom/tencent/mm/d/b/bf;->field_dataProto:Lcom/tencent/mm/protocal/b/NBclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/protocal/b/nb;->toByteArray()[B
+    invoke-virtual {v2}, Lcom/tencent/mm/protocal/b/NBclz;->toByteArray()[B
 
     move-result-object v2
 

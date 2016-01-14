@@ -86,11 +86,11 @@
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/plugin/sns/h/i;->auq()Lcom/tencent/mm/protocal/b/mq;
+    invoke-virtual {v2}, Lcom/tencent/mm/plugin/sns/h/i;->auq()Lcom/tencent/mm/protocal/b/MQclz;
 
     move-result-object v2
 
-    iget-wide v3, v2, Lcom/tencent/mm/protocal/b/mq;->ixu:J
+    iget-wide v3, v2, Lcom/tencent/mm/protocal/b/MQclz;->ixu:J
 
     const-wide/16 v5, 0x0
 
@@ -98,7 +98,7 @@
 
     if-eqz v3, :cond_1
 
-    iget-wide v2, v2, Lcom/tencent/mm/protocal/b/mq;->ixu:J
+    iget-wide v2, v2, Lcom/tencent/mm/protocal/b/MQclz;->ixu:J
 
     invoke-static {v2, v3}, Lcom/tencent/mm/plugin/sns/data/h;->bR(J)Ljava/lang/String;
 

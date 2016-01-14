@@ -28,16 +28,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 27
-    new-instance v1, Lcom/tencent/mm/protocal/b/pe;
+    new-instance v1, Lcom/tencent/mm/protocal/b/PEclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/pe;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/PEclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 28
-    new-instance v1, Lcom/tencent/mm/protocal/b/pf;
+    new-instance v1, Lcom/tencent/mm/protocal/b/PFclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/pf;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/PFclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -71,15 +71,15 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/pe;
+    check-cast v0, Lcom/tencent/mm/protocal/b/PEclz;
 
     .line 36
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/pe;->iBO:Ljava/util/LinkedList;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/PEclz;->iBO:Ljava/util/LinkedList;
 
     invoke-virtual {v1, p1}, Ljava/util/LinkedList;->addAll(Ljava/util/Collection;)Z
 
     .line 37
-    iput-object p2, v0, Lcom/tencent/mm/protocal/b/pe;->dan:Ljava/lang/String;
+    iput-object p2, v0, Lcom/tencent/mm/protocal/b/PEclz;->dan:Ljava/lang/String;
 
     .line 38
     const-string/jumbo v1, "!56@/B4Tb64lLpK+IBX8XDgnvk1RXuCrOn4bdXqF6S65QXzowr1IyEj9Sg=="
@@ -90,7 +90,7 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/pe;->iBO:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/PEclz;->iBO:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->size()I
 

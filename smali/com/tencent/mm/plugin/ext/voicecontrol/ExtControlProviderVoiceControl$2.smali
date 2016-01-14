@@ -22,11 +22,11 @@
 
 .field final synthetic dxu:Lcom/tencent/mm/plugin/ext/voicecontrol/a;
 
-.field final synthetic dxv:Lcom/tencent/mm/protocal/b/bf;
+.field final synthetic dxv:Lcom/tencent/mm/protocal/b/BFclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/ext/voicecontrol/ExtControlProviderVoiceControl;Lcom/tencent/mm/plugin/ext/voicecontrol/a;Lcom/tencent/mm/protocal/b/bf;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/ext/voicecontrol/ExtControlProviderVoiceControl;Lcom/tencent/mm/plugin/ext/voicecontrol/a;Lcom/tencent/mm/protocal/b/BFclz;)V
     .locals 1
 
     .prologue
@@ -35,7 +35,7 @@
 
     iput-object p2, p0, Lcom/tencent/mm/plugin/ext/voicecontrol/ExtControlProviderVoiceControl$2;->dxu:Lcom/tencent/mm/plugin/ext/voicecontrol/a;
 
-    iput-object p3, p0, Lcom/tencent/mm/plugin/ext/voicecontrol/ExtControlProviderVoiceControl$2;->dxv:Lcom/tencent/mm/protocal/b/bf;
+    iput-object p3, p0, Lcom/tencent/mm/plugin/ext/voicecontrol/ExtControlProviderVoiceControl$2;->dxv:Lcom/tencent/mm/protocal/b/BFclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -65,9 +65,9 @@
     .line 367
     iget-object v0, p0, Lcom/tencent/mm/plugin/ext/voicecontrol/ExtControlProviderVoiceControl$2;->dxu:Lcom/tencent/mm/plugin/ext/voicecontrol/a;
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/ext/voicecontrol/ExtControlProviderVoiceControl$2;->dxv:Lcom/tencent/mm/protocal/b/bf;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/ext/voicecontrol/ExtControlProviderVoiceControl$2;->dxv:Lcom/tencent/mm/protocal/b/BFclz;
 
-    iget v1, v1, Lcom/tencent/mm/protocal/b/bf;->ilu:I
+    iget v1, v1, Lcom/tencent/mm/protocal/b/BFclz;->ilu:I
 
     const-string/jumbo v2, "!56@/B4Tb64lLpJog02z7cuAvbpQZOkPhbyQv1jPueeOaTaQWzkct9X9+w=="
 

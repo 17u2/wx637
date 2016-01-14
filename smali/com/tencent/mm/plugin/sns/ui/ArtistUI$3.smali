@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/protocal/b/bm;)V
+.method public final a(Lcom/tencent/mm/protocal/b/BMclz;)V
     .locals 3
 
     .prologue
@@ -74,10 +74,10 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->setUserName(Lcom/tencent/mm/protocal/b/bm;)V
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->setUserName(Lcom/tencent/mm/protocal/b/BMclz;)V
 
     .line 124
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/bm;->dQP:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/BMclz;->dQP:Ljava/lang/String;
 
     .line 125
     if-eqz v0, :cond_0

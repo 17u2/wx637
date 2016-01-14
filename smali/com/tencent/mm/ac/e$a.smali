@@ -15,9 +15,9 @@
 
 
 # instance fields
-.field private final bNy:Lcom/tencent/mm/protocal/u$a;
+.field private final bNy:Lcom/tencent/mm/protocal/Uclz$a;
 
-.field private final bNz:Lcom/tencent/mm/protocal/u$b;
+.field private final bNz:Lcom/tencent/mm/protocal/Uclz$b;
 
 
 # direct methods
@@ -29,18 +29,18 @@
     invoke-direct {p0}, Lcom/tencent/mm/q/h;-><init>()V
 
     .line 74
-    new-instance v0, Lcom/tencent/mm/protocal/u$a;
+    new-instance v0, Lcom/tencent/mm/protocal/Uclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/u$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/Uclz$a;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ac/e$a;->bNy:Lcom/tencent/mm/protocal/u$a;
+    iput-object v0, p0, Lcom/tencent/mm/ac/e$a;->bNy:Lcom/tencent/mm/protocal/Uclz$a;
 
     .line 75
-    new-instance v0, Lcom/tencent/mm/protocal/u$b;
+    new-instance v0, Lcom/tencent/mm/protocal/Uclz$b;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/u$b;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/Uclz$b;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ac/e$a;->bNz:Lcom/tencent/mm/protocal/u$b;
+    iput-object v0, p0, Lcom/tencent/mm/ac/e$a;->bNz:Lcom/tencent/mm/protocal/Uclz$b;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -74,22 +74,22 @@
     return-object v0
 .end method
 
-.method protected final bridge synthetic tI()Lcom/tencent/mm/protocal/h$c;
+.method protected final bridge synthetic tI()Lcom/tencent/mm/protocal/Hclz$c;
     .locals 1
 
     .prologue
     .line 72
-    iget-object v0, p0, Lcom/tencent/mm/ac/e$a;->bNy:Lcom/tencent/mm/protocal/u$a;
+    iget-object v0, p0, Lcom/tencent/mm/ac/e$a;->bNy:Lcom/tencent/mm/protocal/Uclz$a;
 
     return-object v0
 .end method
 
-.method public final bridge synthetic tJ()Lcom/tencent/mm/protocal/h$d;
+.method public final bridge synthetic tJ()Lcom/tencent/mm/protocal/Hclz$d;
     .locals 1
 
     .prologue
     .line 72
-    iget-object v0, p0, Lcom/tencent/mm/ac/e$a;->bNz:Lcom/tencent/mm/protocal/u$b;
+    iget-object v0, p0, Lcom/tencent/mm/ac/e$a;->bNz:Lcom/tencent/mm/protocal/Uclz$b;
 
     return-object v0
 .end method

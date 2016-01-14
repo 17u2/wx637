@@ -1369,13 +1369,13 @@
 
     iget-object v2, v1, Lcom/tencent/mm/modelsimple/v;->byM:Lcom/tencent/mm/network/o;
 
-    invoke-interface {v2}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/h$c;
+    invoke-interface {v2}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v2
 
-    check-cast v2, Lcom/tencent/mm/protocal/v$a;
+    check-cast v2, Lcom/tencent/mm/protocal/Vclz$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/protocal/v$a;->iis:Lcom/tencent/mm/protocal/b/adj;
+    iget-object v2, v2, Lcom/tencent/mm/protocal/Vclz$a;->iis:Lcom/tencent/mm/protocal/b/adj;
 
     move/from16 v0, v17
 
@@ -2937,17 +2937,17 @@
 
     iget-object v2, v2, Lcom/tencent/mm/modelfriend/z;->byM:Lcom/tencent/mm/network/o;
 
-    invoke-interface {v2}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {v2}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v2
 
-    check-cast v2, Lcom/tencent/mm/protocal/q$b;
+    check-cast v2, Lcom/tencent/mm/protocal/Qclz$b;
 
-    check-cast v2, Lcom/tencent/mm/protocal/q$b;
+    check-cast v2, Lcom/tencent/mm/protocal/Qclz$b;
 
-    iget-object v2, v2, Lcom/tencent/mm/protocal/q$b;->iil:Lcom/tencent/mm/protocal/b/uq;
+    iget-object v2, v2, Lcom/tencent/mm/protocal/Qclz$b;->iil:Lcom/tencent/mm/protocal/b/UQclz;
 
-    iget v2, v2, Lcom/tencent/mm/protocal/b/uq;->iFu:I
+    iget v2, v2, Lcom/tencent/mm/protocal/b/UQclz;->iFu:I
 
     .line 910
     const-string/jumbo v3, "!32@9DU/RFsdGl8JYFGpESyRAL2xk59FhSfi"
@@ -2989,17 +2989,17 @@
 
     iget-object v2, v0, Lcom/tencent/mm/modelfriend/z;->byM:Lcom/tencent/mm/network/o;
 
-    invoke-interface {v2}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {v2}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v2
 
-    check-cast v2, Lcom/tencent/mm/protocal/q$b;
+    check-cast v2, Lcom/tencent/mm/protocal/Qclz$b;
 
-    check-cast v2, Lcom/tencent/mm/protocal/q$b;
+    check-cast v2, Lcom/tencent/mm/protocal/Qclz$b;
 
-    iget-object v2, v2, Lcom/tencent/mm/protocal/q$b;->iil:Lcom/tencent/mm/protocal/b/uq;
+    iget-object v2, v2, Lcom/tencent/mm/protocal/Qclz$b;->iil:Lcom/tencent/mm/protocal/b/UQclz;
 
-    iget-object v5, v2, Lcom/tencent/mm/protocal/b/uq;->inj:Ljava/util/LinkedList;
+    iget-object v5, v2, Lcom/tencent/mm/protocal/b/UQclz;->inj:Ljava/util/LinkedList;
 
     .line 913
     invoke-static/range {p3 .. p3}, Lcom/tencent/mm/e/a;->cR(Ljava/lang/String;)Lcom/tencent/mm/e/a;

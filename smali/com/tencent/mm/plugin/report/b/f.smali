@@ -11,7 +11,7 @@
 
 .field private ant:Lcom/tencent/mm/q/a;
 
-.field private fxl:Lcom/tencent/mm/protocal/b/qq;
+.field private fxl:Lcom/tencent/mm/protocal/b/QQclz;
 
 
 # direct methods
@@ -25,20 +25,20 @@
     .line 25
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/report/b/f;->fxl:Lcom/tencent/mm/protocal/b/qq;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/report/b/f;->fxl:Lcom/tencent/mm/protocal/b/QQclz;
 
     .line 29
     :try_start_0
-    new-instance v0, Lcom/tencent/mm/protocal/b/qq;
+    new-instance v0, Lcom/tencent/mm/protocal/b/QQclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/qq;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/QQclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/report/b/f;->fxl:Lcom/tencent/mm/protocal/b/qq;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/report/b/f;->fxl:Lcom/tencent/mm/protocal/b/QQclz;
 
     .line 30
-    iget-object v0, p0, Lcom/tencent/mm/plugin/report/b/f;->fxl:Lcom/tencent/mm/protocal/b/qq;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/report/b/f;->fxl:Lcom/tencent/mm/protocal/b/QQclz;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/protocal/b/qq;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/protocal/b/QQclz;->ak([B)Lcom/tencent/mm/aq/a;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -116,7 +116,7 @@
     if-nez v1, :cond_0
 
     .line 80
-    iget-object v0, p0, Lcom/tencent/mm/plugin/report/b/f;->fxl:Lcom/tencent/mm/protocal/b/qq;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/report/b/f;->fxl:Lcom/tencent/mm/protocal/b/QQclz;
 
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->aPg()[B
 
@@ -126,7 +126,7 @@
 
     move-result-object v4
 
-    iput-object v4, v0, Lcom/tencent/mm/protocal/b/qq;->itr:Lcom/tencent/mm/aq/b;
+    iput-object v4, v0, Lcom/tencent/mm/protocal/b/QQclz;->itr:Lcom/tencent/mm/aq/b;
 
     .line 82
     :cond_0
@@ -138,14 +138,14 @@
     iput-boolean v3, v4, Lcom/tencent/mm/q/a$a;->bxQ:Z
 
     .line 84
-    iget-object v0, p0, Lcom/tencent/mm/plugin/report/b/f;->fxl:Lcom/tencent/mm/protocal/b/qq;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/report/b/f;->fxl:Lcom/tencent/mm/protocal/b/QQclz;
 
     iput-object v0, v4, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 85
-    new-instance v0, Lcom/tencent/mm/protocal/b/qr;
+    new-instance v0, Lcom/tencent/mm/protocal/b/QRclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/qr;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/QRclz;-><init>()V
 
     iput-object v0, v4, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -177,11 +177,11 @@
     .line 90
     iget-object v0, p0, Lcom/tencent/mm/plugin/report/b/f;->ant:Lcom/tencent/mm/q/a;
 
-    invoke-static {}, Lcom/tencent/mm/protocal/z;->aMO()Lcom/tencent/mm/protocal/z;
+    invoke-static {}, Lcom/tencent/mm/protocal/Zclz;->aMO()Lcom/tencent/mm/protocal/Zclz;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/a;->a(Lcom/tencent/mm/protocal/z;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/q/a;->a(Lcom/tencent/mm/protocal/Zclz;)V
 
     .line 91
     iget-object v0, p0, Lcom/tencent/mm/plugin/report/b/f;->ant:Lcom/tencent/mm/q/a;
@@ -375,7 +375,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/qr;
+    check-cast v0, Lcom/tencent/mm/protocal/b/QRclz;
 
     .line 62
     const/4 v1, 0x0
@@ -383,7 +383,7 @@
     const/4 v2, 0x0
 
     :try_start_0
-    invoke-virtual {v0}, Lcom/tencent/mm/protocal/b/qr;->toByteArray()[B
+    invoke-virtual {v0}, Lcom/tencent/mm/protocal/b/QRclz;->toByteArray()[B
 
     move-result-object v0
 

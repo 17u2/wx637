@@ -24,7 +24,7 @@
 
 
 # instance fields
-.field private bPb:Lcom/tencent/mm/protocal/b/zf;
+.field private bPb:Lcom/tencent/mm/protocal/b/ZFclz;
 
 
 # direct methods
@@ -61,7 +61,7 @@
     check-cast v0, Lcom/tencent/mm/ae/b$i$a;
 
     .line 678
-    iget-object v0, v0, Lcom/tencent/mm/ae/b$i$a;->bPc:Lcom/tencent/mm/protocal/b/ze;
+    iget-object v0, v0, Lcom/tencent/mm/ae/b$i$a;->bPc:Lcom/tencent/mm/protocal/b/ZEclz;
 
     invoke-virtual {v1, v0}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
@@ -69,28 +69,28 @@
 
     .line 681
     :cond_0
-    new-instance v0, Lcom/tencent/mm/protocal/b/zf;
+    new-instance v0, Lcom/tencent/mm/protocal/b/ZFclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/zf;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/ZFclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ae/b$i;->bPb:Lcom/tencent/mm/protocal/b/zf;
+    iput-object v0, p0, Lcom/tencent/mm/ae/b$i;->bPb:Lcom/tencent/mm/protocal/b/ZFclz;
 
     .line 682
-    iget-object v0, p0, Lcom/tencent/mm/ae/b$i;->bPb:Lcom/tencent/mm/protocal/b/zf;
+    iget-object v0, p0, Lcom/tencent/mm/ae/b$i;->bPb:Lcom/tencent/mm/protocal/b/ZFclz;
 
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v2
 
-    iput v2, v0, Lcom/tencent/mm/protocal/b/zf;->fxn:I
+    iput v2, v0, Lcom/tencent/mm/protocal/b/ZFclz;->fxn:I
 
     .line 683
-    iget-object v0, p0, Lcom/tencent/mm/ae/b$i;->bPb:Lcom/tencent/mm/protocal/b/zf;
+    iget-object v0, p0, Lcom/tencent/mm/ae/b$i;->bPb:Lcom/tencent/mm/protocal/b/ZFclz;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/zf;->inj:Ljava/util/LinkedList;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ZFclz;->inj:Ljava/util/LinkedList;
 
     .line 684
-    iget-object v0, p0, Lcom/tencent/mm/ae/b$i;->bPb:Lcom/tencent/mm/protocal/b/zf;
+    iget-object v0, p0, Lcom/tencent/mm/ae/b$i;->bPb:Lcom/tencent/mm/protocal/b/ZFclz;
 
     iput-object v0, p0, Lcom/tencent/mm/ae/b$q;->bPo:Lcom/tencent/mm/aq/a;
 

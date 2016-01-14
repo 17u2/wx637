@@ -71,16 +71,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 37
-    new-instance v1, Lcom/tencent/mm/protocal/b/yh;
+    new-instance v1, Lcom/tencent/mm/protocal/b/YHclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/yh;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/YHclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 38
-    new-instance v1, Lcom/tencent/mm/protocal/b/yi;
+    new-instance v1, Lcom/tencent/mm/protocal/b/YIclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/yi;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/YIclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -114,28 +114,28 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/yh;
+    check-cast v0, Lcom/tencent/mm/protocal/b/YHclz;
 
     .line 46
-    iput-object p2, v0, Lcom/tencent/mm/protocal/b/yh;->url:Ljava/lang/String;
+    iput-object p2, v0, Lcom/tencent/mm/protocal/b/YHclz;->url:Ljava/lang/String;
 
     .line 47
-    iput-object p3, v0, Lcom/tencent/mm/protocal/b/yh;->dan:Ljava/lang/String;
+    iput-object p3, v0, Lcom/tencent/mm/protocal/b/YHclz;->dan:Ljava/lang/String;
 
     .line 48
-    iput-object p4, v0, Lcom/tencent/mm/protocal/b/yh;->iIt:Ljava/util/LinkedList;
+    iput-object p4, v0, Lcom/tencent/mm/protocal/b/YHclz;->iIt:Ljava/util/LinkedList;
 
     .line 49
-    iput-object p5, v0, Lcom/tencent/mm/protocal/b/yh;->iIe:Ljava/lang/String;
+    iput-object p5, v0, Lcom/tencent/mm/protocal/b/YHclz;->iIe:Ljava/lang/String;
 
     .line 50
-    iput-object p6, v0, Lcom/tencent/mm/protocal/b/yh;->iIf:Ljava/lang/String;
+    iput-object p6, v0, Lcom/tencent/mm/protocal/b/YHclz;->iIf:Ljava/lang/String;
 
     .line 51
-    iput-object p7, v0, Lcom/tencent/mm/protocal/b/yh;->aOC:Ljava/lang/String;
+    iput-object p7, v0, Lcom/tencent/mm/protocal/b/YHclz;->aOC:Ljava/lang/String;
 
     .line 52
-    iput-object p8, v0, Lcom/tencent/mm/protocal/b/yh;->iIg:Ljava/lang/String;
+    iput-object p8, v0, Lcom/tencent/mm/protocal/b/YHclz;->iIg:Ljava/lang/String;
 
     .line 53
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -218,7 +218,7 @@
     return-void
 .end method
 
-.method public final aEM()Lcom/tencent/mm/protocal/b/yi;
+.method public final aEM()Lcom/tencent/mm/protocal/b/YIclz;
     .locals 1
 
     .prologue
@@ -241,7 +241,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/yi;
+    check-cast v0, Lcom/tencent/mm/protocal/b/YIclz;
 
     goto :goto_0
 .end method

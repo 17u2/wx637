@@ -811,9 +811,9 @@
     invoke-virtual {v0, v1}, Lcom/tencent/mm/plugin/sns/h/k;->b(Lcom/tencent/mm/protocal/b/aqx;)V
 
     .line 160
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget v1, v1, Lcom/tencent/mm/protocal/b/il;->iug:I
+    iget v1, v1, Lcom/tencent/mm/protocal/b/ILclz;->iug:I
 
     iput v1, v0, Lcom/tencent/mm/plugin/sns/h/k;->field_type:I
 

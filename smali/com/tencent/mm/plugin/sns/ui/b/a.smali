@@ -3155,7 +3155,7 @@
     const/4 v2, 0x1
 
     .line 458
-    iget-object v1, p4, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/ax;
+    iget-object v1, p4, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/AXclz;
 
     if-nez v1, :cond_1e
 
@@ -3811,9 +3811,9 @@
 
     iget-object v1, v0, Lcom/tencent/mm/plugin/sns/ui/an;->gDv:Ljava/util/HashMap;
 
-    iget-object v3, p4, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/ax;
+    iget-object v3, p4, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/AXclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/protocal/b/ax;->ikW:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/protocal/b/AXclz;->ikW:Ljava/lang/String;
 
     invoke-virtual {v1, v3}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -3826,9 +3826,9 @@
 
     iget-object v1, v0, Lcom/tencent/mm/plugin/sns/ui/an;->gDv:Ljava/util/HashMap;
 
-    iget-object v3, p4, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/ax;
+    iget-object v3, p4, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/AXclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/protocal/b/ax;->ikW:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/protocal/b/AXclz;->ikW:Ljava/lang/String;
 
     invoke-virtual {v1, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -3850,9 +3850,9 @@
 
     .line 468
     :cond_1f
-    iget-object v1, p4, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/ax;
+    iget-object v1, p4, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/AXclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/ax;->ikW:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/AXclz;->ikW:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/tencent/mm/pluginsdk/model/app/g;->xE(Ljava/lang/String;)Z
 
@@ -3870,9 +3870,9 @@
 
     iget-object v3, v0, Lcom/tencent/mm/plugin/sns/ui/an;->gDv:Ljava/util/HashMap;
 
-    iget-object v4, p4, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/ax;
+    iget-object v4, p4, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/AXclz;
 
-    iget-object v4, v4, Lcom/tencent/mm/protocal/b/ax;->ikW:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/protocal/b/AXclz;->ikW:Ljava/lang/String;
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 

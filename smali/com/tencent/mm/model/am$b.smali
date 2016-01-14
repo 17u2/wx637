@@ -1,9 +1,9 @@
 .class public final Lcom/tencent/mm/model/am$b;
-.super Lcom/tencent/mm/protocal/h$d;
+.super Lcom/tencent/mm/protocal/Hclz$d;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/protocal/h$b;
+.implements Lcom/tencent/mm/protocal/Hclz$b;
 
 
 # annotations
@@ -27,7 +27,7 @@
 
     .prologue
     .line 40
-    invoke-direct {p0}, Lcom/tencent/mm/protocal/h$d;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/protocal/Hclz$d;-><init>()V
 
     .line 42
     new-instance v0, Lcom/tencent/mm/protocal/b/auk;
@@ -78,16 +78,16 @@
     .line 47
     iget-object v0, p0, Lcom/tencent/mm/model/am$b;->bul:Lcom/tencent/mm/protocal/b/auk;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ajr;->iSl:Lcom/tencent/mm/protocal/b/cy;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ajr;->iSl:Lcom/tencent/mm/protocal/b/CYclz;
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/protocal/h;->a(Lcom/tencent/mm/protocal/h$d;Lcom/tencent/mm/protocal/b/cy;)V
+    invoke-static {p0, v0}, Lcom/tencent/mm/protocal/Hclz;->a(Lcom/tencent/mm/protocal/Hclz$d;Lcom/tencent/mm/protocal/b/CYclz;)V
 
     .line 48
     iget-object v0, p0, Lcom/tencent/mm/model/am$b;->bul:Lcom/tencent/mm/protocal/b/auk;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ajr;->iSl:Lcom/tencent/mm/protocal/b/cy;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ajr;->iSl:Lcom/tencent/mm/protocal/b/CYclz;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/cy;->imK:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/CYclz;->imK:I
 
     return v0
 .end method

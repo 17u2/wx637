@@ -450,15 +450,15 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
-    new-instance v1, Lcom/tencent/mm/protocal/b/ol;
+    new-instance v1, Lcom/tencent/mm/protocal/b/OLclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ol;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/OLclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
-    new-instance v1, Lcom/tencent/mm/protocal/b/om;
+    new-instance v1, Lcom/tencent/mm/protocal/b/OMclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/om;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/OMclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -478,7 +478,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ol;
+    check-cast v0, Lcom/tencent/mm/protocal/b/OLclz;
 
     invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
 
@@ -499,7 +499,7 @@
     if-nez v1, :cond_9
 
     :goto_5
-    iput v3, v0, Lcom/tencent/mm/protocal/b/ol;->iBu:I
+    iput v3, v0, Lcom/tencent/mm/protocal/b/OLclz;->iBu:I
 
     new-instance v0, Lcom/tencent/mm/model/c/c$1;
 

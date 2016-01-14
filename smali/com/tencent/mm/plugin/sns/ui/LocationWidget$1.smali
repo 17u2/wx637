@@ -65,11 +65,11 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget$1;->gtB:Lcom/tencent/mm/plugin/sns/ui/LocationWidget;
 
-    invoke-static {v2}, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->b(Lcom/tencent/mm/plugin/sns/ui/LocationWidget;)Lcom/tencent/mm/protocal/b/zo;
+    invoke-static {v2}, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->b(Lcom/tencent/mm/plugin/sns/ui/LocationWidget;)Lcom/tencent/mm/protocal/b/ZOclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/protocal/b/zo;->toByteArray()[B
+    invoke-virtual {v2}, Lcom/tencent/mm/protocal/b/ZOclz;->toByteArray()[B
 
     move-result-object v2
 

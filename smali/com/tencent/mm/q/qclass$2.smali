@@ -154,13 +154,13 @@
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {v0}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/g$g;
+    check-cast v0, Lcom/tencent/mm/protocal/Gclz$g;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/g$g;->ihJ:I
+    iget v0, v0, Lcom/tencent/mm/protocal/Gclz$g;->ihJ:I
 
     if-ne v0, v8, :cond_3
 
@@ -205,9 +205,9 @@
     invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 128
-    sget-object v4, Lcom/tencent/mm/protocal/g$c$a;->ihE:Lcom/tencent/mm/protocal/g$c;
+    sget-object v4, Lcom/tencent/mm/protocal/Gclz$c$a;->ihE:Lcom/tencent/mm/protocal/Gclz$c;
 
-    invoke-interface {v4, v1, v0}, Lcom/tencent/mm/protocal/g$c;->J(II)Lcom/tencent/mm/network/o;
+    invoke-interface {v4, v1, v0}, Lcom/tencent/mm/protocal/Gclz$c;->J(II)Lcom/tencent/mm/network/o;
 
     move-result-object v1
 

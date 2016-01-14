@@ -177,11 +177,11 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/qx;
+    check-cast v0, Lcom/tencent/mm/protocal/b/QXclz;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/qx;
+    check-cast v0, Lcom/tencent/mm/protocal/b/QXclz;
 
-    iput-object v0, v1, Lcom/tencent/mm/w/c$a;->bHC:Lcom/tencent/mm/protocal/b/qx;
+    iput-object v0, v1, Lcom/tencent/mm/w/c$a;->bHC:Lcom/tencent/mm/protocal/b/QXclz;
 
     .line 244
     iget-object v0, p0, Lcom/tencent/mm/w/c$2;->bHw:Lcom/tencent/mm/w/c;

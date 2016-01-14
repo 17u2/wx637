@@ -616,16 +616,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 148
-    new-instance v3, Lcom/tencent/mm/protocal/b/kf;
+    new-instance v3, Lcom/tencent/mm/protocal/b/KFclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/kf;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/KFclz;-><init>()V
 
     iput-object v3, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 149
-    new-instance v3, Lcom/tencent/mm/protocal/b/kg;
+    new-instance v3, Lcom/tencent/mm/protocal/b/KGclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/kg;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/KGclz;-><init>()V
 
     iput-object v3, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -663,25 +663,25 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/kf;
+    check-cast v0, Lcom/tencent/mm/protocal/b/KFclz;
 
     .line 157
     iget-object v3, v1, Lcom/tencent/mm/modelvoice/p;->clientId:Ljava/lang/String;
 
-    iput-object v3, v0, Lcom/tencent/mm/protocal/b/kf;->ilf:Ljava/lang/String;
+    iput-object v3, v0, Lcom/tencent/mm/protocal/b/KFclz;->ilf:Ljava/lang/String;
 
     .line 158
     iget-wide v3, v1, Lcom/tencent/mm/modelvoice/p;->bIF:J
 
-    iput-wide v3, v0, Lcom/tencent/mm/protocal/b/kf;->ikC:J
+    iput-wide v3, v0, Lcom/tencent/mm/protocal/b/KFclz;->ikC:J
 
     .line 159
-    iput v2, v0, Lcom/tencent/mm/protocal/b/kf;->ino:I
+    iput v2, v0, Lcom/tencent/mm/protocal/b/KFclz;->ino:I
 
     .line 160
     iget v1, v1, Lcom/tencent/mm/modelvoice/p;->bXs:I
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/kf;->ink:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/KFclz;->ink:I
 
     .line 161
     const-string/jumbo v1, "!44@/B4Tb64lLpK+IBX8XDgnvjP7O0awxQNTE3x0o8JQwFk="
@@ -694,11 +694,11 @@
 
     const/4 v4, 0x0
 
-    iget-object v5, v0, Lcom/tencent/mm/protocal/b/kf;->ilf:Ljava/lang/String;
+    iget-object v5, v0, Lcom/tencent/mm/protocal/b/KFclz;->ilf:Ljava/lang/String;
 
     aput-object v5, v3, v4
 
-    iget v4, v0, Lcom/tencent/mm/protocal/b/kf;->ikt:I
+    iget v4, v0, Lcom/tencent/mm/protocal/b/KFclz;->ikt:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -708,7 +708,7 @@
 
     const/4 v4, 0x2
 
-    iget v5, v0, Lcom/tencent/mm/protocal/b/kf;->ino:I
+    iget v5, v0, Lcom/tencent/mm/protocal/b/KFclz;->ino:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -718,7 +718,7 @@
 
     const/4 v4, 0x3
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/kf;->ink:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/KFclz;->ink:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -749,10 +749,10 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/kf;
+    check-cast v0, Lcom/tencent/mm/protocal/b/KFclz;
 
     .line 170
-    iget-wide v1, v0, Lcom/tencent/mm/protocal/b/kf;->ikC:J
+    iget-wide v1, v0, Lcom/tencent/mm/protocal/b/KFclz;->ikC:J
 
     const-wide/16 v3, 0x0
 
@@ -760,11 +760,11 @@
 
     if-eqz v1, :cond_0
 
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/kf;->ilf:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/KFclz;->ilf:Ljava/lang/String;
 
     if-eqz v1, :cond_0
 
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/kf;->ilf:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/KFclz;->ilf:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
@@ -772,11 +772,11 @@
 
     if-eqz v1, :cond_0
 
-    iget v1, v0, Lcom/tencent/mm/protocal/b/kf;->ino:I
+    iget v1, v0, Lcom/tencent/mm/protocal/b/KFclz;->ino:I
 
     if-lez v1, :cond_0
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/kf;->ink:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/KFclz;->ink:I
 
     if-gez v0, :cond_1
 
@@ -863,10 +863,10 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/kg;
+    check-cast v0, Lcom/tencent/mm/protocal/b/KGclz;
 
     .line 203
-    iget v1, v0, Lcom/tencent/mm/protocal/b/kg;->inm:I
+    iget v1, v0, Lcom/tencent/mm/protocal/b/KGclz;->inm:I
 
     const/4 v2, 0x1
 
@@ -1006,11 +1006,11 @@
 
     move-result-object v1
 
-    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v2
 
-    iget v2, v2, Lcom/tencent/mm/protocal/h$d;->ihR:I
+    iget v2, v2, Lcom/tencent/mm/protocal/Hclz$d;->ihR:I
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -1051,7 +1051,7 @@
 
     move-result-object v2
 
-    iget-object v3, v0, Lcom/tencent/mm/protocal/b/kg;->inp:Lcom/tencent/mm/protocal/b/ajy;
+    iget-object v3, v0, Lcom/tencent/mm/protocal/b/KGclz;->inp:Lcom/tencent/mm/protocal/b/ajy;
 
     iget v3, v3, Lcom/tencent/mm/protocal/b/ajy;->iSu:I
 
@@ -1065,7 +1065,7 @@
 
     move-result-object v2
 
-    iget v3, v0, Lcom/tencent/mm/protocal/b/kg;->ink:I
+    iget v3, v0, Lcom/tencent/mm/protocal/b/KGclz;->ink:I
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -1078,7 +1078,7 @@
     invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 229
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/kg;->inp:Lcom/tencent/mm/protocal/b/ajy;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/KGclz;->inp:Lcom/tencent/mm/protocal/b/ajy;
 
     iget-object v1, v1, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/b;
 
@@ -1105,7 +1105,7 @@
 
     .line 238
     :cond_5
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/kg;->inp:Lcom/tencent/mm/protocal/b/ajy;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/KGclz;->inp:Lcom/tencent/mm/protocal/b/ajy;
 
     iget-object v1, v1, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/b;
 
@@ -1149,7 +1149,7 @@
 
     array-length v3, v1
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/kg;->ink:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/KGclz;->ink:I
 
     invoke-interface {v2, v1, v3, v0}, Lcom/tencent/mm/modelvoice/b;->write([BII)I
 

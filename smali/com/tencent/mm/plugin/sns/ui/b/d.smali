@@ -59,7 +59,7 @@
     invoke-virtual {v0, v1}, Lcom/tencent/mm/plugin/sns/ui/PhotosContent;->setVisibility(I)V
 
     .line 78
-    iget-object v0, p4, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/ax;
+    iget-object v0, p4, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/AXclz;
 
     if-nez v0, :cond_1
 
@@ -146,9 +146,9 @@
 
     .line 78
     :cond_1
-    iget-object v0, p4, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/ax;
+    iget-object v0, p4, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/AXclz;
 
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/ax;->ikW:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/AXclz;->ikW:Ljava/lang/String;
 
     goto :goto_0
 

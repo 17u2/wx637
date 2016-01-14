@@ -71,9 +71,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/st;
+    check-cast v0, Lcom/tencent/mm/protocal/b/STclz;
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/st;->ijq:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/STclz;->ijq:I
 
     .line 64
     invoke-static {}, Lcom/tencent/mm/model/ah;->to()Lcom/tencent/mm/q/l;

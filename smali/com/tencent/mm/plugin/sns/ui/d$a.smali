@@ -15,7 +15,7 @@
 
 
 # virtual methods
-.method public abstract a(Ljava/util/List;Ljava/util/Map;Ljava/util/Map;IILcom/tencent/mm/protocal/b/bm;)V
+.method public abstract a(Ljava/util/List;Ljava/util/Map;Ljava/util/Map;IILcom/tencent/mm/protocal/b/BMclz;)V
 .end method
 
 .method public abstract ava()V

@@ -182,32 +182,32 @@
     .line 54
     iget-object v0, p0, Lcom/tencent/mm/ac/e;->byM:Lcom/tencent/mm/network/o;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/h$c;
+    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/u$a;
+    check-cast v0, Lcom/tencent/mm/protocal/Uclz$a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/u$a;
+    check-cast v0, Lcom/tencent/mm/protocal/Uclz$a;
 
     iget-wide v1, p0, Lcom/tencent/mm/ac/e;->bNb:J
 
-    iput-wide v1, v0, Lcom/tencent/mm/protocal/u$a;->iir:J
+    iput-wide v1, v0, Lcom/tencent/mm/protocal/Uclz$a;->iir:J
 
     .line 55
     iget-object v0, p0, Lcom/tencent/mm/ac/e;->byM:Lcom/tencent/mm/network/o;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/h$c;
+    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/u$a;
+    check-cast v0, Lcom/tencent/mm/protocal/Uclz$a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/u$a;
+    check-cast v0, Lcom/tencent/mm/protocal/Uclz$a;
 
     iget-object v1, p0, Lcom/tencent/mm/ac/e;->bNx:[B
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/u$a;->awD:[B
+    iput-object v1, v0, Lcom/tencent/mm/protocal/Uclz$a;->awD:[B
 
     .line 57
     iput-object p2, p0, Lcom/tencent/mm/ac/e;->ans:Lcom/tencent/mm/q/d;

@@ -393,9 +393,9 @@
 
     sget-object v2, Lcom/tencent/mm/ui/chatting/t;->kbr:Lcom/tencent/mm/ui/chatting/t$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/t$a;->kbx:Lcom/tencent/mm/protocal/a/a/b;
+    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/t$a;->kbx:Lcom/tencent/mm/protocal/a/a/Bclz;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/hp$a;->aCQ:Lcom/tencent/mm/protocal/a/a/b;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/hp$a;->aCQ:Lcom/tencent/mm/protocal/a/a/Bclz;
 
     .line 162
     sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
@@ -557,9 +557,9 @@
 
     iget-object v2, v0, Lcom/tencent/mm/d/a/hp;->aCI:Lcom/tencent/mm/d/a/hp$b;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/a/hp$b;->aCQ:Lcom/tencent/mm/protocal/a/a/b;
+    iget-object v2, v2, Lcom/tencent/mm/d/a/hp$b;->aCQ:Lcom/tencent/mm/protocal/a/a/Bclz;
 
-    iput-object v2, v1, Lcom/tencent/mm/ui/chatting/t$a;->kbx:Lcom/tencent/mm/protocal/a/a/b;
+    iput-object v2, v1, Lcom/tencent/mm/ui/chatting/t$a;->kbx:Lcom/tencent/mm/protocal/a/a/Bclz;
 
     .line 190
     return-object v0
@@ -694,7 +694,7 @@
     .line 252
     sget-object v0, Lcom/tencent/mm/ui/chatting/t;->kbr:Lcom/tencent/mm/ui/chatting/t$a;
 
-    iput-object v2, v0, Lcom/tencent/mm/ui/chatting/t$a;->kbx:Lcom/tencent/mm/protocal/a/a/b;
+    iput-object v2, v0, Lcom/tencent/mm/ui/chatting/t$a;->kbx:Lcom/tencent/mm/protocal/a/a/Bclz;
 
     .line 253
     return-void

@@ -101,7 +101,7 @@
 
     move-result-object v4
 
-    invoke-static {v4, v3}, Lcom/tencent/mm/protocal/aa;->k([B[B)[B
+    invoke-static {v4, v3}, Lcom/tencent/mm/protocal/AAclz;->k([B[B)[B
 
     move-result-object v3
 
@@ -170,7 +170,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/hy;
+    check-cast v0, Lcom/tencent/mm/protocal/b/HYclz;
 
     .line 562
     const-string/jumbo v1, "!44@/B4Tb64lLpK+IBX8XDgnvok/caRG32KkgeLwtVZImYI="
@@ -181,7 +181,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget v3, v0, Lcom/tencent/mm/protocal/b/hy;->itD:I
+    iget v3, v0, Lcom/tencent/mm/protocal/b/HYclz;->itD:I
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -201,7 +201,7 @@
     invoke-virtual {v1}, Ljava/util/LinkedList;->removeFirst()Ljava/lang/Object;
 
     .line 565
-    iget v1, v0, Lcom/tencent/mm/protocal/b/hy;->itD:I
+    iget v1, v0, Lcom/tencent/mm/protocal/b/HYclz;->itD:I
 
     packed-switch v1, :pswitch_data_0
 
@@ -215,7 +215,7 @@
 
     new-instance v2, Lcom/tencent/mm/plugin/sns/d/r$a$1$1;
 
-    invoke-direct {v2, p0, v0}, Lcom/tencent/mm/plugin/sns/d/r$a$1$1;-><init>(Lcom/tencent/mm/plugin/sns/d/r$a$1;Lcom/tencent/mm/protocal/b/hy;)V
+    invoke-direct {v2, p0, v0}, Lcom/tencent/mm/plugin/sns/d/r$a$1$1;-><init>(Lcom/tencent/mm/plugin/sns/d/r$a$1;Lcom/tencent/mm/protocal/b/HYclz;)V
 
     invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
 
@@ -229,7 +229,7 @@
 
     new-instance v2, Lcom/tencent/mm/plugin/sns/d/r$a$1$2;
 
-    invoke-direct {v2, p0, v0}, Lcom/tencent/mm/plugin/sns/d/r$a$1$2;-><init>(Lcom/tencent/mm/plugin/sns/d/r$a$1;Lcom/tencent/mm/protocal/b/hy;)V
+    invoke-direct {v2, p0, v0}, Lcom/tencent/mm/plugin/sns/d/r$a$1$2;-><init>(Lcom/tencent/mm/plugin/sns/d/r$a$1;Lcom/tencent/mm/protocal/b/HYclz;)V
 
     invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
 

@@ -347,9 +347,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/zd;
+    check-cast v0, Lcom/tencent/mm/protocal/b/ZDclz;
 
-    iget-object v5, v0, Lcom/tencent/mm/protocal/b/zd;->iIG:Lcom/tencent/mm/aq/b;
+    iget-object v5, v0, Lcom/tencent/mm/protocal/b/ZDclz;->iIG:Lcom/tencent/mm/aq/b;
 
     iget-object v5, v5, Lcom/tencent/mm/aq/b;->ihc:[B
 
@@ -359,7 +359,7 @@
 
     if-ge v5, v1, :cond_6
 
-    iget-object v5, v0, Lcom/tencent/mm/protocal/b/zd;->iIG:Lcom/tencent/mm/aq/b;
+    iget-object v5, v0, Lcom/tencent/mm/protocal/b/ZDclz;->iIG:Lcom/tencent/mm/aq/b;
 
     iget-object v5, v5, Lcom/tencent/mm/aq/b;->ihc:[B
 
@@ -464,11 +464,11 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/zd;
+    check-cast v0, Lcom/tencent/mm/protocal/b/ZDclz;
 
     invoke-interface {v4, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/zd;->iIG:Lcom/tencent/mm/aq/b;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ZDclz;->iIG:Lcom/tencent/mm/aq/b;
 
     iget-object v0, v0, Lcom/tencent/mm/aq/b;->ihc:[B
 
@@ -739,7 +739,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/zd;
+    check-cast v0, Lcom/tencent/mm/protocal/b/ZDclz;
 
     iget-object v4, v2, Lcom/tencent/mm/protocal/b/aoc;->ika:Ljava/util/LinkedList;
 

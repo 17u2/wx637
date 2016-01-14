@@ -235,12 +235,12 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/fr;
+    check-cast v0, Lcom/tencent/mm/protocal/b/FRclz;
 
     .line 165
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/c/k;->fLO:Ljava/util/HashMap;
 
-    iget-wide v4, v0, Lcom/tencent/mm/protocal/b/fr;->iqr:J
+    iget-wide v4, v0, Lcom/tencent/mm/protocal/b/FRclz;->iqr:J
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -255,7 +255,7 @@
     .line 166
     iget-object v4, p0, Lcom/tencent/mm/plugin/search/ui/c/k;->aBw:Ljava/lang/String;
 
-    invoke-virtual {v1, v0, v4}, Lcom/tencent/mm/ui/e/d;->a(Lcom/tencent/mm/protocal/b/fr;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v4}, Lcom/tencent/mm/ui/e/d;->a(Lcom/tencent/mm/protocal/b/FRclz;Ljava/lang/String;)V
 
     .line 167
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/c/k;->fLP:Ljava/util/LinkedList;

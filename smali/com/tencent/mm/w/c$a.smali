@@ -17,7 +17,7 @@
 # instance fields
 .field awX:Ljava/lang/String;
 
-.field bHC:Lcom/tencent/mm/protocal/b/qx;
+.field bHC:Lcom/tencent/mm/protocal/b/QXclz;
 
 .field bHD:I
 

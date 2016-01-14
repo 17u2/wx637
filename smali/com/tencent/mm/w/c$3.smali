@@ -203,14 +203,14 @@
 
     .line 283
     :cond_2
-    iget-object v0, v7, Lcom/tencent/mm/w/c$a;->bHC:Lcom/tencent/mm/protocal/b/qx;
+    iget-object v0, v7, Lcom/tencent/mm/w/c$a;->bHC:Lcom/tencent/mm/protocal/b/QXclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/qx;->iCT:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/QXclz;->iCT:Ljava/util/LinkedList;
 
     .line 284
-    iget-object v1, v7, Lcom/tencent/mm/w/c$a;->bHC:Lcom/tencent/mm/protocal/b/qx;
+    iget-object v1, v7, Lcom/tencent/mm/w/c$a;->bHC:Lcom/tencent/mm/protocal/b/QXclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/qx;->iCU:Ljava/util/LinkedList;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/QXclz;->iCU:Ljava/util/LinkedList;
 
     .line 285
     iget v2, v7, Lcom/tencent/mm/w/c$a;->bHD:I

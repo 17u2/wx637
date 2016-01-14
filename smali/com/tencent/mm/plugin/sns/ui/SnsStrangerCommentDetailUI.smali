@@ -215,9 +215,9 @@
     move-result-object v0
 
     .line 263
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget-object v6, v0, Lcom/tencent/mm/protocal/b/il;->iuh:Ljava/util/LinkedList;
+    iget-object v6, v0, Lcom/tencent/mm/protocal/b/ILclz;->iuh:Ljava/util/LinkedList;
 
     .line 264
     new-instance v0, Ljava/util/ArrayList;

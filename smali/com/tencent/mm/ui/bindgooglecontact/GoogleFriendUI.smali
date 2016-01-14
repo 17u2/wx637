@@ -1077,11 +1077,11 @@
     check-cast p4, Lcom/tencent/mm/y/b;
 
     .line 352
-    invoke-virtual {p4}, Lcom/tencent/mm/y/b;->zy()Lcom/tencent/mm/protocal/b/xw;
+    invoke-virtual {p4}, Lcom/tencent/mm/y/b;->zy()Lcom/tencent/mm/protocal/b/XWclz;
 
     move-result-object v0
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/xw;->fxn:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/XWclz;->fxn:I
 
     .line 353
     const-string/jumbo v1, "!56@/B4Tb64lLpKHrGLZvbPyiIVQZqGB7lNLR9cEovBG92K66fy5loyLJw=="
@@ -1200,11 +1200,11 @@
     check-cast p4, Lcom/tencent/mm/y/b;
 
     .line 400
-    invoke-virtual {p4}, Lcom/tencent/mm/y/b;->zy()Lcom/tencent/mm/protocal/b/xw;
+    invoke-virtual {p4}, Lcom/tencent/mm/y/b;->zy()Lcom/tencent/mm/protocal/b/XWclz;
 
     move-result-object v0
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/xw;->fxn:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/XWclz;->fxn:I
 
     .line 401
     const-string/jumbo v1, "!56@/B4Tb64lLpKHrGLZvbPyiIVQZqGB7lNLR9cEovBG92K66fy5loyLJw=="

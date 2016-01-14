@@ -4,9 +4,9 @@
 
 
 # instance fields
-.field private final bSw:Lcom/tencent/mm/protocal/w$a;
+.field private final bSw:Lcom/tencent/mm/protocal/Wclz$a;
 
-.field private final bSx:Lcom/tencent/mm/protocal/w$b;
+.field private final bSx:Lcom/tencent/mm/protocal/Wclz$b;
 
 
 # direct methods
@@ -18,18 +18,18 @@
     invoke-direct {p0}, Lcom/tencent/mm/q/h;-><init>()V
 
     .line 106
-    new-instance v0, Lcom/tencent/mm/protocal/w$a;
+    new-instance v0, Lcom/tencent/mm/protocal/Wclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/w$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/Wclz$a;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/modelsimple/e;->bSw:Lcom/tencent/mm/protocal/w$a;
+    iput-object v0, p0, Lcom/tencent/mm/modelsimple/e;->bSw:Lcom/tencent/mm/protocal/Wclz$a;
 
     .line 107
-    new-instance v0, Lcom/tencent/mm/protocal/w$b;
+    new-instance v0, Lcom/tencent/mm/protocal/Wclz$b;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/w$b;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/Wclz$b;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/modelsimple/e;->bSx:Lcom/tencent/mm/protocal/w$b;
+    iput-object v0, p0, Lcom/tencent/mm/modelsimple/e;->bSx:Lcom/tencent/mm/protocal/Wclz$b;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -63,22 +63,22 @@
     return-object v0
 .end method
 
-.method protected final tI()Lcom/tencent/mm/protocal/h$c;
+.method protected final tI()Lcom/tencent/mm/protocal/Hclz$c;
     .locals 1
 
     .prologue
     .line 111
-    iget-object v0, p0, Lcom/tencent/mm/modelsimple/e;->bSw:Lcom/tencent/mm/protocal/w$a;
+    iget-object v0, p0, Lcom/tencent/mm/modelsimple/e;->bSw:Lcom/tencent/mm/protocal/Wclz$a;
 
     return-object v0
 .end method
 
-.method public final tJ()Lcom/tencent/mm/protocal/h$d;
+.method public final tJ()Lcom/tencent/mm/protocal/Hclz$d;
     .locals 1
 
     .prologue
     .line 116
-    iget-object v0, p0, Lcom/tencent/mm/modelsimple/e;->bSx:Lcom/tencent/mm/protocal/w$b;
+    iget-object v0, p0, Lcom/tencent/mm/modelsimple/e;->bSx:Lcom/tencent/mm/protocal/Wclz$b;
 
     return-object v0
 .end method

@@ -210,7 +210,7 @@
     if-eqz v1, :cond_3
 
     .line 1999
-    iget-object v0, v1, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/ax;
+    iget-object v0, v1, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/AXclz;
 
     if-nez v0, :cond_5
 
@@ -321,9 +321,9 @@
 
     .line 1999
     :cond_5
-    iget-object v0, v1, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/ax;
+    iget-object v0, v1, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/AXclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ax;->ikW:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/AXclz;->ikW:Ljava/lang/String;
 
     goto :goto_2
 .end method

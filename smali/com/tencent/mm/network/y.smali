@@ -390,22 +390,22 @@
     iput-wide v6, v0, Lcom/tencent/mm/network/y$a;->startTime:J
 
     .line 134
-    invoke-interface {p1}, Lcom/tencent/mm/network/p;->vP()Lcom/tencent/mm/protocal/e;
+    invoke-interface {p1}, Lcom/tencent/mm/network/p;->vP()Lcom/tencent/mm/protocal/Eclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/protocal/e;->getCmdId()I
+    invoke-interface {v0}, Lcom/tencent/mm/protocal/Eclz;->getCmdId()I
 
     move-result v0
 
     iput v0, v4, Lcom/tencent/mm/network/MMNativeNetComm$NetCmd;->reqCmdID:I
 
     .line 135
-    invoke-interface {p1}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/f;
+    invoke-interface {p1}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/Fclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/protocal/f;->getCmdId()I
+    invoke-interface {v0}, Lcom/tencent/mm/protocal/Fclz;->getCmdId()I
 
     move-result v0
 
@@ -548,11 +548,11 @@
 
     .line 179
     :cond_6
-    invoke-interface {p1}, Lcom/tencent/mm/network/p;->vP()Lcom/tencent/mm/protocal/e;
+    invoke-interface {p1}, Lcom/tencent/mm/network/p;->vP()Lcom/tencent/mm/protocal/Eclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/protocal/e;->vO()Z
+    invoke-interface {v0}, Lcom/tencent/mm/protocal/Eclz;->vO()Z
 
     move-result v0
 
@@ -1083,11 +1083,11 @@
 
     iget-object v2, v2, Lcom/tencent/mm/network/y$a;->cbj:Lcom/tencent/mm/network/p;
 
-    invoke-interface {v2}, Lcom/tencent/mm/network/p;->vP()Lcom/tencent/mm/protocal/e;
+    invoke-interface {v2}, Lcom/tencent/mm/network/p;->vP()Lcom/tencent/mm/protocal/Eclz;
 
     move-result-object v2
 
-    invoke-interface {v2}, Lcom/tencent/mm/protocal/e;->vM()[B
+    invoke-interface {v2}, Lcom/tencent/mm/protocal/Eclz;->vM()[B
 
     move-result-object v2
 
@@ -1098,7 +1098,7 @@
 
     iget-object v3, v3, Lcom/tencent/mm/network/y$a;->cbj:Lcom/tencent/mm/network/p;
 
-    invoke-interface {v3}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/f;
+    invoke-interface {v3}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/Fclz;
 
     move-result-object v3
 
@@ -1113,7 +1113,7 @@
 
     move-result v1
 
-    invoke-interface {v3, v1, p2, v2}, Lcom/tencent/mm/protocal/f;->a(I[B[B)Z
+    invoke-interface {v3, v1, p2, v2}, Lcom/tencent/mm/protocal/Fclz;->a(I[B[B)Z
 
     move-result v1
 
@@ -1121,14 +1121,14 @@
     if-eqz v1, :cond_4
 
     .line 459
-    invoke-interface {v3}, Lcom/tencent/mm/protocal/f;->vB()[B
+    invoke-interface {v3}, Lcom/tencent/mm/protocal/Fclz;->vB()[B
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
     .line 460
-    invoke-interface {v3}, Lcom/tencent/mm/protocal/f;->vB()[B
+    invoke-interface {v3}, Lcom/tencent/mm/protocal/Fclz;->vB()[B
 
     move-result-object v1
 
@@ -1138,7 +1138,7 @@
     :cond_1
     const/16 v1, -0xd
 
-    invoke-interface {v3}, Lcom/tencent/mm/protocal/f;->vT()I
+    invoke-interface {v3}, Lcom/tencent/mm/protocal/Fclz;->vT()I
 
     move-result v2
 
@@ -1146,7 +1146,7 @@
 
     const/16 v1, -0xbba
 
-    invoke-interface {v3}, Lcom/tencent/mm/protocal/f;->vT()I
+    invoke-interface {v3}, Lcom/tencent/mm/protocal/Fclz;->vT()I
 
     move-result v2
 
@@ -1154,7 +1154,7 @@
 
     const/16 v1, -0xbbb
 
-    invoke-interface {v3}, Lcom/tencent/mm/protocal/f;->vT()I
+    invoke-interface {v3}, Lcom/tencent/mm/protocal/Fclz;->vT()I
 
     move-result v2
 
@@ -1162,7 +1162,7 @@
 
     const/16 v1, -0xbb9
 
-    invoke-interface {v3}, Lcom/tencent/mm/protocal/f;->vT()I
+    invoke-interface {v3}, Lcom/tencent/mm/protocal/Fclz;->vT()I
 
     move-result v2
 
@@ -1170,7 +1170,7 @@
 
     .line 465
     :cond_2
-    invoke-interface {v3}, Lcom/tencent/mm/protocal/f;->vT()I
+    invoke-interface {v3}, Lcom/tencent/mm/protocal/Fclz;->vT()I
     :try_end_1
     .catch Landroid/os/RemoteException; {:try_start_1 .. :try_end_1} :catch_0
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
@@ -1630,11 +1630,11 @@
 
     iget-object v1, v1, Lcom/tencent/mm/network/y$a;->cbj:Lcom/tencent/mm/network/p;
 
-    invoke-interface {v1}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/f;
+    invoke-interface {v1}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/Fclz;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/tencent/mm/protocal/f;->vT()I
+    invoke-interface {v1}, Lcom/tencent/mm/protocal/Fclz;->vT()I
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -1841,7 +1841,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/network/y$a;->cbj:Lcom/tencent/mm/network/p;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/p;->vP()Lcom/tencent/mm/protocal/e;
+    invoke-interface {v0}, Lcom/tencent/mm/network/p;->vP()Lcom/tencent/mm/protocal/Eclz;
 
     move-result-object v0
 
@@ -1855,7 +1855,7 @@
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/protocal/e;->A([B)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/protocal/Eclz;->A([B)V
 
     .line 408
     iget-object v0, p0, Lcom/tencent/mm/network/y;->cbf:[Lcom/tencent/mm/network/y$a;
@@ -1864,7 +1864,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/network/y$a;->cbj:Lcom/tencent/mm/network/p;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/p;->vP()Lcom/tencent/mm/protocal/e;
+    invoke-interface {v0}, Lcom/tencent/mm/network/p;->vP()Lcom/tencent/mm/protocal/Eclz;
 
     move-result-object v0
 
@@ -1878,7 +1878,7 @@
 
     move-result v1
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/protocal/e;->ba(I)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/protocal/Eclz;->ba(I)V
 
     .line 409
     iget-object v0, p0, Lcom/tencent/mm/network/y;->cbf:[Lcom/tencent/mm/network/y$a;
@@ -1887,7 +1887,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/network/y$a;->cbj:Lcom/tencent/mm/network/p;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/p;->vP()Lcom/tencent/mm/protocal/e;
+    invoke-interface {v0}, Lcom/tencent/mm/network/p;->vP()Lcom/tencent/mm/protocal/Eclz;
 
     move-result-object v0
 
@@ -1943,7 +1943,7 @@
 
     move-result v6
 
-    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/protocal/e;->a(I[B[B[BIZ)Z
+    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/protocal/Eclz;->a(I[B[B[BIZ)Z
 
     move-result v8
 
@@ -1957,11 +1957,11 @@
 
     iget-object v0, v0, Lcom/tencent/mm/network/y$a;->cbj:Lcom/tencent/mm/network/p;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/p;->vP()Lcom/tencent/mm/protocal/e;
+    invoke-interface {v0}, Lcom/tencent/mm/network/p;->vP()Lcom/tencent/mm/protocal/Eclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/protocal/e;->vJ()[B
+    invoke-interface {v0}, Lcom/tencent/mm/protocal/Eclz;->vJ()[B
 
     move-result-object v0
 

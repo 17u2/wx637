@@ -100,7 +100,7 @@
     .line 1996
     iget-object v0, v0, Lcom/tencent/mm/d/a/hp;->aCI:Lcom/tencent/mm/d/a/hp$b;
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/hp$b;->aCR:Lcom/tencent/mm/protocal/a/a/a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/hp$b;->aCR:Lcom/tencent/mm/protocal/a/a/Aclz;
 
     .line 1997
     if-eqz v1, :cond_1
@@ -112,7 +112,7 @@
 
     move-result-object v0
 
-    iget-object v4, v1, Lcom/tencent/mm/protocal/a/a/a;->title:Ljava/lang/String;
+    iget-object v4, v1, Lcom/tencent/mm/protocal/a/a/Aclz;->title:Ljava/lang/String;
 
     iget-object v5, p1, Lcom/tencent/mm/m/a$a;->title:Ljava/lang/String;
 
@@ -136,7 +136,7 @@
     invoke-virtual {v4, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 2001
-    iget-object v0, v1, Lcom/tencent/mm/protocal/a/a/a;->asj:Ljava/lang/String;
+    iget-object v0, v1, Lcom/tencent/mm/protocal/a/a/Aclz;->asj:Ljava/lang/String;
 
     .line 2002
     if-eqz v0, :cond_0
@@ -181,7 +181,7 @@
     invoke-virtual {v4, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 2009
-    iget-object v0, v1, Lcom/tencent/mm/protocal/a/a/a;->brQ:Ljava/util/LinkedList;
+    iget-object v0, v1, Lcom/tencent/mm/protocal/a/a/Aclz;->brQ:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
 
@@ -200,10 +200,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ms;
+    check-cast v0, Lcom/tencent/mm/protocal/b/MSclz;
 
     .line 2010
-    iget v5, v0, Lcom/tencent/mm/protocal/b/ms;->cpy:I
+    iget v5, v0, Lcom/tencent/mm/protocal/b/MSclz;->cpy:I
 
     packed-switch v5, :pswitch_data_0
 
@@ -384,7 +384,7 @@
     .line 2060
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/i;->jZG:Lcom/tencent/mm/ui/MMImageView;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ms;->ixW:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/MSclz;->ixW:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/pluginsdk/c;->xi(Ljava/lang/String;)I
 

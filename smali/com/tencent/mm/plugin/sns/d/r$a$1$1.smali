@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic gil:Lcom/tencent/mm/protocal/b/hy;
+.field final synthetic gil:Lcom/tencent/mm/protocal/b/HYclz;
 
 .field final synthetic gim:Lcom/tencent/mm/plugin/sns/d/r$a$1;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/sns/d/r$a$1;Lcom/tencent/mm/protocal/b/hy;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/sns/d/r$a$1;Lcom/tencent/mm/protocal/b/HYclz;)V
     .locals 1
 
     .prologue
     .line 567
     iput-object p1, p0, Lcom/tencent/mm/plugin/sns/d/r$a$1$1;->gim:Lcom/tencent/mm/plugin/sns/d/r$a$1;
 
-    iput-object p2, p0, Lcom/tencent/mm/plugin/sns/d/r$a$1$1;->gil:Lcom/tencent/mm/protocal/b/hy;
+    iput-object p2, p0, Lcom/tencent/mm/plugin/sns/d/r$a$1$1;->gil:Lcom/tencent/mm/protocal/b/HYclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -58,7 +58,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/d/r$a;->gii:Lcom/tencent/mm/plugin/sns/d/r;
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/d/r$a$1$1;->gil:Lcom/tencent/mm/protocal/b/hy;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/d/r$a$1$1;->gil:Lcom/tencent/mm/protocal/b/HYclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/d/r$a$1$1;->gim:Lcom/tencent/mm/plugin/sns/d/r$a$1;
 
@@ -66,7 +66,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/plugin/sns/d/r$a;->dAE:Lcom/tencent/mm/sdk/platformtools/ab;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/plugin/sns/d/r;->a(Lcom/tencent/mm/protocal/b/hy;Lcom/tencent/mm/sdk/platformtools/ab;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/plugin/sns/d/r;->a(Lcom/tencent/mm/protocal/b/HYclz;Lcom/tencent/mm/sdk/platformtools/ab;)Z
 
     move-result v0
 

@@ -77,7 +77,7 @@
 
 
 # virtual methods
-.method public final DI(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/rn;
+.method public final DI(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/RNclz;
     .locals 10
 
     .prologue
@@ -146,9 +146,9 @@
 
     .line 61
     :try_start_0
-    new-instance v0, Lcom/tencent/mm/protocal/b/rn;
+    new-instance v0, Lcom/tencent/mm/protocal/b/RNclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/rn;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/RNclz;-><init>()V
 
     .line 62
     const/4 v2, 0x0
@@ -157,7 +157,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/protocal/b/rn;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/protocal/b/RNclz;->ak([B)Lcom/tencent/mm/aq/a;
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 

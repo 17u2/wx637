@@ -21,7 +21,7 @@
 
 .field public awN:Ljava/lang/String;
 
-.field public awO:Lcom/tencent/mm/protocal/b/mx;
+.field public awO:Lcom/tencent/mm/protocal/b/MXclz;
 
 .field public awP:Lcom/tencent/mm/sdk/g/d;
 

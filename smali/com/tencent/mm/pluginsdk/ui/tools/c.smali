@@ -184,28 +184,28 @@
     iput-object v0, v1, Lcom/tencent/mm/s/k;->field_brandList:Ljava/lang/String;
 
     .line 100
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/akj;->iJd:Lcom/tencent/mm/protocal/b/iw;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/akj;->iJd:Lcom/tencent/mm/protocal/b/IWclz;
 
     .line 101
     if-eqz v0, :cond_0
 
     .line 102
-    iget v2, v0, Lcom/tencent/mm/protocal/b/iw;->bEB:I
+    iget v2, v0, Lcom/tencent/mm/protocal/b/IWclz;->bEB:I
 
     iput v2, v1, Lcom/tencent/mm/s/k;->field_brandFlag:I
 
     .line 103
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/iw;->bED:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/IWclz;->bED:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/tencent/mm/s/k;->field_brandInfo:Ljava/lang/String;
 
     .line 104
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/iw;->bEC:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/IWclz;->bEC:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/tencent/mm/s/k;->field_extInfo:Ljava/lang/String;
 
     .line 105
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/iw;->bEE:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/IWclz;->bEE:Ljava/lang/String;
 
     iput-object v0, v1, Lcom/tencent/mm/s/k;->field_brandIconURL:Ljava/lang/String;
 
@@ -425,28 +425,28 @@
     iput-object v0, v1, Lcom/tencent/mm/s/k;->field_kfWorkerId:Ljava/lang/String;
 
     .line 51
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/akl;->iJd:Lcom/tencent/mm/protocal/b/iw;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/akl;->iJd:Lcom/tencent/mm/protocal/b/IWclz;
 
     .line 52
     if-eqz v0, :cond_0
 
     .line 53
-    iget v2, v0, Lcom/tencent/mm/protocal/b/iw;->bEB:I
+    iget v2, v0, Lcom/tencent/mm/protocal/b/IWclz;->bEB:I
 
     iput v2, v1, Lcom/tencent/mm/s/k;->field_brandFlag:I
 
     .line 54
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/iw;->bED:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/IWclz;->bED:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/tencent/mm/s/k;->field_brandInfo:Ljava/lang/String;
 
     .line 55
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/iw;->bEC:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/IWclz;->bEC:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/tencent/mm/s/k;->field_extInfo:Ljava/lang/String;
 
     .line 56
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/iw;->bEE:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/IWclz;->bEE:Ljava/lang/String;
 
     iput-object v0, v1, Lcom/tencent/mm/s/k;->field_brandIconURL:Ljava/lang/String;
 

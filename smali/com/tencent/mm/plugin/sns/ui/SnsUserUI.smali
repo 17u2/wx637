@@ -323,7 +323,7 @@
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
     if-eqz v0, :cond_0
 
@@ -504,7 +504,7 @@
 
     move-result-object v3
 
-    iget-object v3, v3, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v3, v3, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
     if-eqz v3, :cond_0
 

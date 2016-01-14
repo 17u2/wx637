@@ -116,11 +116,11 @@
     iput p2, v0, Lcom/tencent/mm/protocal/b/abe;->iKC:I
 
     .line 47
-    invoke-static {}, Lcom/tencent/mm/modelsearch/e;->AY()Lcom/tencent/mm/protocal/b/zq;
+    invoke-static {}, Lcom/tencent/mm/modelsearch/e;->AY()Lcom/tencent/mm/protocal/b/ZQclz;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/abe;->iKD:Lcom/tencent/mm/protocal/b/zq;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/abe;->iKD:Lcom/tencent/mm/protocal/b/ZQclz;
 
     .line 48
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z

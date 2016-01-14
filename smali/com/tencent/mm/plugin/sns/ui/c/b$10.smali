@@ -111,9 +111,9 @@
     iget-object v0, v8, Lcom/tencent/mm/plugin/sns/ui/ad;->gvw:Lcom/tencent/mm/protocal/b/aqx;
 
     .line 1031
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/il;->iuh:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ILclz;->iuh:Ljava/util/LinkedList;
 
     invoke-virtual {v0, v12}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
 

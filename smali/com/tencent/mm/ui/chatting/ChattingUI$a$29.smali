@@ -52,9 +52,9 @@
 
     .prologue
     .line 10227
-    new-instance v2, Lcom/tencent/mm/protocal/b/ew;
+    new-instance v2, Lcom/tencent/mm/protocal/b/EWclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/ew;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/EWclz;-><init>()V
 
     .line 10228
     const/4 v0, 0x0
@@ -71,9 +71,9 @@
     if-ge v1, v0, :cond_0
 
     .line 10229
-    new-instance v3, Lcom/tencent/mm/protocal/b/ev;
+    new-instance v3, Lcom/tencent/mm/protocal/b/EVclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/ev;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/EVclz;-><init>()V
 
     .line 10230
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$29;->kjm:Ljava/util/LinkedList;
@@ -84,10 +84,10 @@
 
     check-cast v0, Ljava/lang/String;
 
-    iput-object v0, v3, Lcom/tencent/mm/protocal/b/ev;->ipx:Ljava/lang/String;
+    iput-object v0, v3, Lcom/tencent/mm/protocal/b/EVclz;->ipx:Ljava/lang/String;
 
     .line 10231
-    iget-object v0, v2, Lcom/tencent/mm/protocal/b/ew;->ipy:Ljava/util/LinkedList;
+    iget-object v0, v2, Lcom/tencent/mm/protocal/b/EWclz;->ipy:Ljava/util/LinkedList;
 
     invoke-virtual {v0, v3}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
@@ -102,7 +102,7 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$29;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/protocal/b/ew;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/protocal/b/EWclz;)V
 
     .line 10234
     return-void

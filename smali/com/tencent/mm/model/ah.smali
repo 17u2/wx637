@@ -296,7 +296,7 @@
 
     invoke-direct {v0, v2}, Lcom/tencent/mm/model/ai;-><init>(I)V
 
-    sput-object v0, Lcom/tencent/mm/protocal/g$c$a;->ihE:Lcom/tencent/mm/protocal/g$c;
+    sput-object v0, Lcom/tencent/mm/protocal/Gclz$c$a;->ihE:Lcom/tencent/mm/protocal/Gclz$c;
 
     .line 416
     iget-object v0, p0, Lcom/tencent/mm/model/ah;->btr:Lcom/tencent/mm/storage/g;
@@ -1696,7 +1696,7 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/model/ah$6;-><init>()V
 
-    invoke-interface {p0, v0}, Lcom/tencent/mm/network/e;->a(Lcom/tencent/mm/protocal/y;)V
+    invoke-interface {p0, v0}, Lcom/tencent/mm/network/e;->a(Lcom/tencent/mm/protocal/Yclz;)V
 
     .line 564
     invoke-interface {p0}, Lcom/tencent/mm/network/e;->vG()Lcom/tencent/mm/network/c;
@@ -1882,7 +1882,7 @@
     check-cast v8, Ljava/lang/String;
 
     .line 598
-    invoke-static {v0, v4}, Lcom/tencent/mm/protocal/k;->bO(Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/protocal/k$a;
+    invoke-static {v0, v4}, Lcom/tencent/mm/protocal/Kclz;->bO(Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/protocal/Kclz$a;
 
     move-result-object v7
 
@@ -1933,13 +1933,13 @@
     invoke-static {v0, v10}, Ljunit/framework/Assert;->assertTrue(Ljava/lang/String;Z)V
 
     .line 602
-    iget-object v4, v7, Lcom/tencent/mm/protocal/k$a;->ihX:[I
+    iget-object v4, v7, Lcom/tencent/mm/protocal/Kclz$a;->ihX:[I
 
-    iget-object v5, v7, Lcom/tencent/mm/protocal/k$a;->ihY:[I
+    iget-object v5, v7, Lcom/tencent/mm/protocal/Kclz$a;->ihY:[I
 
-    iget v6, v7, Lcom/tencent/mm/protocal/k$a;->ihZ:I
+    iget v6, v7, Lcom/tencent/mm/protocal/Kclz$a;->ihZ:I
 
-    iget v7, v7, Lcom/tencent/mm/protocal/k$a;->iia:I
+    iget v7, v7, Lcom/tencent/mm/protocal/Kclz$a;->iia:I
 
     move-object v0, p0
 

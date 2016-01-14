@@ -103,7 +103,7 @@
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/h$c;
+    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     .line 94
     iget-object v0, p0, Lcom/tencent/mm/q/qclass$1;->bza:Lcom/tencent/mm/q/qclass;
@@ -112,11 +112,11 @@
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {v0}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/g$g;
+    check-cast v0, Lcom/tencent/mm/protocal/Gclz$g;
 
     .line 95
     if-nez v0, :cond_0
@@ -134,7 +134,7 @@
 
     .line 99
     :cond_0
-    sget-object v1, Lcom/tencent/mm/protocal/g$c$a;->ihE:Lcom/tencent/mm/protocal/g$c;
+    sget-object v1, Lcom/tencent/mm/protocal/Gclz$c$a;->ihE:Lcom/tencent/mm/protocal/Gclz$c;
 
     iget v2, p0, Lcom/tencent/mm/q/qclass$1;->aoA:I
 
@@ -142,7 +142,7 @@
 
     iget-object v4, p0, Lcom/tencent/mm/q/qclass$1;->byG:Ljava/lang/String;
 
-    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/protocal/g$c;->a(Lcom/tencent/mm/protocal/g$g;IILjava/lang/String;)V
+    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/protocal/Gclz$c;->a(Lcom/tencent/mm/protocal/Gclz$g;IILjava/lang/String;)V
 
     goto :goto_0
 .end method

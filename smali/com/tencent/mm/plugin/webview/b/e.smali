@@ -131,11 +131,11 @@
     iput-wide p3, v1, Lcom/tencent/mm/protocal/b/axm;->iqr:J
 
     .line 60
-    invoke-static {}, Lcom/tencent/mm/modelsearch/e;->AY()Lcom/tencent/mm/protocal/b/zq;
+    invoke-static {}, Lcom/tencent/mm/modelsearch/e;->AY()Lcom/tencent/mm/protocal/b/ZQclz;
 
     move-result-object v2
 
-    iput-object v2, v1, Lcom/tencent/mm/protocal/b/axm;->iKD:Lcom/tencent/mm/protocal/b/zq;
+    iput-object v2, v1, Lcom/tencent/mm/protocal/b/axm;->iKD:Lcom/tencent/mm/protocal/b/ZQclz;
 
     .line 61
     iput p5, v1, Lcom/tencent/mm/protocal/b/axm;->ink:I
@@ -178,7 +178,7 @@
 
     const/4 v6, 0x1
 
-    iget-object v2, v1, Lcom/tencent/mm/protocal/b/axm;->iKD:Lcom/tencent/mm/protocal/b/zq;
+    iget-object v2, v1, Lcom/tencent/mm/protocal/b/axm;->iKD:Lcom/tencent/mm/protocal/b/ZQclz;
 
     if-eqz v2, :cond_3
 
@@ -246,24 +246,24 @@
     invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 70
-    iget-object v2, v1, Lcom/tencent/mm/protocal/b/axm;->iKD:Lcom/tencent/mm/protocal/b/zq;
+    iget-object v2, v1, Lcom/tencent/mm/protocal/b/axm;->iKD:Lcom/tencent/mm/protocal/b/ZQclz;
 
     if-eqz v2, :cond_0
 
     .line 71
     const/16 v2, 0x7d5
 
-    iget-object v3, v1, Lcom/tencent/mm/protocal/b/axm;->iKD:Lcom/tencent/mm/protocal/b/zq;
+    iget-object v3, v1, Lcom/tencent/mm/protocal/b/axm;->iKD:Lcom/tencent/mm/protocal/b/ZQclz;
 
-    iget v3, v3, Lcom/tencent/mm/protocal/b/zq;->irm:F
+    iget v3, v3, Lcom/tencent/mm/protocal/b/ZQclz;->irm:F
 
-    iget-object v4, v1, Lcom/tencent/mm/protocal/b/axm;->iKD:Lcom/tencent/mm/protocal/b/zq;
+    iget-object v4, v1, Lcom/tencent/mm/protocal/b/axm;->iKD:Lcom/tencent/mm/protocal/b/ZQclz;
 
-    iget v4, v4, Lcom/tencent/mm/protocal/b/zq;->irn:F
+    iget v4, v4, Lcom/tencent/mm/protocal/b/ZQclz;->irn:F
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/axm;->iKD:Lcom/tencent/mm/protocal/b/zq;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/axm;->iKD:Lcom/tencent/mm/protocal/b/ZQclz;
 
-    iget v1, v1, Lcom/tencent/mm/protocal/b/zq;->ixo:I
+    iget v1, v1, Lcom/tencent/mm/protocal/b/ZQclz;->ixo:I
 
     invoke-static {v2, v3, v4, v1}, Lcom/tencent/mm/modelstat/g;->a(IFFI)V
 

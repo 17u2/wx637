@@ -108,16 +108,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 47
-    new-instance v1, Lcom/tencent/mm/protocal/b/dp;
+    new-instance v1, Lcom/tencent/mm/protocal/b/DPclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/dp;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/DPclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 48
-    new-instance v1, Lcom/tencent/mm/protocal/b/dq;
+    new-instance v1, Lcom/tencent/mm/protocal/b/DQclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/dq;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/DQclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -151,12 +151,12 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/dp;
+    check-cast v0, Lcom/tencent/mm/protocal/b/DPclz;
 
     .line 56
     iget-object v2, p0, Lcom/tencent/mm/p/j;->bxo:Ljava/util/LinkedList;
 
-    iput-object v2, v0, Lcom/tencent/mm/protocal/b/dp;->inL:Ljava/util/LinkedList;
+    iput-object v2, v0, Lcom/tencent/mm/protocal/b/DPclz;->inL:Ljava/util/LinkedList;
 
     .line 57
     iget-object v2, p0, Lcom/tencent/mm/p/j;->bxo:Ljava/util/LinkedList;
@@ -165,7 +165,7 @@
 
     move-result v2
 
-    iput v2, v0, Lcom/tencent/mm/protocal/b/dp;->fxn:I
+    iput v2, v0, Lcom/tencent/mm/protocal/b/DPclz;->fxn:I
 
     .line 58
     invoke-virtual {p0, p1, v1, p0}, Lcom/tencent/mm/p/j;->a(Lcom/tencent/mm/network/e;Lcom/tencent/mm/network/o;Lcom/tencent/mm/network/j;)I
@@ -225,9 +225,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/dq;
+    check-cast v0, Lcom/tencent/mm/protocal/b/DQclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/dq;->inO:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/DQclz;->inO:Ljava/util/LinkedList;
 
     iput-object v0, p0, Lcom/tencent/mm/p/j;->bxp:Ljava/util/LinkedList;
 

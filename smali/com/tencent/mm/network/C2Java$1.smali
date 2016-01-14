@@ -250,11 +250,11 @@
     if-nez v5, :cond_1e
 
     :try_start_1
-    invoke-interface/range {v19 .. v19}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/f;
+    invoke-interface/range {v19 .. v19}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/Fclz;
 
     move-result-object v2
 
-    invoke-interface {v2}, Lcom/tencent/mm/protocal/f;->vT()I
+    invoke-interface {v2}, Lcom/tencent/mm/protocal/Fclz;->vT()I
 
     move-result v2
 
@@ -262,11 +262,11 @@
 
     const/4 v5, 0x4
 
-    invoke-interface/range {v19 .. v19}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/f;
+    invoke-interface/range {v19 .. v19}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/Fclz;
 
     move-result-object v2
 
-    invoke-interface {v2}, Lcom/tencent/mm/protocal/f;->vT()I
+    invoke-interface {v2}, Lcom/tencent/mm/protocal/Fclz;->vT()I
     :try_end_1
     .catch Landroid/os/RemoteException; {:try_start_1 .. :try_end_1} :catch_5
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -393,7 +393,7 @@
 
     :cond_4
     :goto_3
-    invoke-interface/range {v19 .. v19}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/f;
+    invoke-interface/range {v19 .. v19}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/Fclz;
 
     move-result-object v24
 
@@ -527,11 +527,11 @@
 
     :cond_7
     :try_start_7
-    invoke-interface/range {v19 .. v19}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/f;
+    invoke-interface/range {v19 .. v19}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/Fclz;
 
     move-result-object v2
 
-    invoke-interface {v2}, Lcom/tencent/mm/protocal/f;->vS()Ljava/lang/String;
+    invoke-interface {v2}, Lcom/tencent/mm/protocal/Fclz;->vS()Ljava/lang/String;
 
     move-result-object v6
 
@@ -804,7 +804,7 @@
 
     invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/f;->vT()I
+    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/Fclz;->vT()I
 
     move-result v2
 
@@ -1105,11 +1105,11 @@
 
     :cond_11
     :try_start_e
-    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/f;->qY()I
+    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/Fclz;->qY()I
 
     move-result v4
 
-    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/f;->vU()[B
+    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/Fclz;->vU()[B
 
     move-result-object v2
 
@@ -1239,7 +1239,7 @@
 
     iput v2, v0, Lcom/tencent/mm/network/r;->bSX:I
 
-    invoke-interface/range {v19 .. v19}, Lcom/tencent/mm/network/p;->vP()Lcom/tencent/mm/protocal/e;
+    invoke-interface/range {v19 .. v19}, Lcom/tencent/mm/network/p;->vP()Lcom/tencent/mm/protocal/Eclz;
     :try_end_11
     .catch Landroid/os/RemoteException; {:try_start_11 .. :try_end_11} :catch_1
     .catchall {:try_start_11 .. :try_end_11} :catchall_0
@@ -1269,7 +1269,7 @@
 
     const/4 v6, 0x1
 
-    invoke-interface {v4}, Lcom/tencent/mm/protocal/e;->getUserName()Ljava/lang/String;
+    invoke-interface {v4}, Lcom/tencent/mm/protocal/Eclz;->getUserName()Ljava/lang/String;
 
     move-result-object v7
 
@@ -1277,7 +1277,7 @@
 
     const/4 v6, 0x2
 
-    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/f;->vY()Ljava/lang/String;
+    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/Fclz;->vY()Ljava/lang/String;
 
     move-result-object v7
 
@@ -1285,7 +1285,7 @@
 
     const/4 v6, 0x3
 
-    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/f;->vU()[B
+    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/Fclz;->vU()[B
 
     move-result-object v7
 
@@ -1301,7 +1301,7 @@
 
     const/4 v6, 0x4
 
-    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/f;->ta()[B
+    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/Fclz;->ta()[B
 
     move-result-object v7
 
@@ -1317,7 +1317,7 @@
 
     const/4 v6, 0x5
 
-    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/f;->qY()I
+    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/Fclz;->qY()I
 
     move-result v7
 
@@ -1329,11 +1329,11 @@
 
     invoke-static {v2, v3, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/f;->qY()I
+    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/Fclz;->qY()I
 
     move-result v5
 
-    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/f;->vU()[B
+    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/Fclz;->vU()[B
 
     move-result-object v2
 
@@ -1375,7 +1375,7 @@
 
     iget-object v2, v0, Lcom/tencent/mm/network/r;->cal:Lcom/tencent/mm/network/a;
 
-    invoke-interface {v4}, Lcom/tencent/mm/protocal/e;->getUserName()Ljava/lang/String;
+    invoke-interface {v4}, Lcom/tencent/mm/protocal/Eclz;->getUserName()Ljava/lang/String;
 
     move-result-object v3
 
@@ -1385,7 +1385,7 @@
 
     iget-object v2, v0, Lcom/tencent/mm/network/r;->cal:Lcom/tencent/mm/network/a;
 
-    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/f;->vY()Ljava/lang/String;
+    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/Fclz;->vY()Ljava/lang/String;
 
     move-result-object v3
 
@@ -1395,11 +1395,11 @@
 
     iget-object v2, v0, Lcom/tencent/mm/network/r;->cal:Lcom/tencent/mm/network/a;
 
-    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/f;->ta()[B
+    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/Fclz;->ta()[B
 
     move-result-object v3
 
-    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/f;->qY()I
+    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/Fclz;->qY()I
 
     move-result v4
 
@@ -1409,13 +1409,13 @@
 
     iget-object v2, v0, Lcom/tencent/mm/network/r;->cal:Lcom/tencent/mm/network/a;
 
-    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/f;->vD()[B
+    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/Fclz;->vD()[B
 
     move-result-object v3
 
     iput-object v3, v2, Lcom/tencent/mm/network/a;->bZO:[B
 
-    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/f;->qY()I
+    invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/Fclz;->qY()I
 
     move-result v2
 
@@ -1517,31 +1517,31 @@
 
     if-nez v10, :cond_19
 
-    invoke-interface/range {v19 .. v19}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/f;
+    invoke-interface/range {v19 .. v19}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/Fclz;
 
     move-result-object v2
 
-    invoke-interface {v2}, Lcom/tencent/mm/protocal/f;->vV()Ljava/lang/String;
+    invoke-interface {v2}, Lcom/tencent/mm/protocal/Fclz;->vV()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-interface/range {v19 .. v19}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/f;
+    invoke-interface/range {v19 .. v19}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/Fclz;
 
     move-result-object v3
 
-    invoke-interface {v3}, Lcom/tencent/mm/protocal/f;->vW()Ljava/lang/String;
+    invoke-interface {v3}, Lcom/tencent/mm/protocal/Fclz;->vW()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-interface/range {v19 .. v19}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/f;
+    invoke-interface/range {v19 .. v19}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/Fclz;
 
     move-result-object v4
 
-    invoke-interface {v4}, Lcom/tencent/mm/protocal/f;->vX()I
+    invoke-interface {v4}, Lcom/tencent/mm/protocal/Fclz;->vX()I
 
     move-result v4
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/protocal/z;->r(Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/protocal/Zclz;->r(Ljava/lang/String;Ljava/lang/String;I)V
 
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
@@ -1581,7 +1581,7 @@
 
     const/4 v5, 0x0
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/protocal/z;->r(Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/protocal/Zclz;->r(Ljava/lang/String;Ljava/lang/String;I)V
 
     :goto_d
     move-object/from16 v0, v23

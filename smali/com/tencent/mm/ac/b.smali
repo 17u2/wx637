@@ -13,7 +13,7 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/util/List;JLcom/tencent/mm/protocal/b/xe;)V
+.method public constructor <init>(Ljava/util/List;JLcom/tencent/mm/protocal/b/XEclz;)V
     .locals 5
 
     .prologue
@@ -28,16 +28,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 33
-    new-instance v1, Lcom/tencent/mm/protocal/b/pg;
+    new-instance v1, Lcom/tencent/mm/protocal/b/PGclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/pg;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/PGclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 34
-    new-instance v1, Lcom/tencent/mm/protocal/b/ph;
+    new-instance v1, Lcom/tencent/mm/protocal/b/PHclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ph;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/PHclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -71,18 +71,18 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/pg;
+    check-cast v0, Lcom/tencent/mm/protocal/b/PGclz;
 
     .line 42
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/pg;->iBO:Ljava/util/LinkedList;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/PGclz;->iBO:Ljava/util/LinkedList;
 
     invoke-virtual {v1, p1}, Ljava/util/LinkedList;->addAll(Ljava/util/Collection;)Z
 
     .line 43
-    iput-wide p2, v0, Lcom/tencent/mm/protocal/b/pg;->iBR:J
+    iput-wide p2, v0, Lcom/tencent/mm/protocal/b/PGclz;->iBR:J
 
     .line 44
-    iput-object p4, v0, Lcom/tencent/mm/protocal/b/pg;->iBQ:Lcom/tencent/mm/protocal/b/xe;
+    iput-object p4, v0, Lcom/tencent/mm/protocal/b/PGclz;->iBQ:Lcom/tencent/mm/protocal/b/XEclz;
 
     .line 45
     const-string/jumbo v1, "!56@/B4Tb64lLpK+IBX8XDgnvk1RXuCrOn4bEWIMElISLjbJnbVjITNViw=="
@@ -93,7 +93,7 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/pg;->iBO:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/PGclz;->iBO:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->size()I
 
@@ -192,10 +192,10 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/pg;
+    check-cast v0, Lcom/tencent/mm/protocal/b/PGclz;
 
     .line 53
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/pg;->iBO:Ljava/util/LinkedList;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/PGclz;->iBO:Ljava/util/LinkedList;
 
     .line 54
     const/4 v1, 0x0
@@ -204,10 +204,10 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/tencent/mm/protocal/b/xc;
+    check-cast v1, Lcom/tencent/mm/protocal/b/XCclz;
 
     .line 55
-    iget-object v3, v0, Lcom/tencent/mm/protocal/b/pg;->iBQ:Lcom/tencent/mm/protocal/b/xe;
+    iget-object v3, v0, Lcom/tencent/mm/protocal/b/PGclz;->iBQ:Lcom/tencent/mm/protocal/b/XEclz;
 
     .line 56
     check-cast p5, Lcom/tencent/mm/q/a;
@@ -217,7 +217,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ph;
+    check-cast v0, Lcom/tencent/mm/protocal/b/PHclz;
 
     .line 58
     if-nez p2, :cond_1
@@ -225,7 +225,7 @@
     if-nez p3, :cond_1
 
     .line 59
-    iget v4, v0, Lcom/tencent/mm/protocal/b/ph;->aGQ:I
+    iget v4, v0, Lcom/tencent/mm/protocal/b/PHclz;->aGQ:I
 
     if-eqz v4, :cond_0
 
@@ -262,13 +262,13 @@
 
     const/4 v2, 0x2
 
-    iget-object v7, v1, Lcom/tencent/mm/protocal/b/xc;->dQt:Ljava/lang/String;
+    iget-object v7, v1, Lcom/tencent/mm/protocal/b/XCclz;->dQt:Ljava/lang/String;
 
     aput-object v7, v6, v2
 
     const/4 v2, 0x3
 
-    iget v7, v1, Lcom/tencent/mm/protocal/b/xc;->major:I
+    iget v7, v1, Lcom/tencent/mm/protocal/b/XCclz;->major:I
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -278,7 +278,7 @@
 
     const/4 v2, 0x4
 
-    iget v1, v1, Lcom/tencent/mm/protocal/b/xc;->minor:I
+    iget v1, v1, Lcom/tencent/mm/protocal/b/XCclz;->minor:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -288,7 +288,7 @@
 
     const/4 v1, 0x5
 
-    iget-wide v7, v3, Lcom/tencent/mm/protocal/b/xe;->latitude:D
+    iget-wide v7, v3, Lcom/tencent/mm/protocal/b/XEclz;->latitude:D
 
     invoke-static {v7, v8}, Ljava/lang/String;->valueOf(D)Ljava/lang/String;
 
@@ -298,7 +298,7 @@
 
     const/4 v1, 0x6
 
-    iget-wide v2, v3, Lcom/tencent/mm/protocal/b/xe;->longitude:D
+    iget-wide v2, v3, Lcom/tencent/mm/protocal/b/XEclz;->longitude:D
 
     invoke-static {v2, v3}, Ljava/lang/String;->valueOf(D)Ljava/lang/String;
 
@@ -318,7 +318,7 @@
 
     const/16 v1, 0x8
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/ph;->aGQ:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/PHclz;->aGQ:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -374,13 +374,13 @@
 
     const/4 v2, 0x2
 
-    iget-object v7, v1, Lcom/tencent/mm/protocal/b/xc;->dQt:Ljava/lang/String;
+    iget-object v7, v1, Lcom/tencent/mm/protocal/b/XCclz;->dQt:Ljava/lang/String;
 
     aput-object v7, v6, v2
 
     const/4 v2, 0x3
 
-    iget v7, v1, Lcom/tencent/mm/protocal/b/xc;->major:I
+    iget v7, v1, Lcom/tencent/mm/protocal/b/XCclz;->major:I
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -390,7 +390,7 @@
 
     const/4 v2, 0x4
 
-    iget v1, v1, Lcom/tencent/mm/protocal/b/xc;->minor:I
+    iget v1, v1, Lcom/tencent/mm/protocal/b/XCclz;->minor:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -400,7 +400,7 @@
 
     const/4 v1, 0x5
 
-    iget-wide v7, v3, Lcom/tencent/mm/protocal/b/xe;->latitude:D
+    iget-wide v7, v3, Lcom/tencent/mm/protocal/b/XEclz;->latitude:D
 
     invoke-static {v7, v8}, Ljava/lang/String;->valueOf(D)Ljava/lang/String;
 
@@ -410,7 +410,7 @@
 
     const/4 v1, 0x6
 
-    iget-wide v2, v3, Lcom/tencent/mm/protocal/b/xe;->longitude:D
+    iget-wide v2, v3, Lcom/tencent/mm/protocal/b/XEclz;->longitude:D
 
     invoke-static {v2, v3}, Ljava/lang/String;->valueOf(D)Ljava/lang/String;
 
@@ -430,7 +430,7 @@
 
     const/16 v1, 0x8
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/ph;->aGQ:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/PHclz;->aGQ:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

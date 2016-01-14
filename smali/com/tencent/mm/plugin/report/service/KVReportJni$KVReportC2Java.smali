@@ -229,15 +229,15 @@
     .line 139
     :cond_1
     :try_start_0
-    new-instance v2, Lcom/tencent/mm/protocal/b/xi;
+    new-instance v2, Lcom/tencent/mm/protocal/b/XIclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/xi;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/XIclz;-><init>()V
 
     .line 140
-    invoke-virtual {v2, p0}, Lcom/tencent/mm/protocal/b/xi;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v2, p0}, Lcom/tencent/mm/protocal/b/XIclz;->ak([B)Lcom/tencent/mm/aq/a;
 
     .line 141
-    iget v3, v2, Lcom/tencent/mm/protocal/b/xi;->iHz:I
+    iget v3, v2, Lcom/tencent/mm/protocal/b/XIclz;->iHz:I
 
     if-gtz v3, :cond_2
 

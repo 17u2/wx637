@@ -54,12 +54,12 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/hg;
+    check-cast v0, Lcom/tencent/mm/protocal/b/HGclz;
 
     .line 413
     iget-object v1, p0, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI$2;->jtc:Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;
 
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/hg;->isQ:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/HGclz;->isQ:Ljava/lang/String;
 
     invoke-static {v1, v2}, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;->a(Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;Ljava/lang/String;)Ljava/lang/String;
 
@@ -68,7 +68,7 @@
 
     if-nez p2, :cond_0
 
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/hg;->isQ:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/HGclz;->isQ:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -76,7 +76,7 @@
 
     if-nez v1, :cond_0
 
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/hg;->dSX:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/HGclz;->dSX:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -87,14 +87,14 @@
     .line 418
     iget-object v1, p0, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI$2;->jtc:Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;
 
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/hg;->dSX:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/HGclz;->dSX:Ljava/lang/String;
 
     invoke-static {v1, v2}, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;->b(Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;Ljava/lang/String;)Ljava/lang/String;
 
     .line 419
     iget-object v1, p0, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI$2;->jtc:Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/hg;->isR:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/HGclz;->isR:Ljava/lang/String;
 
     invoke-static {v1, v0}, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;->c(Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;Ljava/lang/String;)Ljava/lang/String;
 

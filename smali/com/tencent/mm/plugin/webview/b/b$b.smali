@@ -29,7 +29,7 @@
 
 .field public eYX:Ljava/lang/String;
 
-.field public eZX:Lcom/tencent/mm/protocal/b/iw;
+.field public eZX:Lcom/tencent/mm/protocal/b/IWclz;
 
 .field final synthetic hxI:Lcom/tencent/mm/plugin/webview/b/b;
 

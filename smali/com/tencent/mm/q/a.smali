@@ -105,14 +105,14 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/protocal/z;)V
+.method public final a(Lcom/tencent/mm/protocal/Zclz;)V
     .locals 1
 
     .prologue
     .line 102
     iget-object v0, p0, Lcom/tencent/mm/q/a;->bxI:Lcom/tencent/mm/q/a$b;
 
-    iput-object p1, v0, Lcom/tencent/mm/protocal/h$c;->ihP:Lcom/tencent/mm/protocal/z;
+    iput-object p1, v0, Lcom/tencent/mm/protocal/Hclz$c;->ihP:Lcom/tencent/mm/protocal/Zclz;
 
     .line 103
     return-void
@@ -138,7 +138,7 @@
     return-object v0
 .end method
 
-.method protected final bridge synthetic tI()Lcom/tencent/mm/protocal/h$c;
+.method protected final bridge synthetic tI()Lcom/tencent/mm/protocal/Hclz$c;
     .locals 1
 
     .prologue
@@ -148,7 +148,7 @@
     return-object v0
 .end method
 
-.method public final bridge synthetic tJ()Lcom/tencent/mm/protocal/h$d;
+.method public final bridge synthetic tJ()Lcom/tencent/mm/protocal/Hclz$d;
     .locals 1
 
     .prologue

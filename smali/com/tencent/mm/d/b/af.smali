@@ -94,7 +94,7 @@
 
 .field public field_ext:Ljava/lang/String;
 
-.field public field_favProto:Lcom/tencent/mm/protocal/b/nb;
+.field public field_favProto:Lcom/tencent/mm/protocal/b/NBclz;
 
 .field public field_flag:I
 
@@ -118,7 +118,7 @@
 
 .field public field_sourceType:I
 
-.field public field_tagProto:Lcom/tencent/mm/protocal/b/nj;
+.field public field_tagProto:Lcom/tencent/mm/protocal/b/NJclz;
 
 .field public field_toUser:Ljava/lang/String;
 
@@ -1334,17 +1334,17 @@
     if-lez v4, :cond_2
 
     .line 241
-    new-instance v4, Lcom/tencent/mm/protocal/b/nb;
+    new-instance v4, Lcom/tencent/mm/protocal/b/NBclz;
 
-    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/nb;-><init>()V
+    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/NBclz;-><init>()V
 
-    invoke-virtual {v4, v0}, Lcom/tencent/mm/protocal/b/nb;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v4, v0}, Lcom/tencent/mm/protocal/b/NBclz;->ak([B)Lcom/tencent/mm/aq/a;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/nb;
+    check-cast v0, Lcom/tencent/mm/protocal/b/NBclz;
 
-    iput-object v0, p0, Lcom/tencent/mm/d/b/af;->field_favProto:Lcom/tencent/mm/protocal/b/nb;
+    iput-object v0, p0, Lcom/tencent/mm/d/b/af;->field_favProto:Lcom/tencent/mm/protocal/b/NBclz;
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1430,17 +1430,17 @@
     if-lez v4, :cond_2
 
     .line 260
-    new-instance v4, Lcom/tencent/mm/protocal/b/nj;
+    new-instance v4, Lcom/tencent/mm/protocal/b/NJclz;
 
-    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/nj;-><init>()V
+    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/NJclz;-><init>()V
 
-    invoke-virtual {v4, v0}, Lcom/tencent/mm/protocal/b/nj;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v4, v0}, Lcom/tencent/mm/protocal/b/NJclz;->ak([B)Lcom/tencent/mm/aq/a;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/nj;
+    check-cast v0, Lcom/tencent/mm/protocal/b/NJclz;
 
-    iput-object v0, p0, Lcom/tencent/mm/d/b/af;->field_tagProto:Lcom/tencent/mm/protocal/b/nj;
+    iput-object v0, p0, Lcom/tencent/mm/d/b/af;->field_tagProto:Lcom/tencent/mm/protocal/b/NJclz;
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -1729,7 +1729,7 @@
     if-eqz v0, :cond_e
 
     .line 335
-    iget-object v0, p0, Lcom/tencent/mm/d/b/af;->field_favProto:Lcom/tencent/mm/protocal/b/nb;
+    iget-object v0, p0, Lcom/tencent/mm/d/b/af;->field_favProto:Lcom/tencent/mm/protocal/b/NBclz;
 
     if-eqz v0, :cond_e
 
@@ -1737,9 +1737,9 @@
     :try_start_0
     const-string/jumbo v0, "favProto"
 
-    iget-object v2, p0, Lcom/tencent/mm/d/b/af;->field_favProto:Lcom/tencent/mm/protocal/b/nb;
+    iget-object v2, p0, Lcom/tencent/mm/d/b/af;->field_favProto:Lcom/tencent/mm/protocal/b/NBclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/protocal/b/nb;->toByteArray()[B
+    invoke-virtual {v2}, Lcom/tencent/mm/protocal/b/NBclz;->toByteArray()[B
 
     move-result-object v2
 
@@ -1798,7 +1798,7 @@
     if-eqz v0, :cond_12
 
     .line 357
-    iget-object v0, p0, Lcom/tencent/mm/d/b/af;->field_tagProto:Lcom/tencent/mm/protocal/b/nj;
+    iget-object v0, p0, Lcom/tencent/mm/d/b/af;->field_tagProto:Lcom/tencent/mm/protocal/b/NJclz;
 
     if-eqz v0, :cond_12
 
@@ -1806,9 +1806,9 @@
     :try_start_1
     const-string/jumbo v0, "tagProto"
 
-    iget-object v2, p0, Lcom/tencent/mm/d/b/af;->field_tagProto:Lcom/tencent/mm/protocal/b/nj;
+    iget-object v2, p0, Lcom/tencent/mm/d/b/af;->field_tagProto:Lcom/tencent/mm/protocal/b/NJclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/protocal/b/nj;->toByteArray()[B
+    invoke-virtual {v2}, Lcom/tencent/mm/protocal/b/NJclz;->toByteArray()[B
 
     move-result-object v2
 

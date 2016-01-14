@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/model/e;->b(Lcom/tencent/mm/protocal/b/af;)Lcom/tencent/mm/q/c$a;
+    value = Lcom/tencent/mm/model/e;->b(Lcom/tencent/mm/protocal/b/AFclz;)Lcom/tencent/mm/q/c$a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
 # instance fields
 .field final synthetic bsH:Ljava/lang/String;
 
-.field final synthetic bsI:Lcom/tencent/mm/protocal/b/af;
+.field final synthetic bsI:Lcom/tencent/mm/protocal/b/AFclz;
 
 .field final synthetic bsJ:Lcom/tencent/mm/model/ap$b;
 
@@ -28,7 +28,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/model/e;Ljava/lang/String;Lcom/tencent/mm/protocal/b/af;Lcom/tencent/mm/model/ap$b;)V
+.method constructor <init>(Lcom/tencent/mm/model/e;Ljava/lang/String;Lcom/tencent/mm/protocal/b/AFclz;Lcom/tencent/mm/model/ap$b;)V
     .locals 1
 
     .prologue
@@ -37,7 +37,7 @@
 
     iput-object p2, p0, Lcom/tencent/mm/model/e$1;->bsH:Ljava/lang/String;
 
-    iput-object p3, p0, Lcom/tencent/mm/model/e$1;->bsI:Lcom/tencent/mm/protocal/b/af;
+    iput-object p3, p0, Lcom/tencent/mm/model/e$1;->bsI:Lcom/tencent/mm/protocal/b/AFclz;
 
     iput-object p4, p0, Lcom/tencent/mm/model/e$1;->bsJ:Lcom/tencent/mm/model/ap$b;
 
@@ -75,11 +75,11 @@
     move-result-object v0
 
     .line 89
-    iget-object v1, p0, Lcom/tencent/mm/model/e$1;->bsI:Lcom/tencent/mm/protocal/b/af;
+    iget-object v1, p0, Lcom/tencent/mm/model/e$1;->bsI:Lcom/tencent/mm/protocal/b/AFclz;
 
     iget-object v2, p0, Lcom/tencent/mm/model/e$1;->bsJ:Lcom/tencent/mm/model/ap$b;
 
-    invoke-static {v1, v2, v0}, Lcom/tencent/mm/model/e;->a(Lcom/tencent/mm/protocal/b/af;Lcom/tencent/mm/model/ap$b;Lcom/tencent/mm/storage/k;)V
+    invoke-static {v1, v2, v0}, Lcom/tencent/mm/model/e;->a(Lcom/tencent/mm/protocal/b/AFclz;Lcom/tencent/mm/model/ap$b;Lcom/tencent/mm/storage/k;)V
 
     .line 90
     return-void

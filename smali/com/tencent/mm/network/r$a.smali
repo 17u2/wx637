@@ -96,11 +96,11 @@
     invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 123
-    invoke-interface {p5}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/f;
+    invoke-interface {p5}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/Fclz;
 
     move-result-object v2
 
-    invoke-interface {v2}, Lcom/tencent/mm/protocal/f;->vT()I
+    invoke-interface {v2}, Lcom/tencent/mm/protocal/Fclz;->vT()I
 
     move-result v2
 
@@ -174,11 +174,11 @@
     .line 144
     :cond_0
     :goto_0
-    invoke-interface {p5}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/f;
+    invoke-interface {p5}, Lcom/tencent/mm/network/p;->vQ()Lcom/tencent/mm/protocal/Fclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/protocal/f;->vT()I
+    invoke-interface {v0}, Lcom/tencent/mm/protocal/Fclz;->vT()I
 
     move-result v0
 

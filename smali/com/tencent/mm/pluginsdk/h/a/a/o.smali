@@ -42,23 +42,23 @@
     invoke-direct {v1}, Lcom/tencent/mm/pluginsdk/h/a/a/o$a;-><init>()V
 
     .line 47
-    iget-object v0, v1, Lcom/tencent/mm/pluginsdk/h/a/a/o$a;->hOD:Lcom/tencent/mm/protocal/n$a;
+    iget-object v0, v1, Lcom/tencent/mm/pluginsdk/h/a/a/o$a;->hOD:Lcom/tencent/mm/protocal/Nclz$a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/n$a;
+    check-cast v0, Lcom/tencent/mm/protocal/Nclz$a;
 
     .line 48
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/protocal/n$a;->ba(I)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/protocal/Nclz$a;->ba(I)V
 
     .line 49
-    iget-object v0, v0, Lcom/tencent/mm/protocal/n$a;->iif:Lcom/tencent/mm/protocal/b/lf;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/Nclz$a;->iif:Lcom/tencent/mm/protocal/b/LFclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/lf;->iwx:Lcom/tencent/mm/protocal/b/le;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/LFclz;->iwx:Lcom/tencent/mm/protocal/b/LEclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/le;->iwv:Lcom/tencent/mm/protocal/b/hl;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/LEclz;->iwv:Lcom/tencent/mm/protocal/b/HLclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/hl;->ita:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/HLclz;->ita:Ljava/util/LinkedList;
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/h/a/a/o;->hOC:Ljava/util/List;
 
@@ -68,16 +68,16 @@
     return-object v1
 .end method
 
-.method protected final d(Lcom/tencent/mm/network/o;)Lcom/tencent/mm/protocal/b/hm;
+.method protected final d(Lcom/tencent/mm/network/o;)Lcom/tencent/mm/protocal/b/HMclz;
     .locals 1
 
     .prologue
     .line 36
     check-cast p1, Lcom/tencent/mm/pluginsdk/h/a/a/o$a;
 
-    iget-object v0, p1, Lcom/tencent/mm/pluginsdk/h/a/a/o$a;->hOE:Lcom/tencent/mm/protocal/n$b;
+    iget-object v0, p1, Lcom/tencent/mm/pluginsdk/h/a/a/o$a;->hOE:Lcom/tencent/mm/protocal/Nclz$b;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/n$b;->iig:Lcom/tencent/mm/protocal/b/hm;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/Nclz$b;->iig:Lcom/tencent/mm/protocal/b/HMclz;
 
     return-object v0
 .end method

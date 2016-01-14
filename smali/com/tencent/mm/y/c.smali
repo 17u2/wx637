@@ -193,10 +193,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/wf;
+    check-cast v0, Lcom/tencent/mm/protocal/b/WFclz;
 
     .line 148
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/wf;->dRj:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/WFclz;->dRj:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -213,7 +213,7 @@
 
     move-result-object v1
 
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/wf;->dRj:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/WFclz;->dRj:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/tencent/mm/storage/q;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/k;
 
@@ -240,7 +240,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/y/c;->bHZ:Ljava/util/HashMap;
 
-    iget-object v10, v0, Lcom/tencent/mm/protocal/b/wf;->ioc:Ljava/lang/String;
+    iget-object v10, v0, Lcom/tencent/mm/protocal/b/WFclz;->ioc:Ljava/lang/String;
 
     invoke-virtual {v1, v10}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -251,7 +251,7 @@
     .line 161
     iget-object v1, p0, Lcom/tencent/mm/y/c;->bHZ:Ljava/util/HashMap;
 
-    iget-object v10, v0, Lcom/tencent/mm/protocal/b/wf;->ioc:Ljava/lang/String;
+    iget-object v10, v0, Lcom/tencent/mm/protocal/b/WFclz;->ioc:Ljava/lang/String;
 
     invoke-virtual {v1, v10}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -260,17 +260,17 @@
     check-cast v1, Lcom/tencent/mm/modelfriend/o;
 
     .line 162
-    iget-object v10, v0, Lcom/tencent/mm/protocal/b/wf;->dRj:Ljava/lang/String;
+    iget-object v10, v0, Lcom/tencent/mm/protocal/b/WFclz;->dRj:Ljava/lang/String;
 
     iput-object v10, v1, Lcom/tencent/mm/modelfriend/o;->field_username:Ljava/lang/String;
 
     .line 163
-    iget-object v10, v0, Lcom/tencent/mm/protocal/b/wf;->iiZ:Ljava/lang/String;
+    iget-object v10, v0, Lcom/tencent/mm/protocal/b/WFclz;->iiZ:Ljava/lang/String;
 
     iput-object v10, v1, Lcom/tencent/mm/modelfriend/o;->field_nickname:Ljava/lang/String;
 
     .line 164
-    iget-object v10, v0, Lcom/tencent/mm/protocal/b/wf;->iiZ:Ljava/lang/String;
+    iget-object v10, v0, Lcom/tencent/mm/protocal/b/WFclz;->iiZ:Ljava/lang/String;
 
     invoke-static {v10}, Lcom/tencent/mm/platformtools/c;->jR(Ljava/lang/String;)Ljava/lang/String;
 
@@ -279,7 +279,7 @@
     iput-object v10, v1, Lcom/tencent/mm/modelfriend/o;->field_usernamepy:Ljava/lang/String;
 
     .line 165
-    iget-object v10, v0, Lcom/tencent/mm/protocal/b/wf;->iiZ:Ljava/lang/String;
+    iget-object v10, v0, Lcom/tencent/mm/protocal/b/WFclz;->iiZ:Ljava/lang/String;
 
     invoke-static {v10}, Lcom/tencent/mm/platformtools/c;->jQ(Ljava/lang/String;)Ljava/lang/String;
 
@@ -288,17 +288,17 @@
     iput-object v10, v1, Lcom/tencent/mm/modelfriend/o;->field_nicknameqp:Ljava/lang/String;
 
     .line 166
-    iget v10, v0, Lcom/tencent/mm/protocal/b/wf;->imK:I
+    iget v10, v0, Lcom/tencent/mm/protocal/b/WFclz;->imK:I
 
     iput v10, v1, Lcom/tencent/mm/modelfriend/o;->field_ret:I
 
     .line 167
-    iget-object v10, v0, Lcom/tencent/mm/protocal/b/wf;->iGI:Ljava/lang/String;
+    iget-object v10, v0, Lcom/tencent/mm/protocal/b/WFclz;->iGI:Ljava/lang/String;
 
     iput-object v10, v1, Lcom/tencent/mm/modelfriend/o;->field_small_url:Ljava/lang/String;
 
     .line 168
-    iget-object v10, v0, Lcom/tencent/mm/protocal/b/wf;->iGH:Ljava/lang/String;
+    iget-object v10, v0, Lcom/tencent/mm/protocal/b/WFclz;->iGH:Ljava/lang/String;
 
     iput-object v10, v1, Lcom/tencent/mm/modelfriend/o;->field_big_url:Ljava/lang/String;
 
@@ -379,7 +379,7 @@
     invoke-direct {v1}, Lcom/tencent/mm/storage/d$a;-><init>()V
 
     .line 181
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/wf;->dRj:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/WFclz;->dRj:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/tencent/mm/d/b/c;->field_userName:Ljava/lang/String;
 
@@ -389,7 +389,7 @@
     iput v2, v1, Lcom/tencent/mm/d/b/c;->field_scene:I
 
     .line 183
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/wf;->iBr:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/WFclz;->iBr:Ljava/lang/String;
 
     iput-object v0, v1, Lcom/tencent/mm/d/b/c;->field_ticket:Ljava/lang/String;
 
@@ -597,9 +597,9 @@
     if-ge v2, v1, :cond_0
 
     .line 92
-    new-instance v4, Lcom/tencent/mm/protocal/b/wg;
+    new-instance v4, Lcom/tencent/mm/protocal/b/WGclz;
 
-    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/wg;-><init>()V
+    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/WGclz;-><init>()V
 
     .line 93
     iget-object v1, p0, Lcom/tencent/mm/y/c;->bHU:Ljava/util/ArrayList;
@@ -612,7 +612,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/modelfriend/o;->field_googlegmail:Ljava/lang/String;
 
-    iput-object v1, v4, Lcom/tencent/mm/protocal/b/wg;->ioc:Ljava/lang/String;
+    iput-object v1, v4, Lcom/tencent/mm/protocal/b/WGclz;->ioc:Ljava/lang/String;
 
     .line 94
     invoke-virtual {v3, v4}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z

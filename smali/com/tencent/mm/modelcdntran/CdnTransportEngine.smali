@@ -58,7 +58,7 @@
 
 
 # instance fields
-.field private bCS:Lcom/tencent/mm/protocal/b/fz;
+.field private bCS:Lcom/tencent/mm/protocal/b/FZclz;
 
 .field bCT:Lcom/tencent/mm/modelcdntran/CdnTransportEngine$a;
 
@@ -197,7 +197,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 144
-    iput-object v1, p0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->bCS:Lcom/tencent/mm/protocal/b/fz;
+    iput-object v1, p0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->bCS:Lcom/tencent/mm/protocal/b/FZclz;
 
     .line 327
     iput-object v1, p0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->bCT:Lcom/tencent/mm/modelcdntran/CdnTransportEngine$a;
@@ -263,7 +263,7 @@
     return v0
 .end method
 
-.method private a(Lcom/tencent/mm/protocal/b/fz;)Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;
+.method private a(Lcom/tencent/mm/protocal/b/FZclz;)Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;
     .locals 9
 
     .prologue
@@ -279,7 +279,7 @@
     invoke-direct {v3, p0}, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;-><init>(Lcom/tencent/mm/modelcdntran/CdnTransportEngine;)V
 
     .line 161
-    iget v0, p1, Lcom/tencent/mm/protocal/b/fz;->iqV:I
+    iget v0, p1, Lcom/tencent/mm/protocal/b/FZclz;->iqV:I
 
     new-array v0, v0, [Ljava/lang/String;
 
@@ -289,14 +289,14 @@
 
     .line 162
     :goto_0
-    iget v0, p1, Lcom/tencent/mm/protocal/b/fz;->iqV:I
+    iget v0, p1, Lcom/tencent/mm/protocal/b/FZclz;->iqV:I
 
     if-ge v1, v0, :cond_0
 
     .line 163
     iget-object v4, v3, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;->field_frontips:[Ljava/lang/String;
 
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/fz;->iqW:Ljava/util/LinkedList;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/FZclz;->iqW:Ljava/util/LinkedList;
 
     invoke-virtual {v0, v1}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
 
@@ -340,7 +340,7 @@
 
     .line 168
     :cond_0
-    iget v0, p1, Lcom/tencent/mm/protocal/b/fz;->ira:I
+    iget v0, p1, Lcom/tencent/mm/protocal/b/FZclz;->ira:I
 
     new-array v0, v0, [Ljava/lang/String;
 
@@ -350,14 +350,14 @@
 
     .line 169
     :goto_1
-    iget v0, p1, Lcom/tencent/mm/protocal/b/fz;->iqV:I
+    iget v0, p1, Lcom/tencent/mm/protocal/b/FZclz;->iqV:I
 
     if-ge v1, v0, :cond_1
 
     .line 170
     iget-object v4, v3, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;->field_zoneips:[Ljava/lang/String;
 
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/fz;->irb:Ljava/util/LinkedList;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/FZclz;->irb:Ljava/util/LinkedList;
 
     invoke-virtual {v0, v1}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
 
@@ -401,22 +401,22 @@
 
     .line 176
     :cond_1
-    iget v0, p1, Lcom/tencent/mm/protocal/b/fz;->iqS:I
+    iget v0, p1, Lcom/tencent/mm/protocal/b/FZclz;->iqS:I
 
     iput v0, v3, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;->field_ver:I
 
     .line 177
-    iget v0, p1, Lcom/tencent/mm/protocal/b/fz;->dnq:I
+    iget v0, p1, Lcom/tencent/mm/protocal/b/FZclz;->dnq:I
 
     iput v0, v3, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;->field_uin:I
 
     .line 178
-    iget v0, p1, Lcom/tencent/mm/protocal/b/fz;->iqU:I
+    iget v0, p1, Lcom/tencent/mm/protocal/b/FZclz;->iqU:I
 
     iput v0, v3, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;->field_frontid:I
 
     .line 179
-    iget v0, p1, Lcom/tencent/mm/protocal/b/fz;->iqZ:I
+    iget v0, p1, Lcom/tencent/mm/protocal/b/FZclz;->iqZ:I
 
     iput v0, v3, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;->field_zoneid:I
 
@@ -432,7 +432,7 @@
     iput v0, v3, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;->field_nettype:I
 
     .line 182
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/fz;->iqY:Lcom/tencent/mm/protocal/b/ajy;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/FZclz;->iqY:Lcom/tencent/mm/protocal/b/ajy;
 
     invoke-static {v0}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajy;)[B
 
@@ -441,15 +441,15 @@
     iput-object v0, v3, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;->field_authkey:[B
 
     .line 188
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/fz;->irc:Ljava/util/LinkedList;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/FZclz;->irc:Ljava/util/LinkedList;
 
     invoke-virtual {v0, v2}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ga;
+    check-cast v0, Lcom/tencent/mm/protocal/b/GAclz;
 
-    iget v4, v0, Lcom/tencent/mm/protocal/b/ga;->irg:I
+    iget v4, v0, Lcom/tencent/mm/protocal/b/GAclz;->irg:I
 
     .line 189
     new-array v0, v4, [I
@@ -465,15 +465,15 @@
     .line 191
     iget-object v5, v3, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;->field_frontports:[I
 
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/fz;->irc:Ljava/util/LinkedList;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/FZclz;->irc:Ljava/util/LinkedList;
 
     invoke-virtual {v0, v2}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ga;
+    check-cast v0, Lcom/tencent/mm/protocal/b/GAclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ga;->irh:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/GAclz;->irh:Ljava/util/LinkedList;
 
     invoke-virtual {v0, v1}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
 
@@ -496,15 +496,15 @@
 
     .line 196
     :cond_2
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/fz;->ird:Ljava/util/LinkedList;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/FZclz;->ird:Ljava/util/LinkedList;
 
     invoke-virtual {v0, v2}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ga;
+    check-cast v0, Lcom/tencent/mm/protocal/b/GAclz;
 
-    iget v4, v0, Lcom/tencent/mm/protocal/b/ga;->irg:I
+    iget v4, v0, Lcom/tencent/mm/protocal/b/GAclz;->irg:I
 
     .line 197
     new-array v0, v4, [I
@@ -520,15 +520,15 @@
     .line 199
     iget-object v5, v3, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;->field_zoneports:[I
 
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/fz;->ird:Ljava/util/LinkedList;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/FZclz;->ird:Ljava/util/LinkedList;
 
     invoke-virtual {v0, v2}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ga;
+    check-cast v0, Lcom/tencent/mm/protocal/b/GAclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ga;->irh:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/GAclz;->irh:Ljava/util/LinkedList;
 
     invoke-virtual {v0, v1}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
 
@@ -739,7 +739,7 @@
     return-void
 .end method
 
-.method public final b(Lcom/tencent/mm/protocal/b/fz;Lcom/tencent/mm/protocal/b/fz;Lcom/tencent/mm/protocal/b/fz;)Z
+.method public final b(Lcom/tencent/mm/protocal/b/FZclz;Lcom/tencent/mm/protocal/b/FZclz;Lcom/tencent/mm/protocal/b/FZclz;)Z
     .locals 9
 
     .prologue
@@ -758,7 +758,7 @@
 
     new-array v4, v4, [Ljava/lang/Object;
 
-    iget-object v5, p0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->bCS:Lcom/tencent/mm/protocal/b/fz;
+    iget-object v5, p0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->bCS:Lcom/tencent/mm/protocal/b/FZclz;
 
     aput-object v5, v4, v0
 
@@ -791,17 +791,17 @@
 
     .line 221
     :try_start_0
-    invoke-direct {p0, p1}, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->a(Lcom/tencent/mm/protocal/b/fz;)Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;
+    invoke-direct {p0, p1}, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->a(Lcom/tencent/mm/protocal/b/FZclz;)Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;
 
     move-result-object v3
 
     .line 222
-    invoke-direct {p0, p2}, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->a(Lcom/tencent/mm/protocal/b/fz;)Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;
+    invoke-direct {p0, p2}, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->a(Lcom/tencent/mm/protocal/b/FZclz;)Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;
 
     move-result-object v4
 
     .line 223
-    invoke-direct {p0, p3}, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->a(Lcom/tencent/mm/protocal/b/fz;)Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;
+    invoke-direct {p0, p3}, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->a(Lcom/tencent/mm/protocal/b/FZclz;)Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;
 
     move-result-object v5
 
@@ -1005,7 +1005,7 @@
 
     .line 283
     :cond_6
-    iput-object p1, p0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->bCS:Lcom/tencent/mm/protocal/b/fz;
+    iput-object p1, p0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->bCS:Lcom/tencent/mm/protocal/b/FZclz;
 
     .line 285
     invoke-direct {p0, v3, v4, v5}, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->setCDNDnsInfo(Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;)I
@@ -1406,7 +1406,7 @@
 
     .prologue
     .line 147
-    iget-object v0, p0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->bCS:Lcom/tencent/mm/protocal/b/fz;
+    iget-object v0, p0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->bCS:Lcom/tencent/mm/protocal/b/FZclz;
 
     if-nez v0, :cond_0
 

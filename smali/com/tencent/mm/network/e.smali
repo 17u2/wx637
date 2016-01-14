@@ -16,7 +16,7 @@
 .method public abstract a(Lcom/tencent/mm/network/n;)V
 .end method
 
-.method public abstract a(Lcom/tencent/mm/protocal/y;)V
+.method public abstract a(Lcom/tencent/mm/protocal/Yclz;)V
 .end method
 
 .method public abstract a(ZLjava/lang/String;Ljava/lang/String;[I[IIILjava/lang/String;Ljava/lang/String;)V

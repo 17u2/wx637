@@ -28,16 +28,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 70
-    new-instance v1, Lcom/tencent/mm/protocal/b/q;
+    new-instance v1, Lcom/tencent/mm/protocal/b/Qclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/q;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/Qclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 71
-    new-instance v1, Lcom/tencent/mm/protocal/b/r;
+    new-instance v1, Lcom/tencent/mm/protocal/b/Rclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/r;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/Rclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -71,18 +71,18 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/q;
+    check-cast v0, Lcom/tencent/mm/protocal/b/Qclz;
 
     .line 80
     const/4 v1, 0x1
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/q;->type:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/Qclz;->type:I
 
     .line 81
-    iput p2, v0, Lcom/tencent/mm/protocal/b/q;->arG:I
+    iput p2, v0, Lcom/tencent/mm/protocal/b/Qclz;->arG:I
 
     .line 82
-    iput-object p1, v0, Lcom/tencent/mm/protocal/b/q;->bTB:Ljava/lang/String;
+    iput-object p1, v0, Lcom/tencent/mm/protocal/b/Qclz;->bTB:Ljava/lang/String;
 
     .line 83
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
@@ -119,7 +119,7 @@
 
     move-result-object v2
 
-    iput-object v2, v0, Lcom/tencent/mm/protocal/b/q;->bssid:Ljava/lang/String;
+    iput-object v2, v0, Lcom/tencent/mm/protocal/b/Qclz;->bssid:Ljava/lang/String;
 
     .line 88
     invoke-virtual {v1}, Landroid/net/wifi/WifiInfo;->getSSID()Ljava/lang/String;
@@ -132,7 +132,7 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/q;->ssid:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/Qclz;->ssid:Ljava/lang/String;
 
     .line 91
     :cond_0
@@ -140,7 +140,7 @@
 
     move-result-wide v1
 
-    iput-wide v1, v0, Lcom/tencent/mm/protocal/b/q;->ijJ:J
+    iput-wide v1, v0, Lcom/tencent/mm/protocal/b/Qclz;->ijJ:J
 
     .line 92
     const-string/jumbo v0, "!44@/B4Tb64lLpK+IBX8XDgnvqqu36I0sEnVKKPLtelLrbI="
@@ -182,7 +182,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Ljava/lang/String;IIILcom/tencent/mm/protocal/b/p;Lcom/tencent/mm/protocal/b/s;ILjava/lang/String;)V
+.method public constructor <init>(Ljava/lang/String;IIILcom/tencent/mm/protocal/b/Pclz;Lcom/tencent/mm/protocal/b/Sclz;ILjava/lang/String;)V
     .locals 5
 
     .prologue
@@ -197,16 +197,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 28
-    new-instance v1, Lcom/tencent/mm/protocal/b/q;
+    new-instance v1, Lcom/tencent/mm/protocal/b/Qclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/q;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/Qclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 29
-    new-instance v1, Lcom/tencent/mm/protocal/b/r;
+    new-instance v1, Lcom/tencent/mm/protocal/b/Rclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/r;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/Rclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -240,25 +240,25 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/q;
+    check-cast v0, Lcom/tencent/mm/protocal/b/Qclz;
 
     .line 37
-    iput p4, v0, Lcom/tencent/mm/protocal/b/q;->ijU:I
+    iput p4, v0, Lcom/tencent/mm/protocal/b/Qclz;->ijU:I
 
     .line 38
-    iput p3, v0, Lcom/tencent/mm/protocal/b/q;->type:I
+    iput p3, v0, Lcom/tencent/mm/protocal/b/Qclz;->type:I
 
     .line 39
-    iput p2, v0, Lcom/tencent/mm/protocal/b/q;->arG:I
+    iput p2, v0, Lcom/tencent/mm/protocal/b/Qclz;->arG:I
 
     .line 40
-    iput-object p1, v0, Lcom/tencent/mm/protocal/b/q;->bTB:Ljava/lang/String;
+    iput-object p1, v0, Lcom/tencent/mm/protocal/b/Qclz;->bTB:Ljava/lang/String;
 
     .line 42
     if-eqz p5, :cond_0
 
     .line 43
-    iput-object p5, v0, Lcom/tencent/mm/protocal/b/q;->ijV:Lcom/tencent/mm/protocal/b/p;
+    iput-object p5, v0, Lcom/tencent/mm/protocal/b/Qclz;->ijV:Lcom/tencent/mm/protocal/b/Pclz;
 
     .line 44
     const-string/jumbo v1, "!44@/B4Tb64lLpK+IBX8XDgnvqqu36I0sEnVKKPLtelLrbI="
@@ -269,7 +269,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-wide v3, p5, Lcom/tencent/mm/protocal/b/p;->ijS:J
+    iget-wide v3, p5, Lcom/tencent/mm/protocal/b/Pclz;->ijS:J
 
     invoke-virtual {v2, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -286,7 +286,7 @@
     if-eqz p6, :cond_1
 
     .line 47
-    iput-object p6, v0, Lcom/tencent/mm/protocal/b/q;->ijW:Lcom/tencent/mm/protocal/b/s;
+    iput-object p6, v0, Lcom/tencent/mm/protocal/b/Qclz;->ijW:Lcom/tencent/mm/protocal/b/Sclz;
 
     .line 48
     const-string/jumbo v1, "!44@/B4Tb64lLpK+IBX8XDgnvqqu36I0sEnVKKPLtelLrbI="
@@ -297,7 +297,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget v3, p6, Lcom/tencent/mm/protocal/b/s;->ijY:I
+    iget v3, p6, Lcom/tencent/mm/protocal/b/Sclz;->ijY:I
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -309,7 +309,7 @@
 
     move-result-object v2
 
-    iget v3, p6, Lcom/tencent/mm/protocal/b/s;->ijX:I
+    iget v3, p6, Lcom/tencent/mm/protocal/b/Sclz;->ijX:I
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -357,7 +357,7 @@
 
     move-result-object v2
 
-    iput-object v2, v0, Lcom/tencent/mm/protocal/b/q;->bssid:Ljava/lang/String;
+    iput-object v2, v0, Lcom/tencent/mm/protocal/b/Qclz;->bssid:Ljava/lang/String;
 
     .line 56
     invoke-virtual {v1}, Landroid/net/wifi/WifiInfo;->getSSID()Ljava/lang/String;
@@ -370,7 +370,7 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/q;->ssid:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/Qclz;->ssid:Ljava/lang/String;
 
     .line 59
     :cond_2
@@ -378,16 +378,16 @@
 
     move-result-wide v1
 
-    iput-wide v1, v0, Lcom/tencent/mm/protocal/b/q;->ijJ:J
+    iput-wide v1, v0, Lcom/tencent/mm/protocal/b/Qclz;->ijJ:J
 
     .line 61
-    iput p7, v0, Lcom/tencent/mm/protocal/b/q;->ijL:I
+    iput p7, v0, Lcom/tencent/mm/protocal/b/Qclz;->ijL:I
 
     .line 62
     if-eqz p8, :cond_3
 
     .line 63
-    iput-object p8, v0, Lcom/tencent/mm/protocal/b/q;->ijI:Ljava/lang/String;
+    iput-object p8, v0, Lcom/tencent/mm/protocal/b/Qclz;->ijI:Ljava/lang/String;
 
     .line 65
     :cond_3
@@ -549,7 +549,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/r;
+    check-cast v0, Lcom/tencent/mm/protocal/b/Rclz;
 
     .line 175
     const-string/jumbo v1, "!44@/B4Tb64lLpK+IBX8XDgnvqqu36I0sEnVKKPLtelLrbI="
@@ -560,7 +560,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget v3, v0, Lcom/tencent/mm/protocal/b/r;->ret:I
+    iget v3, v0, Lcom/tencent/mm/protocal/b/Rclz;->ret:I
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -572,7 +572,7 @@
 
     move-result-object v2
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/r;->ijM:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/Rclz;->ijM:Ljava/lang/String;
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

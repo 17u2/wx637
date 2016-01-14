@@ -82,49 +82,49 @@
 
     .line 63
     :cond_1
-    instance-of v1, v0, Lcom/tencent/mm/protocal/b/ej;
+    instance-of v1, v0, Lcom/tencent/mm/protocal/b/EJclz;
 
     if-eqz v1, :cond_2
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ej;
+    check-cast v0, Lcom/tencent/mm/protocal/b/EJclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ej;->ioG:Lcom/tencent/mm/protocal/b/akc;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/EJclz;->ioG:Lcom/tencent/mm/protocal/b/akc;
 
     invoke-static {v0}, Lcom/tencent/mm/plugin/safedevice/a/e;->a(Lcom/tencent/mm/protocal/b/akc;)V
 
     goto :goto_0
 
     :cond_2
-    instance-of v1, v0, Lcom/tencent/mm/protocal/b/el;
+    instance-of v1, v0, Lcom/tencent/mm/protocal/b/ELclz;
 
     if-eqz v1, :cond_3
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/el;
+    check-cast v0, Lcom/tencent/mm/protocal/b/ELclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/el;->ioG:Lcom/tencent/mm/protocal/b/akc;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ELclz;->ioG:Lcom/tencent/mm/protocal/b/akc;
 
     invoke-static {v0}, Lcom/tencent/mm/plugin/safedevice/a/e;->a(Lcom/tencent/mm/protocal/b/akc;)V
 
     goto :goto_0
 
     :cond_3
-    instance-of v1, v0, Lcom/tencent/mm/protocal/b/tv;
+    instance-of v1, v0, Lcom/tencent/mm/protocal/b/TVclz;
 
     if-eqz v1, :cond_0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/tv;
+    check-cast v0, Lcom/tencent/mm/protocal/b/TVclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/tv;->iFb:Lcom/tencent/mm/protocal/b/atq;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/TVclz;->iFb:Lcom/tencent/mm/protocal/b/atq;
 
     if-eqz v1, :cond_0
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/tv;->iFb:Lcom/tencent/mm/protocal/b/atq;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/TVclz;->iFb:Lcom/tencent/mm/protocal/b/atq;
 
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/atq;->ioG:Lcom/tencent/mm/protocal/b/akc;
 

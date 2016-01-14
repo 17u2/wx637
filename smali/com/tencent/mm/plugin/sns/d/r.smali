@@ -1343,9 +1343,9 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/aot;
 
     .line 195
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/aot;->irS:Lcom/tencent/mm/protocal/b/hz;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/aot;->irS:Lcom/tencent/mm/protocal/b/HZclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/hz;->inj:Ljava/util/LinkedList;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/HZclz;->inj:Ljava/util/LinkedList;
 
     .line 196
     if-eqz v1, :cond_2
@@ -1431,7 +1431,7 @@
     move-result-object v0
 
     .line 204
-    invoke-static {v0, v1}, Lcom/tencent/mm/protocal/aa;->k([B[B)[B
+    invoke-static {v0, v1}, Lcom/tencent/mm/protocal/AAclz;->k([B[B)[B
 
     move-result-object v0
 
@@ -1468,7 +1468,7 @@
     goto :goto_0
 .end method
 
-.method public final a(Lcom/tencent/mm/protocal/b/hy;Lcom/tencent/mm/sdk/platformtools/ab;)Z
+.method public final a(Lcom/tencent/mm/protocal/b/HYclz;Lcom/tencent/mm/sdk/platformtools/ab;)Z
     .locals 11
 
     .prologue
@@ -1482,7 +1482,7 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/protocal/b/aod;-><init>()V
 
-    iget-object v1, p1, Lcom/tencent/mm/protocal/b/hy;->itE:Lcom/tencent/mm/protocal/b/ajy;
+    iget-object v1, p1, Lcom/tencent/mm/protocal/b/HYclz;->itE:Lcom/tencent/mm/protocal/b/ajy;
 
     iget-object v1, v1, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/b;
 
@@ -1826,7 +1826,7 @@
     goto :goto_4
 .end method
 
-.method public final b(Lcom/tencent/mm/protocal/b/hy;Lcom/tencent/mm/sdk/platformtools/ab;)Z
+.method public final b(Lcom/tencent/mm/protocal/b/HYclz;Lcom/tencent/mm/sdk/platformtools/ab;)Z
     .locals 12
 
     .prologue
@@ -1836,7 +1836,7 @@
 
     invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ans;-><init>()V
 
-    iget-object v2, p1, Lcom/tencent/mm/protocal/b/hy;->itE:Lcom/tencent/mm/protocal/b/ajy;
+    iget-object v2, p1, Lcom/tencent/mm/protocal/b/HYclz;->itE:Lcom/tencent/mm/protocal/b/ajy;
 
     iget-object v2, v2, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/b;
 

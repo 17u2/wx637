@@ -21,5 +21,5 @@
 .method public abstract aHH()[Ljava/lang/String;
 .end method
 
-.method public abstract aHI()Lcom/tencent/mm/protocal/b/va;
+.method public abstract aHI()Lcom/tencent/mm/protocal/b/VAclz;
 .end method

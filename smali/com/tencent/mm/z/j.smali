@@ -305,16 +305,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 104
-    new-instance v1, Lcom/tencent/mm/protocal/b/sv;
+    new-instance v1, Lcom/tencent/mm/protocal/b/SVclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/sv;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/SVclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 105
-    new-instance v1, Lcom/tencent/mm/protocal/b/sw;
+    new-instance v1, Lcom/tencent/mm/protocal/b/SWclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/sw;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/SWclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -352,9 +352,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/sv;
+    check-cast v0, Lcom/tencent/mm/protocal/b/SVclz;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/sv;
+    check-cast v0, Lcom/tencent/mm/protocal/b/SVclz;
 
     .line 113
     invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
@@ -374,12 +374,12 @@
     .line 115
     iget v1, v2, Lcom/tencent/mm/z/d;->offset:I
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/sv;->ilE:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/SVclz;->ilE:I
 
     .line 116
     iget v1, v2, Lcom/tencent/mm/z/d;->bxb:I
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/sv;->ilD:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/SVclz;->ilD:I
 
     .line 117
     iget-object v1, p0, Lcom/tencent/mm/z/j;->TAG:Ljava/lang/String;
@@ -425,7 +425,7 @@
 
     iget-wide v3, v1, Lcom/tencent/mm/d/b/ba;->field_msgSvrId:J
 
-    iput-wide v3, v0, Lcom/tencent/mm/protocal/b/sv;->ikC:J
+    iput-wide v3, v0, Lcom/tencent/mm/protocal/b/SVclz;->ikC:J
 
     .line 120
     new-instance v1, Lcom/tencent/mm/protocal/b/ajz;
@@ -440,7 +440,7 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/sv;->iku:Lcom/tencent/mm/protocal/b/ajz;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/SVclz;->iku:Lcom/tencent/mm/protocal/b/ajz;
 
     .line 121
     new-instance v3, Lcom/tencent/mm/protocal/b/ajz;
@@ -469,10 +469,10 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/sv;->ikv:Lcom/tencent/mm/protocal/b/ajz;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/SVclz;->ikv:Lcom/tencent/mm/protocal/b/ajz;
 
     .line 122
-    iput p5, v0, Lcom/tencent/mm/protocal/b/sv;->iEx:I
+    iput p5, v0, Lcom/tencent/mm/protocal/b/SVclz;->iEx:I
 
     .line 123
     iget v0, v2, Lcom/tencent/mm/z/d;->offset:I
@@ -1249,11 +1249,11 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/sv;
+    check-cast v0, Lcom/tencent/mm/protocal/b/SVclz;
 
     move-object v7, v0
 
-    check-cast v7, Lcom/tencent/mm/protocal/b/sv;
+    check-cast v7, Lcom/tencent/mm/protocal/b/SVclz;
 
     .line 329
     invoke-static {}, Lcom/tencent/mm/z/n;->zW()Lcom/tencent/mm/z/f;
@@ -1561,11 +1561,11 @@
 
     .line 365
     :cond_2
-    iget-object v0, v7, Lcom/tencent/mm/protocal/b/sv;->iku:Lcom/tencent/mm/protocal/b/ajz;
+    iget-object v0, v7, Lcom/tencent/mm/protocal/b/SVclz;->iku:Lcom/tencent/mm/protocal/b/ajz;
 
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/ajz;->iSy:Ljava/lang/String;
 
-    iget-wide v0, v7, Lcom/tencent/mm/protocal/b/sv;->ikC:J
+    iget-wide v0, v7, Lcom/tencent/mm/protocal/b/SVclz;->ikC:J
 
     iget-object v0, v8, Lcom/tencent/mm/z/d;->bIO:Ljava/lang/String;
 
@@ -2010,17 +2010,17 @@
     .line 375
     iget v0, v8, Lcom/tencent/mm/z/d;->offset:I
 
-    iput v0, v7, Lcom/tencent/mm/protocal/b/sv;->ilE:I
+    iput v0, v7, Lcom/tencent/mm/protocal/b/SVclz;->ilE:I
 
     .line 376
     iget v0, p0, Lcom/tencent/mm/z/j;->bJX:I
 
-    iput v0, v7, Lcom/tencent/mm/protocal/b/sv;->ilF:I
+    iput v0, v7, Lcom/tencent/mm/protocal/b/SVclz;->ilF:I
 
     .line 377
     iget v0, v8, Lcom/tencent/mm/z/d;->bxb:I
 
-    iput v0, v7, Lcom/tencent/mm/protocal/b/sv;->ilD:I
+    iput v0, v7, Lcom/tencent/mm/protocal/b/SVclz;->ilD:I
 
     .line 378
     iget-object v0, p0, Lcom/tencent/mm/z/j;->bJY:Lcom/tencent/mm/modelstat/b;
@@ -2228,7 +2228,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/sw;
+    check-cast v0, Lcom/tencent/mm/protocal/b/SWclz;
 
     .line 408
     invoke-static {}, Lcom/tencent/mm/z/n;->zW()Lcom/tencent/mm/z/f;
@@ -2249,7 +2249,7 @@
     const/4 v2, 0x0
 
     .line 411
-    iget v3, v0, Lcom/tencent/mm/protocal/b/sw;->ilF:I
+    iget v3, v0, Lcom/tencent/mm/protocal/b/SWclz;->ilF:I
 
     if-gtz v3, :cond_6
 
@@ -2389,13 +2389,13 @@
 
     .line 414
     :cond_6
-    iget-object v3, v0, Lcom/tencent/mm/protocal/b/sw;->inp:Lcom/tencent/mm/protocal/b/ajy;
+    iget-object v3, v0, Lcom/tencent/mm/protocal/b/SWclz;->inp:Lcom/tencent/mm/protocal/b/ajy;
 
     if-eqz v3, :cond_7
 
-    iget v3, v0, Lcom/tencent/mm/protocal/b/sw;->ilF:I
+    iget v3, v0, Lcom/tencent/mm/protocal/b/SWclz;->ilF:I
 
-    iget-object v4, v0, Lcom/tencent/mm/protocal/b/sw;->inp:Lcom/tencent/mm/protocal/b/ajy;
+    iget-object v4, v0, Lcom/tencent/mm/protocal/b/SWclz;->inp:Lcom/tencent/mm/protocal/b/ajy;
 
     iget v4, v4, Lcom/tencent/mm/protocal/b/ajy;->iSu:I
 
@@ -2416,17 +2416,17 @@
 
     .line 417
     :cond_8
-    iget v3, v0, Lcom/tencent/mm/protocal/b/sw;->ilE:I
+    iget v3, v0, Lcom/tencent/mm/protocal/b/SWclz;->ilE:I
 
     if-ltz v3, :cond_9
 
-    iget v3, v0, Lcom/tencent/mm/protocal/b/sw;->ilE:I
+    iget v3, v0, Lcom/tencent/mm/protocal/b/SWclz;->ilE:I
 
-    iget v4, v0, Lcom/tencent/mm/protocal/b/sw;->ilF:I
+    iget v4, v0, Lcom/tencent/mm/protocal/b/SWclz;->ilF:I
 
     add-int/2addr v3, v4
 
-    iget v4, v0, Lcom/tencent/mm/protocal/b/sw;->ilD:I
+    iget v4, v0, Lcom/tencent/mm/protocal/b/SWclz;->ilD:I
 
     if-le v3, v4, :cond_a
 
@@ -2445,7 +2445,7 @@
 
     .line 420
     :cond_a
-    iget v3, v0, Lcom/tencent/mm/protocal/b/sw;->ilE:I
+    iget v3, v0, Lcom/tencent/mm/protocal/b/SWclz;->ilE:I
 
     iget v4, v1, Lcom/tencent/mm/z/d;->offset:I
 
@@ -2465,7 +2465,7 @@
 
     .line 423
     :cond_b
-    iget v3, v0, Lcom/tencent/mm/protocal/b/sw;->ilD:I
+    iget v3, v0, Lcom/tencent/mm/protocal/b/SWclz;->ilD:I
 
     if-gtz v3, :cond_5
 
@@ -2483,13 +2483,13 @@
 
     .line 434
     :cond_c
-    iget v2, v0, Lcom/tencent/mm/protocal/b/sw;->ilD:I
+    iget v2, v0, Lcom/tencent/mm/protocal/b/SWclz;->ilD:I
 
-    iget v3, v0, Lcom/tencent/mm/protocal/b/sw;->ilE:I
+    iget v3, v0, Lcom/tencent/mm/protocal/b/SWclz;->ilE:I
 
-    iget v4, v0, Lcom/tencent/mm/protocal/b/sw;->ilF:I
+    iget v4, v0, Lcom/tencent/mm/protocal/b/SWclz;->ilF:I
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/sw;->inp:Lcom/tencent/mm/protocal/b/ajy;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/SWclz;->inp:Lcom/tencent/mm/protocal/b/ajy;
 
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/b;
 

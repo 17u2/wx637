@@ -77,13 +77,13 @@
 
     iget-object v5, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/e$2;->hFF:Lcom/tencent/mm/plugin/webview/c/l;
 
-    invoke-virtual {v5}, Lcom/tencent/mm/plugin/webview/c/l;->aEL()Lcom/tencent/mm/protocal/b/yc;
+    invoke-virtual {v5}, Lcom/tencent/mm/plugin/webview/c/l;->aEL()Lcom/tencent/mm/protocal/b/YCclz;
 
     move-result-object v5
 
-    iget-object v5, v5, Lcom/tencent/mm/protocal/b/yc;->iIk:Lcom/tencent/mm/protocal/b/yd;
+    iget-object v5, v5, Lcom/tencent/mm/protocal/b/YCclz;->iIk:Lcom/tencent/mm/protocal/b/YDclz;
 
-    iget v5, v5, Lcom/tencent/mm/protocal/b/yd;->iIo:I
+    iget v5, v5, Lcom/tencent/mm/protocal/b/YDclz;->iIo:I
 
     invoke-interface/range {v0 .. v5}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/e$a;->a(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/e$a$a;Ljava/lang/String;Ljava/util/LinkedList;II)V
 

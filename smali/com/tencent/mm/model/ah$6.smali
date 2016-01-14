@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/model/ah$6;
-.super Lcom/tencent/mm/protocal/y$a;
+.super Lcom/tencent/mm/protocal/Yclz$a;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     .prologue
     .line 517
-    invoke-direct {p0}, Lcom/tencent/mm/protocal/y$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/protocal/Yclz$a;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -72,9 +72,9 @@
 
     .line 528
     :cond_1
-    new-instance v2, Lcom/tencent/mm/protocal/x$a;
+    new-instance v2, Lcom/tencent/mm/protocal/Xclz$a;
 
-    invoke-direct {v2}, Lcom/tencent/mm/protocal/x$a;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/protocal/Xclz$a;-><init>()V
 
     .line 529
     invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
@@ -83,7 +83,7 @@
 
     iget v0, v0, Lcom/tencent/mm/model/c;->uin:I
 
-    iput v0, v2, Lcom/tencent/mm/protocal/x$a;->uin:I
+    iput v0, v2, Lcom/tencent/mm/protocal/Xclz$a;->uin:I
 
     .line 530
     invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
@@ -107,34 +107,34 @@
 
     move-result-object v0
 
-    iput-object v0, v2, Lcom/tencent/mm/protocal/x$a;->bNx:[B
+    iput-object v0, v2, Lcom/tencent/mm/protocal/Xclz$a;->bNx:[B
 
     .line 532
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/protocal/i;->cd(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/tencent/mm/protocal/Iclz;->cd(Landroid/content/Context;)I
 
     move-result v0
 
-    iput v0, v2, Lcom/tencent/mm/protocal/x$a;->netType:I
+    iput v0, v2, Lcom/tencent/mm/protocal/Xclz$a;->netType:I
 
     .line 533
-    invoke-static {}, Lcom/tencent/mm/protocal/i;->aMK()I
+    invoke-static {}, Lcom/tencent/mm/protocal/Iclz;->aMK()I
 
     move-result v0
 
-    iput v0, v2, Lcom/tencent/mm/protocal/x$a;->ihT:I
+    iput v0, v2, Lcom/tencent/mm/protocal/Xclz$a;->ihT:I
 
     .line 536
     :try_start_0
-    invoke-virtual {v2}, Lcom/tencent/mm/protocal/x$a;->tK()[B
+    invoke-virtual {v2}, Lcom/tencent/mm/protocal/Xclz$a;->tK()[B
 
     move-result-object v0
 
     .line 537
-    iget-object v2, v2, Lcom/tencent/mm/protocal/x$a;->btV:[B
+    iget-object v2, v2, Lcom/tencent/mm/protocal/Xclz$a;->btV:[B
 
     iput-object v2, p0, Lcom/tencent/mm/model/ah$6;->btV:[B
     :try_end_0
@@ -188,16 +188,16 @@
     const/4 v0, 0x0
 
     .line 547
-    new-instance v1, Lcom/tencent/mm/protocal/x$b;
+    new-instance v1, Lcom/tencent/mm/protocal/Xclz$b;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/x$b;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/Xclz$b;-><init>()V
 
     .line 549
     :try_start_0
-    invoke-virtual {v1, p1}, Lcom/tencent/mm/protocal/x$b;->x([B)I
+    invoke-virtual {v1, p1}, Lcom/tencent/mm/protocal/Xclz$b;->x([B)I
 
     .line 550
-    iget-wide v0, v1, Lcom/tencent/mm/protocal/x$b;->iiw:J
+    iget-wide v0, v1, Lcom/tencent/mm/protocal/Xclz$b;->iiw:J
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

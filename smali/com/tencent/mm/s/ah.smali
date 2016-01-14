@@ -13,7 +13,7 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/ew;Lcom/tencent/mm/protocal/b/ew;)V
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/EWclz;Lcom/tencent/mm/protocal/b/EWclz;)V
     .locals 3
 
     .prologue
@@ -80,10 +80,10 @@
     iput-object p2, v0, Lcom/tencent/mm/protocal/b/aru;->ipq:Ljava/lang/String;
 
     .line 34
-    iput-object p3, v0, Lcom/tencent/mm/protocal/b/aru;->iXT:Lcom/tencent/mm/protocal/b/ew;
+    iput-object p3, v0, Lcom/tencent/mm/protocal/b/aru;->iXT:Lcom/tencent/mm/protocal/b/EWclz;
 
     .line 35
-    iput-object p4, v0, Lcom/tencent/mm/protocal/b/aru;->iXU:Lcom/tencent/mm/protocal/b/ew;
+    iput-object p4, v0, Lcom/tencent/mm/protocal/b/aru;->iXU:Lcom/tencent/mm/protocal/b/EWclz;
 
     .line 36
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z

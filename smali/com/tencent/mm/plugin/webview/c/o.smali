@@ -11,11 +11,11 @@
 
 .field private cYK:Lcom/tencent/mm/q/d;
 
-.field public hyn:Lcom/tencent/mm/protocal/b/ya;
+.field public hyn:Lcom/tencent/mm/protocal/b/YAclz;
 
 
 # direct methods
-.method public constructor <init>(Lcom/tencent/mm/protocal/b/ya;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/aq/b;ILjava/util/LinkedList;)V
+.method public constructor <init>(Lcom/tencent/mm/protocal/b/YAclz;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/aq/b;ILjava/util/LinkedList;)V
     .locals 6
 
     .prologue
@@ -70,7 +70,7 @@
     invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 29
-    iput-object p1, p0, Lcom/tencent/mm/plugin/webview/c/o;->hyn:Lcom/tencent/mm/protocal/b/ya;
+    iput-object p1, p0, Lcom/tencent/mm/plugin/webview/c/o;->hyn:Lcom/tencent/mm/protocal/b/YAclz;
 
     .line 31
     new-instance v1, Lcom/tencent/mm/q/a$a;
@@ -78,16 +78,16 @@
     invoke-direct {v1}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 32
-    new-instance v2, Lcom/tencent/mm/protocal/b/yl;
+    new-instance v2, Lcom/tencent/mm/protocal/b/YLclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/yl;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/YLclz;-><init>()V
 
     iput-object v2, v1, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 33
-    new-instance v2, Lcom/tencent/mm/protocal/b/ym;
+    new-instance v2, Lcom/tencent/mm/protocal/b/YMclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/ym;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/YMclz;-><init>()V
 
     iput-object v2, v1, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -125,41 +125,41 @@
 
     iget-object v1, v1, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v1, Lcom/tencent/mm/protocal/b/yl;
+    check-cast v1, Lcom/tencent/mm/protocal/b/YLclz;
 
     .line 41
-    iput-object p2, v1, Lcom/tencent/mm/protocal/b/yl;->url:Ljava/lang/String;
+    iput-object p2, v1, Lcom/tencent/mm/protocal/b/YLclz;->url:Ljava/lang/String;
 
     .line 42
-    iput-object p3, v1, Lcom/tencent/mm/protocal/b/yl;->dan:Ljava/lang/String;
+    iput-object p3, v1, Lcom/tencent/mm/protocal/b/YLclz;->dan:Ljava/lang/String;
 
     .line 43
-    iput-object p4, v1, Lcom/tencent/mm/protocal/b/yl;->iIb:Ljava/lang/String;
+    iput-object p4, v1, Lcom/tencent/mm/protocal/b/YLclz;->iIb:Ljava/lang/String;
 
     .line 44
-    iput-object p5, v1, Lcom/tencent/mm/protocal/b/yl;->iIe:Ljava/lang/String;
+    iput-object p5, v1, Lcom/tencent/mm/protocal/b/YLclz;->iIe:Ljava/lang/String;
 
     .line 45
-    iput-object p6, v1, Lcom/tencent/mm/protocal/b/yl;->iIf:Ljava/lang/String;
+    iput-object p6, v1, Lcom/tencent/mm/protocal/b/YLclz;->iIf:Ljava/lang/String;
 
     .line 46
-    iput-object p7, v1, Lcom/tencent/mm/protocal/b/yl;->aOC:Ljava/lang/String;
+    iput-object p7, v1, Lcom/tencent/mm/protocal/b/YLclz;->aOC:Ljava/lang/String;
 
     .line 47
-    iput-object p8, v1, Lcom/tencent/mm/protocal/b/yl;->iIg:Ljava/lang/String;
+    iput-object p8, v1, Lcom/tencent/mm/protocal/b/YLclz;->iIg:Ljava/lang/String;
 
     .line 48
     move/from16 v0, p10
 
-    iput v0, v1, Lcom/tencent/mm/protocal/b/yl;->iIi:I
+    iput v0, v1, Lcom/tencent/mm/protocal/b/YLclz;->iIi:I
 
     .line 49
-    iput-object p9, v1, Lcom/tencent/mm/protocal/b/yl;->iIh:Lcom/tencent/mm/aq/b;
+    iput-object p9, v1, Lcom/tencent/mm/protocal/b/YLclz;->iIh:Lcom/tencent/mm/aq/b;
 
     .line 50
     move-object/from16 v0, p11
 
-    iput-object v0, v1, Lcom/tencent/mm/protocal/b/yl;->iIn:Ljava/util/LinkedList;
+    iput-object v0, v1, Lcom/tencent/mm/protocal/b/YLclz;->iIn:Ljava/util/LinkedList;
 
     .line 51
     sget-boolean v1, Lcom/tencent/mm/BuildConfig;->SKIP:Z

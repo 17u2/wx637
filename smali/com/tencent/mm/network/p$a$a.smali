@@ -479,7 +479,7 @@
     throw v0
 .end method
 
-.method public final vP()Lcom/tencent/mm/protocal/e;
+.method public final vP()Lcom/tencent/mm/protocal/Eclz;
     .locals 5
 
     .prologue
@@ -516,7 +516,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/protocal/e$a;->aq(Landroid/os/IBinder;)Lcom/tencent/mm/protocal/e;
+    invoke-static {v0}, Lcom/tencent/mm/protocal/Eclz$a;->aq(Landroid/os/IBinder;)Lcom/tencent/mm/protocal/Eclz;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -543,7 +543,7 @@
     throw v0
 .end method
 
-.method public final vQ()Lcom/tencent/mm/protocal/f;
+.method public final vQ()Lcom/tencent/mm/protocal/Fclz;
     .locals 5
 
     .prologue
@@ -580,7 +580,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/protocal/f$a;->ar(Landroid/os/IBinder;)Lcom/tencent/mm/protocal/f;
+    invoke-static {v0}, Lcom/tencent/mm/protocal/Fclz$a;->ar(Landroid/os/IBinder;)Lcom/tencent/mm/protocal/Fclz;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

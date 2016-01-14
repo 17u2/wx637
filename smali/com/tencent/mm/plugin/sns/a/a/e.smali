@@ -33,16 +33,16 @@
     iput-object p1, p0, Lcom/tencent/mm/plugin/sns/a/a/e;->gfd:Ljava/util/List;
 
     .line 36
-    new-instance v2, Lcom/tencent/mm/protocal/b/t;
+    new-instance v2, Lcom/tencent/mm/protocal/b/Tclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/t;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/Tclz;-><init>()V
 
     iput-object v2, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 37
-    new-instance v2, Lcom/tencent/mm/protocal/b/u;
+    new-instance v2, Lcom/tencent/mm/protocal/b/Uclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/u;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/Uclz;-><init>()V
 
     iput-object v2, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -76,39 +76,39 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/t;
+    check-cast v0, Lcom/tencent/mm/protocal/b/Tclz;
 
     .line 47
-    new-instance v2, Lcom/tencent/mm/protocal/b/zc;
+    new-instance v2, Lcom/tencent/mm/protocal/b/ZCclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/zc;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/ZCclz;-><init>()V
 
     .line 48
     sget-object v3, Lcom/tencent/mm/protocal/bclass;->ihj:Ljava/lang/String;
 
-    iput-object v3, v2, Lcom/tencent/mm/protocal/b/zc;->ipP:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/protocal/b/ZCclz;->ipP:Ljava/lang/String;
 
     .line 49
     sget-object v3, Lcom/tencent/mm/protocal/bclass;->ihi:Ljava/lang/String;
 
-    iput-object v3, v2, Lcom/tencent/mm/protocal/b/zc;->ipQ:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/protocal/b/ZCclz;->ipQ:Ljava/lang/String;
 
     .line 50
     sget-object v3, Lcom/tencent/mm/protocal/bclass;->ihl:Ljava/lang/String;
 
-    iput-object v3, v2, Lcom/tencent/mm/protocal/b/zc;->ipR:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/protocal/b/ZCclz;->ipR:Ljava/lang/String;
 
     .line 51
     sget-object v3, Lcom/tencent/mm/protocal/bclass;->ihm:Ljava/lang/String;
 
-    iput-object v3, v2, Lcom/tencent/mm/protocal/b/zc;->ipS:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/protocal/b/ZCclz;->ipS:Ljava/lang/String;
 
     .line 52
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/u;->aOg()Ljava/lang/String;
 
     move-result-object v3
 
-    iput-object v3, v2, Lcom/tencent/mm/protocal/b/zc;->ipT:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/protocal/b/ZCclz;->ipT:Ljava/lang/String;
 
     .line 53
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -121,10 +121,10 @@
 
     long-to-int v3, v3
 
-    iput v3, v2, Lcom/tencent/mm/protocal/b/zc;->iIM:I
+    iput v3, v2, Lcom/tencent/mm/protocal/b/ZCclz;->iIM:I
 
     .line 55
-    iput-object v2, v0, Lcom/tencent/mm/protocal/b/t;->ijZ:Lcom/tencent/mm/protocal/b/zc;
+    iput-object v2, v0, Lcom/tencent/mm/protocal/b/Tclz;->ijZ:Lcom/tencent/mm/protocal/b/ZCclz;
 
     .line 56
     :goto_0
@@ -135,7 +135,7 @@
     if-ge v1, v2, :cond_0
 
     .line 57
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/t;->ika:Ljava/util/LinkedList;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/Tclz;->ika:Ljava/util/LinkedList;
 
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -158,7 +158,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/t;->ika:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/Tclz;->ika:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->size()I
 
@@ -269,10 +269,10 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/u;
+    check-cast v0, Lcom/tencent/mm/protocal/b/Uclz;
 
     .line 83
-    iget v0, v0, Lcom/tencent/mm/protocal/b/u;->ikb:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/Uclz;->ikb:I
 
     .line 84
     invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;

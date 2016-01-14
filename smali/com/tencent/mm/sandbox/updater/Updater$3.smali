@@ -276,18 +276,18 @@
     :cond_6
     iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jef:Lcom/tencent/mm/sandbox/a/a;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sandbox/a/a;->aHI()Lcom/tencent/mm/protocal/b/va;
+    invoke-virtual {v0}, Lcom/tencent/mm/sandbox/a/a;->aHI()Lcom/tencent/mm/protocal/b/VAclz;
 
     move-result-object v0
 
     .line 277
     if-eqz v0, :cond_7
 
-    iget v1, v0, Lcom/tencent/mm/protocal/b/va;->iFP:I
+    iget v1, v0, Lcom/tencent/mm/protocal/b/VAclz;->iFP:I
 
     if-eqz v1, :cond_7
 
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/va;->iFQ:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/VAclz;->iFQ:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -296,7 +296,7 @@
     if-nez v1, :cond_7
 
     .line 278
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/va;->iFQ:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/VAclz;->iFQ:Ljava/lang/String;
 
     .line 279
     new-instance v1, Landroid/content/Intent;

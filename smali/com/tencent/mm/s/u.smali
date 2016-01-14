@@ -26,16 +26,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 25
-    new-instance v1, Lcom/tencent/mm/protocal/b/hw;
+    new-instance v1, Lcom/tencent/mm/protocal/b/HWclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/hw;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/HWclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 26
-    new-instance v1, Lcom/tencent/mm/protocal/b/hx;
+    new-instance v1, Lcom/tencent/mm/protocal/b/HXclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/hx;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/HXclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -73,25 +73,25 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/hw;
+    check-cast v0, Lcom/tencent/mm/protocal/b/HWclz;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/hw;
+    check-cast v0, Lcom/tencent/mm/protocal/b/HWclz;
 
     .line 34
-    iput p2, v0, Lcom/tencent/mm/protocal/b/hw;->itB:I
+    iput p2, v0, Lcom/tencent/mm/protocal/b/HWclz;->itB:I
 
     .line 35
-    iput-object p3, v0, Lcom/tencent/mm/protocal/b/hw;->itC:Ljava/lang/String;
+    iput-object p3, v0, Lcom/tencent/mm/protocal/b/HWclz;->itC:Ljava/lang/String;
 
     .line 36
-    iput-object p1, v0, Lcom/tencent/mm/protocal/b/hw;->ipm:Ljava/lang/String;
+    iput-object p1, v0, Lcom/tencent/mm/protocal/b/HWclz;->ipm:Ljava/lang/String;
 
     .line 37
     invoke-static {}, Lcom/tencent/mm/model/ar;->mr()Ljava/lang/String;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/hw;->ikA:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/HWclz;->ikA:Ljava/lang/String;
 
     .line 38
     const-string/jumbo v1, "!56@/B4Tb64lLpK+IBX8XDgnvqJcyBbmqJJZfnhqtvXQsW60bLAi247rBQ=="
@@ -120,7 +120,7 @@
 
     const/4 v4, 0x3
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/hw;->ikA:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/HWclz;->ikA:Ljava/lang/String;
 
     aput-object v0, v3, v4
 

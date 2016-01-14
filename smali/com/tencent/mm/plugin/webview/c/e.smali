@@ -125,20 +125,20 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/xp;
+    check-cast v0, Lcom/tencent/mm/protocal/b/XPclz;
 
     .line 75
     invoke-static {}, Lcom/tencent/mm/plugin/webview/d/c;->aFD()Lcom/tencent/mm/plugin/webview/c/d;
 
     move-result-object v2
 
-    iget v3, v0, Lcom/tencent/mm/protocal/b/xp;->iHT:I
+    iget v3, v0, Lcom/tencent/mm/protocal/b/XPclz;->iHT:I
 
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EY()J
 
     move-result-wide v4
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/xp;->iHU:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/XPclz;->iHU:I
 
     int-to-long v6, v0
 

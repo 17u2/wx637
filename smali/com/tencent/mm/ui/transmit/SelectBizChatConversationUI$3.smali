@@ -65,18 +65,18 @@
 
     check-cast v0, Lcom/tencent/mm/s/v;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/s/v;->xg()Lcom/tencent/mm/protocal/b/ir;
+    invoke-virtual {v0}, Lcom/tencent/mm/s/v;->xg()Lcom/tencent/mm/protocal/b/IRclz;
 
     move-result-object v0
 
     .line 266
     if-eqz v0, :cond_0
 
-    iget-object v3, v0, Lcom/tencent/mm/protocal/b/ir;->iun:Lcom/tencent/mm/protocal/b/ahr;
+    iget-object v3, v0, Lcom/tencent/mm/protocal/b/IRclz;->iun:Lcom/tencent/mm/protocal/b/ahr;
 
     if-eqz v3, :cond_0
 
-    iget-object v3, v0, Lcom/tencent/mm/protocal/b/ir;->iun:Lcom/tencent/mm/protocal/b/ahr;
+    iget-object v3, v0, Lcom/tencent/mm/protocal/b/IRclz;->iun:Lcom/tencent/mm/protocal/b/ahr;
 
     iget v3, v3, Lcom/tencent/mm/protocal/b/ahr;->ret:I
 
@@ -86,7 +86,7 @@
     :cond_0
     if-eqz v0, :cond_1
 
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/ir;->iun:Lcom/tencent/mm/protocal/b/ahr;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/IRclz;->iun:Lcom/tencent/mm/protocal/b/ahr;
 
     if-eqz v1, :cond_1
 
@@ -97,7 +97,7 @@
 
     new-array v3, v6, [Ljava/lang/Object;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ir;->iun:Lcom/tencent/mm/protocal/b/ahr;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/IRclz;->iun:Lcom/tencent/mm/protocal/b/ahr;
 
     iget v0, v0, Lcom/tencent/mm/protocal/b/ahr;->ret:I
 
@@ -125,7 +125,7 @@
 
     .line 274
     :cond_2
-    iget-object v3, v0, Lcom/tencent/mm/protocal/b/ir;->ium:Lcom/tencent/mm/protocal/b/nq;
+    iget-object v3, v0, Lcom/tencent/mm/protocal/b/IRclz;->ium:Lcom/tencent/mm/protocal/b/NQclz;
 
     iget-object v4, p0, Lcom/tencent/mm/ui/transmit/SelectBizChatConversationUI$3;->kIk:Lcom/tencent/mm/ui/transmit/SelectBizChatConversationUI;
 
@@ -133,7 +133,7 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/s/f;->a(Lcom/tencent/mm/protocal/b/nq;Ljava/lang/String;)Z
+    invoke-static {v3, v4}, Lcom/tencent/mm/s/f;->a(Lcom/tencent/mm/protocal/b/NQclz;Ljava/lang/String;)Z
 
     move-result v3
 
@@ -163,11 +163,11 @@
 
     move-result-object v1
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ir;->ium:Lcom/tencent/mm/protocal/b/nq;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/IRclz;->ium:Lcom/tencent/mm/protocal/b/NQclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/nq;->iAv:Lcom/tencent/mm/protocal/b/et;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/NQclz;->iAv:Lcom/tencent/mm/protocal/b/ETclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/et;->ipq:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ETclz;->ipq:Ljava/lang/String;
 
     invoke-virtual {v1, v0}, Lcom/tencent/mm/s/e;->gg(Ljava/lang/String;)Lcom/tencent/mm/s/d;
 

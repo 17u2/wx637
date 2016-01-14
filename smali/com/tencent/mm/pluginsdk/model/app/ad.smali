@@ -101,7 +101,7 @@
     :try_start_0
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ad;->dmy:Lcom/tencent/mm/q/a;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/a;->vn()Lcom/tencent/mm/protocal/h$c;
+    invoke-virtual {v0}, Lcom/tencent/mm/q/a;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 

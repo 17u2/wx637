@@ -77,7 +77,7 @@
     :cond_1
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader$1;->gqn:Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->b(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;)Lcom/tencent/mm/protocal/b/bm;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->b(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;)Lcom/tencent/mm/protocal/b/BMclz;
 
     move-result-object v0
 

@@ -944,7 +944,7 @@
     return-object v11
 .end method
 
-.method public static tO(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/aj;
+.method public static tO(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/AJclz;
     .locals 17
 
     .prologue
@@ -960,9 +960,9 @@
     move-result-object v11
 
     .line 114
-    new-instance v10, Lcom/tencent/mm/protocal/b/aj;
+    new-instance v10, Lcom/tencent/mm/protocal/b/AJclz;
 
-    invoke-direct {v10}, Lcom/tencent/mm/protocal/b/aj;-><init>()V
+    invoke-direct {v10}, Lcom/tencent/mm/protocal/b/AJclz;-><init>()V
 
     .line 115
     if-eqz v11, :cond_2
@@ -980,12 +980,12 @@
 
     move-result-object v1
 
-    iput-object v1, v10, Lcom/tencent/mm/protocal/b/aj;->dRt:Ljava/lang/String;
+    iput-object v1, v10, Lcom/tencent/mm/protocal/b/AJclz;->dRt:Ljava/lang/String;
 
     .line 117
-    new-instance v12, Lcom/tencent/mm/protocal/b/bm;
+    new-instance v12, Lcom/tencent/mm/protocal/b/BMclz;
 
-    invoke-direct {v12}, Lcom/tencent/mm/protocal/b/bm;-><init>()V
+    invoke-direct {v12}, Lcom/tencent/mm/protocal/b/BMclz;-><init>()V
 
     const-string/jumbo v1, ".albumList.album.author.name"
 
@@ -999,7 +999,7 @@
 
     move-result-object v1
 
-    iput-object v1, v12, Lcom/tencent/mm/protocal/b/bm;->dQP:Ljava/lang/String;
+    iput-object v1, v12, Lcom/tencent/mm/protocal/b/BMclz;->dQP:Ljava/lang/String;
 
     const-string/jumbo v1, ".albumList.album.author.title"
 
@@ -1013,7 +1013,7 @@
 
     move-result-object v1
 
-    iput-object v1, v12, Lcom/tencent/mm/protocal/b/bm;->asn:Ljava/lang/String;
+    iput-object v1, v12, Lcom/tencent/mm/protocal/b/BMclz;->asn:Ljava/lang/String;
 
     const-string/jumbo v1, ".albumList.album.author.description"
 
@@ -1027,7 +1027,7 @@
 
     move-result-object v1
 
-    iput-object v1, v12, Lcom/tencent/mm/protocal/b/bm;->ilL:Ljava/lang/String;
+    iput-object v1, v12, Lcom/tencent/mm/protocal/b/BMclz;->ilL:Ljava/lang/String;
 
     const-string/jumbo v1, ".albumList.album.author.quote"
 
@@ -1041,11 +1041,11 @@
 
     move-result-object v1
 
-    iput-object v1, v12, Lcom/tencent/mm/protocal/b/bm;->ilK:Ljava/lang/String;
+    iput-object v1, v12, Lcom/tencent/mm/protocal/b/BMclz;->ilK:Ljava/lang/String;
 
-    new-instance v13, Lcom/tencent/mm/protocal/b/bn;
+    new-instance v13, Lcom/tencent/mm/protocal/b/BNclz;
 
-    invoke-direct {v13}, Lcom/tencent/mm/protocal/b/bn;-><init>()V
+    invoke-direct {v13}, Lcom/tencent/mm/protocal/b/BNclz;-><init>()V
 
     const-string/jumbo v1, ".albumList.album.author.icon.media.id"
 
@@ -1185,11 +1185,11 @@
 
     iput-object v14, v15, Lcom/tencent/mm/protocal/b/abp;->iLl:Lcom/tencent/mm/protocal/b/abr;
 
-    iput-object v15, v13, Lcom/tencent/mm/protocal/b/bn;->ilN:Lcom/tencent/mm/protocal/b/abp;
+    iput-object v15, v13, Lcom/tencent/mm/protocal/b/BNclz;->ilN:Lcom/tencent/mm/protocal/b/abp;
 
-    iput-object v13, v12, Lcom/tencent/mm/protocal/b/bm;->ilM:Lcom/tencent/mm/protocal/b/bn;
+    iput-object v13, v12, Lcom/tencent/mm/protocal/b/BMclz;->ilM:Lcom/tencent/mm/protocal/b/BNclz;
 
-    iput-object v12, v10, Lcom/tencent/mm/protocal/b/aj;->ikI:Lcom/tencent/mm/protocal/b/bm;
+    iput-object v12, v10, Lcom/tencent/mm/protocal/b/AJclz;->ikI:Lcom/tencent/mm/protocal/b/BMclz;
 
     .line 118
     const/4 v1, 0x0
@@ -1197,9 +1197,9 @@
     move v2, v1
 
     :goto_0
-    new-instance v4, Lcom/tencent/mm/protocal/b/wj;
+    new-instance v4, Lcom/tencent/mm/protocal/b/WJclz;
 
-    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/wj;-><init>()V
+    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/WJclz;-><init>()V
 
     if-nez v2, :cond_0
 
@@ -1226,15 +1226,15 @@
 
     move-result-object v1
 
-    iput-object v1, v4, Lcom/tencent/mm/protocal/b/wj;->dQP:Ljava/lang/String;
+    iput-object v1, v4, Lcom/tencent/mm/protocal/b/WJclz;->dQP:Ljava/lang/String;
 
     invoke-static {v11, v3}, Lcom/tencent/mm/plugin/sns/f/a;->k(Ljava/util/Map;Ljava/lang/String;)Ljava/util/LinkedList;
 
     move-result-object v1
 
-    iput-object v1, v4, Lcom/tencent/mm/protocal/b/wj;->iuh:Ljava/util/LinkedList;
+    iput-object v1, v4, Lcom/tencent/mm/protocal/b/WJclz;->iuh:Ljava/util/LinkedList;
 
-    iget-object v1, v10, Lcom/tencent/mm/protocal/b/aj;->ikJ:Ljava/util/LinkedList;
+    iget-object v1, v10, Lcom/tencent/mm/protocal/b/AJclz;->ikJ:Ljava/util/LinkedList;
 
     invoke-virtual {v1, v4}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 

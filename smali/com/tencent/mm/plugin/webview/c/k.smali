@@ -35,16 +35,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 35
-    new-instance v1, Lcom/tencent/mm/protocal/b/xn;
+    new-instance v1, Lcom/tencent/mm/protocal/b/XNclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/xn;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/XNclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 36
-    new-instance v1, Lcom/tencent/mm/protocal/b/xo;
+    new-instance v1, Lcom/tencent/mm/protocal/b/XOclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/xo;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/XOclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -78,16 +78,16 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/xn;
+    check-cast v0, Lcom/tencent/mm/protocal/b/XNclz;
 
     .line 44
-    iput-object p2, v0, Lcom/tencent/mm/protocal/b/xn;->iHL:Ljava/lang/String;
+    iput-object p2, v0, Lcom/tencent/mm/protocal/b/XNclz;->iHL:Ljava/lang/String;
 
     .line 45
-    iput-object p1, v0, Lcom/tencent/mm/protocal/b/xn;->iHM:Ljava/lang/String;
+    iput-object p1, v0, Lcom/tencent/mm/protocal/b/XNclz;->iHM:Ljava/lang/String;
 
     .line 46
-    iput-object p3, v0, Lcom/tencent/mm/protocal/b/xn;->iHN:Ljava/util/LinkedList;
+    iput-object p3, v0, Lcom/tencent/mm/protocal/b/XNclz;->iHN:Ljava/util/LinkedList;
 
     .line 47
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -208,18 +208,18 @@
 
     .line 57
     :cond_1
-    invoke-virtual {p0}, Lcom/tencent/mm/plugin/webview/c/k;->aEJ()Lcom/tencent/mm/protocal/b/xo;
+    invoke-virtual {p0}, Lcom/tencent/mm/plugin/webview/c/k;->aEJ()Lcom/tencent/mm/protocal/b/XOclz;
 
     move-result-object v0
 
     .line 58
     if-eqz v0, :cond_2
 
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/xo;->iun:Lcom/tencent/mm/protocal/b/ahr;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/XOclz;->iun:Lcom/tencent/mm/protocal/b/ahr;
 
     if-eqz v1, :cond_2
 
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/xo;->iun:Lcom/tencent/mm/protocal/b/ahr;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/XOclz;->iun:Lcom/tencent/mm/protocal/b/ahr;
 
     iget v1, v1, Lcom/tencent/mm/protocal/b/ahr;->ret:I
 
@@ -229,7 +229,7 @@
     :cond_2
     if-eqz v0, :cond_3
 
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/xo;->iun:Lcom/tencent/mm/protocal/b/ahr;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/XOclz;->iun:Lcom/tencent/mm/protocal/b/ahr;
 
     if-eqz v1, :cond_3
 
@@ -240,7 +240,7 @@
 
     new-array v3, v5, [Ljava/lang/Object;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/xo;->iun:Lcom/tencent/mm/protocal/b/ahr;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/XOclz;->iun:Lcom/tencent/mm/protocal/b/ahr;
 
     iget v0, v0, Lcom/tencent/mm/protocal/b/ahr;->ret:I
 
@@ -285,7 +285,7 @@
 
     .line 68
     :cond_4
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/xo;->ipw:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/XOclz;->ipw:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -307,12 +307,12 @@
 
     .line 73
     :cond_5
-    iget v1, v0, Lcom/tencent/mm/protocal/b/xo;->iHO:I
+    iget v1, v0, Lcom/tencent/mm/protocal/b/XOclz;->iHO:I
 
     if-ne v1, v7, :cond_b
 
     .line 74
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/xo;->iHQ:Lcom/tencent/mm/protocal/b/ex;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/XOclz;->iHQ:Lcom/tencent/mm/protocal/b/EXclz;
 
     if-nez v1, :cond_6
 
@@ -335,49 +335,49 @@
     invoke-direct {v1}, Lcom/tencent/mm/s/i;-><init>()V
 
     .line 80
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/xo;->iHQ:Lcom/tencent/mm/protocal/b/ex;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/XOclz;->iHQ:Lcom/tencent/mm/protocal/b/EXclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/protocal/b/ex;->ipx:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/protocal/b/EXclz;->ipx:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/tencent/mm/s/i;->field_userId:Ljava/lang/String;
 
     .line 81
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/xo;->iHQ:Lcom/tencent/mm/protocal/b/ex;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/XOclz;->iHQ:Lcom/tencent/mm/protocal/b/EXclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/protocal/b/ex;->cIg:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/protocal/b/EXclz;->cIg:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/tencent/mm/s/i;->field_userName:Ljava/lang/String;
 
     .line 82
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/xo;->ipw:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/XOclz;->ipw:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/tencent/mm/s/i;->field_brandUserName:Ljava/lang/String;
 
     .line 83
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/xo;->iHQ:Lcom/tencent/mm/protocal/b/ex;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/XOclz;->iHQ:Lcom/tencent/mm/protocal/b/EXclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/protocal/b/ex;->ipr:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/protocal/b/EXclz;->ipr:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/tencent/mm/s/i;->field_headImageUrl:Ljava/lang/String;
 
     .line 84
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/xo;->iHQ:Lcom/tencent/mm/protocal/b/ex;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/XOclz;->iHQ:Lcom/tencent/mm/protocal/b/EXclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/protocal/b/ex;->ipz:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/protocal/b/EXclz;->ipz:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/tencent/mm/s/i;->field_profileUrl:Ljava/lang/String;
 
     .line 85
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/xo;->iHQ:Lcom/tencent/mm/protocal/b/ex;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/XOclz;->iHQ:Lcom/tencent/mm/protocal/b/EXclz;
 
-    iget v2, v2, Lcom/tencent/mm/protocal/b/ex;->hLr:I
+    iget v2, v2, Lcom/tencent/mm/protocal/b/EXclz;->hLr:I
 
     iput v2, v1, Lcom/tencent/mm/s/i;->field_UserVersion:I
 
     .line 86
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/xo;->iHQ:Lcom/tencent/mm/protocal/b/ex;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/XOclz;->iHQ:Lcom/tencent/mm/protocal/b/EXclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ex;->ipv:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/EXclz;->ipv:Ljava/lang/String;
 
     iput-object v0, v1, Lcom/tencent/mm/s/i;->field_addMemberUrl:Ljava/lang/String;
 
@@ -523,7 +523,7 @@
 
     .line 117
     :cond_b
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/xo;->iHP:Lcom/tencent/mm/protocal/b/nq;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/XOclz;->iHP:Lcom/tencent/mm/protocal/b/NQclz;
 
     if-nez v1, :cond_c
 
@@ -541,11 +541,11 @@
 
     .line 122
     :cond_c
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/xo;->iHP:Lcom/tencent/mm/protocal/b/nq;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/XOclz;->iHP:Lcom/tencent/mm/protocal/b/NQclz;
 
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/xo;->ipw:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/XOclz;->ipw:Ljava/lang/String;
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/s/f;->a(Lcom/tencent/mm/protocal/b/nq;Ljava/lang/String;)Z
+    invoke-static {v1, v2}, Lcom/tencent/mm/s/f;->a(Lcom/tencent/mm/protocal/b/NQclz;Ljava/lang/String;)Z
 
     move-result v1
 
@@ -554,11 +554,11 @@
 
     move-result-object v2
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/xo;->iHP:Lcom/tencent/mm/protocal/b/nq;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/XOclz;->iHP:Lcom/tencent/mm/protocal/b/NQclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/nq;->iAv:Lcom/tencent/mm/protocal/b/et;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/NQclz;->iAv:Lcom/tencent/mm/protocal/b/ETclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/et;->ipq:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ETclz;->ipq:Ljava/lang/String;
 
     invoke-virtual {v2, v0}, Lcom/tencent/mm/s/e;->gg(Ljava/lang/String;)Lcom/tencent/mm/s/d;
 
@@ -616,7 +616,7 @@
     goto :goto_2
 .end method
 
-.method public final aEJ()Lcom/tencent/mm/protocal/b/xo;
+.method public final aEJ()Lcom/tencent/mm/protocal/b/XOclz;
     .locals 1
 
     .prologue
@@ -640,7 +640,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/xo;
+    check-cast v0, Lcom/tencent/mm/protocal/b/XOclz;
 
     .line 163
     :goto_0

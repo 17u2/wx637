@@ -288,14 +288,14 @@
     iput v1, v0, Lcom/tencent/mm/plugin/webview/b/b$b;->aBy:I
 
     .line 654
-    new-instance v1, Lcom/tencent/mm/protocal/b/iw;
+    new-instance v1, Lcom/tencent/mm/protocal/b/IWclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/iw;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/IWclz;-><init>()V
 
-    iput-object v1, v0, Lcom/tencent/mm/plugin/webview/b/b$b;->eZX:Lcom/tencent/mm/protocal/b/iw;
+    iput-object v1, v0, Lcom/tencent/mm/plugin/webview/b/b$b;->eZX:Lcom/tencent/mm/protocal/b/IWclz;
 
     .line 655
-    iget-object v1, v0, Lcom/tencent/mm/plugin/webview/b/b$b;->eZX:Lcom/tencent/mm/protocal/b/iw;
+    iget-object v1, v0, Lcom/tencent/mm/plugin/webview/b/b$b;->eZX:Lcom/tencent/mm/protocal/b/IWclz;
 
     const-string/jumbo v2, "brandFlag"
 
@@ -303,10 +303,10 @@
 
     move-result v2
 
-    iput v2, v1, Lcom/tencent/mm/protocal/b/iw;->bEB:I
+    iput v2, v1, Lcom/tencent/mm/protocal/b/IWclz;->bEB:I
 
     .line 656
-    iget-object v1, v0, Lcom/tencent/mm/plugin/webview/b/b$b;->eZX:Lcom/tencent/mm/protocal/b/iw;
+    iget-object v1, v0, Lcom/tencent/mm/plugin/webview/b/b$b;->eZX:Lcom/tencent/mm/protocal/b/IWclz;
 
     const-string/jumbo v2, "iconUrl"
 
@@ -314,10 +314,10 @@
 
     move-result-object v2
 
-    iput-object v2, v1, Lcom/tencent/mm/protocal/b/iw;->bEE:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/protocal/b/IWclz;->bEE:Ljava/lang/String;
 
     .line 657
-    iget-object v1, v0, Lcom/tencent/mm/plugin/webview/b/b$b;->eZX:Lcom/tencent/mm/protocal/b/iw;
+    iget-object v1, v0, Lcom/tencent/mm/plugin/webview/b/b$b;->eZX:Lcom/tencent/mm/protocal/b/IWclz;
 
     const-string/jumbo v2, "brandInfo"
 
@@ -325,10 +325,10 @@
 
     move-result-object v2
 
-    iput-object v2, v1, Lcom/tencent/mm/protocal/b/iw;->bED:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/protocal/b/IWclz;->bED:Ljava/lang/String;
 
     .line 658
-    iget-object v1, v0, Lcom/tencent/mm/plugin/webview/b/b$b;->eZX:Lcom/tencent/mm/protocal/b/iw;
+    iget-object v1, v0, Lcom/tencent/mm/plugin/webview/b/b$b;->eZX:Lcom/tencent/mm/protocal/b/IWclz;
 
     const-string/jumbo v2, "externalInfo"
 
@@ -336,7 +336,7 @@
 
     move-result-object v2
 
-    iput-object v2, v1, Lcom/tencent/mm/protocal/b/iw;->bEC:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/protocal/b/IWclz;->bEC:Ljava/lang/String;
 
     .line 659
     const-string/jumbo v1, "searchID"
@@ -439,7 +439,7 @@
     invoke-virtual {v1, v2, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 447
-    iget-object v2, p0, Lcom/tencent/mm/plugin/webview/b/b$b;->eZX:Lcom/tencent/mm/protocal/b/iw;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/webview/b/b$b;->eZX:Lcom/tencent/mm/protocal/b/IWclz;
 
     if-eqz v2, :cond_0
 
@@ -447,9 +447,9 @@
     :try_start_0
     const-string/jumbo v2, "Contact_customInfo"
 
-    iget-object v3, p0, Lcom/tencent/mm/plugin/webview/b/b$b;->eZX:Lcom/tencent/mm/protocal/b/iw;
+    iget-object v3, p0, Lcom/tencent/mm/plugin/webview/b/b$b;->eZX:Lcom/tencent/mm/protocal/b/IWclz;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/protocal/b/iw;->toByteArray()[B
+    invoke-virtual {v3}, Lcom/tencent/mm/protocal/b/IWclz;->toByteArray()[B
 
     move-result-object v3
 
@@ -1184,9 +1184,9 @@
     move-result-object v0
 
     .line 479
-    iget-object v4, v0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v4, v0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget-object v4, v4, Lcom/tencent/mm/protocal/b/il;->iuh:Ljava/util/LinkedList;
+    iget-object v4, v4, Lcom/tencent/mm/protocal/b/ILclz;->iuh:Ljava/util/LinkedList;
 
     invoke-virtual {v4}, Ljava/util/LinkedList;->size()I
 
@@ -1195,9 +1195,9 @@
     if-le v4, v1, :cond_0
 
     .line 481
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/il;->iuh:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ILclz;->iuh:Ljava/util/LinkedList;
 
     invoke-virtual {v0, v1}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
 

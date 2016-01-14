@@ -15,7 +15,7 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/tencent/mm/protocal/b/bm;)V
+.method public abstract a(Lcom/tencent/mm/protocal/b/BMclz;)V
 .end method
 
 .method public abstract avb()V

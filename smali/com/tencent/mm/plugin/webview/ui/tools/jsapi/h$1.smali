@@ -19,13 +19,13 @@
 
 .field final synthetic hGO:Lcom/tencent/mm/protocal/JsapiPermissionWrapper;
 
-.field final synthetic hGP:Lcom/tencent/mm/protocal/a$c;
+.field final synthetic hGP:Lcom/tencent/mm/protocal/Aclz$c;
 
 .field final synthetic hGQ:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/j;Lcom/tencent/mm/protocal/JsapiPermissionWrapper;Lcom/tencent/mm/protocal/a$c;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/j;Lcom/tencent/mm/protocal/JsapiPermissionWrapper;Lcom/tencent/mm/protocal/Aclz$c;)V
     .locals 1
 
     .prologue
@@ -36,7 +36,7 @@
 
     iput-object p3, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$1;->hGO:Lcom/tencent/mm/protocal/JsapiPermissionWrapper;
 
-    iput-object p4, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$1;->hGP:Lcom/tencent/mm/protocal/a$c;
+    iput-object p4, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$1;->hGP:Lcom/tencent/mm/protocal/Aclz$c;
 
     invoke-direct {p0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/e$b;-><init>()V
 
@@ -4231,9 +4231,9 @@
 
     const/4 v3, 0x0
 
-    iget-object v4, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$1;->hGP:Lcom/tencent/mm/protocal/a$c;
+    iget-object v4, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$1;->hGP:Lcom/tencent/mm/protocal/Aclz$c;
 
-    invoke-virtual {v4}, Lcom/tencent/mm/protocal/a$c;->getName()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/tencent/mm/protocal/Aclz$c;->getName()Ljava/lang/String;
 
     move-result-object v4
 
@@ -4296,9 +4296,9 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v3, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$1;->hGP:Lcom/tencent/mm/protocal/a$c;
+    iget-object v3, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$1;->hGP:Lcom/tencent/mm/protocal/Aclz$c;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/protocal/a$c;->aMA()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/tencent/mm/protocal/Aclz$c;->aMA()Ljava/lang/String;
 
     move-result-object v3
 
@@ -4328,9 +4328,9 @@
 
     .line 897
     :cond_96
-    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$1;->hGP:Lcom/tencent/mm/protocal/a$c;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$1;->hGP:Lcom/tencent/mm/protocal/Aclz$c;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/protocal/a$c;->aMA()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/protocal/Aclz$c;->aMA()Ljava/lang/String;
 
     move-result-object v0
 
@@ -4380,9 +4380,9 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v3, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$1;->hGP:Lcom/tencent/mm/protocal/a$c;
+    iget-object v3, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$1;->hGP:Lcom/tencent/mm/protocal/Aclz$c;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/protocal/a$c;->aMA()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/tencent/mm/protocal/Aclz$c;->aMA()Ljava/lang/String;
 
     move-result-object v3
 
@@ -4416,9 +4416,9 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v3, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$1;->hGP:Lcom/tencent/mm/protocal/a$c;
+    iget-object v3, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$1;->hGP:Lcom/tencent/mm/protocal/Aclz$c;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/protocal/a$c;->aMA()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/tencent/mm/protocal/Aclz$c;->aMA()Ljava/lang/String;
 
     move-result-object v3
 

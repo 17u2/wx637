@@ -5014,13 +5014,13 @@
     move-result-object v6
 
     .line 5248
-    invoke-static {v6}, Lcom/tencent/mm/protocal/a;->za(Ljava/lang/String;)Lcom/tencent/mm/protocal/a$c;
+    invoke-static {v6}, Lcom/tencent/mm/protocal/Aclz;->za(Ljava/lang/String;)Lcom/tencent/mm/protocal/Aclz$c;
 
     move-result-object v0
 
     if-nez v0, :cond_3
 
-    sget-object v0, Lcom/tencent/mm/protocal/a$ew;->ihh:Ljava/util/Set;
+    sget-object v0, Lcom/tencent/mm/protocal/Aclz$ew;->ihh:Ljava/util/Set;
 
     if-nez v0, :cond_2
 
@@ -5028,104 +5028,104 @@
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
-    sput-object v0, Lcom/tencent/mm/protocal/a$ew;->ihh:Ljava/util/Set;
+    sput-object v0, Lcom/tencent/mm/protocal/Aclz$ew;->ihh:Ljava/util/Set;
 
     const-string/jumbo v7, "menu:share:QZone"
 
     invoke-interface {v0, v7}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    sget-object v0, Lcom/tencent/mm/protocal/a$ew;->ihh:Ljava/util/Set;
+    sget-object v0, Lcom/tencent/mm/protocal/Aclz$ew;->ihh:Ljava/util/Set;
 
     const-string/jumbo v7, "onImageDownloadProgress"
 
     invoke-interface {v0, v7}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    sget-object v0, Lcom/tencent/mm/protocal/a$ew;->ihh:Ljava/util/Set;
+    sget-object v0, Lcom/tencent/mm/protocal/Aclz$ew;->ihh:Ljava/util/Set;
 
     const-string/jumbo v7, "onVoiceUploadProgress"
 
     invoke-interface {v0, v7}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    sget-object v0, Lcom/tencent/mm/protocal/a$ew;->ihh:Ljava/util/Set;
+    sget-object v0, Lcom/tencent/mm/protocal/Aclz$ew;->ihh:Ljava/util/Set;
 
     const-string/jumbo v7, "onVoiceDownloadProgress"
 
     invoke-interface {v0, v7}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    sget-object v0, Lcom/tencent/mm/protocal/a$ew;->ihh:Ljava/util/Set;
+    sget-object v0, Lcom/tencent/mm/protocal/Aclz$ew;->ihh:Ljava/util/Set;
 
     const-string/jumbo v7, "onVoiceRecordEnd"
 
     invoke-interface {v0, v7}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    sget-object v0, Lcom/tencent/mm/protocal/a$ew;->ihh:Ljava/util/Set;
+    sget-object v0, Lcom/tencent/mm/protocal/Aclz$ew;->ihh:Ljava/util/Set;
 
     const-string/jumbo v7, "onVoicePlayBegin"
 
     invoke-interface {v0, v7}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    sget-object v0, Lcom/tencent/mm/protocal/a$ew;->ihh:Ljava/util/Set;
+    sget-object v0, Lcom/tencent/mm/protocal/Aclz$ew;->ihh:Ljava/util/Set;
 
     const-string/jumbo v7, "onVoicePlayEnd"
 
     invoke-interface {v0, v7}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    sget-object v0, Lcom/tencent/mm/protocal/a$ew;->ihh:Ljava/util/Set;
+    sget-object v0, Lcom/tencent/mm/protocal/Aclz$ew;->ihh:Ljava/util/Set;
 
     const-string/jumbo v7, "onLocalImageUploadProgress"
 
     invoke-interface {v0, v7}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    sget-object v0, Lcom/tencent/mm/protocal/a$ew;->ihh:Ljava/util/Set;
+    sget-object v0, Lcom/tencent/mm/protocal/Aclz$ew;->ihh:Ljava/util/Set;
 
     const-string/jumbo v7, "wxdownload:state_change"
 
     invoke-interface {v0, v7}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    sget-object v0, Lcom/tencent/mm/protocal/a$ew;->ihh:Ljava/util/Set;
+    sget-object v0, Lcom/tencent/mm/protocal/Aclz$ew;->ihh:Ljava/util/Set;
 
     const-string/jumbo v7, "hdOnDeviceStateChanged"
 
     invoke-interface {v0, v7}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    sget-object v0, Lcom/tencent/mm/protocal/a$ew;->ihh:Ljava/util/Set;
+    sget-object v0, Lcom/tencent/mm/protocal/Aclz$ew;->ihh:Ljava/util/Set;
 
     const-string/jumbo v7, "activity:state_change"
 
     invoke-interface {v0, v7}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    sget-object v0, Lcom/tencent/mm/protocal/a$ew;->ihh:Ljava/util/Set;
+    sget-object v0, Lcom/tencent/mm/protocal/Aclz$ew;->ihh:Ljava/util/Set;
 
     const-string/jumbo v7, "onWXDeviceBluetoothStateChange"
 
     invoke-interface {v0, v7}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    sget-object v0, Lcom/tencent/mm/protocal/a$ew;->ihh:Ljava/util/Set;
+    sget-object v0, Lcom/tencent/mm/protocal/Aclz$ew;->ihh:Ljava/util/Set;
 
     const-string/jumbo v7, "onWXDeviceBindStateChange"
 
     invoke-interface {v0, v7}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    sget-object v0, Lcom/tencent/mm/protocal/a$ew;->ihh:Ljava/util/Set;
+    sget-object v0, Lcom/tencent/mm/protocal/Aclz$ew;->ihh:Ljava/util/Set;
 
     const-string/jumbo v7, "onReceiveDataFromWXDevice"
 
     invoke-interface {v0, v7}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    sget-object v0, Lcom/tencent/mm/protocal/a$ew;->ihh:Ljava/util/Set;
+    sget-object v0, Lcom/tencent/mm/protocal/Aclz$ew;->ihh:Ljava/util/Set;
 
     const-string/jumbo v7, "onScanWXDeviceResult"
 
     invoke-interface {v0, v7}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    sget-object v0, Lcom/tencent/mm/protocal/a$ew;->ihh:Ljava/util/Set;
+    sget-object v0, Lcom/tencent/mm/protocal/Aclz$ew;->ihh:Ljava/util/Set;
 
     const-string/jumbo v7, "onWXDeviceStateChange"
 
     invoke-interface {v0, v7}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     :cond_2
-    sget-object v0, Lcom/tencent/mm/protocal/a$ew;->ihh:Ljava/util/Set;
+    sget-object v0, Lcom/tencent/mm/protocal/Aclz$ew;->ihh:Ljava/util/Set;
 
     invoke-interface {v0, v6}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 
@@ -11268,7 +11268,7 @@
     iput v0, v1, Lcom/tencent/mm/protocal/b/arl;->uin:I
 
     .line 3485
-    invoke-static {}, Lcom/tencent/mm/protocal/z;->aMN()Lcom/tencent/mm/protocal/z;
+    invoke-static {}, Lcom/tencent/mm/protocal/Zclz;->aMN()Lcom/tencent/mm/protocal/Zclz;
 
     move-result-object v2
 
@@ -11283,13 +11283,13 @@
     invoke-direct {v1}, Lcom/tencent/mm/pointers/PByteArray;-><init>()V
 
     .line 3489
-    iget-object v3, v2, Lcom/tencent/mm/protocal/z;->iiy:Ljava/lang/String;
+    iget-object v3, v2, Lcom/tencent/mm/protocal/Zclz;->iiy:Ljava/lang/String;
 
     invoke-virtual {v3}, Ljava/lang/String;->getBytes()[B
 
     move-result-object v3
 
-    iget-object v4, v2, Lcom/tencent/mm/protocal/z;->iiz:Ljava/lang/String;
+    iget-object v4, v2, Lcom/tencent/mm/protocal/Zclz;->iiz:Ljava/lang/String;
 
     invoke-virtual {v4}, Ljava/lang/String;->getBytes()[B
 
@@ -11330,7 +11330,7 @@
     invoke-direct {v1}, Lcom/tencent/mm/protocal/b/arm;-><init>()V
 
     .line 3494
-    iget v2, v2, Lcom/tencent/mm/protocal/z;->hLr:I
+    iget v2, v2, Lcom/tencent/mm/protocal/Zclz;->hLr:I
 
     iput v2, v1, Lcom/tencent/mm/protocal/b/arm;->iXK:I
 
@@ -19873,77 +19873,77 @@
     goto :goto_2
 
     :cond_6
-    new-instance v0, Lcom/tencent/mm/protocal/b/nb;
+    new-instance v0, Lcom/tencent/mm/protocal/b/NBclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/nb;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/NBclz;-><init>()V
 
-    new-instance v3, Lcom/tencent/mm/protocal/b/nc;
+    new-instance v3, Lcom/tencent/mm/protocal/b/NCclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/nc;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/NCclz;-><init>()V
 
-    new-instance v4, Lcom/tencent/mm/protocal/b/ms;
+    new-instance v4, Lcom/tencent/mm/protocal/b/MSclz;
 
-    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/ms;-><init>()V
+    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/MSclz;-><init>()V
 
     iget-object v5, v2, Lcom/tencent/mm/plugin/webview/c/b$a;->url:Ljava/lang/String;
 
-    invoke-virtual {v4, v5}, Lcom/tencent/mm/protocal/b/ms;->zk(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/ms;
+    invoke-virtual {v4, v5}, Lcom/tencent/mm/protocal/b/MSclz;->zk(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/MSclz;
 
     iget-object v5, v2, Lcom/tencent/mm/plugin/webview/c/b$a;->title:Ljava/lang/String;
 
-    invoke-virtual {v4, v5}, Lcom/tencent/mm/protocal/b/ms;->ze(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/ms;
+    invoke-virtual {v4, v5}, Lcom/tencent/mm/protocal/b/MSclz;->ze(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/MSclz;
 
     iget-object v5, v2, Lcom/tencent/mm/plugin/webview/c/b$a;->asj:Ljava/lang/String;
 
-    invoke-virtual {v4, v5}, Lcom/tencent/mm/protocal/b/ms;->zf(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/ms;
+    invoke-virtual {v4, v5}, Lcom/tencent/mm/protocal/b/MSclz;->zf(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/MSclz;
 
     iget-object v5, v2, Lcom/tencent/mm/plugin/webview/c/b$a;->awN:Ljava/lang/String;
 
-    invoke-virtual {v4, v5}, Lcom/tencent/mm/protocal/b/ms;->zn(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/ms;
+    invoke-virtual {v4, v5}, Lcom/tencent/mm/protocal/b/MSclz;->zn(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/MSclz;
 
-    invoke-virtual {v4, v7}, Lcom/tencent/mm/protocal/b/ms;->fT(Z)Lcom/tencent/mm/protocal/b/ms;
+    invoke-virtual {v4, v7}, Lcom/tencent/mm/protocal/b/MSclz;->fT(Z)Lcom/tencent/mm/protocal/b/MSclz;
 
-    invoke-virtual {v4, v7}, Lcom/tencent/mm/protocal/b/ms;->fU(Z)Lcom/tencent/mm/protocal/b/ms;
-
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-virtual {v3, v5}, Lcom/tencent/mm/protocal/b/nc;->zS(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/nc;
+    invoke-virtual {v4, v7}, Lcom/tencent/mm/protocal/b/MSclz;->fU(Z)Lcom/tencent/mm/protocal/b/MSclz;
 
     invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
 
     move-result-object v5
 
-    invoke-virtual {v3, v5}, Lcom/tencent/mm/protocal/b/nc;->zT(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/nc;
+    invoke-virtual {v3, v5}, Lcom/tencent/mm/protocal/b/NCclz;->zS(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/NCclz;
+
+    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v3, v5}, Lcom/tencent/mm/protocal/b/NCclz;->zT(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/NCclz;
 
     const/4 v5, 0x3
 
-    invoke-virtual {v3, v5}, Lcom/tencent/mm/protocal/b/nc;->ot(I)Lcom/tencent/mm/protocal/b/nc;
+    invoke-virtual {v3, v5}, Lcom/tencent/mm/protocal/b/NCclz;->ot(I)Lcom/tencent/mm/protocal/b/NCclz;
 
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
 
     move-result-wide v8
 
-    invoke-virtual {v3, v8, v9}, Lcom/tencent/mm/protocal/b/nc;->db(J)Lcom/tencent/mm/protocal/b/nc;
+    invoke-virtual {v3, v8, v9}, Lcom/tencent/mm/protocal/b/NCclz;->db(J)Lcom/tencent/mm/protocal/b/NCclz;
 
     iget-object v5, v2, Lcom/tencent/mm/plugin/webview/c/b$a;->dan:Ljava/lang/String;
 
-    invoke-virtual {v3, v5}, Lcom/tencent/mm/protocal/b/nc;->zY(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/nc;
+    invoke-virtual {v3, v5}, Lcom/tencent/mm/protocal/b/NCclz;->zY(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/NCclz;
 
     iget-object v2, v2, Lcom/tencent/mm/plugin/webview/c/b$a;->url:Ljava/lang/String;
 
-    invoke-virtual {v3, v2}, Lcom/tencent/mm/protocal/b/nc;->zZ(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/nc;
+    invoke-virtual {v3, v2}, Lcom/tencent/mm/protocal/b/NCclz;->zZ(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/NCclz;
 
     iget-object v2, v1, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iget-object v5, v4, Lcom/tencent/mm/protocal/b/ms;->title:Ljava/lang/String;
+    iget-object v5, v4, Lcom/tencent/mm/protocal/b/MSclz;->title:Ljava/lang/String;
 
     iput-object v5, v2, Lcom/tencent/mm/d/a/as$a;->title:Ljava/lang/String;
 
     iget-object v2, v1, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iput-object v0, v2, Lcom/tencent/mm/d/a/as$a;->atf:Lcom/tencent/mm/protocal/b/nb;
+    iput-object v0, v2, Lcom/tencent/mm/d/a/as$a;->atf:Lcom/tencent/mm/protocal/b/NBclz;
 
     iget-object v2, v1, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
@@ -19951,9 +19951,9 @@
 
     iput v5, v2, Lcom/tencent/mm/d/a/as$a;->type:I
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/protocal/b/nb;->a(Lcom/tencent/mm/protocal/b/nc;)Lcom/tencent/mm/protocal/b/nb;
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/protocal/b/NBclz;->a(Lcom/tencent/mm/protocal/b/NCclz;)Lcom/tencent/mm/protocal/b/NBclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/nb;->izD:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/NBclz;->izD:Ljava/util/LinkedList;
 
     invoke-virtual {v0, v4}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
@@ -31882,7 +31882,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/tencent/mm/protocal/a;->za(Ljava/lang/String;)Lcom/tencent/mm/protocal/a$c;
+    invoke-static {v3}, Lcom/tencent/mm/protocal/Aclz;->za(Ljava/lang/String;)Lcom/tencent/mm/protocal/Aclz$c;
 
     move-result-object v4
 
@@ -31928,7 +31928,7 @@
 
     .line 555
     :cond_3
-    invoke-virtual {v4}, Lcom/tencent/mm/protocal/a$c;->getName()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/tencent/mm/protocal/Aclz$c;->getName()Ljava/lang/String;
 
     move-result-object v3
 
@@ -31942,7 +31942,7 @@
 
     if-nez v3, :cond_4
 
-    invoke-virtual {v4}, Lcom/tencent/mm/protocal/a$c;->aMB()I
+    invoke-virtual {v4}, Lcom/tencent/mm/protocal/Aclz$c;->aMB()I
 
     move-result v3
 
@@ -31965,7 +31965,7 @@
 
     const/4 v7, 0x0
 
-    invoke-virtual {v4}, Lcom/tencent/mm/protocal/a$c;->getName()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/tencent/mm/protocal/Aclz$c;->getName()Ljava/lang/String;
 
     move-result-object v4
 
@@ -32000,7 +32000,7 @@
 
     move-object/from16 v2, p2
 
-    invoke-direct {v3, v0, v1, v2, v4}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$1;-><init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/j;Lcom/tencent/mm/protocal/JsapiPermissionWrapper;Lcom/tencent/mm/protocal/a$c;)V
+    invoke-direct {v3, v0, v1, v2, v4}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$1;-><init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/j;Lcom/tencent/mm/protocal/JsapiPermissionWrapper;Lcom/tencent/mm/protocal/Aclz$c;)V
 
     .line 922
     move-object/from16 v0, p0
@@ -32017,7 +32017,7 @@
 
     move-result-object v6
 
-    invoke-virtual {v4}, Lcom/tencent/mm/protocal/a$c;->aMB()I
+    invoke-virtual {v4}, Lcom/tencent/mm/protocal/Aclz$c;->aMB()I
 
     move-result v4
 
@@ -32405,11 +32405,11 @@
 
     move-result-object v4
 
-    check-cast v4, Lcom/tencent/mm/protocal/b/ya;
+    check-cast v4, Lcom/tencent/mm/protocal/b/YAclz;
 
     if-eqz v4, :cond_c
 
-    iget v4, v4, Lcom/tencent/mm/protocal/b/ya;->iIc:I
+    iget v4, v4, Lcom/tencent/mm/protocal/b/YAclz;->iIc:I
 
     const/4 v5, 0x1
 
@@ -33437,19 +33437,19 @@
     if-gez v0, :cond_1
 
     :cond_9
-    new-instance v0, Lcom/tencent/mm/protocal/b/zd;
+    new-instance v0, Lcom/tencent/mm/protocal/b/ZDclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/zd;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/ZDclz;-><init>()V
 
-    iput v2, v0, Lcom/tencent/mm/protocal/b/zd;->iIF:I
+    iput v2, v0, Lcom/tencent/mm/protocal/b/ZDclz;->iIF:I
 
     invoke-static {v3}, Lcom/tencent/mm/aq/b;->yZ(Ljava/lang/String;)Lcom/tencent/mm/aq/b;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/zd;->iIG:Lcom/tencent/mm/aq/b;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ZDclz;->iIG:Lcom/tencent/mm/aq/b;
 
-    iput v4, v0, Lcom/tencent/mm/protocal/b/zd;->iIO:I
+    iput v4, v0, Lcom/tencent/mm/protocal/b/ZDclz;->iIO:I
 
     iget-object v1, v5, Lcom/tencent/mm/plugin/webview/c/e;->hyf:Ljava/util/List;
 

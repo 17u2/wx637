@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/tencent/mm/protocal/b/fz;Lcom/tencent/mm/protocal/b/fz;Lcom/tencent/mm/protocal/b/fz;)V
+.method public abstract a(Lcom/tencent/mm/protocal/b/FZclz;Lcom/tencent/mm/protocal/b/FZclz;Lcom/tencent/mm/protocal/b/FZclz;)V
 .end method

@@ -18,24 +18,24 @@
 
 
 # instance fields
-.field final synthetic bua:Lcom/tencent/mm/protocal/b/fz;
+.field final synthetic bua:Lcom/tencent/mm/protocal/b/FZclz;
 
-.field final synthetic bub:Lcom/tencent/mm/protocal/b/fz;
+.field final synthetic bub:Lcom/tencent/mm/protocal/b/FZclz;
 
-.field final synthetic buc:Lcom/tencent/mm/protocal/b/fz;
+.field final synthetic buc:Lcom/tencent/mm/protocal/b/FZclz;
 
 
 # direct methods
-.method public constructor <init>(Lcom/tencent/mm/protocal/b/fz;Lcom/tencent/mm/protocal/b/fz;Lcom/tencent/mm/protocal/b/fz;)V
+.method public constructor <init>(Lcom/tencent/mm/protocal/b/FZclz;Lcom/tencent/mm/protocal/b/FZclz;Lcom/tencent/mm/protocal/b/FZclz;)V
     .locals 1
 
     .prologue
     .line 723
-    iput-object p1, p0, Lcom/tencent/mm/model/ai$1;->bua:Lcom/tencent/mm/protocal/b/fz;
+    iput-object p1, p0, Lcom/tencent/mm/model/ai$1;->bua:Lcom/tencent/mm/protocal/b/FZclz;
 
-    iput-object p2, p0, Lcom/tencent/mm/model/ai$1;->bub:Lcom/tencent/mm/protocal/b/fz;
+    iput-object p2, p0, Lcom/tencent/mm/model/ai$1;->bub:Lcom/tencent/mm/protocal/b/FZclz;
 
-    iput-object p3, p0, Lcom/tencent/mm/model/ai$1;->buc:Lcom/tencent/mm/protocal/b/fz;
+    iput-object p3, p0, Lcom/tencent/mm/model/ai$1;->buc:Lcom/tencent/mm/protocal/b/FZclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -70,7 +70,7 @@
 
     if-eqz v3, :cond_0
 
-    iget-object v3, p0, Lcom/tencent/mm/model/ai$1;->bua:Lcom/tencent/mm/protocal/b/fz;
+    iget-object v3, p0, Lcom/tencent/mm/model/ai$1;->bua:Lcom/tencent/mm/protocal/b/FZclz;
 
     if-eqz v3, :cond_0
 
@@ -79,13 +79,13 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/model/ai$1;->bua:Lcom/tencent/mm/protocal/b/fz;
+    iget-object v1, p0, Lcom/tencent/mm/model/ai$1;->bua:Lcom/tencent/mm/protocal/b/FZclz;
 
-    iget-object v3, p0, Lcom/tencent/mm/model/ai$1;->bub:Lcom/tencent/mm/protocal/b/fz;
+    iget-object v3, p0, Lcom/tencent/mm/model/ai$1;->bub:Lcom/tencent/mm/protocal/b/FZclz;
 
-    iget-object v4, p0, Lcom/tencent/mm/model/ai$1;->buc:Lcom/tencent/mm/protocal/b/fz;
+    iget-object v4, p0, Lcom/tencent/mm/model/ai$1;->buc:Lcom/tencent/mm/protocal/b/FZclz;
 
-    invoke-interface {v0, v1, v3, v4}, Lcom/tencent/mm/q/b;->a(Lcom/tencent/mm/protocal/b/fz;Lcom/tencent/mm/protocal/b/fz;Lcom/tencent/mm/protocal/b/fz;)V
+    invoke-interface {v0, v1, v3, v4}, Lcom/tencent/mm/q/b;->a(Lcom/tencent/mm/protocal/b/FZclz;Lcom/tencent/mm/protocal/b/FZclz;Lcom/tencent/mm/protocal/b/FZclz;)V
 
     .line 730
     invoke-virtual {v2}, Lcom/tencent/mm/compatible/util/f$a;->pc()J

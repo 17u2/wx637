@@ -15,9 +15,9 @@
 
 
 # instance fields
-.field private bFq:Lcom/tencent/mm/protocal/m$a;
+.field private bFq:Lcom/tencent/mm/protocal/Mclz$a;
 
-.field private bFr:Lcom/tencent/mm/protocal/m$b;
+.field private bFr:Lcom/tencent/mm/protocal/Mclz$b;
 
 
 # direct methods
@@ -29,18 +29,18 @@
     invoke-direct {p0}, Lcom/tencent/mm/q/h;-><init>()V
 
     .line 143
-    new-instance v0, Lcom/tencent/mm/protocal/m$a;
+    new-instance v0, Lcom/tencent/mm/protocal/Mclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/m$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/Mclz$a;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/modelfriend/w$a;->bFq:Lcom/tencent/mm/protocal/m$a;
+    iput-object v0, p0, Lcom/tencent/mm/modelfriend/w$a;->bFq:Lcom/tencent/mm/protocal/Mclz$a;
 
     .line 144
-    new-instance v0, Lcom/tencent/mm/protocal/m$b;
+    new-instance v0, Lcom/tencent/mm/protocal/Mclz$b;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/m$b;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/Mclz$b;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/modelfriend/w$a;->bFr:Lcom/tencent/mm/protocal/m$b;
+    iput-object v0, p0, Lcom/tencent/mm/modelfriend/w$a;->bFr:Lcom/tencent/mm/protocal/Mclz$b;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -74,22 +74,22 @@
     return-object v0
 .end method
 
-.method protected final tI()Lcom/tencent/mm/protocal/h$c;
+.method protected final tI()Lcom/tencent/mm/protocal/Hclz$c;
     .locals 1
 
     .prologue
     .line 163
-    iget-object v0, p0, Lcom/tencent/mm/modelfriend/w$a;->bFq:Lcom/tencent/mm/protocal/m$a;
+    iget-object v0, p0, Lcom/tencent/mm/modelfriend/w$a;->bFq:Lcom/tencent/mm/protocal/Mclz$a;
 
     return-object v0
 .end method
 
-.method public final tJ()Lcom/tencent/mm/protocal/h$d;
+.method public final tJ()Lcom/tencent/mm/protocal/Hclz$d;
     .locals 1
 
     .prologue
     .line 158
-    iget-object v0, p0, Lcom/tencent/mm/modelfriend/w$a;->bFr:Lcom/tencent/mm/protocal/m$b;
+    iget-object v0, p0, Lcom/tencent/mm/modelfriend/w$a;->bFr:Lcom/tencent/mm/protocal/Mclz$b;
 
     return-object v0
 .end method

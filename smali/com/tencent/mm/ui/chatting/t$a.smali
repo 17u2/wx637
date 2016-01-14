@@ -25,7 +25,7 @@
 
 .field kbw:Ljava/util/List;
 
-.field kbx:Lcom/tencent/mm/protocal/a/a/b;
+.field kbx:Lcom/tencent/mm/protocal/a/a/Bclz;
 
 
 # direct methods

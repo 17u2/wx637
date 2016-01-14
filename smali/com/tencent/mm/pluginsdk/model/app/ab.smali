@@ -671,14 +671,14 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/akz;
 
     .line 252
-    new-instance v3, Lcom/tencent/mm/protocal/b/ba;
+    new-instance v3, Lcom/tencent/mm/protocal/b/BAclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/ba;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/BAclz;-><init>()V
 
     .line 253
     iget-object v4, v1, Lcom/tencent/mm/m/a$a;->appId:Ljava/lang/String;
 
-    iput-object v4, v3, Lcom/tencent/mm/protocal/b/ba;->ijl:Ljava/lang/String;
+    iput-object v4, v3, Lcom/tencent/mm/protocal/b/BAclz;->ijl:Ljava/lang/String;
 
     .line 254
     new-instance v4, Ljava/lang/StringBuilder;
@@ -719,7 +719,7 @@
 
     move-result-object v4
 
-    iput-object v4, v3, Lcom/tencent/mm/protocal/b/ba;->ilf:Ljava/lang/String;
+    iput-object v4, v3, Lcom/tencent/mm/protocal/b/BAclz;->ilf:Ljava/lang/String;
 
     .line 255
     const/4 v4, 0x0
@@ -734,7 +734,7 @@
 
     move-result-object v4
 
-    iput-object v4, v3, Lcom/tencent/mm/protocal/b/ba;->eVT:Ljava/lang/String;
+    iput-object v4, v3, Lcom/tencent/mm/protocal/b/BAclz;->eVT:Ljava/lang/String;
 
     .line 256
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EY()J
@@ -743,36 +743,36 @@
 
     long-to-int v4, v4
 
-    iput v4, v3, Lcom/tencent/mm/protocal/b/ba;->eSX:I
+    iput v4, v3, Lcom/tencent/mm/protocal/b/BAclz;->eSX:I
 
     .line 257
     iget-object v4, p0, Lcom/tencent/mm/pluginsdk/model/app/ab;->aCM:Lcom/tencent/mm/storage/ad;
 
     iget-object v4, v4, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
 
-    iput-object v4, v3, Lcom/tencent/mm/protocal/b/ba;->dSX:Ljava/lang/String;
+    iput-object v4, v3, Lcom/tencent/mm/protocal/b/BAclz;->dSX:Ljava/lang/String;
 
     .line 258
     invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
 
     move-result-object v4
 
-    iput-object v4, v3, Lcom/tencent/mm/protocal/b/ba;->dSY:Ljava/lang/String;
+    iput-object v4, v3, Lcom/tencent/mm/protocal/b/BAclz;->dSY:Ljava/lang/String;
 
     .line 259
     iget v4, v1, Lcom/tencent/mm/m/a$a;->type:I
 
-    iput v4, v3, Lcom/tencent/mm/protocal/b/ba;->dnV:I
+    iput v4, v3, Lcom/tencent/mm/protocal/b/BAclz;->dnV:I
 
     .line 260
     iget v4, v1, Lcom/tencent/mm/m/a$a;->sdkVer:I
 
-    iput v4, v3, Lcom/tencent/mm/protocal/b/ba;->ile:I
+    iput v4, v3, Lcom/tencent/mm/protocal/b/BAclz;->ile:I
 
     .line 261
     iget v4, v1, Lcom/tencent/mm/m/a$a;->bqg:I
 
-    iput v4, v3, Lcom/tencent/mm/protocal/b/ba;->ilh:I
+    iput v4, v3, Lcom/tencent/mm/protocal/b/BAclz;->ilh:I
 
     .line 262
     iget-object v4, p0, Lcom/tencent/mm/pluginsdk/model/app/ab;->aCM:Lcom/tencent/mm/storage/ad;
@@ -794,23 +794,23 @@
 
     move-result-object v4
 
-    iput-object v4, v3, Lcom/tencent/mm/protocal/b/ba;->ikA:Ljava/lang/String;
+    iput-object v4, v3, Lcom/tencent/mm/protocal/b/BAclz;->ikA:Ljava/lang/String;
 
     .line 267
     :goto_5
     iget-object v4, v1, Lcom/tencent/mm/m/a$a;->aDX:Ljava/lang/String;
 
-    iput-object v4, v3, Lcom/tencent/mm/protocal/b/ba;->ilj:Ljava/lang/String;
+    iput-object v4, v3, Lcom/tencent/mm/protocal/b/BAclz;->ilj:Ljava/lang/String;
 
     .line 268
     iget-object v4, v1, Lcom/tencent/mm/m/a$a;->aDY:Ljava/lang/String;
 
-    iput-object v4, v3, Lcom/tencent/mm/protocal/b/ba;->ilk:Ljava/lang/String;
+    iput-object v4, v3, Lcom/tencent/mm/protocal/b/BAclz;->ilk:Ljava/lang/String;
 
     .line 269
     iget-object v4, v1, Lcom/tencent/mm/m/a$a;->aDZ:Ljava/lang/String;
 
-    iput-object v4, v3, Lcom/tencent/mm/protocal/b/ba;->ill:Ljava/lang/String;
+    iput-object v4, v3, Lcom/tencent/mm/protocal/b/BAclz;->ill:Ljava/lang/String;
 
     .line 271
     invoke-static {}, Lcom/tencent/mm/model/k;->sH()Lcom/tencent/mm/model/k;
@@ -1045,7 +1045,7 @@
 
     move-result-object v1
 
-    iput-object v1, v3, Lcom/tencent/mm/protocal/b/ba;->ilg:Lcom/tencent/mm/protocal/b/ajy;
+    iput-object v1, v3, Lcom/tencent/mm/protocal/b/BAclz;->ilg:Lcom/tencent/mm/protocal/b/ajy;
 
     .line 302
     :cond_11
@@ -1063,11 +1063,11 @@
 
     const/4 v2, 0x1
 
-    iget-object v1, v3, Lcom/tencent/mm/protocal/b/ba;->ilg:Lcom/tencent/mm/protocal/b/ajy;
+    iget-object v1, v3, Lcom/tencent/mm/protocal/b/BAclz;->ilg:Lcom/tencent/mm/protocal/b/ajy;
 
     if-eqz v1, :cond_13
 
-    iget-object v1, v3, Lcom/tencent/mm/protocal/b/ba;->ilg:Lcom/tencent/mm/protocal/b/ajy;
+    iget-object v1, v3, Lcom/tencent/mm/protocal/b/BAclz;->ilg:Lcom/tencent/mm/protocal/b/ajy;
 
     iget v1, v1, Lcom/tencent/mm/protocal/b/ajy;->iSu:I
 
@@ -1081,7 +1081,7 @@
     invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 305
-    iput-object v3, v0, Lcom/tencent/mm/protocal/b/akz;->iST:Lcom/tencent/mm/protocal/b/ba;
+    iput-object v3, v0, Lcom/tencent/mm/protocal/b/akz;->iST:Lcom/tencent/mm/protocal/b/BAclz;
 
     .line 307
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ab;->ant:Lcom/tencent/mm/q/a;
@@ -1098,7 +1098,7 @@
 
     move-result-object v4
 
-    iput-object v4, v3, Lcom/tencent/mm/protocal/b/ba;->ikA:Ljava/lang/String;
+    iput-object v4, v3, Lcom/tencent/mm/protocal/b/BAclz;->ikA:Ljava/lang/String;
 
     goto/16 :goto_5
 
@@ -1438,9 +1438,9 @@
 
     .line 350
     :cond_4
-    iget-object v0, v1, Lcom/tencent/mm/protocal/b/akz;->iST:Lcom/tencent/mm/protocal/b/ba;
+    iget-object v0, v1, Lcom/tencent/mm/protocal/b/akz;->iST:Lcom/tencent/mm/protocal/b/BAclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ba;->ilg:Lcom/tencent/mm/protocal/b/ajy;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/BAclz;->ilg:Lcom/tencent/mm/protocal/b/ajy;
 
     if-eqz v0, :cond_5
 
@@ -1523,9 +1523,9 @@
 
     const/4 v4, 0x6
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/akz;->iST:Lcom/tencent/mm/protocal/b/ba;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/akz;->iST:Lcom/tencent/mm/protocal/b/BAclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/ba;->ilg:Lcom/tencent/mm/protocal/b/ajy;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/BAclz;->ilg:Lcom/tencent/mm/protocal/b/ajy;
 
     iget v1, v1, Lcom/tencent/mm/protocal/b/ajy;->iSu:I
 

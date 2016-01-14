@@ -4,9 +4,9 @@
 
 
 # instance fields
-.field private final bxY:Lcom/tencent/mm/protocal/o$a;
+.field private final bxY:Lcom/tencent/mm/protocal/Oclz$a;
 
-.field private final bxZ:Lcom/tencent/mm/protocal/o$b;
+.field private final bxZ:Lcom/tencent/mm/protocal/Oclz$b;
 
 
 # direct methods
@@ -18,18 +18,18 @@
     invoke-direct {p0}, Lcom/tencent/mm/q/h;-><init>()V
 
     .line 10
-    new-instance v0, Lcom/tencent/mm/protocal/o$a;
+    new-instance v0, Lcom/tencent/mm/protocal/Oclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/o$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/Oclz$a;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/q/i;->bxY:Lcom/tencent/mm/protocal/o$a;
+    iput-object v0, p0, Lcom/tencent/mm/q/i;->bxY:Lcom/tencent/mm/protocal/Oclz$a;
 
     .line 11
-    new-instance v0, Lcom/tencent/mm/protocal/o$b;
+    new-instance v0, Lcom/tencent/mm/protocal/Oclz$b;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/o$b;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/Oclz$b;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/q/i;->bxZ:Lcom/tencent/mm/protocal/o$b;
+    iput-object v0, p0, Lcom/tencent/mm/q/i;->bxZ:Lcom/tencent/mm/protocal/Oclz$b;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -63,22 +63,22 @@
     return-object v0
 .end method
 
-.method protected final tI()Lcom/tencent/mm/protocal/h$c;
+.method protected final tI()Lcom/tencent/mm/protocal/Hclz$c;
     .locals 1
 
     .prologue
     .line 15
-    iget-object v0, p0, Lcom/tencent/mm/q/i;->bxY:Lcom/tencent/mm/protocal/o$a;
+    iget-object v0, p0, Lcom/tencent/mm/q/i;->bxY:Lcom/tencent/mm/protocal/Oclz$a;
 
     return-object v0
 .end method
 
-.method public final tJ()Lcom/tencent/mm/protocal/h$d;
+.method public final tJ()Lcom/tencent/mm/protocal/Hclz$d;
     .locals 1
 
     .prologue
     .line 20
-    iget-object v0, p0, Lcom/tencent/mm/q/i;->bxZ:Lcom/tencent/mm/protocal/o$b;
+    iget-object v0, p0, Lcom/tencent/mm/q/i;->bxZ:Lcom/tencent/mm/protocal/Oclz$b;
 
     return-object v0
 .end method

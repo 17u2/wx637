@@ -95,7 +95,7 @@
     return v0
 .end method
 
-.method public final xl()Lcom/tencent/mm/protocal/b/yw;
+.method public final xl()Lcom/tencent/mm/protocal/b/YWclz;
     .locals 1
 
     .prologue
@@ -119,7 +119,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/yw;
+    check-cast v0, Lcom/tencent/mm/protocal/b/YWclz;
 
     .line 61
     :goto_0

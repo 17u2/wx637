@@ -668,21 +668,21 @@
 
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    new-instance v0, Lcom/tencent/mm/protocal/l$b;
+    new-instance v0, Lcom/tencent/mm/protocal/Lclz$b;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/l$b;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/Lclz$b;-><init>()V
 
     invoke-static {}, Lcom/tencent/mm/compatible/d/p;->oz()Ljava/lang/String;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/l$b;->deviceID:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/Lclz$b;->deviceID:Ljava/lang/String;
 
     new-instance v1, Lcom/tencent/mm/q/r;
 
     const/16 v2, 0xa
 
-    invoke-direct {v1, v0, v2}, Lcom/tencent/mm/q/r;-><init>(Lcom/tencent/mm/protocal/h$d;I)V
+    invoke-direct {v1, v0, v2}, Lcom/tencent/mm/q/r;-><init>(Lcom/tencent/mm/protocal/Hclz$d;I)V
 
     const/16 v2, 0xa
 
@@ -707,7 +707,7 @@
 
     new-instance v5, Lcom/tencent/mm/modelsimple/j;
 
-    invoke-direct {v5, v0}, Lcom/tencent/mm/modelsimple/j;-><init>(Lcom/tencent/mm/protocal/h$d;)V
+    invoke-direct {v5, v0}, Lcom/tencent/mm/modelsimple/j;-><init>(Lcom/tencent/mm/protocal/Hclz$d;)V
 
     invoke-virtual {v1, v2, v3, v4, v5}, Lcom/tencent/mm/q/l;->a(IILjava/lang/String;Lcom/tencent/mm/q/j;)V
     :try_end_0
@@ -868,9 +868,9 @@
 
     invoke-static {v4, v5, v9}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    new-instance v9, Lcom/tencent/mm/protocal/t$b;
+    new-instance v9, Lcom/tencent/mm/protocal/Tclz$b;
 
-    invoke-direct {v9}, Lcom/tencent/mm/protocal/t$b;-><init>()V
+    invoke-direct {v9}, Lcom/tencent/mm/protocal/Tclz$b;-><init>()V
 
     new-instance v3, Lcom/tencent/mm/pointers/PByteArray;
 
@@ -934,7 +934,7 @@
 
     iget v0, v4, Lcom/tencent/mm/pointers/PInt;->value:I
 
-    iput v0, v9, Lcom/tencent/mm/protocal/h$d;->ihR:I
+    iput v0, v9, Lcom/tencent/mm/protocal/Hclz$d;->ihR:I
 
     const-string/jumbo v0, "!32@/B4Tb64lLpJRvkgZo4JKS+ippUZtfBu8"
 
@@ -947,7 +947,7 @@
     :cond_15
     iget-object v0, v0, Lcom/tencent/mm/pointers/PByteArray;->value:[B
 
-    invoke-interface {v9, v0}, Lcom/tencent/mm/protocal/h$b;->x([B)I
+    invoke-interface {v9, v0}, Lcom/tencent/mm/protocal/Hclz$b;->x([B)I
 
     move-result v0
 
@@ -957,13 +957,13 @@
 
     invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    iput v0, v9, Lcom/tencent/mm/protocal/h$d;->ihR:I
+    iput v0, v9, Lcom/tencent/mm/protocal/Hclz$d;->ihR:I
 
     array-length v0, v1
 
     int-to-long v0, v0
 
-    iput-wide v0, v9, Lcom/tencent/mm/protocal/h$d;->ihQ:J
+    iput-wide v0, v9, Lcom/tencent/mm/protocal/Hclz$d;->ihQ:J
 
     invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
 
@@ -991,7 +991,7 @@
 
     move-result-object v0
 
-    iget-object v1, v9, Lcom/tencent/mm/protocal/t$b;->iiq:Lcom/tencent/mm/protocal/b/adn;
+    iget-object v1, v9, Lcom/tencent/mm/protocal/Tclz$b;->iiq:Lcom/tencent/mm/protocal/b/adn;
 
     iget-object v1, v1, Lcom/tencent/mm/protocal/b/adn;->irP:Lcom/tencent/mm/protocal/b/ajy;
 
@@ -1005,7 +1005,7 @@
 
     if-nez v2, :cond_16
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/protocal/aa;->l([B[B)Z
+    invoke-static {v0, v1}, Lcom/tencent/mm/protocal/AAclz;->l([B[B)Z
 
     move-result v0
 
@@ -1027,7 +1027,7 @@
 
     new-instance v1, Lcom/tencent/mm/ac/i;
 
-    invoke-direct {v1, v9, v8, v6, v7}, Lcom/tencent/mm/ac/i;-><init>(Lcom/tencent/mm/protocal/t$b;IJ)V
+    invoke-direct {v1, v9, v8, v6, v7}, Lcom/tencent/mm/ac/i;-><init>(Lcom/tencent/mm/protocal/Tclz$b;IJ)V
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/l;->d(Lcom/tencent/mm/q/j;)Z
     :try_end_2
@@ -1181,18 +1181,18 @@
 
     invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    new-instance v0, Lcom/tencent/mm/protocal/x$b;
+    new-instance v0, Lcom/tencent/mm/protocal/Xclz$b;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/x$b;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/Xclz$b;-><init>()V
 
     :try_start_3
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/protocal/x$b;->x([B)I
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/protocal/Xclz$b;->x([B)I
 
-    iget-wide v1, v0, Lcom/tencent/mm/protocal/x$b;->iiw:J
+    iget-wide v1, v0, Lcom/tencent/mm/protocal/Xclz$b;->iiw:J
 
     const/4 v3, 0x1
 
-    invoke-virtual {v0}, Lcom/tencent/mm/protocal/x$b;->aMM()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/protocal/Xclz$b;->aMM()Ljava/lang/String;
 
     move-result-object v0
 

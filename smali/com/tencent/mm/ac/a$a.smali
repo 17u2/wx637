@@ -18,9 +18,9 @@
 
 
 # instance fields
-.field private final bNf:Lcom/tencent/mm/protocal/t$a;
+.field private final bNf:Lcom/tencent/mm/protocal/Tclz$a;
 
-.field private final bNg:Lcom/tencent/mm/protocal/t$b;
+.field private final bNg:Lcom/tencent/mm/protocal/Tclz$b;
 
 .field private final bNh:Z
 
@@ -36,18 +36,18 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 447
-    new-instance v0, Lcom/tencent/mm/protocal/t$a;
+    new-instance v0, Lcom/tencent/mm/protocal/Tclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/t$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/Tclz$a;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ac/a$a;->bNf:Lcom/tencent/mm/protocal/t$a;
+    iput-object v0, p0, Lcom/tencent/mm/ac/a$a;->bNf:Lcom/tencent/mm/protocal/Tclz$a;
 
     .line 448
-    new-instance v0, Lcom/tencent/mm/protocal/t$b;
+    new-instance v0, Lcom/tencent/mm/protocal/Tclz$b;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/t$b;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/Tclz$b;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ac/a$a;->bNg:Lcom/tencent/mm/protocal/t$b;
+    iput-object v0, p0, Lcom/tencent/mm/ac/a$a;->bNg:Lcom/tencent/mm/protocal/Tclz$b;
 
     .line 449
     const/4 v0, 0x0
@@ -65,7 +65,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/tencent/mm/protocal/t$b;)V
+.method public constructor <init>(Lcom/tencent/mm/protocal/Tclz$b;)V
     .locals 1
 
     .prologue
@@ -73,14 +73,14 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 453
-    new-instance v0, Lcom/tencent/mm/protocal/t$a;
+    new-instance v0, Lcom/tencent/mm/protocal/Tclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/t$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/Tclz$a;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ac/a$a;->bNf:Lcom/tencent/mm/protocal/t$a;
+    iput-object v0, p0, Lcom/tencent/mm/ac/a$a;->bNf:Lcom/tencent/mm/protocal/Tclz$a;
 
     .line 454
-    iput-object p1, p0, Lcom/tencent/mm/ac/a$a;->bNg:Lcom/tencent/mm/protocal/t$b;
+    iput-object p1, p0, Lcom/tencent/mm/ac/a$a;->bNg:Lcom/tencent/mm/protocal/Tclz$b;
 
     .line 455
     const/4 v0, 0x1
@@ -120,12 +120,12 @@
     return-object v0
 .end method
 
-.method public final tJ()Lcom/tencent/mm/protocal/h$d;
+.method public final tJ()Lcom/tencent/mm/protocal/Hclz$d;
     .locals 1
 
     .prologue
     .line 469
-    iget-object v0, p0, Lcom/tencent/mm/ac/a$a;->bNg:Lcom/tencent/mm/protocal/t$b;
+    iget-object v0, p0, Lcom/tencent/mm/ac/a$a;->bNg:Lcom/tencent/mm/protocal/Tclz$b;
 
     return-object v0
 .end method
@@ -140,42 +140,42 @@
     return v0
 .end method
 
-.method public final vn()Lcom/tencent/mm/protocal/h$c;
+.method public final vn()Lcom/tencent/mm/protocal/Hclz$c;
     .locals 2
 
     .prologue
     .line 489
-    iget-object v0, p0, Lcom/tencent/mm/ac/a$a;->bNf:Lcom/tencent/mm/protocal/t$a;
+    iget-object v0, p0, Lcom/tencent/mm/ac/a$a;->bNf:Lcom/tencent/mm/protocal/Tclz$a;
 
     invoke-static {}, Lcom/tencent/mm/compatible/d/p;->oz()Ljava/lang/String;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/h$c;->ihN:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/Hclz$c;->ihN:Ljava/lang/String;
 
     .line 490
-    iget-object v0, p0, Lcom/tencent/mm/ac/a$a;->bNf:Lcom/tencent/mm/protocal/t$a;
+    iget-object v0, p0, Lcom/tencent/mm/ac/a$a;->bNf:Lcom/tencent/mm/protocal/Tclz$a;
 
     sget-object v1, Lcom/tencent/mm/protocal/bclass;->bpN:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/h$c;->ihM:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/Hclz$c;->ihM:Ljava/lang/String;
 
     .line 491
-    iget-object v0, p0, Lcom/tencent/mm/ac/a$a;->bNf:Lcom/tencent/mm/protocal/t$a;
+    iget-object v0, p0, Lcom/tencent/mm/ac/a$a;->bNf:Lcom/tencent/mm/protocal/Tclz$a;
 
     sget v1, Lcom/tencent/mm/protocal/bclass;->ihp:I
 
-    iput v1, v0, Lcom/tencent/mm/protocal/h$c;->ihL:I
+    iput v1, v0, Lcom/tencent/mm/protocal/Hclz$c;->ihL:I
 
     .line 492
-    iget-object v0, p0, Lcom/tencent/mm/ac/a$a;->bNf:Lcom/tencent/mm/protocal/t$a;
+    iget-object v0, p0, Lcom/tencent/mm/ac/a$a;->bNf:Lcom/tencent/mm/protocal/Tclz$a;
 
     iget v1, p0, Lcom/tencent/mm/ac/a$a;->uin:I
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/protocal/t$a;->ba(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/protocal/Tclz$a;->ba(I)V
 
     .line 493
-    iget-object v0, p0, Lcom/tencent/mm/ac/a$a;->bNf:Lcom/tencent/mm/protocal/t$a;
+    iget-object v0, p0, Lcom/tencent/mm/ac/a$a;->bNf:Lcom/tencent/mm/protocal/Tclz$a;
 
     return-object v0
 .end method

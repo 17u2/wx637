@@ -510,19 +510,19 @@
     if-nez v0, :cond_0
 
     .line 71
-    new-instance v0, Lcom/tencent/mm/protocal/b/zf;
+    new-instance v0, Lcom/tencent/mm/protocal/b/ZFclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/zf;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/ZFclz;-><init>()V
 
     .line 72
-    iput-object p0, v0, Lcom/tencent/mm/protocal/b/zf;->inj:Ljava/util/LinkedList;
+    iput-object p0, v0, Lcom/tencent/mm/protocal/b/ZFclz;->inj:Ljava/util/LinkedList;
 
     .line 73
     invoke-virtual {p0}, Ljava/util/LinkedList;->size()I
 
     move-result v1
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/zf;->fxn:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/ZFclz;->fxn:I
 
     .line 74
     invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
@@ -556,15 +556,15 @@
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
     .line 49
-    new-instance v1, Lcom/tencent/mm/protocal/b/ze;
+    new-instance v1, Lcom/tencent/mm/protocal/b/ZEclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ze;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ZEclz;-><init>()V
 
     .line 50
-    iput p0, v1, Lcom/tencent/mm/protocal/b/ze;->fxp:I
+    iput p0, v1, Lcom/tencent/mm/protocal/b/ZEclz;->fxp:I
 
     .line 51
-    iput-object p1, v1, Lcom/tencent/mm/protocal/b/ze;->fxu:Ljava/lang/String;
+    iput-object p1, v1, Lcom/tencent/mm/protocal/b/ZEclz;->fxu:Ljava/lang/String;
 
     .line 52
     invoke-virtual {v0, v1}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z

@@ -196,9 +196,9 @@
     check-cast v0, [B
 
     .line 49
-    new-instance v7, Lcom/tencent/mm/protocal/b/zd;
+    new-instance v7, Lcom/tencent/mm/protocal/b/ZDclz;
 
-    invoke-direct {v7}, Lcom/tencent/mm/protocal/b/zd;-><init>()V
+    invoke-direct {v7}, Lcom/tencent/mm/protocal/b/ZDclz;-><init>()V
 
     .line 50
     new-instance v8, La/a/a/a/aclass;
@@ -219,7 +219,7 @@
     move-result v0
 
     .line 55
-    invoke-virtual {v7, v8, v7, v0}, Lcom/tencent/mm/protocal/b/zd;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/a;I)Z
+    invoke-virtual {v7, v8, v7, v0}, Lcom/tencent/mm/protocal/b/ZDclz;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/a;I)Z
 
     move-result v0
 

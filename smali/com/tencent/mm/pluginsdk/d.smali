@@ -750,9 +750,9 @@
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
     .line 425
-    new-instance v1, Lcom/tencent/mm/protocal/b/ao;
+    new-instance v1, Lcom/tencent/mm/protocal/b/AOclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ao;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/AOclz;-><init>()V
 
     .line 426
     invoke-static {p4}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
@@ -787,10 +787,10 @@
     invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 428
-    iput-object p4, v1, Lcom/tencent/mm/protocal/b/ao;->ikK:Ljava/lang/String;
+    iput-object p4, v1, Lcom/tencent/mm/protocal/b/AOclz;->ikK:Ljava/lang/String;
 
     .line 429
-    iput-object p5, v1, Lcom/tencent/mm/protocal/b/ao;->aOC:Ljava/lang/String;
+    iput-object p5, v1, Lcom/tencent/mm/protocal/b/AOclz;->aOC:Ljava/lang/String;
 
     .line 430
     invoke-virtual {v0, v1}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z

@@ -83,16 +83,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 36
-    new-instance v1, Lcom/tencent/mm/protocal/b/os;
+    new-instance v1, Lcom/tencent/mm/protocal/b/OSclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/os;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/OSclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 37
-    new-instance v1, Lcom/tencent/mm/protocal/b/ot;
+    new-instance v1, Lcom/tencent/mm/protocal/b/OTclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ot;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/OTclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -175,17 +175,17 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/os;
+    check-cast v0, Lcom/tencent/mm/protocal/b/OSclz;
 
     .line 56
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/model/app/w;->appId:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/os;->dQN:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/OSclz;->dQN:Ljava/lang/String;
 
     .line 57
     iget v1, p0, Lcom/tencent/mm/pluginsdk/model/app/w;->bSP:I
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/os;->iwU:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/OSclz;->iwU:I
 
     .line 59
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/w;->ant:Lcom/tencent/mm/q/a;
@@ -363,15 +363,15 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ot;
+    check-cast v0, Lcom/tencent/mm/protocal/b/OTclz;
 
     .line 85
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/ot;->iBB:Lcom/tencent/mm/protocal/b/aec;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/OTclz;->iBB:Lcom/tencent/mm/protocal/b/aec;
 
     iget-object v2, v1, Lcom/tencent/mm/protocal/b/aec;->ijE:Ljava/lang/String;
 
     .line 87
-    iget-object v3, v0, Lcom/tencent/mm/protocal/b/ot;->iBB:Lcom/tencent/mm/protocal/b/aec;
+    iget-object v3, v0, Lcom/tencent/mm/protocal/b/OTclz;->iBB:Lcom/tencent/mm/protocal/b/aec;
 
     if-nez v3, :cond_3
 
@@ -501,12 +501,12 @@
 
     .line 94
     :cond_4
-    iget-object v3, v0, Lcom/tencent/mm/protocal/b/ot;->ilS:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/protocal/b/OTclz;->ilS:Ljava/lang/String;
 
     iput-object v3, v1, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appType:Ljava/lang/String;
 
     .line 95
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ot;->iBB:Lcom/tencent/mm/protocal/b/aec;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/OTclz;->iBB:Lcom/tencent/mm/protocal/b/aec;
 
     iget-object v3, v0, Lcom/tencent/mm/protocal/b/aec;->ijE:Ljava/lang/String;
 

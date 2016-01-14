@@ -175,7 +175,7 @@
     return-void
 .end method
 
-.method public final b(Lcom/tencent/mm/protocal/b/af;)Lcom/tencent/mm/q/c$a;
+.method public final b(Lcom/tencent/mm/protocal/b/AFclz;)Lcom/tencent/mm/q/c$a;
     .locals 10
 
     .prologue
@@ -208,7 +208,7 @@
 
     .line 45
     :cond_1
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/af;->ikx:Lcom/tencent/mm/protocal/b/ajz;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/AFclz;->ikx:Lcom/tencent/mm/protocal/b/ajz;
 
     iget-object v1, v0, Lcom/tencent/mm/protocal/b/ajz;->iSy:Ljava/lang/String;
 

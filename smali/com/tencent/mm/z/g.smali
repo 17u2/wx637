@@ -23,7 +23,7 @@
 
 
 # virtual methods
-.method protected final a(Lcom/tencent/mm/protocal/b/af;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/ad;
+.method protected final a(Lcom/tencent/mm/protocal/b/AFclz;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/ad;
     .locals 19
 
     .prologue
@@ -33,7 +33,7 @@
     move-result-object v14
 
     .line 51
-    invoke-super/range {p0 .. p4}, Lcom/tencent/mm/model/e;->a(Lcom/tencent/mm/protocal/b/af;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/ad;
+    invoke-super/range {p0 .. p4}, Lcom/tencent/mm/model/e;->a(Lcom/tencent/mm/protocal/b/AFclz;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/ad;
 
     move-result-object v15
 
@@ -56,7 +56,7 @@
     :cond_0
     move-object/from16 v0, p1
 
-    iget-wide v3, v0, Lcom/tencent/mm/protocal/b/af;->ikC:J
+    iget-wide v3, v0, Lcom/tencent/mm/protocal/b/AFclz;->ikC:J
 
     invoke-virtual {v14, v3, v4}, Lcom/tencent/mm/z/f;->W(J)Lcom/tencent/mm/z/d;
 
@@ -244,7 +244,7 @@
     :cond_1
     move-object/from16 v0, p1
 
-    iget v3, v0, Lcom/tencent/mm/protocal/b/af;->iky:I
+    iget v3, v0, Lcom/tencent/mm/protocal/b/AFclz;->iky:I
 
     const/4 v4, 0x2
 
@@ -266,7 +266,7 @@
     :cond_2
     move-object/from16 v0, p1
 
-    iget-object v3, v0, Lcom/tencent/mm/protocal/b/af;->ikz:Lcom/tencent/mm/protocal/b/ajy;
+    iget-object v3, v0, Lcom/tencent/mm/protocal/b/AFclz;->ikz:Lcom/tencent/mm/protocal/b/ajy;
 
     invoke-static {v3}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajy;)[B
 
@@ -355,11 +355,11 @@
     .line 81
     move-object/from16 v0, p1
 
-    iget v3, v0, Lcom/tencent/mm/protocal/b/af;->iky:I
+    iget v3, v0, Lcom/tencent/mm/protocal/b/AFclz;->iky:I
 
     move-object/from16 v0, p1
 
-    iget-wide v5, v0, Lcom/tencent/mm/protocal/b/af;->ikC:J
+    iget-wide v5, v0, Lcom/tencent/mm/protocal/b/AFclz;->ikC:J
 
     const/4 v7, 0x1
 
@@ -406,11 +406,11 @@
     .line 89
     move-object/from16 v0, p1
 
-    iget v3, v0, Lcom/tencent/mm/protocal/b/af;->iky:I
+    iget v3, v0, Lcom/tencent/mm/protocal/b/AFclz;->iky:I
 
     move-object/from16 v0, p1
 
-    iget-wide v5, v0, Lcom/tencent/mm/protocal/b/af;->ikC:J
+    iget-wide v5, v0, Lcom/tencent/mm/protocal/b/AFclz;->ikC:J
 
     const/4 v7, 0x0
 

@@ -38,24 +38,24 @@
     .line 75
     iget-object v0, p0, Lcom/tencent/mm/modelsimple/f;->byM:Lcom/tencent/mm/network/o;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/h$c;
+    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/i$a;
+    check-cast v0, Lcom/tencent/mm/protocal/Iclz$a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/i$a;
+    check-cast v0, Lcom/tencent/mm/protocal/Iclz$a;
 
     .line 76
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/protocal/i;->cd(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/tencent/mm/protocal/Iclz;->cd(Landroid/content/Context;)I
 
     move-result v1
 
-    iput v1, v0, Lcom/tencent/mm/protocal/i$a;->netType:I
+    iput v1, v0, Lcom/tencent/mm/protocal/Iclz$a;->netType:I
 
     .line 77
     if-eqz p1, :cond_1
@@ -63,7 +63,7 @@
     const/4 v1, 0x1
 
     :goto_0
-    iput v1, v0, Lcom/tencent/mm/protocal/i$a;->ihT:I
+    iput v1, v0, Lcom/tencent/mm/protocal/Iclz$a;->ihT:I
 
     .line 78
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -332,11 +332,11 @@
 
     .prologue
     .line 93
-    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/i$b;
+    check-cast v0, Lcom/tencent/mm/protocal/Iclz$b;
 
     .line 94
     const-string/jumbo v1, "!32@/B4Tb64lLpK+IBX8XDgnvpR6SGBhLV6+"
@@ -349,9 +349,9 @@
 
     const/4 v4, 0x0
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/i$b;->ihU:Lcom/tencent/mm/protocal/b/dz;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/Iclz$b;->ihU:Lcom/tencent/mm/protocal/b/DZclz;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/dz;->ePS:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/DZclz;->ePS:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

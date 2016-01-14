@@ -256,7 +256,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/protocal/b/fr;Ljava/lang/String;)V
+.method public final a(Lcom/tencent/mm/protocal/b/FRclz;Ljava/lang/String;)V
     .locals 2
 
     .prologue
@@ -277,7 +277,7 @@
 
     iget-object v1, v0, Lcom/tencent/mm/plugin/search/ui/c/j;->fLK:Lcom/tencent/mm/ui/e/d;
 
-    invoke-virtual {v1, p1, p2}, Lcom/tencent/mm/ui/e/d;->a(Lcom/tencent/mm/protocal/b/fr;Ljava/lang/String;)V
+    invoke-virtual {v1, p1, p2}, Lcom/tencent/mm/ui/e/d;->a(Lcom/tencent/mm/protocal/b/FRclz;Ljava/lang/String;)V
 
     .line 243
     invoke-virtual {p0, v0, p2}, Lcom/tencent/mm/plugin/search/ui/d;->a(Lcom/tencent/mm/ui/e/h;Ljava/lang/String;)V

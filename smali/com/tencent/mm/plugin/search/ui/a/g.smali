@@ -19,7 +19,7 @@
 
 .field cEW:Ljava/lang/CharSequence;
 
-.field public fLg:Lcom/tencent/mm/protocal/b/fu;
+.field public fLg:Lcom/tencent/mm/protocal/b/FUclz;
 
 .field fLh:Ljava/lang/CharSequence;
 
@@ -86,9 +86,9 @@
 
     .prologue
     .line 140
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/fu;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/FUclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/fu;->asn:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/FUclz;->asn:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->cER:Ljava/util/LinkedList;
 
@@ -99,9 +99,9 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->cEU:Ljava/lang/CharSequence;
 
     .line 141
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/fu;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/FUclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/fu;->iqy:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/FUclz;->iqy:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->cER:Ljava/util/LinkedList;
 
@@ -112,9 +112,9 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->fLh:Ljava/lang/CharSequence;
 
     .line 142
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/fu;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/FUclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/fu;->iqz:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/FUclz;->iqz:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->cER:Ljava/util/LinkedList;
 
@@ -125,23 +125,23 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->cEW:Ljava/lang/CharSequence;
 
     .line 143
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/fu;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/FUclz;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/fu;->iqA:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/FUclz;->iqA:I
 
     iput v0, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->fLj:I
 
     .line 144
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/fu;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/FUclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/fu;->ijp:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/FUclz;->ijp:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->url:Ljava/lang/String;
 
     .line 145
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/fu;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/FUclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/fu;->iqB:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/FUclz;->iqB:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->fLi:Ljava/lang/String;
 

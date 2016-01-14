@@ -36,12 +36,12 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 45
-    new-instance v1, Lcom/tencent/mm/protocal/b/hl;
+    new-instance v1, Lcom/tencent/mm/protocal/b/HLclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/hl;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/HLclz;-><init>()V
 
     .line 46
-    iget-object v2, v1, Lcom/tencent/mm/protocal/b/hl;->ita:Ljava/util/LinkedList;
+    iget-object v2, v1, Lcom/tencent/mm/protocal/b/HLclz;->ita:Ljava/util/LinkedList;
 
     iget-object v3, p0, Lcom/tencent/mm/pluginsdk/h/a/a/m;->hOC:Ljava/util/List;
 
@@ -51,9 +51,9 @@
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 48
-    new-instance v1, Lcom/tencent/mm/protocal/b/hm;
+    new-instance v1, Lcom/tencent/mm/protocal/b/HMclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/hm;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/HMclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -81,7 +81,7 @@
     return-object v0
 .end method
 
-.method protected final d(Lcom/tencent/mm/network/o;)Lcom/tencent/mm/protocal/b/hm;
+.method protected final d(Lcom/tencent/mm/network/o;)Lcom/tencent/mm/protocal/b/HMclz;
     .locals 1
 
     .prologue
@@ -92,7 +92,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/hm;
+    check-cast v0, Lcom/tencent/mm/protocal/b/HMclz;
 
     return-object v0
 .end method

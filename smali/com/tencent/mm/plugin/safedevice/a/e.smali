@@ -210,14 +210,14 @@
     if-eqz p1, :cond_0
 
     .line 45
-    new-instance v1, Lcom/tencent/mm/protocal/b/ns;
+    new-instance v1, Lcom/tencent/mm/protocal/b/NSclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ns;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/NSclz;-><init>()V
 
     .line 46
     const/16 v0, 0x1c
 
-    iput v0, v1, Lcom/tencent/mm/protocal/b/ns;->iAx:I
+    iput v0, v1, Lcom/tencent/mm/protocal/b/NSclz;->iAx:I
 
     .line 47
     if-eqz p0, :cond_3
@@ -225,7 +225,7 @@
     const/4 v0, 0x1
 
     :goto_2
-    iput v0, v1, Lcom/tencent/mm/protocal/b/ns;->iAy:I
+    iput v0, v1, Lcom/tencent/mm/protocal/b/NSclz;->iAy:I
 
     .line 49
     invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;

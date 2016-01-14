@@ -32,7 +32,7 @@
 
 .field public field_localId:J
 
-.field public field_modItem:Lcom/tencent/mm/protocal/b/mw;
+.field public field_modItem:Lcom/tencent/mm/protocal/b/MWclz;
 
 .field public field_scene:I
 
@@ -415,17 +415,17 @@
     if-lez v4, :cond_2
 
     .line 76
-    new-instance v4, Lcom/tencent/mm/protocal/b/mw;
+    new-instance v4, Lcom/tencent/mm/protocal/b/MWclz;
 
-    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/mw;-><init>()V
+    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/MWclz;-><init>()V
 
-    invoke-virtual {v4, v0}, Lcom/tencent/mm/protocal/b/mw;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v4, v0}, Lcom/tencent/mm/protocal/b/MWclz;->ak([B)Lcom/tencent/mm/aq/a;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/mw;
+    check-cast v0, Lcom/tencent/mm/protocal/b/MWclz;
 
-    iput-object v0, p0, Lcom/tencent/mm/d/b/ae;->field_modItem:Lcom/tencent/mm/protocal/b/mw;
+    iput-object v0, p0, Lcom/tencent/mm/d/b/ae;->field_modItem:Lcom/tencent/mm/protocal/b/MWclz;
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -539,7 +539,7 @@
     if-eqz v0, :cond_1
 
     .line 105
-    iget-object v0, p0, Lcom/tencent/mm/d/b/ae;->field_modItem:Lcom/tencent/mm/protocal/b/mw;
+    iget-object v0, p0, Lcom/tencent/mm/d/b/ae;->field_modItem:Lcom/tencent/mm/protocal/b/MWclz;
 
     if-eqz v0, :cond_1
 
@@ -547,9 +547,9 @@
     :try_start_0
     const-string/jumbo v0, "modItem"
 
-    iget-object v2, p0, Lcom/tencent/mm/d/b/ae;->field_modItem:Lcom/tencent/mm/protocal/b/mw;
+    iget-object v2, p0, Lcom/tencent/mm/d/b/ae;->field_modItem:Lcom/tencent/mm/protocal/b/MWclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/protocal/b/mw;->toByteArray()[B
+    invoke-virtual {v2}, Lcom/tencent/mm/protocal/b/MWclz;->toByteArray()[B
 
     move-result-object v2
 

@@ -177,7 +177,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/er;
+    check-cast v0, Lcom/tencent/mm/protocal/b/ERclz;
 
     move-object v3, v0
 
@@ -220,7 +220,7 @@
 
     aput-object v0, v6, v2
 
-    iget-object v0, v3, Lcom/tencent/mm/protocal/b/er;->ipn:Lcom/tencent/mm/aq/b;
+    iget-object v0, v3, Lcom/tencent/mm/protocal/b/ERclz;->ipn:Lcom/tencent/mm/aq/b;
 
     if-nez v0, :cond_6
 
@@ -231,7 +231,7 @@
 
     const/4 v1, 0x2
 
-    iget-object v0, v3, Lcom/tencent/mm/protocal/b/er;->ipo:Ljava/util/LinkedList;
+    iget-object v0, v3, Lcom/tencent/mm/protocal/b/ERclz;->ipo:Ljava/util/LinkedList;
 
     if-nez v0, :cond_7
 
@@ -246,7 +246,7 @@
 
     invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iget-object v0, v3, Lcom/tencent/mm/protocal/b/er;->ipo:Ljava/util/LinkedList;
+    iget-object v0, v3, Lcom/tencent/mm/protocal/b/ERclz;->ipo:Ljava/util/LinkedList;
 
     if-nez v0, :cond_8
 
@@ -271,7 +271,7 @@
     :cond_6
     new-instance v0, Ljava/lang/String;
 
-    iget-object v1, v3, Lcom/tencent/mm/protocal/b/er;->ipn:Lcom/tencent/mm/aq/b;
+    iget-object v1, v3, Lcom/tencent/mm/protocal/b/ERclz;->ipn:Lcom/tencent/mm/aq/b;
 
     iget-object v1, v1, Lcom/tencent/mm/aq/b;->ihc:[B
 
@@ -280,7 +280,7 @@
     goto :goto_2
 
     :cond_7
-    iget-object v0, v3, Lcom/tencent/mm/protocal/b/er;->ipo:Ljava/util/LinkedList;
+    iget-object v0, v3, Lcom/tencent/mm/protocal/b/ERclz;->ipo:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->size()I
 
@@ -291,7 +291,7 @@
     :cond_8
     iget-object v0, p0, Lcom/tencent/mm/s/a$1;->bwA:Ljava/lang/String;
 
-    iget-object v1, v3, Lcom/tencent/mm/protocal/b/er;->ipo:Ljava/util/LinkedList;
+    iget-object v1, v3, Lcom/tencent/mm/protocal/b/ERclz;->ipo:Ljava/util/LinkedList;
 
     invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -343,11 +343,11 @@
 
     iput-wide v4, v0, Lcom/tencent/mm/s/k;->field_incrementUpdateTime:J
 
-    iget-object v1, v3, Lcom/tencent/mm/protocal/b/er;->ipn:Lcom/tencent/mm/aq/b;
+    iget-object v1, v3, Lcom/tencent/mm/protocal/b/ERclz;->ipn:Lcom/tencent/mm/aq/b;
 
     if-eqz v1, :cond_a
 
-    iget-object v1, v3, Lcom/tencent/mm/protocal/b/er;->ipn:Lcom/tencent/mm/aq/b;
+    iget-object v1, v3, Lcom/tencent/mm/protocal/b/ERclz;->ipn:Lcom/tencent/mm/aq/b;
 
     iget-object v1, v1, Lcom/tencent/mm/aq/b;->ihc:[B
 

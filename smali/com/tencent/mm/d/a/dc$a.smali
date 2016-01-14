@@ -21,7 +21,7 @@
 
 .field public awA:Z
 
-.field public awv:Lcom/tencent/mm/protocal/b/ms;
+.field public awv:Lcom/tencent/mm/protocal/b/MSclz;
 
 .field public aww:Landroid/widget/ImageView;
 

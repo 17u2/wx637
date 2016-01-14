@@ -618,9 +618,9 @@
     move-result-object v4
 
     .line 208
-    new-instance v5, Lcom/tencent/mm/protocal/b/nq;
+    new-instance v5, Lcom/tencent/mm/protocal/b/NQclz;
 
-    invoke-direct {v5}, Lcom/tencent/mm/protocal/b/nq;-><init>()V
+    invoke-direct {v5}, Lcom/tencent/mm/protocal/b/NQclz;-><init>()V
 
     new-instance v6, Lcom/tencent/mm/s/d;
 
@@ -641,7 +641,7 @@
 
     iput-object v0, v6, Lcom/tencent/mm/s/d;->field_brandUserName:Ljava/lang/String;
 
-    invoke-static {v6, v4, v1, v5}, Lcom/tencent/mm/s/f;->a(Lcom/tencent/mm/s/d;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/nq;)Z
+    invoke-static {v6, v4, v1, v5}, Lcom/tencent/mm/s/f;->a(Lcom/tencent/mm/s/d;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/NQclz;)Z
 
     move-result v0
 
@@ -695,7 +695,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/transmit/SelectBizChatConversationUI;->cOm:Ljava/lang/String;
 
-    invoke-direct {v0, v1, v5}, Lcom/tencent/mm/s/v;-><init>(Ljava/lang/String;Lcom/tencent/mm/protocal/b/nq;)V
+    invoke-direct {v0, v1, v5}, Lcom/tencent/mm/s/v;-><init>(Ljava/lang/String;Lcom/tencent/mm/protocal/b/NQclz;)V
 
     const v1, 0x7f090ad3
 

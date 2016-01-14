@@ -71,7 +71,7 @@
 
     .line 370
     :goto_1
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ve;->iFS:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/VEclz;->iFS:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
 
@@ -175,7 +175,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ve;
+    check-cast v0, Lcom/tencent/mm/protocal/b/VEclz;
 
     goto :goto_1
 

@@ -71,7 +71,7 @@
 
     iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/k;->ant:Lcom/tencent/mm/q/a;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/q/a;->vn()Lcom/tencent/mm/protocal/h$c;
+    invoke-virtual {v1}, Lcom/tencent/mm/q/a;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v1
 

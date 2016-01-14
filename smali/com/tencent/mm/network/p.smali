@@ -33,10 +33,10 @@
 .method public abstract getUri()Ljava/lang/String;
 .end method
 
-.method public abstract vP()Lcom/tencent/mm/protocal/e;
+.method public abstract vP()Lcom/tencent/mm/protocal/Eclz;
 .end method
 
-.method public abstract vQ()Lcom/tencent/mm/protocal/f;
+.method public abstract vQ()Lcom/tencent/mm/protocal/Fclz;
 .end method
 
 .method public abstract vR()I

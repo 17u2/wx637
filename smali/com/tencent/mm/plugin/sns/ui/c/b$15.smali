@@ -74,9 +74,9 @@
     if-eqz v2, :cond_0
 
     .line 1251
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget v1, v1, Lcom/tencent/mm/protocal/b/il;->iug:I
+    iget v1, v1, Lcom/tencent/mm/protocal/b/ILclz;->iug:I
 
     sparse-switch v1, :sswitch_data_0
 
@@ -210,17 +210,17 @@
     iget-object v2, v0, Lcom/tencent/mm/plugin/sns/ui/m;->grT:Lcom/tencent/mm/protocal/b/aqx;
 
     .line 1233
-    iget-object v3, v2, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v3, v2, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget v3, v3, Lcom/tencent/mm/protocal/b/il;->iug:I
+    iget v3, v3, Lcom/tencent/mm/protocal/b/ILclz;->iug:I
 
     const/16 v4, 0xa
 
     if-eq v3, v4, :cond_0
 
-    iget-object v3, v2, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v3, v2, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget v3, v3, Lcom/tencent/mm/protocal/b/il;->iug:I
+    iget v3, v3, Lcom/tencent/mm/protocal/b/ILclz;->iug:I
 
     const/16 v4, 0x11
 

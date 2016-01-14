@@ -674,7 +674,7 @@
     throw v0
 .end method
 
-.method public final a(Lcom/tencent/mm/protocal/y;)V
+.method public final a(Lcom/tencent/mm/protocal/Yclz;)V
     .locals 5
 
     .prologue
@@ -697,7 +697,7 @@
     .line 444
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lcom/tencent/mm/protocal/y;->asBinder()Landroid/os/IBinder;
+    invoke-interface {p1}, Lcom/tencent/mm/protocal/Yclz;->asBinder()Landroid/os/IBinder;
 
     move-result-object v0
 

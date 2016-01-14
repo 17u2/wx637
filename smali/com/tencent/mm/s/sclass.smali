@@ -40,16 +40,16 @@
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->uri:Ljava/lang/String;
 
     .line 26
-    new-instance v1, Lcom/tencent/mm/protocal/b/bq;
+    new-instance v1, Lcom/tencent/mm/protocal/b/BQclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/bq;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/BQclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 27
-    new-instance v1, Lcom/tencent/mm/protocal/b/br;
+    new-instance v1, Lcom/tencent/mm/protocal/b/BRclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/br;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/BRclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -73,10 +73,10 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/bq;
+    check-cast v0, Lcom/tencent/mm/protocal/b/BQclz;
 
     .line 32
-    iput-object p1, v0, Lcom/tencent/mm/protocal/b/bq;->url:Ljava/lang/String;
+    iput-object p1, v0, Lcom/tencent/mm/protocal/b/BQclz;->url:Ljava/lang/String;
 
     .line 34
     iput-object p1, p0, Lcom/tencent/mm/s/sclass;->url:Ljava/lang/String;

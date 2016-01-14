@@ -349,19 +349,19 @@
 
     .line 86
     :cond_1
-    new-instance v0, Lcom/tencent/mm/protocal/b/vb;
+    new-instance v0, Lcom/tencent/mm/protocal/b/VBclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/vb;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/VBclz;-><init>()V
 
     .line 87
-    new-instance v1, Lcom/tencent/mm/protocal/b/cx;
+    new-instance v1, Lcom/tencent/mm/protocal/b/CXclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/cx;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/CXclz;-><init>()V
 
     .line 88
     sget v2, Lcom/tencent/mm/protocal/bclass;->ihp:I
 
-    iput v2, v1, Lcom/tencent/mm/protocal/b/cx;->imU:I
+    iput v2, v1, Lcom/tencent/mm/protocal/b/CXclz;->imU:I
 
     .line 89
     invoke-static {}, Lcom/tencent/mm/compatible/d/p;->oz()Ljava/lang/String;
@@ -382,7 +382,7 @@
 
     move-result-object v2
 
-    iput-object v2, v1, Lcom/tencent/mm/protocal/b/cx;->imT:Lcom/tencent/mm/aq/b;
+    iput-object v2, v1, Lcom/tencent/mm/protocal/b/CXclz;->imT:Lcom/tencent/mm/aq/b;
 
     .line 90
     sget-object v2, Lcom/tencent/mm/protocal/bclass;->bpN:Ljava/lang/String;
@@ -401,10 +401,10 @@
 
     move-result-object v2
 
-    iput-object v2, v1, Lcom/tencent/mm/protocal/b/cx;->imV:Lcom/tencent/mm/aq/b;
+    iput-object v2, v1, Lcom/tencent/mm/protocal/b/CXclz;->imV:Lcom/tencent/mm/aq/b;
 
     .line 91
-    iput v5, v1, Lcom/tencent/mm/protocal/b/cx;->ijq:I
+    iput v5, v1, Lcom/tencent/mm/protocal/b/CXclz;->ijq:I
 
     .line 92
     iget-object v2, p0, Lcom/tencent/mm/sandbox/updater/b;->bZM:[B
@@ -419,30 +419,30 @@
 
     move-result-object v2
 
-    iput-object v2, v1, Lcom/tencent/mm/protocal/b/cx;->inD:Lcom/tencent/mm/aq/b;
+    iput-object v2, v1, Lcom/tencent/mm/protocal/b/CXclz;->inD:Lcom/tencent/mm/aq/b;
 
     .line 93
     iget v2, p0, Lcom/tencent/mm/sandbox/updater/b;->uin:I
 
-    iput v2, v1, Lcom/tencent/mm/protocal/b/cx;->dnq:I
+    iput v2, v1, Lcom/tencent/mm/protocal/b/CXclz;->dnq:I
 
     .line 94
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ajj;->iRV:Lcom/tencent/mm/protocal/b/cx;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ajj;->iRV:Lcom/tencent/mm/protocal/b/CXclz;
 
     .line 95
     iget v1, p0, Lcom/tencent/mm/sandbox/updater/b;->jcV:I
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/vb;->iFH:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/VBclz;->iFH:I
 
     .line 96
     iget v1, p0, Lcom/tencent/mm/sandbox/updater/b;->jcX:I
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/vb;->ilE:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/VBclz;->ilE:I
 
     .line 97
     iget v1, p0, Lcom/tencent/mm/sandbox/updater/b;->jcW:I
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/vb;->ilD:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/VBclz;->ilD:I
 
     .line 99
     new-instance v1, Lcom/tencent/mm/sandbox/updater/b$a;
@@ -461,7 +461,7 @@
 
     iput-object v1, p0, Lcom/tencent/mm/sandbox/updater/b;->jdu:Lcom/tencent/mm/sandbox/updater/b$a;
 
-    new-array v2, v6, [Lcom/tencent/mm/protocal/b/vb;
+    new-array v2, v6, [Lcom/tencent/mm/protocal/b/VBclz;
 
     aput-object v0, v2, v5
 

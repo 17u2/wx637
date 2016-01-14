@@ -144,21 +144,21 @@
     if-eqz v6, :cond_0
 
     .line 542
-    new-instance v6, Lcom/tencent/mm/protocal/b/eu;
+    new-instance v6, Lcom/tencent/mm/protocal/b/EUclz;
 
-    invoke-direct {v6}, Lcom/tencent/mm/protocal/b/eu;-><init>()V
+    invoke-direct {v6}, Lcom/tencent/mm/protocal/b/EUclz;-><init>()V
 
     .line 543
     invoke-static {}, Lcom/tencent/mm/ui/conversation/BizChatConversationUI;->IX()Ljava/lang/String;
 
     move-result-object v7
 
-    iput-object v7, v6, Lcom/tencent/mm/protocal/b/eu;->ipw:Ljava/lang/String;
+    iput-object v7, v6, Lcom/tencent/mm/protocal/b/EUclz;->ipw:Ljava/lang/String;
 
     .line 544
     iget-object v5, v5, Lcom/tencent/mm/s/d;->field_bizChatServId:Ljava/lang/String;
 
-    iput-object v5, v6, Lcom/tencent/mm/protocal/b/eu;->ipq:Ljava/lang/String;
+    iput-object v5, v6, Lcom/tencent/mm/protocal/b/EUclz;->ipq:Ljava/lang/String;
 
     .line 545
     invoke-virtual {v3, v6}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z

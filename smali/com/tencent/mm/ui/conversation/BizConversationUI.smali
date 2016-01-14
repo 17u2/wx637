@@ -324,9 +324,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lcom/tencent/mm/protocal/b/jf;
+    new-instance v1, Lcom/tencent/mm/protocal/b/JFclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/jf;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/JFclz;-><init>()V
 
     new-instance v2, Lcom/tencent/mm/protocal/b/ajz;
 
@@ -340,11 +340,11 @@
 
     move-result-object v2
 
-    iput-object v2, v1, Lcom/tencent/mm/protocal/b/jf;->iuA:Lcom/tencent/mm/protocal/b/ajz;
+    iput-object v2, v1, Lcom/tencent/mm/protocal/b/JFclz;->iuA:Lcom/tencent/mm/protocal/b/ajz;
 
     iget-wide v2, v0, Lcom/tencent/mm/d/b/ba;->field_msgSvrId:J
 
-    iput-wide v2, v1, Lcom/tencent/mm/protocal/b/jf;->ikC:J
+    iput-wide v2, v1, Lcom/tencent/mm/protocal/b/JFclz;->ikC:J
 
     invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
 
@@ -1126,9 +1126,9 @@
     move-result-object v4
 
     .line 477
-    new-instance v5, Lcom/tencent/mm/protocal/b/nq;
+    new-instance v5, Lcom/tencent/mm/protocal/b/NQclz;
 
-    invoke-direct {v5}, Lcom/tencent/mm/protocal/b/nq;-><init>()V
+    invoke-direct {v5}, Lcom/tencent/mm/protocal/b/NQclz;-><init>()V
 
     new-instance v6, Lcom/tencent/mm/s/d;
 
@@ -1151,7 +1151,7 @@
 
     iput-object v0, v6, Lcom/tencent/mm/s/d;->field_brandUserName:Ljava/lang/String;
 
-    invoke-static {v6, v4, v1, v5}, Lcom/tencent/mm/s/f;->a(Lcom/tencent/mm/s/d;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/nq;)Z
+    invoke-static {v6, v4, v1, v5}, Lcom/tencent/mm/s/f;->a(Lcom/tencent/mm/s/d;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/NQclz;)Z
 
     move-result v0
 
@@ -1203,7 +1203,7 @@
 
     move-result-object v1
 
-    invoke-direct {v0, v1, v5}, Lcom/tencent/mm/s/v;-><init>(Ljava/lang/String;Lcom/tencent/mm/protocal/b/nq;)V
+    invoke-direct {v0, v1, v5}, Lcom/tencent/mm/s/v;-><init>(Ljava/lang/String;Lcom/tencent/mm/protocal/b/NQclz;)V
 
     const v1, 0x7f090ad3
 

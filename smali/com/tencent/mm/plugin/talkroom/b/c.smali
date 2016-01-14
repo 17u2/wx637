@@ -39,16 +39,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 33
-    new-instance v1, Lcom/tencent/mm/protocal/b/uv;
+    new-instance v1, Lcom/tencent/mm/protocal/b/UVclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/uv;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/UVclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 34
-    new-instance v1, Lcom/tencent/mm/protocal/b/uw;
+    new-instance v1, Lcom/tencent/mm/protocal/b/UWclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/uw;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/UWclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -82,19 +82,19 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/uv;
+    check-cast v0, Lcom/tencent/mm/protocal/b/UVclz;
 
     .line 42
-    iput p1, v0, Lcom/tencent/mm/protocal/b/uv;->iwz:I
+    iput p1, v0, Lcom/tencent/mm/protocal/b/UVclz;->iwz:I
 
     .line 43
-    iput-wide p2, v0, Lcom/tencent/mm/protocal/b/uv;->iwA:J
+    iput-wide p2, v0, Lcom/tencent/mm/protocal/b/UVclz;->iwA:J
 
     .line 44
     iput-object p4, p0, Lcom/tencent/mm/plugin/talkroom/b/c;->eun:Ljava/lang/String;
 
     .line 45
-    iput p5, v0, Lcom/tencent/mm/protocal/b/uv;->ijq:I
+    iput p5, v0, Lcom/tencent/mm/protocal/b/UVclz;->ijq:I
 
     .line 46
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -236,7 +236,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/uw;
+    check-cast v0, Lcom/tencent/mm/protocal/b/UWclz;
 
     .line 84
     const-string/jumbo v1, "!56@/B4Tb64lLpK+IBX8XDgnvmOuZzdGSXPLxpNyT3T+ykmWmZRJukFUXw=="
@@ -258,12 +258,12 @@
     invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 86
-    iget v1, v0, Lcom/tencent/mm/protocal/b/uw;->iwB:I
+    iget v1, v0, Lcom/tencent/mm/protocal/b/UWclz;->iwB:I
 
     iput v1, p0, Lcom/tencent/mm/plugin/talkroom/b/c;->gOW:I
 
     .line 87
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/uw;->ike:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/UWclz;->ike:Ljava/util/LinkedList;
 
     invoke-static {v0}, Lcom/tencent/mm/plugin/talkroom/b/c;->L(Ljava/util/LinkedList;)Ljava/util/LinkedList;
 

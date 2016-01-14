@@ -103,23 +103,23 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/om;
+    check-cast v0, Lcom/tencent/mm/protocal/b/OMclz;
 
     .line 74
     invoke-static {}, Lcom/tencent/mm/model/c/c;->pe()V
 
     .line 75
-    iget v1, v0, Lcom/tencent/mm/protocal/b/om;->iwr:I
+    iget v1, v0, Lcom/tencent/mm/protocal/b/OMclz;->iwr:I
 
     invoke-static {v1}, Lcom/tencent/mm/model/c/c;->cS(I)V
 
     .line 76
-    iget v1, v0, Lcom/tencent/mm/protocal/b/om;->iBw:I
+    iget v1, v0, Lcom/tencent/mm/protocal/b/OMclz;->iBw:I
 
     invoke-static {v1}, Lcom/tencent/mm/model/c/c;->cR(I)V
 
     .line 77
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/om;->iBv:Ljava/util/LinkedList;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/OMclz;->iBv:Ljava/util/LinkedList;
 
     invoke-static {v1}, Lcom/tencent/mm/model/c/c;->l(Ljava/util/List;)V
 
@@ -133,7 +133,7 @@
 
     new-array v3, v4, [Ljava/lang/Object;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/om;->iBw:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/OMclz;->iBw:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

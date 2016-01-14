@@ -65,15 +65,15 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/pf;
+    check-cast v0, Lcom/tencent/mm/protocal/b/PFclz;
 
     .line 2567
-    iget v1, v0, Lcom/tencent/mm/protocal/b/pf;->dnF:I
+    iget v1, v0, Lcom/tencent/mm/protocal/b/PFclz;->dnF:I
 
     if-nez v1, :cond_3
 
     .line 2568
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/pf;->iBP:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/PFclz;->iBP:Ljava/util/LinkedList;
 
     .line 2569
     new-instance v2, Ljava/lang/StringBuilder;
@@ -98,14 +98,14 @@
 
     move-object v1, v0
 
-    check-cast v1, Lcom/tencent/mm/protocal/b/xd;
+    check-cast v1, Lcom/tencent/mm/protocal/b/XDclz;
 
     .line 2571
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v4, v1, Lcom/tencent/mm/protocal/b/xd;->dQt:Ljava/lang/String;
+    iget-object v4, v1, Lcom/tencent/mm/protocal/b/XDclz;->dQt:Ljava/lang/String;
 
     invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -117,7 +117,7 @@
 
     move-result-object v0
 
-    iget v4, v1, Lcom/tencent/mm/protocal/b/xd;->major:I
+    iget v4, v1, Lcom/tencent/mm/protocal/b/XDclz;->major:I
 
     invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -168,7 +168,7 @@
 
     invoke-direct {v0, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v4, v1, Lcom/tencent/mm/protocal/b/xd;->dQt:Ljava/lang/String;
+    iget-object v4, v1, Lcom/tencent/mm/protocal/b/XDclz;->dQt:Ljava/lang/String;
 
     invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -180,7 +180,7 @@
 
     move-result-object v0
 
-    iget v4, v1, Lcom/tencent/mm/protocal/b/xd;->major:I
+    iget v4, v1, Lcom/tencent/mm/protocal/b/XDclz;->major:I
 
     invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -199,7 +199,7 @@
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 2581
-    iget-object v0, v1, Lcom/tencent/mm/protocal/b/xd;->iHt:Ljava/util/LinkedList;
+    iget-object v0, v1, Lcom/tencent/mm/protocal/b/XDclz;->iHt:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
 
@@ -216,14 +216,14 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/xf;
+    check-cast v0, Lcom/tencent/mm/protocal/b/XFclz;
 
     .line 2582
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget v5, v0, Lcom/tencent/mm/protocal/b/xf;->iHu:I
+    iget v5, v0, Lcom/tencent/mm/protocal/b/XFclz;->iHu:I
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -235,7 +235,7 @@
 
     move-result-object v4
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/xf;->iHv:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/XFclz;->iHv:I
 
     invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 

@@ -167,7 +167,7 @@
     .line 133
     if-eqz v0, :cond_2
 
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/akn;->iSN:Lcom/tencent/mm/protocal/b/fr;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/akn;->iSN:Lcom/tencent/mm/protocal/b/FRclz;
 
     if-eqz v1, :cond_2
 
@@ -178,9 +178,9 @@
 
     new-array v3, v4, [Ljava/lang/Object;
 
-    iget-object v4, v0, Lcom/tencent/mm/protocal/b/akn;->iSN:Lcom/tencent/mm/protocal/b/fr;
+    iget-object v4, v0, Lcom/tencent/mm/protocal/b/akn;->iSN:Lcom/tencent/mm/protocal/b/FRclz;
 
-    iget-object v4, v4, Lcom/tencent/mm/protocal/b/fr;->iqu:Ljava/util/LinkedList;
+    iget-object v4, v4, Lcom/tencent/mm/protocal/b/FRclz;->iqu:Ljava/util/LinkedList;
 
     invoke-virtual {v4}, Ljava/util/LinkedList;->size()I
 
@@ -195,19 +195,19 @@
     invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 136
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/akn;->iSN:Lcom/tencent/mm/protocal/b/fr;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/akn;->iSN:Lcom/tencent/mm/protocal/b/FRclz;
 
     .line 137
     iget v0, v0, Lcom/tencent/mm/protocal/b/akn;->ink:I
 
-    iput v0, v1, Lcom/tencent/mm/protocal/b/fr;->ink:I
+    iput v0, v1, Lcom/tencent/mm/protocal/b/FRclz;->ink:I
 
     .line 138
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/c/j;->fLK:Lcom/tencent/mm/ui/e/d;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/c/j;->aBw:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ui/e/d;->a(Lcom/tencent/mm/protocal/b/fr;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ui/e/d;->a(Lcom/tencent/mm/protocal/b/FRclz;Ljava/lang/String;)V
 
     .line 140
     const-string/jumbo v0, "!56@/B4Tb64lLpKLxeMowbLUcGujD50RXT9IMkQc5i6KDHzndyuzGL2wsw=="
@@ -291,14 +291,14 @@
     check-cast v0, Lcom/tencent/mm/ui/e/h$b;
 
     .line 66
-    iget-object v1, v0, Lcom/tencent/mm/ui/e/h$b;->kAI:Lcom/tencent/mm/protocal/b/fr;
+    iget-object v1, v0, Lcom/tencent/mm/ui/e/h$b;->kAI:Lcom/tencent/mm/protocal/b/FRclz;
 
-    iget v4, v1, Lcom/tencent/mm/protocal/b/fr;->ink:I
+    iget v4, v1, Lcom/tencent/mm/protocal/b/FRclz;->ink:I
 
     .line 67
-    iget-object v0, v0, Lcom/tencent/mm/ui/e/h$b;->kAI:Lcom/tencent/mm/protocal/b/fr;
+    iget-object v0, v0, Lcom/tencent/mm/ui/e/h$b;->kAI:Lcom/tencent/mm/protocal/b/FRclz;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/fr;->iqs:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/FRclz;->iqs:I
 
     .line 69
     :goto_0

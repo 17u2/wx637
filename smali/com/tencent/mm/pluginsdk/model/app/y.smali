@@ -23,16 +23,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 24
-    new-instance v1, Lcom/tencent/mm/protocal/b/ou;
+    new-instance v1, Lcom/tencent/mm/protocal/b/OUclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ou;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/OUclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 25
-    new-instance v1, Lcom/tencent/mm/protocal/b/ov;
+    new-instance v1, Lcom/tencent/mm/protocal/b/OVclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ov;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/OVclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -119,12 +119,12 @@
     if-lez v3, :cond_0
 
     .line 37
-    new-instance v3, Lcom/tencent/mm/protocal/b/bc;
+    new-instance v3, Lcom/tencent/mm/protocal/b/BCclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/bc;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/BCclz;-><init>()V
 
     .line 38
-    iput-object v0, v3, Lcom/tencent/mm/protocal/b/bc;->dQN:Ljava/lang/String;
+    iput-object v0, v3, Lcom/tencent/mm/protocal/b/BCclz;->dQN:Ljava/lang/String;
 
     .line 39
     invoke-virtual {v1, v3}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
@@ -154,17 +154,17 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ou;
+    check-cast v0, Lcom/tencent/mm/protocal/b/OUclz;
 
     .line 48
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ou;->iBE:Ljava/util/LinkedList;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/OUclz;->iBE:Ljava/util/LinkedList;
 
     .line 49
     invoke-virtual {v1}, Ljava/util/LinkedList;->size()I
 
     move-result v1
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/ou;->iBD:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/OUclz;->iBD:I
 
     .line 50
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -187,7 +187,7 @@
     :try_start_0
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/y;->dmy:Lcom/tencent/mm/q/a;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/a;->vn()Lcom/tencent/mm/protocal/h$c;
+    invoke-virtual {v0}, Lcom/tencent/mm/q/a;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 
@@ -319,7 +319,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ov;
+    check-cast v0, Lcom/tencent/mm/protocal/b/OVclz;
 
     .line 63
     const-string/jumbo v1, "!44@/B4Tb64lLpK+IBX8XDgnvqCbadAkYDJ5+v+Qdt4xnOs="
@@ -330,7 +330,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget v3, v0, Lcom/tencent/mm/protocal/b/ov;->iBD:I
+    iget v3, v0, Lcom/tencent/mm/protocal/b/OVclz;->iBD:I
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -343,7 +343,7 @@
     invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 65
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ov;->iBF:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/OVclz;->iBF:Ljava/util/LinkedList;
 
     .line 66
     if-eqz v0, :cond_3
@@ -387,10 +387,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/bb;
+    check-cast v0, Lcom/tencent/mm/protocal/b/BBclz;
 
     .line 73
-    iget-object v3, v0, Lcom/tencent/mm/protocal/b/bb;->dQN:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/protocal/b/BBclz;->dQN:Ljava/lang/String;
 
     invoke-static {v3, v7}, Lcom/tencent/mm/pluginsdk/model/app/g;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/f;
 
@@ -400,12 +400,12 @@
     if-eqz v3, :cond_5
 
     .line 75
-    iget v4, v0, Lcom/tencent/mm/protocal/b/bb;->ilm:I
+    iget v4, v0, Lcom/tencent/mm/protocal/b/BBclz;->ilm:I
 
     iput v4, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_authFlag:I
 
     .line 76
-    iget-object v4, v0, Lcom/tencent/mm/protocal/b/bb;->iln:Ljava/lang/String;
+    iget-object v4, v0, Lcom/tencent/mm/protocal/b/BBclz;->iln:Ljava/lang/String;
 
     iput-object v4, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_openId:Ljava/lang/String;
 
@@ -435,7 +435,7 @@
 
     move-result-object v3
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/bb;->dQN:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/BBclz;->dQN:Ljava/lang/String;
 
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

@@ -201,7 +201,7 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/tencent/mm/protocal/b/es;
+    check-cast v1, Lcom/tencent/mm/protocal/b/ESclz;
 
     .line 312
     if-nez v1, :cond_6
@@ -263,7 +263,7 @@
 
     .line 316
     :cond_6
-    iget-object v12, v1, Lcom/tencent/mm/protocal/b/es;->ipp:Ljava/lang/String;
+    iget-object v12, v1, Lcom/tencent/mm/protocal/b/ESclz;->ipp:Ljava/lang/String;
 
     .line 317
     const-string/jumbo v8, "!44@/B4Tb64lLpIXgoRg4iBacFPm2bGv2R8wJtAzchZ8qQ0="
@@ -280,7 +280,7 @@
 
     const/4 v15, 0x1
 
-    iget-object v0, v1, Lcom/tencent/mm/protocal/b/es;->fxu:Ljava/lang/String;
+    iget-object v0, v1, Lcom/tencent/mm/protocal/b/ESclz;->fxu:Ljava/lang/String;
 
     move-object/from16 v16, v0
 
@@ -289,7 +289,7 @@
     invoke-static {v8, v13, v14}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 318
-    iget-object v8, v1, Lcom/tencent/mm/protocal/b/es;->fxu:Ljava/lang/String;
+    iget-object v8, v1, Lcom/tencent/mm/protocal/b/ESclz;->fxu:Ljava/lang/String;
 
     const-string/jumbo v13, "UserName"
 
@@ -318,7 +318,7 @@
     :goto_4
     if-nez v8, :cond_9
 
-    iget-object v8, v1, Lcom/tencent/mm/protocal/b/es;->fxu:Ljava/lang/String;
+    iget-object v8, v1, Lcom/tencent/mm/protocal/b/ESclz;->fxu:Ljava/lang/String;
 
     invoke-static {v2, v12, v8}, Lcom/tencent/mm/s/a;->b(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/String;)Z
 
@@ -326,7 +326,7 @@
 
     if-nez v8, :cond_9
 
-    iget-object v8, v1, Lcom/tencent/mm/protocal/b/es;->fxu:Ljava/lang/String;
+    iget-object v8, v1, Lcom/tencent/mm/protocal/b/ESclz;->fxu:Ljava/lang/String;
 
     const-string/jumbo v13, "BrandInfo"
 
@@ -346,7 +346,7 @@
     :goto_6
     if-nez v8, :cond_9
 
-    iget-object v8, v1, Lcom/tencent/mm/protocal/b/es;->fxu:Ljava/lang/String;
+    iget-object v8, v1, Lcom/tencent/mm/protocal/b/ESclz;->fxu:Ljava/lang/String;
 
     const-string/jumbo v13, "BigHeadImgUrl"
 
@@ -553,7 +553,7 @@
     if-eqz v8, :cond_17
 
     .line 324
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/es;->fxu:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/ESclz;->fxu:Ljava/lang/String;
 
     invoke-static {v1, v6, v7}, Lcom/tencent/mm/sdk/platformtools/bc;->getLong(Ljava/lang/String;J)J
 
@@ -577,7 +577,7 @@
     if-eqz v8, :cond_1a
 
     .line 327
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/es;->fxu:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/ESclz;->fxu:Ljava/lang/String;
 
     invoke-static {v1, v4, v5}, Lcom/tencent/mm/sdk/platformtools/bc;->getLong(Ljava/lang/String;J)J
 

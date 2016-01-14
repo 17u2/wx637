@@ -75,7 +75,7 @@
     return-object v0
 .end method
 
-.method public final tI()Lcom/tencent/mm/protocal/h$c;
+.method public final tI()Lcom/tencent/mm/protocal/Hclz$c;
     .locals 1
 
     .prologue
@@ -85,7 +85,7 @@
     return-object v0
 .end method
 
-.method public final tJ()Lcom/tencent/mm/protocal/h$d;
+.method public final tJ()Lcom/tencent/mm/protocal/Hclz$d;
     .locals 1
 
     .prologue

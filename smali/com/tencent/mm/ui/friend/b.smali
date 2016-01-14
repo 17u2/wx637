@@ -368,7 +368,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/no;
+    check-cast v0, Lcom/tencent/mm/protocal/b/NOclz;
 
     .line 409
     if-eqz p2, :cond_0
@@ -421,7 +421,7 @@
     :goto_0
     iget-object v1, v1, Lcom/tencent/mm/ui/friend/b$a;->cSQ:Landroid/widget/TextView;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/no;->iAr:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/NOclz;->iAr:Ljava/lang/String;
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 

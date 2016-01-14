@@ -195,10 +195,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/zd;
+    check-cast v0, Lcom/tencent/mm/protocal/b/ZDclz;
 
     .line 86
-    iget-object v6, v0, Lcom/tencent/mm/protocal/b/zd;->iIG:Lcom/tencent/mm/aq/b;
+    iget-object v6, v0, Lcom/tencent/mm/protocal/b/ZDclz;->iIG:Lcom/tencent/mm/aq/b;
 
     iget-object v6, v6, Lcom/tencent/mm/aq/b;->ihc:[B
 
@@ -233,7 +233,7 @@
 
     .line 93
     :cond_0
-    iget-object v6, v0, Lcom/tencent/mm/protocal/b/zd;->iIG:Lcom/tencent/mm/aq/b;
+    iget-object v6, v0, Lcom/tencent/mm/protocal/b/ZDclz;->iIG:Lcom/tencent/mm/aq/b;
 
     iget-object v6, v6, Lcom/tencent/mm/aq/b;->ihc:[B
 
@@ -429,10 +429,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/zd;
+    check-cast v0, Lcom/tencent/mm/protocal/b/ZDclz;
 
     .line 157
-    iget-object v10, v0, Lcom/tencent/mm/protocal/b/zd;->iIG:Lcom/tencent/mm/aq/b;
+    iget-object v10, v0, Lcom/tencent/mm/protocal/b/ZDclz;->iIG:Lcom/tencent/mm/aq/b;
 
     iget-object v10, v10, Lcom/tencent/mm/aq/b;->ihc:[B
 
@@ -473,7 +473,7 @@
 
     move-result-object v10
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/zd;->iIG:Lcom/tencent/mm/aq/b;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ZDclz;->iIG:Lcom/tencent/mm/aq/b;
 
     iget-object v0, v0, Lcom/tencent/mm/aq/b;->ihc:[B
 
@@ -638,7 +638,7 @@
     invoke-virtual {v10, v0}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
     .line 168
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/zd;->iIG:Lcom/tencent/mm/aq/b;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ZDclz;->iIG:Lcom/tencent/mm/aq/b;
 
     iget-object v0, v0, Lcom/tencent/mm/aq/b;->ihc:[B
 

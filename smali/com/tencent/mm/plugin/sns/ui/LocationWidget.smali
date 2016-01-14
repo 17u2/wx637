@@ -21,7 +21,7 @@
 
 .field private cEF:Landroid/view/View;
 
-.field private eMJ:Lcom/tencent/mm/protocal/b/zo;
+.field private eMJ:Lcom/tencent/mm/protocal/b/ZOclz;
 
 .field private eMg:F
 
@@ -83,7 +83,7 @@
     iput v3, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->gtx:I
 
     .line 57
-    iput-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/zo;
+    iput-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/ZOclz;
 
     .line 59
     iput v2, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->gty:F
@@ -161,7 +161,7 @@
     iput v3, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->gtx:I
 
     .line 57
-    iput-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/zo;
+    iput-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/ZOclz;
 
     .line 59
     iput v2, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->gty:F
@@ -706,12 +706,12 @@
     return p1
 .end method
 
-.method static synthetic b(Lcom/tencent/mm/plugin/sns/ui/LocationWidget;)Lcom/tencent/mm/protocal/b/zo;
+.method static synthetic b(Lcom/tencent/mm/plugin/sns/ui/LocationWidget;)Lcom/tencent/mm/protocal/b/ZOclz;
     .locals 1
 
     .prologue
     .line 39
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/zo;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/ZOclz;
 
     return-object v0
 .end method
@@ -1157,15 +1157,15 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->grr:Ljava/lang/String;
 
     .line 308
-    new-instance v0, Lcom/tencent/mm/protocal/b/zo;
+    new-instance v0, Lcom/tencent/mm/protocal/b/ZOclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/zo;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/ZOclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/zo;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/ZOclz;
 
     .line 310
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/zo;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/ZOclz;
 
     const-string/jumbo v1, "get_poi_item_buf"
 
@@ -1173,13 +1173,13 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/protocal/b/zo;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/protocal/b/ZOclz;->ak([B)Lcom/tencent/mm/aq/a;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/zo;
+    check-cast v0, Lcom/tencent/mm/protocal/b/ZOclz;
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/zo;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/ZOclz;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1194,37 +1194,37 @@
     if-nez v0, :cond_2
 
     .line 316
-    new-instance v0, Lcom/tencent/mm/protocal/b/zo;
+    new-instance v0, Lcom/tencent/mm/protocal/b/ZOclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/zo;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/ZOclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/zo;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/ZOclz;
 
     .line 317
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/zo;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/ZOclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->grr:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/zo;->eMD:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ZOclz;->eMD:Ljava/lang/String;
 
     .line 318
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/zo;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/ZOclz;
 
     iget v1, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->gtx:I
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/zo;->dnV:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/ZOclz;->dnV:I
 
     .line 319
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/zo;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/ZOclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->esQ:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/zo;->asn:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ZOclz;->asn:Ljava/lang/String;
 
     .line 320
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/zo;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/ZOclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/zo;->iJi:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ZOclz;->iJi:Ljava/util/LinkedList;
 
     new-instance v1, Lcom/tencent/mm/protocal/b/ajz;
 
@@ -1338,7 +1338,7 @@
     :catch_0
     move-exception v0
 
-    iput-object v7, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/zo;
+    iput-object v7, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/ZOclz;
 
     goto/16 :goto_1
 
@@ -1368,7 +1368,7 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->grr:Ljava/lang/String;
 
     .line 326
-    iput-object v7, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/zo;
+    iput-object v7, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/ZOclz;
 
     goto/16 :goto_2
 
@@ -1400,7 +1400,7 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->grr:Ljava/lang/String;
 
     .line 334
-    iput-object v7, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/zo;
+    iput-object v7, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget;->eMJ:Lcom/tencent/mm/protocal/b/ZOclz;
 
     goto/16 :goto_2
 .end method

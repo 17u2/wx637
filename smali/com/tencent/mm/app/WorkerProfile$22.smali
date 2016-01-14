@@ -43,12 +43,12 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/protocal/b/af;)V
+.method public final a(Lcom/tencent/mm/protocal/b/AFclz;)V
     .locals 1
 
     .prologue
     .line 609
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/af;->ikx:Lcom/tencent/mm/protocal/b/ajz;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/AFclz;->ikx:Lcom/tencent/mm/protocal/b/ajz;
 
     invoke-static {v0}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 

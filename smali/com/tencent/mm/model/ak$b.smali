@@ -1,9 +1,9 @@
 .class public final Lcom/tencent/mm/model/ak$b;
-.super Lcom/tencent/mm/protocal/h$d;
+.super Lcom/tencent/mm/protocal/Hclz$d;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/protocal/h$b;
+.implements Lcom/tencent/mm/protocal/Hclz$b;
 
 
 # annotations
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field public buh:Lcom/tencent/mm/protocal/b/vp;
+.field public buh:Lcom/tencent/mm/protocal/b/VPclz;
 
 
 # direct methods
@@ -27,14 +27,14 @@
 
     .prologue
     .line 40
-    invoke-direct {p0}, Lcom/tencent/mm/protocal/h$d;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/protocal/Hclz$d;-><init>()V
 
     .line 42
-    new-instance v0, Lcom/tencent/mm/protocal/b/vp;
+    new-instance v0, Lcom/tencent/mm/protocal/b/VPclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/vp;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/VPclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/model/ak$b;->buh:Lcom/tencent/mm/protocal/b/vp;
+    iput-object v0, p0, Lcom/tencent/mm/model/ak$b;->buh:Lcom/tencent/mm/protocal/b/VPclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -63,31 +63,31 @@
 
     .prologue
     .line 46
-    new-instance v0, Lcom/tencent/mm/protocal/b/vp;
+    new-instance v0, Lcom/tencent/mm/protocal/b/VPclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/vp;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/VPclz;-><init>()V
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/protocal/b/vp;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/protocal/b/VPclz;->ak([B)Lcom/tencent/mm/aq/a;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/vp;
+    check-cast v0, Lcom/tencent/mm/protocal/b/VPclz;
 
-    iput-object v0, p0, Lcom/tencent/mm/model/ak$b;->buh:Lcom/tencent/mm/protocal/b/vp;
+    iput-object v0, p0, Lcom/tencent/mm/model/ak$b;->buh:Lcom/tencent/mm/protocal/b/VPclz;
 
     .line 48
-    iget-object v0, p0, Lcom/tencent/mm/model/ak$b;->buh:Lcom/tencent/mm/protocal/b/vp;
+    iget-object v0, p0, Lcom/tencent/mm/model/ak$b;->buh:Lcom/tencent/mm/protocal/b/VPclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ajr;->iSl:Lcom/tencent/mm/protocal/b/cy;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ajr;->iSl:Lcom/tencent/mm/protocal/b/CYclz;
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/protocal/h;->a(Lcom/tencent/mm/protocal/h$d;Lcom/tencent/mm/protocal/b/cy;)V
+    invoke-static {p0, v0}, Lcom/tencent/mm/protocal/Hclz;->a(Lcom/tencent/mm/protocal/Hclz$d;Lcom/tencent/mm/protocal/b/CYclz;)V
 
     .line 49
-    iget-object v0, p0, Lcom/tencent/mm/model/ak$b;->buh:Lcom/tencent/mm/protocal/b/vp;
+    iget-object v0, p0, Lcom/tencent/mm/model/ak$b;->buh:Lcom/tencent/mm/protocal/b/VPclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ajr;->iSl:Lcom/tencent/mm/protocal/b/cy;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ajr;->iSl:Lcom/tencent/mm/protocal/b/CYclz;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/cy;->imK:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/CYclz;->imK:I
 
     return v0
 .end method

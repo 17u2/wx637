@@ -929,11 +929,11 @@
 
     .line 191
     :cond_2
-    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v3
 
-    iget v3, v3, Lcom/tencent/mm/protocal/h$d;->ihR:I
+    iget v3, v3, Lcom/tencent/mm/protocal/Hclz$d;->ihR:I
 
     const/4 v4, -0x4
 

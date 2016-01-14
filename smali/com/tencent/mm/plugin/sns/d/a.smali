@@ -1414,9 +1414,9 @@
 
     .line 237
     :goto_6
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/il;->iug:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/ILclz;->iug:I
 
     iput v0, v2, Lcom/tencent/mm/plugin/sns/h/c;->field_type:I
 
@@ -1895,17 +1895,17 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ai;
+    check-cast v0, Lcom/tencent/mm/protocal/b/AIclz;
 
     .line 370
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/ai;->ikH:Lcom/tencent/mm/protocal/b/ajz;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/AIclz;->ikH:Lcom/tencent/mm/protocal/b/ajz;
 
     invoke-static {v1}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 
     move-result-object v1
 
     .line 371
-    iget-object v5, v0, Lcom/tencent/mm/protocal/b/ai;->ikG:Lcom/tencent/mm/protocal/b/ann;
+    iget-object v5, v0, Lcom/tencent/mm/protocal/b/AIclz;->ikG:Lcom/tencent/mm/protocal/b/ann;
 
     iget-object v5, v5, Lcom/tencent/mm/protocal/b/ann;->iUm:Lcom/tencent/mm/protocal/b/ajz;
 
@@ -1914,7 +1914,7 @@
     move-result-object v5
 
     .line 372
-    iget-object v6, v0, Lcom/tencent/mm/protocal/b/ai;->ikG:Lcom/tencent/mm/protocal/b/ann;
+    iget-object v6, v0, Lcom/tencent/mm/protocal/b/AIclz;->ikG:Lcom/tencent/mm/protocal/b/ann;
 
     iget-object v6, v6, Lcom/tencent/mm/protocal/b/ann;->iUl:Lcom/tencent/mm/protocal/b/aod;
 
@@ -2112,11 +2112,11 @@
 
     .line 387
     :cond_4
-    iget-object v6, v0, Lcom/tencent/mm/protocal/b/ai;->ikG:Lcom/tencent/mm/protocal/b/ann;
+    iget-object v6, v0, Lcom/tencent/mm/protocal/b/AIclz;->ikG:Lcom/tencent/mm/protocal/b/ann;
 
     if-eqz v6, :cond_5
 
-    iget-object v6, v0, Lcom/tencent/mm/protocal/b/ai;->ikG:Lcom/tencent/mm/protocal/b/ann;
+    iget-object v6, v0, Lcom/tencent/mm/protocal/b/AIclz;->ikG:Lcom/tencent/mm/protocal/b/ann;
 
     iget-object v6, v6, Lcom/tencent/mm/protocal/b/ann;->iUl:Lcom/tencent/mm/protocal/b/aod;
 
@@ -2132,11 +2132,11 @@
     goto :goto_1
 
     :cond_6
-    iget-object v6, v0, Lcom/tencent/mm/protocal/b/ai;->ikG:Lcom/tencent/mm/protocal/b/ann;
+    iget-object v6, v0, Lcom/tencent/mm/protocal/b/AIclz;->ikG:Lcom/tencent/mm/protocal/b/ann;
 
     iget-object v6, v6, Lcom/tencent/mm/protocal/b/ann;->iUl:Lcom/tencent/mm/protocal/b/aod;
 
-    iget-object v7, v0, Lcom/tencent/mm/protocal/b/ai;->ikG:Lcom/tencent/mm/protocal/b/ann;
+    iget-object v7, v0, Lcom/tencent/mm/protocal/b/AIclz;->ikG:Lcom/tencent/mm/protocal/b/ann;
 
     invoke-static {v7}, Lcom/tencent/mm/plugin/sns/d/a;->c(Lcom/tencent/mm/protocal/b/ann;)Lcom/tencent/mm/plugin/sns/h/c;
 
@@ -2150,7 +2150,7 @@
 
     iput v5, v7, Lcom/tencent/mm/plugin/sns/h/c;->field_createAdTime:I
 
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/ai;->ikG:Lcom/tencent/mm/protocal/b/ann;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/AIclz;->ikG:Lcom/tencent/mm/protocal/b/ann;
 
     iget-object v1, v1, Lcom/tencent/mm/protocal/b/ann;->iUm:Lcom/tencent/mm/protocal/b/ajz;
 
@@ -2160,7 +2160,7 @@
 
     iput-object v1, v7, Lcom/tencent/mm/plugin/sns/h/c;->field_adxml:Ljava/lang/String;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ai;->ikH:Lcom/tencent/mm/protocal/b/ajz;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/AIclz;->ikH:Lcom/tencent/mm/protocal/b/ajz;
 
     invoke-static {v0}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 

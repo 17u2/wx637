@@ -482,36 +482,36 @@
     goto :goto_0
 .end method
 
-.method public final auq()Lcom/tencent/mm/protocal/b/mq;
+.method public final auq()Lcom/tencent/mm/protocal/b/MQclz;
     .locals 3
 
     .prologue
     .line 65
-    new-instance v0, Lcom/tencent/mm/protocal/b/nr;
+    new-instance v0, Lcom/tencent/mm/protocal/b/NRclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/nr;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/NRclz;-><init>()V
 
     .line 66
-    new-instance v1, Lcom/tencent/mm/protocal/b/mq;
+    new-instance v1, Lcom/tencent/mm/protocal/b/MQclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/mq;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/MQclz;-><init>()V
 
     .line 68
     :try_start_0
-    new-instance v0, Lcom/tencent/mm/protocal/b/nr;
+    new-instance v0, Lcom/tencent/mm/protocal/b/NRclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/nr;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/NRclz;-><init>()V
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/h/i;->field_faultS:[B
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/protocal/b/nr;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/protocal/b/NRclz;->ak([B)Lcom/tencent/mm/aq/a;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/nr;
+    check-cast v0, Lcom/tencent/mm/protocal/b/NRclz;
 
     .line 69
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/nr;->iAw:Ljava/util/LinkedList;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/NRclz;->iAw:Ljava/util/LinkedList;
 
     invoke-virtual {v2}, Ljava/util/LinkedList;->size()I
 
@@ -520,13 +520,13 @@
     if-lez v2, :cond_0
 
     .line 70
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/nr;->iAw:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/NRclz;->iAw:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->getFirst()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/mq;
+    check-cast v0, Lcom/tencent/mm/protocal/b/MQclz;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

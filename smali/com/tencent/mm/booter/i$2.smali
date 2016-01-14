@@ -191,9 +191,9 @@
     .line 93
     :cond_2
     :try_start_1
-    new-instance v1, Lcom/tencent/mm/protocal/b/xe;
+    new-instance v1, Lcom/tencent/mm/protocal/b/XEclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/xe;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/XEclz;-><init>()V
 
     .line 94
     invoke-static {}, Lcom/tencent/mm/booter/i;->nh()F
@@ -202,7 +202,7 @@
 
     float-to-double v2, v0
 
-    iput-wide v2, v1, Lcom/tencent/mm/protocal/b/xe;->latitude:D
+    iput-wide v2, v1, Lcom/tencent/mm/protocal/b/XEclz;->latitude:D
 
     .line 95
     invoke-static {}, Lcom/tencent/mm/booter/i;->ni()F
@@ -211,7 +211,7 @@
 
     float-to-double v2, v0
 
-    iput-wide v2, v1, Lcom/tencent/mm/protocal/b/xe;->longitude:D
+    iput-wide v2, v1, Lcom/tencent/mm/protocal/b/XEclz;->longitude:D
 
     .line 97
     invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
@@ -285,7 +285,7 @@
 
     move-result-object v4
 
-    invoke-direct {v0, v4, v2, v3, v1}, Lcom/tencent/mm/ac/b;-><init>(Ljava/util/List;JLcom/tencent/mm/protocal/b/xe;)V
+    invoke-direct {v0, v4, v2, v3, v1}, Lcom/tencent/mm/ac/b;-><init>(Ljava/util/List;JLcom/tencent/mm/protocal/b/XEclz;)V
 
     .line 101
     const-string/jumbo v1, "!56@/B4Tb64lLpIuznxMDiXSbEgePiuuHmafGRumF/EL+B1ZudK3WLjQDg=="

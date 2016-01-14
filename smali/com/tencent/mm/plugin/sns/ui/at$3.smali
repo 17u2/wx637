@@ -100,9 +100,9 @@
 
     check-cast v0, Lcom/tencent/mm/protocal/b/aqx;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/ax;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/AXclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ax;->ikW:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/AXclz;->ikW:Ljava/lang/String;
 
     const-string/jumbo v3, "wx485a97c844086dc9"
 
@@ -328,9 +328,9 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/aqx;
 
     .line 246
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/ax;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/AXclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/protocal/b/ax;->ikW:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/protocal/b/AXclz;->ikW:Ljava/lang/String;
 
     .line 248
     sget-object v3, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
@@ -361,9 +361,9 @@
 
     .line 253
     :goto_2
-    iget-object v5, v0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v5, v0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget v5, v5, Lcom/tencent/mm/protocal/b/il;->iug:I
+    iget v5, v5, Lcom/tencent/mm/protocal/b/ILclz;->iug:I
 
     if-ne v5, v1, :cond_e
 
@@ -430,9 +430,9 @@
 
     .line 255
     :cond_e
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/il;->iug:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/ILclz;->iug:I
 
     const/4 v1, 0x3
 

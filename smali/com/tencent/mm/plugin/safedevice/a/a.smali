@@ -33,16 +33,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 29
-    new-instance v1, Lcom/tencent/mm/protocal/b/jk;
+    new-instance v1, Lcom/tencent/mm/protocal/b/JKclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/jk;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/JKclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 30
-    new-instance v1, Lcom/tencent/mm/protocal/b/jl;
+    new-instance v1, Lcom/tencent/mm/protocal/b/JLclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/jl;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/JLclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -76,10 +76,10 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/jk;
+    check-cast v0, Lcom/tencent/mm/protocal/b/JKclz;
 
     .line 38
-    iput-object p1, v0, Lcom/tencent/mm/protocal/b/jk;->iuG:Ljava/lang/String;
+    iput-object p1, v0, Lcom/tencent/mm/protocal/b/JKclz;->iuG:Ljava/lang/String;
 
     .line 39
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -180,7 +180,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/jl;
+    check-cast v0, Lcom/tencent/mm/protocal/b/JLclz;
 
     .line 47
     invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
@@ -193,7 +193,7 @@
 
     const/16 v2, 0x40
 
-    iget v3, v0, Lcom/tencent/mm/protocal/b/jl;->ijg:I
+    iget v3, v0, Lcom/tencent/mm/protocal/b/JLclz;->ijg:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -210,7 +210,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/jl;->ijg:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/JLclz;->ijg:I
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 

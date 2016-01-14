@@ -4,7 +4,7 @@
 
 
 # static fields
-.field public static fLF:Lcom/tencent/mm/protocal/b/fr;
+.field public static fLF:Lcom/tencent/mm/protocal/b/FRclz;
 
 
 # direct methods

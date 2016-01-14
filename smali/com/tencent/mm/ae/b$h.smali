@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private bPa:Lcom/tencent/mm/protocal/b/xs;
+.field private bPa:Lcom/tencent/mm/protocal/b/XSclz;
 
 
 # direct methods
@@ -32,28 +32,28 @@
     invoke-direct {p0, v0}, Lcom/tencent/mm/ae/b$q;-><init>(I)V
 
     .line 306
-    new-instance v0, Lcom/tencent/mm/protocal/b/xs;
+    new-instance v0, Lcom/tencent/mm/protocal/b/XSclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/xs;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/XSclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ae/b$h;->bPa:Lcom/tencent/mm/protocal/b/xs;
+    iput-object v0, p0, Lcom/tencent/mm/ae/b$h;->bPa:Lcom/tencent/mm/protocal/b/XSclz;
 
     .line 307
-    iget-object v0, p0, Lcom/tencent/mm/ae/b$h;->bPa:Lcom/tencent/mm/protocal/b/xs;
+    iget-object v0, p0, Lcom/tencent/mm/ae/b$h;->bPa:Lcom/tencent/mm/protocal/b/XSclz;
 
     invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/xs;->dRj:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/XSclz;->dRj:Ljava/lang/String;
 
     .line 308
-    iget-object v0, p0, Lcom/tencent/mm/ae/b$h;->bPa:Lcom/tencent/mm/protocal/b/xs;
+    iget-object v0, p0, Lcom/tencent/mm/ae/b$h;->bPa:Lcom/tencent/mm/protocal/b/XSclz;
 
-    iput p2, v0, Lcom/tencent/mm/protocal/b/xs;->iHW:I
+    iput p2, v0, Lcom/tencent/mm/protocal/b/XSclz;->iHW:I
 
     .line 309
-    iget-object v0, p0, Lcom/tencent/mm/ae/b$h;->bPa:Lcom/tencent/mm/protocal/b/xs;
+    iget-object v0, p0, Lcom/tencent/mm/ae/b$h;->bPa:Lcom/tencent/mm/protocal/b/XSclz;
 
     iput-object v0, p0, Lcom/tencent/mm/ae/b$q;->bPo:Lcom/tencent/mm/aq/a;
 

@@ -1532,15 +1532,15 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
-    new-instance v9, Lcom/tencent/mm/protocal/b/hf;
+    new-instance v9, Lcom/tencent/mm/protocal/b/HFclz;
 
-    invoke-direct {v9}, Lcom/tencent/mm/protocal/b/hf;-><init>()V
+    invoke-direct {v9}, Lcom/tencent/mm/protocal/b/HFclz;-><init>()V
 
     iput-object v9, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
-    new-instance v9, Lcom/tencent/mm/protocal/b/hg;
+    new-instance v9, Lcom/tencent/mm/protocal/b/HGclz;
 
-    invoke-direct {v9}, Lcom/tencent/mm/protocal/b/hg;-><init>()V
+    invoke-direct {v9}, Lcom/tencent/mm/protocal/b/HGclz;-><init>()V
 
     iput-object v9, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -1558,27 +1558,27 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/hf;
+    check-cast v0, Lcom/tencent/mm/protocal/b/HFclz;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/hf;->dQN:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/HFclz;->dQN:Ljava/lang/String;
 
-    iput-object v2, v0, Lcom/tencent/mm/protocal/b/hf;->dSX:Ljava/lang/String;
+    iput-object v2, v0, Lcom/tencent/mm/protocal/b/HFclz;->dSX:Ljava/lang/String;
 
-    iput-object v3, v0, Lcom/tencent/mm/protocal/b/hf;->dTc:Ljava/lang/String;
+    iput-object v3, v0, Lcom/tencent/mm/protocal/b/HFclz;->dTc:Ljava/lang/String;
 
-    iput v4, v0, Lcom/tencent/mm/protocal/b/hf;->isM:I
+    iput v4, v0, Lcom/tencent/mm/protocal/b/HFclz;->isM:I
 
-    iput-object v5, v0, Lcom/tencent/mm/protocal/b/hf;->isN:Ljava/util/LinkedList;
+    iput-object v5, v0, Lcom/tencent/mm/protocal/b/HFclz;->isN:Ljava/util/LinkedList;
 
     const/4 v5, 0x0
 
-    iput-object v5, v0, Lcom/tencent/mm/protocal/b/hf;->isO:Ljava/lang/String;
+    iput-object v5, v0, Lcom/tencent/mm/protocal/b/HFclz;->isO:Ljava/lang/String;
 
-    iput-object v6, v0, Lcom/tencent/mm/protocal/b/hf;->isP:Ljava/lang/String;
+    iput-object v6, v0, Lcom/tencent/mm/protocal/b/HFclz;->isP:Ljava/lang/String;
 
-    iput v7, v0, Lcom/tencent/mm/protocal/b/hf;->ilh:I
+    iput v7, v0, Lcom/tencent/mm/protocal/b/HFclz;->ilh:I
 
-    iput v8, v0, Lcom/tencent/mm/protocal/b/hf;->ijq:I
+    iput v8, v0, Lcom/tencent/mm/protocal/b/HFclz;->ijq:I
 
     const-string/jumbo v0, "!44@/B4Tb64lLpKI+ZbHiEoPsk2SzqNNPitzPtV/pCqqwzc="
 

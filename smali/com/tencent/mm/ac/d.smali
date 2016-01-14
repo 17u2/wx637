@@ -376,11 +376,11 @@
 
     .line 103
     :cond_2
-    invoke-interface {v1}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/h$c;
+    invoke-interface {v1}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 
-    iput v9, v0, Lcom/tencent/mm/protocal/h$c;->ihO:I
+    iput v9, v0, Lcom/tencent/mm/protocal/Hclz$c;->ihO:I
 
     .line 110
     :goto_0
@@ -394,15 +394,15 @@
     iput-object p3, v0, Lcom/tencent/mm/protocal/b/adg;->iNw:Lcom/tencent/mm/protocal/b/ajy;
 
     .line 112
-    invoke-interface {v1}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/h$c;
+    invoke-interface {v1}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/s$a;
+    check-cast v0, Lcom/tencent/mm/protocal/Sclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/ac/d;->bNj:Lcom/tencent/mm/protocal/b/adg;
 
-    iput-object v2, v0, Lcom/tencent/mm/protocal/s$a;->iin:Lcom/tencent/mm/protocal/b/adg;
+    iput-object v2, v0, Lcom/tencent/mm/protocal/Sclz$a;->iin:Lcom/tencent/mm/protocal/b/adg;
 
     .line 114
     const-string/jumbo v0, "!44@/B4Tb64lLpK+IBX8XDgnvnIKeokfDtW+c2Qn4D1oK2g="
@@ -463,11 +463,11 @@
 
     const/4 v4, 0x5
 
-    invoke-interface {v1}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/h$c;
+    invoke-interface {v1}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v5
 
-    iget v5, v5, Lcom/tencent/mm/protocal/h$c;->ihO:I
+    iget v5, v5, Lcom/tencent/mm/protocal/Hclz$c;->ihO:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -542,21 +542,21 @@
     if-gtz v0, :cond_4
 
     .line 105
-    invoke-interface {v1}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/h$c;
+    invoke-interface {v1}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 
-    iput v7, v0, Lcom/tencent/mm/protocal/h$c;->ihO:I
+    iput v7, v0, Lcom/tencent/mm/protocal/Hclz$c;->ihO:I
 
     goto/16 :goto_0
 
     .line 107
     :cond_4
-    invoke-interface {v1}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/h$c;
+    invoke-interface {v1}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 
-    iput v8, v0, Lcom/tencent/mm/protocal/h$c;->ihO:I
+    iput v8, v0, Lcom/tencent/mm/protocal/Hclz$c;->ihO:I
 
     goto/16 :goto_0
 .end method
@@ -923,15 +923,15 @@
 
     .line 150
     :cond_5
-    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/s$b;
+    check-cast v0, Lcom/tencent/mm/protocal/Sclz$b;
 
-    check-cast v0, Lcom/tencent/mm/protocal/s$b;
+    check-cast v0, Lcom/tencent/mm/protocal/Sclz$b;
 
-    iget-object v5, v0, Lcom/tencent/mm/protocal/s$b;->iio:Lcom/tencent/mm/protocal/b/adh;
+    iget-object v5, v0, Lcom/tencent/mm/protocal/Sclz$b;->iio:Lcom/tencent/mm/protocal/b/adh;
 
     .line 152
     iget v0, p0, Lcom/tencent/mm/ac/d;->bNm:I

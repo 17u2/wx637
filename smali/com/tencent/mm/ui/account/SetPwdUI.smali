@@ -511,9 +511,9 @@
     move-result-object v0
 
     .line 62
-    new-instance v1, Lcom/tencent/mm/protocal/b/bv;
+    new-instance v1, Lcom/tencent/mm/protocal/b/BVclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/bv;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/BVclz;-><init>()V
 
     .line 63
     invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->I([B)Z
@@ -535,7 +535,7 @@
 
     .line 66
     :try_start_0
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/protocal/b/bv;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/protocal/b/BVclz;->ak([B)Lcom/tencent/mm/aq/a;
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 

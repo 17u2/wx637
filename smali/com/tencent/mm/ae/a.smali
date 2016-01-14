@@ -54,7 +54,7 @@
     .line 34
     iget-object v0, p0, Lcom/tencent/mm/ae/a;->bOO:Lcom/tencent/mm/ae/a$a;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ae/a$a;->vn()Lcom/tencent/mm/protocal/h$c;
+    invoke-virtual {v0}, Lcom/tencent/mm/ae/a$a;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 
@@ -63,11 +63,11 @@
     iget-object v0, v0, Lcom/tencent/mm/ae/a$b;->bOS:Lcom/tencent/mm/protocal/b/aeg;
 
     .line 35
-    invoke-static {p1}, Lcom/tencent/mm/ae/a;->v(Ljava/util/List;)Lcom/tencent/mm/protocal/b/hz;
+    invoke-static {p1}, Lcom/tencent/mm/ae/a;->v(Ljava/util/List;)Lcom/tencent/mm/protocal/b/HZclz;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/aeg;->iNY:Lcom/tencent/mm/protocal/b/hz;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/aeg;->iNY:Lcom/tencent/mm/protocal/b/HZclz;
 
     .line 36
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -80,14 +80,14 @@
     return-void
 .end method
 
-.method private static v(Ljava/util/List;)Lcom/tencent/mm/protocal/b/hz;
+.method private static v(Ljava/util/List;)Lcom/tencent/mm/protocal/b/HZclz;
     .locals 5
 
     .prologue
     .line 39
-    new-instance v1, Lcom/tencent/mm/protocal/b/hz;
+    new-instance v1, Lcom/tencent/mm/protocal/b/HZclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/hz;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/HZclz;-><init>()V
 
     .line 40
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -113,16 +113,16 @@
     move-result-object v3
 
     .line 42
-    new-instance v4, Lcom/tencent/mm/protocal/b/hy;
+    new-instance v4, Lcom/tencent/mm/protocal/b/HYclz;
 
-    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/hy;-><init>()V
+    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/HYclz;-><init>()V
 
     .line 43
     invoke-virtual {v0}, Lcom/tencent/mm/ae/b$q;->getCmdId()I
 
     move-result v0
 
-    iput v0, v4, Lcom/tencent/mm/protocal/b/hy;->itD:I
+    iput v0, v4, Lcom/tencent/mm/protocal/b/HYclz;->itD:I
 
     .line 44
     new-instance v0, Lcom/tencent/mm/protocal/b/ajy;
@@ -133,10 +133,10 @@
 
     move-result-object v0
 
-    iput-object v0, v4, Lcom/tencent/mm/protocal/b/hy;->itE:Lcom/tencent/mm/protocal/b/ajy;
+    iput-object v0, v4, Lcom/tencent/mm/protocal/b/HYclz;->itE:Lcom/tencent/mm/protocal/b/ajy;
 
     .line 45
-    iget-object v0, v1, Lcom/tencent/mm/protocal/b/hz;->inj:Ljava/util/LinkedList;
+    iget-object v0, v1, Lcom/tencent/mm/protocal/b/HZclz;->inj:Ljava/util/LinkedList;
 
     invoke-virtual {v0, v4}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
@@ -148,7 +148,7 @@
 
     move-result v0
 
-    iput v0, v1, Lcom/tencent/mm/protocal/b/hz;->fxn:I
+    iput v0, v1, Lcom/tencent/mm/protocal/b/HZclz;->fxn:I
 
     .line 48
     const-string/jumbo v0, "!32@/B4Tb64lLpK+IBX8XDgnvtP52Ter6EuV"

@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/protocal/bclass;
-.super Lcom/tencent/mm/protocal/d;
+.super Lcom/tencent/mm/protocal/Dclz;
 .source "SourceFile"
 
 

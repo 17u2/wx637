@@ -28,14 +28,14 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 21
-    new-instance v1, Lcom/tencent/mm/protocal/b/ro;
+    new-instance v1, Lcom/tencent/mm/protocal/b/ROclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ro;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ROclz;-><init>()V
 
     .line 22
-    new-instance v2, Lcom/tencent/mm/protocal/b/rp;
+    new-instance v2, Lcom/tencent/mm/protocal/b/RPclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/rp;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/RPclz;-><init>()V
 
     .line 23
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
@@ -60,27 +60,27 @@
     iput v3, v0, Lcom/tencent/mm/q/a$a;->bxP:I
 
     .line 29
-    iput p1, v1, Lcom/tencent/mm/protocal/b/ro;->ijq:I
+    iput p1, v1, Lcom/tencent/mm/protocal/b/ROclz;->ijq:I
 
     .line 30
-    iput-object p2, v1, Lcom/tencent/mm/protocal/b/ro;->iDt:Ljava/lang/String;
+    iput-object p2, v1, Lcom/tencent/mm/protocal/b/ROclz;->iDt:Ljava/lang/String;
 
     .line 31
     invoke-static {p3}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    iput-object v2, v1, Lcom/tencent/mm/protocal/b/ro;->iDu:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/protocal/b/ROclz;->iDu:Ljava/lang/String;
 
     .line 32
     invoke-static {p4}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    iput-object v2, v1, Lcom/tencent/mm/protocal/b/ro;->iDv:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/protocal/b/ROclz;->iDv:Ljava/lang/String;
 
     .line 33
-    iput p5, v1, Lcom/tencent/mm/protocal/b/ro;->iDw:I
+    iput p5, v1, Lcom/tencent/mm/protocal/b/ROclz;->iDw:I
 
     .line 34
     invoke-virtual {v0}, Lcom/tencent/mm/q/a$a;->vl()Lcom/tencent/mm/q/a;

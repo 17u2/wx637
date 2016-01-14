@@ -130,19 +130,19 @@
 
     .line 440
     :cond_1
-    new-instance v3, Lcom/tencent/mm/protocal/b/eu;
+    new-instance v3, Lcom/tencent/mm/protocal/b/EUclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/eu;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/EUclz;-><init>()V
 
     .line 441
     invoke-static {}, Lcom/tencent/mm/ui/conversation/BizChatFavUI;->IX()Ljava/lang/String;
 
     move-result-object v4
 
-    iput-object v4, v3, Lcom/tencent/mm/protocal/b/eu;->ipw:Ljava/lang/String;
+    iput-object v4, v3, Lcom/tencent/mm/protocal/b/EUclz;->ipw:Ljava/lang/String;
 
     .line 442
-    iput-object v0, v3, Lcom/tencent/mm/protocal/b/eu;->ipq:Ljava/lang/String;
+    iput-object v0, v3, Lcom/tencent/mm/protocal/b/EUclz;->ipq:Ljava/lang/String;
 
     .line 444
     invoke-virtual {v1, v3}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z

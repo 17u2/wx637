@@ -32,16 +32,16 @@
     invoke-direct {v1}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 29
-    new-instance v2, Lcom/tencent/mm/protocal/b/xv;
+    new-instance v2, Lcom/tencent/mm/protocal/b/XVclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/xv;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/XVclz;-><init>()V
 
     iput-object v2, v1, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 30
-    new-instance v2, Lcom/tencent/mm/protocal/b/xw;
+    new-instance v2, Lcom/tencent/mm/protocal/b/XWclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/xw;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/XWclz;-><init>()V
 
     iput-object v2, v1, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -93,9 +93,9 @@
     if-ge v1, v0, :cond_0
 
     .line 40
-    new-instance v2, Lcom/tencent/mm/protocal/b/xu;
+    new-instance v2, Lcom/tencent/mm/protocal/b/XUclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/xu;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/XUclz;-><init>()V
 
     .line 41
     invoke-virtual {p1, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -104,7 +104,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    iput-object v0, v2, Lcom/tencent/mm/protocal/b/xu;->ioc:Ljava/lang/String;
+    iput-object v0, v2, Lcom/tencent/mm/protocal/b/XUclz;->ioc:Ljava/lang/String;
 
     .line 42
     iget-object v0, p0, Lcom/tencent/mm/y/b;->bHS:Ljava/util/LinkedList;
@@ -153,7 +153,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/xv;
+    check-cast v0, Lcom/tencent/mm/protocal/b/XVclz;
 
     .line 61
     iget-object v1, p0, Lcom/tencent/mm/y/b;->bHS:Ljava/util/LinkedList;
@@ -162,12 +162,12 @@
 
     move-result v1
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/xv;->fxn:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/XVclz;->fxn:I
 
     .line 62
     iget-object v1, p0, Lcom/tencent/mm/y/b;->bHS:Ljava/util/LinkedList;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/xv;->inj:Ljava/util/LinkedList;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/XVclz;->inj:Ljava/util/LinkedList;
 
     .line 63
     iget-object v0, p0, Lcom/tencent/mm/y/b;->ant:Lcom/tencent/mm/q/a;
@@ -256,7 +256,7 @@
     return v0
 .end method
 
-.method public final zy()Lcom/tencent/mm/protocal/b/xw;
+.method public final zy()Lcom/tencent/mm/protocal/b/XWclz;
     .locals 1
 
     .prologue
@@ -267,7 +267,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/xw;
+    check-cast v0, Lcom/tencent/mm/protocal/b/XWclz;
 
     .line 78
     return-object v0

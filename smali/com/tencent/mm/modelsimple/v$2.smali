@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic bTo:Lcom/tencent/mm/modelsimple/v;
 
-.field final synthetic bTq:Lcom/tencent/mm/protocal/v$b;
+.field final synthetic bTq:Lcom/tencent/mm/protocal/Vclz$b;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/modelsimple/v;Lcom/tencent/mm/protocal/v$b;)V
+.method constructor <init>(Lcom/tencent/mm/modelsimple/v;Lcom/tencent/mm/protocal/Vclz$b;)V
     .locals 1
 
     .prologue
     .line 335
     iput-object p1, p0, Lcom/tencent/mm/modelsimple/v$2;->bTo:Lcom/tencent/mm/modelsimple/v;
 
-    iput-object p2, p0, Lcom/tencent/mm/modelsimple/v$2;->bTq:Lcom/tencent/mm/protocal/v$b;
+    iput-object p2, p0, Lcom/tencent/mm/modelsimple/v$2;->bTq:Lcom/tencent/mm/protocal/Vclz$b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -64,13 +64,13 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/modelsimple/v$2;->bTq:Lcom/tencent/mm/protocal/v$b;
+    iget-object v1, p0, Lcom/tencent/mm/modelsimple/v$2;->bTq:Lcom/tencent/mm/protocal/Vclz$b;
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/v$b;->bZM:[B
+    iget-object v1, v1, Lcom/tencent/mm/protocal/Vclz$b;->bZM:[B
 
-    iget-object v2, p0, Lcom/tencent/mm/modelsimple/v$2;->bTq:Lcom/tencent/mm/protocal/v$b;
+    iget-object v2, p0, Lcom/tencent/mm/modelsimple/v$2;->bTq:Lcom/tencent/mm/protocal/Vclz$b;
 
-    iget-object v2, v2, Lcom/tencent/mm/protocal/v$b;->iit:Lcom/tencent/mm/protocal/b/adk;
+    iget-object v2, v2, Lcom/tencent/mm/protocal/Vclz$b;->iit:Lcom/tencent/mm/protocal/b/adk;
 
     iget v2, v2, Lcom/tencent/mm/protocal/b/adk;->dnq:I
 

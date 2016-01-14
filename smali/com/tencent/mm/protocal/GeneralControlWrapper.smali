@@ -140,7 +140,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/tencent/mm/protocal/b/og;)V
+.method public constructor <init>(Lcom/tencent/mm/protocal/b/OGclz;)V
     .locals 3
 
     .prologue
@@ -148,7 +148,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 24
-    iget v0, p1, Lcom/tencent/mm/protocal/b/og;->iAW:I
+    iget v0, p1, Lcom/tencent/mm/protocal/b/OGclz;->iAW:I
 
     iput v0, p0, Lcom/tencent/mm/protocal/GeneralControlWrapper;->ihy:I
 

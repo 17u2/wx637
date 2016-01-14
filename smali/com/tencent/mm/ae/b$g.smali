@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private bOZ:Lcom/tencent/mm/protocal/b/ns;
+.field private bOZ:Lcom/tencent/mm/protocal/b/NSclz;
 
 
 # direct methods
@@ -32,24 +32,24 @@
     invoke-direct {p0, v0}, Lcom/tencent/mm/ae/b$q;-><init>(I)V
 
     .line 602
-    new-instance v0, Lcom/tencent/mm/protocal/b/ns;
+    new-instance v0, Lcom/tencent/mm/protocal/b/NSclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/ns;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/NSclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ae/b$g;->bOZ:Lcom/tencent/mm/protocal/b/ns;
+    iput-object v0, p0, Lcom/tencent/mm/ae/b$g;->bOZ:Lcom/tencent/mm/protocal/b/NSclz;
 
     .line 603
-    iget-object v0, p0, Lcom/tencent/mm/ae/b$g;->bOZ:Lcom/tencent/mm/protocal/b/ns;
+    iget-object v0, p0, Lcom/tencent/mm/ae/b$g;->bOZ:Lcom/tencent/mm/protocal/b/NSclz;
 
-    iput p1, v0, Lcom/tencent/mm/protocal/b/ns;->iAx:I
+    iput p1, v0, Lcom/tencent/mm/protocal/b/NSclz;->iAx:I
 
     .line 604
-    iget-object v0, p0, Lcom/tencent/mm/ae/b$g;->bOZ:Lcom/tencent/mm/protocal/b/ns;
+    iget-object v0, p0, Lcom/tencent/mm/ae/b$g;->bOZ:Lcom/tencent/mm/protocal/b/NSclz;
 
-    iput p2, v0, Lcom/tencent/mm/protocal/b/ns;->iAy:I
+    iput p2, v0, Lcom/tencent/mm/protocal/b/NSclz;->iAy:I
 
     .line 605
-    iget-object v0, p0, Lcom/tencent/mm/ae/b$g;->bOZ:Lcom/tencent/mm/protocal/b/ns;
+    iget-object v0, p0, Lcom/tencent/mm/ae/b$g;->bOZ:Lcom/tencent/mm/protocal/b/NSclz;
 
     iput-object v0, p0, Lcom/tencent/mm/ae/b$q;->bPo:Lcom/tencent/mm/aq/a;
 

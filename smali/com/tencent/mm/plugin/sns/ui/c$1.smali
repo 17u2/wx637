@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final a(Ljava/util/List;Ljava/util/Map;Ljava/util/Map;IILcom/tencent/mm/protocal/b/bm;)V
+.method public final a(Ljava/util/List;Ljava/util/Map;Ljava/util/Map;IILcom/tencent/mm/protocal/b/BMclz;)V
     .locals 10
 
     .prologue
@@ -73,23 +73,23 @@
     .line 61
     :cond_1
     :try_start_0
-    new-instance v0, Lcom/tencent/mm/protocal/b/bm;
+    new-instance v0, Lcom/tencent/mm/protocal/b/BMclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/bm;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/BMclz;-><init>()V
 
-    invoke-virtual/range {p6 .. p6}, Lcom/tencent/mm/protocal/b/bm;->toByteArray()[B
+    invoke-virtual/range {p6 .. p6}, Lcom/tencent/mm/protocal/b/BMclz;->toByteArray()[B
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/protocal/b/bm;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/protocal/b/BMclz;->ak([B)Lcom/tencent/mm/aq/a;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/bm;
+    check-cast v0, Lcom/tencent/mm/protocal/b/BMclz;
 
     iget-object v1, v8, Lcom/tencent/mm/plugin/sns/ui/c;->gpS:Lcom/tencent/mm/plugin/sns/ui/c$a;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/plugin/sns/ui/c$a;->a(Lcom/tencent/mm/protocal/b/bm;)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/plugin/sns/ui/c$a;->a(Lcom/tencent/mm/protocal/b/BMclz;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

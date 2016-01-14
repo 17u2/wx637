@@ -1760,7 +1760,7 @@
 
     const/16 v3, 0x6a
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/protocal/z;->r(Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/protocal/Zclz;->r(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 454
     const/4 v1, 0x1
@@ -1786,7 +1786,7 @@
 
     const/16 v3, 0x6a
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/protocal/z;->r(Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/protocal/Zclz;->r(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 458
     const/4 v1, 0x1
@@ -4565,7 +4565,7 @@
 
     const/16 v3, 0x6a
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/protocal/z;->r(Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/protocal/Zclz;->r(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 981
     :cond_57
@@ -6964,7 +6964,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/protocal/c;->h(Landroid/content/Context;Z)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/protocal/Cclz;->h(Landroid/content/Context;Z)V
 
     .line 1457
     invoke-static/range {p0 .. p0}, Lcom/tencent/mm/ui/MMAppMgr;->ac(Landroid/content/Context;)V
@@ -8111,28 +8111,28 @@
     invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1673
-    new-instance v2, Lcom/tencent/mm/protocal/b/af;
+    new-instance v2, Lcom/tencent/mm/protocal/b/AFclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/af;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/AFclz;-><init>()V
 
     .line 1674
     invoke-static {v1}, Lcom/tencent/mm/platformtools/n;->jV(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/ajz;
 
     move-result-object v1
 
-    iput-object v1, v2, Lcom/tencent/mm/protocal/b/af;->ikx:Lcom/tencent/mm/protocal/b/ajz;
+    iput-object v1, v2, Lcom/tencent/mm/protocal/b/AFclz;->ikx:Lcom/tencent/mm/protocal/b/ajz;
 
     .line 1675
     const/16 v1, 0x2712
 
-    iput v1, v2, Lcom/tencent/mm/protocal/b/af;->ikw:I
+    iput v1, v2, Lcom/tencent/mm/protocal/b/AFclz;->ikw:I
 
     .line 1676
     invoke-static {}, Lcom/tencent/mm/model/ah;->tg()Lcom/tencent/mm/model/bb;
 
     move-result-object v1
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/model/bb;->b(Lcom/tencent/mm/protocal/b/af;)Lcom/tencent/mm/q/c$a;
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/model/bb;->b(Lcom/tencent/mm/protocal/b/AFclz;)Lcom/tencent/mm/q/c$a;
 
     .line 1677
     const/4 v1, 0x1

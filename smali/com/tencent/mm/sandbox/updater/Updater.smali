@@ -171,9 +171,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/va;
+    check-cast v0, Lcom/tencent/mm/protocal/b/VAclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/va;->iFL:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/VAclz;->iFL:Ljava/lang/String;
 
     invoke-virtual {p1, v1, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -790,7 +790,7 @@
     if-lez v2, :cond_1
 
     :goto_1
-    invoke-static {v0}, Lcom/tencent/mm/protocal/k;->zc(Ljava/lang/String;)Ljava/util/List;
+    invoke-static {v0}, Lcom/tencent/mm/protocal/Kclz;->zc(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v3
 
@@ -814,9 +814,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/k;
+    check-cast v0, Lcom/tencent/mm/protocal/Kclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/k;->eqh:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/Kclz;->eqh:Ljava/lang/String;
 
     aput-object v0, v2, v1
 

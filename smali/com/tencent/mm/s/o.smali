@@ -360,7 +360,7 @@
     .line 131
     check-cast v0, Lcom/tencent/mm/s/ac;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/s/ac;->xl()Lcom/tencent/mm/protocal/b/yw;
+    invoke-virtual {v0}, Lcom/tencent/mm/s/ac;->xl()Lcom/tencent/mm/protocal/b/YWclz;
 
     move-result-object v0
 
@@ -402,11 +402,11 @@
     .line 137
     check-cast v0, Lcom/tencent/mm/s/ac;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/s/ac;->xl()Lcom/tencent/mm/protocal/b/yw;
+    invoke-virtual {v0}, Lcom/tencent/mm/s/ac;->xl()Lcom/tencent/mm/protocal/b/YWclz;
 
     move-result-object v0
 
-    iget-object v9, v0, Lcom/tencent/mm/protocal/b/yw;->iID:Ljava/util/LinkedList;
+    iget-object v9, v0, Lcom/tencent/mm/protocal/b/YWclz;->iID:Ljava/util/LinkedList;
 
     .line 138
     if-eqz v9, :cond_4
@@ -570,7 +570,7 @@
     .line 159
     check-cast v0, Lcom/tencent/mm/s/ad;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/s/ad;->xm()Lcom/tencent/mm/protocal/b/yy;
+    invoke-virtual {v0}, Lcom/tencent/mm/s/ad;->xm()Lcom/tencent/mm/protocal/b/YYclz;
 
     move-result-object v0
 
@@ -612,11 +612,11 @@
     .line 165
     check-cast v0, Lcom/tencent/mm/s/ad;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/s/ad;->xm()Lcom/tencent/mm/protocal/b/yy;
+    invoke-virtual {v0}, Lcom/tencent/mm/s/ad;->xm()Lcom/tencent/mm/protocal/b/YYclz;
 
     move-result-object v0
 
-    iget-object v9, v0, Lcom/tencent/mm/protocal/b/yy;->iID:Ljava/util/LinkedList;
+    iget-object v9, v0, Lcom/tencent/mm/protocal/b/YYclz;->iID:Ljava/util/LinkedList;
 
     .line 166
     if-eqz v9, :cond_b
@@ -752,7 +752,7 @@
     .line 186
     check-cast v0, Lcom/tencent/mm/s/ab;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/s/ab;->xk()Lcom/tencent/mm/protocal/b/yv;
+    invoke-virtual {v0}, Lcom/tencent/mm/s/ab;->xk()Lcom/tencent/mm/protocal/b/YVclz;
 
     move-result-object v0
 
@@ -794,11 +794,11 @@
     .line 192
     check-cast v0, Lcom/tencent/mm/s/ab;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/s/ab;->xk()Lcom/tencent/mm/protocal/b/yv;
+    invoke-virtual {v0}, Lcom/tencent/mm/s/ab;->xk()Lcom/tencent/mm/protocal/b/YVclz;
 
     move-result-object v0
 
-    iget-object v9, v0, Lcom/tencent/mm/protocal/b/yv;->iID:Ljava/util/LinkedList;
+    iget-object v9, v0, Lcom/tencent/mm/protocal/b/YVclz;->iID:Ljava/util/LinkedList;
 
     .line 193
     if-eqz v9, :cond_11

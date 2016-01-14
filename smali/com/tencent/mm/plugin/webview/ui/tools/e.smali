@@ -288,15 +288,15 @@
 
     invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    new-instance v1, Lcom/tencent/mm/protocal/b/og;
+    new-instance v1, Lcom/tencent/mm/protocal/b/OGclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/og;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/OGclz;-><init>()V
 
-    iput v0, v1, Lcom/tencent/mm/protocal/b/og;->iAW:I
+    iput v0, v1, Lcom/tencent/mm/protocal/b/OGclz;->iAW:I
 
     new-instance v0, Lcom/tencent/mm/protocal/GeneralControlWrapper;
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/protocal/GeneralControlWrapper;-><init>(Lcom/tencent/mm/protocal/b/og;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/protocal/GeneralControlWrapper;-><init>(Lcom/tencent/mm/protocal/b/OGclz;)V
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/e;->hCz:Lcom/tencent/mm/protocal/GeneralControlWrapper;
     :try_end_2

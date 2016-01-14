@@ -13,7 +13,7 @@
 
 
 # virtual methods
-.method public abstract b(Lcom/tencent/mm/protocal/b/af;)Lcom/tencent/mm/q/c$a;
+.method public abstract b(Lcom/tencent/mm/protocal/b/AFclz;)Lcom/tencent/mm/q/c$a;
 .end method
 
 .method public abstract d(Lcom/tencent/mm/storage/ad;)V

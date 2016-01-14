@@ -28,16 +28,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 29
-    new-instance v1, Lcom/tencent/mm/protocal/b/n;
+    new-instance v1, Lcom/tencent/mm/protocal/b/Nclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/n;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/Nclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 30
-    new-instance v1, Lcom/tencent/mm/protocal/b/o;
+    new-instance v1, Lcom/tencent/mm/protocal/b/Oclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/o;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/Oclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -147,19 +147,19 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/n;
+    check-cast v0, Lcom/tencent/mm/protocal/b/Nclz;
 
     .line 42
-    iput p2, v0, Lcom/tencent/mm/protocal/b/n;->bTE:I
+    iput p2, v0, Lcom/tencent/mm/protocal/b/Nclz;->bTE:I
 
     .line 43
-    iput-object p1, v0, Lcom/tencent/mm/protocal/b/n;->bTB:Ljava/lang/String;
+    iput-object p1, v0, Lcom/tencent/mm/protocal/b/Nclz;->bTB:Ljava/lang/String;
 
     .line 44
-    iput p3, v0, Lcom/tencent/mm/protocal/b/n;->arG:I
+    iput p3, v0, Lcom/tencent/mm/protocal/b/Nclz;->arG:I
 
     .line 45
-    iput-object p4, v0, Lcom/tencent/mm/protocal/b/n;->ijI:Ljava/lang/String;
+    iput-object p4, v0, Lcom/tencent/mm/protocal/b/Nclz;->ijI:Ljava/lang/String;
 
     .line 46
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
@@ -196,7 +196,7 @@
 
     move-result-object v2
 
-    iput-object v2, v0, Lcom/tencent/mm/protocal/b/n;->bssid:Ljava/lang/String;
+    iput-object v2, v0, Lcom/tencent/mm/protocal/b/Nclz;->bssid:Ljava/lang/String;
 
     .line 51
     invoke-virtual {v1}, Landroid/net/wifi/WifiInfo;->getSSID()Ljava/lang/String;
@@ -209,7 +209,7 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/n;->ssid:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/Nclz;->ssid:Ljava/lang/String;
 
     .line 54
     :cond_1
@@ -217,10 +217,10 @@
 
     move-result-wide v1
 
-    iput-wide v1, v0, Lcom/tencent/mm/protocal/b/n;->ijJ:J
+    iput-wide v1, v0, Lcom/tencent/mm/protocal/b/Nclz;->ijJ:J
 
     .line 55
-    iput p5, v0, Lcom/tencent/mm/protocal/b/n;->ijL:I
+    iput p5, v0, Lcom/tencent/mm/protocal/b/Nclz;->ijL:I
 
     .line 56
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z

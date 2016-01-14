@@ -22,11 +22,11 @@
 
 .field final synthetic bTb:Lcom/tencent/mm/protocal/b/art;
 
-.field final synthetic bTc:Lcom/tencent/mm/protocal/g$d;
+.field final synthetic bTc:Lcom/tencent/mm/protocal/Gclz$d;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/modelsimple/t;Lcom/tencent/mm/protocal/b/art;Lcom/tencent/mm/protocal/g$d;)V
+.method constructor <init>(Lcom/tencent/mm/modelsimple/t;Lcom/tencent/mm/protocal/b/art;Lcom/tencent/mm/protocal/Gclz$d;)V
     .locals 1
 
     .prologue
@@ -35,7 +35,7 @@
 
     iput-object p2, p0, Lcom/tencent/mm/modelsimple/t$3;->bTb:Lcom/tencent/mm/protocal/b/art;
 
-    iput-object p3, p0, Lcom/tencent/mm/modelsimple/t$3;->bTc:Lcom/tencent/mm/protocal/g$d;
+    iput-object p3, p0, Lcom/tencent/mm/modelsimple/t$3;->bTc:Lcom/tencent/mm/protocal/Gclz$d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -74,10 +74,10 @@
     .line 421
     iget-object v0, p0, Lcom/tencent/mm/modelsimple/t$3;->bTb:Lcom/tencent/mm/protocal/b/art;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/art;->iXQ:Lcom/tencent/mm/protocal/b/bt;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/art;->iXQ:Lcom/tencent/mm/protocal/b/BTclz;
 
     .line 422
-    iget v0, v0, Lcom/tencent/mm/protocal/b/bt;->imm:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/BTclz;->imm:I
 
     .line 424
     and-int/lit8 v1, v0, 0x8
@@ -94,27 +94,27 @@
     const/4 v0, 0x4
 
     .line 433
-    iget-object v1, p0, Lcom/tencent/mm/modelsimple/t$3;->bTc:Lcom/tencent/mm/protocal/g$d;
+    iget-object v1, p0, Lcom/tencent/mm/modelsimple/t$3;->bTc:Lcom/tencent/mm/protocal/Gclz$d;
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/g$d;->ihF:Lcom/tencent/mm/protocal/b/abh;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/Gclz$d;->ihF:Lcom/tencent/mm/protocal/b/abh;
 
     iget-object v1, v1, Lcom/tencent/mm/protocal/b/abh;->iKK:Lcom/tencent/mm/protocal/b/abg;
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/abg;->imn:Lcom/tencent/mm/protocal/b/cw;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/abg;->imn:Lcom/tencent/mm/protocal/b/CWclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/cw;->inz:Lcom/tencent/mm/protocal/b/ajy;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/CWclz;->inz:Lcom/tencent/mm/protocal/b/ajy;
 
     if-eqz v1, :cond_2
 
-    iget-object v1, p0, Lcom/tencent/mm/modelsimple/t$3;->bTc:Lcom/tencent/mm/protocal/g$d;
+    iget-object v1, p0, Lcom/tencent/mm/modelsimple/t$3;->bTc:Lcom/tencent/mm/protocal/Gclz$d;
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/g$d;->ihF:Lcom/tencent/mm/protocal/b/abh;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/Gclz$d;->ihF:Lcom/tencent/mm/protocal/b/abh;
 
     iget-object v1, v1, Lcom/tencent/mm/protocal/b/abh;->iKK:Lcom/tencent/mm/protocal/b/abg;
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/abg;->imn:Lcom/tencent/mm/protocal/b/cw;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/abg;->imn:Lcom/tencent/mm/protocal/b/CWclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/cw;->inz:Lcom/tencent/mm/protocal/b/ajy;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/CWclz;->inz:Lcom/tencent/mm/protocal/b/ajy;
 
     iget v1, v1, Lcom/tencent/mm/protocal/b/ajy;->iSu:I
 
@@ -125,9 +125,9 @@
     .line 438
     :cond_0
     :goto_1
-    iget-object v1, p0, Lcom/tencent/mm/modelsimple/t$3;->bTc:Lcom/tencent/mm/protocal/g$d;
+    iget-object v1, p0, Lcom/tencent/mm/modelsimple/t$3;->bTc:Lcom/tencent/mm/protocal/Gclz$d;
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/g$d;->ihF:Lcom/tencent/mm/protocal/b/abh;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/Gclz$d;->ihF:Lcom/tencent/mm/protocal/b/abh;
 
     iget-object v1, v1, Lcom/tencent/mm/protocal/b/abh;->iKJ:Lcom/tencent/mm/protocal/b/abi;
 
@@ -169,9 +169,9 @@
 
     .line 435
     :cond_2
-    iget-object v1, p0, Lcom/tencent/mm/modelsimple/t$3;->bTc:Lcom/tencent/mm/protocal/g$d;
+    iget-object v1, p0, Lcom/tencent/mm/modelsimple/t$3;->bTc:Lcom/tencent/mm/protocal/Gclz$d;
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/g$d;->ihF:Lcom/tencent/mm/protocal/b/abh;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/Gclz$d;->ihF:Lcom/tencent/mm/protocal/b/abh;
 
     iget-object v1, v1, Lcom/tencent/mm/protocal/b/abh;->iKK:Lcom/tencent/mm/protocal/b/abg;
 

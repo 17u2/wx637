@@ -22,7 +22,7 @@
 
 .field private dyg:Landroid/view/View;
 
-.field private gqf:Lcom/tencent/mm/protocal/b/bm;
+.field private gqf:Lcom/tencent/mm/protocal/b/BMclz;
 
 .field private gqk:Lcom/tencent/mm/plugin/sns/ui/ArtistHeader$b;
 
@@ -42,7 +42,7 @@
     invoke-direct {p0, p1}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
     .line 25
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->gqf:Lcom/tencent/mm/protocal/b/bm;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->gqf:Lcom/tencent/mm/protocal/b/BMclz;
 
     .line 27
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->dHP:Lcom/tencent/mm/ui/base/h;
@@ -74,7 +74,7 @@
     invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 25
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->gqf:Lcom/tencent/mm/protocal/b/bm;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->gqf:Lcom/tencent/mm/protocal/b/BMclz;
 
     .line 27
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->dHP:Lcom/tencent/mm/ui/base/h;
@@ -146,12 +146,12 @@
     return-object p1
 .end method
 
-.method static synthetic b(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;)Lcom/tencent/mm/protocal/b/bm;
+.method static synthetic b(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;)Lcom/tencent/mm/protocal/b/BMclz;
     .locals 1
 
     .prologue
     .line 22
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->gqf:Lcom/tencent/mm/protocal/b/bm;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->gqf:Lcom/tencent/mm/protocal/b/BMclz;
 
     return-object v0
 .end method
@@ -270,7 +270,7 @@
 
     .prologue
     .line 146
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->gqf:Lcom/tencent/mm/protocal/b/bm;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->gqf:Lcom/tencent/mm/protocal/b/BMclz;
 
     if-nez v0, :cond_1
 
@@ -297,11 +297,11 @@
     if-nez p2, :cond_0
 
     .line 151
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->gqf:Lcom/tencent/mm/protocal/b/bm;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->gqf:Lcom/tencent/mm/protocal/b/BMclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/bm;->ilM:Lcom/tencent/mm/protocal/b/bn;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/BMclz;->ilM:Lcom/tencent/mm/protocal/b/BNclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/bn;->ilN:Lcom/tencent/mm/protocal/b/abp;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/BNclz;->ilN:Lcom/tencent/mm/protocal/b/abp;
 
     .line 152
     iget-object v1, v0, Lcom/tencent/mm/protocal/b/abp;->ikW:Ljava/lang/String;
@@ -362,7 +362,7 @@
     return-void
 .end method
 
-.method public setUserName(Lcom/tencent/mm/protocal/b/bm;)V
+.method public setUserName(Lcom/tencent/mm/protocal/b/BMclz;)V
     .locals 5
 
     .prologue
@@ -382,16 +382,16 @@
 
     .line 119
     :cond_0
-    iput-object p1, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->gqf:Lcom/tencent/mm/protocal/b/bm;
+    iput-object p1, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->gqf:Lcom/tencent/mm/protocal/b/BMclz;
 
     .line 120
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atu()Lcom/tencent/mm/plugin/sns/d/g;
 
     move-result-object v0
 
-    iget-object v1, p1, Lcom/tencent/mm/protocal/b/bm;->ilM:Lcom/tencent/mm/protocal/b/bn;
+    iget-object v1, p1, Lcom/tencent/mm/protocal/b/BMclz;->ilM:Lcom/tencent/mm/protocal/b/BNclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/bn;->ilN:Lcom/tencent/mm/protocal/b/abp;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/BNclz;->ilN:Lcom/tencent/mm/protocal/b/abp;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->gqk:Lcom/tencent/mm/plugin/sns/ui/ArtistHeader$b;
 
@@ -412,7 +412,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader$b;->gqp:Landroid/widget/TextView;
 
-    iget-object v1, p1, Lcom/tencent/mm/protocal/b/bm;->dQP:Ljava/lang/String;
+    iget-object v1, p1, Lcom/tencent/mm/protocal/b/BMclz;->dQP:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -421,7 +421,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader$b;->cpk:Landroid/widget/TextView;
 
-    iget-object v1, p1, Lcom/tencent/mm/protocal/b/bm;->ilL:Ljava/lang/String;
+    iget-object v1, p1, Lcom/tencent/mm/protocal/b/BMclz;->ilL:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -430,7 +430,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader$b;->etq:Landroid/widget/TextView;
 
-    iget-object v1, p1, Lcom/tencent/mm/protocal/b/bm;->asn:Ljava/lang/String;
+    iget-object v1, p1, Lcom/tencent/mm/protocal/b/BMclz;->asn:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -439,7 +439,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader$b;->gqq:Landroid/widget/TextView;
 
-    iget-object v1, p1, Lcom/tencent/mm/protocal/b/bm;->ilK:Ljava/lang/String;
+    iget-object v1, p1, Lcom/tencent/mm/protocal/b/BMclz;->ilK:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 

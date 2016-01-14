@@ -584,7 +584,7 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 88
-    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v0
 
@@ -602,7 +602,7 @@
     check-cast v1, Lcom/tencent/mm/protocal/b/aoa;
 
     .line 91
-    iget v0, v0, Lcom/tencent/mm/protocal/h$d;->ihR:I
+    iget v0, v0, Lcom/tencent/mm/protocal/Hclz$d;->ihR:I
 
     if-eqz v0, :cond_0
 

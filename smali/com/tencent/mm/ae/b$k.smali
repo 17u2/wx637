@@ -67,9 +67,9 @@
     iput-object v0, p0, Lcom/tencent/mm/ae/b$k;->bPe:Lcom/tencent/mm/protocal/b/ach;
 
     .line 481
-    new-instance v3, Lcom/tencent/mm/protocal/b/jv;
+    new-instance v3, Lcom/tencent/mm/protocal/b/JVclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/jv;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/JVclz;-><init>()V
 
     .line 482
     if-eqz p1, :cond_2
@@ -77,7 +77,7 @@
     move v0, v1
 
     :goto_0
-    iput v0, v3, Lcom/tencent/mm/protocal/b/jv;->iuM:I
+    iput v0, v3, Lcom/tencent/mm/protocal/b/JVclz;->iuM:I
 
     .line 483
     if-eqz p1, :cond_0
@@ -85,35 +85,35 @@
     move v1, v2
 
     :cond_0
-    iput v1, v3, Lcom/tencent/mm/protocal/b/jv;->iuO:I
+    iput v1, v3, Lcom/tencent/mm/protocal/b/JVclz;->iuO:I
 
     .line 484
-    new-instance v0, Lcom/tencent/mm/protocal/b/jw;
+    new-instance v0, Lcom/tencent/mm/protocal/b/JWclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/jw;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/JWclz;-><init>()V
 
     .line 485
-    iput p2, v0, Lcom/tencent/mm/protocal/b/jw;->iuQ:I
+    iput p2, v0, Lcom/tencent/mm/protocal/b/JWclz;->iuQ:I
 
     .line 486
-    iput p3, v0, Lcom/tencent/mm/protocal/b/jw;->iuR:I
+    iput p3, v0, Lcom/tencent/mm/protocal/b/JWclz;->iuR:I
 
     .line 487
-    iput-object v0, v3, Lcom/tencent/mm/protocal/b/jv;->iuN:Lcom/tencent/mm/protocal/b/jw;
+    iput-object v0, v3, Lcom/tencent/mm/protocal/b/JVclz;->iuN:Lcom/tencent/mm/protocal/b/JWclz;
 
     .line 488
-    iput v2, v0, Lcom/tencent/mm/protocal/b/jw;->iuQ:I
+    iput v2, v0, Lcom/tencent/mm/protocal/b/JWclz;->iuQ:I
 
     .line 489
-    iput v2, v0, Lcom/tencent/mm/protocal/b/jw;->iuR:I
+    iput v2, v0, Lcom/tencent/mm/protocal/b/JWclz;->iuR:I
 
     .line 490
-    iput-object v0, v3, Lcom/tencent/mm/protocal/b/jv;->iuP:Lcom/tencent/mm/protocal/b/jw;
+    iput-object v0, v3, Lcom/tencent/mm/protocal/b/JVclz;->iuP:Lcom/tencent/mm/protocal/b/JWclz;
 
     .line 491
     iget-object v0, p0, Lcom/tencent/mm/ae/b$k;->bPe:Lcom/tencent/mm/protocal/b/ach;
 
-    iput-object v3, v0, Lcom/tencent/mm/protocal/b/ach;->iMx:Lcom/tencent/mm/protocal/b/jv;
+    iput-object v3, v0, Lcom/tencent/mm/protocal/b/ach;->iMx:Lcom/tencent/mm/protocal/b/JVclz;
 
     .line 492
     iget-object v0, p0, Lcom/tencent/mm/ae/b$k;->bPe:Lcom/tencent/mm/protocal/b/ach;

@@ -124,34 +124,34 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/tencent/mm/protocal/b/hy;
+    check-cast v2, Lcom/tencent/mm/protocal/b/HYclz;
 
     .line 658
-    iget-object v8, v2, Lcom/tencent/mm/protocal/b/hy;->itE:Lcom/tencent/mm/protocal/b/ajy;
+    iget-object v8, v2, Lcom/tencent/mm/protocal/b/HYclz;->itE:Lcom/tencent/mm/protocal/b/ajy;
 
     invoke-static {v8}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajy;)[B
 
     move-result-object v8
 
     .line 659
-    iget v2, v2, Lcom/tencent/mm/protocal/b/hy;->itD:I
+    iget v2, v2, Lcom/tencent/mm/protocal/b/HYclz;->itD:I
 
     if-ne v2, v11, :cond_1
 
     .line 661
     :try_start_0
-    new-instance v2, Lcom/tencent/mm/protocal/b/af;
+    new-instance v2, Lcom/tencent/mm/protocal/b/AFclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/af;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/AFclz;-><init>()V
 
-    invoke-virtual {v2, v8}, Lcom/tencent/mm/protocal/b/af;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v2, v8}, Lcom/tencent/mm/protocal/b/AFclz;->ak([B)Lcom/tencent/mm/aq/a;
 
     move-result-object v2
 
-    check-cast v2, Lcom/tencent/mm/protocal/b/af;
+    check-cast v2, Lcom/tencent/mm/protocal/b/AFclz;
 
     .line 662
-    iget-object v2, v2, Lcom/tencent/mm/protocal/b/af;->iku:Lcom/tencent/mm/protocal/b/ajz;
+    iget-object v2, v2, Lcom/tencent/mm/protocal/b/AFclz;->iku:Lcom/tencent/mm/protocal/b/ajz;
 
     invoke-virtual {v2}, Lcom/tencent/mm/protocal/b/ajz;->toString()Ljava/lang/String;
 

@@ -55,7 +55,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/protocal/c;->cJ(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/tencent/mm/protocal/Cclz;->cJ(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -211,7 +211,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/protocal/c;->cJ(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/tencent/mm/protocal/Cclz;->cJ(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -379,7 +379,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/protocal/c;->cJ(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/tencent/mm/protocal/Cclz;->cJ(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -476,7 +476,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/protocal/c;->cJ(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/tencent/mm/protocal/Cclz;->cJ(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -631,7 +631,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/protocal/c;->cJ(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/tencent/mm/protocal/Cclz;->cJ(Landroid/content/Context;)Z
 
     move-result v0
 

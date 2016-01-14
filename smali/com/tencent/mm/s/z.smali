@@ -28,16 +28,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 25
-    new-instance v1, Lcom/tencent/mm/protocal/b/po;
+    new-instance v1, Lcom/tencent/mm/protocal/b/POclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/po;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/POclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 26
-    new-instance v1, Lcom/tencent/mm/protocal/b/pp;
+    new-instance v1, Lcom/tencent/mm/protocal/b/PPclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/pp;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/PPclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -71,10 +71,10 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/po;
+    check-cast v0, Lcom/tencent/mm/protocal/b/POclz;
 
     .line 34
-    iput-object p1, v0, Lcom/tencent/mm/protocal/b/po;->iBY:Ljava/util/LinkedList;
+    iput-object p1, v0, Lcom/tencent/mm/protocal/b/POclz;->iBY:Ljava/util/LinkedList;
 
     .line 35
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z

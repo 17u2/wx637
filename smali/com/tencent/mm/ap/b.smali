@@ -99,14 +99,14 @@
 
     .line 39
     :try_start_0
-    new-instance v2, Lcom/tencent/mm/protocal/b/we;
+    new-instance v2, Lcom/tencent/mm/protocal/b/WEclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/we;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/WEclz;-><init>()V
 
     .line 40
     const-string/jumbo v0, ""
 
-    iput-object v0, v2, Lcom/tencent/mm/protocal/b/we;->iGG:Ljava/lang/String;
+    iput-object v0, v2, Lcom/tencent/mm/protocal/b/WEclz;->iGG:Ljava/lang/String;
 
     .line 41
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
@@ -134,7 +134,7 @@
     aget-object v5, v3, v0
 
     .line 43
-    iget-object v6, v2, Lcom/tencent/mm/protocal/b/we;->iGG:Ljava/lang/String;
+    iget-object v6, v2, Lcom/tencent/mm/protocal/b/WEclz;->iGG:Ljava/lang/String;
 
     invoke-static {v6}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -162,7 +162,7 @@
     .line 45
     iget-object v5, v5, Landroid/accounts/Account;->name:Ljava/lang/String;
 
-    iput-object v5, v2, Lcom/tencent/mm/protocal/b/we;->iGG:Ljava/lang/String;
+    iput-object v5, v2, Lcom/tencent/mm/protocal/b/WEclz;->iGG:Ljava/lang/String;
 
     .line 42
     add-int/lit8 v0, v0, 0x1
@@ -182,11 +182,11 @@
     .line 52
     const-string/jumbo v0, "rssjbbk@gmail.com"
 
-    iput-object v0, v2, Lcom/tencent/mm/protocal/b/we;->iGG:Ljava/lang/String;
+    iput-object v0, v2, Lcom/tencent/mm/protocal/b/WEclz;->iGG:Ljava/lang/String;
 
     .line 54
     :cond_3
-    iget-object v0, v2, Lcom/tencent/mm/protocal/b/we;->iGG:Ljava/lang/String;
+    iget-object v0, v2, Lcom/tencent/mm/protocal/b/WEclz;->iGG:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 

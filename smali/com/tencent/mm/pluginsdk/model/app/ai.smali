@@ -514,9 +514,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/us;
+    check-cast v0, Lcom/tencent/mm/protocal/b/USclz;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/us;->iFx:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/USclz;->iFx:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

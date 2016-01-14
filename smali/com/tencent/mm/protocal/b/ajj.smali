@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field public iRV:Lcom/tencent/mm/protocal/b/cx;
+.field public iRV:Lcom/tencent/mm/protocal/b/CXclz;
 
 
 # direct methods

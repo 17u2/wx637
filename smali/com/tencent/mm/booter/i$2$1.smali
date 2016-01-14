@@ -65,25 +65,25 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ph;
+    check-cast v0, Lcom/tencent/mm/protocal/b/PHclz;
 
     .line 106
-    iget v1, v0, Lcom/tencent/mm/protocal/b/ph;->aGQ:I
+    iget v1, v0, Lcom/tencent/mm/protocal/b/PHclz;->aGQ:I
 
     if-nez v1, :cond_3
 
     .line 107
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/ph;->iBS:Lcom/tencent/mm/protocal/b/xh;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/PHclz;->iBS:Lcom/tencent/mm/protocal/b/XHclz;
 
     .line 108
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/ph;->iBU:Lcom/tencent/mm/protocal/b/xc;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/PHclz;->iBU:Lcom/tencent/mm/protocal/b/XCclz;
 
     .line 109
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v3, v1, Lcom/tencent/mm/protocal/b/xh;->title:Ljava/lang/String;
+    iget-object v3, v1, Lcom/tencent/mm/protocal/b/XHclz;->title:Ljava/lang/String;
 
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -95,7 +95,7 @@
 
     move-result-object v0
 
-    iget-object v3, v1, Lcom/tencent/mm/protocal/b/xh;->asj:Ljava/lang/String;
+    iget-object v3, v1, Lcom/tencent/mm/protocal/b/XHclz;->asj:Ljava/lang/String;
 
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -107,7 +107,7 @@
 
     move-result-object v0
 
-    iget-object v3, v1, Lcom/tencent/mm/protocal/b/xh;->iHx:Ljava/lang/String;
+    iget-object v3, v1, Lcom/tencent/mm/protocal/b/XHclz;->iHx:Ljava/lang/String;
 
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -119,7 +119,7 @@
 
     move-result-object v0
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/xh;->iHy:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/XHclz;->iHy:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -131,7 +131,7 @@
 
     move-result-object v0
 
-    iget-object v1, v2, Lcom/tencent/mm/protocal/b/xc;->dQt:Ljava/lang/String;
+    iget-object v1, v2, Lcom/tencent/mm/protocal/b/XCclz;->dQt:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -143,7 +143,7 @@
 
     move-result-object v0
 
-    iget v1, v2, Lcom/tencent/mm/protocal/b/xc;->major:I
+    iget v1, v2, Lcom/tencent/mm/protocal/b/XCclz;->major:I
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -155,7 +155,7 @@
 
     move-result-object v0
 
-    iget v1, v2, Lcom/tencent/mm/protocal/b/xc;->minor:I
+    iget v1, v2, Lcom/tencent/mm/protocal/b/XCclz;->minor:I
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -225,19 +225,19 @@
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v8, v2, Lcom/tencent/mm/protocal/b/xc;->dQt:Ljava/lang/String;
+    iget-object v8, v2, Lcom/tencent/mm/protocal/b/XCclz;->dQt:Ljava/lang/String;
 
     invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v7
 
-    iget v8, v2, Lcom/tencent/mm/protocal/b/xc;->major:I
+    iget v8, v2, Lcom/tencent/mm/protocal/b/XCclz;->major:I
 
     invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     move-result-object v7
 
-    iget v8, v2, Lcom/tencent/mm/protocal/b/xc;->minor:I
+    iget v8, v2, Lcom/tencent/mm/protocal/b/XCclz;->minor:I
 
     invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 

@@ -4740,11 +4740,11 @@
 
     const/4 v0, 0x0
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/protocal/c;->h(Landroid/content/Context;Z)V
+    invoke-static {p0, v0}, Lcom/tencent/mm/protocal/Cclz;->h(Landroid/content/Context;Z)V
 
     const/4 v0, 0x0
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/protocal/c;->i(Landroid/content/Context;Z)V
+    invoke-static {p0, v0}, Lcom/tencent/mm/protocal/Cclz;->i(Landroid/content/Context;Z)V
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -10505,7 +10505,7 @@
 
     invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/aa;->AJ(Ljava/lang/String;)V
 
-    invoke-static {p0, v1}, Lcom/tencent/mm/protocal/c;->h(Landroid/content/Context;Z)V
+    invoke-static {p0, v1}, Lcom/tencent/mm/protocal/Cclz;->h(Landroid/content/Context;Z)V
 
     invoke-static {}, Lcom/tencent/mm/ui/MMAppMgr;->kT()V
 

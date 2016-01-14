@@ -715,31 +715,31 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/aph;
 
     .line 166
-    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v1
 
-    iget v1, v1, Lcom/tencent/mm/protocal/h$d;->ihR:I
+    iget v1, v1, Lcom/tencent/mm/protocal/Hclz$d;->ihR:I
 
     const/16 v2, 0xcf
 
     if-eq v1, v2, :cond_0
 
-    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v1
 
-    iget v1, v1, Lcom/tencent/mm/protocal/h$d;->ihR:I
+    iget v1, v1, Lcom/tencent/mm/protocal/Hclz$d;->ihR:I
 
     const/16 v2, 0xcb
 
     if-eq v1, v2, :cond_0
 
-    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v1
 
-    iget v1, v1, Lcom/tencent/mm/protocal/h$d;->ihR:I
+    iget v1, v1, Lcom/tencent/mm/protocal/Hclz$d;->ihR:I
 
     if-eqz v1, :cond_0
 
@@ -843,11 +843,11 @@
     if-eqz v1, :cond_2
 
     .line 181
-    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v0
 
-    iget v0, v0, Lcom/tencent/mm/protocal/h$d;->ihR:I
+    iget v0, v0, Lcom/tencent/mm/protocal/Hclz$d;->ihR:I
 
     const/16 v1, 0xcb
 
@@ -993,11 +993,11 @@
     invoke-virtual {v1, v3, v4}, Lcom/tencent/mm/plugin/sns/h/j;->bm(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 214
-    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v1
 
-    iget v1, v1, Lcom/tencent/mm/protocal/h$d;->ihR:I
+    iget v1, v1, Lcom/tencent/mm/protocal/Hclz$d;->ihR:I
 
     const/16 v3, 0xcf
 

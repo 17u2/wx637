@@ -275,7 +275,7 @@
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;Lcom/tencent/mm/protocal/b/ex;)V
+.method public final a(Ljava/lang/String;Lcom/tencent/mm/protocal/b/EXclz;)V
     .locals 6
 
     .prologue
@@ -316,13 +316,13 @@
 
     const/4 v3, 0x1
 
-    iget-object v4, p2, Lcom/tencent/mm/protocal/b/ex;->ipx:Ljava/lang/String;
+    iget-object v4, p2, Lcom/tencent/mm/protocal/b/EXclz;->ipx:Ljava/lang/String;
 
     aput-object v4, v2, v3
 
     const/4 v3, 0x2
 
-    iget-object v4, p2, Lcom/tencent/mm/protocal/b/ex;->ipv:Ljava/lang/String;
+    iget-object v4, p2, Lcom/tencent/mm/protocal/b/EXclz;->ipv:Ljava/lang/String;
 
     invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -357,7 +357,7 @@
     iput-object p1, v0, Lcom/tencent/mm/s/g;->field_brandUserName:Ljava/lang/String;
 
     .line 196
-    iget-object v1, p2, Lcom/tencent/mm/protocal/b/ex;->ipx:Ljava/lang/String;
+    iget-object v1, p2, Lcom/tencent/mm/protocal/b/EXclz;->ipx:Ljava/lang/String;
 
     iput-object v1, v0, Lcom/tencent/mm/s/g;->field_userId:Ljava/lang/String;
 
@@ -375,12 +375,12 @@
     invoke-direct {v0}, Lcom/tencent/mm/s/i;-><init>()V
 
     .line 204
-    iget-object v1, p2, Lcom/tencent/mm/protocal/b/ex;->ipx:Ljava/lang/String;
+    iget-object v1, p2, Lcom/tencent/mm/protocal/b/EXclz;->ipx:Ljava/lang/String;
 
     iput-object v1, v0, Lcom/tencent/mm/s/i;->field_userId:Ljava/lang/String;
 
     .line 205
-    iget-object v1, p2, Lcom/tencent/mm/protocal/b/ex;->cIg:Ljava/lang/String;
+    iget-object v1, p2, Lcom/tencent/mm/protocal/b/EXclz;->cIg:Ljava/lang/String;
 
     iput-object v1, v0, Lcom/tencent/mm/s/i;->field_userName:Ljava/lang/String;
 
@@ -388,22 +388,22 @@
     iput-object p1, v0, Lcom/tencent/mm/s/i;->field_brandUserName:Ljava/lang/String;
 
     .line 207
-    iget v1, p2, Lcom/tencent/mm/protocal/b/ex;->hLr:I
+    iget v1, p2, Lcom/tencent/mm/protocal/b/EXclz;->hLr:I
 
     iput v1, v0, Lcom/tencent/mm/s/i;->field_UserVersion:I
 
     .line 208
-    iget-object v1, p2, Lcom/tencent/mm/protocal/b/ex;->ipr:Ljava/lang/String;
+    iget-object v1, p2, Lcom/tencent/mm/protocal/b/EXclz;->ipr:Ljava/lang/String;
 
     iput-object v1, v0, Lcom/tencent/mm/s/i;->field_headImageUrl:Ljava/lang/String;
 
     .line 209
-    iget-object v1, p2, Lcom/tencent/mm/protocal/b/ex;->ipz:Ljava/lang/String;
+    iget-object v1, p2, Lcom/tencent/mm/protocal/b/EXclz;->ipz:Ljava/lang/String;
 
     iput-object v1, v0, Lcom/tencent/mm/s/i;->field_profileUrl:Ljava/lang/String;
 
     .line 210
-    iget v1, p2, Lcom/tencent/mm/protocal/b/ex;->ips:I
+    iget v1, p2, Lcom/tencent/mm/protocal/b/EXclz;->ips:I
 
     iput v1, v0, Lcom/tencent/mm/s/i;->field_bitFlag:I
 
@@ -411,7 +411,7 @@
     iput-boolean v5, v0, Lcom/tencent/mm/s/i;->field_needToUpdate:Z
 
     .line 212
-    iget-object v1, p2, Lcom/tencent/mm/protocal/b/ex;->ipv:Ljava/lang/String;
+    iget-object v1, p2, Lcom/tencent/mm/protocal/b/EXclz;->ipv:Ljava/lang/String;
 
     iput-object v1, v0, Lcom/tencent/mm/s/i;->field_addMemberUrl:Ljava/lang/String;
 
@@ -437,7 +437,7 @@
 
     .line 199
     :cond_3
-    iget-object v1, p2, Lcom/tencent/mm/protocal/b/ex;->ipx:Ljava/lang/String;
+    iget-object v1, p2, Lcom/tencent/mm/protocal/b/EXclz;->ipx:Ljava/lang/String;
 
     iput-object v1, v0, Lcom/tencent/mm/s/g;->field_userId:Ljava/lang/String;
 

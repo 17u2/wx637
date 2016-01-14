@@ -55,16 +55,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 26
-    new-instance v1, Lcom/tencent/mm/protocal/b/lj;
+    new-instance v1, Lcom/tencent/mm/protocal/b/LJclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/lj;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/LJclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 27
-    new-instance v1, Lcom/tencent/mm/protocal/b/lk;
+    new-instance v1, Lcom/tencent/mm/protocal/b/LKclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/lk;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/LKclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -118,20 +118,20 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/lj;
+    check-cast v0, Lcom/tencent/mm/protocal/b/LJclz;
 
     .line 44
-    iput-object p1, v0, Lcom/tencent/mm/protocal/b/lj;->ipm:Ljava/lang/String;
+    iput-object p1, v0, Lcom/tencent/mm/protocal/b/LJclz;->ipm:Ljava/lang/String;
 
     .line 45
-    iput p2, v0, Lcom/tencent/mm/protocal/b/lj;->ilh:I
+    iput p2, v0, Lcom/tencent/mm/protocal/b/LJclz;->ilh:I
 
     .line 46
     invoke-static {p3}, Lcom/tencent/mm/aq/b;->yZ(Ljava/lang/String;)Lcom/tencent/mm/aq/b;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/lj;->iwE:Lcom/tencent/mm/aq/b;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/LJclz;->iwE:Lcom/tencent/mm/aq/b;
 
     .line 47
     new-array v1, v4, [B
@@ -140,7 +140,7 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/lj;->iuH:Lcom/tencent/mm/aq/b;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/LJclz;->iuH:Lcom/tencent/mm/aq/b;
 
     .line 50
     const-string/jumbo v1, "!56@/B4Tb64lLpK+IBX8XDgnvkxAuWo7gtBgGjm5sV5tA62wtu7tGu39Yg=="
@@ -157,7 +157,7 @@
 
     aput-object v4, v3, v5
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/lj;->iuH:Lcom/tencent/mm/aq/b;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/LJclz;->iuH:Lcom/tencent/mm/aq/b;
 
     iget-object v0, v0, Lcom/tencent/mm/aq/b;->ihc:[B
 

@@ -678,20 +678,20 @@
 
     invoke-virtual {v4, v5, v6}, Lcom/tencent/mm/storage/h;->set(ILjava/lang/Object;)V
 
-    new-instance v4, Lcom/tencent/mm/protocal/b/ns;
+    new-instance v4, Lcom/tencent/mm/protocal/b/NSclz;
 
-    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/ns;-><init>()V
+    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/NSclz;-><init>()V
 
     const/16 v5, 0x8
 
-    iput v5, v4, Lcom/tencent/mm/protocal/b/ns;->iAx:I
+    iput v5, v4, Lcom/tencent/mm/protocal/b/NSclz;->iAx:I
 
     if-eqz v0, :cond_b
 
     move v0, v1
 
     :goto_2
-    iput v0, v4, Lcom/tencent/mm/protocal/b/ns;->iAy:I
+    iput v0, v4, Lcom/tencent/mm/protocal/b/NSclz;->iAy:I
 
     invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;
 

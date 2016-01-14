@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field bPc:Lcom/tencent/mm/protocal/b/ze;
+.field bPc:Lcom/tencent/mm/protocal/b/ZEclz;
 
 .field private key:I
 
@@ -41,23 +41,23 @@
     iput-object v0, p0, Lcom/tencent/mm/ae/b$i$a;->value:Ljava/lang/String;
 
     .line 697
-    new-instance v0, Lcom/tencent/mm/protocal/b/ze;
+    new-instance v0, Lcom/tencent/mm/protocal/b/ZEclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/ze;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/ZEclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ae/b$i$a;->bPc:Lcom/tencent/mm/protocal/b/ze;
+    iput-object v0, p0, Lcom/tencent/mm/ae/b$i$a;->bPc:Lcom/tencent/mm/protocal/b/ZEclz;
 
     .line 698
-    iget-object v0, p0, Lcom/tencent/mm/ae/b$i$a;->bPc:Lcom/tencent/mm/protocal/b/ze;
+    iget-object v0, p0, Lcom/tencent/mm/ae/b$i$a;->bPc:Lcom/tencent/mm/protocal/b/ZEclz;
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/ze;->fxp:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/ZEclz;->fxp:I
 
     .line 699
-    iget-object v0, p0, Lcom/tencent/mm/ae/b$i$a;->bPc:Lcom/tencent/mm/protocal/b/ze;
+    iget-object v0, p0, Lcom/tencent/mm/ae/b$i$a;->bPc:Lcom/tencent/mm/protocal/b/ZEclz;
 
     const-string/jumbo v1, ""
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ze;->fxu:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ZEclz;->fxu:Ljava/lang/String;
 
     .line 701
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -84,21 +84,21 @@
     iput-object p2, p0, Lcom/tencent/mm/ae/b$i$a;->value:Ljava/lang/String;
 
     .line 707
-    new-instance v0, Lcom/tencent/mm/protocal/b/ze;
+    new-instance v0, Lcom/tencent/mm/protocal/b/ZEclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/ze;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/ZEclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ae/b$i$a;->bPc:Lcom/tencent/mm/protocal/b/ze;
+    iput-object v0, p0, Lcom/tencent/mm/ae/b$i$a;->bPc:Lcom/tencent/mm/protocal/b/ZEclz;
 
     .line 708
-    iget-object v0, p0, Lcom/tencent/mm/ae/b$i$a;->bPc:Lcom/tencent/mm/protocal/b/ze;
+    iget-object v0, p0, Lcom/tencent/mm/ae/b$i$a;->bPc:Lcom/tencent/mm/protocal/b/ZEclz;
 
-    iput p1, v0, Lcom/tencent/mm/protocal/b/ze;->fxp:I
+    iput p1, v0, Lcom/tencent/mm/protocal/b/ZEclz;->fxp:I
 
     .line 709
-    iget-object v0, p0, Lcom/tencent/mm/ae/b$i$a;->bPc:Lcom/tencent/mm/protocal/b/ze;
+    iget-object v0, p0, Lcom/tencent/mm/ae/b$i$a;->bPc:Lcom/tencent/mm/protocal/b/ZEclz;
 
-    iput-object p2, v0, Lcom/tencent/mm/protocal/b/ze;->fxu:Ljava/lang/String;
+    iput-object p2, v0, Lcom/tencent/mm/protocal/b/ZEclz;->fxu:Ljava/lang/String;
 
     .line 710
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z

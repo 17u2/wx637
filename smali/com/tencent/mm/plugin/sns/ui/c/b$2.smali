@@ -98,10 +98,10 @@
     move-result-object v4
 
     .line 764
-    iget-object v8, v4, Lcom/tencent/mm/protocal/b/aqx;->glj:Lcom/tencent/mm/protocal/b/k;
+    iget-object v8, v4, Lcom/tencent/mm/protocal/b/aqx;->glj:Lcom/tencent/mm/protocal/b/Kclz;
 
     .line 765
-    iget-object v0, v8, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v0, v8, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
     if-nez v0, :cond_1
 
@@ -114,18 +114,18 @@
     :cond_1
     sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
 
-    iget-object v3, v8, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v3, v8, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/protocal/b/i;->ijl:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/protocal/b/Iclz;->ijl:Ljava/lang/String;
 
     invoke-interface {v0, v3}, Lcom/tencent/mm/pluginsdk/e;->aQ(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
     .line 770
-    iget-object v0, v4, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v0, v4, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/il;->iug:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/ILclz;->iug:I
 
     if-ne v0, v7, :cond_2
 
@@ -133,7 +133,7 @@
 
     .line 776
     :goto_1
-    iget v0, v8, Lcom/tencent/mm/protocal/b/k;->dnV:I
+    iget v0, v8, Lcom/tencent/mm/protocal/b/Kclz;->dnV:I
 
     packed-switch v0, :pswitch_data_0
 
@@ -148,7 +148,7 @@
     .line 779
     const-string/jumbo v1, "rawUrl"
 
-    iget-object v2, v8, Lcom/tencent/mm/protocal/b/k;->ijp:Ljava/lang/String;
+    iget-object v2, v8, Lcom/tencent/mm/protocal/b/Kclz;->ijp:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -168,15 +168,15 @@
 
     iget-object v1, v1, Lcom/tencent/mm/plugin/sns/ui/c/b;->asr:Landroid/app/Activity;
 
-    iget-object v2, v8, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v2, v8, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/protocal/b/i;->ijl:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/protocal/b/Iclz;->ijl:Ljava/lang/String;
 
     iget-object v4, v4, Lcom/tencent/mm/protocal/b/aqx;->dRj:Ljava/lang/String;
 
-    iget-object v8, v8, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v8, v8, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
-    iget-object v8, v8, Lcom/tencent/mm/protocal/b/i;->ijm:Ljava/lang/String;
+    iget-object v8, v8, Lcom/tencent/mm/protocal/b/Iclz;->ijm:Ljava/lang/String;
 
     invoke-interface/range {v0 .. v8}, Lcom/tencent/mm/pluginsdk/e;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)V
 
@@ -184,9 +184,9 @@
 
     .line 772
     :cond_2
-    iget-object v0, v4, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v0, v4, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/il;->iug:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/ILclz;->iug:I
 
     const/4 v5, 0x3
 
@@ -199,7 +199,7 @@
 
     .line 790
     :pswitch_1
-    iget v0, v8, Lcom/tencent/mm/protocal/b/k;->ijq:I
+    iget v0, v8, Lcom/tencent/mm/protocal/b/Kclz;->ijq:I
 
     if-ne v0, v7, :cond_0
 
@@ -216,9 +216,9 @@
 
     const-string/jumbo v7, "game_app_id"
 
-    iget-object v9, v8, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v9, v8, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
-    iget-object v9, v9, Lcom/tencent/mm/protocal/b/i;->ijl:Ljava/lang/String;
+    iget-object v9, v9, Lcom/tencent/mm/protocal/b/Iclz;->ijl:Ljava/lang/String;
 
     invoke-virtual {v2, v7, v9}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -239,15 +239,15 @@
 
     iget-object v1, v1, Lcom/tencent/mm/plugin/sns/ui/c/b;->asr:Landroid/app/Activity;
 
-    iget-object v2, v8, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v2, v8, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/protocal/b/i;->ijl:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/protocal/b/Iclz;->ijl:Ljava/lang/String;
 
     iget-object v4, v4, Lcom/tencent/mm/protocal/b/aqx;->dRj:Ljava/lang/String;
 
-    iget-object v7, v8, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v7, v8, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
-    iget-object v8, v7, Lcom/tencent/mm/protocal/b/i;->ijm:Ljava/lang/String;
+    iget-object v8, v7, Lcom/tencent/mm/protocal/b/Iclz;->ijm:Ljava/lang/String;
 
     move v7, v10
 
@@ -282,9 +282,9 @@
 
     const-string/jumbo v7, "game_app_id"
 
-    iget-object v9, v8, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v9, v8, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
-    iget-object v9, v9, Lcom/tencent/mm/protocal/b/i;->ijl:Ljava/lang/String;
+    iget-object v9, v9, Lcom/tencent/mm/protocal/b/Iclz;->ijl:Ljava/lang/String;
 
     invoke-virtual {v2, v7, v9}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -305,15 +305,15 @@
 
     iget-object v1, v1, Lcom/tencent/mm/plugin/sns/ui/c/b;->asr:Landroid/app/Activity;
 
-    iget-object v2, v8, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v2, v8, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/protocal/b/i;->ijl:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/protocal/b/Iclz;->ijl:Ljava/lang/String;
 
     iget-object v4, v4, Lcom/tencent/mm/protocal/b/aqx;->dRj:Ljava/lang/String;
 
-    iget-object v7, v8, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v7, v8, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
-    iget-object v8, v7, Lcom/tencent/mm/protocal/b/i;->ijm:Ljava/lang/String;
+    iget-object v8, v7, Lcom/tencent/mm/protocal/b/Iclz;->ijm:Ljava/lang/String;
 
     move v7, v10
 
@@ -323,11 +323,11 @@
 
     .line 803
     :cond_3
-    iget v9, v8, Lcom/tencent/mm/protocal/b/k;->dnV:I
+    iget v9, v8, Lcom/tencent/mm/protocal/b/Kclz;->dnV:I
 
     if-ne v9, v10, :cond_6
 
-    iget-object v9, v8, Lcom/tencent/mm/protocal/b/k;->ijw:Lcom/tencent/mm/protocal/b/au;
+    iget-object v9, v8, Lcom/tencent/mm/protocal/b/Kclz;->ijw:Lcom/tencent/mm/protocal/b/AUclz;
 
     if-nez v9, :cond_4
 
@@ -338,9 +338,9 @@
     :cond_4
     sget-object v2, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
 
-    iget-object v9, v8, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v9, v8, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
-    iget-object v9, v9, Lcom/tencent/mm/protocal/b/i;->ijl:Ljava/lang/String;
+    iget-object v9, v9, Lcom/tencent/mm/protocal/b/Iclz;->ijl:Ljava/lang/String;
 
     invoke-interface {v2, v0, v9}, Lcom/tencent/mm/pluginsdk/e;->k(Landroid/content/Context;Ljava/lang/String;)Z
 
@@ -348,21 +348,21 @@
 
     if-eqz v0, :cond_5
 
-    iget-object v0, v8, Lcom/tencent/mm/protocal/b/k;->ijw:Lcom/tencent/mm/protocal/b/au;
+    iget-object v0, v8, Lcom/tencent/mm/protocal/b/Kclz;->ijw:Lcom/tencent/mm/protocal/b/AUclz;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/au;->ikS:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/AUclz;->ikS:I
 
     goto :goto_2
 
     :cond_5
-    iget-object v0, v8, Lcom/tencent/mm/protocal/b/k;->ijw:Lcom/tencent/mm/protocal/b/au;
+    iget-object v0, v8, Lcom/tencent/mm/protocal/b/Kclz;->ijw:Lcom/tencent/mm/protocal/b/AUclz;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/au;->ikT:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/AUclz;->ikT:I
 
     goto :goto_2
 
     :cond_6
-    iget v0, v8, Lcom/tencent/mm/protocal/b/k;->ijq:I
+    iget v0, v8, Lcom/tencent/mm/protocal/b/Kclz;->ijq:I
 
     goto :goto_2
 
@@ -392,27 +392,27 @@
     .line 819
     iget-object v1, v0, Lcom/tencent/mm/d/a/ds;->axC:Lcom/tencent/mm/d/a/ds$a;
 
-    iget-object v2, v8, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v2, v8, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/protocal/b/i;->ijl:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/protocal/b/Iclz;->ijl:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/tencent/mm/d/a/ds$a;->appId:Ljava/lang/String;
 
     .line 820
     iget-object v1, v0, Lcom/tencent/mm/d/a/ds;->axC:Lcom/tencent/mm/d/a/ds$a;
 
-    iget-object v2, v8, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v2, v8, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/protocal/b/i;->ijo:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/protocal/b/Iclz;->ijo:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/tencent/mm/d/a/ds$a;->messageAction:Ljava/lang/String;
 
     .line 821
     iget-object v1, v0, Lcom/tencent/mm/d/a/ds;->axC:Lcom/tencent/mm/d/a/ds$a;
 
-    iget-object v2, v8, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v2, v8, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/protocal/b/i;->ijn:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/protocal/b/Iclz;->ijn:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/tencent/mm/d/a/ds$a;->messageExt:Ljava/lang/String;
 
@@ -428,17 +428,17 @@
 
     iget-object v1, v1, Lcom/tencent/mm/plugin/sns/ui/c/b;->asr:Landroid/app/Activity;
 
-    iget-object v2, v8, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v2, v8, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/protocal/b/i;->ijl:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/protocal/b/Iclz;->ijl:Ljava/lang/String;
 
     iget-object v4, v4, Lcom/tencent/mm/protocal/b/aqx;->dRj:Ljava/lang/String;
 
     const/4 v7, 0x3
 
-    iget-object v8, v8, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v8, v8, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
-    iget-object v8, v8, Lcom/tencent/mm/protocal/b/i;->ijm:Ljava/lang/String;
+    iget-object v8, v8, Lcom/tencent/mm/protocal/b/Iclz;->ijm:Ljava/lang/String;
 
     invoke-interface/range {v0 .. v8}, Lcom/tencent/mm/pluginsdk/e;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)V
 

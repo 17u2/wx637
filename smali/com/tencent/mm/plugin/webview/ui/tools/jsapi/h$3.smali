@@ -272,18 +272,18 @@
     if-nez v1, :cond_8
 
     .line 2526
-    new-instance v11, Lcom/tencent/mm/protocal/b/xc;
+    new-instance v11, Lcom/tencent/mm/protocal/b/XCclz;
 
-    invoke-direct {v11}, Lcom/tencent/mm/protocal/b/xc;-><init>()V
+    invoke-direct {v11}, Lcom/tencent/mm/protocal/b/XCclz;-><init>()V
 
     .line 2527
-    iput-object v3, v11, Lcom/tencent/mm/protocal/b/xc;->dQt:Ljava/lang/String;
+    iput-object v3, v11, Lcom/tencent/mm/protocal/b/XCclz;->dQt:Ljava/lang/String;
 
     .line 2528
-    iput v4, v11, Lcom/tencent/mm/protocal/b/xc;->major:I
+    iput v4, v11, Lcom/tencent/mm/protocal/b/XCclz;->major:I
 
     .line 2529
-    iput v5, v11, Lcom/tencent/mm/protocal/b/xc;->minor:I
+    iput v5, v11, Lcom/tencent/mm/protocal/b/XCclz;->minor:I
 
     .line 2530
     move-object/from16 v0, p0
@@ -389,16 +389,16 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/tencent/mm/protocal/b/xd;
+    check-cast v1, Lcom/tencent/mm/protocal/b/XDclz;
 
     .line 2535
     if-eqz v1, :cond_d
 
-    iget-object v13, v1, Lcom/tencent/mm/protocal/b/xd;->iHt:Ljava/util/LinkedList;
+    iget-object v13, v1, Lcom/tencent/mm/protocal/b/XDclz;->iHt:Ljava/util/LinkedList;
 
     if-eqz v13, :cond_d
 
-    iget-object v13, v1, Lcom/tencent/mm/protocal/b/xd;->iHt:Ljava/util/LinkedList;
+    iget-object v13, v1, Lcom/tencent/mm/protocal/b/XDclz;->iHt:Ljava/util/LinkedList;
 
     invoke-virtual {v13}, Ljava/util/LinkedList;->isEmpty()Z
 
@@ -407,7 +407,7 @@
     if-nez v13, :cond_d
 
     .line 2536
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/xd;->iHt:Ljava/util/LinkedList;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/XDclz;->iHt:Ljava/util/LinkedList;
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
 
@@ -424,14 +424,14 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/tencent/mm/protocal/b/xf;
+    check-cast v1, Lcom/tencent/mm/protocal/b/XFclz;
 
     .line 2537
-    iget v14, v1, Lcom/tencent/mm/protocal/b/xf;->iHu:I
+    iget v14, v1, Lcom/tencent/mm/protocal/b/XFclz;->iHu:I
 
     if-lt v5, v14, :cond_1
 
-    iget v1, v1, Lcom/tencent/mm/protocal/b/xf;->iHv:I
+    iget v1, v1, Lcom/tencent/mm/protocal/b/XFclz;->iHv:I
 
     if-gt v5, v1, :cond_1
 
@@ -834,16 +834,16 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/tencent/mm/protocal/b/xd;
+    check-cast v1, Lcom/tencent/mm/protocal/b/XDclz;
 
     .line 2600
     if-eqz v1, :cond_b
 
-    iget-object v12, v1, Lcom/tencent/mm/protocal/b/xd;->iHt:Ljava/util/LinkedList;
+    iget-object v12, v1, Lcom/tencent/mm/protocal/b/XDclz;->iHt:Ljava/util/LinkedList;
 
     if-eqz v12, :cond_b
 
-    iget-object v12, v1, Lcom/tencent/mm/protocal/b/xd;->iHt:Ljava/util/LinkedList;
+    iget-object v12, v1, Lcom/tencent/mm/protocal/b/XDclz;->iHt:Ljava/util/LinkedList;
 
     invoke-virtual {v12}, Ljava/util/LinkedList;->isEmpty()Z
 
@@ -852,7 +852,7 @@
     if-nez v12, :cond_b
 
     .line 2601
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/xd;->iHt:Ljava/util/LinkedList;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/XDclz;->iHt:Ljava/util/LinkedList;
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
 
@@ -869,14 +869,14 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/tencent/mm/protocal/b/xf;
+    check-cast v1, Lcom/tencent/mm/protocal/b/XFclz;
 
     .line 2602
-    iget v13, v1, Lcom/tencent/mm/protocal/b/xf;->iHu:I
+    iget v13, v1, Lcom/tencent/mm/protocal/b/XFclz;->iHu:I
 
     if-lt v5, v13, :cond_a
 
-    iget v1, v1, Lcom/tencent/mm/protocal/b/xf;->iHv:I
+    iget v1, v1, Lcom/tencent/mm/protocal/b/XFclz;->iHv:I
 
     if-gt v5, v1, :cond_a
 

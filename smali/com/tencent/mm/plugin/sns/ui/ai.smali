@@ -252,9 +252,9 @@
     :goto_0
     move-object/from16 v0, p2
 
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget-object v6, v2, Lcom/tencent/mm/protocal/b/il;->iuh:Ljava/util/LinkedList;
+    iget-object v6, v2, Lcom/tencent/mm/protocal/b/ILclz;->iuh:Ljava/util/LinkedList;
 
     .line 82
     sget-wide v4, Lcom/tencent/mm/plugin/sns/ui/ai;->gAb:D

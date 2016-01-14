@@ -17,7 +17,7 @@
 # instance fields
 .field public aCJ:Ljava/lang/String;
 
-.field public aCK:Lcom/tencent/mm/protocal/b/nb;
+.field public aCK:Lcom/tencent/mm/protocal/b/NBclz;
 
 .field public aCL:I
 
@@ -29,7 +29,7 @@
 
 .field public aCP:Ljava/lang/String;
 
-.field public aCQ:Lcom/tencent/mm/protocal/a/a/b;
+.field public aCQ:Lcom/tencent/mm/protocal/a/a/Bclz;
 
 .field public aCu:Lcom/tencent/mm/d/a/as;
 
@@ -41,7 +41,7 @@
 
 .field public awM:Ljava/lang/String;
 
-.field public awv:Lcom/tencent/mm/protocal/b/ms;
+.field public awv:Lcom/tencent/mm/protocal/b/MSclz;
 
 .field public context:Landroid/content/Context;
 

@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private bOX:Lcom/tencent/mm/protocal/b/jj;
+.field private bOX:Lcom/tencent/mm/protocal/b/JJclz;
 
 
 # direct methods
@@ -32,14 +32,14 @@
     invoke-direct {p0, v0}, Lcom/tencent/mm/ae/b$q;-><init>(I)V
 
     .line 462
-    new-instance v0, Lcom/tencent/mm/protocal/b/jj;
+    new-instance v0, Lcom/tencent/mm/protocal/b/JJclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/jj;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/JJclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ae/b$e;->bOX:Lcom/tencent/mm/protocal/b/jj;
+    iput-object v0, p0, Lcom/tencent/mm/ae/b$e;->bOX:Lcom/tencent/mm/protocal/b/JJclz;
 
     .line 463
-    iget-object v0, p0, Lcom/tencent/mm/ae/b$e;->bOX:Lcom/tencent/mm/protocal/b/jj;
+    iget-object v0, p0, Lcom/tencent/mm/ae/b$e;->bOX:Lcom/tencent/mm/protocal/b/JJclz;
 
     new-instance v1, Lcom/tencent/mm/protocal/b/ajz;
 
@@ -53,12 +53,12 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/jj;->iuA:Lcom/tencent/mm/protocal/b/ajz;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/JJclz;->iuA:Lcom/tencent/mm/protocal/b/ajz;
 
     .line 464
-    iget-object v0, p0, Lcom/tencent/mm/ae/b$e;->bOX:Lcom/tencent/mm/protocal/b/jj;
+    iget-object v0, p0, Lcom/tencent/mm/ae/b$e;->bOX:Lcom/tencent/mm/protocal/b/JJclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/jj;->iuF:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/JJclz;->iuF:Ljava/util/LinkedList;
 
     long-to-int v1, p2
 
@@ -69,14 +69,14 @@
     invoke-virtual {v0, v1}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
     .line 465
-    iget-object v0, p0, Lcom/tencent/mm/ae/b$e;->bOX:Lcom/tencent/mm/protocal/b/jj;
+    iget-object v0, p0, Lcom/tencent/mm/ae/b$e;->bOX:Lcom/tencent/mm/protocal/b/JJclz;
 
     const/4 v1, 0x1
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/jj;->fxn:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/JJclz;->fxn:I
 
     .line 466
-    iget-object v0, p0, Lcom/tencent/mm/ae/b$e;->bOX:Lcom/tencent/mm/protocal/b/jj;
+    iget-object v0, p0, Lcom/tencent/mm/ae/b$e;->bOX:Lcom/tencent/mm/protocal/b/JJclz;
 
     iput-object v0, p0, Lcom/tencent/mm/ae/b$q;->bPo:Lcom/tencent/mm/aq/a;
 

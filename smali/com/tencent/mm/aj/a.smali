@@ -28,9 +28,9 @@
     if-eqz v2, :cond_2
 
     .line 32
-    new-instance v3, Lcom/tencent/mm/protocal/b/lv;
+    new-instance v3, Lcom/tencent/mm/protocal/b/LVclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/lv;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/LVclz;-><init>()V
 
     .line 33
     array-length v4, v2
@@ -43,9 +43,9 @@
     aget-object v5, v2, v1
 
     .line 34
-    new-instance v6, Lcom/tencent/mm/protocal/b/lu;
+    new-instance v6, Lcom/tencent/mm/protocal/b/LUclz;
 
-    invoke-direct {v6}, Lcom/tencent/mm/protocal/b/lu;-><init>()V
+    invoke-direct {v6}, Lcom/tencent/mm/protocal/b/LUclz;-><init>()V
 
     .line 35
     iget v7, v5, Lcom/tencent/mm/aj/h;->field_isSend:I
@@ -57,21 +57,21 @@
 
     move-result-object v7
 
-    iput-object v7, v6, Lcom/tencent/mm/protocal/b/lu;->iwK:Ljava/lang/String;
+    iput-object v7, v6, Lcom/tencent/mm/protocal/b/LUclz;->iwK:Ljava/lang/String;
 
     .line 37
     iget-object v7, v5, Lcom/tencent/mm/aj/h;->field_content:Ljava/lang/String;
 
-    iput-object v7, v6, Lcom/tencent/mm/protocal/b/lu;->eVT:Ljava/lang/String;
+    iput-object v7, v6, Lcom/tencent/mm/protocal/b/LUclz;->eVT:Ljava/lang/String;
 
     .line 42
     :goto_1
-    iput v11, v6, Lcom/tencent/mm/protocal/b/lu;->ikw:I
+    iput v11, v6, Lcom/tencent/mm/protocal/b/LUclz;->ikw:I
 
     .line 43
     iget-wide v7, v5, Lcom/tencent/mm/aj/h;->field_svrid:J
 
-    iput-wide v7, v6, Lcom/tencent/mm/protocal/b/lu;->ikC:J
+    iput-wide v7, v6, Lcom/tencent/mm/protocal/b/LUclz;->ikC:J
 
     .line 44
     iget-wide v7, v5, Lcom/tencent/mm/aj/h;->field_createtime:J
@@ -82,10 +82,10 @@
 
     long-to-int v5, v7
 
-    iput v5, v6, Lcom/tencent/mm/protocal/b/lu;->iwL:I
+    iput v5, v6, Lcom/tencent/mm/protocal/b/LUclz;->iwL:I
 
     .line 45
-    iget-object v5, v3, Lcom/tencent/mm/protocal/b/lv;->biu:Ljava/util/LinkedList;
+    iget-object v5, v3, Lcom/tencent/mm/protocal/b/LVclz;->biu:Ljava/util/LinkedList;
 
     invoke-virtual {v5, v6}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
@@ -98,19 +98,19 @@
     :cond_0
     iget-object v7, v5, Lcom/tencent/mm/aj/h;->field_sayhiuser:Ljava/lang/String;
 
-    iput-object v7, v6, Lcom/tencent/mm/protocal/b/lu;->iwK:Ljava/lang/String;
+    iput-object v7, v6, Lcom/tencent/mm/protocal/b/LUclz;->iwK:Ljava/lang/String;
 
     .line 40
     iget-object v7, v5, Lcom/tencent/mm/aj/h;->field_sayhicontent:Ljava/lang/String;
 
-    iput-object v7, v6, Lcom/tencent/mm/protocal/b/lu;->eVT:Ljava/lang/String;
+    iput-object v7, v6, Lcom/tencent/mm/protocal/b/LUclz;->eVT:Ljava/lang/String;
 
     goto :goto_1
 
     .line 48
     :cond_1
     :try_start_0
-    invoke-virtual {v3}, Lcom/tencent/mm/protocal/b/lv;->toByteArray()[B
+    invoke-virtual {v3}, Lcom/tencent/mm/protocal/b/LVclz;->toByteArray()[B
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -175,9 +175,9 @@
     if-eqz v2, :cond_2
 
     .line 66
-    new-instance v3, Lcom/tencent/mm/protocal/b/lv;
+    new-instance v3, Lcom/tencent/mm/protocal/b/LVclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/lv;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/LVclz;-><init>()V
 
     .line 67
     array-length v4, v2
@@ -190,9 +190,9 @@
     aget-object v5, v2, v1
 
     .line 68
-    new-instance v6, Lcom/tencent/mm/protocal/b/lu;
+    new-instance v6, Lcom/tencent/mm/protocal/b/LUclz;
 
-    invoke-direct {v6}, Lcom/tencent/mm/protocal/b/lu;-><init>()V
+    invoke-direct {v6}, Lcom/tencent/mm/protocal/b/LUclz;-><init>()V
 
     .line 69
     iget v7, v5, Lcom/tencent/mm/aj/j;->field_isSend:I
@@ -204,21 +204,21 @@
 
     move-result-object v7
 
-    iput-object v7, v6, Lcom/tencent/mm/protocal/b/lu;->iwK:Ljava/lang/String;
+    iput-object v7, v6, Lcom/tencent/mm/protocal/b/LUclz;->iwK:Ljava/lang/String;
 
     .line 71
     iget-object v7, v5, Lcom/tencent/mm/aj/j;->field_content:Ljava/lang/String;
 
-    iput-object v7, v6, Lcom/tencent/mm/protocal/b/lu;->eVT:Ljava/lang/String;
+    iput-object v7, v6, Lcom/tencent/mm/protocal/b/LUclz;->eVT:Ljava/lang/String;
 
     .line 76
     :goto_1
-    iput v11, v6, Lcom/tencent/mm/protocal/b/lu;->ikw:I
+    iput v11, v6, Lcom/tencent/mm/protocal/b/LUclz;->ikw:I
 
     .line 77
     iget-wide v7, v5, Lcom/tencent/mm/aj/j;->field_svrid:J
 
-    iput-wide v7, v6, Lcom/tencent/mm/protocal/b/lu;->ikC:J
+    iput-wide v7, v6, Lcom/tencent/mm/protocal/b/LUclz;->ikC:J
 
     .line 78
     iget-wide v7, v5, Lcom/tencent/mm/aj/j;->field_createtime:J
@@ -229,10 +229,10 @@
 
     long-to-int v5, v7
 
-    iput v5, v6, Lcom/tencent/mm/protocal/b/lu;->iwL:I
+    iput v5, v6, Lcom/tencent/mm/protocal/b/LUclz;->iwL:I
 
     .line 79
-    iget-object v5, v3, Lcom/tencent/mm/protocal/b/lv;->biu:Ljava/util/LinkedList;
+    iget-object v5, v3, Lcom/tencent/mm/protocal/b/LVclz;->biu:Ljava/util/LinkedList;
 
     invoke-virtual {v5, v6}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
@@ -245,19 +245,19 @@
     :cond_0
     iget-object v7, v5, Lcom/tencent/mm/aj/j;->field_sayhiuser:Ljava/lang/String;
 
-    iput-object v7, v6, Lcom/tencent/mm/protocal/b/lu;->iwK:Ljava/lang/String;
+    iput-object v7, v6, Lcom/tencent/mm/protocal/b/LUclz;->iwK:Ljava/lang/String;
 
     .line 74
     iget-object v7, v5, Lcom/tencent/mm/aj/j;->field_sayhicontent:Ljava/lang/String;
 
-    iput-object v7, v6, Lcom/tencent/mm/protocal/b/lu;->eVT:Ljava/lang/String;
+    iput-object v7, v6, Lcom/tencent/mm/protocal/b/LUclz;->eVT:Ljava/lang/String;
 
     goto :goto_1
 
     .line 82
     :cond_1
     :try_start_0
-    invoke-virtual {v3}, Lcom/tencent/mm/protocal/b/lv;->toByteArray()[B
+    invoke-virtual {v3}, Lcom/tencent/mm/protocal/b/LVclz;->toByteArray()[B
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -320,9 +320,9 @@
     if-eqz v2, :cond_2
 
     .line 100
-    new-instance v3, Lcom/tencent/mm/protocal/b/lv;
+    new-instance v3, Lcom/tencent/mm/protocal/b/LVclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/lv;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/LVclz;-><init>()V
 
     .line 101
     array-length v4, v2
@@ -335,9 +335,9 @@
     aget-object v5, v2, v1
 
     .line 102
-    new-instance v6, Lcom/tencent/mm/protocal/b/lu;
+    new-instance v6, Lcom/tencent/mm/protocal/b/LUclz;
 
-    invoke-direct {v6}, Lcom/tencent/mm/protocal/b/lu;-><init>()V
+    invoke-direct {v6}, Lcom/tencent/mm/protocal/b/LUclz;-><init>()V
 
     .line 103
     iget v7, v5, Lcom/tencent/mm/aj/f;->field_type:I
@@ -356,7 +356,7 @@
     .line 105
     iget-object v5, v5, Lcom/tencent/mm/aj/f;->field_talker:Ljava/lang/String;
 
-    iput-object v5, v6, Lcom/tencent/mm/protocal/b/lu;->iwK:Ljava/lang/String;
+    iput-object v5, v6, Lcom/tencent/mm/protocal/b/LUclz;->iwK:Ljava/lang/String;
 
     .line 106
     iget-object v5, v7, Lcom/tencent/mm/storage/ad$e;->content:Ljava/lang/String;
@@ -365,11 +365,11 @@
 
     move-result-object v5
 
-    iput-object v5, v6, Lcom/tencent/mm/protocal/b/lu;->eVT:Ljava/lang/String;
+    iput-object v5, v6, Lcom/tencent/mm/protocal/b/LUclz;->eVT:Ljava/lang/String;
 
     .line 111
     :goto_1
-    iget-object v5, v3, Lcom/tencent/mm/protocal/b/lv;->biu:Ljava/util/LinkedList;
+    iget-object v5, v3, Lcom/tencent/mm/protocal/b/LVclz;->biu:Ljava/util/LinkedList;
 
     invoke-virtual {v5, v6}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
@@ -384,19 +384,19 @@
 
     move-result-object v7
 
-    iput-object v7, v6, Lcom/tencent/mm/protocal/b/lu;->iwK:Ljava/lang/String;
+    iput-object v7, v6, Lcom/tencent/mm/protocal/b/LUclz;->iwK:Ljava/lang/String;
 
     .line 109
     iget-object v5, v5, Lcom/tencent/mm/aj/f;->field_msgContent:Ljava/lang/String;
 
-    iput-object v5, v6, Lcom/tencent/mm/protocal/b/lu;->eVT:Ljava/lang/String;
+    iput-object v5, v6, Lcom/tencent/mm/protocal/b/LUclz;->eVT:Ljava/lang/String;
 
     goto :goto_1
 
     .line 114
     :cond_1
     :try_start_0
-    invoke-virtual {v3}, Lcom/tencent/mm/protocal/b/lv;->toByteArray()[B
+    invoke-virtual {v3}, Lcom/tencent/mm/protocal/b/LVclz;->toByteArray()[B
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -517,9 +517,9 @@
 
     .line 149
     :cond_2
-    new-instance v2, Lcom/tencent/mm/protocal/b/lv;
+    new-instance v2, Lcom/tencent/mm/protocal/b/LVclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/lv;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/LVclz;-><init>()V
 
     .line 151
     invoke-interface {v3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -540,14 +540,14 @@
     check-cast v0, Lcom/tencent/mm/storage/ad;
 
     .line 152
-    new-instance v4, Lcom/tencent/mm/protocal/b/lu;
+    new-instance v4, Lcom/tencent/mm/protocal/b/LUclz;
 
-    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/lu;-><init>()V
+    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/LUclz;-><init>()V
 
     .line 153
     iget-object v5, v0, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
 
-    iput-object v5, v4, Lcom/tencent/mm/protocal/b/lu;->iwK:Ljava/lang/String;
+    iput-object v5, v4, Lcom/tencent/mm/protocal/b/LUclz;->iwK:Ljava/lang/String;
 
     .line 154
     invoke-virtual {v0}, Lcom/tencent/mm/storage/ad;->aQy()Z
@@ -559,7 +559,7 @@
     .line 155
     const/16 v5, 0x31
 
-    iput v5, v4, Lcom/tencent/mm/protocal/b/lu;->ikw:I
+    iput v5, v4, Lcom/tencent/mm/protocal/b/LUclz;->ikw:I
 
     .line 159
     :goto_1
@@ -572,18 +572,18 @@
     .line 160
     iget-object v5, v0, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
 
-    iput-object v5, v4, Lcom/tencent/mm/protocal/b/lu;->eVT:Ljava/lang/String;
+    iput-object v5, v4, Lcom/tencent/mm/protocal/b/LUclz;->eVT:Ljava/lang/String;
 
     .line 164
     :goto_2
     iget v5, v0, Lcom/tencent/mm/d/b/ba;->field_type:I
 
-    iput v5, v4, Lcom/tencent/mm/protocal/b/lu;->ikw:I
+    iput v5, v4, Lcom/tencent/mm/protocal/b/LUclz;->ikw:I
 
     .line 165
     iget-wide v5, v0, Lcom/tencent/mm/d/b/ba;->field_msgSvrId:J
 
-    iput-wide v5, v4, Lcom/tencent/mm/protocal/b/lu;->ikC:J
+    iput-wide v5, v4, Lcom/tencent/mm/protocal/b/LUclz;->ikC:J
 
     .line 166
     iget-wide v5, v0, Lcom/tencent/mm/d/b/ba;->field_createTime:J
@@ -594,10 +594,10 @@
 
     long-to-int v0, v5
 
-    iput v0, v4, Lcom/tencent/mm/protocal/b/lu;->iwL:I
+    iput v0, v4, Lcom/tencent/mm/protocal/b/LUclz;->iwL:I
 
     .line 167
-    iget-object v0, v2, Lcom/tencent/mm/protocal/b/lv;->biu:Ljava/util/LinkedList;
+    iget-object v0, v2, Lcom/tencent/mm/protocal/b/LVclz;->biu:Ljava/util/LinkedList;
 
     invoke-virtual {v0, v4}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
@@ -607,7 +607,7 @@
     :cond_3
     iget v5, v0, Lcom/tencent/mm/d/b/ba;->field_type:I
 
-    iput v5, v4, Lcom/tencent/mm/protocal/b/lu;->ikw:I
+    iput v5, v4, Lcom/tencent/mm/protocal/b/LUclz;->ikw:I
 
     goto :goto_1
 
@@ -615,14 +615,14 @@
     :cond_4
     const-string/jumbo v5, ""
 
-    iput-object v5, v4, Lcom/tencent/mm/protocal/b/lu;->eVT:Ljava/lang/String;
+    iput-object v5, v4, Lcom/tencent/mm/protocal/b/LUclz;->eVT:Ljava/lang/String;
 
     goto :goto_2
 
     .line 170
     :cond_5
     :try_start_0
-    invoke-virtual {v2}, Lcom/tencent/mm/protocal/b/lv;->toByteArray()[B
+    invoke-virtual {v2}, Lcom/tencent/mm/protocal/b/LVclz;->toByteArray()[B
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -688,9 +688,9 @@
     if-eqz v2, :cond_2
 
     .line 188
-    new-instance v3, Lcom/tencent/mm/protocal/b/lv;
+    new-instance v3, Lcom/tencent/mm/protocal/b/LVclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/lv;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/LVclz;-><init>()V
 
     .line 189
     array-length v4, v2
@@ -703,9 +703,9 @@
     aget-object v5, v2, v1
 
     .line 190
-    new-instance v6, Lcom/tencent/mm/protocal/b/lu;
+    new-instance v6, Lcom/tencent/mm/protocal/b/LUclz;
 
-    invoke-direct {v6}, Lcom/tencent/mm/protocal/b/lu;-><init>()V
+    invoke-direct {v6}, Lcom/tencent/mm/protocal/b/LUclz;-><init>()V
 
     .line 191
     iget v7, v5, Lcom/tencent/mm/aj/f;->field_type:I
@@ -722,7 +722,7 @@
     .line 193
     iget-object v8, v5, Lcom/tencent/mm/aj/f;->field_talker:Ljava/lang/String;
 
-    iput-object v8, v6, Lcom/tencent/mm/protocal/b/lu;->iwK:Ljava/lang/String;
+    iput-object v8, v6, Lcom/tencent/mm/protocal/b/LUclz;->iwK:Ljava/lang/String;
 
     .line 194
     iget-object v7, v7, Lcom/tencent/mm/storage/ad$e;->content:Ljava/lang/String;
@@ -731,16 +731,16 @@
 
     move-result-object v7
 
-    iput-object v7, v6, Lcom/tencent/mm/protocal/b/lu;->eVT:Ljava/lang/String;
+    iput-object v7, v6, Lcom/tencent/mm/protocal/b/LUclz;->eVT:Ljava/lang/String;
 
     .line 199
     :goto_1
-    iput v11, v6, Lcom/tencent/mm/protocal/b/lu;->ikw:I
+    iput v11, v6, Lcom/tencent/mm/protocal/b/LUclz;->ikw:I
 
     .line 200
     iget-wide v7, v5, Lcom/tencent/mm/aj/f;->field_svrId:J
 
-    iput-wide v7, v6, Lcom/tencent/mm/protocal/b/lu;->ikC:J
+    iput-wide v7, v6, Lcom/tencent/mm/protocal/b/LUclz;->ikC:J
 
     .line 201
     iget-wide v7, v5, Lcom/tencent/mm/aj/f;->field_createTime:J
@@ -751,10 +751,10 @@
 
     long-to-int v5, v7
 
-    iput v5, v6, Lcom/tencent/mm/protocal/b/lu;->iwL:I
+    iput v5, v6, Lcom/tencent/mm/protocal/b/LUclz;->iwL:I
 
     .line 202
-    iget-object v5, v3, Lcom/tencent/mm/protocal/b/lv;->biu:Ljava/util/LinkedList;
+    iget-object v5, v3, Lcom/tencent/mm/protocal/b/LVclz;->biu:Ljava/util/LinkedList;
 
     invoke-virtual {v5, v6}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
@@ -769,19 +769,19 @@
 
     move-result-object v7
 
-    iput-object v7, v6, Lcom/tencent/mm/protocal/b/lu;->iwK:Ljava/lang/String;
+    iput-object v7, v6, Lcom/tencent/mm/protocal/b/LUclz;->iwK:Ljava/lang/String;
 
     .line 197
     iget-object v7, v5, Lcom/tencent/mm/aj/f;->field_msgContent:Ljava/lang/String;
 
-    iput-object v7, v6, Lcom/tencent/mm/protocal/b/lu;->eVT:Ljava/lang/String;
+    iput-object v7, v6, Lcom/tencent/mm/protocal/b/LUclz;->eVT:Ljava/lang/String;
 
     goto :goto_1
 
     .line 205
     :cond_1
     :try_start_0
-    invoke-virtual {v3}, Lcom/tencent/mm/protocal/b/lv;->toByteArray()[B
+    invoke-virtual {v3}, Lcom/tencent/mm/protocal/b/LVclz;->toByteArray()[B
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 

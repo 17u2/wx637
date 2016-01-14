@@ -111,29 +111,29 @@
     if-nez v0, :cond_0
 
     .line 216
-    new-instance v6, Lcom/tencent/mm/protocal/b/xc;
+    new-instance v6, Lcom/tencent/mm/protocal/b/XCclz;
 
-    invoke-direct {v6}, Lcom/tencent/mm/protocal/b/xc;-><init>()V
+    invoke-direct {v6}, Lcom/tencent/mm/protocal/b/XCclz;-><init>()V
 
     .line 217
-    iput-object v3, v6, Lcom/tencent/mm/protocal/b/xc;->dQt:Ljava/lang/String;
+    iput-object v3, v6, Lcom/tencent/mm/protocal/b/XCclz;->dQt:Ljava/lang/String;
 
     .line 218
-    iput v4, v6, Lcom/tencent/mm/protocal/b/xc;->major:I
+    iput v4, v6, Lcom/tencent/mm/protocal/b/XCclz;->major:I
 
     .line 219
     const v0, 0xffff
 
     and-int/2addr v0, v5
 
-    iput v0, v6, Lcom/tencent/mm/protocal/b/xc;->minor:I
+    iput v0, v6, Lcom/tencent/mm/protocal/b/XCclz;->minor:I
 
     .line 220
     iget-object v0, p1, Lcom/tencent/mm/d/a/bm;->aue:Lcom/tencent/mm/d/a/bm$a;
 
     iget-wide v0, v0, Lcom/tencent/mm/d/a/bm$a;->auh:D
 
-    iput-wide v0, v6, Lcom/tencent/mm/protocal/b/xc;->fSA:D
+    iput-wide v0, v6, Lcom/tencent/mm/protocal/b/XCclz;->fSA:D
 
     .line 221
     invoke-static {}, Lcom/tencent/mm/booter/i;->nj()Ljava/util/Map;
@@ -218,14 +218,14 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/xc;
+    check-cast v0, Lcom/tencent/mm/protocal/b/XCclz;
 
     .line 227
     iget-object v7, p1, Lcom/tencent/mm/d/a/bm;->aue:Lcom/tencent/mm/d/a/bm$a;
 
     iget-wide v7, v7, Lcom/tencent/mm/d/a/bm$a;->auh:D
 
-    iget-wide v9, v0, Lcom/tencent/mm/protocal/b/xc;->fSA:D
+    iget-wide v9, v0, Lcom/tencent/mm/protocal/b/XCclz;->fSA:D
 
     cmpg-double v7, v7, v9
 
@@ -323,7 +323,7 @@
 
     iget-wide v7, v7, Lcom/tencent/mm/d/a/bm$a;->auh:D
 
-    iget-wide v9, v0, Lcom/tencent/mm/protocal/b/xc;->fSA:D
+    iget-wide v9, v0, Lcom/tencent/mm/protocal/b/XCclz;->fSA:D
 
     cmpl-double v0, v7, v9
 

@@ -26,7 +26,7 @@
 
 
 # virtual methods
-.method public final b(Lcom/tencent/mm/protocal/b/af;)Lcom/tencent/mm/q/c$a;
+.method public final b(Lcom/tencent/mm/protocal/b/AFclz;)Lcom/tencent/mm/q/c$a;
     .locals 21
 
     .prologue
@@ -51,7 +51,7 @@
     :cond_0
     move-object/from16 v0, p1
 
-    iget-object v3, v0, Lcom/tencent/mm/protocal/b/af;->iku:Lcom/tencent/mm/protocal/b/ajz;
+    iget-object v3, v0, Lcom/tencent/mm/protocal/b/AFclz;->iku:Lcom/tencent/mm/protocal/b/ajz;
 
     invoke-static {v3}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 
@@ -99,7 +99,7 @@
 
     move-object/from16 v0, p1
 
-    iget-wide v4, v0, Lcom/tencent/mm/protocal/b/af;->ikC:J
+    iget-wide v4, v0, Lcom/tencent/mm/protocal/b/AFclz;->ikC:J
 
     invoke-virtual {v3, v14, v4, v5}, Lcom/tencent/mm/storage/ae;->r(Ljava/lang/String;J)Lcom/tencent/mm/storage/ad;
 
@@ -118,7 +118,7 @@
 
     move-object/from16 v0, p1
 
-    iget-wide v8, v0, Lcom/tencent/mm/protocal/b/af;->ikC:J
+    iget-wide v8, v0, Lcom/tencent/mm/protocal/b/AFclz;->ikC:J
 
     invoke-static {v8, v9}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -155,7 +155,7 @@
 
     move-object/from16 v0, p1
 
-    iget v6, v0, Lcom/tencent/mm/protocal/b/af;->eSX:I
+    iget v6, v0, Lcom/tencent/mm/protocal/b/AFclz;->eSX:I
 
     int-to-long v6, v6
 
@@ -180,7 +180,7 @@
 
     move-object/from16 v0, p1
 
-    iget-wide v8, v0, Lcom/tencent/mm/protocal/b/af;->ikC:J
+    iget-wide v8, v0, Lcom/tencent/mm/protocal/b/AFclz;->ikC:J
 
     invoke-static {v8, v9}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -233,7 +233,7 @@
 
     move-object/from16 v0, p1
 
-    iget-wide v7, v0, Lcom/tencent/mm/protocal/b/af;->ikC:J
+    iget-wide v7, v0, Lcom/tencent/mm/protocal/b/AFclz;->ikC:J
 
     invoke-static {v7, v8}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -252,7 +252,7 @@
     :cond_3
     move-object/from16 v0, p1
 
-    iget-object v4, v0, Lcom/tencent/mm/protocal/b/af;->ikx:Lcom/tencent/mm/protocal/b/ajz;
+    iget-object v4, v0, Lcom/tencent/mm/protocal/b/AFclz;->ikx:Lcom/tencent/mm/protocal/b/ajz;
 
     invoke-static {v4}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 
@@ -269,7 +269,7 @@
     .line 72
     move-object/from16 v0, p1
 
-    iget v5, v0, Lcom/tencent/mm/protocal/b/af;->eSX:I
+    iget v5, v0, Lcom/tencent/mm/protocal/b/AFclz;->eSX:I
 
     int-to-long v5, v5
 
@@ -278,14 +278,14 @@
     .line 73
     move-object/from16 v0, p1
 
-    iget-wide v5, v0, Lcom/tencent/mm/protocal/b/af;->ikC:J
+    iget-wide v5, v0, Lcom/tencent/mm/protocal/b/AFclz;->ikC:J
 
     iput-wide v5, v15, Lcom/tencent/mm/ak/m;->bIF:J
 
     .line 74
     move-object/from16 v0, p1
 
-    iget-object v5, v0, Lcom/tencent/mm/protocal/b/af;->ikx:Lcom/tencent/mm/protocal/b/ajz;
+    iget-object v5, v0, Lcom/tencent/mm/protocal/b/AFclz;->ikx:Lcom/tencent/mm/protocal/b/ajz;
 
     iget-object v5, v5, Lcom/tencent/mm/protocal/b/ajz;->iSy:Ljava/lang/String;
 
@@ -344,14 +344,14 @@
     :cond_4
     move-object/from16 v0, p1
 
-    iget-object v4, v0, Lcom/tencent/mm/protocal/b/af;->ikA:Ljava/lang/String;
+    iget-object v4, v0, Lcom/tencent/mm/protocal/b/AFclz;->ikA:Ljava/lang/String;
 
     invoke-virtual {v3, v4}, Lcom/tencent/mm/storage/ad;->co(Ljava/lang/String;)V
 
     .line 85
     move-object/from16 v0, p1
 
-    iget-object v4, v0, Lcom/tencent/mm/protocal/b/af;->ikA:Ljava/lang/String;
+    iget-object v4, v0, Lcom/tencent/mm/protocal/b/AFclz;->ikA:Ljava/lang/String;
 
     invoke-static {v4}, Lcom/tencent/mm/model/ap;->fg(Ljava/lang/String;)Ljava/lang/String;
 
@@ -487,7 +487,7 @@
 
     move-object/from16 v0, p1
 
-    iget v7, v0, Lcom/tencent/mm/protocal/b/af;->ikw:I
+    iget v7, v0, Lcom/tencent/mm/protocal/b/AFclz;->ikw:I
 
     if-ne v4, v7, :cond_7
 
@@ -788,7 +788,7 @@
     .line 141
     move-object/from16 v0, p1
 
-    iget v6, v0, Lcom/tencent/mm/protocal/b/af;->cio:I
+    iget v6, v0, Lcom/tencent/mm/protocal/b/AFclz;->cio:I
 
     move-object/from16 v0, v16
 
@@ -797,7 +797,7 @@
     .line 142
     move-object/from16 v0, p1
 
-    iget v6, v0, Lcom/tencent/mm/protocal/b/af;->ikw:I
+    iget v6, v0, Lcom/tencent/mm/protocal/b/AFclz;->ikw:I
 
     const/16 v7, 0x3e
 
@@ -836,7 +836,7 @@
     .line 149
     move-object/from16 v0, p1
 
-    iget-object v4, v0, Lcom/tencent/mm/protocal/b/af;->ikA:Ljava/lang/String;
+    iget-object v4, v0, Lcom/tencent/mm/protocal/b/AFclz;->ikA:Ljava/lang/String;
 
     move-object/from16 v0, v16
 
@@ -1071,7 +1071,7 @@
     .line 173
     move-object/from16 v0, p1
 
-    iget-object v4, v0, Lcom/tencent/mm/protocal/b/af;->ikz:Lcom/tencent/mm/protocal/b/ajy;
+    iget-object v4, v0, Lcom/tencent/mm/protocal/b/AFclz;->ikz:Lcom/tencent/mm/protocal/b/ajy;
 
     invoke-static {v4}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajy;)[B
 

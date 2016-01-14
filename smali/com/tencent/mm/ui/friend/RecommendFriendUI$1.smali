@@ -127,9 +127,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/no;
+    check-cast v0, Lcom/tencent/mm/protocal/b/NOclz;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/no;->iAq:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/NOclz;->iAq:I
 
     goto :goto_1
 .end method

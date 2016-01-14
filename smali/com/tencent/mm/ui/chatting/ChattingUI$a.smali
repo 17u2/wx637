@@ -4832,7 +4832,7 @@
     goto/16 :goto_0
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/protocal/b/ew;)V
+.method static synthetic a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/protocal/b/EWclz;)V
     .locals 5
 
     .prologue
@@ -4861,7 +4861,7 @@
 
     const/4 v4, 0x0
 
-    invoke-direct {v1, v2, v3, v4, p1}, Lcom/tencent/mm/s/ah;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/ew;Lcom/tencent/mm/protocal/b/ew;)V
+    invoke-direct {v1, v2, v3, v4, p1}, Lcom/tencent/mm/s/ah;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/EWclz;Lcom/tencent/mm/protocal/b/EWclz;)V
 
     iget-object v2, p0, Lcom/tencent/mm/ui/n;->jxX:Lcom/tencent/mm/ui/j;
 

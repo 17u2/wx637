@@ -119,7 +119,7 @@
     .line 747
     iget-object v0, p0, Lcom/tencent/mm/console/b$8;->bop:Landroid/content/Context;
 
-    invoke-static {v0, v4}, Lcom/tencent/mm/protocal/c;->h(Landroid/content/Context;Z)V
+    invoke-static {v0, v4}, Lcom/tencent/mm/protocal/Cclz;->h(Landroid/content/Context;Z)V
 
     .line 749
     new-instance v0, Lcom/tencent/mm/d/a/m;

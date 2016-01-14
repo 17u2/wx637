@@ -254,9 +254,9 @@
 
     invoke-static {v6, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    new-instance v6, Lcom/tencent/mm/protocal/b/wk;
+    new-instance v6, Lcom/tencent/mm/protocal/b/WKclz;
 
-    invoke-direct {v6}, Lcom/tencent/mm/protocal/b/wk;-><init>()V
+    invoke-direct {v6}, Lcom/tencent/mm/protocal/b/WKclz;-><init>()V
 
     invoke-interface {v5, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -264,7 +264,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    iput-object v0, v6, Lcom/tencent/mm/protocal/b/wk;->iGK:Ljava/lang/String;
+    iput-object v0, v6, Lcom/tencent/mm/protocal/b/WKclz;->iGK:Ljava/lang/String;
 
     invoke-virtual {v4, v6}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 

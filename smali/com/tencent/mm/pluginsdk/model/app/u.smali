@@ -35,16 +35,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 28
-    new-instance v1, Lcom/tencent/mm/protocal/b/av;
+    new-instance v1, Lcom/tencent/mm/protocal/b/AVclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/av;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/AVclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 29
-    new-instance v1, Lcom/tencent/mm/protocal/b/aw;
+    new-instance v1, Lcom/tencent/mm/protocal/b/AWclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/aw;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/AWclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -78,7 +78,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/av;
+    check-cast v0, Lcom/tencent/mm/protocal/b/AVclz;
 
     .line 37
     invoke-virtual {p2}, Lcom/tencent/mm/pluginsdk/model/app/t;->Yt()[B
@@ -97,11 +97,11 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/av;->ikU:Lcom/tencent/mm/protocal/b/ajy;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/AVclz;->ikU:Lcom/tencent/mm/protocal/b/ajy;
 
     .line 41
     :cond_0
-    iput p1, v0, Lcom/tencent/mm/protocal/b/av;->dnV:I
+    iput p1, v0, Lcom/tencent/mm/protocal/b/AVclz;->dnV:I
 
     .line 42
     iput-object p2, p0, Lcom/tencent/mm/pluginsdk/model/app/u;->hLT:Lcom/tencent/mm/pluginsdk/model/app/t;
@@ -223,9 +223,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/aw;
+    check-cast v0, Lcom/tencent/mm/protocal/b/AWclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/aw;->ikV:Lcom/tencent/mm/protocal/b/ajy;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/AWclz;->ikV:Lcom/tencent/mm/protocal/b/ajy;
 
     invoke-static {v0}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajy;)[B
 

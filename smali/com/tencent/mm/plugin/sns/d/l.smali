@@ -371,9 +371,9 @@
     invoke-virtual {v0, v1}, Lcom/tencent/mm/plugin/sns/h/k;->b(Lcom/tencent/mm/protocal/b/aqx;)V
 
     .line 119
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget v1, v1, Lcom/tencent/mm/protocal/b/il;->iug:I
+    iget v1, v1, Lcom/tencent/mm/protocal/b/ILclz;->iug:I
 
     iput v1, v0, Lcom/tencent/mm/plugin/sns/h/k;->field_type:I
 
@@ -535,29 +535,29 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/anv;
 
     .line 128
-    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v1
 
-    iget v1, v1, Lcom/tencent/mm/protocal/h$d;->ihR:I
+    iget v1, v1, Lcom/tencent/mm/protocal/Hclz$d;->ihR:I
 
     const/16 v4, 0xcf
 
     if-eq v1, v4, :cond_0
 
-    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v1
 
-    iget v1, v1, Lcom/tencent/mm/protocal/h$d;->ihR:I
+    iget v1, v1, Lcom/tencent/mm/protocal/Hclz$d;->ihR:I
 
     if-eqz v1, :cond_0
 
-    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v1
 
-    iget v1, v1, Lcom/tencent/mm/protocal/h$d;->ihR:I
+    iget v1, v1, Lcom/tencent/mm/protocal/Hclz$d;->ihR:I
 
     if-eq v1, v5, :cond_0
 
@@ -577,11 +577,11 @@
 
     .line 135
     :cond_0
-    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {p5}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v1
 
-    iget v1, v1, Lcom/tencent/mm/protocal/h$d;->ihR:I
+    iget v1, v1, Lcom/tencent/mm/protocal/Hclz$d;->ihR:I
 
     if-ne v1, v5, :cond_2
 

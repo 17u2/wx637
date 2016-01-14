@@ -17,7 +17,7 @@
 # instance fields
 .field public ata:J
 
-.field public awG:Lcom/tencent/mm/protocal/b/ms;
+.field public awG:Lcom/tencent/mm/protocal/b/MSclz;
 
 .field public awH:Landroid/content/Intent;
 

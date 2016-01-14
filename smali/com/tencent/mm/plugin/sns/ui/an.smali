@@ -932,16 +932,16 @@
     const/4 v2, 0x1
 
     .line 825
-    iget-object v4, p0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v4, p0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget v4, v4, Lcom/tencent/mm/protocal/b/il;->iug:I
+    iget v4, v4, Lcom/tencent/mm/protocal/b/ILclz;->iug:I
 
     if-ne v4, v2, :cond_3
 
     .line 826
-    iget-object v4, p0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v4, p0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget-object v4, v4, Lcom/tencent/mm/protocal/b/il;->iuh:Ljava/util/LinkedList;
+    iget-object v4, v4, Lcom/tencent/mm/protocal/b/ILclz;->iuh:Ljava/util/LinkedList;
 
     invoke-virtual {v4}, Ljava/util/LinkedList;->size()I
 
@@ -981,9 +981,9 @@
 
     .line 837
     :cond_3
-    iget-object v4, p0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v4, p0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget v4, v4, Lcom/tencent/mm/protocal/b/il;->iug:I
+    iget v4, v4, Lcom/tencent/mm/protocal/b/ILclz;->iug:I
 
     packed-switch v4, :pswitch_data_0
 
@@ -1945,7 +1945,7 @@
 
     .prologue
     .line 885
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/ax;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/AXclz;
 
     if-nez v0, :cond_1
 
@@ -1959,9 +1959,9 @@
 
     .line 888
     :cond_1
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/ax;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/AXclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ax;->ikW:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/AXclz;->ikW:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -1978,9 +1978,9 @@
     :cond_2
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/an;->gDI:Ljava/util/HashMap;
 
-    iget-object v1, p1, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/ax;
+    iget-object v1, p1, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/AXclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/ax;->ikW:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/AXclz;->ikW:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -1991,9 +1991,9 @@
     .line 892
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/an;->gDI:Ljava/util/HashMap;
 
-    iget-object v1, p1, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/ax;
+    iget-object v1, p1, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/AXclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/ax;->ikW:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/AXclz;->ikW:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -2005,9 +2005,9 @@
 
     .line 895
     :cond_3
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/ax;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/AXclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ax;->ciC:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/AXclz;->ciC:Ljava/lang/String;
 
     const/4 v1, 0x0
 
@@ -2018,9 +2018,9 @@
     .line 896
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/an;->arA:Lcom/tencent/mm/ui/MMActivity;
 
-    iget-object v2, p1, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/ax;
+    iget-object v2, p1, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/AXclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/protocal/b/ax;->ikW:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/protocal/b/AXclz;->ikW:Ljava/lang/String;
 
     invoke-static {v2, v0}, Lcom/tencent/mm/pluginsdk/model/app/g;->aF(Ljava/lang/String;I)Lcom/tencent/mm/pluginsdk/model/app/f;
 
@@ -2042,9 +2042,9 @@
     .line 901
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/an;->gDI:Ljava/util/HashMap;
 
-    iget-object v2, p1, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/ax;
+    iget-object v2, p1, Lcom/tencent/mm/protocal/b/aqx;->iXg:Lcom/tencent/mm/protocal/b/AXclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/protocal/b/ax;->ikW:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/protocal/b/AXclz;->ikW:Ljava/lang/String;
 
     invoke-virtual {v1, v2, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

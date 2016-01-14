@@ -141,11 +141,11 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/akm;
 
     .line 52
-    invoke-static {}, Lcom/tencent/mm/modelsearch/e;->AY()Lcom/tencent/mm/protocal/b/zq;
+    invoke-static {}, Lcom/tencent/mm/modelsearch/e;->AY()Lcom/tencent/mm/protocal/b/ZQclz;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/akm;->iKD:Lcom/tencent/mm/protocal/b/zq;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/akm;->iKD:Lcom/tencent/mm/protocal/b/ZQclz;
 
     .line 53
     iput-object p1, v0, Lcom/tencent/mm/protocal/b/akm;->iSK:Ljava/lang/String;

@@ -472,7 +472,7 @@
     invoke-virtual {v2, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 451
-    iget-object v3, v0, Lcom/tencent/mm/protocal/b/akj;->iJd:Lcom/tencent/mm/protocal/b/iw;
+    iget-object v3, v0, Lcom/tencent/mm/protocal/b/akj;->iJd:Lcom/tencent/mm/protocal/b/IWclz;
 
     if-eqz v3, :cond_6
 
@@ -480,9 +480,9 @@
     :try_start_0
     const-string/jumbo v3, "Contact_customInfo"
 
-    iget-object v4, v0, Lcom/tencent/mm/protocal/b/akj;->iJd:Lcom/tencent/mm/protocal/b/iw;
+    iget-object v4, v0, Lcom/tencent/mm/protocal/b/akj;->iJd:Lcom/tencent/mm/protocal/b/IWclz;
 
-    invoke-virtual {v4}, Lcom/tencent/mm/protocal/b/iw;->toByteArray()[B
+    invoke-virtual {v4}, Lcom/tencent/mm/protocal/b/IWclz;->toByteArray()[B
 
     move-result-object v4
 

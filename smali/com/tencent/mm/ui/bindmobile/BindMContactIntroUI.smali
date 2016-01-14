@@ -1419,11 +1419,11 @@
     .line 505
     check-cast v0, Lcom/tencent/mm/modelsimple/h;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelsimple/h;->BB()Lcom/tencent/mm/protocal/b/hq;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelsimple/h;->BB()Lcom/tencent/mm/protocal/b/HQclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/hq;->itf:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/HQclz;->itf:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI;->fOL:Ljava/lang/String;
 

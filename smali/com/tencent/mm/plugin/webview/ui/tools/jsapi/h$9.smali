@@ -101,7 +101,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/tencent/mm/protocal/a;->za(Ljava/lang/String;)Lcom/tencent/mm/protocal/a$c;
+    invoke-static {v3}, Lcom/tencent/mm/protocal/Aclz;->za(Ljava/lang/String;)Lcom/tencent/mm/protocal/Aclz$c;
 
     move-result-object v3
 
@@ -111,7 +111,7 @@
     .line 3876
     iget-object v4, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$9;->hGO:Lcom/tencent/mm/protocal/JsapiPermissionWrapper;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/protocal/a$c;->aMB()I
+    invoke-virtual {v3}, Lcom/tencent/mm/protocal/Aclz$c;->aMB()I
 
     move-result v5
 
@@ -126,7 +126,7 @@
     .line 3879
     iget-object v1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$9;->hGO:Lcom/tencent/mm/protocal/JsapiPermissionWrapper;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/protocal/a$c;->aMB()I
+    invoke-virtual {v3}, Lcom/tencent/mm/protocal/Aclz$c;->aMB()I
 
     move-result v3
 

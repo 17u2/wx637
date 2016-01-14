@@ -221,7 +221,7 @@
 
     const/4 v0, 0x1
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/protocal/c;->h(Landroid/content/Context;Z)V
+    invoke-static {p0, v0}, Lcom/tencent/mm/protocal/Cclz;->h(Landroid/content/Context;Z)V
 
     new-instance v0, Lcom/tencent/mm/d/a/m;
 

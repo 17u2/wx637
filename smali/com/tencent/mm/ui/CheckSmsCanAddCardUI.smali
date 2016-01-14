@@ -108,13 +108,13 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ho;
+    check-cast v0, Lcom/tencent/mm/protocal/b/HOclz;
 
     .line 98
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/ho;->aEo:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/HOclz;->aEo:Ljava/lang/String;
 
     .line 99
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ho;->aEp:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/HOclz;->aEp:Ljava/lang/String;
 
     .line 100
     const-string/jumbo v2, "!44@/B4Tb64lLpJF2KyWqc68qj0iEv1IxSYuy3hIVWDZo1o="
@@ -296,15 +296,15 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
-    new-instance v3, Lcom/tencent/mm/protocal/b/hn;
+    new-instance v3, Lcom/tencent/mm/protocal/b/HNclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/hn;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/HNclz;-><init>()V
 
     iput-object v3, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
-    new-instance v3, Lcom/tencent/mm/protocal/b/ho;
+    new-instance v3, Lcom/tencent/mm/protocal/b/HOclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/ho;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/HOclz;-><init>()V
 
     iput-object v3, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -326,11 +326,11 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/hn;
+    check-cast v0, Lcom/tencent/mm/protocal/b/HNclz;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/CheckSmsCanAddCardUI;->jtd:Ljava/lang/String;
 
-    iput-object v3, v0, Lcom/tencent/mm/protocal/b/hn;->itc:Ljava/lang/String;
+    iput-object v3, v0, Lcom/tencent/mm/protocal/b/HNclz;->itc:Ljava/lang/String;
 
     const-string/jumbo v0, "!44@/B4Tb64lLpJF2KyWqc68qj0iEv1IxSYuy3hIVWDZo1o="
 

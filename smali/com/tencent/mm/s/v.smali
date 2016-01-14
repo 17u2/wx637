@@ -13,7 +13,7 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Lcom/tencent/mm/protocal/b/nq;)V
+.method public constructor <init>(Ljava/lang/String;Lcom/tencent/mm/protocal/b/NQclz;)V
     .locals 3
 
     .prologue
@@ -28,16 +28,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 23
-    new-instance v1, Lcom/tencent/mm/protocal/b/iq;
+    new-instance v1, Lcom/tencent/mm/protocal/b/IQclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/iq;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/IQclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 24
-    new-instance v1, Lcom/tencent/mm/protocal/b/ir;
+    new-instance v1, Lcom/tencent/mm/protocal/b/IRclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ir;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/IRclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -71,13 +71,13 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/iq;
+    check-cast v0, Lcom/tencent/mm/protocal/b/IQclz;
 
     .line 32
-    iput-object p1, v0, Lcom/tencent/mm/protocal/b/iq;->ipw:Ljava/lang/String;
+    iput-object p1, v0, Lcom/tencent/mm/protocal/b/IQclz;->ipw:Ljava/lang/String;
 
     .line 33
-    iput-object p2, v0, Lcom/tencent/mm/protocal/b/iq;->ium:Lcom/tencent/mm/protocal/b/nq;
+    iput-object p2, v0, Lcom/tencent/mm/protocal/b/IQclz;->ium:Lcom/tencent/mm/protocal/b/NQclz;
 
     .line 34
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -172,7 +172,7 @@
     return v0
 .end method
 
-.method public final xg()Lcom/tencent/mm/protocal/b/ir;
+.method public final xg()Lcom/tencent/mm/protocal/b/IRclz;
     .locals 1
 
     .prologue
@@ -196,7 +196,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ir;
+    check-cast v0, Lcom/tencent/mm/protocal/b/IRclz;
 
     .line 61
     :goto_0

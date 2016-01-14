@@ -32,7 +32,7 @@
 
 .field private jua:Ljava/util/List;
 
-.field private jub:Lcom/tencent/mm/protocal/b/lv;
+.field private jub:Lcom/tencent/mm/protocal/b/LVclz;
 
 .field private juc:Z
 
@@ -107,7 +107,7 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jua:Ljava/util/List;
 
     .line 92
-    iput-object v3, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jub:Lcom/tencent/mm/protocal/b/lv;
+    iput-object v3, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jub:Lcom/tencent/mm/protocal/b/LVclz;
 
     .line 93
     iput-boolean v2, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->juc:Z
@@ -559,13 +559,13 @@
 
     iget-object v10, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jtX:[J
 
-    iget-object v11, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jub:Lcom/tencent/mm/protocal/b/lv;
+    iget-object v11, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jub:Lcom/tencent/mm/protocal/b/LVclz;
 
     iget-object v12, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jtY:Ljava/util/List;
 
     move-object v6, v5
 
-    invoke-direct/range {v0 .. v12}, Lcom/tencent/mm/modelsimple/l;-><init>(ILjava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;JLjava/lang/String;[JLcom/tencent/mm/protocal/b/lv;Ljava/util/List;)V
+    invoke-direct/range {v0 .. v12}, Lcom/tencent/mm/modelsimple/l;-><init>(ILjava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;JLjava/lang/String;[JLcom/tencent/mm/protocal/b/LVclz;Ljava/util/List;)V
 
     iput-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jui:Lcom/tencent/mm/modelsimple/l;
 
@@ -613,13 +613,13 @@
     const-string/jumbo v0, ""
 
     .line 332
-    iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jub:Lcom/tencent/mm/protocal/b/lv;
+    iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jub:Lcom/tencent/mm/protocal/b/LVclz;
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jub:Lcom/tencent/mm/protocal/b/lv;
+    iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jub:Lcom/tencent/mm/protocal/b/LVclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/lv;->biu:Ljava/util/LinkedList;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/LVclz;->biu:Ljava/util/LinkedList;
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->isEmpty()Z
 
@@ -628,18 +628,18 @@
     if-nez v1, :cond_0
 
     .line 333
-    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jub:Lcom/tencent/mm/protocal/b/lv;
+    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jub:Lcom/tencent/mm/protocal/b/LVclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/lv;->biu:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/LVclz;->biu:Ljava/util/LinkedList;
 
     invoke-virtual {v0, v6}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/lu;
+    check-cast v0, Lcom/tencent/mm/protocal/b/LUclz;
 
     .line 334
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/lu;->eVT:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/LUclz;->eVT:Ljava/lang/String;
 
     .line 336
     :cond_0
@@ -1652,18 +1652,18 @@
 
     .line 122
     :try_start_0
-    new-instance v0, Lcom/tencent/mm/protocal/b/lv;
+    new-instance v0, Lcom/tencent/mm/protocal/b/LVclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/lv;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/LVclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jub:Lcom/tencent/mm/protocal/b/lv;
+    iput-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jub:Lcom/tencent/mm/protocal/b/LVclz;
 
     .line 123
-    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jub:Lcom/tencent/mm/protocal/b/lv;
+    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jub:Lcom/tencent/mm/protocal/b/LVclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jug:[B
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/protocal/b/lv;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/protocal/b/LVclz;->ak([B)Lcom/tencent/mm/aq/a;
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 

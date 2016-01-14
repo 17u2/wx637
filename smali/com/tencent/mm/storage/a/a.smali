@@ -707,83 +707,83 @@
 
 
 # virtual methods
-.method public final aRC()Lcom/tencent/mm/protocal/b/ld;
+.method public final aRC()Lcom/tencent/mm/protocal/b/LDclz;
     .locals 3
 
     .prologue
     .line 230
-    new-instance v0, Lcom/tencent/mm/protocal/b/ld;
+    new-instance v0, Lcom/tencent/mm/protocal/b/LDclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/ld;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/LDclz;-><init>()V
 
     .line 231
     iget-object v1, p0, Lcom/tencent/mm/storage/a/a;->field_productID:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ld;->ilO:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/LDclz;->ilO:Ljava/lang/String;
 
     .line 232
     iget-object v1, p0, Lcom/tencent/mm/storage/a/a;->field_packIconUrl:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ld;->eVU:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/LDclz;->eVU:Ljava/lang/String;
 
     .line 233
     iget-object v1, p0, Lcom/tencent/mm/storage/a/a;->field_packName:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ld;->ivJ:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/LDclz;->ivJ:Ljava/lang/String;
 
     .line 234
     iget-object v1, p0, Lcom/tencent/mm/storage/a/a;->field_packDesc:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ld;->ivK:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/LDclz;->ivK:Ljava/lang/String;
 
     .line 235
     iget-object v1, p0, Lcom/tencent/mm/storage/a/a;->field_packAuthInfo:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ld;->ivL:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/LDclz;->ivL:Ljava/lang/String;
 
     .line 236
     iget-object v1, p0, Lcom/tencent/mm/storage/a/a;->field_packPrice:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ld;->ivM:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/LDclz;->ivM:Ljava/lang/String;
 
     .line 237
     iget v1, p0, Lcom/tencent/mm/storage/a/a;->field_packType:I
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/ld;->ivN:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/LDclz;->ivN:I
 
     .line 238
     iget v1, p0, Lcom/tencent/mm/storage/a/a;->field_packFlag:I
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/ld;->ivO:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/LDclz;->ivO:I
 
     .line 239
     iget-object v1, p0, Lcom/tencent/mm/storage/a/a;->field_packCoverUrl:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ld;->ivR:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/LDclz;->ivR:Ljava/lang/String;
 
     .line 240
     iget-wide v1, p0, Lcom/tencent/mm/storage/a/a;->field_packExpire:J
 
     long-to-int v1, v1
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/ld;->ivS:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/LDclz;->ivS:I
 
     .line 241
     iget-object v1, p0, Lcom/tencent/mm/storage/a/a;->field_packCopyright:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ld;->ivT:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/LDclz;->ivT:Ljava/lang/String;
 
     .line 242
     iget-wide v1, p0, Lcom/tencent/mm/storage/a/a;->field_packTimeStamp:J
 
     long-to-int v1, v1
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/ld;->iwr:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/LDclz;->iwr:I
 
     .line 244
     iget-object v1, p0, Lcom/tencent/mm/storage/a/a;->field_packPrice:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ld;->ivU:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/LDclz;->ivU:Ljava/lang/String;
 
     .line 251
     return-object v0

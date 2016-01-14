@@ -374,9 +374,9 @@
 
     .line 78
     :cond_5
-    iget-object v0, p3, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/fu;
+    iget-object v0, p3, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/FUclz;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/fu;->iqC:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/FUclz;->iqC:I
 
     const/4 v2, 0x4
 
@@ -393,9 +393,9 @@
 
     .line 84
     :goto_2
-    iget-object v0, p3, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/fu;
+    iget-object v0, p3, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/FUclz;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/fu;->iqC:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/FUclz;->iqC:I
 
     invoke-static {v0, v5}, Lcom/tencent/mm/plugin/search/ui/a/m;->aW(II)Z
 
@@ -410,9 +410,9 @@
 
     .line 90
     :goto_3
-    iget-object v0, p3, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/fu;
+    iget-object v0, p3, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/FUclz;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/fu;->iqC:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/FUclz;->iqC:I
 
     const/4 v2, 0x2
 

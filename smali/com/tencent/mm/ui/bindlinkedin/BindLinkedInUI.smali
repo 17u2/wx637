@@ -140,17 +140,17 @@
     if-eqz p2, :cond_0
 
     .line 440
-    new-instance v1, Lcom/tencent/mm/protocal/b/ns;
+    new-instance v1, Lcom/tencent/mm/protocal/b/NSclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ns;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/NSclz;-><init>()V
 
     .line 442
     const/16 v2, 0x21
 
-    iput v2, v1, Lcom/tencent/mm/protocal/b/ns;->iAx:I
+    iput v2, v1, Lcom/tencent/mm/protocal/b/NSclz;->iAx:I
 
     .line 443
-    iput v0, v1, Lcom/tencent/mm/protocal/b/ns;->iAy:I
+    iput v0, v1, Lcom/tencent/mm/protocal/b/NSclz;->iAy:I
 
     .line 444
     invoke-static {}, Lcom/tencent/mm/model/ah;->tn()Lcom/tencent/mm/model/c;

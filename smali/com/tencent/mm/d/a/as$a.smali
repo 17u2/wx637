@@ -17,9 +17,9 @@
 # instance fields
 .field public asj:Ljava/lang/String;
 
-.field public atf:Lcom/tencent/mm/protocal/b/nb;
+.field public atf:Lcom/tencent/mm/protocal/b/NBclz;
 
-.field public atg:Lcom/tencent/mm/protocal/b/nk;
+.field public atg:Lcom/tencent/mm/protocal/b/NKclz;
 
 .field public ath:Ljava/lang/String;
 

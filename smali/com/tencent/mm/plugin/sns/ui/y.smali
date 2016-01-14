@@ -15,21 +15,21 @@
     const/4 v2, 0x0
 
     .line 55
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/aqx;->glj:Lcom/tencent/mm/protocal/b/k;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/aqx;->glj:Lcom/tencent/mm/protocal/b/Kclz;
 
     if-eqz v0, :cond_10
 
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/aqx;->glj:Lcom/tencent/mm/protocal/b/k;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/aqx;->glj:Lcom/tencent/mm/protocal/b/Kclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
     if-eqz v0, :cond_10
 
-    iget-object v0, p1, Lcom/tencent/mm/protocal/b/aqx;->glj:Lcom/tencent/mm/protocal/b/k;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/b/aqx;->glj:Lcom/tencent/mm/protocal/b/Kclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/i;->ijl:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/Iclz;->ijl:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -55,26 +55,26 @@
     invoke-virtual {v0, v8}, Landroid/widget/TextView;->setVisibility(I)V
 
     .line 60
-    iget-object v4, p1, Lcom/tencent/mm/protocal/b/aqx;->glj:Lcom/tencent/mm/protocal/b/k;
+    iget-object v4, p1, Lcom/tencent/mm/protocal/b/aqx;->glj:Lcom/tencent/mm/protocal/b/Kclz;
 
     .line 61
     const-string/jumbo v3, ""
 
     .line 62
-    iget-object v0, v4, Lcom/tencent/mm/protocal/b/k;->ijy:Lcom/tencent/mm/protocal/b/ay;
+    iget-object v0, v4, Lcom/tencent/mm/protocal/b/Kclz;->ijy:Lcom/tencent/mm/protocal/b/AYclz;
 
     if-eqz v0, :cond_a
 
-    iget-object v0, v4, Lcom/tencent/mm/protocal/b/k;->ijz:Lcom/tencent/mm/protocal/b/ay;
+    iget-object v0, v4, Lcom/tencent/mm/protocal/b/Kclz;->ijz:Lcom/tencent/mm/protocal/b/AYclz;
 
     if-eqz v0, :cond_a
 
     .line 63
     sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
 
-    iget-object v3, v4, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v3, v4, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/protocal/b/i;->ijl:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/protocal/b/Iclz;->ijl:Ljava/lang/String;
 
     invoke-interface {v0, p0, v3}, Lcom/tencent/mm/pluginsdk/e;->k(Landroid/content/Context;Ljava/lang/String;)Z
 
@@ -84,7 +84,7 @@
     if-eqz v0, :cond_6
 
     .line 68
-    iget-object v0, v4, Lcom/tencent/mm/protocal/b/k;->ijy:Lcom/tencent/mm/protocal/b/ay;
+    iget-object v0, v4, Lcom/tencent/mm/protocal/b/Kclz;->ijy:Lcom/tencent/mm/protocal/b/AYclz;
 
     .line 73
     :goto_1
@@ -102,11 +102,11 @@
     if-eqz v5, :cond_7
 
     .line 75
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ay;->ila:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/AYclz;->ila:Ljava/lang/String;
 
     .line 94
     :goto_2
-    iget v3, v4, Lcom/tencent/mm/protocal/b/k;->dnV:I
+    iget v3, v4, Lcom/tencent/mm/protocal/b/Kclz;->dnV:I
 
     packed-switch v3, :pswitch_data_0
 
@@ -210,7 +210,7 @@
 
     .line 70
     :cond_6
-    iget-object v0, v4, Lcom/tencent/mm/protocal/b/k;->ijz:Lcom/tencent/mm/protocal/b/ay;
+    iget-object v0, v4, Lcom/tencent/mm/protocal/b/Kclz;->ijz:Lcom/tencent/mm/protocal/b/AYclz;
 
     goto :goto_1
 
@@ -234,13 +234,13 @@
 
     .line 77
     :cond_8
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ay;->ilb:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/AYclz;->ilb:Ljava/lang/String;
 
     goto :goto_2
 
     .line 79
     :cond_9
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ay;->ikZ:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/AYclz;->ikZ:Ljava/lang/String;
 
     goto :goto_2
 
@@ -288,13 +288,13 @@
 
     .line 82
     :cond_b
-    iget v0, v4, Lcom/tencent/mm/protocal/b/k;->dnV:I
+    iget v0, v4, Lcom/tencent/mm/protocal/b/Kclz;->dnV:I
 
     const/4 v5, 0x6
 
     if-ne v0, v5, :cond_e
 
-    iget-object v0, v4, Lcom/tencent/mm/protocal/b/k;->ijx:Lcom/tencent/mm/protocal/b/az;
+    iget-object v0, v4, Lcom/tencent/mm/protocal/b/Kclz;->ijx:Lcom/tencent/mm/protocal/b/AZclz;
 
     if-nez v0, :cond_c
 
@@ -305,9 +305,9 @@
     :cond_c
     sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
 
-    iget-object v5, v4, Lcom/tencent/mm/protocal/b/k;->iju:Lcom/tencent/mm/protocal/b/i;
+    iget-object v5, v4, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
-    iget-object v5, v5, Lcom/tencent/mm/protocal/b/i;->ijl:Ljava/lang/String;
+    iget-object v5, v5, Lcom/tencent/mm/protocal/b/Iclz;->ijl:Ljava/lang/String;
 
     invoke-interface {v0, p0, v5}, Lcom/tencent/mm/pluginsdk/e;->k(Landroid/content/Context;Ljava/lang/String;)Z
 
@@ -315,21 +315,21 @@
 
     if-eqz v0, :cond_d
 
-    iget-object v0, v4, Lcom/tencent/mm/protocal/b/k;->ijx:Lcom/tencent/mm/protocal/b/az;
+    iget-object v0, v4, Lcom/tencent/mm/protocal/b/Kclz;->ijx:Lcom/tencent/mm/protocal/b/AZclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/az;->ilc:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/AZclz;->ilc:Ljava/lang/String;
 
     goto :goto_7
 
     :cond_d
-    iget-object v0, v4, Lcom/tencent/mm/protocal/b/k;->ijx:Lcom/tencent/mm/protocal/b/az;
+    iget-object v0, v4, Lcom/tencent/mm/protocal/b/Kclz;->ijx:Lcom/tencent/mm/protocal/b/AZclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/az;->ild:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/AZclz;->ild:Ljava/lang/String;
 
     goto :goto_7
 
     :cond_e
-    iget-object v0, v4, Lcom/tencent/mm/protocal/b/k;->ijv:Ljava/lang/String;
+    iget-object v0, v4, Lcom/tencent/mm/protocal/b/Kclz;->ijv:Ljava/lang/String;
 
     goto :goto_7
 
@@ -356,7 +356,7 @@
 
     .line 100
     :pswitch_1
-    iget v3, v4, Lcom/tencent/mm/protocal/b/k;->ijq:I
+    iget v3, v4, Lcom/tencent/mm/protocal/b/Kclz;->ijq:I
 
     if-ne v3, v1, :cond_0
 

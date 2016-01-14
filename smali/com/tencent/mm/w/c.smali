@@ -716,29 +716,29 @@
 
     .line 157
     :cond_4
-    new-instance v6, Lcom/tencent/mm/protocal/b/qw;
+    new-instance v6, Lcom/tencent/mm/protocal/b/QWclz;
 
-    invoke-direct {v6}, Lcom/tencent/mm/protocal/b/qw;-><init>()V
+    invoke-direct {v6}, Lcom/tencent/mm/protocal/b/QWclz;-><init>()V
 
     .line 158
-    iput-object v2, v6, Lcom/tencent/mm/protocal/b/qw;->inL:Ljava/util/LinkedList;
+    iput-object v2, v6, Lcom/tencent/mm/protocal/b/QWclz;->inL:Ljava/util/LinkedList;
 
     .line 159
     invoke-virtual {v2}, Ljava/util/LinkedList;->size()I
 
     move-result v0
 
-    iput v0, v6, Lcom/tencent/mm/protocal/b/qw;->iCN:I
+    iput v0, v6, Lcom/tencent/mm/protocal/b/QWclz;->iCN:I
 
     .line 160
-    iput-object v1, v6, Lcom/tencent/mm/protocal/b/qw;->iCR:Ljava/util/LinkedList;
+    iput-object v1, v6, Lcom/tencent/mm/protocal/b/QWclz;->iCR:Ljava/util/LinkedList;
 
     .line 161
     invoke-virtual {v1}, Ljava/util/LinkedList;->size()I
 
     move-result v0
 
-    iput v0, v6, Lcom/tencent/mm/protocal/b/qw;->iCQ:I
+    iput v0, v6, Lcom/tencent/mm/protocal/b/QWclz;->iCQ:I
 
     .line 162
     iget-object v0, p0, Lcom/tencent/mm/w/c;->bHp:Ljava/util/Queue;
@@ -774,7 +774,7 @@
 
     aput-object v9, v8, v3
 
-    iget-object v6, v6, Lcom/tencent/mm/protocal/b/qw;->inL:Ljava/util/LinkedList;
+    iget-object v6, v6, Lcom/tencent/mm/protocal/b/QWclz;->inL:Ljava/util/LinkedList;
 
     invoke-virtual {v6}, Ljava/util/LinkedList;->size()I
 
@@ -1186,7 +1186,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/qw;
+    check-cast v0, Lcom/tencent/mm/protocal/b/QWclz;
 
     .line 200
     if-nez v0, :cond_3
@@ -1201,7 +1201,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/qw;
+    check-cast v0, Lcom/tencent/mm/protocal/b/QWclz;
 
     .line 203
     if-nez v0, :cond_3
@@ -1233,9 +1233,9 @@
     iput-object v0, v1, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 214
-    new-instance v0, Lcom/tencent/mm/protocal/b/qx;
+    new-instance v0, Lcom/tencent/mm/protocal/b/QXclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/qx;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/QXclz;-><init>()V
 
     iput-object v0, v1, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 

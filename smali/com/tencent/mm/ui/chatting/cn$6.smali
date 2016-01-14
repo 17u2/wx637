@@ -113,7 +113,7 @@
     :cond_0
     iget-object v0, p1, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/nk;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/NKclz;
 
     if-nez v0, :cond_1
 
@@ -138,9 +138,9 @@
 
     iget-object v3, p1, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/nk;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/NKclz;
 
-    iget v3, v3, Lcom/tencent/mm/protocal/b/nk;->izO:I
+    iget v3, v3, Lcom/tencent/mm/protocal/b/NKclz;->izO:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -152,9 +152,9 @@
 
     iget-object v4, p1, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/nk;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/NKclz;
 
-    iget v4, v4, Lcom/tencent/mm/protocal/b/nk;->izP:I
+    iget v4, v4, Lcom/tencent/mm/protocal/b/NKclz;->izP:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -166,9 +166,9 @@
 
     iget-object v4, p1, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/nk;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/NKclz;
 
-    iget v4, v4, Lcom/tencent/mm/protocal/b/nk;->izQ:I
+    iget v4, v4, Lcom/tencent/mm/protocal/b/NKclz;->izQ:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -180,9 +180,9 @@
 
     iget-object v4, p1, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/nk;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/NKclz;
 
-    iget v4, v4, Lcom/tencent/mm/protocal/b/nk;->izR:I
+    iget v4, v4, Lcom/tencent/mm/protocal/b/NKclz;->izR:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -194,9 +194,9 @@
 
     iget-object v4, p1, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/nk;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/NKclz;
 
-    iget v4, v4, Lcom/tencent/mm/protocal/b/nk;->izS:I
+    iget v4, v4, Lcom/tencent/mm/protocal/b/NKclz;->izS:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -208,9 +208,9 @@
 
     iget-object v4, p1, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/nk;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/NKclz;
 
-    iget v4, v4, Lcom/tencent/mm/protocal/b/nk;->izT:I
+    iget v4, v4, Lcom/tencent/mm/protocal/b/NKclz;->izT:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -222,9 +222,9 @@
 
     iget-object v4, p1, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/nk;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/NKclz;
 
-    iget v4, v4, Lcom/tencent/mm/protocal/b/nk;->izU:I
+    iget v4, v4, Lcom/tencent/mm/protocal/b/NKclz;->izU:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -236,9 +236,9 @@
 
     iget-object v4, p1, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/nk;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/NKclz;
 
-    iget v4, v4, Lcom/tencent/mm/protocal/b/nk;->izV:I
+    iget v4, v4, Lcom/tencent/mm/protocal/b/NKclz;->izV:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -250,9 +250,9 @@
 
     iget-object v4, p1, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/nk;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/NKclz;
 
-    iget v4, v4, Lcom/tencent/mm/protocal/b/nk;->izW:I
+    iget v4, v4, Lcom/tencent/mm/protocal/b/NKclz;->izW:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -264,9 +264,9 @@
 
     iget-object v4, p1, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/nk;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/NKclz;
 
-    iget v4, v4, Lcom/tencent/mm/protocal/b/nk;->izX:I
+    iget v4, v4, Lcom/tencent/mm/protocal/b/NKclz;->izX:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -278,9 +278,9 @@
 
     iget-object v4, p1, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/nk;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/NKclz;
 
-    iget v4, v4, Lcom/tencent/mm/protocal/b/nk;->izY:I
+    iget v4, v4, Lcom/tencent/mm/protocal/b/NKclz;->izY:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -292,9 +292,9 @@
 
     iget-object v4, p1, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/nk;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/NKclz;
 
-    iget v4, v4, Lcom/tencent/mm/protocal/b/nk;->izZ:I
+    iget v4, v4, Lcom/tencent/mm/protocal/b/NKclz;->izZ:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -306,9 +306,9 @@
 
     iget-object v4, p1, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/nk;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/NKclz;
 
-    iget v4, v4, Lcom/tencent/mm/protocal/b/nk;->iAa:I
+    iget v4, v4, Lcom/tencent/mm/protocal/b/NKclz;->iAa:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -320,9 +320,9 @@
 
     iget-object v4, p1, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/nk;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/NKclz;
 
-    iget v4, v4, Lcom/tencent/mm/protocal/b/nk;->iAb:I
+    iget v4, v4, Lcom/tencent/mm/protocal/b/NKclz;->iAb:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -332,9 +332,9 @@
 
     iget-object v3, p1, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/nk;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/as$a;->atg:Lcom/tencent/mm/protocal/b/NKclz;
 
-    iget v3, v3, Lcom/tencent/mm/protocal/b/nk;->iAc:I
+    iget v3, v3, Lcom/tencent/mm/protocal/b/NKclz;->iAc:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

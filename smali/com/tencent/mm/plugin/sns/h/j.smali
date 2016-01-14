@@ -614,14 +614,14 @@
     return-object v0
 .end method
 
-.method public final tW(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/nr;
+.method public final tW(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/NRclz;
     .locals 3
 
     .prologue
     .line 109
-    new-instance v1, Lcom/tencent/mm/protocal/b/nr;
+    new-instance v1, Lcom/tencent/mm/protocal/b/NRclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/nr;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/NRclz;-><init>()V
 
     .line 110
     new-instance v0, Lcom/tencent/mm/plugin/sns/h/i;
@@ -644,17 +644,17 @@
     if-nez v2, :cond_1
 
     .line 114
-    new-instance v2, Lcom/tencent/mm/protocal/b/nr;
+    new-instance v2, Lcom/tencent/mm/protocal/b/NRclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/nr;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/protocal/b/NRclz;-><init>()V
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/h/i;->field_faultS:[B
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/protocal/b/nr;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/protocal/b/NRclz;->ak([B)Lcom/tencent/mm/aq/a;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/nr;
+    check-cast v0, Lcom/tencent/mm/protocal/b/NRclz;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -663,9 +663,9 @@
     if-nez v0, :cond_0
 
     .line 120
-    new-instance v0, Lcom/tencent/mm/protocal/b/nr;
+    new-instance v0, Lcom/tencent/mm/protocal/b/NRclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/nr;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/NRclz;-><init>()V
 
     .line 122
     :cond_0

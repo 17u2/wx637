@@ -191,14 +191,14 @@
     if-eqz v5, :cond_4
 
     .line 38
-    new-instance v5, Lcom/tencent/mm/protocal/b/ze;
+    new-instance v5, Lcom/tencent/mm/protocal/b/ZEclz;
 
-    invoke-direct {v5}, Lcom/tencent/mm/protocal/b/ze;-><init>()V
+    invoke-direct {v5}, Lcom/tencent/mm/protocal/b/ZEclz;-><init>()V
 
     .line 39
     const/16 v6, 0x11
 
-    iput v6, v5, Lcom/tencent/mm/protocal/b/ze;->fxp:I
+    iput v6, v5, Lcom/tencent/mm/protocal/b/ZEclz;->fxp:I
 
     .line 40
     new-instance v6, Ljava/lang/StringBuilder;
@@ -227,7 +227,7 @@
 
     move-result-object v6
 
-    iput-object v6, v5, Lcom/tencent/mm/protocal/b/ze;->fxu:Ljava/lang/String;
+    iput-object v6, v5, Lcom/tencent/mm/protocal/b/ZEclz;->fxu:Ljava/lang/String;
 
     .line 41
     invoke-virtual {v3, v5}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
@@ -239,14 +239,14 @@
     if-eqz v5, :cond_3
 
     .line 44
-    new-instance v5, Lcom/tencent/mm/protocal/b/ze;
+    new-instance v5, Lcom/tencent/mm/protocal/b/ZEclz;
 
-    invoke-direct {v5}, Lcom/tencent/mm/protocal/b/ze;-><init>()V
+    invoke-direct {v5}, Lcom/tencent/mm/protocal/b/ZEclz;-><init>()V
 
     .line 45
     const/16 v6, 0x12
 
-    iput v6, v5, Lcom/tencent/mm/protocal/b/ze;->fxp:I
+    iput v6, v5, Lcom/tencent/mm/protocal/b/ZEclz;->fxp:I
 
     .line 46
     new-instance v6, Ljava/lang/StringBuilder;
@@ -275,7 +275,7 @@
 
     move-result-object v0
 
-    iput-object v0, v5, Lcom/tencent/mm/protocal/b/ze;->fxu:Ljava/lang/String;
+    iput-object v0, v5, Lcom/tencent/mm/protocal/b/ZEclz;->fxu:Ljava/lang/String;
 
     .line 47
     invoke-virtual {v3, v5}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z

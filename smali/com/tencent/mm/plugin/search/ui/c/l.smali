@@ -56,15 +56,15 @@
     if-ltz v2, :cond_0
 
     .line 26
-    iget-object v0, p2, Lcom/tencent/mm/ui/e/h$b;->kAI:Lcom/tencent/mm/protocal/b/fr;
+    iget-object v0, p2, Lcom/tencent/mm/ui/e/h$b;->kAI:Lcom/tencent/mm/protocal/b/FRclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/fr;->iqu:Ljava/util/LinkedList;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/FRclz;->iqu:Ljava/util/LinkedList;
 
     invoke-virtual {v0, v2}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/fw;
+    check-cast v0, Lcom/tencent/mm/protocal/b/FWclz;
 
     .line 27
     new-instance v1, Lcom/tencent/mm/plugin/search/ui/a/g;
@@ -72,19 +72,19 @@
     invoke-direct {v1, p1}, Lcom/tencent/mm/plugin/search/ui/a/g;-><init>(I)V
 
     .line 28
-    iget-object v3, v0, Lcom/tencent/mm/protocal/b/fw;->iqN:Lcom/tencent/mm/protocal/b/fu;
+    iget-object v3, v0, Lcom/tencent/mm/protocal/b/FWclz;->iqN:Lcom/tencent/mm/protocal/b/FUclz;
 
-    iput-object v3, v1, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/fu;
+    iput-object v3, v1, Lcom/tencent/mm/plugin/search/ui/a/g;->fLg:Lcom/tencent/mm/protocal/b/FUclz;
 
     .line 29
-    iget-object v3, p2, Lcom/tencent/mm/ui/e/h$b;->kAI:Lcom/tencent/mm/protocal/b/fr;
+    iget-object v3, p2, Lcom/tencent/mm/ui/e/h$b;->kAI:Lcom/tencent/mm/protocal/b/FRclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/protocal/b/fr;->iqt:Ljava/util/LinkedList;
+    iget-object v3, v3, Lcom/tencent/mm/protocal/b/FRclz;->iqt:Ljava/util/LinkedList;
 
     iput-object v3, v1, Lcom/tencent/mm/plugin/search/ui/a/g;->cER:Ljava/util/LinkedList;
 
     .line 30
-    iget-wide v3, v0, Lcom/tencent/mm/protocal/b/fw;->iqK:J
+    iget-wide v3, v0, Lcom/tencent/mm/protocal/b/FWclz;->iqK:J
 
     iput-wide v3, v1, Lcom/tencent/mm/ui/e/a/a;->kAO:J
 
@@ -104,12 +104,12 @@
     return-object v0
 .end method
 
-.method protected final b(Lcom/tencent/mm/protocal/b/fr;)V
+.method protected final b(Lcom/tencent/mm/protocal/b/FRclz;)V
     .locals 0
 
     .prologue
     .line 46
-    invoke-virtual {p0, p1}, Lcom/tencent/mm/plugin/search/ui/c/l;->c(Lcom/tencent/mm/protocal/b/fr;)V
+    invoke-virtual {p0, p1}, Lcom/tencent/mm/plugin/search/ui/c/l;->c(Lcom/tencent/mm/protocal/b/FRclz;)V
 
     .line 47
     return-void

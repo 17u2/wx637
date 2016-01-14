@@ -30,16 +30,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 23
-    new-instance v1, Lcom/tencent/mm/protocal/b/yu;
+    new-instance v1, Lcom/tencent/mm/protocal/b/YUclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/yu;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/YUclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 24
-    new-instance v1, Lcom/tencent/mm/protocal/b/yv;
+    new-instance v1, Lcom/tencent/mm/protocal/b/YVclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/yv;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/YVclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -73,13 +73,13 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/yu;
+    check-cast v0, Lcom/tencent/mm/protocal/b/YUclz;
 
     .line 32
-    iput-object p1, v0, Lcom/tencent/mm/protocal/b/yu;->iIB:Ljava/lang/String;
+    iput-object p1, v0, Lcom/tencent/mm/protocal/b/YUclz;->iIB:Ljava/lang/String;
 
     .line 33
-    iput-object p2, v0, Lcom/tencent/mm/protocal/b/yu;->iIC:Ljava/lang/String;
+    iput-object p2, v0, Lcom/tencent/mm/protocal/b/YUclz;->iIC:Ljava/lang/String;
 
     .line 35
     iput-object p1, p0, Lcom/tencent/mm/s/ab;->bBV:Ljava/lang/String;
@@ -177,7 +177,7 @@
     return v0
 .end method
 
-.method public final xk()Lcom/tencent/mm/protocal/b/yv;
+.method public final xk()Lcom/tencent/mm/protocal/b/YVclz;
     .locals 1
 
     .prologue
@@ -201,7 +201,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/yv;
+    check-cast v0, Lcom/tencent/mm/protocal/b/YVclz;
 
     .line 62
     :goto_0

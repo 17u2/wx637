@@ -1,9 +1,9 @@
 .class final Lcom/tencent/mm/ae/a$c;
-.super Lcom/tencent/mm/protocal/h$d;
+.super Lcom/tencent/mm/protocal/Hclz$d;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/protocal/h$b;
+.implements Lcom/tencent/mm/protocal/Hclz$b;
 
 
 # annotations
@@ -27,7 +27,7 @@
 
     .prologue
     .line 130
-    invoke-direct {p0}, Lcom/tencent/mm/protocal/h$d;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/protocal/Hclz$d;-><init>()V
 
     .line 132
     new-instance v0, Lcom/tencent/mm/protocal/b/aeh;

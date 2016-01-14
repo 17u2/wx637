@@ -25,7 +25,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/tencent/mm/protocal/h$d;)V
+.method public constructor <init>(Lcom/tencent/mm/protocal/Hclz$d;)V
     .locals 1
 
     .prologue
@@ -38,13 +38,13 @@
     iput-object v0, p0, Lcom/tencent/mm/modelsimple/j;->bSE:Ljava/lang/String;
 
     .line 58
-    check-cast p1, Lcom/tencent/mm/protocal/l$b;
+    check-cast p1, Lcom/tencent/mm/protocal/Lclz$b;
 
-    iget-object v0, p1, Lcom/tencent/mm/protocal/l$b;->bSE:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/protocal/Lclz$b;->bSE:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/modelsimple/j;->bSE:Ljava/lang/String;
 
-    iget-object v0, p1, Lcom/tencent/mm/protocal/l$b;->content:[B
+    iget-object v0, p1, Lcom/tencent/mm/protocal/Lclz$b;->content:[B
 
     iput-object v0, p0, Lcom/tencent/mm/modelsimple/j;->content:[B
 
@@ -176,24 +176,24 @@
     .line 46
     iget-object v0, p0, Lcom/tencent/mm/modelsimple/j;->byM:Lcom/tencent/mm/network/o;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/h$c;
+    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/l$a;
+    check-cast v0, Lcom/tencent/mm/protocal/Lclz$a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/l$a;
+    check-cast v0, Lcom/tencent/mm/protocal/Lclz$a;
 
     .line 47
     const/16 v3, 0x6f
 
-    iput v3, v0, Lcom/tencent/mm/protocal/l$a;->awa:I
+    iput v3, v0, Lcom/tencent/mm/protocal/Lclz$a;->awa:I
 
     .line 48
-    iput v2, v0, Lcom/tencent/mm/protocal/l$a;->aoa:I
+    iput v2, v0, Lcom/tencent/mm/protocal/Lclz$a;->aoa:I
 
     .line 49
-    iput v5, v0, Lcom/tencent/mm/protocal/l$a;->bTM:I
+    iput v5, v0, Lcom/tencent/mm/protocal/Lclz$a;->bTM:I
 
     .line 50
     if-eqz v4, :cond_3
@@ -203,7 +203,7 @@
     :goto_2
     invoke-static {v3}, Ljunit/framework/Assert;->assertTrue(Z)V
 
-    iput-object v4, v0, Lcom/tencent/mm/protocal/l$a;->iib:Ljava/lang/String;
+    iput-object v4, v0, Lcom/tencent/mm/protocal/Lclz$a;->iib:Ljava/lang/String;
 
     .line 51
     if-eqz p2, :cond_4
@@ -211,7 +211,7 @@
     :goto_3
     invoke-static {v1}, Ljunit/framework/Assert;->assertTrue(Z)V
 
-    iput-object p2, v0, Lcom/tencent/mm/protocal/l$a;->iic:[B
+    iput-object p2, v0, Lcom/tencent/mm/protocal/Lclz$a;->iic:[B
 
     .line 53
     const-string/jumbo v0, "!44@/B4Tb64lLpK+IBX8XDgnvkASPLG9hDDydmb3CTe3k6g="

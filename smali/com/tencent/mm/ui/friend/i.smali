@@ -1481,17 +1481,17 @@
 
     iget-object v0, v0, Lcom/tencent/mm/modelfriend/u;->byM:Lcom/tencent/mm/network/o;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {v0}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/j$b;
+    check-cast v0, Lcom/tencent/mm/protocal/Jclz$b;
 
-    check-cast v0, Lcom/tencent/mm/protocal/j$b;
+    check-cast v0, Lcom/tencent/mm/protocal/Jclz$b;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/j$b;->ihW:Lcom/tencent/mm/protocal/b/ej;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/Jclz$b;->ihW:Lcom/tencent/mm/protocal/b/EJclz;
 
-    iget v1, v0, Lcom/tencent/mm/protocal/b/ej;->ioz:I
+    iget v1, v0, Lcom/tencent/mm/protocal/b/EJclz;->ioz:I
 
     if-nez p1, :cond_9
 

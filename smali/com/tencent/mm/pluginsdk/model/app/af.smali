@@ -32,16 +32,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 25
-    new-instance v1, Lcom/tencent/mm/protocal/b/oc;
+    new-instance v1, Lcom/tencent/mm/protocal/b/OCclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/oc;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/OCclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 26
-    new-instance v1, Lcom/tencent/mm/protocal/b/od;
+    new-instance v1, Lcom/tencent/mm/protocal/b/ODclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/od;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ODclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -75,40 +75,40 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/oc;
+    check-cast v0, Lcom/tencent/mm/protocal/b/OCclz;
 
     .line 34
     sget-object v1, Lcom/tencent/mm/protocal/bclass;->ihj:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/oc;->ipP:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/OCclz;->ipP:Ljava/lang/String;
 
     .line 35
     sget-object v1, Lcom/tencent/mm/protocal/bclass;->ihi:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/oc;->ipQ:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/OCclz;->ipQ:Ljava/lang/String;
 
     .line 36
     sget-object v1, Lcom/tencent/mm/protocal/bclass;->ihl:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/oc;->ipR:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/OCclz;->ipR:Ljava/lang/String;
 
     .line 37
     sget-object v1, Lcom/tencent/mm/protocal/bclass;->ihm:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/oc;->ipS:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/OCclz;->ipS:Ljava/lang/String;
 
     .line 38
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/u;->aOg()Ljava/lang/String;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/oc;->ipT:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/OCclz;->ipT:Ljava/lang/String;
 
     .line 39
-    iput p1, v0, Lcom/tencent/mm/protocal/b/oc;->fxt:I
+    iput p1, v0, Lcom/tencent/mm/protocal/b/OCclz;->fxt:I
 
     .line 40
-    iput-object p2, v0, Lcom/tencent/mm/protocal/b/oc;->ipU:Ljava/lang/String;
+    iput-object p2, v0, Lcom/tencent/mm/protocal/b/OCclz;->ipU:Ljava/lang/String;
 
     .line 42
     iput p1, p0, Lcom/tencent/mm/pluginsdk/model/app/af;->dQr:I

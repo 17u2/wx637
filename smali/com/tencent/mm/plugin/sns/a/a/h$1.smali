@@ -56,14 +56,14 @@
 
     .prologue
     .line 95
-    new-instance v0, Lcom/tencent/mm/protocal/b/zd;
+    new-instance v0, Lcom/tencent/mm/protocal/b/ZDclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/zd;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/ZDclz;-><init>()V
 
     .line 96
     iget v1, p0, Lcom/tencent/mm/plugin/sns/a/a/h$1;->gfO:I
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/zd;->iIF:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/ZDclz;->iIF:I
 
     .line 97
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -76,12 +76,12 @@
 
     long-to-int v1, v1
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/zd;->iIN:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/ZDclz;->iIN:I
 
     .line 98
     const/4 v1, 0x1
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/zd;->fxn:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/ZDclz;->fxn:I
 
     .line 99
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/a/a/h$1;->gfP:[Ljava/lang/Object;
@@ -100,7 +100,7 @@
     invoke-direct {v2, v3}, Lcom/tencent/mm/aq/b;-><init>([B)V
 
     .line 101
-    iput-object v2, v0, Lcom/tencent/mm/protocal/b/zd;->iIG:Lcom/tencent/mm/aq/b;
+    iput-object v2, v0, Lcom/tencent/mm/protocal/b/ZDclz;->iIG:Lcom/tencent/mm/aq/b;
 
     .line 102
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/a/a/h$1;->gfQ:Lcom/tencent/mm/plugin/sns/a/a/h;

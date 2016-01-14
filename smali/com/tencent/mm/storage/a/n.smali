@@ -95,7 +95,7 @@
 
 
 # virtual methods
-.method public final DJ(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/tn;
+.method public final DJ(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/TNclz;
     .locals 10
 
     .prologue
@@ -143,14 +143,14 @@
 
     .line 131
     :try_start_0
-    new-instance v0, Lcom/tencent/mm/protocal/b/tn;
+    new-instance v0, Lcom/tencent/mm/protocal/b/TNclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/tn;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/TNclz;-><init>()V
 
     .line 132
     iget-object v3, v3, Lcom/tencent/mm/storage/a/m;->field_cache:[B
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/protocal/b/tn;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/protocal/b/TNclz;->ak([B)Lcom/tencent/mm/aq/a;
 
     .line 133
     const-string/jumbo v3, "!32@/B4Tb64lLpIUhDmLVZ6YSYZEe92ZMKgz"
@@ -222,7 +222,7 @@
     return v0
 .end method
 
-.method public final a(ILcom/tencent/mm/protocal/b/rl;)Z
+.method public final a(ILcom/tencent/mm/protocal/b/RLclz;)Z
     .locals 8
 
     .prologue
@@ -267,7 +267,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p2}, Lcom/tencent/mm/protocal/b/rl;->toByteArray()[B
+    invoke-virtual {p2}, Lcom/tencent/mm/protocal/b/RLclz;->toByteArray()[B
 
     move-result-object v3
 
@@ -323,7 +323,7 @@
     goto :goto_0
 .end method
 
-.method public final a(Ljava/lang/String;Lcom/tencent/mm/protocal/b/tn;)Z
+.method public final a(Ljava/lang/String;Lcom/tencent/mm/protocal/b/TNclz;)Z
     .locals 7
 
     .prologue
@@ -360,7 +360,7 @@
     .line 114
     new-instance v1, Lcom/tencent/mm/storage/a/m;
 
-    invoke-virtual {p2}, Lcom/tencent/mm/protocal/b/tn;->toByteArray()[B
+    invoke-virtual {p2}, Lcom/tencent/mm/protocal/b/TNclz;->toByteArray()[B
 
     move-result-object v2
 
@@ -397,7 +397,7 @@
     goto :goto_0
 .end method
 
-.method public final pc(I)Lcom/tencent/mm/protocal/b/rl;
+.method public final pc(I)Lcom/tencent/mm/protocal/b/RLclz;
     .locals 10
 
     .prologue
@@ -449,14 +449,14 @@
 
     .line 90
     :try_start_0
-    new-instance v0, Lcom/tencent/mm/protocal/b/rl;
+    new-instance v0, Lcom/tencent/mm/protocal/b/RLclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/rl;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/RLclz;-><init>()V
 
     .line 91
     iget-object v3, v3, Lcom/tencent/mm/storage/a/m;->field_cache:[B
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/protocal/b/rl;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/protocal/b/RLclz;->ak([B)Lcom/tencent/mm/aq/a;
 
     .line 92
     const-string/jumbo v3, "!32@/B4Tb64lLpIUhDmLVZ6YSYZEe92ZMKgz"

@@ -39,16 +39,16 @@
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
     .line 29
-    new-instance v1, Lcom/tencent/mm/protocal/b/vd;
+    new-instance v1, Lcom/tencent/mm/protocal/b/VDclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/vd;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/VDclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
     .line 30
-    new-instance v1, Lcom/tencent/mm/protocal/b/ve;
+    new-instance v1, Lcom/tencent/mm/protocal/b/VEclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ve;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/VEclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -82,10 +82,10 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/vd;
+    check-cast v0, Lcom/tencent/mm/protocal/b/VDclz;
 
     .line 38
-    iput-object p1, v0, Lcom/tencent/mm/protocal/b/vd;->dQN:Ljava/lang/String;
+    iput-object p1, v0, Lcom/tencent/mm/protocal/b/VDclz;->dQN:Ljava/lang/String;
 
     .line 39
     new-instance v2, Ljava/util/LinkedList;
@@ -125,14 +125,14 @@
     goto :goto_0
 
     :cond_1
-    iput-object v2, v0, Lcom/tencent/mm/protocal/b/vd;->inL:Ljava/util/LinkedList;
+    iput-object v2, v0, Lcom/tencent/mm/protocal/b/VDclz;->inL:Ljava/util/LinkedList;
 
     .line 40
     invoke-virtual {p2}, Ljava/util/LinkedList;->size()I
 
     move-result v1
 
-    iput v1, v0, Lcom/tencent/mm/protocal/b/vd;->iCN:I
+    iput v1, v0, Lcom/tencent/mm/protocal/b/VDclz;->iCN:I
 
     .line 41
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -155,7 +155,7 @@
     :try_start_0
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/i;->dmy:Lcom/tencent/mm/q/a;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/q/a;->vn()Lcom/tencent/mm/protocal/h$c;
+    invoke-virtual {v0}, Lcom/tencent/mm/q/a;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 

@@ -447,9 +447,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/no;
+    check-cast v0, Lcom/tencent/mm/protocal/b/NOclz;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/no;->iAq:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/NOclz;->iAq:I
 
     if-ne p1, v0, :cond_2
 
@@ -460,9 +460,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/no;
+    check-cast v0, Lcom/tencent/mm/protocal/b/NOclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/no;->iAr:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/NOclz;->iAr:Ljava/lang/String;
 
     .line 277
     :goto_1

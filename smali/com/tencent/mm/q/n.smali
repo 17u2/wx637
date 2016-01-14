@@ -220,7 +220,7 @@
     goto :goto_0
 .end method
 
-.method public final a(Lcom/tencent/mm/protocal/y;)V
+.method public final a(Lcom/tencent/mm/protocal/Yclz;)V
     .locals 5
 
     .prologue
@@ -228,7 +228,7 @@
     :try_start_0
     iget-object v0, p0, Lcom/tencent/mm/q/n;->byJ:Lcom/tencent/mm/network/f;
 
-    invoke-interface {v0, p1}, Lcom/tencent/mm/network/f;->a(Lcom/tencent/mm/protocal/y;)V
+    invoke-interface {v0, p1}, Lcom/tencent/mm/network/f;->a(Lcom/tencent/mm/protocal/Yclz;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

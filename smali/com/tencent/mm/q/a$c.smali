@@ -1,9 +1,9 @@
 .class public final Lcom/tencent/mm/q/a$c;
-.super Lcom/tencent/mm/protocal/h$d;
+.super Lcom/tencent/mm/protocal/Hclz$d;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/protocal/h$b;
+.implements Lcom/tencent/mm/protocal/Hclz$b;
 
 
 # annotations
@@ -31,7 +31,7 @@
 
     .prologue
     .line 157
-    invoke-direct {p0}, Lcom/tencent/mm/protocal/h$d;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/protocal/Hclz$d;-><init>()V
 
     .line 152
     const/4 v0, 0x0
@@ -95,18 +95,18 @@
 
     check-cast v0, Lcom/tencent/mm/protocal/b/ajr;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ajr;->iSl:Lcom/tencent/mm/protocal/b/cy;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ajr;->iSl:Lcom/tencent/mm/protocal/b/CYclz;
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/protocal/h;->a(Lcom/tencent/mm/protocal/h$d;Lcom/tencent/mm/protocal/b/cy;)V
+    invoke-static {p0, v0}, Lcom/tencent/mm/protocal/Hclz;->a(Lcom/tencent/mm/protocal/Hclz$d;Lcom/tencent/mm/protocal/b/CYclz;)V
 
     .line 168
     iget-object v0, p0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/ajr;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ajr;->iSl:Lcom/tencent/mm/protocal/b/cy;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ajr;->iSl:Lcom/tencent/mm/protocal/b/CYclz;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/cy;->imK:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/CYclz;->imK:I
 
     .line 170
     :goto_0

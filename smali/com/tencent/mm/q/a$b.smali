@@ -1,9 +1,9 @@
 .class public final Lcom/tencent/mm/q/a$b;
-.super Lcom/tencent/mm/protocal/h$c;
+.super Lcom/tencent/mm/protocal/Hclz$c;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/protocal/h$a;
+.implements Lcom/tencent/mm/protocal/Hclz$a;
 
 
 # annotations
@@ -33,7 +33,7 @@
 
     .prologue
     .line 120
-    invoke-direct {p0}, Lcom/tencent/mm/protocal/h$c;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/protocal/Hclz$c;-><init>()V
 
     .line 121
     iput-object p1, p0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
@@ -86,11 +86,11 @@
 
     check-cast v0, Lcom/tencent/mm/protocal/b/ajj;
 
-    invoke-static {p0}, Lcom/tencent/mm/protocal/h;->a(Lcom/tencent/mm/protocal/h$c;)Lcom/tencent/mm/protocal/b/cx;
+    invoke-static {p0}, Lcom/tencent/mm/protocal/Hclz;->a(Lcom/tencent/mm/protocal/Hclz$c;)Lcom/tencent/mm/protocal/b/CXclz;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ajj;->iRV:Lcom/tencent/mm/protocal/b/cx;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/ajj;->iRV:Lcom/tencent/mm/protocal/b/CXclz;
 
     .line 142
     :cond_0

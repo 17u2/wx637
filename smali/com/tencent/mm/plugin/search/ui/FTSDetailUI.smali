@@ -458,7 +458,7 @@
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lcom/tencent/mm/plugin/search/ui/a/m;->fLF:Lcom/tencent/mm/protocal/b/fr;
+    sget-object v0, Lcom/tencent/mm/plugin/search/ui/a/m;->fLF:Lcom/tencent/mm/protocal/b/FRclz;
 
     if-eqz v0, :cond_0
 
@@ -470,11 +470,11 @@
     .line 39
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSDetailUI;->fJM:Lcom/tencent/mm/plugin/search/ui/d;
 
-    sget-object v1, Lcom/tencent/mm/plugin/search/ui/a/m;->fLF:Lcom/tencent/mm/protocal/b/fr;
+    sget-object v1, Lcom/tencent/mm/plugin/search/ui/a/m;->fLF:Lcom/tencent/mm/protocal/b/FRclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->aBw:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/plugin/search/ui/d;->a(Lcom/tencent/mm/protocal/b/fr;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/plugin/search/ui/d;->a(Lcom/tencent/mm/protocal/b/FRclz;Ljava/lang/String;)V
 
     .line 41
     :cond_0
@@ -511,7 +511,7 @@
     .line 128
     const/4 v0, 0x0
 
-    sput-object v0, Lcom/tencent/mm/plugin/search/ui/a/m;->fLF:Lcom/tencent/mm/protocal/b/fr;
+    sput-object v0, Lcom/tencent/mm/plugin/search/ui/a/m;->fLF:Lcom/tencent/mm/protocal/b/FRclz;
 
     .line 129
     invoke-static {}, Lcom/tencent/mm/ui/e/g;->bbf()Lcom/tencent/mm/ui/e/f;

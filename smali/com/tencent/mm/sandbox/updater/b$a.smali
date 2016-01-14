@@ -78,7 +78,7 @@
     return-void
 .end method
 
-.method private varargs a([Lcom/tencent/mm/protocal/b/vb;)Lcom/tencent/mm/protocal/b/vc;
+.method private varargs a([Lcom/tencent/mm/protocal/b/VBclz;)Lcom/tencent/mm/protocal/b/VCclz;
     .locals 12
 
     .prologue
@@ -143,7 +143,7 @@
 
     .line 231
     :try_start_0
-    invoke-virtual {v0}, Lcom/tencent/mm/protocal/b/vb;->toByteArray()[B
+    invoke-virtual {v0}, Lcom/tencent/mm/protocal/b/VBclz;->toByteArray()[B
 
     move-result-object v0
 
@@ -593,17 +593,17 @@
     invoke-static/range {v0 .. v5}, Lcom/tencent/mm/protocal/MMProtocalJni2;->unpack(Lcom/tencent/mm/pointers/PByteArray;[B[BLcom/tencent/mm/pointers/PByteArray;Lcom/tencent/mm/pointers/PInt;Lcom/tencent/mm/pointers/PInt;)Z
 
     .line 319
-    new-instance v1, Lcom/tencent/mm/protocal/b/vc;
+    new-instance v1, Lcom/tencent/mm/protocal/b/VCclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/vc;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/VCclz;-><init>()V
 
     iget-object v0, v0, Lcom/tencent/mm/pointers/PByteArray;->value:[B
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/protocal/b/vc;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/protocal/b/VCclz;->ak([B)Lcom/tencent/mm/aq/a;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/vc;
+    check-cast v0, Lcom/tencent/mm/protocal/b/VCclz;
     :try_end_5
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_1
     .catchall {:try_start_5 .. :try_end_5} :catchall_2
@@ -876,9 +876,9 @@
 
     .prologue
     .line 207
-    check-cast p1, [Lcom/tencent/mm/protocal/b/vb;
+    check-cast p1, [Lcom/tencent/mm/protocal/b/VBclz;
 
-    invoke-direct {p0, p1}, Lcom/tencent/mm/sandbox/updater/b$a;->a([Lcom/tencent/mm/protocal/b/vb;)Lcom/tencent/mm/protocal/b/vc;
+    invoke-direct {p0, p1}, Lcom/tencent/mm/sandbox/updater/b$a;->a([Lcom/tencent/mm/protocal/b/VBclz;)Lcom/tencent/mm/protocal/b/VCclz;
 
     move-result-object v0
 
@@ -918,7 +918,7 @@
 
     .prologue
     .line 207
-    check-cast p1, Lcom/tencent/mm/protocal/b/vc;
+    check-cast p1, Lcom/tencent/mm/protocal/b/VCclz;
 
     const-string/jumbo v0, "!44@/B4Tb64lLpK+IBX8XDgnvlltEyUofJIkgG6dDIkrLQ8="
 

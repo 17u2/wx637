@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ac/a;-><init>(Lcom/tencent/mm/protocal/t$b;IJ)V
+    value = Lcom/tencent/mm/ac/a;-><init>(Lcom/tencent/mm/protocal/Tclz$b;IJ)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic bNd:Lcom/tencent/mm/protocal/t$b;
+.field final synthetic bNd:Lcom/tencent/mm/protocal/Tclz$b;
 
 .field final synthetic bNe:Lcom/tencent/mm/ac/a;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ac/a;Lcom/tencent/mm/protocal/t$b;)V
+.method constructor <init>(Lcom/tencent/mm/ac/a;Lcom/tencent/mm/protocal/Tclz$b;)V
     .locals 1
 
     .prologue
     .line 90
     iput-object p1, p0, Lcom/tencent/mm/ac/a$1;->bNe:Lcom/tencent/mm/ac/a;
 
-    iput-object p2, p0, Lcom/tencent/mm/ac/a$1;->bNd:Lcom/tencent/mm/protocal/t$b;
+    iput-object p2, p0, Lcom/tencent/mm/ac/a$1;->bNd:Lcom/tencent/mm/protocal/Tclz$b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -61,9 +61,9 @@
     .line 95
     new-instance v5, Lcom/tencent/mm/ac/a$a;
 
-    iget-object v0, p0, Lcom/tencent/mm/ac/a$1;->bNd:Lcom/tencent/mm/protocal/t$b;
+    iget-object v0, p0, Lcom/tencent/mm/ac/a$1;->bNd:Lcom/tencent/mm/protocal/Tclz$b;
 
-    invoke-direct {v5, v0}, Lcom/tencent/mm/ac/a$a;-><init>(Lcom/tencent/mm/protocal/t$b;)V
+    invoke-direct {v5, v0}, Lcom/tencent/mm/ac/a$a;-><init>(Lcom/tencent/mm/protocal/Tclz$b;)V
 
     .line 96
     iget-object v0, p0, Lcom/tencent/mm/ac/a$1;->bNe:Lcom/tencent/mm/ac/a;

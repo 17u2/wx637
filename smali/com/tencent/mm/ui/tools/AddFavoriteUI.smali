@@ -1872,13 +1872,13 @@
 
     invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    new-instance v4, Lcom/tencent/mm/protocal/b/nb;
+    new-instance v4, Lcom/tencent/mm/protocal/b/NBclz;
 
-    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/nb;-><init>()V
+    invoke-direct {v4}, Lcom/tencent/mm/protocal/b/NBclz;-><init>()V
 
-    new-instance v5, Lcom/tencent/mm/protocal/b/nc;
+    new-instance v5, Lcom/tencent/mm/protocal/b/NCclz;
 
-    invoke-direct {v5}, Lcom/tencent/mm/protocal/b/nc;-><init>()V
+    invoke-direct {v5}, Lcom/tencent/mm/protocal/b/NCclz;-><init>()V
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -1904,17 +1904,17 @@
 
     if-nez v7, :cond_5
 
-    new-instance v7, Lcom/tencent/mm/protocal/b/ms;
+    new-instance v7, Lcom/tencent/mm/protocal/b/MSclz;
 
-    invoke-direct {v7}, Lcom/tencent/mm/protocal/b/ms;-><init>()V
+    invoke-direct {v7}, Lcom/tencent/mm/protocal/b/MSclz;-><init>()V
 
-    invoke-virtual {v7, v8}, Lcom/tencent/mm/protocal/b/ms;->on(I)Lcom/tencent/mm/protocal/b/ms;
+    invoke-virtual {v7, v8}, Lcom/tencent/mm/protocal/b/MSclz;->on(I)Lcom/tencent/mm/protocal/b/MSclz;
 
-    invoke-virtual {v7, v0}, Lcom/tencent/mm/protocal/b/ms;->zs(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/ms;
+    invoke-virtual {v7, v0}, Lcom/tencent/mm/protocal/b/MSclz;->zs(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/MSclz;
 
-    invoke-virtual {v7, v2}, Lcom/tencent/mm/protocal/b/ms;->fU(Z)Lcom/tencent/mm/protocal/b/ms;
+    invoke-virtual {v7, v2}, Lcom/tencent/mm/protocal/b/MSclz;->fU(Z)Lcom/tencent/mm/protocal/b/MSclz;
 
-    iget-object v0, v4, Lcom/tencent/mm/protocal/b/nb;->izD:Ljava/util/LinkedList;
+    iget-object v0, v4, Lcom/tencent/mm/protocal/b/NBclz;->izD:Ljava/util/LinkedList;
 
     invoke-virtual {v0, v7}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
@@ -1925,23 +1925,23 @@
 
     move-result-object v0
 
-    invoke-virtual {v5, v0}, Lcom/tencent/mm/protocal/b/nc;->zS(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/nc;
+    invoke-virtual {v5, v0}, Lcom/tencent/mm/protocal/b/NCclz;->zS(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/NCclz;
 
     invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v5, v0}, Lcom/tencent/mm/protocal/b/nc;->zT(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/nc;
+    invoke-virtual {v5, v0}, Lcom/tencent/mm/protocal/b/NCclz;->zT(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/NCclz;
 
-    invoke-virtual {v5, v9}, Lcom/tencent/mm/protocal/b/nc;->ot(I)Lcom/tencent/mm/protocal/b/nc;
+    invoke-virtual {v5, v9}, Lcom/tencent/mm/protocal/b/NCclz;->ot(I)Lcom/tencent/mm/protocal/b/NCclz;
 
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
 
     move-result-wide v6
 
-    invoke-virtual {v5, v6, v7}, Lcom/tencent/mm/protocal/b/nc;->db(J)Lcom/tencent/mm/protocal/b/nc;
+    invoke-virtual {v5, v6, v7}, Lcom/tencent/mm/protocal/b/NCclz;->db(J)Lcom/tencent/mm/protocal/b/NCclz;
 
-    invoke-virtual {v4, v5}, Lcom/tencent/mm/protocal/b/nb;->a(Lcom/tencent/mm/protocal/b/nc;)Lcom/tencent/mm/protocal/b/nb;
+    invoke-virtual {v4, v5}, Lcom/tencent/mm/protocal/b/NBclz;->a(Lcom/tencent/mm/protocal/b/NCclz;)Lcom/tencent/mm/protocal/b/NBclz;
 
     iget-object v0, v3, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
@@ -1951,7 +1951,7 @@
 
     iget-object v0, v3, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iput-object v4, v0, Lcom/tencent/mm/d/a/as$a;->atf:Lcom/tencent/mm/protocal/b/nb;
+    iput-object v4, v0, Lcom/tencent/mm/d/a/as$a;->atf:Lcom/tencent/mm/protocal/b/NBclz;
 
     iget-object v0, v3, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
@@ -2795,35 +2795,35 @@
 
     invoke-static {v3, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    new-instance v3, Lcom/tencent/mm/protocal/b/nb;
+    new-instance v3, Lcom/tencent/mm/protocal/b/NBclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/nb;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/protocal/b/NBclz;-><init>()V
 
-    new-instance v5, Lcom/tencent/mm/protocal/b/nc;
+    new-instance v5, Lcom/tencent/mm/protocal/b/NCclz;
 
-    invoke-direct {v5}, Lcom/tencent/mm/protocal/b/nc;-><init>()V
-
-    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
-
-    move-result-object v6
-
-    invoke-virtual {v5, v6}, Lcom/tencent/mm/protocal/b/nc;->zS(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/nc;
+    invoke-direct {v5}, Lcom/tencent/mm/protocal/b/NCclz;-><init>()V
 
     invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
 
     move-result-object v6
 
-    invoke-virtual {v5, v6}, Lcom/tencent/mm/protocal/b/nc;->zT(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/nc;
+    invoke-virtual {v5, v6}, Lcom/tencent/mm/protocal/b/NCclz;->zS(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/NCclz;
 
-    invoke-virtual {v5, v8}, Lcom/tencent/mm/protocal/b/nc;->ot(I)Lcom/tencent/mm/protocal/b/nc;
+    invoke-static {}, Lcom/tencent/mm/model/h;->rS()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v5, v6}, Lcom/tencent/mm/protocal/b/NCclz;->zT(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/NCclz;
+
+    invoke-virtual {v5, v8}, Lcom/tencent/mm/protocal/b/NCclz;->ot(I)Lcom/tencent/mm/protocal/b/NCclz;
 
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
 
     move-result-wide v6
 
-    invoke-virtual {v5, v6, v7}, Lcom/tencent/mm/protocal/b/nc;->db(J)Lcom/tencent/mm/protocal/b/nc;
+    invoke-virtual {v5, v6, v7}, Lcom/tencent/mm/protocal/b/NCclz;->db(J)Lcom/tencent/mm/protocal/b/NCclz;
 
-    invoke-virtual {v3, v5}, Lcom/tencent/mm/protocal/b/nb;->a(Lcom/tencent/mm/protocal/b/nc;)Lcom/tencent/mm/protocal/b/nb;
+    invoke-virtual {v3, v5}, Lcom/tencent/mm/protocal/b/NBclz;->a(Lcom/tencent/mm/protocal/b/NCclz;)Lcom/tencent/mm/protocal/b/NBclz;
 
     iget-object v5, v4, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
@@ -2831,7 +2831,7 @@
 
     iget-object v0, v4, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 
-    iput-object v3, v0, Lcom/tencent/mm/d/a/as$a;->atf:Lcom/tencent/mm/protocal/b/nb;
+    iput-object v3, v0, Lcom/tencent/mm/d/a/as$a;->atf:Lcom/tencent/mm/protocal/b/NBclz;
 
     iget-object v0, v4, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
 

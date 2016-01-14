@@ -452,7 +452,7 @@
     return v0
 
     :cond_1
-    invoke-static {p0}, Lcom/tencent/mm/protocal/a;->za(Ljava/lang/String;)Lcom/tencent/mm/protocal/a$c;
+    invoke-static {p0}, Lcom/tencent/mm/protocal/Aclz;->za(Ljava/lang/String;)Lcom/tencent/mm/protocal/Aclz$c;
 
     move-result-object v2
 
@@ -471,7 +471,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-virtual {v2}, Lcom/tencent/mm/protocal/a$c;->aMC()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/protocal/Aclz$c;->aMC()Z
 
     move-result v2
 
@@ -829,9 +829,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ok;
+    check-cast v0, Lcom/tencent/mm/protocal/b/OKclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ok;->iBn:Lcom/tencent/mm/protocal/b/og;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/OKclz;->iBn:Lcom/tencent/mm/protocal/b/OGclz;
 
     .line 1883
     const-string/jumbo v4, "geta8key_result_general_ctrl_b1"
@@ -852,9 +852,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/oj;
+    check-cast v0, Lcom/tencent/mm/protocal/b/OJclz;
 
-    iget v0, v0, Lcom/tencent/mm/protocal/b/oj;->iBh:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/OJclz;->iBh:I
 
     invoke-virtual {v3, v4, v0}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
@@ -921,9 +921,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ok;
+    check-cast v0, Lcom/tencent/mm/protocal/b/OKclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ok;->dRj:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/OKclz;->dRj:Ljava/lang/String;
 
     invoke-virtual {v3, v4, v0}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -1061,7 +1061,7 @@
 
     .line 1883
     :cond_9
-    iget v0, v0, Lcom/tencent/mm/protocal/b/og;->iAW:I
+    iget v0, v0, Lcom/tencent/mm/protocal/b/OGclz;->iAW:I
 
     goto/16 :goto_2
 
@@ -1185,9 +1185,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/ud;
+    check-cast v0, Lcom/tencent/mm/protocal/b/UDclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ud;->URL:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/UDclz;->URL:Ljava/lang/String;
 
     goto :goto_5
 
@@ -1208,11 +1208,11 @@
     .line 1930
     const-string/jumbo v3, "emoji_stroe_product_id"
 
-    invoke-virtual {p4}, Lcom/tencent/mm/modelsimple/x;->BX()Lcom/tencent/mm/protocal/b/yt;
+    invoke-virtual {p4}, Lcom/tencent/mm/modelsimple/x;->BX()Lcom/tencent/mm/protocal/b/YTclz;
 
     move-result-object v4
 
-    iget-object v4, v4, Lcom/tencent/mm/protocal/b/yt;->ilO:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/protocal/b/YTclz;->ilO:Ljava/lang/String;
 
     invoke-virtual {v0, v3, v4}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -1371,9 +1371,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/br;
+    check-cast v0, Lcom/tencent/mm/protocal/b/BRclz;
 
-    iget v1, v0, Lcom/tencent/mm/protocal/b/br;->ilR:I
+    iget v1, v0, Lcom/tencent/mm/protocal/b/BRclz;->ilR:I
 
     :cond_10
     invoke-virtual {v3, v4, v1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ac/k;->a(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/protocal/b/af;Z)V
+    value = Lcom/tencent/mm/ac/k;->a(Lcom/tencent/mm/storage/ad;Lcom/tencent/mm/protocal/b/AFclz;Z)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,13 +24,13 @@
 
 .field final synthetic bOk:Z
 
-.field final synthetic bOl:Lcom/tencent/mm/protocal/b/af;
+.field final synthetic bOl:Lcom/tencent/mm/protocal/b/AFclz;
 
 .field final synthetic bOm:Lcom/tencent/mm/model/aa;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ac/k;ZLcom/tencent/mm/protocal/b/af;Lcom/tencent/mm/model/aa;Lcom/tencent/mm/storage/ad;)V
+.method constructor <init>(Lcom/tencent/mm/ac/k;ZLcom/tencent/mm/protocal/b/AFclz;Lcom/tencent/mm/model/aa;Lcom/tencent/mm/storage/ad;)V
     .locals 1
 
     .prologue
@@ -39,7 +39,7 @@
 
     iput-boolean p2, p0, Lcom/tencent/mm/ac/k$2;->bOk:Z
 
-    iput-object p3, p0, Lcom/tencent/mm/ac/k$2;->bOl:Lcom/tencent/mm/protocal/b/af;
+    iput-object p3, p0, Lcom/tencent/mm/ac/k$2;->bOl:Lcom/tencent/mm/protocal/b/AFclz;
 
     iput-object p4, p0, Lcom/tencent/mm/ac/k$2;->bOm:Lcom/tencent/mm/model/aa;
 
@@ -71,9 +71,9 @@
     if-eqz v0, :cond_1
 
     .line 201
-    iget-object v0, p0, Lcom/tencent/mm/ac/k$2;->bOl:Lcom/tencent/mm/protocal/b/af;
+    iget-object v0, p0, Lcom/tencent/mm/ac/k$2;->bOl:Lcom/tencent/mm/protocal/b/AFclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/j;->d(Lcom/tencent/mm/protocal/b/af;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/j;->d(Lcom/tencent/mm/protocal/b/AFclz;)Ljava/lang/String;
 
     move-result-object v0
 

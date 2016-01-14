@@ -85,7 +85,7 @@
 
 
 # virtual methods
-.method public final DF(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/rd;
+.method public final DF(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/RDclz;
     .locals 8
 
     .prologue
@@ -174,9 +174,9 @@
 
     .line 74
     :try_start_0
-    new-instance v0, Lcom/tencent/mm/protocal/b/rd;
+    new-instance v0, Lcom/tencent/mm/protocal/b/RDclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/rd;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/RDclz;-><init>()V
 
     .line 75
     const/4 v2, 0x0
@@ -185,7 +185,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/protocal/b/rd;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/protocal/b/RDclz;->ak([B)Lcom/tencent/mm/aq/a;
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -252,7 +252,7 @@
     goto :goto_0
 .end method
 
-.method public final DG(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/rb;
+.method public final DG(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/RBclz;
     .locals 8
 
     .prologue
@@ -341,9 +341,9 @@
 
     .line 179
     :try_start_0
-    new-instance v0, Lcom/tencent/mm/protocal/b/rb;
+    new-instance v0, Lcom/tencent/mm/protocal/b/RBclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/rb;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/RBclz;-><init>()V
 
     .line 180
     const/4 v2, 0x0
@@ -352,7 +352,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/protocal/b/rb;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/protocal/b/RBclz;->ak([B)Lcom/tencent/mm/aq/a;
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

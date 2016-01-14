@@ -93,18 +93,18 @@
     .line 6636
     check-cast v0, Lcom/tencent/mm/plugin/webview/c/k;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/plugin/webview/c/k;->aEJ()Lcom/tencent/mm/protocal/b/xo;
+    invoke-virtual {v0}, Lcom/tencent/mm/plugin/webview/c/k;->aEJ()Lcom/tencent/mm/protocal/b/XOclz;
 
     move-result-object v0
 
     .line 6637
     if-eqz v0, :cond_2
 
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/xo;->iun:Lcom/tencent/mm/protocal/b/ahr;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/XOclz;->iun:Lcom/tencent/mm/protocal/b/ahr;
 
     if-eqz v1, :cond_2
 
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/xo;->iun:Lcom/tencent/mm/protocal/b/ahr;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/XOclz;->iun:Lcom/tencent/mm/protocal/b/ahr;
 
     iget v1, v1, Lcom/tencent/mm/protocal/b/ahr;->ret:I
 
@@ -114,7 +114,7 @@
     :cond_2
     if-eqz v0, :cond_3
 
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/xo;->iun:Lcom/tencent/mm/protocal/b/ahr;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/XOclz;->iun:Lcom/tencent/mm/protocal/b/ahr;
 
     if-eqz v1, :cond_3
 
@@ -126,7 +126,7 @@
     .line 6640
     const-string/jumbo v2, "err_code"
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/xo;->iun:Lcom/tencent/mm/protocal/b/ahr;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/XOclz;->iun:Lcom/tencent/mm/protocal/b/ahr;
 
     iget v0, v0, Lcom/tencent/mm/protocal/b/ahr;->ret:I
 
@@ -161,7 +161,7 @@
 
     .line 6647
     :cond_4
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/xo;->ipw:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/XOclz;->ipw:Ljava/lang/String;
 
     .line 6648
     check-cast p4, Lcom/tencent/mm/plugin/webview/c/k;
@@ -253,7 +253,7 @@
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
     .line 6664
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/xo;->iHR:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/XOclz;->iHR:Ljava/lang/String;
 
     invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -261,7 +261,7 @@
 
     if-nez v2, :cond_5
 
-    iget-object v2, v0, Lcom/tencent/mm/protocal/b/xo;->iHS:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/protocal/b/XOclz;->iHS:Ljava/lang/String;
 
     invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
 
@@ -272,14 +272,14 @@
     .line 6665
     const-string/jumbo v2, "chat_type"
 
-    iget-object v3, v0, Lcom/tencent/mm/protocal/b/xo;->iHR:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/protocal/b/XOclz;->iHR:Ljava/lang/String;
 
     invoke-interface {v1, v2, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6666
     const-string/jumbo v2, "chat_id"
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/xo;->iHS:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/XOclz;->iHS:Ljava/lang/String;
 
     invoke-interface {v1, v2, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

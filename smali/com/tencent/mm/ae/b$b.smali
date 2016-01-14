@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private bOU:Lcom/tencent/mm/protocal/b/iz;
+.field private bOU:Lcom/tencent/mm/protocal/b/IZclz;
 
 
 # direct methods
@@ -32,14 +32,14 @@
     invoke-direct {p0, v0}, Lcom/tencent/mm/ae/b$q;-><init>(I)V
 
     .line 446
-    new-instance v0, Lcom/tencent/mm/protocal/b/iz;
+    new-instance v0, Lcom/tencent/mm/protocal/b/IZclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/iz;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/b/IZclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ae/b$b;->bOU:Lcom/tencent/mm/protocal/b/iz;
+    iput-object v0, p0, Lcom/tencent/mm/ae/b$b;->bOU:Lcom/tencent/mm/protocal/b/IZclz;
 
     .line 447
-    iget-object v0, p0, Lcom/tencent/mm/ae/b$b;->bOU:Lcom/tencent/mm/protocal/b/iz;
+    iget-object v0, p0, Lcom/tencent/mm/ae/b$b;->bOU:Lcom/tencent/mm/protocal/b/IZclz;
 
     new-instance v1, Lcom/tencent/mm/protocal/b/ajz;
 
@@ -53,10 +53,10 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/iz;->iuA:Lcom/tencent/mm/protocal/b/ajz;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/IZclz;->iuA:Lcom/tencent/mm/protocal/b/ajz;
 
     .line 448
-    iget-object v0, p0, Lcom/tencent/mm/ae/b$b;->bOU:Lcom/tencent/mm/protocal/b/iz;
+    iget-object v0, p0, Lcom/tencent/mm/ae/b$b;->bOU:Lcom/tencent/mm/protocal/b/IZclz;
 
     iput-object v0, p0, Lcom/tencent/mm/ae/b$q;->bPo:Lcom/tencent/mm/aq/a;
 

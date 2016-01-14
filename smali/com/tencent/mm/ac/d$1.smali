@@ -617,9 +617,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/tencent/mm/protocal/b/hy;
+    check-cast v1, Lcom/tencent/mm/protocal/b/HYclz;
 
-    invoke-virtual {v9, v1, v3}, Lcom/tencent/mm/ac/k;->a(Lcom/tencent/mm/protocal/b/hy;Z)Z
+    invoke-virtual {v9, v1, v3}, Lcom/tencent/mm/ac/k;->a(Lcom/tencent/mm/protocal/b/HYclz;Z)Z
 
     move-result v1
 

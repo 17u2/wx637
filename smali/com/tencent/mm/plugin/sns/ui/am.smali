@@ -433,7 +433,7 @@
 
     move-result-object v4
 
-    iget-object v4, v4, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v4, v4, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
     if-eqz v4, :cond_0
 
@@ -441,9 +441,9 @@
 
     move-result-object v4
 
-    iget-object v4, v4, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v4, v4, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget v4, v4, Lcom/tencent/mm/protocal/b/il;->iug:I
+    iget v4, v4, Lcom/tencent/mm/protocal/b/ILclz;->iug:I
 
     if-ne v4, v0, :cond_0
 
@@ -451,9 +451,9 @@
 
     move-result-object v4
 
-    iget-object v4, v4, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v4, v4, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget-object v4, v4, Lcom/tencent/mm/protocal/b/il;->iuh:Ljava/util/LinkedList;
+    iget-object v4, v4, Lcom/tencent/mm/protocal/b/ILclz;->iuh:Ljava/util/LinkedList;
 
     if-eqz v4, :cond_0
 
@@ -461,9 +461,9 @@
 
     move-result-object v4
 
-    iget-object v4, v4, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v4, v4, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget-object v4, v4, Lcom/tencent/mm/protocal/b/il;->iuh:Ljava/util/LinkedList;
+    iget-object v4, v4, Lcom/tencent/mm/protocal/b/ILclz;->iuh:Ljava/util/LinkedList;
 
     invoke-virtual {v4}, Ljava/util/LinkedList;->size()I
 
@@ -476,9 +476,9 @@
 
     move-result-object v4
 
-    iget-object v4, v4, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/il;
+    iget-object v4, v4, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
-    iget-object v4, v4, Lcom/tencent/mm/protocal/b/il;->iuh:Ljava/util/LinkedList;
+    iget-object v4, v4, Lcom/tencent/mm/protocal/b/ILclz;->iuh:Ljava/util/LinkedList;
 
     invoke-virtual {v4}, Ljava/util/LinkedList;->size()I
 
@@ -1695,12 +1695,12 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/plugin/sns/h/i;->auq()Lcom/tencent/mm/protocal/b/mq;
+    invoke-virtual {v1}, Lcom/tencent/mm/plugin/sns/h/i;->auq()Lcom/tencent/mm/protocal/b/MQclz;
 
     move-result-object v1
 
     .line 222
-    iget-wide v2, v1, Lcom/tencent/mm/protocal/b/mq;->ixu:J
+    iget-wide v2, v1, Lcom/tencent/mm/protocal/b/MQclz;->ixu:J
 
     const-wide/16 v4, 0x0
 
@@ -1739,7 +1739,7 @@
 
     .line 225
     :cond_4
-    iget-wide v1, v1, Lcom/tencent/mm/protocal/b/mq;->ixu:J
+    iget-wide v1, v1, Lcom/tencent/mm/protocal/b/MQclz;->ixu:J
 
     invoke-static {v1, v2}, Lcom/tencent/mm/plugin/sns/data/h;->bR(J)Ljava/lang/String;
 

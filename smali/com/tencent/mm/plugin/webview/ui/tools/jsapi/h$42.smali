@@ -166,14 +166,14 @@
     .line 7446
     const-string/jumbo v3, "package"
 
-    iget-object v4, v1, Lcom/tencent/mm/protocal/b/yf;->isW:Ljava/lang/String;
+    iget-object v4, v1, Lcom/tencent/mm/protocal/b/YFclz;->isW:Ljava/lang/String;
 
     invoke-virtual {v2, v3, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7447
     const-string/jumbo v3, "sign"
 
-    iget-object v4, v1, Lcom/tencent/mm/protocal/b/yf;->isX:Ljava/lang/String;
+    iget-object v4, v1, Lcom/tencent/mm/protocal/b/YFclz;->isX:Ljava/lang/String;
 
     invoke-virtual {v2, v3, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -185,7 +185,7 @@
     .line 7449
     const-string/jumbo v0, "signType"
 
-    iget-object v3, v1, Lcom/tencent/mm/protocal/b/yf;->isY:Ljava/lang/String;
+    iget-object v3, v1, Lcom/tencent/mm/protocal/b/YFclz;->isY:Ljava/lang/String;
 
     invoke-virtual {v2, v0, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -193,14 +193,14 @@
     :cond_3
     const-string/jumbo v0, "timestamp"
 
-    iget-object v3, v1, Lcom/tencent/mm/protocal/b/yf;->iok:Ljava/lang/String;
+    iget-object v3, v1, Lcom/tencent/mm/protocal/b/YFclz;->iok:Ljava/lang/String;
 
     invoke-virtual {v2, v0, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7452
     const-string/jumbo v0, "noncestr"
 
-    iget-object v1, v1, Lcom/tencent/mm/protocal/b/yf;->isV:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/protocal/b/YFclz;->isV:Ljava/lang/String;
 
     invoke-virtual {v2, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -227,7 +227,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/yf;
+    check-cast v0, Lcom/tencent/mm/protocal/b/YFclz;
 
     move-object v1, v0
 

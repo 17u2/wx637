@@ -33,15 +33,15 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/q/a$a;-><init>()V
 
-    new-instance v1, Lcom/tencent/mm/protocal/b/qy;
+    new-instance v1, Lcom/tencent/mm/protocal/b/QYclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/qy;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/QYclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxM:Lcom/tencent/mm/aq/a;
 
-    new-instance v1, Lcom/tencent/mm/protocal/b/qz;
+    new-instance v1, Lcom/tencent/mm/protocal/b/QZclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/qz;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/protocal/b/QZclz;-><init>()V
 
     iput-object v1, v0, Lcom/tencent/mm/q/a$a;->bxN:Lcom/tencent/mm/aq/a;
 
@@ -70,13 +70,13 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$b;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/qy;
+    check-cast v0, Lcom/tencent/mm/protocal/b/QYclz;
 
     .line 33
-    iput-wide p1, v0, Lcom/tencent/mm/protocal/b/qy;->ipD:D
+    iput-wide p1, v0, Lcom/tencent/mm/protocal/b/QYclz;->ipD:D
 
     .line 34
-    iput-wide p3, v0, Lcom/tencent/mm/protocal/b/qy;->ipC:D
+    iput-wide p3, v0, Lcom/tencent/mm/protocal/b/QYclz;->ipC:D
 
     .line 35
     const-string/jumbo v0, "!44@/B4Tb64lLpK+IBX8XDgnvprceLg5xBOMBKMckcpjxzE="
@@ -182,20 +182,20 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/qz;
+    check-cast v0, Lcom/tencent/mm/protocal/b/QZclz;
 
     .line 67
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/qz;->bEp:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/QZclz;->bEp:Ljava/lang/String;
 
     iput-object v1, p0, Lcom/tencent/mm/modelsimple/o;->aOE:Ljava/lang/String;
 
     .line 68
-    iget-object v1, v0, Lcom/tencent/mm/protocal/b/qz;->bEw:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/protocal/b/QZclz;->bEw:Ljava/lang/String;
 
     iput-object v1, p0, Lcom/tencent/mm/modelsimple/o;->bGq:Ljava/lang/String;
 
     .line 69
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/qz;->bEo:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/QZclz;->bEo:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/modelsimple/o;->aOD:Ljava/lang/String;
 

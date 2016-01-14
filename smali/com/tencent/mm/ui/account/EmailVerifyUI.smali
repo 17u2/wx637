@@ -603,15 +603,15 @@
 
     iget-object v0, v0, Lcom/tencent/mm/modelfriend/w;->byM:Lcom/tencent/mm/network/o;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/h$c;
+    invoke-interface {v0}, Lcom/tencent/mm/network/o;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/m$a;
+    check-cast v0, Lcom/tencent/mm/protocal/Mclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/m$a;->iid:Lcom/tencent/mm/protocal/b/ki;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/Mclz$a;->iid:Lcom/tencent/mm/protocal/b/KIclz;
 
-    iget v3, v0, Lcom/tencent/mm/protocal/b/ki;->imD:I
+    iget v3, v0, Lcom/tencent/mm/protocal/b/KIclz;->imD:I
 
     .line 275
     if-nez p1, :cond_5
@@ -640,15 +640,15 @@
 
     iget-object v0, v0, Lcom/tencent/mm/modelfriend/w;->byM:Lcom/tencent/mm/network/o;
 
-    invoke-interface {v0}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/h$d;
+    invoke-interface {v0}, Lcom/tencent/mm/network/o;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/protocal/m$b;
+    check-cast v0, Lcom/tencent/mm/protocal/Mclz$b;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/m$b;->iie:Lcom/tencent/mm/protocal/b/kj;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/Mclz$b;->iie:Lcom/tencent/mm/protocal/b/KJclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/kj;->ivi:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/KJclz;->ivi:Ljava/lang/String;
 
     .line 280
     const-string/jumbo v2, "regsetinfo_ticket"

@@ -75,10 +75,10 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/a$c;->bxR:Lcom/tencent/mm/aq/a;
 
-    check-cast v0, Lcom/tencent/mm/protocal/b/op;
+    check-cast v0, Lcom/tencent/mm/protocal/b/OPclz;
 
     .line 60
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/op;->iBy:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/OPclz;->iBy:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/modelgeo/d;->axI:Ljava/lang/String;
 

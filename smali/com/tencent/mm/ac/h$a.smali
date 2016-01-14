@@ -15,9 +15,9 @@
 
 
 # instance fields
-.field private final bNK:Lcom/tencent/mm/protocal/x$a;
+.field private final bNK:Lcom/tencent/mm/protocal/Xclz$a;
 
-.field private final bNL:Lcom/tencent/mm/protocal/x$b;
+.field private final bNL:Lcom/tencent/mm/protocal/Xclz$b;
 
 
 # direct methods
@@ -29,18 +29,18 @@
     invoke-direct {p0}, Lcom/tencent/mm/q/h;-><init>()V
 
     .line 83
-    new-instance v0, Lcom/tencent/mm/protocal/x$a;
+    new-instance v0, Lcom/tencent/mm/protocal/Xclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/x$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/Xclz$a;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ac/h$a;->bNK:Lcom/tencent/mm/protocal/x$a;
+    iput-object v0, p0, Lcom/tencent/mm/ac/h$a;->bNK:Lcom/tencent/mm/protocal/Xclz$a;
 
     .line 84
-    new-instance v0, Lcom/tencent/mm/protocal/x$b;
+    new-instance v0, Lcom/tencent/mm/protocal/Xclz$b;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/x$b;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/Xclz$b;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ac/h$a;->bNL:Lcom/tencent/mm/protocal/x$b;
+    iput-object v0, p0, Lcom/tencent/mm/ac/h$a;->bNL:Lcom/tencent/mm/protocal/Xclz$b;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -74,22 +74,22 @@
     return-object v0
 .end method
 
-.method protected final tI()Lcom/tencent/mm/protocal/h$c;
+.method protected final tI()Lcom/tencent/mm/protocal/Hclz$c;
     .locals 1
 
     .prologue
     .line 88
-    iget-object v0, p0, Lcom/tencent/mm/ac/h$a;->bNK:Lcom/tencent/mm/protocal/x$a;
+    iget-object v0, p0, Lcom/tencent/mm/ac/h$a;->bNK:Lcom/tencent/mm/protocal/Xclz$a;
 
     return-object v0
 .end method
 
-.method public final tJ()Lcom/tencent/mm/protocal/h$d;
+.method public final tJ()Lcom/tencent/mm/protocal/Hclz$d;
     .locals 1
 
     .prologue
     .line 93
-    iget-object v0, p0, Lcom/tencent/mm/ac/h$a;->bNL:Lcom/tencent/mm/protocal/x$b;
+    iget-object v0, p0, Lcom/tencent/mm/ac/h$a;->bNL:Lcom/tencent/mm/protocal/Xclz$b;
 
     return-object v0
 .end method

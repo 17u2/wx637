@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field public field_favProto:Lcom/tencent/mm/protocal/b/nb;
+.field public field_favProto:Lcom/tencent/mm/protocal/b/NBclz;
 
 .field public field_fromUser:Ljava/lang/String;
 

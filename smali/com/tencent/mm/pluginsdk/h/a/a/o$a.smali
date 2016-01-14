@@ -15,9 +15,9 @@
 
 
 # instance fields
-.field final hOD:Lcom/tencent/mm/protocal/n$a;
+.field final hOD:Lcom/tencent/mm/protocal/Nclz$a;
 
-.field final hOE:Lcom/tencent/mm/protocal/n$b;
+.field final hOE:Lcom/tencent/mm/protocal/Nclz$b;
 
 
 # direct methods
@@ -29,18 +29,18 @@
     invoke-direct {p0}, Lcom/tencent/mm/q/h;-><init>()V
 
     .line 54
-    new-instance v0, Lcom/tencent/mm/protocal/n$a;
+    new-instance v0, Lcom/tencent/mm/protocal/Nclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/n$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/Nclz$a;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/a/o$a;->hOD:Lcom/tencent/mm/protocal/n$a;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/a/o$a;->hOD:Lcom/tencent/mm/protocal/Nclz$a;
 
     .line 55
-    new-instance v0, Lcom/tencent/mm/protocal/n$b;
+    new-instance v0, Lcom/tencent/mm/protocal/Nclz$b;
 
-    invoke-direct {v0}, Lcom/tencent/mm/protocal/n$b;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/Nclz$b;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/a/o$a;->hOE:Lcom/tencent/mm/protocal/n$b;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/a/o$a;->hOE:Lcom/tencent/mm/protocal/Nclz$b;
 
     .line 58
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -75,22 +75,22 @@
     return-object v0
 .end method
 
-.method protected final tI()Lcom/tencent/mm/protocal/h$c;
+.method protected final tI()Lcom/tencent/mm/protocal/Hclz$c;
     .locals 1
 
     .prologue
     .line 62
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/a/o$a;->hOD:Lcom/tencent/mm/protocal/n$a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/a/o$a;->hOD:Lcom/tencent/mm/protocal/Nclz$a;
 
     return-object v0
 .end method
 
-.method public final tJ()Lcom/tencent/mm/protocal/h$d;
+.method public final tJ()Lcom/tencent/mm/protocal/Hclz$d;
     .locals 1
 
     .prologue
     .line 77
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/a/o$a;->hOE:Lcom/tencent/mm/protocal/n$b;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/a/o$a;->hOE:Lcom/tencent/mm/protocal/Nclz$b;
 
     return-object v0
 .end method

@@ -15,9 +15,9 @@
 
 
 # instance fields
-.field public aCQ:Lcom/tencent/mm/protocal/a/a/b;
+.field public aCQ:Lcom/tencent/mm/protocal/a/a/Bclz;
 
-.field public aCR:Lcom/tencent/mm/protocal/a/a/a;
+.field public aCR:Lcom/tencent/mm/protocal/a/a/Aclz;
 
 .field public aCS:Ljava/lang/String;
 
