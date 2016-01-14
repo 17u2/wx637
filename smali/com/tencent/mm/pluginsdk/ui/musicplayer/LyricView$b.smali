@@ -42,7 +42,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -59,7 +59,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -97,7 +97,7 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 88
     iget v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$b;->hXO:I
@@ -109,7 +109,7 @@
 
     const-string/jumbo v1, "auto refresh bg job finish, try times 0"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 110
     :cond_0
@@ -182,7 +182,7 @@
 
     const-string/jumbo v1, "auto refresh bg job finish, bgBmp not null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -203,7 +203,7 @@
 
     aput-object v0, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_1
 
@@ -211,7 +211,7 @@
     :cond_2
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$b;->hXN:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->a(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->a(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v0
 
@@ -220,13 +220,13 @@
     .line 107
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$b;->hXN:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->a(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->a(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v0
 
     const-wide/16 v1, 0x5dc
 
-    invoke-virtual {v0, p0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v0, p0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     goto :goto_0
 .end method

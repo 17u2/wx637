@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/modelgeo/a$a;
+.implements Lcom/tencent/mm/modelgeo/Aclz$a;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -77,7 +77,7 @@
 
     const-string/jumbo v1, "get location failed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 328
     iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy$4;->dwX:Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;
@@ -97,12 +97,12 @@
 
     .line 332
     :cond_2
-    new-instance v0, Lcom/tencent/mm/d/a/fr;
+    new-instance v0, Lcom/tencent/mm/d/a/FRclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/fr;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/FRclz;-><init>()V
 
     .line 333
-    iget-object v1, v0, Lcom/tencent/mm/d/a/fr;->aAc:Lcom/tencent/mm/d/a/fr$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/FRclz;->aAc:Lcom/tencent/mm/d/a/FRclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy$4;->dwX:Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;
 
@@ -110,48 +110,48 @@
 
     move-result v2
 
-    iput v2, v1, Lcom/tencent/mm/d/a/fr$a;->avS:I
+    iput v2, v1, Lcom/tencent/mm/d/a/FRclz$a;->avS:I
 
     .line 334
-    iget-object v1, v0, Lcom/tencent/mm/d/a/fr;->aAc:Lcom/tencent/mm/d/a/fr$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/FRclz;->aAc:Lcom/tencent/mm/d/a/FRclz$a;
 
-    iput p2, v1, Lcom/tencent/mm/d/a/fr$a;->aAe:F
+    iput p2, v1, Lcom/tencent/mm/d/a/FRclz$a;->aAe:F
 
     .line 335
-    iget-object v1, v0, Lcom/tencent/mm/d/a/fr;->aAc:Lcom/tencent/mm/d/a/fr$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/FRclz;->aAc:Lcom/tencent/mm/d/a/FRclz$a;
 
-    iput p3, v1, Lcom/tencent/mm/d/a/fr$a;->aAf:F
+    iput p3, v1, Lcom/tencent/mm/d/a/FRclz$a;->aAf:F
 
     .line 336
-    iget-object v1, v0, Lcom/tencent/mm/d/a/fr;->aAc:Lcom/tencent/mm/d/a/fr$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/FRclz;->aAc:Lcom/tencent/mm/d/a/FRclz$a;
 
     double-to-int v2, p7
 
-    iput v2, v1, Lcom/tencent/mm/d/a/fr$a;->aAg:I
+    iput v2, v1, Lcom/tencent/mm/d/a/FRclz$a;->aAg:I
 
     .line 337
-    iget-object v1, v0, Lcom/tencent/mm/d/a/fr;->aAc:Lcom/tencent/mm/d/a/fr$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/FRclz;->aAc:Lcom/tencent/mm/d/a/FRclz$a;
 
-    iput p4, v1, Lcom/tencent/mm/d/a/fr$a;->aAh:I
+    iput p4, v1, Lcom/tencent/mm/d/a/FRclz$a;->aAh:I
 
     .line 338
-    iget-object v1, v0, Lcom/tencent/mm/d/a/fr;->aAc:Lcom/tencent/mm/d/a/fr$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/FRclz;->aAc:Lcom/tencent/mm/d/a/FRclz$a;
 
     const-string/jumbo v2, ""
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/fr$a;->aAi:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/FRclz$a;->aAi:Ljava/lang/String;
 
     .line 339
-    iget-object v1, v0, Lcom/tencent/mm/d/a/fr;->aAc:Lcom/tencent/mm/d/a/fr$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/FRclz;->aAc:Lcom/tencent/mm/d/a/FRclz$a;
 
     const-string/jumbo v2, ""
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/fr$a;->aAj:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/FRclz$a;->aAj:Ljava/lang/String;
 
     .line 340
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     move-result v0
 
@@ -162,7 +162,7 @@
 
     const-string/jumbo v1, "do get nearby friend"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method

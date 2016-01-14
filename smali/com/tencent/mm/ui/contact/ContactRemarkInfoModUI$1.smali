@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/sdk/g/j$b;
+.implements Lcom/tencent/mm/sdk/g/Jclz$b;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final a(ILcom/tencent/mm/sdk/g/j;Ljava/lang/Object;)V
+.method public final a(ILcom/tencent/mm/sdk/g/Jclz;Ljava/lang/Object;)V
     .locals 2
 
     .prologue
@@ -52,7 +52,7 @@
 
     const-string/jumbo v1, "cpan onNotifyChange"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 241
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ContactRemarkInfoModUI$1;->ksa:Lcom/tencent/mm/ui/contact/ContactRemarkInfoModUI;

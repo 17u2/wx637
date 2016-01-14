@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -57,12 +57,12 @@
 
     const-string/jumbo v1, "KEYBOARD_STATE_SHOW"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 246
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     new-instance v1, Lcom/tencent/mm/plugin/sns/ui/SnsUploadUI$4$1;
 
@@ -70,7 +70,7 @@
 
     const-wide/16 v2, 0x64
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     .line 267
     :goto_0
@@ -78,9 +78,9 @@
 
     .line 256
     :cond_0
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     new-instance v1, Lcom/tencent/mm/plugin/sns/ui/SnsUploadUI$4$2;
 
@@ -88,14 +88,14 @@
 
     const-wide/16 v2, 0xc8
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     .line 265
     const-string/jumbo v0, "!32@/B4Tb64lLpJ9RADwjweyFoah/b/e2Uej"
 
     const-string/jumbo v1, "KEYBOARD_STATE_HIDE"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method

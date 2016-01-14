@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -114,12 +114,12 @@
 
     aput-object v8, v7, v9
 
-    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 373
     iget-object v5, v0, Lcom/tencent/mm/protocal/b/atr;->dRj:Ljava/lang/String;
 
-    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v5
 
@@ -127,7 +127,7 @@
 
     iget-object v5, v0, Lcom/tencent/mm/protocal/b/atr;->iZp:Ljava/lang/String;
 
-    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v5
 
@@ -151,7 +151,7 @@
     .line 378
     if-eqz v5, :cond_3
 
-    iget-wide v6, v5, Lcom/tencent/mm/h/a;->boB:J
+    iget-wide v6, v5, Lcom/tencent/mm/h/Aclz;->boB:J
 
     long-to-int v6, v6
 
@@ -163,7 +163,7 @@
 
     const-string/jumbo v5, "contact is null"
 
-    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -173,7 +173,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/VEclz;
 
@@ -192,7 +192,7 @@
 
     const-string/jumbo v5, "isBizContact"
 
-    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -209,7 +209,7 @@
 
     iget-object v6, v5, Lcom/tencent/mm/pluginsdk/model/f$b;->hKN:Ljava/lang/String;
 
-    invoke-static {v6}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v6}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v6
 
@@ -230,7 +230,7 @@
 
     aput-object v8, v7, v3
 
-    invoke-static {v1, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 391
     new-instance v1, Lcom/tencent/mm/storage/AMclz;

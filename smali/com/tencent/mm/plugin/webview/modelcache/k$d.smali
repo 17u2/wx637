@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/webview/modelcache/k$d;
-.super Lcom/tencent/mm/sdk/g/f;
+.super Lcom/tencent/mm/sdk/g/Fclz;
 .source "SourceFile"
 
 
@@ -30,13 +30,13 @@
 
     const/4 v1, 0x0
 
-    invoke-static {}, Lcom/tencent/mm/plugin/webview/modelcache/k$c;->aFi()Lcom/tencent/mm/sdk/g/c$a;
+    invoke-static {}, Lcom/tencent/mm/plugin/webview/modelcache/k$c;->aFi()Lcom/tencent/mm/sdk/g/Cclz$a;
 
     move-result-object v2
 
     const-string/jumbo v3, "WebViewCacheResourceCacheMsg"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/g/f;->a(Lcom/tencent/mm/sdk/g/c$a;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/g/Fclz;->a(Lcom/tencent/mm/sdk/g/Cclz$a;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -48,18 +48,18 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method public constructor <init>(Lcom/tencent/mm/sdk/g/d;)V
+.method public constructor <init>(Lcom/tencent/mm/sdk/g/Dclz;)V
     .locals 3
 
     .prologue
     .line 451
-    invoke-static {}, Lcom/tencent/mm/plugin/webview/modelcache/k$c;->aFi()Lcom/tencent/mm/sdk/g/c$a;
+    invoke-static {}, Lcom/tencent/mm/plugin/webview/modelcache/k$c;->aFi()Lcom/tencent/mm/sdk/g/Cclz$a;
 
     move-result-object v0
 
@@ -67,14 +67,14 @@
 
     sget-object v2, Lcom/tencent/mm/plugin/webview/modelcache/k$c;->aHv:[Ljava/lang/String;
 
-    invoke-direct {p0, p1, v0, v1, v2}, Lcom/tencent/mm/sdk/g/f;-><init>(Lcom/tencent/mm/sdk/g/d;Lcom/tencent/mm/sdk/g/c$a;Ljava/lang/String;[Ljava/lang/String;)V
+    invoke-direct {p0, p1, v0, v1, v2}, Lcom/tencent/mm/sdk/g/Fclz;-><init>(Lcom/tencent/mm/sdk/g/Dclz;Lcom/tencent/mm/sdk/g/Cclz$a;Ljava/lang/String;[Ljava/lang/String;)V
 
     .line 452
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -172,14 +172,14 @@
     iput v0, p1, Lcom/tencent/mm/plugin/webview/modelcache/k$c;->field_msgKey:I
 
     .line 462
-    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/g/f;->b(Lcom/tencent/mm/sdk/g/c;)Z
+    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/g/Fclz;->b(Lcom/tencent/mm/sdk/g/Cclz;)Z
 
     move-result v0
 
     return v0
 .end method
 
-.method public final synthetic b(Lcom/tencent/mm/sdk/g/c;)Z
+.method public final synthetic b(Lcom/tencent/mm/sdk/g/Cclz;)Z
     .locals 1
 
     .prologue

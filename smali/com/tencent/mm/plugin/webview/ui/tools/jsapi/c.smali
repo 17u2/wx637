@@ -66,7 +66,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -141,7 +141,7 @@
 
     const/4 v3, 0x1
 
-    invoke-static {p1, v1, v2, p0, v3}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
+    invoke-static {p1, v1, v2, p0, v3}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -200,7 +200,7 @@
     .line 56
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/c;->awN:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->Bn(Ljava/lang/String;)[B
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bn(Ljava/lang/String;)[B
 
     move-result-object v0
 
@@ -209,7 +209,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/a;->url:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->Bn(Ljava/lang/String;)[B
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bn(Ljava/lang/String;)[B
 
     move-result-object v1
 
@@ -239,7 +239,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 61
     invoke-direct {p0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/c;->aHe()V
@@ -268,12 +268,12 @@
     move-result-object v2
 
     .line 79
-    invoke-static {v1}, Lcom/tencent/mm/a/f;->m([B)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/a/Fclz;->m([B)Ljava/lang/String;
 
     move-result-object v3
 
     .line 81
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -283,7 +283,7 @@
     if-eqz v0, :cond_2
 
     .line 84
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/d;->aM([B)Landroid/graphics/Bitmap;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/Dclz;->aM([B)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -347,7 +347,7 @@
 
     array-length v3, v1
 
-    invoke-static {v2, v1, v3}, Lcom/tencent/mm/a/d;->a(Ljava/lang/String;[BI)I
+    invoke-static {v2, v1, v3}, Lcom/tencent/mm/a/Dclz;->a(Ljava/lang/String;[BI)I
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/c;->hFB:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/a;
 
@@ -355,7 +355,7 @@
 
     iput v3, v2, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/a;->len:I
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/l;->aN([B)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/Lclz;->aN([B)Z
 
     move-result v1
 
@@ -410,14 +410,14 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 98
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/c;->TAG:Ljava/lang/String;
 
     const-string/jumbo v1, "cancel_add_emoticon:ok"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 99
     invoke-direct {p0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/c;->aHe()V

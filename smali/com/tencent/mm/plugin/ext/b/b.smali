@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -90,7 +90,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -114,7 +114,7 @@
 
     const-string/jumbo v2, "hy: error param. start redirect param error: context is null"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 212
     :goto_0
@@ -122,7 +122,7 @@
 
     .line 198
     :cond_0
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -147,7 +147,7 @@
 
     const-string/jumbo v1, "hy: is friend. direct to chatting"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 200
     invoke-direct {p0, p1}, Lcom/tencent/mm/plugin/ext/b/b;->nh(Ljava/lang/String;)V
@@ -166,7 +166,7 @@
 
     const-string/jumbo v2, "hy: direct via searchResp"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 204
     invoke-direct {p0, p2}, Lcom/tencent/mm/plugin/ext/b/b;->a(Lcom/tencent/mm/protocal/b/akl;)V
@@ -185,7 +185,7 @@
 
     const-string/jumbo v2, "hy: direct via SearchContactItem"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 208
     invoke-direct {p0, p3}, Lcom/tencent/mm/plugin/ext/b/b;->a(Lcom/tencent/mm/protocal/b/akj;)V
@@ -201,7 +201,7 @@
 
     const-string/jumbo v2, "hy: no matching for starting redirect"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -260,7 +260,7 @@
 
     const-string/jumbo v2, "hy: more than one contact is resolved. starting to ContactSearchResultUI"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     sget-object v0, Lcom/tencent/mm/plugin/ext/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
 
@@ -289,7 +289,7 @@
 
     aput-object v0, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 .end method
@@ -306,7 +306,7 @@
 
     const-string/jumbo v1, "hy: start to profile failed: item or context is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 275
     :goto_0
@@ -316,12 +316,12 @@
     :cond_0
     iget-object v0, p1, Lcom/tencent/mm/protocal/b/akj;->iuA:Lcom/tencent/mm/protocal/b/ajz;
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Nclz;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 261
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -334,7 +334,7 @@
 
     iget-object v3, p1, Lcom/tencent/mm/protocal/b/akj;->iuA:Lcom/tencent/mm/protocal/b/ajz;
 
-    invoke-static {v3}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/tencent/mm/platformtools/Nclz;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -364,7 +364,7 @@
 
     const-string/jumbo v2, "hy: search item is friend. start to chatting"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 265
     invoke-direct {p0, v0}, Lcom/tencent/mm/plugin/ext/b/b;->nh(Ljava/lang/String;)V
@@ -404,7 +404,7 @@
 
     const-string/jumbo v1, "hy: start failed: no user name"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -421,7 +421,7 @@
 
     const-string/jumbo v1, "hy: start to profile failed: resp or context is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 253
     :goto_0
@@ -431,12 +431,12 @@
     :cond_0
     iget-object v0, p1, Lcom/tencent/mm/protocal/b/akl;->iuA:Lcom/tencent/mm/protocal/b/ajz;
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Nclz;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 236
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -449,7 +449,7 @@
 
     iget-object v3, p1, Lcom/tencent/mm/protocal/b/akl;->iuA:Lcom/tencent/mm/protocal/b/ajz;
 
-    invoke-static {v3}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/tencent/mm/platformtools/Nclz;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -479,7 +479,7 @@
 
     const-string/jumbo v2, "hy: search response is friend. start to chatting"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 240
     invoke-direct {p0, v0}, Lcom/tencent/mm/plugin/ext/b/b;->nh(Ljava/lang/String;)V
@@ -519,7 +519,7 @@
 
     const-string/jumbo v1, "hy: start failed: no user name"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -529,7 +529,7 @@
 
     .prologue
     .line 177
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -540,7 +540,7 @@
 
     const-string/jumbo v1, "hy: username is null when put to cache"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 185
     :goto_0
@@ -604,7 +604,7 @@
 
     const-string/jumbo v2, ".ui.chatting.ChattingUI"
 
-    invoke-static {v1, v2, v0}, Lcom/tencent/mm/ao/c;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {v1, v2, v0}, Lcom/tencent/mm/ao/Cclz;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;)V
 
     .line 221
     return-void
@@ -630,7 +630,7 @@
 
     const-string/jumbo v2, "hy: context is null"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 153
     :goto_0
@@ -640,7 +640,7 @@
     :cond_0
     iget-object v2, p0, Lcom/tencent/mm/plugin/ext/b/b;->dwa:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -651,7 +651,7 @@
 
     const-string/jumbo v2, "hy: phone is null"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -659,12 +659,12 @@
     :cond_1
     iget-object v2, p0, Lcom/tencent/mm/plugin/ext/b/b;->dwa:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/aj;->AQ(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/AJclz;->AQ(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     .line 124
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -675,7 +675,7 @@
 
     const-string/jumbo v2, "hy: pure num is null"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -683,7 +683,7 @@
     :cond_2
     iget-object v0, p0, Lcom/tencent/mm/plugin/ext/b/b;->dwa:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -693,7 +693,7 @@
 
     const-string/jumbo v3, "hy: username is null when get from cache"
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, v1
 
@@ -706,7 +706,7 @@
 
     const-string/jumbo v2, "hy: got from cache"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 136
     iget-object v1, v0, Lcom/tencent/mm/plugin/ext/b/b$a;->ajd:Ljava/lang/String;
@@ -746,27 +746,27 @@
 
     .line 139
     :cond_5
-    new-instance v0, Lcom/tencent/mm/d/a/ee;
+    new-instance v0, Lcom/tencent/mm/d/a/EEclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/ee;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/EEclz;-><init>()V
 
     .line 140
-    iget-object v3, v0, Lcom/tencent/mm/d/a/ee;->ayh:Lcom/tencent/mm/d/a/ee$a;
+    iget-object v3, v0, Lcom/tencent/mm/d/a/EEclz;->ayh:Lcom/tencent/mm/d/a/EEclz$a;
 
-    iput-object v2, v3, Lcom/tencent/mm/d/a/ee$a;->ayj:Ljava/lang/String;
+    iput-object v2, v3, Lcom/tencent/mm/d/a/EEclz$a;->ayj:Ljava/lang/String;
 
     .line 141
-    sget-object v3, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v3, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v3, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v3, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 142
-    iget-object v0, v0, Lcom/tencent/mm/d/a/ee;->ayi:Lcom/tencent/mm/d/a/ee$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/EEclz;->ayi:Lcom/tencent/mm/d/a/EEclz$b;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/ee$b;->ajd:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/EEclz$b;->ajd:Ljava/lang/String;
 
     .line 143
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -785,7 +785,7 @@
 
     aput-object v0, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 145
     invoke-direct {p0, v0, v1, v1}, Lcom/tencent/mm/plugin/ext/b/b;->a(Ljava/lang/String;Lcom/tencent/mm/protocal/b/akl;Lcom/tencent/mm/protocal/b/akj;)I
@@ -800,7 +800,7 @@
 
     const-string/jumbo v1, "hy: not found from local storage. Try to find from search"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 148
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -814,7 +814,7 @@
     invoke-virtual {v0, v1, v3}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 150
-    new-instance v0, Lcom/tencent/mm/modelsimple/z;
+    new-instance v0, Lcom/tencent/mm/modelsimple/Zclz;
 
     invoke-static {v2}, Lcom/tencent/mm/modelsearch/FTSUtils;->ij(Ljava/lang/String;)Ljava/lang/String;
 
@@ -822,7 +822,7 @@
 
     const/4 v2, 0x3
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/modelsimple/z;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/modelsimple/Zclz;-><init>(Ljava/lang/String;I)V
 
     .line 151
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;

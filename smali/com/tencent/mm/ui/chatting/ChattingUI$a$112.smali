@@ -47,7 +47,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -73,7 +73,7 @@
 
     const-string/jumbo v1, ""
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -110,12 +110,12 @@
 
     .line 7180
     :cond_0
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->Bj(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bj(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 7181
-    invoke-static {v0}, Lcom/tencent/mm/m/a$a;->ds(Ljava/lang/String;)Lcom/tencent/mm/m/a$a;
+    invoke-static {v0}, Lcom/tencent/mm/m/Aclz$a;->ds(Ljava/lang/String;)Lcom/tencent/mm/m/Aclz$a;
 
     move-result-object v0
 
@@ -123,7 +123,7 @@
     if-eqz v0, :cond_1
 
     .line 7183
-    iget v0, v0, Lcom/tencent/mm/m/a$a;->type:I
+    iget v0, v0, Lcom/tencent/mm/m/Aclz$a;->type:I
 
     packed-switch v0, :pswitch_data_0
 
@@ -186,7 +186,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/chatting/ChattingUI$a$112$1;-><init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a$112;)V
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

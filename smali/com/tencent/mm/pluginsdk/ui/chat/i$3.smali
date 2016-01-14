@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic hWV:Lcom/tencent/mm/pluginsdk/ui/chat/i;
 
-.field final synthetic hWW:Lcom/tencent/mm/sdk/platformtools/ab;
+.field final synthetic hWW:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/pluginsdk/ui/chat/i;Lcom/tencent/mm/sdk/platformtools/ab;)V
+.method constructor <init>(Lcom/tencent/mm/pluginsdk/ui/chat/i;Lcom/tencent/mm/sdk/platformtools/ABclz;)V
     .locals 1
 
     .prologue
     .line 112
     iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/i$3;->hWV:Lcom/tencent/mm/pluginsdk/ui/chat/i;
 
-    iput-object p2, p0, Lcom/tencent/mm/pluginsdk/ui/chat/i$3;->hWW:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object p2, p0, Lcom/tencent/mm/pluginsdk/ui/chat/i$3;->hWW:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -70,9 +70,9 @@
     if-eqz v0, :cond_1
 
     .line 116
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/i$3;->hWW:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/i$3;->hWW:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessage(I)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessage(I)Z
 
     .line 120
     :goto_1
@@ -104,13 +104,13 @@
 
     float-to-int v6, v6
 
-    invoke-static {v3, v5, v4, v0}, Lcom/tencent/mm/sdk/platformtools/d;->b(Ljava/lang/String;IIZ)Landroid/graphics/Bitmap;
+    invoke-static {v3, v5, v4, v0}, Lcom/tencent/mm/sdk/platformtools/Dclz;->b(Ljava/lang/String;IIZ)Landroid/graphics/Bitmap;
 
     move-result-object v3
 
     int-to-float v4, v6
 
-    invoke-static {v3, v0, v4}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/Bitmap;ZF)Landroid/graphics/Bitmap;
+    invoke-static {v3, v0, v4}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/Bitmap;ZF)Landroid/graphics/Bitmap;
 
     move-result-object v3
 
@@ -138,7 +138,7 @@
 
     const-string/jumbo v3, "check ok"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -148,7 +148,7 @@
 
     const-string/jumbo v1, "check false"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 .end method

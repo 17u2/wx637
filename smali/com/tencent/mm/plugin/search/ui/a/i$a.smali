@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/search/ui/a/i$a;
-.super Lcom/tencent/mm/ui/e/a/a$a;
+.super Lcom/tencent/mm/ui/e/a/Aclz$a;
 .source "SourceFile"
 
 
@@ -32,13 +32,13 @@
     .line 54
     iput-object p1, p0, Lcom/tencent/mm/plugin/search/ui/a/i$a;->fLy:Lcom/tencent/mm/plugin/search/ui/a/i;
 
-    invoke-direct {p0, p1}, Lcom/tencent/mm/ui/e/a/a$a;-><init>(Lcom/tencent/mm/ui/e/a/a;)V
+    invoke-direct {p0, p1}, Lcom/tencent/mm/ui/e/a/Aclz$a;-><init>(Lcom/tencent/mm/ui/e/a/Aclz;)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

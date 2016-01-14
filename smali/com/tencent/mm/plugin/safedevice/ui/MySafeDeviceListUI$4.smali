@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI$4;
-.super Lcom/tencent/mm/sdk/platformtools/ab;
+.super Lcom/tencent/mm/sdk/platformtools/ABclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 115
     iput-object p1, p0, Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI$4;->fyg:Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI;
 
-    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -47,14 +47,14 @@
     .line 119
     iget-object v0, p0, Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI$4;->fyg:Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI;->b(Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI;)Lcom/tencent/mm/ui/base/preference/f;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI;->b(Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI;)Lcom/tencent/mm/ui/base/preference/Fclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/ui/base/preference/f;->notifyDataSetChanged()V
+    invoke-interface {v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->notifyDataSetChanged()V
 
     .line 120
-    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/platformtools/ab;->handleMessage(Landroid/os/Message;)V
+    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->handleMessage(Landroid/os/Message;)V
 
     .line 121
     return-void

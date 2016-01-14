@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,11 +52,11 @@
     .line 9282
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$14;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/n;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Nclz;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/r;->aZ(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/tencent/mm/ak/Rclz;->aZ(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -64,11 +64,11 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$14;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/n;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Nclz;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-static {v0}, Lcom/tencent/mm/ad/a;->aL(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/tencent/mm/ad/Aclz;->aL(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -80,7 +80,7 @@
 
     const-string/jumbo v1, "voip is running"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 9294
     :goto_0
@@ -94,7 +94,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$z;->pA(Ljava/lang/String;)Ljava/util/LinkedList;
 
@@ -119,7 +119,7 @@
 
     aput-object v0, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 9289
     sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJQ:Lcom/tencent/mm/pluginsdk/h$z;
@@ -128,7 +128,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$z;->pC(Ljava/lang/String;)Z
 
@@ -157,21 +157,21 @@
 
     .prologue
     .line 9299
-    new-instance v0, Lcom/tencent/mm/d/a/kl;
+    new-instance v0, Lcom/tencent/mm/d/a/KLclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/kl;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/KLclz;-><init>()V
 
     .line 9300
-    iget-object v1, v0, Lcom/tencent/mm/d/a/kl;->aFv:Lcom/tencent/mm/d/a/kl$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/KLclz;->aFv:Lcom/tencent/mm/d/a/KLclz$a;
 
     const/4 v2, 0x1
 
-    iput-boolean v2, v1, Lcom/tencent/mm/d/a/kl$a;->aFy:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/d/a/KLclz$a;->aFy:Z
 
     .line 9301
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 9303
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$14;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
@@ -180,7 +180,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-static {v0, v1}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->b(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Ljava/lang/String;)V
 

@@ -58,7 +58,7 @@
 
 .field private jRz:F
 
-.field protected mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field protected mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -155,11 +155,11 @@
     iput-boolean v0, p0, Lcom/tencent/mm/ui/base/MultiTouchImageView;->gyr:Z
 
     .line 307
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/base/MultiTouchImageView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/ui/base/MultiTouchImageView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 366
     const/high16 v0, 0x3f800000    # 1.0f
@@ -183,7 +183,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -203,7 +203,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -302,11 +302,11 @@
     iput-boolean v0, p0, Lcom/tencent/mm/ui/base/MultiTouchImageView;->gyr:Z
 
     .line 307
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/base/MultiTouchImageView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/ui/base/MultiTouchImageView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 366
     const/high16 v0, 0x3f800000    # 1.0f
@@ -330,7 +330,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -377,7 +377,7 @@
 
     iget v3, p0, Lcom/tencent/mm/ui/base/MultiTouchImageView;->imageHeight:I
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/d;->ae(II)Z
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Dclz;->ae(II)Z
 
     move-result v0
 
@@ -388,7 +388,7 @@
 
     iget v3, p0, Lcom/tencent/mm/ui/base/MultiTouchImageView;->imageHeight:I
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/d;->ad(II)Z
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Dclz;->ad(II)Z
 
     move-result v0
 
@@ -518,7 +518,7 @@
     move-result-wide v3
 
     .line 522
-    iget-object v9, p0, Lcom/tencent/mm/ui/base/MultiTouchImageView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v9, p0, Lcom/tencent/mm/ui/base/MultiTouchImageView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     new-instance v0, Lcom/tencent/mm/ui/base/MultiTouchImageView$1;
 
@@ -530,7 +530,7 @@
 
     invoke-direct/range {v0 .. v8}, Lcom/tencent/mm/ui/base/MultiTouchImageView$1;-><init>(Lcom/tencent/mm/ui/base/MultiTouchImageView;FJFFFF)V
 
-    invoke-virtual {v9, v0}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v9, v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 534
     return-void
@@ -649,7 +649,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 370
     sget-object v0, Landroid/widget/ImageView$ScaleType;->MATRIX:Landroid/widget/ImageView$ScaleType;
@@ -1348,7 +1348,7 @@
 
     const-string/jumbo v1, "this bitmap is recycled! draw nothing!"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 202
     :goto_0
@@ -1377,15 +1377,15 @@
     if-nez v0, :cond_1
 
     .line 288
-    invoke-static {}, Lcom/tencent/mm/ui/base/e;->axE()Z
+    invoke-static {}, Lcom/tencent/mm/ui/base/Eclz;->axE()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    new-instance v0, Lcom/tencent/mm/ui/base/d;
+    new-instance v0, Lcom/tencent/mm/ui/base/Dclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/ui/base/d;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/ui/base/Dclz;-><init>()V
 
     invoke-virtual {p2}, Landroid/view/KeyEvent;->startTracking()V
 
@@ -1420,15 +1420,15 @@
 
     if-ne p1, v1, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/ui/base/e;->axE()Z
+    invoke-static {}, Lcom/tencent/mm/ui/base/Eclz;->axE()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    new-instance v1, Lcom/tencent/mm/ui/base/d;
+    new-instance v1, Lcom/tencent/mm/ui/base/Dclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/ui/base/d;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/ui/base/Dclz;-><init>()V
 
     invoke-virtual {p2}, Landroid/view/KeyEvent;->isTracking()Z
 
@@ -1437,15 +1437,15 @@
     :goto_0
     if-eqz v1, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/ui/base/e;->axE()Z
+    invoke-static {}, Lcom/tencent/mm/ui/base/Eclz;->axE()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    new-instance v0, Lcom/tencent/mm/ui/base/d;
+    new-instance v0, Lcom/tencent/mm/ui/base/Dclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/ui/base/d;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/ui/base/Dclz;-><init>()V
 
     invoke-virtual {p2}, Landroid/view/KeyEvent;->isCanceled()Z
 
@@ -1552,7 +1552,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 171
     iget-boolean v0, p0, Lcom/tencent/mm/ui/base/MultiTouchImageView;->fSD:Z
@@ -1633,7 +1633,7 @@
 
     const-string/jumbo v1, "double tab scale limit is less than 0.0, change nothing, return"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 131
     :goto_0
@@ -1727,7 +1727,7 @@
 
     const-string/jumbo v1, "max scale limit is less than 1.0, change nothing, return"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 111
     :goto_0
@@ -1758,7 +1758,7 @@
 
     const-string/jumbo v1, "min scale limit is greater than 1.0, change nothing, return"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 123
     :goto_0
@@ -1779,7 +1779,7 @@
 
     const-string/jumbo v1, "min scale limit is less than 0.0, change nothing, return"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 

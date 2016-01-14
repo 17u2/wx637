@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -105,7 +105,7 @@
 
     const-string/jumbo v2, "showMainSightView"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -187,9 +187,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/ui/conversation/e;
+    check-cast v0, Lcom/tencent/mm/ui/conversation/Eclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/conversation/e;->kxp:Landroid/widget/ListView;
+    iget-object v0, v0, Lcom/tencent/mm/ui/conversation/Eclz;->kxp:Landroid/widget/ListView;
 
     check-cast v0, Lcom/tencent/mm/ui/conversation/ConversationOverscrollListView;
 
@@ -256,11 +256,11 @@
 
     invoke-virtual {v3, v4}, Lcom/tencent/mm/plugin/sight/encode/ui/MainContentImageView;->setVisibility(I)V
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView;->gbi:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView;->gbi:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     const-wide/16 v3, 0x15e
 
-    invoke-virtual {v2, v8, v3, v4}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessageDelayed(IJ)Z
+    invoke-virtual {v2, v8, v3, v4}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessageDelayed(IJ)Z
 
     if-eqz v0, :cond_5
 
@@ -484,7 +484,7 @@
 
     const-string/jumbo v1, "jacks to show Main Sight "
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 4549
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$33;->jwy:Lcom/tencent/mm/ui/LauncherUI;
@@ -507,44 +507,44 @@
 
     .prologue
     .line 4558
-    new-instance v0, Lcom/tencent/mm/d/a/lm;
+    new-instance v0, Lcom/tencent/mm/d/a/LMclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/lm;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/LMclz;-><init>()V
 
     .line 4559
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 4560
-    iget-object v1, v0, Lcom/tencent/mm/d/a/lm;->aGu:Lcom/tencent/mm/d/a/lm$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/LMclz;->aGu:Lcom/tencent/mm/d/a/LMclz$a;
 
-    iget-boolean v1, v1, Lcom/tencent/mm/d/a/lm$a;->aGw:Z
+    iget-boolean v1, v1, Lcom/tencent/mm/d/a/LMclz$a;->aGw:Z
 
     if-nez v1, :cond_0
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/lm;->aGu:Lcom/tencent/mm/d/a/lm$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/LMclz;->aGu:Lcom/tencent/mm/d/a/LMclz$a;
 
-    iget-boolean v1, v1, Lcom/tencent/mm/d/a/lm$a;->aGx:Z
+    iget-boolean v1, v1, Lcom/tencent/mm/d/a/LMclz$a;->aGx:Z
 
     if-eqz v1, :cond_1
 
     .line 4561
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/lm;->aGu:Lcom/tencent/mm/d/a/lm$a;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/LMclz;->aGu:Lcom/tencent/mm/d/a/LMclz$a;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/d/a/lm$a;->aGv:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/d/a/LMclz$a;->aGv:Z
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/ak/r;->c(Landroid/content/Context;Z)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/tencent/mm/ak/Rclz;->c(Landroid/content/Context;Z)Ljava/lang/String;
 
     move-result-object v0
 
     .line 4562
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -558,11 +558,11 @@
 
     .line 4564
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/ad/a;->aL(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/tencent/mm/ad/Aclz;->aL(Landroid/content/Context;)Z
 
     .line 4565
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$33;->jwy:Lcom/tencent/mm/ui/LauncherUI;
@@ -623,25 +623,25 @@
     const/4 v0, 0x1
 
     .line 4591
-    new-instance v1, Lcom/tencent/mm/d/a/lm;
+    new-instance v1, Lcom/tencent/mm/d/a/LMclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/d/a/lm;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/d/a/LMclz;-><init>()V
 
     .line 4592
-    sget-object v2, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v2, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 4593
-    iget-object v2, v1, Lcom/tencent/mm/d/a/lm;->aGu:Lcom/tencent/mm/d/a/lm$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/LMclz;->aGu:Lcom/tencent/mm/d/a/LMclz$a;
 
-    iget-boolean v2, v2, Lcom/tencent/mm/d/a/lm$a;->aGw:Z
+    iget-boolean v2, v2, Lcom/tencent/mm/d/a/LMclz$a;->aGw:Z
 
     if-nez v2, :cond_0
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/lm;->aGu:Lcom/tencent/mm/d/a/lm$a;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/LMclz;->aGu:Lcom/tencent/mm/d/a/LMclz$a;
 
-    iget-boolean v1, v1, Lcom/tencent/mm/d/a/lm$a;->aGx:Z
+    iget-boolean v1, v1, Lcom/tencent/mm/d/a/LMclz$a;->aGx:Z
 
     if-eqz v1, :cond_1
 
@@ -652,7 +652,7 @@
 
     .line 4596
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/ad/a;->AC()Z
+    invoke-static {}, Lcom/tencent/mm/ad/Aclz;->AC()Z
 
     move-result v1
 

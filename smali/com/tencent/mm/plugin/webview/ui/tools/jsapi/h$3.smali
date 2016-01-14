@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$3;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 16
 
     .prologue
@@ -51,7 +51,7 @@
 
     move-object/from16 v0, p1
 
-    instance-of v1, v0, Lcom/tencent/mm/d/a/bm;
+    instance-of v1, v0, Lcom/tencent/mm/d/a/BMclz;
 
     if-eqz v1, :cond_c
 
@@ -122,28 +122,28 @@
     invoke-static {v1, v2, v3}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;->a(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;J)J
 
     .line 2512
-    check-cast p1, Lcom/tencent/mm/d/a/bm;
+    check-cast p1, Lcom/tencent/mm/d/a/BMclz;
 
     .line 2513
     move-object/from16 v0, p1
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/bm;->aue:Lcom/tencent/mm/d/a/bm$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/BMclz;->aue:Lcom/tencent/mm/d/a/BMclz$a;
 
-    iget-object v3, v1, Lcom/tencent/mm/d/a/bm$a;->auc:Ljava/lang/String;
+    iget-object v3, v1, Lcom/tencent/mm/d/a/BMclz$a;->auc:Ljava/lang/String;
 
     .line 2514
     move-object/from16 v0, p1
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/bm;->aue:Lcom/tencent/mm/d/a/bm$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/BMclz;->aue:Lcom/tencent/mm/d/a/BMclz$a;
 
-    iget v4, v1, Lcom/tencent/mm/d/a/bm$a;->auf:I
+    iget v4, v1, Lcom/tencent/mm/d/a/BMclz$a;->auf:I
 
     .line 2515
     move-object/from16 v0, p1
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/bm;->aue:Lcom/tencent/mm/d/a/bm$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/BMclz;->aue:Lcom/tencent/mm/d/a/BMclz$a;
 
-    iget v1, v1, Lcom/tencent/mm/d/a/bm$a;->aug:I
+    iget v1, v1, Lcom/tencent/mm/d/a/BMclz$a;->aug:I
 
     const v2, 0xffff
 
@@ -152,16 +152,16 @@
     .line 2516
     move-object/from16 v0, p1
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/bm;->aue:Lcom/tencent/mm/d/a/bm$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/BMclz;->aue:Lcom/tencent/mm/d/a/BMclz$a;
 
-    iget-wide v6, v1, Lcom/tencent/mm/d/a/bm$a;->aui:D
+    iget-wide v6, v1, Lcom/tencent/mm/d/a/BMclz$a;->aui:D
 
     .line 2517
     move-object/from16 v0, p1
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/bm;->aue:Lcom/tencent/mm/d/a/bm$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/BMclz;->aue:Lcom/tencent/mm/d/a/BMclz$a;
 
-    iget-wide v8, v1, Lcom/tencent/mm/d/a/bm$a;->auh:D
+    iget-wide v8, v1, Lcom/tencent/mm/d/a/BMclz$a;->auh:D
 
     .line 2522
     const-string/jumbo v1, "!32@/B4Tb64lLpIW+l+CVB5RCiEi2AKtgO6B"
@@ -218,7 +218,7 @@
 
     aput-object v12, v10, v11
 
-    invoke-static {v1, v2, v10}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v10}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 2523
     new-instance v1, Ljava/lang/StringBuilder;
@@ -525,7 +525,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -561,7 +561,7 @@
 
     move-result-object v12
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -641,7 +641,7 @@
 
     aput-object v14, v12, v13
 
-    invoke-static {v1, v11, v12}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v11, v12}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 2617
     :try_start_0
@@ -762,7 +762,7 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 2643
     :cond_6
@@ -910,7 +910,7 @@
 
     aput-object v1, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto/16 :goto_4
 
@@ -920,12 +920,12 @@
 
     move-object/from16 v0, p1
 
-    instance-of v1, v0, Lcom/tencent/mm/d/a/bo;
+    instance-of v1, v0, Lcom/tencent/mm/d/a/BOclz;
 
     if-eqz v1, :cond_6
 
     .line 2632
-    check-cast p1, Lcom/tencent/mm/d/a/bo;
+    check-cast p1, Lcom/tencent/mm/d/a/BOclz;
 
     .line 2633
     const-string/jumbo v1, "!32@/B4Tb64lLpIW+l+CVB5RCiEi2AKtgO6B"
@@ -940,9 +940,9 @@
 
     move-object/from16 v0, p1
 
-    iget-object v5, v0, Lcom/tencent/mm/d/a/bo;->aul:Lcom/tencent/mm/d/a/bo$a;
+    iget-object v5, v0, Lcom/tencent/mm/d/a/BOclz;->aul:Lcom/tencent/mm/d/a/BOclz$a;
 
-    iget v5, v5, Lcom/tencent/mm/d/a/bo$a;->aum:I
+    iget v5, v5, Lcom/tencent/mm/d/a/BOclz$a;->aum:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -950,14 +950,14 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 2634
     move-object/from16 v0, p1
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/bo;->aul:Lcom/tencent/mm/d/a/bo$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/BOclz;->aul:Lcom/tencent/mm/d/a/BOclz$a;
 
-    iget v1, v1, Lcom/tencent/mm/d/a/bo$a;->aum:I
+    iget v1, v1, Lcom/tencent/mm/d/a/BOclz$a;->aum:I
 
     const/16 v2, 0xa
 
@@ -966,9 +966,9 @@
     .line 2637
     move-object/from16 v0, p1
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/bo;->aul:Lcom/tencent/mm/d/a/bo$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/BOclz;->aul:Lcom/tencent/mm/d/a/BOclz$a;
 
-    iget v1, v1, Lcom/tencent/mm/d/a/bo$a;->aum:I
+    iget v1, v1, Lcom/tencent/mm/d/a/BOclz$a;->aum:I
 
     const/16 v2, 0xc
 

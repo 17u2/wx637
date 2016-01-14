@@ -11,7 +11,7 @@
 
 .field private cRo:Landroid/widget/ListView;
 
-.field private cfz:Lcom/tencent/mm/ui/base/o;
+.field private cfz:Lcom/tencent/mm/ui/base/Oclz;
 
 .field private eqp:Ljava/lang/String;
 
@@ -41,13 +41,13 @@
     iput-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->gqt:Lcom/tencent/mm/q/Jclz;
 
     .line 40
-    iput-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iput-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -93,12 +93,12 @@
     return-object v0
 .end method
 
-.method static synthetic e(Lcom/tencent/mm/plugin/sns/ui/ArtistUI;)Lcom/tencent/mm/ui/base/o;
+.method static synthetic e(Lcom/tencent/mm/plugin/sns/ui/ArtistUI;)Lcom/tencent/mm/ui/base/Oclz;
     .locals 1
 
     .prologue
     .line 32
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     return-object v0
 .end method
@@ -141,11 +141,11 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/plugin/sns/ui/ArtistUI$1;-><init>(Lcom/tencent/mm/plugin/sns/ui/ArtistUI;)V
 
-    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     .line 102
     const v0, 0x7f0e0e5b
@@ -253,7 +253,7 @@
 
     const-string/jumbo v1, "another scene"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 189
     :cond_1
@@ -326,7 +326,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 174
     if-nez p1, :cond_3
@@ -343,14 +343,14 @@
 
     if-ne v0, v1, :cond_1
 
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     if-eqz v0, :cond_1
 
     .line 176
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/o;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Oclz;->dismiss()V
 
     goto :goto_0
 
@@ -412,7 +412,7 @@
     invoke-super {p0, p1}, Lcom/tencent/mm/ui/MMActivity;->onCreate(Landroid/os/Bundle;)V
 
     .line 59
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOp()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOp()Ljava/lang/String;
 
     move-result-object v0
 
@@ -420,7 +420,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/u;->d(Landroid/content/SharedPreferences;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/Uclz;->d(Landroid/content/SharedPreferences;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -440,7 +440,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string/jumbo v1, "zh_CN"
 
@@ -489,7 +489,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 61
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -501,7 +501,7 @@
     invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 62
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOp()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOp()Ljava/lang/String;
 
     move-result-object v0
 
@@ -554,14 +554,14 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onDestroy()V
 
     .line 70
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     if-eqz v0, :cond_0
 
     .line 71
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     .line 73
     :cond_0

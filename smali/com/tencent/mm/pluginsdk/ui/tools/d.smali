@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/platformtools/j;
+.implements Lcom/tencent/mm/platformtools/Jclz;
 
 
 # instance fields
@@ -41,7 +41,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -82,7 +82,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/a/f;->m([B)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/a/Fclz;->m([B)Ljava/lang/String;
 
     move-result-object v1
 
@@ -142,7 +142,7 @@
 
     .prologue
     .line 71
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -167,12 +167,12 @@
     return-void
 .end method
 
-.method public final a(Landroid/graphics/Bitmap;Lcom/tencent/mm/platformtools/j$a;)Landroid/graphics/Bitmap;
+.method public final a(Landroid/graphics/Bitmap;Lcom/tencent/mm/platformtools/Jclz$a;)Landroid/graphics/Bitmap;
     .locals 6
 
     .prologue
     .line 76
-    sget-object v0, Lcom/tencent/mm/platformtools/j$a;->cds:Lcom/tencent/mm/platformtools/j$a;
+    sget-object v0, Lcom/tencent/mm/platformtools/Jclz$a;->cds:Lcom/tencent/mm/platformtools/Jclz$a;
 
     if-ne v0, p2, :cond_1
 
@@ -192,7 +192,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 81
     iget v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/d;->width:I
@@ -208,7 +208,7 @@
 
     iget v1, p0, Lcom/tencent/mm/pluginsdk/ui/tools/d;->height:I
 
-    invoke-static {p1, v0, v1}, Lcom/tencent/mm/sdk/platformtools/d;->c(Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
+    invoke-static {p1, v0, v1}, Lcom/tencent/mm/sdk/platformtools/Dclz;->c(Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
 
     move-result-object p1
 
@@ -316,7 +316,7 @@
     goto :goto_1
 .end method
 
-.method public final a(Lcom/tencent/mm/platformtools/j$a;Ljava/lang/String;)V
+.method public final a(Lcom/tencent/mm/platformtools/Jclz$a;Ljava/lang/String;)V
     .locals 0
 
     .prologue

@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,28 +56,28 @@
 
     .prologue
     .line 390
-    new-instance v0, Lcom/tencent/mm/d/a/cs;
+    new-instance v0, Lcom/tencent/mm/d/a/CSclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/cs;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/CSclz;-><init>()V
 
     .line 391
-    iget-object v1, v0, Lcom/tencent/mm/d/a/cs;->avK:Lcom/tencent/mm/d/a/cs$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CSclz;->avK:Lcom/tencent/mm/d/a/CSclz$a;
 
     const/4 v2, 0x1
 
-    iput v2, v1, Lcom/tencent/mm/d/a/cs$a;->type:I
+    iput v2, v1, Lcom/tencent/mm/d/a/CSclz$a;->type:I
 
     .line 392
-    iget-object v1, v0, Lcom/tencent/mm/d/a/cs;->avK:Lcom/tencent/mm/d/a/cs$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CSclz;->avK:Lcom/tencent/mm/d/a/CSclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;->cPI:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/cs$a;->username:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/CSclz$a;->username:Ljava/lang/String;
 
     .line 393
-    iget-object v1, v0, Lcom/tencent/mm/d/a/cs;->avK:Lcom/tencent/mm/d/a/cs$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CSclz;->avK:Lcom/tencent/mm/d/a/CSclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;->dxa:Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS;
 
@@ -85,10 +85,10 @@
 
     move-result v2
 
-    iput-boolean v2, v1, Lcom/tencent/mm/d/a/cs$a;->avL:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/d/a/CSclz$a;->avL:Z
 
     .line 394
-    iget-object v1, v0, Lcom/tencent/mm/d/a/cs;->avK:Lcom/tencent/mm/d/a/cs$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CSclz;->avK:Lcom/tencent/mm/d/a/CSclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;->dxa:Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS;
 
@@ -96,10 +96,10 @@
 
     move-result v2
 
-    iput-boolean v2, v1, Lcom/tencent/mm/d/a/cs$a;->avM:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/d/a/CSclz$a;->avM:Z
 
     .line 395
-    iget-object v1, v0, Lcom/tencent/mm/d/a/cs;->avK:Lcom/tencent/mm/d/a/cs$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CSclz;->avK:Lcom/tencent/mm/d/a/CSclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;->dxa:Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS;
 
@@ -107,21 +107,21 @@
 
     move-result v2
 
-    iput v2, v1, Lcom/tencent/mm/d/a/cs$a;->avN:I
+    iput v2, v1, Lcom/tencent/mm/d/a/CSclz$a;->avN:I
 
     .line 396
-    iget-object v1, v0, Lcom/tencent/mm/d/a/cs;->avK:Lcom/tencent/mm/d/a/cs$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CSclz;->avK:Lcom/tencent/mm/d/a/CSclz$a;
 
     new-instance v2, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2$1;
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2$1;-><init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;)V
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/cs$a;->avO:Lcom/tencent/mm/model/AQclz$a;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/CSclz$a;->avO:Lcom/tencent/mm/model/AQclz$a;
 
     .line 402
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 403
     return-void

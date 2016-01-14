@@ -19,7 +19,7 @@
     .line 17
     const/4 v0, 0x7
 
-    invoke-static {v0}, Lcom/tencent/mm/a/m;->aH(I)[B
+    invoke-static {v0}, Lcom/tencent/mm/a/Mclz;->aH(I)[B
 
     move-result-object v0
 
@@ -29,7 +29,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -46,7 +46,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -105,7 +105,7 @@
 
     move-result-object v5
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :try_start_0
     const-string/jumbo v4, ","
@@ -172,13 +172,13 @@
 
     new-array v3, v7, [Ljava/lang/Object;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Throwable;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Throwable;)Ljava/lang/String;
 
     move-result-object v0
 
     aput-object v0, v3, v8
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -217,7 +217,7 @@
 
     const-string/jumbo v1, "old notify"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 29
     iget-object v0, p0, Lcom/tencent/mm/network/Xclz;->cbe:Lcom/tencent/mm/network/Lclz;
@@ -236,13 +236,13 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/bc;->H([B)Ljava/lang/String;
+    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->H([B)Ljava/lang/String;
 
     move-result-object v3
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 34
     iget-object v0, p0, Lcom/tencent/mm/network/Xclz;->cbe:Lcom/tencent/mm/network/Lclz;
@@ -259,13 +259,13 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/bc;->H([B)Ljava/lang/String;
+    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->H([B)Ljava/lang/String;
 
     move-result-object v3
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 39
     iget-object v0, p0, Lcom/tencent/mm/network/Xclz;->cbe:Lcom/tencent/mm/network/Lclz;
@@ -282,7 +282,7 @@
 
     const-string/jumbo v1, "dkpush do synccheck"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 44
     iget-object v0, p0, Lcom/tencent/mm/network/Xclz;->cbe:Lcom/tencent/mm/network/Lclz;
@@ -326,7 +326,7 @@
 
     const-string/jumbo v1, "MM_PKT_VOIP_REQ"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 81
     array-length v0, p2
@@ -348,7 +348,7 @@
 
     const-string/jumbo v1, "dkpush MM_PKT_PUSH_DATA_REQ"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 89
     array-length v0, p2
@@ -390,7 +390,7 @@
 
     const-string/jumbo v1, "dkpush do oob do notify"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 106
     iget-object v0, p0, Lcom/tencent/mm/network/Xclz;->cbe:Lcom/tencent/mm/network/Lclz;
@@ -407,7 +407,7 @@
 
     const-string/jumbo v1, "jacks do voice notify PUSH"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 112
     iget-object v0, p0, Lcom/tencent/mm/network/Xclz;->cbe:Lcom/tencent/mm/network/Lclz;
@@ -424,7 +424,7 @@
 
     const-string/jumbo v1, "pandy do gamesync notify"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 118
     iget-object v0, p0, Lcom/tencent/mm/network/Xclz;->cbe:Lcom/tencent/mm/network/Lclz;
@@ -441,7 +441,7 @@
 
     const-string/jumbo v1, "hy: on notify new year shake"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 124
     iget-object v0, p0, Lcom/tencent/mm/network/Xclz;->cbe:Lcom/tencent/mm/network/Lclz;
@@ -458,7 +458,7 @@
 
     const-string/jumbo v1, "on notify F2F data"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 130
     iget-object v0, p0, Lcom/tencent/mm/network/Xclz;->cbe:Lcom/tencent/mm/network/Lclz;

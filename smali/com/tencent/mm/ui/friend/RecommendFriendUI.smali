@@ -15,7 +15,7 @@
 
 .field private fkd:Landroid/widget/TextView;
 
-.field private kzR:Lcom/tencent/mm/ui/friend/b;
+.field private kzR:Lcom/tencent/mm/ui/friend/Bclz;
 
 .field private kzS:Ljava/util/LinkedList;
 
@@ -67,7 +67,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -93,12 +93,12 @@
     return v0
 .end method
 
-.method static synthetic b(Lcom/tencent/mm/ui/friend/RecommendFriendUI;)Lcom/tencent/mm/ui/friend/b;
+.method static synthetic b(Lcom/tencent/mm/ui/friend/RecommendFriendUI;)Lcom/tencent/mm/ui/friend/Bclz;
     .locals 1
 
     .prologue
     .line 40
-    iget-object v0, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/b;
+    iget-object v0, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/Bclz;
 
     return-object v0
 .end method
@@ -168,19 +168,19 @@
 
     move-result-object v3
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 292
-    iget-object v0, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/b;
+    iget-object v0, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/Bclz;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kze:Ljava/util/LinkedList;
 
-    iput-object v3, v0, Lcom/tencent/mm/ui/friend/b;->kze:Ljava/util/LinkedList;
+    iput-object v3, v0, Lcom/tencent/mm/ui/friend/Bclz;->kze:Ljava/util/LinkedList;
 
     .line 293
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->cDo:Landroid/widget/ListView;
 
-    iget-object v3, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/b;
+    iget-object v3, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/Bclz;
 
     invoke-virtual {v0, v3}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
@@ -196,16 +196,16 @@
     invoke-virtual {p0, v0}, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->pp(I)V
 
     .line 298
-    iget-object v0, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/b;
+    iget-object v0, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/Bclz;
 
     iget-boolean v1, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzf:Z
 
-    iput-boolean v1, v0, Lcom/tencent/mm/ui/friend/b;->kzf:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/ui/friend/Bclz;->kzf:Z
 
     .line 299
-    iget-object v0, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/b;
+    iget-object v0, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/Bclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/friend/b;->notifyDataSetChanged()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/friend/Bclz;->notifyDataSetChanged()V
 
     .line 301
     return-void
@@ -225,9 +225,9 @@
     const/4 v0, 0x0
 
     :goto_0
-    iget-object v1, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/b;
+    iget-object v1, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/Bclz;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/friend/b;->baZ()[Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/friend/Bclz;->baZ()[Ljava/lang/String;
 
     move-result-object v1
 
@@ -239,15 +239,15 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/c;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/Cclz;
 
     move-result-object v1
 
-    new-instance v2, Lcom/tencent/mm/ae/b$h;
+    new-instance v2, Lcom/tencent/mm/ae/Bclz$h;
 
-    iget-object v3, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/b;
+    iget-object v3, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/Bclz;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/ui/friend/b;->baZ()[Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/tencent/mm/ui/friend/Bclz;->baZ()[Ljava/lang/String;
 
     move-result-object v3
 
@@ -255,50 +255,50 @@
 
     iget v4, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->cgj:I
 
-    invoke-direct {v2, v3, v4}, Lcom/tencent/mm/ae/b$h;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v2, v3, v4}, Lcom/tencent/mm/ae/Bclz$h;-><init>(Ljava/lang/String;I)V
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/ae/c;->b(Lcom/tencent/mm/ae/b$q;)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/ae/Cclz;->b(Lcom/tencent/mm/ae/Bclz$q;)V
 
-    new-instance v1, Lcom/tencent/mm/modelfriend/q;
+    new-instance v1, Lcom/tencent/mm/modelfriend/Qclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/modelfriend/q;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/modelfriend/Qclz;-><init>()V
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/b;
+    iget-object v2, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/Bclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/ui/friend/b;->baZ()[Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/ui/friend/Bclz;->baZ()[Ljava/lang/String;
 
     move-result-object v2
 
     aget-object v2, v2, v0
 
-    iput-object v2, v1, Lcom/tencent/mm/modelfriend/q;->username:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/modelfriend/Qclz;->username:Ljava/lang/String;
 
     iget v2, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->cgj:I
 
-    iput v2, v1, Lcom/tencent/mm/modelfriend/q;->bFh:I
+    iput v2, v1, Lcom/tencent/mm/modelfriend/Qclz;->bFh:I
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EY()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EY()J
 
     move-result-wide v2
 
     long-to-int v2, v2
 
-    iput v2, v1, Lcom/tencent/mm/modelfriend/q;->bAX:I
+    iput v2, v1, Lcom/tencent/mm/modelfriend/Qclz;->bAX:I
 
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->ze()Lcom/tencent/mm/modelfriend/r;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->ze()Lcom/tencent/mm/modelfriend/Rclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/modelfriend/r;->a(Lcom/tencent/mm/modelfriend/q;)Z
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/modelfriend/Rclz;->a(Lcom/tencent/mm/modelfriend/Qclz;)Z
 
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_0
 
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const v1, 0x7f0905e6
 
@@ -308,7 +308,7 @@
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/ui/friend/RecommendFriendUI$6;-><init>(Lcom/tencent/mm/ui/friend/RecommendFriendUI;)V
 
-    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     return-void
 .end method
@@ -401,19 +401,19 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 271
-    iget-object v1, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/b;
+    iget-object v1, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/Bclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzS:Ljava/util/LinkedList;
 
-    invoke-virtual {v1, v2, p1}, Lcom/tencent/mm/ui/friend/b;->e(Ljava/util/LinkedList;I)V
+    invoke-virtual {v1, v2, p1}, Lcom/tencent/mm/ui/friend/Bclz;->e(Ljava/util/LinkedList;I)V
 
     .line 272
     iget-object v1, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->cDo:Landroid/widget/ListView;
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/b;
+    iget-object v2, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/Bclz;
 
     invoke-virtual {v1, v2}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
@@ -480,16 +480,16 @@
 
     .line 284
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/b;
+    iget-object v0, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/Bclz;
 
     iget-boolean v1, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzf:Z
 
-    iput-boolean v1, v0, Lcom/tencent/mm/ui/friend/b;->kzf:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/ui/friend/Bclz;->kzf:Z
 
     .line 285
-    iget-object v0, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/b;
+    iget-object v0, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/Bclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/friend/b;->notifyDataSetChanged()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/friend/Bclz;->notifyDataSetChanged()V
 
     .line 286
     return-void
@@ -540,15 +540,15 @@
 
     .line 88
     :goto_0
-    new-instance v0, Lcom/tencent/mm/ui/friend/b;
+    new-instance v0, Lcom/tencent/mm/ui/friend/Bclz;
 
     invoke-virtual {p0}, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->getLayoutInflater()Landroid/view/LayoutInflater;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/ui/friend/b;-><init>(Landroid/view/LayoutInflater;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/ui/friend/Bclz;-><init>(Landroid/view/LayoutInflater;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/b;
+    iput-object v0, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/Bclz;
 
     .line 90
     const v0, 0x7f0e086b
@@ -573,7 +573,7 @@
     .line 112
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->cDo:Landroid/widget/ListView;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/b;
+    iget-object v1, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzR:Lcom/tencent/mm/ui/friend/Bclz;
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
@@ -596,11 +596,11 @@
     .line 142
     iput-boolean v4, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzT:Z
 
-    new-instance v0, Lcom/tencent/mm/modelsimple/q;
+    new-instance v0, Lcom/tencent/mm/modelsimple/Qclz;
 
     iget v1, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->cgj:I
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/modelsimple/q;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/modelsimple/Qclz;-><init>(I)V
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
@@ -608,9 +608,9 @@
 
     invoke-virtual {v1, v0}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const v2, 0x7f090ad3
 
@@ -624,9 +624,9 @@
 
     new-instance v3, Lcom/tencent/mm/ui/friend/RecommendFriendUI$5;
 
-    invoke-direct {v3, p0, v0}, Lcom/tencent/mm/ui/friend/RecommendFriendUI$5;-><init>(Lcom/tencent/mm/ui/friend/RecommendFriendUI;Lcom/tencent/mm/modelsimple/q;)V
+    invoke-direct {v3, p0, v0}, Lcom/tencent/mm/ui/friend/RecommendFriendUI$5;-><init>(Lcom/tencent/mm/ui/friend/RecommendFriendUI;Lcom/tencent/mm/modelsimple/Qclz;)V
 
-    invoke-static {v1, v2, v4, v3}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v1, v2, v4, v3}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
@@ -726,7 +726,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 214
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->cgh:Landroid/app/ProgressDialog;
@@ -769,13 +769,13 @@
     move-object v0, p4
 
     .line 222
-    check-cast v0, Lcom/tencent/mm/modelsimple/q;
+    check-cast v0, Lcom/tencent/mm/modelsimple/Qclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/modelsimple/q;->ant:Lcom/tencent/mm/q/Aclz;
+    iget-object v0, v0, Lcom/tencent/mm/modelsimple/Qclz;->ant:Lcom/tencent/mm/q/Aclz;
 
     iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/adf;
 
@@ -784,13 +784,13 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->kzS:Ljava/util/LinkedList;
 
     .line 223
-    check-cast p4, Lcom/tencent/mm/modelsimple/q;
+    check-cast p4, Lcom/tencent/mm/modelsimple/Qclz;
 
-    iget-object v0, p4, Lcom/tencent/mm/modelsimple/q;->ant:Lcom/tencent/mm/q/Aclz;
+    iget-object v0, p4, Lcom/tencent/mm/modelsimple/Qclz;->ant:Lcom/tencent/mm/q/Aclz;
 
     iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/adf;
 

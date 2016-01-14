@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field public bxR:Lcom/tencent/mm/aq/a;
+.field public bxR:Lcom/tencent/mm/aq/Aclz;
 
 .field private bxS:Z
 
@@ -26,7 +26,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/tencent/mm/aq/a;IZ)V
+.method public constructor <init>(Lcom/tencent/mm/aq/Aclz;IZ)V
     .locals 1
 
     .prologue
@@ -36,10 +36,10 @@
     .line 152
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
+    iput-object v0, p0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     .line 158
-    iput-object p1, p0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
+    iput-object p1, p0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     .line 159
     iput p2, p0, Lcom/tencent/mm/q/Aclz$c;->cmdId:I
@@ -52,7 +52,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -75,23 +75,23 @@
 
     .prologue
     .line 165
-    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/Aclz;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/aq/a;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/aq/Aclz;->ak([B)Lcom/tencent/mm/aq/Aclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
+    iput-object v0, p0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     .line 166
-    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     instance-of v0, v0, Lcom/tencent/mm/protocal/b/anh;
 
     if-nez v0, :cond_0
 
     .line 167
-    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/ajr;
 
@@ -100,7 +100,7 @@
     invoke-static {p0, v0}, Lcom/tencent/mm/protocal/Hclz;->a(Lcom/tencent/mm/protocal/Hclz$d;Lcom/tencent/mm/protocal/b/CYclz;)V
 
     .line 168
-    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/ajr;
 
@@ -113,7 +113,7 @@
     return v0
 
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/anh;
 

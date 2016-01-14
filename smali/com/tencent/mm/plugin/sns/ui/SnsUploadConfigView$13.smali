@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -84,7 +84,7 @@
 
     invoke-direct {v4, p0}, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$13$1;-><init>(Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$13;)V
 
-    invoke-static {v1, v2, v3, v4}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v1, v2, v3, v4}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v1
 
@@ -93,7 +93,7 @@
     .line 463
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$13;->gFm:Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;->j(Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;)Lcom/tencent/mm/ui/h/a;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;->j(Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;)Lcom/tencent/mm/ui/h/Aclz;
 
     move-result-object v0
 
@@ -105,7 +105,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ui/h/a;->a(Lcom/tencent/mm/ui/h/a$b;Landroid/content/Context;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ui/h/Aclz;->a(Lcom/tencent/mm/ui/h/Aclz$b;Landroid/content/Context;)V
 
     .line 464
     return-void

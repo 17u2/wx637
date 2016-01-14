@@ -11,7 +11,7 @@
 
 .field private bqc:Landroid/content/SharedPreferences;
 
-.field private cfz:Lcom/tencent/mm/ui/base/o;
+.field private cfz:Lcom/tencent/mm/ui/base/Oclz;
 
 .field private fOV:Z
 
@@ -47,7 +47,7 @@
     .line 62
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactVerifyUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iput-object v0, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactVerifyUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     .line 66
     iput-boolean v1, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactVerifyUI;->jGG:Z
@@ -71,7 +71,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -87,12 +87,12 @@
     return-object v0
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/bindmobile/BindMContactVerifyUI;Lcom/tencent/mm/ui/base/o;)Lcom/tencent/mm/ui/base/o;
+.method static synthetic a(Lcom/tencent/mm/ui/bindmobile/BindMContactVerifyUI;Lcom/tencent/mm/ui/base/Oclz;)Lcom/tencent/mm/ui/base/Oclz;
     .locals 0
 
     .prologue
     .line 56
-    iput-object p1, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactVerifyUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iput-object p1, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactVerifyUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     return-object p1
 .end method
@@ -373,7 +373,7 @@
 
     move-result-object v3
 
-    invoke-static {v1, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 148
     iget-object v1, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactVerifyUI;->jHo:Landroid/widget/TextView;
@@ -411,7 +411,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactVerifyUI;->azA:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/aa/b;->hS(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/aa/Bclz;->hS(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -502,14 +502,14 @@
 
     move-result-object v4
 
-    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, p4
 
     .line 289
-    check-cast v0, Lcom/tencent/mm/modelfriend/v;
+    check-cast v0, Lcom/tencent/mm/modelfriend/Vclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/v;->uP()I
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Vclz;->uP()I
 
     move-result v0
 
@@ -517,9 +517,9 @@
 
     move-object v0, p4
 
-    check-cast v0, Lcom/tencent/mm/modelfriend/v;
+    check-cast v0, Lcom/tencent/mm/modelfriend/Vclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/v;->uP()I
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Vclz;->uP()I
 
     move-result v0
 
@@ -534,17 +534,17 @@
 
     .line 294
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactVerifyUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactVerifyUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     if-eqz v0, :cond_2
 
     .line 295
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactVerifyUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactVerifyUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/o;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Oclz;->dismiss()V
 
     .line 296
-    iput-object v6, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactVerifyUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iput-object v6, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactVerifyUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     .line 303
     :cond_2
@@ -555,17 +555,17 @@
     move-object v0, p4
 
     .line 304
-    check-cast v0, Lcom/tencent/mm/modelfriend/v;
+    check-cast v0, Lcom/tencent/mm/modelfriend/Vclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/v;->uP()I
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Vclz;->uP()I
 
     move-result v0
 
     if-eq v0, v3, :cond_3
 
-    check-cast p4, Lcom/tencent/mm/modelfriend/v;
+    check-cast p4, Lcom/tencent/mm/modelfriend/Vclz;
 
-    invoke-virtual {p4}, Lcom/tencent/mm/modelfriend/v;->uP()I
+    invoke-virtual {p4}, Lcom/tencent/mm/modelfriend/Vclz;->uP()I
 
     move-result v0
 
@@ -588,24 +588,24 @@
     if-nez v0, :cond_4
 
     .line 309
-    new-instance v0, Lcom/tencent/mm/d/a/lc;
+    new-instance v0, Lcom/tencent/mm/d/a/LCclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/lc;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/LCclz;-><init>()V
 
     .line 310
-    iget-object v2, v0, Lcom/tencent/mm/d/a/lc;->aGf:Lcom/tencent/mm/d/a/lc$a;
+    iget-object v2, v0, Lcom/tencent/mm/d/a/LCclz;->aGf:Lcom/tencent/mm/d/a/LCclz$a;
 
-    iput-boolean v1, v2, Lcom/tencent/mm/d/a/lc$a;->aGg:Z
+    iput-boolean v1, v2, Lcom/tencent/mm/d/a/LCclz$a;->aGg:Z
 
     .line 311
-    iget-object v2, v0, Lcom/tencent/mm/d/a/lc;->aGf:Lcom/tencent/mm/d/a/lc$a;
+    iget-object v2, v0, Lcom/tencent/mm/d/a/LCclz;->aGf:Lcom/tencent/mm/d/a/LCclz$a;
 
-    iput-boolean v1, v2, Lcom/tencent/mm/d/a/lc$a;->aGh:Z
+    iput-boolean v1, v2, Lcom/tencent/mm/d/a/LCclz$a;->aGh:Z
 
     .line 312
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 316
     :cond_4
@@ -697,17 +697,17 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/c;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/Cclz;
 
     move-result-object v0
 
-    new-instance v5, Lcom/tencent/mm/ae/b$a;
+    new-instance v5, Lcom/tencent/mm/ae/Bclz$a;
 
     const/16 v6, 0x17
 
-    invoke-direct {v5, v6, v4}, Lcom/tencent/mm/ae/b$a;-><init>(ILcom/tencent/mm/aq/a;)V
+    invoke-direct {v5, v6, v4}, Lcom/tencent/mm/ae/Bclz$a;-><init>(ILcom/tencent/mm/aq/Aclz;)V
 
-    invoke-virtual {v0, v5}, Lcom/tencent/mm/ae/c;->b(Lcom/tencent/mm/ae/b$q;)V
+    invoke-virtual {v0, v5}, Lcom/tencent/mm/ae/Cclz;->b(Lcom/tencent/mm/ae/Bclz$q;)V
 
     sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
 
@@ -721,7 +721,7 @@
     .line 332
     invoke-virtual {p0}, Lcom/tencent/mm/ui/bindmobile/BindMContactVerifyUI;->getApplicationContext()Landroid/content/Context;
 
-    invoke-static {}, Lcom/tencent/mm/modelfriend/a;->xL()Z
+    invoke-static {}, Lcom/tencent/mm/modelfriend/Aclz;->xL()Z
 
     .line 335
     :cond_7
@@ -736,7 +736,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/ui/base/f;->aS(Landroid/content/Context;Ljava/lang/String;)Landroid/widget/Toast;
+    invoke-static {p0, v0}, Lcom/tencent/mm/ui/base/Fclz;->aS(Landroid/content/Context;Ljava/lang/String;)Landroid/widget/Toast;
 
     .line 338
     :cond_8
@@ -820,7 +820,7 @@
 
     .line 353
     :cond_d
-    invoke-static {p3}, Lcom/tencent/mm/e/a;->cR(Ljava/lang/String;)Lcom/tencent/mm/e/a;
+    invoke-static {p3}, Lcom/tencent/mm/e/Aclz;->cR(Ljava/lang/String;)Lcom/tencent/mm/e/Aclz;
 
     move-result-object v0
 
@@ -828,7 +828,7 @@
     if-eqz v0, :cond_e
 
     .line 355
-    invoke-virtual {v0, p0, v6, v6}, Lcom/tencent/mm/e/a;->a(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Z
+    invoke-virtual {v0, p0, v6, v6}, Lcom/tencent/mm/e/Aclz;->a(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Z
 
     goto/16 :goto_0
 
@@ -911,13 +911,13 @@
     goto :goto_4
 
     :sswitch_2
-    invoke-static {p3}, Lcom/tencent/mm/e/a;->cR(Ljava/lang/String;)Lcom/tencent/mm/e/a;
+    invoke-static {p3}, Lcom/tencent/mm/e/Aclz;->cR(Ljava/lang/String;)Lcom/tencent/mm/e/Aclz;
 
     move-result-object v0
 
     if-eqz v0, :cond_10
 
-    invoke-virtual {v0, p0, v6, v6}, Lcom/tencent/mm/e/a;->a(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Z
+    invoke-virtual {v0, p0, v6, v6}, Lcom/tencent/mm/e/Aclz;->a(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Z
 
     :cond_10
     move v0, v1
@@ -968,7 +968,7 @@
 
     const v4, 0x7f09053d
 
-    invoke-static {p0, v0, v4, v6}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v4, v6}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     move v0, v1
 
@@ -979,7 +979,7 @@
 
     const v4, 0x7f09053d
 
-    invoke-static {p0, v0, v4, v6}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v4, v6}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     move v0, v1
 

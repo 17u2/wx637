@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/sdk/platformtools/ap$a;
+.implements Lcom/tencent/mm/sdk/platformtools/APclz$a;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -63,20 +63,20 @@
     if-nez v0, :cond_0
 
     .line 258
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/Dclz;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/compatible/b/d;->setMode(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/compatible/b/Dclz;->setMode(I)V
 
     .line 259
     const-string/jumbo v0, "!44@/B4Tb64lLpJjyqE6YDnAp0BPIXPZxq7XWKCjPimYJ3A="
 
     const-string/jumbo v1, "onCompletion() resetSpeaker"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 260
     iget-object v0, p0, Lcom/tencent/mm/c/a/aclass$2$1$1$1;->apa:Lcom/tencent/mm/c/a/aclass$2$1$1;
@@ -87,9 +87,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/c/a/aclass$2;->aoW:Lcom/tencent/mm/c/a/aclass;
 
-    iget-object v0, v0, Lcom/tencent/mm/c/a/aclass;->aoR:Lcom/tencent/mm/compatible/util/a;
+    iget-object v0, v0, Lcom/tencent/mm/c/a/aclass;->aoR:Lcom/tencent/mm/compatible/util/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/compatible/util/a;->requestFocus()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/compatible/util/Aclz;->requestFocus()Z
 
     .line 261
     iget-object v0, p0, Lcom/tencent/mm/c/a/aclass$2$1$1$1;->apa:Lcom/tencent/mm/c/a/aclass$2$1$1;
@@ -100,9 +100,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/c/a/aclass$2;->aoW:Lcom/tencent/mm/c/a/aclass;
 
-    iget-object v0, v0, Lcom/tencent/mm/c/a/aclass;->aoR:Lcom/tencent/mm/compatible/util/a;
+    iget-object v0, v0, Lcom/tencent/mm/c/a/aclass;->aoR:Lcom/tencent/mm/compatible/util/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/compatible/util/a;->oX()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/compatible/util/Aclz;->oX()Z
 
     .line 263
     :cond_0

@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -215,7 +215,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 339
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
@@ -291,7 +291,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 347
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/MMGestureGallery$1;->kDR:Lcom/tencent/mm/ui/tools/MMGestureGallery;
@@ -324,7 +324,7 @@
     .line 355
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/MMGestureGallery$1;->kDR:Lcom/tencent/mm/ui/tools/MMGestureGallery;
 
-    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/e;->f(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/Eclz;->f(Landroid/view/MotionEvent;I)F
 
     move-result v2
 
@@ -333,7 +333,7 @@
     .line 356
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/MMGestureGallery$1;->kDR:Lcom/tencent/mm/ui/tools/MMGestureGallery;
 
-    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/e;->g(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/Eclz;->g(Landroid/view/MotionEvent;I)F
 
     move-result v2
 
@@ -409,22 +409,22 @@
     if-gez v0, :cond_6
 
     .line 396
-    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/e;->f(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/Eclz;->f(Landroid/view/MotionEvent;I)F
 
     move-result v0
 
-    invoke-static {p2, v7}, Lcom/tencent/mm/ui/base/e;->f(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v7}, Lcom/tencent/mm/ui/base/Eclz;->f(Landroid/view/MotionEvent;I)F
 
     move-result v2
 
     sub-float/2addr v0, v2
 
     .line 397
-    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/e;->g(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/Eclz;->g(Landroid/view/MotionEvent;I)F
 
     move-result v2
 
-    invoke-static {p2, v7}, Lcom/tencent/mm/ui/base/e;->g(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v7}, Lcom/tencent/mm/ui/base/Eclz;->g(Landroid/view/MotionEvent;I)F
 
     move-result v3
 
@@ -437,13 +437,13 @@
 
     move-result-object v3
 
-    invoke-static {p2, v7}, Lcom/tencent/mm/ui/base/e;->f(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v7}, Lcom/tencent/mm/ui/base/Eclz;->f(Landroid/view/MotionEvent;I)F
 
     move-result v4
 
     add-float/2addr v0, v4
 
-    invoke-static {p2, v7}, Lcom/tencent/mm/ui/base/e;->g(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v7}, Lcom/tencent/mm/ui/base/Eclz;->g(Landroid/view/MotionEvent;I)F
 
     move-result v4
 
@@ -600,7 +600,7 @@
 
     move-result v0
 
-    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/e;->f(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/Eclz;->f(Landroid/view/MotionEvent;I)F
 
     move-result v2
 
@@ -620,7 +620,7 @@
 
     move-result v0
 
-    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/e;->g(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/Eclz;->g(Landroid/view/MotionEvent;I)F
 
     move-result v2
 
@@ -691,7 +691,7 @@
     if-ne v0, v1, :cond_13
 
     .line 458
-    invoke-static {p2}, Lcom/tencent/mm/ui/base/e;->s(Landroid/view/MotionEvent;)I
+    invoke-static {p2}, Lcom/tencent/mm/ui/base/Eclz;->s(Landroid/view/MotionEvent;)I
 
     move-result v0
 
@@ -778,7 +778,7 @@
 
     move-result v0
 
-    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/e;->f(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/Eclz;->f(Landroid/view/MotionEvent;I)F
 
     move-result v2
 
@@ -800,7 +800,7 @@
 
     move-result v0
 
-    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/e;->g(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/Eclz;->g(Landroid/view/MotionEvent;I)F
 
     move-result v2
 
@@ -826,7 +826,7 @@
 
     const-string/jumbo v2, "double click!"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 367
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/MMGestureGallery$1;->kDR:Lcom/tencent/mm/ui/tools/MMGestureGallery;
@@ -861,11 +861,11 @@
 
     move-result-object v0
 
-    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/e;->f(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/Eclz;->f(Landroid/view/MotionEvent;I)F
 
     move-result v2
 
-    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/e;->g(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/Eclz;->g(Landroid/view/MotionEvent;I)F
 
     move-result v3
 
@@ -881,11 +881,11 @@
 
     move-result-object v0
 
-    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/e;->f(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/Eclz;->f(Landroid/view/MotionEvent;I)F
 
     move-result v2
 
-    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/e;->g(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/Eclz;->g(Landroid/view/MotionEvent;I)F
 
     move-result v3
 
@@ -920,7 +920,7 @@
 
     const-string/jumbo v2, "single long click over!"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_2
 
@@ -936,22 +936,22 @@
     invoke-static {v0, v6}, Lcom/tencent/mm/ui/tools/MMGestureGallery;->a(Lcom/tencent/mm/ui/tools/MMGestureGallery;I)I
 
     .line 466
-    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/e;->f(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/Eclz;->f(Landroid/view/MotionEvent;I)F
 
     move-result v0
 
-    invoke-static {p2, v7}, Lcom/tencent/mm/ui/base/e;->f(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v7}, Lcom/tencent/mm/ui/base/Eclz;->f(Landroid/view/MotionEvent;I)F
 
     move-result v1
 
     sub-float/2addr v0, v1
 
     .line 467
-    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/e;->g(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/Eclz;->g(Landroid/view/MotionEvent;I)F
 
     move-result v1
 
-    invoke-static {p2, v7}, Lcom/tencent/mm/ui/base/e;->g(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v7}, Lcom/tencent/mm/ui/base/Eclz;->g(Landroid/view/MotionEvent;I)F
 
     move-result v2
 
@@ -1029,13 +1029,13 @@
 
     mul-float/2addr v2, v4
 
-    invoke-static {p2, v7}, Lcom/tencent/mm/ui/base/e;->f(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v7}, Lcom/tencent/mm/ui/base/Eclz;->f(Landroid/view/MotionEvent;I)F
 
     move-result v4
 
     add-float/2addr v0, v4
 
-    invoke-static {p2, v7}, Lcom/tencent/mm/ui/base/e;->g(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v7}, Lcom/tencent/mm/ui/base/Eclz;->g(Landroid/view/MotionEvent;I)F
 
     move-result v4
 
@@ -1053,7 +1053,7 @@
 
     move-result v0
 
-    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/e;->f(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/Eclz;->f(Landroid/view/MotionEvent;I)F
 
     move-result v1
 
@@ -1073,7 +1073,7 @@
 
     move-result v0
 
-    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/e;->g(Landroid/view/MotionEvent;I)F
+    invoke-static {p2, v6}, Lcom/tencent/mm/ui/base/Eclz;->g(Landroid/view/MotionEvent;I)F
 
     move-result v1
 

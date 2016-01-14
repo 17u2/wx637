@@ -36,14 +36,14 @@
 
     invoke-direct {v1}, Lcom/tencent/mm/protocal/b/OCclz;-><init>()V
 
-    iput-object v1, v0, Lcom/tencent/mm/q/Aclz$a;->bxM:Lcom/tencent/mm/aq/a;
+    iput-object v1, v0, Lcom/tencent/mm/q/Aclz$a;->bxM:Lcom/tencent/mm/aq/Aclz;
 
     .line 26
     new-instance v1, Lcom/tencent/mm/protocal/b/ODclz;
 
     invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ODclz;-><init>()V
 
-    iput-object v1, v0, Lcom/tencent/mm/q/Aclz$a;->bxN:Lcom/tencent/mm/aq/a;
+    iput-object v1, v0, Lcom/tencent/mm/q/Aclz$a;->bxN:Lcom/tencent/mm/aq/Aclz;
 
     .line 27
     const-string/jumbo v1, "/cgi-bin/micromsg-bin/gamereportkv"
@@ -73,7 +73,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxI:Lcom/tencent/mm/q/Aclz$b;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/OCclz;
 
@@ -98,7 +98,7 @@
     iput-object v1, v0, Lcom/tencent/mm/protocal/b/OCclz;->ipS:Ljava/lang/String;
 
     .line 38
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/u;->aOg()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Uclz;->aOg()Ljava/lang/String;
 
     move-result-object v1
 
@@ -121,7 +121,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -201,7 +201,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 49
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/af;->ans:Lcom/tencent/mm/q/Dclz;

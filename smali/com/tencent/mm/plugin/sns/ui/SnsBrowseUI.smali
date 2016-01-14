@@ -7,7 +7,7 @@
 
 
 # annotations
-.annotation runtime Lcom/tencent/mm/ui/base/a;
+.annotation runtime Lcom/tencent/mm/ui/base/Aclz;
     value = 0x13
 .end annotation
 
@@ -40,7 +40,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -69,7 +69,7 @@
 
     const-string/jumbo v1, ""
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -86,7 +86,7 @@
 
     const-string/jumbo v1, ""
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -286,7 +286,7 @@
 
     const-string/jumbo v1, "dispatchKeyEvent"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 114
     new-instance v0, Landroid/content/Intent;
@@ -347,7 +347,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 160
     const/4 v0, -0x1
@@ -465,7 +465,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 55
     :cond_0
@@ -474,7 +474,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/modelsns/a;->k(Landroid/content/Intent;)Lcom/tencent/mm/modelsns/a;
+    invoke-static {v0}, Lcom/tencent/mm/modelsns/Aclz;->k(Landroid/content/Intent;)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v0
 
@@ -500,17 +500,17 @@
 
     move-result v2
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/modelsns/a;->dU(I)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/modelsns/Aclz;->dU(I)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/modelsns/a;->dU(I)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/modelsns/Aclz;->dU(I)Lcom/tencent/mm/modelsns/Aclz;
 
     .line 63
-    invoke-virtual {v0}, Lcom/tencent/mm/modelsns/a;->update()V
+    invoke-virtual {v0}, Lcom/tencent/mm/modelsns/Aclz;->update()V
 
     .line 64
-    invoke-virtual {v0}, Lcom/tencent/mm/modelsns/a;->Cg()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/modelsns/Aclz;->Cg()Z
 
     .line 67
     :cond_1
@@ -637,7 +637,7 @@
     move-result-wide v0
 
     :goto_2
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/bc;->am(J)J
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->am(J)J
 
     move-result-wide v4
 
@@ -695,7 +695,7 @@
 
     move-result-object v0
 
-    invoke-static {v7, v0}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v7, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_4
     new-instance v4, Ljava/lang/StringBuffer;
@@ -1072,7 +1072,7 @@
 
     const-string/jumbo v1, "onStart "
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 103
     return-void

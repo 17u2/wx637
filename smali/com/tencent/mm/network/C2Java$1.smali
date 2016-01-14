@@ -51,7 +51,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -147,7 +147,7 @@
 
     aput-object v4, v6, v2
 
-    invoke-static {v3, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     monitor-exit v17
 
@@ -177,7 +177,7 @@
 
     aput-object v2, v8, v9
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->f(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->f(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     :goto_1
     if-nez v5, :cond_1
@@ -208,7 +208,7 @@
 
     const-string/jumbo v4, "network not available"
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v5, 0x2
 
@@ -377,7 +377,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz v10, :cond_b
 
@@ -446,7 +446,7 @@
 
     const/4 v9, 0x1
 
-    invoke-static/range {v21 .. v22}, Lcom/tencent/mm/sdk/platformtools/bc;->al(J)J
+    invoke-static/range {v21 .. v22}, Lcom/tencent/mm/sdk/platformtools/BCclz;->al(J)J
 
     move-result-wide v10
 
@@ -492,7 +492,7 @@
 
     aput-object v14, v8, v2
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     const/4 v2, 0x4
 
@@ -515,7 +515,7 @@
     if-ne v2, v5, :cond_7
 
     :cond_6
-    invoke-static {}, Lcom/tencent/mm/network/Zclz;->El()Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {}, Lcom/tencent/mm/network/Zclz;->El()Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v2
 
@@ -523,7 +523,7 @@
 
     invoke-direct {v6, v13, v3, v5}, Lcom/tencent/mm/network/Yclz$1;-><init>(Lcom/tencent/mm/network/Yclz;II)V
 
-    invoke-virtual {v2, v6}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v2, v6}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     :cond_7
     :try_start_7
@@ -576,7 +576,7 @@
 
     aput-object v7, v5, v6
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     const-string/jumbo v3, "!44@/B4Tb64lLpJ+CRpvz/hRUCYP4tiH2KC7OoUzhxHmm0g="
 
@@ -588,13 +588,13 @@
 
     const/4 v6, 0x0
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Throwable;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Throwable;)Ljava/lang/String;
 
     move-result-object v2
 
     aput-object v2, v5, v6
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto/16 :goto_0
 
@@ -706,13 +706,13 @@
 
     const/4 v6, 0x0
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Throwable;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Throwable;)Ljava/lang/String;
 
     move-result-object v2
 
     aput-object v2, v5, v6
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_9
     .catch Landroid/os/RemoteException; {:try_start_9 .. :try_end_9} :catch_2
     .catchall {:try_start_9 .. :try_end_9} :catchall_0
@@ -740,13 +740,13 @@
 
     const/4 v9, 0x0
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Throwable;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Throwable;)Ljava/lang/String;
 
     move-result-object v2
 
     aput-object v2, v8, v9
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_a
     .catchall {:try_start_a .. :try_end_a} :catchall_0
 
@@ -802,7 +802,7 @@
 
     aput-object v14, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/Fclz;->vT()I
 
@@ -873,7 +873,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_b
     .catch Landroid/os/RemoteException; {:try_start_b .. :try_end_b} :catch_1
     .catchall {:try_start_b .. :try_end_b} :catchall_0
@@ -897,7 +897,7 @@
 
     :sswitch_1
     :try_start_d
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -1024,7 +1024,7 @@
 
     aput-object v7, v5, v6
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     const/4 v3, 0x2
 
@@ -1072,7 +1072,7 @@
 
     const-string/jumbo v3, "summerauth loginDecodeFailedTry beyond 1 no more try!"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -1082,7 +1082,7 @@
 
     const-string/jumbo v3, ""
 
-    invoke-static {v14, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v14, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -1113,7 +1113,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->I([B)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->I([B)Z
 
     move-result v3
 
@@ -1124,7 +1124,7 @@
     move-object v3, v2
 
     :goto_7
-    invoke-static/range {v16 .. v16}, Lcom/tencent/mm/sdk/platformtools/bc;->I([B)Z
+    invoke-static/range {v16 .. v16}, Lcom/tencent/mm/sdk/platformtools/BCclz;->I([B)Z
 
     move-result v2
 
@@ -1177,7 +1177,7 @@
 
     invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-static/range {v16 .. v16}, Lcom/tencent/mm/sdk/platformtools/bc;->aS([B)Ljava/lang/String;
+    invoke-static/range {v16 .. v16}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aS([B)Ljava/lang/String;
 
     move-result-object v5
 
@@ -1193,9 +1193,9 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    invoke-static {v3, v2, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v2, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->appenderFlush()V
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->appenderFlush()V
 
     throw v2
     :try_end_f
@@ -1204,7 +1204,7 @@
 
     :cond_12
     :try_start_10
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->aS([B)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aS([B)Ljava/lang/String;
 
     move-result-object v2
 
@@ -1213,7 +1213,7 @@
     goto :goto_7
 
     :cond_13
-    invoke-static/range {v16 .. v16}, Lcom/tencent/mm/sdk/platformtools/bc;->aS([B)Ljava/lang/String;
+    invoke-static/range {v16 .. v16}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aS([B)Ljava/lang/String;
 
     move-result-object v2
 
@@ -1224,7 +1224,7 @@
 
     const-string/jumbo v3, "summerauth save serverid aak failed 1"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_10
     .catch Landroid/os/RemoteException; {:try_start_10 .. :try_end_10} :catch_3
     .catchall {:try_start_10 .. :try_end_10} :catchall_0
@@ -1289,11 +1289,11 @@
 
     move-result-object v7
 
-    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/bc;->H([B)Ljava/lang/String;
+    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/BCclz;->H([B)Ljava/lang/String;
 
     move-result-object v7
 
-    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/bc;->Bs(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bs(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
@@ -1305,11 +1305,11 @@
 
     move-result-object v7
 
-    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/bc;->H([B)Ljava/lang/String;
+    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/BCclz;->H([B)Ljava/lang/String;
 
     move-result-object v7
 
-    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/bc;->Bs(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bs(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
@@ -1327,7 +1327,7 @@
 
     aput-object v7, v5, v6
 
-    invoke-static {v2, v3, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     invoke-interface/range {v24 .. v24}, Lcom/tencent/mm/protocal/Fclz;->qY()I
 
@@ -1337,7 +1337,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->I([B)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->I([B)Z
 
     move-result v3
 
@@ -1348,7 +1348,7 @@
     move-object v3, v2
 
     :goto_a
-    invoke-static/range {v16 .. v16}, Lcom/tencent/mm/sdk/platformtools/bc;->I([B)Z
+    invoke-static/range {v16 .. v16}, Lcom/tencent/mm/sdk/platformtools/BCclz;->I([B)Z
 
     move-result v2
 
@@ -1419,7 +1419,7 @@
 
     move-result v2
 
-    invoke-static {v2}, Lcom/tencent/mm/a/n;->getString(I)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/a/Nclz;->getString(I)Ljava/lang/String;
     :try_end_12
     .catch Landroid/os/RemoteException; {:try_start_12 .. :try_end_12} :catch_4
     .catchall {:try_start_12 .. :try_end_12} :catchall_0
@@ -1430,7 +1430,7 @@
 
     const-string/jumbo v3, "summerauth decode and save ok!"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_13
     .catch Landroid/os/RemoteException; {:try_start_13 .. :try_end_13} :catch_1
     .catchall {:try_start_13 .. :try_end_13} :catchall_0
@@ -1439,7 +1439,7 @@
 
     :cond_16
     :try_start_14
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->aS([B)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aS([B)Ljava/lang/String;
 
     move-result-object v2
 
@@ -1448,7 +1448,7 @@
     goto :goto_a
 
     :cond_17
-    invoke-static/range {v16 .. v16}, Lcom/tencent/mm/sdk/platformtools/bc;->aS([B)Ljava/lang/String;
+    invoke-static/range {v16 .. v16}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aS([B)Ljava/lang/String;
 
     move-result-object v2
 
@@ -1471,7 +1471,7 @@
 
     const-string/jumbo v3, "summerauth save serverid aak failed 2"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_14
     .catch Landroid/os/RemoteException; {:try_start_14 .. :try_end_14} :catch_4
     .catchall {:try_start_14 .. :try_end_14} :catchall_0
@@ -1490,7 +1490,7 @@
 
     invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-static/range {v16 .. v16}, Lcom/tencent/mm/sdk/platformtools/bc;->aS([B)Ljava/lang/String;
+    invoke-static/range {v16 .. v16}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aS([B)Ljava/lang/String;
 
     move-result-object v5
 
@@ -1506,9 +1506,9 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    invoke-static {v3, v2, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v2, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->appenderFlush()V
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->appenderFlush()V
 
     throw v2
 
@@ -1552,17 +1552,17 @@
     iput-wide v2, v0, Lcom/tencent/mm/network/Rclz;->cao:J
 
     :cond_19
-    sget v2, Lcom/tencent/mm/platformtools/r;->ceI:I
+    sget v2, Lcom/tencent/mm/platformtools/Rclz;->ceI:I
 
     const/16 v3, 0x2713
 
     if-ne v2, v3, :cond_1d
 
-    sget v2, Lcom/tencent/mm/platformtools/r;->ceJ:I
+    sget v2, Lcom/tencent/mm/platformtools/Rclz;->ceJ:I
 
     if-lez v2, :cond_1d
 
-    sget v2, Lcom/tencent/mm/platformtools/r;->ceJ:I
+    sget v2, Lcom/tencent/mm/platformtools/Rclz;->ceJ:I
 
     const/4 v3, 0x1
 
@@ -1570,7 +1570,7 @@
 
     const/4 v2, 0x0
 
-    sput v2, Lcom/tencent/mm/platformtools/r;->ceJ:I
+    sput v2, Lcom/tencent/mm/platformtools/Rclz;->ceJ:I
 
     :cond_1a
     const/4 v2, 0x4

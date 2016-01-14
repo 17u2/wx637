@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -61,7 +61,7 @@
     if-nez v0, :cond_0
 
     .line 117
-    new-instance v0, Lcom/tencent/mm/modelfriend/u;
+    new-instance v0, Lcom/tencent/mm/modelfriend/Uclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/safedevice/ui/SecurityAccountIntroUI$1;->fyw:Lcom/tencent/mm/plugin/safedevice/ui/SecurityAccountIntroUI;
 
@@ -79,7 +79,7 @@
 
     move-result-object v6
 
-    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/modelfriend/u;-><init>(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/modelfriend/Uclz;-><init>(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
 
     .line 121
     :goto_0
@@ -114,7 +114,7 @@
 
     invoke-direct {v5, p0, v0}, Lcom/tencent/mm/plugin/safedevice/ui/SecurityAccountIntroUI$1$1;-><init>(Lcom/tencent/mm/plugin/safedevice/ui/SecurityAccountIntroUI$1;Lcom/tencent/mm/q/Jclz;)V
 
-    invoke-static {v2, v3, v4, v5}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v2, v3, v4, v5}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
@@ -125,7 +125,7 @@
 
     .line 119
     :cond_0
-    new-instance v0, Lcom/tencent/mm/modelfriend/v;
+    new-instance v0, Lcom/tencent/mm/modelfriend/Vclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/safedevice/ui/SecurityAccountIntroUI$1;->fyw:Lcom/tencent/mm/plugin/safedevice/ui/SecurityAccountIntroUI;
 
@@ -137,7 +137,7 @@
 
     const-string/jumbo v5, ""
 
-    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/modelfriend/v;-><init>(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)V
+    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/modelfriend/Vclz;-><init>(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)V
 
     goto :goto_0
 .end method

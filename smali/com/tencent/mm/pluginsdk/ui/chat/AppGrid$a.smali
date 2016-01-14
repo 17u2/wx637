@@ -76,7 +76,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -100,7 +100,7 @@
 
     const-string/jumbo v1, "func[attachHarcodeServiceApp] harcodeServiceAppInfoMap null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 474
     :cond_0
@@ -125,7 +125,7 @@
 
     const-string/jumbo v1, "func[attachHarcodeServiceApp] info null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -159,7 +159,7 @@
 
     move-result-object v4
 
-    invoke-static {v4}, Lcom/tencent/mm/at/a;->getDensity(Landroid/content/Context;)F
+    invoke-static {v4}, Lcom/tencent/mm/at/Aclz;->getDensity(Landroid/content/Context;)F
 
     move-result v4
 
@@ -227,7 +227,7 @@
 
     move-result-object v2
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOp()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOp()Ljava/lang/String;
 
     move-result-object v3
 
@@ -572,7 +572,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 218
     iget-object v0, v1, Lcom/tencent/mm/pluginsdk/ui/chat/AppGrid$a$a;->dVi:Landroid/widget/TextView;
@@ -1587,7 +1587,7 @@
 
     move-result-object v4
 
-    invoke-static {v4}, Lcom/tencent/mm/at/a;->getDensity(Landroid/content/Context;)F
+    invoke-static {v4}, Lcom/tencent/mm/at/Aclz;->getDensity(Landroid/content/Context;)F
 
     move-result v4
 
@@ -1665,7 +1665,7 @@
 
     move-result-object v3
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOp()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOp()Ljava/lang/String;
 
     move-result-object v4
 
@@ -1731,7 +1731,7 @@
 
     move-result-object v4
 
-    invoke-static {v4}, Lcom/tencent/mm/at/a;->getDensity(Landroid/content/Context;)F
+    invoke-static {v4}, Lcom/tencent/mm/at/Aclz;->getDensity(Landroid/content/Context;)F
 
     move-result v4
 
@@ -1751,7 +1751,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/tencent/mm/at/a;->getDensity(Landroid/content/Context;)F
+    invoke-static {v3}, Lcom/tencent/mm/at/Aclz;->getDensity(Landroid/content/Context;)F
 
     move-result v3
 
@@ -1993,7 +1993,7 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 191
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppGrid$a;->hUh:Ljava/util/List;

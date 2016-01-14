@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -60,9 +60,9 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$4;->aoz:Lcom/tencent/mm/q/Jclz;
 
-    check-cast v0, Lcom/tencent/mm/modelsimple/v;
+    check-cast v0, Lcom/tencent/mm/modelsimple/Vclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelsimple/v;->BS()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelsimple/Vclz;->BS()Ljava/lang/String;
 
     move-result-object v0
 
@@ -82,7 +82,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v1, Lcom/tencent/mm/compatible/util/d;->bnL:Ljava/lang/String;
+    sget-object v1, Lcom/tencent/mm/compatible/util/Dclz;->bnL:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -98,7 +98,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/loader/stub/b;->deleteFile(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/loader/stub/Bclz;->deleteFile(Ljava/lang/String;)Z
 
     .line 507
     sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;

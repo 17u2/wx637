@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/sns/ui/SnsTagUI$a;
-.super Lcom/tencent/mm/ui/i;
+.super Lcom/tencent/mm/ui/Iclz;
 .source "SourceFile"
 
 
@@ -35,7 +35,7 @@
     iput-object p1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagUI$a;->gDd:Lcom/tencent/mm/plugin/sns/ui/SnsTagUI;
 
     .line 306
-    invoke-direct {p0, p2, p3}, Lcom/tencent/mm/ui/i;-><init>(Landroid/content/Context;Ljava/lang/Object;)V
+    invoke-direct {p0, p2, p3}, Lcom/tencent/mm/ui/Iclz;-><init>(Landroid/content/Context;Ljava/lang/Object;)V
 
     .line 286
     new-instance v0, Lcom/tencent/mm/plugin/sns/ui/SnsTagUI$a$1;
@@ -49,7 +49,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -88,15 +88,15 @@
 
     move-result-object v1
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/h/r;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/h/r;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     const/4 v2, 0x0
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/sdk/g/d;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/sdk/g/Dclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
-    invoke-super {p0, v0}, Lcom/tencent/mm/ui/i;->setCursor(Landroid/database/Cursor;)V
+    invoke-super {p0, v0}, Lcom/tencent/mm/ui/Iclz;->setCursor(Landroid/database/Cursor;)V
 
     .line 327
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/sns/ui/SnsTagUI$a;->notifyDataSetChanged()V
@@ -143,7 +143,7 @@
 
     .prologue
     .line 332
-    invoke-super {p0, p1}, Lcom/tencent/mm/ui/i;->getItem(I)Ljava/lang/Object;
+    invoke-super {p0, p1}, Lcom/tencent/mm/ui/Iclz;->getItem(I)Ljava/lang/Object;
 
     move-result-object v0
 

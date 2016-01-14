@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -58,7 +58,7 @@
     .line 679
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$10;->kvP:Lcom/tencent/mm/ui/conversation/BizConversationUI;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOp()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOp()Ljava/lang/String;
 
     move-result-object v1
 
@@ -104,7 +104,7 @@
 
     const-string/jumbo v1, "no child"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 715
     :cond_0
@@ -132,7 +132,7 @@
 
     aput-object v8, v7, v2
 
-    invoke-static {v1, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 689
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -178,7 +178,7 @@
 
     const-string/jumbo v7, "add empty conversation"
 
-    invoke-static {v1, v7}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 694
     new-instance v1, Lcom/tencent/mm/storage/Rclz;
@@ -211,15 +211,15 @@
 
     .line 700
     :cond_2
-    iget-object v8, v7, Lcom/tencent/mm/d/b/s;->field_parentRef:Ljava/lang/String;
+    iget-object v8, v7, Lcom/tencent/mm/d/b/Sclz;->field_parentRef:Ljava/lang/String;
 
-    invoke-static {v8}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v8}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v8
 
     if-nez v8, :cond_3
 
-    iget-object v8, v7, Lcom/tencent/mm/d/b/s;->field_parentRef:Ljava/lang/String;
+    iget-object v8, v7, Lcom/tencent/mm/d/b/Sclz;->field_parentRef:Ljava/lang/String;
 
     iget-object v9, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$10;->dJp:Ljava/lang/String;
 
@@ -268,7 +268,7 @@
     :cond_5
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$10;->kvP:Lcom/tencent/mm/ui/conversation/BizConversationUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/conversation/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/conversation/Cclz;
 
     move-result-object v0
 
@@ -279,11 +279,11 @@
     .line 710
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$10;->kvP:Lcom/tencent/mm/ui/conversation/BizConversationUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/conversation/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/conversation/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/conversation/c;->notifyDataSetChanged()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/conversation/Cclz;->notifyDataSetChanged()V
 
     .line 711
     if-eqz v5, :cond_0

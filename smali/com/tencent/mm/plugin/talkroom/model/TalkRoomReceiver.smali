@@ -15,7 +15,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -32,7 +32,7 @@
     const/4 v9, 0x1
 
     .line 50
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/x;->aOj()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Xclz;->aOj()J
 
     move-result-wide v2
 
@@ -53,7 +53,7 @@
 
     move-result-object v5
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 54
     const-wide/32 v4, 0x927c0
@@ -100,7 +100,7 @@
 
     aput-object v7, v6, v9
 
-    invoke-static {v0, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     const-string/jumbo v0, "alarm"
 
@@ -116,7 +116,7 @@
 
     const-string/jumbo v1, "keep bumper failed, null am"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -174,7 +174,7 @@
 
     const-string/jumbo v1, "stop bumper failed, null am"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 89
     :cond_0
@@ -223,7 +223,7 @@
     invoke-direct {v0}, Lcom/tencent/mm/plugin/talkroom/model/TalkRoomReceiver$1;-><init>()V
 
     .line 36
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/x;->a(Lcom/tencent/mm/sdk/platformtools/x$b;)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/Xclz;->a(Lcom/tencent/mm/sdk/platformtools/Xclz$b;)V
 
     .line 37
     return-void
@@ -261,7 +261,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 46
     invoke-static {p1}, Lcom/tencent/mm/plugin/talkroom/model/TalkRoomReceiver;->aj(Landroid/content/Context;)V

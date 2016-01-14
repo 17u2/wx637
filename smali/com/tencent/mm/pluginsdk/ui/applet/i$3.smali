@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,23 +50,23 @@
     .line 299
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/i$3;->hTT:Lcom/tencent/mm/pluginsdk/ui/applet/i;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/i;->aoL:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/i;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
     if-eqz v0, :cond_0
 
     .line 300
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/i$3;->hTT:Lcom/tencent/mm/pluginsdk/ui/applet/i;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/i;->aoL:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/i;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->dismiss()V
 
     .line 301
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/i$3;->hTT:Lcom/tencent/mm/pluginsdk/ui/applet/i;
 
     const/4 v1, 0x0
 
-    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/i;->aoL:Lcom/tencent/mm/ui/base/g;
+    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/i;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
     .line 303
     :cond_0

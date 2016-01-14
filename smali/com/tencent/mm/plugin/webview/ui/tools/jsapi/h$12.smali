@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -73,7 +73,7 @@
 
     const-string/jumbo v1, "getNow callback, msghandler has already been detached!"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1326
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$12;->hGQ:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;
@@ -128,7 +128,7 @@
     .line 1334
     if-eqz v2, :cond_2
 
-    iget-wide v3, v2, Lcom/tencent/mm/h/a;->boB:J
+    iget-wide v3, v2, Lcom/tencent/mm/h/Aclz;->boB:J
 
     long-to-int v3, v3
 
@@ -152,7 +152,7 @@
     :cond_3
     if-eqz v2, :cond_4
 
-    iget-wide v3, v2, Lcom/tencent/mm/h/a;->boB:J
+    iget-wide v3, v2, Lcom/tencent/mm/h/Aclz;->boB:J
 
     long-to-int v3, v3
 
@@ -166,7 +166,7 @@
     if-nez p2, :cond_6
 
     .line 1343
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -225,20 +225,20 @@
 
     .line 1340
     :cond_5
-    iget-object p1, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object p1, v2, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     goto :goto_1
 
     .line 1349
     :cond_6
-    invoke-static {p1, v5}, Lcom/tencent/mm/p/b;->r(Ljava/lang/String;I)Z
+    invoke-static {p1, v5}, Lcom/tencent/mm/p/Bclz;->r(Ljava/lang/String;I)Z
 
     .line 1350
-    invoke-static {}, Lcom/tencent/mm/p/n;->vh()Lcom/tencent/mm/p/c;
+    invoke-static {}, Lcom/tencent/mm/p/Nclz;->vh()Lcom/tencent/mm/p/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, p1}, Lcom/tencent/mm/p/c;->fG(Ljava/lang/String;)V
+    invoke-virtual {v1, p1}, Lcom/tencent/mm/p/Cclz;->fG(Ljava/lang/String;)V
 
     .line 1351
     iget-object v1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$12;->val$intent:Landroid/content/Intent;
@@ -280,7 +280,7 @@
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

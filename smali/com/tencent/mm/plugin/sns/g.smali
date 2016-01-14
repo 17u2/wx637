@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/sns/g;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -11,14 +11,14 @@
     .line 15
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     .line 16
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -26,7 +26,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 5
 
     .prologue
@@ -35,7 +35,7 @@
     const/4 v0, 0x0
 
     .line 20
-    instance-of v2, p1, Lcom/tencent/mm/d/a/ht;
+    instance-of v2, p1, Lcom/tencent/mm/d/a/HTclz;
 
     if-nez v2, :cond_0
 
@@ -44,7 +44,7 @@
 
     const-string/jumbo v2, "mismatched event"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 33
     :goto_0
@@ -52,12 +52,12 @@
 
     .line 24
     :cond_0
-    check-cast p1, Lcom/tencent/mm/d/a/ht;
+    check-cast p1, Lcom/tencent/mm/d/a/HTclz;
 
     .line 25
-    iget-object v2, p1, Lcom/tencent/mm/d/a/ht;->aCZ:Lcom/tencent/mm/d/a/ht$a;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/HTclz;->aCZ:Lcom/tencent/mm/d/a/HTclz$a;
 
-    iget v2, v2, Lcom/tencent/mm/d/a/ht$a;->state:I
+    iget v2, v2, Lcom/tencent/mm/d/a/HTclz$a;->state:I
 
     if-nez v2, :cond_2
 
@@ -66,7 +66,7 @@
 
     const-string/jumbo v3, "start clean"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 27
     sput-boolean v1, Lcom/tencent/mm/plugin/sns/d/y;->est:Z
@@ -111,7 +111,7 @@
 
     const-string/jumbo v3, "stop clean"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 31
     sput-boolean v0, Lcom/tencent/mm/plugin/sns/d/y;->est:Z

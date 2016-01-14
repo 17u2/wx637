@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -55,7 +55,7 @@
 
     const-string/jumbo v1, "dz[getUnreadCount]"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
@@ -75,7 +75,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    new-instance v3, Lcom/tencent/mm/a/n;
+    new-instance v3, Lcom/tencent/mm/a/Nclz;
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
@@ -95,17 +95,17 @@
 
     check-cast v1, Ljava/lang/Integer;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->d(Ljava/lang/Integer;)I
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->d(Ljava/lang/Integer;)I
 
     move-result v1
 
-    invoke-direct {v3, v1}, Lcom/tencent/mm/a/n;-><init>(I)V
+    invoke-direct {v3, v1}, Lcom/tencent/mm/a/Nclz;-><init>(I)V
 
-    invoke-virtual {v3}, Lcom/tencent/mm/a/n;->longValue()J
+    invoke-virtual {v3}, Lcom/tencent/mm/a/Nclz;->longValue()J
 
     move-result-wide v3
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -140,13 +140,13 @@
 
     const-string/jumbo v1, "dz[getUnreadEmailCountAndSet: authkey or uin is null]"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Lcom/tencent/mm/pluginsdk/ui/tools/i$2;
 
     invoke-direct {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/i$2;-><init>(Lcom/tencent/mm/pluginsdk/ui/tools/i$a;)V
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
 
     .line 49
     :goto_0
@@ -214,13 +214,13 @@
 
     const-string/jumbo v1, "dz[getUnreadCount http 300]"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Lcom/tencent/mm/pluginsdk/ui/tools/i$3;
 
     invoke-direct {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/i$3;-><init>(Lcom/tencent/mm/pluginsdk/ui/tools/i$a;)V
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -234,7 +234,7 @@
 
     const-string/jumbo v1, "getUnreadCountAsync exception"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -245,7 +245,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->d(Ljava/io/InputStream;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->d(Ljava/io/InputStream;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -259,7 +259,7 @@
 
     invoke-direct {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/i$4;-><init>(Lcom/tencent/mm/pluginsdk/ui/tools/i$a;)V
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
 
     goto :goto_0
 
@@ -284,7 +284,7 @@
 
     invoke-direct {v1, v2, v0}, Lcom/tencent/mm/pluginsdk/ui/tools/i$5;-><init>(Lcom/tencent/mm/pluginsdk/ui/tools/i$a;I)V
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 

@@ -6,7 +6,7 @@
 .implements Landroid/text/TextWatcher;
 .implements Landroid/view/View$OnClickListener;
 .implements Landroid/view/View$OnFocusChangeListener;
-.implements Lcom/tencent/mm/modelsearch/k$i;
+.implements Lcom/tencent/mm/modelsearch/Kclz$i;
 
 
 # annotations
@@ -27,7 +27,7 @@
 
 .field public gbC:Landroid/view/View;
 
-.field private gbD:Lcom/tencent/mm/modelsearch/k$j;
+.field private gbD:Lcom/tencent/mm/modelsearch/Kclz$j;
 
 .field gbE:Landroid/view/inputmethod/InputMethodManager;
 
@@ -35,7 +35,7 @@
 
 .field gbG:Lcom/tencent/mm/plugin/sight/encode/ui/d$a;
 
-.field private handler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -52,28 +52,28 @@
     iput v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/d;->gbF:I
 
     .line 173
-    new-instance v0, Lcom/tencent/mm/modelsearch/k$a;
+    new-instance v0, Lcom/tencent/mm/modelsearch/Kclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/modelsearch/k$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/modelsearch/Kclz$a;-><init>()V
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/d;->cFp:Ljava/util/Comparator;
 
     .line 174
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/d;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/d;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -81,7 +81,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/modelsearch/k$j;Ljava/util/List;Ljava/util/HashSet;[Ljava/lang/String;Ljava/lang/String;)V
+.method public final a(Lcom/tencent/mm/modelsearch/Kclz$j;Ljava/util/List;Ljava/util/HashSet;[Ljava/lang/String;Ljava/lang/String;)V
     .locals 3
 
     .prologue
@@ -119,10 +119,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelsearch/k$g;
+    check-cast v0, Lcom/tencent/mm/modelsearch/Kclz$g;
 
     .line 162
-    iget-object v0, v0, Lcom/tencent/mm/modelsearch/k$g;->bRF:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/modelsearch/Kclz$g;->bRF:Ljava/lang/String;
 
     invoke-interface {v1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -146,7 +146,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -174,19 +174,19 @@
 
     aput-object v0, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sight/encode/ui/d;->gbD:Lcom/tencent/mm/modelsearch/k$j;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sight/encode/ui/d;->gbD:Lcom/tencent/mm/modelsearch/Kclz$j;
 
     if-eqz v1, :cond_1
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sight/encode/ui/d;->gbD:Lcom/tencent/mm/modelsearch/k$j;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sight/encode/ui/d;->gbD:Lcom/tencent/mm/modelsearch/Kclz$j;
 
-    invoke-static {v1}, Lcom/tencent/mm/modelsearch/k;->a(Lcom/tencent/mm/modelsearch/k$j;)V
+    invoke-static {v1}, Lcom/tencent/mm/modelsearch/Kclz;->a(Lcom/tencent/mm/modelsearch/Kclz$j;)V
 
     const/4 v1, 0x0
 
-    iput-object v1, p0, Lcom/tencent/mm/plugin/sight/encode/ui/d;->gbD:Lcom/tencent/mm/modelsearch/k$j;
+    iput-object v1, p0, Lcom/tencent/mm/plugin/sight/encode/ui/d;->gbD:Lcom/tencent/mm/modelsearch/Kclz$j;
 
     :cond_1
     const/4 v1, 0x2
@@ -199,15 +199,15 @@
 
     iget-object v3, p0, Lcom/tencent/mm/plugin/sight/encode/ui/d;->cFp:Ljava/util/Comparator;
 
-    iget-object v5, p0, Lcom/tencent/mm/plugin/sight/encode/ui/d;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v5, p0, Lcom/tencent/mm/plugin/sight/encode/ui/d;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-object v4, p0
 
-    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/modelsearch/k;->a(Ljava/lang/String;[IILjava/util/Comparator;Lcom/tencent/mm/modelsearch/k$i;Lcom/tencent/mm/sdk/platformtools/ab;)Lcom/tencent/mm/modelsearch/k$j;
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/modelsearch/Kclz;->a(Ljava/lang/String;[IILjava/util/Comparator;Lcom/tencent/mm/modelsearch/Kclz$i;Lcom/tencent/mm/sdk/platformtools/ABclz;)Lcom/tencent/mm/modelsearch/Kclz$j;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/d;->gbD:Lcom/tencent/mm/modelsearch/k$j;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/d;->gbD:Lcom/tencent/mm/modelsearch/Kclz$j;
 
     goto :goto_0
 
@@ -333,7 +333,7 @@
     .line 146
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/d;->gbA:Landroid/widget/EditText;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->aq(Landroid/view/View;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aq(Landroid/view/View;)Z
 
     .line 147
     sget v0, Lcom/tencent/mm/plugin/sight/encode/ui/d$b;->gbI:I
@@ -423,7 +423,7 @@
     .line 84
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/d;->gbA:Landroid/widget/EditText;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->aq(Landroid/view/View;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aq(Landroid/view/View;)Z
 
     .line 86
     :cond_0

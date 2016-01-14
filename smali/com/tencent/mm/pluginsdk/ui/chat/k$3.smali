@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -106,7 +106,7 @@
 
     if-eqz v3, :cond_0
 
-    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->hXa:Lcom/tencent/mm/ui/base/n;
+    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->hXa:Lcom/tencent/mm/ui/base/Nclz;
 
     if-eqz v3, :cond_0
 
@@ -123,7 +123,7 @@
 
     const-string/jumbo v1, "some thing is null."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 178
     :goto_1
@@ -170,17 +170,17 @@
     :goto_2
     invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/k;->aKR()V
 
-    new-instance v3, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v3, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     new-instance v4, Lcom/tencent/mm/pluginsdk/ui/chat/k$2;
 
     invoke-direct {v4, v0}, Lcom/tencent/mm/pluginsdk/ui/chat/k$2;-><init>(Lcom/tencent/mm/pluginsdk/ui/chat/k;)V
 
-    invoke-direct {v3, v4, v2}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v3, v4, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
     const-wide/16 v4, 0xbb8
 
-    invoke-virtual {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     sget-object v3, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;
 
@@ -233,7 +233,7 @@
 
     const-string/jumbo v1, "check false"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/compatible/b/d$a;
+.implements Lcom/tencent/mm/compatible/b/Dclz$a;
 .implements Lcom/tencent/mm/q/Gclz;
 
 
@@ -22,7 +22,7 @@
 # instance fields
 .field private ani:Ljava/lang/String;
 
-.field private ank:Lcom/tencent/mm/modelvoice/k;
+.field private ank:Lcom/tencent/mm/modelvoice/Kclz;
 
 .field protected aob:Lcom/tencent/mm/q/Gclz$b;
 
@@ -40,7 +40,7 @@
 
 .field private aoi:I
 
-.field private aoj:Lcom/tencent/mm/sdk/platformtools/ag;
+.field private aoj:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
 
 # direct methods
@@ -57,7 +57,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -77,7 +77,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 21
-    iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/k;
+    iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
     .line 23
     iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aoc:Lcom/tencent/mm/q/Gclz$a;
@@ -103,7 +103,7 @@
     iput v1, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aoi:I
 
     .line 52
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     new-instance v1, Lcom/tencent/mm/app/plugin/voicereminder/a/i$1;
 
@@ -111,16 +111,16 @@
 
     const/4 v2, 0x1
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
-    iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aoj:Lcom/tencent/mm/sdk/platformtools/ag;
+    iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aoj:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     .line 226
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -190,12 +190,12 @@
     return v0
 .end method
 
-.method static synthetic e(Lcom/tencent/mm/app/plugin/voicereminder/a/i;)Lcom/tencent/mm/modelvoice/k;
+.method static synthetic e(Lcom/tencent/mm/app/plugin/voicereminder/a/i;)Lcom/tencent/mm/modelvoice/Kclz;
     .locals 1
 
     .prologue
     .line 15
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/k;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
     return-object v0
 .end method
@@ -212,14 +212,14 @@
     return-object v0
 .end method
 
-.method static synthetic g(Lcom/tencent/mm/app/plugin/voicereminder/a/i;)Lcom/tencent/mm/modelvoice/k;
+.method static synthetic g(Lcom/tencent/mm/app/plugin/voicereminder/a/i;)Lcom/tencent/mm/modelvoice/Kclz;
     .locals 1
 
     .prologue
     .line 15
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/k;
+    iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
     return-object v0
 .end method
@@ -281,7 +281,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 36
     iget-boolean v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aoe:Z
@@ -297,18 +297,18 @@
     iput-boolean v3, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aoe:Z
 
     .line 40
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/Dclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/compatible/b/d;->b(Lcom/tencent/mm/compatible/b/d$a;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/compatible/b/Dclz;->b(Lcom/tencent/mm/compatible/b/Dclz$a;)V
 
     .line 41
-    new-instance v0, Lcom/tencent/mm/modelvoice/k;
+    new-instance v0, Lcom/tencent/mm/modelvoice/Kclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/modelvoice/k;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/modelvoice/Kclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/k;
+    iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
     .line 42
     new-instance v0, Lcom/tencent/mm/app/plugin/voicereminder/a/i$2;
@@ -327,17 +327,17 @@
 
     const-string/jumbo v1, "VoiceRemindRecorder_record"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/h/e;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/h/Eclz;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
 
     .line 46
     iput v3, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aoi:I
 
     .line 47
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aoj:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aoj:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     const-wide/16 v1, 0xbb8
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     .line 49
     const-string/jumbo v0, "!44@/B4Tb64lLpLcQwGQMRj/JcgrnZCee5Q2WnorMdoOdjs="
@@ -350,7 +350,7 @@
 
     iget-wide v2, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aoh:J
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/platformtools/t;->am(J)J
+    invoke-static {v2, v3}, Lcom/tencent/mm/platformtools/Tclz;->am(J)J
 
     move-result-wide v2
 
@@ -362,7 +362,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -432,19 +432,19 @@
 
     const-string/jumbo v4, "VoiceRemindStorage Insert"
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/tencent/mm/app/plugin/voicereminder/a/g;->md()Landroid/content/ContentValues;
 
     move-result-object v1
 
-    iget-object v2, v2, Lcom/tencent/mm/app/plugin/voicereminder/a/k;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v2, v2, Lcom/tencent/mm/app/plugin/voicereminder/a/k;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     const-string/jumbo v3, "VoiceRemindInfo"
 
     const-string/jumbo v4, ""
 
-    invoke-interface {v2, v3, v4, v1}, Lcom/tencent/mm/sdk/g/d;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
+    invoke-interface {v2, v3, v4, v1}, Lcom/tencent/mm/sdk/g/Dclz;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
 
     move-result-wide v1
 
@@ -466,7 +466,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     if-ne v1, v6, :cond_0
 
@@ -476,18 +476,18 @@
     iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ani:Ljava/lang/String;
 
     .line 111
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/Dclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/compatible/b/d;->a(Lcom/tencent/mm/compatible/b/d$a;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/compatible/b/Dclz;->a(Lcom/tencent/mm/compatible/b/Dclz$a;)V
 
     .line 112
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/Dclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/compatible/b/d;->nO()I
+    invoke-virtual {v0}, Lcom/tencent/mm/compatible/b/Dclz;->nO()I
 
     move-result v0
 
@@ -542,7 +542,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 138
     monitor-enter p0
@@ -567,17 +567,17 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 140
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/k;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
     if-eqz v0, :cond_0
 
     .line 141
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/k;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelvoice/k;->lO()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/modelvoice/Kclz;->lO()Z
 
     .line 143
     :cond_0
@@ -612,7 +612,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/tencent/mm/app/plugin/voicereminder/a/h;->bf(Ljava/lang/String;)Lcom/tencent/mm/app/plugin/voicereminder/a/g;
 
@@ -687,14 +687,14 @@
 
     .prologue
     .line 65
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/k;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
     if-eqz v0, :cond_1
 
     .line 66
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/k;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelvoice/k;->getMaxAmplitude()I
+    invoke-virtual {v0}, Lcom/tencent/mm/modelvoice/Kclz;->getMaxAmplitude()I
 
     move-result v0
 
@@ -752,7 +752,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 71
     mul-int/lit8 v0, v0, 0x64
@@ -780,7 +780,7 @@
     const/4 v0, 0x0
 
     .line 84
-    iget-object v2, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/k;
+    iget-object v2, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
     if-nez v2, :cond_1
 
@@ -790,9 +790,9 @@
     return v0
 
     :cond_1
-    iget-object v2, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/k;
+    iget-object v2, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
-    iget v2, v2, Lcom/tencent/mm/modelvoice/k;->mStatus:I
+    iget v2, v2, Lcom/tencent/mm/modelvoice/Kclz;->mStatus:I
 
     if-ne v2, v1, :cond_0
 
@@ -816,11 +816,11 @@
     const/4 v1, 0x0
 
     .line 153
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/Dclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/compatible/b/d;->nP()V
+    invoke-virtual {v2}, Lcom/tencent/mm/compatible/b/Dclz;->nP()V
 
     .line 154
     const-string/jumbo v2, "!44@/B4Tb64lLpLcQwGQMRj/JcgrnZCee5Q2WnorMdoOdjs="
@@ -841,7 +841,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 156
     monitor-enter p0
@@ -866,17 +866,17 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 158
-    iget-object v2, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/k;
+    iget-object v2, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
     if-eqz v2, :cond_0
 
     .line 159
-    iget-object v2, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/k;
+    iget-object v2, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/modelvoice/k;->lO()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/modelvoice/Kclz;->lO()Z
 
     .line 161
     :cond_0
@@ -922,7 +922,7 @@
 
     iget-wide v3, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aoh:J
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/platformtools/t;->am(J)J
+    invoke-static {v3, v4}, Lcom/tencent/mm/platformtools/Tclz;->am(J)J
 
     move-result-wide v3
 
@@ -934,7 +934,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 182
     :goto_0
@@ -1019,7 +1019,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 171
     iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ani:Ljava/lang/String;
@@ -1073,7 +1073,7 @@
 
     move-result-object v5
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v2}, Lcom/tencent/mm/app/plugin/voicereminder/a/h;->bf(Ljava/lang/String;)Lcom/tencent/mm/app/plugin/voicereminder/a/g;
 
@@ -1138,7 +1138,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -1262,7 +1262,7 @@
     :cond_0
     iget-wide v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->aog:J
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/platformtools/t;->am(J)J
+    invoke-static {v0, v1}, Lcom/tencent/mm/platformtools/Tclz;->am(J)J
 
     move-result-wide v0
 
@@ -1296,21 +1296,21 @@
     const-wide/16 v2, 0x0
 
     .line 198
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/k;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
     if-eqz v0, :cond_0
 
     .line 199
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/k;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelvoice/k;->lO()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/modelvoice/Kclz;->lO()Z
 
     .line 200
     const-string/jumbo v0, "!44@/B4Tb64lLpLcQwGQMRj/JcgrnZCee5Q2WnorMdoOdjs="
 
     const-string/jumbo v1, "Reset recorder.stopReocrd"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 202
     :cond_0

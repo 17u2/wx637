@@ -1,5 +1,5 @@
 .class final Landroid/support/v4/app/FragmentActivity$1;
-.super Lcom/tencent/mm/sdk/platformtools/ab;
+.super Lcom/tencent/mm/sdk/platformtools/ABclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 88
     iput-object p1, p0, Landroid/support/v4/app/FragmentActivity$1;->be:Landroid/support/v4/app/FragmentActivity;
 
-    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,7 +50,7 @@
     packed-switch v0, :pswitch_data_0
 
     .line 102
-    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/platformtools/ab;->handleMessage(Landroid/os/Message;)V
+    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->handleMessage(Landroid/os/Message;)V
 
     .line 104
     :cond_0

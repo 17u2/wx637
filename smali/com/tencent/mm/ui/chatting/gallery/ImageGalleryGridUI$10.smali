@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic kfK:Lcom/tencent/mm/d/a/as;
+.field final synthetic kfK:Lcom/tencent/mm/d/a/ASclz;
 
 .field final synthetic knS:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI;Lcom/tencent/mm/d/a/as;)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI;Lcom/tencent/mm/d/a/ASclz;)V
     .locals 1
 
     .prologue
     .line 638
     iput-object p1, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI$10;->knS:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI$10;->kfK:Lcom/tencent/mm/d/a/as;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI$10;->kfK:Lcom/tencent/mm/d/a/ASclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -54,9 +54,9 @@
     .line 642
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI$10;->knS:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI$10;->kfK:Lcom/tencent/mm/d/a/as;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI$10;->kfK:Lcom/tencent/mm/d/a/ASclz;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI;->a(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI;Lcom/tencent/mm/d/a/as;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI;->a(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI;Lcom/tencent/mm/d/a/ASclz;)V
 
     .line 643
     return-void

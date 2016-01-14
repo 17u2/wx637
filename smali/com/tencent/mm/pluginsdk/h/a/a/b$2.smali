@@ -55,7 +55,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -68,49 +68,49 @@
 
     .prologue
     .line 412
-    new-instance v0, Lcom/tencent/mm/d/a/ad;
+    new-instance v0, Lcom/tencent/mm/d/a/ADclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/ad;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/ADclz;-><init>()V
 
     .line 413
-    iget-object v1, v0, Lcom/tencent/mm/d/a/ad;->asE:Lcom/tencent/mm/d/a/ad$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/ADclz;->asE:Lcom/tencent/mm/d/a/ADclz$a;
 
     iget v2, p0, Lcom/tencent/mm/pluginsdk/h/a/a/b$2;->hNR:I
 
-    iput v2, v1, Lcom/tencent/mm/d/a/ad$a;->asF:I
+    iput v2, v1, Lcom/tencent/mm/d/a/ADclz$a;->asF:I
 
     .line 414
-    iget-object v1, v0, Lcom/tencent/mm/d/a/ad;->asE:Lcom/tencent/mm/d/a/ad$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/ADclz;->asE:Lcom/tencent/mm/d/a/ADclz$a;
 
     iget v2, p0, Lcom/tencent/mm/pluginsdk/h/a/a/b$2;->hNS:I
 
-    iput v2, v1, Lcom/tencent/mm/d/a/ad$a;->asG:I
+    iput v2, v1, Lcom/tencent/mm/d/a/ADclz$a;->asG:I
 
     .line 415
-    iget-object v1, v0, Lcom/tencent/mm/d/a/ad;->asE:Lcom/tencent/mm/d/a/ad$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/ADclz;->asE:Lcom/tencent/mm/d/a/ADclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/h/a/a/b$2;->cdT:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/ad$a;->filePath:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/ADclz$a;->filePath:Ljava/lang/String;
 
     .line 416
-    iget-object v1, v0, Lcom/tencent/mm/d/a/ad;->asE:Lcom/tencent/mm/d/a/ad$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/ADclz;->asE:Lcom/tencent/mm/d/a/ADclz$a;
 
     iget v2, p0, Lcom/tencent/mm/pluginsdk/h/a/a/b$2;->hNT:I
 
-    iput v2, v1, Lcom/tencent/mm/d/a/ad$a;->asH:I
+    iput v2, v1, Lcom/tencent/mm/d/a/ADclz$a;->asH:I
 
     .line 417
-    iget-object v1, v0, Lcom/tencent/mm/d/a/ad;->asE:Lcom/tencent/mm/d/a/ad$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/ADclz;->asE:Lcom/tencent/mm/d/a/ADclz$a;
 
     iget-boolean v2, p0, Lcom/tencent/mm/pluginsdk/h/a/a/b$2;->hNU:Z
 
-    iput-boolean v2, v1, Lcom/tencent/mm/d/a/ad$a;->asI:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/d/a/ADclz$a;->asI:Z
 
     .line 418
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 419
     return-void

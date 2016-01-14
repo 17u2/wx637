@@ -42,7 +42,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -59,7 +59,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -95,7 +95,7 @@
 
     const-string/jumbo v1, "is bad fps, do nothing when open file"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 622
     :cond_0
@@ -191,7 +191,7 @@
 
     aput-object v2, v4, v1
 
-    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 539
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$h;->fWu:Lcom/tencent/mm/plugin/sight/decode/a/b;
@@ -278,7 +278,7 @@
     :cond_4
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$h;->fWu:Lcom/tencent/mm/plugin/sight/decode/a/b;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/a/b;->g(Lcom/tencent/mm/plugin/sight/decode/a/b;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/a/b;->g(Lcom/tencent/mm/plugin/sight/decode/a/b;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v0
 
@@ -288,12 +288,12 @@
 
     move-result-object v3
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     .line 550
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$h;->fWu:Lcom/tencent/mm/plugin/sight/decode/a/b;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/a/b;->g(Lcom/tencent/mm/plugin/sight/decode/a/b;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/a/b;->g(Lcom/tencent/mm/plugin/sight/decode/a/b;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v0
 
@@ -303,7 +303,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 553
     :cond_5
@@ -376,7 +376,7 @@
 
     aput-object v0, v6, v2
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto/16 :goto_0
 
@@ -441,7 +441,7 @@
 
     aput-object v0, v6, v2
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 570
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$h;->fWu:Lcom/tencent/mm/plugin/sight/decode/a/b;
@@ -450,7 +450,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -586,7 +586,7 @@
 
     const-wide/16 v3, 0x0
 
-    invoke-static {v0, v3, v4}, Lcom/tencent/mm/ak/j;->b(Ljava/lang/Runnable;J)Z
+    invoke-static {v0, v3, v4}, Lcom/tencent/mm/ak/Jclz;->b(Ljava/lang/Runnable;J)Z
 
     .line 617
     :cond_c
@@ -634,7 +634,7 @@
 
     aput-object v1, v4, v7
 
-    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto/16 :goto_0
 
@@ -705,7 +705,7 @@
 
     const-wide/16 v3, 0x0
 
-    invoke-static {v0, v3, v4}, Lcom/tencent/mm/ak/j;->b(Ljava/lang/Runnable;J)Z
+    invoke-static {v0, v3, v4}, Lcom/tencent/mm/ak/Jclz;->b(Ljava/lang/Runnable;J)Z
 
     goto :goto_2
 .end method

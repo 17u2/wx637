@@ -40,9 +40,9 @@
     if-lt v0, v2, :cond_3
 
     .line 140
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/aw;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AWclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/aw;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/AWclz;-><init>()V
 
     invoke-virtual {p0}, Landroid/widget/ListView;->getFirstVisiblePosition()I
 
@@ -63,9 +63,9 @@
 
     .line 142
     :cond_3
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/av;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AVclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/av;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/AVclz;-><init>()V
 
     invoke-virtual {p0, v1}, Landroid/widget/ListView;->setSelection(I)V
 
@@ -95,9 +95,9 @@
     if-lt v0, v2, :cond_4
 
     .line 152
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/aw;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AWclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/aw;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/AWclz;-><init>()V
 
     invoke-virtual {p0}, Landroid/widget/ListView;->getFirstVisiblePosition()I
 
@@ -138,9 +138,9 @@
 
     .line 154
     :cond_4
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/av;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AVclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/av;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/AVclz;-><init>()V
 
     invoke-virtual {p0, p1}, Landroid/widget/ListView;->setSelection(I)V
 

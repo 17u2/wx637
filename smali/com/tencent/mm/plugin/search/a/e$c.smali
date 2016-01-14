@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/search/a/e$c;
-.super Lcom/tencent/mm/modelsearch/m$a;
+.super Lcom/tencent/mm/modelsearch/Mclz$a;
 .source "SourceFile"
 
 
@@ -40,7 +40,7 @@
     .line 267
     iput-object p1, p0, Lcom/tencent/mm/plugin/search/a/e$c;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/m$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/Mclz$a;-><init>()V
 
     .line 270
     const/4 v0, 0x0
@@ -68,7 +68,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -85,7 +85,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -110,7 +110,7 @@
 
     const-string/jumbo v1, "Start building contact index."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 285
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$c;->fHo:Ljava/util/HashSet;
@@ -129,7 +129,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v1, Lcom/tencent/mm/modelsearch/c;->bQF:[I
+    sget-object v1, Lcom/tencent/mm/modelsearch/Cclz;->bQF:[I
 
     move v4, v2
 
@@ -248,7 +248,7 @@
     .line 322
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/a/e$c;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    iget-object v1, v1, Lcom/tencent/mm/plugin/search/a/e;->bRx:Lcom/tencent/mm/aw/g;
+    iget-object v1, v1, Lcom/tencent/mm/plugin/search/a/e;->bRx:Lcom/tencent/mm/aw/Gclz;
 
     new-array v4, v2, [Ljava/lang/String;
 
@@ -260,7 +260,7 @@
 
     aput-object v5, v4, v3
 
-    invoke-virtual {v1, v0, v4}, Lcom/tencent/mm/aw/g;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v1, v0, v4}, Lcom/tencent/mm/aw/Gclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v4
 
@@ -433,7 +433,7 @@
     .line 359
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/a/e$c;->fHo:Ljava/util/HashSet;
 
-    iget-object v5, v8, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v5, v8, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v1, v5}, Ljava/util/HashSet;->remove(Ljava/lang/Object;)Z
 
@@ -463,7 +463,7 @@
     .line 372
     :goto_2
     :try_start_0
-    iget-object v0, v8, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v0, v8, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     const-string/jumbo v5, "@chatroom"
 
@@ -473,7 +473,7 @@
 
     if-nez v0, :cond_7
 
-    iget v0, v8, Lcom/tencent/mm/d/b/o;->field_verifyFlag:I
+    iget v0, v8, Lcom/tencent/mm/d/b/Oclz;->field_verifyFlag:I
 
     invoke-static {}, Lcom/tencent/mm/storage/Kclz;->aPV()I
 
@@ -527,7 +527,7 @@
 
     new-array v8, v3, [Ljava/lang/Object;
 
-    invoke-static {v5, v1, v6, v8}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v1, v6, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 383
     iget v1, p0, Lcom/tencent/mm/plugin/search/a/e$c;->dzM:I
@@ -597,7 +597,7 @@
 
     iget-object v5, v5, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v6, Lcom/tencent/mm/modelsearch/c;->bQF:[I
+    sget-object v6, Lcom/tencent/mm/modelsearch/Cclz;->bQF:[I
 
     invoke-virtual {v5, v6, v0}, Lcom/tencent/mm/plugin/search/a/b/a;->b([ILjava/lang/String;)V
 
@@ -606,7 +606,7 @@
 
     iget-object v5, v5, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v6, Lcom/tencent/mm/modelsearch/c;->bQF:[I
+    sget-object v6, Lcom/tencent/mm/modelsearch/Cclz;->bQF:[I
 
     invoke-virtual {v5, v6, v0}, Lcom/tencent/mm/plugin/search/a/b/a;->a([ILjava/lang/String;)V
 

@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -70,7 +70,7 @@
 
     const-string/jumbo v2, "send msg onClick"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 650
     invoke-virtual {v0}, Ljava/lang/String;->trim()Ljava/lang/String;
@@ -94,12 +94,12 @@
 
     const-string/jumbo v1, "empty message cant be sent"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 652
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter$2;->hWt:Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->l(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->l(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -107,11 +107,11 @@
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter$2;->hWt:Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->l(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->l(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->isShowing()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->isShowing()Z
 
     move-result v0
 
@@ -131,11 +131,11 @@
 
     const v3, 0x7f090ad3
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/ui/base/f;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/ui/base/Fclz;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->a(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;Lcom/tencent/mm/ui/base/g;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->a(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;Lcom/tencent/mm/ui/base/Gclz;)Lcom/tencent/mm/ui/base/Gclz;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

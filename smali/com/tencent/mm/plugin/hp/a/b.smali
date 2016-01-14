@@ -28,7 +28,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -39,7 +39,7 @@
 
     .prologue
     .line 58
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOr()Landroid/content/SharedPreferences;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOr()Landroid/content/SharedPreferences;
 
     move-result-object v7
 
@@ -77,7 +77,7 @@
 
     const-string/jumbo v1, "hp_report new start for current hotpatch"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 64
     sget-object v0, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;
@@ -125,7 +125,7 @@
 
     const-string/jumbo v1, "hp_report new hotpatch requested"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 75
     sget-object v0, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;
@@ -141,7 +141,7 @@
     invoke-static/range {v0 .. v6}, Lcom/tencent/mm/plugin/report/service/h;->b(JJJZ)V
 
     .line 77
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->Fa()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Fa()J
 
     move-result-wide v0
 
@@ -169,7 +169,7 @@
     .line 88
     sget-wide v2, Lcom/tencent/mm/plugin/hp/a/b;->egS:J
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->am(J)J
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->am(J)J
 
     move-result-wide v2
 
@@ -188,7 +188,7 @@
 
     aput-object v11, v9, v10
 
-    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 91
     const-wide/16 v7, 0x0
@@ -202,7 +202,7 @@
 
     const-string/jumbo v1, "hp_report report download cost failed, invalid cost"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 106
     :goto_0
@@ -279,7 +279,7 @@
 
     const-string/jumbo v1, "hp_report try to apply hotpatch"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 110
     sget-object v0, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;
@@ -318,7 +318,7 @@
     .line 116
     sget-wide v2, Lcom/tencent/mm/plugin/hp/a/b;->egS:J
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->am(J)J
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->am(J)J
 
     move-result-wide v2
 
@@ -337,7 +337,7 @@
 
     aput-object v11, v9, v10
 
-    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 120
     const-wide/16 v7, 0x0
@@ -351,7 +351,7 @@
 
     const-string/jumbo v1, "hp_report report apply cost failed, invalid cost"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 157
     :goto_0
@@ -374,7 +374,7 @@
 
     .line 152
     :goto_1
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOr()Landroid/content/SharedPreferences;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOr()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -525,7 +525,7 @@
 
     const-string/jumbo v1, "hp_report apply failed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 162
     sget-object v0, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;
@@ -553,7 +553,7 @@
 
     const-string/jumbo v1, "hp_report download failed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 168
     sget-object v0, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;
@@ -593,7 +593,7 @@
 
     aput-object v3, v2, v6
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 175
     packed-switch p0, :pswitch_data_0
@@ -654,7 +654,7 @@
 
     aput-object v7, v4, v5
 
-    invoke-static {v0, v1, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 84
     sget-object v0, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;

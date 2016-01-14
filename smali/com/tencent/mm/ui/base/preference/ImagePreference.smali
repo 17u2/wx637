@@ -6,7 +6,7 @@
 # instance fields
 .field private fbe:Landroid/widget/ImageView;
 
-.field private jUq:Lcom/tencent/mm/ui/base/preference/e;
+.field private jUq:Lcom/tencent/mm/ui/base/preference/Eclz;
 
 
 # direct methods
@@ -24,7 +24,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -45,11 +45,11 @@
     iput-object v3, p0, Lcom/tencent/mm/ui/base/preference/ImagePreference;->fbe:Landroid/widget/ImageView;
 
     .line 24
-    new-instance v0, Lcom/tencent/mm/ui/base/preference/e;
+    new-instance v0, Lcom/tencent/mm/ui/base/preference/Eclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/ui/base/preference/e;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/ui/base/preference/Eclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/base/preference/ImagePreference;->jUq:Lcom/tencent/mm/ui/base/preference/e;
+    iput-object v0, p0, Lcom/tencent/mm/ui/base/preference/ImagePreference;->jUq:Lcom/tencent/mm/ui/base/preference/Eclz;
 
     .line 37
     const v0, 0x7f03037d
@@ -62,7 +62,7 @@
     invoke-virtual {p0, v0}, Lcom/tencent/mm/ui/base/preference/ImagePreference;->setWidgetLayoutResource(I)V
 
     .line 40
-    sget-object v0, Lcom/tencent/mm/a$b;->ImagePreference:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$b;->ImagePreference:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -77,17 +77,17 @@
     if-lez v1, :cond_0
 
     .line 43
-    iget-object v2, p0, Lcom/tencent/mm/ui/base/preference/ImagePreference;->jUq:Lcom/tencent/mm/ui/base/preference/e;
+    iget-object v2, p0, Lcom/tencent/mm/ui/base/preference/ImagePreference;->jUq:Lcom/tencent/mm/ui/base/preference/Eclz;
 
-    iput v1, v2, Lcom/tencent/mm/ui/base/preference/e;->heZ:I
+    iput v1, v2, Lcom/tencent/mm/ui/base/preference/Eclz;->heZ:I
 
-    iput-object v3, v2, Lcom/tencent/mm/ui/base/preference/e;->bitmap:Landroid/graphics/Bitmap;
+    iput-object v3, v2, Lcom/tencent/mm/ui/base/preference/Eclz;->bitmap:Landroid/graphics/Bitmap;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/base/preference/ImagePreference;->jUq:Lcom/tencent/mm/ui/base/preference/e;
+    iget-object v1, p0, Lcom/tencent/mm/ui/base/preference/ImagePreference;->jUq:Lcom/tencent/mm/ui/base/preference/Eclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/base/preference/ImagePreference;->fbe:Landroid/widget/ImageView;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/base/preference/e;->d(Landroid/widget/ImageView;)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/base/preference/Eclz;->d(Landroid/widget/ImageView;)V
 
     .line 45
     :cond_0
@@ -98,7 +98,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_1
     return-void
@@ -125,11 +125,11 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/base/preference/ImagePreference;->fbe:Landroid/widget/ImageView;
 
     .line 62
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/preference/ImagePreference;->jUq:Lcom/tencent/mm/ui/base/preference/e;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/preference/ImagePreference;->jUq:Lcom/tencent/mm/ui/base/preference/Eclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/base/preference/ImagePreference;->fbe:Landroid/widget/ImageView;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/preference/e;->d(Landroid/widget/ImageView;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/preference/Eclz;->d(Landroid/widget/ImageView;)V
 
     .line 63
     return-void

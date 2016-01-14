@@ -330,7 +330,7 @@
 
     if-nez v3, :cond_5
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_5
     return-void

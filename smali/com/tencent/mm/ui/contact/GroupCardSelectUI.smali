@@ -46,7 +46,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -85,7 +85,7 @@
 
     check-cast v0, Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v2, v0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -313,7 +313,7 @@
 
     invoke-direct {v8}, Ljava/util/HashMap;-><init>()V
 
-    iget-object v0, v0, Lcom/tencent/mm/storage/Sclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v0, v0, Lcom/tencent/mm/storage/Sclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     const-string/jumbo v1, "rconversation"
 
@@ -337,7 +337,7 @@
 
     move-object v7, v3
 
-    invoke-interface/range {v0 .. v7}, Lcom/tencent/mm/sdk/g/d;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface/range {v0 .. v7}, Lcom/tencent/mm/sdk/g/Dclz;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v1
 
@@ -391,7 +391,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/GroupCardSelectUI;->ksD:Ljava/util/HashMap;
 
-    iget-object v5, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v5, v0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v1, v5}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -399,9 +399,9 @@
 
     if-nez v1, :cond_5
 
-    iget v1, v0, Lcom/tencent/mm/d/b/o;->field_type:I
+    iget v1, v0, Lcom/tencent/mm/d/b/Oclz;->field_type:I
 
-    invoke-static {v1}, Lcom/tencent/mm/h/a;->cf(I)Z
+    invoke-static {v1}, Lcom/tencent/mm/h/Aclz;->cf(I)Z
 
     move-result v1
 
@@ -496,7 +496,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, v8
 
@@ -505,7 +505,7 @@
     :cond_5
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/GroupCardSelectUI;->ksD:Ljava/util/HashMap;
 
-    iget-object v5, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v5, v0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v1, v5}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 

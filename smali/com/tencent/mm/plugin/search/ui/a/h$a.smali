@@ -32,7 +32,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -40,7 +40,7 @@
 
 
 # virtual methods
-.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/a;)Z
+.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/Aclz;)Z
     .locals 7
 
     .prologue
@@ -54,7 +54,7 @@
     check-cast p2, Lcom/tencent/mm/plugin/search/ui/a/h;
 
     .line 33
-    iget-object v0, p2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/af;
+    iget-object v0, p2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/AFclz;
 
     if-nez v0, :cond_1
 
@@ -65,15 +65,15 @@
 
     .line 37
     :cond_1
-    iget-object v0, p2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/af;
+    iget-object v0, p2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/AFclz;
 
-    iget v0, v0, Lcom/tencent/mm/modelfriend/af;->bFN:I
+    iget v0, v0, Lcom/tencent/mm/modelfriend/AFclz;->bFN:I
 
     if-eq v0, v5, :cond_2
 
-    iget-object v0, p2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/af;
+    iget-object v0, p2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/AFclz;
 
-    iget v0, v0, Lcom/tencent/mm/modelfriend/af;->bFN:I
+    iget v0, v0, Lcom/tencent/mm/modelfriend/AFclz;->bFN:I
 
     const/4 v1, 0x2
 
@@ -90,9 +90,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/h$a;->fLv:Lcom/tencent/mm/plugin/search/ui/a/h;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/af;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/AFclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/af;->getUsername()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/AFclz;->getUsername()Ljava/lang/String;
 
     move-result-object v2
 
@@ -103,9 +103,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/h$a;->fLv:Lcom/tencent/mm/plugin/search/ui/a/h;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/af;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/AFclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/af;->yR()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/AFclz;->yR()Ljava/lang/String;
 
     move-result-object v2
 
@@ -116,9 +116,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/h$a;->fLv:Lcom/tencent/mm/plugin/search/ui/a/h;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/af;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/AFclz;
 
-    iget-wide v2, v2, Lcom/tencent/mm/modelfriend/af;->bFM:J
+    iget-wide v2, v2, Lcom/tencent/mm/modelfriend/AFclz;->bFM:J
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
@@ -127,9 +127,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/h$a;->fLv:Lcom/tencent/mm/plugin/search/ui/a/h;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/af;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/AFclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/af;->getDisplayName()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/AFclz;->getDisplayName()Ljava/lang/String;
 
     move-result-object v2
 
@@ -145,28 +145,28 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/h$a;->fLv:Lcom/tencent/mm/plugin/search/ui/a/h;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/af;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/AFclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/af;->yV()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/AFclz;->yV()Ljava/lang/String;
 
     move-result-object v2
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 46
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zc()Lcom/tencent/mm/modelfriend/l;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zc()Lcom/tencent/mm/modelfriend/Lclz;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/h$a;->fLv:Lcom/tencent/mm/plugin/search/ui/a/h;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/af;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/AFclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/af;->getUsername()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/AFclz;->getUsername()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/modelfriend/l;->hj(Ljava/lang/String;)Lcom/tencent/mm/modelfriend/k;
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/modelfriend/Lclz;->hj(Ljava/lang/String;)Lcom/tencent/mm/modelfriend/Kclz;
 
     move-result-object v1
 
@@ -176,7 +176,7 @@
     .line 48
     const-string/jumbo v2, "Contact_Sex"
 
-    iget v1, v1, Lcom/tencent/mm/modelfriend/k;->aOs:I
+    iget v1, v1, Lcom/tencent/mm/modelfriend/Kclz;->aOs:I
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
@@ -210,9 +210,9 @@
     :cond_5
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/h$a;->fLv:Lcom/tencent/mm/plugin/search/ui/a/h;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/af;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/AFclz;
 
-    iget v0, v0, Lcom/tencent/mm/modelfriend/af;->bFN:I
+    iget v0, v0, Lcom/tencent/mm/modelfriend/AFclz;->bFN:I
 
     if-nez v0, :cond_0
 
@@ -233,9 +233,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/h$a;->fLv:Lcom/tencent/mm/plugin/search/ui/a/h;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/af;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/AFclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/af;->getUsername()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/AFclz;->getUsername()Ljava/lang/String;
 
     move-result-object v2
 
@@ -250,9 +250,9 @@
 
     iget-object v3, p0, Lcom/tencent/mm/plugin/search/ui/a/h$a;->fLv:Lcom/tencent/mm/plugin/search/ui/a/h;
 
-    iget-object v3, v3, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/af;
+    iget-object v3, v3, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/AFclz;
 
-    iget-wide v3, v3, Lcom/tencent/mm/modelfriend/af;->bFM:J
+    iget-wide v3, v3, Lcom/tencent/mm/modelfriend/AFclz;->bFM:J
 
     invoke-virtual {v2, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -269,9 +269,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/h$a;->fLv:Lcom/tencent/mm/plugin/search/ui/a/h;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/af;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/AFclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/af;->getDisplayName()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/AFclz;->getDisplayName()Ljava/lang/String;
 
     move-result-object v2
 
@@ -282,9 +282,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/h$a;->fLv:Lcom/tencent/mm/plugin/search/ui/a/h;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/af;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/h;->fLt:Lcom/tencent/mm/modelfriend/AFclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/af;->yR()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/AFclz;->yR()Ljava/lang/String;
 
     move-result-object v2
 

@@ -18,7 +18,7 @@
 # instance fields
 .field private bvr:J
 
-.field private cJq:Lcom/tencent/mm/ui/tools/l;
+.field private cJq:Lcom/tencent/mm/ui/tools/Lclz;
 
 .field private context:Landroid/content/Context;
 
@@ -58,11 +58,11 @@
 
 .field private gsh:Lcom/tencent/mm/plugin/sns/ui/FlipView$a;
 
-.field private gsi:Lcom/tencent/mm/sdk/c/c;
+.field private gsi:Lcom/tencent/mm/sdk/c/Cclz;
 
-.field private gsj:Lcom/tencent/mm/sdk/c/c;
+.field private gsj:Lcom/tencent/mm/sdk/c/Cclz;
 
-.field protected handler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field protected handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -124,14 +124,14 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/sns/ui/FlipView$5;-><init>(Lcom/tencent/mm/plugin/sns/ui/FlipView;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsi:Lcom/tencent/mm/sdk/c/c;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsi:Lcom/tencent/mm/sdk/c/Cclz;
 
     .line 507
     new-instance v0, Lcom/tencent/mm/plugin/sns/ui/FlipView$6;
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/sns/ui/FlipView$6;-><init>(Lcom/tencent/mm/plugin/sns/ui/FlipView;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsj:Lcom/tencent/mm/sdk/c/c;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsj:Lcom/tencent/mm/sdk/c/Cclz;
 
     .line 124
     invoke-direct {p0, p1}, Lcom/tencent/mm/plugin/sns/ui/FlipView;->init(Landroid/content/Context;)V
@@ -141,7 +141,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -205,14 +205,14 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/sns/ui/FlipView$5;-><init>(Lcom/tencent/mm/plugin/sns/ui/FlipView;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsi:Lcom/tencent/mm/sdk/c/c;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsi:Lcom/tencent/mm/sdk/c/Cclz;
 
     .line 507
     new-instance v0, Lcom/tencent/mm/plugin/sns/ui/FlipView$6;
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/sns/ui/FlipView$6;-><init>(Lcom/tencent/mm/plugin/sns/ui/FlipView;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsj:Lcom/tencent/mm/sdk/c/c;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsj:Lcom/tencent/mm/sdk/c/Cclz;
 
     .line 119
     invoke-direct {p0, p1}, Lcom/tencent/mm/plugin/sns/ui/FlipView;->init(Landroid/content/Context;)V
@@ -222,7 +222,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -248,14 +248,14 @@
     return-object p1
 .end method
 
-.method static synthetic b(Lcom/tencent/mm/plugin/sns/ui/FlipView;)Lcom/tencent/mm/ui/tools/l;
+.method static synthetic b(Lcom/tencent/mm/plugin/sns/ui/FlipView;)Lcom/tencent/mm/ui/tools/Lclz;
     .locals 1
 
     .prologue
     .line 60
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->cJq:Lcom/tencent/mm/ui/tools/l;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->cJq:Lcom/tencent/mm/ui/tools/Lclz;
 
     return-object v0
 .end method
@@ -324,12 +324,12 @@
     return v0
 .end method
 
-.method static synthetic h(Lcom/tencent/mm/plugin/sns/ui/FlipView;)Lcom/tencent/mm/ui/tools/l;
+.method static synthetic h(Lcom/tencent/mm/plugin/sns/ui/FlipView;)Lcom/tencent/mm/ui/tools/Lclz;
     .locals 1
 
     .prologue
     .line 60
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->cJq:Lcom/tencent/mm/ui/tools/l;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->cJq:Lcom/tencent/mm/ui/tools/Lclz;
 
     return-object v0
 .end method
@@ -352,11 +352,11 @@
     iput-object p1, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->context:Landroid/content/Context;
 
     .line 129
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 130
     new-instance v1, Landroid/util/DisplayMetrics;
@@ -386,22 +386,22 @@
     iput v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->grZ:I
 
     .line 132
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "RecogQBarOfImageFileResult"
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsi:Lcom/tencent/mm/sdk/c/c;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsi:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 133
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "NotifyDealQBarStrResult"
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsj:Lcom/tencent/mm/sdk/c/c;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsj:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 134
     return-void
@@ -524,7 +524,7 @@
     :cond_0
     const-string/jumbo v2, "favorite"
 
-    invoke-static {v2}, Lcom/tencent/mm/ao/c;->wx(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/ao/Cclz;->wx(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -606,57 +606,57 @@
 
     .line 350
     :cond_3
-    iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->cJq:Lcom/tencent/mm/ui/tools/l;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->cJq:Lcom/tencent/mm/ui/tools/Lclz;
 
     if-nez v2, :cond_4
 
     .line 351
-    new-instance v2, Lcom/tencent/mm/ui/tools/l;
+    new-instance v2, Lcom/tencent/mm/ui/tools/Lclz;
 
     iget-object v3, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->context:Landroid/content/Context;
 
-    invoke-direct {v2, v3}, Lcom/tencent/mm/ui/tools/l;-><init>(Landroid/content/Context;)V
+    invoke-direct {v2, v3}, Lcom/tencent/mm/ui/tools/Lclz;-><init>(Landroid/content/Context;)V
 
-    iput-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->cJq:Lcom/tencent/mm/ui/tools/l;
+    iput-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->cJq:Lcom/tencent/mm/ui/tools/Lclz;
 
     .line 354
     :cond_4
-    iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->cJq:Lcom/tencent/mm/ui/tools/l;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->cJq:Lcom/tencent/mm/ui/tools/Lclz;
 
     new-instance v3, Lcom/tencent/mm/plugin/sns/ui/FlipView$2;
 
     invoke-direct {v3, p0, v0, v1}, Lcom/tencent/mm/plugin/sns/ui/FlipView$2;-><init>(Lcom/tencent/mm/plugin/sns/ui/FlipView;Ljava/util/List;Ljava/util/List;)V
 
-    iput-object v3, v2, Lcom/tencent/mm/ui/tools/l;->kDY:Lcom/tencent/mm/ui/base/m$c;
+    iput-object v3, v2, Lcom/tencent/mm/ui/tools/Lclz;->kDY:Lcom/tencent/mm/ui/base/Mclz$c;
 
     .line 363
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->cJq:Lcom/tencent/mm/ui/tools/l;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->cJq:Lcom/tencent/mm/ui/tools/Lclz;
 
     new-instance v1, Lcom/tencent/mm/plugin/sns/ui/FlipView$3;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/plugin/sns/ui/FlipView$3;-><init>(Lcom/tencent/mm/plugin/sns/ui/FlipView;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/tools/l;->d(Landroid/content/DialogInterface$OnCancelListener;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/tools/Lclz;->d(Landroid/content/DialogInterface$OnCancelListener;)V
 
     .line 378
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->cJq:Lcom/tencent/mm/ui/tools/l;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->cJq:Lcom/tencent/mm/ui/tools/Lclz;
 
     new-instance v1, Lcom/tencent/mm/plugin/sns/ui/FlipView$4;
 
     invoke-direct {v1, p0, p2, p1, p3}, Lcom/tencent/mm/plugin/sns/ui/FlipView$4;-><init>(Lcom/tencent/mm/plugin/sns/ui/FlipView;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    iput-object v1, v0, Lcom/tencent/mm/ui/tools/l;->kDZ:Lcom/tencent/mm/ui/base/m$d;
+    iput-object v1, v0, Lcom/tencent/mm/ui/tools/Lclz;->kDZ:Lcom/tencent/mm/ui/base/Mclz$d;
 
     .line 455
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->context:Landroid/content/Context;
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->cJq:Lcom/tencent/mm/ui/tools/l;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->cJq:Lcom/tencent/mm/ui/tools/Lclz;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/tools/l;->bbE()Landroid/app/Dialog;
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/tools/Lclz;->bbE()Landroid/app/Dialog;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Landroid/app/Dialog;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Landroid/app/Dialog;)V
 
     .line 457
     iget-boolean v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsc:Z
@@ -685,19 +685,19 @@
     iput-object p3, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsf:Ljava/lang/String;
 
     .line 464
-    new-instance v0, Lcom/tencent/mm/d/a/hn;
+    new-instance v0, Lcom/tencent/mm/d/a/HNclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/hn;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/HNclz;-><init>()V
 
     .line 465
-    iget-object v1, v0, Lcom/tencent/mm/d/a/hn;->aCF:Lcom/tencent/mm/d/a/hn$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/HNclz;->aCF:Lcom/tencent/mm/d/a/HNclz$a;
 
-    iput-object p1, v1, Lcom/tencent/mm/d/a/hn$a;->filePath:Ljava/lang/String;
+    iput-object p1, v1, Lcom/tencent/mm/d/a/HNclz$a;->filePath:Ljava/lang/String;
 
     .line 466
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 468
     :cond_5
@@ -724,7 +724,7 @@
 
     const-string/jumbo v1, "onTouchEvent down"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 165
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
@@ -752,7 +752,7 @@
     iput-wide v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->bvr:J
 
     .line 168
-    invoke-static {p1}, Lcom/tencent/mm/ui/base/e;->s(Landroid/view/MotionEvent;)I
+    invoke-static {p1}, Lcom/tencent/mm/ui/base/Eclz;->s(Landroid/view/MotionEvent;)I
 
     move-result v0
 
@@ -765,7 +765,7 @@
 
     .line 172
     :cond_0
-    invoke-static {p1}, Lcom/tencent/mm/ui/base/e;->s(Landroid/view/MotionEvent;)I
+    invoke-static {p1}, Lcom/tencent/mm/ui/base/Eclz;->s(Landroid/view/MotionEvent;)I
 
     move-result v0
 
@@ -811,10 +811,10 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 179
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->Fa()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Fa()J
 
     move-result-wide v0
 
@@ -839,7 +839,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 181
     iget-wide v2, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsb:J
@@ -853,20 +853,20 @@
     if-gez v2, :cond_2
 
     .line 182
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsh:Lcom/tencent/mm/plugin/sns/ui/FlipView$a;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     .line 183
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     new-instance v1, Lcom/tencent/mm/plugin/sns/ui/FlipView$1;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/plugin/sns/ui/FlipView$1;-><init>(Lcom/tencent/mm/plugin/sns/ui/FlipView;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 189
     invoke-super {p0, p1}, Landroid/widget/LinearLayout;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
@@ -972,13 +972,13 @@
     iput v2, v0, Lcom/tencent/mm/plugin/sns/ui/FlipView$a;->y:F
 
     .line 195
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsh:Lcom/tencent/mm/plugin/sns/ui/FlipView$a;
 
     const-wide/16 v2, 0xa
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     .line 199
     :cond_3
@@ -1013,22 +1013,22 @@
 
     .prologue
     .line 561
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "RecogQBarOfImageFileResult"
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsi:Lcom/tencent/mm/sdk/c/c;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsi:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 562
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "NotifyDealQBarStrResult"
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsj:Lcom/tencent/mm/sdk/c/c;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsj:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 563
     return-void
@@ -1057,30 +1057,30 @@
     if-eqz v0, :cond_0
 
     .line 552
-    new-instance v1, Lcom/tencent/mm/d/a/s;
+    new-instance v1, Lcom/tencent/mm/d/a/Sclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/d/a/s;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/d/a/Sclz;-><init>()V
 
     .line 553
-    iget-object v2, v1, Lcom/tencent/mm/d/a/s;->asp:Lcom/tencent/mm/d/a/s$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/Sclz;->asp:Lcom/tencent/mm/d/a/Sclz$a;
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->context:Landroid/content/Context;
 
     check-cast v0, Landroid/app/Activity;
 
-    iput-object v0, v2, Lcom/tencent/mm/d/a/s$a;->asr:Landroid/app/Activity;
+    iput-object v0, v2, Lcom/tencent/mm/d/a/Sclz$a;->asr:Landroid/app/Activity;
 
     .line 554
-    iget-object v0, v1, Lcom/tencent/mm/d/a/s;->asp:Lcom/tencent/mm/d/a/s$a;
+    iget-object v0, v1, Lcom/tencent/mm/d/a/Sclz;->asp:Lcom/tencent/mm/d/a/Sclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsg:Ljava/lang/String;
 
-    iput-object v2, v0, Lcom/tencent/mm/d/a/s$a;->asq:Ljava/lang/String;
+    iput-object v2, v0, Lcom/tencent/mm/d/a/Sclz$a;->asq:Ljava/lang/String;
 
     .line 555
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 556
     iput-object v3, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView;->gsg:Ljava/lang/String;
@@ -1097,7 +1097,7 @@
     const/4 v1, 0x0
 
     .line 205
-    invoke-static {}, Lcom/tencent/mm/ui/base/e;->axE()Z
+    invoke-static {}, Lcom/tencent/mm/ui/base/Eclz;->axE()Z
 
     move-result v0
 

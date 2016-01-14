@@ -41,7 +41,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -70,7 +70,7 @@
 
     const/4 v4, 0x0
 
-    sget-object v5, Lcom/tencent/mm/compatible/util/d;->bpZ:Ljava/lang/String;
+    sget-object v5, Lcom/tencent/mm/compatible/util/Dclz;->bpZ:Ljava/lang/String;
 
     aput-object v5, v3, v4
 
@@ -116,7 +116,7 @@
 
     const/4 v4, 0x1
 
-    invoke-static {v0, v1, v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
+    invoke-static {v0, v1, v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -129,9 +129,9 @@
     .line 102
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/d/d$b;->hAZ:Lcom/tencent/mm/plugin/webview/d/d;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/webview/d/d;->fmp:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/webview/d/d;->fmp:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v7}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessage(I)Z
+    invoke-virtual {v0, v7}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessage(I)Z
 
     .line 103
     return-void
@@ -161,7 +161,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 98
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/d/d$b;->hAZ:Lcom/tencent/mm/plugin/webview/d/d;

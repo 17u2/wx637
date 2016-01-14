@@ -21,7 +21,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -181,7 +181,7 @@
     .line 46
     const-string/jumbo v1, ""
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -191,12 +191,12 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->h([Ljava/lang/String;)Ljava/util/List;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->h([Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
     .line 47
-    invoke-static {}, Lcom/tencent/mm/ui/contact/q;->bau()Ljava/util/HashSet;
+    invoke-static {}, Lcom/tencent/mm/ui/contact/Qclz;->bau()Ljava/util/HashSet;
 
     move-result-object v1
 
@@ -211,7 +211,7 @@
     .line 50
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/SnsAddressUI;->cni:Ljava/util/List;
 
-    invoke-static {}, Lcom/tencent/mm/ui/contact/q;->bav()Ljava/util/HashSet;
+    invoke-static {}, Lcom/tencent/mm/ui/contact/Qclz;->bav()Ljava/util/HashSet;
 
     move-result-object v1
 
@@ -237,12 +237,12 @@
 
     const-string/jumbo v1, ""
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 55
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -257,7 +257,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->h([Ljava/lang/String;)Ljava/util/List;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->h([Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
@@ -268,25 +268,25 @@
     return-void
 .end method
 
-.method public final a(Lcom/tencent/mm/ui/contact/a/a;)Z
+.method public final a(Lcom/tencent/mm/ui/contact/a/Aclz;)Z
     .locals 2
 
     .prologue
     .line 242
-    iget-boolean v0, p1, Lcom/tencent/mm/ui/contact/a/a;->ksV:Z
+    iget-boolean v0, p1, Lcom/tencent/mm/ui/contact/a/Aclz;->ksV:Z
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p1, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/Kclz;
+    iget-object v0, p1, Lcom/tencent/mm/ui/contact/a/Aclz;->czx:Lcom/tencent/mm/storage/Kclz;
 
     if-eqz v0, :cond_0
 
     .line 243
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/SnsAddressUI;->cRH:Ljava/util/HashSet;
 
-    iget-object v1, p1, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/Kclz;
+    iget-object v1, p1, Lcom/tencent/mm/ui/contact/a/Aclz;->czx:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
 
@@ -319,7 +319,7 @@
 
     const-string/jumbo v1, ""
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -336,22 +336,22 @@
     return v0
 .end method
 
-.method protected final aec()Lcom/tencent/mm/ui/contact/n;
+.method protected final aec()Lcom/tencent/mm/ui/contact/Nclz;
     .locals 6
 
     .prologue
     const/4 v3, 0x1
 
     .line 165
-    new-instance v5, Lcom/tencent/mm/ui/contact/c$a;
+    new-instance v5, Lcom/tencent/mm/ui/contact/Cclz$a;
 
-    invoke-direct {v5}, Lcom/tencent/mm/ui/contact/c$a;-><init>()V
+    invoke-direct {v5}, Lcom/tencent/mm/ui/contact/Cclz$a;-><init>()V
 
     .line 166
-    iput-boolean v3, v5, Lcom/tencent/mm/ui/contact/c$a;->kqT:Z
+    iput-boolean v3, v5, Lcom/tencent/mm/ui/contact/Cclz$a;->kqT:Z
 
     .line 167
-    iput-boolean v3, v5, Lcom/tencent/mm/ui/contact/c$a;->kqW:Z
+    iput-boolean v3, v5, Lcom/tencent/mm/ui/contact/Cclz$a;->kqW:Z
 
     .line 168
     const v0, 0x7f0903f2
@@ -360,7 +360,7 @@
 
     move-result-object v0
 
-    iput-object v0, v5, Lcom/tencent/mm/ui/contact/c$a;->kqY:Ljava/lang/String;
+    iput-object v0, v5, Lcom/tencent/mm/ui/contact/Cclz$a;->kqY:Ljava/lang/String;
 
     .line 169
     invoke-virtual {p0}, Lcom/tencent/mm/ui/contact/SnsAddressUI;->getIntent()Landroid/content/Intent;
@@ -375,14 +375,14 @@
 
     const-string/jumbo v1, ""
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    iput-object v0, v5, Lcom/tencent/mm/ui/contact/c$a;->kqX:Ljava/lang/String;
+    iput-object v0, v5, Lcom/tencent/mm/ui/contact/Cclz$a;->kqX:Ljava/lang/String;
 
     .line 170
-    new-instance v0, Lcom/tencent/mm/ui/contact/c;
+    new-instance v0, Lcom/tencent/mm/ui/contact/Cclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/contact/SnsAddressUI;->cni:Ljava/util/List;
 
@@ -390,23 +390,23 @@
 
     move v4, v3
 
-    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/ui/contact/c;-><init>(Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;Ljava/util/List;ZZLcom/tencent/mm/ui/contact/c$a;)V
+    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/ui/contact/Cclz;-><init>(Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;Ljava/util/List;ZZLcom/tencent/mm/ui/contact/Cclz$a;)V
 
     return-object v0
 .end method
 
-.method protected final aed()Lcom/tencent/mm/ui/contact/p;
+.method protected final aed()Lcom/tencent/mm/ui/contact/Pclz;
     .locals 3
 
     .prologue
     .line 175
-    new-instance v0, Lcom/tencent/mm/ui/contact/p;
+    new-instance v0, Lcom/tencent/mm/ui/contact/Pclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/SnsAddressUI;->cni:Ljava/util/List;
 
     const/4 v2, 0x1
 
-    invoke-direct {v0, p0, v1, v2}, Lcom/tencent/mm/ui/contact/p;-><init>(Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;Ljava/util/List;Z)V
+    invoke-direct {v0, p0, v1, v2}, Lcom/tencent/mm/ui/contact/Pclz;-><init>(Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;Ljava/util/List;Z)V
 
     return-object v0
 .end method
@@ -472,7 +472,7 @@
     move-result-object v1
 
     .line 200
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -483,7 +483,7 @@
 
     const-string/jumbo v1, "GET_LABEL_USERS return usernames is null or empty"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -499,7 +499,7 @@
 
     aput-object v1, v4, v0
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 206
     const-string/jumbo v2, ","
@@ -540,11 +540,11 @@
     invoke-direct {p0}, Lcom/tencent/mm/ui/contact/SnsAddressUI;->Ni()V
 
     .line 212
-    invoke-virtual {p0}, Lcom/tencent/mm/ui/contact/SnsAddressUI;->bap()Lcom/tencent/mm/ui/contact/m;
+    invoke-virtual {p0}, Lcom/tencent/mm/ui/contact/SnsAddressUI;->bap()Lcom/tencent/mm/ui/contact/Mclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/contact/m;->notifyDataSetChanged()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/contact/Mclz;->notifyDataSetChanged()V
 
     goto :goto_0
 
@@ -567,7 +567,7 @@
 
     const-string/jumbo v1, "Create!"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 65
     const/4 v0, 0x1
@@ -582,7 +582,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ui/contact/SnsAddressUI$1;-><init>(Lcom/tencent/mm/ui/contact/SnsAddressUI;)V
 
-    sget v3, Lcom/tencent/mm/ui/j$b;->jyX:I
+    sget v3, Lcom/tencent/mm/ui/Jclz$b;->jyX:I
 
     invoke-virtual {p0, v0, v1, v2, v3}, Lcom/tencent/mm/ui/contact/SnsAddressUI;->a(ILjava/lang/String;Landroid/view/MenuItem$OnMenuItemClickListener;I)V
 
@@ -646,7 +646,7 @@
     const/4 v6, 0x0
 
     .line 119
-    invoke-virtual {p0}, Lcom/tencent/mm/ui/contact/SnsAddressUI;->bap()Lcom/tencent/mm/ui/contact/m;
+    invoke-virtual {p0}, Lcom/tencent/mm/ui/contact/SnsAddressUI;->bap()Lcom/tencent/mm/ui/contact/Mclz;
 
     move-result-object v0
 
@@ -661,7 +661,7 @@
 
     sub-int v1, p3, v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/contact/m;->qT(I)Lcom/tencent/mm/ui/contact/a/a;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/contact/Mclz;->qT(I)Lcom/tencent/mm/ui/contact/a/Aclz;
 
     move-result-object v1
 
@@ -675,7 +675,7 @@
 
     .line 125
     :cond_1
-    iget-object v2, v1, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/Kclz;
+    iget-object v2, v1, Lcom/tencent/mm/ui/contact/a/Aclz;->czx:Lcom/tencent/mm/storage/Kclz;
 
     if-eqz v2, :cond_0
 
@@ -686,18 +686,18 @@
 
     new-array v4, v7, [Ljava/lang/Object;
 
-    iget-object v5, v1, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/Kclz;
+    iget-object v5, v1, Lcom/tencent/mm/ui/contact/a/Aclz;->czx:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v5, v5, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v5, v5, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     aput-object v5, v4, v6
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 130
-    iget-object v1, v1, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/Kclz;
+    iget-object v1, v1, Lcom/tencent/mm/ui/contact/a/Aclz;->czx:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     .line 131
     invoke-virtual {p0}, Lcom/tencent/mm/ui/contact/SnsAddressUI;->bas()V
@@ -726,7 +726,7 @@
     invoke-direct {p0}, Lcom/tencent/mm/ui/contact/SnsAddressUI;->Ni()V
 
     .line 145
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/contact/m;->notifyDataSetChanged()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/contact/Mclz;->notifyDataSetChanged()V
 
     goto :goto_0
 
@@ -779,7 +779,7 @@
 
     aput-object v4, v3, v6
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_1
 .end method
@@ -822,7 +822,7 @@
 
     const-string/jumbo v1, ","
 
-    invoke-static {v3, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -837,7 +837,7 @@
 
     fill-array-data v2, :array_0
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/contact/q;->k([I)I
+    invoke-static {v2}, Lcom/tencent/mm/ui/contact/Qclz;->k([I)I
 
     move-result v2
 
@@ -871,11 +871,11 @@
     invoke-virtual {v0, p1}, Ljava/util/HashSet;->remove(Ljava/lang/Object;)Z
 
     .line 257
-    invoke-virtual {p0}, Lcom/tencent/mm/ui/contact/SnsAddressUI;->bap()Lcom/tencent/mm/ui/contact/m;
+    invoke-virtual {p0}, Lcom/tencent/mm/ui/contact/SnsAddressUI;->bap()Lcom/tencent/mm/ui/contact/Mclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/contact/m;->notifyDataSetChanged()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/contact/Mclz;->notifyDataSetChanged()V
 
     .line 258
     invoke-direct {p0}, Lcom/tencent/mm/ui/contact/SnsAddressUI;->Ni()V

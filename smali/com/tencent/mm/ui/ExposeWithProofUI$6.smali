@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -63,18 +63,18 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/ui/ExposeWithProofUI;->a(Lcom/tencent/mm/ui/ExposeWithProofUI;Ljava/lang/Boolean;)Ljava/lang/Boolean;
 
     .line 368
-    invoke-static {}, Lcom/tencent/mm/modelcdntran/d;->xI()Lcom/tencent/mm/modelcdntran/a;
+    invoke-static {}, Lcom/tencent/mm/modelcdntran/Dclz;->xI()Lcom/tencent/mm/modelcdntran/Aclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofUI$6;->bDj:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelcdntran/a;->gW(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelcdntran/Aclz;->gW(Ljava/lang/String;)Z
 
     .line 369
     iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofUI$6;->juq:Lcom/tencent/mm/ui/ExposeWithProofUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/ExposeWithProofUI;->l(Lcom/tencent/mm/ui/ExposeWithProofUI;)Lcom/tencent/mm/modelsimple/l;
+    invoke-static {v0}, Lcom/tencent/mm/ui/ExposeWithProofUI;->l(Lcom/tencent/mm/ui/ExposeWithProofUI;)Lcom/tencent/mm/modelsimple/Lclz;
 
     move-result-object v0
 
@@ -87,7 +87,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofUI$6;->juq:Lcom/tencent/mm/ui/ExposeWithProofUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/ExposeWithProofUI;->l(Lcom/tencent/mm/ui/ExposeWithProofUI;)Lcom/tencent/mm/modelsimple/l;
+    invoke-static {v1}, Lcom/tencent/mm/ui/ExposeWithProofUI;->l(Lcom/tencent/mm/ui/ExposeWithProofUI;)Lcom/tencent/mm/modelsimple/Lclz;
 
     move-result-object v1
 

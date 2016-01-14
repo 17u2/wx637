@@ -6,7 +6,7 @@
 .implements Landroid/widget/AdapterView$OnItemClickListener;
 .implements Landroid/widget/AdapterView$OnItemLongClickListener;
 .implements Landroid/widget/AdapterView$OnItemSelectedListener;
-.implements Lcom/tencent/mm/sdk/platformtools/ag$a;
+.implements Lcom/tencent/mm/sdk/platformtools/AGclz$a;
 
 
 # annotations
@@ -24,7 +24,7 @@
 
 
 # instance fields
-.field private cfG:Lcom/tencent/mm/sdk/platformtools/ag;
+.field private cfG:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
 .field private fY:F
 
@@ -79,7 +79,7 @@
     .line 43
     const/16 v0, 0xa
 
-    invoke-static {v0}, Lcom/tencent/mm/compatible/util/c;->bX(I)Z
+    invoke-static {v0}, Lcom/tencent/mm/compatible/util/Cclz;->bX(I)Z
 
     move-result v0
 
@@ -89,7 +89,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -172,18 +172,18 @@
 
     invoke-super {p0, p0}, Landroid/widget/ListView;->setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)V
 
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-direct {v0, p0, v2}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v0, p0, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/ConversationOverscrollListView;->cfG:Lcom/tencent/mm/sdk/platformtools/ag;
+    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/ConversationOverscrollListView;->cfG:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     .line 80
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -327,7 +327,7 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 270
     return v0
@@ -425,7 +425,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 325
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/ConversationOverscrollListView;->fom:Landroid/graphics/Rect;
@@ -612,7 +612,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 105
     return-void
@@ -884,9 +884,9 @@
 
     .line 139
     :pswitch_1
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/ConversationOverscrollListView;->cfG:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/ConversationOverscrollListView;->cfG:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ag;->aOk()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOk()V
 
     .line 140
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getRawY()F
@@ -1086,7 +1086,7 @@
 
     aput-object v8, v7, v11
 
-    invoke-static {v0, v1, v7}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 163
     :cond_8
@@ -1364,11 +1364,11 @@
 
     .line 203
     :cond_11
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/ConversationOverscrollListView;->cfG:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/ConversationOverscrollListView;->cfG:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     const-wide/16 v5, 0x32
 
-    invoke-virtual {v0, v5, v6}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v0, v5, v6}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     goto :goto_7
 
@@ -1449,7 +1449,7 @@
 
     aput-object v0, v7, v2
 
-    invoke-static {v5, v1, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v1, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     move v0, v2
 

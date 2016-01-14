@@ -68,7 +68,7 @@
 
 .field private bCW:Ljava/lang/String;
 
-.field private bCX:Lcom/tencent/mm/sdk/platformtools/ag;
+.field private bCX:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
 
 # direct methods
@@ -179,7 +179,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -214,13 +214,13 @@
     iput-object v0, p0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->bCW:Ljava/lang/String;
 
     .line 438
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/tencent/mm/sdk/platformtools/ac;->jgj:Landroid/os/HandlerThread;
+    iget-object v1, v1, Lcom/tencent/mm/sdk/platformtools/ACclz;->jgj:Landroid/os/HandlerThread;
 
     invoke-virtual {v1}, Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
 
@@ -232,9 +232,9 @@
 
     const/4 v3, 0x1
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Landroid/os/Looper;Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Landroid/os/Looper;Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
-    iput-object v0, p0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->bCX:Lcom/tencent/mm/sdk/platformtools/ag;
+    iput-object v0, p0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->bCX:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     .line 398
     invoke-direct {p0, p1}, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->init(Ljava/lang/String;)I
@@ -247,7 +247,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -304,7 +304,7 @@
 
     check-cast v0, Lcom/tencent/mm/protocal/b/ajz;
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Nclz;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -329,7 +329,7 @@
 
     aput-object v6, v5, v7
 
-    invoke-static {v0, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 162
     add-int/lit8 v0, v1, 0x1
@@ -365,7 +365,7 @@
 
     check-cast v0, Lcom/tencent/mm/protocal/b/ajz;
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Nclz;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -390,7 +390,7 @@
 
     aput-object v6, v5, v7
 
-    invoke-static {v0, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 169
     add-int/lit8 v0, v1, 0x1
@@ -421,11 +421,11 @@
     iput v0, v3, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;->field_zoneid:I
 
     .line 180
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/modelcdntran/b;->aG(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/tencent/mm/modelcdntran/Bclz;->aG(Landroid/content/Context;)I
 
     move-result v0
 
@@ -434,7 +434,7 @@
     .line 182
     iget-object v0, p1, Lcom/tencent/mm/protocal/b/FZclz;->iqY:Lcom/tencent/mm/protocal/b/ajy;
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajy;)[B
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Nclz;->a(Lcom/tencent/mm/protocal/b/ajy;)[B
 
     move-result-object v0
 
@@ -565,7 +565,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/modelcdntran/keep_SceneResult;->field_transInfo:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -623,7 +623,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 416
     :cond_1
@@ -692,7 +692,7 @@
     .line 313
     const-string/jumbo v0, "MicroMsg.CdnEngine"
 
-    invoke-static {p2, v0, p1}, Lcom/tencent/mm/modelcdntran/b;->a([BLjava/lang/String;I)V
+    invoke-static {p2, v0, p1}, Lcom/tencent/mm/modelcdntran/Bclz;->a([BLjava/lang/String;I)V
 
     .line 315
     :cond_0
@@ -730,7 +730,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 306
     invoke-direct {p0, p1}, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->setWXConfig(Lcom/tencent/mm/modelcdntran/CdnTransportEngine$c;)V
@@ -764,7 +764,7 @@
 
     aput-object p1, v4, v1
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 211
     if-nez p1, :cond_0
@@ -806,7 +806,7 @@
     move-result-object v5
 
     .line 226
-    sget-boolean v2, Lcom/tencent/mm/platformtools/r;->cfa:Z
+    sget-boolean v2, Lcom/tencent/mm/platformtools/Rclz;->cfa:Z
 
     if-eqz v2, :cond_6
 
@@ -815,14 +815,14 @@
 
     const-string/jumbo v6, "setcdndns use DEBUG IP."
 
-    invoke-static {v2, v6}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 229
-    sget-object v2, Lcom/tencent/mm/platformtools/r;->ceR:Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/platformtools/Rclz;->ceR:Ljava/lang/String;
 
     if-eqz v2, :cond_3
 
-    sget-object v2, Lcom/tencent/mm/platformtools/r;->ceR:Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/platformtools/Rclz;->ceR:Ljava/lang/String;
 
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
@@ -843,7 +843,7 @@
     .line 232
     iget-object v6, v3, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;->field_frontips:[Ljava/lang/String;
 
-    sget-object v7, Lcom/tencent/mm/platformtools/r;->ceR:Ljava/lang/String;
+    sget-object v7, Lcom/tencent/mm/platformtools/Rclz;->ceR:Ljava/lang/String;
 
     aput-object v7, v6, v2
 
@@ -866,7 +866,7 @@
     .line 236
     iget-object v6, v4, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;->field_frontips:[Ljava/lang/String;
 
-    sget-object v7, Lcom/tencent/mm/platformtools/r;->ceR:Ljava/lang/String;
+    sget-object v7, Lcom/tencent/mm/platformtools/Rclz;->ceR:Ljava/lang/String;
 
     aput-object v7, v6, v2
 
@@ -889,7 +889,7 @@
     .line 240
     iget-object v6, v5, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;->field_frontips:[Ljava/lang/String;
 
-    sget-object v7, Lcom/tencent/mm/platformtools/r;->ceR:Ljava/lang/String;
+    sget-object v7, Lcom/tencent/mm/platformtools/Rclz;->ceR:Ljava/lang/String;
 
     aput-object v7, v6, v2
 
@@ -900,11 +900,11 @@
 
     .line 244
     :cond_3
-    sget-object v2, Lcom/tencent/mm/platformtools/r;->ceS:Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/platformtools/Rclz;->ceS:Ljava/lang/String;
 
     if-eqz v2, :cond_6
 
-    sget-object v2, Lcom/tencent/mm/platformtools/r;->ceS:Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/platformtools/Rclz;->ceS:Ljava/lang/String;
 
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
@@ -925,7 +925,7 @@
     .line 251
     iget-object v6, v3, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;->field_zoneips:[Ljava/lang/String;
 
-    sget-object v7, Lcom/tencent/mm/platformtools/r;->ceS:Ljava/lang/String;
+    sget-object v7, Lcom/tencent/mm/platformtools/Rclz;->ceS:Ljava/lang/String;
 
     aput-object v7, v6, v2
 
@@ -948,7 +948,7 @@
     .line 260
     iget-object v6, v4, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;->field_zoneips:[Ljava/lang/String;
 
-    sget-object v7, Lcom/tencent/mm/platformtools/r;->ceS:Ljava/lang/String;
+    sget-object v7, Lcom/tencent/mm/platformtools/Rclz;->ceS:Ljava/lang/String;
 
     aput-object v7, v6, v2
 
@@ -971,7 +971,7 @@
     .line 268
     iget-object v6, v5, Lcom/tencent/mm/modelcdntran/CdnTransportEngine$b;->field_zoneips:[Ljava/lang/String;
 
-    sget-object v7, Lcom/tencent/mm/platformtools/r;->ceS:Ljava/lang/String;
+    sget-object v7, Lcom/tencent/mm/platformtools/Rclz;->ceS:Ljava/lang/String;
 
     aput-object v7, v6, v2
     :try_end_0
@@ -993,13 +993,13 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Throwable;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Throwable;)Ljava/lang/String;
 
     move-result-object v2
 
     aput-object v2, v1, v0
 
-    invoke-static {v3, v4, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto/16 :goto_0
 
@@ -1031,11 +1031,11 @@
 
     move-result-object v0
 
-    new-instance v1, Lcom/tencent/mm/modelcdntran/c;
+    new-instance v1, Lcom/tencent/mm/modelcdntran/Cclz;
 
     const/4 v2, 0x2
 
-    invoke-direct {v1, v2}, Lcom/tencent/mm/modelcdntran/c;-><init>(I)V
+    invoke-direct {v1, v2}, Lcom/tencent/mm/modelcdntran/Cclz;-><init>(I)V
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
@@ -1119,11 +1119,11 @@
 
     move-result-object v0
 
-    new-instance v1, Lcom/tencent/mm/modelcdntran/c;
+    new-instance v1, Lcom/tencent/mm/modelcdntran/Cclz;
 
     const/4 v2, 0x1
 
-    invoke-direct {v1, v2}, Lcom/tencent/mm/modelcdntran/c;-><init>(I)V
+    invoke-direct {v1, v2}, Lcom/tencent/mm/modelcdntran/Cclz;-><init>(I)V
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
@@ -1162,7 +1162,7 @@
     iput v0, p0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->bCV:I
 
     .line 459
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1184,11 +1184,11 @@
     if-le v0, v1, :cond_0
 
     .line 463
-    iget-object v0, p0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->bCX:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, p0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->bCX:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     const-wide/16 v1, 0x1f4
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     goto :goto_0
 .end method
@@ -1336,7 +1336,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 332
     iget-object v0, p0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->bCT:Lcom/tencent/mm/modelcdntran/CdnTransportEngine$a;
@@ -1372,7 +1372,7 @@
 
     aput-object p1, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 348
     invoke-static {p2}, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->a(Lcom/tencent/mm/modelcdntran/keep_SceneResult;)V
@@ -1392,10 +1392,10 @@
 .method public native preMakeCDNConnection()I
 .end method
 
-.method public native startupDownloadMedia(Lcom/tencent/mm/modelcdntran/e;)I
+.method public native startupDownloadMedia(Lcom/tencent/mm/modelcdntran/Eclz;)I
 .end method
 
-.method public native startupUploadMedia(Lcom/tencent/mm/modelcdntran/e;)I
+.method public native startupUploadMedia(Lcom/tencent/mm/modelcdntran/Eclz;)I
 .end method
 
 .method native uninit()I

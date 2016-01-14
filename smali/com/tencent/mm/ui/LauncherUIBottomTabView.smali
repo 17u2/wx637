@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/ui/c;
+.implements Lcom/tencent/mm/ui/Cclz;
 
 
 # annotations
@@ -19,7 +19,7 @@
 
 .field protected hXx:I
 
-.field private jwV:Lcom/tencent/mm/ui/c$a;
+.field private jwV:Lcom/tencent/mm/ui/Cclz$a;
 
 .field protected jwW:Lcom/tencent/mm/ui/LauncherUIBottomTabView$a;
 
@@ -55,7 +55,7 @@
 
 .field protected jxm:Landroid/view/View$OnClickListener;
 
-.field private jxn:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private jxn:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field private jxo:I
 
@@ -111,7 +111,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/LauncherUIBottomTabView$2;-><init>(Lcom/tencent/mm/ui/LauncherUIBottomTabView;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/LauncherUIBottomTabView;->jxn:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/ui/LauncherUIBottomTabView;->jxn:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 222
     iput v2, p0, Lcom/tencent/mm/ui/LauncherUIBottomTabView;->jxo:I
@@ -139,7 +139,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -185,7 +185,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/LauncherUIBottomTabView$2;-><init>(Lcom/tencent/mm/ui/LauncherUIBottomTabView;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/LauncherUIBottomTabView;->jxn:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/ui/LauncherUIBottomTabView;->jxn:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 222
     iput v2, p0, Lcom/tencent/mm/ui/LauncherUIBottomTabView;->jxo:I
@@ -213,7 +213,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -259,7 +259,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/LauncherUIBottomTabView$2;-><init>(Lcom/tencent/mm/ui/LauncherUIBottomTabView;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/LauncherUIBottomTabView;->jxn:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/ui/LauncherUIBottomTabView;->jxn:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 222
     iput v2, p0, Lcom/tencent/mm/ui/LauncherUIBottomTabView;->jxo:I
@@ -287,7 +287,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -341,7 +341,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/o;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {v0}, Lcom/tencent/mm/ui/Oclz;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v0
 
@@ -356,7 +356,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/at/a;->cM(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/tencent/mm/at/Aclz;->cM(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -367,7 +367,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/o;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {v0}, Lcom/tencent/mm/ui/Oclz;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v0
 
@@ -426,7 +426,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/tools/t;->el(Landroid/content/Context;)I
+    invoke-static {v2}, Lcom/tencent/mm/ui/tools/Tclz;->el(Landroid/content/Context;)I
 
     move-result v2
 
@@ -470,7 +470,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/o;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {v0}, Lcom/tencent/mm/ui/Oclz;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v0
 
@@ -493,22 +493,22 @@
     return-wide v0
 .end method
 
-.method static synthetic c(Lcom/tencent/mm/ui/LauncherUIBottomTabView;)Lcom/tencent/mm/sdk/platformtools/ab;
+.method static synthetic c(Lcom/tencent/mm/ui/LauncherUIBottomTabView;)Lcom/tencent/mm/sdk/platformtools/ABclz;
     .locals 1
 
     .prologue
     .line 22
-    iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUIBottomTabView;->jxn:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUIBottomTabView;->jxn:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     return-object v0
 .end method
 
-.method static synthetic d(Lcom/tencent/mm/ui/LauncherUIBottomTabView;)Lcom/tencent/mm/ui/c$a;
+.method static synthetic d(Lcom/tencent/mm/ui/LauncherUIBottomTabView;)Lcom/tencent/mm/ui/Cclz$a;
     .locals 1
 
     .prologue
     .line 22
-    iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUIBottomTabView;->jwV:Lcom/tencent/mm/ui/c$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUIBottomTabView;->jwV:Lcom/tencent/mm/ui/Cclz$a;
 
     return-object v0
 .end method
@@ -586,7 +586,7 @@
 
     move-result-object v5
 
-    invoke-static {v5}, Lcom/tencent/mm/at/a;->cM(Landroid/content/Context;)Z
+    invoke-static {v5}, Lcom/tencent/mm/at/Aclz;->cM(Landroid/content/Context;)Z
 
     move-result v5
 
@@ -602,7 +602,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, v10}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {v3, v10}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v3
 
@@ -651,7 +651,7 @@
 
     move-result-object v5
 
-    invoke-static {v5}, Lcom/tencent/mm/at/a;->cM(Landroid/content/Context;)Z
+    invoke-static {v5}, Lcom/tencent/mm/at/Aclz;->cM(Landroid/content/Context;)Z
 
     move-result v5
 
@@ -667,7 +667,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, v10}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {v3, v10}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v3
 
@@ -716,7 +716,7 @@
 
     move-result-object v5
 
-    invoke-static {v5}, Lcom/tencent/mm/at/a;->cM(Landroid/content/Context;)Z
+    invoke-static {v5}, Lcom/tencent/mm/at/Aclz;->cM(Landroid/content/Context;)Z
 
     move-result v5
 
@@ -732,7 +732,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, v10}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {v3, v10}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v3
 
@@ -781,7 +781,7 @@
 
     move-result-object v5
 
-    invoke-static {v5}, Lcom/tencent/mm/at/a;->cM(Landroid/content/Context;)Z
+    invoke-static {v5}, Lcom/tencent/mm/at/Aclz;->cM(Landroid/content/Context;)Z
 
     move-result v5
 
@@ -797,7 +797,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, v10}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {v3, v10}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v3
 
@@ -1346,7 +1346,7 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 226
     iput p1, p0, Lcom/tencent/mm/ui/LauncherUIBottomTabView;->jxo:I
@@ -1748,12 +1748,12 @@
     goto :goto_0
 .end method
 
-.method public setOnTabClickListener(Lcom/tencent/mm/ui/c$a;)V
+.method public setOnTabClickListener(Lcom/tencent/mm/ui/Cclz$a;)V
     .locals 0
 
     .prologue
     .line 70
-    iput-object p1, p0, Lcom/tencent/mm/ui/LauncherUIBottomTabView;->jwV:Lcom/tencent/mm/ui/c$a;
+    iput-object p1, p0, Lcom/tencent/mm/ui/LauncherUIBottomTabView;->jwV:Lcom/tencent/mm/ui/Cclz$a;
 
     .line 71
     return-void

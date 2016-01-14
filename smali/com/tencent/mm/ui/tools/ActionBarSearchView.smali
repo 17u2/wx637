@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/ui/tools/g;
+.implements Lcom/tencent/mm/ui/tools/Gclz;
 
 
 # annotations
@@ -30,7 +30,7 @@
 
 .field private kBh:Z
 
-.field private kBi:Lcom/tencent/mm/ui/tools/u;
+.field private kBi:Lcom/tencent/mm/ui/tools/Uclz;
 
 .field private kBj:Lcom/tencent/mm/ui/tools/ActionBarSearchView$b;
 
@@ -97,7 +97,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -156,7 +156,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -172,12 +172,12 @@
     return-void
 .end method
 
-.method static synthetic b(Lcom/tencent/mm/ui/tools/ActionBarSearchView;)Lcom/tencent/mm/ui/tools/u;
+.method static synthetic b(Lcom/tencent/mm/ui/tools/ActionBarSearchView;)Lcom/tencent/mm/ui/tools/Uclz;
     .locals 1
 
     .prologue
     .line 27
-    iget-object v0, p0, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->kBi:Lcom/tencent/mm/ui/tools/u;
+    iget-object v0, p0, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->kBi:Lcom/tencent/mm/ui/tools/Uclz;
 
     return-object v0
 .end method
@@ -283,7 +283,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -451,13 +451,13 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->kBe:Lcom/tencent/mm/ui/tools/ActionBarSearchView$ActionBarEditText;
 
     .line 143
-    new-instance v0, Lcom/tencent/mm/ui/tools/u;
+    new-instance v0, Lcom/tencent/mm/ui/tools/Uclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->kBe:Lcom/tencent/mm/ui/tools/ActionBarSearchView$ActionBarEditText;
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/ui/tools/u;-><init>(Landroid/widget/EditText;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/ui/tools/Uclz;-><init>(Landroid/widget/EditText;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->kBi:Lcom/tencent/mm/ui/tools/u;
+    iput-object v0, p0, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->kBi:Lcom/tencent/mm/ui/tools/Uclz;
 
     .line 144
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->kBe:Lcom/tencent/mm/ui/tools/ActionBarSearchView$ActionBarEditText;
@@ -519,19 +519,19 @@
     .line 178
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->kBe:Lcom/tencent/mm/ui/tools/ActionBarSearchView$ActionBarEditText;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/tools/a/c;->a(Landroid/widget/EditText;)Lcom/tencent/mm/ui/tools/a/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/tools/a/Cclz;->a(Landroid/widget/EditText;)Lcom/tencent/mm/ui/tools/a/Cclz;
 
     move-result-object v0
 
     const/16 v1, 0x64
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/tools/a/c;->rh(I)Lcom/tencent/mm/ui/tools/a/c;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/tools/a/Cclz;->rh(I)Lcom/tencent/mm/ui/tools/a/Cclz;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/tools/a/c;->a(Lcom/tencent/mm/ui/tools/a/c$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/tools/a/Cclz;->a(Lcom/tencent/mm/ui/tools/a/Cclz$a;)V
 
     .line 182
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->kBf:Landroid/widget/ImageButton;
@@ -707,14 +707,14 @@
 
     .prologue
     .line 363
-    iget-object v0, p0, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->kBi:Lcom/tencent/mm/ui/tools/u;
+    iget-object v0, p0, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->kBi:Lcom/tencent/mm/ui/tools/Uclz;
 
     if-eqz v0, :cond_0
 
     .line 364
-    iget-object v0, p0, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->kBi:Lcom/tencent/mm/ui/tools/u;
+    iget-object v0, p0, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->kBi:Lcom/tencent/mm/ui/tools/Uclz;
 
-    iput-boolean p1, v0, Lcom/tencent/mm/ui/tools/u;->kFD:Z
+    iput-boolean p1, v0, Lcom/tencent/mm/ui/tools/Uclz;->kFD:Z
 
     .line 366
     :cond_0
@@ -800,20 +800,20 @@
 
     .prologue
     .line 356
-    iget-object v0, p0, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->kBi:Lcom/tencent/mm/ui/tools/u;
+    iget-object v0, p0, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->kBi:Lcom/tencent/mm/ui/tools/Uclz;
 
     if-eqz v0, :cond_0
 
     .line 357
-    iget-object v1, p0, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->kBi:Lcom/tencent/mm/ui/tools/u;
+    iget-object v1, p0, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->kBi:Lcom/tencent/mm/ui/tools/Uclz;
 
-    iput-object p1, v1, Lcom/tencent/mm/ui/tools/u;->kFC:Ljava/util/ArrayList;
+    iput-object p1, v1, Lcom/tencent/mm/ui/tools/Uclz;->kFC:Ljava/util/ArrayList;
 
-    iget-boolean v0, v1, Lcom/tencent/mm/ui/tools/u;->kFD:Z
+    iget-boolean v0, v1, Lcom/tencent/mm/ui/tools/Uclz;->kFD:Z
 
     if-eqz v0, :cond_0
 
-    iget-object v0, v1, Lcom/tencent/mm/ui/tools/u;->kFB:Ljava/lang/ref/WeakReference;
+    iget-object v0, v1, Lcom/tencent/mm/ui/tools/Uclz;->kFB:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
@@ -823,9 +823,9 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/tools/u;->kFC:Ljava/util/ArrayList;
+    iget-object v1, v1, Lcom/tencent/mm/ui/tools/Uclz;->kFC:Ljava/util/ArrayList;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/tools/u;->a(Landroid/widget/EditText;Ljava/util/ArrayList;)Z
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/tools/Uclz;->a(Landroid/widget/EditText;Ljava/util/ArrayList;)Z
 
     .line 359
     :cond_0

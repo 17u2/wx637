@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -62,26 +62,26 @@
 
     .line 1318
     :cond_0
-    new-instance v0, Lcom/tencent/mm/d/a/ea;
+    new-instance v0, Lcom/tencent/mm/d/a/EAclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/ea;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/EAclz;-><init>()V
 
     .line 1319
-    iget-object v1, v0, Lcom/tencent/mm/d/a/ea;->axY:Lcom/tencent/mm/d/a/ea$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/EAclz;->axY:Lcom/tencent/mm/d/a/EAclz$a;
 
     const/16 v2, 0xb
 
-    iput v2, v1, Lcom/tencent/mm/d/a/ea$a;->actionCode:I
+    iput v2, v1, Lcom/tencent/mm/d/a/EAclz$a;->actionCode:I
 
     .line 1320
-    iget-object v1, v0, Lcom/tencent/mm/d/a/ea;->axY:Lcom/tencent/mm/d/a/ea$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/EAclz;->axY:Lcom/tencent/mm/d/a/EAclz$a;
 
     iget-object v2, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->url:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/ea$a;->aya:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/EAclz$a;->aya:Ljava/lang/String;
 
     .line 1321
-    iget-object v1, v0, Lcom/tencent/mm/d/a/ea;->axY:Lcom/tencent/mm/d/a/ea$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/EAclz;->axY:Lcom/tencent/mm/d/a/EAclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/app/plugin/URISpanHandlerSet$PayUriSpanHandler;->amL:Lcom/tencent/mm/app/plugin/URISpanHandlerSet;
 
@@ -89,16 +89,16 @@
 
     move-result-object v2
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/ea$a;->context:Landroid/content/Context;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/EAclz$a;->context:Landroid/content/Context;
 
     .line 1322
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object v2
 
-    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/sdk/c/a;->a(Lcom/tencent/mm/sdk/c/b;Landroid/os/Looper;)V
+    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/sdk/c/Aclz;->a(Lcom/tencent/mm/sdk/c/Bclz;Landroid/os/Looper;)V
 
     .line 1323
     const/4 v0, 0x1

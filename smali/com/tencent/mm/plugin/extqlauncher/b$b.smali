@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/extqlauncher/b$b;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -29,14 +29,14 @@
     .line 84
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     .line 85
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -44,7 +44,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 6
 
     .prologue
@@ -66,7 +66,7 @@
 
     const-string/jumbo v2, "!isPluginInstall"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 119
     :cond_0
@@ -75,7 +75,7 @@
 
     .line 93
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -86,13 +86,13 @@
 
     const-string/jumbo v2, "MMApplicationContext null"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 97
     :cond_2
-    check-cast p1, Lcom/tencent/mm/d/a/hb;
+    check-cast p1, Lcom/tencent/mm/d/a/HBclz;
 
     .line 98
     const-string/jumbo v2, "!44@/B4Tb64lLpIAhUt0Bg2QTqyk2VFFNI8farTpuVFOhY8="
@@ -103,9 +103,9 @@
 
     new-array v4, v4, [Ljava/lang/Object;
 
-    iget-object v5, p1, Lcom/tencent/mm/d/a/hb;->aBL:Lcom/tencent/mm/d/a/hb$a;
+    iget-object v5, p1, Lcom/tencent/mm/d/a/HBclz;->aBL:Lcom/tencent/mm/d/a/HBclz$a;
 
-    iget v5, v5, Lcom/tencent/mm/d/a/hb$a;->aoa:I
+    iget v5, v5, Lcom/tencent/mm/d/a/HBclz$a;->aoa:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -113,19 +113,19 @@
 
     aput-object v5, v4, v0
 
-    iget-object v5, p1, Lcom/tencent/mm/d/a/hb;->aBL:Lcom/tencent/mm/d/a/hb$a;
+    iget-object v5, p1, Lcom/tencent/mm/d/a/HBclz;->aBL:Lcom/tencent/mm/d/a/HBclz$a;
 
-    iget-object v5, v5, Lcom/tencent/mm/d/a/hb$a;->aBO:Ljava/lang/String;
+    iget-object v5, v5, Lcom/tencent/mm/d/a/HBclz$a;->aBO:Ljava/lang/String;
 
     aput-object v5, v4, v1
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 100
     :try_start_0
-    iget-object v2, p1, Lcom/tencent/mm/d/a/hb;->aBL:Lcom/tencent/mm/d/a/hb$a;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/HBclz;->aBL:Lcom/tencent/mm/d/a/HBclz$a;
 
-    iget v2, v2, Lcom/tencent/mm/d/a/hb$a;->aoa:I
+    iget v2, v2, Lcom/tencent/mm/d/a/HBclz$a;->aoa:I
 
     packed-switch v2, :pswitch_data_0
 
@@ -133,19 +133,19 @@
 
     .line 102
     :pswitch_0
-    iget-object v2, p1, Lcom/tencent/mm/d/a/hb;->aBL:Lcom/tencent/mm/d/a/hb$a;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/HBclz;->aBL:Lcom/tencent/mm/d/a/HBclz$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/a/hb$a;->aBO:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/d/a/HBclz$a;->aBO:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    iget-object v2, p1, Lcom/tencent/mm/d/a/hb;->aBL:Lcom/tencent/mm/d/a/hb$a;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/HBclz;->aBL:Lcom/tencent/mm/d/a/HBclz$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/a/hb$a;->aBO:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/d/a/HBclz$a;->aBO:Ljava/lang/String;
 
     const-string/jumbo v3, "qlauncher://"
 
@@ -174,9 +174,9 @@
     invoke-virtual {v2, v3}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
 
     .line 105
-    iget-object v3, p1, Lcom/tencent/mm/d/a/hb;->aBL:Lcom/tencent/mm/d/a/hb$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/HBclz;->aBL:Lcom/tencent/mm/d/a/HBclz$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/hb$a;->aBO:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/HBclz$a;->aBO:Ljava/lang/String;
 
     invoke-static {v3}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -190,18 +190,18 @@
     invoke-virtual {v2, v3}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
     .line 107
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v3
 
     invoke-virtual {v3, v2}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
     .line 109
-    iget-object v2, p1, Lcom/tencent/mm/d/a/hb;->aBM:Lcom/tencent/mm/d/a/hb$b;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/HBclz;->aBM:Lcom/tencent/mm/d/a/HBclz$b;
 
     const/4 v3, 0x1
 
-    iput v3, v2, Lcom/tencent/mm/d/a/hb$b;->ret:I
+    iput v3, v2, Lcom/tencent/mm/d/a/HBclz$b;->ret:I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -227,7 +227,7 @@
 
     aput-object v2, v1, v0
 
-    invoke-static {v3, v4, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto/16 :goto_0
 

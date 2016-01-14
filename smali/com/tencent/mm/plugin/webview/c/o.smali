@@ -15,7 +15,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/tencent/mm/protocal/b/YAclz;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/aq/b;ILjava/util/LinkedList;)V
+.method public constructor <init>(Lcom/tencent/mm/protocal/b/YAclz;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/aq/Bclz;ILjava/util/LinkedList;)V
     .locals 6
 
     .prologue
@@ -67,7 +67,7 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 29
     iput-object p1, p0, Lcom/tencent/mm/plugin/webview/c/o;->hyn:Lcom/tencent/mm/protocal/b/YAclz;
@@ -82,14 +82,14 @@
 
     invoke-direct {v2}, Lcom/tencent/mm/protocal/b/YLclz;-><init>()V
 
-    iput-object v2, v1, Lcom/tencent/mm/q/Aclz$a;->bxM:Lcom/tencent/mm/aq/a;
+    iput-object v2, v1, Lcom/tencent/mm/q/Aclz$a;->bxM:Lcom/tencent/mm/aq/Aclz;
 
     .line 33
     new-instance v2, Lcom/tencent/mm/protocal/b/YMclz;
 
     invoke-direct {v2}, Lcom/tencent/mm/protocal/b/YMclz;-><init>()V
 
-    iput-object v2, v1, Lcom/tencent/mm/q/Aclz$a;->bxN:Lcom/tencent/mm/aq/a;
+    iput-object v2, v1, Lcom/tencent/mm/q/Aclz$a;->bxN:Lcom/tencent/mm/aq/Aclz;
 
     .line 34
     const-string/jumbo v2, "/cgi-bin/mmbiz-bin/jsapi-setauth"
@@ -123,7 +123,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/q/Aclz;->bxI:Lcom/tencent/mm/q/Aclz$b;
 
-    iget-object v1, v1, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v1, v1, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     check-cast v1, Lcom/tencent/mm/protocal/b/YLclz;
 
@@ -154,7 +154,7 @@
     iput v0, v1, Lcom/tencent/mm/protocal/b/YLclz;->iIi:I
 
     .line 49
-    iput-object p9, v1, Lcom/tencent/mm/protocal/b/YLclz;->iIh:Lcom/tencent/mm/aq/b;
+    iput-object p9, v1, Lcom/tencent/mm/protocal/b/YLclz;->iIh:Lcom/tencent/mm/aq/Bclz;
 
     .line 50
     move-object/from16 v0, p11
@@ -166,7 +166,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -183,7 +183,7 @@
 
     const-string/jumbo v1, "doScene"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 81
     iput-object p2, p0, Lcom/tencent/mm/plugin/webview/c/o;->cYK:Lcom/tencent/mm/q/Dclz;
@@ -231,7 +231,7 @@
 
     aput-object p4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 56
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/c/o;->cYK:Lcom/tencent/mm/q/Dclz;

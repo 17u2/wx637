@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -91,16 +91,16 @@
     move-result-object v1
 
     .line 100
-    new-instance v2, Lcom/tencent/mm/aq/b;
+    new-instance v2, Lcom/tencent/mm/aq/Bclz;
 
     invoke-virtual {v1}, Ljava/lang/String;->getBytes()[B
 
     move-result-object v3
 
-    invoke-direct {v2, v3}, Lcom/tencent/mm/aq/b;-><init>([B)V
+    invoke-direct {v2, v3}, Lcom/tencent/mm/aq/Bclz;-><init>([B)V
 
     .line 101
-    iput-object v2, v0, Lcom/tencent/mm/protocal/b/ZDclz;->iIG:Lcom/tencent/mm/aq/b;
+    iput-object v2, v0, Lcom/tencent/mm/protocal/b/ZDclz;->iIG:Lcom/tencent/mm/aq/Bclz;
 
     .line 102
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/a/a/h$1;->gfQ:Lcom/tencent/mm/plugin/sns/a/a/h;
@@ -142,7 +142,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 104
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/a/a/h$1;->gfQ:Lcom/tencent/mm/plugin/sns/a/a/h;

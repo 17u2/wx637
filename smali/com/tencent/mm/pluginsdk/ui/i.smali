@@ -11,7 +11,7 @@
     .line 63
     const-string/jumbo v0, "network_doctor_shown"
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/aa;->AI(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/AAclz;->AI(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -36,7 +36,7 @@
 
     const/4 v3, 0x0
 
-    invoke-static {p0, v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     .line 76
     const/4 v0, 0x1
@@ -51,7 +51,7 @@
     .line 22
     const-string/jumbo v0, "wap_reporter_shown"
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/aa;->AI(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/AAclz;->AI(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -82,7 +82,7 @@
 
     move-object v0, p0
 
-    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IIIILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IIIILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     .line 35
     const/4 v0, 0x1

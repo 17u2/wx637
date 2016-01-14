@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -61,20 +61,20 @@
     .line 96
     iget-object v1, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI$1;->kzU:Lcom/tencent/mm/ui/friend/RecommendFriendUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->b(Lcom/tencent/mm/ui/friend/RecommendFriendUI;)Lcom/tencent/mm/ui/friend/b;
+    invoke-static {v1}, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->b(Lcom/tencent/mm/ui/friend/RecommendFriendUI;)Lcom/tencent/mm/ui/friend/Bclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, p3}, Lcom/tencent/mm/ui/friend/b;->er(I)V
+    invoke-virtual {v1, p3}, Lcom/tencent/mm/ui/friend/Bclz;->er(I)V
 
     .line 98
     iget-object v1, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI$1;->kzU:Lcom/tencent/mm/ui/friend/RecommendFriendUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->b(Lcom/tencent/mm/ui/friend/RecommendFriendUI;)Lcom/tencent/mm/ui/friend/b;
+    invoke-static {v1}, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->b(Lcom/tencent/mm/ui/friend/RecommendFriendUI;)Lcom/tencent/mm/ui/friend/Bclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/friend/b;->baZ()[Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/friend/Bclz;->baZ()[Ljava/lang/String;
 
     move-result-object v1
 
@@ -107,11 +107,11 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI$1;->kzU:Lcom/tencent/mm/ui/friend/RecommendFriendUI;
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->b(Lcom/tencent/mm/ui/friend/RecommendFriendUI;)Lcom/tencent/mm/ui/friend/b;
+    invoke-static {v2}, Lcom/tencent/mm/ui/friend/RecommendFriendUI;->b(Lcom/tencent/mm/ui/friend/RecommendFriendUI;)Lcom/tencent/mm/ui/friend/Bclz;
 
     move-result-object v2
 
-    iget-boolean v3, v2, Lcom/tencent/mm/ui/friend/b;->kzf:Z
+    iget-boolean v3, v2, Lcom/tencent/mm/ui/friend/Bclz;->kzf:Z
 
     if-nez v3, :cond_2
 
@@ -121,7 +121,7 @@
     goto :goto_0
 
     :cond_2
-    iget-object v0, v2, Lcom/tencent/mm/ui/friend/b;->kze:Ljava/util/LinkedList;
+    iget-object v0, v2, Lcom/tencent/mm/ui/friend/Bclz;->kze:Ljava/util/LinkedList;
 
     invoke-virtual {v0, p3}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
 

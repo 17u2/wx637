@@ -19,7 +19,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -49,7 +49,7 @@
     invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 19
-    invoke-static {p0, p2}, Lcom/tencent/mm/sdk/b/b;->f(ILjava/lang/String;)V
+    invoke-static {p0, p2}, Lcom/tencent/mm/sdk/b/Bclz;->f(ILjava/lang/String;)V
 
     .line 24
     return-void

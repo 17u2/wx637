@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -113,17 +113,17 @@
 
     iget-object v1, v1, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI$3;->gCg:Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v1, v1, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI$3$1;->gCh:Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI$3;
 
     iget-object v2, v2, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI$3;->gCg:Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v2, v2, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v2, v2, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const v3, 0x7f090ce7
 
@@ -151,22 +151,22 @@
 
     const-string/jumbo v1, "startActivity fail, activity not found"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 341
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI$3$1;->gCh:Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI$3;
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI$3;->gCg:Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, v0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const v1, 0x7f090cf7
 
     const v2, 0x7f090cf6
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/ui/base/f;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/ui/base/Fclz;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/Gclz;
 
     goto :goto_0
 .end method

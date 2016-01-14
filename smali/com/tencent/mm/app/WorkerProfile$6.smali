@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/app/WorkerProfile$6;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,29 +42,29 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 5
 
     .prologue
     const/4 v4, 0x0
 
     .line 798
-    check-cast p1, Lcom/tencent/mm/d/a/ka;
+    check-cast p1, Lcom/tencent/mm/d/a/KAclz;
 
     .line 799
-    iget-object v0, p1, Lcom/tencent/mm/d/a/ka;->aFb:Lcom/tencent/mm/d/a/ka$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/KAclz;->aFb:Lcom/tencent/mm/d/a/KAclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/ka$a;->context:Landroid/content/Context;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/KAclz$a;->context:Landroid/content/Context;
 
     .line 800
-    iget-object v1, p1, Lcom/tencent/mm/d/a/ka;->aFb:Lcom/tencent/mm/d/a/ka$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/KAclz;->aFb:Lcom/tencent/mm/d/a/KAclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/ka$a;->aFc:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/KAclz$a;->aFc:Ljava/lang/String;
 
     .line 801
     if-eqz v0, :cond_0
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -91,7 +91,7 @@
 
     const-string/jumbo v3, ".ui.tools.WebViewUI"
 
-    invoke-static {v0, v1, v3, v2}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {v0, v1, v3, v2}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     goto :goto_0
 .end method

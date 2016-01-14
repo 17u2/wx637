@@ -15,7 +15,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -78,7 +78,7 @@
 
     .line 50
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -94,7 +94,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
@@ -131,7 +131,7 @@
     invoke-super {p0}, Lcom/tencent/mm/plugin/webview/ui/tools/fts/FTSBaseWebViewUI;->onPause()V
 
     .line 64
-    invoke-static {}, Lcom/tencent/mm/modelsearch/g;->Bf()V
+    invoke-static {}, Lcom/tencent/mm/modelsearch/Gclz;->Bf()V
 
     .line 65
     return-void
@@ -145,7 +145,7 @@
     invoke-super {p0}, Lcom/tencent/mm/plugin/webview/ui/tools/fts/FTSBaseWebViewUI;->onResume()V
 
     .line 58
-    invoke-static {}, Lcom/tencent/mm/modelsearch/g;->Be()V
+    invoke-static {}, Lcom/tencent/mm/modelsearch/Gclz;->Be()V
 
     .line 59
     return-void

@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -92,21 +92,21 @@
 
     const-string/jumbo v2, "doStop"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;->hSk:Lcom/tencent/mm/al/d;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;->hSk:Lcom/tencent/mm/al/Dclz;
 
     if-eqz v1, :cond_0
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;->hSk:Lcom/tencent/mm/al/d;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;->hSk:Lcom/tencent/mm/al/Dclz;
 
     const-string/jumbo v1, "!32@/B4Tb64lLpJjyqE6YDnAp3o91K/Zm7/t"
 
     const-string/jumbo v2, "stop"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {v0}, Lcom/tencent/mm/al/d;->finish()V
+    invoke-virtual {v0}, Lcom/tencent/mm/al/Dclz;->finish()V
 
     goto :goto_0
 

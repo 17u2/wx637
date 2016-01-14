@@ -16,7 +16,7 @@
 
 
 # instance fields
-.field private bJo:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private bJo:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field private bTI:Z
 
@@ -28,7 +28,7 @@
 
 .field private dyF:Z
 
-.field private dyG:Lcom/tencent/mm/sdk/platformtools/ac;
+.field private dyG:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
 .field private dyH:Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView$b;
 
@@ -113,7 +113,7 @@
     iput-boolean v2, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyF:Z
 
     .line 28
-    iput-object v3, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyG:Lcom/tencent/mm/sdk/platformtools/ac;
+    iput-object v3, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyG:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     .line 29
     iput-object v3, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyH:Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView$b;
@@ -189,15 +189,15 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyf:Lcom/tencent/mm/pluginsdk/g/l;
 
     .line 73
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->bJo:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->bJo:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 74
     iput-object v3, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dzc:Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView$a;
@@ -213,7 +213,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -242,7 +242,7 @@
     iput-boolean v2, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyF:Z
 
     .line 28
-    iput-object v3, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyG:Lcom/tencent/mm/sdk/platformtools/ac;
+    iput-object v3, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyG:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     .line 29
     iput-object v3, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyH:Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView$b;
@@ -318,15 +318,15 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyf:Lcom/tencent/mm/pluginsdk/g/l;
 
     .line 73
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->bJo:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->bJo:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 74
     iput-object v3, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dzc:Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView$a;
@@ -342,7 +342,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -867,17 +867,17 @@
     if-eq v0, v1, :cond_6
 
     :cond_5
-    iget-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->bJo:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->bJo:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     if-eqz v0, :cond_6
 
-    iget-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->bJo:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->bJo:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     new-instance v1, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView$1;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView$1;-><init>(Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     iget v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyY:I
 
@@ -1210,13 +1210,13 @@
 
     .line 176
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyG:Lcom/tencent/mm/sdk/platformtools/ac;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyG:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyG:Lcom/tencent/mm/sdk/platformtools/ac;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyG:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/sdk/platformtools/ac;->jgj:Landroid/os/HandlerThread;
+    iget-object v0, v0, Lcom/tencent/mm/sdk/platformtools/ACclz;->jgj:Landroid/os/HandlerThread;
 
     invoke-virtual {v0}, Landroid/os/HandlerThread;->quit()Z
 
@@ -1378,7 +1378,7 @@
 
     .line 373
     :cond_3
-    iget-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyG:Lcom/tencent/mm/sdk/platformtools/ac;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyG:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     if-eqz v0, :cond_0
 
@@ -1412,15 +1412,15 @@
     invoke-static {p1, v4, v0, v4, v1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 381
-    iget-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyG:Lcom/tencent/mm/sdk/platformtools/ac;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyG:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->aOE()Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->aOE()Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyH:Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView$b;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     goto :goto_0
 .end method

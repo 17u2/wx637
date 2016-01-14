@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,21 +48,21 @@
 
     .prologue
     .line 997
-    new-instance v0, Lcom/tencent/mm/d/a/kl;
+    new-instance v0, Lcom/tencent/mm/d/a/KLclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/kl;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/KLclz;-><init>()V
 
     .line 998
-    iget-object v1, v0, Lcom/tencent/mm/d/a/kl;->aFv:Lcom/tencent/mm/d/a/kl$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/KLclz;->aFv:Lcom/tencent/mm/d/a/KLclz$a;
 
     const/4 v2, 0x1
 
-    iput-boolean v2, v1, Lcom/tencent/mm/d/a/kl$a;->aFy:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/d/a/KLclz$a;->aFy:Z
 
     .line 999
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 1000
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel$3$1;->hUN:Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel$3;

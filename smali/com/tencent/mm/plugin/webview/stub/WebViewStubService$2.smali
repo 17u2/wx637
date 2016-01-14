@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/webview/stub/WebViewStubService$2;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,14 +42,14 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 5
 
     .prologue
     const/4 v4, 0x0
 
     .line 1618
-    instance-of v0, p1, Lcom/tencent/mm/d/a/ho;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/HOclz;
 
     if-nez v0, :cond_1
 
@@ -60,7 +60,7 @@
 
     .line 1622
     :cond_1
-    check-cast p1, Lcom/tencent/mm/d/a/ho;
+    check-cast p1, Lcom/tencent/mm/d/a/HOclz;
 
     .line 1623
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService$2;->hBu:Lcom/tencent/mm/plugin/webview/stub/WebViewStubService;
@@ -77,9 +77,9 @@
 
     move-result-object v0
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/ho;->aCG:Lcom/tencent/mm/d/a/ho$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/HOclz;->aCG:Lcom/tencent/mm/d/a/HOclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/ho$a;->filePath:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/HOclz$a;->filePath:Ljava/lang/String;
 
     invoke-interface {v0, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
@@ -104,9 +104,9 @@
 
     move-result-object v0
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/ho;->aCG:Lcom/tencent/mm/d/a/ho$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/HOclz;->aCG:Lcom/tencent/mm/d/a/HOclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/ho$a;->filePath:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/HOclz$a;->filePath:Ljava/lang/String;
 
     invoke-interface {v0, v1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -120,9 +120,9 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v2, p1, Lcom/tencent/mm/d/a/ho;->aCG:Lcom/tencent/mm/d/a/ho$a;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/HOclz;->aCG:Lcom/tencent/mm/d/a/HOclz$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/a/ho$a;->aya:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/d/a/HOclz$a;->aya:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -132,7 +132,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1631
     :try_start_0
@@ -162,13 +162,13 @@
     .line 1632
     iget-object v0, v0, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewStubCallbackWrapper;->hCE:Lcom/tencent/mm/plugin/webview/stub/e;
 
-    iget-object v2, p1, Lcom/tencent/mm/d/a/ho;->aCG:Lcom/tencent/mm/d/a/ho$a;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/HOclz;->aCG:Lcom/tencent/mm/d/a/HOclz$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/a/ho$a;->filePath:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/d/a/HOclz$a;->filePath:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/ho;->aCG:Lcom/tencent/mm/d/a/ho$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/HOclz;->aCG:Lcom/tencent/mm/d/a/HOclz$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/ho$a;->aya:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/HOclz$a;->aya:Ljava/lang/String;
 
     invoke-interface {v0, v2, v3}, Lcom/tencent/mm/plugin/webview/stub/e;->by(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0

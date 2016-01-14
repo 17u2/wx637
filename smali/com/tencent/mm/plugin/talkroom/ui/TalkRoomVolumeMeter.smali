@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -60,7 +60,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -346,11 +346,11 @@
 
     iput-boolean v1, v0, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomVolumeMeter$a;->started:Z
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomVolumeMeter$a;->gQs:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomVolumeMeter$a;->gQs:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     const-wide/16 v1, 0x64
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     .line 92
     :cond_0
@@ -391,9 +391,9 @@
 
     :cond_3
     :goto_2
-    iget-object v0, v2, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomVolumeMeter$a;->gQs:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, v2, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomVolumeMeter$a;->gQs:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ag;->aOk()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOk()V
 
     goto :goto_1
 

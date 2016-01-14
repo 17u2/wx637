@@ -7,7 +7,7 @@
 .method public abstract Jw()Z
 .end method
 
-.method public abstract a(Lcom/tencent/mm/ui/base/preference/f;Lcom/tencent/mm/storage/Kclz;ZI)Z
+.method public abstract a(Lcom/tencent/mm/ui/base/preference/Fclz;Lcom/tencent/mm/storage/Kclz;ZI)Z
 .end method
 
 .method public abstract kN(Ljava/lang/String;)Z

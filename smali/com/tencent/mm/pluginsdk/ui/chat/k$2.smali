@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/sdk/platformtools/ag$a;
+.implements Lcom/tencent/mm/sdk/platformtools/AGclz$a;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,13 +50,13 @@
     .line 142
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/k$2;->hXg:Lcom/tencent/mm/pluginsdk/ui/chat/k;
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->hXa:Lcom/tencent/mm/ui/base/n;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->hXa:Lcom/tencent/mm/ui/base/Nclz;
 
     if-eqz v1, :cond_0
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->hXa:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->hXa:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/n;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Nclz;->dismiss()V
 
     .line 143
     :cond_0

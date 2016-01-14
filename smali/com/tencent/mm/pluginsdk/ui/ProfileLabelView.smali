@@ -24,7 +24,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,7 +42,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -81,7 +81,7 @@
 
     const v4, 0x7f0c0078
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {v3, v4}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v3
 
@@ -96,9 +96,9 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileLabelView;->dfb:Lcom/tencent/mm/storage/Kclz;
 
-    iget v0, v0, Lcom/tencent/mm/d/b/o;->field_type:I
+    iget v0, v0, Lcom/tencent/mm/d/b/Oclz;->field_type:I
 
-    invoke-static {v0}, Lcom/tencent/mm/h/a;->cf(I)Z
+    invoke-static {v0}, Lcom/tencent/mm/h/Aclz;->cf(I)Z
 
     move-result v0
 
@@ -107,7 +107,7 @@
     .line 66
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileLabelView;->dfb:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/model/Hclz;->dJ(Ljava/lang/String;)Z
 
@@ -128,7 +128,7 @@
     :cond_1
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileLabelView;->dfb:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v3, v0, Lcom/tencent/mm/d/b/o;->field_contactLabelIds:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/d/b/Oclz;->field_contactLabelIds:Ljava/lang/String;
 
     .line 71
     invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
@@ -142,7 +142,7 @@
     check-cast v0, Ljava/util/ArrayList;
 
     .line 72
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -176,7 +176,7 @@
 
     move-result-object v4
 
-    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -204,10 +204,10 @@
     :cond_3
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileLabelView;->dfb:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_encryptUsername:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/b/Oclz;->field_encryptUsername:Ljava/lang/String;
 
     .line 83
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -245,7 +245,7 @@
     check-cast v0, Ljava/util/ArrayList;
 
     .line 93
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -279,7 +279,7 @@
 
     move-result-object v4
 
-    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -306,7 +306,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileLabelView;->dfb:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v0, v3}, Lcom/tencent/mm/storage/ALclz;->Dv(Ljava/lang/String;)Lcom/tencent/mm/storage/AKclz;
 

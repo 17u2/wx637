@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -72,7 +72,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 77
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n$1;->igv:Lcom/tencent/mm/pluginsdk/ui/tools/n;
@@ -108,21 +108,21 @@
 
     .prologue
     .line 50
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/r;->aZ(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/tencent/mm/ak/Rclz;->aZ(Landroid/content/Context;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/ad/a;->aL(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/tencent/mm/ad/Aclz;->aL(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -139,7 +139,7 @@
 
     const-string/jumbo v1, "on voice search start"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 55
     sget-object v0, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;
@@ -202,7 +202,7 @@
 
     const-string/jumbo v1, "on voice search cancel"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 64
     sget-object v0, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;
@@ -238,23 +238,23 @@
     .line 65
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n$1;->igv:Lcom/tencent/mm/pluginsdk/ui/tools/n;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->kEO:Lcom/tencent/mm/ui/tools/g;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->kEO:Lcom/tencent/mm/ui/tools/Gclz;
 
     if-eqz v0, :cond_0
 
     .line 66
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n$1;->igv:Lcom/tencent/mm/pluginsdk/ui/tools/n;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->kEO:Lcom/tencent/mm/ui/tools/g;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->kEO:Lcom/tencent/mm/ui/tools/Gclz;
 
-    invoke-interface {v0, v5}, Lcom/tencent/mm/ui/tools/g;->setEditTextEnabled(Z)V
+    invoke-interface {v0, v5}, Lcom/tencent/mm/ui/tools/Gclz;->setEditTextEnabled(Z)V
 
     .line 67
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n$1;->igv:Lcom/tencent/mm/pluginsdk/ui/tools/n;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->kEO:Lcom/tencent/mm/ui/tools/g;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->kEO:Lcom/tencent/mm/ui/tools/Gclz;
 
-    invoke-interface {v0, v5}, Lcom/tencent/mm/ui/tools/g;->setStatusBtnEnabled(Z)V
+    invoke-interface {v0, v5}, Lcom/tencent/mm/ui/tools/Gclz;->setStatusBtnEnabled(Z)V
 
     .line 69
     :cond_0

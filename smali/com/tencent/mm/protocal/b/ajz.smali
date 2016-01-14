@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/protocal/b/ajz;
-.super Lcom/tencent/mm/aq/a;
+.super Lcom/tencent/mm/aq/Aclz;
 .source "SourceFile"
 
 
@@ -15,13 +15,13 @@
 
     .prologue
     .line 13
-    invoke-direct {p0}, Lcom/tencent/mm/aq/a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/aq/Aclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -65,7 +65,7 @@
     return-void
 .end method
 
-.method public final a(La/a/a/a/aclass;Lcom/tencent/mm/aq/a;I)Z
+.method public final a(La/a/a/a/aclass;Lcom/tencent/mm/aq/Aclz;I)Z
     .locals 2
 
     .prologue
@@ -104,7 +104,7 @@
     .end packed-switch
 .end method
 
-.method public final synthetic ak([B)Lcom/tencent/mm/aq/a;
+.method public final synthetic ak([B)Lcom/tencent/mm/aq/Aclz;
     .locals 2
 
     .prologue
@@ -125,7 +125,7 @@
     return-object p0
 
     :cond_0
-    invoke-virtual {p0, v1, p0, v0}, Lcom/tencent/mm/protocal/b/ajz;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/a;I)Z
+    invoke-virtual {p0, v1, p0, v0}, Lcom/tencent/mm/protocal/b/ajz;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/Aclz;I)Z
 
     move-result v0
 
@@ -171,7 +171,7 @@
     return v0
 .end method
 
-.method protected final bridge synthetic ky()Lcom/tencent/mm/aq/a;
+.method protected final bridge synthetic ky()Lcom/tencent/mm/aq/Aclz;
     .locals 0
 
     .prologue
@@ -184,7 +184,7 @@
 
     .prologue
     .line 58
-    invoke-super {p0}, Lcom/tencent/mm/aq/a;->toByteArray()[B
+    invoke-super {p0}, Lcom/tencent/mm/aq/Aclz;->toByteArray()[B
 
     move-result-object v0
 

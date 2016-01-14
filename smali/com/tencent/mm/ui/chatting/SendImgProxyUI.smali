@@ -8,7 +8,7 @@
 
 
 # instance fields
-.field private jtJ:Lcom/tencent/mm/ui/base/o;
+.field private jtJ:Lcom/tencent/mm/ui/base/Oclz;
 
 
 # direct methods
@@ -25,7 +25,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -41,13 +41,13 @@
     .line 46
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/SendImgProxyUI;->jtJ:Lcom/tencent/mm/ui/base/o;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/SendImgProxyUI;->jtJ:Lcom/tencent/mm/ui/base/Oclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -205,12 +205,12 @@
     goto :goto_1
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/chatting/SendImgProxyUI;)Lcom/tencent/mm/ui/base/o;
+.method static synthetic a(Lcom/tencent/mm/ui/chatting/SendImgProxyUI;)Lcom/tencent/mm/ui/base/Oclz;
     .locals 1
 
     .prologue
     .line 43
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/SendImgProxyUI;->jtJ:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/SendImgProxyUI;->jtJ:Lcom/tencent/mm/ui/base/Oclz;
 
     return-object v0
 .end method
@@ -228,7 +228,7 @@
 
     const-string/jumbo v1, "data is empty!"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -270,7 +270,7 @@
 
     const-string/jumbo v1, "filelist is empty!"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -323,13 +323,13 @@
 
     move-result-object v6
 
-    invoke-static {v0, v6}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/z/m;->zN()Lcom/tencent/mm/z/m;
+    invoke-static {}, Lcom/tencent/mm/z/Mclz;->zN()Lcom/tencent/mm/z/Mclz;
 
     move-result-object v0
 
-    invoke-virtual/range {v0 .. v5}, Lcom/tencent/mm/z/m;->a(Ljava/util/ArrayList;ZIILjava/lang/String;)V
+    invoke-virtual/range {v0 .. v5}, Lcom/tencent/mm/z/Mclz;->a(Ljava/util/ArrayList;ZIILjava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -386,7 +386,7 @@
 
     aput-object v3, v2, v5
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 53
     sget-boolean v0, Lcom/tencent/mm/ui/chatting/SendImgProxyUI;->bvK:Z
@@ -398,7 +398,7 @@
 
     const-string/jumbo v1, "duplicate instance"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 55
     invoke-virtual {p0}, Lcom/tencent/mm/ui/chatting/SendImgProxyUI;->finish()V
@@ -428,7 +428,7 @@
 
     const-string/jumbo v1, "AccHasNotReady"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 63
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tt()Z
@@ -443,14 +443,14 @@
 
     const/4 v1, 0x0
 
-    invoke-static {p0, v0, v4, v1}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {p0, v0, v4, v1}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/SendImgProxyUI;->jtJ:Lcom/tencent/mm/ui/base/o;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/SendImgProxyUI;->jtJ:Lcom/tencent/mm/ui/base/Oclz;
 
     .line 68
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     move-result-object v0
 
@@ -458,7 +458,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/chatting/SendImgProxyUI$1;-><init>(Lcom/tencent/mm/ui/chatting/SendImgProxyUI;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ac;->r(Ljava/lang/Runnable;)I
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ACclz;->r(Ljava/lang/Runnable;)I
 
     goto :goto_0
 .end method
@@ -498,7 +498,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 89
     invoke-super {p0}, Lcom/tencent/mm/ui/MMBaseActivity;->onDestroy()V
@@ -542,7 +542,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 95
     invoke-super {p0}, Lcom/tencent/mm/ui/MMBaseActivity;->onResume()V

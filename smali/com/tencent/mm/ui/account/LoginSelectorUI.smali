@@ -29,7 +29,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -88,11 +88,11 @@
     .line 65
     iget-object v0, p0, Lcom/tencent/mm/ui/account/LoginSelectorUI;->jCV:Landroid/widget/TextView;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/u;->da(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/Uclz;->da(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -108,7 +108,7 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 77
-    sget-boolean v0, Lcom/tencent/mm/sdk/platformtools/f;->jfg:Z
+    sget-boolean v0, Lcom/tencent/mm/sdk/platformtools/Fclz;->jfg:Z
 
     if-eqz v0, :cond_0
 
@@ -223,7 +223,7 @@
 
     aput-object v2, v1, v4
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/u;->aOg()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Uclz;->aOg()Ljava/lang/String;
 
     move-result-object v2
 
@@ -378,7 +378,7 @@
     invoke-virtual {p0}, Lcom/tencent/mm/ui/account/LoginSelectorUI;->finish()V
 
     .line 92
-    invoke-static {p0}, Lcom/tencent/mm/ui/base/b;->dT(Landroid/content/Context;)V
+    invoke-static {p0}, Lcom/tencent/mm/ui/base/Bclz;->dT(Landroid/content/Context;)V
 
     .line 94
     :cond_0

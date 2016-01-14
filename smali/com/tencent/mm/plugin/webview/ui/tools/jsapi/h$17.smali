@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,39 +52,39 @@
 
     .prologue
     .line 4772
-    new-instance v0, Lcom/tencent/mm/d/a/cr;
+    new-instance v0, Lcom/tencent/mm/d/a/CRclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/cr;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/CRclz;-><init>()V
 
     .line 4773
-    iget-object v1, v0, Lcom/tencent/mm/d/a/cr;->avH:Lcom/tencent/mm/d/a/cr$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CRclz;->avH:Lcom/tencent/mm/d/a/CRclz$a;
 
     const/4 v2, 0x1
 
-    iput v2, v1, Lcom/tencent/mm/d/a/cr$a;->op:I
+    iput v2, v1, Lcom/tencent/mm/d/a/CRclz$a;->op:I
 
     .line 4774
-    iget-object v1, v0, Lcom/tencent/mm/d/a/cr;->avH:Lcom/tencent/mm/d/a/cr$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CRclz;->avH:Lcom/tencent/mm/d/a/CRclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$17;->hHe:Lcom/tencent/mm/plugin/webview/c/v;
 
     iget-object v2, v2, Lcom/tencent/mm/plugin/webview/c/v;->hyu:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/cr$a;->filePath:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/CRclz$a;->filePath:Ljava/lang/String;
 
     .line 4775
-    iget-object v1, v0, Lcom/tencent/mm/d/a/cr;->avH:Lcom/tencent/mm/d/a/cr$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CRclz;->avH:Lcom/tencent/mm/d/a/CRclz$a;
 
     new-instance v2, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$17$1;
 
-    invoke-direct {v2, p0, v0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$17$1;-><init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$17;Lcom/tencent/mm/d/a/cr;)V
+    invoke-direct {v2, p0, v0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$17$1;-><init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$17;Lcom/tencent/mm/d/a/CRclz;)V
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/cr$a;->anq:Ljava/lang/Runnable;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/CRclz$a;->anq:Ljava/lang/Runnable;
 
     .line 4791
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 4792
     return-void

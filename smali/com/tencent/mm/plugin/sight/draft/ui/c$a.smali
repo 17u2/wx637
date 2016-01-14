@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,7 +56,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -71,7 +71,7 @@
     .line 67
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/draft/ui/c$a;->path:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/d;->Aw(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/Dclz;->Aw(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -90,7 +90,7 @@
     .line 70
     iget-object v2, p0, Lcom/tencent/mm/plugin/sight/draft/ui/c$a;->biF:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -99,11 +99,11 @@
     if-eqz v1, :cond_0
 
     .line 72
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/draft/ui/c;->fYo:Lcom/tencent/mm/a/e;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/draft/ui/c;->fYo:Lcom/tencent/mm/a/Eclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sight/draft/ui/c$a;->biF:Ljava/lang/String;
 
-    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/a/e;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/a/Eclz;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 74
     :cond_0
@@ -132,7 +132,7 @@
     if-eqz v1, :cond_1
 
     .line 79
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
 
     .line 82
     :cond_1

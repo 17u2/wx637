@@ -46,7 +46,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -63,7 +63,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -117,7 +117,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1114
     :goto_0
@@ -149,7 +149,7 @@
     .line 1105
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$c;->fWD:Lcom/tencent/mm/plugin/sight/decode/a/b$b;
 
-    invoke-static {v0, v6, v7}, Lcom/tencent/mm/ak/j;->b(Ljava/lang/Runnable;J)Z
+    invoke-static {v0, v6, v7}, Lcom/tencent/mm/ak/Jclz;->b(Ljava/lang/Runnable;J)Z
 
     goto :goto_0
 
@@ -185,7 +185,7 @@
     .line 1109
     iget-object v2, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$c;->fWD:Lcom/tencent/mm/plugin/sight/decode/a/b$b;
 
-    invoke-static {v2, v0, v1}, Lcom/tencent/mm/ak/j;->b(Ljava/lang/Runnable;J)Z
+    invoke-static {v2, v0, v1}, Lcom/tencent/mm/ak/Jclz;->b(Ljava/lang/Runnable;J)Z
 
     goto :goto_0
 
@@ -193,7 +193,7 @@
     :cond_2
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$c;->fWD:Lcom/tencent/mm/plugin/sight/decode/a/b$b;
 
-    invoke-static {v0, v6, v7}, Lcom/tencent/mm/ak/j;->b(Ljava/lang/Runnable;J)Z
+    invoke-static {v0, v6, v7}, Lcom/tencent/mm/ak/Jclz;->b(Ljava/lang/Runnable;J)Z
 
     goto :goto_0
 .end method

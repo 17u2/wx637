@@ -263,7 +263,7 @@
 
     move-result-object v3
 
-    invoke-static {v1, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 290
     invoke-interface {p2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -375,7 +375,7 @@
 
     move-result-object v1
 
-    invoke-static {v4, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -459,7 +459,7 @@
 
     aput-object v1, v6, v7
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     throw v1
     :try_end_0
@@ -476,14 +476,14 @@
 
     new-array v6, v10, [Ljava/lang/Object;
 
-    invoke-static {v4, v1, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v1, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 335
     invoke-static {p0}, Landroid/support/a/a;->g(Landroid/content/Context;)V
 
     .line 340
     :try_start_1
-    invoke-static {p0}, Lcom/tencent/mm/compatible/loader/f$a;->init(Landroid/content/Context;)V
+    invoke-static {p0}, Lcom/tencent/mm/compatible/loader/Fclz$a;->init(Landroid/content/Context;)V
 
     .line 341
     invoke-virtual {v2}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -521,7 +521,7 @@
 
     const-string/jumbo v4, "hotpatch plugin class loader do not support hotpatch, skipped"
 
-    invoke-static {v1, v4}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -538,7 +538,7 @@
 
     new-array v4, v10, [Ljava/lang/Object;
 
-    invoke-static {v2, v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 353
     :cond_3
@@ -559,7 +559,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 354
     return-void
@@ -629,11 +629,11 @@
 
     .line 331
     :cond_5
-    new-instance v1, Lcom/tencent/mm/compatible/loader/e;
+    new-instance v1, Lcom/tencent/mm/compatible/loader/Eclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/compatible/loader/e;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/compatible/loader/Eclz;-><init>()V
 
-    iget-object v1, v1, Lcom/tencent/mm/compatible/loader/e;->bmS:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/compatible/loader/Eclz;->bmS:Ljava/lang/String;
 
     sput-object v1, Lcom/tencent/mm/loader/stub/BaseBuildInfo;->bpU:Ljava/lang/String;
     :try_end_2
@@ -652,7 +652,7 @@
 
     move-result-object v4
 
-    invoke-static {v1, v4}, Lcom/tencent/mm/compatible/loader/f$a;->t(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/ClassLoader;
+    invoke-static {v1, v4}, Lcom/tencent/mm/compatible/loader/Fclz$a;->t(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/ClassLoader;
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
 
@@ -750,7 +750,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 381
     :try_start_0
@@ -855,7 +855,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 136
     sget-boolean v0, Landroid/support/a/a;->X:Z
@@ -903,7 +903,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 147
     :goto_1
@@ -920,7 +920,7 @@
 
     const-string/jumbo v3, "preloaded dex files not empty, skipped preloading"
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 151
     :cond_1
@@ -949,7 +949,7 @@
 
     const-string/jumbo v1, "classloader is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -966,7 +966,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/loader/stub/d;->d(Ljava/io/InputStream;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/loader/stub/Dclz;->d(Ljava/io/InputStream;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -976,7 +976,7 @@
 
     sput-object v0, Landroid/support/a/a;->ah:Ljava/util/Set;
 
-    invoke-static {p0}, Lcom/tencent/mm/compatible/loader/b;->at(Landroid/content/Context;)[Ljava/lang/String;
+    invoke-static {p0}, Lcom/tencent/mm/compatible/loader/Bclz;->at(Landroid/content/Context;)[Ljava/lang/String;
 
     move-result-object v0
 
@@ -1020,7 +1020,7 @@
 
     aput-object v7, v5, v6
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     sget-object v3, Landroid/support/a/a;->ah:Ljava/util/Set;
 
@@ -1053,7 +1053,7 @@
 
     const-string/jumbo v3, "load preload libraries failed"
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -1135,7 +1135,7 @@
 
     const-string/jumbo v1, "extract: create target dex directory failed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 168
     const/4 v0, 0x0
@@ -1182,7 +1182,7 @@
 
     const-string/jumbo v1, "extract: create target dexopt directory failed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 177
     const/4 v0, 0x0
@@ -1245,7 +1245,7 @@
 
     aput-object v10, v8, v9
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 183
     if-nez p1, :cond_c
@@ -1284,7 +1284,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 185
     const/4 v0, 0x0
@@ -1344,7 +1344,7 @@
 
     aput-object v10, v8, v9
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 192
     new-instance v6, Ljava/lang/StringBuilder;
@@ -1386,7 +1386,7 @@
     if-eqz v8, :cond_e
 
     .line 196
-    invoke-static {v7}, Lcom/tencent/mm/a/f;->f(Ljava/io/File;)Ljava/lang/String;
+    invoke-static {v7}, Lcom/tencent/mm/a/Fclz;->f(Ljava/io/File;)Ljava/lang/String;
 
     move-result-object v8
 
@@ -1428,7 +1428,7 @@
 
     aput-object v9, v8, v7
 
-    invoke-static {v0, v6, v8}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v6, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -1451,7 +1451,7 @@
 
     aput-object v0, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 274
     const-string/jumbo v1, "!32@/B4Tb64lLpL3kTy0Bk5l1Kdk/bhwv2uM"
@@ -1462,7 +1462,7 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 275
     invoke-static {p0}, Landroid/support/a/a;->g(Landroid/content/Context;)V
@@ -1519,7 +1519,7 @@
 
     aput-object v11, v10, v8
 
-    invoke-static {v7, v9, v10}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v7, v9, v10}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 206
     if-nez p1, :cond_f
@@ -1537,7 +1537,7 @@
 
     aput-object v6, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 208
     const/4 v0, 0x0
@@ -1561,7 +1561,7 @@
 
     aput-object v6, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 214
     const/4 v0, 0x0
@@ -1585,7 +1585,7 @@
 
     const-string/jumbo v1, "hotpatch file mismatched, invalid patch file passed extra code check"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 219
     new-instance v0, Ljava/lang/RuntimeException;
@@ -1598,7 +1598,7 @@
 
     .line 223
     :cond_10
-    invoke-static {v6}, Lcom/tencent/mm/loader/stub/b;->deleteFile(Ljava/lang/String;)Z
+    invoke-static {v6}, Lcom/tencent/mm/loader/stub/Bclz;->deleteFile(Ljava/lang/String;)Z
 
     .line 224
     invoke-interface {v4, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -1766,7 +1766,7 @@
 
     move-result-object v0
 
-    invoke-static {v7, v0}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v7, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 248
     if-nez v1, :cond_17
@@ -1798,7 +1798,7 @@
 
     aput-object v10, v8, v9
 
-    invoke-static {v0, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     move v0, v1
 
@@ -1891,7 +1891,7 @@
 
     const-string/jumbo v1, "install done"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 282
     const/4 v0, 0x1
@@ -1949,7 +1949,7 @@
 
     aput-object v0, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 .end method
@@ -2007,7 +2007,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_2
     .catch Ljava/util/zip/ZipException; {:try_start_2 .. :try_end_2} :catch_1
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_2
@@ -2053,7 +2053,7 @@
 
     aput-object v2, v0, v1
 
-    invoke-static {v3, v4, v0}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_1
 
@@ -2086,7 +2086,7 @@
 
     aput-object v2, v0, v1
 
-    invoke-static {v3, v4, v0}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_1
 .end method
@@ -2200,7 +2200,7 @@
 
     aput-object v5, v10, v13
 
-    invoke-static {v8, v9, v10}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v8, v9, v10}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 496
     if-eqz v6, :cond_3
@@ -2311,7 +2311,7 @@
 
     aput-object v9, v8, v11
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 104
     cmp-long v2, v2, v4
@@ -2327,7 +2327,7 @@
 
     move-result v2
 
-    invoke-static {p0, v2}, Lcom/tencent/mm/loader/stub/d;->d(Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {p0, v2}, Lcom/tencent/mm/loader/stub/Dclz;->d(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -2354,7 +2354,7 @@
 
     aput-object v0, v5, v12
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 109
     const-string/jumbo v0, ""
@@ -2414,7 +2414,7 @@
 
     const-string/jumbo v3, "get db spare space error"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move-wide v2, v4
 

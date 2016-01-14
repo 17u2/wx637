@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/sns/ui/SnsSingleTextViewUI$2;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 7
 
     .prologue
@@ -53,7 +53,7 @@
     const/4 v2, 0x1
 
     .line 70
-    instance-of v0, p1, Lcom/tencent/mm/d/a/js;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/JSclz;
 
     if-eqz v0, :cond_0
 
@@ -66,7 +66,7 @@
     if-eqz v0, :cond_0
 
     .line 71
-    check-cast p1, Lcom/tencent/mm/d/a/js;
+    check-cast p1, Lcom/tencent/mm/d/a/JSclz;
 
     .line 72
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSingleTextViewUI$2;->gCs:Lcom/tencent/mm/plugin/sns/ui/SnsSingleTextViewUI;
@@ -79,9 +79,9 @@
 
     move-result-object v0
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/js;->aEM:Lcom/tencent/mm/d/a/js$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/JSclz;->aEM:Lcom/tencent/mm/d/a/JSclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/js$a;->id:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/JSclz$a;->id:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -103,17 +103,17 @@
     invoke-static {v0, v5}, Lcom/tencent/mm/plugin/sns/d/an;->al(Ljava/lang/String;I)V
 
     .line 75
-    iget-object v0, p1, Lcom/tencent/mm/d/a/js;->aEM:Lcom/tencent/mm/d/a/js$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/JSclz;->aEM:Lcom/tencent/mm/d/a/JSclz$a;
 
-    iget-object v3, v0, Lcom/tencent/mm/d/a/js$a;->aya:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/d/a/JSclz$a;->aya:Ljava/lang/String;
 
     .line 76
-    iget-object v0, p1, Lcom/tencent/mm/d/a/js;->aEM:Lcom/tencent/mm/d/a/js$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/JSclz;->aEM:Lcom/tencent/mm/d/a/JSclz$a;
 
-    iget-object v4, v0, Lcom/tencent/mm/d/a/js$a;->aEN:Ljava/lang/String;
+    iget-object v4, v0, Lcom/tencent/mm/d/a/JSclz$a;->aEN:Ljava/lang/String;
 
     .line 78
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 

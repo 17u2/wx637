@@ -40,7 +40,7 @@
     iput-boolean v0, p0, Lcom/tencent/mm/plugin/webview/c/af$d;->hze:Z
 
     .line 408
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v0
 
@@ -51,7 +51,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

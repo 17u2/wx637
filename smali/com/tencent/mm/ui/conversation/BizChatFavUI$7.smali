@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -248,7 +248,7 @@
 
     const-string/jumbo v2, ";"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -269,20 +269,20 @@
 
     move-result-object v0
 
-    iget-object v1, v0, Lcom/tencent/mm/s/Jclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v1, v0, Lcom/tencent/mm/s/Jclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     .line 560
     const-wide/16 v2, 0x0
 
     .line 561
-    instance-of v0, v1, Lcom/tencent/mm/aw/g;
+    instance-of v0, v1, Lcom/tencent/mm/aw/Gclz;
 
     if-eqz v0, :cond_3
 
     move-object v0, v1
 
     .line 562
-    check-cast v0, Lcom/tencent/mm/aw/g;
+    check-cast v0, Lcom/tencent/mm/aw/Gclz;
 
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
@@ -292,7 +292,7 @@
 
     move-result-wide v2
 
-    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/aw/g;->du(J)J
+    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/aw/Gclz;->du(J)J
 
     move-result-wide v2
 
@@ -392,7 +392,7 @@
 
     .line 579
     :cond_6
-    instance-of v0, v1, Lcom/tencent/mm/aw/g;
+    instance-of v0, v1, Lcom/tencent/mm/aw/Gclz;
 
     if-eqz v0, :cond_7
 
@@ -401,9 +401,9 @@
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v0, v0, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/Gclz;
 
-    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/aw/g;->dv(J)I
+    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/aw/Gclz;->dv(J)I
 
     .line 582
     :cond_7
@@ -411,7 +411,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/conversation/BizChatFavUI$7$1;-><init>(Lcom/tencent/mm/ui/conversation/BizChatFavUI$7;)V
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
 
     .line 588
     const-string/jumbo v0, "!32@/B4Tb64lLpKy3Chyc6XXOebcOF43B0Yg"
@@ -432,7 +432,7 @@
 
     aput-object v3, v2, v10
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 589
     return-void

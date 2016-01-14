@@ -1,5 +1,5 @@
 .class public abstract Lcom/tencent/mm/plugin/search/ui/a/b;
-.super Lcom/tencent/mm/ui/e/a/a;
+.super Lcom/tencent/mm/ui/e/a/Aclz;
 .source "SourceFile"
 
 
@@ -15,7 +15,7 @@
 # instance fields
 .field public cEm:Ljava/util/List;
 
-.field public cFi:Lcom/tencent/mm/modelsearch/k$g;
+.field public cFi:Lcom/tencent/mm/modelsearch/Kclz$g;
 
 .field public cFj:Ljava/lang/CharSequence;
 
@@ -36,7 +36,7 @@
     .line 77
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0, p1}, Lcom/tencent/mm/ui/e/a/a;-><init>(II)V
+    invoke-direct {p0, v0, p1}, Lcom/tencent/mm/ui/e/a/Aclz;-><init>(II)V
 
     .line 80
     new-instance v0, Lcom/tencent/mm/plugin/search/ui/a/b$a;
@@ -50,7 +50,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

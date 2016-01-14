@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -320,42 +320,42 @@
     if-le v0, v8, :cond_6
 
     .line 262
-    new-instance v0, Lcom/tencent/mm/ui/tools/l;
+    new-instance v0, Lcom/tencent/mm/ui/tools/Lclz;
 
     iget-object v5, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI$1;->kzt:Lcom/tencent/mm/ui/friend/InviteFriendUI;
 
-    invoke-direct {v0, v5}, Lcom/tencent/mm/ui/tools/l;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v5}, Lcom/tencent/mm/ui/tools/Lclz;-><init>(Landroid/content/Context;)V
 
     .line 263
     new-instance v5, Lcom/tencent/mm/ui/friend/InviteFriendUI$1$1;
 
     invoke-direct {v5, p0, v4, v1}, Lcom/tencent/mm/ui/friend/InviteFriendUI$1$1;-><init>(Lcom/tencent/mm/ui/friend/InviteFriendUI$1;Ljava/util/HashMap;Landroid/content/pm/PackageManager;)V
 
-    iput-object v5, v0, Lcom/tencent/mm/ui/tools/l;->kEc:Lcom/tencent/mm/ui/base/m$a;
+    iput-object v5, v0, Lcom/tencent/mm/ui/tools/Lclz;->kEc:Lcom/tencent/mm/ui/base/Mclz$a;
 
     .line 271
     new-instance v5, Lcom/tencent/mm/ui/friend/InviteFriendUI$1$2;
 
     invoke-direct {v5, p0, v4, v1}, Lcom/tencent/mm/ui/friend/InviteFriendUI$1$2;-><init>(Lcom/tencent/mm/ui/friend/InviteFriendUI$1;Ljava/util/HashMap;Landroid/content/pm/PackageManager;)V
 
-    iput-object v5, v0, Lcom/tencent/mm/ui/tools/l;->kEd:Lcom/tencent/mm/ui/base/m$b;
+    iput-object v5, v0, Lcom/tencent/mm/ui/tools/Lclz;->kEd:Lcom/tencent/mm/ui/base/Mclz$b;
 
     .line 280
     new-instance v1, Lcom/tencent/mm/ui/friend/InviteFriendUI$1$3;
 
     invoke-direct {v1, p0, v4}, Lcom/tencent/mm/ui/friend/InviteFriendUI$1$3;-><init>(Lcom/tencent/mm/ui/friend/InviteFriendUI$1;Ljava/util/HashMap;)V
 
-    iput-object v1, v0, Lcom/tencent/mm/ui/tools/l;->kDY:Lcom/tencent/mm/ui/base/m$c;
+    iput-object v1, v0, Lcom/tencent/mm/ui/tools/Lclz;->kDY:Lcom/tencent/mm/ui/base/Mclz$c;
 
     .line 290
     new-instance v1, Lcom/tencent/mm/ui/friend/InviteFriendUI$1$4;
 
     invoke-direct {v1, p0, v4, v3, v2}, Lcom/tencent/mm/ui/friend/InviteFriendUI$1$4;-><init>(Lcom/tencent/mm/ui/friend/InviteFriendUI$1;Ljava/util/HashMap;Landroid/net/Uri;Ljava/lang/String;)V
 
-    iput-object v1, v0, Lcom/tencent/mm/ui/tools/l;->kDZ:Lcom/tencent/mm/ui/base/m$d;
+    iput-object v1, v0, Lcom/tencent/mm/ui/tools/Lclz;->kDZ:Lcom/tencent/mm/ui/base/Mclz$d;
 
     .line 303
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/tools/l;->bbE()Landroid/app/Dialog;
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/tools/Lclz;->bbE()Landroid/app/Dialog;
 
     .line 306
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI$1;->kzt:Lcom/tencent/mm/ui/friend/InviteFriendUI;
@@ -388,14 +388,14 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/a/n;->aD(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/tencent/mm/a/Nclz;->aD(Ljava/lang/String;)I
 
     move-result v1
 
     aput v1, v0, v4
 
     .line 345
-    new-instance v1, Lcom/tencent/mm/ui/friend/g;
+    new-instance v1, Lcom/tencent/mm/ui/friend/Gclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI$1;->kzt:Lcom/tencent/mm/ui/friend/InviteFriendUI;
 
@@ -403,16 +403,16 @@
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/ui/friend/InviteFriendUI$1$5;-><init>(Lcom/tencent/mm/ui/friend/InviteFriendUI$1;)V
 
-    invoke-direct {v1, v2, v3}, Lcom/tencent/mm/ui/friend/g;-><init>(Landroid/content/Context;Lcom/tencent/mm/ui/friend/g$a;)V
+    invoke-direct {v1, v2, v3}, Lcom/tencent/mm/ui/friend/Gclz;-><init>(Landroid/content/Context;Lcom/tencent/mm/ui/friend/Gclz$a;)V
 
     .line 354
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/friend/g;->l([I)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/friend/Gclz;->l([I)V
 
     goto/16 :goto_0
 
     .line 358
     :pswitch_2
-    new-instance v0, Lcom/tencent/mm/ui/friend/h;
+    new-instance v0, Lcom/tencent/mm/ui/friend/Hclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI$1;->kzt:Lcom/tencent/mm/ui/friend/InviteFriendUI;
 
@@ -420,7 +420,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ui/friend/InviteFriendUI$1$6;-><init>(Lcom/tencent/mm/ui/friend/InviteFriendUI$1;)V
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/ui/friend/h;-><init>(Landroid/content/Context;Lcom/tencent/mm/ui/friend/h$a;)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/ui/friend/Hclz;-><init>(Landroid/content/Context;Lcom/tencent/mm/ui/friend/Hclz$a;)V
 
     .line 368
     iget-object v1, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI$1;->kzt:Lcom/tencent/mm/ui/friend/InviteFriendUI;
@@ -443,11 +443,11 @@
 
     invoke-virtual {v3, v4, v0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zi()Lcom/tencent/mm/modelfriend/p;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zi()Lcom/tencent/mm/modelfriend/Pclz;
 
     move-result-object v3
 
-    invoke-virtual {v3, v1}, Lcom/tencent/mm/modelfriend/p;->hl(Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v3, v1}, Lcom/tencent/mm/modelfriend/Pclz;->hl(Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v1
 
@@ -460,7 +460,7 @@
     if-gt v3, v8, :cond_8
 
     :cond_7
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/ui/friend/h;->Fg(Ljava/lang/String;)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/ui/friend/Hclz;->Fg(Ljava/lang/String;)V
 
     :goto_2
     if-eqz v1, :cond_0
@@ -470,7 +470,7 @@
     goto/16 :goto_0
 
     :cond_8
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/friend/h;->j(Landroid/database/Cursor;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/friend/Hclz;->j(Landroid/database/Cursor;)V
 
     goto :goto_2
 
@@ -532,7 +532,7 @@
 
     const-string/jumbo v3, "com.tencent.mm.ui.bindlinkedin.InviteLinkedInFriendUI"
 
-    invoke-static {v0, v2, v3, v1}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {v0, v2, v3, v1}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     .line 378
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI$1;->kzt:Lcom/tencent/mm/ui/friend/InviteFriendUI;

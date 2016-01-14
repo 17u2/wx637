@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,7 +50,7 @@
     .line 103
     iget-object v0, p0, Lcom/tencent/mm/ui/base/preference/DialogPreference$1;->jTW:Lcom/tencent/mm/ui/base/preference/DialogPreference;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/base/preference/DialogPreference;->a(Lcom/tencent/mm/ui/base/preference/DialogPreference;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0}, Lcom/tencent/mm/ui/base/preference/DialogPreference;->a(Lcom/tencent/mm/ui/base/preference/DialogPreference;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -59,11 +59,11 @@
     .line 104
     iget-object v0, p0, Lcom/tencent/mm/ui/base/preference/DialogPreference$1;->jTW:Lcom/tencent/mm/ui/base/preference/DialogPreference;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/base/preference/DialogPreference;->a(Lcom/tencent/mm/ui/base/preference/DialogPreference;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0}, Lcom/tencent/mm/ui/base/preference/DialogPreference;->a(Lcom/tencent/mm/ui/base/preference/DialogPreference;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->dismiss()V
 
     .line 107
     :cond_0
@@ -71,11 +71,11 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/base/preference/DialogPreference$1;->jTW:Lcom/tencent/mm/ui/base/preference/DialogPreference;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/base/preference/DialogPreference;->b(Lcom/tencent/mm/ui/base/preference/DialogPreference;)Lcom/tencent/mm/ui/base/preference/d;
+    invoke-static {v0}, Lcom/tencent/mm/ui/base/preference/DialogPreference;->b(Lcom/tencent/mm/ui/base/preference/DialogPreference;)Lcom/tencent/mm/ui/base/preference/Dclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/base/preference/d;->jTR:[Ljava/lang/CharSequence;
+    iget-object v0, v0, Lcom/tencent/mm/ui/base/preference/Dclz;->jTR:[Ljava/lang/CharSequence;
 
     aget-object v0, v0, p3
 

@@ -55,7 +55,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -99,7 +99,7 @@
 
     aput-object v3, v2, v7
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 123
     :cond_0
@@ -116,13 +116,13 @@
     .line 100
     const/16 v0, 0x2720
 
-    sget v1, Lcom/tencent/mm/platformtools/r;->ceI:I
+    sget v1, Lcom/tencent/mm/platformtools/Rclz;->ceI:I
 
     if-ne v0, v1, :cond_2
 
-    sget-object v0, Lcom/tencent/mm/platformtools/r;->ceK:Ljava/lang/String;
+    sget-object v0, Lcom/tencent/mm/platformtools/Rclz;->ceK:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -135,14 +135,14 @@
 
     new-array v4, v8, [Ljava/lang/Object;
 
-    sget-object v5, Lcom/tencent/mm/platformtools/r;->ceK:Ljava/lang/String;
+    sget-object v5, Lcom/tencent/mm/platformtools/Rclz;->ceK:Ljava/lang/String;
 
     aput-object v5, v4, v7
 
-    invoke-static {v0, v1, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 102
-    sget-object v0, Lcom/tencent/mm/platformtools/r;->ceK:Ljava/lang/String;
+    sget-object v0, Lcom/tencent/mm/platformtools/Rclz;->ceK:Ljava/lang/String;
 
     const-string/jumbo v1, ","
 
@@ -162,7 +162,7 @@
 
     const/4 v4, -0x1
 
-    invoke-static {v1, v4}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v1, v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v1
 
@@ -181,14 +181,14 @@
     .line 105
     aget-object v1, v0, v8
 
-    invoke-static {v1, v7}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v1, v7}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v2
 
     .line 106
     aget-object v0, v0, v6
 
-    invoke-static {v0, v7}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v0, v7}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v3
 
@@ -252,7 +252,7 @@
 
     aput-object v6, v4, v5
 
-    invoke-static {v0, v1, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 113
     iget-object v0, p0, Lcom/tencent/mm/q/Oclz$2;->byR:Lcom/tencent/mm/q/Oclz;
@@ -321,10 +321,10 @@
 
     aput-object v3, v2, v7
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 116
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->appenderFlush()V
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->appenderFlush()V
 
     goto/16 :goto_0
 .end method

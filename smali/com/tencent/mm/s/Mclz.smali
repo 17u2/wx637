@@ -18,7 +18,7 @@
 
     const-string/jumbo v1, "updateBrandFlagForTempSession bizInfo is Null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 140
     :goto_0
@@ -45,17 +45,17 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/c;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/Cclz;
 
     move-result-object v1
 
-    new-instance v2, Lcom/tencent/mm/ae/b$a;
+    new-instance v2, Lcom/tencent/mm/ae/Bclz$a;
 
     const/16 v3, 0x3a
 
-    invoke-direct {v2, v3, v0}, Lcom/tencent/mm/ae/b$a;-><init>(ILcom/tencent/mm/aq/a;)V
+    invoke-direct {v2, v3, v0}, Lcom/tencent/mm/ae/Bclz$a;-><init>(ILcom/tencent/mm/aq/Aclz;)V
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/ae/c;->b(Lcom/tencent/mm/ae/b$q;)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/ae/Cclz;->b(Lcom/tencent/mm/ae/Bclz$q;)V
 
     .line 138
     invoke-static {}, Lcom/tencent/mm/s/AIclz;->xq()Lcom/tencent/mm/s/Lclz;
@@ -64,7 +64,7 @@
 
     new-array v1, v4, [Ljava/lang/String;
 
-    invoke-virtual {v0, p0, v1}, Lcom/tencent/mm/s/Lclz;->a(Lcom/tencent/mm/sdk/g/c;[Ljava/lang/String;)Z
+    invoke-virtual {v0, p0, v1}, Lcom/tencent/mm/s/Lclz;->a(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
 
     move-result v0
 
@@ -93,7 +93,7 @@
 
     aput-object v4, v3, v0
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 .end method
@@ -125,17 +125,17 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/c;
+    invoke-virtual {v1}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/Cclz;
 
     move-result-object v1
 
-    new-instance v2, Lcom/tencent/mm/ae/b$a;
+    new-instance v2, Lcom/tencent/mm/ae/Bclz$a;
 
     const/16 v3, 0x2f
 
-    invoke-direct {v2, v3, v0}, Lcom/tencent/mm/ae/b$a;-><init>(ILcom/tencent/mm/aq/a;)V
+    invoke-direct {v2, v3, v0}, Lcom/tencent/mm/ae/Bclz$a;-><init>(ILcom/tencent/mm/aq/Aclz;)V
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/ae/c;->b(Lcom/tencent/mm/ae/b$q;)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/ae/Cclz;->b(Lcom/tencent/mm/ae/Bclz$q;)V
 
     .line 148
     invoke-static {}, Lcom/tencent/mm/s/AIclz;->xq()Lcom/tencent/mm/s/Lclz;
@@ -146,7 +146,7 @@
 
     new-array v1, v1, [Ljava/lang/String;
 
-    invoke-virtual {v0, p0, v1}, Lcom/tencent/mm/s/Lclz;->a(Lcom/tencent/mm/sdk/g/c;[Ljava/lang/String;)Z
+    invoke-virtual {v0, p0, v1}, Lcom/tencent/mm/s/Lclz;->a(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
 
     .line 150
     :cond_0

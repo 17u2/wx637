@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -101,7 +101,7 @@
     .line 88
     iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI$2;->jWQ:Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;
 
-    new-instance v1, Lcom/tencent/mm/ab/b;
+    new-instance v1, Lcom/tencent/mm/ab/Bclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI$2;->jWQ:Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;
 
@@ -137,9 +137,9 @@
 
     move-result-object v4
 
-    invoke-direct {v1, v2, v3, v4}, Lcom/tencent/mm/ab/b;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v2, v3, v4}, Lcom/tencent/mm/ab/Bclz;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;->a(Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;Lcom/tencent/mm/ab/b;)Lcom/tencent/mm/ab/b;
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;->a(Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;Lcom/tencent/mm/ab/Bclz;)Lcom/tencent/mm/ab/Bclz;
 
     .line 89
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -148,7 +148,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI$2;->jWQ:Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;->d(Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;)Lcom/tencent/mm/ab/b;
+    invoke-static {v1}, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;->d(Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;)Lcom/tencent/mm/ab/Bclz;
 
     move-result-object v1
 
@@ -171,7 +171,7 @@
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI$2$1;-><init>(Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI$2;)V
 
-    invoke-static {v1, v2, v5, v3}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v1, v2, v5, v3}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v1
 

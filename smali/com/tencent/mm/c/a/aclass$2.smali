@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/modelvoice/d$a;
+.implements Lcom/tencent/mm/modelvoice/Dclz$a;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,25 +50,25 @@
     .line 237
     iget-object v0, p0, Lcom/tencent/mm/c/a/aclass$2;->aoW:Lcom/tencent/mm/c/a/aclass;
 
-    iget-object v0, v0, Lcom/tencent/mm/c/a/aclass;->aoR:Lcom/tencent/mm/compatible/util/a;
+    iget-object v0, v0, Lcom/tencent/mm/c/a/aclass;->aoR:Lcom/tencent/mm/compatible/util/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/compatible/util/a;->oX()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/compatible/util/Aclz;->oX()Z
 
     .line 238
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/Dclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/c/a/aclass$2;->aoW:Lcom/tencent/mm/c/a/aclass;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/compatible/b/d;->b(Lcom/tencent/mm/compatible/b/d$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/compatible/b/Dclz;->b(Lcom/tencent/mm/compatible/b/Dclz$a;)V
 
     .line 239
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/Dclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/compatible/b/d;->nP()V
+    invoke-virtual {v0}, Lcom/tencent/mm/compatible/b/Dclz;->nP()V
 
     .line 240
     new-instance v0, Lcom/tencent/mm/c/a/aclass$2$1;
@@ -77,7 +77,7 @@
 
     const-string/jumbo v1, "SceneVoice_onCompletion"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/h/e;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/h/Eclz;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
 
     .line 282
     return-void

@@ -54,7 +54,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -95,7 +95,7 @@
 
     const-string/jumbo v1, "is verifying, wait a minute"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -103,13 +103,13 @@
     :cond_0
     iput-boolean v3, p0, Lcom/tencent/mm/ui/account/EmailVerifyUI;->jBd:Z
 
-    new-instance v0, Lcom/tencent/mm/modelfriend/w;
+    new-instance v0, Lcom/tencent/mm/modelfriend/Wclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/account/EmailVerifyUI;->jAZ:Ljava/lang/String;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/account/EmailVerifyUI;->jBb:Ljava/lang/String;
 
-    invoke-direct {v0, v1, v2, p1}, Lcom/tencent/mm/modelfriend/w;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2, p1}, Lcom/tencent/mm/modelfriend/Wclz;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
@@ -129,9 +129,9 @@
 
     new-instance v2, Lcom/tencent/mm/ui/account/EmailVerifyUI$7;
 
-    invoke-direct {v2, p0, v0}, Lcom/tencent/mm/ui/account/EmailVerifyUI$7;-><init>(Lcom/tencent/mm/ui/account/EmailVerifyUI;Lcom/tencent/mm/modelfriend/w;)V
+    invoke-direct {v2, p0, v0}, Lcom/tencent/mm/ui/account/EmailVerifyUI$7;-><init>(Lcom/tencent/mm/ui/account/EmailVerifyUI;Lcom/tencent/mm/modelfriend/Wclz;)V
 
-    invoke-static {p0, v1, v3, v2}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {p0, v1, v3, v2}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
@@ -283,7 +283,7 @@
     .line 93
     iget-object v0, p0, Lcom/tencent/mm/ui/account/EmailVerifyUI;->jAZ:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -342,7 +342,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 102
     const v0, 0x7f0e0f6a
@@ -407,7 +407,7 @@
     .line 151
     iget-object v0, p0, Lcom/tencent/mm/ui/account/EmailVerifyUI;->jBa:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -415,7 +415,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/account/EmailVerifyUI;->jAZ:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -462,7 +462,7 @@
 
     const-string/jumbo v1, "email add is null or nill"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -535,7 +535,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 264
     iput-boolean v2, p0, Lcom/tencent/mm/ui/account/EmailVerifyUI;->jBd:Z
@@ -588,7 +588,7 @@
 
     aput-object v4, v1, v2
 
-    invoke-static {v0, v3, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 307
     :cond_1
@@ -599,9 +599,9 @@
     move-object v0, p4
 
     .line 274
-    check-cast v0, Lcom/tencent/mm/modelfriend/w;
+    check-cast v0, Lcom/tencent/mm/modelfriend/Wclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/modelfriend/w;->byM:Lcom/tencent/mm/network/Oclz;
+    iget-object v0, v0, Lcom/tencent/mm/modelfriend/Wclz;->byM:Lcom/tencent/mm/network/Oclz;
 
     invoke-interface {v0}, Lcom/tencent/mm/network/Oclz;->vn()Lcom/tencent/mm/protocal/Hclz$c;
 
@@ -636,9 +636,9 @@
     move-object v0, p4
 
     .line 279
-    check-cast v0, Lcom/tencent/mm/modelfriend/w;
+    check-cast v0, Lcom/tencent/mm/modelfriend/Wclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/modelfriend/w;->byM:Lcom/tencent/mm/network/Oclz;
+    iget-object v0, v0, Lcom/tencent/mm/modelfriend/Wclz;->byM:Lcom/tencent/mm/network/Oclz;
 
     invoke-interface {v0}, Lcom/tencent/mm/network/Oclz;->tJ()Lcom/tencent/mm/protocal/Hclz$d;
 
@@ -672,9 +672,9 @@
     .line 283
     const-string/jumbo v0, "regsetinfo_NextStyle"
 
-    check-cast p4, Lcom/tencent/mm/modelfriend/w;
+    check-cast p4, Lcom/tencent/mm/modelfriend/Wclz;
 
-    invoke-virtual {p4}, Lcom/tencent/mm/modelfriend/w;->yC()I
+    invoke-virtual {p4}, Lcom/tencent/mm/modelfriend/Wclz;->yC()I
 
     move-result v2
 
@@ -769,7 +769,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/ui/base/f;->aS(Landroid/content/Context;Ljava/lang/String;)Landroid/widget/Toast;
+    invoke-static {p0, v0}, Lcom/tencent/mm/ui/base/Fclz;->aS(Landroid/content/Context;Ljava/lang/String;)Landroid/widget/Toast;
 
     goto/16 :goto_0
 
@@ -779,7 +779,7 @@
 
     const-string/jumbo v1, "err opcode"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -841,7 +841,7 @@
     :pswitch_0
     const v0, 0x7f090185
 
-    invoke-static {p0, v0, v7, v6}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v7, v6}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -908,7 +908,7 @@
     :pswitch_1
     const v0, 0x7f090186
 
-    invoke-static {p0, v0, v7, v6}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v7, v6}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     move v0, v1
 

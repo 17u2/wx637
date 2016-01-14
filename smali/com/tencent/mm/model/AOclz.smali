@@ -33,7 +33,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -399,7 +399,7 @@
 
     const-string/jumbo v2, "has abtest case. ignore bind bind contacts banner."
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_2
     move-object v0, v1
@@ -413,15 +413,15 @@
 
     const-string/jumbo v2, "already Bind the Mobile"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
     .line 149
     :sswitch_2
-    invoke-static {}, Lcom/tencent/mm/p/n;->ve()Lcom/tencent/mm/p/n;
+    invoke-static {}, Lcom/tencent/mm/p/Nclz;->ve()Lcom/tencent/mm/p/Nclz;
 
-    invoke-static {}, Lcom/tencent/mm/p/n;->vi()Z
+    invoke-static {}, Lcom/tencent/mm/p/Nclz;->vi()Z
 
     move-result v0
 
@@ -432,7 +432,7 @@
 
     const-string/jumbo v2, "avatar already existed"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, v1
 
@@ -476,7 +476,7 @@
 
     const-string/jumbo v2, "has abtest case. ignore bind upload contacts banner."
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_3
     move-object v0, v1
@@ -490,7 +490,7 @@
 
     const-string/jumbo v2, "already upload the contacts"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_3
 
@@ -526,7 +526,7 @@
 
     const-string/jumbo v2, "already bind Google Account"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, v1
 
@@ -556,7 +556,7 @@
 
     const-string/jumbo v2, "has abtest case. ignore bind qq banner."
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, v1
 
@@ -566,7 +566,7 @@
     .line 193
     :cond_6
     :try_start_0
-    new-instance v5, Lcom/tencent/mm/a/n;
+    new-instance v5, Lcom/tencent/mm/a/Nclz;
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
@@ -586,13 +586,13 @@
 
     check-cast v0, Ljava/lang/Integer;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->d(Ljava/lang/Integer;)I
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->d(Ljava/lang/Integer;)I
 
     move-result v0
 
-    invoke-direct {v5, v0}, Lcom/tencent/mm/a/n;-><init>(I)V
+    invoke-direct {v5, v0}, Lcom/tencent/mm/a/Nclz;-><init>(I)V
 
-    invoke-virtual {v5}, Lcom/tencent/mm/a/n;->longValue()J
+    invoke-virtual {v5}, Lcom/tencent/mm/a/Nclz;->longValue()J
 
     move-result-wide v5
 
@@ -608,7 +608,7 @@
 
     const-string/jumbo v5, "has bind qq."
 
-    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -638,7 +638,7 @@
 
     aput-object v0, v6, v7
 
-    invoke-static {v1, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 202
     :cond_7
@@ -758,7 +758,7 @@
 
     move-result-object v5
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 298
     if-eqz v0, :cond_0

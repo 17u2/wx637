@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic jXm:Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI;
 
-.field final synthetic jXn:Lcom/tencent/mm/modelfriend/v;
+.field final synthetic jXn:Lcom/tencent/mm/modelfriend/Vclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI;Lcom/tencent/mm/modelfriend/v;)V
+.method constructor <init>(Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI;Lcom/tencent/mm/modelfriend/Vclz;)V
     .locals 1
 
     .prologue
     .line 598
     iput-object p1, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI$10;->jXm:Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI$10;->jXn:Lcom/tencent/mm/modelfriend/v;
+    iput-object p2, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI$10;->jXn:Lcom/tencent/mm/modelfriend/Vclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI$10;->jXn:Lcom/tencent/mm/modelfriend/v;
+    iget-object v1, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI$10;->jXn:Lcom/tencent/mm/modelfriend/Vclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 

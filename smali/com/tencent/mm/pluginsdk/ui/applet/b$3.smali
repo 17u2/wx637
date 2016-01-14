@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,9 +52,9 @@
     .line 204
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/b$3;->hSH:Lcom/tencent/mm/pluginsdk/ui/applet/b;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->hSE:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/b;->hSE:Lcom/tencent/mm/ui/base/Gclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/base/g;->jLq:Landroid/widget/LinearLayout;
+    iget-object v0, v0, Lcom/tencent/mm/ui/base/Gclz;->jLq:Landroid/widget/LinearLayout;
 
     const v1, 0x7f0e0482
 
@@ -72,11 +72,11 @@
 
     iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/applet/b;->dfb:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     const/4 v2, -0x1
 
-    invoke-static {v1, v3, v2}, Lcom/tencent/mm/p/b;->a(Ljava/lang/String;ZI)Landroid/graphics/Bitmap;
+    invoke-static {v1, v3, v2}, Lcom/tencent/mm/p/Bclz;->a(Ljava/lang/String;ZI)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -102,7 +102,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v1, v3, v2}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/Bitmap;ZF)Landroid/graphics/Bitmap;
+    invoke-static {v1, v3, v2}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/Bitmap;ZF)Landroid/graphics/Bitmap;
 
     move-result-object v1
 

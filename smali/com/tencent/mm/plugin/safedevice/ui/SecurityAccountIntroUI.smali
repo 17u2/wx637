@@ -42,7 +42,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -228,9 +228,9 @@
     if-nez v0, :cond_2
 
     .line 182
-    check-cast p4, Lcom/tencent/mm/modelfriend/u;
+    check-cast p4, Lcom/tencent/mm/modelfriend/Uclz;
 
-    invoke-virtual {p4}, Lcom/tencent/mm/modelfriend/u;->yw()Ljava/lang/String;
+    invoke-virtual {p4}, Lcom/tencent/mm/modelfriend/Uclz;->yw()Ljava/lang/String;
 
     move-result-object v0
 
@@ -264,7 +264,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 189
     new-instance v2, Landroid/content/Intent;
@@ -335,13 +335,13 @@
 
     .line 184
     :cond_2
-    check-cast p4, Lcom/tencent/mm/modelfriend/v;
+    check-cast p4, Lcom/tencent/mm/modelfriend/Vclz;
 
-    iget-object v0, p4, Lcom/tencent/mm/modelfriend/v;->ant:Lcom/tencent/mm/q/Aclz;
+    iget-object v0, p4, Lcom/tencent/mm/modelfriend/Vclz;->ant:Lcom/tencent/mm/q/Aclz;
 
     iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/EJclz;
 
@@ -444,7 +444,7 @@
 
     const v3, 0x7f090ad3
 
-    invoke-static {p0, v0, v3, v4}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v3, v4}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     move v0, v1
 
@@ -537,7 +537,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 69
     invoke-static {}, Lcom/tencent/mm/plugin/a/b;->Fe()Ljava/lang/String;

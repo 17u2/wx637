@@ -54,7 +54,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -193,7 +193,7 @@
     :cond_2
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsCommentDetailUI$b;->asr:Landroid/app/Activity;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/o;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {v0}, Lcom/tencent/mm/ui/Oclz;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v0
 
@@ -388,7 +388,7 @@
     if-eqz v0, :cond_8
 
     .line 2592
-    invoke-virtual {v0}, Lcom/tencent/mm/h/a;->qy()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/h/Aclz;->qy()Ljava/lang/String;
 
     move-result-object v0
 
@@ -404,7 +404,7 @@
     .line 2600
     iget-object v2, v7, Lcom/tencent/mm/protocal/b/anw;->iUH:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -641,7 +641,7 @@
     .line 2634
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsCommentDetailUI$b;->gwX:Lcom/tencent/mm/plugin/sns/ui/SnsCommentDetailUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/SnsCommentDetailUI;->B(Lcom/tencent/mm/plugin/sns/ui/SnsCommentDetailUI;)Lcom/tencent/mm/ui/tools/l;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/SnsCommentDetailUI;->B(Lcom/tencent/mm/plugin/sns/ui/SnsCommentDetailUI;)Lcom/tencent/mm/ui/tools/Lclz;
 
     move-result-object v0
 
@@ -661,7 +661,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/plugin/sns/ui/c/b;->gIn:Lcom/tencent/mm/plugin/sns/ui/c/a;
 
-    invoke-virtual {v0, p2, v1, v2}, Lcom/tencent/mm/ui/tools/l;->a(Landroid/view/View;Landroid/view/View$OnCreateContextMenuListener;Lcom/tencent/mm/ui/base/m$d;)V
+    invoke-virtual {v0, p2, v1, v2}, Lcom/tencent/mm/ui/tools/Lclz;->a(Landroid/view/View;Landroid/view/View$OnCreateContextMenuListener;Lcom/tencent/mm/ui/base/Mclz$d;)V
 
     .line 2636
     iget v0, v7, Lcom/tencent/mm/protocal/b/anw;->iUt:I
@@ -809,7 +809,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 2662
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsCommentDetailUI$b;->gwX:Lcom/tencent/mm/plugin/sns/ui/SnsCommentDetailUI;
@@ -934,7 +934,7 @@
 
     .line 2602
     :cond_a
-    invoke-virtual {v0}, Lcom/tencent/mm/h/a;->qy()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/h/Aclz;->qy()Ljava/lang/String;
 
     move-result-object v0
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/sdk/platformtools/ag$a;
+.implements Lcom/tencent/mm/sdk/platformtools/AGclz$a;
 
 
 # instance fields
@@ -13,7 +13,7 @@
 
 .field protected fZI:Landroid/view/View;
 
-.field private fZJ:Lcom/tencent/mm/sdk/platformtools/ag;
+.field private fZJ:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
 
 # direct methods
@@ -28,7 +28,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,11 +56,11 @@
     if-nez p1, :cond_1
 
     .line 74
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/a/h;->fZJ:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/a/h;->fZJ:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     const-wide/16 v1, 0xbb8
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     .line 79
     :goto_1
@@ -72,9 +72,9 @@
 
     .line 76
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/a/h;->fZJ:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/a/h;->fZJ:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ag;->aOk()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOk()V
 
     goto :goto_1
 .end method
@@ -221,13 +221,13 @@
 
     .prologue
     .line 30
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p0, v1}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v0, p0, v1}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/a/h;->fZJ:Lcom/tencent/mm/sdk/platformtools/ag;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/a/h;->fZJ:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     .line 32
     const v0, 0x7f0e0415

@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/accountsync/model/a$2;
-.super Lcom/tencent/mm/sdk/platformtools/ab;
+.super Lcom/tencent/mm/sdk/platformtools/ABclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 57
     iput-object p1, p0, Lcom/tencent/mm/plugin/accountsync/model/a$2;->cfS:Lcom/tencent/mm/plugin/accountsync/model/a;
 
-    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -66,9 +66,9 @@
     .line 63
     iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/model/a$2;->cfS:Lcom/tencent/mm/plugin/accountsync/model/a;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/accountsync/model/a;->bDO:Lcom/tencent/mm/modelfriend/a$b;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/accountsync/model/a;->bDO:Lcom/tencent/mm/modelfriend/Aclz$b;
 
-    invoke-static {v0}, Lcom/tencent/mm/modelfriend/a;->a(Lcom/tencent/mm/modelfriend/a$b;)Z
+    invoke-static {v0}, Lcom/tencent/mm/modelfriend/Aclz;->a(Lcom/tencent/mm/modelfriend/Aclz$b;)Z
 
     move-result v0
 
@@ -94,7 +94,7 @@
 
     aput-object v0, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 

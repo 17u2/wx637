@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -58,7 +58,7 @@
     .line 2196
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$57;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/cj;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/CJclz;
 
     if-eqz v0, :cond_0
 
@@ -79,7 +79,7 @@
     .line 2188
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$57;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/cj;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/CJclz;
 
     if-eqz v0, :cond_0
 
@@ -100,7 +100,7 @@
     .line 2176
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$57;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/cj;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/CJclz;
 
     if-eqz v0, :cond_0
 
@@ -121,7 +121,7 @@
     .line 2167
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$57;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/cj;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/CJclz;
 
     if-eqz v0, :cond_0
 
@@ -142,7 +142,7 @@
     .line 2211
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$57;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/cj;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/CJclz;
 
     if-eqz v0, :cond_0
 
@@ -163,7 +163,7 @@
     .line 2203
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$57;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/cj;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/CJclz;
 
     if-eqz v0, :cond_0
 

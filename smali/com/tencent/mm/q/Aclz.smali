@@ -26,7 +26,7 @@
 
 
 # direct methods
-.method private constructor <init>(Lcom/tencent/mm/aq/a;Lcom/tencent/mm/aq/a;Ljava/lang/String;IIIZ)V
+.method private constructor <init>(Lcom/tencent/mm/aq/Aclz;Lcom/tencent/mm/aq/Aclz;Ljava/lang/String;IIIZ)V
     .locals 3
 
     .prologue
@@ -58,14 +58,14 @@
     const/4 v0, 0x1
 
     :cond_0
-    invoke-direct {v1, p1, p4, p5, v0}, Lcom/tencent/mm/q/Aclz$b;-><init>(Lcom/tencent/mm/aq/a;IIZ)V
+    invoke-direct {v1, p1, p4, p5, v0}, Lcom/tencent/mm/q/Aclz$b;-><init>(Lcom/tencent/mm/aq/Aclz;IIZ)V
 
     iput-object v1, p0, Lcom/tencent/mm/q/Aclz;->bxI:Lcom/tencent/mm/q/Aclz$b;
 
     .line 22
     new-instance v0, Lcom/tencent/mm/q/Aclz$c;
 
-    invoke-direct {v0, p2, p6, p7}, Lcom/tencent/mm/q/Aclz$c;-><init>(Lcom/tencent/mm/aq/a;IZ)V
+    invoke-direct {v0, p2, p6, p7}, Lcom/tencent/mm/q/Aclz$c;-><init>(Lcom/tencent/mm/aq/Aclz;IZ)V
 
     iput-object v0, p0, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
@@ -80,24 +80,24 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_1
     return-void
 .end method
 
-.method synthetic constructor <init>(Lcom/tencent/mm/aq/a;Lcom/tencent/mm/aq/a;Ljava/lang/String;IIIZB)V
+.method synthetic constructor <init>(Lcom/tencent/mm/aq/Aclz;Lcom/tencent/mm/aq/Aclz;Ljava/lang/String;IIIZB)V
     .locals 1
 
     .prologue
     .line 12
-    invoke-direct/range {p0 .. p7}, Lcom/tencent/mm/q/Aclz;-><init>(Lcom/tencent/mm/aq/a;Lcom/tencent/mm/aq/a;Ljava/lang/String;IIIZ)V
+    invoke-direct/range {p0 .. p7}, Lcom/tencent/mm/q/Aclz;-><init>(Lcom/tencent/mm/aq/Aclz;Lcom/tencent/mm/aq/Aclz;Ljava/lang/String;IIIZ)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

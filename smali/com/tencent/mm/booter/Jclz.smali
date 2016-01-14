@@ -31,23 +31,23 @@
 
     const/4 v1, 0x1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/platformtools/t;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v0, v1}, Lcom/tencent/mm/platformtools/Tclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v0
 
-    invoke-static {}, Lcom/tencent/mm/modelfriend/m;->yl()Lcom/tencent/mm/modelfriend/m$a;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/Mclz;->yl()Lcom/tencent/mm/modelfriend/Mclz$a;
 
     move-result-object v1
 
-    sget-object v3, Lcom/tencent/mm/modelfriend/m$a;->bFc:Lcom/tencent/mm/modelfriend/m$a;
+    sget-object v3, Lcom/tencent/mm/modelfriend/Mclz$a;->bFc:Lcom/tencent/mm/modelfriend/Mclz$a;
 
     if-eq v1, v3, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/modelfriend/m;->yl()Lcom/tencent/mm/modelfriend/m$a;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/Mclz;->yl()Lcom/tencent/mm/modelfriend/Mclz$a;
 
     move-result-object v1
 
-    sget-object v3, Lcom/tencent/mm/modelfriend/m$a;->bFd:Lcom/tencent/mm/modelfriend/m$a;
+    sget-object v3, Lcom/tencent/mm/modelfriend/Mclz$a;->bFd:Lcom/tencent/mm/modelfriend/Mclz$a;
 
     if-ne v1, v3, :cond_3
 
@@ -60,10 +60,10 @@
 
     const-string/jumbo v1, "collect addr userName"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 29
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->za()Lcom/tencent/mm/modelfriend/c;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->za()Lcom/tencent/mm/modelfriend/Cclz;
 
     move-result-object v0
 
@@ -75,7 +75,7 @@
 
     const-string/jumbo v3, ""
 
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jW(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jW(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -93,7 +93,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelfriend/c;->he(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelfriend/Cclz;->he(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v3
 
@@ -118,7 +118,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     move v1, v2
 
@@ -135,9 +135,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelfriend/b;
+    check-cast v0, Lcom/tencent/mm/modelfriend/Bclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/b;->getUsername()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Bclz;->getUsername()Ljava/lang/String;
 
     move-result-object v4
 
@@ -146,9 +146,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelfriend/b;
+    check-cast v0, Lcom/tencent/mm/modelfriend/Bclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/b;->xS()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Bclz;->xS()Ljava/lang/String;
 
     move-result-object v0
 
@@ -191,20 +191,20 @@
     move-result-object v5
 
     .line 40
-    iget v6, v5, Lcom/tencent/mm/d/b/o;->field_type:I
+    iget v6, v5, Lcom/tencent/mm/d/b/Oclz;->field_type:I
 
-    invoke-static {v6}, Lcom/tencent/mm/h/a;->cf(I)Z
+    invoke-static {v6}, Lcom/tencent/mm/h/Aclz;->cf(I)Z
 
     move-result v6
 
     if-eqz v6, :cond_2
 
     .line 41
-    iget-object v6, v5, Lcom/tencent/mm/d/b/o;->field_conRemark:Ljava/lang/String;
+    iget-object v6, v5, Lcom/tencent/mm/d/b/Oclz;->field_conRemark:Ljava/lang/String;
 
     if-eqz v6, :cond_1
 
-    iget-object v6, v5, Lcom/tencent/mm/d/b/o;->field_conRemark:Ljava/lang/String;
+    iget-object v6, v5, Lcom/tencent/mm/d/b/Oclz;->field_conRemark:Ljava/lang/String;
 
     const-string/jumbo v7, ""
 
@@ -242,7 +242,7 @@
 
     move-result-object v4
 
-    invoke-static {v6, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v6, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 45
     invoke-static {v5, v0}, Lcom/tencent/mm/model/Iclz;->b(Lcom/tencent/mm/storage/Kclz;Ljava/lang/String;)V
@@ -283,7 +283,7 @@
 
     const-string/jumbo v1, "update ct remark done"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 81
     return-void

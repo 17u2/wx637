@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -54,11 +54,11 @@
     .line 134
     iget-object v0, p0, Lcom/tencent/mm/ui/SingleChatInfoUI$2;->jAv:Lcom/tencent/mm/ui/SingleChatInfoUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/SingleChatInfoUI;->a(Lcom/tencent/mm/ui/SingleChatInfoUI;)Lcom/tencent/mm/ui/base/preference/f;
+    invoke-static {v0}, Lcom/tencent/mm/ui/SingleChatInfoUI;->a(Lcom/tencent/mm/ui/SingleChatInfoUI;)Lcom/tencent/mm/ui/base/preference/Fclz;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/ui/base/preference/a;
+    check-cast v0, Lcom/tencent/mm/ui/base/preference/Aclz;
 
     iget v1, p0, Lcom/tencent/mm/ui/SingleChatInfoUI$2;->cOJ:I
 
@@ -66,7 +66,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/ui/base/preference/MMPreference;->gqL:Landroid/widget/ListView;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ui/base/preference/a;->a(ILandroid/widget/ListView;)Landroid/view/View;
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ui/base/preference/Aclz;->a(ILandroid/widget/ListView;)Landroid/view/View;
 
     move-result-object v0
 
@@ -76,11 +76,11 @@
     .line 137
     iget-object v1, p0, Lcom/tencent/mm/ui/SingleChatInfoUI$2;->jAv:Lcom/tencent/mm/ui/SingleChatInfoUI;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v1, v1, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/ui/f/a;->c(Landroid/app/Activity;Landroid/view/View;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/ui/f/Aclz;->c(Landroid/app/Activity;Landroid/view/View;)V
 
     .line 139
     :cond_0

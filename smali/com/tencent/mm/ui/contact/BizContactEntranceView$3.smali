@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -94,7 +94,7 @@
 
     aput-object v1, v6, v8
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     new-array v4, v8, [Ljava/lang/String;
 
@@ -122,7 +122,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->at(Ljava/lang/Object;)J
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->at(Ljava/lang/Object;)J
 
     move-result-wide v4
 
@@ -147,7 +147,7 @@
 
     aput-object v7, v6, v9
 
-    invoke-static {v0, v1, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 109
     new-instance v0, Lcom/tencent/mm/ui/contact/BizContactEntranceView$3$1;
@@ -156,7 +156,7 @@
 
     invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/ui/contact/BizContactEntranceView$3$1;-><init>(Lcom/tencent/mm/ui/contact/BizContactEntranceView$3;JJ)V
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
 
     .line 114
     return-void

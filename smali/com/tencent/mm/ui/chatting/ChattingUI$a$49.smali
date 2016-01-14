@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/sdk/g/g$a;
+.implements Lcom/tencent/mm/sdk/g/Gclz$a;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;Lcom/tencent/mm/sdk/g/i;)V
+.method public final a(Ljava/lang/String;Lcom/tencent/mm/sdk/g/Iclz;)V
     .locals 4
 
     .prologue
@@ -60,7 +60,7 @@
 
     aput-object p1, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1524
     if-eqz p1, :cond_1

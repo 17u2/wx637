@@ -28,7 +28,7 @@
 
     check-cast v0, Ljava/lang/Long;
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/t;->d(Ljava/lang/Long;)J
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Tclz;->d(Ljava/lang/Long;)J
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -36,7 +36,7 @@
     :goto_0
     const-wide/16 v0, 0x0
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/platformtools/t;->ak(J)J
+    invoke-static {v0, v1}, Lcom/tencent/mm/platformtools/Tclz;->ak(J)J
 
     move-result-wide v0
 

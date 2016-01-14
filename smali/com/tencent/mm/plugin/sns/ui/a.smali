@@ -137,7 +137,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -194,7 +194,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/a;->gpF:Landroid/widget/Button;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->aPo()Landroid/view/View$OnTouchListener;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aPo()Landroid/view/View$OnTouchListener;
 
     move-result-object v2
 
@@ -261,7 +261,7 @@
 
     const-string/jumbo v1, "abtest error return 2"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 88
     :cond_2
@@ -418,7 +418,7 @@
     .line 123
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/a;->mContext:Landroid/content/Context;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/o;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {v1}, Lcom/tencent/mm/ui/Oclz;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v1
 
@@ -440,11 +440,11 @@
     check-cast v1, Landroid/widget/TextView;
 
     .line 128
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/u;->cZ(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/Uclz;->cZ(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v9
 
@@ -474,7 +474,7 @@
     .line 140
     :cond_8
     :goto_2
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v9
 
@@ -563,7 +563,7 @@
 
     move-result-object v9
 
-    invoke-static {v0, v9}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v9}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 155
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/a;->mContext:Landroid/content/Context;
@@ -666,15 +666,15 @@
     iput-boolean v3, p0, Lcom/tencent/mm/plugin/sns/ui/a;->glR:Z
 
     .line 169
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     new-instance v1, Lcom/tencent/mm/plugin/sns/ui/a$1;
 
     invoke-direct {v1, p0, p1, v8}, Lcom/tencent/mm/plugin/sns/ui/a$1;-><init>(Lcom/tencent/mm/plugin/sns/ui/a;Landroid/view/View;Landroid/view/View;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     move v0, v3
 
@@ -729,7 +729,7 @@
     :cond_f
     const/16 v9, 0x14
 
-    invoke-static {v0, v9}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v0, v9}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v0
 

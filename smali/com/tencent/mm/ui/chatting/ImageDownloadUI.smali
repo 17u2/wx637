@@ -24,9 +24,9 @@
 
 .field private fkV:Landroid/widget/TextView;
 
-.field private fkX:Lcom/tencent/mm/z/d;
+.field private fkX:Lcom/tencent/mm/z/Dclz;
 
-.field private fkY:Lcom/tencent/mm/z/j;
+.field private fkY:Lcom/tencent/mm/z/Jclz;
 
 .field private kkG:Landroid/widget/ImageView;
 
@@ -53,18 +53,18 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/chatting/ImageDownloadUI;)Lcom/tencent/mm/z/j;
+.method static synthetic a(Lcom/tencent/mm/ui/chatting/ImageDownloadUI;)Lcom/tencent/mm/z/Jclz;
     .locals 1
 
     .prologue
     .line 30
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkY:Lcom/tencent/mm/z/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkY:Lcom/tencent/mm/z/Jclz;
 
     return-object v0
 .end method
@@ -118,24 +118,24 @@
 
     .line 144
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/z/n;->zW()Lcom/tencent/mm/z/f;
+    invoke-static {}, Lcom/tencent/mm/z/Nclz;->zW()Lcom/tencent/mm/z/Fclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkY:Lcom/tencent/mm/z/j;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkY:Lcom/tencent/mm/z/Jclz;
 
-    iget-wide v1, v1, Lcom/tencent/mm/z/j;->bJV:J
+    iget-wide v1, v1, Lcom/tencent/mm/z/Jclz;->bJV:J
 
     invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/z/f;->a(Ljava/lang/Long;)Lcom/tencent/mm/z/d;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/z/Fclz;->a(Ljava/lang/Long;)Lcom/tencent/mm/z/Dclz;
 
     move-result-object v1
 
     .line 145
-    iget-object v0, v1, Lcom/tencent/mm/z/d;->bIG:Ljava/lang/String;
+    iget-object v0, v1, Lcom/tencent/mm/z/Dclz;->bIG:Ljava/lang/String;
 
     .line 146
     iget v2, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->bII:I
@@ -143,17 +143,17 @@
     if-ne v2, v5, :cond_1
 
     .line 147
-    invoke-static {v1}, Lcom/tencent/mm/z/e;->c(Lcom/tencent/mm/z/d;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/z/Eclz;->c(Lcom/tencent/mm/z/Dclz;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 153
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/z/n;->zW()Lcom/tencent/mm/z/f;
+    invoke-static {}, Lcom/tencent/mm/z/Nclz;->zW()Lcom/tencent/mm/z/Fclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0, v6, v6}, Lcom/tencent/mm/z/f;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v0, v6, v6}, Lcom/tencent/mm/z/Fclz;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -167,7 +167,7 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v0}, Lcom/tencent/mm/a/d;->av(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/a/Dclz;->av(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -178,7 +178,7 @@
 
     const-string/jumbo v1, "showImg : imgPath is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -361,7 +361,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 127
     invoke-virtual {p3}, Lcom/tencent/mm/q/Jclz;->getType()I
@@ -463,7 +463,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 193
     const v0, 0x7f090615
@@ -563,27 +563,27 @@
     if-lez v0, :cond_0
 
     .line 54
-    invoke-static {}, Lcom/tencent/mm/z/n;->zW()Lcom/tencent/mm/z/f;
+    invoke-static {}, Lcom/tencent/mm/z/Nclz;->zW()Lcom/tencent/mm/z/Fclz;
 
     move-result-object v0
 
     iget-wide v1, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->avx:J
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/z/f;->X(J)Lcom/tencent/mm/z/d;
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/z/Fclz;->X(J)Lcom/tencent/mm/z/Dclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkX:Lcom/tencent/mm/z/d;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkX:Lcom/tencent/mm/z/Dclz;
 
     .line 57
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkX:Lcom/tencent/mm/z/d;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkX:Lcom/tencent/mm/z/Dclz;
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkX:Lcom/tencent/mm/z/d;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkX:Lcom/tencent/mm/z/Dclz;
 
-    iget-wide v0, v0, Lcom/tencent/mm/z/d;->bIE:J
+    iget-wide v0, v0, Lcom/tencent/mm/z/Dclz;->bIE:J
 
     cmp-long v0, v0, v3
 
@@ -597,27 +597,27 @@
     if-lez v0, :cond_2
 
     .line 58
-    invoke-static {}, Lcom/tencent/mm/z/n;->zW()Lcom/tencent/mm/z/f;
+    invoke-static {}, Lcom/tencent/mm/z/Nclz;->zW()Lcom/tencent/mm/z/Fclz;
 
     move-result-object v0
 
     iget-wide v1, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->bIF:J
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/z/f;->W(J)Lcom/tencent/mm/z/d;
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/z/Fclz;->W(J)Lcom/tencent/mm/z/Dclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkX:Lcom/tencent/mm/z/d;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkX:Lcom/tencent/mm/z/Dclz;
 
     .line 61
     :cond_2
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkX:Lcom/tencent/mm/z/d;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkX:Lcom/tencent/mm/z/Dclz;
 
     if-eqz v0, :cond_3
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkX:Lcom/tencent/mm/z/d;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkX:Lcom/tencent/mm/z/Dclz;
 
-    iget-wide v0, v0, Lcom/tencent/mm/z/d;->bIE:J
+    iget-wide v0, v0, Lcom/tencent/mm/z/Dclz;->bIE:J
 
     cmp-long v0, v0, v3
 
@@ -655,7 +655,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 75
     :goto_0
@@ -693,33 +693,33 @@
     move-result-object v0
 
     .line 71
-    iget-wide v0, v0, Lcom/tencent/mm/d/b/ba;->field_msgId:J
+    iget-wide v0, v0, Lcom/tencent/mm/d/b/BAclz;->field_msgId:J
 
     iput-wide v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->avx:J
 
     .line 74
     :cond_5
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkX:Lcom/tencent/mm/z/d;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkX:Lcom/tencent/mm/z/Dclz;
 
-    iget-wide v1, v0, Lcom/tencent/mm/z/d;->bIE:J
+    iget-wide v1, v0, Lcom/tencent/mm/z/Dclz;->bIE:J
 
     iget-wide v3, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->avx:J
 
     iget v5, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->bII:I
 
-    new-instance v0, Lcom/tencent/mm/z/j;
+    new-instance v0, Lcom/tencent/mm/z/Jclz;
 
     move-object v6, p0
 
-    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/z/j;-><init>(JJILcom/tencent/mm/q/Eclz;)V
+    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/z/Jclz;-><init>(JJILcom/tencent/mm/q/Eclz;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkY:Lcom/tencent/mm/z/j;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkY:Lcom/tencent/mm/z/Jclz;
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkY:Lcom/tencent/mm/z/j;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ImageDownloadUI;->fkY:Lcom/tencent/mm/z/Jclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 

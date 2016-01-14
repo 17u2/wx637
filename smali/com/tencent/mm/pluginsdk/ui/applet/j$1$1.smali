@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,7 +56,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/applet/j$1;->hTW:Lcom/tencent/mm/pluginsdk/ui/applet/j;
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/applet/j;->fFr:Lcom/tencent/mm/modelsimple/m;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/applet/j;->fFr:Lcom/tencent/mm/modelsimple/Mclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 
@@ -67,7 +67,7 @@
 
     const/4 v1, 0x0
 
-    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/j;->dKA:Lcom/tencent/mm/ui/base/o;
+    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/j;->dKA:Lcom/tencent/mm/ui/base/Oclz;
 
     .line 45
     return-void

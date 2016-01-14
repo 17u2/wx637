@@ -16,7 +16,7 @@
 
 .field bhM:Landroid/media/MediaPlayer;
 
-.field private bhN:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private bhN:Lcom/tencent/mm/sdk/platformtools/ABclz;
     .annotation build Landroid/annotation/SuppressLint;
         value = {
             "HandlerLeak"
@@ -54,10 +54,10 @@
 
     invoke-direct {v0, p0, v1}, Lcom/tencent/mm/booter/notification/a/Fclz$1;-><init>(Lcom/tencent/mm/booter/notification/a/Fclz;Landroid/os/Looper;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/booter/notification/a/Fclz;->bhN:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/booter/notification/a/Fclz;->bhN:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 49
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -68,7 +68,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -85,7 +85,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -106,7 +106,7 @@
     if-nez v0, :cond_0
 
     .line 75
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -123,7 +123,7 @@
 
     const-string/jumbo v1, "playSound:context is null!!"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -137,7 +137,7 @@
     .line 83
     :cond_2
     :try_start_1
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -155,20 +155,20 @@
     .line 89
     :goto_1
     :try_start_2
-    iget-object v1, p0, Lcom/tencent/mm/booter/notification/a/Fclz;->bhN:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/booter/notification/a/Fclz;->bhN:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     const v2, 0x12345678
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->removeMessages(I)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeMessages(I)V
 
     .line 90
-    iget-object v1, p0, Lcom/tencent/mm/booter/notification/a/Fclz;->bhN:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/booter/notification/a/Fclz;->bhN:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     const v2, 0x12345678
 
     const-wide/16 v3, 0x1f40
 
-    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessageDelayed(IJ)Z
+    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessageDelayed(IJ)Z
 
     .line 91
     iget-boolean v1, p0, Lcom/tencent/mm/booter/notification/a/Fclz;->bhL:Z
@@ -348,7 +348,7 @@
 
     aput-object p1, v4, v1
 
-    invoke-static {v0, v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_2
     .catch Ljava/lang/IllegalArgumentException; {:try_start_2 .. :try_end_2} :catch_0
     .catch Ljava/lang/SecurityException; {:try_start_2 .. :try_end_2} :catch_1
@@ -371,7 +371,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
@@ -425,7 +425,7 @@
 
     aput-object p1, v3, v0
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 119
     iget-object v0, p0, Lcom/tencent/mm/booter/notification/a/Fclz;->bhM:Landroid/media/MediaPlayer;
@@ -484,7 +484,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -499,7 +499,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -514,7 +514,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -529,7 +529,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
 

@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/app/WorkerProfile$5;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,28 +42,28 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 6
 
     .prologue
     const/4 v5, 0x1
 
     .line 783
-    check-cast p1, Lcom/tencent/mm/d/a/c;
+    check-cast p1, Lcom/tencent/mm/d/a/Cclz;
 
     .line 784
-    iget-object v0, p1, Lcom/tencent/mm/d/a/c;->arz:Lcom/tencent/mm/d/a/c$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/Cclz;->arz:Lcom/tencent/mm/d/a/Cclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/c$a;->arA:Lcom/tencent/mm/ui/MMActivity;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/Cclz$a;->arA:Lcom/tencent/mm/ui/MMActivity;
 
     .line 785
-    iget-object v1, p1, Lcom/tencent/mm/d/a/c;->arz:Lcom/tencent/mm/d/a/c$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/Cclz;->arz:Lcom/tencent/mm/d/a/Cclz$a;
 
-    iget v1, v1, Lcom/tencent/mm/d/a/c$a;->errType:I
+    iget v1, v1, Lcom/tencent/mm/d/a/Cclz$a;->errType:I
 
-    iget-object v2, p1, Lcom/tencent/mm/d/a/c;->arz:Lcom/tencent/mm/d/a/c$a;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/Cclz;->arz:Lcom/tencent/mm/d/a/Cclz$a;
 
-    iget v2, v2, Lcom/tencent/mm/d/a/c$a;->errCode:I
+    iget v2, v2, Lcom/tencent/mm/d/a/Cclz$a;->errCode:I
 
     new-instance v3, Landroid/content/Intent;
 
@@ -95,7 +95,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v0, v1, v2, v3, v4}, Lcom/tencent/mm/ui/m;->a(Landroid/app/Activity;IILandroid/content/Intent;Ljava/lang/String;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0, v1, v2, v3, v4}, Lcom/tencent/mm/ui/Mclz;->a(Landroid/app/Activity;IILandroid/content/Intent;Ljava/lang/String;)Lcom/tencent/mm/ui/base/Gclz;
 
     .line 790
     const/4 v0, 0x0

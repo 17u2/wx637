@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -64,7 +64,7 @@
 
     const-string/jumbo v1, "onMsgChange, wrong args"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 352
     :goto_0
@@ -101,31 +101,31 @@
     .line 329
     if-eqz v0, :cond_2
 
-    iget v1, v0, Lcom/tencent/mm/d/b/ba;->field_isSend:I
+    iget v1, v0, Lcom/tencent/mm/d/b/BAclz;->field_isSend:I
 
     if-nez v1, :cond_2
 
-    iget v1, v0, Lcom/tencent/mm/d/b/ba;->field_status:I
+    iget v1, v0, Lcom/tencent/mm/d/b/BAclz;->field_status:I
 
     const/4 v4, 0x4
 
     if-eq v1, v4, :cond_2
 
     .line 330
-    iget v1, v0, Lcom/tencent/mm/d/b/ba;->field_type:I
+    iget v1, v0, Lcom/tencent/mm/d/b/BAclz;->field_type:I
 
     const/16 v4, 0x270f
 
     if-eq v1, v4, :cond_2
 
-    iget v1, v0, Lcom/tencent/mm/d/b/ba;->field_type:I
+    iget v1, v0, Lcom/tencent/mm/d/b/BAclz;->field_type:I
 
     const/16 v4, 0x2710
 
     if-eq v1, v4, :cond_2
 
     .line 333
-    iget-object v1, v0, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/d/b/BAclz;->field_talker:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->eB(Ljava/lang/String;)Z
 
@@ -140,7 +140,7 @@
 
     move-result-object v1
 
-    iget-object v4, v0, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
+    iget-object v4, v0, Lcom/tencent/mm/d/b/BAclz;->field_talker:Ljava/lang/String;
 
     invoke-virtual {v1, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -158,7 +158,7 @@
 
     move-result-object v1
 
-    iget-object v4, v0, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
+    iget-object v4, v0, Lcom/tencent/mm/d/b/BAclz;->field_talker:Ljava/lang/String;
 
     const/4 v5, 0x1
 
@@ -179,7 +179,7 @@
 
     const/4 v6, 0x0
 
-    iget-object v0, v0, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/b/BAclz;->field_talker:Ljava/lang/String;
 
     aput-object v0, v5, v6
 
@@ -193,7 +193,7 @@
 
     aput-object v6, v5, v0
 
-    invoke-static {v1, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 327
     :cond_2
@@ -212,7 +212,7 @@
 
     move-result-object v4
 
-    iget-object v5, v0, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
+    iget-object v5, v0, Lcom/tencent/mm/d/b/BAclz;->field_talker:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
@@ -237,7 +237,7 @@
 
     const/4 v7, 0x0
 
-    iget-object v0, v0, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/b/BAclz;->field_talker:Ljava/lang/String;
 
     aput-object v0, v6, v7
 
@@ -255,7 +255,7 @@
 
     aput-object v1, v6, v0
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_2
 
@@ -301,7 +301,7 @@
 
     const-string/jumbo v1, "notifyMsgUsers.size < 1"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 

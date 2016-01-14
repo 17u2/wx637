@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid$a$1;
-.super Lcom/tencent/mm/sdk/platformtools/ab;
+.super Lcom/tencent/mm/sdk/platformtools/ABclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 669
     iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid$a$1;->iaI:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid$a;
 
-    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -49,7 +49,7 @@
 
     const-string/jumbo v1, "notify smileygrid"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 674
     iget-object v0, p1, Landroid/os/Message;->obj:Ljava/lang/Object;

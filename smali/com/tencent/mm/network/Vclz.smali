@@ -15,7 +15,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -28,7 +28,7 @@
 
     .prologue
     .line 15
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     move-result-object v7
 
@@ -46,7 +46,7 @@
 
     invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/network/Vclz$1;-><init>(Lcom/tencent/mm/network/Vclz;ZJLjava/lang/String;Z)V
 
-    invoke-virtual {v7, v0}, Lcom/tencent/mm/sdk/platformtools/ac;->r(Ljava/lang/Runnable;)I
+    invoke-virtual {v7, v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->r(Ljava/lang/Runnable;)I
 
     .line 29
     return-void

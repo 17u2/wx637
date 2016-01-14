@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -72,19 +72,19 @@
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lcom/tencent/mm/sdk/platformtools/ap$b;->jhJ:Lcom/tencent/mm/sdk/platformtools/ap$b;
+    sget-object v0, Lcom/tencent/mm/sdk/platformtools/APclz$b;->jhJ:Lcom/tencent/mm/sdk/platformtools/APclz$b;
 
     :goto_0
     const/4 v4, 0x0
 
-    invoke-static {v1, v3, v0, v4, v2}, Lcom/tencent/mm/sdk/platformtools/ap;->a(Landroid/content/Context;ILcom/tencent/mm/sdk/platformtools/ap$b;ZLcom/tencent/mm/sdk/platformtools/ap$a;)V
+    invoke-static {v1, v3, v0, v4, v2}, Lcom/tencent/mm/sdk/platformtools/APclz;->a(Landroid/content/Context;ILcom/tencent/mm/sdk/platformtools/APclz$b;ZLcom/tencent/mm/sdk/platformtools/APclz$a;)V
 
     .line 267
     return-void
 
     .line 254
     :cond_0
-    sget-object v0, Lcom/tencent/mm/sdk/platformtools/ap$b;->jhK:Lcom/tencent/mm/sdk/platformtools/ap$b;
+    sget-object v0, Lcom/tencent/mm/sdk/platformtools/APclz$b;->jhK:Lcom/tencent/mm/sdk/platformtools/APclz$b;
 
     goto :goto_0
 .end method

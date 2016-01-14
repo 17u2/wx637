@@ -46,7 +46,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -85,7 +85,7 @@
 
     aput-object v6, v5, v1
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 25
     iget-boolean v3, p0, Lcom/tencent/mm/pluginsdk/h/a/c/p$1;->hPr:Z
@@ -135,7 +135,7 @@
 
     aput-object v6, v1, v2
 
-    invoke-static {v4, v5, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     invoke-virtual {v3, v0}, Lcom/tencent/mm/pluginsdk/h/a/c/l;->nA(I)V
 
@@ -143,7 +143,7 @@
 
     .line 33
     :cond_4
-    invoke-static {}, Lcom/tencent/mm/compatible/d/u;->oP()I
+    invoke-static {}, Lcom/tencent/mm/compatible/d/Uclz;->oP()I
 
     move-result v3
 

@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/app/WorkerProfile$4;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,23 +42,23 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 2
 
     .prologue
     .line 773
-    check-cast p1, Lcom/tencent/mm/d/a/jb;
+    check-cast p1, Lcom/tencent/mm/d/a/JBclz;
 
     .line 774
-    iget-object v0, p1, Lcom/tencent/mm/d/a/jb;->aEi:Lcom/tencent/mm/d/a/jb$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/JBclz;->aEi:Lcom/tencent/mm/d/a/JBclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/jb$a;->intent:Landroid/content/Intent;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/JBclz$a;->intent:Landroid/content/Intent;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/jb;->aEi:Lcom/tencent/mm/d/a/jb$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/JBclz;->aEi:Lcom/tencent/mm/d/a/JBclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/jb$a;->username:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/JBclz$a;->username:Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/contact/e;->a(Landroid/content/Intent;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/contact/Eclz;->a(Landroid/content/Intent;Ljava/lang/String;)V
 
     .line 775
     const/4 v0, 0x0

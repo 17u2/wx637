@@ -12,9 +12,9 @@
 
 
 # instance fields
-.field any:Lcom/tencent/mm/sdk/platformtools/ag;
+.field any:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-.field dKA:Lcom/tencent/mm/ui/base/o;
+.field dKA:Lcom/tencent/mm/ui/base/Oclz;
 
 .field hCc:Lcom/tencent/mm/plugin/webview/stub/d;
 
@@ -44,15 +44,15 @@
     iput-boolean v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/c;->hCj:Z
 
     .line 456
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     new-instance v1, Lcom/tencent/mm/plugin/webview/ui/tools/c$1;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/plugin/webview/ui/tools/c$1;-><init>(Lcom/tencent/mm/plugin/webview/ui/tools/c;)V
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/c;->any:Lcom/tencent/mm/sdk/platformtools/ag;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/c;->any:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     .line 483
     iput-object p1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/c;->hCl:Lcom/tencent/mm/plugin/webview/ui/tools/OAuthUI;
@@ -68,13 +68,13 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method public static a(Lcom/tencent/mm/plugin/webview/ui/tools/OAuthUI;Ljava/lang/String;Lcom/tencent/mm/sdk/modelmsg/b$a;Lcom/tencent/mm/plugin/webview/ui/tools/c$a;Lcom/tencent/mm/plugin/webview/stub/d;)Lcom/tencent/mm/plugin/webview/ui/tools/c;
+.method public static a(Lcom/tencent/mm/plugin/webview/ui/tools/OAuthUI;Ljava/lang/String;Lcom/tencent/mm/sdk/modelmsg/Bclz$a;Lcom/tencent/mm/plugin/webview/ui/tools/c$a;Lcom/tencent/mm/plugin/webview/stub/d;)Lcom/tencent/mm/plugin/webview/ui/tools/c;
     .locals 5
 
     .prologue
@@ -86,9 +86,9 @@
     invoke-direct {v1, p0, p3, p4}, Lcom/tencent/mm/plugin/webview/ui/tools/c;-><init>(Lcom/tencent/mm/plugin/webview/ui/tools/OAuthUI;Lcom/tencent/mm/plugin/webview/ui/tools/c$a;Lcom/tencent/mm/plugin/webview/stub/d;)V
 
     .line 491
-    iget-object v0, p2, Lcom/tencent/mm/sdk/modelmsg/b$a;->iIj:Ljava/lang/String;
+    iget-object v0, p2, Lcom/tencent/mm/sdk/modelmsg/Bclz$a;->iIj:Ljava/lang/String;
 
-    iget-object v2, p2, Lcom/tencent/mm/sdk/modelmsg/b$a;->bBe:Ljava/lang/String;
+    iget-object v2, p2, Lcom/tencent/mm/sdk/modelmsg/Bclz$a;->bBe:Ljava/lang/String;
 
     iget-boolean v3, v1, Lcom/tencent/mm/plugin/webview/ui/tools/c;->hCi:Z
 
@@ -98,7 +98,7 @@
 
     const-string/jumbo v2, "already getting"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 492
     :goto_0
@@ -138,11 +138,11 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     :goto_1
-    iget-object v0, v1, Lcom/tencent/mm/plugin/webview/ui/tools/c;->any:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, v1, Lcom/tencent/mm/plugin/webview/ui/tools/c;->any:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     const-wide/16 v2, 0xbb8
 
-    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     goto :goto_0
 
@@ -169,7 +169,7 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 .end method

@@ -44,7 +44,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -93,9 +93,9 @@
     .line 298
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI$6;->knS:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, v0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const v1, 0x7f040022
 
@@ -165,9 +165,9 @@
     .line 321
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI$6;->knS:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI;
 
-    iget-object v0, v1, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI;->knB:Lcom/tencent/mm/ui/chatting/gallery/c;
+    iget-object v0, v1, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI;->knB:Lcom/tencent/mm/ui/chatting/gallery/Cclz;
 
-    invoke-virtual {v0, p2}, Lcom/tencent/mm/ui/chatting/gallery/c;->getItem(I)Ljava/lang/Object;
+    invoke-virtual {v0, p2}, Lcom/tencent/mm/ui/chatting/gallery/Cclz;->getItem(I)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -194,15 +194,15 @@
     :cond_0
     new-instance v2, Ljava/util/Date;
 
-    iget-wide v3, v0, Lcom/tencent/mm/d/b/ba;->field_createTime:J
+    iget-wide v3, v0, Lcom/tencent/mm/d/b/BAclz;->field_createTime:J
 
     invoke-direct {v2, v3, v4}, Ljava/util/Date;-><init>(J)V
 
-    invoke-static {}, Lcom/tencent/mm/ui/tools/gridviewheaders/a;->bbR()Lcom/tencent/mm/ui/tools/gridviewheaders/a;
+    invoke-static {}, Lcom/tencent/mm/ui/tools/gridviewheaders/Aclz;->bbR()Lcom/tencent/mm/ui/tools/gridviewheaders/Aclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/ui/tools/gridviewheaders/a;->a(Ljava/util/Date;Landroid/content/Context;)Ljava/lang/String;
+    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/ui/tools/gridviewheaders/Aclz;->a(Ljava/util/Date;Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -224,11 +224,11 @@
     .line 316
     :cond_0
     :goto_0
-    invoke-static {}, Lcom/tencent/mm/z/n;->Aa()Lcom/tencent/mm/z/a/a;
+    invoke-static {}, Lcom/tencent/mm/z/Nclz;->Aa()Lcom/tencent/mm/z/a/Aclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p2}, Lcom/tencent/mm/z/a/a;->dB(I)V
+    invoke-virtual {v0, p2}, Lcom/tencent/mm/z/a/Aclz;->dB(I)V
 
     .line 317
     return-void

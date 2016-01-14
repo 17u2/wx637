@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/sdk/g/j$b;
+.implements Lcom/tencent/mm/sdk/g/Jclz$b;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final a(ILcom/tencent/mm/sdk/g/j;Ljava/lang/Object;)V
+.method public final a(ILcom/tencent/mm/sdk/g/Jclz;Ljava/lang/Object;)V
     .locals 4
 
     .prologue
@@ -78,7 +78,7 @@
     :pswitch_0
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$4;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->bRA:Lcom/tencent/mm/modelsearch/m;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->bRA:Lcom/tencent/mm/modelsearch/Mclz;
 
     new-instance v1, Lcom/tencent/mm/plugin/search/a/e$j;
 
@@ -86,7 +86,7 @@
 
     invoke-direct {v1, v2, p3}, Lcom/tencent/mm/plugin/search/a/e$j;-><init>(Lcom/tencent/mm/plugin/search/a/e;Ljava/lang/String;)V
 
-    invoke-interface {v0, v3, v1}, Lcom/tencent/mm/modelsearch/m;->a(ILcom/tencent/mm/modelsearch/m$a;)Lcom/tencent/mm/modelsearch/m$a;
+    invoke-interface {v0, v3, v1}, Lcom/tencent/mm/modelsearch/Mclz;->a(ILcom/tencent/mm/modelsearch/Mclz$a;)Lcom/tencent/mm/modelsearch/Mclz$a;
 
     goto :goto_0
 
@@ -94,7 +94,7 @@
     :pswitch_1
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$4;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->bRA:Lcom/tencent/mm/modelsearch/m;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->bRA:Lcom/tencent/mm/modelsearch/Mclz;
 
     new-instance v1, Lcom/tencent/mm/plugin/search/a/e$n;
 
@@ -102,7 +102,7 @@
 
     invoke-direct {v1, v2, p3}, Lcom/tencent/mm/plugin/search/a/e$n;-><init>(Lcom/tencent/mm/plugin/search/a/e;Ljava/lang/String;)V
 
-    invoke-interface {v0, v3, v1}, Lcom/tencent/mm/modelsearch/m;->a(ILcom/tencent/mm/modelsearch/m$a;)Lcom/tencent/mm/modelsearch/m$a;
+    invoke-interface {v0, v3, v1}, Lcom/tencent/mm/modelsearch/Mclz;->a(ILcom/tencent/mm/modelsearch/Mclz$a;)Lcom/tencent/mm/modelsearch/Mclz$a;
 
     goto :goto_0
 
@@ -110,7 +110,7 @@
     :pswitch_2
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$4;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->bRA:Lcom/tencent/mm/modelsearch/m;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->bRA:Lcom/tencent/mm/modelsearch/Mclz;
 
     new-instance v1, Lcom/tencent/mm/plugin/search/a/e$f;
 
@@ -118,7 +118,7 @@
 
     invoke-direct {v1, v2, p3}, Lcom/tencent/mm/plugin/search/a/e$f;-><init>(Lcom/tencent/mm/plugin/search/a/e;Ljava/lang/String;)V
 
-    invoke-interface {v0, v3, v1}, Lcom/tencent/mm/modelsearch/m;->a(ILcom/tencent/mm/modelsearch/m$a;)Lcom/tencent/mm/modelsearch/m$a;
+    invoke-interface {v0, v3, v1}, Lcom/tencent/mm/modelsearch/Mclz;->a(ILcom/tencent/mm/modelsearch/Mclz$a;)Lcom/tencent/mm/modelsearch/Mclz$a;
 
     goto :goto_0
 

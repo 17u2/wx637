@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -62,7 +62,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -78,7 +78,7 @@
     move-result v0
 
     .line 91
-    invoke-static {}, Lcom/tencent/mm/av/g;->aPJ()Lcom/tencent/mm/av/g;
+    invoke-static {}, Lcom/tencent/mm/av/Gclz;->aPJ()Lcom/tencent/mm/av/Gclz;
 
     move-result-object v1
 
@@ -90,7 +90,7 @@
 
     move-result v3
 
-    invoke-virtual {v1, v2, p1, v3}, Lcom/tencent/mm/av/g;->c(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-virtual {v1, v2, p1, v3}, Lcom/tencent/mm/av/Gclz;->c(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v1
 
@@ -150,7 +150,7 @@
 
     .prologue
     .line 52
-    invoke-static {}, Lcom/tencent/mm/av/g;->aPJ()Lcom/tencent/mm/av/g;
+    invoke-static {}, Lcom/tencent/mm/av/Gclz;->aPJ()Lcom/tencent/mm/av/Gclz;
 
     invoke-virtual {p0}, Lcom/tencent/mm/ui/widget/MMEditText;->getContext()Landroid/content/Context;
 
@@ -168,12 +168,12 @@
 
     move-result v2
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/av/g;->g(Landroid/content/Context;Ljava/lang/String;I)I
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/av/Gclz;->g(Landroid/content/Context;Ljava/lang/String;I)I
 
     move-result v0
 
     .line 53
-    invoke-static {}, Lcom/tencent/mm/av/g;->aPJ()Lcom/tencent/mm/av/g;
+    invoke-static {}, Lcom/tencent/mm/av/Gclz;->aPJ()Lcom/tencent/mm/av/Gclz;
 
     invoke-virtual {p0}, Lcom/tencent/mm/ui/widget/MMEditText;->getContext()Landroid/content/Context;
 
@@ -191,7 +191,7 @@
 
     move-result v3
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/av/g;->g(Landroid/content/Context;Ljava/lang/String;I)I
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/av/Gclz;->g(Landroid/content/Context;Ljava/lang/String;I)I
 
     move-result v1
 
@@ -240,7 +240,7 @@
     move-result-object v1
 
     .line 56
-    invoke-static {}, Lcom/tencent/mm/av/g;->aPJ()Lcom/tencent/mm/av/g;
+    invoke-static {}, Lcom/tencent/mm/av/Gclz;->aPJ()Lcom/tencent/mm/av/Gclz;
 
     move-result-object v2
 
@@ -252,7 +252,7 @@
 
     move-result v4
 
-    invoke-virtual {v2, v3, v1, v4}, Lcom/tencent/mm/av/g;->c(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-virtual {v2, v3, v1, v4}, Lcom/tencent/mm/av/Gclz;->c(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v1
 
@@ -326,7 +326,7 @@
 
     aput-object v0, v5, v2
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 118
     iget-object v0, p0, Lcom/tencent/mm/ui/widget/MMEditText;->kJO:Lcom/tencent/mm/ui/widget/MMEditText$a;
@@ -355,7 +355,7 @@
 
     const-string/jumbo v2, "on onKeyPreIme action down"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 124
     invoke-virtual {p0}, Lcom/tencent/mm/ui/widget/MMEditText;->getKeyDispatcherState()Landroid/view/KeyEvent$DispatcherState;
@@ -392,7 +392,7 @@
 
     const-string/jumbo v3, "on onKeyPreIme action up"
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 131
     invoke-virtual {p0}, Lcom/tencent/mm/ui/widget/MMEditText;->getKeyDispatcherState()Landroid/view/KeyEvent$DispatcherState;
@@ -424,7 +424,7 @@
 
     const-string/jumbo v3, "on onKeyPreIme action up is tracking"
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 138
     iget-object v0, p0, Lcom/tencent/mm/ui/widget/MMEditText;->kJO:Lcom/tencent/mm/ui/widget/MMEditText$a;
@@ -525,7 +525,7 @@
 
     aput-object v6, v5, v7
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 76
     iget v3, p0, Lcom/tencent/mm/ui/widget/MMEditText;->hRx:I

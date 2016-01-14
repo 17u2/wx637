@@ -30,7 +30,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -38,7 +38,7 @@
 
 
 # virtual methods
-.method public final b(Lcom/tencent/mm/ui/e/a/a;)V
+.method public final b(Lcom/tencent/mm/ui/e/a/Aclz;)V
     .locals 0
 
     .prologue
@@ -51,9 +51,9 @@
 
     .prologue
     .line 17
-    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     return-object v0
 .end method
@@ -135,7 +135,7 @@
 
     const-string/jumbo v1, "Invalid intent extra, \'talker\', \'query\', \'count\' must be set."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 36
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/search/ui/FTSTalkerUI;->finish()V

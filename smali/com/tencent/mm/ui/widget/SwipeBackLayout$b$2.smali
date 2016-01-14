@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -86,7 +86,7 @@
 
     aput-object v3, v2, v6
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 413
     iget-object v0, p0, Lcom/tencent/mm/ui/widget/SwipeBackLayout$b$2;->kLA:Lcom/tencent/mm/ui/widget/SwipeBackLayout$b;
@@ -110,7 +110,7 @@
     if-lez v0, :cond_1
 
     .line 418
-    invoke-static {v5}, Lcom/tencent/mm/ui/widget/b;->H(F)V
+    invoke-static {v5}, Lcom/tencent/mm/ui/widget/Bclz;->H(F)V
 
     .line 427
     :goto_0
@@ -157,7 +157,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/widget/SwipeBackLayout$b$2$1;-><init>(Lcom/tencent/mm/ui/widget/SwipeBackLayout$b$2;)V
 
-    invoke-static {v0, v7, v8, v5, v1}, Lcom/tencent/mm/ui/tools/j;->a(Landroid/view/View;JFLcom/tencent/mm/ui/tools/j$a;)V
+    invoke-static {v0, v7, v8, v5, v1}, Lcom/tencent/mm/ui/tools/Jclz;->a(Landroid/view/View;JFLcom/tencent/mm/ui/tools/Jclz$a;)V
 
     .line 488
     :cond_0
@@ -175,7 +175,7 @@
     :cond_1
     const/high16 v0, 0x3f800000    # 1.0f
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/widget/b;->H(F)V
+    invoke-static {v0}, Lcom/tencent/mm/ui/widget/Bclz;->H(F)V
 
     goto :goto_0
 
@@ -209,14 +209,14 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ui/widget/SwipeBackLayout$b$2$2;-><init>(Lcom/tencent/mm/ui/widget/SwipeBackLayout$b$2;)V
 
-    invoke-static {v0, v7, v8, v1, v2}, Lcom/tencent/mm/ui/tools/j;->a(Landroid/view/View;JFLcom/tencent/mm/ui/tools/j$a;)V
+    invoke-static {v0, v7, v8, v1, v2}, Lcom/tencent/mm/ui/tools/Jclz;->a(Landroid/view/View;JFLcom/tencent/mm/ui/tools/Jclz$a;)V
 
     .line 484
     iget-object v0, p0, Lcom/tencent/mm/ui/widget/SwipeBackLayout$b$2;->kLA:Lcom/tencent/mm/ui/widget/SwipeBackLayout$b;
 
     iget v0, v0, Lcom/tencent/mm/ui/widget/SwipeBackLayout$b;->kLx:I
 
-    invoke-static {v6, v0}, Lcom/tencent/mm/ui/widget/b;->k(ZI)V
+    invoke-static {v6, v0}, Lcom/tencent/mm/ui/widget/Bclz;->k(ZI)V
 
     goto :goto_1
 .end method

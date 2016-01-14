@@ -11,13 +11,13 @@
 
 .field private bSP:I
 
-.field private handler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field private url:Ljava/lang/String;
 
 
 # direct methods
-.method public constructor <init>(Lcom/tencent/mm/sdk/platformtools/ab;Ljava/lang/String;ILjava/lang/String;)V
+.method public constructor <init>(Lcom/tencent/mm/sdk/platformtools/ABclz;Ljava/lang/String;ILjava/lang/String;)V
     .locals 2
 
     .prologue
@@ -27,7 +27,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 217
-    iput-object v1, p0, Lcom/tencent/mm/pluginsdk/model/app/p;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v1, p0, Lcom/tencent/mm/pluginsdk/model/app/p;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 218
     iput-object v1, p0, Lcom/tencent/mm/pluginsdk/model/app/p;->appId:Ljava/lang/String;
@@ -41,7 +41,7 @@
     iput-object v1, p0, Lcom/tencent/mm/pluginsdk/model/app/p;->url:Ljava/lang/String;
 
     .line 223
-    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/model/app/p;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/model/app/p;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 224
     iput-object p2, p0, Lcom/tencent/mm/pluginsdk/model/app/p;->appId:Ljava/lang/String;
@@ -57,7 +57,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -103,7 +103,7 @@
     :cond_1
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/p;->url:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->Bn(Ljava/lang/String;)[B
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bn(Ljava/lang/String;)[B
 
     move-result-object v0
 
@@ -125,9 +125,9 @@
     iput-object v1, v0, Landroid/os/Message;->obj:Ljava/lang/Object;
 
     .line 240
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/model/app/p;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/model/app/p;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/platformtools/ab;->sendMessage(Landroid/os/Message;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendMessage(Landroid/os/Message;)Z
 
     goto :goto_0
 .end method

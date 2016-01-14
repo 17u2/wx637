@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -92,7 +92,7 @@
 
     move-result-object v1
 
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->pb()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->pb()Ljava/lang/String;
 
     move-result-object v2
 
@@ -104,10 +104,10 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 200
-    new-instance v0, Lcom/tencent/mm/modelsimple/ah;
+    new-instance v0, Lcom/tencent/mm/modelsimple/AHclz;
 
     const/4 v1, 0x5
 
@@ -147,7 +147,7 @@
 
     move-result-object v5
 
-    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/modelsimple/ah;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/modelsimple/AHclz;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
 
     .line 202
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -161,9 +161,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/bindqq/StartUnbindQQ$3;->jYU:Lcom/tencent/mm/ui/bindqq/StartUnbindQQ;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v2, v2, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v2, v2, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/bindqq/StartUnbindQQ$3;->jYU:Lcom/tencent/mm/ui/bindqq/StartUnbindQQ;
 
@@ -181,13 +181,13 @@
 
     new-instance v4, Lcom/tencent/mm/ui/bindqq/StartUnbindQQ$3$1;
 
-    invoke-direct {v4, p0, v0}, Lcom/tencent/mm/ui/bindqq/StartUnbindQQ$3$1;-><init>(Lcom/tencent/mm/ui/bindqq/StartUnbindQQ$3;Lcom/tencent/mm/modelsimple/ah;)V
+    invoke-direct {v4, p0, v0}, Lcom/tencent/mm/ui/bindqq/StartUnbindQQ$3$1;-><init>(Lcom/tencent/mm/ui/bindqq/StartUnbindQQ$3;Lcom/tencent/mm/modelsimple/AHclz;)V
 
-    invoke-static {v2, v3, v6, v4}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v2, v3, v6, v4}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/ui/bindqq/StartUnbindQQ;->a(Lcom/tencent/mm/ui/bindqq/StartUnbindQQ;Lcom/tencent/mm/ui/base/o;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v1, v0}, Lcom/tencent/mm/ui/bindqq/StartUnbindQQ;->a(Lcom/tencent/mm/ui/bindqq/StartUnbindQQ;Lcom/tencent/mm/ui/base/Oclz;)Lcom/tencent/mm/ui/base/Oclz;
 
     .line 211
     return-void

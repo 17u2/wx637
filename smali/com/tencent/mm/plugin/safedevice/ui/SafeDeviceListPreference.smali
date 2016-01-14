@@ -48,7 +48,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -68,7 +68,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -99,7 +99,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -121,7 +121,7 @@
 
     const-string/jumbo v1, "has not binded"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 181
     :cond_0
@@ -276,7 +276,7 @@
 
     const v4, 0x7f0907a5
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/at/a;->w(Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {v3, v4}, Lcom/tencent/mm/at/Aclz;->w(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object v3
 
@@ -284,7 +284,7 @@
 
     const v5, 0x7f090ada
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/at/a;->w(Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {v4, v5}, Lcom/tencent/mm/at/Aclz;->w(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object v4
 
@@ -296,7 +296,7 @@
 
     invoke-direct {v6, p0}, Lcom/tencent/mm/plugin/safedevice/ui/SafeDeviceListPreference$2;-><init>(Lcom/tencent/mm/plugin/safedevice/ui/SafeDeviceListPreference;)V
 
-    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     return-void
 .end method
@@ -350,7 +350,7 @@
 
     new-array v2, v6, [Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/plugin/safedevice/a/d;->b(Lcom/tencent/mm/sdk/g/c;[Ljava/lang/String;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/plugin/safedevice/a/d;->b(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
 
     .line 195
     iget-object v0, p0, Lcom/tencent/mm/plugin/safedevice/ui/SafeDeviceListPreference;->fyo:Lcom/tencent/mm/plugin/safedevice/ui/SafeDeviceListPreference$b;

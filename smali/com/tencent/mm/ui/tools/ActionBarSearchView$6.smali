@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -59,20 +59,20 @@
 
     const-string/jumbo v2, "on back key click."
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 163
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/ActionBarSearchView$6;->kBo:Lcom/tencent/mm/ui/tools/ActionBarSearchView;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->b(Lcom/tencent/mm/ui/tools/ActionBarSearchView;)Lcom/tencent/mm/ui/tools/u;
+    invoke-static {v0}, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->b(Lcom/tencent/mm/ui/tools/ActionBarSearchView;)Lcom/tencent/mm/ui/tools/Uclz;
 
     move-result-object v2
 
-    iget-boolean v0, v2, Lcom/tencent/mm/ui/tools/u;->kFD:Z
+    iget-boolean v0, v2, Lcom/tencent/mm/ui/tools/Uclz;->kFD:Z
 
     if-eqz v0, :cond_0
 
-    iget-object v0, v2, Lcom/tencent/mm/ui/tools/u;->kFB:Ljava/lang/ref/WeakReference;
+    iget-object v0, v2, Lcom/tencent/mm/ui/tools/Uclz;->kFB:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
@@ -82,7 +82,7 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v3, v2, Lcom/tencent/mm/ui/tools/u;->kFA:Ljava/util/List;
+    iget-object v3, v2, Lcom/tencent/mm/ui/tools/Uclz;->kFA:Ljava/util/List;
 
     if-nez v3, :cond_1
 
@@ -109,21 +109,21 @@
 
     if-ne v4, v5, :cond_2
 
-    invoke-virtual {v2, v4}, Lcom/tencent/mm/ui/tools/u;->ra(I)Lcom/tencent/mm/ui/tools/u$b;
+    invoke-virtual {v2, v4}, Lcom/tencent/mm/ui/tools/Uclz;->ra(I)Lcom/tencent/mm/ui/tools/Uclz$b;
 
     move-result-object v2
 
     if-eqz v2, :cond_2
 
-    iget-boolean v4, v2, Lcom/tencent/mm/ui/tools/u$b;->kFM:Z
+    iget-boolean v4, v2, Lcom/tencent/mm/ui/tools/Uclz$b;->kFM:Z
 
     if-eqz v4, :cond_2
 
-    iget v1, v2, Lcom/tencent/mm/ui/tools/u$b;->bRl:I
+    iget v1, v2, Lcom/tencent/mm/ui/tools/Uclz$b;->bRl:I
 
-    iget v4, v2, Lcom/tencent/mm/ui/tools/u$b;->bRl:I
+    iget v4, v2, Lcom/tencent/mm/ui/tools/Uclz$b;->bRl:I
 
-    iget v5, v2, Lcom/tencent/mm/ui/tools/u$b;->length:I
+    iget v5, v2, Lcom/tencent/mm/ui/tools/Uclz$b;->length:I
 
     add-int/2addr v4, v5
 
@@ -131,7 +131,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/EditText;->setTextKeepState(Ljava/lang/CharSequence;)V
 
-    iget v1, v2, Lcom/tencent/mm/ui/tools/u$b;->bRl:I
+    iget v1, v2, Lcom/tencent/mm/ui/tools/Uclz$b;->bRl:I
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setSelection(I)V
 

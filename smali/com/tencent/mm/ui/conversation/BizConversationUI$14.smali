@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -64,9 +64,9 @@
 
     if-lt v1, v3, :cond_2
 
-    new-instance v1, Lcom/tencent/mm/platformtools/p;
+    new-instance v1, Lcom/tencent/mm/platformtools/Pclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/platformtools/p;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/platformtools/Pclz;-><init>()V
 
     invoke-virtual {v0}, Landroid/widget/ListView;->getFirstVisiblePosition()I
 
@@ -90,9 +90,9 @@
 
     .line 229
     :cond_2
-    new-instance v1, Lcom/tencent/mm/platformtools/o;
+    new-instance v1, Lcom/tencent/mm/platformtools/Oclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/platformtools/o;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/platformtools/Oclz;-><init>()V
 
     invoke-virtual {v0, v2}, Landroid/widget/ListView;->setSelection(I)V
 

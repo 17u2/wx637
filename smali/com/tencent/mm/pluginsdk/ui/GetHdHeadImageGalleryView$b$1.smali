@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/ui/base/f$c;
+.implements Lcom/tencent/mm/ui/base/Fclz$c;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -62,7 +62,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v1, Lcom/tencent/mm/compatible/util/d;->bnE:Ljava/lang/String;
+    sget-object v1, Lcom/tencent/mm/compatible/util/Dclz;->bnE:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -86,7 +86,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/a/f;->m([B)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/a/Fclz;->m([B)Ljava/lang/String;
 
     move-result-object v1
 
@@ -127,7 +127,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/platformtools/e;->d(Ljava/lang/String;Landroid/content/Context;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/platformtools/Eclz;->d(Ljava/lang/String;Landroid/content/Context;)V
 
     .line 125
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/GetHdHeadImageGalleryView$b$1;->hQS:Lcom/tencent/mm/pluginsdk/ui/GetHdHeadImageGalleryView$b;
@@ -152,7 +152,7 @@
 
     const/4 v4, 0x0
 
-    sget-object v5, Lcom/tencent/mm/compatible/util/d;->bnE:Ljava/lang/String;
+    sget-object v5, Lcom/tencent/mm/compatible/util/Dclz;->bnE:Ljava/lang/String;
 
     aput-object v5, v3, v4
 

@@ -34,7 +34,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -123,7 +123,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/contact/ContactRemarkImagePreviewUI$a;->kru:Lcom/tencent/mm/ui/contact/ContactRemarkImagePreviewUI;
 
-    invoke-static {v2}, Lcom/tencent/mm/at/a;->getDensity(Landroid/content/Context;)F
+    invoke-static {v2}, Lcom/tencent/mm/at/Aclz;->getDensity(Landroid/content/Context;)F
 
     move-result v2
 
@@ -215,7 +215,7 @@
 
     move-result-object v10
 
-    invoke-static {v4, v10}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v10}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     const/high16 v4, 0x40000000    # 2.0f
 
@@ -416,7 +416,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v2, 0x0
 

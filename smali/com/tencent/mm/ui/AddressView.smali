@@ -96,7 +96,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -116,7 +116,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -176,7 +176,7 @@
     .line 82
     const v0, 0x7f0c0019
 
-    invoke-static {p1, v0}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {p1, v0}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -187,7 +187,7 @@
     .line 83
     const v0, 0x7f0c001c
 
-    invoke-static {p1, v0}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {p1, v0}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -260,7 +260,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -796,7 +796,7 @@
     :cond_3
     iget-object v0, p0, Lcom/tencent/mm/ui/AddressView;->description:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1100,7 +1100,7 @@
     .line 447
     check-cast v0, Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1136,7 +1136,7 @@
     .line 401
     check-cast v0, Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 

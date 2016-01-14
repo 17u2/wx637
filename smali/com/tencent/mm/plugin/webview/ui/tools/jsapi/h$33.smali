@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -175,7 +175,7 @@
 
     if-eqz v4, :cond_7
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -184,7 +184,7 @@
     .line 6651
     iget-object v4, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$33;->hHq:Ljava/lang/String;
 
-    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -239,7 +239,7 @@
 
     const-string/jumbo v6, ".ui.conversation.BizChatConversationUI"
 
-    invoke-static {v5, v6, v4}, Lcom/tencent/mm/ao/c;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {v5, v6, v4}, Lcom/tencent/mm/ao/Cclz;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;)V
 
     .line 6659
     iget-object v4, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$33;->hGQ:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;
@@ -255,7 +255,7 @@
     .line 6664
     iget-object v2, v0, Lcom/tencent/mm/protocal/b/XOclz;->iHR:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -263,7 +263,7 @@
 
     iget-object v2, v0, Lcom/tencent/mm/protocal/b/XOclz;->iHS:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 

@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -125,7 +125,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 226
     iget-object v2, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/j$2;->aoC:Lcom/tencent/mm/app/plugin/voicereminder/a/j;
@@ -213,7 +213,7 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 234
     :cond_1
@@ -241,24 +241,24 @@
     .line 238
     iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/j$2;->aoC:Lcom/tencent/mm/app/plugin/voicereminder/a/j;
 
-    iget-object v0, v0, Lcom/tencent/mm/app/plugin/voicereminder/a/j;->aox:Lcom/tencent/mm/compatible/util/f$a;
+    iget-object v0, v0, Lcom/tencent/mm/app/plugin/voicereminder/a/j;->aox:Lcom/tencent/mm/compatible/util/Fclz$a;
 
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v1
 
-    iput-wide v1, v0, Lcom/tencent/mm/compatible/util/f$a;->bnQ:J
+    iput-wide v1, v0, Lcom/tencent/mm/compatible/util/Fclz$a;->bnQ:J
 
     .line 239
     iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/j$2;->aoC:Lcom/tencent/mm/app/plugin/voicereminder/a/j;
 
-    invoke-static {v0}, Lcom/tencent/mm/app/plugin/voicereminder/a/j;->l(Lcom/tencent/mm/app/plugin/voicereminder/a/j;)Lcom/tencent/mm/sdk/platformtools/ag;
+    invoke-static {v0}, Lcom/tencent/mm/app/plugin/voicereminder/a/j;->l(Lcom/tencent/mm/app/plugin/voicereminder/a/j;)Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     move-result-object v0
 
     const-wide/16 v1, 0xa
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     goto :goto_0
 .end method

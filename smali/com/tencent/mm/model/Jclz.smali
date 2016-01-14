@@ -22,7 +22,7 @@
 
     const-string/jumbo v2, "get total unread, but has not set uin"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 114
     :cond_0
@@ -69,7 +69,7 @@
 
     move-result-object v3
 
-    sget-object v4, Lcom/tencent/mm/i/a;->boD:Ljava/lang/String;
+    sget-object v4, Lcom/tencent/mm/i/Aclz;->boD:Ljava/lang/String;
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -81,7 +81,7 @@
 
     move-result-object v3
 
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -91,11 +91,11 @@
 
     move-result-object v2
 
-    iget-object v1, v1, Lcom/tencent/mm/storage/Sclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v1, v1, Lcom/tencent/mm/storage/Sclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     const/4 v3, 0x0
 
-    invoke-interface {v1, v2, v3}, Lcom/tencent/mm/sdk/g/d;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface {v1, v2, v3}, Lcom/tencent/mm/sdk/g/Dclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v1
 
@@ -135,7 +135,7 @@
     const/4 v1, 0x0
 
     .line 20
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->Fa()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Fa()J
 
     move-result-wide v2
 
@@ -177,7 +177,7 @@
 
     aput-object v7, v6, v1
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 33
     if-gtz v0, :cond_1
@@ -210,7 +210,7 @@
 
     const-string/jumbo v5, "cursor is null, return"
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 39
     const-string/jumbo v4, "!44@/B4Tb64lLpJN/RyYD3u7HBEKGpQXNnnJUPdv5kg2FEI="
@@ -219,7 +219,7 @@
 
     new-array v6, v9, [Ljava/lang/Object;
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->am(J)J
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->am(J)J
 
     move-result-wide v2
 
@@ -229,7 +229,7 @@
 
     aput-object v2, v6, v1
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_1
 
@@ -264,7 +264,7 @@
     .line 45
     if-eqz v5, :cond_3
 
-    iget v6, v5, Lcom/tencent/mm/d/b/o;->aOA:I
+    iget v6, v5, Lcom/tencent/mm/d/b/Oclz;->aOA:I
 
     if-nez v6, :cond_3
 
@@ -284,7 +284,7 @@
 
     new-array v8, v8, [Ljava/lang/Object;
 
-    iget-object v5, v5, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v5, v5, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     aput-object v5, v8, v1
 
@@ -294,7 +294,7 @@
 
     aput-object v5, v8, v9
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 43
     :cond_3
@@ -316,7 +316,7 @@
 
     aput-object v8, v7, v1
 
-    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 57
     invoke-interface {v4}, Landroid/database/Cursor;->close()V
@@ -328,7 +328,7 @@
 
     new-array v6, v9, [Ljava/lang/Object;
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->am(J)J
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->am(J)J
 
     move-result-wide v2
 
@@ -338,7 +338,7 @@
 
     aput-object v2, v6, v1
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 59
     invoke-static {v1, v0}, Ljava/lang/Math;->max(II)I
@@ -373,7 +373,7 @@
 
     const-string/jumbo v2, "get total unread with black list, but has not set uin"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -383,7 +383,7 @@
 
     .line 92
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->Fa()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Fa()J
 
     move-result-wide v2
 
@@ -428,7 +428,7 @@
 
     move-result-object v0
 
-    sget-object v6, Lcom/tencent/mm/i/a;->boD:Ljava/lang/String;
+    sget-object v6, Lcom/tencent/mm/i/Aclz;->boD:Ljava/lang/String;
 
     invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -452,7 +452,7 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
@@ -536,13 +536,13 @@
 
     aput-object v0, v7, v1
 
-    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iget-object v4, v4, Lcom/tencent/mm/storage/Sclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v4, v4, Lcom/tencent/mm/storage/Sclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     const/4 v5, 0x0
 
-    invoke-interface {v4, v0, v5}, Lcom/tencent/mm/sdk/g/d;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface {v4, v0, v5}, Lcom/tencent/mm/sdk/g/Dclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -558,7 +558,7 @@
 
     new-array v6, v9, [Ljava/lang/Object;
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->am(J)J
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->am(J)J
 
     move-result-wide v2
 
@@ -568,7 +568,7 @@
 
     aput-object v2, v6, v1
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto/16 :goto_0
 .end method
@@ -606,14 +606,14 @@
 
     const-string/jumbo v2, "get Total Unread Talker, but has not set uin"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0
     return v1
 
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->Fa()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Fa()J
 
     move-result-wide v2
 
@@ -645,7 +645,7 @@
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -671,7 +671,7 @@
 
     move-result-object v5
 
-    sget-object v6, Lcom/tencent/mm/i/a;->boD:Ljava/lang/String;
+    sget-object v6, Lcom/tencent/mm/i/Aclz;->boD:Ljava/lang/String;
 
     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -703,13 +703,13 @@
 
     aput-object v4, v7, v1
 
-    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iget-object v0, v0, Lcom/tencent/mm/storage/Sclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v0, v0, Lcom/tencent/mm/storage/Sclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     const/4 v5, 0x0
 
-    invoke-interface {v0, v4, v5}, Lcom/tencent/mm/sdk/g/d;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface {v0, v4, v5}, Lcom/tencent/mm/sdk/g/Dclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v4
 
@@ -748,7 +748,7 @@
 
     const-string/jumbo v5, "cursor is null, return"
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string/jumbo v4, "!44@/B4Tb64lLpJN/RyYD3u7HBEKGpQXNnnJUPdv5kg2FEI="
 
@@ -756,7 +756,7 @@
 
     new-array v6, v9, [Ljava/lang/Object;
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->am(J)J
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->am(J)J
 
     move-result-wide v2
 
@@ -766,7 +766,7 @@
 
     aput-object v2, v6, v1
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     move v1, v0
 
@@ -800,7 +800,7 @@
 
     if-eqz v5, :cond_3
 
-    iget v5, v5, Lcom/tencent/mm/d/b/o;->aOA:I
+    iget v5, v5, Lcom/tencent/mm/d/b/Oclz;->aOA:I
 
     if-nez v5, :cond_3
 
@@ -824,7 +824,7 @@
 
     aput-object v8, v7, v1
 
-    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     invoke-interface {v4}, Landroid/database/Cursor;->close()V
 
@@ -834,7 +834,7 @@
 
     new-array v6, v9, [Ljava/lang/Object;
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->am(J)J
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->am(J)J
 
     move-result-wide v2
 
@@ -844,7 +844,7 @@
 
     aput-object v2, v6, v1
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     invoke-static {v1, v0}, Ljava/lang/Math;->max(II)I
 
@@ -876,7 +876,7 @@
 
     const-string/jumbo v2, "get Bottle Total Conversation Unread, but has not set uin"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 133
     :cond_0
@@ -905,15 +905,15 @@
 
     aput-object v5, v4, v0
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iget-object v1, v1, Lcom/tencent/mm/storage/Sclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v1, v1, Lcom/tencent/mm/storage/Sclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     const-string/jumbo v2, "select count(*) from rbottleconversation where unReadCount > 0"
 
     const/4 v3, 0x0
 
-    invoke-interface {v1, v2, v3}, Lcom/tencent/mm/sdk/g/d;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface {v1, v2, v3}, Lcom/tencent/mm/sdk/g/Dclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v1
 

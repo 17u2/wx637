@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -119,7 +119,7 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 248
     iget-object v3, p0, Lcom/tencent/mm/ui/tools/CropImageView$3;->kCA:Lcom/tencent/mm/ui/tools/CropImageView;
@@ -145,7 +145,7 @@
 
     const-string/jumbo v2, "action_down"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 278
     iget-object v1, p0, Lcom/tencent/mm/ui/tools/CropImageView$3;->kCA:Lcom/tencent/mm/ui/tools/CropImageView;
@@ -204,7 +204,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 281
     iget-object v1, p0, Lcom/tencent/mm/ui/tools/CropImageView$3;->kCA:Lcom/tencent/mm/ui/tools/CropImageView;
@@ -308,7 +308,7 @@
 
     const-string/jumbo v3, "action_mult_down"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 256
     iget-object v2, p0, Lcom/tencent/mm/ui/tools/CropImageView$3;->kCA:Lcom/tencent/mm/ui/tools/CropImageView;
@@ -318,7 +318,7 @@
     .line 257
     iget-object v2, p0, Lcom/tencent/mm/ui/tools/CropImageView$3;->kCA:Lcom/tencent/mm/ui/tools/CropImageView;
 
-    invoke-static {p2}, Lcom/tencent/mm/ui/base/e;->o(Landroid/view/MotionEvent;)F
+    invoke-static {p2}, Lcom/tencent/mm/ui/base/Eclz;->o(Landroid/view/MotionEvent;)F
 
     move-result v3
 
@@ -345,7 +345,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p2}, Lcom/tencent/mm/ui/base/e;->b(Landroid/graphics/PointF;Landroid/view/MotionEvent;)V
+    invoke-static {v0, p2}, Lcom/tencent/mm/ui/base/Eclz;->b(Landroid/graphics/PointF;Landroid/view/MotionEvent;)V
 
     move v0, v1
 
@@ -358,7 +358,7 @@
 
     const-string/jumbo v3, "action_mult_up"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 270
     iget-object v2, p0, Lcom/tencent/mm/ui/tools/CropImageView$3;->kCA:Lcom/tencent/mm/ui/tools/CropImageView;
@@ -381,7 +381,7 @@
 
     const-string/jumbo v2, "action_move"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 297
     iget-object v1, p0, Lcom/tencent/mm/ui/tools/CropImageView$3;->kCA:Lcom/tencent/mm/ui/tools/CropImageView;
@@ -395,12 +395,12 @@
 
     const-string/jumbo v2, "is valid mult down"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 299
     iget-object v1, p0, Lcom/tencent/mm/ui/tools/CropImageView$3;->kCA:Lcom/tencent/mm/ui/tools/CropImageView;
 
-    invoke-static {p2}, Lcom/tencent/mm/ui/base/e;->o(Landroid/view/MotionEvent;)F
+    invoke-static {p2}, Lcom/tencent/mm/ui/base/Eclz;->o(Landroid/view/MotionEvent;)F
 
     move-result v2
 
@@ -441,7 +441,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, p2}, Lcom/tencent/mm/ui/base/e;->b(Landroid/graphics/PointF;Landroid/view/MotionEvent;)V
+    invoke-static {v2, p2}, Lcom/tencent/mm/ui/base/Eclz;->b(Landroid/graphics/PointF;Landroid/view/MotionEvent;)V
 
     .line 304
     const-string/jumbo v2, "!32@/B4Tb64lLpKZO8SHSsYWiU6LrfM7B7iE"
@@ -486,7 +486,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 305
     cmpl-float v1, v1, v7
@@ -498,7 +498,7 @@
 
     const-string/jumbo v2, "zoom in"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 307
     iget-object v1, p0, Lcom/tencent/mm/ui/tools/CropImageView$3;->kCA:Lcom/tencent/mm/ui/tools/CropImageView;
@@ -617,7 +617,7 @@
 
     const-string/jumbo v2, "zoom out"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 310
     iget-object v1, p0, Lcom/tencent/mm/ui/tools/CropImageView$3;->kCA:Lcom/tencent/mm/ui/tools/CropImageView;
@@ -632,7 +632,7 @@
 
     const-string/jumbo v3, "action_up"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 336
     iget-object v2, p0, Lcom/tencent/mm/ui/tools/CropImageView$3;->kCA:Lcom/tencent/mm/ui/tools/CropImageView;

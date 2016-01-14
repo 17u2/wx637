@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -55,9 +55,9 @@
     .line 132
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/ContactRemarkInfoViewUI$2;->ksg:Lcom/tencent/mm/ui/contact/ContactRemarkInfoViewUI;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v1, v1, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const-class v2, Lcom/tencent/mm/ui/contact/ContactRemarkInfoModUI;
 
@@ -83,7 +83,7 @@
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 

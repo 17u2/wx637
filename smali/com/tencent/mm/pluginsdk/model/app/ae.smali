@@ -15,7 +15,7 @@
 
 .field bJZ:Ljava/lang/String;
 
-.field private bKh:Lcom/tencent/mm/modelcdntran/e$a;
+.field private bKh:Lcom/tencent/mm/modelcdntran/Eclz$a;
 
 .field private bqf:Ljava/lang/String;
 
@@ -79,7 +79,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/pluginsdk/model/app/ae$1;-><init>(Lcom/tencent/mm/pluginsdk/model/app/ae;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ae;->bKh:Lcom/tencent/mm/modelcdntran/e$a;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ae;->bKh:Lcom/tencent/mm/modelcdntran/Eclz$a;
 
     .line 67
     iput-wide p1, p0, Lcom/tencent/mm/pluginsdk/model/app/ae;->fHB:J
@@ -94,14 +94,14 @@
 
     invoke-direct {v1}, Lcom/tencent/mm/protocal/b/asl;-><init>()V
 
-    iput-object v1, v0, Lcom/tencent/mm/q/Aclz$a;->bxM:Lcom/tencent/mm/aq/a;
+    iput-object v1, v0, Lcom/tencent/mm/q/Aclz$a;->bxM:Lcom/tencent/mm/aq/Aclz;
 
     .line 71
     new-instance v1, Lcom/tencent/mm/protocal/b/asm;
 
     invoke-direct {v1}, Lcom/tencent/mm/protocal/b/asm;-><init>()V
 
-    iput-object v1, v0, Lcom/tencent/mm/q/Aclz$a;->bxN:Lcom/tencent/mm/aq/a;
+    iput-object v1, v0, Lcom/tencent/mm/q/Aclz$a;->bxN:Lcom/tencent/mm/aq/Aclz;
 
     .line 72
     const-string/jumbo v1, "/cgi-bin/micromsg-bin/uploadappattach"
@@ -135,7 +135,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -156,7 +156,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -187,7 +187,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/pluginsdk/model/app/ae;->hLU:Lcom/tencent/mm/pluginsdk/model/app/b;
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/model/app/c;->b(JLcom/tencent/mm/sdk/g/c;)Z
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/model/app/c;->b(JLcom/tencent/mm/sdk/g/Cclz;)Z
 
     move-result v0
 
@@ -206,7 +206,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->pb()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->pb()Ljava/lang/String;
 
     move-result-object v2
 
@@ -230,10 +230,10 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 282
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->oZ()I
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->oZ()I
 
     move-result v0
 
@@ -272,7 +272,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->pb()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->pb()Ljava/lang/String;
 
     move-result-object v2
 
@@ -310,7 +310,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 288
     const/4 v0, -0x1
@@ -328,7 +328,7 @@
     if-nez v0, :cond_3
 
     .line 292
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v0
 
@@ -384,7 +384,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     const/4 v0, 0x0
 
@@ -410,7 +410,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 298
     const/4 v0, 0x0
@@ -419,9 +419,9 @@
 
     .line 296
     :cond_5
-    invoke-static {}, Lcom/tencent/mm/modelcdntran/d;->xI()Lcom/tencent/mm/modelcdntran/a;
+    invoke-static {}, Lcom/tencent/mm/modelcdntran/Dclz;->xI()Lcom/tencent/mm/modelcdntran/Aclz;
 
-    invoke-static {}, Lcom/tencent/mm/modelcdntran/a;->xC()Z
+    invoke-static {}, Lcom/tencent/mm/modelcdntran/Aclz;->xC()Z
 
     move-result v0
 
@@ -445,9 +445,9 @@
 
     const/4 v3, 0x0
 
-    invoke-static {}, Lcom/tencent/mm/modelcdntran/d;->xI()Lcom/tencent/mm/modelcdntran/a;
+    invoke-static {}, Lcom/tencent/mm/modelcdntran/Dclz;->xI()Lcom/tencent/mm/modelcdntran/Aclz;
 
-    invoke-static {}, Lcom/tencent/mm/modelcdntran/a;->xC()Z
+    invoke-static {}, Lcom/tencent/mm/modelcdntran/Aclz;->xC()Z
 
     move-result v4
 
@@ -469,7 +469,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     const/4 v0, 0x0
 
@@ -492,7 +492,7 @@
 
     move-result-object v1
 
-    iget-wide v2, v1, Lcom/tencent/mm/d/b/ba;->field_msgId:J
+    iget-wide v2, v1, Lcom/tencent/mm/d/b/BAclz;->field_msgId:J
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ae;->hLU:Lcom/tencent/mm/pluginsdk/model/app/b;
 
@@ -522,7 +522,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     const/4 v0, 0x0
 
@@ -531,26 +531,26 @@
     :cond_7
     const-string/jumbo v0, ""
 
-    iget-object v2, v1, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/d/b/BAclz;->field_imgPath:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
     if-nez v2, :cond_8
 
-    invoke-static {}, Lcom/tencent/mm/z/n;->zW()Lcom/tencent/mm/z/f;
+    invoke-static {}, Lcom/tencent/mm/z/Nclz;->zW()Lcom/tencent/mm/z/Fclz;
 
     move-result-object v0
 
-    iget-object v2, v1, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/d/b/BAclz;->field_imgPath:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/z/f;->hy(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/z/Fclz;->hy(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     :cond_8
-    invoke-static {v0}, Lcom/tencent/mm/a/d;->au(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/tencent/mm/a/Dclz;->au(Ljava/lang/String;)I
 
     move-result v2
 
@@ -558,7 +558,7 @@
 
     iget-object v3, v3, Lcom/tencent/mm/pluginsdk/model/app/b;->field_fileFullPath:Ljava/lang/String;
 
-    invoke-static {v3}, Lcom/tencent/mm/a/d;->au(Ljava/lang/String;)I
+    invoke-static {v3}, Lcom/tencent/mm/a/Dclz;->au(Ljava/lang/String;)I
 
     move-result v3
 
@@ -586,7 +586,7 @@
 
     aput-object v2, v4, v0
 
-    invoke-static {v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     const/4 v0, 0x0
 
@@ -599,7 +599,7 @@
 
     iget-wide v5, v5, Lcom/tencent/mm/pluginsdk/model/app/b;->field_createTime:J
 
-    iget-object v7, v1, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
+    iget-object v7, v1, Lcom/tencent/mm/d/b/BAclz;->field_talker:Ljava/lang/String;
 
     new-instance v8, Ljava/lang/StringBuilder;
 
@@ -615,7 +615,7 @@
 
     move-result-object v8
 
-    invoke-static {v4, v5, v6, v7, v8}, Lcom/tencent/mm/modelcdntran/b;->a(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4, v5, v6, v7, v8}, Lcom/tencent/mm/modelcdntran/Bclz;->a(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -623,7 +623,7 @@
 
     iget-object v4, p0, Lcom/tencent/mm/pluginsdk/model/app/ae;->bJZ:Ljava/lang/String;
 
-    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -647,7 +647,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     const/4 v0, 0x0
 
@@ -702,55 +702,55 @@
 
     aput-object v2, v6, v3
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    new-instance v2, Lcom/tencent/mm/modelcdntran/e;
+    new-instance v2, Lcom/tencent/mm/modelcdntran/Eclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/modelcdntran/e;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/modelcdntran/Eclz;-><init>()V
 
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/model/app/ae;->bKh:Lcom/tencent/mm/modelcdntran/e$a;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/model/app/ae;->bKh:Lcom/tencent/mm/modelcdntran/Eclz$a;
 
-    iput-object v3, v2, Lcom/tencent/mm/modelcdntran/e;->bDJ:Lcom/tencent/mm/modelcdntran/e$a;
+    iput-object v3, v2, Lcom/tencent/mm/modelcdntran/Eclz;->bDJ:Lcom/tencent/mm/modelcdntran/Eclz$a;
 
     iget-object v3, p0, Lcom/tencent/mm/pluginsdk/model/app/ae;->bJZ:Ljava/lang/String;
 
-    iput-object v3, v2, Lcom/tencent/mm/modelcdntran/e;->field_mediaId:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/modelcdntran/Eclz;->field_mediaId:Ljava/lang/String;
 
     iget-object v3, p0, Lcom/tencent/mm/pluginsdk/model/app/ae;->hLU:Lcom/tencent/mm/pluginsdk/model/app/b;
 
     iget-object v3, v3, Lcom/tencent/mm/pluginsdk/model/app/b;->field_fileFullPath:Ljava/lang/String;
 
-    iput-object v3, v2, Lcom/tencent/mm/modelcdntran/e;->field_fullpath:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/modelcdntran/Eclz;->field_fullpath:Ljava/lang/String;
 
-    iput-object v0, v2, Lcom/tencent/mm/modelcdntran/e;->field_thumbpath:Ljava/lang/String;
+    iput-object v0, v2, Lcom/tencent/mm/modelcdntran/Eclz;->field_thumbpath:Ljava/lang/String;
 
     sget v0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->bCE:I
 
-    iput v0, v2, Lcom/tencent/mm/modelcdntran/e;->field_fileType:I
+    iput v0, v2, Lcom/tencent/mm/modelcdntran/Eclz;->field_fileType:I
 
-    iget-object v0, v1, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
+    iget-object v0, v1, Lcom/tencent/mm/d/b/BAclz;->field_talker:Ljava/lang/String;
 
-    iput-object v0, v2, Lcom/tencent/mm/modelcdntran/e;->field_talker:Ljava/lang/String;
+    iput-object v0, v2, Lcom/tencent/mm/modelcdntran/Eclz;->field_talker:Ljava/lang/String;
 
     sget v0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->bCy:I
 
-    iput v0, v2, Lcom/tencent/mm/modelcdntran/e;->field_priority:I
+    iput v0, v2, Lcom/tencent/mm/modelcdntran/Eclz;->field_priority:I
 
     const/4 v0, 0x0
 
-    iput-boolean v0, v2, Lcom/tencent/mm/modelcdntran/e;->field_needStorage:Z
+    iput-boolean v0, v2, Lcom/tencent/mm/modelcdntran/Eclz;->field_needStorage:Z
 
     const/4 v0, 0x0
 
-    iput-boolean v0, v2, Lcom/tencent/mm/modelcdntran/e;->field_isStreamMedia:Z
+    iput-boolean v0, v2, Lcom/tencent/mm/modelcdntran/Eclz;->field_isStreamMedia:Z
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ae;->bKh:Lcom/tencent/mm/modelcdntran/e$a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ae;->bKh:Lcom/tencent/mm/modelcdntran/Eclz$a;
 
-    iput-object v0, v2, Lcom/tencent/mm/modelcdntran/e;->bDJ:Lcom/tencent/mm/modelcdntran/e$a;
+    iput-object v0, v2, Lcom/tencent/mm/modelcdntran/Eclz;->bDJ:Lcom/tencent/mm/modelcdntran/Eclz$a;
 
-    iget-object v0, v1, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
+    iget-object v0, v1, Lcom/tencent/mm/d/b/BAclz;->field_content:Ljava/lang/String;
 
-    iget-object v3, v1, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
+    iget-object v3, v1, Lcom/tencent/mm/d/b/BAclz;->field_talker:Ljava/lang/String;
 
     invoke-static {v3}, Lcom/tencent/mm/model/Iclz;->di(Ljava/lang/String;)Z
 
@@ -758,7 +758,7 @@
 
     if-eqz v3, :cond_b
 
-    iget-object v3, v1, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
+    iget-object v3, v1, Lcom/tencent/mm/d/b/BAclz;->field_content:Ljava/lang/String;
 
     invoke-static {v3}, Lcom/tencent/mm/model/APclz;->fa(Ljava/lang/String;)I
 
@@ -772,7 +772,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v1, v1, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/b/BAclz;->field_content:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -799,30 +799,30 @@
     move-result-object v0
 
     :cond_b
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->Bj(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bj(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/m/a$a;->ds(Ljava/lang/String;)Lcom/tencent/mm/m/a$a;
+    invoke-static {v0}, Lcom/tencent/mm/m/Aclz$a;->ds(Ljava/lang/String;)Lcom/tencent/mm/m/Aclz$a;
 
     move-result-object v0
 
     if-eqz v0, :cond_c
 
-    iget-object v1, v0, Lcom/tencent/mm/m/a$a;->bql:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/m/Aclz$a;->bql:Ljava/lang/String;
 
-    iput-object v1, v2, Lcom/tencent/mm/modelcdntran/e;->field_fileId:Ljava/lang/String;
+    iput-object v1, v2, Lcom/tencent/mm/modelcdntran/Eclz;->field_fileId:Ljava/lang/String;
 
-    iget-object v0, v0, Lcom/tencent/mm/m/a$a;->bqs:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/m/Aclz$a;->bqs:Ljava/lang/String;
 
-    iput-object v0, v2, Lcom/tencent/mm/modelcdntran/e;->field_aesKey:Ljava/lang/String;
+    iput-object v0, v2, Lcom/tencent/mm/modelcdntran/Eclz;->field_aesKey:Ljava/lang/String;
 
     :goto_2
-    invoke-static {}, Lcom/tencent/mm/modelcdntran/d;->xI()Lcom/tencent/mm/modelcdntran/a;
+    invoke-static {}, Lcom/tencent/mm/modelcdntran/Dclz;->xI()Lcom/tencent/mm/modelcdntran/Aclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/modelcdntran/a;->a(Lcom/tencent/mm/modelcdntran/e;)Z
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/modelcdntran/Aclz;->a(Lcom/tencent/mm/modelcdntran/Eclz;)Z
 
     move-result v0
 
@@ -832,7 +832,7 @@
 
     const-string/jumbo v1, "cdntra addSendTask failed."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string/jumbo v0, ""
 
@@ -847,7 +847,7 @@
 
     const-string/jumbo v1, "cdntra parse content xml failed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -876,7 +876,7 @@
 
     new-array v2, v2, [Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/c;->a(Lcom/tencent/mm/sdk/g/c;[Ljava/lang/String;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/c;->a(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
 
     move-result v0
 
@@ -898,9 +898,9 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->oZ()I
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->oZ()I
 
     move-result v0
 
@@ -953,7 +953,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->pb()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->pb()Ljava/lang/String;
 
     move-result-object v2
 
@@ -977,7 +977,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 304
     const/4 v0, -0x1
@@ -1001,7 +1001,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/b;->field_appId:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1012,7 +1012,7 @@
 
     const-string/jumbo v1, "checkArgs : appId is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 310
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ae;->hLU:Lcom/tencent/mm/pluginsdk/model/app/b;
@@ -1026,7 +1026,7 @@
     if-eqz v0, :cond_11
 
     .line 311
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->oZ()I
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->oZ()I
 
     move-result v0
 
@@ -1045,7 +1045,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/b;->field_clientAppDataId:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1056,10 +1056,10 @@
 
     const-string/jumbo v1, "checkArgs : clientAppDataId is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 317
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->oZ()I
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->oZ()I
 
     move-result v0
 
@@ -1116,10 +1116,10 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 322
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->oZ()I
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->oZ()I
 
     move-result v0
 
@@ -1138,7 +1138,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/b;->field_fileFullPath:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1149,10 +1149,10 @@
 
     const-string/jumbo v1, "checkArgs : fileFullPath is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 328
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->oZ()I
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->oZ()I
 
     move-result v0
 
@@ -1171,7 +1171,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/b;->field_fileFullPath:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/a/d;->au(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/tencent/mm/a/Dclz;->au(Ljava/lang/String;)I
 
     move-result v0
 
@@ -1185,7 +1185,7 @@
 
     const-string/jumbo v1, "doScene : file is too large"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 336
     const/4 v0, -0x1
@@ -1206,12 +1206,12 @@
 
     const/16 v2, 0x2000
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/a/d;->d(Ljava/lang/String;II)[B
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/a/Dclz;->d(Ljava/lang/String;II)[B
 
     move-result-object v1
 
     .line 341
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->I([B)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->I([B)Z
 
     move-result v0
 
@@ -1222,10 +1222,10 @@
 
     const-string/jumbo v1, "doScene : data is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 343
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->oZ()I
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->oZ()I
 
     move-result v0
 
@@ -1244,7 +1244,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxI:Lcom/tencent/mm/q/Aclz$b;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/asl;
 
@@ -1442,7 +1442,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 380
     const/4 v0, 0x3
@@ -1455,7 +1455,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ae;->bJZ:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1476,7 +1476,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 458
     :cond_0
@@ -1517,10 +1517,10 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 387
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->oZ()I
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->oZ()I
 
     move-result v0
 
@@ -1572,7 +1572,7 @@
 
     const/4 v3, 0x3
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v4
 
@@ -1584,11 +1584,11 @@
 
     const/4 v3, 0x4
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v4
 
-    invoke-static {v4}, Lcom/tencent/mm/modelcdntran/b;->aH(Landroid/content/Context;)I
+    invoke-static {v4}, Lcom/tencent/mm/modelcdntran/Bclz;->aH(Landroid/content/Context;)I
 
     move-result v4
 
@@ -1640,7 +1640,7 @@
 
     iget-object v0, p5, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/asm;
 
@@ -1684,10 +1684,10 @@
 
     const-string/jumbo v1, "argument is not consistent"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 407
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->oZ()I
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->oZ()I
 
     move-result v0
 
@@ -1748,10 +1748,10 @@
 
     const-string/jumbo v1, "dataLen, startPos or totalLen is incorrect"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 418
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->oZ()I
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->oZ()I
 
     move-result v0
 
@@ -1816,7 +1816,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/b;->field_mediaSvrId:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1827,10 +1827,10 @@
 
     const-string/jumbo v1, "finish upload but mediaid == null!"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 429
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->oZ()I
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->oZ()I
 
     move-result v0
 
@@ -1913,7 +1913,7 @@
 
     const/4 v3, 0x3
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v4
 
@@ -1925,11 +1925,11 @@
 
     const/4 v3, 0x4
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v4
 
-    invoke-static {v4}, Lcom/tencent/mm/modelcdntran/b;->aH(Landroid/content/Context;)I
+    invoke-static {v4}, Lcom/tencent/mm/modelcdntran/Bclz;->aH(Landroid/content/Context;)I
 
     move-result v4
 
@@ -1979,7 +1979,7 @@
 
     new-array v2, v2, [Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/c;->a(Lcom/tencent/mm/sdk/g/c;[Ljava/lang/String;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/c;->a(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
 
     move-result v0
 
@@ -2003,10 +2003,10 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 444
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->oZ()I
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->oZ()I
 
     move-result v0
 
@@ -2069,7 +2069,7 @@
 
     const-string/jumbo v1, "onGYNetEnd : doScene fail"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 456
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/ae;->ans:Lcom/tencent/mm/q/Dclz;

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/modelgeo/a$a;
+.implements Lcom/tencent/mm/modelgeo/Aclz$a;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -82,12 +82,12 @@
 
     aput-object v5, v4, v0
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 255
     const/16 v0, 0x7d3
 
-    invoke-static {v0, p2, p3, v1}, Lcom/tencent/mm/modelstat/g;->a(IFFI)V
+    invoke-static {v0, p2, p3, v1}, Lcom/tencent/mm/modelstat/Gclz;->a(IFFI)V
 
     .line 257
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/LocationWidget$3;->gtB:Lcom/tencent/mm/plugin/sns/ui/LocationWidget;

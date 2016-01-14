@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,25 +48,25 @@
 
     .prologue
     .line 289
-    invoke-static {}, Lcom/tencent/mm/modelvoice/m;->DF()Lcom/tencent/mm/c/b/i;
+    invoke-static {}, Lcom/tencent/mm/modelvoice/Mclz;->DF()Lcom/tencent/mm/c/b/Iclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/c/b/i;->run()V
+    invoke-virtual {v0}, Lcom/tencent/mm/c/b/Iclz;->run()V
 
     .line 290
-    invoke-static {}, Lcom/tencent/mm/ak/j;->Dk()Lcom/tencent/mm/ak/q$a;
+    invoke-static {}, Lcom/tencent/mm/ak/Jclz;->Dk()Lcom/tencent/mm/ak/Qclz$a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ak/q$a;->run()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ak/Qclz$a;->run()V
 
     .line 291
-    invoke-static {}, Lcom/tencent/mm/z/n;->zU()Lcom/tencent/mm/z/h;
+    invoke-static {}, Lcom/tencent/mm/z/Nclz;->zU()Lcom/tencent/mm/z/Hclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/z/h;->run()V
+    invoke-virtual {v0}, Lcom/tencent/mm/z/Hclz;->run()V
 
     .line 294
     invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->aIz()Lcom/tencent/mm/pluginsdk/model/app/ag$a;
@@ -83,26 +83,26 @@
     invoke-virtual {v0}, Lcom/tencent/mm/app/plugin/voicereminder/a/j;->run()V
 
     .line 296
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    new-instance v1, Lcom/tencent/mm/d/a/jy;
+    new-instance v1, Lcom/tencent/mm/d/a/JYclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/d/a/jy;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/d/a/JYclz;-><init>()V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 297
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/c;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/Cclz;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ae/c;->b(Lcom/tencent/mm/ae/b$q;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ae/Cclz;->b(Lcom/tencent/mm/ae/Bclz$q;)V
 
     .line 299
     return-void

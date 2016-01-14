@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,27 +50,27 @@
     .line 276
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/i$2;->hTT:Lcom/tencent/mm/pluginsdk/ui/applet/i;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/i;->aoL:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/i;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
     if-eqz v0, :cond_0
 
     .line 277
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/i$2;->hTT:Lcom/tencent/mm/pluginsdk/ui/applet/i;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/i;->aoL:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/i;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->dismiss()V
 
     .line 278
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/i$2;->hTT:Lcom/tencent/mm/pluginsdk/ui/applet/i;
 
     const/4 v1, 0x0
 
-    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/i;->aoL:Lcom/tencent/mm/ui/base/g;
+    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/i;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
     .line 281
     :cond_0
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     new-instance v1, Lcom/tencent/mm/pluginsdk/ui/applet/i$2$1;
 
@@ -78,11 +78,11 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
     const-wide/16 v1, 0x1f4
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     .line 292
     return-void

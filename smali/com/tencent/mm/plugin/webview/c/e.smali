@@ -70,7 +70,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -87,7 +87,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -98,7 +98,7 @@
 
     .prologue
     .line 70
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/bc;->bd(Ljava/util/List;)Z
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->bd(Ljava/util/List;)Z
 
     move-result v0
 
@@ -134,7 +134,7 @@
 
     iget v3, v0, Lcom/tencent/mm/protocal/b/XPclz;->iHT:I
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EY()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EY()J
 
     move-result-wide v4
 
@@ -144,7 +144,7 @@
 
     add-long/2addr v4, v6
 
-    iget-object v0, v2, Lcom/tencent/mm/plugin/webview/c/d;->hya:Lcom/tencent/mm/sdk/platformtools/ar;
+    iget-object v0, v2, Lcom/tencent/mm/plugin/webview/c/d;->hya:Lcom/tencent/mm/sdk/platformtools/ARclz;
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -154,7 +154,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ar;->i(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ARclz;->i(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     goto :goto_1
 

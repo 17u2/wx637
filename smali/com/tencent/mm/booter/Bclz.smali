@@ -19,11 +19,11 @@
 
     if-eqz v1, :cond_0
 
-    sget-boolean v1, Lcom/tencent/mm/sdk/platformtools/f;->jfg:Z
+    sget-boolean v1, Lcom/tencent/mm/sdk/platformtools/Fclz;->jfg:Z
 
     if-eqz v1, :cond_1
 
-    sget-boolean v1, Lcom/tencent/mm/sdk/platformtools/f;->jff:Z
+    sget-boolean v1, Lcom/tencent/mm/sdk/platformtools/Fclz;->jff:Z
 
     if-eqz v1, :cond_1
 
@@ -51,7 +51,7 @@
 
     const-string/jumbo v1, "fully exited, no need to start service"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 35
     const/4 v0, 0x0
@@ -78,7 +78,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 40
     new-instance v1, Landroid/content/Intent;

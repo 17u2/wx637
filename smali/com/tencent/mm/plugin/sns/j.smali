@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/sns/j;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -11,14 +11,14 @@
     .line 18
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     .line 19
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -26,7 +26,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 13
 
     .prologue
@@ -37,7 +37,7 @@
     const/4 v2, 0x0
 
     .line 23
-    instance-of v0, p1, Lcom/tencent/mm/d/a/jx;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/JXclz;
 
     if-nez v0, :cond_0
 
@@ -46,7 +46,7 @@
 
     const-string/jumbo v1, "mismatched event"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v8
 
@@ -56,7 +56,7 @@
 
     .line 27
     :cond_0
-    check-cast p1, Lcom/tencent/mm/d/a/jx;
+    check-cast p1, Lcom/tencent/mm/d/a/JXclz;
 
     .line 29
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atw()Lcom/tencent/mm/plugin/sns/h/l;
@@ -67,9 +67,9 @@
     if-eqz v0, :cond_1
 
     .line 31
-    iget-object v1, p1, Lcom/tencent/mm/d/a/jx;->aEU:Lcom/tencent/mm/d/a/jx$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/JXclz;->aEU:Lcom/tencent/mm/d/a/JXclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/jx$a;->aEW:Lcom/tencent/mm/protocal/b/aqx;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/JXclz$a;->aEW:Lcom/tencent/mm/protocal/b/aqx;
 
     iget-object v1, v1, Lcom/tencent/mm/protocal/b/aqx;->ikW:Ljava/lang/String;
 
@@ -85,7 +85,7 @@
 
     if-nez v1, :cond_2
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/h/l;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/h/l;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     const-string/jumbo v1, "SnsInfo"
 
@@ -101,7 +101,7 @@
 
     move-object v7, v2
 
-    invoke-interface/range {v0 .. v7}, Lcom/tencent/mm/sdk/g/d;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface/range {v0 .. v7}, Lcom/tencent/mm/sdk/g/Dclz;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -125,15 +125,15 @@
     if-eqz v2, :cond_1
 
     .line 33
-    iget-object v1, p1, Lcom/tencent/mm/d/a/jx;->aEV:Lcom/tencent/mm/d/a/jx$b;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/JXclz;->aEV:Lcom/tencent/mm/d/a/JXclz$b;
 
-    iget-object v0, p1, Lcom/tencent/mm/d/a/jx;->aEU:Lcom/tencent/mm/d/a/jx$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/JXclz;->aEU:Lcom/tencent/mm/d/a/JXclz$a;
 
-    iget-object v3, v0, Lcom/tencent/mm/d/a/jx$a;->aET:Lcom/tencent/mm/d/a/as;
+    iget-object v3, v0, Lcom/tencent/mm/d/a/JXclz$a;->aET:Lcom/tencent/mm/d/a/ASclz;
 
-    iget-object v0, p1, Lcom/tencent/mm/d/a/jx;->aEU:Lcom/tencent/mm/d/a/jx$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/JXclz;->aEU:Lcom/tencent/mm/d/a/JXclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/jx$a;->aEW:Lcom/tencent/mm/protocal/b/aqx;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/JXclz$a;->aEW:Lcom/tencent/mm/protocal/b/aqx;
 
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/aqx;->iXh:Lcom/tencent/mm/protocal/b/ILclz;
 
@@ -145,11 +145,11 @@
 
     check-cast v0, Lcom/tencent/mm/protocal/b/abp;
 
-    invoke-static {v3, v2, v0}, Lcom/tencent/mm/plugin/sns/i/a;->a(Lcom/tencent/mm/d/a/as;Lcom/tencent/mm/plugin/sns/h/k;Lcom/tencent/mm/protocal/b/abp;)Z
+    invoke-static {v3, v2, v0}, Lcom/tencent/mm/plugin/sns/i/a;->a(Lcom/tencent/mm/d/a/ASclz;Lcom/tencent/mm/plugin/sns/h/k;Lcom/tencent/mm/protocal/b/abp;)Z
 
     move-result v0
 
-    iput-boolean v0, v1, Lcom/tencent/mm/d/a/jx$b;->asS:Z
+    iput-boolean v0, v1, Lcom/tencent/mm/d/a/JXclz$b;->asS:Z
 
     :cond_1
     move v0, v9
@@ -159,7 +159,7 @@
 
     .line 31
     :cond_2
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/h/l;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/h/l;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     const-string/jumbo v1, "SnsInfo"
 
@@ -203,7 +203,7 @@
 
     move-object v7, v2
 
-    invoke-interface/range {v0 .. v7}, Lcom/tencent/mm/sdk/g/d;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface/range {v0 .. v7}, Lcom/tencent/mm/sdk/g/Dclz;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 

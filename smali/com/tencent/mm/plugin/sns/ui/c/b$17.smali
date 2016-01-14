@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -83,7 +83,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 319
     new-instance v11, Landroid/content/Intent;
@@ -152,7 +152,7 @@
 
     iget-object v5, v4, Lcom/tencent/mm/plugin/sns/h/b;->goB:Ljava/lang/String;
 
-    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v5
 
@@ -190,7 +190,7 @@
 
     move-result-object v5
 
-    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 334
     new-instance v5, Landroid/content/Intent;
@@ -282,7 +282,7 @@
     const/16 v0, 0x2d2
 
     :goto_3
-    invoke-static {v0}, Lcom/tencent/mm/modelsns/a;->dR(I)Lcom/tencent/mm/modelsns/a;
+    invoke-static {v0}, Lcom/tencent/mm/modelsns/Aclz;->dR(I)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v0
 
@@ -292,13 +292,13 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/modelsns/a;->iH(Ljava/lang/String;)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/modelsns/Aclz;->iH(Ljava/lang/String;)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v2
 
     iget v4, v10, Lcom/tencent/mm/plugin/sns/h/k;->field_type:I
 
-    invoke-virtual {v2, v4}, Lcom/tencent/mm/modelsns/a;->dU(I)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v2, v4}, Lcom/tencent/mm/modelsns/Aclz;->dU(I)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v2
 
@@ -306,7 +306,7 @@
 
     move-result v4
 
-    invoke-virtual {v2, v4}, Lcom/tencent/mm/modelsns/a;->ba(Z)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v2, v4}, Lcom/tencent/mm/modelsns/Aclz;->ba(Z)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v2
 
@@ -314,14 +314,14 @@
 
     move-result-object v4
 
-    invoke-virtual {v2, v4}, Lcom/tencent/mm/modelsns/a;->iH(Ljava/lang/String;)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v2, v4}, Lcom/tencent/mm/modelsns/Aclz;->iH(Ljava/lang/String;)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v7}, Lcom/tencent/mm/modelsns/a;->iH(Ljava/lang/String;)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v2, v7}, Lcom/tencent/mm/modelsns/Aclz;->iH(Ljava/lang/String;)Lcom/tencent/mm/modelsns/Aclz;
 
     .line 363
-    invoke-virtual {v0}, Lcom/tencent/mm/modelsns/a;->Cg()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/modelsns/Aclz;->Cg()Z
 
     .line 366
     :cond_3
@@ -423,7 +423,7 @@
     const/16 v2, 0x2d2
 
     :cond_6
-    invoke-static {v2}, Lcom/tencent/mm/modelsns/a;->dS(I)Lcom/tencent/mm/modelsns/a;
+    invoke-static {v2}, Lcom/tencent/mm/modelsns/Aclz;->dS(I)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v0
 
@@ -481,7 +481,7 @@
 
     const/16 v0, 0x2ea
 
-    invoke-static {v0}, Lcom/tencent/mm/modelsns/a;->dR(I)Lcom/tencent/mm/modelsns/a;
+    invoke-static {v0}, Lcom/tencent/mm/modelsns/Aclz;->dR(I)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v0
 
@@ -492,7 +492,7 @@
     move-result-object v1
 
     .line 394
-    invoke-virtual {v0, v7}, Lcom/tencent/mm/modelsns/a;->iH(Ljava/lang/String;)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v0, v7}, Lcom/tencent/mm/modelsns/Aclz;->iH(Ljava/lang/String;)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v2
 
@@ -500,7 +500,7 @@
 
     move-result v1
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/modelsns/a;->ba(Z)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/modelsns/Aclz;->ba(Z)Lcom/tencent/mm/modelsns/Aclz;
 
     .line 398
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atn()Lcom/tencent/mm/plugin/sns/d/al$a;
@@ -514,7 +514,7 @@
     .line 399
     const-string/jumbo v2, "intent_key_StatisticsOplog"
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/modelsns/a;->b(Landroid/content/Intent;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/modelsns/Aclz;->b(Landroid/content/Intent;Ljava/lang/String;)V
 
     .line 400
     if-eqz v1, :cond_0
@@ -550,7 +550,7 @@
     :cond_c
     const/16 v0, 0x2ea
 
-    invoke-static {v0}, Lcom/tencent/mm/modelsns/a;->dS(I)Lcom/tencent/mm/modelsns/a;
+    invoke-static {v0}, Lcom/tencent/mm/modelsns/Aclz;->dS(I)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v0
 

@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -94,7 +94,7 @@
 
     move-result-object v0
 
-    instance-of v0, v0, Lcom/tencent/mm/ui/chatting/cq;
+    instance-of v0, v0, Lcom/tencent/mm/ui/chatting/CQclz;
 
     if-eqz v0, :cond_1
 
@@ -119,9 +119,9 @@
 
     iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a$a;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/n;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v2, v2, Lcom/tencent/mm/ui/Nclz;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v2, v2, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     invoke-interface {v0, v2, v1, v6}, Lcom/tencent/mm/pluginsdk/h$f;->a(Landroid/content/Context;Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;)Ljava/lang/String;
 
@@ -141,7 +141,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/ui/chatting/cq;
+    check-cast v0, Lcom/tencent/mm/ui/chatting/CQclz;
 
     .line 10085
     invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
@@ -152,7 +152,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/chatting/cq;->g(Lcom/tencent/mm/storage/a/Cclz;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/chatting/CQclz;->g(Lcom/tencent/mm/storage/a/Cclz;)V
 
     .line 10093
     :cond_0
@@ -161,7 +161,7 @@
 
     .line 10088
     :cond_1
-    new-instance v0, Lcom/tencent/mm/z/k;
+    new-instance v0, Lcom/tencent/mm/z/Kclz;
 
     const/4 v1, 0x5
 
@@ -193,7 +193,7 @@
 
     move v7, v5
 
-    invoke-direct/range {v0 .. v11}, Lcom/tencent/mm/z/k;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILcom/tencent/mm/q/Eclz;ILjava/lang/String;Ljava/lang/String;ZI)V
+    invoke-direct/range {v0 .. v11}, Lcom/tencent/mm/z/Kclz;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILcom/tencent/mm/q/Eclz;ILjava/lang/String;Ljava/lang/String;ZI)V
 
     .line 10090
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;

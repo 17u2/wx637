@@ -22,7 +22,7 @@
 
 .field dxK:Z
 
-.field private dxL:Lcom/tencent/mm/sdk/g/j$b;
+.field private dxL:Lcom/tencent/mm/sdk/g/Jclz$b;
 
 .field dxM:Z
 
@@ -36,7 +36,7 @@
 
 .field dxR:I
 
-.field private dxS:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private dxS:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -57,7 +57,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/extqlauncher/b$1;-><init>(Lcom/tencent/mm/plugin/extqlauncher/b;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxL:Lcom/tencent/mm/sdk/g/j$b;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxL:Lcom/tencent/mm/sdk/g/Jclz$b;
 
     .line 205
     iput-boolean v2, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxM:Z
@@ -94,13 +94,13 @@
 
     invoke-direct {v0, p0, v1}, Lcom/tencent/mm/plugin/extqlauncher/b$3;-><init>(Lcom/tencent/mm/plugin/extqlauncher/b;Landroid/os/Looper;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxS:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxS:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -161,7 +161,7 @@
 
     const-string/jumbo v1, "getMMUnread account not ready"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 177
     const/4 v0, 0x0
@@ -211,7 +211,7 @@
     const/4 v0, 0x0
 
     .line 44
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -221,7 +221,7 @@
 
     const-string/jumbo v2, "isPluginInstall, ApplicationContext null"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-boolean v0, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxM:Z
 
@@ -248,7 +248,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     move-result-object v0
 
@@ -256,7 +256,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/plugin/extqlauncher/b$2;-><init>(Lcom/tencent/mm/plugin/extqlauncher/b;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ac;->r(Ljava/lang/Runnable;)I
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ACclz;->r(Ljava/lang/Runnable;)I
 
     iget-boolean v0, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxM:Z
 
@@ -272,16 +272,16 @@
     const/4 v3, 0x0
 
     .line 279
-    iget-object v0, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxS:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxS:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->removeMessages(I)V
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeMessages(I)V
 
     .line 280
-    iget-object v0, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxS:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxS:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     const-wide/16 v1, 0xfa0
 
-    invoke-virtual {v0, v3, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessageDelayed(IJ)Z
+    invoke-virtual {v0, v3, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessageDelayed(IJ)Z
 
     .line 281
     return-void
@@ -308,9 +308,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxL:Lcom/tencent/mm/sdk/g/j$b;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxL:Lcom/tencent/mm/sdk/g/Jclz$b;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Sclz;->a(Lcom/tencent/mm/sdk/g/j$b;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Sclz;->a(Lcom/tencent/mm/sdk/g/Jclz$b;)V
 
     .line 127
     iget-object v0, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxI:Lcom/tencent/mm/plugin/extqlauncher/b$a;
@@ -326,13 +326,13 @@
 
     .line 130
     :cond_0
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "ExtCall"
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxI:Lcom/tencent/mm/plugin/extqlauncher/b$a;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 131
     iget-object v0, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxJ:Lcom/tencent/mm/plugin/extqlauncher/b$b;
@@ -348,13 +348,13 @@
 
     .line 134
     :cond_1
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "PublishScanCodeResult"
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxJ:Lcom/tencent/mm/plugin/extqlauncher/b$b;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 135
     return-void
@@ -388,13 +388,13 @@
     if-eqz v0, :cond_0
 
     .line 140
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "ExtCall"
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxI:Lcom/tencent/mm/plugin/extqlauncher/b$a;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 142
     :cond_0
@@ -403,13 +403,13 @@
     if-eqz v0, :cond_1
 
     .line 143
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "PublishScanCodeResult"
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxJ:Lcom/tencent/mm/plugin/extqlauncher/b$b;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 145
     :cond_1
@@ -421,16 +421,16 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxL:Lcom/tencent/mm/sdk/g/j$b;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxL:Lcom/tencent/mm/sdk/g/Jclz$b;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Sclz;->b(Lcom/tencent/mm/sdk/g/j$b;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Sclz;->b(Lcom/tencent/mm/sdk/g/Jclz$b;)V
 
     .line 146
-    iget-object v0, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxS:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/extqlauncher/b;->dxS:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->removeMessages(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeMessages(I)V
 
     .line 147
     return-void

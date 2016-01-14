@@ -15,7 +15,7 @@
 
     .prologue
     .line 14
-    invoke-static {}, Lcom/tencent/mm/compatible/d/l;->om()S
+    invoke-static {}, Lcom/tencent/mm/compatible/d/Lclz;->om()S
 
     move-result v0
 
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

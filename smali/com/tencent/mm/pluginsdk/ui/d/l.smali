@@ -79,12 +79,12 @@
 
     const-string/jumbo v2, "weixin phonebook already download successfully, install directly"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 76
     iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/downloader/e;->path:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/a/d;->av(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/a/Dclz;->av(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -134,7 +134,7 @@
 
     const/16 v1, 0x7d0
 
-    invoke-static {p0, v0, v1}, Lcom/tencent/mm/ui/base/r;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {p0, v0, v1}, Lcom/tencent/mm/ui/base/Rclz;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     move-result-object v0
 
@@ -197,7 +197,7 @@
 
     const-string/jumbo v2, "needDisplayWxPBMenuItem, account not ready"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -207,33 +207,33 @@
 
     .line 40
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->At()Z
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->At()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    sget v0, Lcom/tencent/mm/sdk/platformtools/f;->akm:I
+    sget v0, Lcom/tencent/mm/sdk/platformtools/Fclz;->akm:I
 
     if-eq v0, v2, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v0
 
     const-string/jumbo v3, "ShowWeixinPBIntro"
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -284,7 +284,7 @@
 
     const/4 v3, 0x3
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Integer;I)I
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Integer;I)I
 
     move-result v0
 
@@ -301,7 +301,7 @@
 
     aput-object v0, v5, v1
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     move v0, v2
 

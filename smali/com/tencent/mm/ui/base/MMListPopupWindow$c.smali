@@ -32,7 +32,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -49,7 +49,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -64,9 +64,9 @@
     .line 1367
     iget-object v0, p0, Lcom/tencent/mm/ui/base/MMListPopupWindow$c;->jNY:Lcom/tencent/mm/ui/base/MMListPopupWindow;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/base/MMListPopupWindow;->cMk:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, v0, Lcom/tencent/mm/ui/base/MMListPopupWindow;->cMk:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/n;->isShowing()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Nclz;->isShowing()Z
 
     move-result v0
 

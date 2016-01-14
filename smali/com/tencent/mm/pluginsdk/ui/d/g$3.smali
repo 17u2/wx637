@@ -20,16 +20,16 @@
 # instance fields
 .field final synthetic icV:Landroid/content/DialogInterface$OnDismissListener;
 
-.field final synthetic icX:Lcom/tencent/mm/ui/base/j;
+.field final synthetic icX:Lcom/tencent/mm/ui/base/Jclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/base/j;Landroid/content/DialogInterface$OnDismissListener;)V
+.method constructor <init>(Lcom/tencent/mm/ui/base/Jclz;Landroid/content/DialogInterface$OnDismissListener;)V
     .locals 1
 
     .prologue
     .line 189
-    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$3;->icX:Lcom/tencent/mm/ui/base/j;
+    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$3;->icX:Lcom/tencent/mm/ui/base/Jclz;
 
     iput-object p2, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$3;->icV:Landroid/content/DialogInterface$OnDismissListener;
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -55,9 +55,9 @@
     if-eqz p1, :cond_0
 
     .line 194
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$3;->icX:Lcom/tencent/mm/ui/base/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$3;->icX:Lcom/tencent/mm/ui/base/Jclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/j;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Jclz;->dismiss()V
 
     .line 195
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$3;->icV:Landroid/content/DialogInterface$OnDismissListener;

@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,32 +48,32 @@
 
     .prologue
     .line 273
-    new-instance v0, Lcom/tencent/mm/ui/tools/m;
+    new-instance v0, Lcom/tencent/mm/ui/tools/Mclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$21;->kvD:Lcom/tencent/mm/ui/conversation/BizChatFavUI;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v1, v1, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/ui/tools/m;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/ui/tools/Mclz;-><init>(Landroid/content/Context;)V
 
     .line 274
     new-instance v1, Lcom/tencent/mm/ui/conversation/BizChatFavUI$21$1;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/conversation/BizChatFavUI$21$1;-><init>(Lcom/tencent/mm/ui/conversation/BizChatFavUI$21;)V
 
-    iput-object v1, v0, Lcom/tencent/mm/ui/tools/m;->kDY:Lcom/tencent/mm/ui/base/m$c;
+    iput-object v1, v0, Lcom/tencent/mm/ui/tools/Mclz;->kDY:Lcom/tencent/mm/ui/base/Mclz$c;
 
     .line 283
     new-instance v1, Lcom/tencent/mm/ui/conversation/BizChatFavUI$21$2;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/conversation/BizChatFavUI$21$2;-><init>(Lcom/tencent/mm/ui/conversation/BizChatFavUI$21;)V
 
-    iput-object v1, v0, Lcom/tencent/mm/ui/tools/m;->kDZ:Lcom/tencent/mm/ui/base/m$d;
+    iput-object v1, v0, Lcom/tencent/mm/ui/tools/Mclz;->kDZ:Lcom/tencent/mm/ui/base/Mclz$d;
 
     .line 302
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/tools/m;->bT()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/tools/Mclz;->bT()Z
 
     .line 303
     const/4 v0, 0x0

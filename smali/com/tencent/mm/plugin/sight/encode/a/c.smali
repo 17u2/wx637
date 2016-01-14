@@ -13,7 +13,7 @@
 
 .field fYC:Lcom/tencent/mm/plugin/sight/encode/a/a$a;
 
-.field private fYD:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private fYD:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -27,11 +27,11 @@
     .line 19
     new-instance v0, Lcom/tencent/mm/plugin/sight/encode/a/c$1;
 
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/tencent/mm/sdk/platformtools/ac;->jgj:Landroid/os/HandlerThread;
+    iget-object v1, v1, Lcom/tencent/mm/sdk/platformtools/ACclz;->jgj:Landroid/os/HandlerThread;
 
     invoke-virtual {v1}, Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
 
@@ -39,13 +39,13 @@
 
     invoke-direct {v0, p0, v1}, Lcom/tencent/mm/plugin/sight/encode/a/c$1;-><init>(Lcom/tencent/mm/plugin/sight/encode/a/c;Landroid/os/Looper;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/a/c;->fYD:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/a/c;->fYD:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -88,7 +88,7 @@
 
     aput-object v3, v2, v7
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 33
     iput p1, p0, Lcom/tencent/mm/plugin/sight/encode/a/c;->fYB:I
@@ -163,7 +163,7 @@
 
     aput-object v4, v3, v6
 
-    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 52
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/a/c;->fYA:Landroid/media/MediaRecorder;
@@ -203,9 +203,9 @@
 
     .line 78
     :cond_0
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sight/encode/a/c;->fYD:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sight/encode/a/c;->fYD:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessage(I)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessage(I)Z
 
     .line 80
     :goto_0
@@ -233,14 +233,14 @@
 
     aput-object v6, v4, v5
 
-    invoke-static {v2, v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 73
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sight/encode/a/c;->fYD:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sight/encode/a/c;->fYD:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessage(I)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessage(I)Z
 
     const/4 v0, -0x1
 
@@ -249,9 +249,9 @@
     :catchall_0
     move-exception v1
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/sight/encode/a/c;->fYD:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/sight/encode/a/c;->fYD:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessage(I)Z
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessage(I)Z
 
     throw v1
 .end method
@@ -324,7 +324,7 @@
 
     aput-object v5, v4, v0
 
-    invoke-static {v2, v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 96
     const/4 v0, -0x1

@@ -7,7 +7,7 @@
 .method public abstract a(Ljava/lang/String;Lcom/tencent/mm/protocal/b/aqx;)Lcom/tencent/mm/model/Uclz;
 .end method
 
-.method public abstract a(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/m/a$a;Ljava/lang/String;)Lcom/tencent/mm/model/Uclz;
+.method public abstract a(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/m/Aclz$a;Ljava/lang/String;)Lcom/tencent/mm/model/Uclz;
 .end method
 
 .method public abstract a(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/ada;)Lcom/tencent/mm/model/Uclz;

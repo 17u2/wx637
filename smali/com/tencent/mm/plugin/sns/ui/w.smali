@@ -25,7 +25,7 @@
 
 .field private grN:Landroid/widget/TextView;
 
-.field private grS:Lcom/tencent/mm/modelsns/a;
+.field private grS:Lcom/tencent/mm/modelsns/Aclz;
 
 .field gtH:Landroid/widget/ImageView;
 
@@ -84,7 +84,7 @@
     iput-boolean v2, p0, Lcom/tencent/mm/plugin/sns/ui/w;->fBB:Z
 
     .line 62
-    iput-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/w;->grS:Lcom/tencent/mm/modelsns/a;
+    iput-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/w;->grS:Lcom/tencent/mm/modelsns/Aclz;
 
     .line 246
     iput-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/w;->fvB:Lcom/tencent/mm/model/Vclz;
@@ -119,7 +119,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_1
     return-void
@@ -184,7 +184,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 307
     const/4 v0, 0x0
@@ -339,21 +339,21 @@
     move-result v0
 
     .line 347
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/w;->grS:Lcom/tencent/mm/modelsns/a;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/w;->grS:Lcom/tencent/mm/modelsns/Aclz;
 
     if-eqz v1, :cond_7
 
     .line 348
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/w;->grS:Lcom/tencent/mm/modelsns/a;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/w;->grS:Lcom/tencent/mm/modelsns/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/modelsns/a;->dT(I)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/modelsns/Aclz;->dT(I)Z
 
     .line 349
     sget-object v0, Lcom/tencent/mm/plugin/sns/g/c;->goq:Lcom/tencent/mm/plugin/sns/g/e;
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/w;->grS:Lcom/tencent/mm/modelsns/a;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/w;->grS:Lcom/tencent/mm/modelsns/Aclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/plugin/sns/g/e;->c(Lcom/tencent/mm/modelsns/a;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/plugin/sns/g/e;->c(Lcom/tencent/mm/modelsns/Aclz;)Z
 
     .line 352
     :cond_7
@@ -415,7 +415,7 @@
     .line 253
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/w;->arA:Lcom/tencent/mm/ui/MMActivity;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/o;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {v0}, Lcom/tencent/mm/ui/Oclz;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v0
 
@@ -498,7 +498,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;->thumbData:[B
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/d;->aM([B)Landroid/graphics/Bitmap;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/Dclz;->aM([B)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -517,7 +517,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;->description:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -677,7 +677,7 @@
 
     .prologue
     .line 158
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/w;->arA:Lcom/tencent/mm/ui/MMActivity;
 
@@ -685,13 +685,13 @@
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
     new-instance v1, Lcom/tencent/mm/plugin/sns/ui/w$2;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/plugin/sns/ui/w$2;-><init>(Lcom/tencent/mm/plugin/sns/ui/w;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 176
     return-void
@@ -717,12 +717,12 @@
     move-result-object v0
 
     .line 120
-    new-instance v1, Lcom/tencent/mm/sdk/modelmsg/c$a;
+    new-instance v1, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;
 
-    invoke-direct {v1, v0}, Lcom/tencent/mm/sdk/modelmsg/c$a;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v1, v0}, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;-><init>(Landroid/os/Bundle;)V
 
     .line 121
-    iget-object v0, v1, Lcom/tencent/mm/sdk/modelmsg/c$a;->jeU:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
+    iget-object v0, v1, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;->jeU:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/w;->gth:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
 
@@ -748,11 +748,11 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/modelsns/a;->k(Landroid/content/Intent;)Lcom/tencent/mm/modelsns/a;
+    invoke-static {v0}, Lcom/tencent/mm/modelsns/Aclz;->k(Landroid/content/Intent;)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/w;->grS:Lcom/tencent/mm/modelsns/a;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/w;->grS:Lcom/tencent/mm/modelsns/Aclz;
 
     .line 126
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/w;->arA:Lcom/tencent/mm/ui/MMActivity;
@@ -769,7 +769,7 @@
 
     const-string/jumbo v1, ""
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -790,7 +790,7 @@
 
     const-string/jumbo v1, ""
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

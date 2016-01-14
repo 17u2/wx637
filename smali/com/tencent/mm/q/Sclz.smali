@@ -30,7 +30,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -51,7 +51,7 @@
 
     move-result-object v0
 
-    iget-object v7, v0, Lcom/tencent/mm/q/Lclz;->btq:Lcom/tencent/mm/sdk/platformtools/ac;
+    iget-object v7, v0, Lcom/tencent/mm/q/Lclz;->btq:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     new-instance v0, Lcom/tencent/mm/q/Sclz$2;
 
@@ -69,7 +69,7 @@
 
     invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/q/Sclz$2;-><init>(Lcom/tencent/mm/q/Sclz$a;IILjava/lang/String;Lcom/tencent/mm/q/Aclz;Lcom/tencent/mm/q/Jclz;)V
 
-    invoke-virtual {v7, v0}, Lcom/tencent/mm/sdk/platformtools/ac;->r(Ljava/lang/Runnable;)I
+    invoke-virtual {v7, v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->r(Ljava/lang/Runnable;)I
 
     :cond_0
     :goto_0
@@ -94,7 +94,7 @@
 
     invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/q/Sclz$3;-><init>(Lcom/tencent/mm/q/Sclz$a;IILjava/lang/String;Lcom/tencent/mm/q/Aclz;Lcom/tencent/mm/q/Jclz;)V
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
 
     goto :goto_0
 .end method
@@ -143,7 +143,7 @@
 
     const-string/jumbo v2, "ERROR: MMCore Not init interface IGetNetSceneQueue."
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 140
     :cond_0
@@ -165,7 +165,7 @@
 
     const-string/jumbo v2, "ERROR: Get NetscneQueue is null."
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -178,7 +178,7 @@
 
     const-string/jumbo v2, "ERROR: Param CommReqResp is null"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 

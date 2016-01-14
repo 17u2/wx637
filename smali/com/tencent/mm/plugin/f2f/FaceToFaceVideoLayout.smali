@@ -14,7 +14,7 @@
 
 .field private dyB:Landroid/animation/ObjectAnimator;
 
-.field private dyi:Lcom/tencent/mm/sdk/platformtools/ag;
+.field private dyi:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
 .field private dyk:Z
 
@@ -67,7 +67,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -105,7 +105,7 @@
     iput-boolean v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoLayout;->dyz:Z
 
     .line 350
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
@@ -117,9 +117,9 @@
 
     const/4 v3, 0x1
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Landroid/os/Looper;Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Landroid/os/Looper;Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoLayout;->dyi:Lcom/tencent/mm/sdk/platformtools/ag;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoLayout;->dyi:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     .line 68
     invoke-direct {p0, p2}, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoLayout;->b(Landroid/util/AttributeSet;)V
@@ -129,7 +129,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -160,7 +160,7 @@
     iput-boolean v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoLayout;->dyz:Z
 
     .line 350
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
@@ -172,9 +172,9 @@
 
     const/4 v3, 0x1
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Landroid/os/Looper;Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Landroid/os/Looper;Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoLayout;->dyi:Lcom/tencent/mm/sdk/platformtools/ag;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoLayout;->dyi:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     .line 73
     invoke-direct {p0, p2}, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoLayout;->b(Landroid/util/AttributeSet;)V
@@ -184,7 +184,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -263,7 +263,7 @@
 
     move-result-object v0
 
-    sget-object v1, Lcom/tencent/mm/a$b;->FaceToFaceVideoLayout:[I
+    sget-object v1, Lcom/tencent/mm/Aclz$b;->FaceToFaceVideoLayout:[I
 
     invoke-virtual {v0, p1, v1, v5, v5}, Landroid/content/res/Resources$Theme;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -417,7 +417,7 @@
     .line 102
     const/16 v0, 0x10
 
-    invoke-static {v0}, Lcom/tencent/mm/compatible/util/c;->bV(I)Z
+    invoke-static {v0}, Lcom/tencent/mm/compatible/util/Cclz;->bV(I)Z
 
     move-result v0
 

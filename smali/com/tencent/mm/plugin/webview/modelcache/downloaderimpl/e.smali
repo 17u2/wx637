@@ -18,7 +18,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -93,7 +93,7 @@
 
     const-string/jumbo v1, "record content length invalid"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 31
     invoke-static {p1}, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/e;->a(Lcom/tencent/mm/pluginsdk/h/a/c/n;)V
@@ -123,7 +123,7 @@
 
     const-string/jumbo v1, "fileLength > contentLength"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 39
     iget-object v0, p1, Lcom/tencent/mm/pluginsdk/h/a/c/n;->field_filePath:Ljava/lang/String;
@@ -148,7 +148,7 @@
 
     const-string/jumbo v1, "fileLength < contentLength"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 46
     invoke-static {p1}, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/e;->a(Lcom/tencent/mm/pluginsdk/h/a/c/n;)V
@@ -161,7 +161,7 @@
 
     const-string/jumbo v1, "mark complete"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 51
     iput v4, p1, Lcom/tencent/mm/pluginsdk/h/a/c/n;->field_status:I

@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/tencent/mm/ui/base/a;
+.annotation runtime Lcom/tencent/mm/ui/base/Aclz;
     value = 0x3
 .end annotation
 
@@ -175,7 +175,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -219,7 +219,7 @@
     .prologue
     .line 601
     :try_start_0
-    invoke-static {p0, p1}, Lcom/tencent/mm/au/a;->d(Landroid/content/res/Resources;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p0, p1}, Lcom/tencent/mm/au/Aclz;->d(Landroid/content/res/Resources;I)Landroid/graphics/drawable/Drawable;
     :try_end_0
     .catch Landroid/content/res/Resources$NotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -316,7 +316,7 @@
     :goto_0
     iget-object v0, v2, Lcom/tencent/mm/pluginsdk/model/q$a;->hLy:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -437,7 +437,7 @@
 
     aput-object v0, v8, v9
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 541
     invoke-interface {v4, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -534,17 +534,17 @@
 
     iput v0, v2, Lcom/tencent/mm/pluginsdk/model/q$a;->hLx:I
 
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v0
 
     const-string/jumbo v1, "QQMapDownloadTips"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -584,9 +584,9 @@
 
     iget-object v7, p0, Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;->idZ:Lcom/tencent/mm/pluginsdk/model/p;
 
-    iget-object v8, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v8, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v8, v8, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v8, v8, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     invoke-virtual {v7, v8, v0}, Lcom/tencent/mm/pluginsdk/model/p;->a(Landroid/content/Context;Landroid/content/pm/ResolveInfo;)Ljava/lang/String;
 
@@ -699,7 +699,7 @@
     iget-object v0, v0, Landroid/content/pm/ActivityInfo;->packageName:Ljava/lang/String;
 
     .line 588
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -834,7 +834,7 @@
 
     const/4 v5, 0x3
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->At()Z
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->At()Z
 
     move-result v6
 
@@ -844,7 +844,7 @@
 
     aput-object v6, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 506
     iget-boolean v2, p0, Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;->iej:Z
@@ -857,13 +857,13 @@
 
     if-ge v2, v3, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->At()Z
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->At()Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    sget v2, Lcom/tencent/mm/sdk/platformtools/f;->akm:I
+    sget v2, Lcom/tencent/mm/sdk/platformtools/Fclz;->akm:I
 
     if-eq v2, v0, :cond_0
 
@@ -970,7 +970,7 @@
 
     aput-object v0, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_1
 .end method
@@ -1243,7 +1243,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 276
     invoke-direct {p0, v3, v7, v3}, Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;->c(ILjava/lang/String;Z)V
@@ -1353,9 +1353,9 @@
 
     if-nez v0, :cond_f
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;->iee:Ljava/lang/String;
 
@@ -1401,7 +1401,7 @@
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 298
-    invoke-static {p0, v0}, Lcom/tencent/mm/sdk/platformtools/bc;->n(Landroid/content/Context;Landroid/content/Intent;)Z
+    invoke-static {p0, v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->n(Landroid/content/Context;Landroid/content/Intent;)Z
 
     move-result v0
 
@@ -1461,9 +1461,9 @@
     .line 312
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;->idZ:Lcom/tencent/mm/pluginsdk/model/p;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/model/p;->cw(Landroid/content/Context;)Z
 
@@ -1538,7 +1538,7 @@
 
     aput-object v6, v5, v2
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 338
     iput-boolean v2, p0, Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;->iej:Z
@@ -1799,7 +1799,7 @@
 
     move-result-object v5
 
-    invoke-static {v3, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v3, 0x3
 
@@ -1809,7 +1809,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/downloader/e;->path:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/a/d;->av(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/a/Dclz;->av(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1833,9 +1833,9 @@
     :cond_c
     new-instance v0, Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI$e;
 
-    iget-object v3, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v3, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v3, v3, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     invoke-direct {v0, p0, v3}, Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI$e;-><init>(Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;Landroid/content/Context;)V
 
@@ -1991,7 +1991,7 @@
 
     const-string/jumbo v1, "user installed lasted recommend app"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 400
     iput-boolean v2, p0, Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;->iei:Z
@@ -2005,9 +2005,9 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;->idZ:Lcom/tencent/mm/pluginsdk/model/p;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/model/p;->cw(Landroid/content/Context;)Z
 

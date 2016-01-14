@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/modelcdntran/e$a;
+.implements Lcom/tencent/mm/modelcdntran/Eclz$a;
 .implements Lcom/tencent/mm/q/Dclz;
 
 
@@ -14,7 +14,7 @@
 
 .field private cgP:Landroid/app/Dialog;
 
-.field private cgw:Lcom/tencent/mm/ui/base/preference/f;
+.field private cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
 .field private jtT:Lcom/tencent/mm/ui/widget/ImagePreviewLayout;
 
@@ -46,7 +46,7 @@
 
 .field private juh:Z
 
-.field private jui:Lcom/tencent/mm/modelsimple/l;
+.field private jui:Lcom/tencent/mm/modelsimple/Lclz;
 
 
 # direct methods
@@ -136,13 +136,13 @@
     iput-boolean v2, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->juh:Z
 
     .line 321
-    iput-object v3, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jui:Lcom/tencent/mm/modelsimple/l;
+    iput-object v3, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jui:Lcom/tencent/mm/modelsimple/Lclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -167,7 +167,7 @@
     const/4 v3, 0x0
 
     :try_start_0
-    invoke-static {p0, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/d;->b(Ljava/lang/String;IIZ)Landroid/graphics/Bitmap;
+    invoke-static {p0, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Dclz;->b(Ljava/lang/String;IIZ)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
@@ -200,7 +200,7 @@
 
     const/4 v4, 0x1
 
-    invoke-static {v2, v1, v3, v0, v4}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
+    invoke-static {v2, v1, v3, v0, v4}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
 
     .line 353
     const-string/jumbo v1, "!56@/B4Tb64lLpJ/sz39qr3dExKTa11KfaVGH0mgAnwqH6LsfCcTVHFOEw=="
@@ -243,7 +243,7 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -271,7 +271,7 @@
 
     aput-object p0, v4, v7
 
-    invoke-static {v2, v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -325,9 +325,9 @@
 
     iput-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jtW:Ljava/lang/Boolean;
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const v1, 0x7f090ad3
 
@@ -343,7 +343,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI$5;-><init>(Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;)V
 
-    invoke-static {v0, v1, v3, v2}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v0, v1, v3, v2}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
@@ -355,7 +355,7 @@
 
     const-string/jumbo v1, "thread_name_do_cdn"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/h/e;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/h/Eclz;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
 
     :cond_0
     return-void
@@ -376,11 +376,11 @@
 
     .prologue
     .line 264
-    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "KEY_MM_EXPOSEWITHPROOFTYPE_EXAMPLE"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
 
     move-result-object v0
 
@@ -426,9 +426,9 @@
 
     .line 270
     :goto_0
-    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/ui/base/preference/f;->notifyDataSetChanged()V
+    invoke-interface {v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->notifyDataSetChanged()V
 
     .line 271
     return-void
@@ -447,11 +447,11 @@
 
     .prologue
     .line 274
-    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "KEY_MM_EXPOSEWITHPROOFTYPE_PICTURE"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
 
     move-result-object v0
 
@@ -501,9 +501,9 @@
 
     .line 280
     :goto_0
-    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/ui/base/preference/f;->notifyDataSetChanged()V
+    invoke-interface {v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->notifyDataSetChanged()V
 
     .line 281
     return-void
@@ -547,7 +547,7 @@
 
     .line 342
     :goto_0
-    new-instance v0, Lcom/tencent/mm/modelsimple/l;
+    new-instance v0, Lcom/tencent/mm/modelsimple/Lclz;
 
     iget v1, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jud:I
 
@@ -565,16 +565,16 @@
 
     move-object v6, v5
 
-    invoke-direct/range {v0 .. v12}, Lcom/tencent/mm/modelsimple/l;-><init>(ILjava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;JLjava/lang/String;[JLcom/tencent/mm/protocal/b/LVclz;Ljava/util/List;)V
+    invoke-direct/range {v0 .. v12}, Lcom/tencent/mm/modelsimple/Lclz;-><init>(ILjava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;JLjava/lang/String;[JLcom/tencent/mm/protocal/b/LVclz;Ljava/util/List;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jui:Lcom/tencent/mm/modelsimple/l;
+    iput-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jui:Lcom/tencent/mm/modelsimple/Lclz;
 
     .line 343
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jui:Lcom/tencent/mm/modelsimple/l;
+    iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jui:Lcom/tencent/mm/modelsimple/Lclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
@@ -729,7 +729,7 @@
 
     aput-object v0, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -787,7 +787,7 @@
 
     const/4 v2, 0x0
 
-    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     const/4 v0, 0x0
 
@@ -830,12 +830,12 @@
     return-void
 .end method
 
-.method static synthetic i(Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;)Lcom/tencent/mm/modelsimple/l;
+.method static synthetic i(Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;)Lcom/tencent/mm/modelsimple/Lclz;
     .locals 1
 
     .prologue
     .line 65
-    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jui:Lcom/tencent/mm/modelsimple/l;
+    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jui:Lcom/tencent/mm/modelsimple/Lclz;
 
     return-object v0
 .end method
@@ -883,9 +883,9 @@
     const/4 v3, 0x0
 
     .line 143
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/preference/MMPreference;->jUG:Lcom/tencent/mm/ui/base/preference/h;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/preference/MMPreference;->jUG:Lcom/tencent/mm/ui/base/preference/Hclz;
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iput-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     .line 144
     const v0, 0x7f0904db
@@ -910,7 +910,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI$2;-><init>(Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;)V
 
-    sget v2, Lcom/tencent/mm/ui/j$b;->jyX:I
+    sget v2, Lcom/tencent/mm/ui/Jclz$b;->jyX:I
 
     invoke-virtual {p0, v3, v0, v1, v2}, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->a(ILjava/lang/String;Landroid/view/MenuItem$OnMenuItemClickListener;I)V
 
@@ -925,11 +925,11 @@
 
     .line 175
     :goto_0
-    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "KEY_MM_EXPOSEWITHPROOF_OPTIONAL_TITLE"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
 
     move-result-object v0
 
@@ -947,20 +947,20 @@
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/preference/Preference;->setKey(Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/base/preference/f;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
 
     :cond_0
     iget-boolean v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->juc:Z
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "KEY_MM_EXPOSEWITHPROOFTYPE_EXAMPLE"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
 
     move-result-object v0
 
@@ -982,17 +982,17 @@
 
     invoke-virtual {v0, v5}, Lcom/tencent/mm/ui/base/preference/Preference;->setSummary(I)V
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/base/preference/f;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
 
     :cond_1
     :goto_1
-    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "KEY_MM_EXPOSEWITHPROOFTYPE_PICTURE"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
 
     move-result-object v0
 
@@ -1014,9 +1014,9 @@
 
     invoke-virtual {v0, v5}, Lcom/tencent/mm/ui/base/preference/Preference;->setSummary(I)V
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/base/preference/f;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
 
     .line 176
     :goto_2
@@ -1043,7 +1043,7 @@
     move-result-object v0
 
     .line 193
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/u;->aOg()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Uclz;->aOg()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1160,7 +1160,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 431
     iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jtY:Ljava/util/List;
@@ -1273,9 +1273,9 @@
 
     .line 524
     :cond_2
-    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const v1, 0x7f090875
 
@@ -1310,7 +1310,7 @@
 
     aput-object v3, v2, v5
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 .end method
@@ -1323,7 +1323,7 @@
     return-void
 .end method
 
-.method public final a(Lcom/tencent/mm/ui/base/preference/f;Lcom/tencent/mm/ui/base/preference/Preference;)Z
+.method public final a(Lcom/tencent/mm/ui/base/preference/Fclz;Lcom/tencent/mm/ui/base/preference/Preference;)Z
     .locals 4
 
     .prologue
@@ -1346,9 +1346,9 @@
 
     invoke-direct {v0}, Landroid/content/Intent;-><init>()V
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const-class v2, Lcom/tencent/mm/ui/chatting/ChattingUI;
 
@@ -1663,7 +1663,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jug:[B
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/protocal/b/LVclz;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/protocal/b/LVclz;->ak([B)Lcom/tencent/mm/aq/Aclz;
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1706,7 +1706,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 129
     invoke-virtual {p0}, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->Fi()V
@@ -1739,7 +1739,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -1757,7 +1757,7 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->cgP:Landroid/app/Dialog;
 
     .line 503
-    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jui:Lcom/tencent/mm/modelsimple/l;
+    iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jui:Lcom/tencent/mm/modelsimple/Lclz;
 
     if-eqz v0, :cond_0
 
@@ -1766,34 +1766,34 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jui:Lcom/tencent/mm/modelsimple/l;
+    iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->jui:Lcom/tencent/mm/modelsimple/Lclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 
     .line 506
     :cond_0
-    new-instance v0, Lcom/tencent/mm/d/a/cg;
+    new-instance v0, Lcom/tencent/mm/d/a/CGclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/cg;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/CGclz;-><init>()V
 
     .line 507
-    iget-object v1, v0, Lcom/tencent/mm/d/a/cg;->auT:Lcom/tencent/mm/d/a/cg$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CGclz;->auT:Lcom/tencent/mm/d/a/CGclz$a;
 
     iget-boolean v2, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->auV:Z
 
-    iput-boolean v2, v1, Lcom/tencent/mm/d/a/cg$a;->auV:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/d/a/CGclz$a;->auV:Z
 
     .line 508
-    iget-object v1, v0, Lcom/tencent/mm/d/a/cg;->auT:Lcom/tencent/mm/d/a/cg$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CGclz;->auT:Lcom/tencent/mm/d/a/CGclz$a;
 
     iget-wide v2, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->avx:J
 
-    iput-wide v2, v1, Lcom/tencent/mm/d/a/cg$a;->auU:J
+    iput-wide v2, v1, Lcom/tencent/mm/d/a/CGclz$a;->auU:J
 
     .line 509
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 510
     return-void

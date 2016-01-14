@@ -27,10 +27,10 @@
 
     aput-object v1, v4, v0
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 37
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->bd(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->bd(Ljava/util/List;)Z
 
     move-result v0
 
@@ -198,7 +198,7 @@
     .line 80
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/i;->filePath:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/a/d;->au(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/tencent/mm/a/Dclz;->au(Ljava/lang/String;)I
 
     move-result v0
 
@@ -209,10 +209,10 @@
 
     const-string/jumbo v1, "onResponse, readFileLength = 0, return"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 82
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->bd(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->bd(Ljava/util/List;)Z
 
     move-result v0
 
@@ -306,19 +306,19 @@
 
     iget-object v5, p0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/i;->aHh:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_2
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_2
 
-    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -337,7 +337,7 @@
 
     aput-object v4, v5, v13
 
-    invoke-static {v0, v3, v5}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     const/4 v0, 0x0
 
@@ -354,7 +354,7 @@
 
     iget-object v11, p0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/i;->aHj:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -364,7 +364,7 @@
 
     const-string/jumbo v1, "writeRes with filePath, filePath is null or nil"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v6
 
@@ -378,7 +378,7 @@
     if-nez v0, :cond_d
 
     .line 108
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->bd(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->bd(Ljava/util/List;)Z
 
     move-result v0
 
@@ -503,7 +503,7 @@
 
     .line 105
     :cond_5
-    invoke-static {v0}, Lcom/tencent/mm/a/d;->av(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/a/Dclz;->av(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -513,14 +513,14 @@
 
     const-string/jumbo v1, "writeRes with filePath, file not exists"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v6
 
     goto/16 :goto_3
 
     :cond_6
-    invoke-static {v0}, Lcom/tencent/mm/a/d;->au(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/tencent/mm/a/Dclz;->au(Ljava/lang/String;)I
 
     move-result v1
 
@@ -530,14 +530,14 @@
 
     const-string/jumbo v1, "writeRes with filePath, file size = 0kb"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x6
 
     goto/16 :goto_3
 
     :cond_7
-    invoke-static {v10}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v10}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -547,7 +547,7 @@
 
     const-string/jumbo v1, "writeRes with filePath, resVersion is null or nil, return"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v6
 
@@ -582,7 +582,7 @@
 
     const-string/jumbo v1, "writeRes with filePath, no db record stored"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v6
 
@@ -627,7 +627,7 @@
 
     aput-object v0, v3, v8
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     move v0, v8
 
@@ -695,7 +695,7 @@
     if-ne v0, v2, :cond_0
 
     .line 135
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->bd(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->bd(Ljava/util/List;)Z
 
     move-result v0
 
@@ -769,19 +769,19 @@
 
     iget-object v5, p0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/i;->aHh:Ljava/lang/String;
 
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v6
 
     if-nez v6, :cond_1
 
-    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v6
 
     if-nez v6, :cond_1
 
-    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v6
 
@@ -792,7 +792,7 @@
 
     .line 153
     :goto_1
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->bd(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->bd(Ljava/util/List;)Z
 
     move-result v3
 
@@ -830,7 +830,7 @@
     if-eqz v0, :cond_4
 
     .line 162
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->bd(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->bd(Ljava/util/List;)Z
 
     move-result v0
 

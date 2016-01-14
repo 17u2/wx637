@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/sns/ui/FlipView$6;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 5
 
     .prologue
@@ -62,7 +62,7 @@
 
     const-string/jumbo v1, "no need to scan image"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 536
     :goto_0
@@ -73,7 +73,7 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    instance-of v0, p1, Lcom/tencent/mm/d/a/fz;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/FZclz;
 
     if-nez v0, :cond_2
 
@@ -83,13 +83,13 @@
 
     const-string/jumbo v1, "event is null or not a instant of NotifyDealQBarStrResultEvent"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 520
     :cond_2
-    check-cast p1, Lcom/tencent/mm/d/a/fz;
+    check-cast p1, Lcom/tencent/mm/d/a/FZclz;
 
     .line 521
     const-string/jumbo v0, "!32@/B4Tb64lLpIJOjQrXeIXCcYQ4tsc+vBx"
@@ -100,9 +100,9 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/fz;->aAF:Lcom/tencent/mm/d/a/fz$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/FZclz;->aAF:Lcom/tencent/mm/d/a/FZclz$a;
 
-    iget v3, v3, Lcom/tencent/mm/d/a/fz$a;->aAD:I
+    iget v3, v3, Lcom/tencent/mm/d/a/FZclz$a;->aAD:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -110,12 +110,12 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 523
-    iget-object v0, p1, Lcom/tencent/mm/d/a/fz;->aAF:Lcom/tencent/mm/d/a/fz$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/FZclz;->aAF:Lcom/tencent/mm/d/a/FZclz$a;
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/fz$a;->asr:Landroid/app/Activity;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/FZclz$a;->asr:Landroid/app/Activity;
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView$6;->gsk:Lcom/tencent/mm/plugin/sns/ui/FlipView;
 
@@ -127,9 +127,9 @@
 
     if-ne v1, v0, :cond_3
 
-    iget-object v0, p1, Lcom/tencent/mm/d/a/fz;->aAF:Lcom/tencent/mm/d/a/fz$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/FZclz;->aAF:Lcom/tencent/mm/d/a/FZclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/fz$a;->asq:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/FZclz$a;->asq:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView$6;->gsk:Lcom/tencent/mm/plugin/sns/ui/FlipView;
 
@@ -149,15 +149,15 @@
 
     const-string/jumbo v1, "not the same"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 528
     :cond_4
-    iget-object v0, p1, Lcom/tencent/mm/d/a/fz;->aAF:Lcom/tencent/mm/d/a/fz$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/FZclz;->aAF:Lcom/tencent/mm/d/a/FZclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/fz$a;->aAD:I
+    iget v0, v0, Lcom/tencent/mm/d/a/FZclz$a;->aAD:I
 
     packed-switch v0, :pswitch_data_0
 

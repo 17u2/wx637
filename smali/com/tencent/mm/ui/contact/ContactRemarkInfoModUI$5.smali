@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/ui/base/f$c;
+.implements Lcom/tencent/mm/ui/base/Fclz$c;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -60,7 +60,7 @@
 
     const-string/jumbo v1, "pick up an image"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 598
     new-instance v0, Landroid/content/Intent;
@@ -102,7 +102,7 @@
 
     const/16 v4, 0xc8
 
-    invoke-static {v1, v2, v3, v0, v4}, Lcom/tencent/mm/ao/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;I)V
+    invoke-static {v1, v2, v3, v0, v4}, Lcom/tencent/mm/ao/Cclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;I)V
 
     goto :goto_0
 
@@ -112,7 +112,7 @@
 
     const-string/jumbo v1, "delete the remark image when download failed."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 607
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ContactRemarkInfoModUI$5;->ksa:Lcom/tencent/mm/ui/contact/ContactRemarkInfoModUI;

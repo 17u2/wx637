@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic fJo:Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;
 
-.field final synthetic fJq:Lcom/tencent/mm/d/a/q;
+.field final synthetic fJq:Lcom/tencent/mm/d/a/Qclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;Lcom/tencent/mm/d/a/q;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;Lcom/tencent/mm/d/a/Qclz;)V
     .locals 1
 
     .prologue
     .line 183
     iput-object p1, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$3;->fJo:Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$3;->fJq:Lcom/tencent/mm/d/a/q;
+    iput-object p2, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$3;->fJq:Lcom/tencent/mm/d/a/Qclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -57,11 +57,11 @@
     invoke-static {v0}, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;->b(Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;)V
 
     .line 188
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$3;->fJq:Lcom/tencent/mm/d/a/q;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$3;->fJq:Lcom/tencent/mm/d/a/Qclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/q;->arZ:Lcom/tencent/mm/d/a/q$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/Qclz;->arZ:Lcom/tencent/mm/d/a/Qclz$b;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/d/a/q$b;->ase:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/d/a/Qclz$b;->ase:Z
 
     .line 189
     if-nez v0, :cond_0
@@ -77,7 +77,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v0, v1, v2, v3, v4}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IIZLandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0, v1, v2, v3, v4}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IIZLandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     .line 192
     :cond_0

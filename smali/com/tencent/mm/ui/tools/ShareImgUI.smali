@@ -31,7 +31,7 @@
 
 .field filePath:Ljava/lang/String;
 
-.field private handler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field private intent:Landroid/content/Intent;
 
@@ -75,14 +75,14 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/tools/ShareImgUI$2;-><init>(Lcom/tencent/mm/ui/tools/ShareImgUI;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/tools/ShareImgUI;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/ui/tools/ShareImgUI;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 501
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -98,7 +98,7 @@
     invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/MMBitmapFactory$DecodeResultLogger;-><init>()V
 
     .line 347
-    invoke-static {p0, v0}, Lcom/tencent/mm/sdk/platformtools/o;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/platformtools/MMBitmapFactory$DecodeResultLogger;)Z
+    invoke-static {p0, v0}, Lcom/tencent/mm/sdk/platformtools/Oclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/platformtools/MMBitmapFactory$DecodeResultLogger;)Z
 
     move-result v1
 
@@ -155,7 +155,7 @@
 
     const-string/jumbo v1, "dealWithFile fail, filePath is empty"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 457
     :goto_0
@@ -166,7 +166,7 @@
     const-string/jumbo v0, ""
 
     .line 403
-    invoke-static {p1}, Lcom/tencent/mm/a/d;->au(Ljava/lang/String;)I
+    invoke-static {p1}, Lcom/tencent/mm/a/Dclz;->au(Ljava/lang/String;)I
 
     move-result v1
 
@@ -183,7 +183,7 @@
 
     aput-object v5, v4, v7
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 405
     if-nez v1, :cond_2
@@ -193,7 +193,7 @@
 
     const-string/jumbo v1, "dealWithFile fail, fileLength is 0"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -208,7 +208,7 @@
 
     const-string/jumbo v1, "dealWithFile fail, fileLength is too large"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 412
     const v0, 0x7f09062f
@@ -261,7 +261,7 @@
     .line 426
     const/4 v0, -0x1
 
-    invoke-static {p1, v7, v0}, Lcom/tencent/mm/a/d;->c(Ljava/lang/String;II)[B
+    invoke-static {p1, v7, v0}, Lcom/tencent/mm/a/Dclz;->c(Ljava/lang/String;II)[B
 
     move-result-object v0
 
@@ -269,17 +269,17 @@
 
     .line 431
     :goto_2
-    new-instance v0, Lcom/tencent/mm/sdk/modelmsg/c$a;
+    new-instance v0, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/modelmsg/c$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;-><init>()V
 
     .line 435
     const/4 v1, 0x0
 
-    iput-object v1, v0, Lcom/tencent/mm/sdk/modelmsg/c$a;->hMq:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;->hMq:Ljava/lang/String;
 
     .line 436
-    iput-object v2, v0, Lcom/tencent/mm/sdk/modelmsg/c$a;->jeU:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
+    iput-object v2, v0, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;->jeU:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
 
     .line 438
     new-instance v1, Landroid/os/Bundle;
@@ -287,7 +287,7 @@
     invoke-direct {v1}, Landroid/os/Bundle;-><init>()V
 
     .line 439
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/modelmsg/c$a;->k(Landroid/os/Bundle;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;->k(Landroid/os/Bundle;)V
 
     .line 440
     const-string/jumbo v0, "_mmessage_sdkVersion"
@@ -363,7 +363,7 @@
     :cond_4
     int-to-long v3, v1
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/bc;->aj(J)Ljava/lang/String;
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aj(J)Ljava/lang/String;
 
     move-result-object v0
 
@@ -377,7 +377,7 @@
 
     const-string/jumbo v1, "thumb data is exceed 30k, ignore"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -387,7 +387,7 @@
 
     const-string/jumbo v1, "not logged in, jump to simple login"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 455
     new-instance v0, Landroid/content/Intent;
@@ -476,7 +476,7 @@
 
     aput-object v0, v8, v4
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     :cond_2
     :goto_0
@@ -501,17 +501,17 @@
 
     if-eqz v6, :cond_2
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/sdk/platformtools/bc;->d(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
+    invoke-static {p0, v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->d(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v6
 
     if-nez v6, :cond_2
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->Bt(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bt(Ljava/lang/String;)Z
 
     move-result v6
 
@@ -539,7 +539,7 @@
 
     move-result-object v7
 
-    invoke-static {v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v2, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -564,7 +564,7 @@
 
     move-result-object v0
 
-    invoke-static {v6, v0}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v6, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -591,7 +591,7 @@
 
     const-string/jumbo v2, "getParcelableArrayList failed"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, v1
 
@@ -599,12 +599,12 @@
     goto :goto_2
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/tools/ShareImgUI;)Lcom/tencent/mm/sdk/platformtools/ab;
+.method static synthetic a(Lcom/tencent/mm/ui/tools/ShareImgUI;)Lcom/tencent/mm/sdk/platformtools/ABclz;
     .locals 1
 
     .prologue
     .line 53
-    iget-object v0, p0, Lcom/tencent/mm/ui/tools/ShareImgUI;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/tools/ShareImgUI;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     return-object v0
 .end method
@@ -677,7 +677,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 538
     :cond_1
@@ -834,7 +834,7 @@
 
     aput-object v2, v5, v6
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto/16 :goto_0
 
@@ -845,7 +845,7 @@
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v6, Lcom/tencent/mm/compatible/util/d;->bpZ:Ljava/lang/String;
+    sget-object v6, Lcom/tencent/mm/compatible/util/Dclz;->bpZ:Ljava/lang/String;
 
     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -866,7 +866,7 @@
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v7, Lcom/tencent/mm/compatible/util/d;->bpZ:Ljava/lang/String;
+    sget-object v7, Lcom/tencent/mm/compatible/util/Dclz;->bpZ:Ljava/lang/String;
 
     invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -921,7 +921,7 @@
     :cond_6
     array-length v5, v4
 
-    invoke-static {v0, v4, v5}, Lcom/tencent/mm/a/d;->a(Ljava/lang/String;[BI)I
+    invoke-static {v0, v4, v5}, Lcom/tencent/mm/a/Dclz;->a(Ljava/lang/String;[BI)I
     :try_end_5
     .catch Ljava/io/FileNotFoundException; {:try_start_5 .. :try_end_5} :catch_e
     .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_c
@@ -1010,7 +1010,7 @@
 
     move-result-object v0
 
-    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_2
 
@@ -1069,7 +1069,7 @@
 
     move-result-object v0
 
-    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_a
     .catchall {:try_start_a .. :try_end_a} :catchall_2
 
@@ -1128,7 +1128,7 @@
 
     move-result-object v0
 
-    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_c
     .catchall {:try_start_c .. :try_end_c} :catchall_2
 
@@ -1268,7 +1268,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -1284,7 +1284,7 @@
 
     aput-object p1, v3, v4
 
-    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     :goto_0
     return-object v2
@@ -1302,7 +1302,7 @@
 
     const-string/jumbo v1, "getFilePath : scheme is SCHEME_FILE"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/net/Uri;->getPath()Ljava/lang/String;
 
@@ -1339,7 +1339,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/tencent/mm/ui/tools/ShareImgUI;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -1363,7 +1363,7 @@
 
     const-string/jumbo v1, "getFilePath : fail, cursor is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -1387,7 +1387,7 @@
 
     const-string/jumbo v1, "getFilePath : fail, cursor getCount is 0 or moveToFirst fail"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -1443,9 +1443,9 @@
     if-nez v1, :cond_6
 
     :cond_5
-    sget-object v1, Lcom/tencent/mm/compatible/d/p;->bml:Lcom/tencent/mm/compatible/d/j;
+    sget-object v1, Lcom/tencent/mm/compatible/d/Pclz;->bml:Lcom/tencent/mm/compatible/d/Jclz;
 
-    iget v1, v1, Lcom/tencent/mm/compatible/d/j;->blo:I
+    iget v1, v1, Lcom/tencent/mm/compatible/d/Jclz;->blo:I
 
     if-ne v1, v6, :cond_7
 
@@ -1459,7 +1459,7 @@
     :cond_7
     invoke-interface {v0}, Landroid/database/Cursor;->close()V
 
-    invoke-static {p0, p1}, Lcom/tencent/mm/sdk/platformtools/bc;->d(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->d(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -1470,7 +1470,7 @@
 
     const-string/jumbo v1, "unknown scheme"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 .end method
@@ -1518,7 +1518,7 @@
 
     const-string/jumbo v2, "launch : fail, intent is null"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 132
     invoke-direct {p0, v1}, Lcom/tencent/mm/ui/tools/ShareImgUI;->qZ(I)V
@@ -1546,7 +1546,7 @@
     move-result-object v4
 
     .line 140
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1557,7 +1557,7 @@
 
     const-string/jumbo v2, "launch : fail, action is null"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 142
     invoke-direct {p0, v1}, Lcom/tencent/mm/ui/tools/ShareImgUI;->qZ(I)V
@@ -1573,7 +1573,7 @@
 
     const-string/jumbo v5, "android.intent.extra.TEXT"
 
-    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/q;->e(Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/Qclz;->e(Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1628,7 +1628,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 156
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/ShareImgUI;->uri:Landroid/net/Uri;
@@ -1646,7 +1646,7 @@
 
     const-string/jumbo v3, "intent is null"
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -1664,7 +1664,7 @@
 
     aput-object v5, v2, v1
 
-    invoke-static {v3, v4, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 159
     if-nez v0, :cond_3
@@ -1682,7 +1682,7 @@
     :cond_4
     const-string/jumbo v3, "android.intent.extra.TEXT"
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/q;->e(Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Qclz;->e(Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1699,7 +1699,7 @@
 
     const-string/jumbo v3, "text is null"
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -1716,21 +1716,21 @@
 
     iput-object v0, v3, Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;->description:Ljava/lang/String;
 
-    new-instance v0, Lcom/tencent/mm/sdk/modelmsg/c$a;
+    new-instance v0, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/modelmsg/c$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;-><init>()V
 
     const/4 v4, 0x0
 
-    iput-object v4, v0, Lcom/tencent/mm/sdk/modelmsg/c$a;->hMq:Ljava/lang/String;
+    iput-object v4, v0, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;->hMq:Ljava/lang/String;
 
-    iput-object v3, v0, Lcom/tencent/mm/sdk/modelmsg/c$a;->jeU:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
+    iput-object v3, v0, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;->jeU:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
 
     new-instance v3, Landroid/os/Bundle;
 
     invoke-direct {v3}, Landroid/os/Bundle;-><init>()V
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/sdk/modelmsg/c$a;->k(Landroid/os/Bundle;)V
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;->k(Landroid/os/Bundle;)V
 
     const-string/jumbo v0, "_mmessage_sdkVersion"
 
@@ -1802,7 +1802,7 @@
 
     const-string/jumbo v3, "not logged in, jump to simple login"
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Landroid/content/Intent;
 
@@ -1841,7 +1841,7 @@
 
     const-string/jumbo v1, "ShareImgUI_getFilePath"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/h/e;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/h/Eclz;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -1882,7 +1882,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 177
     invoke-direct {p0, v4}, Lcom/tencent/mm/ui/tools/ShareImgUI;->J(Landroid/os/Bundle;)Ljava/util/ArrayList;
@@ -1910,7 +1910,7 @@
 
     const-string/jumbo v1, "launch : fail, filePathList is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 180
     invoke-direct {p0, v2}, Lcom/tencent/mm/ui/tools/ShareImgUI;->qZ(I)V
@@ -1957,7 +1957,7 @@
 
     aput-object v0, v5, v1
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 188
     invoke-direct {p0, v2}, Lcom/tencent/mm/ui/tools/ShareImgUI;->qZ(I)V
@@ -1994,7 +1994,7 @@
 
     const-string/jumbo v1, "mime type is no timage, try to set it"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 197
     invoke-virtual {p0}, Lcom/tencent/mm/ui/tools/ShareImgUI;->getIntent()Landroid/content/Intent;
@@ -2025,7 +2025,7 @@
 
     const-string/jumbo v2, "launch : fail, uri is null"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 203
     invoke-direct {p0, v1}, Lcom/tencent/mm/ui/tools/ShareImgUI;->qZ(I)V
@@ -2061,7 +2061,7 @@
 
     aput-object v7, v6, v1
 
-    invoke-static {v0, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 225
     invoke-virtual {p0}, Lcom/tencent/mm/ui/tools/ShareImgUI;->getIntent()Landroid/content/Intent;
@@ -2087,7 +2087,7 @@
 
     const-string/jumbo v6, "map : mimeType is null"
 
-    invoke-static {v0, v6}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v4
 
@@ -2100,7 +2100,7 @@
 
     const-string/jumbo v1, "launch, msgType is invalid"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 230
     invoke-virtual {p0}, Lcom/tencent/mm/ui/tools/ShareImgUI;->finish()V
@@ -2145,7 +2145,7 @@
 
     const-string/jumbo v6, "map : unknown mimetype, send as file"
 
-    invoke-static {v0, v6}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v3
 
@@ -2155,7 +2155,7 @@
     :cond_4
     iget-object v4, p0, Lcom/tencent/mm/ui/tools/ShareImgUI;->filePath:Ljava/lang/String;
 
-    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -2163,7 +2163,7 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ui/tools/ShareImgUI;->filePath:Ljava/lang/String;
 
-    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/bc;->Bt(Ljava/lang/String;)Z
+    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bt(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -2184,7 +2184,7 @@
 
     const-string/jumbo v2, "try to share illegal image."
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 238
     invoke-direct {p0, v1}, Lcom/tencent/mm/ui/tools/ShareImgUI;->qZ(I)V
@@ -2200,7 +2200,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/tools/ShareImgUI;->filePath:Ljava/lang/String;
 
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -2226,7 +2226,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/tools/ShareImgUI;->filePath:Ljava/lang/String;
 
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -2250,7 +2250,7 @@
 
     const-string/jumbo v4, "Intro_Switch"
 
-    invoke-static {v3, v4, v1}, Lcom/tencent/mm/sdk/platformtools/q;->a(Landroid/content/Intent;Ljava/lang/String;Z)Z
+    invoke-static {v3, v4, v1}, Lcom/tencent/mm/sdk/platformtools/Qclz;->a(Landroid/content/Intent;Ljava/lang/String;Z)Z
 
     move-result v3
 
@@ -2352,7 +2352,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/ShareImgUI;->filePath:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -2444,7 +2444,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/ShareImgUI;->kBt:Ljava/util/ArrayList;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->bd(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->bd(Ljava/util/List;)Z
 
     move-result v0
 
@@ -2607,7 +2607,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ui/tools/ShareImgUI$3;-><init>(Lcom/tencent/mm/ui/tools/ShareImgUI;)V
 
-    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
@@ -2652,7 +2652,7 @@
 
     aput-object p3, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 654
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -2732,17 +2732,17 @@
     iput-object p2, p0, Lcom/tencent/mm/ui/tools/ShareImgUI;->intent:Landroid/content/Intent;
 
     .line 97
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v0
 
     const-string/jumbo v1, "SystemShareControlBitset"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v0
 
@@ -2759,7 +2759,7 @@
 
     aput-object v4, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 99
     and-int/lit8 v0, v0, 0x1
@@ -2771,7 +2771,7 @@
 
     const-string/jumbo v1, "now allowed to share to friend"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 101
     invoke-virtual {p0}, Lcom/tencent/mm/ui/tools/ShareImgUI;->finish()V
@@ -2782,7 +2782,7 @@
     :cond_0
     const-string/jumbo v0, "android.intent.extra.TEXT"
 
-    invoke-static {p2, v0}, Lcom/tencent/mm/sdk/platformtools/q;->e(Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2, v0}, Lcom/tencent/mm/sdk/platformtools/Qclz;->e(Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -2795,10 +2795,10 @@
 
     aput-object v0, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 106
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -2828,13 +2828,13 @@
     invoke-virtual {v1, v2, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 110
-    new-instance v1, Lcom/tencent/mm/modelsimple/ag;
+    new-instance v1, Lcom/tencent/mm/modelsimple/AGclz;
 
     const/16 v2, 0xf
 
     const/4 v3, 0x0
 
-    invoke-direct {v1, v0, v2, v3}, Lcom/tencent/mm/modelsimple/ag;-><init>(Ljava/lang/String;ILjava/util/LinkedList;)V
+    invoke-direct {v1, v0, v2, v3}, Lcom/tencent/mm/modelsimple/AGclz;-><init>(Ljava/lang/String;ILjava/util/LinkedList;)V
 
     .line 111
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -2883,7 +2883,7 @@
 
     const-string/jumbo v1, "not login"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 85
     invoke-virtual {p0}, Lcom/tencent/mm/ui/tools/ShareImgUI;->getIntent()Landroid/content/Intent;

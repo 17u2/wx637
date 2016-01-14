@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -54,7 +54,7 @@
 
     const-string/jumbo v1, "test before sendMutiImage"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 72
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/SendImgProxyUI$1;->klW:Lcom/tencent/mm/ui/chatting/SendImgProxyUI;
@@ -80,27 +80,27 @@
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 76
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/sdk/platformtools/ac;->aOD()V
+    invoke-virtual {v1}, Lcom/tencent/mm/sdk/platformtools/ACclz;->aOD()V
 
     .line 77
     const-string/jumbo v1, "!32@/B4Tb64lLpLg4gwftVtZgiXDZ+lAxGZd"
 
     const-string/jumbo v2, "test before finish"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 78
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/SendImgProxyUI$1;->klW:Lcom/tencent/mm/ui/chatting/SendImgProxyUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/SendImgProxyUI;->a(Lcom/tencent/mm/ui/chatting/SendImgProxyUI;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/SendImgProxyUI;->a(Lcom/tencent/mm/ui/chatting/SendImgProxyUI;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/base/o;->dismiss()V
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/base/Oclz;->dismiss()V
 
     .line 79
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/SendImgProxyUI$1;->klW:Lcom/tencent/mm/ui/chatting/SendImgProxyUI;

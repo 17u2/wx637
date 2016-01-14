@@ -22,7 +22,7 @@
 
 .field public hGh:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/g$a;
 
-.field public final hGi:Lcom/tencent/mm/sdk/platformtools/ag;
+.field public final hGi:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
 
 # direct methods
@@ -44,7 +44,7 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/g;->hFY:Ljava/lang/String;
 
     .line 158
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     new-instance v1, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/g$2;
 
@@ -52,9 +52,9 @@
 
     const/4 v2, 0x1
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/g;->hGi:Lcom/tencent/mm/sdk/platformtools/ag;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/g;->hGi:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     .line 30
     iput-object p1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/g;->hCb:Lcom/tencent/smtt/sdk/WebView;
@@ -70,7 +70,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -106,7 +106,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->d(Ljava/io/InputStream;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->d(Ljava/io/InputStream;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -145,7 +145,7 @@
 
     const-string/jumbo v2, "loadJavaScript fail, jsContent is null"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -172,7 +172,7 @@
 
     const-string/jumbo v2, "loadJavaScript, viewWV is null"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -213,7 +213,7 @@
 
     const-string/jumbo v2, "loadJavaScript, jspai is null"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -228,7 +228,7 @@
 
     const-string/jumbo v4, "jsapi init"
 
-    invoke-static {v1, v4}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v1, v0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;->hFQ:Lcom/tencent/mm/ui/widget/MMWebView;
 
@@ -309,7 +309,7 @@
 
     const-string/jumbo v1, "jsapi init done"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v2
 

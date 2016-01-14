@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -72,7 +72,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 259
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoTextureView$5;->igp:Lcom/tencent/mm/pluginsdk/ui/tools/VideoTextureView;
@@ -106,7 +106,7 @@
 
     const-string/jumbo v1, "on texture destroyed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 247
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoTextureView$5;->igp:Lcom/tencent/mm/pluginsdk/ui/tools/VideoTextureView;
@@ -163,7 +163,7 @@
 
     const-string/jumbo v1, "on texture size changed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 236
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoTextureView$5;->igp:Lcom/tencent/mm/pluginsdk/ui/tools/VideoTextureView;
@@ -221,7 +221,7 @@
 
     const-string/jumbo v1, "on texture updated"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 231
     return-void

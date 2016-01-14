@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -104,10 +104,10 @@
 
     aput-object v4, v2, v10
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 358
-    invoke-static {}, Lcom/tencent/mm/ak/j;->Di()Lcom/tencent/mm/ak/n;
+    invoke-static {}, Lcom/tencent/mm/ak/Jclz;->Di()Lcom/tencent/mm/ak/Nclz;
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/ChattingSightContainerView$7;->gao:Lcom/tencent/mm/plugin/sight/encode/ui/ChattingSightContainerView;
 
@@ -115,12 +115,12 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/n;->jk(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/ak/Nclz;->jk(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     .line 359
-    invoke-static {}, Lcom/tencent/mm/ak/j;->Di()Lcom/tencent/mm/ak/n;
+    invoke-static {}, Lcom/tencent/mm/ak/Jclz;->Di()Lcom/tencent/mm/ak/Nclz;
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/ChattingSightContainerView$7;->gao:Lcom/tencent/mm/plugin/sight/encode/ui/ChattingSightContainerView;
 
@@ -128,7 +128,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/n;->jl(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/ak/Nclz;->jl(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -144,13 +144,13 @@
     move-result v4
 
     .line 362
-    invoke-static {}, Lcom/tencent/mm/ak/j;->Dm()Lcom/tencent/mm/ak/g;
+    invoke-static {}, Lcom/tencent/mm/ak/Jclz;->Dm()Lcom/tencent/mm/ak/Gclz;
 
     move-result-object v0
 
     move-object v5, v3
 
-    invoke-virtual/range {v0 .. v5}, Lcom/tencent/mm/ak/g;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILcom/tencent/mm/ak/g$a;)V
+    invoke-virtual/range {v0 .. v5}, Lcom/tencent/mm/ak/Gclz;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILcom/tencent/mm/ak/Gclz$a;)V
 
     .line 364
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/ChattingSightContainerView$7;->gao:Lcom/tencent/mm/plugin/sight/encode/ui/ChattingSightContainerView;
@@ -165,7 +165,7 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -175,7 +175,7 @@
 
     const-string/jumbo v1, "want to mux and send, but talker is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v6
 
@@ -221,7 +221,7 @@
 
     .line 364
     :cond_1
-    invoke-static {v1, v4, v0}, Lcom/tencent/mm/ak/o;->e(Ljava/lang/String;ILjava/lang/String;)J
+    invoke-static {v1, v4, v0}, Lcom/tencent/mm/ak/Oclz;->e(Ljava/lang/String;ILjava/lang/String;)J
 
     move-result-wide v2
 
@@ -235,20 +235,20 @@
 
     const-string/jumbo v1, "prepare sight error"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v6
 
     goto :goto_0
 
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/ak/j;->Di()Lcom/tencent/mm/ak/n;
+    invoke-static {}, Lcom/tencent/mm/ak/Jclz;->Di()Lcom/tencent/mm/ak/Nclz;
 
-    invoke-static {v1}, Lcom/tencent/mm/ak/n;->jk(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/ak/Nclz;->jk(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/a/d;->au(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/tencent/mm/a/Dclz;->au(Ljava/lang/String;)I
 
     move-result v0
 
@@ -258,9 +258,9 @@
 
     const-string/jumbo v2, "mux sight error: file length 0"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v1}, Lcom/tencent/mm/ak/o;->jp(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/ak/Oclz;->jp(Ljava/lang/String;)Z
 
     move v0, v6
 
@@ -269,9 +269,9 @@
     :cond_3
     const/16 v0, 0x3e
 
-    invoke-static {v1, v4, v0}, Lcom/tencent/mm/ak/o;->h(Ljava/lang/String;II)V
+    invoke-static {v1, v4, v0}, Lcom/tencent/mm/ak/Oclz;->h(Ljava/lang/String;II)V
 
-    invoke-static {v1}, Lcom/tencent/mm/ak/o;->jq(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/tencent/mm/ak/Oclz;->jq(Ljava/lang/String;)I
 
     move-result v0
 

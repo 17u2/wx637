@@ -20,7 +20,7 @@
 # instance fields
 .field private bxK:I
 
-.field public bxR:Lcom/tencent/mm/aq/a;
+.field public bxR:Lcom/tencent/mm/aq/Aclz;
 
 .field private bxS:Z
 
@@ -28,7 +28,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/tencent/mm/aq/a;IIZ)V
+.method public constructor <init>(Lcom/tencent/mm/aq/Aclz;IIZ)V
     .locals 1
 
     .prologue
@@ -36,7 +36,7 @@
     invoke-direct {p0}, Lcom/tencent/mm/protocal/Hclz$c;-><init>()V
 
     .line 121
-    iput-object p1, p0, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/a;
+    iput-object p1, p0, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     .line 122
     iput p2, p0, Lcom/tencent/mm/q/Aclz$b;->bxK:I
@@ -52,7 +52,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -75,14 +75,14 @@
 
     .prologue
     .line 139
-    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     instance-of v0, v0, Lcom/tencent/mm/protocal/b/ajj;
 
     if-eqz v0, :cond_0
 
     .line 140
-    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/ajj;
 
@@ -94,9 +94,9 @@
 
     .line 142
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/aq/a;->toByteArray()[B
+    invoke-virtual {v0}, Lcom/tencent/mm/aq/Aclz;->toByteArray()[B
 
     move-result-object v0
 

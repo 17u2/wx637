@@ -6,7 +6,7 @@
 # static fields
 .field private static gdE:Z
 
-.field private static gdN:Lcom/tencent/mm/sdk/c/c;
+.field private static gdN:Lcom/tencent/mm/sdk/c/Cclz;
 
 .field private static ger:Ljava/lang/String;
 
@@ -37,7 +37,7 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/plugin/sns/abtest/c$1;-><init>()V
 
-    sput-object v0, Lcom/tencent/mm/plugin/sns/abtest/c;->gdN:Lcom/tencent/mm/sdk/c/c;
+    sput-object v0, Lcom/tencent/mm/plugin/sns/abtest/c;->gdN:Lcom/tencent/mm/sdk/c/Cclz;
 
     .line 62
     const/4 v0, 0x0
@@ -48,7 +48,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -148,19 +148,19 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 69
     sput-boolean v5, Lcom/tencent/mm/plugin/sns/abtest/c;->gdE:Z
 
     .line 70
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "SnsFinishBlockUser"
 
-    sget-object v2, Lcom/tencent/mm/plugin/sns/abtest/c;->gdN:Lcom/tencent/mm/sdk/c/c;
+    sget-object v2, Lcom/tencent/mm/plugin/sns/abtest/c;->gdN:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     new-instance v0, Lcom/tencent/mm/plugin/sns/abtest/c$2;
 
@@ -187,13 +187,13 @@
     sput-object v0, Lcom/tencent/mm/plugin/sns/abtest/c;->get:Landroid/view/View$OnClickListener;
 
     .line 91
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "SnsFinishBlockUser"
 
-    sget-object v2, Lcom/tencent/mm/plugin/sns/abtest/c;->gdN:Lcom/tencent/mm/sdk/c/c;
+    sget-object v2, Lcom/tencent/mm/plugin/sns/abtest/c;->gdN:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 92
     sget-boolean v0, Lcom/tencent/mm/plugin/sns/abtest/c;->gdE:Z
@@ -294,7 +294,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 99
     :cond_0
@@ -471,7 +471,7 @@
 
     aput-object v0, v5, v8
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     :cond_0
     return-void

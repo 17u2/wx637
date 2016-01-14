@@ -26,7 +26,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -41,7 +41,7 @@
     const/4 v7, 0x1
 
     .line 107
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/x;->aOj()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Xclz;->aOj()J
 
     move-result-wide v2
 
@@ -62,7 +62,7 @@
 
     move-result-object v5
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 111
     const-wide/32 v4, 0x1c61a0
@@ -101,7 +101,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string/jumbo v0, "alarm"
 
@@ -117,7 +117,7 @@
 
     const-string/jumbo v1, "keep bumper failed, null am"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -181,7 +181,7 @@
 
     const-string/jumbo v1, "stop bumper failed, null am"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 145
     :cond_0
@@ -231,7 +231,7 @@
 
     const-string/jumbo v2, "keep awaker"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 149
     const-string/jumbo v0, "alarm"
@@ -250,7 +250,7 @@
 
     const-string/jumbo v1, "keep awaker failed, null am"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 157
     :goto_0
@@ -315,7 +315,7 @@
 
     const-string/jumbo v1, "stop awaker"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 161
     const-string/jumbo v0, "alarm"
@@ -334,7 +334,7 @@
 
     const-string/jumbo v1, "keep awaker failed, null am"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 171
     :cond_0
@@ -412,7 +412,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 94
     if-eqz v0, :cond_2
@@ -436,7 +436,7 @@
     invoke-static {p1}, Lcom/tencent/mm/booter/MMReceivers$AlarmReceiver;->am(Landroid/content/Context;)V
 
     .line 101
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->appenderFlush()V
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->appenderFlush()V
 
     goto :goto_0
 .end method

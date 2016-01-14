@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -72,7 +72,7 @@
 
     check-cast v0, Ljava/lang/Integer;
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Integer;I)I
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Integer;I)I
 
     move-result v0
 
@@ -101,9 +101,9 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/account/FacebookLoginUI$2;->jBy:Lcom/tencent/mm/ui/account/FacebookLoginUI;
 
-    iget-object v3, v3, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v3, v3, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v3, v3, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const-class v4, Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI;
 

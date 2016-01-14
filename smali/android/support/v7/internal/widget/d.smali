@@ -46,7 +46,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -73,7 +73,7 @@
     iput-object v0, p0, Landroid/support/v7/internal/widget/d;->eM:Landroid/graphics/Rect;
 
     .line 151
-    sget-object v0, Lcom/tencent/mm/a$b;->Spinner:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$b;->Spinner:[I
 
     invoke-virtual {p1, v5, v0, v2, v4}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -134,7 +134,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_1
     return-void

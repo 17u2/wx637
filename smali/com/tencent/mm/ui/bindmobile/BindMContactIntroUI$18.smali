@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,7 +52,7 @@
     const/4 v4, 0x0
 
     .line 689
-    invoke-static {}, Lcom/tencent/mm/modelfriend/m;->yj()Z
+    invoke-static {}, Lcom/tencent/mm/modelfriend/Mclz;->yj()Z
 
     move-result v0
 
@@ -81,9 +81,9 @@
     .line 692
     iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI$18;->jXm:Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI;
 
-    sget-object v1, Lcom/tencent/mm/modelfriend/m$a;->bFc:Lcom/tencent/mm/modelfriend/m$a;
+    sget-object v1, Lcom/tencent/mm/modelfriend/Mclz$a;->bFc:Lcom/tencent/mm/modelfriend/Mclz$a;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI;->a(Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI;Lcom/tencent/mm/modelfriend/m$a;)Lcom/tencent/mm/modelfriend/m$a;
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI;->a(Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI;Lcom/tencent/mm/modelfriend/Mclz$a;)Lcom/tencent/mm/modelfriend/Mclz$a;
 
     .line 693
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
@@ -106,7 +106,7 @@
 
     check-cast v0, Ljava/lang/Boolean;
 
-    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v0
 

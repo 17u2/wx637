@@ -26,7 +26,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -34,7 +34,7 @@
 
 
 # virtual methods
-.method public final an(Ljava/lang/Object;)Lcom/tencent/mm/modelsns/a;
+.method public final an(Ljava/lang/Object;)Lcom/tencent/mm/modelsns/Aclz;
     .locals 5
 
     .prologue
@@ -69,10 +69,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelsns/a;
+    check-cast v0, Lcom/tencent/mm/modelsns/Aclz;
 
     .line 42
-    iget-object v3, v0, Lcom/tencent/mm/modelsns/a;->bTJ:Ljava/lang/Object;
+    iget-object v3, v0, Lcom/tencent/mm/modelsns/Aclz;->bTJ:Ljava/lang/Object;
 
     invoke-virtual {p1, v3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
@@ -124,7 +124,7 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2
     move-object v0, v1
@@ -133,7 +133,7 @@
     goto :goto_0
 .end method
 
-.method public final b(Lcom/tencent/mm/modelsns/a;)Lcom/tencent/mm/modelsns/a;
+.method public final b(Lcom/tencent/mm/modelsns/Aclz;)Lcom/tencent/mm/modelsns/Aclz;
     .locals 1
 
     .prologue
@@ -146,7 +146,7 @@
     return-object p1
 .end method
 
-.method public final c(Lcom/tencent/mm/modelsns/a;)Z
+.method public final c(Lcom/tencent/mm/modelsns/Aclz;)Z
     .locals 5
 
     .prologue
@@ -171,12 +171,12 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelsns/a;
+    check-cast v0, Lcom/tencent/mm/modelsns/Aclz;
 
     .line 25
-    iget v3, v0, Lcom/tencent/mm/modelsns/a;->bTM:I
+    iget v3, v0, Lcom/tencent/mm/modelsns/Aclz;->bTM:I
 
-    iget v4, p1, Lcom/tencent/mm/modelsns/a;->bTM:I
+    iget v4, p1, Lcom/tencent/mm/modelsns/Aclz;->bTM:I
 
     if-ne v3, v4, :cond_0
 

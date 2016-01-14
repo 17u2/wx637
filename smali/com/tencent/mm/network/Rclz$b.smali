@@ -42,7 +42,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -87,9 +87,9 @@
     .line 190
     iget-object v1, p0, Lcom/tencent/mm/network/Rclz$b;->bfd:Lcom/tencent/mm/network/Rclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/network/Rclz;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, v1, Lcom/tencent/mm/network/Rclz;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ax;->b(Lcom/tencent/mm/sdk/platformtools/ab;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/AXclz;->b(Lcom/tencent/mm/sdk/platformtools/ABclz;)Ljava/lang/Object;
 
     .line 191
     return-void

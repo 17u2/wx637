@@ -63,7 +63,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -83,7 +83,7 @@
     move-result-object v0
 
     .line 450
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->I([B)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->I([B)Z
 
     move-result v1
 
@@ -94,7 +94,7 @@
 
     const-string/jumbo v1, "downloadAsyncResource, get null bytes from asyncConfigURL"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 592
     :cond_0
@@ -120,11 +120,11 @@
 
     aput-object v1, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 458
     :try_start_0
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -170,7 +170,7 @@
     move-result-object v1
 
     .line 471
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -181,7 +181,7 @@
 
     const-string/jumbo v1, "downloadAsyncResource, get null or nil cofingName from cacheConfig"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 473
     iget-boolean v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/g$2;->hzD:Z
@@ -230,7 +230,7 @@
 
     aput-object v0, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 571
     iget-boolean v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/g$2;->hzD:Z
@@ -257,7 +257,7 @@
     .line 481
     :cond_2
     :try_start_3
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/y;->AG(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/Yclz;->AG(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -304,7 +304,7 @@
 
     aput-object v1, v3, v5
 
-    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 487
     invoke-static {}, Lcom/tencent/mm/plugin/webview/modelcache/p$b;->aFm()Lcom/tencent/mm/plugin/webview/modelcache/p;
@@ -329,13 +329,13 @@
 
     aput-object v5, v2, v3
 
-    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/plugin/webview/modelcache/f;->b(Lcom/tencent/mm/sdk/g/c;[Ljava/lang/String;)Z
+    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/plugin/webview/modelcache/f;->b(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
 
     invoke-static {}, Lcom/tencent/mm/plugin/webview/d/c;->aFE()Lcom/tencent/mm/plugin/webview/modelcache/k;
 
     move-result-object v0
 
-    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -366,7 +366,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/plugin/webview/modelcache/k;->b(Lcom/tencent/mm/sdk/g/c;[Ljava/lang/String;)Z
+    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/plugin/webview/modelcache/k;->b(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
 
     .line 488
     iget-boolean v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/g$2;->hzD:Z
@@ -423,7 +423,7 @@
 
     aput-object v0, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 578
     iget-boolean v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/g$2;->hzD:Z
@@ -502,7 +502,7 @@
 
     const-string/jumbo v1, "downloadAsyncResource, get null manifest obj"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 499
     iget-boolean v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/g$2;->hzD:Z
@@ -551,7 +551,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 585
     iget-boolean v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/g$2;->hzD:Z
@@ -640,7 +640,7 @@
 
     aput-object v1, v6, v7
 
-    invoke-static {v0, v3, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 540
     :cond_6
@@ -725,7 +725,7 @@
     invoke-interface {v1, v0}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
     .line 557
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->bd(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->bd(Ljava/util/List;)Z
 
     move-result v0
 
@@ -752,7 +752,7 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 559
     invoke-static {}, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/WebViewCacheDownloadHelper;->aFn()Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/WebViewCacheDownloadHelper;
@@ -817,7 +817,7 @@
 
     aput-object v1, v6, v7
 
-    invoke-static {v0, v3, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto/16 :goto_3
 
@@ -835,7 +835,7 @@
 
     aput-object v1, v6, v7
 
-    invoke-static {v0, v3, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 533
     iget-boolean v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/g$2;->hzD:Z
@@ -865,7 +865,7 @@
 
     const-string/jumbo v1, "downloadAsyncResource, get empty request list, all requested resources cached"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 562
     iget-boolean v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/g$2;->hzD:Z

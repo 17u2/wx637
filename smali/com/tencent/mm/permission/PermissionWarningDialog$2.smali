@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -54,7 +54,7 @@
     .line 100
     iget-boolean v0, p0, Lcom/tencent/mm/permission/PermissionWarningDialog$2;->cdi:Z
 
-    invoke-static {v0}, Lcom/tencent/mm/permission/b;->be(Z)V
+    invoke-static {v0}, Lcom/tencent/mm/permission/Bclz;->be(Z)V
 
     .line 101
     iget-object v0, p0, Lcom/tencent/mm/permission/PermissionWarningDialog$2;->cdh:Lcom/tencent/mm/permission/PermissionWarningDialog;

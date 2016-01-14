@@ -58,12 +58,12 @@
 
     const/4 v1, -0x1
 
-    invoke-static {v0, v4, v1}, Lcom/tencent/mm/a/d;->d(Ljava/lang/String;II)[B
+    invoke-static {v0, v4, v1}, Lcom/tencent/mm/a/Dclz;->d(Ljava/lang/String;II)[B
 
     move-result-object v0
 
     .line 3018
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->I([B)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->I([B)Z
 
     move-result v1
 
@@ -73,7 +73,7 @@
     :try_start_0
     iget-object v1, p0, Lcom/tencent/mm/storage/Uclz;->jol:Lcom/tencent/mm/storage/Tclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/Tclz;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/storage/Tclz;->ak([B)Lcom/tencent/mm/aq/Aclz;
 
     .line 3021
     invoke-direct {p0}, Lcom/tencent/mm/storage/Uclz;->aQu()Z
@@ -93,7 +93,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     .line 3029
     :cond_1
@@ -109,7 +109,7 @@
 
     const-string/jumbo v2, "DelSvrIDs parse Error"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 3026
     const-string/jumbo v1, "!32@/B4Tb64lLpIeyFFi+7ORKM25zAgrDjCa"
@@ -120,13 +120,13 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Throwable;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Throwable;)Ljava/lang/String;
 
     move-result-object v0
 
     aput-object v0, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 3029
     :cond_2
@@ -134,7 +134,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     goto :goto_0
 .end method
@@ -192,7 +192,7 @@
 
     aput-object v0, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 3076
     :goto_1
@@ -314,7 +314,7 @@
 
     array-length v2, v0
 
-    invoke-static {v1, v0, v2}, Lcom/tencent/mm/a/d;->a(Ljava/lang/String;[BI)I
+    invoke-static {v1, v0, v2}, Lcom/tencent/mm/a/Dclz;->a(Ljava/lang/String;[BI)I
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -337,13 +337,13 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Throwable;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Throwable;)Ljava/lang/String;
 
     move-result-object v0
 
     aput-object v0, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 .end method
@@ -421,10 +421,10 @@
 
     aput-object v6, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 3093
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EY()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EY()J
 
     move-result-wide v2
 
@@ -594,13 +594,13 @@
 
     aput-object v3, v2, v6
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 3083
     invoke-direct {p0}, Lcom/tencent/mm/storage/Uclz;->aQu()Z
 
     .line 3084
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EY()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EY()J
 
     move-result-wide v0
 

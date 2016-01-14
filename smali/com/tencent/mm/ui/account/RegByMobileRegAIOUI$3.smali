@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -60,23 +60,23 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/tools/a/c;->a(Landroid/widget/EditText;)Lcom/tencent/mm/ui/tools/a/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/tools/a/Cclz;->a(Landroid/widget/EditText;)Lcom/tencent/mm/ui/tools/a/Cclz;
 
     move-result-object v0
 
     const/16 v1, 0x20
 
-    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/ui/tools/a/c;->bR(II)Lcom/tencent/mm/ui/tools/a/c;
+    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/ui/tools/a/Cclz;->bR(II)Lcom/tencent/mm/ui/tools/a/Cclz;
 
     move-result-object v0
 
-    iput-boolean v2, v0, Lcom/tencent/mm/ui/tools/a/c;->kGS:Z
+    iput-boolean v2, v0, Lcom/tencent/mm/ui/tools/a/Cclz;->kGS:Z
 
     new-instance v1, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI$3$1;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI$3$1;-><init>(Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI$3;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/tools/a/c;->a(Lcom/tencent/mm/ui/tools/a/c$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/tools/a/Cclz;->a(Lcom/tencent/mm/ui/tools/a/Cclz$a;)V
 
     .line 553
     return-void

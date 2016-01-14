@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -60,7 +60,7 @@
 
     const-string/jumbo v1, "webview hijack sysMsgListener"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 281
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/d/c$7$1;->cHz:Ljava/lang/String;
@@ -69,7 +69,7 @@
 
     const/4 v2, 0x0
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/r;->H(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map;
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Rclz;->H(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map;
 
     move-result-object v4
 
@@ -84,7 +84,7 @@
 
     const-wide v1, 0x7fffffffffffffffL
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/bc;->getLong(Ljava/lang/String;J)J
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getLong(Ljava/lang/String;J)J
 
     move-result-wide v5
 
@@ -133,7 +133,7 @@
     check-cast v0, Ljava/lang/String;
 
     .line 292
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v7
 
@@ -153,7 +153,7 @@
     .line 298
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/d/c$7$1;->hAT:Lcom/tencent/mm/plugin/webview/d/f;
 
-    invoke-virtual {v0, v7}, Lcom/tencent/mm/plugin/webview/d/f;->a(Lcom/tencent/mm/sdk/g/c;)Z
+    invoke-virtual {v0, v7}, Lcom/tencent/mm/plugin/webview/d/f;->a(Lcom/tencent/mm/sdk/g/Cclz;)Z
 
     move-object v0, v1
 

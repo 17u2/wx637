@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic jCD:Lcom/tencent/mm/modelsimple/t;
+.field final synthetic jCD:Lcom/tencent/mm/modelsimple/Tclz;
 
 .field final synthetic jCE:Lcom/tencent/mm/ui/account/LoginHistoryUI;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/account/LoginHistoryUI;Lcom/tencent/mm/modelsimple/t;)V
+.method constructor <init>(Lcom/tencent/mm/ui/account/LoginHistoryUI;Lcom/tencent/mm/modelsimple/Tclz;)V
     .locals 1
 
     .prologue
     .line 162
     iput-object p1, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$1;->jCE:Lcom/tencent/mm/ui/account/LoginHistoryUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$1;->jCD:Lcom/tencent/mm/modelsimple/t;
+    iput-object p2, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$1;->jCD:Lcom/tencent/mm/modelsimple/Tclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$1;->jCD:Lcom/tencent/mm/modelsimple/t;
+    iget-object v1, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$1;->jCD:Lcom/tencent/mm/modelsimple/Tclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 

@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -143,7 +143,7 @@
 
     const-string/jumbo v1, "preview camera ok"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 83
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraSurfaceView$1;->gcC:Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraSurfaceView;
@@ -170,7 +170,7 @@
     .line 85
     const/16 v2, 0xe
 
-    invoke-static {v2}, Lcom/tencent/mm/compatible/util/c;->bW(I)Z
+    invoke-static {v2}, Lcom/tencent/mm/compatible/util/Cclz;->bW(I)Z
 
     move-result v2
 
@@ -229,7 +229,7 @@
 
     aput-object v7, v6, v11
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 90
     iget v4, v1, Landroid/util/DisplayMetrics;->widthPixels:I
@@ -269,7 +269,7 @@
 
     aput-object v4, v3, v9
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 102
     iget-object v1, p0, Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraSurfaceView$1;->gcC:Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraSurfaceView;
@@ -350,7 +350,7 @@
 
     aput-object v7, v6, v11
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 97
     iget v1, v1, Landroid/util/DisplayMetrics;->widthPixels:I
@@ -387,7 +387,7 @@
 
     const-string/jumbo v1, "bug???"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 .end method

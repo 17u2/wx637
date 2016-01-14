@@ -24,7 +24,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -86,7 +86,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 59
     return-void
@@ -139,7 +139,7 @@
 
     const-string/jumbo v2, "onRecieve"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 24
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
@@ -147,7 +147,7 @@
     move-result-wide v1
 
     .line 25
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bb;->update()V
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BBclz;->update()V
 
     .line 27
     move-object/from16 v0, p0
@@ -168,44 +168,44 @@
     sub-long v3, v1, v3
 
     .line 29
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bb;->aPb()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BBclz;->aPb()J
 
     move-result-wide v5
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bb;->aPa()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BBclz;->aPa()J
 
     move-result-wide v7
 
     add-long/2addr v5, v7
 
     .line 30
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bb;->aOZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BBclz;->aOZ()J
 
     move-result-wide v7
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bb;->aOY()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BBclz;->aOY()J
 
     move-result-wide v9
 
     add-long/2addr v7, v9
 
     .line 31
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bb;->aPf()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BBclz;->aPf()J
 
     move-result-wide v9
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bb;->aPe()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BBclz;->aPe()J
 
     move-result-wide v11
 
     add-long/2addr v9, v11
 
     .line 32
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bb;->aPf()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BBclz;->aPf()J
 
     move-result-wide v11
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bb;->aPe()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BBclz;->aPe()J
 
     move-result-wide v13
 
@@ -300,7 +300,7 @@
 
     aput-object v3, v15, v5
 
-    invoke-static {v13, v14, v15}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v13, v14, v15}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 40
     :cond_0

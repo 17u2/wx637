@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field public fKV:Lcom/tencent/mm/modelfriend/o;
+.field public fKV:Lcom/tencent/mm/modelfriend/Oclz;
 
 
 # direct methods
@@ -20,7 +20,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -28,7 +28,7 @@
 
 
 # virtual methods
-.method public final Kh()Lcom/tencent/mm/ui/e/a/a$b;
+.method public final Kh()Lcom/tencent/mm/ui/e/a/Aclz$b;
     .locals 1
 
     .prologue
@@ -38,7 +38,7 @@
     return-object v0
 .end method
 
-.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/a$a;)V
+.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/Aclz$a;)V
     .locals 8
 
     .prologue
@@ -51,9 +51,9 @@
     const/4 v3, 0x0
 
     .line 36
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->cFi:Lcom/tencent/mm/modelsearch/k$g;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->cFi:Lcom/tencent/mm/modelsearch/Kclz$g;
 
-    iget-object v0, v0, Lcom/tencent/mm/modelsearch/k$g;->bRF:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/modelsearch/Kclz$g;->bRF:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->username:Ljava/lang/String;
 
@@ -75,29 +75,29 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->czx:Lcom/tencent/mm/storage/Kclz;
 
     .line 38
-    new-instance v0, Lcom/tencent/mm/modelfriend/o;
+    new-instance v0, Lcom/tencent/mm/modelfriend/Oclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/modelfriend/o;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/modelfriend/Oclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->fKV:Lcom/tencent/mm/modelfriend/o;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->fKV:Lcom/tencent/mm/modelfriend/Oclz;
 
     .line 39
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zi()Lcom/tencent/mm/modelfriend/p;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zi()Lcom/tencent/mm/modelfriend/Pclz;
 
     move-result-object v0
 
-    iget-object v4, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->cFi:Lcom/tencent/mm/modelsearch/k$g;
+    iget-object v4, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->cFi:Lcom/tencent/mm/modelsearch/Kclz$g;
 
-    iget-wide v4, v4, Lcom/tencent/mm/modelsearch/k$g;->bRE:J
+    iget-wide v4, v4, Lcom/tencent/mm/modelsearch/Kclz$g;->bRE:J
 
-    iget-object v6, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->fKV:Lcom/tencent/mm/modelfriend/o;
+    iget-object v6, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->fKV:Lcom/tencent/mm/modelfriend/Oclz;
 
-    invoke-virtual {v0, v4, v5, v6}, Lcom/tencent/mm/modelfriend/p;->b(JLcom/tencent/mm/sdk/g/c;)Z
+    invoke-virtual {v0, v4, v5, v6}, Lcom/tencent/mm/modelfriend/Pclz;->b(JLcom/tencent/mm/sdk/g/Cclz;)Z
 
     .line 47
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->fKV:Lcom/tencent/mm/modelfriend/o;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->fKV:Lcom/tencent/mm/modelfriend/Oclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/modelfriend/o;->field_googlename:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googlename:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -106,19 +106,19 @@
     if-eqz v0, :cond_1
 
     .line 51
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->fKV:Lcom/tencent/mm/modelfriend/o;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->fKV:Lcom/tencent/mm/modelfriend/Oclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/modelfriend/o;->field_googlegmail:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googlegmail:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->Bq(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bq(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 56
     :goto_0
-    iget-object v4, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->cFi:Lcom/tencent/mm/modelsearch/k$g;
+    iget-object v4, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->cFi:Lcom/tencent/mm/modelsearch/Kclz$g;
 
-    iget v4, v4, Lcom/tencent/mm/modelsearch/k$g;->bRD:I
+    iget v4, v4, Lcom/tencent/mm/modelsearch/Kclz$g;->bRD:I
 
     packed-switch v4, :pswitch_data_0
 
@@ -142,13 +142,13 @@
     .line 77
     iget-object v5, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->cEm:Ljava/util/List;
 
-    invoke-static {v0, v5, v3}, Lcom/tencent/mm/modelsearch/e;->a(Ljava/lang/String;Ljava/util/List;Z)Landroid/text/Spannable;
+    invoke-static {v0, v5, v3}, Lcom/tencent/mm/modelsearch/Eclz;->a(Ljava/lang/String;Ljava/util/List;Z)Landroid/text/Spannable;
 
     move-result-object v0
 
     .line 81
     :goto_2
-    sget v5, Lcom/tencent/mm/modelsearch/e;->bRe:I
+    sget v5, Lcom/tencent/mm/modelsearch/Eclz;->bRe:I
 
     invoke-static {p1, v0, v5}, Lcom/tencent/mm/plugin/search/ui/a/d;->a(Landroid/content/Context;Landroid/text/Spannable;I)Landroid/text/SpannableString;
 
@@ -166,13 +166,13 @@
     .line 89
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->cEm:Ljava/util/List;
 
-    invoke-static {v6, v0, v3}, Lcom/tencent/mm/modelsearch/e;->a(Ljava/lang/String;Ljava/util/List;Z)Landroid/text/Spannable;
+    invoke-static {v6, v0, v3}, Lcom/tencent/mm/modelsearch/Eclz;->a(Ljava/lang/String;Ljava/util/List;Z)Landroid/text/Spannable;
 
     move-result-object v0
 
     .line 93
     :goto_4
-    sget v1, Lcom/tencent/mm/modelsearch/e;->bRe:I
+    sget v1, Lcom/tencent/mm/modelsearch/Eclz;->bRe:I
 
     invoke-static {p1, v0, v1}, Lcom/tencent/mm/plugin/search/ui/a/d;->a(Landroid/content/Context;Landroid/text/Spannable;I)Landroid/text/SpannableString;
 
@@ -203,9 +203,9 @@
 
     .line 53
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->fKV:Lcom/tencent/mm/modelfriend/o;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->fKV:Lcom/tencent/mm/modelfriend/Oclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/modelfriend/o;->field_googlename:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googlename:Ljava/lang/String;
 
     goto :goto_0
 
@@ -214,9 +214,9 @@
 
     .line 63
     :goto_5
-    iget-object v4, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->fKV:Lcom/tencent/mm/modelfriend/o;
+    iget-object v4, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->fKV:Lcom/tencent/mm/modelfriend/Oclz;
 
-    iget-object v4, v4, Lcom/tencent/mm/modelfriend/o;->field_googlegmail:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/modelfriend/Oclz;->field_googlegmail:Ljava/lang/String;
 
     .line 64
     invoke-virtual {p1, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -236,9 +236,9 @@
 
     .line 70
     :pswitch_1
-    iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->fKV:Lcom/tencent/mm/modelfriend/o;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->fKV:Lcom/tencent/mm/modelfriend/Oclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/modelfriend/o;->field_googlegmail:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/modelfriend/Oclz;->field_googlegmail:Ljava/lang/String;
 
     .line 71
     invoke-virtual {p1, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -261,7 +261,7 @@
     :cond_2
     iget-object v5, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->cEm:Ljava/util/List;
 
-    invoke-static {v0, v5}, Lcom/tencent/mm/modelsearch/e;->e(Ljava/lang/String;Ljava/util/List;)Landroid/text/Spannable;
+    invoke-static {v0, v5}, Lcom/tencent/mm/modelsearch/Eclz;->e(Ljava/lang/String;Ljava/util/List;)Landroid/text/Spannable;
 
     move-result-object v0
 
@@ -273,7 +273,7 @@
 
     invoke-direct {v5, v0}, Landroid/text/SpannableString;-><init>(Ljava/lang/CharSequence;)V
 
-    sget v0, Lcom/tencent/mm/modelsearch/e;->bRe:I
+    sget v0, Lcom/tencent/mm/modelsearch/Eclz;->bRe:I
 
     invoke-static {p1, v5, v0}, Lcom/tencent/mm/plugin/search/ui/a/d;->a(Landroid/content/Context;Landroid/text/Spannable;I)Landroid/text/SpannableString;
 
@@ -287,7 +287,7 @@
     :cond_4
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/d;->cEm:Ljava/util/List;
 
-    invoke-static {v6, v0}, Lcom/tencent/mm/modelsearch/e;->e(Ljava/lang/String;Ljava/util/List;)Landroid/text/Spannable;
+    invoke-static {v6, v0}, Lcom/tencent/mm/modelsearch/Eclz;->e(Ljava/lang/String;Ljava/util/List;)Landroid/text/Spannable;
 
     move-result-object v0
 

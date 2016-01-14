@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -79,7 +79,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI$23;->hEd:Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;->cJq:Lcom/tencent/mm/ui/tools/l;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;->cJq:Lcom/tencent/mm/ui/tools/Lclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI$23$22;->hEp:Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI$23;
 
@@ -93,16 +93,16 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/ui/tools/l;->b(Landroid/view/View;Landroid/view/View$OnCreateContextMenuListener;Lcom/tencent/mm/ui/base/m$d;)V
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/ui/tools/Lclz;->b(Landroid/view/View;Landroid/view/View$OnCreateContextMenuListener;Lcom/tencent/mm/ui/base/Mclz$d;)V
 
     .line 1091
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI$23$22;->hEp:Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI$23;
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI$23;->hEd:Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;->cJq:Lcom/tencent/mm/ui/tools/l;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;->cJq:Lcom/tencent/mm/ui/tools/Lclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/tools/l;->bbE()Landroid/app/Dialog;
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/tools/Lclz;->bbE()Landroid/app/Dialog;
 
     goto :goto_0
 .end method

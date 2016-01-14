@@ -13,7 +13,7 @@
 
 .field private dan:Ljava/lang/String;
 
-.field private grS:Lcom/tencent/mm/modelsns/a;
+.field private grS:Lcom/tencent/mm/modelsns/Aclz;
 
 .field private gtL:Ljava/lang/String;
 
@@ -61,7 +61,7 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ar;->gtL:Ljava/lang/String;
 
     .line 40
-    iput-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/ar;->grS:Lcom/tencent/mm/modelsns/a;
+    iput-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/ar;->grS:Lcom/tencent/mm/modelsns/Aclz;
 
     .line 44
     iput-object p1, p0, Lcom/tencent/mm/plugin/sns/ui/ar;->arA:Lcom/tencent/mm/ui/MMActivity;
@@ -71,7 +71,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -120,7 +120,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 82
     const/4 v0, 0x0
@@ -275,21 +275,21 @@
     move-result v0
 
     .line 122
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/ar;->grS:Lcom/tencent/mm/modelsns/a;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/ar;->grS:Lcom/tencent/mm/modelsns/Aclz;
 
     if-eqz v1, :cond_7
 
     .line 123
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/ar;->grS:Lcom/tencent/mm/modelsns/a;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/ar;->grS:Lcom/tencent/mm/modelsns/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/modelsns/a;->dT(I)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/modelsns/Aclz;->dT(I)Z
 
     .line 124
     sget-object v0, Lcom/tencent/mm/plugin/sns/g/c;->goq:Lcom/tencent/mm/plugin/sns/g/e;
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/ar;->grS:Lcom/tencent/mm/modelsns/a;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/ar;->grS:Lcom/tencent/mm/modelsns/Aclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/plugin/sns/g/e;->c(Lcom/tencent/mm/modelsns/a;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/plugin/sns/g/e;->c(Lcom/tencent/mm/modelsns/Aclz;)Z
 
     .line 127
     :cond_7
@@ -371,11 +371,11 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/modelsns/a;->k(Landroid/content/Intent;)Lcom/tencent/mm/modelsns/a;
+    invoke-static {v0}, Lcom/tencent/mm/modelsns/Aclz;->k(Landroid/content/Intent;)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ar;->grS:Lcom/tencent/mm/modelsns/a;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ar;->grS:Lcom/tencent/mm/modelsns/Aclz;
 
     .line 49
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ar;->arA:Lcom/tencent/mm/ui/MMActivity;
@@ -407,7 +407,7 @@
 
     const-string/jumbo v1, ""
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -428,7 +428,7 @@
 
     const-string/jumbo v1, ""
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -478,12 +478,12 @@
     move-result-object v0
 
     .line 55
-    new-instance v1, Lcom/tencent/mm/sdk/modelmsg/c$a;
+    new-instance v1, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;
 
-    invoke-direct {v1, v0}, Lcom/tencent/mm/sdk/modelmsg/c$a;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v1, v0}, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;-><init>(Landroid/os/Bundle;)V
 
     .line 56
-    iget-object v0, v1, Lcom/tencent/mm/sdk/modelmsg/c$a;->jeU:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
+    iget-object v0, v1, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;->jeU:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ar;->gth:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
 

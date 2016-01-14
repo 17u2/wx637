@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -69,7 +69,7 @@
 
     const-string/jumbo v3, "do not start record"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 59
     :goto_0
@@ -78,7 +78,7 @@
     :cond_0
     iget-wide v0, p0, Lcom/tencent/mm/plugin/sight/encode/a/i;->cBl:J
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->am(J)J
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->am(J)J
 
     move-result-wide v0
 

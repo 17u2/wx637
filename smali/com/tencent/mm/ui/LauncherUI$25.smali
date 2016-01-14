@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,16 +48,16 @@
 
     .prologue
     .line 3572
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->aOD()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->aOD()V
 
     .line 3573
     const/4 v0, 0x0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->oG(I)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->oG(I)V
 
     .line 3574
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$25;->jwy:Lcom/tencent/mm/ui/LauncherUI;
@@ -73,7 +73,7 @@
 
     const-string/jumbo v1, "start  setAppTagUnreadNow"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 3576
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$25;->jwy:Lcom/tencent/mm/ui/LauncherUI;
@@ -91,7 +91,7 @@
 
     const-string/jumbo v1, "klem pop out onAnimationEnd"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 3580
     return-void
@@ -110,23 +110,23 @@
 
     .prologue
     .line 3557
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->aOA()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->aOA()V
 
     .line 3558
     const/4 v0, -0x8
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->oG(I)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->oG(I)V
 
     .line 3559
     const-string/jumbo v0, "!32@/B4Tb64lLpKf6BwZaHy6XqYgvUDwrgQ2"
 
     const-string/jumbo v1, "klem pop out onAnimationStart"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 3561
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$25;->jwy:Lcom/tencent/mm/ui/LauncherUI;

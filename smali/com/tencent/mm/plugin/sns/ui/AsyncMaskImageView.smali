@@ -12,7 +12,7 @@
 
 .field private g:I
 
-.field gqv:Lcom/tencent/mm/sdk/platformtools/ab;
+.field gqv:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field gqw:Ljava/lang/Runnable;
 
@@ -49,11 +49,11 @@
     iput-boolean v0, p0, Lcom/tencent/mm/plugin/sns/ui/AsyncMaskImageView;->czy:Z
 
     .line 31
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/AsyncMaskImageView;->gqv:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/AsyncMaskImageView;->gqv:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     new-instance v0, Lcom/tencent/mm/plugin/sns/ui/AsyncMaskImageView$1;
 
@@ -72,7 +72,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -102,7 +102,7 @@
 
     const-string/jumbo v1, "onAttachedToWindow"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 103
     return-void
@@ -120,7 +120,7 @@
 
     const-string/jumbo v1, "onDetachedFromWindow"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 109
     return-void

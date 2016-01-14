@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/plugin/sns/d/r;->a(Lcom/tencent/mm/protocal/b/HYclz;Lcom/tencent/mm/sdk/platformtools/ab;)Z
+    value = Lcom/tencent/mm/plugin/sns/d/r;->a(Lcom/tencent/mm/protocal/b/HYclz;Lcom/tencent/mm/sdk/platformtools/ABclz;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,13 +20,13 @@
 # instance fields
 .field final synthetic gig:Lcom/tencent/mm/protocal/b/aod;
 
-.field final synthetic gih:Lcom/tencent/mm/sdk/platformtools/ab;
+.field final synthetic gih:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field final synthetic gii:Lcom/tencent/mm/plugin/sns/d/r;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/sns/d/r;Lcom/tencent/mm/protocal/b/aod;Lcom/tencent/mm/sdk/platformtools/ab;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/sns/d/r;Lcom/tencent/mm/protocal/b/aod;Lcom/tencent/mm/sdk/platformtools/ABclz;)V
     .locals 1
 
     .prologue
@@ -35,7 +35,7 @@
 
     iput-object p2, p0, Lcom/tencent/mm/plugin/sns/d/r$1;->gig:Lcom/tencent/mm/protocal/b/aod;
 
-    iput-object p3, p0, Lcom/tencent/mm/plugin/sns/d/r$1;->gih:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object p3, p0, Lcom/tencent/mm/plugin/sns/d/r$1;->gih:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -92,7 +92,7 @@
 
     const-string/jumbo v1, "mmcore has not set uin!!"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 311
     :goto_0
@@ -129,7 +129,7 @@
 
     check-cast v1, Ljava/lang/Integer;
 
-    invoke-static {v1, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Integer;I)I
+    invoke-static {v1, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Integer;I)I
 
     move-result v1
 
@@ -140,7 +140,7 @@
 
     if-ne v1, v2, :cond_1
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -221,9 +221,9 @@
 
     .line 310
     :cond_3
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/d/r$1;->gih:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/d/r$1;->gih:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessage(I)Z
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessage(I)Z
 
     goto :goto_0
 .end method

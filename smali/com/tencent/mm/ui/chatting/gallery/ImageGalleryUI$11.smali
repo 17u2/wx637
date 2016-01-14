@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,7 +52,7 @@
     .line 433
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$11;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v0
 
@@ -65,11 +65,11 @@
 
     .line 437
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/ui/chatting/gallery/g$a;->aZG()Lcom/tencent/mm/ui/chatting/gallery/g;
+    invoke-static {}, Lcom/tencent/mm/ui/chatting/gallery/Gclz$a;->aZG()Lcom/tencent/mm/ui/chatting/gallery/Gclz;
 
     move-result-object v0
 
-    iget-boolean v0, v0, Lcom/tencent/mm/ui/chatting/gallery/g;->kou:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Gclz;->kou:Z
 
     if-eqz v0, :cond_2
 
@@ -89,21 +89,21 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/tencent/mm/ui/chatting/gallery/g$a;->aZG()Lcom/tencent/mm/ui/chatting/gallery/g;
+    invoke-static {}, Lcom/tencent/mm/ui/chatting/gallery/Gclz$a;->aZG()Lcom/tencent/mm/ui/chatting/gallery/Gclz;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$11;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v2}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/ui/chatting/gallery/b;->aZx()Lcom/tencent/mm/storage/ADclz;
+    invoke-virtual {v2}, Lcom/tencent/mm/ui/chatting/gallery/Bclz;->aZx()Lcom/tencent/mm/storage/ADclz;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/chatting/gallery/g;->aq(Lcom/tencent/mm/storage/ADclz;)Z
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/chatting/gallery/Gclz;->aq(Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v1
 
@@ -152,15 +152,15 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$11;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/ui/chatting/gallery/b;->qy(I)Lcom/tencent/mm/storage/ADclz;
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/ui/chatting/gallery/Bclz;->qy(I)Lcom/tencent/mm/storage/ADclz;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/b;->ai(Lcom/tencent/mm/storage/ADclz;)Z
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/Bclz;->ai(Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v0
 
@@ -169,25 +169,25 @@
     .line 452
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$11;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/ui/chatting/gallery/b;->qB(I)V
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/ui/chatting/gallery/Bclz;->qB(I)V
 
     .line 455
     :cond_3
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$11;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/ui/chatting/gallery/b;->qy(I)Lcom/tencent/mm/storage/ADclz;
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/ui/chatting/gallery/Bclz;->qy(I)Lcom/tencent/mm/storage/ADclz;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/b;->aj(Lcom/tencent/mm/storage/ADclz;)Z
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/Bclz;->aj(Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v0
 
@@ -196,11 +196,11 @@
     .line 456
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$11;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/ui/chatting/gallery/b;->qF(I)V
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/ui/chatting/gallery/Bclz;->qF(I)V
 
     goto/16 :goto_0
 .end method

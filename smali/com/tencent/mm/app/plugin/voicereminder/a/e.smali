@@ -4,7 +4,7 @@
 
 
 # static fields
-.field private static final anO:Lcom/tencent/mm/a/e;
+.field private static final anO:Lcom/tencent/mm/a/Eclz;
 
 
 # instance fields
@@ -35,19 +35,19 @@
 
     .prologue
     .line 13
-    new-instance v0, Lcom/tencent/mm/a/e;
+    new-instance v0, Lcom/tencent/mm/a/Eclz;
 
     const/16 v1, 0x64
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/a/e;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/a/Eclz;-><init>(I)V
 
-    sput-object v0, Lcom/tencent/mm/app/plugin/voicereminder/a/e;->anO:Lcom/tencent/mm/a/e;
+    sput-object v0, Lcom/tencent/mm/app/plugin/voicereminder/a/e;->anO:Lcom/tencent/mm/a/Eclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -64,7 +64,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -77,7 +77,7 @@
     const/4 v1, 0x0
 
     .line 29
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -113,13 +113,13 @@
     move-result v3
 
     .line 39
-    sget-object v0, Lcom/tencent/mm/app/plugin/voicereminder/a/e;->anO:Lcom/tencent/mm/a/e;
+    sget-object v0, Lcom/tencent/mm/app/plugin/voicereminder/a/e;->anO:Lcom/tencent/mm/a/Eclz;
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/a/e;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/a/Eclz;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -131,7 +131,7 @@
     .line 44
     const-string/jumbo v0, "msg"
 
-    invoke-static {p0, v0, v1}, Lcom/tencent/mm/sdk/platformtools/r;->H(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map;
+    invoke-static {p0, v0, v1}, Lcom/tencent/mm/sdk/platformtools/Rclz;->H(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map;
 
     move-result-object v4
 
@@ -143,7 +143,7 @@
 
     const-string/jumbo v2, "parse msg failed"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, v1
 
@@ -168,7 +168,7 @@
 
     const/4 v5, 0x0
 
-    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v0
 
@@ -207,7 +207,7 @@
 
     const/4 v5, 0x0
 
-    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v0
 
@@ -224,7 +224,7 @@
 
     const/4 v5, 0x0
 
-    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v0
 
@@ -252,7 +252,7 @@
 
     const/4 v5, 0x0
 
-    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v0
 
@@ -269,7 +269,7 @@
 
     const/4 v5, 0x0
 
-    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v0
 
@@ -286,7 +286,7 @@
 
     const/4 v5, 0x0
 
-    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v0
 
@@ -303,20 +303,20 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v0
 
     iput v0, v2, Lcom/tencent/mm/app/plugin/voicereminder/a/e;->anV:I
 
     .line 63
-    sget-object v0, Lcom/tencent/mm/app/plugin/voicereminder/a/e;->anO:Lcom/tencent/mm/a/e;
+    sget-object v0, Lcom/tencent/mm/app/plugin/voicereminder/a/e;->anO:Lcom/tencent/mm/a/Eclz;
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
 
-    invoke-virtual {v0, v3, v2}, Lcom/tencent/mm/a/e;->d(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual {v0, v3, v2}, Lcom/tencent/mm/a/Eclz;->d(Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -333,7 +333,7 @@
 
     const-string/jumbo v2, "parse amessage xml failed"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, v1
 

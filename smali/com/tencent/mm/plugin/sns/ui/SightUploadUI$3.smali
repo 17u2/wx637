@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -54,9 +54,9 @@
     .line 118
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SightUploadUI$3;->gvs:Lcom/tencent/mm/plugin/sns/ui/SightUploadUI;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, v0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const/4 v1, 0x1
 
@@ -76,7 +76,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/plugin/sns/ui/SightUploadUI$3$1;-><init>(Lcom/tencent/mm/plugin/sns/ui/SightUploadUI$3;)V
 
-    invoke-static {v0, v5, v1, v5, v2}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/ui/base/f$c;)Landroid/app/Dialog;
+    invoke-static {v0, v5, v1, v5, v2}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/ui/base/Fclz$c;)Landroid/app/Dialog;
 
     .line 135
     return v4

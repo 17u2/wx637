@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,15 +48,15 @@
 
     .prologue
     .line 101
-    check-cast p1, Lcom/tencent/mm/modelsearch/k$g;
+    check-cast p1, Lcom/tencent/mm/modelsearch/Kclz$g;
 
-    check-cast p2, Lcom/tencent/mm/modelsearch/k$g;
+    check-cast p2, Lcom/tencent/mm/modelsearch/Kclz$g;
 
     iget-object v0, p0, Lcom/tencent/mm/modelsearch/FTSUtils$1;->bRn:Ljava/util/Map;
 
-    iget v1, p1, Lcom/tencent/mm/modelsearch/k$g;->type:I
+    iget v1, p1, Lcom/tencent/mm/modelsearch/Kclz$g;->type:I
 
-    iget v2, p2, Lcom/tencent/mm/modelsearch/k$g;->type:I
+    iget v2, p2, Lcom/tencent/mm/modelsearch/Kclz$g;->type:I
 
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/modelsearch/FTSUtils;->a(Ljava/util/Map;II)I
 

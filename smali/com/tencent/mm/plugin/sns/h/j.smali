@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/sns/h/j;
-.super Lcom/tencent/mm/sdk/g/f;
+.super Lcom/tencent/mm/sdk/g/Fclz;
 .source "SourceFile"
 
 # interfaces
@@ -11,7 +11,7 @@
 
 
 # instance fields
-.field public aoD:Lcom/tencent/mm/sdk/g/d;
+.field public aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
 .field private goP:Z
 
@@ -30,11 +30,11 @@
 
     const/4 v1, 0x0
 
-    sget-object v2, Lcom/tencent/mm/plugin/sns/h/i;->anZ:Lcom/tencent/mm/sdk/g/c$a;
+    sget-object v2, Lcom/tencent/mm/plugin/sns/h/i;->anZ:Lcom/tencent/mm/sdk/g/Cclz$a;
 
     const-string/jumbo v3, "snsExtInfo2"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/g/f;->a(Lcom/tencent/mm/sdk/g/c$a;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/g/Fclz;->a(Lcom/tencent/mm/sdk/g/Cclz$a;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -46,24 +46,24 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method public constructor <init>(Lcom/tencent/mm/sdk/g/d;Lcom/tencent/mm/plugin/sns/h/e;)V
+.method public constructor <init>(Lcom/tencent/mm/sdk/g/Dclz;Lcom/tencent/mm/plugin/sns/h/e;)V
     .locals 4
 
     .prologue
     const/4 v2, 0x0
 
     .line 51
-    sget-object v0, Lcom/tencent/mm/plugin/sns/h/i;->anZ:Lcom/tencent/mm/sdk/g/c$a;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/h/i;->anZ:Lcom/tencent/mm/sdk/g/Cclz$a;
 
     const-string/jumbo v1, "snsExtInfo2"
 
-    invoke-direct {p0, p1, v0, v1, v2}, Lcom/tencent/mm/sdk/g/f;-><init>(Lcom/tencent/mm/sdk/g/d;Lcom/tencent/mm/sdk/g/c$a;Ljava/lang/String;[Ljava/lang/String;)V
+    invoke-direct {p0, p1, v0, v1, v2}, Lcom/tencent/mm/sdk/g/Fclz;-><init>(Lcom/tencent/mm/sdk/g/Dclz;Lcom/tencent/mm/sdk/g/Cclz$a;Ljava/lang/String;[Ljava/lang/String;)V
 
     .line 32
     const/4 v0, 0x0
@@ -74,7 +74,7 @@
     iput-object v2, p0, Lcom/tencent/mm/plugin/sns/h/j;->goQ:Lcom/tencent/mm/plugin/sns/h/e;
 
     .line 52
-    iput-object p1, p0, Lcom/tencent/mm/plugin/sns/h/j;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iput-object p1, p0, Lcom/tencent/mm/plugin/sns/h/j;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     .line 53
     iput-object p2, p0, Lcom/tencent/mm/plugin/sns/h/j;->goQ:Lcom/tencent/mm/plugin/sns/h/e;
@@ -114,14 +114,14 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 58
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -188,7 +188,7 @@
 
     const-string/jumbo v1, "userinfo is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 303
     const/4 v0, 0x0
@@ -258,7 +258,7 @@
     return v0
 
     :cond_1
-    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/g/f;->b(Lcom/tencent/mm/sdk/g/c;)Z
+    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/g/Fclz;->b(Lcom/tencent/mm/sdk/g/Cclz;)Z
 
     move-result v0
 
@@ -284,7 +284,7 @@
     .line 195
     iget-object v2, p2, Lcom/tencent/mm/protocal/b/apf;->bEz:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -322,7 +322,7 @@
 
     const-string/jumbo v3, "bg change"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 203
     :cond_1
@@ -380,7 +380,7 @@
 
     const-string/jumbo v1, "attachCache"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 38
     const/4 v0, 0x1
@@ -410,7 +410,7 @@
 
     const-string/jumbo v1, "detchCache"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 46
     return-void
@@ -448,7 +448,7 @@
     .line 228
     iget-object v0, p2, Lcom/tencent/mm/protocal/b/apf;->bEz:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -479,14 +479,14 @@
 
     .prologue
     .line 61
-    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/g/f;->b(Lcom/tencent/mm/sdk/g/c;)Z
+    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/g/Fclz;->b(Lcom/tencent/mm/sdk/g/Cclz;)Z
 
     move-result v0
 
     return v0
 .end method
 
-.method public final synthetic b(Lcom/tencent/mm/sdk/g/c;)Z
+.method public final synthetic b(Lcom/tencent/mm/sdk/g/Cclz;)Z
     .locals 1
 
     .prologue
@@ -513,7 +513,7 @@
     iput-object p2, v0, Lcom/tencent/mm/plugin/sns/h/i;->field_md5:Ljava/lang/String;
 
     .line 84
-    invoke-super {p0, v0}, Lcom/tencent/mm/sdk/g/f;->b(Lcom/tencent/mm/sdk/g/c;)Z
+    invoke-super {p0, v0}, Lcom/tencent/mm/sdk/g/Fclz;->b(Lcom/tencent/mm/sdk/g/Cclz;)Z
 
     .line 85
     const/4 v0, 0x0
@@ -534,7 +534,7 @@
     iput-object p2, v0, Lcom/tencent/mm/plugin/sns/h/i;->field_newerIds:Ljava/lang/String;
 
     .line 105
-    invoke-super {p0, v0}, Lcom/tencent/mm/sdk/g/f;->b(Lcom/tencent/mm/sdk/g/c;)Z
+    invoke-super {p0, v0}, Lcom/tencent/mm/sdk/g/Fclz;->b(Lcom/tencent/mm/sdk/g/Cclz;)Z
 
     move-result v0
 
@@ -571,7 +571,7 @@
     return v0
 
     :cond_1
-    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/g/f;->b(Lcom/tencent/mm/sdk/g/c;)Z
+    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/g/Fclz;->b(Lcom/tencent/mm/sdk/g/Cclz;)Z
 
     move-result v0
 
@@ -594,7 +594,7 @@
     iput-object p3, v0, Lcom/tencent/mm/plugin/sns/h/i;->field_adsession:[B
 
     .line 92
-    invoke-super {p0, v0}, Lcom/tencent/mm/sdk/g/f;->b(Lcom/tencent/mm/sdk/g/c;)Z
+    invoke-super {p0, v0}, Lcom/tencent/mm/sdk/g/Fclz;->b(Lcom/tencent/mm/sdk/g/Cclz;)Z
 
     .line 93
     const/4 v0, 0x0
@@ -637,7 +637,7 @@
     :try_start_0
     iget-object v2, v0, Lcom/tencent/mm/plugin/sns/h/i;->field_faultS:[B
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->I([B)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->I([B)Z
 
     move-result v2
 
@@ -650,7 +650,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/h/i;->field_faultS:[B
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/protocal/b/NRclz;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/protocal/b/NRclz;->ak([B)Lcom/tencent/mm/aq/Aclz;
 
     move-result-object v0
 
@@ -679,7 +679,7 @@
 
     const-string/jumbo v2, "parser field_faultS error"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     move-object v0, v1
@@ -767,13 +767,13 @@
 
     const/4 v2, 0x0
 
-    iget-object v3, p0, Lcom/tencent/mm/sdk/g/f;->jjj:Lcom/tencent/mm/sdk/g/c$a;
+    iget-object v3, p0, Lcom/tencent/mm/sdk/g/Fclz;->jjj:Lcom/tencent/mm/sdk/g/Cclz$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/sdk/g/c$a;->jjg:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/sdk/g/Cclz$a;->jjg:Ljava/lang/String;
 
     aput-object v3, v1, v2
 
-    invoke-super {p0, v0, v1}, Lcom/tencent/mm/sdk/g/f;->c(Lcom/tencent/mm/sdk/g/c;[Ljava/lang/String;)Z
+    invoke-super {p0, v0, v1}, Lcom/tencent/mm/sdk/g/Fclz;->c(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
 
     goto :goto_0
 .end method

@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -54,68 +54,68 @@
     .line 177
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/WebViewCacheDownloadHelper$3;->hAr:Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/i;
 
-    new-instance v1, Lcom/tencent/mm/d/a/lz;
+    new-instance v1, Lcom/tencent/mm/d/a/LZclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/d/a/lz;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/d/a/LZclz;-><init>()V
 
-    iget-object v2, v1, Lcom/tencent/mm/d/a/lz;->aHf:Lcom/tencent/mm/d/a/lz$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/LZclz;->aHf:Lcom/tencent/mm/d/a/LZclz$a;
 
     iget-object v3, v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/i;->url:Ljava/lang/String;
 
-    iput-object v3, v2, Lcom/tencent/mm/d/a/lz$a;->url:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/d/a/LZclz$a;->url:Ljava/lang/String;
 
-    iget-object v2, v1, Lcom/tencent/mm/d/a/lz;->aHf:Lcom/tencent/mm/d/a/lz$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/LZclz;->aHf:Lcom/tencent/mm/d/a/LZclz$a;
 
     iget-object v3, v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/i;->filePath:Ljava/lang/String;
 
-    iput-object v3, v2, Lcom/tencent/mm/d/a/lz$a;->filePath:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/d/a/LZclz$a;->filePath:Ljava/lang/String;
 
-    iget-object v2, v1, Lcom/tencent/mm/d/a/lz;->aHf:Lcom/tencent/mm/d/a/lz$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/LZclz;->aHf:Lcom/tencent/mm/d/a/LZclz$a;
 
     iget-object v3, v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/i;->version:Ljava/lang/String;
 
-    iput-object v3, v2, Lcom/tencent/mm/d/a/lz$a;->version:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/d/a/LZclz$a;->version:Ljava/lang/String;
 
-    iget-object v2, v1, Lcom/tencent/mm/d/a/lz;->aHf:Lcom/tencent/mm/d/a/lz$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/LZclz;->aHf:Lcom/tencent/mm/d/a/LZclz$a;
 
     iget-object v3, v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/i;->appId:Ljava/lang/String;
 
-    iput-object v3, v2, Lcom/tencent/mm/d/a/lz$a;->appId:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/d/a/LZclz$a;->appId:Ljava/lang/String;
 
-    iget-object v2, v1, Lcom/tencent/mm/d/a/lz;->aHf:Lcom/tencent/mm/d/a/lz$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/LZclz;->aHf:Lcom/tencent/mm/d/a/LZclz$a;
 
     iget-object v3, v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/i;->aHg:Ljava/lang/String;
 
-    iput-object v3, v2, Lcom/tencent/mm/d/a/lz$a;->aHg:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/d/a/LZclz$a;->aHg:Ljava/lang/String;
 
-    iget-object v2, v1, Lcom/tencent/mm/d/a/lz;->aHf:Lcom/tencent/mm/d/a/lz$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/LZclz;->aHf:Lcom/tencent/mm/d/a/LZclz$a;
 
     iget-object v3, v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/i;->aHh:Ljava/lang/String;
 
-    iput-object v3, v2, Lcom/tencent/mm/d/a/lz$a;->aHh:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/d/a/LZclz$a;->aHh:Ljava/lang/String;
 
-    iget-object v2, v1, Lcom/tencent/mm/d/a/lz;->aHf:Lcom/tencent/mm/d/a/lz$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/LZclz;->aHf:Lcom/tencent/mm/d/a/LZclz$a;
 
     iget v3, v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/i;->aHi:I
 
-    iput v3, v2, Lcom/tencent/mm/d/a/lz$a;->aHi:I
+    iput v3, v2, Lcom/tencent/mm/d/a/LZclz$a;->aHi:I
 
-    iget-object v2, v1, Lcom/tencent/mm/d/a/lz;->aHf:Lcom/tencent/mm/d/a/lz$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/LZclz;->aHf:Lcom/tencent/mm/d/a/LZclz$a;
 
     iget-object v3, v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/i;->aHj:Ljava/lang/String;
 
-    iput-object v3, v2, Lcom/tencent/mm/d/a/lz$a;->aHj:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/d/a/LZclz$a;->aHj:Ljava/lang/String;
 
-    iget-object v2, v1, Lcom/tencent/mm/d/a/lz;->aHf:Lcom/tencent/mm/d/a/lz$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/LZclz;->aHf:Lcom/tencent/mm/d/a/LZclz$a;
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/i;->aHk:Ljava/lang/Exception;
 
-    iput-object v0, v2, Lcom/tencent/mm/d/a/lz$a;->aHk:Ljava/lang/Exception;
+    iput-object v0, v2, Lcom/tencent/mm/d/a/LZclz$a;->aHk:Ljava/lang/Exception;
 
     .line 178
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 179
     return-void

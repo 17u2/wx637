@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/storage/Dclz$a;
-.super Lcom/tencent/mm/d/b/c;
+.super Lcom/tencent/mm/d/b/Cclz;
 .source "SourceFile"
 
 
@@ -20,13 +20,13 @@
 
     .prologue
     .line 16
-    invoke-direct {p0}, Lcom/tencent/mm/d/b/c;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/d/b/Cclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -34,12 +34,12 @@
 
 
 # virtual methods
-.method protected final lA()Lcom/tencent/mm/sdk/g/c$a;
+.method protected final lA()Lcom/tencent/mm/sdk/g/Cclz$a;
     .locals 1
 
     .prologue
     .line 20
-    invoke-static {}, Lcom/tencent/mm/d/b/c;->me()Lcom/tencent/mm/sdk/g/c$a;
+    invoke-static {}, Lcom/tencent/mm/d/b/Cclz;->me()Lcom/tencent/mm/sdk/g/Cclz$a;
 
     move-result-object v0
 

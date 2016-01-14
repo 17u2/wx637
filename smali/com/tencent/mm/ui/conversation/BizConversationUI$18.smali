@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -58,11 +58,11 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$18;->kvP:Lcom/tencent/mm/ui/conversation/BizConversationUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/conversation/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/conversation/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p3}, Lcom/tencent/mm/ui/conversation/c;->getItem(I)Ljava/lang/Object;
+    invoke-virtual {v0, p3}, Lcom/tencent/mm/ui/conversation/Cclz;->getItem(I)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -79,7 +79,7 @@
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-static {v0, v1}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->a(Lcom/tencent/mm/ui/conversation/BizConversationUI;Ljava/lang/String;)Ljava/lang/String;
 
@@ -110,11 +110,11 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$18;->kvP:Lcom/tencent/mm/ui/conversation/BizConversationUI;
 
-    invoke-static {v3}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/conversation/c;
+    invoke-static {v3}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/conversation/Cclz;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/tencent/mm/ui/conversation/c;->getCount()I
+    invoke-virtual {v3}, Lcom/tencent/mm/ui/conversation/Cclz;->getCount()I
 
     move-result v3
 
@@ -124,16 +124,16 @@
 
     aput-object v3, v2, v5
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 281
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$18;->kvP:Lcom/tencent/mm/ui/conversation/BizConversationUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/conversation/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/conversation/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/conversation/c;->notifyDataSetChanged()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/conversation/Cclz;->notifyDataSetChanged()V
 
     .line 309
     :goto_0
@@ -141,7 +141,7 @@
 
     .line 284
     :cond_0
-    iget-object v0, v1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v0, v1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/s/Mclz;->gK(Ljava/lang/String;)Z
 
@@ -155,9 +155,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$18;->kvP:Lcom/tencent/mm/ui/conversation/BizConversationUI;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v2, v2, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v2, v2, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const-class v3, Lcom/tencent/mm/ui/conversation/BizChatConversationUI;
 
@@ -166,7 +166,7 @@
     .line 288
     const-string/jumbo v2, "Contact_User"
 
-    iget-object v1, v1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -182,7 +182,7 @@
 
     .line 291
     :cond_1
-    iget-object v0, v1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v0, v1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/s/Mclz;->gL(Ljava/lang/String;)Z
 
@@ -191,7 +191,7 @@
     if-eqz v0, :cond_4
 
     .line 292
-    iget-object v0, v1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v0, v1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/s/Mclz;->gG(Ljava/lang/String;)Lcom/tencent/mm/s/Kclz;
 
@@ -227,7 +227,7 @@
     .line 298
     const-string/jumbo v0, "srcUsername"
 
-    iget-object v1, v1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v2, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -244,15 +244,15 @@
     .line 301
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$18;->kvP:Lcom/tencent/mm/ui/conversation/BizConversationUI;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, v0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const-string/jumbo v1, "webview"
 
     const-string/jumbo v3, ".ui.tools.WebViewUI"
 
-    invoke-static {v0, v1, v3, v2, v6}, Lcom/tencent/mm/ao/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;I)V
+    invoke-static {v0, v1, v3, v2, v6}, Lcom/tencent/mm/ao/Cclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;I)V
 
     goto :goto_0
 
@@ -285,7 +285,7 @@
     .line 306
     const-string/jumbo v2, "Chat_User"
 
-    iget-object v1, v1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 

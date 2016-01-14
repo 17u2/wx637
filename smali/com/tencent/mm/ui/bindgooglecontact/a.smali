@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/ui/bindgooglecontact/a;
-.super Lcom/tencent/mm/ui/i;
+.super Lcom/tencent/mm/ui/Iclz;
 .source "SourceFile"
 
 
@@ -30,11 +30,11 @@
 
     .prologue
     .line 40
-    new-instance v0, Lcom/tencent/mm/modelfriend/o;
+    new-instance v0, Lcom/tencent/mm/modelfriend/Oclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/modelfriend/o;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/modelfriend/Oclz;-><init>()V
 
-    invoke-direct {p0, p1, v0}, Lcom/tencent/mm/ui/i;-><init>(Landroid/content/Context;Ljava/lang/Object;)V
+    invoke-direct {p0, p1, v0}, Lcom/tencent/mm/ui/Iclz;-><init>(Landroid/content/Context;Ljava/lang/Object;)V
 
     .line 41
     iput-object p2, p0, Lcom/tencent/mm/ui/bindgooglecontact/a;->jVy:Ljava/lang/String;
@@ -56,7 +56,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -79,7 +79,7 @@
 
     .prologue
     .line 54
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zi()Lcom/tencent/mm/modelfriend/p;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zi()Lcom/tencent/mm/modelfriend/Pclz;
 
     move-result-object v0
 
@@ -220,7 +220,7 @@
 
     invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v0, v0, Lcom/tencent/mm/modelfriend/p;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v0, v0, Lcom/tencent/mm/modelfriend/Pclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -242,14 +242,14 @@
 
     const/4 v2, 0x0
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/sdk/g/d;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/sdk/g/Dclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/tencent/mm/ui/bindgooglecontact/a;->setCursor(Landroid/database/Cursor;)V
 
     .line 55
-    invoke-super {p0}, Lcom/tencent/mm/ui/i;->notifyDataSetChanged()V
+    invoke-super {p0}, Lcom/tencent/mm/ui/Iclz;->notifyDataSetChanged()V
 
     .line 57
     return-void
@@ -297,16 +297,16 @@
 
     .prologue
     .line 24
-    check-cast p1, Lcom/tencent/mm/modelfriend/o;
+    check-cast p1, Lcom/tencent/mm/modelfriend/Oclz;
 
     if-nez p1, :cond_0
 
-    new-instance p1, Lcom/tencent/mm/modelfriend/o;
+    new-instance p1, Lcom/tencent/mm/modelfriend/Oclz;
 
-    invoke-direct {p1}, Lcom/tencent/mm/modelfriend/o;-><init>()V
+    invoke-direct {p1}, Lcom/tencent/mm/modelfriend/Oclz;-><init>()V
 
     :cond_0
-    invoke-virtual {p1, p2}, Lcom/tencent/mm/modelfriend/o;->c(Landroid/database/Cursor;)V
+    invoke-virtual {p1, p2}, Lcom/tencent/mm/modelfriend/Oclz;->c(Landroid/database/Cursor;)V
 
     return-object p1
 .end method
@@ -360,7 +360,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelfriend/o;
+    check-cast v0, Lcom/tencent/mm/modelfriend/Oclz;
 
     .line 93
     if-nez v0, :cond_2
@@ -386,18 +386,18 @@
     iput p1, v1, Lcom/tencent/mm/ui/bindgooglecontact/a$b;->position:I
 
     .line 97
-    iget-object v2, v0, Lcom/tencent/mm/modelfriend/o;->field_googlegmail:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googlegmail:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/tencent/mm/ui/bindgooglecontact/a$b;->fbl:Ljava/lang/String;
 
     .line 99
-    iget v2, v0, Lcom/tencent/mm/modelfriend/o;->field_status:I
+    iget v2, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_status:I
 
     packed-switch v2, :pswitch_data_0
 
     .line 124
     :goto_2
-    iget-object v2, v0, Lcom/tencent/mm/modelfriend/o;->field_googlename:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googlename:Ljava/lang/String;
 
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -408,9 +408,9 @@
     .line 125
     iget-object v2, v1, Lcom/tencent/mm/ui/bindgooglecontact/a$b;->cih:Landroid/widget/TextView;
 
-    iget-object v4, v0, Lcom/tencent/mm/modelfriend/o;->field_googlegmail:Ljava/lang/String;
+    iget-object v4, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googlegmail:Ljava/lang/String;
 
-    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/bc;->Bq(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bq(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -418,13 +418,13 @@
 
     .line 130
     :goto_3
-    iget v2, v0, Lcom/tencent/mm/modelfriend/o;->field_status:I
+    iget v2, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_status:I
 
     packed-switch v2, :pswitch_data_1
 
     .line 151
     :goto_4
-    iget v2, v0, Lcom/tencent/mm/modelfriend/o;->field_googlecgistatus:I
+    iget v2, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googlecgistatus:I
 
     packed-switch v2, :pswitch_data_2
 
@@ -432,7 +432,7 @@
     :goto_5
     iget-object v1, v1, Lcom/tencent/mm/ui/bindgooglecontact/a$b;->jVT:Landroid/widget/TextView;
 
-    iget-object v0, v0, Lcom/tencent/mm/modelfriend/o;->field_googlegmail:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googlegmail:Ljava/lang/String;
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -440,16 +440,16 @@
 
     .line 103
     :pswitch_0
-    iget-object v2, v0, Lcom/tencent/mm/modelfriend/o;->field_small_url:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_small_url:Ljava/lang/String;
 
     if-eqz v2, :cond_6
 
     .line 104
-    iget-object v2, v0, Lcom/tencent/mm/modelfriend/o;->field_username:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_username:Ljava/lang/String;
 
     const/4 v4, -0x1
 
-    invoke-static {v2, v6, v4}, Lcom/tencent/mm/p/b;->a(Ljava/lang/String;ZI)Landroid/graphics/Bitmap;
+    invoke-static {v2, v6, v4}, Lcom/tencent/mm/p/Bclz;->a(Ljava/lang/String;ZI)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
@@ -464,7 +464,7 @@
 
     const v5, 0x7f070089
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/at/a;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v4, v5}, Lcom/tencent/mm/at/Aclz;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v4
 
@@ -482,9 +482,9 @@
 
     .line 114
     :pswitch_1
-    iget-object v2, v0, Lcom/tencent/mm/modelfriend/o;->field_googleid:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googleid:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/p/b;->fx(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {v2}, Lcom/tencent/mm/p/Bclz;->fx(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
@@ -498,7 +498,7 @@
 
     const v5, 0x7f070089
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/at/a;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v4, v5}, Lcom/tencent/mm/at/Aclz;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v4
 
@@ -518,7 +518,7 @@
     :cond_5
     iget-object v2, v1, Lcom/tencent/mm/ui/bindgooglecontact/a$b;->cih:Landroid/widget/TextView;
 
-    iget-object v4, v0, Lcom/tencent/mm/modelfriend/o;->field_googlename:Ljava/lang/String;
+    iget-object v4, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googlename:Ljava/lang/String;
 
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -687,7 +687,7 @@
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
     .line 162
-    iget v2, v0, Lcom/tencent/mm/modelfriend/o;->field_status:I
+    iget v2, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_status:I
 
     packed-switch v2, :pswitch_data_3
 
@@ -725,7 +725,7 @@
     invoke-virtual {v2, v9}, Landroid/widget/ProgressBar;->setVisibility(I)V
 
     .line 174
-    iget v2, v0, Lcom/tencent/mm/modelfriend/o;->field_status:I
+    iget v2, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_status:I
 
     packed-switch v2, :pswitch_data_4
 
@@ -834,7 +834,7 @@
 
     .prologue
     .line 77
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jW(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jW(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

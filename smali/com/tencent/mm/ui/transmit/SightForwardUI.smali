@@ -21,7 +21,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -111,7 +111,7 @@
 
     aput-object v3, v2, v7
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 48
     invoke-virtual {p0}, Lcom/tencent/mm/ui/transmit/SightForwardUI;->finish()V
@@ -133,7 +133,7 @@
 
     const-string/jumbo v1, "acc not ready"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 54
     invoke-virtual {p0}, Lcom/tencent/mm/ui/transmit/SightForwardUI;->finish()V
@@ -150,21 +150,21 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/n;->bk(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/ak/Nclz;->bk(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 58
-    invoke-static {}, Lcom/tencent/mm/ak/j;->Di()Lcom/tencent/mm/ak/n;
+    invoke-static {}, Lcom/tencent/mm/ak/Jclz;->Di()Lcom/tencent/mm/ak/Nclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/n;->jk(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/ak/Nclz;->jk(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 59
     iget-object v1, p0, Lcom/tencent/mm/ui/transmit/SightForwardUI;->dgC:Ljava/lang/String;
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/a/d;->m(Ljava/lang/String;Ljava/lang/String;)J
+    invoke-static {v1, v0}, Lcom/tencent/mm/a/Dclz;->m(Ljava/lang/String;Ljava/lang/String;)J
 
     move-result-wide v1
 
@@ -189,7 +189,7 @@
 
     aput-object v0, v3, v8
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 61
     invoke-virtual {p0}, Lcom/tencent/mm/ui/transmit/SightForwardUI;->finish()V
@@ -211,7 +211,7 @@
 
     aput-object v3, v2, v7
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 67
     const v0, 0x7f0e0996
@@ -242,7 +242,7 @@
 
     iput-object v0, v1, Lcom/tencent/mm/plugin/sight/encode/ui/MainSightForwardContainerView;->gbp:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/a/f;->aA(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/a/Fclz;->aA(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -376,7 +376,7 @@
 
     aput-object v2, v4, v7
 
-    invoke-static {v0, v1, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 105
     iget-object v0, p0, Lcom/tencent/mm/ui/transmit/SightForwardUI;->kIJ:Lcom/tencent/mm/plugin/sight/encode/ui/MainSightForwardContainerView;
@@ -507,21 +507,21 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v2, "SightSendResult"
 
-    iget-object v3, v1, Lcom/tencent/mm/plugin/sight/encode/ui/MainSightForwardContainerView;->gbd:Lcom/tencent/mm/sdk/c/c;
+    iget-object v3, v1, Lcom/tencent/mm/plugin/sight/encode/ui/MainSightForwardContainerView;->gbd:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/sdk/c/Aclz;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v2, "SightSendResult"
 
-    iget-object v1, v1, Lcom/tencent/mm/plugin/sight/encode/ui/MainSightForwardContainerView;->gbd:Lcom/tencent/mm/sdk/c/c;
+    iget-object v1, v1, Lcom/tencent/mm/plugin/sight/encode/ui/MainSightForwardContainerView;->gbd:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 118
     :goto_1

@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,9 +56,9 @@
 
     .prologue
     .line 726
-    new-instance v2, Lcom/tencent/mm/compatible/util/f$a;
+    new-instance v2, Lcom/tencent/mm/compatible/util/Fclz$a;
 
-    invoke-direct {v2}, Lcom/tencent/mm/compatible/util/f$a;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/compatible/util/Fclz$a;-><init>()V
 
     .line 727
     const-wide/16 v0, -0x1
@@ -88,7 +88,7 @@
     invoke-interface {v0, v1, v3, v4}, Lcom/tencent/mm/q/Bclz;->a(Lcom/tencent/mm/protocal/b/FZclz;Lcom/tencent/mm/protocal/b/FZclz;Lcom/tencent/mm/protocal/b/FZclz;)V
 
     .line 730
-    invoke-virtual {v2}, Lcom/tencent/mm/compatible/util/f$a;->pc()J
+    invoke-virtual {v2}, Lcom/tencent/mm/compatible/util/Fclz$a;->pc()J
 
     move-result-wide v0
 
@@ -104,7 +104,7 @@
 
     const/4 v6, 0x0
 
-    invoke-virtual {v2}, Lcom/tencent/mm/compatible/util/f$a;->pc()J
+    invoke-virtual {v2}, Lcom/tencent/mm/compatible/util/Fclz$a;->pc()J
 
     move-result-wide v7
 
@@ -122,7 +122,7 @@
 
     aput-object v0, v5, v2
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 733
     return-void

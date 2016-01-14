@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/ui/base/m$d;
+.implements Lcom/tencent/mm/ui/base/Mclz$d;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -64,11 +64,11 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/bindqq/BindQQUI$7;->jYp:Lcom/tencent/mm/ui/bindqq/BindQQUI;
 
-    new-instance v1, Lcom/tencent/mm/modelsimple/h;
+    new-instance v1, Lcom/tencent/mm/modelsimple/Hclz;
 
-    sget v2, Lcom/tencent/mm/modelsimple/h;->bSA:I
+    sget v2, Lcom/tencent/mm/modelsimple/Hclz;->bSA:I
 
-    invoke-direct {v1, v2}, Lcom/tencent/mm/modelsimple/h;-><init>(I)V
+    invoke-direct {v1, v2}, Lcom/tencent/mm/modelsimple/Hclz;-><init>(I)V
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
@@ -92,11 +92,11 @@
 
     invoke-direct {v3, v0}, Lcom/tencent/mm/ui/bindqq/BindQQUI$2;-><init>(Lcom/tencent/mm/ui/bindqq/BindQQUI;)V
 
-    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/ui/bindqq/BindQQUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iput-object v1, v0, Lcom/tencent/mm/ui/bindqq/BindQQUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     goto :goto_0
 

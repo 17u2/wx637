@@ -29,7 +29,7 @@
 
 .field mCheckedForLoaderManager:Z
 
-.field final mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field final mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field mLoaderManager:Landroid/support/v4/app/j;
 
@@ -53,7 +53,7 @@
 
     invoke-direct {v0, p0}, Landroid/support/v4/app/FragmentActivity$1;-><init>(Landroid/support/v4/app/FragmentActivity;)V
 
-    iput-object v0, p0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 107
     new-instance v0, Landroid/support/v4/app/e;
@@ -74,7 +74,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -984,9 +984,9 @@
     iput-boolean p1, p0, Landroid/support/v4/app/FragmentActivity;->mRetaining:Z
 
     .line 775
-    iget-object v0, p0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->removeMessages(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeMessages(I)V
 
     .line 776
     iget-boolean v0, p0, Landroid/support/v4/app/FragmentActivity;->mLoadersStarted:Z
@@ -1781,7 +1781,7 @@
 
     move-result-object v0
 
-    invoke-static {p2, v0}, Lcom/tencent/mm/compatible/h/a;->a(Landroid/view/MenuItem;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/tencent/mm/compatible/h/Aclz;->a(Landroid/view/MenuItem;Ljava/lang/String;)V
 
     .line 371
     :cond_0
@@ -1899,18 +1899,18 @@
     iput-boolean v0, p0, Landroid/support/v4/app/FragmentActivity;->mResumed:Z
 
     .line 407
-    iget-object v0, p0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->hasMessages(I)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->hasMessages(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 408
-    iget-object v0, p0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->removeMessages(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeMessages(I)V
 
     .line 409
     iget-object v0, p0, Landroid/support/v4/app/FragmentActivity;->aX:Landroid/support/v4/app/e;
@@ -1937,11 +1937,11 @@
     invoke-super {p0}, Landroid/app/Activity;->onPostResume()V
 
     .line 453
-    iget-object v0, p0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     const/4 v1, 0x2
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->removeMessages(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeMessages(I)V
 
     .line 454
     iget-object v0, p0, Landroid/support/v4/app/FragmentActivity;->aX:Landroid/support/v4/app/e;
@@ -2017,11 +2017,11 @@
     invoke-super {p0}, Landroid/app/Activity;->onResume()V
 
     .line 442
-    iget-object v0, p0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     const/4 v1, 0x2
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessage(I)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessage(I)Z
 
     .line 443
     const/4 v0, 0x1
@@ -2287,9 +2287,9 @@
     iput-boolean v2, p0, Landroid/support/v4/app/FragmentActivity;->bb:Z
 
     .line 553
-    iget-object v0, p0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->removeMessages(I)V
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeMessages(I)V
 
     .line 555
     iget-boolean v0, p0, Landroid/support/v4/app/FragmentActivity;->aZ:Z
@@ -2540,9 +2540,9 @@
     iput-boolean v1, p0, Landroid/support/v4/app/FragmentActivity;->ba:Z
 
     .line 600
-    iget-object v0, p0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessage(I)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessage(I)Z
 
     .line 602
     iget-object v0, p0, Landroid/support/v4/app/FragmentActivity;->aX:Landroid/support/v4/app/e;

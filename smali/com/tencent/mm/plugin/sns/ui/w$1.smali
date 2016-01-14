@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -60,7 +60,7 @@
 
     const-string/jumbo v1, "player callback error"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 97
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/w$1;->gtK:Lcom/tencent/mm/plugin/sns/ui/w;
@@ -80,7 +80,7 @@
 
     const-string/jumbo v1, "player callback finish"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 91
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/w$1;->gtK:Lcom/tencent/mm/plugin/sns/ui/w;
@@ -104,7 +104,7 @@
 
     const-string/jumbo v1, "player callback pause"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 81
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/w$1;->gtK:Lcom/tencent/mm/plugin/sns/ui/w;
@@ -128,7 +128,7 @@
 
     const-string/jumbo v1, "player callback resume"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 75
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/w$1;->gtK:Lcom/tencent/mm/plugin/sns/ui/w;
@@ -169,7 +169,7 @@
 
     const-string/jumbo v1, "player callback stop"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 103
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/w$1;->gtK:Lcom/tencent/mm/plugin/sns/ui/w;

@@ -36,7 +36,7 @@
 
 .field private cbu:Lcom/tencent/mm/network/Uclz;
 
-.field private handler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -53,7 +53,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -71,7 +71,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -105,7 +105,7 @@
 
     .prologue
     .line 47
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -138,7 +138,7 @@
     move-result-object v0
 
     .line 52
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -156,7 +156,7 @@
     move-result-object v0
 
     .line 54
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -196,7 +196,7 @@
     move-result-object v0
 
     .line 60
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -248,7 +248,7 @@
 
     if-eqz v4, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v4
 
@@ -270,7 +270,7 @@
 
     aput-object v3, v4, v7
 
-    invoke-static {v1, v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 70
     invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
@@ -279,7 +279,7 @@
 
     const-string/jumbo v2, "wakeup_alarm_last_tick"
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v3
 
@@ -308,7 +308,7 @@
 
     .line 75
     :cond_1
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/bc;->al(J)J
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->al(J)J
 
     move-result-wide v1
 
@@ -338,7 +338,7 @@
 
     const-string/jumbo v2, "wakeup_alarm_last_tick"
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v4
 
@@ -374,7 +374,7 @@
 
     aput-object v3, v2, v7
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 86
     :cond_2
@@ -414,7 +414,7 @@
 
     aput-object v3, v2, v7
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_1
 .end method
@@ -430,7 +430,7 @@
     const/4 v1, 0x0
 
     .line 90
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -499,7 +499,7 @@
 
     aput-object v7, v6, v0
 
-    invoke-static {v2, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 94
     if-le v3, v8, :cond_0
@@ -553,7 +553,7 @@
     return-object v0
 .end method
 
-.method public static El()Lcom/tencent/mm/sdk/platformtools/ab;
+.method public static El()Lcom/tencent/mm/sdk/platformtools/ABclz;
     .locals 1
 
     .prologue
@@ -562,7 +562,7 @@
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/network/Zclz;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, v0, Lcom/tencent/mm/network/Zclz;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     return-object v0
 .end method
@@ -639,7 +639,7 @@
     .line 172
     const-string/jumbo v0, "MMPushCore_handlerThread"
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/h/e;->BC(Ljava/lang/String;)Landroid/os/HandlerThread;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/h/Eclz;->BC(Ljava/lang/String;)Landroid/os/HandlerThread;
 
     move-result-object v0
 
@@ -772,7 +772,7 @@
     return-void
 .end method
 
-.method public static a(Lcom/tencent/mm/sdk/platformtools/ab;)V
+.method public static a(Lcom/tencent/mm/sdk/platformtools/ABclz;)V
     .locals 1
 
     .prologue
@@ -781,7 +781,7 @@
 
     move-result-object v0
 
-    iput-object p0, v0, Lcom/tencent/mm/network/Zclz;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object p0, v0, Lcom/tencent/mm/network/Zclz;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 131
     return-void

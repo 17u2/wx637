@@ -42,7 +42,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -68,7 +68,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -95,11 +95,11 @@
     const/4 v4, 0x1
 
     .line 37
-    new-instance v1, Lcom/tencent/mm/ui/base/j;
+    new-instance v1, Lcom/tencent/mm/ui/base/Jclz;
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView;->mContext:Landroid/content/Context;
 
-    invoke-direct {v1, v0}, Lcom/tencent/mm/ui/base/j;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, v0}, Lcom/tencent/mm/ui/base/Jclz;-><init>(Landroid/content/Context;)V
 
     iget-boolean v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView;->hSa:Z
 
@@ -124,23 +124,23 @@
 
     iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView;->mContext:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->h([Ljava/lang/String;)Ljava/util/List;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->h([Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
     invoke-direct {v2, v3, v0}, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView$a;-><init>(Landroid/content/Context;Ljava/util/List;)V
 
-    iput-object v2, v1, Lcom/tencent/mm/ui/base/j;->cJA:Landroid/widget/BaseAdapter;
+    iput-object v2, v1, Lcom/tencent/mm/ui/base/Jclz;->cJA:Landroid/widget/BaseAdapter;
 
     new-instance v0, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView$2;
 
-    invoke-direct {v0, p0, v1, p1}, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView$2;-><init>(Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView;Lcom/tencent/mm/ui/base/j;Ljava/lang/String;)V
+    invoke-direct {v0, p0, v1, p1}, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView$2;-><init>(Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView;Lcom/tencent/mm/ui/base/Jclz;Ljava/lang/String;)V
 
-    iput-object v0, v1, Lcom/tencent/mm/ui/base/j;->ieH:Landroid/widget/AdapterView$OnItemClickListener;
+    iput-object v0, v1, Lcom/tencent/mm/ui/base/Jclz;->ieH:Landroid/widget/AdapterView$OnItemClickListener;
 
-    invoke-virtual {v1, v4}, Lcom/tencent/mm/ui/base/j;->setCancelable(Z)V
+    invoke-virtual {v1, v4}, Lcom/tencent/mm/ui/base/Jclz;->setCancelable(Z)V
 
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/base/j;->show()V
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/base/Jclz;->show()V
 
     return-void
 
@@ -222,7 +222,7 @@
 
     const v4, 0x7f0c0078
 
-    invoke-static {v1, v4}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {v1, v4}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v1
 
@@ -248,7 +248,7 @@
     :cond_2
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView;->hRQ:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -256,7 +256,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView;->hRQ:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->Bp(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bp(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v0
 
@@ -295,7 +295,7 @@
     :goto_1
     iget-object v4, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView;->hRR:Ljava/lang/String;
 
-    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -367,7 +367,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView;->hRQ:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->Bp(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bp(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v0
 
@@ -422,7 +422,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView;->hRR:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 

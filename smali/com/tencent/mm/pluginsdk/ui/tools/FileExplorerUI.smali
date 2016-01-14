@@ -55,7 +55,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -286,7 +286,7 @@
     move-result-object v3
 
     .line 500
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -352,7 +352,7 @@
 
     .line 508
     :cond_3
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -419,7 +419,7 @@
 
     .line 512
     :cond_6
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -462,7 +462,7 @@
 
     .line 516
     :cond_9
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -485,7 +485,7 @@
 
     .line 520
     :cond_a
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -528,7 +528,7 @@
 
     .line 524
     :cond_d
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -575,7 +575,7 @@
 
     .prologue
     .line 533
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -641,7 +641,7 @@
 
     .prologue
     .line 540
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -783,11 +783,11 @@
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/FileExplorerUI;->ieV:Ljava/lang/String;
 
     .line 162
-    sget-object v0, Lcom/tencent/mm/compatible/d/p;->bml:Lcom/tencent/mm/compatible/d/j;
+    sget-object v0, Lcom/tencent/mm/compatible/d/Pclz;->bml:Lcom/tencent/mm/compatible/d/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/compatible/d/j;->blG:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/compatible/d/Jclz;->blG:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -818,7 +818,7 @@
 
     if-eqz v0, :cond_3
 
-    invoke-static {}, Lcom/tencent/mm/compatible/util/g;->getExternalStorageDirectory()Ljava/io/File;
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Gclz;->getExternalStorageDirectory()Ljava/io/File;
 
     move-result-object v0
 
@@ -1026,16 +1026,16 @@
     :cond_0
     new-instance v0, Ljava/io/File;
 
-    sget-object v1, Lcom/tencent/mm/compatible/d/p;->bml:Lcom/tencent/mm/compatible/d/j;
+    sget-object v1, Lcom/tencent/mm/compatible/d/Pclz;->bml:Lcom/tencent/mm/compatible/d/Jclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/compatible/d/j;->blG:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/compatible/d/Jclz;->blG:Ljava/lang/String;
 
     invoke-direct {v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
     goto/16 :goto_0
 
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/compatible/util/g;->getDataDirectory()Ljava/io/File;
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Gclz;->getDataDirectory()Ljava/io/File;
 
     move-result-object v0
 
@@ -1062,11 +1062,11 @@
 
     .line 163
     :cond_3
-    sget-object v0, Lcom/tencent/mm/compatible/d/p;->bml:Lcom/tencent/mm/compatible/d/j;
+    sget-object v0, Lcom/tencent/mm/compatible/d/Pclz;->bml:Lcom/tencent/mm/compatible/d/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/compatible/d/j;->blI:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/compatible/d/Jclz;->blI:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1096,9 +1096,9 @@
     :cond_4
     new-instance v0, Ljava/io/File;
 
-    sget-object v3, Lcom/tencent/mm/compatible/d/p;->bml:Lcom/tencent/mm/compatible/d/j;
+    sget-object v3, Lcom/tencent/mm/compatible/d/Pclz;->bml:Lcom/tencent/mm/compatible/d/Jclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/compatible/d/j;->blI:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/compatible/d/Jclz;->blI:Ljava/lang/String;
 
     invoke-direct {v0, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
@@ -1172,7 +1172,7 @@
 
     const-string/jumbo v1, "left and right tag disabled in the same time."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_a
 
@@ -1218,7 +1218,7 @@
     move-result-object v0
 
     .line 64
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 

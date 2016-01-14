@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/app/plugin/voicereminder/a/i$3;
-.super Lcom/tencent/mm/sdk/platformtools/ab;
+.super Lcom/tencent/mm/sdk/platformtools/ABclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 118
     iput-object p1, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i$3;->aol:Lcom/tencent/mm/app/plugin/voicereminder/a/i;
 
-    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -49,7 +49,7 @@
 
     const-string/jumbo v1, " Recorder handleMessage"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 122
     iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i$3;->aol:Lcom/tencent/mm/app/plugin/voicereminder/a/i;
@@ -66,20 +66,20 @@
 
     .line 125
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/Dclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i$3;->aol:Lcom/tencent/mm/app/plugin/voicereminder/a/i;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/compatible/b/d;->b(Lcom/tencent/mm/compatible/b/d$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/compatible/b/Dclz;->b(Lcom/tencent/mm/compatible/b/Dclz$a;)V
 
     .line 126
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tp()Lcom/tencent/mm/compatible/b/Dclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/compatible/b/d;->nP()V
+    invoke-virtual {v0}, Lcom/tencent/mm/compatible/b/Dclz;->nP()V
 
     .line 127
     iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i$3;->aol:Lcom/tencent/mm/app/plugin/voicereminder/a/i;

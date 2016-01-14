@@ -22,7 +22,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -40,7 +40,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -81,7 +81,7 @@
 
     const v4, 0x7f0c0078
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {v3, v4}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v3
 
@@ -109,14 +109,14 @@
     :cond_1
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileDescribeView;->dfb:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v3, v0, Lcom/tencent/mm/d/b/o;->aOM:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/d/b/Oclz;->aOM:Ljava/lang/String;
 
     .line 68
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileDescribeView;->dfb:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/b/o;->aON:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/b/Oclz;->aON:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -128,16 +128,16 @@
     :goto_1
     iget-object v4, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileDescribeView;->dfb:Lcom/tencent/mm/storage/Kclz;
 
-    iget v4, v4, Lcom/tencent/mm/d/b/o;->field_type:I
+    iget v4, v4, Lcom/tencent/mm/d/b/Oclz;->field_type:I
 
-    invoke-static {v4}, Lcom/tencent/mm/h/a;->cf(I)Z
+    invoke-static {v4}, Lcom/tencent/mm/h/Aclz;->cf(I)Z
 
     move-result v4
 
     if-eqz v4, :cond_7
 
     .line 71
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -172,9 +172,9 @@
     invoke-virtual {v0, v2, v2, v4, v5}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     .line 74
-    new-instance v4, Lcom/tencent/mm/ui/widget/a;
+    new-instance v4, Lcom/tencent/mm/ui/widget/Aclz;
 
-    invoke-direct {v4, v0}, Lcom/tencent/mm/ui/widget/a;-><init>(Landroid/graphics/drawable/Drawable;)V
+    invoke-direct {v4, v0}, Lcom/tencent/mm/ui/widget/Aclz;-><init>(Landroid/graphics/drawable/Drawable;)V
 
     .line 75
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
@@ -195,7 +195,7 @@
 
     float-to-int v0, v0
 
-    iput v0, v4, Lcom/tencent/mm/ui/widget/a;->kJK:I
+    iput v0, v4, Lcom/tencent/mm/ui/widget/Aclz;->kJK:I
 
     .line 76
     new-instance v0, Landroid/text/SpannableString;
@@ -251,7 +251,7 @@
 
     .line 80
     :cond_3
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -266,7 +266,7 @@
 
     move-result-object v2
 
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -289,7 +289,7 @@
 
     .line 83
     :cond_4
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -324,9 +324,9 @@
     invoke-virtual {v0, v2, v2, v3, v4}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     .line 86
-    new-instance v3, Lcom/tencent/mm/ui/widget/a;
+    new-instance v3, Lcom/tencent/mm/ui/widget/Aclz;
 
-    invoke-direct {v3, v0}, Lcom/tencent/mm/ui/widget/a;-><init>(Landroid/graphics/drawable/Drawable;)V
+    invoke-direct {v3, v0}, Lcom/tencent/mm/ui/widget/Aclz;-><init>(Landroid/graphics/drawable/Drawable;)V
 
     .line 87
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
@@ -347,7 +347,7 @@
 
     float-to-int v0, v0
 
-    iput v0, v3, Lcom/tencent/mm/ui/widget/a;->kJK:I
+    iput v0, v3, Lcom/tencent/mm/ui/widget/Aclz;->kJK:I
 
     .line 88
     new-instance v0, Landroid/text/SpannableString;
@@ -407,7 +407,7 @@
 
     .line 92
     :cond_5
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -430,10 +430,10 @@
     :cond_7
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileDescribeView;->dfb:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_encryptUsername:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/b/Oclz;->field_encryptUsername:Ljava/lang/String;
 
     .line 101
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -459,7 +459,7 @@
     .line 109
     iget-object v3, v0, Lcom/tencent/mm/storage/AKclz;->field_conDescription:Ljava/lang/String;
 
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -474,7 +474,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/storage/AKclz;->field_conDescription:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -507,7 +507,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileDescribeView;->dfb:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v0, v3}, Lcom/tencent/mm/storage/ALclz;->Dv(Ljava/lang/String;)Lcom/tencent/mm/storage/AKclz;
 

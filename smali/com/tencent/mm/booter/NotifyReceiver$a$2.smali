@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,7 +50,7 @@
     .line 662
     iget-object v0, p0, Lcom/tencent/mm/booter/NotifyReceiver$a$2;->bgm:Lcom/tencent/mm/booter/NotifyReceiver$a;
 
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     move-result-object v1
 
@@ -58,7 +58,7 @@
 
     invoke-direct {v2, v0}, Lcom/tencent/mm/booter/NotifyReceiver$a$4;-><init>(Lcom/tencent/mm/booter/NotifyReceiver$a;)V
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ac;->r(Ljava/lang/Runnable;)I
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ACclz;->r(Ljava/lang/Runnable;)I
 
     .line 663
     const/4 v0, 0x0

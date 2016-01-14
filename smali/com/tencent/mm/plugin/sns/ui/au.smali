@@ -59,7 +59,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -100,7 +100,7 @@
 
     const/16 v3, 0x2e4
 
-    invoke-static {v3}, Lcom/tencent/mm/modelsns/a;->dR(I)Lcom/tencent/mm/modelsns/a;
+    invoke-static {v3}, Lcom/tencent/mm/modelsns/Aclz;->dR(I)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v3
 
@@ -112,13 +112,13 @@
 
     move-result-object v5
 
-    invoke-virtual {v3, v5}, Lcom/tencent/mm/modelsns/a;->iH(Ljava/lang/String;)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v3, v5}, Lcom/tencent/mm/modelsns/Aclz;->iH(Ljava/lang/String;)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v5
 
     iget v6, v1, Lcom/tencent/mm/plugin/sns/h/k;->field_type:I
 
-    invoke-virtual {v5, v6}, Lcom/tencent/mm/modelsns/a;->dU(I)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v5, v6}, Lcom/tencent/mm/modelsns/Aclz;->dU(I)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v5
 
@@ -128,7 +128,7 @@
 
     move-result v6
 
-    invoke-virtual {v5, v6}, Lcom/tencent/mm/modelsns/a;->ba(Z)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v5, v6}, Lcom/tencent/mm/modelsns/Aclz;->ba(Z)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v5
 
@@ -136,13 +136,13 @@
 
     move-result-object v6
 
-    invoke-virtual {v5, v6}, Lcom/tencent/mm/modelsns/a;->iH(Ljava/lang/String;)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v5, v6}, Lcom/tencent/mm/modelsns/Aclz;->iH(Ljava/lang/String;)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v5
 
     iget-object v1, v1, Lcom/tencent/mm/plugin/sns/h/k;->field_userName:Ljava/lang/String;
 
-    invoke-virtual {v5, v1}, Lcom/tencent/mm/modelsns/a;->iH(Ljava/lang/String;)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v5, v1}, Lcom/tencent/mm/modelsns/Aclz;->iH(Ljava/lang/String;)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v5
 
@@ -151,7 +151,7 @@
     move v1, v2
 
     :goto_0
-    invoke-virtual {v5, v1}, Lcom/tencent/mm/modelsns/a;->dU(I)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v5, v1}, Lcom/tencent/mm/modelsns/Aclz;->dU(I)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v5
 
@@ -160,9 +160,9 @@
     move v1, v2
 
     :goto_1
-    invoke-virtual {v5, v1}, Lcom/tencent/mm/modelsns/a;->dU(I)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v5, v1}, Lcom/tencent/mm/modelsns/Aclz;->dU(I)Lcom/tencent/mm/modelsns/Aclz;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/modelsns/a;->Cg()Z
+    invoke-virtual {v3}, Lcom/tencent/mm/modelsns/Aclz;->Cg()Z
 
     :cond_0
     invoke-virtual {p2, v2}, Landroid/view/View;->setVisibility(I)V
@@ -565,7 +565,7 @@
     .line 86
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/au;->glO:Landroid/widget/AbsoluteLayout;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/k;->H(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/Kclz;->H(Landroid/view/View;)V
 
     .line 87
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/au;->glO:Landroid/widget/AbsoluteLayout;
@@ -636,7 +636,7 @@
     .line 101
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/au;->mContext:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/o;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {v0}, Lcom/tencent/mm/ui/Oclz;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v0
 
@@ -744,7 +744,7 @@
 
     move-result-object v4
 
-    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 118
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/au;->mContext:Landroid/content/Context;
@@ -883,7 +883,7 @@
     invoke-virtual {v1, v7, v0}, Landroid/widget/AbsoluteLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 131
-    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/k;->H(Landroid/view/View;)V
+    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/Kclz;->H(Landroid/view/View;)V
 
     .line 132
     const/16 v0, 0x8
@@ -891,15 +891,15 @@
     invoke-virtual {v7, v0}, Landroid/view/View;->setVisibility(I)V
 
     .line 133
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     new-instance v1, Lcom/tencent/mm/plugin/sns/ui/au$1;
 
     invoke-direct {v1, p0, p1, v7}, Lcom/tencent/mm/plugin/sns/ui/au$1;-><init>(Lcom/tencent/mm/plugin/sns/ui/au;Landroid/view/View;Landroid/view/View;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 140
     const/4 v0, 0x1
@@ -915,7 +915,7 @@
     :cond_5
     const/16 v4, 0x14
 
-    invoke-static {v0, v4}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v0, v4}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v0
 

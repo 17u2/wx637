@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -100,27 +100,27 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/tools/a/c;->a(Landroid/widget/EditText;)Lcom/tencent/mm/ui/tools/a/c;
+    invoke-static {v1}, Lcom/tencent/mm/ui/tools/a/Cclz;->a(Landroid/widget/EditText;)Lcom/tencent/mm/ui/tools/a/Cclz;
 
     move-result-object v1
 
-    invoke-static {}, Lcom/tencent/mm/g/b;->pt()I
+    invoke-static {}, Lcom/tencent/mm/g/Bclz;->pt()I
 
     move-result v2
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/tools/a/c;->rh(I)Lcom/tencent/mm/ui/tools/a/c;
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/tools/a/Cclz;->rh(I)Lcom/tencent/mm/ui/tools/a/Cclz;
 
     move-result-object v1
 
     const/4 v2, 0x1
 
-    iput-boolean v2, v1, Lcom/tencent/mm/ui/tools/a/c;->kGS:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/ui/tools/a/Cclz;->kGS:Z
 
     new-instance v2, Lcom/tencent/mm/plugin/sns/ui/SightUploadUI$4$1;
 
     invoke-direct {v2, p0, v0}, Lcom/tencent/mm/plugin/sns/ui/SightUploadUI$4$1;-><init>(Lcom/tencent/mm/plugin/sns/ui/SightUploadUI$4;I)V
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/tools/a/c;->a(Lcom/tencent/mm/ui/tools/a/c$a;)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/tools/a/Cclz;->a(Lcom/tencent/mm/ui/tools/a/Cclz$a;)V
 
     goto :goto_0
 .end method

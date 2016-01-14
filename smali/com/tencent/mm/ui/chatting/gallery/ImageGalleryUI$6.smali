@@ -24,7 +24,7 @@
 
     .prologue
     .line 940
-    invoke-static {}, Lcom/tencent/mm/ui/chatting/gallery/b$b;->values()[Lcom/tencent/mm/ui/chatting/gallery/b$b;
+    invoke-static {}, Lcom/tencent/mm/ui/chatting/gallery/Bclz$b;->values()[Lcom/tencent/mm/ui/chatting/gallery/Bclz$b;
 
     move-result-object v0
 
@@ -37,9 +37,9 @@
     :try_start_0
     sget-object v0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$6;->kmW:[I
 
-    sget-object v1, Lcom/tencent/mm/ui/chatting/gallery/b$b;->knm:Lcom/tencent/mm/ui/chatting/gallery/b$b;
+    sget-object v1, Lcom/tencent/mm/ui/chatting/gallery/Bclz$b;->knm:Lcom/tencent/mm/ui/chatting/gallery/Bclz$b;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/chatting/gallery/b$b;->ordinal()I
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/chatting/gallery/Bclz$b;->ordinal()I
 
     move-result v1
 
@@ -53,9 +53,9 @@
     :try_start_1
     sget-object v0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$6;->kmW:[I
 
-    sget-object v1, Lcom/tencent/mm/ui/chatting/gallery/b$b;->knl:Lcom/tencent/mm/ui/chatting/gallery/b$b;
+    sget-object v1, Lcom/tencent/mm/ui/chatting/gallery/Bclz$b;->knl:Lcom/tencent/mm/ui/chatting/gallery/Bclz$b;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/chatting/gallery/b$b;->ordinal()I
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/chatting/gallery/Bclz$b;->ordinal()I
 
     move-result v1
 
@@ -69,9 +69,9 @@
     :try_start_2
     sget-object v0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$6;->kmW:[I
 
-    sget-object v1, Lcom/tencent/mm/ui/chatting/gallery/b$b;->knn:Lcom/tencent/mm/ui/chatting/gallery/b$b;
+    sget-object v1, Lcom/tencent/mm/ui/chatting/gallery/Bclz$b;->knn:Lcom/tencent/mm/ui/chatting/gallery/Bclz$b;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/chatting/gallery/b$b;->ordinal()I
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/chatting/gallery/Bclz$b;->ordinal()I
 
     move-result v1
 
@@ -85,7 +85,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     :goto_2
@@ -98,7 +98,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     goto :goto_2
 

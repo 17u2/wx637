@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/s/Hclz;
-.super Lcom/tencent/mm/sdk/g/f;
+.super Lcom/tencent/mm/sdk/g/Fclz;
 .source "SourceFile"
 
 
@@ -16,9 +16,9 @@
 
 
 # instance fields
-.field private aoD:Lcom/tencent/mm/sdk/g/d;
+.field private aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
-.field private final bzz:Lcom/tencent/mm/sdk/g/h;
+.field private final bzz:Lcom/tencent/mm/sdk/g/Hclz;
 
 
 # direct methods
@@ -33,11 +33,11 @@
 
     const/4 v1, 0x0
 
-    sget-object v2, Lcom/tencent/mm/s/Gclz;->anZ:Lcom/tencent/mm/sdk/g/c$a;
+    sget-object v2, Lcom/tencent/mm/s/Gclz;->anZ:Lcom/tencent/mm/sdk/g/Cclz$a;
 
     const-string/jumbo v3, "BizChatMyUserInfo"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/g/f;->a(Lcom/tencent/mm/sdk/g/c$a;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/g/Fclz;->a(Lcom/tencent/mm/sdk/g/Cclz$a;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -49,48 +49,48 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method public constructor <init>(Lcom/tencent/mm/sdk/g/d;)V
+.method public constructor <init>(Lcom/tencent/mm/sdk/g/Dclz;)V
     .locals 3
 
     .prologue
     .line 35
-    sget-object v0, Lcom/tencent/mm/s/Gclz;->anZ:Lcom/tencent/mm/sdk/g/c$a;
+    sget-object v0, Lcom/tencent/mm/s/Gclz;->anZ:Lcom/tencent/mm/sdk/g/Cclz$a;
 
     const-string/jumbo v1, "BizChatMyUserInfo"
 
     const/4 v2, 0x0
 
-    invoke-direct {p0, p1, v0, v1, v2}, Lcom/tencent/mm/sdk/g/f;-><init>(Lcom/tencent/mm/sdk/g/d;Lcom/tencent/mm/sdk/g/c$a;Ljava/lang/String;[Ljava/lang/String;)V
+    invoke-direct {p0, p1, v0, v1, v2}, Lcom/tencent/mm/sdk/g/Fclz;-><init>(Lcom/tencent/mm/sdk/g/Dclz;Lcom/tencent/mm/sdk/g/Cclz$a;Ljava/lang/String;[Ljava/lang/String;)V
 
     .line 59
     new-instance v0, Lcom/tencent/mm/s/Hclz$1;
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/s/Hclz$1;-><init>(Lcom/tencent/mm/s/Hclz;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/s/Hclz;->bzz:Lcom/tencent/mm/sdk/g/h;
+    iput-object v0, p0, Lcom/tencent/mm/s/Hclz;->bzz:Lcom/tencent/mm/sdk/g/Hclz;
 
     .line 36
-    iput-object p1, p0, Lcom/tencent/mm/s/Hclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iput-object p1, p0, Lcom/tencent/mm/s/Hclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     .line 37
     const-string/jumbo v0, "BizChatMyUserInfo"
 
     const-string/jumbo v1, "CREATE INDEX IF NOT EXISTS bizChatbrandUserNameIndex ON BizChatMyUserInfo ( brandUserName )"
 
-    invoke-interface {p1, v0, v1}, Lcom/tencent/mm/sdk/g/d;->bX(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-interface {p1, v0, v1}, Lcom/tencent/mm/sdk/g/Dclz;->bX(Ljava/lang/String;Ljava/lang/String;)Z
 
     .line 38
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -107,10 +107,10 @@
 
     const-string/jumbo v1, "BizChatMyUserInfoStorage insert"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 109
-    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/g/f;->a(Lcom/tencent/mm/sdk/g/c;)Z
+    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/g/Fclz;->a(Lcom/tencent/mm/sdk/g/Cclz;)Z
 
     move-result v0
 
@@ -136,14 +136,14 @@
     iput-object p1, v1, Lcom/tencent/mm/s/Hclz$a$b;->bAb:Lcom/tencent/mm/s/Gclz;
 
     .line 119
-    iget-object v2, p0, Lcom/tencent/mm/s/Hclz;->bzz:Lcom/tencent/mm/sdk/g/h;
+    iget-object v2, p0, Lcom/tencent/mm/s/Hclz;->bzz:Lcom/tencent/mm/sdk/g/Hclz;
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/sdk/g/h;->au(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/sdk/g/Hclz;->au(Ljava/lang/Object;)Z
 
     .line 120
-    iget-object v1, p0, Lcom/tencent/mm/s/Hclz;->bzz:Lcom/tencent/mm/sdk/g/h;
+    iget-object v1, p0, Lcom/tencent/mm/s/Hclz;->bzz:Lcom/tencent/mm/sdk/g/Hclz;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/sdk/g/h;->Dw()V
+    invoke-virtual {v1}, Lcom/tencent/mm/sdk/g/Hclz;->Dw()V
 
     .line 124
     :goto_0
@@ -155,7 +155,7 @@
 
     const-string/jumbo v2, "BizChatMyUserInfoStorage insert fail"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -169,7 +169,7 @@
 
     const-string/jumbo v1, "BizChatMyUserInfoStorage update"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 129
     if-nez p1, :cond_0
@@ -179,7 +179,7 @@
 
     const-string/jumbo v1, "update wrong argument"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 131
     const/4 v0, 0x0
@@ -190,7 +190,7 @@
 
     .line 133
     :cond_0
-    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/g/f;->b(Lcom/tencent/mm/sdk/g/c;)Z
+    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/g/Fclz;->b(Lcom/tencent/mm/sdk/g/Cclz;)Z
 
     move-result v0
 
@@ -216,14 +216,14 @@
     iput-object p1, v1, Lcom/tencent/mm/s/Hclz$a$b;->bAb:Lcom/tencent/mm/s/Gclz;
 
     .line 139
-    iget-object v2, p0, Lcom/tencent/mm/s/Hclz;->bzz:Lcom/tencent/mm/sdk/g/h;
+    iget-object v2, p0, Lcom/tencent/mm/s/Hclz;->bzz:Lcom/tencent/mm/sdk/g/Hclz;
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/sdk/g/h;->au(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/sdk/g/Hclz;->au(Ljava/lang/Object;)Z
 
     .line 140
-    iget-object v1, p0, Lcom/tencent/mm/s/Hclz;->bzz:Lcom/tencent/mm/sdk/g/h;
+    iget-object v1, p0, Lcom/tencent/mm/s/Hclz;->bzz:Lcom/tencent/mm/sdk/g/Hclz;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/sdk/g/h;->Dw()V
+    invoke-virtual {v1}, Lcom/tencent/mm/sdk/g/Hclz;->Dw()V
 
     goto :goto_0
 
@@ -233,7 +233,7 @@
 
     const-string/jumbo v2, "BizChatMyUserInfoStorage update fail"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -249,16 +249,16 @@
 
     const-string/jumbo v2, "BizChatMyUserInfoStorage getCount"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 150
-    iget-object v1, p0, Lcom/tencent/mm/s/Hclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v1, p0, Lcom/tencent/mm/s/Hclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     const-string/jumbo v2, "SELECT COUNT(*) FROM BizChatMyUserInfo"
 
     const/4 v3, 0x0
 
-    invoke-interface {v1, v2, v3}, Lcom/tencent/mm/sdk/g/d;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface {v1, v2, v3}, Lcom/tencent/mm/sdk/g/Dclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v1
 
@@ -287,7 +287,7 @@
 
     .prologue
     .line 78
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -298,7 +298,7 @@
 
     const-string/jumbo v1, "get\uff1a wrong argument"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 80
     const/4 v0, 0x0
@@ -321,7 +321,7 @@
 
     new-array v1, v1, [Ljava/lang/String;
 
-    invoke-super {p0, v0, v1}, Lcom/tencent/mm/sdk/g/f;->c(Lcom/tencent/mm/sdk/g/c;[Ljava/lang/String;)Z
+    invoke-super {p0, v0, v1}, Lcom/tencent/mm/sdk/g/Fclz;->c(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
 
     goto :goto_0
 .end method
@@ -333,7 +333,7 @@
     const/4 v0, 0x0
 
     .line 89
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -344,7 +344,7 @@
 
     const-string/jumbo v2, "delete wrong argument"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 104
     :cond_0
@@ -369,7 +369,7 @@
 
     aput-object v3, v2, v0
 
-    invoke-super {p0, v1, v2}, Lcom/tencent/mm/sdk/g/f;->b(Lcom/tencent/mm/sdk/g/c;[Ljava/lang/String;)Z
+    invoke-super {p0, v1, v2}, Lcom/tencent/mm/sdk/g/Fclz;->b(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
 
     move-result v0
 
@@ -395,14 +395,14 @@
     iput-object v1, v2, Lcom/tencent/mm/s/Hclz$a$b;->bAb:Lcom/tencent/mm/s/Gclz;
 
     .line 101
-    iget-object v1, p0, Lcom/tencent/mm/s/Hclz;->bzz:Lcom/tencent/mm/sdk/g/h;
+    iget-object v1, p0, Lcom/tencent/mm/s/Hclz;->bzz:Lcom/tencent/mm/sdk/g/Hclz;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/g/h;->au(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/g/Hclz;->au(Ljava/lang/Object;)Z
 
     .line 102
-    iget-object v1, p0, Lcom/tencent/mm/s/Hclz;->bzz:Lcom/tencent/mm/sdk/g/h;
+    iget-object v1, p0, Lcom/tencent/mm/s/Hclz;->bzz:Lcom/tencent/mm/sdk/g/Hclz;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/sdk/g/h;->Dw()V
+    invoke-virtual {v1}, Lcom/tencent/mm/sdk/g/Hclz;->Dw()V
 
     goto :goto_0
 .end method

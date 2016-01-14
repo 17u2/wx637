@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,11 +56,11 @@
 
     .prologue
     .line 144
-    invoke-static {}, Lcom/tencent/mm/z/n;->Aa()Lcom/tencent/mm/z/a/a;
+    invoke-static {}, Lcom/tencent/mm/z/Nclz;->Aa()Lcom/tencent/mm/z/a/Aclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p2}, Lcom/tencent/mm/z/a/a;->dB(I)V
+    invoke-virtual {v0, p2}, Lcom/tencent/mm/z/a/Aclz;->dB(I)V
 
     .line 145
     return-void

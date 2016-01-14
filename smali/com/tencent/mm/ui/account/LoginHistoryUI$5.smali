@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/ui/base/f$c;
+.implements Lcom/tencent/mm/ui/base/Fclz$c;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,7 +50,7 @@
     const/4 v3, 0x5
 
     .line 703
-    invoke-static {}, Lcom/tencent/mm/aa/b;->Ao()Z
+    invoke-static {}, Lcom/tencent/mm/aa/Bclz;->Ao()Z
 
     move-result v0
 

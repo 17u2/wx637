@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/tencent/mm/ui/base/a;
+.annotation runtime Lcom/tencent/mm/ui/base/Aclz;
     value = 0x7
 .end annotation
 
@@ -25,7 +25,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -205,7 +205,7 @@
 
     const-string/jumbo v2, ".ui.SnsUploadUI"
 
-    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     .line 96
     invoke-virtual {p0}, Lcom/tencent/mm/ui/tools/ShareImageRedirectUI;->finish()V
@@ -231,7 +231,7 @@
     invoke-super {p0, p1}, Lcom/tencent/mm/ui/MMBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     .line 37
-    sget-object v0, Lcom/tencent/mm/compatible/util/d;->bnE:Ljava/lang/String;
+    sget-object v0, Lcom/tencent/mm/compatible/util/Dclz;->bnE:Ljava/lang/String;
 
     new-instance v1, Ljava/lang/StringBuilder;
 

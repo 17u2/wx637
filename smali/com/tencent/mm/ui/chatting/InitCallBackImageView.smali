@@ -6,7 +6,7 @@
 # instance fields
 .field private hasDrawed:Z
 
-.field private kkL:Lcom/tencent/mm/ui/chatting/dx;
+.field private kkL:Lcom/tencent/mm/ui/chatting/DXclz;
 
 
 # direct methods
@@ -22,13 +22,13 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method public constructor <init>(Landroid/content/Context;Lcom/tencent/mm/ui/chatting/dx;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/tencent/mm/ui/chatting/DXclz;)V
     .locals 1
 
     .prologue
@@ -36,14 +36,14 @@
     invoke-direct {p0, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
     .line 32
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/InitCallBackImageView;->kkL:Lcom/tencent/mm/ui/chatting/dx;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/InitCallBackImageView;->kkL:Lcom/tencent/mm/ui/chatting/DXclz;
 
     .line 33
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -69,26 +69,26 @@
     iput-boolean v0, p0, Lcom/tencent/mm/ui/chatting/InitCallBackImageView;->hasDrawed:Z
 
     .line 42
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/InitCallBackImageView;->kkL:Lcom/tencent/mm/ui/chatting/dx;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/InitCallBackImageView;->kkL:Lcom/tencent/mm/ui/chatting/DXclz;
 
     if-eqz v0, :cond_0
 
     .line 43
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/InitCallBackImageView;->kkL:Lcom/tencent/mm/ui/chatting/dx;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/InitCallBackImageView;->kkL:Lcom/tencent/mm/ui/chatting/DXclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/ui/chatting/dx;->kG()V
+    invoke-interface {v0}, Lcom/tencent/mm/ui/chatting/DXclz;->kG()V
 
     .line 46
     :cond_0
     return-void
 .end method
 
-.method public setListener(Lcom/tencent/mm/ui/chatting/dx;)V
+.method public setListener(Lcom/tencent/mm/ui/chatting/DXclz;)V
     .locals 0
 
     .prologue
     .line 49
-    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/InitCallBackImageView;->kkL:Lcom/tencent/mm/ui/chatting/dx;
+    iput-object p1, p0, Lcom/tencent/mm/ui/chatting/InitCallBackImageView;->kkL:Lcom/tencent/mm/ui/chatting/DXclz;
 
     .line 50
     return-void

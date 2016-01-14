@@ -29,7 +29,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -44,7 +44,7 @@
     .line 773
     const-string/jumbo v0, "show_wap_adviser"
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/aa;->AJ(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/AAclz;->AJ(Ljava/lang/String;)V
 
     .line 774
     return-void

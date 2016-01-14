@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -70,7 +70,7 @@
     .line 291
     iget-object v1, v0, Lcom/tencent/mm/plugin/sns/ui/aq;->gFI:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -81,7 +81,7 @@
 
     const-string/jumbo v1, "show source profile fail, username is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 293
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/at$4;->gGb:Lcom/tencent/mm/plugin/sns/ui/at;
@@ -148,7 +148,7 @@
     .line 298
     if-eqz v1, :cond_2
 
-    iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     iget-object v2, v0, Lcom/tencent/mm/plugin/sns/ui/aq;->gFI:Ljava/lang/String;
 
@@ -263,11 +263,11 @@
 
     invoke-direct {v4, p0, v0}, Lcom/tencent/mm/plugin/sns/ui/at$4$2;-><init>(Lcom/tencent/mm/plugin/sns/ui/at$4;Lcom/tencent/mm/plugin/sns/ui/aq;)V
 
-    invoke-static {v2, v3, v6, v4}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v2, v3, v6, v4}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
-    iput-object v0, v1, Lcom/tencent/mm/plugin/sns/ui/at;->cfz:Lcom/tencent/mm/ui/base/o;
+    iput-object v0, v1, Lcom/tencent/mm/plugin/sns/ui/at;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     goto/16 :goto_0
 .end method

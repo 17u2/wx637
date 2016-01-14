@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/modelsearch/m;
+.implements Lcom/tencent/mm/modelsearch/Mclz;
 
 
 # annotations
@@ -38,7 +38,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -74,7 +74,7 @@
     goto :goto_0
 .end method
 
-.method public final a(ILcom/tencent/mm/modelsearch/m$a;)Lcom/tencent/mm/modelsearch/m$a;
+.method public final a(ILcom/tencent/mm/modelsearch/Mclz$a;)Lcom/tencent/mm/modelsearch/Mclz$a;
     .locals 3
 
     .prologue
@@ -92,7 +92,7 @@
 
     .line 56
     :cond_1
-    iput p1, p2, Lcom/tencent/mm/modelsearch/m$a;->mPriority:I
+    iput p1, p2, Lcom/tencent/mm/modelsearch/Mclz$a;->mPriority:I
 
     .line 57
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/f;->fHX:Lcom/tencent/mm/plugin/search/a/f$b;
@@ -101,13 +101,13 @@
 
     if-nez v1, :cond_0
 
-    iget v1, p2, Lcom/tencent/mm/modelsearch/m$a;->mPriority:I
+    iget v1, p2, Lcom/tencent/mm/modelsearch/Mclz$a;->mPriority:I
 
     iget-object v2, v0, Lcom/tencent/mm/plugin/search/a/f$b;->fIe:Ljava/util/concurrent/PriorityBlockingQueue;
 
     invoke-virtual {v2, p2}, Ljava/util/concurrent/PriorityBlockingQueue;->put(Ljava/lang/Object;)V
 
-    iget-object v2, v0, Lcom/tencent/mm/plugin/search/a/f$b;->fIg:Lcom/tencent/mm/modelsearch/m$a;
+    iget-object v2, v0, Lcom/tencent/mm/plugin/search/a/f$b;->fIg:Lcom/tencent/mm/modelsearch/Mclz$a;
 
     if-nez v2, :cond_2
 
@@ -127,7 +127,7 @@
     goto :goto_0
 .end method
 
-.method public final a(Lcom/tencent/mm/modelsearch/m$a;)V
+.method public final a(Lcom/tencent/mm/modelsearch/Mclz$a;)V
     .locals 2
 
     .prologue
@@ -147,13 +147,13 @@
 
     const/4 v1, 0x1
 
-    iput-boolean v1, p1, Lcom/tencent/mm/modelsearch/m$a;->bRP:Z
+    iput-boolean v1, p1, Lcom/tencent/mm/modelsearch/Mclz$a;->bRP:Z
 
     iget-object v1, v0, Lcom/tencent/mm/plugin/search/a/f$b;->fIe:Ljava/util/concurrent/PriorityBlockingQueue;
 
     invoke-virtual {v1, p1}, Ljava/util/concurrent/PriorityBlockingQueue;->remove(Ljava/lang/Object;)Z
 
-    iget-object v1, v0, Lcom/tencent/mm/plugin/search/a/f$b;->fIg:Lcom/tencent/mm/modelsearch/m$a;
+    iget-object v1, v0, Lcom/tencent/mm/plugin/search/a/f$b;->fIg:Lcom/tencent/mm/modelsearch/Mclz$a;
 
     if-ne v1, p1, :cond_0
 
@@ -194,7 +194,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 35
     return-void

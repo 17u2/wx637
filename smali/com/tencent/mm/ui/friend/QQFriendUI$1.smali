@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic jYQ:Lcom/tencent/mm/modelfriend/y;
+.field final synthetic jYQ:Lcom/tencent/mm/modelfriend/Yclz;
 
 .field final synthetic kzQ:Lcom/tencent/mm/ui/friend/QQFriendUI;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/friend/QQFriendUI;Lcom/tencent/mm/modelfriend/y;)V
+.method constructor <init>(Lcom/tencent/mm/ui/friend/QQFriendUI;Lcom/tencent/mm/modelfriend/Yclz;)V
     .locals 1
 
     .prologue
     .line 78
     iput-object p1, p0, Lcom/tencent/mm/ui/friend/QQFriendUI$1;->kzQ:Lcom/tencent/mm/ui/friend/QQFriendUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/friend/QQFriendUI$1;->jYQ:Lcom/tencent/mm/modelfriend/y;
+    iput-object p2, p0, Lcom/tencent/mm/ui/friend/QQFriendUI$1;->jYQ:Lcom/tencent/mm/modelfriend/Yclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/friend/QQFriendUI$1;->jYQ:Lcom/tencent/mm/modelfriend/y;
+    iget-object v1, p0, Lcom/tencent/mm/ui/friend/QQFriendUI$1;->jYQ:Lcom/tencent/mm/modelfriend/Yclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 

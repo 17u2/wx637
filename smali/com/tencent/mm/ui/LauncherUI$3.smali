@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -85,7 +85,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 2118
     sget-wide v3, Lcom/tencent/mm/ui/LauncherUI;->jvo:J
@@ -118,7 +118,7 @@
 
     const-string/jumbo v4, "LauncherUI.enter_from_reg"
 
-    invoke-static {v3, v4, v2}, Lcom/tencent/mm/sdk/platformtools/q;->a(Landroid/content/Intent;Ljava/lang/String;Z)Z
+    invoke-static {v3, v4, v2}, Lcom/tencent/mm/sdk/platformtools/Qclz;->a(Landroid/content/Intent;Ljava/lang/String;Z)Z
 
     move-result v3
 
@@ -147,7 +147,7 @@
 
     const-string/jumbo v0, "show_whatsnew"
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/aa;->AI(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/AAclz;->AI(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -158,7 +158,7 @@
 
     const-string/jumbo v3, "dz[showWhatsNewForResult from onInit]"
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 2127
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$3;->jwy:Lcom/tencent/mm/ui/LauncherUI;
@@ -201,7 +201,7 @@
     :goto_1
     if-nez v0, :cond_5
 
-    sput-boolean v2, Lcom/tencent/mm/sdk/platformtools/f;->jff:Z
+    sput-boolean v2, Lcom/tencent/mm/sdk/platformtools/Fclz;->jff:Z
 
     .line 2135
     :cond_2
@@ -251,7 +251,7 @@
 
     invoke-virtual {v0}, Lcom/tencent/mm/ui/account/WelcomeView;->aVE()V
 
-    sget-boolean v0, Lcom/tencent/mm/sdk/platformtools/f;->jfg:Z
+    sget-boolean v0, Lcom/tencent/mm/sdk/platformtools/Fclz;->jfg:Z
 
     if-eqz v0, :cond_6
 
@@ -260,7 +260,7 @@
     goto :goto_2
 
     :cond_6
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOp()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOp()Ljava/lang/String;
 
     move-result-object v0
 
@@ -316,7 +316,7 @@
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOo()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOo()Ljava/lang/String;
 
     move-result-object v8
 

@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,7 +52,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -89,16 +89,16 @@
     check-cast v0, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;
 
     .line 322
-    iget-object v1, v0, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/f;
+    iget-object v1, v0, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/Fclz;
 
     if-eqz v1, :cond_0
 
     .line 326
     const/4 v1, -0x1
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/f;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/Fclz;
 
-    iget v0, v0, Lcom/tencent/mm/ak/f;->field_fileStatus:I
+    iget v0, v0, Lcom/tencent/mm/ak/Fclz;->field_fileStatus:I
 
     if-eq v1, v0, :cond_0
 

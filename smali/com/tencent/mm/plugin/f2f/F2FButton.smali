@@ -10,7 +10,7 @@
 
 .field private dyh:Landroid/widget/TextView;
 
-.field private dyi:Lcom/tencent/mm/sdk/platformtools/ag;
+.field private dyi:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
 
 # direct methods
@@ -27,7 +27,7 @@
     iput v0, p0, Lcom/tencent/mm/plugin/f2f/F2FButton;->count:I
 
     .line 55
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
@@ -39,9 +39,9 @@
 
     const/4 v3, 0x1
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Landroid/os/Looper;Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Landroid/os/Looper;Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/F2FButton;->dyi:Lcom/tencent/mm/sdk/platformtools/ag;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/F2FButton;->dyi:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     .line 36
     invoke-direct {p0}, Lcom/tencent/mm/plugin/f2f/F2FButton;->init()V
@@ -51,7 +51,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -70,7 +70,7 @@
     iput v0, p0, Lcom/tencent/mm/plugin/f2f/F2FButton;->count:I
 
     .line 55
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
@@ -82,9 +82,9 @@
 
     const/4 v3, 0x1
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Landroid/os/Looper;Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Landroid/os/Looper;Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/F2FButton;->dyi:Lcom/tencent/mm/sdk/platformtools/ag;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/F2FButton;->dyi:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     .line 41
     invoke-direct {p0}, Lcom/tencent/mm/plugin/f2f/F2FButton;->init()V
@@ -94,7 +94,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

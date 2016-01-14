@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/l/a$a;
+.implements Lcom/tencent/mm/l/Aclz$a;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -108,22 +108,22 @@
     if-ne p1, v0, :cond_1
 
     .line 2216
-    invoke-static {}, Lcom/tencent/mm/l/c;->qO()Lcom/tencent/mm/l/a;
+    invoke-static {}, Lcom/tencent/mm/l/Cclz;->qO()Lcom/tencent/mm/l/Aclz;
 
     move-result-object v0
 
     const v1, 0x40003
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/l/a;->G(II)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/l/Aclz;->G(II)V
 
     .line 2217
-    invoke-static {}, Lcom/tencent/mm/l/c;->qO()Lcom/tencent/mm/l/a;
+    invoke-static {}, Lcom/tencent/mm/l/Cclz;->qO()Lcom/tencent/mm/l/Aclz;
 
     move-result-object v0
 
     const v1, 0x40005
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/l/a;->G(II)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/l/Aclz;->G(II)V
 
     .line 2219
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$5;->jwy:Lcom/tencent/mm/ui/LauncherUI;

@@ -22,11 +22,11 @@
 
 .field final synthetic csw:Lcom/tencent/mm/plugin/base/stub/UIEntryStub;
 
-.field final synthetic csx:Lcom/tencent/mm/sdk/modelmsg/c$a;
+.field final synthetic csx:Lcom/tencent/mm/sdk/modelmsg/Cclz$a;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/base/stub/UIEntryStub;Landroid/os/Bundle;Lcom/tencent/mm/sdk/modelmsg/c$a;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/base/stub/UIEntryStub;Landroid/os/Bundle;Lcom/tencent/mm/sdk/modelmsg/Cclz$a;)V
     .locals 1
 
     .prologue
@@ -35,7 +35,7 @@
 
     iput-object p2, p0, Lcom/tencent/mm/plugin/base/stub/UIEntryStub$2;->cdJ:Landroid/os/Bundle;
 
-    iput-object p3, p0, Lcom/tencent/mm/plugin/base/stub/UIEntryStub$2;->csx:Lcom/tencent/mm/sdk/modelmsg/c$a;
+    iput-object p3, p0, Lcom/tencent/mm/plugin/base/stub/UIEntryStub$2;->csx:Lcom/tencent/mm/sdk/modelmsg/Cclz$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -89,7 +89,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 184
     if-eqz p1, :cond_0
@@ -120,9 +120,9 @@
     .line 188
     const-string/jumbo v1, "SendAppMessageWrapper_Scene"
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/base/stub/UIEntryStub$2;->csx:Lcom/tencent/mm/sdk/modelmsg/c$a;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/base/stub/UIEntryStub$2;->csx:Lcom/tencent/mm/sdk/modelmsg/Cclz$a;
 
-    iget v2, v2, Lcom/tencent/mm/sdk/modelmsg/c$a;->arG:I
+    iget v2, v2, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;->arG:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 

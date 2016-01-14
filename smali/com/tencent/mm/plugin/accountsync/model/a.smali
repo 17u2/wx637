@@ -7,15 +7,15 @@
 
 
 # instance fields
-.field bDO:Lcom/tencent/mm/modelfriend/a$b;
+.field bDO:Lcom/tencent/mm/modelfriend/Aclz$b;
 
 .field bTx:Z
 
 .field cfP:Ljava/util/Set;
 
-.field public cfQ:Lcom/tencent/mm/sdk/c/c;
+.field public cfQ:Lcom/tencent/mm/sdk/c/Cclz;
 
-.field cfR:Lcom/tencent/mm/sdk/platformtools/ab;
+.field cfR:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -47,37 +47,37 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/accountsync/model/a$1;-><init>(Lcom/tencent/mm/plugin/accountsync/model/a;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/accountsync/model/a;->cfQ:Lcom/tencent/mm/sdk/c/c;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/accountsync/model/a;->cfQ:Lcom/tencent/mm/sdk/c/Cclz;
 
     .line 57
     new-instance v0, Lcom/tencent/mm/plugin/accountsync/model/a$2;
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/accountsync/model/a$2;-><init>(Lcom/tencent/mm/plugin/accountsync/model/a;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/accountsync/model/a;->cfR:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/accountsync/model/a;->cfR:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 73
     new-instance v0, Lcom/tencent/mm/plugin/accountsync/model/a$3;
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/accountsync/model/a$3;-><init>(Lcom/tencent/mm/plugin/accountsync/model/a;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/accountsync/model/a;->bDO:Lcom/tencent/mm/modelfriend/a$b;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/accountsync/model/a;->bDO:Lcom/tencent/mm/modelfriend/Aclz$b;
 
     .line 33
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "ModNewContact"
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/accountsync/model/a;->cfQ:Lcom/tencent/mm/sdk/c/c;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/accountsync/model/a;->cfQ:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 34
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -142,7 +142,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 121
     iput-boolean v4, p0, Lcom/tencent/mm/plugin/accountsync/model/a;->bTx:Z
@@ -199,7 +199,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 140
     :cond_3
@@ -217,16 +217,16 @@
     move-object v0, p4
 
     .line 124
-    check-cast v0, Lcom/tencent/mm/modelfriend/ac;
+    check-cast v0, Lcom/tencent/mm/modelfriend/ACclz;
 
     .line 125
-    new-instance v1, Lcom/tencent/mm/modelfriend/x;
+    new-instance v1, Lcom/tencent/mm/modelfriend/Xclz;
 
-    iget-object v2, v0, Lcom/tencent/mm/modelfriend/ac;->bFz:Ljava/util/List;
+    iget-object v2, v0, Lcom/tencent/mm/modelfriend/ACclz;->bFz:Ljava/util/List;
 
-    iget-object v0, v0, Lcom/tencent/mm/modelfriend/ac;->bFA:Ljava/util/List;
+    iget-object v0, v0, Lcom/tencent/mm/modelfriend/ACclz;->bFA:Ljava/util/List;
 
-    invoke-direct {v1, v2, v0}, Lcom/tencent/mm/modelfriend/x;-><init>(Ljava/util/List;Ljava/util/List;)V
+    invoke-direct {v1, v2, v0}, Lcom/tencent/mm/modelfriend/Xclz;-><init>(Ljava/util/List;Ljava/util/List;)V
 
     .line 126
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -243,14 +243,14 @@
 
     const-string/jumbo v1, "update All Contact"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 137
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/modelsimple/d;->aR(Landroid/content/Context;)V
+    invoke-static {v0}, Lcom/tencent/mm/modelsimple/Dclz;->aR(Landroid/content/Context;)V
 
     goto :goto_1
 .end method

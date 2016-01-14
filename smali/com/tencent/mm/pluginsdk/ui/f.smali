@@ -26,13 +26,13 @@
 
 .field private hQV:Lcom/tencent/mm/pluginsdk/ui/f$b;
 
-.field public hQW:Lcom/tencent/mm/ui/base/n;
+.field public hQW:Lcom/tencent/mm/ui/base/Nclz;
 
 .field private hQY:Lcom/tencent/mm/pluginsdk/ui/GetHdHeadImageGalleryView;
 
 .field private hQZ:I
 
-.field private hRa:Lcom/tencent/mm/p/e;
+.field private hRa:Lcom/tencent/mm/p/Eclz;
 
 .field private username:Ljava/lang/String;
 
@@ -53,7 +53,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -73,7 +73,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -93,7 +93,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -123,7 +123,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -164,18 +164,18 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/pluginsdk/ui/f;)Lcom/tencent/mm/p/e;
+.method static synthetic a(Lcom/tencent/mm/pluginsdk/ui/f;)Lcom/tencent/mm/p/Eclz;
     .locals 1
 
     .prologue
     .line 29
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hRa:Lcom/tencent/mm/p/e;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hRa:Lcom/tencent/mm/p/Eclz;
 
     return-object v0
 .end method
@@ -293,7 +293,7 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 204
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQY:Lcom/tencent/mm/pluginsdk/ui/GetHdHeadImageGalleryView;
@@ -381,11 +381,11 @@
     move-result-object v0
 
     .line 82
-    new-instance v1, Lcom/tencent/mm/ui/base/n;
+    new-instance v1, Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-direct {v1, v0, v4, v4}, Lcom/tencent/mm/ui/base/n;-><init>(Landroid/view/View;II)V
+    invoke-direct {v1, v0, v4, v4}, Lcom/tencent/mm/ui/base/Nclz;-><init>(Landroid/view/View;II)V
 
-    iput-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQW:Lcom/tencent/mm/ui/base/n;
+    iput-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQW:Lcom/tencent/mm/ui/base/Nclz;
 
     .line 84
     sget-object v1, Lcom/tencent/mm/pluginsdk/ui/f$2;->hRd:[I
@@ -400,24 +400,24 @@
 
     .line 93
     :goto_0
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQW:Lcom/tencent/mm/ui/base/n;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQW:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v1, v5}, Lcom/tencent/mm/ui/base/n;->setFocusable(Z)V
+    invoke-virtual {v1, v5}, Lcom/tencent/mm/ui/base/Nclz;->setFocusable(Z)V
 
     .line 98
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQW:Lcom/tencent/mm/ui/base/n;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQW:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v1, v5}, Lcom/tencent/mm/ui/base/n;->setOutsideTouchable(Z)V
+    invoke-virtual {v1, v5}, Lcom/tencent/mm/ui/base/Nclz;->setOutsideTouchable(Z)V
 
     .line 99
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQW:Lcom/tencent/mm/ui/base/n;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQW:Lcom/tencent/mm/ui/base/Nclz;
 
     sget-object v2, Lcom/tencent/mm/pluginsdk/ui/f;->hQX:Landroid/graphics/drawable/Drawable;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/base/n;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/base/Nclz;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 101
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQW:Lcom/tencent/mm/ui/base/n;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQW:Lcom/tencent/mm/ui/base/Nclz;
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/f;->asr:Landroid/app/Activity;
 
@@ -431,7 +431,7 @@
 
     const/16 v3, 0x31
 
-    invoke-virtual {v1, v2, v3, v6, v6}, Lcom/tencent/mm/ui/base/n;->showAtLocation(Landroid/view/View;III)V
+    invoke-virtual {v1, v2, v3, v6, v6}, Lcom/tencent/mm/ui/base/Nclz;->showAtLocation(Landroid/view/View;III)V
 
     .line 103
     const v1, 0x7f0e04dc
@@ -447,9 +447,9 @@
     .line 104
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQY:Lcom/tencent/mm/pluginsdk/ui/GetHdHeadImageGalleryView;
 
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQW:Lcom/tencent/mm/ui/base/n;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQW:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/GetHdHeadImageGalleryView;->setParentWindow(Lcom/tencent/mm/ui/base/n;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/GetHdHeadImageGalleryView;->setParentWindow(Lcom/tencent/mm/ui/base/Nclz;)V
 
     .line 105
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQY:Lcom/tencent/mm/pluginsdk/ui/GetHdHeadImageGalleryView;
@@ -472,16 +472,16 @@
     .line 109
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/f;->asr:Landroid/app/Activity;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/base/r;->dW(Landroid/content/Context;)V
+    invoke-static {v0}, Lcom/tencent/mm/ui/base/Rclz;->dW(Landroid/content/Context;)V
 
     .line 110
-    invoke-static {}, Lcom/tencent/mm/p/n;->uQ()Lcom/tencent/mm/p/d;
+    invoke-static {}, Lcom/tencent/mm/p/Nclz;->uQ()Lcom/tencent/mm/p/Dclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->asr:Landroid/app/Activity;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/p/d;->aF(Landroid/content/Context;)Landroid/graphics/Bitmap;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/p/Dclz;->aF(Landroid/content/Context;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -493,31 +493,31 @@
 
     .line 86
     :pswitch_0
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQW:Lcom/tencent/mm/ui/base/n;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQW:Lcom/tencent/mm/ui/base/Nclz;
 
     const v2, 0x7f0d0101
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/base/n;->setAnimationStyle(I)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/base/Nclz;->setAnimationStyle(I)V
 
     goto :goto_0
 
     .line 89
     :pswitch_1
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQW:Lcom/tencent/mm/ui/base/n;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQW:Lcom/tencent/mm/ui/base/Nclz;
 
     const v2, 0x7f0d0102
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/base/n;->setAnimationStyle(I)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/base/Nclz;->setAnimationStyle(I)V
 
     goto :goto_0
 
     .line 92
     :pswitch_2
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQW:Lcom/tencent/mm/ui/base/n;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQW:Lcom/tencent/mm/ui/base/Nclz;
 
     const v2, 0x7f0d0103
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/base/n;->setAnimationStyle(I)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/base/Nclz;->setAnimationStyle(I)V
 
     goto :goto_0
 
@@ -525,7 +525,7 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQU:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -577,7 +577,7 @@
 
     aput-object v4, v3, v6
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 118
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQY:Lcom/tencent/mm/pluginsdk/ui/GetHdHeadImageGalleryView;
@@ -588,7 +588,7 @@
     :goto_3
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hQT:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -601,11 +601,11 @@
 
     .line 128
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/p/n;->uQ()Lcom/tencent/mm/p/d;
+    invoke-static {}, Lcom/tencent/mm/p/Nclz;->uQ()Lcom/tencent/mm/p/Dclz;
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->username:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/p/d;->fN(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {v1}, Lcom/tencent/mm/p/Dclz;->fN(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -629,14 +629,14 @@
 
     aput-object v4, v3, v6
 
-    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 131
-    invoke-static {}, Lcom/tencent/mm/p/n;->uQ()Lcom/tencent/mm/p/d;
+    invoke-static {}, Lcom/tencent/mm/p/Nclz;->uQ()Lcom/tencent/mm/p/Dclz;
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/f;->username:Ljava/lang/String;
 
-    invoke-static {v0, v5}, Lcom/tencent/mm/p/d;->j(Ljava/lang/String;Z)Ljava/lang/String;
+    invoke-static {v0, v5}, Lcom/tencent/mm/p/Dclz;->j(Ljava/lang/String;Z)Ljava/lang/String;
 
     move-result-object v0
 
@@ -648,7 +648,7 @@
     :cond_3
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/f;->username:Ljava/lang/String;
 
-    invoke-static {v0, v5, v4}, Lcom/tencent/mm/p/b;->a(Ljava/lang/String;ZI)Landroid/graphics/Bitmap;
+    invoke-static {v0, v5, v4}, Lcom/tencent/mm/p/Bclz;->a(Ljava/lang/String;ZI)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -666,20 +666,20 @@
 
     aput-object v4, v3, v6
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_3
 
     .line 135
     :cond_5
-    new-instance v1, Lcom/tencent/mm/p/e;
+    new-instance v1, Lcom/tencent/mm/p/Eclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/p/e;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/p/Eclz;-><init>()V
 
-    iput-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hRa:Lcom/tencent/mm/p/e;
+    iput-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hRa:Lcom/tencent/mm/p/Eclz;
 
     .line 136
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hRa:Lcom/tencent/mm/p/e;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/f;->hRa:Lcom/tencent/mm/p/Eclz;
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/f;->username:Ljava/lang/String;
 
@@ -687,7 +687,7 @@
 
     invoke-direct {v3, p0, v0}, Lcom/tencent/mm/pluginsdk/ui/f$1;-><init>(Lcom/tencent/mm/pluginsdk/ui/f;Landroid/graphics/Bitmap;)V
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/p/e;->a(Ljava/lang/String;Lcom/tencent/mm/p/e$b;)I
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/p/Eclz;->a(Ljava/lang/String;Lcom/tencent/mm/p/Eclz$b;)I
 
     goto/16 :goto_1
 

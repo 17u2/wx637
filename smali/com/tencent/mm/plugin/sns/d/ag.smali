@@ -4,7 +4,7 @@
 
 
 # static fields
-.field private static final cBM:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private static final cBM:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field private static final dOx:Landroid/graphics/Paint;
 
@@ -49,22 +49,22 @@
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
     .line 32
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
-    sput-object v0, Lcom/tencent/mm/plugin/sns/d/ag;->cBM:Lcom/tencent/mm/sdk/platformtools/ab;
+    sput-object v0, Lcom/tencent/mm/plugin/sns/d/ag;->cBM:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 33
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -99,7 +99,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -192,11 +192,11 @@
     iput-object p1, p0, Lcom/tencent/mm/plugin/sns/d/ag;->tag:Ljava/lang/String;
 
     .line 49
-    sget-object v0, Lcom/tencent/mm/plugin/sns/d/ag;->cBM:Lcom/tencent/mm/sdk/platformtools/ab;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/d/ag;->cBM:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/d/ag;->cEr:Ljava/lang/Runnable;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     goto :goto_0
 .end method

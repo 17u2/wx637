@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/network/Rclz$4;
-.super Lcom/tencent/mm/sdk/platformtools/ax;
+.super Lcom/tencent/mm/sdk/platformtools/AXclz;
 .source "SourceFile"
 
 
@@ -46,13 +46,13 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {p0, v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ax;-><init>(JLjava/lang/Object;)V
+    invoke-direct {p0, v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AXclz;-><init>(JLjava/lang/Object;)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -77,7 +77,7 @@
     invoke-direct {v0}, Ljava/util/Date;-><init>()V
 
     .line 1098
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v1
 
@@ -109,7 +109,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v3, Lcom/tencent/mm/compatible/util/d;->bqa:Ljava/lang/String;
+    sget-object v3, Lcom/tencent/mm/compatible/util/Dclz;->bqa:Ljava/lang/String;
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -161,7 +161,7 @@
     if-ne v0, v1, :cond_1
 
     .line 1103
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->appenderFlush()V
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->appenderFlush()V
 
     .line 1104
     const/4 v0, 0x1
@@ -187,7 +187,7 @@
 
     .line 1107
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->appenderFlush()V
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->appenderFlush()V
 
     goto :goto_0
 .end method

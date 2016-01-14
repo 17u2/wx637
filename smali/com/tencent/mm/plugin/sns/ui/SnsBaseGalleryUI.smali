@@ -49,7 +49,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -397,7 +397,7 @@
 
     const-string/jumbo v2, "onAttach"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
@@ -407,21 +407,21 @@
 
     invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v2, "RecogQBarOfImageFileResult"
 
-    iget-object v3, v0, Lcom/tencent/mm/plugin/sns/ui/o;->gsi:Lcom/tencent/mm/sdk/c/c;
+    iget-object v3, v0, Lcom/tencent/mm/plugin/sns/ui/o;->gsi:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v2, "NotifyDealQBarStrResult"
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/o;->gsj:Lcom/tencent/mm/sdk/c/c;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/o;->gsj:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 42
     return-void
@@ -446,7 +446,7 @@
 
     const-string/jumbo v2, "onDetch"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
@@ -456,21 +456,21 @@
 
     invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v2, "RecogQBarOfImageFileResult"
 
-    iget-object v3, v0, Lcom/tencent/mm/plugin/sns/ui/o;->gsi:Lcom/tencent/mm/sdk/c/c;
+    iget-object v3, v0, Lcom/tencent/mm/plugin/sns/ui/o;->gsi:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/sdk/c/Aclz;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v2, "NotifyDealQBarStrResult"
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/o;->gsj:Lcom/tencent/mm/sdk/c/c;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/o;->gsj:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/sdk/c/Aclz;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 92
     :cond_0
@@ -545,27 +545,27 @@
 
     if-eqz v0, :cond_1
 
-    new-instance v2, Lcom/tencent/mm/d/a/s;
+    new-instance v2, Lcom/tencent/mm/d/a/Sclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/d/a/s;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/d/a/Sclz;-><init>()V
 
-    iget-object v3, v2, Lcom/tencent/mm/d/a/s;->asp:Lcom/tencent/mm/d/a/s$a;
+    iget-object v3, v2, Lcom/tencent/mm/d/a/Sclz;->asp:Lcom/tencent/mm/d/a/Sclz$a;
 
     iget-object v0, v1, Lcom/tencent/mm/plugin/sns/ui/o;->context:Landroid/content/Context;
 
     check-cast v0, Landroid/app/Activity;
 
-    iput-object v0, v3, Lcom/tencent/mm/d/a/s$a;->asr:Landroid/app/Activity;
+    iput-object v0, v3, Lcom/tencent/mm/d/a/Sclz$a;->asr:Landroid/app/Activity;
 
-    iget-object v0, v2, Lcom/tencent/mm/d/a/s;->asp:Lcom/tencent/mm/d/a/s$a;
+    iget-object v0, v2, Lcom/tencent/mm/d/a/Sclz;->asp:Lcom/tencent/mm/d/a/Sclz$a;
 
     iget-object v3, v1, Lcom/tencent/mm/plugin/sns/ui/o;->gsg:Ljava/lang/String;
 
-    iput-object v3, v0, Lcom/tencent/mm/d/a/s$a;->asq:Ljava/lang/String;
+    iput-object v3, v0, Lcom/tencent/mm/d/a/Sclz$a;->asq:Ljava/lang/String;
 
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     const/4 v0, 0x0
 

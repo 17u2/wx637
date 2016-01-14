@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/sdk/g/j$b;
+.implements Lcom/tencent/mm/sdk/g/Jclz$b;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final a(ILcom/tencent/mm/sdk/g/j;Ljava/lang/Object;)V
+.method public final a(ILcom/tencent/mm/sdk/g/Jclz;Ljava/lang/Object;)V
     .locals 2
 
     .prologue
@@ -52,7 +52,7 @@
 
     const-string/jumbo v1, "onNotifyChange"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 154
     iget-object v0, p0, Lcom/tencent/mm/plugin/extqlauncher/b$1;->dxT:Lcom/tencent/mm/plugin/extqlauncher/b;
@@ -89,13 +89,13 @@
 
     const-string/jumbo v1, "onConversationChange, wrong args"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 165
     :cond_3
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -113,7 +113,7 @@
 
     const-string/jumbo v1, "wrong account status"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 

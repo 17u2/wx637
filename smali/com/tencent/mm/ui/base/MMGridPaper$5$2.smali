@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -98,7 +98,7 @@
 
     aput-object v5, v4, v6
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 317
     iget-object v2, p0, Lcom/tencent/mm/ui/base/MMGridPaper$5$2;->jNj:Lcom/tencent/mm/ui/base/MMGridPaper$5;
@@ -126,9 +126,9 @@
 
     iget-object v4, v4, Lcom/tencent/mm/ui/base/MMGridPaper$5;->jNh:Lcom/tencent/mm/ui/base/MMGridPaper;
 
-    iget-object v4, v4, Lcom/tencent/mm/ui/base/MMGridPaper;->jMG:Lcom/tencent/mm/ui/base/i;
+    iget-object v4, v4, Lcom/tencent/mm/ui/base/MMGridPaper;->jMG:Lcom/tencent/mm/ui/base/Iclz;
 
-    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(IIILcom/tencent/mm/ui/base/i;)V
+    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(IIILcom/tencent/mm/ui/base/Iclz;)V
 
     .line 319
     iget-object v1, p0, Lcom/tencent/mm/ui/base/MMGridPaper$5$2;->jNj:Lcom/tencent/mm/ui/base/MMGridPaper$5;

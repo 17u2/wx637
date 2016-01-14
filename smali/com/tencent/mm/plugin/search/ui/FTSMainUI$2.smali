@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -89,7 +89,7 @@
 
     const v1, 0x7f0903e4
 
-    invoke-static {v0, v1, v5, v4, v6}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IIZLandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0, v1, v5, v4, v6}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IIZLandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     .line 418
     :cond_0
@@ -135,7 +135,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -161,26 +161,26 @@
 
     .line 377
     :sswitch_1
-    invoke-static {p3}, Lcom/tencent/mm/e/a;->cR(Ljava/lang/String;)Lcom/tencent/mm/e/a;
+    invoke-static {p3}, Lcom/tencent/mm/e/Aclz;->cR(Ljava/lang/String;)Lcom/tencent/mm/e/Aclz;
 
     move-result-object v0
 
     .line 378
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/FTSMainUI$2;->fKk:Lcom/tencent/mm/plugin/search/ui/FTSMainUI;
 
-    iget-object v2, v0, Lcom/tencent/mm/e/a;->asj:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/e/Aclz;->asj:Ljava/lang/String;
 
-    iget-object v0, v0, Lcom/tencent/mm/e/a;->asn:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/e/Aclz;->asn:Ljava/lang/String;
 
-    invoke-static {v1, v2, v0, v4, v6}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ZLandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v1, v2, v0, v4, v6}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ZLandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     goto :goto_1
 
     .line 387
     :cond_3
-    check-cast p4, Lcom/tencent/mm/modelsimple/z;
+    check-cast p4, Lcom/tencent/mm/modelsimple/Zclz;
 
-    invoke-virtual {p4}, Lcom/tencent/mm/modelsimple/z;->BZ()Lcom/tencent/mm/protocal/b/akl;
+    invoke-virtual {p4}, Lcom/tencent/mm/modelsimple/Zclz;->BZ()Lcom/tencent/mm/protocal/b/akl;
 
     move-result-object v0
 
@@ -203,7 +203,7 @@
 
     const v1, 0x7f0903e4
 
-    invoke-static {v0, v1, v5, v4, v6}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IIZLandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0, v1, v5, v4, v6}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IIZLandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     goto :goto_0
 
@@ -241,12 +241,12 @@
     :cond_5
     iget-object v1, v0, Lcom/tencent/mm/protocal/b/akl;->iuA:Lcom/tencent/mm/protocal/b/ajz;
 
-    invoke-static {v1}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/platformtools/Nclz;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 
     move-result-object v1
 
     .line 401
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 

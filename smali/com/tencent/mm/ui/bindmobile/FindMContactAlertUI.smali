@@ -26,7 +26,7 @@
 
 .field private jXD:Z
 
-.field private jXE:Lcom/tencent/mm/modelfriend/aa;
+.field private jXE:Lcom/tencent/mm/modelfriend/AAclz;
 
 .field private jXF:Ljava/lang/String;
 
@@ -122,7 +122,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -140,12 +140,12 @@
     return-object v0
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;Lcom/tencent/mm/modelfriend/aa;)Lcom/tencent/mm/modelfriend/aa;
+.method static synthetic a(Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;Lcom/tencent/mm/modelfriend/AAclz;)Lcom/tencent/mm/modelfriend/AAclz;
     .locals 0
 
     .prologue
     .line 52
-    iput-object p1, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;->jXE:Lcom/tencent/mm/modelfriend/aa;
+    iput-object p1, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;->jXE:Lcom/tencent/mm/modelfriend/AAclz;
 
     return-object p1
 .end method
@@ -298,7 +298,7 @@
 
     move-object v0, p0
 
-    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     .line 247
     :goto_0
@@ -306,7 +306,7 @@
 
     .line 217
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/modelfriend/m;->yk()Z
+    invoke-static {}, Lcom/tencent/mm/modelfriend/Mclz;->yk()Z
 
     move-result v0
 
@@ -325,19 +325,19 @@
 
     invoke-direct {v4, p0}, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI$4;-><init>(Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;)V
 
-    new-instance v5, Lcom/tencent/mm/ui/base/g;
+    new-instance v5, Lcom/tencent/mm/ui/base/Gclz;
 
-    invoke-direct {v5, p0}, Lcom/tencent/mm/ui/base/g;-><init>(Landroid/content/Context;)V
+    invoke-direct {v5, p0}, Lcom/tencent/mm/ui/base/Gclz;-><init>(Landroid/content/Context;)V
 
-    invoke-virtual {v5, v2}, Lcom/tencent/mm/ui/base/g;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {v5, v2}, Lcom/tencent/mm/ui/base/Gclz;->setTitle(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {v5, v0}, Lcom/tencent/mm/ui/base/g;->setMessage(Ljava/lang/CharSequence;)V
+    invoke-virtual {v5, v0}, Lcom/tencent/mm/ui/base/Gclz;->setMessage(Ljava/lang/CharSequence;)V
 
     const v0, 0x7f09057e
 
-    invoke-virtual {v5, v0, v3}, Lcom/tencent/mm/ui/base/g;->a(ILandroid/content/DialogInterface$OnClickListener;)V
+    invoke-virtual {v5, v0, v3}, Lcom/tencent/mm/ui/base/Gclz;->a(ILandroid/content/DialogInterface$OnClickListener;)V
 
-    iget-object v0, v5, Lcom/tencent/mm/ui/base/g;->mContext:Landroid/content/Context;
+    iget-object v0, v5, Lcom/tencent/mm/ui/base/Gclz;->mContext:Landroid/content/Context;
 
     const v2, 0x7f09057c
 
@@ -347,21 +347,21 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {v5, v0, v2, v4}, Lcom/tencent/mm/ui/base/g;->b(Ljava/lang/CharSequence;ZLandroid/content/DialogInterface$OnClickListener;)V
+    invoke-virtual {v5, v0, v2, v4}, Lcom/tencent/mm/ui/base/Gclz;->b(Ljava/lang/CharSequence;ZLandroid/content/DialogInterface$OnClickListener;)V
 
-    iget-object v0, v5, Lcom/tencent/mm/ui/base/g;->hqx:Landroid/widget/Button;
+    iget-object v0, v5, Lcom/tencent/mm/ui/base/Gclz;->hqx:Landroid/widget/Button;
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setVisibility(I)V
 
-    iget-object v0, v5, Lcom/tencent/mm/ui/base/g;->gMl:Landroid/widget/Button;
+    iget-object v0, v5, Lcom/tencent/mm/ui/base/Gclz;->gMl:Landroid/widget/Button;
 
     invoke-virtual {v0}, Landroid/widget/Button;->getVisibility()I
 
-    invoke-virtual {v5, v1}, Lcom/tencent/mm/ui/base/g;->setCancelable(Z)V
+    invoke-virtual {v5, v1}, Lcom/tencent/mm/ui/base/Gclz;->setCancelable(Z)V
 
-    invoke-virtual {v5}, Lcom/tencent/mm/ui/base/g;->show()V
+    invoke-virtual {v5}, Lcom/tencent/mm/ui/base/Gclz;->show()V
 
-    invoke-virtual {v5}, Lcom/tencent/mm/ui/base/g;->getWindow()Landroid/view/Window;
+    invoke-virtual {v5}, Lcom/tencent/mm/ui/base/Gclz;->getWindow()Landroid/view/Window;
 
     move-result-object v0
 
@@ -372,7 +372,7 @@
     invoke-virtual {p0, v5}, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;->a(Landroid/app/Dialog;)V
 
     .line 241
-    invoke-virtual {v5}, Lcom/tencent/mm/ui/base/g;->getWindow()Landroid/view/Window;
+    invoke-virtual {v5}, Lcom/tencent/mm/ui/base/Gclz;->getWindow()Landroid/view/Window;
 
     move-result-object v0
 
@@ -386,7 +386,7 @@
 
     new-instance v1, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI$5;
 
-    invoke-direct {v1, p0, v5}, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI$5;-><init>(Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;Lcom/tencent/mm/ui/base/g;)V
+    invoke-direct {v1, p0, v5}, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI$5;-><init>(Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;Lcom/tencent/mm/ui/base/Gclz;)V
 
     invoke-virtual {v0, v1}, Landroid/view/ViewTreeObserver;->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
 
@@ -449,7 +449,7 @@
 
     const/16 v3, 0x30
 
-    invoke-static {p0, v3}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {p0, v3}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v3
 
@@ -473,7 +473,7 @@
 
     const/16 v2, 0x14
 
-    invoke-static {p0, v2}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {p0, v2}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -550,7 +550,7 @@
 
     aput-object v2, v6, v1
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     invoke-virtual {v3, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
@@ -609,9 +609,9 @@
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 415
-    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const v1, 0x7f090ad3
 
@@ -627,14 +627,14 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI$8;-><init>(Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;)V
 
-    invoke-static {v0, v1, v4, v2}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v0, v1, v4, v2}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;->cgh:Landroid/app/ProgressDialog;
 
     .line 426
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     move-result-object v0
 
@@ -642,13 +642,13 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI$9;-><init>(Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ac;->a(Lcom/tencent/mm/sdk/platformtools/ac$a;)I
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ACclz;->a(Lcom/tencent/mm/sdk/platformtools/ACclz$a;)I
 
     .line 456
-    invoke-static {v4, v5}, Lcom/tencent/mm/platformtools/m;->d(ZZ)V
+    invoke-static {v4, v5}, Lcom/tencent/mm/platformtools/Mclz;->d(ZZ)V
 
     .line 457
-    invoke-static {}, Lcom/tencent/mm/modelfriend/a;->xL()Z
+    invoke-static {}, Lcom/tencent/mm/modelfriend/Aclz;->xL()Z
 
     .line 459
     sget-object v0, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;
@@ -684,7 +684,7 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 462
     return-void
@@ -917,12 +917,12 @@
     return-object v0
 .end method
 
-.method static synthetic l(Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;)Lcom/tencent/mm/modelfriend/aa;
+.method static synthetic l(Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;)Lcom/tencent/mm/modelfriend/AAclz;
     .locals 1
 
     .prologue
     .line 52
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;->jXE:Lcom/tencent/mm/modelfriend/aa;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;->jXE:Lcom/tencent/mm/modelfriend/AAclz;
 
     return-object v0
 .end method
@@ -956,7 +956,7 @@
     .line 144
     iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;->jXB:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -971,7 +971,7 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;->jXC:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1141,11 +1141,11 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;->jXC:Ljava/lang/String;
 
     .line 86
-    invoke-static {}, Lcom/tencent/mm/modelfriend/m;->yl()Lcom/tencent/mm/modelfriend/m$a;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/Mclz;->yl()Lcom/tencent/mm/modelfriend/Mclz$a;
 
     move-result-object v0
 
-    sget-object v3, Lcom/tencent/mm/modelfriend/m$a;->bFc:Lcom/tencent/mm/modelfriend/m$a;
+    sget-object v3, Lcom/tencent/mm/modelfriend/Mclz$a;->bFc:Lcom/tencent/mm/modelfriend/Mclz$a;
 
     if-eq v0, v3, :cond_0
 
@@ -1180,7 +1180,7 @@
 
     aput-object v2, v4, v1
 
-    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 91
     invoke-virtual {p0}, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;->isFinishing()Z
@@ -1218,7 +1218,7 @@
 
     const-string/jumbo v1, "ondestroy"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 103
     iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactAlertUI;->bUB:Lcom/tencent/mm/q/Dclz;

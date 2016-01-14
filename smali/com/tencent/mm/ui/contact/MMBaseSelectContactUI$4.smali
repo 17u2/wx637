@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -143,7 +143,7 @@
 
     check-cast v0, Ljava/lang/Boolean;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->d(Ljava/lang/Boolean;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->d(Ljava/lang/Boolean;)Z
 
     move-result v0
 
@@ -170,7 +170,7 @@
     .line 223
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI$4;->ktg:Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;->g(Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;)Lcom/tencent/mm/ui/base/n;
+    invoke-static {v0}, Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;->g(Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;)Lcom/tencent/mm/ui/base/Nclz;
 
     move-result-object v0
 
@@ -179,11 +179,11 @@
     .line 224
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI$4;->ktg:Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;->g(Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;)Lcom/tencent/mm/ui/base/n;
+    invoke-static {v0}, Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;->g(Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;)Lcom/tencent/mm/ui/base/Nclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/n;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Nclz;->dismiss()V
 
     .line 226
     :cond_4
@@ -201,11 +201,11 @@
 
     const-wide/16 v3, 0xfa0
 
-    invoke-static {v1, v2, v3, v4}, Lcom/tencent/mm/ui/base/r;->a(Landroid/app/Activity;Ljava/lang/String;J)Lcom/tencent/mm/ui/base/n;
+    invoke-static {v1, v2, v3, v4}, Lcom/tencent/mm/ui/base/Rclz;->a(Landroid/app/Activity;Ljava/lang/String;J)Lcom/tencent/mm/ui/base/Nclz;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;->a(Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;Lcom/tencent/mm/ui/base/n;)Lcom/tencent/mm/ui/base/n;
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;->a(Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;Lcom/tencent/mm/ui/base/Nclz;)Lcom/tencent/mm/ui/base/Nclz;
 
     goto :goto_1
 .end method

@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -74,7 +74,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->aCM:Lcom/tencent/mm/storage/ADclz;
 
-    iget-wide v3, v0, Lcom/tencent/mm/d/b/ba;->field_msgId:J
+    iget-wide v3, v0, Lcom/tencent/mm/d/b/BAclz;->field_msgId:J
 
     invoke-virtual {v1, v2, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 

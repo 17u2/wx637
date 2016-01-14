@@ -15,7 +15,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -49,7 +49,7 @@
 
     aput-object v4, v3, v2
 
-    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 61
     const/4 v0, -0x1
@@ -90,7 +90,7 @@
 
     const-string/jumbo v1, "account not ready"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 72
     invoke-static {p0, v11, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
@@ -116,7 +116,7 @@
     const/4 v0, 0x0
 
     .line 78
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -129,7 +129,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->h([Ljava/lang/String;)Ljava/util/List;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->h([Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
@@ -151,7 +151,7 @@
 
     const-string/jumbo v1, "userNames empty"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -177,7 +177,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 86
     invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
@@ -224,7 +224,7 @@
     .line 95
     if-eqz v6, :cond_5
 
-    iget-wide v7, v6, Lcom/tencent/mm/h/a;->boB:J
+    iget-wide v7, v6, Lcom/tencent/mm/h/Aclz;->boB:J
 
     long-to-int v0, v7
 
@@ -236,7 +236,7 @@
 
     const-string/jumbo v1, "no such user"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 97
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/extqlauncher/ui/QLauncherCreateShortcutUI;->finish()V
@@ -262,7 +262,7 @@
 
     aput-object v0, v4, v2
 
-    invoke-static {v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 131
     invoke-static {p0, v11, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
@@ -287,7 +287,7 @@
     move-result-object v7
 
     .line 101
-    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -298,7 +298,7 @@
 
     const-string/jumbo v1, "null encryptShortcutUser"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 103
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/extqlauncher/ui/QLauncherCreateShortcutUI;->finish()V
@@ -374,7 +374,7 @@
     .line 114
     const-string/jumbo v6, "icon_path"
 
-    invoke-static {}, Lcom/tencent/mm/p/n;->uQ()Lcom/tencent/mm/p/d;
+    invoke-static {}, Lcom/tencent/mm/p/Nclz;->uQ()Lcom/tencent/mm/p/Dclz;
 
     invoke-interface {v3, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -384,7 +384,7 @@
 
     const/4 v9, 0x0
 
-    invoke-static {v0, v9}, Lcom/tencent/mm/p/d;->j(Ljava/lang/String;Z)Ljava/lang/String;
+    invoke-static {v0, v9}, Lcom/tencent/mm/p/Dclz;->j(Ljava/lang/String;Z)Ljava/lang/String;
 
     move-result-object v0
 
@@ -495,7 +495,7 @@
 
     const-string/jumbo v1, "onCreate"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 42
     invoke-virtual {p0, v4}, Lcom/tencent/mm/plugin/extqlauncher/ui/QLauncherCreateShortcutUI;->requestWindowFeature(I)Z
@@ -515,7 +515,7 @@
 
     new-array v1, v1, [I
 
-    sget v2, Lcom/tencent/mm/ui/contact/q;->ktw:I
+    sget v2, Lcom/tencent/mm/ui/contact/Qclz;->ktw:I
 
     aput v2, v1, v5
 
@@ -529,12 +529,12 @@
 
     aput v3, v1, v2
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/contact/q;->k([I)I
+    invoke-static {v1}, Lcom/tencent/mm/ui/contact/Qclz;->k([I)I
 
     move-result v1
 
     .line 48
-    invoke-static {v1, v4}, Lcom/tencent/mm/ui/contact/q;->bO(II)I
+    invoke-static {v1, v4}, Lcom/tencent/mm/ui/contact/Qclz;->bO(II)I
 
     .line 49
     const-string/jumbo v2, "list_attr"
@@ -576,7 +576,7 @@
     .line 54
     const-string/jumbo v1, ".ui.contact.SelectContactUI"
 
-    invoke-static {p0, v1, v0, v4}, Lcom/tencent/mm/ao/c;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;I)V
+    invoke-static {p0, v1, v0, v4}, Lcom/tencent/mm/ao/Cclz;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;I)V
 
     .line 55
     return-void

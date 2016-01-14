@@ -63,7 +63,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -82,9 +82,9 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI$10;->aoz:Lcom/tencent/mm/q/Jclz;
 
-    check-cast v0, Lcom/tencent/mm/modelsimple/v;
+    check-cast v0, Lcom/tencent/mm/modelsimple/Vclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelsimple/v;->BS()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelsimple/Vclz;->BS()Ljava/lang/String;
 
     move-result-object v0
 

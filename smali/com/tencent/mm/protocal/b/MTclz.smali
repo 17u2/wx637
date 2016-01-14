@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/protocal/b/MTclz;
-.super Lcom/tencent/mm/aq/a;
+.super Lcom/tencent/mm/aq/Aclz;
 .source "SourceFile"
 
 
@@ -57,7 +57,7 @@
     const/4 v1, 0x0
 
     .line 11
-    invoke-direct {p0}, Lcom/tencent/mm/aq/a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/aq/Aclz;-><init>()V
 
     .line 13
     iput-boolean v1, p0, Lcom/tencent/mm/protocal/b/MTclz;->iyL:Z
@@ -101,7 +101,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -546,7 +546,7 @@
     invoke-direct {v1, v0, v2}, La/a/a/a/aclass;-><init>([BLa/a/a/a/a/bclass;)V
 
     .line 206
-    invoke-static {v1}, Lcom/tencent/mm/aq/a;->a(La/a/a/a/aclass;)I
+    invoke-static {v1}, Lcom/tencent/mm/aq/Aclz;->a(La/a/a/a/aclass;)I
 
     move-result v0
 
@@ -555,7 +555,7 @@
     if-lez v0, :cond_a
 
     .line 209
-    invoke-super {p0, v1, p0, v0}, Lcom/tencent/mm/aq/a;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/a;I)Z
+    invoke-super {p0, v1, p0, v0}, Lcom/tencent/mm/aq/Aclz;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/Aclz;I)Z
 
     move-result v0
 
@@ -566,7 +566,7 @@
 
     .line 212
     :cond_17
-    invoke-static {v1}, Lcom/tencent/mm/aq/a;->a(La/a/a/a/aclass;)I
+    invoke-static {v1}, Lcom/tencent/mm/aq/Aclz;->a(La/a/a/a/aclass;)I
 
     move-result v0
 
@@ -645,12 +645,12 @@
     if-eqz v0, :cond_19
 
     .line 231
-    invoke-static {v8}, Lcom/tencent/mm/aq/a;->a(La/a/a/a/aclass;)I
+    invoke-static {v8}, Lcom/tencent/mm/aq/Aclz;->a(La/a/a/a/aclass;)I
 
     move-result v0
 
     .line 232
-    invoke-virtual {v7, v8, v7, v0}, Lcom/tencent/mm/protocal/b/MUclz;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/a;I)Z
+    invoke-virtual {v7, v8, v7, v0}, Lcom/tencent/mm/protocal/b/MUclz;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/Aclz;I)Z
 
     move-result v0
 
@@ -715,12 +715,12 @@
     if-eqz v0, :cond_1b
 
     .line 250
-    invoke-static {v8}, Lcom/tencent/mm/aq/a;->a(La/a/a/a/aclass;)I
+    invoke-static {v8}, Lcom/tencent/mm/aq/Aclz;->a(La/a/a/a/aclass;)I
 
     move-result v0
 
     .line 251
-    invoke-virtual {v7, v8, v7, v0}, Lcom/tencent/mm/protocal/b/MYclz;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/a;I)Z
+    invoke-virtual {v7, v8, v7, v0}, Lcom/tencent/mm/protocal/b/MYclz;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/Aclz;I)Z
 
     move-result v0
 
@@ -785,12 +785,12 @@
     if-eqz v0, :cond_1d
 
     .line 269
-    invoke-static {v8}, Lcom/tencent/mm/aq/a;->a(La/a/a/a/aclass;)I
+    invoke-static {v8}, Lcom/tencent/mm/aq/Aclz;->a(La/a/a/a/aclass;)I
 
     move-result v0
 
     .line 270
-    invoke-virtual {v7, v8, v7, v0}, Lcom/tencent/mm/protocal/b/NLclz;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/a;I)Z
+    invoke-virtual {v7, v8, v7, v0}, Lcom/tencent/mm/protocal/b/NLclz;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/Aclz;I)Z
 
     move-result v0
 
@@ -855,12 +855,12 @@
     if-eqz v0, :cond_1f
 
     .line 288
-    invoke-static {v8}, Lcom/tencent/mm/aq/a;->a(La/a/a/a/aclass;)I
+    invoke-static {v8}, Lcom/tencent/mm/aq/Aclz;->a(La/a/a/a/aclass;)I
 
     move-result v0
 
     .line 289
-    invoke-virtual {v7, v8, v7, v0}, Lcom/tencent/mm/protocal/b/NAclz;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/a;I)Z
+    invoke-virtual {v7, v8, v7, v0}, Lcom/tencent/mm/protocal/b/NAclz;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/Aclz;I)Z
 
     move-result v0
 
@@ -925,12 +925,12 @@
     if-eqz v0, :cond_21
 
     .line 307
-    invoke-static {v8}, Lcom/tencent/mm/aq/a;->a(La/a/a/a/aclass;)I
+    invoke-static {v8}, Lcom/tencent/mm/aq/Aclz;->a(La/a/a/a/aclass;)I
 
     move-result v0
 
     .line 308
-    invoke-virtual {v7, v8, v7, v0}, Lcom/tencent/mm/protocal/b/NFclz;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/a;I)Z
+    invoke-virtual {v7, v8, v7, v0}, Lcom/tencent/mm/protocal/b/NFclz;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/Aclz;I)Z
 
     move-result v0
 

@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity$1;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 7
 
     .prologue
@@ -55,7 +55,7 @@
     .line 36
     if-eqz p1, :cond_0
 
-    instance-of v0, p1, Lcom/tencent/mm/d/a/fz;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/FZclz;
 
     if-nez v0, :cond_1
 
@@ -65,7 +65,7 @@
 
     const-string/jumbo v1, "event is null or not a instant of NotifyDealQBarStrResultEvent"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 60
     :goto_0
@@ -73,20 +73,20 @@
 
     .line 41
     :cond_1
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "NotifyDealQBarStrResult"
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity$1;->hBE:Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;
 
-    invoke-static {v2}, Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;->a(Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;)Lcom/tencent/mm/sdk/c/c;
+    invoke-static {v2}, Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;->a(Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;)Lcom/tencent/mm/sdk/c/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 42
-    check-cast p1, Lcom/tencent/mm/d/a/fz;
+    check-cast p1, Lcom/tencent/mm/d/a/FZclz;
 
     .line 43
     const-string/jumbo v0, "!56@/B4Tb64lLpJyTcvq+AjWDfjiHqr34/+dFmlhIhP9d32RBu/4z/9E2g=="
@@ -95,9 +95,9 @@
 
     new-array v2, v5, [Ljava/lang/Object;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/fz;->aAF:Lcom/tencent/mm/d/a/fz$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/FZclz;->aAF:Lcom/tencent/mm/d/a/FZclz$a;
 
-    iget v3, v3, Lcom/tencent/mm/d/a/fz$a;->aAD:I
+    iget v3, v3, Lcom/tencent/mm/d/a/FZclz$a;->aAD:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -105,7 +105,7 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 45
     const-string/jumbo v0, "!56@/B4Tb64lLpJyTcvq+AjWDfjiHqr34/+dFmlhIhP9d32RBu/4z/9E2g=="
@@ -114,9 +114,9 @@
 
     new-array v2, v6, [Ljava/lang/Object;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/fz;->aAF:Lcom/tencent/mm/d/a/fz$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/FZclz;->aAF:Lcom/tencent/mm/d/a/FZclz$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/fz$a;->asr:Landroid/app/Activity;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/FZclz$a;->asr:Landroid/app/Activity;
 
     aput-object v3, v2, v4
 
@@ -124,20 +124,20 @@
 
     aput-object v3, v2, v5
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 46
-    iget-object v0, p1, Lcom/tencent/mm/d/a/fz;->aAF:Lcom/tencent/mm/d/a/fz$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/FZclz;->aAF:Lcom/tencent/mm/d/a/FZclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/fz$a;->asr:Landroid/app/Activity;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/FZclz$a;->asr:Landroid/app/Activity;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity$1;->hBE:Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;
 
     if-ne v0, v1, :cond_2
 
-    iget-object v0, p1, Lcom/tencent/mm/d/a/fz;->aAF:Lcom/tencent/mm/d/a/fz$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/FZclz;->aAF:Lcom/tencent/mm/d/a/FZclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/fz$a;->asq:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/FZclz$a;->asq:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity$1;->hBE:Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;
 
@@ -159,9 +159,9 @@
 
     new-array v2, v6, [Ljava/lang/Object;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/fz;->aAF:Lcom/tencent/mm/d/a/fz$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/FZclz;->aAF:Lcom/tencent/mm/d/a/FZclz$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/fz$a;->asq:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/FZclz$a;->asq:Ljava/lang/String;
 
     aput-object v3, v2, v4
 
@@ -173,15 +173,15 @@
 
     aput-object v3, v2, v5
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
     .line 51
     :cond_3
-    iget-object v0, p1, Lcom/tencent/mm/d/a/fz;->aAF:Lcom/tencent/mm/d/a/fz$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/FZclz;->aAF:Lcom/tencent/mm/d/a/FZclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/fz$a;->aAD:I
+    iget v0, v0, Lcom/tencent/mm/d/a/FZclz$a;->aAD:I
 
     packed-switch v0, :pswitch_data_0
 

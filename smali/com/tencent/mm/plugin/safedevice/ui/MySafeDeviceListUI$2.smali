@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/g/i;)V
+    value = Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/g/Iclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

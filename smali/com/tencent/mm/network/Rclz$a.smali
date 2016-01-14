@@ -49,7 +49,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -93,7 +93,7 @@
 
     const-string/jumbo v3, "summerauth IOnAutoAuth onGYNetEnd manual auth"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 123
     invoke-interface {p5}, Lcom/tencent/mm/network/Pclz;->vQ()Lcom/tencent/mm/protocal/Fclz;
@@ -144,7 +144,7 @@
 
     const-string/jumbo v1, "summerauth manualLoginDecodeFailedTry beyond 1 no more try!"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 130
     iget-object v0, p0, Lcom/tencent/mm/network/Rclz$a;->bfd:Lcom/tencent/mm/network/Rclz;
@@ -157,7 +157,7 @@
 
     const-string/jumbo v2, ""
 
-    invoke-static {p4, v2}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p4, v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -265,7 +265,7 @@
 
     const-string/jumbo v2, ""
 
-    invoke-static {p4, v2}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p4, v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -339,9 +339,9 @@
     .line 112
     iget-object v1, p0, Lcom/tencent/mm/network/Rclz$a;->bfd:Lcom/tencent/mm/network/Rclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/network/Rclz;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, v1, Lcom/tencent/mm/network/Rclz;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ax;->b(Lcom/tencent/mm/sdk/platformtools/ab;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/AXclz;->b(Lcom/tencent/mm/sdk/platformtools/ABclz;)Ljava/lang/Object;
 
     .line 113
     return-void

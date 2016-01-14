@@ -22,7 +22,7 @@
 
 .field private final byf:Lcom/tencent/mm/q/Dclz;
 
-.field final handler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field final handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -72,16 +72,16 @@
 
     if-nez v0, :cond_1
 
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
     :goto_0
-    iput-object v0, p0, Lcom/tencent/mm/q/Oclz;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/q/Oclz;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 65
     iput-object p5, p0, Lcom/tencent/mm/q/Oclz;->bya:Lcom/tencent/mm/network/Eclz;
@@ -91,16 +91,16 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 
     .line 64
     :cond_1
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     goto :goto_0
 .end method
@@ -254,7 +254,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 77
     iget-object v0, p0, Lcom/tencent/mm/q/Oclz;->atC:Lcom/tencent/mm/q/Jclz;
@@ -283,14 +283,14 @@
     iput-boolean v5, p0, Lcom/tencent/mm/q/Oclz;->byP:Z
 
     .line 88
-    iget-object v0, p0, Lcom/tencent/mm/q/Oclz;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/q/Oclz;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Lcom/tencent/mm/q/Oclz;->byQ:Ljava/lang/Runnable;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     .line 89
-    iget-object v7, p0, Lcom/tencent/mm/q/Oclz;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v7, p0, Lcom/tencent/mm/q/Oclz;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     new-instance v0, Lcom/tencent/mm/q/Oclz$2;
 
@@ -308,7 +308,7 @@
 
     invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/q/Oclz$2;-><init>(Lcom/tencent/mm/q/Oclz;IIILjava/lang/String;[B)V
 
-    invoke-virtual {v7, v0}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v7, v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     goto :goto_0
 .end method
@@ -323,11 +323,11 @@
     iput-boolean v0, p0, Lcom/tencent/mm/q/Oclz;->byO:Z
 
     .line 70
-    iget-object v0, p0, Lcom/tencent/mm/q/Oclz;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/q/Oclz;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Lcom/tencent/mm/q/Oclz;->byQ:Ljava/lang/Runnable;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     .line 71
     return-void

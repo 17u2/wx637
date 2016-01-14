@@ -4,8 +4,8 @@
 
 # interfaces
 .implements Lcom/tencent/mm/q/Dclz;
-.implements Lcom/tencent/mm/sdk/g/g$a;
-.implements Lcom/tencent/mm/sdk/g/j$b;
+.implements Lcom/tencent/mm/sdk/g/Gclz$a;
+.implements Lcom/tencent/mm/sdk/g/Jclz$b;
 
 
 # instance fields
@@ -76,7 +76,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -144,7 +144,7 @@
 
     const-string/jumbo v1, "intent is null."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 188
     :goto_0
@@ -172,7 +172,7 @@
     .line 140
     iget-object v0, p0, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;->avw:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -183,7 +183,7 @@
 
     const-string/jumbo v1, "toUserName is null."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -246,7 +246,7 @@
 
     aput-object v4, v3, v2
 
-    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -254,7 +254,7 @@
     :pswitch_0
     iget-object v0, p0, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;->appId:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -265,7 +265,7 @@
 
     const-string/jumbo v1, "appId is null."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -297,7 +297,7 @@
 
     const-string/jumbo v1, "androidPackNameList is null or nil."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -327,7 +327,7 @@
     check-cast v0, Ljava/lang/String;
 
     .line 168
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v6
 
@@ -350,12 +350,12 @@
 
     aput-object v0, v8, v3
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 172
     iget-object v6, p0, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;->jsV:Ljava/util/LinkedList;
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/n;->jV(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/ajz;
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Nclz;->jV(Ljava/lang/String;)Lcom/tencent/mm/protocal/b/ajz;
 
     move-result-object v0
 
@@ -384,7 +384,7 @@
 
     const-string/jumbo v1, "androidPackNameList is nil."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -459,7 +459,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 227
     iget v0, p0, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;->arG:I
@@ -483,7 +483,7 @@
 
     const-string/jumbo v2, ".ui.tools.WebViewUI"
 
-    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     .line 231
     invoke-virtual {p0}, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;->finish()V
@@ -518,7 +518,7 @@
 
     const-string/jumbo v1, "has jump ignore this scene"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -549,7 +549,7 @@
     invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 242
-    new-instance v0, Lcom/tencent/mm/modelsimple/m;
+    new-instance v0, Lcom/tencent/mm/modelsimple/Mclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;->extInfo:Ljava/lang/String;
 
@@ -557,7 +557,7 @@
 
     const/4 v3, 0x4
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/modelsimple/m;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/modelsimple/Mclz;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 243
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -589,7 +589,7 @@
 
     const-string/jumbo v1, "jump to ChattingUI"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Landroid/content/Intent;
 
@@ -611,7 +611,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;->avw:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -619,7 +619,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;->avw:Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/contact/e;->a(Landroid/content/Intent;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/contact/Eclz;->a(Landroid/content/Intent;Ljava/lang/String;)V
 
     :cond_4
     const-class v1, Lcom/tencent/mm/ui/chatting/ChattingUI;
@@ -659,7 +659,7 @@
 
     const-string/jumbo v1, "jump to ContactInfoUI"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
@@ -703,62 +703,62 @@
 
     const-string/jumbo v2, "Contact_Nick"
 
-    iget-object v3, v0, Lcom/tencent/mm/d/b/o;->field_nickname:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/d/b/Oclz;->field_nickname:Ljava/lang/String;
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string/jumbo v2, "Contact_Signature"
 
-    iget-object v3, v0, Lcom/tencent/mm/d/b/o;->aOC:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/d/b/Oclz;->aOC:Ljava/lang/String;
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string/jumbo v2, "Contact_RegionCode"
 
-    iget-object v3, v0, Lcom/tencent/mm/d/b/o;->aOJ:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/d/b/Oclz;->aOJ:Ljava/lang/String;
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string/jumbo v2, "Contact_Sex"
 
-    iget v3, v0, Lcom/tencent/mm/d/b/o;->aOs:I
+    iget v3, v0, Lcom/tencent/mm/d/b/Oclz;->aOs:I
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     const-string/jumbo v2, "Contact_VUser_Info"
 
-    iget-object v3, v0, Lcom/tencent/mm/d/b/o;->aOI:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/d/b/Oclz;->aOI:Ljava/lang/String;
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string/jumbo v2, "Contact_VUser_Info_Flag"
 
-    iget v3, v0, Lcom/tencent/mm/d/b/o;->field_verifyFlag:I
+    iget v3, v0, Lcom/tencent/mm/d/b/Oclz;->field_verifyFlag:I
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     const-string/jumbo v2, "Contact_KWeibo_flag"
 
-    iget v3, v0, Lcom/tencent/mm/d/b/o;->field_weiboFlag:I
+    iget v3, v0, Lcom/tencent/mm/d/b/Oclz;->field_weiboFlag:I
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     const-string/jumbo v2, "Contact_KWeibo"
 
-    iget-object v3, v0, Lcom/tencent/mm/d/b/o;->aOH:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/d/b/Oclz;->aOH:Ljava/lang/String;
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string/jumbo v2, "Contact_KWeiboNick"
 
-    iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_weiboNickname:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/b/Oclz;->field_weiboNickname:Ljava/lang/String;
 
     invoke-virtual {v1, v2, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     :cond_6
     iget-object v0, p0, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;->avw:Ljava/lang/String;
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/ui/contact/e;->g(Landroid/content/Intent;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/ui/contact/Eclz;->g(Landroid/content/Intent;Ljava/lang/String;)V
 
     iget-boolean v0, p0, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;->jsX:Z
 
@@ -776,7 +776,7 @@
 
     const-string/jumbo v2, ".ui.ContactInfoUI"
 
-    invoke-static {p0, v0, v2, v1}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {p0, v0, v2, v1}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     invoke-virtual {p0}, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;->finish()V
     :try_end_2
@@ -814,7 +814,7 @@
     .line 257
     if-eqz v4, :cond_0
 
-    iget-wide v2, v4, Lcom/tencent/mm/h/a;->boB:J
+    iget-wide v2, v4, Lcom/tencent/mm/h/Aclz;->boB:J
 
     long-to-int v2, v2
 
@@ -826,7 +826,7 @@
 
     const-string/jumbo v3, "contact is null."
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     move v2, v1
 
@@ -878,7 +878,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v2, v1
 
@@ -929,9 +929,9 @@
     iput-boolean v2, p0, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;->bwa:Z
 
     .line 280
-    iget v2, v4, Lcom/tencent/mm/d/b/o;->field_type:I
+    iget v2, v4, Lcom/tencent/mm/d/b/Oclz;->field_type:I
 
-    invoke-static {v2}, Lcom/tencent/mm/h/a;->cf(I)Z
+    invoke-static {v2}, Lcom/tencent/mm/h/Aclz;->cf(I)Z
 
     move-result v2
 
@@ -1004,9 +1004,9 @@
 
     .line 305
     :cond_9
-    iget v2, v4, Lcom/tencent/mm/d/b/o;->field_type:I
+    iget v2, v4, Lcom/tencent/mm/d/b/Oclz;->field_type:I
 
-    invoke-static {v2}, Lcom/tencent/mm/h/a;->cf(I)Z
+    invoke-static {v2}, Lcom/tencent/mm/h/Aclz;->cf(I)Z
 
     move-result v2
 
@@ -1017,7 +1017,7 @@
 
     const-string/jumbo v2, "is not contact."
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 307
     const/4 v1, 0x1
@@ -1193,7 +1193,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 195
     invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
@@ -1224,10 +1224,10 @@
     if-nez p2, :cond_2
 
     .line 200
-    check-cast p4, Lcom/tencent/mm/modelsimple/m;
+    check-cast p4, Lcom/tencent/mm/modelsimple/Mclz;
 
     .line 201
-    invoke-virtual {p4}, Lcom/tencent/mm/modelsimple/m;->BE()I
+    invoke-virtual {p4}, Lcom/tencent/mm/modelsimple/Mclz;->BE()I
 
     move-result v0
 
@@ -1244,7 +1244,7 @@
 
     aput-object v4, v3, v6
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 203
     const/16 v1, 0xf
@@ -1252,7 +1252,7 @@
     if-ne v0, v1, :cond_1
 
     .line 204
-    invoke-virtual {p4}, Lcom/tencent/mm/modelsimple/m;->BC()Ljava/lang/String;
+    invoke-virtual {p4}, Lcom/tencent/mm/modelsimple/Mclz;->BC()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1273,36 +1273,36 @@
 
     aput-object v1, v4, v7
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 206
-    new-instance v2, Lcom/tencent/mm/d/a/ea;
+    new-instance v2, Lcom/tencent/mm/d/a/EAclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/d/a/ea;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/d/a/EAclz;-><init>()V
 
     .line 207
-    iget-object v3, v2, Lcom/tencent/mm/d/a/ea;->axY:Lcom/tencent/mm/d/a/ea$a;
+    iget-object v3, v2, Lcom/tencent/mm/d/a/EAclz;->axY:Lcom/tencent/mm/d/a/EAclz$a;
 
-    iput v0, v3, Lcom/tencent/mm/d/a/ea$a;->actionCode:I
+    iput v0, v3, Lcom/tencent/mm/d/a/EAclz$a;->actionCode:I
 
     .line 208
-    iget-object v0, v2, Lcom/tencent/mm/d/a/ea;->axY:Lcom/tencent/mm/d/a/ea$a;
+    iget-object v0, v2, Lcom/tencent/mm/d/a/EAclz;->axY:Lcom/tencent/mm/d/a/EAclz$a;
 
-    iput-object v1, v0, Lcom/tencent/mm/d/a/ea$a;->aya:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/d/a/EAclz$a;->aya:Ljava/lang/String;
 
     .line 209
-    iget-object v0, v2, Lcom/tencent/mm/d/a/ea;->axY:Lcom/tencent/mm/d/a/ea$a;
+    iget-object v0, v2, Lcom/tencent/mm/d/a/EAclz;->axY:Lcom/tencent/mm/d/a/EAclz$a;
 
-    iput-object p0, v0, Lcom/tencent/mm/d/a/ea$a;->context:Landroid/content/Context;
+    iput-object p0, v0, Lcom/tencent/mm/d/a/EAclz$a;->context:Landroid/content/Context;
 
     .line 210
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object v1
 
-    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/sdk/c/a;->a(Lcom/tencent/mm/sdk/c/b;Landroid/os/Looper;)V
+    invoke-virtual {v0, v2, v1}, Lcom/tencent/mm/sdk/c/Aclz;->a(Lcom/tencent/mm/sdk/c/Bclz;Landroid/os/Looper;)V
 
     .line 211
     invoke-virtual {p0}, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;->finish()V
@@ -1342,12 +1342,12 @@
 
     aput-object v3, v2, v6
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 .end method
 
-.method public final a(ILcom/tencent/mm/sdk/g/j;Ljava/lang/Object;)V
+.method public final a(ILcom/tencent/mm/sdk/g/Jclz;Ljava/lang/Object;)V
     .locals 5
 
     .prologue
@@ -1384,7 +1384,7 @@
 
     aput-object p3, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 484
     :goto_0
@@ -1396,25 +1396,25 @@
 
     const/4 v0, 0x0
 
-    invoke-virtual {p0, p3, v0}, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/g/i;)V
+    invoke-virtual {p0, p3, v0}, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/g/Iclz;)V
 
     goto :goto_0
 .end method
 
-.method public final a(Ljava/lang/String;Lcom/tencent/mm/sdk/g/i;)V
+.method public final a(Ljava/lang/String;Lcom/tencent/mm/sdk/g/Iclz;)V
     .locals 2
 
     .prologue
     .line 462
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     new-instance v1, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI$3;
 
     invoke-direct {v1, p0, p1}, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI$3;-><init>(Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;Ljava/lang/String;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 475
     return-void
@@ -1495,14 +1495,14 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/storage/Qclz;->a(Lcom/tencent/mm/sdk/g/j$b;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/storage/Qclz;->a(Lcom/tencent/mm/sdk/g/Jclz$b;)V
 
     .line 88
     invoke-static {}, Lcom/tencent/mm/s/AIclz;->xq()Lcom/tencent/mm/s/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/s/Lclz;->g(Lcom/tencent/mm/sdk/g/g$a;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/s/Lclz;->g(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 
     .line 89
     invoke-direct {p0}, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI;->aSW()Z
@@ -1536,13 +1536,13 @@
 
     invoke-direct {v9}, Lcom/tencent/mm/protocal/b/HFclz;-><init>()V
 
-    iput-object v9, v0, Lcom/tencent/mm/q/Aclz$a;->bxM:Lcom/tencent/mm/aq/a;
+    iput-object v9, v0, Lcom/tencent/mm/q/Aclz$a;->bxM:Lcom/tencent/mm/aq/Aclz;
 
     new-instance v9, Lcom/tencent/mm/protocal/b/HGclz;
 
     invoke-direct {v9}, Lcom/tencent/mm/protocal/b/HGclz;-><init>()V
 
-    iput-object v9, v0, Lcom/tencent/mm/q/Aclz$a;->bxN:Lcom/tencent/mm/aq/a;
+    iput-object v9, v0, Lcom/tencent/mm/q/Aclz$a;->bxN:Lcom/tencent/mm/aq/Aclz;
 
     const-string/jumbo v9, "/cgi-bin/micromsg-bin/checkcansubscribebiz"
 
@@ -1556,7 +1556,7 @@
 
     iget-object v0, v9, Lcom/tencent/mm/q/Aclz;->bxI:Lcom/tencent/mm/q/Aclz$b;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/HFclz;
 
@@ -1614,7 +1614,7 @@
 
     aput-object v2, v6, v1
 
-    invoke-static {v0, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     new-instance v0, Lcom/tencent/mm/ui/CheckCanSubscribeBizUI$2;
 
@@ -1674,7 +1674,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/s/Lclz;->h(Lcom/tencent/mm/sdk/g/g$a;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/s/Lclz;->h(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
@@ -1684,7 +1684,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/storage/Qclz;->b(Lcom/tencent/mm/sdk/g/j$b;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/storage/Qclz;->b(Lcom/tencent/mm/sdk/g/Jclz$b;)V
 
     .line 115
     :cond_1

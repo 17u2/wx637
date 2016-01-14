@@ -32,7 +32,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -58,17 +58,17 @@
     const/4 v2, 0x3
 
     .line 45
-    sget-object v0, Lcom/tencent/mm/compatible/d/p;->bml:Lcom/tencent/mm/compatible/d/j;
+    sget-object v0, Lcom/tencent/mm/compatible/d/Pclz;->bml:Lcom/tencent/mm/compatible/d/Jclz;
 
-    iget v0, v0, Lcom/tencent/mm/compatible/d/j;->blu:I
+    iget v0, v0, Lcom/tencent/mm/compatible/d/Jclz;->blu:I
 
     const/4 v1, 0x1
 
     if-eq v0, v1, :cond_0
 
-    sget-object v0, Lcom/tencent/mm/compatible/d/p;->bml:Lcom/tencent/mm/compatible/d/j;
+    sget-object v0, Lcom/tencent/mm/compatible/d/Pclz;->bml:Lcom/tencent/mm/compatible/d/Jclz;
 
-    iget v0, v0, Lcom/tencent/mm/compatible/d/j;->blu:I
+    iget v0, v0, Lcom/tencent/mm/compatible/d/Jclz;->blu:I
 
     const/4 v1, -0x1
 
@@ -174,7 +174,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTextView;->euf:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -186,7 +186,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 57
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTextView;->euf:Ljava/lang/String;
@@ -235,7 +235,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTextView;->euf:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -247,7 +247,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 63
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTextView;->euf:Ljava/lang/String;

@@ -57,7 +57,7 @@
 .method public abstract a(Landroid/content/Context;Lcom/tencent/mm/storage/ADclz;)V
 .end method
 
-.method public abstract a(Lcom/tencent/mm/sdk/g/g$a;)V
+.method public abstract a(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 .end method
 
 .method public abstract a(Ljava/lang/String;Lcom/tencent/mm/storage/a/Cclz;Lcom/tencent/mm/storage/ADclz;)V
@@ -75,7 +75,7 @@
 .method public abstract as(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 .end method
 
-.method public abstract b(Lcom/tencent/mm/sdk/g/g$a;)V
+.method public abstract b(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 .end method
 
 .method public abstract b(Lcom/tencent/mm/storage/a/Cclz;)V
@@ -96,10 +96,10 @@
 .method public abstract c(Landroid/view/View;Ljava/lang/String;)V
 .end method
 
-.method public abstract c(Lcom/tencent/mm/sdk/g/g$a;)V
+.method public abstract c(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 .end method
 
-.method public abstract d(Lcom/tencent/mm/sdk/g/g$a;)V
+.method public abstract d(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 .end method
 
 .method public abstract d(Lcom/tencent/mm/storage/a/Cclz;)[I

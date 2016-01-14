@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,11 +56,11 @@
     .line 747
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChatFooterCustom$3;->kaZ:Lcom/tencent/mm/ui/chatting/ChatFooterCustom;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->d(Lcom/tencent/mm/ui/chatting/ChatFooterCustom;)Lcom/tencent/mm/ui/chatting/q;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->d(Lcom/tencent/mm/ui/chatting/ChatFooterCustom;)Lcom/tencent/mm/ui/chatting/Qclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/chatting/q;->aXz()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/chatting/Qclz;->aXz()Z
 
     .line 748
     check-cast p1, Landroid/widget/ImageView;

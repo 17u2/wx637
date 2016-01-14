@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/app/WorkerProfile$15;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 9
 
     .prologue
@@ -53,12 +53,12 @@
     const/4 v7, 0x0
 
     .line 1319
-    check-cast p1, Lcom/tencent/mm/d/a/il;
+    check-cast p1, Lcom/tencent/mm/d/a/ILclz;
 
     .line 1320
-    iget-object v1, p1, Lcom/tencent/mm/d/a/il;->aDx:Lcom/tencent/mm/d/a/il$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/ILclz;->aDx:Lcom/tencent/mm/d/a/ILclz$a;
 
-    iget-object v2, v1, Lcom/tencent/mm/d/a/il$a;->context:Landroid/content/Context;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/ILclz$a;->context:Landroid/content/Context;
 
     .line 1321
     if-nez v2, :cond_1
@@ -68,7 +68,7 @@
 
     const-string/jumbo v1, "add card to wx event, context is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1352
     :cond_0
@@ -77,9 +77,9 @@
 
     .line 1326
     :cond_1
-    iget-object v1, p1, Lcom/tencent/mm/d/a/il;->aDx:Lcom/tencent/mm/d/a/il$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/ILclz;->aDx:Lcom/tencent/mm/d/a/ILclz$a;
 
-    iget-object v3, v1, Lcom/tencent/mm/d/a/il$a;->arE:[Ljava/lang/String;
+    iget-object v3, v1, Lcom/tencent/mm/d/a/ILclz$a;->arE:[Ljava/lang/String;
 
     .line 1329
     if-eqz v3, :cond_2
@@ -92,9 +92,9 @@
     aget-object v1, v3, v7
 
     .line 1332
-    iget-object v0, p1, Lcom/tencent/mm/d/a/il;->aDx:Lcom/tencent/mm/d/a/il$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/ILclz;->aDx:Lcom/tencent/mm/d/a/ILclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/il$a;->context:Landroid/content/Context;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/ILclz$a;->context:Landroid/content/Context;
 
     aget-object v3, v3, v7
 
@@ -109,15 +109,15 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/a/f;->m([B)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/a/Fclz;->m([B)Ljava/lang/String;
 
     move-result-object v0
 
     .line 1336
     :goto_1
-    iget-object v3, p1, Lcom/tencent/mm/d/a/il;->aDx:Lcom/tencent/mm/d/a/il$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/ILclz;->aDx:Lcom/tencent/mm/d/a/ILclz$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/il$a;->selectionArgs:[Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/ILclz$a;->selectionArgs:[Ljava/lang/String;
 
     .line 1337
     if-eqz v3, :cond_0

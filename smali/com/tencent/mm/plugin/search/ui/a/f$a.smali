@@ -32,7 +32,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -40,7 +40,7 @@
 
 
 # virtual methods
-.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/a;)Z
+.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/Aclz;)Z
     .locals 7
 
     .prologue
@@ -52,7 +52,7 @@
     check-cast p2, Lcom/tencent/mm/plugin/search/ui/a/f;
 
     .line 38
-    iget-object v0, p2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/b;
+    iget-object v0, p2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/Bclz;
 
     if-nez v0, :cond_0
 
@@ -62,15 +62,15 @@
 
     .line 41
     :cond_0
-    iget-object v0, p2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/b;
+    iget-object v0, p2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/Bclz;
 
-    iget v0, v0, Lcom/tencent/mm/modelfriend/b;->status:I
+    iget v0, v0, Lcom/tencent/mm/modelfriend/Bclz;->status:I
 
     if-eq v0, v5, :cond_1
 
-    iget-object v0, p2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/b;
+    iget-object v0, p2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/Bclz;
 
-    iget v0, v0, Lcom/tencent/mm/modelfriend/b;->status:I
+    iget v0, v0, Lcom/tencent/mm/modelfriend/Bclz;->status:I
 
     const/4 v1, 0x2
 
@@ -82,7 +82,7 @@
 
     const-string/jumbo v1, "Click Mobile Contact Weixin On Or Weixin Friend"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 44
     new-instance v0, Landroid/content/Intent;
@@ -94,9 +94,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/f$a;->fLf:Lcom/tencent/mm/plugin/search/ui/a/f;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/b;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/Bclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/b;->getUsername()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/Bclz;->getUsername()Ljava/lang/String;
 
     move-result-object v2
 
@@ -107,9 +107,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/f$a;->fLf:Lcom/tencent/mm/plugin/search/ui/a/f;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/b;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/Bclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/b;->xV()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/Bclz;->xV()Ljava/lang/String;
 
     move-result-object v2
 
@@ -120,9 +120,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/f$a;->fLf:Lcom/tencent/mm/plugin/search/ui/a/f;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/b;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/Bclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/b;->xQ()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/Bclz;->xQ()Ljava/lang/String;
 
     move-result-object v2
 
@@ -133,9 +133,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/f$a;->fLf:Lcom/tencent/mm/plugin/search/ui/a/f;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/b;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/Bclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/modelfriend/b;->bEs:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/modelfriend/Bclz;->bEs:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -144,9 +144,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/f$a;->fLf:Lcom/tencent/mm/plugin/search/ui/a/f;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/b;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/Bclz;
 
-    iget v2, v2, Lcom/tencent/mm/modelfriend/b;->bEn:I
+    iget v2, v2, Lcom/tencent/mm/modelfriend/Bclz;->bEn:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
@@ -155,9 +155,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/f$a;->fLf:Lcom/tencent/mm/plugin/search/ui/a/f;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/b;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/Bclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/modelfriend/b;->bEq:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/modelfriend/Bclz;->bEq:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -166,21 +166,21 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/f$a;->fLf:Lcom/tencent/mm/plugin/search/ui/a/f;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/b;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/Bclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/modelfriend/b;->bEw:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/modelfriend/Bclz;->bEw:Ljava/lang/String;
 
     iget-object v3, p0, Lcom/tencent/mm/plugin/search/ui/a/f$a;->fLf:Lcom/tencent/mm/plugin/search/ui/a/f;
 
-    iget-object v3, v3, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/b;
+    iget-object v3, v3, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/Bclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/modelfriend/b;->bEo:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/modelfriend/Bclz;->bEo:Ljava/lang/String;
 
     iget-object v4, p0, Lcom/tencent/mm/plugin/search/ui/a/f$a;->fLf:Lcom/tencent/mm/plugin/search/ui/a/f;
 
-    iget-object v4, v4, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/b;
+    iget-object v4, v4, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/Bclz;
 
-    iget-object v4, v4, Lcom/tencent/mm/modelfriend/b;->bEp:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/modelfriend/Bclz;->bEp:Ljava/lang/String;
 
     invoke-static {v2, v3, v4}, Lcom/tencent/mm/storage/RegionCodeDecoder;->K(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -224,9 +224,9 @@
     :cond_3
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/f$a;->fLf:Lcom/tencent/mm/plugin/search/ui/a/f;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/b;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/Bclz;
 
-    iget v0, v0, Lcom/tencent/mm/modelfriend/b;->status:I
+    iget v0, v0, Lcom/tencent/mm/modelfriend/Bclz;->status:I
 
     if-nez v0, :cond_4
 
@@ -235,7 +235,7 @@
 
     const-string/jumbo v1, "Click Mobile Contact Weixin Off"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 69
     new-instance v0, Landroid/content/Intent;
@@ -254,9 +254,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/f$a;->fLf:Lcom/tencent/mm/plugin/search/ui/a/f;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/b;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/Bclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/b;->getUsername()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/Bclz;->getUsername()Ljava/lang/String;
 
     move-result-object v2
 
@@ -271,9 +271,9 @@
 
     iget-object v3, p0, Lcom/tencent/mm/plugin/search/ui/a/f$a;->fLf:Lcom/tencent/mm/plugin/search/ui/a/f;
 
-    iget-object v3, v3, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/b;
+    iget-object v3, v3, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/Bclz;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/modelfriend/b;->xY()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/tencent/mm/modelfriend/Bclz;->xY()Ljava/lang/String;
 
     move-result-object v3
 
@@ -292,9 +292,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/f$a;->fLf:Lcom/tencent/mm/plugin/search/ui/a/f;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/b;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/Bclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/b;->xS()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/Bclz;->xS()Ljava/lang/String;
 
     move-result-object v2
 
@@ -305,9 +305,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/a/f$a;->fLf:Lcom/tencent/mm/plugin/search/ui/a/f;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/b;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/search/ui/a/f;->fLc:Lcom/tencent/mm/modelfriend/Bclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/b;->xV()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/tencent/mm/modelfriend/Bclz;->xV()Ljava/lang/String;
 
     move-result-object v2
 
@@ -329,7 +329,7 @@
 
     const-string/jumbo v1, "Click Mobile Contact Weixin status unknown"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 .end method

@@ -1,9 +1,9 @@
 .class public final Lcom/tencent/mm/storage/Oclz;
-.super Lcom/tencent/mm/sdk/g/f;
+.super Lcom/tencent/mm/sdk/g/Fclz;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/aw/f$a;
+.implements Lcom/tencent/mm/aw/Fclz$a;
 
 
 # static fields
@@ -22,11 +22,11 @@
 
     const/4 v1, 0x0
 
-    sget-object v2, Lcom/tencent/mm/storage/Nclz;->anZ:Lcom/tencent/mm/sdk/g/c$a;
+    sget-object v2, Lcom/tencent/mm/storage/Nclz;->anZ:Lcom/tencent/mm/sdk/g/Cclz$a;
 
     const-string/jumbo v3, "ContactLabelCache"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/g/f;->a(Lcom/tencent/mm/sdk/g/c$a;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/g/Fclz;->a(Lcom/tencent/mm/sdk/g/Cclz$a;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -38,7 +38,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -46,7 +46,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/aw/f;)I
+.method public final a(Lcom/tencent/mm/aw/Fclz;)I
     .locals 1
 
     .prologue

@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/tencent/mm/ui/base/a;
+.annotation runtime Lcom/tencent/mm/ui/base/Aclz;
     value = 0x3
 .end annotation
 
@@ -21,7 +21,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -40,14 +40,14 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getResources()Landroid/content/res/Resources;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 26
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getResources()Landroid/content/res/Resources;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -90,7 +90,7 @@
     .line 36
     check-cast v0, Landroid/view/LayoutInflater;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/o;->a(Landroid/view/LayoutInflater;)Landroid/view/LayoutInflater;
+    invoke-static {v0}, Lcom/tencent/mm/ui/Oclz;->a(Landroid/view/LayoutInflater;)Landroid/view/LayoutInflater;
 
     move-result-object v0
 
@@ -115,10 +115,10 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/a;->ao(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/Aclz;->ao(Landroid/view/View;)V
 
     .line 46
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/a;->cV(Landroid/content/Context;)V
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/Aclz;->cV(Landroid/content/Context;)V
 
     .line 47
     return-void

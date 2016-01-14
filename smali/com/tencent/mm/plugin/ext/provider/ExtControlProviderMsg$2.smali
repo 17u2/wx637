@@ -47,7 +47,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -62,21 +62,21 @@
     const/4 v4, 0x4
 
     .line 770
-    new-instance v0, Lcom/tencent/mm/d/a/cm;
+    new-instance v0, Lcom/tencent/mm/d/a/CMclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/cm;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/CMclz;-><init>()V
 
     .line 771
-    iget-object v1, v0, Lcom/tencent/mm/d/a/cm;->avu:Lcom/tencent/mm/d/a/cm$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CMclz;->avu:Lcom/tencent/mm/d/a/CMclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;->dwI:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/cm$a;->avw:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/CMclz$a;->avw:Ljava/lang/String;
 
     .line 772
-    iget-object v1, v0, Lcom/tencent/mm/d/a/cm;->avu:Lcom/tencent/mm/d/a/cm$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CMclz;->avu:Lcom/tencent/mm/d/a/CMclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;->dwG:[Ljava/lang/String;
 
@@ -84,32 +84,32 @@
 
     aget-object v2, v2, v3
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/cm$a;->content:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/CMclz$a;->content:Ljava/lang/String;
 
     .line 773
-    iget-object v1, v0, Lcom/tencent/mm/d/a/cm;->avu:Lcom/tencent/mm/d/a/cm$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CMclz;->avu:Lcom/tencent/mm/d/a/CMclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;->dwI:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->eC(Ljava/lang/String;)I
 
     move-result v2
 
-    iput v2, v1, Lcom/tencent/mm/d/a/cm$a;->type:I
+    iput v2, v1, Lcom/tencent/mm/d/a/CMclz$a;->type:I
 
     .line 774
-    iget-object v1, v0, Lcom/tencent/mm/d/a/cm;->avu:Lcom/tencent/mm/d/a/cm$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CMclz;->avu:Lcom/tencent/mm/d/a/CMclz$a;
 
     const/4 v2, 0x0
 
-    iput v2, v1, Lcom/tencent/mm/d/a/cm$a;->flags:I
+    iput v2, v1, Lcom/tencent/mm/d/a/CMclz$a;->flags:I
 
     .line 775
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     move-result v1
 
@@ -131,15 +131,15 @@
 
     .line 781
     :cond_0
-    iget-object v1, v0, Lcom/tencent/mm/d/a/cm;->avv:Lcom/tencent/mm/d/a/cm$b;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CMclz;->avv:Lcom/tencent/mm/d/a/CMclz$b;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/cm$b;->avy:Lcom/tencent/mm/q/Jclz;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/CMclz$b;->avy:Lcom/tencent/mm/q/Jclz;
 
     .line 783
     :try_start_0
-    iget-object v0, v0, Lcom/tencent/mm/d/a/cm;->avv:Lcom/tencent/mm/d/a/cm$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/CMclz;->avv:Lcom/tencent/mm/d/a/CMclz$b;
 
-    iget-wide v2, v0, Lcom/tencent/mm/d/a/cm$b;->avx:J
+    iget-wide v2, v0, Lcom/tencent/mm/d/a/CMclz$b;->avx:J
 
     invoke-static {v2, v3}, Lcom/tencent/mm/plugin/ext/a/a;->aX(J)Ljava/lang/String;
 
@@ -181,7 +181,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 823
     iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;->dwH:Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/p/d$a;
+.implements Lcom/tencent/mm/p/Dclz$a;
 
 
 # instance fields
@@ -50,7 +50,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -275,7 +275,7 @@
     .line 145
     iget-object v4, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI;->bES:Landroid/widget/ImageView;
 
-    invoke-static {p0, v7}, Lcom/tencent/mm/at/a;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p0, v7}, Lcom/tencent/mm/at/Aclz;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v5
 
@@ -315,7 +315,7 @@
 
     move-result-object v4
 
-    invoke-static {v4}, Lcom/tencent/mm/a/f;->m([B)Ljava/lang/String;
+    invoke-static {v4}, Lcom/tencent/mm/a/Fclz;->m([B)Ljava/lang/String;
 
     move-result-object v4
 
@@ -331,15 +331,15 @@
     if-nez v5, :cond_5
 
     .line 150
-    invoke-static {}, Lcom/tencent/mm/p/n;->uQ()Lcom/tencent/mm/p/d;
+    invoke-static {}, Lcom/tencent/mm/p/Nclz;->uQ()Lcom/tencent/mm/p/Dclz;
 
     move-result-object v4
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
-    invoke-virtual {v4, v5}, Lcom/tencent/mm/p/d;->aF(Landroid/content/Context;)Landroid/graphics/Bitmap;
+    invoke-virtual {v4, v5}, Lcom/tencent/mm/p/Dclz;->aF(Landroid/content/Context;)Landroid/graphics/Bitmap;
 
     move-result-object v4
 
@@ -362,7 +362,7 @@
     .line 168
     iget-object v4, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI;->bES:Landroid/widget/ImageView;
 
-    invoke-static {p0, v12}, Lcom/tencent/mm/at/a;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p0, v12}, Lcom/tencent/mm/at/Aclz;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v5
 
@@ -398,7 +398,7 @@
     .line 170
     iget-object v4, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI;->kzk:Ljava/lang/String;
 
-    invoke-static {v4}, Lcom/tencent/mm/a/n;->aD(Ljava/lang/String;)I
+    invoke-static {v4}, Lcom/tencent/mm/a/Nclz;->aD(Ljava/lang/String;)I
 
     move-result v4
 
@@ -415,7 +415,7 @@
     if-eqz v7, :cond_1
 
     .line 173
-    invoke-static {v5, v6}, Lcom/tencent/mm/p/b;->E(J)Landroid/graphics/Bitmap;
+    invoke-static {v5, v6}, Lcom/tencent/mm/p/Bclz;->E(J)Landroid/graphics/Bitmap;
 
     move-result-object v4
 
@@ -426,7 +426,7 @@
     .line 176
     iget-object v4, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI;->bES:Landroid/widget/ImageView;
 
-    invoke-static {p0, v12}, Lcom/tencent/mm/at/a;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p0, v12}, Lcom/tencent/mm/at/Aclz;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v5
 
@@ -454,7 +454,7 @@
     .line 186
     iget-object v4, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI;->bES:Landroid/widget/ImageView;
 
-    invoke-static {p0, v11}, Lcom/tencent/mm/at/a;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p0, v11}, Lcom/tencent/mm/at/Aclz;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v5
 
@@ -499,15 +499,15 @@
     if-nez v1, :cond_9
 
     .line 191
-    invoke-static {}, Lcom/tencent/mm/p/n;->uQ()Lcom/tencent/mm/p/d;
+    invoke-static {}, Lcom/tencent/mm/p/Nclz;->uQ()Lcom/tencent/mm/p/Dclz;
 
     move-result-object v1
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v4
 
-    invoke-virtual {v1, v4}, Lcom/tencent/mm/p/d;->aF(Landroid/content/Context;)Landroid/graphics/Bitmap;
+    invoke-virtual {v1, v4}, Lcom/tencent/mm/p/Dclz;->aF(Landroid/content/Context;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -533,7 +533,7 @@
     .line 202
     iget-object v1, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI;->kzk:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->Bq(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bq(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -546,7 +546,7 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI;->kzk:Ljava/lang/String;
 
-    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/bc;->Bq(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bq(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -582,7 +582,7 @@
 
     invoke-direct {v0, v1, v2, v9, v9}, Lcom/tencent/mm/pluginsdk/ui/tools/d;-><init>(Ljava/lang/String;Ljava/lang/String;II)V
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/k;->a(Lcom/tencent/mm/platformtools/j;)Landroid/graphics/Bitmap;
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Kclz;->a(Lcom/tencent/mm/platformtools/Jclz;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -629,11 +629,11 @@
 
     .line 153
     :cond_5
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->za()Lcom/tencent/mm/modelfriend/c;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->za()Lcom/tencent/mm/modelfriend/Cclz;
 
     move-result-object v5
 
-    invoke-virtual {v5, v4}, Lcom/tencent/mm/modelfriend/c;->hd(Ljava/lang/String;)Lcom/tencent/mm/modelfriend/b;
+    invoke-virtual {v5, v4}, Lcom/tencent/mm/modelfriend/Cclz;->hd(Ljava/lang/String;)Lcom/tencent/mm/modelfriend/Bclz;
 
     move-result-object v4
 
@@ -641,11 +641,11 @@
     if-eqz v4, :cond_6
 
     .line 155
-    invoke-virtual {v4}, Lcom/tencent/mm/modelfriend/b;->xR()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/tencent/mm/modelfriend/Bclz;->xR()Ljava/lang/String;
 
     move-result-object v4
 
-    invoke-static {v4, p0}, Lcom/tencent/mm/modelfriend/m;->c(Ljava/lang/String;Landroid/content/Context;)Landroid/graphics/Bitmap;
+    invoke-static {v4, p0}, Lcom/tencent/mm/modelfriend/Mclz;->c(Ljava/lang/String;Landroid/content/Context;)Landroid/graphics/Bitmap;
 
     move-result-object v4
 
@@ -661,7 +661,7 @@
     :cond_7
     iget-object v4, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI;->bES:Landroid/widget/ImageView;
 
-    invoke-static {p0, v7}, Lcom/tencent/mm/at/a;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p0, v7}, Lcom/tencent/mm/at/Aclz;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v5
 
@@ -681,7 +681,7 @@
     :cond_9
     iget-object v1, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI;->kzn:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/p/b;->fx(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {v1}, Lcom/tencent/mm/p/Bclz;->fx(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -691,7 +691,7 @@
     :cond_a
     iget-object v1, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI;->bES:Landroid/widget/ImageView;
 
-    invoke-static {p0, v11}, Lcom/tencent/mm/at/a;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p0, v11}, Lcom/tencent/mm/at/Aclz;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v4
 
@@ -736,7 +736,7 @@
 
     .line 418
     :cond_1
-    invoke-static {p1}, Lcom/tencent/mm/p/b;->fC(Ljava/lang/String;)J
+    invoke-static {p1}, Lcom/tencent/mm/p/Bclz;->fC(Ljava/lang/String;)J
 
     move-result-wide v0
 
@@ -771,7 +771,7 @@
 
     const/4 v2, -0x1
 
-    invoke-static {p1, v1, v2}, Lcom/tencent/mm/p/b;->a(Ljava/lang/String;ZI)Landroid/graphics/Bitmap;
+    invoke-static {p1, v1, v2}, Lcom/tencent/mm/p/Bclz;->a(Ljava/lang/String;ZI)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -859,7 +859,7 @@
     .line 93
     iget-object v1, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI;->kzk:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -927,11 +927,11 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onPause()V
 
     .line 109
-    invoke-static {}, Lcom/tencent/mm/p/n;->uQ()Lcom/tencent/mm/p/d;
+    invoke-static {}, Lcom/tencent/mm/p/Nclz;->uQ()Lcom/tencent/mm/p/Dclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/p/d;->e(Lcom/tencent/mm/p/d$a;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/p/Dclz;->e(Lcom/tencent/mm/p/Dclz$a;)V
 
     .line 110
     return-void
@@ -945,11 +945,11 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onResume()V
 
     .line 116
-    invoke-static {}, Lcom/tencent/mm/p/n;->uQ()Lcom/tencent/mm/p/d;
+    invoke-static {}, Lcom/tencent/mm/p/Nclz;->uQ()Lcom/tencent/mm/p/Dclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/p/d;->d(Lcom/tencent/mm/p/d$a;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/p/Dclz;->d(Lcom/tencent/mm/p/Dclz$a;)V
 
     .line 117
     return-void

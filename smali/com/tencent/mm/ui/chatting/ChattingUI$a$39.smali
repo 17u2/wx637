@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/ui/base/m$d;
+.implements Lcom/tencent/mm/ui/base/Mclz$d;
 
 
 # annotations
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -76,18 +76,18 @@
 
     .line 10418
     :pswitch_1
-    new-instance v0, Lcom/tencent/mm/d/a/fu;
+    new-instance v0, Lcom/tencent/mm/d/a/FUclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/fu;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/FUclz;-><init>()V
 
     .line 10419
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/n;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v2, v2, Lcom/tencent/mm/ui/Nclz;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v2, v2, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -107,38 +107,38 @@
 
     new-instance v5, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39$1;
 
-    invoke-direct {v5, p0, v0}, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39$1;-><init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;Lcom/tencent/mm/d/a/fu;)V
+    invoke-direct {v5, p0, v0}, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39$1;-><init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;Lcom/tencent/mm/d/a/FUclz;)V
 
-    invoke-static {v2, v3, v4, v5}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v2, v3, v4, v5}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/ui/base/o;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v1, v2}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/ui/base/Oclz;)Lcom/tencent/mm/ui/base/Oclz;
 
     .line 10427
-    iget-object v1, v0, Lcom/tencent/mm/d/a/fu;->aAs:Lcom/tencent/mm/d/a/fu$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/FUclz;->aAs:Lcom/tencent/mm/d/a/FUclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
     iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/fu$a;->azY:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/FUclz$a;->azY:Ljava/lang/String;
 
     .line 10428
-    iget-object v1, v0, Lcom/tencent/mm/d/a/fu;->aAs:Lcom/tencent/mm/d/a/fu$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/FUclz;->aAs:Lcom/tencent/mm/d/a/FUclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;->kdF:Lcom/tencent/mm/storage/ADclz$a;
 
     iget-object v2, v2, Lcom/tencent/mm/storage/ADclz$a;->aAu:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/fu$a;->aAu:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/FUclz$a;->aAu:Ljava/lang/String;
 
     .line 10429
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     goto :goto_0
 

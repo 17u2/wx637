@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,7 +50,7 @@
     .line 437
     iget-object v0, p0, Lcom/tencent/mm/ui/MMFragmentActivity$2;->jzH:Lcom/tencent/mm/ui/MMFragmentActivity;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/base/b;->S(Landroid/app/Activity;)V
+    invoke-static {v0}, Lcom/tencent/mm/ui/base/Bclz;->S(Landroid/app/Activity;)V
 
     .line 438
     return-void

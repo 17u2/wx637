@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,7 +50,7 @@
     .line 113
     iget-object v0, p0, Lcom/tencent/mm/ui/account/BindFacebookUI$3;->jAT:Lcom/tencent/mm/ui/account/BindFacebookUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/account/BindFacebookUI;->c(Lcom/tencent/mm/ui/account/BindFacebookUI;)Lcom/tencent/mm/ui/d/a/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/account/BindFacebookUI;->c(Lcom/tencent/mm/ui/account/BindFacebookUI;)Lcom/tencent/mm/ui/d/a/Cclz;
 
     move-result-object v0
 
@@ -66,7 +66,7 @@
 
     invoke-direct {v3, v4, v5}, Lcom/tencent/mm/ui/account/BindFacebookUI$a;-><init>(Lcom/tencent/mm/ui/account/BindFacebookUI;B)V
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/ui/d/a/c;->a(Landroid/app/Activity;[Ljava/lang/String;Lcom/tencent/mm/ui/d/a/c$a;)V
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/ui/d/a/Cclz;->a(Landroid/app/Activity;[Ljava/lang/String;Lcom/tencent/mm/ui/d/a/Cclz$a;)V
 
     .line 114
     return-void

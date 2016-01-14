@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -82,13 +82,13 @@
 
     const-string/jumbo v1, "ashutest:: on onSwipeBack"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 472
     :cond_0
     const/high16 v0, 0x3f800000    # 1.0f
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/widget/b;->H(F)V
+    invoke-static {v0}, Lcom/tencent/mm/ui/widget/Bclz;->H(F)V
 
     .line 474
     iget-object v0, p0, Lcom/tencent/mm/ui/widget/SwipeBackLayout$b$2$2$1;->kLD:Lcom/tencent/mm/ui/widget/SwipeBackLayout$b$2$2;

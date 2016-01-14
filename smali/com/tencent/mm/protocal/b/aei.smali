@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/protocal/b/aei;
-.super Lcom/tencent/mm/aq/a;
+.super Lcom/tencent/mm/aq/Aclz;
 .source "SourceFile"
 
 
@@ -17,7 +17,7 @@
 
     .prologue
     .line 11
-    invoke-direct {p0}, Lcom/tencent/mm/aq/a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/aq/Aclz;-><init>()V
 
     .line 13
     new-instance v0, Ljava/util/LinkedList;
@@ -37,7 +37,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -155,7 +155,7 @@
     invoke-direct {v1, v0, v2}, La/a/a/a/aclass;-><init>([BLa/a/a/a/a/bclass;)V
 
     .line 36
-    invoke-static {v1}, Lcom/tencent/mm/aq/a;->a(La/a/a/a/aclass;)I
+    invoke-static {v1}, Lcom/tencent/mm/aq/Aclz;->a(La/a/a/a/aclass;)I
 
     move-result v0
 
@@ -164,7 +164,7 @@
     if-lez v0, :cond_3
 
     .line 39
-    invoke-super {p0, v1, p0, v0}, Lcom/tencent/mm/aq/a;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/a;I)Z
+    invoke-super {p0, v1, p0, v0}, Lcom/tencent/mm/aq/Aclz;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/Aclz;I)Z
 
     move-result v0
 
@@ -175,7 +175,7 @@
 
     .line 42
     :cond_2
-    invoke-static {v1}, Lcom/tencent/mm/aq/a;->a(La/a/a/a/aclass;)I
+    invoke-static {v1}, Lcom/tencent/mm/aq/Aclz;->a(La/a/a/a/aclass;)I
 
     move-result v0
 
@@ -235,14 +235,14 @@
 
     .line 57
     :pswitch_1
-    invoke-virtual {v0}, La/a/a/a/aclass;->bga()Lcom/tencent/mm/aq/b;
+    invoke-virtual {v0}, La/a/a/a/aclass;->bga()Lcom/tencent/mm/aq/Bclz;
 
     move-result-object v0
 
     .line 58
     new-instance v2, La/a/a/a/aclass;
 
-    iget-object v0, v0, Lcom/tencent/mm/aq/b;->ihc:[B
+    iget-object v0, v0, Lcom/tencent/mm/aq/Bclz;->ihc:[B
 
     sget-object v4, Lcom/tencent/mm/protocal/b/aei;->ihb:La/a/a/a/a/bclass;
 
@@ -303,12 +303,12 @@
     if-eqz v0, :cond_5
 
     .line 72
-    invoke-static {v8}, Lcom/tencent/mm/aq/a;->a(La/a/a/a/aclass;)I
+    invoke-static {v8}, Lcom/tencent/mm/aq/Aclz;->a(La/a/a/a/aclass;)I
 
     move-result v0
 
     .line 73
-    invoke-virtual {v7, v8, v7, v0}, Lcom/tencent/mm/protocal/b/aef;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/a;I)Z
+    invoke-virtual {v7, v8, v7, v0}, Lcom/tencent/mm/protocal/b/aef;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/Aclz;I)Z
 
     move-result v0
 

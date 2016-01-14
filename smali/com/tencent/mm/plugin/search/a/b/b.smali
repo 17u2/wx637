@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/search/a/b/b;
-.super Lcom/tencent/mm/modelsearch/b;
+.super Lcom/tencent/mm/modelsearch/Bclz;
 .source "SourceFile"
 
 
@@ -13,13 +13,13 @@
 
     .prologue
     .line 16
-    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/b;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/Bclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -32,7 +32,7 @@
 
     .prologue
     .line 115
-    invoke-super {p0}, Lcom/tencent/mm/modelsearch/b;->AR()Z
+    invoke-super {p0}, Lcom/tencent/mm/modelsearch/Bclz;->AR()Z
 
     .line 116
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/b/b;->fJk:Lcom/tencent/kingkong/database/SQLiteStatement;
@@ -58,9 +58,9 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    sget-object v1, Lcom/tencent/mm/plugin/search/a/b;->anZ:Lcom/tencent/mm/sdk/g/c$a;
+    sget-object v1, Lcom/tencent/mm/plugin/search/a/b;->anZ:Lcom/tencent/mm/sdk/g/Cclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/sdk/g/c$a;->jji:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/sdk/g/Cclz$a;->jji:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -73,9 +73,9 @@
     move-result-object v0
 
     .line 22
-    iget-object v1, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v1, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/modelsearch/h;->execSQL(Ljava/lang/String;)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/modelsearch/Hclz;->execSQL(Ljava/lang/String;)V
 
     .line 24
     const-string/jumbo v0, "INSERT INTO %s (featureId, title, titlePY, titleShortPY, tag, actionType, url, helpUrl, updateUrl, androidUrl, iconPath) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);"
@@ -95,9 +95,9 @@
     move-result-object v0
 
     .line 27
-    iget-object v1, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v1, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/modelsearch/h;->compileStatement(Ljava/lang/String;)Lcom/tencent/kingkong/database/SQLiteStatement;
+    invoke-interface {v1, v0}, Lcom/tencent/mm/modelsearch/Hclz;->compileStatement(Ljava/lang/String;)Lcom/tencent/kingkong/database/SQLiteStatement;
 
     move-result-object v0
 
@@ -114,9 +114,9 @@
     const/4 v8, 0x1
 
     .line 58
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/modelsearch/h;->inTransaction()Z
+    invoke-interface {v0}, Lcom/tencent/mm/modelsearch/Hclz;->inTransaction()Z
 
     move-result v1
 
@@ -124,17 +124,17 @@
     if-nez v1, :cond_0
 
     .line 60
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/modelsearch/h;->beginTransaction()V
+    invoke-interface {v0}, Lcom/tencent/mm/modelsearch/Hclz;->beginTransaction()V
 
     .line 62
     :cond_0
     const-string/jumbo v0, "Delete from Feature"
 
-    iget-object v2, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v2, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v2, v0}, Lcom/tencent/mm/modelsearch/h;->execSQL(Ljava/lang/String;)V
+    invoke-interface {v2, v0}, Lcom/tencent/mm/modelsearch/Hclz;->execSQL(Ljava/lang/String;)V
 
     .line 63
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -270,7 +270,7 @@
 
     aput-object v3, v6, v7
 
-    invoke-static {v0, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -287,9 +287,9 @@
     if-nez v1, :cond_2
 
     .line 68
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/modelsearch/h;->commit()V
+    invoke-interface {v0}, Lcom/tencent/mm/modelsearch/Hclz;->commit()V
 
     .line 70
     :cond_2

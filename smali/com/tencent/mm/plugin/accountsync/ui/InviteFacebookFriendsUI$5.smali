@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$5;
-.super Lcom/tencent/mm/n/a;
+.super Lcom/tencent/mm/n/Aclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 188
     iput-object p1, p0, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$5;->cgk:Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI;
 
-    invoke-direct {p0}, Lcom/tencent/mm/n/a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/n/Aclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -45,7 +45,7 @@
 
     .prologue
     .line 191
-    invoke-super {p0, p1}, Lcom/tencent/mm/n/a;->g(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/tencent/mm/n/Aclz;->g(Landroid/os/Bundle;)V
 
     .line 192
     return-void
@@ -56,7 +56,7 @@
 
     .prologue
     .line 196
-    invoke-super {p0, p1, p2}, Lcom/tencent/mm/n/a;->onError(ILjava/lang/String;)V
+    invoke-super {p0, p1, p2}, Lcom/tencent/mm/n/Aclz;->onError(ILjava/lang/String;)V
 
     .line 197
     const/4 v0, 0x3

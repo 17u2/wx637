@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/search/a/e$d;
-.super Lcom/tencent/mm/modelsearch/m$a;
+.super Lcom/tencent/mm/modelsearch/Mclz$a;
 .source "SourceFile"
 
 
@@ -42,7 +42,7 @@
     .line 672
     iput-object p1, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/m$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/Mclz$a;-><init>()V
 
     .line 678
     iput-boolean v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHt:Z
@@ -79,7 +79,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -96,7 +96,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -115,7 +115,7 @@
     .line 859
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v1, Lcom/tencent/mm/modelsearch/c;->bQI:[I
+    sget-object v1, Lcom/tencent/mm/modelsearch/Cclz;->bQI:[I
 
     invoke-virtual {v0, v1}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -126,7 +126,7 @@
     .line 860
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v1, Lcom/tencent/mm/modelsearch/c;->bQI:[I
+    sget-object v1, Lcom/tencent/mm/modelsearch/Cclz;->bQI:[I
 
     new-instance v4, Lcom/tencent/mm/plugin/search/a/e$i;
 
@@ -152,7 +152,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v1, Lcom/tencent/mm/modelsearch/c;->bQI:[I
+    sget-object v1, Lcom/tencent/mm/modelsearch/Cclz;->bQI:[I
 
     move v4, v2
 
@@ -214,7 +214,7 @@
     .line 886
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    iget-object v1, v1, Lcom/tencent/mm/plugin/search/a/e;->bRx:Lcom/tencent/mm/aw/g;
+    iget-object v1, v1, Lcom/tencent/mm/plugin/search/a/e;->bRx:Lcom/tencent/mm/aw/Gclz;
 
     new-array v4, v3, [Ljava/lang/String;
 
@@ -226,7 +226,7 @@
 
     aput-object v5, v4, v2
 
-    invoke-virtual {v1, v0, v4}, Lcom/tencent/mm/aw/g;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v1, v0, v4}, Lcom/tencent/mm/aw/Gclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v4
 
@@ -418,7 +418,7 @@
     .line 937
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v5, Lcom/tencent/mm/modelsearch/c;->bQI:[I
+    sget-object v5, Lcom/tencent/mm/modelsearch/Cclz;->bQI:[I
 
     invoke-virtual {v0, v5}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -450,12 +450,12 @@
 
     new-array v8, v2, [Ljava/lang/Object;
 
-    invoke-static {v5, v0, v6, v8}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v0, v6, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 940
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v5, Lcom/tencent/mm/modelsearch/c;->bQI:[I
+    sget-object v5, Lcom/tencent/mm/modelsearch/Cclz;->bQI:[I
 
     invoke-virtual {v0, v5}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -537,7 +537,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v6, Lcom/tencent/mm/modelsearch/c;->bQI:[I
+    sget-object v6, Lcom/tencent/mm/modelsearch/Cclz;->bQI:[I
 
     invoke-virtual {v0, v6, v4, v5}, Lcom/tencent/mm/plugin/search/a/b/a;->a([IJ)V
 
@@ -546,7 +546,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v6, Lcom/tencent/mm/modelsearch/c;->bQI:[I
+    sget-object v6, Lcom/tencent/mm/modelsearch/Cclz;->bQI:[I
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -560,7 +560,7 @@
     .line 962
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v4, Lcom/tencent/mm/modelsearch/c;->bQI:[I
+    sget-object v4, Lcom/tencent/mm/modelsearch/Cclz;->bQI:[I
 
     invoke-virtual {v0, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -619,7 +619,7 @@
     .line 972
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v1, Lcom/tencent/mm/modelsearch/c;->bQJ:[I
+    sget-object v1, Lcom/tencent/mm/modelsearch/Cclz;->bQJ:[I
 
     invoke-virtual {v0, v1}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -630,7 +630,7 @@
     .line 973
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v1, Lcom/tencent/mm/modelsearch/c;->bQJ:[I
+    sget-object v1, Lcom/tencent/mm/modelsearch/Cclz;->bQJ:[I
 
     new-instance v4, Lcom/tencent/mm/plugin/search/a/e$i;
 
@@ -656,7 +656,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v1, Lcom/tencent/mm/modelsearch/c;->bQJ:[I
+    sget-object v1, Lcom/tencent/mm/modelsearch/Cclz;->bQJ:[I
 
     move v4, v2
 
@@ -718,11 +718,11 @@
     .line 998
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    iget-object v1, v1, Lcom/tencent/mm/plugin/search/a/e;->bRx:Lcom/tencent/mm/aw/g;
+    iget-object v1, v1, Lcom/tencent/mm/plugin/search/a/e;->bRx:Lcom/tencent/mm/aw/Gclz;
 
     new-array v4, v2, [Ljava/lang/String;
 
-    invoke-virtual {v1, v0, v4}, Lcom/tencent/mm/aw/g;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v1, v0, v4}, Lcom/tencent/mm/aw/Gclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v4
 
@@ -837,7 +837,7 @@
     .line 1026
     iget-object v1, v5, Lcom/tencent/mm/plugin/search/a/e$h;->fHC:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->Bq(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bq(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -899,7 +899,7 @@
     .line 1050
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v5, Lcom/tencent/mm/modelsearch/c;->bQJ:[I
+    sget-object v5, Lcom/tencent/mm/modelsearch/Cclz;->bQJ:[I
 
     invoke-virtual {v0, v5}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -953,12 +953,12 @@
 
     new-array v8, v2, [Ljava/lang/Object;
 
-    invoke-static {v5, v0, v6, v8}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v0, v6, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1053
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v5, Lcom/tencent/mm/modelsearch/c;->bQJ:[I
+    sget-object v5, Lcom/tencent/mm/modelsearch/Cclz;->bQJ:[I
 
     invoke-virtual {v0, v5}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1040,7 +1040,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v6, Lcom/tencent/mm/modelsearch/c;->bQJ:[I
+    sget-object v6, Lcom/tencent/mm/modelsearch/Cclz;->bQJ:[I
 
     invoke-virtual {v0, v6, v4, v5}, Lcom/tencent/mm/plugin/search/a/b/a;->a([IJ)V
 
@@ -1049,7 +1049,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v6, Lcom/tencent/mm/modelsearch/c;->bQJ:[I
+    sget-object v6, Lcom/tencent/mm/modelsearch/Cclz;->bQJ:[I
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -1063,7 +1063,7 @@
     .line 1075
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v4, Lcom/tencent/mm/modelsearch/c;->bQJ:[I
+    sget-object v4, Lcom/tencent/mm/modelsearch/Cclz;->bQJ:[I
 
     invoke-virtual {v0, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1146,7 +1146,7 @@
 
     const-string/jumbo v1, "Start building friend index."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 696
     invoke-static {}, Lcom/tencent/mm/plugin/search/a/e;->anI()Z
@@ -1215,7 +1215,7 @@
 
     aput-object v5, v4, v12
 
-    invoke-static {v0, v1, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 708
     iget v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHx:I
@@ -1230,7 +1230,7 @@
     .line 710
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v1, Lcom/tencent/mm/modelsearch/c;->bQH:[I
+    sget-object v1, Lcom/tencent/mm/modelsearch/Cclz;->bQH:[I
 
     invoke-virtual {v0, v1}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -1240,7 +1240,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v1, Lcom/tencent/mm/modelsearch/c;->bQH:[I
+    sget-object v1, Lcom/tencent/mm/modelsearch/Cclz;->bQH:[I
 
     new-instance v4, Lcom/tencent/mm/plugin/search/a/e$i;
 
@@ -1263,7 +1263,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v1, Lcom/tencent/mm/modelsearch/c;->bQH:[I
+    sget-object v1, Lcom/tencent/mm/modelsearch/Cclz;->bQH:[I
 
     move v4, v2
 
@@ -1317,7 +1317,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    iget-object v1, v1, Lcom/tencent/mm/plugin/search/a/e;->bRx:Lcom/tencent/mm/aw/g;
+    iget-object v1, v1, Lcom/tencent/mm/plugin/search/a/e;->bRx:Lcom/tencent/mm/aw/Gclz;
 
     new-array v4, v3, [Ljava/lang/String;
 
@@ -1329,7 +1329,7 @@
 
     aput-object v5, v4, v2
 
-    invoke-virtual {v1, v0, v4}, Lcom/tencent/mm/aw/g;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v1, v0, v4}, Lcom/tencent/mm/aw/Gclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v4
 
@@ -1511,7 +1511,7 @@
 
     aput-object v10, v6, v9
 
-    invoke-static {v0, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
@@ -1523,7 +1523,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v5, Lcom/tencent/mm/modelsearch/c;->bQH:[I
+    sget-object v5, Lcom/tencent/mm/modelsearch/Cclz;->bQH:[I
 
     invoke-virtual {v0, v5}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1552,11 +1552,11 @@
 
     new-array v8, v2, [Ljava/lang/Object;
 
-    invoke-static {v5, v0, v6, v8}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v0, v6, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v5, Lcom/tencent/mm/modelsearch/c;->bQH:[I
+    sget-object v5, Lcom/tencent/mm/modelsearch/Cclz;->bQH:[I
 
     invoke-virtual {v0, v5}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1629,7 +1629,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v8, Lcom/tencent/mm/modelsearch/c;->bQH:[I
+    sget-object v8, Lcom/tencent/mm/modelsearch/Cclz;->bQH:[I
 
     invoke-virtual {v0, v8, v5, v6}, Lcom/tencent/mm/plugin/search/a/b/a;->a([IJ)V
 
@@ -1637,7 +1637,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v5, Lcom/tencent/mm/modelsearch/c;->bQH:[I
+    sget-object v5, Lcom/tencent/mm/modelsearch/Cclz;->bQH:[I
 
     invoke-virtual {v0, v5}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1751,7 +1751,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v2, Lcom/tencent/mm/modelsearch/c;->bQH:[I
+    sget-object v2, Lcom/tencent/mm/modelsearch/Cclz;->bQH:[I
 
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -1767,7 +1767,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v3, Lcom/tencent/mm/modelsearch/c;->bQH:[I
+    sget-object v3, Lcom/tencent/mm/modelsearch/Cclz;->bQH:[I
 
     invoke-virtual {v0, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1789,7 +1789,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v3, Lcom/tencent/mm/modelsearch/c;->bQH:[I
+    sget-object v3, Lcom/tencent/mm/modelsearch/Cclz;->bQH:[I
 
     invoke-virtual {v0, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1811,7 +1811,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v3, Lcom/tencent/mm/modelsearch/c;->bQH:[I
+    sget-object v3, Lcom/tencent/mm/modelsearch/Cclz;->bQH:[I
 
     invoke-virtual {v0, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1842,7 +1842,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v2, Lcom/tencent/mm/modelsearch/c;->bQI:[I
+    sget-object v2, Lcom/tencent/mm/modelsearch/Cclz;->bQI:[I
 
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -1858,7 +1858,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v3, Lcom/tencent/mm/modelsearch/c;->bQI:[I
+    sget-object v3, Lcom/tencent/mm/modelsearch/Cclz;->bQI:[I
 
     invoke-virtual {v0, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1880,7 +1880,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v3, Lcom/tencent/mm/modelsearch/c;->bQI:[I
+    sget-object v3, Lcom/tencent/mm/modelsearch/Cclz;->bQI:[I
 
     invoke-virtual {v0, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1902,7 +1902,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v3, Lcom/tencent/mm/modelsearch/c;->bQI:[I
+    sget-object v3, Lcom/tencent/mm/modelsearch/Cclz;->bQI:[I
 
     invoke-virtual {v0, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1933,7 +1933,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v2, Lcom/tencent/mm/modelsearch/c;->bQJ:[I
+    sget-object v2, Lcom/tencent/mm/modelsearch/Cclz;->bQJ:[I
 
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -1949,7 +1949,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v3, Lcom/tencent/mm/modelsearch/c;->bQJ:[I
+    sget-object v3, Lcom/tencent/mm/modelsearch/Cclz;->bQJ:[I
 
     invoke-virtual {v0, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1971,7 +1971,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v3, Lcom/tencent/mm/modelsearch/c;->bQJ:[I
+    sget-object v3, Lcom/tencent/mm/modelsearch/Cclz;->bQJ:[I
 
     invoke-virtual {v0, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1993,7 +1993,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$d;->fHy:Ljava/util/HashMap;
 
-    sget-object v3, Lcom/tencent/mm/modelsearch/c;->bQJ:[I
+    sget-object v3, Lcom/tencent/mm/modelsearch/Cclz;->bQJ:[I
 
     invoke-virtual {v0, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 

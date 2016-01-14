@@ -304,7 +304,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_1
     return-void
@@ -350,11 +350,11 @@
 
     invoke-virtual {v0, v3}, Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView;->setVisibility(I)V
 
-    invoke-static {}, Lcom/tencent/mm/ak/j;->Dj()Lcom/tencent/mm/ak/h;
+    invoke-static {}, Lcom/tencent/mm/ak/Jclz;->Dj()Lcom/tencent/mm/ak/Hclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ak/h;->Db()I
+    invoke-virtual {v0}, Lcom/tencent/mm/ak/Hclz;->Db()I
 
     move-result v0
 
@@ -400,7 +400,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/ac;->cMi:Lcom/tencent/mm/ui/MMActivity;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/o;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {v1}, Lcom/tencent/mm/ui/Oclz;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v1
 

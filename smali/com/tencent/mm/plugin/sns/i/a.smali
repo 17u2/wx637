@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static a(Lcom/tencent/mm/d/a/as;Lcom/tencent/mm/plugin/sns/h/k;)Z
+.method public static a(Lcom/tencent/mm/d/a/ASclz;Lcom/tencent/mm/plugin/sns/h/k;)Z
     .locals 12
 
     .prologue
@@ -16,14 +16,14 @@
 
     const-string/jumbo v1, "fill sight favorite event fail, event is null or tlObj is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 91
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     const v1, 0x7f090b8a
 
-    iput v1, v0, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v1, v0, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     .line 94
     const/4 v0, 0x0
@@ -107,7 +107,7 @@
     invoke-virtual {v1, v5}, Lcom/tencent/mm/protocal/b/NCclz;->ot(I)Lcom/tencent/mm/protocal/b/NCclz;
 
     .line 108
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v5
 
@@ -261,14 +261,14 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 123
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     const v1, 0x7f090b88
 
-    iput v1, v0, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v1, v0, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     .line 126
     const/4 v0, 0x0
@@ -360,14 +360,14 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 134
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     const v1, 0x7f090b88
 
-    iput v1, v0, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v1, v0, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     .line 137
     const/4 v0, 0x0
@@ -399,7 +399,7 @@
 
     const/4 v11, 0x1
 
-    invoke-static {v7, v8, v9, v10, v11}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
+    invoke-static {v7, v8, v9, v10, v11}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -455,7 +455,7 @@
     .line 154
     iget-object v1, v0, Lcom/tencent/mm/protocal/b/abp;->iLt:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -488,7 +488,7 @@
     .line 162
     iget-object v1, v0, Lcom/tencent/mm/protocal/b/abp;->iLt:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -512,7 +512,7 @@
     .line 165
     iget-object v1, v0, Lcom/tencent/mm/protocal/b/abp;->iLs:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -557,16 +557,16 @@
     invoke-virtual {v2, v0}, Lcom/tencent/mm/protocal/b/NBclz;->Q(Ljava/util/LinkedList;)Lcom/tencent/mm/protocal/b/NBclz;
 
     .line 176
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
-    iput-object v2, v0, Lcom/tencent/mm/d/a/as$a;->atf:Lcom/tencent/mm/protocal/b/NBclz;
+    iput-object v2, v0, Lcom/tencent/mm/d/a/ASclz$a;->atf:Lcom/tencent/mm/protocal/b/NBclz;
 
     .line 177
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     const/16 v1, 0x10
 
-    iput v1, v0, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v1, v0, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     .line 178
     const/4 v0, 0x1
@@ -594,7 +594,7 @@
 
     aput-object v7, v4, v5
 
-    invoke-static {v2, v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 143
     const-string/jumbo v0, "!44@/B4Tb64lLpI6WIk2sXWfdAPMLuSLiKhapyTDhCL2Obw="
@@ -633,14 +633,14 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 144
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     const v1, 0x7f090b88
 
-    iput v1, v0, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v1, v0, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     .line 147
     const/4 v0, 0x0
@@ -666,7 +666,7 @@
     goto :goto_3
 .end method
 
-.method public static a(Lcom/tencent/mm/d/a/as;Lcom/tencent/mm/plugin/sns/h/k;Lcom/tencent/mm/protocal/b/abp;)Z
+.method public static a(Lcom/tencent/mm/d/a/ASclz;Lcom/tencent/mm/plugin/sns/h/k;Lcom/tencent/mm/protocal/b/abp;)Z
     .locals 11
 
     .prologue
@@ -695,17 +695,17 @@
 
     const-string/jumbo v2, "fill favorite event fail, event is null or snsId error or media is null"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 242
     if-eqz p0, :cond_1
 
     .line 243
-    iget-object v1, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v1, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     const v2, 0x7f090b8a
 
-    iput v2, v1, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v2, v1, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     .line 288
     :cond_1
@@ -725,14 +725,14 @@
 
     const-string/jumbo v2, "fill favorite event fail, sns core is invalid"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 250
-    iget-object v1, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v1, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     const v2, 0x7f090b8b
 
-    iput v2, v1, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v2, v1, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     goto :goto_0
 
@@ -780,7 +780,7 @@
 
     aput-object v8, v7, v0
 
-    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 260
     iget-object v0, p1, Lcom/tencent/mm/plugin/sns/h/k;->field_userName:Ljava/lang/String;
@@ -928,14 +928,14 @@
     invoke-virtual {v3, v4}, Lcom/tencent/mm/protocal/b/NBclz;->a(Lcom/tencent/mm/protocal/b/NCclz;)Lcom/tencent/mm/protocal/b/NBclz;
 
     .line 286
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
-    iput-object v3, v0, Lcom/tencent/mm/d/a/as$a;->atf:Lcom/tencent/mm/protocal/b/NBclz;
+    iput-object v3, v0, Lcom/tencent/mm/d/a/ASclz$a;->atf:Lcom/tencent/mm/protocal/b/NBclz;
 
     .line 287
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
-    iput v10, v0, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v10, v0, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     move v0, v1
 
@@ -954,7 +954,7 @@
     goto :goto_1
 .end method
 
-.method public static a(Lcom/tencent/mm/d/a/as;Lcom/tencent/mm/plugin/sns/h/k;Ljava/lang/String;)Z
+.method public static a(Lcom/tencent/mm/d/a/ASclz;Lcom/tencent/mm/plugin/sns/h/k;Ljava/lang/String;)Z
     .locals 12
 
     .prologue
@@ -971,7 +971,7 @@
     .line 426
     if-eqz p0, :cond_0
 
-    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -983,17 +983,17 @@
 
     const-string/jumbo v2, "fill favorite event fail, event is null or media id is null"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 428
     if-eqz p0, :cond_1
 
     .line 429
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     const v2, 0x7f090b8a
 
-    iput v2, v0, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v2, v0, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     :cond_1
     move v0, v1
@@ -1011,12 +1011,12 @@
 
     const-string/jumbo v2, "fill favorite event fail, snsInfo is null"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 436
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
-    iput v6, v0, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v6, v0, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     move v0, v1
 
@@ -1055,12 +1055,12 @@
 
     const-string/jumbo v2, "fill favorite event fail, mediaObj is null"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 443
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
-    iput v6, v0, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v6, v0, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     move v0, v1
 
@@ -1152,7 +1152,7 @@
 
     aput-object v10, v9, v1
 
-    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 455
     iget-object v1, p1, Lcom/tencent/mm/plugin/sns/h/k;->field_userName:Ljava/lang/String;
@@ -1292,14 +1292,14 @@
     invoke-virtual {v4, v5}, Lcom/tencent/mm/protocal/b/NBclz;->a(Lcom/tencent/mm/protocal/b/NCclz;)Lcom/tencent/mm/protocal/b/NBclz;
 
     .line 477
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
-    iput-object v4, v0, Lcom/tencent/mm/d/a/as$a;->atf:Lcom/tencent/mm/protocal/b/NBclz;
+    iput-object v4, v0, Lcom/tencent/mm/d/a/ASclz$a;->atf:Lcom/tencent/mm/protocal/b/NBclz;
 
     .line 478
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
-    iput v11, v0, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v11, v0, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     move v0, v2
 
@@ -1318,7 +1318,7 @@
     goto :goto_2
 .end method
 
-.method public static a(Lcom/tencent/mm/d/a/as;Ljava/lang/String;Ljava/lang/CharSequence;)Z
+.method public static a(Lcom/tencent/mm/d/a/ASclz;Ljava/lang/String;Ljava/lang/CharSequence;)Z
     .locals 10
 
     .prologue
@@ -1341,14 +1341,14 @@
 
     const-string/jumbo v2, "fill favorite event fail, event is null or snsId error or text is null"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 385
-    iget-object v1, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v1, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     const v2, 0x7f090b8a
 
-    iput v2, v1, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v2, v1, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     .line 421
     :goto_0
@@ -1367,14 +1367,14 @@
 
     const-string/jumbo v2, "fill favorite event fail, sns core is invalid"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 393
-    iget-object v1, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v1, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     const v2, 0x7f090b8b
 
-    iput v2, v1, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v2, v1, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     goto :goto_0
 
@@ -1396,14 +1396,14 @@
 
     const-string/jumbo v2, "fill favorite event fail, snsInfo is null"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 400
-    iget-object v1, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v1, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     const v2, 0x7f090b88
 
-    iput v2, v1, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v2, v1, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     goto :goto_0
 
@@ -1447,7 +1447,7 @@
 
     aput-object v9, v8, v0
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 410
     iget-object v0, v2, Lcom/tencent/mm/plugin/sns/h/k;->field_userName:Ljava/lang/String;
@@ -1503,23 +1503,23 @@
     invoke-virtual {v4, v5}, Lcom/tencent/mm/protocal/b/NBclz;->a(Lcom/tencent/mm/protocal/b/NCclz;)Lcom/tencent/mm/protocal/b/NBclz;
 
     .line 418
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
-    iput-object v4, v0, Lcom/tencent/mm/d/a/as$a;->atf:Lcom/tencent/mm/protocal/b/NBclz;
+    iput-object v4, v0, Lcom/tencent/mm/d/a/ASclz$a;->atf:Lcom/tencent/mm/protocal/b/NBclz;
 
     .line 419
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     invoke-interface {p2}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object v2
 
-    iput-object v2, v0, Lcom/tencent/mm/d/a/as$a;->asj:Ljava/lang/String;
+    iput-object v2, v0, Lcom/tencent/mm/d/a/ASclz$a;->asj:Ljava/lang/String;
 
     .line 420
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
-    iput v1, v0, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v1, v0, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     move v0, v1
 
@@ -1527,7 +1527,7 @@
     goto/16 :goto_0
 .end method
 
-.method public static a(Lcom/tencent/mm/d/a/as;Ljava/lang/String;Ljava/lang/String;)Z
+.method public static a(Lcom/tencent/mm/d/a/ASclz;Ljava/lang/String;Ljava/lang/String;)Z
     .locals 13
 
     .prologue
@@ -1556,17 +1556,17 @@
 
     const-string/jumbo v2, "fill favorite event fail, event is null or snsId error or url is null"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 303
     if-eqz p0, :cond_1
 
     .line 304
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     const v2, 0x7f090b8a
 
-    iput v2, v0, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v2, v0, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     :cond_1
     move v0, v1
@@ -1588,14 +1588,14 @@
 
     const-string/jumbo v2, "fill favorite event fail, sns core is invalid"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 311
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     const v2, 0x7f090b8b
 
-    iput v2, v0, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v2, v0, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     move v0, v1
 
@@ -1616,14 +1616,14 @@
 
     const-string/jumbo v2, "fill favorite event fail, snsInfo is null"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 319
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     const v2, 0x7f090b88
 
-    iput v2, v0, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v2, v0, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     move v0, v1
 
@@ -1687,7 +1687,7 @@
 
     aput-object v10, v9, v1
 
-    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 336
     iget-object v1, v3, Lcom/tencent/mm/plugin/sns/h/k;->field_userName:Ljava/lang/String;
@@ -1849,12 +1849,12 @@
     invoke-virtual {v5, v6}, Lcom/tencent/mm/protocal/b/NBclz;->a(Lcom/tencent/mm/protocal/b/NCclz;)Lcom/tencent/mm/protocal/b/NBclz;
 
     .line 368
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
-    iput-object v5, v0, Lcom/tencent/mm/d/a/as$a;->atf:Lcom/tencent/mm/protocal/b/NBclz;
+    iput-object v5, v0, Lcom/tencent/mm/d/a/ASclz$a;->atf:Lcom/tencent/mm/protocal/b/NBclz;
 
     .line 369
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     invoke-virtual {v3}, Lcom/tencent/mm/plugin/sns/h/k;->aug()Lcom/tencent/mm/protocal/b/aqx;
 
@@ -1864,12 +1864,12 @@
 
     iget-object v1, v1, Lcom/tencent/mm/protocal/b/ILclz;->asn:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/d/a/as$a;->asj:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/d/a/ASclz$a;->asj:Ljava/lang/String;
 
     .line 370
-    iget-object v0, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v0, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
-    iput v12, v0, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v12, v0, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     move v0, v2
 
@@ -1894,7 +1894,7 @@
     goto :goto_1
 .end method
 
-.method public static b(Lcom/tencent/mm/d/a/as;Ljava/lang/String;Ljava/lang/String;)Z
+.method public static b(Lcom/tencent/mm/d/a/ASclz;Ljava/lang/String;Ljava/lang/String;)Z
     .locals 3
 
     .prologue
@@ -1903,7 +1903,7 @@
     .line 545
     if-eqz p2, :cond_0
 
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -1915,14 +1915,14 @@
 
     const-string/jumbo v2, "fill favorite event fail, event is null or snsId error or position errro"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 547
-    iget-object v1, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v1, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     const v2, 0x7f090b8a
 
-    iput v2, v1, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v2, v1, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     .line 572
     :goto_0
@@ -1941,14 +1941,14 @@
 
     const-string/jumbo v2, "fill favorite event fail, sns core is invalid"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 555
-    iget-object v1, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v1, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     const v2, 0x7f090b8b
 
-    iput v2, v1, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v2, v1, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     goto :goto_0
 
@@ -1970,20 +1970,20 @@
 
     const-string/jumbo v2, "fill favorite event fail, snsInfo is null"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 562
-    iget-object v1, p0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v1, p0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     const v2, 0x7f090b88
 
-    iput v2, v1, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v2, v1, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
     goto :goto_0
 
     .line 572
     :cond_3
-    invoke-static {p0, v1, p2}, Lcom/tencent/mm/plugin/sns/i/a;->a(Lcom/tencent/mm/d/a/as;Lcom/tencent/mm/plugin/sns/h/k;Ljava/lang/String;)Z
+    invoke-static {p0, v1, p2}, Lcom/tencent/mm/plugin/sns/i/a;->a(Lcom/tencent/mm/d/a/ASclz;Lcom/tencent/mm/plugin/sns/h/k;Ljava/lang/String;)Z
 
     move-result v0
 

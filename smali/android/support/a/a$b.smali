@@ -87,7 +87,7 @@
 
     const-string/jumbo v1, "NoSuchMethodException: makeDexElements(ArrayList,File,ArrayList) failure"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 663
     :try_start_1
@@ -131,7 +131,7 @@
 
     const-string/jumbo v1, "NoSuchMethodException: makeDexElements(List,File,List) failure"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 667
     :try_start_2
@@ -176,7 +176,7 @@
 
     const-string/jumbo v2, "NoSuchMethodException: makePathElements(List,File,List) failure"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 670
     throw v0

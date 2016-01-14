@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/ui/bindqq/QQGroupUI$a;
-.super Lcom/tencent/mm/ui/i;
+.super Lcom/tencent/mm/ui/Iclz;
 .source "SourceFile"
 
 
@@ -25,7 +25,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/tencent/mm/ui/bindqq/QQGroupUI;Landroid/content/Context;Lcom/tencent/mm/ui/i$a;)V
+.method public constructor <init>(Lcom/tencent/mm/ui/bindqq/QQGroupUI;Landroid/content/Context;Lcom/tencent/mm/ui/Iclz$a;)V
     .locals 1
 
     .prologue
@@ -33,14 +33,14 @@
     iput-object p1, p0, Lcom/tencent/mm/ui/bindqq/QQGroupUI$a;->jYP:Lcom/tencent/mm/ui/bindqq/QQGroupUI;
 
     .line 226
-    new-instance v0, Lcom/tencent/mm/modelfriend/ad;
+    new-instance v0, Lcom/tencent/mm/modelfriend/ADclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/modelfriend/ad;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/modelfriend/ADclz;-><init>()V
 
-    invoke-direct {p0, p2, v0}, Lcom/tencent/mm/ui/i;-><init>(Landroid/content/Context;Ljava/lang/Object;)V
+    invoke-direct {p0, p2, v0}, Lcom/tencent/mm/ui/Iclz;-><init>(Landroid/content/Context;Ljava/lang/Object;)V
 
     .line 227
-    iput-object p3, p0, Lcom/tencent/mm/ui/i;->jxQ:Lcom/tencent/mm/ui/i$a;
+    iput-object p3, p0, Lcom/tencent/mm/ui/Iclz;->jxQ:Lcom/tencent/mm/ui/Iclz$a;
 
     .line 228
     iput-object p2, p0, Lcom/tencent/mm/ui/bindqq/QQGroupUI$a;->context:Landroid/content/Context;
@@ -50,7 +50,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -63,18 +63,18 @@
 
     .prologue
     .line 239
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zd()Lcom/tencent/mm/modelfriend/ae;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zd()Lcom/tencent/mm/modelfriend/AEclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/ae;->yP()Landroid/database/Cursor;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/AEclz;->yP()Landroid/database/Cursor;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/tencent/mm/ui/bindqq/QQGroupUI$a;->setCursor(Landroid/database/Cursor;)V
 
     .line 240
-    invoke-super {p0}, Lcom/tencent/mm/ui/i;->notifyDataSetChanged()V
+    invoke-super {p0}, Lcom/tencent/mm/ui/Iclz;->notifyDataSetChanged()V
 
     .line 241
     return-void
@@ -96,16 +96,16 @@
 
     .prologue
     .line 219
-    check-cast p1, Lcom/tencent/mm/modelfriend/ad;
+    check-cast p1, Lcom/tencent/mm/modelfriend/ADclz;
 
     if-nez p1, :cond_0
 
-    new-instance p1, Lcom/tencent/mm/modelfriend/ad;
+    new-instance p1, Lcom/tencent/mm/modelfriend/ADclz;
 
-    invoke-direct {p1}, Lcom/tencent/mm/modelfriend/ad;-><init>()V
+    invoke-direct {p1}, Lcom/tencent/mm/modelfriend/ADclz;-><init>()V
 
     :cond_0
-    invoke-virtual {p1, p2}, Lcom/tencent/mm/modelfriend/ad;->c(Landroid/database/Cursor;)V
+    invoke-virtual {p1, p2}, Lcom/tencent/mm/modelfriend/ADclz;->c(Landroid/database/Cursor;)V
 
     return-object p1
 .end method
@@ -127,7 +127,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelfriend/ad;
+    check-cast v0, Lcom/tencent/mm/modelfriend/ADclz;
 
     .line 247
     if-nez p2, :cond_0
@@ -179,19 +179,19 @@
     :goto_0
     iget-object v2, v1, Lcom/tencent/mm/ui/bindqq/QQGroupUI$a$a;->bET:Landroid/widget/TextView;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/ad;->yO()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/ADclz;->yO()Ljava/lang/String;
 
     move-result-object v3
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 257
-    iget v2, v0, Lcom/tencent/mm/modelfriend/ad;->bFG:I
+    iget v2, v0, Lcom/tencent/mm/modelfriend/ADclz;->bFG:I
 
     if-nez v2, :cond_2
 
     .line 258
-    iget v2, v0, Lcom/tencent/mm/modelfriend/ad;->bFF:I
+    iget v2, v0, Lcom/tencent/mm/modelfriend/ADclz;->bFF:I
 
     if-nez v2, :cond_1
 
@@ -231,7 +231,7 @@
 
     new-array v4, v5, [Ljava/lang/Object;
 
-    iget v5, v0, Lcom/tencent/mm/modelfriend/ad;->bFF:I
+    iget v5, v0, Lcom/tencent/mm/modelfriend/ADclz;->bFF:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -239,7 +239,7 @@
 
     aput-object v5, v4, v6
 
-    iget v0, v0, Lcom/tencent/mm/modelfriend/ad;->bFG:I
+    iget v0, v0, Lcom/tencent/mm/modelfriend/ADclz;->bFG:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -263,7 +263,7 @@
 
     new-array v4, v5, [Ljava/lang/Object;
 
-    iget v5, v0, Lcom/tencent/mm/modelfriend/ad;->bFF:I
+    iget v5, v0, Lcom/tencent/mm/modelfriend/ADclz;->bFF:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -271,7 +271,7 @@
 
     aput-object v5, v4, v6
 
-    iget v0, v0, Lcom/tencent/mm/modelfriend/ad;->bFG:I
+    iget v0, v0, Lcom/tencent/mm/modelfriend/ADclz;->bFG:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

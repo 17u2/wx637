@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/search/ui/a/j;
-.super Lcom/tencent/mm/ui/e/a/b;
+.super Lcom/tencent/mm/ui/e/a/Bclz;
 .source "SourceFile"
 
 
@@ -13,14 +13,14 @@
 
     .prologue
     .line 15
-    invoke-direct {p0, p1}, Lcom/tencent/mm/ui/e/a/b;-><init>(I)V
+    invoke-direct {p0, p1}, Lcom/tencent/mm/ui/e/a/Bclz;-><init>(I)V
 
     .line 16
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -28,7 +28,7 @@
 
 
 # virtual methods
-.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/a$a;)V
+.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/Aclz$a;)V
     .locals 4
 
     .prologue
@@ -51,7 +51,7 @@
 
     const/4 v2, 0x1
 
-    iget-object v3, p0, Lcom/tencent/mm/ui/e/a/a;->aBw:Ljava/lang/String;
+    iget-object v3, p0, Lcom/tencent/mm/ui/e/a/Aclz;->aBw:Ljava/lang/String;
 
     aput-object v3, v1, v2
 

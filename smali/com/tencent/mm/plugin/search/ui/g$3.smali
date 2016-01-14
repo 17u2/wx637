@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -76,7 +76,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 116
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/g$3;->fKB:Lcom/tencent/mm/plugin/search/ui/g;
@@ -119,7 +119,7 @@
     .line 122
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/g$3;->fKB:Lcom/tencent/mm/plugin/search/ui/g;
 
-    invoke-static {v1}, Lcom/tencent/mm/plugin/search/ui/g;->c(Lcom/tencent/mm/plugin/search/ui/g;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v1}, Lcom/tencent/mm/plugin/search/ui/g;->c(Lcom/tencent/mm/plugin/search/ui/g;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v1
 
@@ -127,7 +127,7 @@
 
     invoke-direct {v2, p0, p1, v0}, Lcom/tencent/mm/plugin/search/ui/g$3$1;-><init>(Lcom/tencent/mm/plugin/search/ui/g$3;Ljava/lang/String;Landroid/graphics/Bitmap;)V
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     goto :goto_0
 .end method

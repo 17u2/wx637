@@ -87,7 +87,7 @@
 
     const-string/jumbo v2, ".remittance.ui.PayURemittanceAdapterUI"
 
-    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     .line 377
     :goto_0
@@ -99,7 +99,7 @@
 
     const-string/jumbo v2, ".ui.RemittanceAdapterUI"
 
-    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     .line 374
     sget-object v0, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;
@@ -184,7 +184,7 @@
 
     const-string/jumbo v2, ".ui.OrderHandlerUI"
 
-    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     .line 88
     const/4 v0, 0x1
@@ -217,7 +217,7 @@
     const/4 v5, 0x0
 
     .line 159
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -313,7 +313,7 @@
     .line 224
     const-string/jumbo v1, "key_force_use_bind_serail"
 
-    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -336,7 +336,7 @@
 
     const-string/jumbo v2, ".pay.ui.WalletPayUPayUI"
 
-    invoke-static {p0, v1, v2, v0, p4}, Lcom/tencent/mm/ao/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;I)V
+    invoke-static {p0, v1, v2, v0, p4}, Lcom/tencent/mm/ao/Cclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;I)V
 
     .line 231
     :goto_2
@@ -360,7 +360,7 @@
 
     const-string/jumbo v2, ".pay.ui.WalletPayUI"
 
-    invoke-static {p0, v1, v2, v0, p4}, Lcom/tencent/mm/ao/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;I)V
+    invoke-static {p0, v1, v2, v0, p4}, Lcom/tencent/mm/ao/Cclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;I)V
 
     goto :goto_2
 .end method
@@ -451,7 +451,7 @@
 
     move v4, p2
 
-    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/ao/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;IZ)V
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/ao/Cclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;IZ)V
 
     .line 117
     const/4 v0, 0x1
@@ -538,7 +538,7 @@
 
     move v4, p2
 
-    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/ao/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;IZ)V
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/ao/Cclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;IZ)V
 
     .line 267
     const/4 v0, 0x1
@@ -551,14 +551,14 @@
 
     .prologue
     .line 139
-    new-instance v0, Lcom/tencent/mm/d/a/eg;
+    new-instance v0, Lcom/tencent/mm/d/a/EGclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/eg;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/EGclz;-><init>()V
 
     .line 140
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 141
     new-instance v1, Landroid/content/Intent;
@@ -568,13 +568,13 @@
     .line 142
     const-string/jumbo v2, "ftf_receiver_true_name"
 
-    iget-object v3, v0, Lcom/tencent/mm/d/a/eg;->ayl:Lcom/tencent/mm/d/a/eg$a;
+    iget-object v3, v0, Lcom/tencent/mm/d/a/EGclz;->ayl:Lcom/tencent/mm/d/a/EGclz$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/eg$a;->aym:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/EGclz$a;->aym:Ljava/lang/String;
 
     const-string/jumbo v4, ""
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -583,13 +583,13 @@
     .line 143
     const-string/jumbo v2, "ftf_pay_url"
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/eg;->ayl:Lcom/tencent/mm/d/a/eg$a;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/EGclz;->ayl:Lcom/tencent/mm/d/a/EGclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/eg$a;->ayn:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/EGclz$a;->ayn:Ljava/lang/String;
 
     const-string/jumbo v3, ""
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -614,7 +614,7 @@
 
     const-string/jumbo v2, ".ui.CollectMainUI"
 
-    invoke-static {p0, v0, v2, v1}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {p0, v0, v2, v1}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     .line 146
     return-void
@@ -652,7 +652,7 @@
 
     const-string/jumbo v2, ".bind.ui.WalletBindUI"
 
-    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     .line 300
     const/4 v0, 0x1
@@ -686,7 +686,7 @@
 
     const-string/jumbo v2, ".balance.ui.WalletPayUBalanceManagerUI"
 
-    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     .line 329
     :goto_0
@@ -700,7 +700,7 @@
 
     const-string/jumbo v2, ".balance.ui.WalletBalanceManagerUI"
 
-    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     goto :goto_0
 .end method

@@ -22,11 +22,11 @@
 
 .field final synthetic hSK:Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
 
-.field final synthetic hSL:Lcom/tencent/mm/ui/base/n;
+.field final synthetic hSL:Lcom/tencent/mm/ui/base/Nclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/pluginsdk/ui/applet/c$a;Landroid/view/View;Lcom/tencent/mm/ui/base/n;)V
+.method constructor <init>(Lcom/tencent/mm/pluginsdk/ui/applet/c$a;Landroid/view/View;Lcom/tencent/mm/ui/base/Nclz;)V
     .locals 1
 
     .prologue
@@ -35,7 +35,7 @@
 
     iput-object p2, p0, Lcom/tencent/mm/pluginsdk/ui/applet/c$7;->chw:Landroid/view/View;
 
-    iput-object p3, p0, Lcom/tencent/mm/pluginsdk/ui/applet/c$7;->hSL:Lcom/tencent/mm/ui/base/n;
+    iput-object p3, p0, Lcom/tencent/mm/pluginsdk/ui/applet/c$7;->hSL:Lcom/tencent/mm/ui/base/Nclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -83,19 +83,19 @@
 
     .line 797
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/c$7;->hSL:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/c$7;->hSL:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/n;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Nclz;->dismiss()V
 
     .line 798
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/c$7;->hSL:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/c$7;->hSL:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0, v4}, Lcom/tencent/mm/ui/base/n;->setFocusable(Z)V
+    invoke-virtual {v0, v4}, Lcom/tencent/mm/ui/base/Nclz;->setFocusable(Z)V
 
     .line 799
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/c$7;->hSL:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/c$7;->hSL:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0, v4}, Lcom/tencent/mm/ui/base/n;->setTouchable(Z)V
+    invoke-virtual {v0, v4}, Lcom/tencent/mm/ui/base/Nclz;->setTouchable(Z)V
 
     .line 800
     return-void

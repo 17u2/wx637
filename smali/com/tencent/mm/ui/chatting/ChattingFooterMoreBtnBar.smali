@@ -56,7 +56,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v2, v4}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -110,7 +110,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v2, v4}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -164,7 +164,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v2, v4}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -210,7 +210,7 @@
 
     invoke-virtual {p0, v2, v1}, Lcom/tencent/mm/ui/chatting/ChattingFooterMoreBtnBar;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    invoke-static {}, Lcom/tencent/mm/ui/chatting/s;->aXA()Ljava/util/List;
+    invoke-static {}, Lcom/tencent/mm/ui/chatting/Sclz;->aXA()Ljava/util/List;
 
     move-result-object v1
 
@@ -228,7 +228,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, v4}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v0, v4}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -278,7 +278,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     .line 42
     :cond_0
@@ -295,7 +295,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, v4}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v0, v4}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -346,7 +346,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     goto :goto_0
 .end method
@@ -377,7 +377,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 151
     :goto_0
@@ -457,7 +457,7 @@
     invoke-virtual {v1, v0}, Landroid/widget/ImageButton;->setEnabled(Z)V
 
     .line 114
-    invoke-static {}, Lcom/tencent/mm/ui/chatting/s;->aXA()Ljava/util/List;
+    invoke-static {}, Lcom/tencent/mm/ui/chatting/Sclz;->aXA()Ljava/util/List;
 
     move-result-object v1
 

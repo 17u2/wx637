@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -74,7 +74,7 @@
 
     iput v2, v1, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$a;->cAq:F
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->Fa()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Fa()J
 
     move-result-wide v2
 
@@ -127,7 +127,7 @@
 
     iget-wide v4, v1, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$a;->gQd:J
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/bc;->am(J)J
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->am(J)J
 
     move-result-wide v4
 

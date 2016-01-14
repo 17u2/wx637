@@ -20,7 +20,7 @@
 # instance fields
 .field final synthetic aol:Lcom/tencent/mm/app/plugin/voicereminder/a/i;
 
-.field handler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -38,14 +38,14 @@
 
     invoke-direct {v0, p0, p1}, Lcom/tencent/mm/app/plugin/voicereminder/a/i$a$1;-><init>(Lcom/tencent/mm/app/plugin/voicereminder/a/i$a;Lcom/tencent/mm/app/plugin/voicereminder/a/i;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i$a;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i$a;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 245
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -60,7 +60,7 @@
     .line 250
     iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i$a;->aol:Lcom/tencent/mm/app/plugin/voicereminder/a/i;
 
-    invoke-static {v0}, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->e(Lcom/tencent/mm/app/plugin/voicereminder/a/i;)Lcom/tencent/mm/modelvoice/k;
+    invoke-static {v0}, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->e(Lcom/tencent/mm/app/plugin/voicereminder/a/i;)Lcom/tencent/mm/modelvoice/Kclz;
 
     move-result-object v0
 
@@ -71,7 +71,7 @@
 
     const-string/jumbo v1, "Stop Record Failed recorder == null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 266
     :goto_0
@@ -87,7 +87,7 @@
     :try_start_0
     iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i$a;->aol:Lcom/tencent/mm/app/plugin/voicereminder/a/i;
 
-    invoke-static {v0}, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->e(Lcom/tencent/mm/app/plugin/voicereminder/a/i;)Lcom/tencent/mm/modelvoice/k;
+    invoke-static {v0}, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->e(Lcom/tencent/mm/app/plugin/voicereminder/a/i;)Lcom/tencent/mm/modelvoice/Kclz;
 
     move-result-object v0
 
@@ -103,7 +103,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/modelvoice/k;->bm(Ljava/lang/String;)Z
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/modelvoice/Kclz;->bm(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -152,18 +152,18 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 260
     iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i$a;->aol:Lcom/tencent/mm/app/plugin/voicereminder/a/i;
 
-    invoke-static {v0}, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->g(Lcom/tencent/mm/app/plugin/voicereminder/a/i;)Lcom/tencent/mm/modelvoice/k;
+    invoke-static {v0}, Lcom/tencent/mm/app/plugin/voicereminder/a/i;->g(Lcom/tencent/mm/app/plugin/voicereminder/a/i;)Lcom/tencent/mm/modelvoice/Kclz;
 
     .line 262
     :cond_1
     iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i$a;->aol:Lcom/tencent/mm/app/plugin/voicereminder/a/i;
 
-    invoke-static {}, Lcom/tencent/mm/platformtools/t;->Fa()J
+    invoke-static {}, Lcom/tencent/mm/platformtools/Tclz;->Fa()J
 
     move-result-wide v2
 
@@ -200,7 +200,7 @@
 
     move-result-wide v3
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/platformtools/t;->am(J)J
+    invoke-static {v3, v4}, Lcom/tencent/mm/platformtools/Tclz;->am(J)J
 
     move-result-wide v3
 
@@ -212,7 +212,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 264
     monitor-exit v1
@@ -220,13 +220,13 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 265
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i$a;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/a/i$a;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     const/4 v1, 0x0
 
     const-wide/16 v2, 0x1
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessageDelayed(IJ)Z
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessageDelayed(IJ)Z
 
     goto/16 :goto_0
 

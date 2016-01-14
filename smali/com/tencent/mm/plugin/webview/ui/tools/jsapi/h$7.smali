@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,7 +50,7 @@
     .line 3721
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$7;->hGQ:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;->t(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;)Lcom/tencent/mm/modelgeo/a;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;->t(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;)Lcom/tencent/mm/modelgeo/Aclz;
 
     move-result-object v0
 
@@ -59,23 +59,23 @@
     .line 3722
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$7;->hGQ:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;->t(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;)Lcom/tencent/mm/modelgeo/a;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;->t(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;)Lcom/tencent/mm/modelgeo/Aclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$7;->hGQ:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;
 
-    invoke-static {v1}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;->u(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;)Lcom/tencent/mm/modelgeo/a$a;
+    invoke-static {v1}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;->u(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;)Lcom/tencent/mm/modelgeo/Aclz$a;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/modelgeo/a;->c(Lcom/tencent/mm/modelgeo/a$a;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/modelgeo/Aclz;->c(Lcom/tencent/mm/modelgeo/Aclz$a;)V
 
     .line 3725
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$7;->hGQ:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;->u(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;)Lcom/tencent/mm/modelgeo/a$a;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;->u(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;)Lcom/tencent/mm/modelgeo/Aclz$a;
 
     move-result-object v0
 
@@ -86,7 +86,7 @@
 
     const-string/jumbo v1, "already callback"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 3732
     :goto_0
@@ -96,7 +96,7 @@
     :cond_1
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$7;->hGQ:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;->v(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;)Lcom/tencent/mm/modelgeo/a$a;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;->v(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;)Lcom/tencent/mm/modelgeo/Aclz$a;
 
     .line 3731
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$7;->hGQ:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;

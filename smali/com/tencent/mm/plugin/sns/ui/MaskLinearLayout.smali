@@ -8,7 +8,7 @@
 
 .field private emu:Ljava/util/List;
 
-.field private gqv:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private gqv:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field private gqw:Ljava/lang/Runnable;
 
@@ -34,11 +34,11 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout;->emu:Ljava/util/List;
 
     .line 31
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout;->gqv:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout;->gqv:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     new-instance v0, Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout$1;
 
@@ -57,7 +57,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -109,12 +109,12 @@
     return-object v0
 .end method
 
-.method static synthetic d(Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout;)Lcom/tencent/mm/sdk/platformtools/ab;
+.method static synthetic d(Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout;)Lcom/tencent/mm/sdk/platformtools/ABclz;
     .locals 1
 
     .prologue
     .line 18
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout;->gqv:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout;->gqv:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     return-object v0
 .end method

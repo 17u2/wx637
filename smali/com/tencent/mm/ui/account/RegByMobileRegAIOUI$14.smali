@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI$14;
-.super Lcom/tencent/mm/sdk/platformtools/ab;
+.super Lcom/tencent/mm/sdk/platformtools/ABclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 940
     iput-object p1, p0, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI$14;->jDY:Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;
 
-    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -47,7 +47,7 @@
     .line 944
     iget-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI$14;->jDY:Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;->r(Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0}, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;->r(Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -55,11 +55,11 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI$14;->jDY:Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;->r(Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0}, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;->r(Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->isShowing()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->isShowing()Z
 
     move-result v0
 
@@ -152,7 +152,7 @@
     .line 955
     iget-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI$14;->jDY:Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;->r(Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0}, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;->r(Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -161,11 +161,11 @@
     .line 956
     iget-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI$14;->jDY:Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;->r(Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0}, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;->r(Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->dismiss()V
 
     .line 959
     :cond_4

@@ -89,7 +89,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -109,7 +109,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -154,7 +154,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/tencent/mm/a/f;->m([B)Ljava/lang/String;
+    invoke-static {v3}, Lcom/tencent/mm/a/Fclz;->m([B)Ljava/lang/String;
 
     move-result-object v3
 
@@ -163,7 +163,7 @@
     move-result-object v3
 
     .line 160
-    invoke-static {p1}, Lcom/tencent/mm/a/p;->q([B)[B
+    invoke-static {p1}, Lcom/tencent/mm/a/Pclz;->q([B)[B
 
     move-result-object v4
 
@@ -177,7 +177,7 @@
 
     move-result-object v6
 
-    invoke-static {v5, v4, v6}, Lcom/tencent/mm/a/b;->a(Lcom/tencent/mm/pointers/PByteArray;[B[B)I
+    invoke-static {v5, v4, v6}, Lcom/tencent/mm/a/Bclz;->a(Lcom/tencent/mm/pointers/PByteArray;[B[B)I
 
     .line 164
     new-instance v4, Ljava/lang/StringBuilder;
@@ -246,7 +246,7 @@
 
     check-cast v0, Ljava/lang/Integer;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->d(Ljava/lang/Integer;)I
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->d(Ljava/lang/Integer;)I
 
     move-result v0
 
@@ -321,7 +321,7 @@
     move-result-object v0
 
     .line 188
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->d(Ljava/io/InputStream;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->d(Ljava/io/InputStream;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -368,7 +368,7 @@
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 139
-    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -449,7 +449,7 @@
 
     .line 145
     :goto_0
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->aOi()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->aOi()Ljava/lang/String;
 
     move-result-object v1
 
@@ -494,7 +494,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/a/d;->e(Ljava/lang/String;[B)I
+    invoke-static {p0, v0}, Lcom/tencent/mm/a/Dclz;->e(Ljava/lang/String;[B)I
 
     .line 150
     :cond_1
@@ -520,7 +520,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/a/d;->e(Ljava/lang/String;[B)I
+    invoke-static {p0, v0}, Lcom/tencent/mm/a/Dclz;->e(Ljava/lang/String;[B)I
 
     .line 151
     return-void
@@ -743,7 +743,7 @@
 
     move-result-object v10
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EY()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EY()J
 
     move-result-wide v11
 
@@ -897,12 +897,12 @@
 
     const/4 v9, -0x1
 
-    invoke-static {v2, v8, v9}, Lcom/tencent/mm/a/d;->d(Ljava/lang/String;II)[B
+    invoke-static {v2, v8, v9}, Lcom/tencent/mm/a/Dclz;->d(Ljava/lang/String;II)[B
 
     move-result-object v2
 
     .line 126
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->I([B)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->I([B)Z
 
     move-result v8
 
@@ -945,7 +945,7 @@
 
     move-result-wide v14
 
-    invoke-static {v14, v15}, Lcom/tencent/mm/sdk/platformtools/bc;->al(J)J
+    invoke-static {v14, v15}, Lcom/tencent/mm/sdk/platformtools/BCclz;->al(J)J
 
     move-result-wide v14
 

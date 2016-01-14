@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic kzU:Lcom/tencent/mm/ui/friend/RecommendFriendUI;
 
-.field final synthetic kzW:Lcom/tencent/mm/modelsimple/q;
+.field final synthetic kzW:Lcom/tencent/mm/modelsimple/Qclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/friend/RecommendFriendUI;Lcom/tencent/mm/modelsimple/q;)V
+.method constructor <init>(Lcom/tencent/mm/ui/friend/RecommendFriendUI;Lcom/tencent/mm/modelsimple/Qclz;)V
     .locals 1
 
     .prologue
     .line 199
     iput-object p1, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI$5;->kzU:Lcom/tencent/mm/ui/friend/RecommendFriendUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI$5;->kzW:Lcom/tencent/mm/modelsimple/q;
+    iput-object p2, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI$5;->kzW:Lcom/tencent/mm/modelsimple/Qclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI$5;->kzW:Lcom/tencent/mm/modelsimple/q;
+    iget-object v1, p0, Lcom/tencent/mm/ui/friend/RecommendFriendUI$5;->kzW:Lcom/tencent/mm/modelsimple/Qclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 

@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -58,51 +58,51 @@
     const/4 v3, 0x1
 
     .line 4893
-    new-instance v0, Lcom/tencent/mm/d/a/co;
+    new-instance v0, Lcom/tencent/mm/d/a/COclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/co;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/COclz;-><init>()V
 
     .line 4894
-    iget-object v1, v0, Lcom/tencent/mm/d/a/co;->avB:Lcom/tencent/mm/d/a/co$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/COclz;->avB:Lcom/tencent/mm/d/a/COclz$a;
 
-    iput v3, v1, Lcom/tencent/mm/d/a/co$a;->op:I
+    iput v3, v1, Lcom/tencent/mm/d/a/COclz$a;->op:I
 
     .line 4895
-    iget-object v1, v0, Lcom/tencent/mm/d/a/co;->avB:Lcom/tencent/mm/d/a/co$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/COclz;->avB:Lcom/tencent/mm/d/a/COclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$20;->hHe:Lcom/tencent/mm/plugin/webview/c/v;
 
     iget-object v2, v2, Lcom/tencent/mm/plugin/webview/c/v;->ani:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/co$a;->ani:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/COclz$a;->ani:Ljava/lang/String;
 
     .line 4896
-    iget-object v1, v0, Lcom/tencent/mm/d/a/co;->avB:Lcom/tencent/mm/d/a/co$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/COclz;->avB:Lcom/tencent/mm/d/a/COclz$a;
 
-    iput-boolean v3, v1, Lcom/tencent/mm/d/a/co$a;->aoP:Z
+    iput-boolean v3, v1, Lcom/tencent/mm/d/a/COclz$a;->aoP:Z
 
     .line 4897
-    iget-object v1, v0, Lcom/tencent/mm/d/a/co;->avB:Lcom/tencent/mm/d/a/co$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/COclz;->avB:Lcom/tencent/mm/d/a/COclz$a;
 
     new-instance v2, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$20$1;
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$20$1;-><init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$20;)V
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/co$a;->avD:Lcom/tencent/mm/q/Fclz$a;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/COclz$a;->avD:Lcom/tencent/mm/q/Fclz$a;
 
     .line 4911
-    iget-object v1, v0, Lcom/tencent/mm/d/a/co;->avB:Lcom/tencent/mm/d/a/co$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/COclz;->avB:Lcom/tencent/mm/d/a/COclz$a;
 
     new-instance v2, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$20$2;
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$20$2;-><init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$20;)V
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/co$a;->avE:Lcom/tencent/mm/q/Fclz$b;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/COclz$a;->avE:Lcom/tencent/mm/q/Fclz$b;
 
     .line 4925
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 4926
     return-void

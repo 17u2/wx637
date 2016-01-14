@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,11 +48,11 @@
 
     .prologue
     .line 395
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->aOh()Lcom/tencent/mm/sdk/platformtools/v$a;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->aOh()Lcom/tencent/mm/sdk/platformtools/Vclz$a;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/sdk/platformtools/v$a;->appenderClose()V
+    invoke-interface {v0}, Lcom/tencent/mm/sdk/platformtools/Vclz$a;->appenderClose()V
 
     .line 396
     return-void
@@ -63,11 +63,11 @@
 
     .prologue
     .line 390
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->aOh()Lcom/tencent/mm/sdk/platformtools/v$a;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->aOh()Lcom/tencent/mm/sdk/platformtools/Vclz$a;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/sdk/platformtools/v$a;->appenderFlush()V
+    invoke-interface {v0}, Lcom/tencent/mm/sdk/platformtools/Vclz$a;->appenderFlush()V
 
     .line 391
     return-void
@@ -78,11 +78,11 @@
 
     .prologue
     .line 385
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->aOh()Lcom/tencent/mm/sdk/platformtools/v$a;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->aOh()Lcom/tencent/mm/sdk/platformtools/Vclz$a;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/sdk/platformtools/v$a;->getLogLevel()I
+    invoke-interface {v0}, Lcom/tencent/mm/sdk/platformtools/Vclz$a;->getLogLevel()I
 
     move-result v0
 
@@ -94,7 +94,7 @@
 
     .prologue
     .line 380
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->aOh()Lcom/tencent/mm/sdk/platformtools/v$a;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->aOh()Lcom/tencent/mm/sdk/platformtools/Vclz$a;
 
     move-result-object v0
 
@@ -114,7 +114,7 @@
 
     move-object/from16 v10, p10
 
-    invoke-interface/range {v0 .. v10}, Lcom/tencent/mm/sdk/platformtools/v$a;->logD(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIJJLjava/lang/String;)V
+    invoke-interface/range {v0 .. v10}, Lcom/tencent/mm/sdk/platformtools/Vclz$a;->logD(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIJJLjava/lang/String;)V
 
     .line 381
     return-void
@@ -125,7 +125,7 @@
 
     .prologue
     .line 375
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->aOh()Lcom/tencent/mm/sdk/platformtools/v$a;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->aOh()Lcom/tencent/mm/sdk/platformtools/Vclz$a;
 
     move-result-object v0
 
@@ -145,7 +145,7 @@
 
     move-object/from16 v10, p10
 
-    invoke-interface/range {v0 .. v10}, Lcom/tencent/mm/sdk/platformtools/v$a;->logE(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIJJLjava/lang/String;)V
+    invoke-interface/range {v0 .. v10}, Lcom/tencent/mm/sdk/platformtools/Vclz$a;->logE(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIJJLjava/lang/String;)V
 
     .line 376
     return-void
@@ -156,7 +156,7 @@
 
     .prologue
     .line 370
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->aOh()Lcom/tencent/mm/sdk/platformtools/v$a;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->aOh()Lcom/tencent/mm/sdk/platformtools/Vclz$a;
 
     move-result-object v0
 
@@ -176,7 +176,7 @@
 
     move-object/from16 v10, p10
 
-    invoke-interface/range {v0 .. v10}, Lcom/tencent/mm/sdk/platformtools/v$a;->logF(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIJJLjava/lang/String;)V
+    invoke-interface/range {v0 .. v10}, Lcom/tencent/mm/sdk/platformtools/Vclz$a;->logF(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIJJLjava/lang/String;)V
 
     .line 371
     return-void
@@ -187,7 +187,7 @@
 
     .prologue
     .line 365
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->aOh()Lcom/tencent/mm/sdk/platformtools/v$a;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->aOh()Lcom/tencent/mm/sdk/platformtools/Vclz$a;
 
     move-result-object v0
 
@@ -207,7 +207,7 @@
 
     move-object/from16 v10, p10
 
-    invoke-interface/range {v0 .. v10}, Lcom/tencent/mm/sdk/platformtools/v$a;->logI(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIJJLjava/lang/String;)V
+    invoke-interface/range {v0 .. v10}, Lcom/tencent/mm/sdk/platformtools/Vclz$a;->logI(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIJJLjava/lang/String;)V
 
     .line 366
     return-void
@@ -218,7 +218,7 @@
 
     .prologue
     .line 359
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->aOh()Lcom/tencent/mm/sdk/platformtools/v$a;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->aOh()Lcom/tencent/mm/sdk/platformtools/Vclz$a;
 
     move-result-object v0
 
@@ -238,7 +238,7 @@
 
     move-object/from16 v10, p10
 
-    invoke-interface/range {v0 .. v10}, Lcom/tencent/mm/sdk/platformtools/v$a;->logV(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIJJLjava/lang/String;)V
+    invoke-interface/range {v0 .. v10}, Lcom/tencent/mm/sdk/platformtools/Vclz$a;->logV(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIJJLjava/lang/String;)V
 
     .line 361
     return-void
@@ -249,7 +249,7 @@
 
     .prologue
     .line 354
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->aOh()Lcom/tencent/mm/sdk/platformtools/v$a;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->aOh()Lcom/tencent/mm/sdk/platformtools/Vclz$a;
 
     move-result-object v0
 
@@ -269,7 +269,7 @@
 
     move-object/from16 v10, p10
 
-    invoke-interface/range {v0 .. v10}, Lcom/tencent/mm/sdk/platformtools/v$a;->logW(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIJJLjava/lang/String;)V
+    invoke-interface/range {v0 .. v10}, Lcom/tencent/mm/sdk/platformtools/Vclz$a;->logW(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIJJLjava/lang/String;)V
 
     .line 355
     return-void

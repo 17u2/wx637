@@ -15,7 +15,7 @@
 
 
 # virtual methods
-.method public abstract auP()Lcom/tencent/mm/aw/g;
+.method public abstract auP()Lcom/tencent/mm/aw/Gclz;
 .end method
 
 .method public abstract auQ()Ljava/util/ArrayList;

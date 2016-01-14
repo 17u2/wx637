@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -114,9 +114,9 @@
 
     :cond_0
     :goto_0
-    new-instance v1, Lcom/tencent/mm/modelsns/c;
+    new-instance v1, Lcom/tencent/mm/modelsns/Cclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/modelsns/c;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/modelsns/Cclz;-><init>()V
 
     const-string/jumbo v2, "20BrowseTime"
 
@@ -140,7 +140,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "21BrowseFeedCount"
 
@@ -164,7 +164,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "22CommentOrLikeFeedCount"
 
@@ -188,7 +188,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "23ClickFeedCount"
 
@@ -212,7 +212,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "24ClickAlbumCount"
 
@@ -236,7 +236,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "25PostFeedCount"
 
@@ -260,7 +260,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "26ExposeFeedCount"
 
@@ -284,7 +284,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "27FavFeedCount"
 
@@ -308,7 +308,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "28BlackListFriendCount"
 
@@ -332,7 +332,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "29OutsiderFriendCount"
 
@@ -356,7 +356,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "30BrowseNewFeedCount"
 
@@ -380,7 +380,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "31HasNewSnsMsgWhenEntrance"
 
@@ -404,7 +404,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "32HasNewChatMsgWhenExit"
 
@@ -428,7 +428,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "33StartBrowseSnsObjectId"
 
@@ -452,7 +452,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "34EndBrowseSnsObjectId"
 
@@ -476,7 +476,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "35NextBrowseSnsObjectId"
 
@@ -500,7 +500,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "36HasNewFeedInServer"
 
@@ -524,7 +524,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "37BrowseBrandUrlFeedCount"
 
@@ -548,7 +548,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "38BrowseNotBrandUrlFeedCount"
 
@@ -572,7 +572,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "39BrowseTextFeedCount"
 
@@ -596,7 +596,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "40BrowseImageFeedCount"
 
@@ -620,7 +620,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "41BrowseSightFeedCount"
 
@@ -644,7 +644,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "42BrowseAdFeedCount"
 
@@ -668,7 +668,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "43BrowseMusicFeedCount"
 
@@ -692,7 +692,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v2, "44contactCount"
 
@@ -716,7 +716,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/modelsns/c;->f(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/modelsns/Cclz;->f(Ljava/lang/String;Ljava/lang/Object;)V
 
     const-string/jumbo v0, "!44@/B4Tb64lLpJUdxR8vZ5LhmiGkSF5VAsJpS8VI0PSJ8k="
 
@@ -726,7 +726,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v1}, Lcom/tencent/mm/modelsns/c;->Cj()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/modelsns/Cclz;->Cj()Ljava/lang/String;
 
     move-result-object v3
 
@@ -738,7 +738,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     sget-object v0, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;
 

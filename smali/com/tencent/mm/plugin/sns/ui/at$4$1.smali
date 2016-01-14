@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,7 +56,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/at$4;->gGb:Lcom/tencent/mm/plugin/sns/ui/at;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/at;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/at;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     if-eqz v0, :cond_0
 
@@ -65,9 +65,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/at$4;->gGb:Lcom/tencent/mm/plugin/sns/ui/at;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/at;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/at;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/o;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Oclz;->dismiss()V
 
     .line 316
     :cond_0
@@ -124,14 +124,14 @@
 
     .line 319
     :cond_1
-    invoke-static {p1, v4}, Lcom/tencent/mm/p/b;->r(Ljava/lang/String;I)Z
+    invoke-static {p1, v4}, Lcom/tencent/mm/p/Bclz;->r(Ljava/lang/String;I)Z
 
     .line 320
-    invoke-static {}, Lcom/tencent/mm/p/n;->vh()Lcom/tencent/mm/p/c;
+    invoke-static {}, Lcom/tencent/mm/p/Nclz;->vh()Lcom/tencent/mm/p/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/p/c;->fG(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/p/Cclz;->fG(Ljava/lang/String;)V
 
     .line 321
     new-instance v0, Landroid/content/Intent;

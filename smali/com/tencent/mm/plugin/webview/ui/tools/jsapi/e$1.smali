@@ -51,7 +51,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -68,7 +68,7 @@
 
     const-string/jumbo v1, "showDlgForJSVerify click ok"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 441
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/e$1;->hFF:Lcom/tencent/mm/plugin/webview/c/l;
@@ -85,7 +85,7 @@
 
     const-string/jumbo v1, "authReq is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 444
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/e$1;->hFF:Lcom/tencent/mm/plugin/webview/c/l;
@@ -201,7 +201,7 @@
 
     aput-object v6, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 456
     const/4 v2, 0x1
@@ -276,7 +276,7 @@
 
     aput-object v5, v4, v0
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_2
 
@@ -300,11 +300,11 @@
 
     iget-object v8, v10, Lcom/tencent/mm/protocal/b/YBclz;->iIg:Ljava/lang/String;
 
-    iget-object v9, v10, Lcom/tencent/mm/protocal/b/YBclz;->iIh:Lcom/tencent/mm/aq/b;
+    iget-object v9, v10, Lcom/tencent/mm/protocal/b/YBclz;->iIh:Lcom/tencent/mm/aq/Bclz;
 
     iget v10, v10, Lcom/tencent/mm/protocal/b/YBclz;->iIi:I
 
-    invoke-direct/range {v0 .. v11}, Lcom/tencent/mm/plugin/webview/c/o;-><init>(Lcom/tencent/mm/protocal/b/YAclz;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/aq/b;ILjava/util/LinkedList;)V
+    invoke-direct/range {v0 .. v11}, Lcom/tencent/mm/plugin/webview/c/o;-><init>(Lcom/tencent/mm/protocal/b/YAclz;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/aq/Bclz;ILjava/util/LinkedList;)V
 
     .line 469
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;

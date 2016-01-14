@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -72,7 +72,7 @@
 
     check-cast v0, Ljava/lang/Integer;
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Integer;I)I
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Integer;I)I
 
     move-result v0
 
@@ -94,17 +94,17 @@
 
     .line 284
     :cond_1
-    new-instance v5, Lcom/tencent/mm/ui/base/h;
+    new-instance v5, Lcom/tencent/mm/ui/base/Hclz;
 
     const v0, 0x7f0d00df
 
-    invoke-direct {v5, v4, v0}, Lcom/tencent/mm/ui/base/h;-><init>(Landroid/content/Context;I)V
+    invoke-direct {v5, v4, v0}, Lcom/tencent/mm/ui/base/Hclz;-><init>(Landroid/content/Context;I)V
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/o;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {v0}, Lcom/tencent/mm/ui/Oclz;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v0
 
@@ -128,25 +128,25 @@
 
     check-cast v1, Landroid/widget/Button;
 
-    invoke-virtual {v5, v3}, Lcom/tencent/mm/ui/base/h;->setCanceledOnTouchOutside(Z)V
+    invoke-virtual {v5, v3}, Lcom/tencent/mm/ui/base/Hclz;->setCanceledOnTouchOutside(Z)V
 
     new-instance v6, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$17;
 
     invoke-direct {v6, v4}, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$17;-><init>(Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;)V
 
-    invoke-virtual {v5, v6}, Lcom/tencent/mm/ui/base/h;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual {v5, v6}, Lcom/tencent/mm/ui/base/Hclz;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
-    invoke-virtual {v5, v2}, Lcom/tencent/mm/ui/base/h;->setCancelable(Z)V
+    invoke-virtual {v5, v2}, Lcom/tencent/mm/ui/base/Hclz;->setCancelable(Z)V
 
     new-instance v2, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$2;
 
-    invoke-direct {v2, v4, v5}, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$2;-><init>(Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;Lcom/tencent/mm/ui/base/h;)V
+    invoke-direct {v2, v4, v5}, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$2;-><init>(Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;Lcom/tencent/mm/ui/base/Hclz;)V
 
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    invoke-virtual {v5, v0}, Lcom/tencent/mm/ui/base/h;->setContentView(Landroid/view/View;)V
+    invoke-virtual {v5, v0}, Lcom/tencent/mm/ui/base/Hclz;->setContentView(Landroid/view/View;)V
 
-    invoke-virtual {v5}, Lcom/tencent/mm/ui/base/h;->show()V
+    invoke-virtual {v5}, Lcom/tencent/mm/ui/base/Hclz;->show()V
 
     move v0, v3
 

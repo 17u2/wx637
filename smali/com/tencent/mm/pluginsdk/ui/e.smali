@@ -72,7 +72,7 @@
     .line 29
     const/4 v1, 0x0
 
-    invoke-static {p1, v0, v1}, Lcom/tencent/mm/sdk/platformtools/r;->H(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map;
+    invoke-static {p1, v0, v1}, Lcom/tencent/mm/sdk/platformtools/Rclz;->H(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map;
 
     move-result-object v1
 
@@ -121,7 +121,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->d(Ljava/lang/Integer;)I
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->d(Ljava/lang/Integer;)I
 
     move-result v0
 
@@ -164,7 +164,7 @@
 
     const-wide/32 v3, -0x777778
 
-    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Long;J)J
+    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Long;J)J
 
     move-result-wide v3
 
@@ -201,7 +201,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->d(Ljava/lang/Boolean;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->d(Ljava/lang/Boolean;)Z
 
     move-result v0
 
@@ -244,7 +244,7 @@
 
     const-wide/16 v3, 0x0
 
-    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Long;J)J
+    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Long;J)J
 
     move-result-wide v3
 
@@ -281,7 +281,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->d(Ljava/lang/Boolean;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->d(Ljava/lang/Boolean;)Z
 
     move-result v0
 
@@ -324,7 +324,7 @@
 
     const-wide/32 v3, -0x1000000
 
-    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Long;J)J
+    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Long;J)J
 
     move-result-wide v3
 
@@ -361,7 +361,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->d(Ljava/lang/Boolean;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->d(Ljava/lang/Boolean;)Z
 
     move-result v0
 
@@ -404,7 +404,7 @@
 
     const-wide/16 v3, 0x0
 
-    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Long;J)J
+    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Long;J)J
 
     move-result-wide v3
 
@@ -441,7 +441,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->d(Ljava/lang/Boolean;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->d(Ljava/lang/Boolean;)Z
 
     move-result v0
 
@@ -454,7 +454,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     :goto_0
@@ -468,14 +468,14 @@
 
     const-string/jumbo v1, "parse chatbgattr failed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 48
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     goto :goto_0
 .end method

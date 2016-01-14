@@ -32,7 +32,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/tencent/mm/d/a/gt;)V
+.method public constructor <init>(Lcom/tencent/mm/d/a/GTclz;)V
     .locals 1
 
     .prologue
@@ -42,7 +42,7 @@
     .line 58
     if-eqz p1, :cond_0
 
-    iget-object v0, p1, Lcom/tencent/mm/d/a/gt;->aBc:Lcom/tencent/mm/d/a/gt$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/GTclz;->aBc:Lcom/tencent/mm/d/a/GTclz$a;
 
     if-nez v0, :cond_2
 
@@ -52,7 +52,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     .line 73
     :cond_1
@@ -61,86 +61,86 @@
 
     .line 61
     :cond_2
-    iget-object v0, p1, Lcom/tencent/mm/d/a/gt;->aBc:Lcom/tencent/mm/d/a/gt$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/GTclz;->aBc:Lcom/tencent/mm/d/a/GTclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/gt$a;->appId:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/GTclz$a;->appId:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/wallet/a;->appId:Ljava/lang/String;
 
     .line 62
-    iget-object v0, p1, Lcom/tencent/mm/d/a/gt;->aBc:Lcom/tencent/mm/d/a/gt$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/GTclz;->aBc:Lcom/tencent/mm/d/a/GTclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/gt$a;->aBd:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/GTclz$a;->aBd:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/wallet/a;->aBd:Ljava/lang/String;
 
     .line 63
-    iget-object v0, p1, Lcom/tencent/mm/d/a/gt;->aBc:Lcom/tencent/mm/d/a/gt$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/GTclz;->aBc:Lcom/tencent/mm/d/a/GTclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/gt$a;->aBe:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/GTclz$a;->aBe:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/wallet/a;->aBe:Ljava/lang/String;
 
     .line 64
-    iget-object v0, p1, Lcom/tencent/mm/d/a/gt;->aBc:Lcom/tencent/mm/d/a/gt$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/GTclz;->aBc:Lcom/tencent/mm/d/a/GTclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/gt$a;->aBf:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/GTclz$a;->aBf:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/wallet/a;->aBf:Ljava/lang/String;
 
     .line 65
-    iget-object v0, p1, Lcom/tencent/mm/d/a/gt;->aBc:Lcom/tencent/mm/d/a/gt$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/GTclz;->aBc:Lcom/tencent/mm/d/a/GTclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/gt$a;->aBg:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/GTclz$a;->aBg:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/wallet/a;->aBg:Ljava/lang/String;
 
     .line 66
-    iget-object v0, p1, Lcom/tencent/mm/d/a/gt;->aBc:Lcom/tencent/mm/d/a/gt$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/GTclz;->aBc:Lcom/tencent/mm/d/a/GTclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/gt$a;->aBh:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/GTclz$a;->aBh:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/wallet/a;->aBh:Ljava/lang/String;
 
     .line 67
-    iget-object v0, p1, Lcom/tencent/mm/d/a/gt;->aBc:Lcom/tencent/mm/d/a/gt$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/GTclz;->aBc:Lcom/tencent/mm/d/a/GTclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/gt$a;->aBi:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/GTclz$a;->aBi:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/wallet/a;->aBi:Ljava/lang/String;
 
     .line 68
-    iget-object v0, p1, Lcom/tencent/mm/d/a/gt;->aBc:Lcom/tencent/mm/d/a/gt$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/GTclz;->aBc:Lcom/tencent/mm/d/a/GTclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/gt$a;->url:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/GTclz$a;->url:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/wallet/a;->url:Ljava/lang/String;
 
     .line 69
-    iget-object v0, p1, Lcom/tencent/mm/d/a/gt;->aBc:Lcom/tencent/mm/d/a/gt$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/GTclz;->aBc:Lcom/tencent/mm/d/a/GTclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/gt$a;->aBj:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/GTclz$a;->aBj:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/wallet/a;->aBj:Ljava/lang/String;
 
     .line 70
-    iget-object v0, p1, Lcom/tencent/mm/d/a/gt;->aBc:Lcom/tencent/mm/d/a/gt$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/GTclz;->aBc:Lcom/tencent/mm/d/a/GTclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/gt$a;->aBk:I
+    iget v0, v0, Lcom/tencent/mm/d/a/GTclz$a;->aBk:I
 
     iput v0, p0, Lcom/tencent/mm/pluginsdk/wallet/a;->aBk:I
 
     .line 71
-    iget-object v0, p1, Lcom/tencent/mm/d/a/gt;->aBc:Lcom/tencent/mm/d/a/gt$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/GTclz;->aBc:Lcom/tencent/mm/d/a/GTclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/gt$a;->aBm:I
+    iget v0, v0, Lcom/tencent/mm/d/a/GTclz$a;->aBm:I
 
     iput v0, p0, Lcom/tencent/mm/pluginsdk/wallet/a;->aBm:I
 
     .line 72
-    iget-object v0, p1, Lcom/tencent/mm/d/a/gt;->aBc:Lcom/tencent/mm/d/a/gt$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/GTclz;->aBc:Lcom/tencent/mm/d/a/GTclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/gt$a;->aBl:I
+    iget v0, v0, Lcom/tencent/mm/d/a/GTclz$a;->aBl:I
 
     iput v0, p0, Lcom/tencent/mm/pluginsdk/wallet/a;->aBl:I
 
@@ -149,7 +149,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     goto :goto_0
 .end method
@@ -271,7 +271,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v0
 
@@ -286,7 +286,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v0
 
@@ -301,7 +301,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -312,7 +312,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

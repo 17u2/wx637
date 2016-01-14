@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -116,20 +116,20 @@
 
     aput-object v4, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 210
     iget-object v1, p0, Lcom/tencent/mm/ui/friend/QQFriendUI$4;->kzQ:Lcom/tencent/mm/ui/friend/QQFriendUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/friend/QQFriendUI;->d(Lcom/tencent/mm/ui/friend/QQFriendUI;)Lcom/tencent/mm/ui/friend/d;
+    invoke-static {v1}, Lcom/tencent/mm/ui/friend/QQFriendUI;->d(Lcom/tencent/mm/ui/friend/QQFriendUI;)Lcom/tencent/mm/ui/friend/Dclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/friend/d;->getItem(I)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/friend/Dclz;->getItem(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelfriend/af;
+    check-cast v0, Lcom/tencent/mm/modelfriend/AFclz;
 
     .line 212
     iget-object v1, p0, Lcom/tencent/mm/ui/friend/QQFriendUI$4;->kzQ:Lcom/tencent/mm/ui/friend/QQFriendUI;
@@ -148,23 +148,23 @@
     if-eqz v1, :cond_2
 
     .line 214
-    new-instance v1, Lcom/tencent/mm/d/a/hc;
+    new-instance v1, Lcom/tencent/mm/d/a/HCclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/d/a/hc;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/d/a/HCclz;-><init>()V
 
     .line 215
-    iget-object v2, v1, Lcom/tencent/mm/d/a/hc;->aBP:Lcom/tencent/mm/d/a/hc$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/HCclz;->aBP:Lcom/tencent/mm/d/a/HCclz$a;
 
-    iput v6, v2, Lcom/tencent/mm/d/a/hc$a;->atB:I
+    iput v6, v2, Lcom/tencent/mm/d/a/HCclz$a;->atB:I
 
     .line 216
-    iget-object v2, v1, Lcom/tencent/mm/d/a/hc;->aBP:Lcom/tencent/mm/d/a/hc$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/HCclz;->aBP:Lcom/tencent/mm/d/a/HCclz$a;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-wide v4, v0, Lcom/tencent/mm/modelfriend/af;->bFM:J
+    iget-wide v4, v0, Lcom/tencent/mm/modelfriend/AFclz;->bFM:J
 
     invoke-virtual {v3, v4, v5}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -180,26 +180,26 @@
 
     move-result-object v3
 
-    iput-object v3, v2, Lcom/tencent/mm/d/a/hc$a;->aBR:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/d/a/HCclz$a;->aBR:Ljava/lang/String;
 
     .line 217
-    iget-object v2, v1, Lcom/tencent/mm/d/a/hc;->aBP:Lcom/tencent/mm/d/a/hc$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/HCclz;->aBP:Lcom/tencent/mm/d/a/HCclz$a;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/af;->getDisplayName()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/AFclz;->getDisplayName()Ljava/lang/String;
 
     move-result-object v3
 
-    iput-object v3, v2, Lcom/tencent/mm/d/a/hc$a;->aBS:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/d/a/HCclz$a;->aBS:Ljava/lang/String;
 
     .line 218
-    sget-object v2, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v2, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 220
-    iget-object v1, v1, Lcom/tencent/mm/d/a/hc;->aBQ:Lcom/tencent/mm/d/a/hc$b;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/HCclz;->aBQ:Lcom/tencent/mm/d/a/HCclz$b;
 
-    iget-boolean v1, v1, Lcom/tencent/mm/d/a/hc$b;->asS:Z
+    iget-boolean v1, v1, Lcom/tencent/mm/d/a/HCclz$b;->asS:Z
 
     if-eqz v1, :cond_0
 
@@ -215,7 +215,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-wide v4, v0, Lcom/tencent/mm/modelfriend/af;->bFM:J
+    iget-wide v4, v0, Lcom/tencent/mm/modelfriend/AFclz;->bFM:J
 
     invoke-virtual {v3, v4, v5}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -249,11 +249,11 @@
 
     .line 227
     :cond_2
-    iget v1, v0, Lcom/tencent/mm/modelfriend/af;->bFN:I
+    iget v1, v0, Lcom/tencent/mm/modelfriend/AFclz;->bFN:I
 
     if-eq v1, v5, :cond_3
 
-    iget v1, v0, Lcom/tencent/mm/modelfriend/af;->bFN:I
+    iget v1, v0, Lcom/tencent/mm/modelfriend/AFclz;->bFN:I
 
     if-ne v1, v7, :cond_7
 
@@ -267,7 +267,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/af;->getUsername()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/AFclz;->getUsername()Ljava/lang/String;
 
     move-result-object v2
 
@@ -293,7 +293,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/af;->getUsername()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/AFclz;->getUsername()Ljava/lang/String;
 
     move-result-object v4
 
@@ -322,7 +322,7 @@
     .line 235
     const-string/jumbo v2, "Contact_User"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/af;->getUsername()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/AFclz;->getUsername()Ljava/lang/String;
 
     move-result-object v3
 
@@ -331,7 +331,7 @@
     .line 236
     const-string/jumbo v2, "Contact_Nick"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/af;->yR()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/AFclz;->yR()Ljava/lang/String;
 
     move-result-object v3
 
@@ -340,14 +340,14 @@
     .line 237
     const-string/jumbo v2, "Contact_Uin"
 
-    iget-wide v3, v0, Lcom/tencent/mm/modelfriend/af;->bFM:J
+    iget-wide v3, v0, Lcom/tencent/mm/modelfriend/AFclz;->bFM:J
 
     invoke-virtual {v1, v2, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
     .line 238
     const-string/jumbo v2, "Contact_QQNick"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/af;->getDisplayName()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/AFclz;->getDisplayName()Ljava/lang/String;
 
     move-result-object v3
 
@@ -361,22 +361,22 @@
     .line 240
     const-string/jumbo v2, "Contact_RemarkName"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/af;->yV()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/AFclz;->yV()Ljava/lang/String;
 
     move-result-object v3
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 241
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zc()Lcom/tencent/mm/modelfriend/l;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zc()Lcom/tencent/mm/modelfriend/Lclz;
 
     move-result-object v2
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/af;->getUsername()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/AFclz;->getUsername()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/modelfriend/l;->hj(Ljava/lang/String;)Lcom/tencent/mm/modelfriend/k;
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/modelfriend/Lclz;->hj(Ljava/lang/String;)Lcom/tencent/mm/modelfriend/Kclz;
 
     move-result-object v2
 
@@ -386,7 +386,7 @@
     .line 243
     const-string/jumbo v3, "Contact_Sex"
 
-    iget v2, v2, Lcom/tencent/mm/modelfriend/k;->aOs:I
+    iget v2, v2, Lcom/tencent/mm/modelfriend/Kclz;->aOs:I
 
     invoke-virtual {v1, v3, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
@@ -397,11 +397,11 @@
     invoke-virtual {v1, v2, v6}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     .line 247
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/af;->getUsername()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/AFclz;->getUsername()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -414,13 +414,13 @@
 
     new-array v3, v5, [Ljava/lang/Object;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/af;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/AFclz;->toString()Ljava/lang/String;
 
     move-result-object v0
 
     aput-object v0, v3, v6
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto/16 :goto_0
 
@@ -436,7 +436,7 @@
 
     .line 253
     :cond_7
-    iget v1, v0, Lcom/tencent/mm/modelfriend/af;->bFN:I
+    iget v1, v0, Lcom/tencent/mm/modelfriend/AFclz;->bFN:I
 
     if-nez v1, :cond_0
 
@@ -457,7 +457,7 @@
     .line 256
     const-string/jumbo v2, "friend_user_name"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/af;->getUsername()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/AFclz;->getUsername()Ljava/lang/String;
 
     move-result-object v3
 
@@ -470,7 +470,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-wide v4, v0, Lcom/tencent/mm/modelfriend/af;->bFM:J
+    iget-wide v4, v0, Lcom/tencent/mm/modelfriend/AFclz;->bFM:J
 
     invoke-virtual {v3, v4, v5}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -485,7 +485,7 @@
     .line 258
     const-string/jumbo v2, "friend_nick"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/af;->getDisplayName()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/AFclz;->getDisplayName()Ljava/lang/String;
 
     move-result-object v3
 
@@ -494,7 +494,7 @@
     .line 259
     const-string/jumbo v2, "friend_weixin_nick"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/af;->yR()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/AFclz;->yR()Ljava/lang/String;
 
     move-result-object v0
 

@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,7 +50,7 @@
     .line 201
     iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppInstallerUI$5;->jde:Lcom/tencent/mm/sandbox/updater/AppInstallerUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/sandbox/updater/AppInstallerUI;->e(Lcom/tencent/mm/sandbox/updater/AppInstallerUI;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0}, Lcom/tencent/mm/sandbox/updater/AppInstallerUI;->e(Lcom/tencent/mm/sandbox/updater/AppInstallerUI;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -58,11 +58,11 @@
 
     iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppInstallerUI$5;->jde:Lcom/tencent/mm/sandbox/updater/AppInstallerUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/sandbox/updater/AppInstallerUI;->e(Lcom/tencent/mm/sandbox/updater/AppInstallerUI;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0}, Lcom/tencent/mm/sandbox/updater/AppInstallerUI;->e(Lcom/tencent/mm/sandbox/updater/AppInstallerUI;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->isShowing()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->isShowing()Z
 
     move-result v0
 
@@ -71,11 +71,11 @@
     .line 202
     iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppInstallerUI$5;->jde:Lcom/tencent/mm/sandbox/updater/AppInstallerUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/sandbox/updater/AppInstallerUI;->e(Lcom/tencent/mm/sandbox/updater/AppInstallerUI;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0}, Lcom/tencent/mm/sandbox/updater/AppInstallerUI;->e(Lcom/tencent/mm/sandbox/updater/AppInstallerUI;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->show()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->show()V
 
     .line 204
     :cond_0

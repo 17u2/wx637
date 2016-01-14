@@ -21,7 +21,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -95,7 +95,7 @@
 
     aput-object v0, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 .end method
@@ -121,7 +121,7 @@
 
     aput-object p0, v3, v2
 
-    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 38
     new-instance v3, Ljava/util/LinkedList;
@@ -141,7 +141,7 @@
 
     const-string/jumbo v1, "Msg parsing failed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, v3
 
@@ -312,7 +312,7 @@
 
     move-result-object v0
 
-    invoke-static {v5, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_3
 
@@ -331,7 +331,7 @@
 
     const-wide/16 v9, 0x0
 
-    invoke-static {v6, v9, v10}, Lcom/tencent/mm/sdk/platformtools/bc;->getLong(Ljava/lang/String;J)J
+    invoke-static {v6, v9, v10}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getLong(Ljava/lang/String;J)J
 
     move-result-wide v9
 
@@ -361,7 +361,7 @@
 
     const-wide/16 v9, 0x0
 
-    invoke-static {v6, v9, v10}, Lcom/tencent/mm/sdk/platformtools/bc;->getLong(Ljava/lang/String;J)J
+    invoke-static {v6, v9, v10}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getLong(Ljava/lang/String;J)J
 
     move-result-wide v9
 
@@ -409,7 +409,7 @@
 
     const-wide/16 v9, 0x0
 
-    invoke-static {v6, v9, v10}, Lcom/tencent/mm/sdk/platformtools/bc;->getLong(Ljava/lang/String;J)J
+    invoke-static {v6, v9, v10}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getLong(Ljava/lang/String;J)J
 
     move-result-wide v9
 
@@ -451,7 +451,7 @@
 
     const/4 v9, 0x0
 
-    invoke-static {v6, v9}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v6, v9}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v6
 
@@ -511,7 +511,7 @@
 
     const-string/jumbo v1, "Raw XML string parsing failed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, v4
 
@@ -717,7 +717,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 168
     const/4 v0, 0x0

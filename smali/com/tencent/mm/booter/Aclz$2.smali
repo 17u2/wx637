@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/booter/Aclz$2;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,17 +42,17 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 2
 
     .prologue
     .line 127
-    check-cast p1, Lcom/tencent/mm/d/a/hq;
+    check-cast p1, Lcom/tencent/mm/d/a/HQclz;
 
     .line 128
-    iget-object v0, p1, Lcom/tencent/mm/d/a/hq;->aCV:Lcom/tencent/mm/d/a/hq$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/HQclz;->aCV:Lcom/tencent/mm/d/a/HQclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/hq$a;->state:I
+    iget v0, v0, Lcom/tencent/mm/d/a/HQclz$a;->state:I
 
     packed-switch v0, :pswitch_data_0
 
@@ -68,7 +68,7 @@
 
     const-string/jumbo v1, "jacks record resume event"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 131
     iget-object v0, p0, Lcom/tencent/mm/booter/Aclz$2;->bfc:Lcom/tencent/mm/booter/Aclz;
@@ -83,7 +83,7 @@
 
     const-string/jumbo v1, "jacks record pause event"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 136
     iget-object v0, p0, Lcom/tencent/mm/booter/Aclz$2;->bfc:Lcom/tencent/mm/booter/Aclz;

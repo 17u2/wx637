@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/ui/chatting/ChattingUI$a$89;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,14 +42,14 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 3
 
     .prologue
     const/4 v2, 0x0
 
     .line 917
-    instance-of v0, p1, Lcom/tencent/mm/d/a/fb;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/FBclz;
 
     if-eqz v0, :cond_0
 
@@ -69,18 +69,18 @@
 
     .line 923
     :cond_1
-    check-cast p1, Lcom/tencent/mm/d/a/fb;
+    check-cast p1, Lcom/tencent/mm/d/a/FBclz;
 
     .line 924
-    iget-object v0, p1, Lcom/tencent/mm/d/a/fb;->aze:Lcom/tencent/mm/d/a/fb$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/FBclz;->aze:Lcom/tencent/mm/d/a/FBclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/fb$a;->azf:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/FBclz$a;->azf:Ljava/lang/String;
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p1, Lcom/tencent/mm/d/a/fb;->aze:Lcom/tencent/mm/d/a/fb$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/FBclz;->aze:Lcom/tencent/mm/d/a/FBclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/fb$a;->azf:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/FBclz$a;->azf:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$89;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -96,9 +96,9 @@
 
     .line 927
     :cond_2
-    iget-object v0, p1, Lcom/tencent/mm/d/a/fb;->aze:Lcom/tencent/mm/d/a/fb$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/FBclz;->aze:Lcom/tencent/mm/d/a/FBclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/fb$a;->type:I
+    iget v0, v0, Lcom/tencent/mm/d/a/FBclz$a;->type:I
 
     const/4 v1, 0x1
 
@@ -109,15 +109,15 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/chatting/ChattingUI$a$89$1;-><init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a$89;)V
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
 
     goto :goto_0
 
     .line 933
     :cond_3
-    iget-object v0, p1, Lcom/tencent/mm/d/a/fb;->aze:Lcom/tencent/mm/d/a/fb$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/FBclz;->aze:Lcom/tencent/mm/d/a/FBclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/fb$a;->type:I
+    iget v0, v0, Lcom/tencent/mm/d/a/FBclz$a;->type:I
 
     const/4 v1, 0x2
 
@@ -133,7 +133,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/chatting/ChattingUI$a$89$2;-><init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a$89;)V
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
 
     goto :goto_0
 .end method

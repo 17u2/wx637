@@ -8,7 +8,7 @@
 
 .field bBH:I
 
-.field private bBI:Lcom/tencent/mm/modelgeo/c;
+.field private bBI:Lcom/tencent/mm/modelgeo/Cclz;
 
 .field private bBJ:I
 
@@ -16,9 +16,9 @@
 
 .field bBL:Z
 
-.field bBM:Lcom/tencent/mm/sdk/g/j$b;
+.field bBM:Lcom/tencent/mm/sdk/g/Jclz$b;
 
-.field private bgv:Lcom/tencent/mm/modelgeo/a$a;
+.field private bgv:Lcom/tencent/mm/modelgeo/Aclz$a;
 
 
 # direct methods
@@ -57,17 +57,17 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/s/Qclz$1;-><init>(Lcom/tencent/mm/s/Qclz;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/s/Qclz;->bBM:Lcom/tencent/mm/sdk/g/j$b;
+    iput-object v0, p0, Lcom/tencent/mm/s/Qclz;->bBM:Lcom/tencent/mm/sdk/g/Jclz$b;
 
     .line 53
     new-instance v0, Lcom/tencent/mm/s/Qclz$2;
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/s/Qclz$2;-><init>(Lcom/tencent/mm/s/Qclz;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/s/Qclz;->bgv:Lcom/tencent/mm/modelgeo/a$a;
+    iput-object v0, p0, Lcom/tencent/mm/s/Qclz;->bgv:Lcom/tencent/mm/modelgeo/Aclz$a;
 
     .line 93
-    invoke-static {}, Lcom/tencent/mm/g/h;->pT()Lcom/tencent/mm/g/c;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pT()Lcom/tencent/mm/g/Cclz;
 
     move-result-object v0
 
@@ -75,13 +75,13 @@
 
     const-string/jumbo v2, "continueLocationReportInterval"
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/g/c;->u(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/g/Cclz;->u(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     const/4 v1, 0x5
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v0
 
@@ -117,14 +117,14 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 98
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_1
     return-void
@@ -156,7 +156,7 @@
 
     aput-object v0, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 199
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -280,7 +280,7 @@
 
     const-string/jumbo v6, "Start report"
 
-    invoke-static {v0, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 134
     iput-object p1, p0, Lcom/tencent/mm/s/Qclz;->ajd:Ljava/lang/String;
@@ -327,10 +327,10 @@
 
     aput-object p1, v8, v5
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 153
-    invoke-static {p1}, Lcom/tencent/mm/p/b;->fF(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/tencent/mm/p/Bclz;->fF(Ljava/lang/String;)V
 
     .line 157
     :cond_3
@@ -355,11 +355,11 @@
     if-eqz v7, :cond_9
 
     .line 163
-    invoke-static {}, Lcom/tencent/mm/modelgeo/c;->zn()Lcom/tencent/mm/modelgeo/c;
+    invoke-static {}, Lcom/tencent/mm/modelgeo/Cclz;->zn()Lcom/tencent/mm/modelgeo/Cclz;
 
     move-result-object v6
 
-    iput-object v6, p0, Lcom/tencent/mm/s/Qclz;->bBI:Lcom/tencent/mm/modelgeo/c;
+    iput-object v6, p0, Lcom/tencent/mm/s/Qclz;->bBI:Lcom/tencent/mm/modelgeo/Cclz;
 
     .line 164
     invoke-virtual {v0, v5}, Lcom/tencent/mm/s/Kclz;->aS(Z)Lcom/tencent/mm/s/Kclz$c;
@@ -378,7 +378,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v0
 
@@ -400,13 +400,13 @@
     iput v0, p0, Lcom/tencent/mm/s/Qclz;->bBH:I
 
     .line 165
-    invoke-static {}, Lcom/tencent/mm/modelgeo/c;->zo()Z
+    invoke-static {}, Lcom/tencent/mm/modelgeo/Cclz;->zo()Z
 
     move-result v0
 
     if-nez v0, :cond_5
 
-    invoke-static {}, Lcom/tencent/mm/modelgeo/c;->zp()Z
+    invoke-static {}, Lcom/tencent/mm/modelgeo/Cclz;->zp()Z
 
     move-result v0
 
@@ -414,11 +414,11 @@
 
     .line 167
     :cond_5
-    iget-object v0, p0, Lcom/tencent/mm/s/Qclz;->bBI:Lcom/tencent/mm/modelgeo/c;
+    iget-object v0, p0, Lcom/tencent/mm/s/Qclz;->bBI:Lcom/tencent/mm/modelgeo/Cclz;
 
-    iget-object v1, p0, Lcom/tencent/mm/s/Qclz;->bgv:Lcom/tencent/mm/modelgeo/a$a;
+    iget-object v1, p0, Lcom/tencent/mm/s/Qclz;->bgv:Lcom/tencent/mm/modelgeo/Aclz$a;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelgeo/c;->b(Lcom/tencent/mm/modelgeo/a$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelgeo/Cclz;->b(Lcom/tencent/mm/modelgeo/Aclz$a;)V
 
     goto :goto_0
 
@@ -478,7 +478,7 @@
 
     const-string/jumbo v1, "Stop report"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 179
     const/4 v0, 0x0
@@ -486,16 +486,16 @@
     iput v0, p0, Lcom/tencent/mm/s/Qclz;->bBH:I
 
     .line 180
-    iget-object v0, p0, Lcom/tencent/mm/s/Qclz;->bBI:Lcom/tencent/mm/modelgeo/c;
+    iget-object v0, p0, Lcom/tencent/mm/s/Qclz;->bBI:Lcom/tencent/mm/modelgeo/Cclz;
 
     if-eqz v0, :cond_0
 
     .line 181
-    iget-object v0, p0, Lcom/tencent/mm/s/Qclz;->bBI:Lcom/tencent/mm/modelgeo/c;
+    iget-object v0, p0, Lcom/tencent/mm/s/Qclz;->bBI:Lcom/tencent/mm/modelgeo/Cclz;
 
-    iget-object v1, p0, Lcom/tencent/mm/s/Qclz;->bgv:Lcom/tencent/mm/modelgeo/a$a;
+    iget-object v1, p0, Lcom/tencent/mm/s/Qclz;->bgv:Lcom/tencent/mm/modelgeo/Aclz$a;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelgeo/c;->c(Lcom/tencent/mm/modelgeo/a$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelgeo/Cclz;->c(Lcom/tencent/mm/modelgeo/Aclz$a;)V
 
     .line 184
     :cond_0
@@ -514,9 +514,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/s/Qclz;->bBM:Lcom/tencent/mm/sdk/g/j$b;
+    iget-object v1, p0, Lcom/tencent/mm/s/Qclz;->bBM:Lcom/tencent/mm/sdk/g/Jclz$b;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Qclz;->b(Lcom/tencent/mm/sdk/g/j$b;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Qclz;->b(Lcom/tencent/mm/sdk/g/Jclz$b;)V
 
     .line 187
     :cond_1

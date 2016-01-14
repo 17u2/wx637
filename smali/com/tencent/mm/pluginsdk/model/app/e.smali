@@ -10,9 +10,9 @@
 
 .field hLE:Ljava/util/Map;
 
-.field private hLF:Lcom/tencent/mm/sdk/platformtools/ag;
+.field private hLF:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-.field private handler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -35,7 +35,7 @@
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/e;->hLE:Ljava/util/Map;
 
     .line 31
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     new-instance v1, Lcom/tencent/mm/pluginsdk/model/app/e$1;
 
@@ -43,16 +43,16 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/e;->hLF:Lcom/tencent/mm/sdk/platformtools/ag;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/e;->hLF:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     .line 42
     new-instance v0, Lcom/tencent/mm/pluginsdk/model/app/e$2;
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/pluginsdk/model/app/e$2;-><init>(Lcom/tencent/mm/pluginsdk/model/app/e;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/e;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/e;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 66
     new-instance v0, Ljava/util/ArrayList;
@@ -76,18 +76,18 @@
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/e;->hLE:Ljava/util/Map;
 
     .line 70
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/e;->hLF:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/model/app/e;->hLF:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     const-wide/32 v1, 0x927c0
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     .line 71
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -111,7 +111,7 @@
 
     const-string/jumbo v2, "startDownload fail, geticoninfo is null"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -127,7 +127,7 @@
 
     const-string/jumbo v3, "increaseCounter fail, info is null"
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -139,7 +139,7 @@
 
     const-string/jumbo v2, "increaseCounter fail"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -160,7 +160,7 @@
 
     check-cast v0, Ljava/lang/Integer;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Integer;I)I
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Integer;I)I
 
     move-result v0
 
@@ -180,7 +180,7 @@
 
     const-string/jumbo v3, "increaseCounter fail, has reached the max try count"
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -243,7 +243,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -275,7 +275,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -316,7 +316,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -331,17 +331,17 @@
     :goto_2
     new-instance v1, Lcom/tencent/mm/pluginsdk/model/app/p;
 
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/model/app/e;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/model/app/e;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v4, p1, Lcom/tencent/mm/pluginsdk/model/app/o;->appId:Ljava/lang/String;
 
     iget v5, p1, Lcom/tencent/mm/pluginsdk/model/app/o;->bSP:I
 
-    invoke-direct {v1, v3, v4, v5, v0}, Lcom/tencent/mm/pluginsdk/model/app/p;-><init>(Lcom/tencent/mm/sdk/platformtools/ab;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {v1, v3, v4, v5, v0}, Lcom/tencent/mm/pluginsdk/model/app/p;-><init>(Lcom/tencent/mm/sdk/platformtools/ABclz;Ljava/lang/String;ILjava/lang/String;)V
 
     const-string/jumbo v0, "AppIconService_getIcon"
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/h/e;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/h/Eclz;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
 
     move v0, v2
 
@@ -382,7 +382,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -397,11 +397,11 @@
 
     .line 139
     :pswitch_2
-    iget-object v3, v0, Lcom/tencent/mm/d/b/e;->aKc:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/d/b/Eclz;->aKc:Ljava/lang/String;
 
     if-eqz v3, :cond_9
 
-    iget-object v3, v0, Lcom/tencent/mm/d/b/e;->aKc:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/d/b/Eclz;->aKc:Ljava/lang/String;
 
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
@@ -429,7 +429,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -438,17 +438,17 @@
 
     .line 143
     :cond_a
-    iget-object v0, v0, Lcom/tencent/mm/d/b/e;->aKc:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/b/Eclz;->aKc:Ljava/lang/String;
 
     goto :goto_2
 
     .line 146
     :pswitch_3
-    iget-object v3, v0, Lcom/tencent/mm/d/b/e;->aKn:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/d/b/Eclz;->aKn:Ljava/lang/String;
 
     if-eqz v3, :cond_b
 
-    iget-object v3, v0, Lcom/tencent/mm/d/b/e;->aKn:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/d/b/Eclz;->aKn:Ljava/lang/String;
 
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
@@ -476,7 +476,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -485,17 +485,17 @@
 
     .line 150
     :cond_c
-    iget-object v0, v0, Lcom/tencent/mm/d/b/e;->aKn:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/b/Eclz;->aKn:Ljava/lang/String;
 
     goto/16 :goto_2
 
     .line 153
     :pswitch_4
-    iget-object v3, v0, Lcom/tencent/mm/d/b/e;->aKo:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/d/b/Eclz;->aKo:Ljava/lang/String;
 
     if-eqz v3, :cond_d
 
-    iget-object v3, v0, Lcom/tencent/mm/d/b/e;->aKo:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/d/b/Eclz;->aKo:Ljava/lang/String;
 
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
@@ -523,7 +523,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -532,7 +532,7 @@
 
     .line 157
     :cond_e
-    iget-object v0, v0, Lcom/tencent/mm/d/b/e;->aKo:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/b/Eclz;->aKo:Ljava/lang/String;
 
     goto/16 :goto_2
 
@@ -566,7 +566,7 @@
 
     const-string/jumbo v1, "push fail, appId is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 97
     :cond_1
@@ -621,7 +621,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -642,7 +642,7 @@
 
     const-string/jumbo v2, "running list has reached the max count"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 88
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/model/app/e;->fPo:Ljava/util/List;

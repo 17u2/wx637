@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,12 +48,12 @@
 
     .prologue
     .line 2891
-    new-instance v0, Lcom/tencent/mm/d/a/io;
+    new-instance v0, Lcom/tencent/mm/d/a/IOclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/io;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/IOclz;-><init>()V
 
     .line 2892
-    iget-object v1, v0, Lcom/tencent/mm/d/a/io;->aDC:Lcom/tencent/mm/d/a/io$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/IOclz;->aDC:Lcom/tencent/mm/d/a/IOclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$65;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -63,12 +63,12 @@
 
     iget-object v2, v2, Lcom/tencent/mm/s/Kclz;->field_username:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/io$a;->ajd:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/IOclz$a;->ajd:Ljava/lang/String;
 
     .line 2893
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 2894
     return-void

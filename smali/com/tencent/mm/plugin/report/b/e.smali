@@ -29,7 +29,7 @@
 
     const-string/jumbo v1, "codecoverage checkUpload dir never create ?"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 59
     :goto_0
@@ -127,7 +127,7 @@
 
     move-result-object v0
 
-    invoke-static {v4, v0}, Lcom/tencent/mm/a/d;->e(Ljava/lang/String;[B)I
+    invoke-static {v4, v0}, Lcom/tencent/mm/a/Dclz;->e(Ljava/lang/String;[B)I
 
     .line 40
     new-instance v0, Ljava/text/SimpleDateFormat;
@@ -167,7 +167,7 @@
     move-result-object v0
 
     .line 45
-    invoke-static {v3, v2, v0}, Lcom/tencent/mm/a/o;->a(Ljava/io/File;ZLjava/lang/String;)Ljava/lang/String;
+    invoke-static {v3, v2, v0}, Lcom/tencent/mm/a/Oclz;->a(Ljava/io/File;ZLjava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -179,7 +179,7 @@
 
     const-string/jumbo v1, "zip file failed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -204,7 +204,7 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 57
     const/16 v4, 0xa
@@ -213,7 +213,7 @@
 
     move v3, v2
 
-    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/platformtools/q;->a(Ljava/lang/String;Ljava/lang/String;ZZII)Z
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/platformtools/Qclz;->a(Ljava/lang/String;Ljava/lang/String;ZZII)Z
 
     .line 59
     const/4 v2, 0x1

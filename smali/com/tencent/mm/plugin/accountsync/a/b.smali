@@ -20,11 +20,11 @@
 
 .field private cfA:Lcom/tencent/mm/plugin/accountsync/a/b$a;
 
-.field public cfz:Lcom/tencent/mm/ui/base/o;
+.field public cfz:Lcom/tencent/mm/ui/base/Oclz;
 
 .field public context:Landroid/content/Context;
 
-.field private handler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -36,15 +36,15 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 24
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/accountsync/a/b;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/accountsync/a/b;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 35
     iput-object p1, p0, Lcom/tencent/mm/plugin/accountsync/a/b;->context:Landroid/content/Context;
@@ -57,7 +57,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -86,13 +86,13 @@
 
     .line 75
     :goto_0
-    iget-object v1, p0, Lcom/tencent/mm/plugin/accountsync/a/b;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/accountsync/a/b;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     new-instance v2, Lcom/tencent/mm/plugin/accountsync/a/b$2;
 
     invoke-direct {v2, p0, v0}, Lcom/tencent/mm/plugin/accountsync/a/b$2;-><init>(Lcom/tencent/mm/plugin/accountsync/a/b;I)V
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 83
     return-void
@@ -140,14 +140,14 @@
 
     .line 102
     :goto_1
-    iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/a/b;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/a/b;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     if-eqz v0, :cond_1
 
     .line 103
-    iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/a/b;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/a/b;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/o;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Oclz;->dismiss()V
 
     .line 105
     :cond_1
@@ -198,7 +198,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 99
     iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/a/b;->cfA:Lcom/tencent/mm/plugin/accountsync/a/b$a;

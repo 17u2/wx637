@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -92,7 +92,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -161,7 +161,7 @@
 
     .line 4391
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/aj/l;->CV()Lcom/tencent/mm/aj/i;
+    invoke-static {}, Lcom/tencent/mm/aj/Lclz;->CV()Lcom/tencent/mm/aj/Iclz;
 
     move-result-object v0
 
@@ -171,7 +171,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/aj/i;->jc(Ljava/lang/String;)Lcom/tencent/mm/aj/h;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/aj/Iclz;->jc(Ljava/lang/String;)Lcom/tencent/mm/aj/Hclz;
 
     move-result-object v0
 
@@ -188,7 +188,7 @@
 
     move-result-object v4
 
-    iget-object v5, v0, Lcom/tencent/mm/aj/h;->field_ticket:Ljava/lang/String;
+    iget-object v5, v0, Lcom/tencent/mm/aj/Hclz;->field_ticket:Ljava/lang/String;
 
     iget-object v6, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$80;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -201,16 +201,16 @@
     invoke-virtual {v2, v3}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
     .line 4393
-    iput v1, v0, Lcom/tencent/mm/aj/h;->field_flag:I
+    iput v1, v0, Lcom/tencent/mm/aj/Hclz;->field_flag:I
 
     .line 4394
-    invoke-static {}, Lcom/tencent/mm/aj/l;->CV()Lcom/tencent/mm/aj/i;
+    invoke-static {}, Lcom/tencent/mm/aj/Lclz;->CV()Lcom/tencent/mm/aj/Iclz;
 
     move-result-object v1
 
     new-array v2, v7, [Ljava/lang/String;
 
-    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/aj/i;->a(Lcom/tencent/mm/sdk/g/c;[Ljava/lang/String;)Z
+    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/aj/Iclz;->a(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
 
     goto :goto_0
 
@@ -220,7 +220,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
-    iget-wide v2, v0, Lcom/tencent/mm/h/a;->boB:J
+    iget-wide v2, v0, Lcom/tencent/mm/h/Aclz;->boB:J
 
     long-to-int v0, v2
 
@@ -276,9 +276,9 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$80;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/n;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v2, v2, Lcom/tencent/mm/ui/Nclz;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v2, v2, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     new-instance v3, Lcom/tencent/mm/ui/chatting/ChattingUI$a$80$1;
 

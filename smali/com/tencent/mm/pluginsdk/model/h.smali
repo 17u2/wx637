@@ -6,7 +6,7 @@
 # instance fields
 .field private azD:Z
 
-.field handler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -23,21 +23,21 @@
     iput-boolean v0, p0, Lcom/tencent/mm/pluginsdk/model/h;->azD:Z
 
     .line 17
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/model/h;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/model/h;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -45,7 +45,7 @@
 
 
 # virtual methods
-.method public abstract HD()Lcom/tencent/mm/sdk/platformtools/ab;
+.method public abstract HD()Lcom/tencent/mm/sdk/platformtools/ABclz;
 .end method
 
 .method public varargs abstract HE()Ljava/lang/Object;
@@ -77,7 +77,7 @@
     invoke-virtual {p0, p1}, Lcom/tencent/mm/pluginsdk/model/h;->h([Ljava/lang/Object;)V
 
     .line 25
-    invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/model/h;->HD()Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/model/h;->HD()Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v2
 
@@ -94,7 +94,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/tencent/mm/pluginsdk/model/h$1;-><init>(Lcom/tencent/mm/pluginsdk/model/h;[Ljava/lang/Object;)V
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     move v0, v1
 

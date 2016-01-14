@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field cgw:Lcom/tencent/mm/ui/base/preference/f;
+.field cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
 .field private context:Landroid/content/Context;
 
@@ -147,7 +147,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_1
     return-void
@@ -233,7 +233,7 @@
     const/4 v2, 0x0
 
     .line 277
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     if-eqz v0, :cond_0
 
@@ -271,9 +271,9 @@
 
     check-cast v0, Ljava/lang/String;
 
-    iget-object v4, p0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v4, p0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v4, v0}, Lcom/tencent/mm/ui/base/preference/f;->Ep(Ljava/lang/String;)Z
+    invoke-interface {v4, v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->Ep(Ljava/lang/String;)Z
 
     goto :goto_1
 
@@ -283,11 +283,11 @@
     invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
 
     .line 281
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hSP:Ljava/lang/String;
 
-    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/base/preference/f;->indexOf(Ljava/lang/String;)I
+    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/base/preference/Fclz;->indexOf(Ljava/lang/String;)I
 
     move-result v3
 
@@ -351,9 +351,9 @@
 
     iput-object v4, v0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListCustomPreference;->fvA:Landroid/view/View$OnClickListener;
 
-    iget-object v4, p0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v4, p0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v4, v0, v3}, Lcom/tencent/mm/ui/base/preference/f;->a(Lcom/tencent/mm/ui/base/preference/Preference;I)V
+    invoke-interface {v4, v0, v3}, Lcom/tencent/mm/ui/base/preference/Fclz;->a(Lcom/tencent/mm/ui/base/preference/Preference;I)V
 
     iget-object v4, p0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hSQ:Ljava/util/HashMap;
 
@@ -429,11 +429,11 @@
 
     iput-object v3, v8, Lcom/tencent/mm/pluginsdk/ui/applet/f;->hTN:Lcom/tencent/mm/pluginsdk/ui/applet/f$b;
 
-    iget-object v8, p0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v8, p0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     add-int v9, v0, v5
 
-    invoke-interface {v8, v7, v9}, Lcom/tencent/mm/ui/base/preference/f;->a(Lcom/tencent/mm/ui/base/preference/Preference;I)V
+    invoke-interface {v8, v7, v9}, Lcom/tencent/mm/ui/base/preference/Fclz;->a(Lcom/tencent/mm/ui/base/preference/Preference;I)V
 
     iget-object v8, p0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hSQ:Ljava/util/HashMap;
 
@@ -487,11 +487,11 @@
 
     iput-object v2, v1, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListCustomPreference;->fvA:Landroid/view/View$OnClickListener;
 
-    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     add-int/2addr v0, v5
 
-    invoke-interface {v2, v1, v0}, Lcom/tencent/mm/ui/base/preference/f;->a(Lcom/tencent/mm/ui/base/preference/Preference;I)V
+    invoke-interface {v2, v1, v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->a(Lcom/tencent/mm/ui/base/preference/Preference;I)V
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hSQ:Ljava/util/HashMap;
 
@@ -566,9 +566,9 @@
 
     if-eqz v1, :cond_2
 
-    new-instance v1, Lcom/tencent/mm/z/a/a/c$a;
+    new-instance v1, Lcom/tencent/mm/z/a/a/Cclz$a;
 
-    invoke-direct {v1}, Lcom/tencent/mm/z/a/a/c$a;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/z/a/a/Cclz$a;-><init>()V
 
     iget-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->username:Ljava/lang/String;
 
@@ -576,21 +576,21 @@
 
     move-result-object v2
 
-    iput-object v2, v1, Lcom/tencent/mm/z/a/a/c$a;->bMi:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/z/a/a/Cclz$a;->bMi:Ljava/lang/String;
 
-    iput-boolean v3, v1, Lcom/tencent/mm/z/a/a/c$a;->bMf:Z
+    iput-boolean v3, v1, Lcom/tencent/mm/z/a/a/Cclz$a;->bMf:Z
 
-    iput-boolean v3, v1, Lcom/tencent/mm/z/a/a/c$a;->bMx:Z
+    iput-boolean v3, v1, Lcom/tencent/mm/z/a/a/Cclz$a;->bMx:Z
 
     const v2, 0x7f070089
 
-    iput v2, v1, Lcom/tencent/mm/z/a/a/c$a;->bMq:I
+    iput v2, v1, Lcom/tencent/mm/z/a/a/Cclz$a;->bMq:I
 
-    invoke-virtual {v1}, Lcom/tencent/mm/z/a/a/c$a;->Ai()Lcom/tencent/mm/z/a/a/c;
+    invoke-virtual {v1}, Lcom/tencent/mm/z/a/a/Cclz$a;->Ai()Lcom/tencent/mm/z/a/a/Cclz;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->hTB:Lcom/tencent/mm/z/a/a/c;
+    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->hTB:Lcom/tencent/mm/z/a/a/Cclz;
 
     .line 140
     :cond_2

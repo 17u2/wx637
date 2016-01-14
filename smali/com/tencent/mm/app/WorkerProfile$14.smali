@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/app/WorkerProfile$14;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,17 +42,17 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 13
 
     .prologue
     .line 1244
-    check-cast p1, Lcom/tencent/mm/d/a/an;
+    check-cast p1, Lcom/tencent/mm/d/a/ANclz;
 
     .line 1245
-    iget-object v0, p1, Lcom/tencent/mm/d/a/an;->asW:Lcom/tencent/mm/d/a/an$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/ANclz;->asW:Lcom/tencent/mm/d/a/ANclz$a;
 
-    iget-object v6, v0, Lcom/tencent/mm/d/a/an$a;->context:Landroid/content/Context;
+    iget-object v6, v0, Lcom/tencent/mm/d/a/ANclz$a;->context:Landroid/content/Context;
 
     .line 1246
     if-nez v6, :cond_0
@@ -62,7 +62,7 @@
 
     const-string/jumbo v1, "CreateOrJoinChatroomEvent, context is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1248
     const/4 v0, 0x0
@@ -73,9 +73,9 @@
 
     .line 1251
     :cond_0
-    iget-object v0, p1, Lcom/tencent/mm/d/a/an;->asW:Lcom/tencent/mm/d/a/an$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/ANclz;->asW:Lcom/tencent/mm/d/a/ANclz$a;
 
-    iget-object v4, v0, Lcom/tencent/mm/d/a/an$a;->selectionArgs:[Ljava/lang/String;
+    iget-object v4, v0, Lcom/tencent/mm/d/a/ANclz$a;->selectionArgs:[Ljava/lang/String;
 
     .line 1252
     if-eqz v4, :cond_1
@@ -92,7 +92,7 @@
 
     const-string/jumbo v1, "CreateOrJoinChatroomEvent, invalid args"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1254
     const/4 v0, 0x0
@@ -101,9 +101,9 @@
 
     .line 1257
     :cond_2
-    iget-object v0, p1, Lcom/tencent/mm/d/a/an;->asW:Lcom/tencent/mm/d/a/an$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/ANclz;->asW:Lcom/tencent/mm/d/a/ANclz$a;
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/an$a;->arE:[Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/ANclz$a;->arE:[Ljava/lang/String;
 
     .line 1258
     const-string/jumbo v0, ""
@@ -146,9 +146,9 @@
     const-string/jumbo v3, ""
 
     .line 1270
-    iget-object v5, p1, Lcom/tencent/mm/d/a/an;->asW:Lcom/tencent/mm/d/a/an$a;
+    iget-object v5, p1, Lcom/tencent/mm/d/a/ANclz;->asW:Lcom/tencent/mm/d/a/ANclz$a;
 
-    iget v5, v5, Lcom/tencent/mm/d/a/an$a;->action:I
+    iget v5, v5, Lcom/tencent/mm/d/a/ANclz$a;->action:I
 
     const/4 v10, 0x1
 
@@ -279,9 +279,9 @@
 
     .line 1284
     :cond_7
-    iget-object v5, p1, Lcom/tencent/mm/d/a/an;->asW:Lcom/tencent/mm/d/a/an$a;
+    iget-object v5, p1, Lcom/tencent/mm/d/a/ANclz;->asW:Lcom/tencent/mm/d/a/ANclz$a;
 
-    iget v5, v5, Lcom/tencent/mm/d/a/an$a;->action:I
+    iget v5, v5, Lcom/tencent/mm/d/a/ANclz$a;->action:I
 
     const/4 v10, 0x2
 

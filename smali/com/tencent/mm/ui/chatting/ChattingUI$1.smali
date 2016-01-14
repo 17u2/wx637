@@ -47,7 +47,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -62,7 +62,7 @@
     .line 387
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$1;->kgA:Lcom/tencent/mm/ui/chatting/ChattingUI;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI;->kgx:Lcom/tencent/mm/ui/n;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI;->kgx:Lcom/tencent/mm/ui/Nclz;
 
     check-cast v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 

@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/f/a/a/aclass;
-.super Lcom/tencent/mm/aq/a;
+.super Lcom/tencent/mm/aq/Aclz;
 .source "SourceFile"
 
 
@@ -27,7 +27,7 @@
 
     .prologue
     .line 11
-    invoke-direct {p0}, Lcom/tencent/mm/aq/a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/aq/Aclz;-><init>()V
 
     .line 12
     new-instance v0, Ljava/util/LinkedList;
@@ -40,7 +40,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -247,7 +247,7 @@
     invoke-direct {v1, v0, v2}, La/a/a/a/aclass;-><init>([BLa/a/a/a/a/bclass;)V
 
     .line 54
-    invoke-static {v1}, Lcom/tencent/mm/aq/a;->a(La/a/a/a/aclass;)I
+    invoke-static {v1}, Lcom/tencent/mm/aq/Aclz;->a(La/a/a/a/aclass;)I
 
     move-result v0
 
@@ -256,7 +256,7 @@
     if-lez v0, :cond_5
 
     .line 57
-    invoke-super {p0, v1, p0, v0}, Lcom/tencent/mm/aq/a;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/a;I)Z
+    invoke-super {p0, v1, p0, v0}, Lcom/tencent/mm/aq/Aclz;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/Aclz;I)Z
 
     move-result v0
 
@@ -267,7 +267,7 @@
 
     .line 60
     :cond_4
-    invoke-static {v1}, Lcom/tencent/mm/aq/a;->a(La/a/a/a/aclass;)I
+    invoke-static {v1}, Lcom/tencent/mm/aq/Aclz;->a(La/a/a/a/aclass;)I
 
     move-result v0
 
@@ -334,9 +334,9 @@
     check-cast v0, [B
 
     .line 74
-    new-instance v7, Lcom/tencent/mm/f/a/a/b;
+    new-instance v7, Lcom/tencent/mm/f/a/a/Bclz;
 
-    invoke-direct {v7}, Lcom/tencent/mm/f/a/a/b;-><init>()V
+    invoke-direct {v7}, Lcom/tencent/mm/f/a/a/Bclz;-><init>()V
 
     .line 75
     new-instance v8, La/a/a/a/aclass;
@@ -352,12 +352,12 @@
     if-eqz v0, :cond_7
 
     .line 79
-    invoke-static {v8}, Lcom/tencent/mm/aq/a;->a(La/a/a/a/aclass;)I
+    invoke-static {v8}, Lcom/tencent/mm/aq/Aclz;->a(La/a/a/a/aclass;)I
 
     move-result v0
 
     .line 80
-    invoke-virtual {v7, v8, v7, v0}, Lcom/tencent/mm/f/a/a/b;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/a;I)Z
+    invoke-virtual {v7, v8, v7, v0}, Lcom/tencent/mm/f/a/a/Bclz;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/Aclz;I)Z
 
     move-result v0
 

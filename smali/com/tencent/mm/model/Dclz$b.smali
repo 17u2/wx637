@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/compatible/util/a$a;
+.implements Lcom/tencent/mm/compatible/util/Aclz$a;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,7 +52,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -73,7 +73,7 @@
 
     const-string/jumbo v1, "jacks UNKNOW_AUDIOFOCUS_LOSS DEFAULT"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 151
     :cond_0
@@ -86,7 +86,7 @@
 
     const-string/jumbo v1, "jacks AUDIOFOCUS_GAIN"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 122
     iget-object v0, p0, Lcom/tencent/mm/model/Dclz$b;->bsG:Lcom/tencent/mm/model/Dclz;
@@ -110,7 +110,7 @@
 
     const-string/jumbo v1, "jacks AUDIOFOCUS_LOSS"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 129
     iget-object v0, p0, Lcom/tencent/mm/model/Dclz$b;->bsG:Lcom/tencent/mm/model/Dclz;
@@ -134,7 +134,7 @@
 
     const-string/jumbo v1, "jacks AUDIOFOCUS_LOSS_TRANSIENT"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 136
     iget-object v0, p0, Lcom/tencent/mm/model/Dclz$b;->bsG:Lcom/tencent/mm/model/Dclz;
@@ -158,7 +158,7 @@
 
     const-string/jumbo v1, "jacks AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 143
     iget-object v0, p0, Lcom/tencent/mm/model/Dclz$b;->bsG:Lcom/tencent/mm/model/Dclz;

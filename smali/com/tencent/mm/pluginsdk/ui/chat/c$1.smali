@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,9 +50,9 @@
     .line 76
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/c$1;->hWL:Lcom/tencent/mm/pluginsdk/ui/chat/c;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/n;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Nclz;->dismiss()V
 
     .line 77
     return-void

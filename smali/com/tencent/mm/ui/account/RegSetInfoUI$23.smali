@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/sdk/platformtools/ac$a;
+.implements Lcom/tencent/mm/sdk/platformtools/ACclz$a;
 
 
 # annotations
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -85,7 +85,7 @@
     :try_start_0
     iget-object v0, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI$23;->jFl:Lcom/tencent/mm/ui/account/RegSetInfoUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/modelsimple/c;->aN(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/modelsimple/Cclz;->aN(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -94,7 +94,7 @@
     .line 283
     iget-object v0, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI$23;->jFl:Lcom/tencent/mm/ui/account/RegSetInfoUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/modelsimple/c;->aO(Landroid/content/Context;)Landroid/graphics/Bitmap;
+    invoke-static {v0}, Lcom/tencent/mm/modelsimple/Cclz;->aO(Landroid/content/Context;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -128,7 +128,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v4, Lcom/tencent/mm/compatible/util/d;->bnL:Ljava/lang/String;
+    sget-object v4, Lcom/tencent/mm/compatible/util/Dclz;->bnL:Ljava/lang/String;
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -146,7 +146,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v0, v1, v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
+    invoke-static {v0, v1, v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -182,7 +182,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -211,7 +211,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 .end method
@@ -225,7 +225,7 @@
     .line 263
     iget-object v1, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI$23;->dTO:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -257,7 +257,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -276,7 +276,7 @@
 
     .line 266
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/compatible/util/e;->oY()Z
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Eclz;->oY()Z
 
     move-result v1
 
@@ -287,7 +287,7 @@
 
     const-string/jumbo v2, "SDcard is not available"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 276
     :goto_0

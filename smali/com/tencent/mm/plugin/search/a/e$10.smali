@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/search/a/e$10;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,19 +42,19 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 5
 
     .prologue
     const/4 v4, 0x0
 
     .line 1761
-    check-cast p1, Lcom/tencent/mm/d/a/le;
+    check-cast p1, Lcom/tencent/mm/d/a/LEclz;
 
     .line 1763
-    iget-object v0, p1, Lcom/tencent/mm/d/a/le;->aGk:Lcom/tencent/mm/d/a/le$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/LEclz;->aGk:Lcom/tencent/mm/d/a/LEclz$a;
 
-    iget-wide v0, v0, Lcom/tencent/mm/d/a/le$a;->aGl:J
+    iget-wide v0, v0, Lcom/tencent/mm/d/a/LEclz$a;->aGl:J
 
     const-wide/16 v2, 0x0
 
@@ -65,7 +65,7 @@
     .line 1764
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$10;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->bRA:Lcom/tencent/mm/modelsearch/m;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->bRA:Lcom/tencent/mm/modelsearch/Mclz;
 
     const v1, 0x20015
 
@@ -75,7 +75,7 @@
 
     invoke-direct {v2, v3, v4}, Lcom/tencent/mm/plugin/search/a/e$r;-><init>(Lcom/tencent/mm/plugin/search/a/e;B)V
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/modelsearch/m;->a(ILcom/tencent/mm/modelsearch/m$a;)Lcom/tencent/mm/modelsearch/m$a;
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/modelsearch/Mclz;->a(ILcom/tencent/mm/modelsearch/Mclz$a;)Lcom/tencent/mm/modelsearch/Mclz$a;
 
     .line 1769
     :cond_0
@@ -86,9 +86,9 @@
     :cond_1
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$10;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->fHh:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->fHh:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ag;->aOK()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOK()Z
 
     move-result v0
 
@@ -97,20 +97,20 @@
     .line 1766
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$10;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->fHh:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->fHh:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/le;->aGk:Lcom/tencent/mm/d/a/le$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/LEclz;->aGk:Lcom/tencent/mm/d/a/LEclz$a;
 
-    iget-wide v1, v1, Lcom/tencent/mm/d/a/le$a;->aGl:J
+    iget-wide v1, v1, Lcom/tencent/mm/d/a/LEclz$a;->aGl:J
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     .line 1767
     const-string/jumbo v0, "!44@/B4Tb64lLpJCVH3ykx/lF6GHMr9KNILJM05OBaPHSS4="
 
     const-string/jumbo v1, "* Update contact at once triggered."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method

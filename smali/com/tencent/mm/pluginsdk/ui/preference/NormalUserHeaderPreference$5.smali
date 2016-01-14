@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->a(ILcom/tencent/mm/sdk/g/j;Ljava/lang/Object;)V
+    value = Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;->a(ILcom/tencent/mm/sdk/g/Jclz;Ljava/lang/Object;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -84,9 +84,9 @@
 
     move-result-object v0
 
-    iget v0, v0, Lcom/tencent/mm/d/b/o;->field_type:I
+    iget v0, v0, Lcom/tencent/mm/d/b/Oclz;->field_type:I
 
-    invoke-static {v0}, Lcom/tencent/mm/h/a;->cf(I)Z
+    invoke-static {v0}, Lcom/tencent/mm/h/Aclz;->cf(I)Z
 
     move-result v0
 

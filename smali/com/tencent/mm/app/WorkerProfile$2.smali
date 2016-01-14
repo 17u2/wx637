@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/app/WorkerProfile$2;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,29 +42,29 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 4
 
     .prologue
     .line 746
-    check-cast p1, Lcom/tencent/mm/d/a/ix;
+    check-cast p1, Lcom/tencent/mm/d/a/IXclz;
 
     .line 747
-    new-instance v0, Lcom/tencent/mm/ac/g;
+    new-instance v0, Lcom/tencent/mm/ac/Gclz;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/ix;->aEc:Lcom/tencent/mm/d/a/ix$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/IXclz;->aEc:Lcom/tencent/mm/d/a/IXclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/ix$a;->aEd:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/IXclz$a;->aEd:Ljava/lang/String;
 
-    iget-object v2, p1, Lcom/tencent/mm/d/a/ix;->aEc:Lcom/tencent/mm/d/a/ix$a;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/IXclz;->aEc:Lcom/tencent/mm/d/a/IXclz$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/a/ix$a;->content:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/d/a/IXclz$a;->content:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/ix;->aEc:Lcom/tencent/mm/d/a/ix$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/IXclz;->aEc:Lcom/tencent/mm/d/a/IXclz$a;
 
-    iget v3, v3, Lcom/tencent/mm/d/a/ix$a;->type:I
+    iget v3, v3, Lcom/tencent/mm/d/a/IXclz$a;->type:I
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/ac/g;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/ac/Gclz;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 748
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;

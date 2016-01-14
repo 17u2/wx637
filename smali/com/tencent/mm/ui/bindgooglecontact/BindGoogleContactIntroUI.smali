@@ -29,7 +29,7 @@
 
 .field private jVy:Ljava/lang/String;
 
-.field private jVz:Lcom/tencent/mm/y/a;
+.field private jVz:Lcom/tencent/mm/y/Aclz;
 
 
 # direct methods
@@ -66,7 +66,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -140,23 +140,23 @@
 
     .prologue
     .line 30
-    new-instance v0, Lcom/tencent/mm/y/a;
+    new-instance v0, Lcom/tencent/mm/y/Aclz;
 
-    sget v1, Lcom/tencent/mm/y/a$a;->bHQ:I
+    sget v1, Lcom/tencent/mm/y/Aclz$a;->bHQ:I
 
     iget-object v2, p0, Lcom/tencent/mm/ui/bindgooglecontact/BindGoogleContactIntroUI;->jVy:Ljava/lang/String;
 
-    sget v3, Lcom/tencent/mm/y/a;->bHJ:I
+    sget v3, Lcom/tencent/mm/y/Aclz;->bHJ:I
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/y/a;-><init>(ILjava/lang/String;I)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/y/Aclz;-><init>(ILjava/lang/String;I)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/BindGoogleContactIntroUI;->jVz:Lcom/tencent/mm/y/a;
+    iput-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/BindGoogleContactIntroUI;->jVz:Lcom/tencent/mm/y/Aclz;
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/bindgooglecontact/BindGoogleContactIntroUI;->jVz:Lcom/tencent/mm/y/a;
+    iget-object v1, p0, Lcom/tencent/mm/ui/bindgooglecontact/BindGoogleContactIntroUI;->jVz:Lcom/tencent/mm/y/Aclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
@@ -176,7 +176,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ui/bindgooglecontact/BindGoogleContactIntroUI$4;-><init>(Lcom/tencent/mm/ui/bindgooglecontact/BindGoogleContactIntroUI;)V
 
-    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
@@ -185,12 +185,12 @@
     return-void
 .end method
 
-.method static synthetic c(Lcom/tencent/mm/ui/bindgooglecontact/BindGoogleContactIntroUI;)Lcom/tencent/mm/y/a;
+.method static synthetic c(Lcom/tencent/mm/ui/bindgooglecontact/BindGoogleContactIntroUI;)Lcom/tencent/mm/y/Aclz;
     .locals 1
 
     .prologue
     .line 30
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/BindGoogleContactIntroUI;->jVz:Lcom/tencent/mm/y/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/BindGoogleContactIntroUI;->jVz:Lcom/tencent/mm/y/Aclz;
 
     return-object v0
 .end method
@@ -298,7 +298,7 @@
     :cond_0
     aput-object p3, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 216
     iget-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/BindGoogleContactIntroUI;->cVG:Landroid/app/ProgressDialog;
@@ -407,7 +407,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/ui/base/f;->aS(Landroid/content/Context;Ljava/lang/String;)Landroid/widget/Toast;
+    invoke-static {p0, v0}, Lcom/tencent/mm/ui/base/Fclz;->aS(Landroid/content/Context;Ljava/lang/String;)Landroid/widget/Toast;
 
     .line 232
     :goto_0
@@ -419,7 +419,7 @@
 
     const-string/jumbo v1, "unbind failed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 230
     const v0, 0x7f090561
@@ -474,7 +474,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 201
     const/4 v0, -0x1
@@ -542,7 +542,7 @@
     iput v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/BindGoogleContactIntroUI;->jVA:I
 
     .line 97
-    invoke-static {p0}, Lcom/tencent/mm/modelfriend/n;->aI(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/tencent/mm/modelfriend/Nclz;->aI(Landroid/content/Context;)Z
 
     move-result v0
 

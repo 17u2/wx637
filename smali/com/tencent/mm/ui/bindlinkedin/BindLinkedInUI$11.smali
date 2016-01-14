@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic jWE:Lcom/tencent/mm/ui/bindlinkedin/BindLinkedInUI;
 
-.field final synthetic jWJ:Lcom/tencent/mm/ab/a;
+.field final synthetic jWJ:Lcom/tencent/mm/ab/Aclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/bindlinkedin/BindLinkedInUI;Lcom/tencent/mm/ab/a;)V
+.method constructor <init>(Lcom/tencent/mm/ui/bindlinkedin/BindLinkedInUI;Lcom/tencent/mm/ab/Aclz;)V
     .locals 1
 
     .prologue
     .line 310
     iput-object p1, p0, Lcom/tencent/mm/ui/bindlinkedin/BindLinkedInUI$11;->jWE:Lcom/tencent/mm/ui/bindlinkedin/BindLinkedInUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/bindlinkedin/BindLinkedInUI$11;->jWJ:Lcom/tencent/mm/ab/a;
+    iput-object p2, p0, Lcom/tencent/mm/ui/bindlinkedin/BindLinkedInUI$11;->jWJ:Lcom/tencent/mm/ab/Aclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/bindlinkedin/BindLinkedInUI$11;->jWJ:Lcom/tencent/mm/ab/a;
+    iget-object v1, p0, Lcom/tencent/mm/ui/bindlinkedin/BindLinkedInUI$11;->jWJ:Lcom/tencent/mm/ab/Aclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 

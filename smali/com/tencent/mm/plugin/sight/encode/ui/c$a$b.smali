@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/sight/encode/ui/c$a$b;
-.super Lcom/tencent/mm/ui/contact/a/e$b;
+.super Lcom/tencent/mm/ui/contact/a/Eclz$b;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 115
     iput-object p1, p0, Lcom/tencent/mm/plugin/sight/encode/ui/c$a$b;->gbz:Lcom/tencent/mm/plugin/sight/encode/ui/c$a;
 
-    invoke-direct {p0, p1}, Lcom/tencent/mm/ui/contact/a/e$b;-><init>(Lcom/tencent/mm/ui/contact/a/e;)V
+    invoke-direct {p0, p1}, Lcom/tencent/mm/ui/contact/a/Eclz$b;-><init>(Lcom/tencent/mm/ui/contact/a/Eclz;)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -62,7 +62,7 @@
     .line 121
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/c$a$b;->gbz:Lcom/tencent/mm/plugin/sight/encode/ui/c$a;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/plugin/sight/encode/ui/c$a;->arM()Lcom/tencent/mm/ui/contact/a/a$a;
+    invoke-virtual {v0}, Lcom/tencent/mm/plugin/sight/encode/ui/c$a;->arM()Lcom/tencent/mm/ui/contact/a/Aclz$a;
 
     move-result-object v0
 
@@ -169,7 +169,7 @@
     return-object v2
 .end method
 
-.method public final a(Landroid/content/Context;Lcom/tencent/mm/ui/contact/a/a$a;Lcom/tencent/mm/ui/contact/a/a;ZZ)V
+.method public final a(Landroid/content/Context;Lcom/tencent/mm/ui/contact/a/Aclz$a;Lcom/tencent/mm/ui/contact/a/Aclz;ZZ)V
     .locals 8
 
     .prologue
@@ -184,7 +184,7 @@
     const/4 v5, 0x0
 
     .line 146
-    iget-object v1, p3, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/Kclz;
+    iget-object v1, p3, Lcom/tencent/mm/ui/contact/a/Aclz;->czx:Lcom/tencent/mm/storage/Kclz;
 
     move-object v0, p2
 
@@ -207,7 +207,7 @@
     invoke-virtual {v2, v3}, Landroid/view/View;->setVisibility(I)V
 
     .line 153
-    iget-object v2, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-static {v2}, Lcom/tencent/mm/plugin/sight/encode/ui/c;->sL(Ljava/lang/String;)Z
 
@@ -293,14 +293,14 @@
     move-result-object v1
 
     .line 175
-    invoke-static {p1, v6}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {p1, v6}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v2
 
     iput v2, v1, Landroid/view/ViewGroup$LayoutParams;->width:I
 
     .line 176
-    invoke-static {p1, v6}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {p1, v6}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -321,14 +321,14 @@
     check-cast v1, Landroid/widget/LinearLayout$LayoutParams;
 
     .line 179
-    invoke-static {p1, v4}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {p1, v4}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v2
 
     iput v2, v1, Landroid/widget/LinearLayout$LayoutParams;->height:I
 
     .line 180
-    invoke-static {p1, v4}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {p1, v4}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -379,7 +379,7 @@
 
     .line 185
     :cond_1
-    iget-object v2, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-static {v2}, Lcom/tencent/mm/plugin/sight/encode/ui/c;->sJ(Ljava/lang/String;)Z
 
@@ -449,14 +449,14 @@
     move-result-object v1
 
     .line 217
-    invoke-static {p1, v6}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {p1, v6}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v2
 
     iput v2, v1, Landroid/view/ViewGroup$LayoutParams;->width:I
 
     .line 218
-    invoke-static {p1, v6}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {p1, v6}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -477,14 +477,14 @@
     check-cast v1, Landroid/widget/LinearLayout$LayoutParams;
 
     .line 221
-    invoke-static {p1, v4}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {p1, v4}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v2
 
     iput v2, v1, Landroid/widget/LinearLayout$LayoutParams;->height:I
 
     .line 222
-    invoke-static {p1, v4}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {p1, v4}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -530,7 +530,7 @@
 
     .line 201
     :cond_3
-    iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/tencent/mm/plugin/sight/encode/ui/c;->sK(Ljava/lang/String;)Z
 
@@ -552,7 +552,7 @@
 
     .line 206
     :cond_4
-    invoke-super/range {p0 .. p5}, Lcom/tencent/mm/ui/contact/a/e$b;->a(Landroid/content/Context;Lcom/tencent/mm/ui/contact/a/a$a;Lcom/tencent/mm/ui/contact/a/a;ZZ)V
+    invoke-super/range {p0 .. p5}, Lcom/tencent/mm/ui/contact/a/Eclz$b;->a(Landroid/content/Context;Lcom/tencent/mm/ui/contact/a/Aclz$a;Lcom/tencent/mm/ui/contact/a/Aclz;ZZ)V
 
     .line 212
     iget-object v1, v0, Lcom/tencent/mm/plugin/sight/encode/ui/c$a$a;->cEF:Landroid/view/View;

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/account/FacebookAuthUI;->a(Lcom/tencent/mm/ui/base/preference/f;Lcom/tencent/mm/ui/base/preference/Preference;)Z
+    value = Lcom/tencent/mm/ui/account/FacebookAuthUI;->a(Lcom/tencent/mm/ui/base/preference/Fclz;Lcom/tencent/mm/ui/base/preference/Preference;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -94,11 +94,11 @@
     invoke-virtual {v0, v1}, Landroid/app/ProgressDialog;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
 
     .line 183
-    new-instance v0, Lcom/tencent/mm/modelsimple/h;
+    new-instance v0, Lcom/tencent/mm/modelsimple/Hclz;
 
-    sget v1, Lcom/tencent/mm/modelsimple/h;->bSC:I
+    sget v1, Lcom/tencent/mm/modelsimple/Hclz;->bSC:I
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/modelsimple/h;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/modelsimple/Hclz;-><init>(I)V
 
     .line 184
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/plugin/sight/encode/ui/e;->a(Landroid/app/Activity;I)Lcom/tencent/mm/compatible/d/c$a$a;
+    value = Lcom/tencent/mm/plugin/sight/encode/ui/e;->a(Landroid/app/Activity;I)Lcom/tencent/mm/compatible/d/Cclz$a$a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -51,7 +51,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -100,7 +100,7 @@
 
     const/4 v3, 0x2
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v4
 
@@ -114,7 +114,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1017
     :try_start_0
@@ -124,11 +124,11 @@
 
     iget v2, p0, Lcom/tencent/mm/plugin/sight/encode/ui/e$1;->gbZ:I
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/compatible/d/c;->a(Landroid/app/Activity;I)Lcom/tencent/mm/compatible/d/c$a$a;
+    invoke-static {v1, v2}, Lcom/tencent/mm/compatible/d/Cclz;->a(Landroid/app/Activity;I)Lcom/tencent/mm/compatible/d/Cclz$a$a;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->gbX:Lcom/tencent/mm/compatible/d/c$a$a;
+    iput-object v1, v0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->gbX:Lcom/tencent/mm/compatible/d/Cclz$a$a;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -150,7 +150,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/e$1;->gca:Lcom/tencent/mm/plugin/sight/encode/ui/e;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->gbX:Lcom/tencent/mm/compatible/d/c$a$a;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->gbX:Lcom/tencent/mm/compatible/d/Cclz$a$a;
 
     if-eqz v0, :cond_0
 
@@ -165,7 +165,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v5
 
@@ -179,7 +179,7 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -187,9 +187,9 @@
     :try_start_2
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/e$1;->gca:Lcom/tencent/mm/plugin/sight/encode/ui/e;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->gbX:Lcom/tencent/mm/compatible/d/c$a$a;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->gbX:Lcom/tencent/mm/compatible/d/Cclz$a$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/compatible/d/c$a$a;->bkU:Landroid/hardware/Camera;
+    iget-object v0, v0, Lcom/tencent/mm/compatible/d/Cclz$a$a;->bkU:Landroid/hardware/Camera;
 
     .line 1026
     const/4 v2, 0x0
@@ -207,7 +207,7 @@
 
     const/4 v2, 0x0
 
-    iput-object v2, v0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->gbX:Lcom/tencent/mm/compatible/d/c$a$a;
+    iput-object v2, v0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->gbX:Lcom/tencent/mm/compatible/d/Cclz$a$a;
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_1
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -246,7 +246,7 @@
 
     aput-object v0, v3, v8
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -272,7 +272,7 @@
 
     aput-object v0, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_1
 

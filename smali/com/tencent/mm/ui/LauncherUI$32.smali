@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,11 +56,11 @@
     .line 1090
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$32;->jwy:Lcom/tencent/mm/ui/LauncherUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->c(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/r;
+    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->c(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/Rclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/r;->bT()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/Rclz;->bT()Z
 
     .line 1091
     iget-boolean v0, p0, Lcom/tencent/mm/ui/LauncherUI$32;->jwJ:Z

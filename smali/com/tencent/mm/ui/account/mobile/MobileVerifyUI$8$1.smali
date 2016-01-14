@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/ui/base/m$c;
+.implements Lcom/tencent/mm/ui/base/Mclz$c;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/ui/base/k;)V
+.method public final a(Lcom/tencent/mm/ui/base/Kclz;)V
     .locals 4
 
     .prologue
@@ -62,7 +62,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/tencent/mm/ui/base/k;->a(ILjava/lang/CharSequence;)Landroid/view/MenuItem;
+    invoke-virtual {p1, v0, v1}, Lcom/tencent/mm/ui/base/Kclz;->a(ILjava/lang/CharSequence;)Landroid/view/MenuItem;
 
     .line 416
     iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI$8$1;->jIl:Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI$8;
@@ -71,7 +71,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI;->azA:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/aa/b;->hS(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/aa/Bclz;->hS(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -91,7 +91,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/tencent/mm/ui/base/k;->a(ILjava/lang/CharSequence;)Landroid/view/MenuItem;
+    invoke-virtual {p1, v0, v1}, Lcom/tencent/mm/ui/base/Kclz;->a(ILjava/lang/CharSequence;)Landroid/view/MenuItem;
 
     .line 421
     :cond_0
@@ -125,7 +125,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v3, v0}, Lcom/tencent/mm/ui/base/k;->a(ILjava/lang/CharSequence;)Landroid/view/MenuItem;
+    invoke-virtual {p1, v3, v0}, Lcom/tencent/mm/ui/base/Kclz;->a(ILjava/lang/CharSequence;)Landroid/view/MenuItem;
 
     .line 432
     :cond_1

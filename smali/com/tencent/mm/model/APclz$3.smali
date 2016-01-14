@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -72,23 +72,23 @@
 
     move-result-object v2
 
-    iget-object v1, v2, Lcom/tencent/mm/storage/Sclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v1, v2, Lcom/tencent/mm/storage/Sclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     const-string/jumbo v3, "rconversation"
 
     const-string/jumbo v4, "delete from rconversation"
 
-    invoke-interface {v1, v3, v4}, Lcom/tencent/mm/sdk/g/d;->bX(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-interface {v1, v3, v4}, Lcom/tencent/mm/sdk/g/Dclz;->bX(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v1
 
-    iget-object v3, v2, Lcom/tencent/mm/storage/Sclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v3, v2, Lcom/tencent/mm/storage/Sclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     const-string/jumbo v4, "rconversation"
 
     const-string/jumbo v5, "delete from rbottleconversation"
 
-    invoke-interface {v3, v4, v5}, Lcom/tencent/mm/sdk/g/d;->bX(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-interface {v3, v4, v5}, Lcom/tencent/mm/sdk/g/Dclz;->bX(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v3
 
@@ -106,7 +106,7 @@
 
     const-string/jumbo v3, ""
 
-    invoke-virtual {v2, v1, v2, v3}, Lcom/tencent/mm/storage/Sclz;->b(ILcom/tencent/mm/sdk/g/j;Ljava/lang/Object;)V
+    invoke-virtual {v2, v1, v2, v3}, Lcom/tencent/mm/storage/Sclz;->b(ILcom/tencent/mm/sdk/g/Jclz;Ljava/lang/Object;)V
 
     .line 433
     :cond_2
@@ -245,7 +245,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/model/APclz$3$1;-><init>(Lcom/tencent/mm/model/APclz$3;)V
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
 
     .line 460
     :cond_a

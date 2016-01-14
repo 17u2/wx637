@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/model/AGclz;
-.super Lcom/tencent/mm/loader/stub/c;
+.super Lcom/tencent/mm/loader/stub/Cclz;
 .source "SourceFile"
 
 
@@ -15,9 +15,9 @@
     .line 13
     new-instance v0, Lcom/tencent/mm/model/AGclz;
 
-    sget-object v1, Lcom/tencent/mm/loader/stub/c;->bqb:Lcom/tencent/mm/loader/stub/c;
+    sget-object v1, Lcom/tencent/mm/loader/stub/Cclz;->bqb:Lcom/tencent/mm/loader/stub/Cclz;
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/model/AGclz;-><init>(Lcom/tencent/mm/loader/stub/c;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/model/AGclz;-><init>(Lcom/tencent/mm/loader/stub/Cclz;)V
 
     sput-object v0, Lcom/tencent/mm/model/AGclz;->btl:Lcom/tencent/mm/model/AGclz;
 
@@ -25,27 +25,27 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method private constructor <init>(Lcom/tencent/mm/loader/stub/c;)V
+.method private constructor <init>(Lcom/tencent/mm/loader/stub/Cclz;)V
     .locals 1
 
     .prologue
     .line 30
-    iget-object v0, p1, Lcom/tencent/mm/loader/stub/c;->bqc:Landroid/content/SharedPreferences;
+    iget-object v0, p1, Lcom/tencent/mm/loader/stub/Cclz;->bqc:Landroid/content/SharedPreferences;
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/loader/stub/c;-><init>(Landroid/content/SharedPreferences;)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/loader/stub/Cclz;-><init>(Landroid/content/SharedPreferences;)V
 
     .line 31
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -74,7 +74,7 @@
 
     aput-object p2, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 35
     iget-object v0, p0, Lcom/tencent/mm/model/AGclz;->bqc:Landroid/content/SharedPreferences;
@@ -99,7 +99,7 @@
     if-eqz v0, :cond_0
 
     .line 38
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -143,7 +143,7 @@
 
     .line 47
     :cond_0
-    invoke-static {p3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -154,7 +154,7 @@
 
     .line 50
     :cond_1
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -198,7 +198,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 76
     new-instance v0, Ljava/lang/StringBuilder;
@@ -224,7 +224,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v2, Lcom/tencent/mm/compatible/util/d;->bpW:Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/compatible/util/Dclz;->bpW:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -292,7 +292,7 @@
 
     aput-object v3, v6, v7
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 84
     invoke-static {p1, v1}, Lcom/tencent/mm/modelsfs/FileOp;->m(Ljava/lang/String;Ljava/lang/String;)J

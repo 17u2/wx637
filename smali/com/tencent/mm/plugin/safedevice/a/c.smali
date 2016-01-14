@@ -1,10 +1,10 @@
 .class public final Lcom/tencent/mm/plugin/safedevice/a/c;
-.super Lcom/tencent/mm/d/b/bh;
+.super Lcom/tencent/mm/d/b/BHclz;
 .source "SourceFile"
 
 
 # static fields
-.field protected static anZ:Lcom/tencent/mm/sdk/g/c$a;
+.field protected static anZ:Lcom/tencent/mm/sdk/g/Cclz$a;
 
 
 # direct methods
@@ -15,25 +15,25 @@
     const/4 v5, 0x4
 
     .line 11
-    new-instance v0, Lcom/tencent/mm/sdk/g/c$a;
+    new-instance v0, Lcom/tencent/mm/sdk/g/Cclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/g/c$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/g/Cclz$a;-><init>()V
 
     new-array v1, v5, [Ljava/lang/reflect/Field;
 
-    iput-object v1, v0, Lcom/tencent/mm/sdk/g/c$a;->bWe:[Ljava/lang/reflect/Field;
+    iput-object v1, v0, Lcom/tencent/mm/sdk/g/Cclz$a;->bWe:[Ljava/lang/reflect/Field;
 
     const/4 v1, 0x5
 
     new-array v1, v1, [Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/sdk/g/c$a;->bfq:[Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/sdk/g/Cclz$a;->bfq:[Ljava/lang/String;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v2, v0, Lcom/tencent/mm/sdk/g/c$a;->bfq:[Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/sdk/g/Cclz$a;->bfq:[Ljava/lang/String;
 
     const/4 v3, 0x0
 
@@ -41,7 +41,7 @@
 
     aput-object v4, v2, v3
 
-    iget-object v2, v0, Lcom/tencent/mm/sdk/g/c$a;->jjh:Ljava/util/Map;
+    iget-object v2, v0, Lcom/tencent/mm/sdk/g/Cclz$a;->jjh:Ljava/util/Map;
 
     const-string/jumbo v3, "uid"
 
@@ -59,9 +59,9 @@
 
     const-string/jumbo v2, "uid"
 
-    iput-object v2, v0, Lcom/tencent/mm/sdk/g/c$a;->jjg:Ljava/lang/String;
+    iput-object v2, v0, Lcom/tencent/mm/sdk/g/Cclz$a;->jjg:Ljava/lang/String;
 
-    iget-object v2, v0, Lcom/tencent/mm/sdk/g/c$a;->bfq:[Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/sdk/g/Cclz$a;->bfq:[Ljava/lang/String;
 
     const/4 v3, 0x1
 
@@ -69,7 +69,7 @@
 
     aput-object v4, v2, v3
 
-    iget-object v2, v0, Lcom/tencent/mm/sdk/g/c$a;->jjh:Ljava/util/Map;
+    iget-object v2, v0, Lcom/tencent/mm/sdk/g/Cclz$a;->jjh:Ljava/util/Map;
 
     const-string/jumbo v3, "name"
 
@@ -85,7 +85,7 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v2, v0, Lcom/tencent/mm/sdk/g/c$a;->bfq:[Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/sdk/g/Cclz$a;->bfq:[Ljava/lang/String;
 
     const/4 v3, 0x2
 
@@ -93,7 +93,7 @@
 
     aput-object v4, v2, v3
 
-    iget-object v2, v0, Lcom/tencent/mm/sdk/g/c$a;->jjh:Ljava/util/Map;
+    iget-object v2, v0, Lcom/tencent/mm/sdk/g/Cclz$a;->jjh:Ljava/util/Map;
 
     const-string/jumbo v3, "devicetype"
 
@@ -109,7 +109,7 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v2, v0, Lcom/tencent/mm/sdk/g/c$a;->bfq:[Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/sdk/g/Cclz$a;->bfq:[Ljava/lang/String;
 
     const/4 v3, 0x3
 
@@ -117,7 +117,7 @@
 
     aput-object v4, v2, v3
 
-    iget-object v2, v0, Lcom/tencent/mm/sdk/g/c$a;->jjh:Ljava/util/Map;
+    iget-object v2, v0, Lcom/tencent/mm/sdk/g/Cclz$a;->jjh:Ljava/util/Map;
 
     const-string/jumbo v3, "createtime"
 
@@ -129,7 +129,7 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v2, v0, Lcom/tencent/mm/sdk/g/c$a;->bfq:[Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/sdk/g/Cclz$a;->bfq:[Ljava/lang/String;
 
     const-string/jumbo v3, "rowid"
 
@@ -139,15 +139,15 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/sdk/g/c$a;->jji:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/sdk/g/Cclz$a;->jji:Ljava/lang/String;
 
-    sput-object v0, Lcom/tencent/mm/plugin/safedevice/a/c;->anZ:Lcom/tencent/mm/sdk/g/c$a;
+    sput-object v0, Lcom/tencent/mm/plugin/safedevice/a/c;->anZ:Lcom/tencent/mm/sdk/g/Cclz$a;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -158,7 +158,7 @@
 
     .prologue
     .line 18
-    invoke-direct {p0}, Lcom/tencent/mm/d/b/bh;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/d/b/BHclz;-><init>()V
 
     .line 19
     const-string/jumbo v0, "0"
@@ -185,7 +185,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -196,7 +196,7 @@
 
     .prologue
     .line 25
-    invoke-direct {p0}, Lcom/tencent/mm/d/b/bh;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/d/b/BHclz;-><init>()V
 
     .line 26
     iget v0, p1, Lcom/tencent/mm/protocal/b/akb;->eSX:I
@@ -225,7 +225,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -233,12 +233,12 @@
 
 
 # virtual methods
-.method protected final lA()Lcom/tencent/mm/sdk/g/c$a;
+.method protected final lA()Lcom/tencent/mm/sdk/g/Cclz$a;
     .locals 1
 
     .prologue
     .line 15
-    sget-object v0, Lcom/tencent/mm/plugin/safedevice/a/c;->anZ:Lcom/tencent/mm/sdk/g/c$a;
+    sget-object v0, Lcom/tencent/mm/plugin/safedevice/a/c;->anZ:Lcom/tencent/mm/sdk/g/Cclz$a;
 
     return-object v0
 .end method

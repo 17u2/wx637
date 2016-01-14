@@ -36,7 +36,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -82,7 +82,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 44
     const-string/jumbo v0, "connection"
@@ -97,7 +97,7 @@
     invoke-static {p1}, Lcom/tencent/mm/booter/MMReceivers$AlarmReceiver;->am(Landroid/content/Context;)V
 
     .line 47
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->appenderFlush()V
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->appenderFlush()V
 
     goto :goto_0
 
@@ -147,7 +147,7 @@
 
     const-string/jumbo v2, "NetworkAvailable: false"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 64
     invoke-static {}, Lcom/tencent/mm/network/Zclz;->Em()Lcom/tencent/mm/network/Zclz$a;
@@ -178,7 +178,7 @@
 
     const-string/jumbo v2, "getActiveNetworkInfo failed."
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, v1
 
@@ -190,7 +190,7 @@
 
     const-string/jumbo v2, "NetworkAvailable: true"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 68
     invoke-static {}, Lcom/tencent/mm/network/Zclz;->Em()Lcom/tencent/mm/network/Zclz$a;

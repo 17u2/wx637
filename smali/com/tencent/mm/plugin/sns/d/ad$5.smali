@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/sns/d/ad$5;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 8
 
     .prologue
@@ -51,7 +51,7 @@
     const/4 v7, 0x0
 
     .line 801
-    iget-object v0, p1, Lcom/tencent/mm/sdk/c/b;->id:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/sdk/c/Bclz;->id:Ljava/lang/String;
 
     const-string/jumbo v1, "DumpSns"
 
@@ -80,7 +80,7 @@
 
     aput-object v1, v4, v7
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 805
     new-instance v2, Ljava/lang/StringBuilder;
@@ -150,63 +150,63 @@
 
     .line 809
     :cond_1
-    iget-object v0, p1, Lcom/tencent/mm/sdk/c/b;->id:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/sdk/c/Bclz;->id:Ljava/lang/String;
 
     const-string/jumbo v1, "StatusNotifyFunction"
 
     if-ne v0, v1, :cond_2
 
     .line 810
-    check-cast p1, Lcom/tencent/mm/d/a/kb;
+    check-cast p1, Lcom/tencent/mm/d/a/KBclz;
 
     .line 811
-    iget-object v0, p1, Lcom/tencent/mm/d/a/kb;->aFd:Lcom/tencent/mm/d/a/kb$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/KBclz;->aFd:Lcom/tencent/mm/d/a/KBclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/kb$a;->avS:I
+    iget v0, v0, Lcom/tencent/mm/d/a/KBclz$a;->avS:I
 
     const/16 v1, 0x9
 
     if-eq v0, v1, :cond_0
 
     .line 813
-    iget-object v0, p1, Lcom/tencent/mm/d/a/kb;->aFd:Lcom/tencent/mm/d/a/kb$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/KBclz;->aFd:Lcom/tencent/mm/d/a/KBclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/kb$a;->avS:I
+    iget v0, v0, Lcom/tencent/mm/d/a/KBclz$a;->avS:I
 
     const/4 v1, 0x7
 
     if-ne v0, v1, :cond_0
 
     .line 814
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
     new-instance v1, Lcom/tencent/mm/plugin/sns/d/ad$5$1;
 
-    invoke-direct {v1, p0, p1}, Lcom/tencent/mm/plugin/sns/d/ad$5$1;-><init>(Lcom/tencent/mm/plugin/sns/d/ad$5;Lcom/tencent/mm/d/a/kb;)V
+    invoke-direct {v1, p0, p1}, Lcom/tencent/mm/plugin/sns/d/ad$5$1;-><init>(Lcom/tencent/mm/plugin/sns/d/ad$5;Lcom/tencent/mm/d/a/KBclz;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     goto :goto_0
 
     .line 825
     :cond_2
-    iget-object v0, p1, Lcom/tencent/mm/sdk/c/b;->id:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/sdk/c/Bclz;->id:Ljava/lang/String;
 
     const-string/jumbo v1, "GetSnsResume"
 
     if-ne v0, v1, :cond_3
 
     .line 826
-    check-cast p1, Lcom/tencent/mm/d/a/eo;
+    check-cast p1, Lcom/tencent/mm/d/a/EOclz;
 
     .line 827
-    iget-object v0, p1, Lcom/tencent/mm/d/a/eo;->ayC:Lcom/tencent/mm/d/a/eo$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/EOclz;->ayC:Lcom/tencent/mm/d/a/EOclz$a;
 
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atB()Lcom/tencent/mm/plugin/sns/ui/ab;
 
@@ -216,23 +216,23 @@
 
     move-result v1
 
-    iput-boolean v1, v0, Lcom/tencent/mm/d/a/eo$a;->ayD:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/d/a/EOclz$a;->ayD:Z
 
     goto :goto_0
 
     .line 828
     :cond_3
-    iget-object v0, p1, Lcom/tencent/mm/sdk/c/b;->id:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/sdk/c/Bclz;->id:Ljava/lang/String;
 
     const-string/jumbo v1, "GetAllNeedResendSns"
 
     if-ne v0, v1, :cond_4
 
     .line 829
-    check-cast p1, Lcom/tencent/mm/d/a/eb;
+    check-cast p1, Lcom/tencent/mm/d/a/EBclz;
 
     .line 830
-    iget-object v0, p1, Lcom/tencent/mm/d/a/eb;->ayc:Lcom/tencent/mm/d/a/eb$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/EBclz;->ayc:Lcom/tencent/mm/d/a/EBclz$a;
 
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atw()Lcom/tencent/mm/plugin/sns/h/l;
 
@@ -242,25 +242,25 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/d/a/eb$a;->ayd:Ljava/util/ArrayList;
+    iput-object v1, v0, Lcom/tencent/mm/d/a/EBclz$a;->ayd:Ljava/util/ArrayList;
 
     goto :goto_0
 
     .line 831
     :cond_4
-    iget-object v0, p1, Lcom/tencent/mm/sdk/c/b;->id:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/sdk/c/Bclz;->id:Ljava/lang/String;
 
     const-string/jumbo v1, "OmitAllResendSns"
 
     if-ne v0, v1, :cond_5
 
     .line 832
-    check-cast p1, Lcom/tencent/mm/d/a/gj;
+    check-cast p1, Lcom/tencent/mm/d/a/GJclz;
 
     .line 833
-    iget-object v0, p1, Lcom/tencent/mm/d/a/gj;->aAP:Lcom/tencent/mm/d/a/gj$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/GJclz;->aAP:Lcom/tencent/mm/d/a/GJclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/gj$a;->ayd:Ljava/util/ArrayList;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/GJclz$a;->ayd:Ljava/util/ArrayList;
 
     .line 834
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atw()Lcom/tencent/mm/plugin/sns/h/l;
@@ -273,19 +273,19 @@
 
     .line 835
     :cond_5
-    iget-object v0, p1, Lcom/tencent/mm/sdk/c/b;->id:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/sdk/c/Bclz;->id:Ljava/lang/String;
 
     const-string/jumbo v1, "ResendSns"
 
     if-ne v0, v1, :cond_6
 
     .line 836
-    check-cast p1, Lcom/tencent/mm/d/a/ib;
+    check-cast p1, Lcom/tencent/mm/d/a/IBclz;
 
     .line 837
-    iget-object v0, p1, Lcom/tencent/mm/d/a/ib;->aDi:Lcom/tencent/mm/d/a/ib$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/IBclz;->aDi:Lcom/tencent/mm/d/a/IBclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/ib$a;->aDj:I
+    iget v0, v0, Lcom/tencent/mm/d/a/IBclz$a;->aDj:I
 
     int-to-long v0, v0
 
@@ -302,20 +302,20 @@
 
     aput-object v5, v4, v7
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 839
     new-instance v2, Lcom/tencent/mm/plugin/sns/d/ad$5$2;
 
     invoke-direct {v2, p0, v0, v1}, Lcom/tencent/mm/plugin/sns/d/ad$5$2;-><init>(Lcom/tencent/mm/plugin/sns/d/ad$5;J)V
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
 
     goto/16 :goto_0
 
     .line 851
     :cond_6
-    iget-object v0, p1, Lcom/tencent/mm/sdk/c/b;->id:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/sdk/c/Bclz;->id:Ljava/lang/String;
 
     const-string/jumbo v1, "SnsFileCollect"
 
@@ -330,19 +330,19 @@
 
     .line 853
     :cond_7
-    iget-object v0, p1, Lcom/tencent/mm/sdk/c/b;->id:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/sdk/c/Bclz;->id:Ljava/lang/String;
 
     const-string/jumbo v1, "ReportAdClick"
 
     if-ne v0, v1, :cond_8
 
     .line 855
-    check-cast p1, Lcom/tencent/mm/d/a/hu;
+    check-cast p1, Lcom/tencent/mm/d/a/HUclz;
 
     .line 856
-    iget-object v0, p1, Lcom/tencent/mm/d/a/hu;->aDa:Lcom/tencent/mm/d/a/hu$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/HUclz;->aDa:Lcom/tencent/mm/d/a/HUclz$a;
 
-    iget-object v5, v0, Lcom/tencent/mm/d/a/hu$a;->aDb:Lcom/tencent/mm/modelsns/SnsAdClick;
+    iget-object v5, v0, Lcom/tencent/mm/d/a/HUclz$a;->aDb:Lcom/tencent/mm/modelsns/SnsAdClick;
 
     .line 857
     new-instance v0, Lcom/tencent/mm/plugin/sns/a/a/c;
@@ -370,7 +370,7 @@
 
     .line 860
     :cond_8
-    iget-object v0, p1, Lcom/tencent/mm/sdk/c/b;->id:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/sdk/c/Bclz;->id:Ljava/lang/String;
 
     const-string/jumbo v1, "DumpSnsTableInfo"
 
@@ -383,7 +383,7 @@
 
     .line 862
     :cond_9
-    iget-object v0, p1, Lcom/tencent/mm/sdk/c/b;->id:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/sdk/c/Bclz;->id:Ljava/lang/String;
 
     const-string/jumbo v1, "DumpSnsABtest"
 
@@ -402,7 +402,7 @@
 
     .line 865
     :cond_a
-    iget-object v0, p1, Lcom/tencent/mm/sdk/c/b;->id:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/sdk/c/Bclz;->id:Ljava/lang/String;
 
     const-string/jumbo v1, "TrigerAdReport"
 
@@ -413,7 +413,7 @@
 
     const-string/jumbo v1, "triger snslogmgr try report"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 867
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/d/ad$5;->gjS:Lcom/tencent/mm/plugin/sns/d/ad;
@@ -428,24 +428,24 @@
 
     .line 868
     :cond_b
-    iget-object v0, p1, Lcom/tencent/mm/sdk/c/b;->id:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/sdk/c/Bclz;->id:Ljava/lang/String;
 
     const-string/jumbo v1, "ReportSns"
 
     if-ne v0, v1, :cond_0
 
     .line 869
-    check-cast p1, Lcom/tencent/mm/d/a/hx;
+    check-cast p1, Lcom/tencent/mm/d/a/HXclz;
 
     .line 870
-    iget-object v0, p1, Lcom/tencent/mm/d/a/hx;->aDf:Lcom/tencent/mm/d/a/hx$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/HXclz;->aDf:Lcom/tencent/mm/d/a/HXclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/hx$a;->aDb:Lcom/tencent/mm/modelsns/SnsAdClick;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/HXclz$a;->aDb:Lcom/tencent/mm/modelsns/SnsAdClick;
 
     .line 871
-    iget-object v1, p1, Lcom/tencent/mm/d/a/hx;->aDf:Lcom/tencent/mm/d/a/hx$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/HXclz;->aDf:Lcom/tencent/mm/d/a/HXclz$a;
 
-    iget v1, v1, Lcom/tencent/mm/d/a/hx$a;->aDg:I
+    iget v1, v1, Lcom/tencent/mm/d/a/HXclz$a;->aDg:I
 
     if-ne v1, v6, :cond_0
 

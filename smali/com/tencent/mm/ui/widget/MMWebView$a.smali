@@ -49,7 +49,7 @@
 
     .line 97
     :cond_1
-    invoke-static {p3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -60,7 +60,7 @@
 
     const-string/jumbo v2, "enableTbsKernel, tbsSupportVerSec is null"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -82,7 +82,7 @@
 
     const-string/jumbo v3, "tbs does not exist, should enable tbs"
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v2
 
@@ -128,7 +128,7 @@
 
     aput-object v6, v5, v4
 
-    invoke-static {v0, v3, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     move v0, v1
 
@@ -215,7 +215,7 @@
 
     aput-object v7, v6, v4
 
-    invoke-static {v3, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -238,7 +238,7 @@
 
     aput-object v0, v2, v1
 
-    invoke-static {v3, v4, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     move v0, v1
 
@@ -311,9 +311,9 @@
     move-result-object v0
 
     .line 71
-    sget-object v1, Lcom/tencent/mm/compatible/d/p;->bmi:Lcom/tencent/mm/compatible/d/x;
+    sget-object v1, Lcom/tencent/mm/compatible/d/Pclz;->bmi:Lcom/tencent/mm/compatible/d/Xclz;
 
-    iget-boolean v1, v1, Lcom/tencent/mm/compatible/d/x;->bmM:Z
+    iget-boolean v1, v1, Lcom/tencent/mm/compatible/d/Xclz;->bmM:Z
 
     .line 73
     const-string/jumbo v2, "tbs_enable"
@@ -350,7 +350,7 @@
 
     aput-object v0, v5, v6
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 79
     invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ui/widget/MMWebView$a;->a(Landroid/content/Context;ZLjava/lang/String;Ljava/lang/String;)Z
@@ -370,7 +370,7 @@
 
     aput-object v4, v3, v7
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 82
     if-nez v0, :cond_0

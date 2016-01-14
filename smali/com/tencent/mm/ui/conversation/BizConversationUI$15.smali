@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/ui/i$a;
+.implements Lcom/tencent/mm/ui/Iclz$a;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,11 +52,11 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$15;->kvP:Lcom/tencent/mm/ui/conversation/BizConversationUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/conversation/c;
+    invoke-static {v1}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/conversation/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/conversation/c;->getCount()I
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/conversation/Cclz;->getCount()I
 
     move-result v1
 

@@ -19,7 +19,7 @@
 
 .field private evj:I
 
-.field private evk:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private evk:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field private evl:F
 
@@ -79,7 +79,7 @@
     .line 35
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/widget/VolumeMeter;->evk:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/ui/widget/VolumeMeter;->evk:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 42
     const v0, -0x670468
@@ -132,7 +132,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -164,7 +164,7 @@
     .line 35
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/widget/VolumeMeter;->evk:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/ui/widget/VolumeMeter;->evk:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 42
     const v0, -0x670468
@@ -217,7 +217,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -521,13 +521,13 @@
     invoke-virtual {p0}, Lcom/tencent/mm/ui/widget/VolumeMeter;->postInvalidate()V
 
     .line 114
-    iget-object v0, p0, Lcom/tencent/mm/ui/widget/VolumeMeter;->evk:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/widget/VolumeMeter;->evk:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget v1, p0, Lcom/tencent/mm/ui/widget/VolumeMeter;->evt:I
 
     int-to-long v1, v1
 
-    invoke-virtual {v0, p0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v0, p0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     .line 117
     :cond_1

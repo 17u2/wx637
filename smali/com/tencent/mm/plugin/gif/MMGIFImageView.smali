@@ -30,7 +30,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -68,7 +68,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -84,7 +84,7 @@
     const/4 v1, 0x0
 
     :try_start_0
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -100,21 +100,21 @@
 
     move-result-object v1
 
-    iget-object v2, v1, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/e;
+    iget-object v2, v1, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/Eclz;
 
     const/4 v3, 0x0
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/a/e;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/a/Eclz;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    iget-object v0, v1, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/e;
+    iget-object v0, v1, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/Eclz;
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/a/e;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/a/Eclz;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -133,7 +133,7 @@
 
     invoke-direct {v0, p1, p2}, Lcom/tencent/mm/plugin/gif/a;-><init>(Landroid/content/res/Resources;I)V
 
-    iget-object v1, v1, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/e;
+    iget-object v1, v1, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/Eclz;
 
     const/4 v2, 0x0
 
@@ -141,7 +141,7 @@
 
     invoke-direct {v3, v0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/a/e;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/a/Eclz;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 176
     :cond_1
@@ -190,7 +190,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 186
     if-eqz p3, :cond_4
@@ -222,7 +222,7 @@
     .prologue
     .line 232
     :try_start_0
-    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -242,17 +242,17 @@
 
     const/4 v0, 0x0
 
-    iget-object v3, v1, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/e;
+    iget-object v3, v1, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/Eclz;
 
-    invoke-virtual {v3, v2}, Lcom/tencent/mm/a/e;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, v2}, Lcom/tencent/mm/a/Eclz;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     if-eqz v3, :cond_0
 
-    iget-object v0, v1, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/e;
+    iget-object v0, v1, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/Eclz;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/a/e;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/a/Eclz;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -297,15 +297,15 @@
 
     aput-object v3, v7, v8
 
-    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iget-object v1, v1, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/e;
+    iget-object v1, v1, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/Eclz;
 
     new-instance v3, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v3, v0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/a/e;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/a/Eclz;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 239
     :cond_1
@@ -350,7 +350,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/d;->a(Ljava/io/InputStream;F)Landroid/graphics/Bitmap;
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Ljava/io/InputStream;F)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -394,7 +394,7 @@
 
     move-result-object v1
 
-    invoke-static {v2, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 266
     :cond_3
@@ -418,7 +418,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 270
     :goto_2
@@ -441,7 +441,7 @@
 
     aput-object p1, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_2
     .catch Ljava/io/FileNotFoundException; {:try_start_2 .. :try_end_2} :catch_1
 
@@ -472,7 +472,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 .end method
@@ -540,7 +540,7 @@
 
     .line 90
     :try_start_0
-    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -580,19 +580,19 @@
 
     aput-object v2, v5, v6
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iget-object v3, v1, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/e;
+    iget-object v3, v1, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/Eclz;
 
-    invoke-virtual {v3, v2}, Lcom/tencent/mm/a/e;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, v2}, Lcom/tencent/mm/a/Eclz;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     if-eqz v3, :cond_2
 
-    iget-object v0, v1, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/e;
+    iget-object v0, v1, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/Eclz;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/a/e;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/a/Eclz;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -611,13 +611,13 @@
 
     invoke-direct {v0, p1}, Lcom/tencent/mm/plugin/gif/a;-><init>(Ljava/io/InputStream;)V
 
-    iget-object v1, v1, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/e;
+    iget-object v1, v1, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/Eclz;
 
     new-instance v3, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v3, v0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/a/e;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/a/Eclz;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Lcom/tencent/mm/plugin/gif/MMGIFException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
@@ -639,7 +639,7 @@
 
     move-result v0
 
-    invoke-static {p1, v0}, Lcom/tencent/mm/sdk/platformtools/d;->a(Ljava/io/InputStream;F)Landroid/graphics/Bitmap;
+    invoke-static {p1, v0}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Ljava/io/InputStream;F)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -673,7 +673,7 @@
 
     aput-object v0, v3, v7
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     :goto_2
     invoke-direct {p0}, Lcom/tencent/mm/plugin/gif/MMGIFImageView;->init()V
@@ -693,7 +693,7 @@
 
     aput-object v0, v3, v7
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_2
 .end method
@@ -745,7 +745,7 @@
 
     invoke-direct {v1, p1}, Ljava/io/FileInputStream;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/d;->decodeStream(Ljava/io/InputStream;)Landroid/graphics/Bitmap;
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/Dclz;->decodeStream(Ljava/io/InputStream;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -793,7 +793,7 @@
 
     move-result-object v1
 
-    invoke-static {v2, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 222
     :cond_0
@@ -817,7 +817,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 226
     :goto_1
@@ -840,7 +840,7 @@
 
     aput-object p1, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_2
     .catch Ljava/io/FileNotFoundException; {:try_start_2 .. :try_end_2} :catch_1
 
@@ -871,7 +871,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 .end method
@@ -885,7 +885,7 @@
     const/4 v2, 0x0
 
     .line 140
-    invoke-static {p5}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -925,17 +925,17 @@
 
     .line 142
     :cond_1
-    iget-object v0, v7, Lcom/tencent/mm/plugin/gif/b;->efD:Lcom/tencent/mm/a/e;
+    iget-object v0, v7, Lcom/tencent/mm/plugin/gif/b;->efD:Lcom/tencent/mm/a/Eclz;
 
-    invoke-virtual {v0, p5}, Lcom/tencent/mm/a/e;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p5}, Lcom/tencent/mm/a/Eclz;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     if-eqz v0, :cond_3
 
-    iget-object v0, v7, Lcom/tencent/mm/plugin/gif/b;->efD:Lcom/tencent/mm/a/e;
+    iget-object v0, v7, Lcom/tencent/mm/plugin/gif/b;->efD:Lcom/tencent/mm/a/Eclz;
 
-    invoke-virtual {v0, p5}, Lcom/tencent/mm/a/e;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p5}, Lcom/tencent/mm/a/Eclz;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -947,9 +947,9 @@
 
     if-eqz v0, :cond_3
 
-    iget-object v0, v7, Lcom/tencent/mm/plugin/gif/b;->efD:Lcom/tencent/mm/a/e;
+    iget-object v0, v7, Lcom/tencent/mm/plugin/gif/b;->efD:Lcom/tencent/mm/a/Eclz;
 
-    invoke-virtual {v0, p5}, Lcom/tencent/mm/a/e;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p5}, Lcom/tencent/mm/a/Eclz;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -976,13 +976,13 @@
 
     invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/plugin/gif/c;-><init>(Landroid/content/Context;ZZI[ILjava/lang/String;)V
 
-    iget-object v1, v7, Lcom/tencent/mm/plugin/gif/b;->efD:Lcom/tencent/mm/a/e;
+    iget-object v1, v7, Lcom/tencent/mm/plugin/gif/b;->efD:Lcom/tencent/mm/a/Eclz;
 
     new-instance v2, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v2, v0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    invoke-virtual {v1, p5, v2}, Lcom/tencent/mm/a/e;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p5, v2}, Lcom/tencent/mm/a/Eclz;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
@@ -1053,11 +1053,11 @@
     if-nez v0, :cond_0
 
     .line 107
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/at/a;->getDensity(Landroid/content/Context;)F
+    invoke-static {v0}, Lcom/tencent/mm/at/Aclz;->getDensity(Landroid/content/Context;)F
 
     move-result v0
 

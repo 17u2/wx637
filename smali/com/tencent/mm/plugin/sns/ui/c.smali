@@ -34,7 +34,7 @@
 
 .field final gpS:Lcom/tencent/mm/plugin/sns/ui/c$a;
 
-.field private final handler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private final handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -75,11 +75,11 @@
     iput v1, p0, Lcom/tencent/mm/plugin/sns/ui/c;->gpP:I
 
     .line 41
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/c;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/c;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 43
     const-string/jumbo v0, ""
@@ -117,7 +117,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -186,9 +186,9 @@
     if-eqz v0, :cond_0
 
     .line 117
-    invoke-static {}, Lcom/tencent/mm/af/t;->AM()Lcom/tencent/mm/af/n;
+    invoke-static {}, Lcom/tencent/mm/af/Tclz;->AM()Lcom/tencent/mm/af/Nclz;
 
-    invoke-static {}, Lcom/tencent/mm/af/n;->AJ()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/af/Nclz;->AJ()Ljava/lang/String;
 
     move-result-object v0
 
@@ -209,7 +209,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 119
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/c;->gpR:Lcom/tencent/mm/plugin/sns/ui/d;

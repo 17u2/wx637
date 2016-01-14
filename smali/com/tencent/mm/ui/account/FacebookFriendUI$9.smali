@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/sdk/platformtools/ag$a;
+.implements Lcom/tencent/mm/sdk/platformtools/AGclz$a;
 
 
 # annotations
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic cgm:Lcom/tencent/mm/modelfriend/x;
+.field final synthetic cgm:Lcom/tencent/mm/modelfriend/Xclz;
 
 .field final synthetic jBs:Lcom/tencent/mm/ui/account/FacebookFriendUI;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/account/FacebookFriendUI;Lcom/tencent/mm/modelfriend/x;)V
+.method constructor <init>(Lcom/tencent/mm/ui/account/FacebookFriendUI;Lcom/tencent/mm/modelfriend/Xclz;)V
     .locals 1
 
     .prologue
     .line 250
     iput-object p1, p0, Lcom/tencent/mm/ui/account/FacebookFriendUI$9;->jBs:Lcom/tencent/mm/ui/account/FacebookFriendUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/account/FacebookFriendUI$9;->cgm:Lcom/tencent/mm/modelfriend/x;
+    iput-object p2, p0, Lcom/tencent/mm/ui/account/FacebookFriendUI$9;->cgm:Lcom/tencent/mm/modelfriend/Xclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/account/FacebookFriendUI$9;->cgm:Lcom/tencent/mm/modelfriend/x;
+    iget-object v1, p0, Lcom/tencent/mm/ui/account/FacebookFriendUI$9;->cgm:Lcom/tencent/mm/modelfriend/Xclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 

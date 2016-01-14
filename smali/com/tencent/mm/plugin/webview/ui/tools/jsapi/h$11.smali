@@ -22,18 +22,18 @@
 
 .field final synthetic hGQ:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;
 
-.field final synthetic hHa:Lcom/tencent/mm/d/a/bj;
+.field final synthetic hHa:Lcom/tencent/mm/d/a/BJclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;Lcom/tencent/mm/d/a/bj;Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/j;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;Lcom/tencent/mm/d/a/BJclz;Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/j;)V
     .locals 1
 
     .prologue
     .line 4277
     iput-object p1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$11;->hGQ:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;
 
-    iput-object p2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$11;->hHa:Lcom/tencent/mm/d/a/bj;
+    iput-object p2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$11;->hHa:Lcom/tencent/mm/d/a/BJclz;
 
     iput-object p3, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$11;->hGN:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/j;
 
@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -68,11 +68,11 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    iget-object v3, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$11;->hHa:Lcom/tencent/mm/d/a/bj;
+    iget-object v3, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$11;->hHa:Lcom/tencent/mm/d/a/BJclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/bj;->atU:Lcom/tencent/mm/d/a/bj$b;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/BJclz;->atU:Lcom/tencent/mm/d/a/BJclz$b;
 
-    iget-boolean v3, v3, Lcom/tencent/mm/d/a/bj$b;->atW:Z
+    iget-boolean v3, v3, Lcom/tencent/mm/d/a/BJclz$b;->atW:Z
 
     invoke-static {v3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -80,33 +80,33 @@
 
     aput-object v3, v2, v5
 
-    iget-object v3, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$11;->hHa:Lcom/tencent/mm/d/a/bj;
+    iget-object v3, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$11;->hHa:Lcom/tencent/mm/d/a/BJclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/bj;->atU:Lcom/tencent/mm/d/a/bj$b;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/BJclz;->atU:Lcom/tencent/mm/d/a/BJclz$b;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/bj$b;->atX:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/BJclz$b;->atX:Ljava/lang/String;
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 4282
-    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$11;->hHa:Lcom/tencent/mm/d/a/bj;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$11;->hHa:Lcom/tencent/mm/d/a/BJclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/bj;->atU:Lcom/tencent/mm/d/a/bj$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/BJclz;->atU:Lcom/tencent/mm/d/a/BJclz$b;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/d/a/bj$b;->atW:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/d/a/BJclz$b;->atW:Z
 
     if-eqz v0, :cond_0
 
     .line 4283
-    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$11;->hHa:Lcom/tencent/mm/d/a/bj;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$11;->hHa:Lcom/tencent/mm/d/a/BJclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/bj;->atU:Lcom/tencent/mm/d/a/bj$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/BJclz;->atU:Lcom/tencent/mm/d/a/BJclz$b;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/bj$b;->atX:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/BJclz$b;->atX:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -124,24 +124,24 @@
 
     new-array v3, v4, [Ljava/lang/Object;
 
-    iget-object v4, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$11;->hHa:Lcom/tencent/mm/d/a/bj;
+    iget-object v4, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$11;->hHa:Lcom/tencent/mm/d/a/BJclz;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/bj;->atU:Lcom/tencent/mm/d/a/bj$b;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/BJclz;->atU:Lcom/tencent/mm/d/a/BJclz$b;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/bj$b;->atX:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/BJclz$b;->atX:Ljava/lang/String;
 
     aput-object v4, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 4286
     const-string/jumbo v1, "ticket"
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$11;->hHa:Lcom/tencent/mm/d/a/bj;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$11;->hHa:Lcom/tencent/mm/d/a/BJclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/a/bj;->atU:Lcom/tencent/mm/d/a/bj$b;
+    iget-object v2, v2, Lcom/tencent/mm/d/a/BJclz;->atU:Lcom/tencent/mm/d/a/BJclz$b;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/a/bj$b;->atX:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/d/a/BJclz$b;->atX:Ljava/lang/String;
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

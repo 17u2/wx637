@@ -17,9 +17,9 @@
 # instance fields
 .field public bxK:I
 
-.field public bxM:Lcom/tencent/mm/aq/a;
+.field public bxM:Lcom/tencent/mm/aq/Aclz;
 
-.field public bxN:Lcom/tencent/mm/aq/a;
+.field public bxN:Lcom/tencent/mm/aq/Aclz;
 
 .field public bxO:I
 
@@ -54,7 +54,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -69,17 +69,17 @@
     const/high16 v1, -0x80000000
 
     .line 66
-    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$a;->bxM:Lcom/tencent/mm/aq/a;
+    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$a;->bxM:Lcom/tencent/mm/aq/Aclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$a;->bxN:Lcom/tencent/mm/aq/a;
+    iget-object v0, p0, Lcom/tencent/mm/q/Aclz$a;->bxN:Lcom/tencent/mm/aq/Aclz;
 
     if-eqz v0, :cond_0
 
     iget-object v0, p0, Lcom/tencent/mm/q/Aclz$a;->uri:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -109,9 +109,9 @@
     :cond_1
     new-instance v0, Lcom/tencent/mm/q/Aclz;
 
-    iget-object v1, p0, Lcom/tencent/mm/q/Aclz$a;->bxM:Lcom/tencent/mm/aq/a;
+    iget-object v1, p0, Lcom/tencent/mm/q/Aclz$a;->bxM:Lcom/tencent/mm/aq/Aclz;
 
-    iget-object v2, p0, Lcom/tencent/mm/q/Aclz$a;->bxN:Lcom/tencent/mm/aq/a;
+    iget-object v2, p0, Lcom/tencent/mm/q/Aclz$a;->bxN:Lcom/tencent/mm/aq/Aclz;
 
     iget-object v3, p0, Lcom/tencent/mm/q/Aclz$a;->uri:Ljava/lang/String;
 
@@ -125,7 +125,7 @@
 
     const/4 v8, 0x0
 
-    invoke-direct/range {v0 .. v8}, Lcom/tencent/mm/q/Aclz;-><init>(Lcom/tencent/mm/aq/a;Lcom/tencent/mm/aq/a;Ljava/lang/String;IIIZB)V
+    invoke-direct/range {v0 .. v8}, Lcom/tencent/mm/q/Aclz;-><init>(Lcom/tencent/mm/aq/Aclz;Lcom/tencent/mm/aq/Aclz;Ljava/lang/String;IIIZB)V
 
     return-object v0
 .end method

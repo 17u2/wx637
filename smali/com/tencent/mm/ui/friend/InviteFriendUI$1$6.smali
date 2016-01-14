@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/ui/friend/h$a;
+.implements Lcom/tencent/mm/ui/friend/Hclz$a;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -51,7 +51,7 @@
     if-eqz p1, :cond_0
 
     .line 364
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zi()Lcom/tencent/mm/modelfriend/p;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zi()Lcom/tencent/mm/modelfriend/Pclz;
 
     move-result-object v0
 
@@ -65,7 +65,7 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/modelfriend/p;->s(Ljava/lang/String;I)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/modelfriend/Pclz;->s(Ljava/lang/String;I)Z
 
     .line 366
     :cond_0

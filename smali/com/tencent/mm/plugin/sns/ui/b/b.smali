@@ -15,7 +15,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -190,7 +190,7 @@
     invoke-virtual {v0, v2}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
     .line 83
-    iget-object v0, p6, Lcom/tencent/mm/plugin/sns/ui/an;->dDk:Lcom/tencent/mm/ui/tools/l;
+    iget-object v0, p6, Lcom/tencent/mm/plugin/sns/ui/an;->dDk:Lcom/tencent/mm/ui/tools/Lclz;
 
     iget-object v2, p1, Lcom/tencent/mm/plugin/sns/ui/b/a$b;->gBk:Landroid/view/View;
 
@@ -202,7 +202,7 @@
 
     iget-object v4, v4, Lcom/tencent/mm/plugin/sns/ui/c/b;->gIn:Lcom/tencent/mm/plugin/sns/ui/c/a;
 
-    invoke-virtual {v0, v2, v3, v4}, Lcom/tencent/mm/ui/tools/l;->a(Landroid/view/View;Landroid/view/View$OnCreateContextMenuListener;Lcom/tencent/mm/ui/base/m$d;)V
+    invoke-virtual {v0, v2, v3, v4}, Lcom/tencent/mm/ui/tools/Lclz;->a(Landroid/view/View;Landroid/view/View$OnCreateContextMenuListener;Lcom/tencent/mm/ui/base/Mclz$d;)V
 
     .line 84
     iget-object v0, p1, Lcom/tencent/mm/plugin/sns/ui/b/a$b;->gBk:Landroid/view/View;
@@ -217,7 +217,7 @@
     iget-object v0, v1, Lcom/tencent/mm/protocal/b/abp;->dQQ:Ljava/lang/String;
 
     .line 87
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -240,7 +240,7 @@
     iget-object v0, v1, Lcom/tencent/mm/protocal/b/abp;->asn:Ljava/lang/String;
 
     .line 95
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 

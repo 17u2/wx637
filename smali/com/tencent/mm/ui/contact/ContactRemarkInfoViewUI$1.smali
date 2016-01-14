@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -84,7 +84,7 @@
     .line 119
     const-string/jumbo v1, "remark_image_path"
 
-    invoke-static {}, Lcom/tencent/mm/ah/c;->AQ()Lcom/tencent/mm/ah/c;
+    invoke-static {}, Lcom/tencent/mm/ah/Cclz;->AQ()Lcom/tencent/mm/ah/Cclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/contact/ContactRemarkInfoViewUI$1;->ksg:Lcom/tencent/mm/ui/contact/ContactRemarkInfoViewUI;
 
@@ -92,7 +92,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/ah/c;->ie(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/ah/Cclz;->ie(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 

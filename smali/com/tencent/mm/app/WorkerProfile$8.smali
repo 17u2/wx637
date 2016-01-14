@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/app/WorkerProfile$8;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 6
 
     .prologue
@@ -51,30 +51,30 @@
     const/4 v5, 0x0
 
     .line 922
-    check-cast p1, Lcom/tencent/mm/d/a/fa;
+    check-cast p1, Lcom/tencent/mm/d/a/FAclz;
 
     .line 923
-    iget-object v0, p1, Lcom/tencent/mm/d/a/fa;->azc:Lcom/tencent/mm/d/a/fa$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/FAclz;->azc:Lcom/tencent/mm/d/a/FAclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/fa$a;->context:Landroid/content/Context;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/FAclz$a;->context:Landroid/content/Context;
 
     .line 924
     if-nez v0, :cond_0
 
     .line 925
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
     .line 927
     :cond_0
-    iget-object v1, p1, Lcom/tencent/mm/d/a/fa;->azc:Lcom/tencent/mm/d/a/fa$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/FAclz;->azc:Lcom/tencent/mm/d/a/FAclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/fa$a;->appId:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/FAclz$a;->appId:Ljava/lang/String;
 
-    iget-object v2, p1, Lcom/tencent/mm/d/a/fa;->azc:Lcom/tencent/mm/d/a/fa$a;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/FAclz;->azc:Lcom/tencent/mm/d/a/FAclz$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/a/fa$a;->azd:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
+    iget-object v2, v2, Lcom/tencent/mm/d/a/FAclz$a;->azd:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
 
     if-nez v0, :cond_1
 
@@ -82,7 +82,7 @@
 
     const-string/jumbo v1, "launch app failed: context is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 928
     :goto_0
@@ -90,7 +90,7 @@
 
     .line 927
     :cond_1
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -100,7 +100,7 @@
 
     const-string/jumbo v1, "launch app failed: appid is null or nil"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -111,7 +111,7 @@
 
     const-string/jumbo v1, "launch app failed: wxMsg is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -130,7 +130,7 @@
 
     aput-object v1, v3, v5
 
-    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -159,7 +159,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -168,7 +168,7 @@
 
     iget-object v3, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_openId:Ljava/lang/String;
 
-    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/model/app/g;->a(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;)Lcom/tencent/mm/sdk/modelmsg/d$a;
+    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/model/app/g;->a(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;)Lcom/tencent/mm/sdk/modelmsg/Dclz$a;
 
     goto :goto_0
 .end method

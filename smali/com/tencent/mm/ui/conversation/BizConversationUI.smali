@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lcom/tencent/mm/q/Dclz;
-.implements Lcom/tencent/mm/sdk/g/j$b;
+.implements Lcom/tencent/mm/sdk/g/Jclz$b;
 
 
 # annotations
@@ -26,27 +26,27 @@
 
 .field private cDv:Lcom/tencent/mm/s/Iclz;
 
-.field private cfz:Lcom/tencent/mm/ui/base/o;
+.field private cfz:Lcom/tencent/mm/ui/base/Oclz;
 
 .field private cyL:Landroid/widget/TextView;
 
 .field private cyQ:Z
 
-.field private dDk:Lcom/tencent/mm/ui/tools/l;
+.field private dDk:Lcom/tencent/mm/ui/tools/Lclz;
 
-.field private eGM:Lcom/tencent/mm/ui/base/m$d;
+.field private eGM:Lcom/tencent/mm/ui/base/Mclz$d;
 
 .field private kro:Lcom/tencent/mm/storage/Rclz;
 
 .field private kvK:Landroid/widget/ListView;
 
-.field private kvL:Lcom/tencent/mm/ui/conversation/c;
+.field private kvL:Lcom/tencent/mm/ui/conversation/Cclz;
 
 .field private kvM:Ljava/lang/String;
 
 .field private kvN:Z
 
-.field private kvO:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private kvO:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -70,7 +70,7 @@
     .line 489
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     .line 584
     iput-boolean v1, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->cyQ:Z
@@ -80,13 +80,13 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/conversation/BizConversationUI$9;-><init>(Lcom/tencent/mm/ui/conversation/BizConversationUI;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->eGM:Lcom/tencent/mm/ui/base/m$d;
+    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->eGM:Lcom/tencent/mm/ui/base/Mclz$d;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -99,7 +99,7 @@
     .line 552
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->cDr:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -208,9 +208,9 @@
     .line 540
     new-instance v0, Landroid/content/Intent;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const-class v2, Lcom/tencent/mm/ui/conversation/BizChatConversationUI;
 
@@ -226,9 +226,9 @@
 
     invoke-virtual {v0, v4}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     invoke-virtual {v1, v0}, Landroid/support/v7/app/ActionBarActivity;->startActivity(Landroid/content/Intent;)V
 
@@ -280,12 +280,12 @@
     return-void
 .end method
 
-.method static synthetic b(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/conversation/c;
+.method static synthetic b(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/conversation/Cclz;
     .locals 1
 
     .prologue
     .line 82
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/c;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/Cclz;
 
     return-object v0
 .end method
@@ -295,7 +295,7 @@
 
     .prologue
     .line 82
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -305,7 +305,7 @@
 
     const-string/jumbo v1, "Delete Conversation and messages fail because username is null or nil."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     :goto_0
@@ -332,7 +332,7 @@
 
     invoke-direct {v2}, Lcom/tencent/mm/protocal/b/ajz;-><init>()V
 
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -342,7 +342,7 @@
 
     iput-object v2, v1, Lcom/tencent/mm/protocal/b/JFclz;->iuA:Lcom/tencent/mm/protocal/b/ajz;
 
-    iget-wide v2, v0, Lcom/tencent/mm/d/b/ba;->field_msgSvrId:J
+    iget-wide v2, v0, Lcom/tencent/mm/d/b/BAclz;->field_msgSvrId:J
 
     iput-wide v2, v1, Lcom/tencent/mm/protocal/b/JFclz;->ikC:J
 
@@ -350,17 +350,17 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/c;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/Cclz;
 
     move-result-object v0
 
-    new-instance v2, Lcom/tencent/mm/ae/b$a;
+    new-instance v2, Lcom/tencent/mm/ae/Bclz$a;
 
     const/16 v3, 0x8
 
-    invoke-direct {v2, v3, v1}, Lcom/tencent/mm/ae/b$a;-><init>(ILcom/tencent/mm/aq/a;)V
+    invoke-direct {v2, v3, v1}, Lcom/tencent/mm/ae/Bclz$a;-><init>(ILcom/tencent/mm/aq/Aclz;)V
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/ae/c;->b(Lcom/tencent/mm/ae/b$q;)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/ae/Cclz;->b(Lcom/tencent/mm/ae/Bclz$q;)V
 
     const/4 v0, 0x0
 
@@ -382,7 +382,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ui/conversation/BizConversationUI$7;-><init>(Lcom/tencent/mm/ui/conversation/BizConversationUI;)V
 
-    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
@@ -444,15 +444,15 @@
 
     if-eqz v2, :cond_0
 
-    iget v0, v0, Lcom/tencent/mm/d/b/o;->field_type:I
+    iget v0, v0, Lcom/tencent/mm/d/b/Oclz;->field_type:I
 
-    invoke-static {v0}, Lcom/tencent/mm/h/a;->cf(I)Z
+    invoke-static {v0}, Lcom/tencent/mm/h/Aclz;->cf(I)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    iget-wide v0, v1, Lcom/tencent/mm/d/b/s;->field_conversationTime:J
+    iget-wide v0, v1, Lcom/tencent/mm/d/b/Sclz;->field_conversationTime:J
 
     invoke-static {}, Lcom/tencent/mm/s/AIclz;->xz()J
 
@@ -463,9 +463,9 @@
     if-gez v0, :cond_0
 
     :cond_2
-    new-instance v0, Lcom/tencent/mm/modelsimple/i;
+    new-instance v0, Lcom/tencent/mm/modelsimple/Iclz;
 
-    invoke-direct {v0, p1}, Lcom/tencent/mm/modelsimple/i;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Lcom/tencent/mm/modelsimple/Iclz;-><init>(Ljava/lang/String;)V
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
@@ -483,7 +483,7 @@
     const/4 v3, 0x1
 
     .line 725
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/c;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/Cclz;
 
     if-eqz v0, :cond_0
 
@@ -498,7 +498,7 @@
 
     .line 728
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvO:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvO:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     if-nez v0, :cond_2
 
@@ -507,23 +507,23 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/conversation/BizConversationUI$11;-><init>(Lcom/tencent/mm/ui/conversation/BizConversationUI;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvO:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvO:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 767
     :goto_1
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvO:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvO:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     const-wide/16 v1, 0x1f4
 
-    invoke-virtual {v0, v3, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessageDelayed(IJ)Z
+    invoke-virtual {v0, v3, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessageDelayed(IJ)Z
 
     goto :goto_0
 
     .line 765
     :cond_2
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvO:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvO:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->removeMessages(I)V
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeMessages(I)V
 
     goto :goto_1
 .end method
@@ -538,22 +538,22 @@
     return-object v0
 .end method
 
-.method static synthetic d(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/base/m$d;
+.method static synthetic d(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/base/Mclz$d;
     .locals 1
 
     .prologue
     .line 82
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->eGM:Lcom/tencent/mm/ui/base/m$d;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->eGM:Lcom/tencent/mm/ui/base/Mclz$d;
 
     return-object v0
 .end method
 
-.method static synthetic e(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/tools/l;
+.method static synthetic e(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/tools/Lclz;
     .locals 1
 
     .prologue
     .line 82
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->dDk:Lcom/tencent/mm/ui/tools/l;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->dDk:Lcom/tencent/mm/ui/tools/Lclz;
 
     return-object v0
 .end method
@@ -607,7 +607,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/s/Iclz;->field_addMemberUrl:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -631,7 +631,7 @@
     :goto_0
     aput-object v0, v3, v6
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     const v0, 0x7f090a8a
 
@@ -678,7 +678,7 @@
 
     aput-object v4, v3, v6
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     const-string/jumbo v1, "useJs"
 
@@ -688,15 +688,15 @@
 
     invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const-string/jumbo v2, "webview"
 
     const-string/jumbo v3, ".ui.tools.WebViewUI"
 
-    invoke-static {v1, v2, v3, v0, v5}, Lcom/tencent/mm/ao/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;I)V
+    invoke-static {v1, v2, v3, v0, v5}, Lcom/tencent/mm/ao/Cclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;I)V
 
     goto :goto_1
 .end method
@@ -815,41 +815,41 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ui/conversation/BizConversationUI$15;-><init>(Lcom/tencent/mm/ui/conversation/BizConversationUI;)V
 
-    invoke-direct {v0, p0, v1, v2}, Lcom/tencent/mm/ui/conversation/BizConversationUI$a;-><init>(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/ui/i$a;)V
+    invoke-direct {v0, p0, v1, v2}, Lcom/tencent/mm/ui/conversation/BizConversationUI$a;-><init>(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/ui/Iclz$a;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/c;
+    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/Cclz;
 
     .line 252
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/c;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/Cclz;
 
     new-instance v1, Lcom/tencent/mm/ui/conversation/BizConversationUI$16;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/conversation/BizConversationUI$16;-><init>(Lcom/tencent/mm/ui/conversation/BizConversationUI;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/conversation/c;->setGetViewPositionCallback(Lcom/tencent/mm/ui/base/MMSlideDelView$c;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/conversation/Cclz;->setGetViewPositionCallback(Lcom/tencent/mm/ui/base/MMSlideDelView$c;)V
 
     .line 260
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/c;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/Cclz;
 
     new-instance v1, Lcom/tencent/mm/ui/conversation/BizConversationUI$17;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/conversation/BizConversationUI$17;-><init>(Lcom/tencent/mm/ui/conversation/BizConversationUI;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/conversation/c;->setPerformItemClickListener(Lcom/tencent/mm/ui/base/MMSlideDelView$g;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/conversation/Cclz;->setPerformItemClickListener(Lcom/tencent/mm/ui/base/MMSlideDelView$g;)V
 
     .line 268
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvK:Landroid/widget/ListView;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/c;
+    iget-object v1, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/Cclz;
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
     .line 272
-    new-instance v0, Lcom/tencent/mm/ui/tools/l;
+    new-instance v0, Lcom/tencent/mm/ui/tools/Lclz;
 
-    invoke-direct {v0, p0}, Lcom/tencent/mm/ui/tools/l;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p0}, Lcom/tencent/mm/ui/tools/Lclz;-><init>(Landroid/content/Context;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->dDk:Lcom/tencent/mm/ui/tools/l;
+    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->dDk:Lcom/tencent/mm/ui/tools/Lclz;
 
     .line 273
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvK:Landroid/widget/ListView;
@@ -870,31 +870,31 @@
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setOnItemLongClickListener(Landroid/widget/AdapterView$OnItemLongClickListener;)V
 
     .line 325
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/c;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/Cclz;
 
     new-instance v1, Lcom/tencent/mm/ui/conversation/BizConversationUI$20;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/conversation/BizConversationUI$20;-><init>(Lcom/tencent/mm/ui/conversation/BizConversationUI;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/conversation/c;->setGetViewPositionCallback(Lcom/tencent/mm/ui/base/MMSlideDelView$c;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/conversation/Cclz;->setGetViewPositionCallback(Lcom/tencent/mm/ui/base/MMSlideDelView$c;)V
 
     .line 332
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/c;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/Cclz;
 
     new-instance v1, Lcom/tencent/mm/ui/conversation/BizConversationUI$2;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/conversation/BizConversationUI$2;-><init>(Lcom/tencent/mm/ui/conversation/BizConversationUI;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/conversation/c;->setPerformItemClickListener(Lcom/tencent/mm/ui/base/MMSlideDelView$g;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/conversation/Cclz;->setPerformItemClickListener(Lcom/tencent/mm/ui/base/MMSlideDelView$g;)V
 
     .line 340
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/c;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/Cclz;
 
     new-instance v1, Lcom/tencent/mm/ui/conversation/BizConversationUI$3;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/conversation/BizConversationUI$3;-><init>(Lcom/tencent/mm/ui/conversation/BizConversationUI;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/conversation/c;->a(Lcom/tencent/mm/ui/base/MMSlideDelView$f;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/conversation/Cclz;->a(Lcom/tencent/mm/ui/base/MMSlideDelView$f;)V
 
     .line 352
     return-void
@@ -936,7 +936,7 @@
 
     aput-object p3, v2, v6
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 824
     :cond_0
@@ -977,30 +977,30 @@
 
     aput-object v3, v2, v7
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 784
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/o;->isShowing()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Oclz;->isShowing()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
     .line 785
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/o;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Oclz;->dismiss()V
 
     .line 786
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iput-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     .line 788
     :cond_2
@@ -1013,7 +1013,7 @@
     if-ne v0, v1, :cond_0
 
     .line 789
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     move-result-object v0
 
@@ -1021,12 +1021,12 @@
 
     invoke-direct {v1, p0, p4}, Lcom/tencent/mm/ui/conversation/BizConversationUI$13;-><init>(Lcom/tencent/mm/ui/conversation/BizConversationUI;Lcom/tencent/mm/q/Jclz;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ac;->r(Ljava/lang/Runnable;)I
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ACclz;->r(Ljava/lang/Runnable;)I
 
     goto :goto_0
 .end method
 
-.method public final a(ILcom/tencent/mm/sdk/g/j;Ljava/lang/Object;)V
+.method public final a(ILcom/tencent/mm/sdk/g/Jclz;Ljava/lang/Object;)V
     .locals 0
 
     .prologue
@@ -1116,7 +1116,7 @@
 
     const-string/jumbo v5, "bundle != null"
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 475
     const-string/jumbo v4, "enterprise_members"
@@ -1219,11 +1219,11 @@
 
     invoke-direct {v4, p0, v0}, Lcom/tencent/mm/ui/conversation/BizConversationUI$6;-><init>(Lcom/tencent/mm/ui/conversation/BizConversationUI;Lcom/tencent/mm/s/Vclz;)V
 
-    invoke-static {p0, v1, v2, v4}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {p0, v1, v2, v4}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v1
 
-    iput-object v1, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iput-object v1, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
@@ -1277,7 +1277,7 @@
     .line 106
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->bBD:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1292,7 +1292,7 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->bBD:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1330,7 +1330,7 @@
     .line 114
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvM:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1423,9 +1423,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/c;
+    iget-object v1, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/Cclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Sclz;->a(Lcom/tencent/mm/sdk/g/j$b;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Sclz;->a(Lcom/tencent/mm/sdk/g/Jclz$b;)V
 
     .line 152
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
@@ -1436,7 +1436,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/storage/Sclz;->a(Lcom/tencent/mm/sdk/g/j$b;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/storage/Sclz;->a(Lcom/tencent/mm/sdk/g/Jclz$b;)V
 
     .line 153
     invoke-direct {p0}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->baB()V
@@ -1495,7 +1495,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 670
     :goto_0
@@ -1520,9 +1520,9 @@
 
     if-eqz v2, :cond_1
 
-    iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_nickname:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/b/Oclz;->field_nickname:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -1582,9 +1582,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/c;
+    iget-object v1, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/Cclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Sclz;->b(Lcom/tencent/mm/sdk/g/j$b;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Sclz;->b(Lcom/tencent/mm/sdk/g/Jclz$b;)V
 
     .line 165
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
@@ -1595,39 +1595,39 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/storage/Sclz;->b(Lcom/tencent/mm/sdk/g/j$b;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/storage/Sclz;->b(Lcom/tencent/mm/sdk/g/Jclz$b;)V
 
     .line 167
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/c;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/Cclz;
 
     if-eqz v0, :cond_2
 
     .line 168
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/c;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/Cclz;
 
-    iget-object v1, v0, Lcom/tencent/mm/ui/conversation/c;->kwj:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v1, v0, Lcom/tencent/mm/ui/conversation/Cclz;->kwj:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/sdk/platformtools/ag;->aOk()V
+    invoke-virtual {v1}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOk()V
 
-    iput-object v2, v0, Lcom/tencent/mm/ui/conversation/c;->kwb:Lcom/tencent/mm/ui/conversation/c$b;
+    iput-object v2, v0, Lcom/tencent/mm/ui/conversation/Cclz;->kwb:Lcom/tencent/mm/ui/conversation/Cclz$b;
 
-    iput-object v2, v0, Lcom/tencent/mm/ui/conversation/c;->kvZ:Lcom/tencent/mm/ui/conversation/c$c;
+    iput-object v2, v0, Lcom/tencent/mm/ui/conversation/Cclz;->kvZ:Lcom/tencent/mm/ui/conversation/Cclz$c;
 
-    iget-object v1, v0, Lcom/tencent/mm/ui/conversation/c;->kvi:Ljava/util/HashMap;
+    iget-object v1, v0, Lcom/tencent/mm/ui/conversation/Cclz;->kvi:Ljava/util/HashMap;
 
     if-eqz v1, :cond_1
 
-    iget-object v1, v0, Lcom/tencent/mm/ui/conversation/c;->kvi:Ljava/util/HashMap;
+    iget-object v1, v0, Lcom/tencent/mm/ui/conversation/Cclz;->kvi:Ljava/util/HashMap;
 
     invoke-virtual {v1}, Ljava/util/HashMap;->clear()V
 
-    iput-object v2, v0, Lcom/tencent/mm/ui/conversation/c;->kvi:Ljava/util/HashMap;
+    iput-object v2, v0, Lcom/tencent/mm/ui/conversation/Cclz;->kvi:Ljava/util/HashMap;
 
     :cond_1
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/conversation/c;->abc()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/conversation/Cclz;->abc()V
 
-    iput-object v2, v0, Lcom/tencent/mm/ui/i;->jxQ:Lcom/tencent/mm/ui/i$a;
+    iput-object v2, v0, Lcom/tencent/mm/ui/Iclz;->jxQ:Lcom/tencent/mm/ui/Iclz$a;
 
     .line 170
     :cond_2
@@ -1646,7 +1646,7 @@
 
     const-string/jumbo v1, "on pause"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 196
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
@@ -1662,14 +1662,14 @@
     invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Sclz;->Cu(Ljava/lang/String;)Z
 
     .line 201
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/c;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/Cclz;
 
     if-eqz v0, :cond_0
 
     .line 202
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/c;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/Cclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/conversation/c;->onPause()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/conversation/Cclz;->onPause()V
 
     .line 204
     :cond_0
@@ -1707,7 +1707,7 @@
 
     const-string/jumbo v4, "on resume"
 
-    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 179
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->cBN:Lcom/tencent/mm/s/Kclz;
@@ -1747,7 +1747,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1772,7 +1772,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->bBD:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -1816,12 +1816,12 @@
     .line 180
     :cond_1
     :goto_2
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/c;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/Cclz;
 
     if-eqz v0, :cond_5
 
     .line 181
-    iget-object v3, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/c;
+    iget-object v3, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI;->kvL:Lcom/tencent/mm/ui/conversation/Cclz;
 
     const-string/jumbo v0, "!44@/B4Tb64lLpJN/RyYD3u7HIqvfOQFnQw777RTG6BmS5Y="
 
@@ -1831,7 +1831,7 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    iget-boolean v6, v3, Lcom/tencent/mm/ui/conversation/c;->kvV:Z
+    iget-boolean v6, v3, Lcom/tencent/mm/ui/conversation/Cclz;->kvV:Z
 
     invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1839,7 +1839,7 @@
 
     aput-object v6, v5, v2
 
-    iget-boolean v6, v3, Lcom/tencent/mm/ui/conversation/c;->kvX:Z
+    iget-boolean v6, v3, Lcom/tencent/mm/ui/conversation/Cclz;->kvX:Z
 
     invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1849,7 +1849,7 @@
 
     const/4 v6, 0x2
 
-    iget-boolean v7, v3, Lcom/tencent/mm/ui/conversation/c;->kvW:Z
+    iget-boolean v7, v3, Lcom/tencent/mm/ui/conversation/Cclz;->kvW:Z
 
     invoke-static {v7}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1859,7 +1859,7 @@
 
     const/4 v6, 0x3
 
-    iget-boolean v7, v3, Lcom/tencent/mm/ui/conversation/c;->kvY:Z
+    iget-boolean v7, v3, Lcom/tencent/mm/ui/conversation/Cclz;->kvY:Z
 
     invoke-static {v7}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1867,9 +1867,9 @@
 
     aput-object v7, v5, v6
 
-    invoke-static {v0, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iput-boolean v1, v3, Lcom/tencent/mm/ui/conversation/c;->kvV:Z
+    iput-boolean v1, v3, Lcom/tencent/mm/ui/conversation/Cclz;->kvV:Z
 
     new-instance v0, Landroid/text/format/Time;
 
@@ -1887,7 +1887,7 @@
 
     move-result-object v4
 
-    iget-object v0, v3, Lcom/tencent/mm/ui/conversation/c;->kwc:Ljava/lang/String;
+    iget-object v0, v3, Lcom/tencent/mm/ui/conversation/Cclz;->kwc:Ljava/lang/String;
 
     invoke-virtual {v0, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1898,38 +1898,38 @@
     move v0, v1
 
     :goto_3
-    iput-object v4, v3, Lcom/tencent/mm/ui/conversation/c;->kwc:Ljava/lang/String;
+    iput-object v4, v3, Lcom/tencent/mm/ui/conversation/Cclz;->kwc:Ljava/lang/String;
 
     if-eqz v0, :cond_2
 
-    invoke-virtual {v3}, Lcom/tencent/mm/ui/conversation/c;->baC()V
+    invoke-virtual {v3}, Lcom/tencent/mm/ui/conversation/Cclz;->baC()V
 
     :cond_2
-    iget-boolean v0, v3, Lcom/tencent/mm/ui/conversation/c;->kvX:Z
+    iget-boolean v0, v3, Lcom/tencent/mm/ui/conversation/Cclz;->kvX:Z
 
     if-eqz v0, :cond_3
 
-    iget-object v0, v3, Lcom/tencent/mm/ui/conversation/c;->kwb:Lcom/tencent/mm/ui/conversation/c$b;
+    iget-object v0, v3, Lcom/tencent/mm/ui/conversation/Cclz;->kwb:Lcom/tencent/mm/ui/conversation/Cclz$b;
 
     if-eqz v0, :cond_3
 
-    iput-boolean v2, v3, Lcom/tencent/mm/ui/conversation/c;->kvX:Z
+    iput-boolean v2, v3, Lcom/tencent/mm/ui/conversation/Cclz;->kvX:Z
 
     :cond_3
-    iget-boolean v0, v3, Lcom/tencent/mm/ui/conversation/c;->kvW:Z
+    iget-boolean v0, v3, Lcom/tencent/mm/ui/conversation/Cclz;->kvW:Z
 
     if-nez v0, :cond_4
 
-    iget-boolean v0, v3, Lcom/tencent/mm/ui/conversation/c;->kvY:Z
+    iget-boolean v0, v3, Lcom/tencent/mm/ui/conversation/Cclz;->kvY:Z
 
     if-eqz v0, :cond_5
 
     :cond_4
-    invoke-static {v3}, Lcom/tencent/mm/ui/conversation/c;->d(Lcom/tencent/mm/ui/conversation/c;)V
+    invoke-static {v3}, Lcom/tencent/mm/ui/conversation/Cclz;->d(Lcom/tencent/mm/ui/conversation/Cclz;)V
 
-    iput-boolean v2, v3, Lcom/tencent/mm/ui/conversation/c;->kvW:Z
+    iput-boolean v2, v3, Lcom/tencent/mm/ui/conversation/Cclz;->kvW:Z
 
-    iput-boolean v2, v3, Lcom/tencent/mm/ui/conversation/c;->kvY:Z
+    iput-boolean v2, v3, Lcom/tencent/mm/ui/conversation/Cclz;->kvY:Z
 
     .line 183
     :cond_5
@@ -1970,7 +1970,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1980,7 +1980,7 @@
 
     const-string/jumbo v4, "bizChatBrandUserName is null"
 
-    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -2048,7 +2048,7 @@
 
     move-result-object v6
 
-    invoke-static {v0}, Lcom/tencent/mm/aw/g;->dr(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/aw/Gclz;->dr(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -2060,9 +2060,9 @@
 
     move-result-object v0
 
-    iget-object v6, v5, Lcom/tencent/mm/storage/Qclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v6, v5, Lcom/tencent/mm/storage/Qclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
-    invoke-interface {v6, v0, v3}, Lcom/tencent/mm/sdk/g/d;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface {v6, v0, v3}, Lcom/tencent/mm/sdk/g/Dclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -2096,7 +2096,7 @@
 
     const-wide/16 v4, 0x64
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/ac;->e(Ljava/lang/Runnable;J)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/ACclz;->e(Ljava/lang/Runnable;J)V
 
     goto/16 :goto_2
 

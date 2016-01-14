@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,15 +52,15 @@
 
     const-string/jumbo v1, "cancel menu"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 648
-    new-instance v0, Lcom/tencent/mm/d/a/t;
+    new-instance v0, Lcom/tencent/mm/d/a/Tclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/t;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/Tclz;-><init>()V
 
     .line 649
-    iget-object v1, v0, Lcom/tencent/mm/d/a/t;->ass:Lcom/tencent/mm/d/a/t$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/Tclz;->ass:Lcom/tencent/mm/d/a/Tclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$13;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
@@ -68,17 +68,17 @@
 
     move-result-object v2
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/t$a;->filePath:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/Tclz$a;->filePath:Ljava/lang/String;
 
     .line 650
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 652
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$13;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->i(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/tools/l;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->i(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/tools/Lclz;
 
     .line 653
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$13;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;

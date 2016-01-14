@@ -48,7 +48,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -93,11 +93,11 @@
     if-eqz v0, :cond_4
 
     .line 171
-    invoke-static {p0}, Lcom/tencent/mm/a/f;->f(Ljava/io/File;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/tencent/mm/a/Fclz;->f(Ljava/io/File;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -196,11 +196,11 @@
     const/16 v6, 0x1000
 
     :try_start_1
-    invoke-static {v4, v6}, Lcom/tencent/mm/a/f;->a(Ljava/io/InputStream;I)Ljava/lang/String;
+    invoke-static {v4, v6}, Lcom/tencent/mm/a/Fclz;->a(Ljava/io/InputStream;I)Ljava/lang/String;
 
     move-result-object v6
 
-    invoke-static {v6}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v6}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -281,7 +281,7 @@
     check-cast p0, [B
 
     .line 194
-    invoke-static {p0}, Lcom/tencent/mm/a/f;->m([B)Ljava/lang/String;
+    invoke-static {p0}, Lcom/tencent/mm/a/Fclz;->m([B)Ljava/lang/String;
 
     move-result-object v3
 

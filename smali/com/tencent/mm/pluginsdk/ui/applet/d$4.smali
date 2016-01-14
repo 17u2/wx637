@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,16 +50,16 @@
     .line 101
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/d$4;->hTe:Lcom/tencent/mm/pluginsdk/ui/applet/d;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     if-eqz v0, :cond_0
 
     .line 102
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/d$4;->hTe:Lcom/tencent/mm/pluginsdk/ui/applet/d;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/ui/base/preference/f;->notifyDataSetChanged()V
+    invoke-interface {v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->notifyDataSetChanged()V
 
     .line 104
     :cond_0

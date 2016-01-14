@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/sns/h/p;
-.super Lcom/tencent/mm/sdk/g/g;
+.super Lcom/tencent/mm/sdk/g/Gclz;
 .source "SourceFile"
 
 
@@ -12,7 +12,7 @@
 
 
 # instance fields
-.field public bvh:Lcom/tencent/mm/aw/g;
+.field public bvh:Lcom/tencent/mm/aw/Gclz;
 
 
 # direct methods
@@ -49,28 +49,28 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method public constructor <init>(Lcom/tencent/mm/aw/g;)V
+.method public constructor <init>(Lcom/tencent/mm/aw/Gclz;)V
     .locals 1
 
     .prologue
     .line 91
-    invoke-direct {p0}, Lcom/tencent/mm/sdk/g/g;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/sdk/g/Gclz;-><init>()V
 
     .line 92
-    iput-object p1, p0, Lcom/tencent/mm/plugin/sns/h/p;->bvh:Lcom/tencent/mm/aw/g;
+    iput-object p1, p0, Lcom/tencent/mm/plugin/sns/h/p;->bvh:Lcom/tencent/mm/aw/Gclz;
 
     .line 96
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -121,7 +121,7 @@
 
     aput-object v1, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 319
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -174,7 +174,7 @@
 
     move-result-object v6
 
-    invoke-static {v6}, Lcom/tencent/mm/a/f;->m([B)Ljava/lang/String;
+    invoke-static {v6}, Lcom/tencent/mm/a/Fclz;->m([B)Ljava/lang/String;
 
     move-result-object v6
 
@@ -210,7 +210,7 @@
 
     move-result-object v9
 
-    invoke-static {v8, v9}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v8, v9}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 330
     invoke-static {v1}, Lcom/tencent/mm/modelsfs/FileOp;->av(Ljava/lang/String;)Z
@@ -236,7 +236,7 @@
 
     move-result-object v9
 
-    invoke-static {v8, v9}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v8, v9}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 332
     invoke-static {v1}, Lcom/tencent/mm/modelsfs/FileOp;->iv(Ljava/lang/String;)Z
@@ -266,7 +266,7 @@
 
     move-result-object v9
 
-    invoke-static {v8, v9}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v8, v9}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 336
     invoke-static {v0}, Lcom/tencent/mm/modelsfs/FileOp;->iv(Ljava/lang/String;)Z
@@ -315,7 +315,7 @@
 
     move-result-object v8
 
-    invoke-static {v4, v8}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 344
     const-string/jumbo v4, "!44@/B4Tb64lLpK0EaCDnM6k9L/VxUfhUG1Fi0DmLbyn9y0="
@@ -334,7 +334,7 @@
 
     move-result-object v8
 
-    invoke-static {v4, v8}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 346
     new-instance v4, Ljava/lang/StringBuilder;
@@ -389,7 +389,7 @@
     iput-object v6, v8, Lcom/tencent/mm/plugin/sns/h/o;->gpr:Ljava/lang/String;
 
     .line 354
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EY()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EY()J
 
     move-result-wide v9
 
@@ -468,7 +468,7 @@
 
     move-result-object v9
 
-    invoke-static {v6, v9}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v6, v9}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 366
     iget v0, v0, Lcom/tencent/mm/plugin/sns/data/g;->ggo:I
@@ -497,7 +497,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/a/f;->aA(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/a/Fclz;->aA(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -551,10 +551,10 @@
 
     move-result-object v4
 
-    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 379
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/h/p;->bvh:Lcom/tencent/mm/aw/g;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/h/p;->bvh:Lcom/tencent/mm/aw/Gclz;
 
     const-string/jumbo v4, "SnsMedia"
 
@@ -564,7 +564,7 @@
 
     move-result-object v6
 
-    invoke-virtual {v0, v4, v5, v6}, Lcom/tencent/mm/aw/g;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
+    invoke-virtual {v0, v4, v5, v6}, Lcom/tencent/mm/aw/Gclz;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
 
     move-result-wide v4
 
@@ -587,7 +587,7 @@
 
     move-result-object v5
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 381
     new-instance v4, Ljava/lang/StringBuilder;
@@ -644,7 +644,7 @@
 
     move-result-object v10
 
-    invoke-static {v9, v10}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v9, v10}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 389
     new-instance v9, Ljava/lang/StringBuilder;
@@ -718,7 +718,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 391
     iput-object v4, v8, Lcom/tencent/mm/plugin/sns/h/o;->gpr:Ljava/lang/String;
@@ -736,7 +736,7 @@
 
     const-string/jumbo v5, "uploadInfo to byteArray error"
 
-    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_1
 .end method
@@ -776,7 +776,7 @@
     if-eqz v1, :cond_5
 
     .line 283
-    new-instance v4, Lcom/tencent/mm/sdk/platformtools/i;
+    new-instance v4, Lcom/tencent/mm/sdk/platformtools/Iclz;
 
     move-object v0, v2
 
@@ -784,7 +784,7 @@
 
     move-object v1, v0
 
-    invoke-direct {v4, v1}, Lcom/tencent/mm/sdk/platformtools/i;-><init>(Ljava/io/FileInputStream;)V
+    invoke-direct {v4, v1}, Lcom/tencent/mm/sdk/platformtools/Iclz;-><init>(Ljava/io/FileInputStream;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_4
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
@@ -931,7 +931,7 @@
 
     new-array v7, v7, [Ljava/lang/Object;
 
-    invoke-static {v5, v2, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v2, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_2
 
@@ -1085,7 +1085,7 @@
     const/4 v0, 0x0
 
     .line 772
-    invoke-static {p0, p1, p2, v0}, Lcom/tencent/mm/sdk/platformtools/d;->b(Ljava/lang/String;IIZ)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1, p2, v0}, Lcom/tencent/mm/sdk/platformtools/Dclz;->b(Ljava/lang/String;IIZ)Landroid/graphics/Bitmap;
 
     move-result-object v3
 
@@ -1114,7 +1114,7 @@
     .line 782
     int-to-float v2, v2
 
-    invoke-static {v3, v2}, Lcom/tencent/mm/sdk/platformtools/d;->b(Landroid/graphics/Bitmap;F)Landroid/graphics/Bitmap;
+    invoke-static {v3, v2}, Lcom/tencent/mm/sdk/platformtools/Dclz;->b(Landroid/graphics/Bitmap;F)Landroid/graphics/Bitmap;
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1125,7 +1125,7 @@
     const/4 v3, 0x1
 
     :try_start_1
-    invoke-static {v2, p4, p3, p5, v3}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
+    invoke-static {v2, p4, p3, p5, v3}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -1157,7 +1157,7 @@
 
     new-array v6, v0, [Ljava/lang/Object;
 
-    invoke-static {v4, v2, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v2, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     move-object v2, v3
 
@@ -1198,7 +1198,7 @@
 
     move-result-object v1
 
-    invoke-static {v2, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -1224,7 +1224,7 @@
 
     .line 805
     :try_start_1
-    invoke-static {v3, p2, p1}, Lcom/tencent/mm/sdk/platformtools/d;->a(Ljava/io/InputStream;II)Landroid/graphics/Bitmap;
+    invoke-static {v3, p2, p1}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Ljava/io/InputStream;II)Landroid/graphics/Bitmap;
 
     move-result-object v5
 
@@ -1266,7 +1266,7 @@
     int-to-float v2, v2
 
     :try_start_4
-    invoke-static {v5, v2}, Lcom/tencent/mm/sdk/platformtools/d;->b(Landroid/graphics/Bitmap;F)Landroid/graphics/Bitmap;
+    invoke-static {v5, v2}, Lcom/tencent/mm/sdk/platformtools/Dclz;->b(Landroid/graphics/Bitmap;F)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
@@ -1299,7 +1299,7 @@
     const/4 v6, 0x1
 
     :try_start_5
-    invoke-static {v2, v5, p3, v3, v6}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/io/OutputStream;Z)V
+    invoke-static {v2, v5, p3, v3, v6}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/io/OutputStream;Z)V
 
     .line 821
     invoke-virtual {v3}, Ljava/io/OutputStream;->close()V
@@ -1334,7 +1334,7 @@
 
     aput-object p5, v1, v0
 
-    invoke-static {v5, v2, v6, v1}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v2, v6, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 826
     if-eqz v4, :cond_2
@@ -1738,7 +1738,7 @@
 
     move-result-object v2
 
-    invoke-static {v12, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v12, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 929
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1960,7 +1960,7 @@
 
     check-cast v0, Ljava/lang/Integer;
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Integer;I)I
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Integer;I)I
 
     move-result v0
 
@@ -1987,7 +1987,7 @@
 
     aput-object v6, v5, v1
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 494
     and-int/lit8 v0, v0, 0x40
@@ -2082,7 +2082,7 @@
 
     const/4 v5, 0x1
 
-    invoke-static {v2, v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/d;->b(Ljava/lang/String;IIZ)Landroid/graphics/Bitmap;
+    invoke-static {v2, v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Dclz;->b(Ljava/lang/String;IIZ)Landroid/graphics/Bitmap;
 
     move-result-object v3
 
@@ -2110,7 +2110,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 941
     new-instance v2, Ljava/lang/StringBuilder;
@@ -2176,7 +2176,7 @@
     int-to-float v0, v0
 
     :try_start_2
-    invoke-static {v3, v0}, Lcom/tencent/mm/sdk/platformtools/d;->b(Landroid/graphics/Bitmap;F)Landroid/graphics/Bitmap;
+    invoke-static {v3, v0}, Lcom/tencent/mm/sdk/platformtools/Dclz;->b(Landroid/graphics/Bitmap;F)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -2203,7 +2203,7 @@
 
     const/4 v5, 0x1
 
-    invoke-static {v0, v2, v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
+    invoke-static {v0, v2, v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
 
     :goto_2
     move v0, v1
@@ -2240,7 +2240,7 @@
 
     new-array v6, v6, [Ljava/lang/Object;
 
-    invoke-static {v4, v2, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v2, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_1
 
@@ -2254,7 +2254,7 @@
 
     const-string/jumbo v2, "createUserAlbum error"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 .end method
@@ -2275,24 +2275,24 @@
     if-eqz v2, :cond_c
 
     .line 511
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/ai;->dn(Landroid/content/Context;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/AIclz;->dn(Landroid/content/Context;)Z
 
     move-result v2
 
     if-eqz v2, :cond_a
 
     .line 512
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v2
 
     const-string/jumbo v3, "SnsWebpCompressPicLevelForWifi"
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -2332,7 +2332,7 @@
 
     aput-object v6, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 538
     const/16 v2, 0xa
@@ -2371,24 +2371,24 @@
 
     .line 547
     :try_start_1
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
-    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/ai;->dn(Landroid/content/Context;)Z
+    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/AIclz;->dn(Landroid/content/Context;)Z
 
     move-result v5
 
     if-eqz v5, :cond_f
 
     .line 549
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v5
 
     const-string/jumbo v6, "SnsCompressResolution1080PForWifi"
 
-    invoke-virtual {v5, v6}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v5, v6}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -2516,7 +2516,7 @@
 
     aput-object v8, v7, v4
 
-    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 599
     if-lez v3, :cond_3
@@ -2542,19 +2542,19 @@
 
     .line 604
     :goto_3
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v2
 
     const-string/jumbo v3, "PicCompressAvoidanceActiveSizeNormal"
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     const/16 v3, 0x64
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v2
 
@@ -2569,19 +2569,19 @@
     mul-int/lit16 v4, v2, 0x400
 
     .line 611
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v2
 
     const-string/jumbo v3, "PicCompressAvoidanceActiveSizeLong"
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     const/16 v3, 0xc8
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v2
 
@@ -2596,19 +2596,19 @@
     mul-int/lit16 v6, v2, 0x400
 
     .line 619
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v2
 
     const-string/jumbo v3, "PicCompressAvoidanceRemainderPerc"
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     const/16 v3, 0xa
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v2
 
@@ -2674,7 +2674,7 @@
 
     .line 642
     :goto_6
-    invoke-static/range {p1 .. p1}, Lcom/tencent/mm/sdk/platformtools/d;->At(Ljava/lang/String;)Landroid/graphics/BitmapFactory$Options;
+    invoke-static/range {p1 .. p1}, Lcom/tencent/mm/sdk/platformtools/Dclz;->At(Ljava/lang/String;)Landroid/graphics/BitmapFactory$Options;
 
     move-result-object v14
 
@@ -2769,7 +2769,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 646
     iget v1, v14, Landroid/graphics/BitmapFactory$Options;->outWidth:I
@@ -2823,7 +2823,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 649
     new-instance v1, Ljava/lang/StringBuilder;
@@ -2868,24 +2868,24 @@
     .line 514
     :cond_a
     :try_start_3
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/ai;->dj(Landroid/content/Context;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/AIclz;->dj(Landroid/content/Context;)Z
 
     move-result v2
 
     if-eqz v2, :cond_b
 
     .line 515
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v2
 
     const-string/jumbo v3, "SnsWebpCompressPicLevelFor2G"
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -2901,13 +2901,13 @@
 
     .line 518
     :cond_b
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v2
 
     const-string/jumbo v3, "SnsWebpCompressPicLevelFor3G"
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -2923,24 +2923,24 @@
 
     .line 522
     :cond_c
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/ai;->dn(Landroid/content/Context;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/AIclz;->dn(Landroid/content/Context;)Z
 
     move-result v2
 
     if-eqz v2, :cond_d
 
     .line 523
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v2
 
     const-string/jumbo v3, "SnsCompressPicLevelForWifi"
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -2956,24 +2956,24 @@
 
     .line 525
     :cond_d
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/ai;->dj(Landroid/content/Context;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/AIclz;->dj(Landroid/content/Context;)Z
 
     move-result v2
 
     if-eqz v2, :cond_e
 
     .line 526
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v2
 
     const-string/jumbo v3, "SnsCompressPicLevelFor2G"
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -2989,13 +2989,13 @@
 
     .line 529
     :cond_e
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v2
 
     const-string/jumbo v3, "SnsCompressPicLevelFor3G"
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -3014,24 +3014,24 @@
     .line 553
     :cond_f
     :try_start_4
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
-    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/ai;->dj(Landroid/content/Context;)Z
+    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/AIclz;->dj(Landroid/content/Context;)Z
 
     move-result v5
 
     if-eqz v5, :cond_10
 
     .line 554
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v5
 
     const-string/jumbo v6, "SnsCompressResolution1080PFor2G"
 
-    invoke-virtual {v5, v6}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v5, v6}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -3077,13 +3077,13 @@
 
     .line 558
     :cond_10
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v5
 
     const-string/jumbo v6, "SnsCompressResolution1080PFor3G"
 
-    invoke-virtual {v5, v6}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v5, v6}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -3132,24 +3132,24 @@
     .line 567
     :cond_11
     :try_start_5
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
-    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/ai;->dn(Landroid/content/Context;)Z
+    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/AIclz;->dn(Landroid/content/Context;)Z
 
     move-result v5
 
     if-eqz v5, :cond_12
 
     .line 569
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v5
 
     const-string/jumbo v6, "SnsCompressResolutionForWifi"
 
-    invoke-virtual {v5, v6}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v5, v6}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -3195,24 +3195,24 @@
 
     .line 573
     :cond_12
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
-    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/ai;->dj(Landroid/content/Context;)Z
+    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/AIclz;->dj(Landroid/content/Context;)Z
 
     move-result v5
 
     if-eqz v5, :cond_13
 
     .line 574
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v5
 
     const-string/jumbo v6, "SnsCompressResolutionFor2G"
 
-    invoke-virtual {v5, v6}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v5, v6}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -3258,13 +3258,13 @@
 
     .line 578
     :cond_13
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v5
 
     const-string/jumbo v6, "SnsCompressResolutionFor3G"
 
-    invoke-virtual {v5, v6}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v5, v6}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -3335,7 +3335,7 @@
 
     move-result-object v3
 
-    invoke-static {v7, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v7, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v11, v1
 
@@ -3354,7 +3354,7 @@
     invoke-direct {v4}, Landroid/graphics/BitmapFactory$Options;-><init>()V
 
     .line 653
-    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/BitmapFactory$Options;)V
+    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/BitmapFactory$Options;)V
 
     .line 654
     const/4 v2, 0x0
@@ -3371,7 +3371,7 @@
     if-eqz v1, :cond_16
 
     .line 659
-    new-instance v3, Lcom/tencent/mm/sdk/platformtools/i;
+    new-instance v3, Lcom/tencent/mm/sdk/platformtools/Iclz;
 
     move-object v0, v2
 
@@ -3379,7 +3379,7 @@
 
     move-object v1, v0
 
-    invoke-direct {v3, v1}, Lcom/tencent/mm/sdk/platformtools/i;-><init>(Ljava/io/FileInputStream;)V
+    invoke-direct {v3, v1}, Lcom/tencent/mm/sdk/platformtools/Iclz;-><init>(Ljava/io/FileInputStream;)V
 
     move-object v2, v3
 
@@ -3424,7 +3424,7 @@
     int-to-float v3, v11
 
     :try_start_8
-    invoke-static {v1, v3}, Lcom/tencent/mm/sdk/platformtools/d;->b(Landroid/graphics/Bitmap;F)Landroid/graphics/Bitmap;
+    invoke-static {v1, v3}, Lcom/tencent/mm/sdk/platformtools/Dclz;->b(Landroid/graphics/Bitmap;F)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -3453,7 +3453,7 @@
 
     const/4 v6, 0x1
 
-    invoke-static {v1, v5, v3, v4, v6}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
+    invoke-static {v1, v5, v3, v4, v6}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
 
     .line 671
     if-eqz v13, :cond_1c
@@ -3518,7 +3518,7 @@
 
     aput-object v8, v6, v7
 
-    invoke-static {v1, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 674
     int-to-long v5, v12
@@ -3678,7 +3678,7 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    invoke-static {v3, v1, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v1, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_c
     .catchall {:try_start_c .. :try_end_c} :catchall_0
 
@@ -3737,7 +3737,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 692
     new-instance v1, Ljava/lang/StringBuilder;
@@ -3838,7 +3838,7 @@
 
     aput-object v6, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 699
     invoke-static/range {p1 .. p1}, Lcom/tencent/mm/modelsfs/FileOp;->it(Ljava/lang/String;)J
@@ -3867,7 +3867,7 @@
 
     aput-object p1, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 702
     new-instance v1, Ljava/lang/StringBuilder;
@@ -4025,7 +4025,7 @@
 
     aput-object v15, v6, v7
 
-    invoke-static {v3, v4, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 714
     int-to-long v3, v12
@@ -4177,7 +4177,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 727
     iget v1, v14, Landroid/graphics/BitmapFactory$Options;->outHeight:I
@@ -4283,7 +4283,7 @@
 
     move-result-object v1
 
-    invoke-static {v4, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 751
     :goto_12
@@ -4362,7 +4362,7 @@
 
     aput-object v8, v6, v7
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 755
     int-to-long v4, v12
@@ -4592,7 +4592,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 110
     return-void
@@ -4618,7 +4618,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/a/f;->m([B)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/a/Fclz;->m([B)Ljava/lang/String;
 
     move-result-object v2
 
@@ -4734,7 +4734,7 @@
 
     .line 466
     :try_start_0
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/d;->At(Ljava/lang/String;)Landroid/graphics/BitmapFactory$Options;
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/Dclz;->At(Ljava/lang/String;)Landroid/graphics/BitmapFactory$Options;
 
     move-result-object v2
 
@@ -4767,7 +4767,7 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 472
     if-eqz v2, :cond_0
@@ -4893,7 +4893,7 @@
 
     move-result-object v5
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 844
     invoke-virtual {v3}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
@@ -5015,7 +5015,7 @@
     const/4 v5, 0x0
 
     .line 982
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/d;->At(Ljava/lang/String;)Landroid/graphics/BitmapFactory$Options;
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/Dclz;->At(Ljava/lang/String;)Landroid/graphics/BitmapFactory$Options;
 
     move-result-object v3
 
@@ -5038,7 +5038,7 @@
 
     .line 985
     :goto_1
-    invoke-static {p0, v2, v0, v5}, Lcom/tencent/mm/sdk/platformtools/d;->b(Ljava/lang/String;IIZ)Landroid/graphics/Bitmap;
+    invoke-static {p0, v2, v0, v5}, Lcom/tencent/mm/sdk/platformtools/Dclz;->b(Ljava/lang/String;IIZ)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -5082,7 +5082,7 @@
     .line 994
     int-to-float v1, v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/d;->b(Landroid/graphics/Bitmap;F)Landroid/graphics/Bitmap;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Dclz;->b(Landroid/graphics/Bitmap;F)Landroid/graphics/Bitmap;
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -5113,7 +5113,7 @@
 
     new-array v4, v5, [Ljava/lang/Object;
 
-    invoke-static {v2, v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_2
 .end method
@@ -5130,7 +5130,7 @@
     move-result-object v0
 
     .line 185
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/h/p;->bvh:Lcom/tencent/mm/aw/g;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/h/p;->bvh:Lcom/tencent/mm/aw/Gclz;
 
     const-string/jumbo v2, "SnsMedia"
 
@@ -5148,7 +5148,7 @@
 
     aput-object v6, v4, v5
 
-    invoke-virtual {v1, v2, v0, v3, v4}, Lcom/tencent/mm/aw/g;->update(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
+    invoke-virtual {v1, v2, v0, v3, v4}, Lcom/tencent/mm/aw/Gclz;->update(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
 
     move-result v0
 
@@ -5168,7 +5168,7 @@
     invoke-direct {v0}, Lcom/tencent/mm/plugin/sns/h/o;-><init>()V
 
     .line 398
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EY()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EY()J
 
     move-result-wide v1
 
@@ -5245,7 +5245,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 410
     iget v2, p1, Lcom/tencent/mm/plugin/sns/data/g;->ggo:I
@@ -5283,7 +5283,7 @@
     invoke-virtual {v0}, Lcom/tencent/mm/plugin/sns/h/o;->auS()V
 
     .line 422
-    iget-object v2, p0, Lcom/tencent/mm/plugin/sns/h/p;->bvh:Lcom/tencent/mm/aw/g;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/sns/h/p;->bvh:Lcom/tencent/mm/aw/Gclz;
 
     const-string/jumbo v3, "SnsMedia"
 
@@ -5293,7 +5293,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v2, v3, v4, v5}, Lcom/tencent/mm/aw/g;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
+    invoke-virtual {v2, v3, v4, v5}, Lcom/tencent/mm/aw/Gclz;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
 
     move-result-wide v2
 
@@ -5331,7 +5331,7 @@
 
     move-result-object v5
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 426
     new-instance v4, Ljava/lang/StringBuilder;
@@ -5548,7 +5548,7 @@
 
     const-string/jumbo v3, "uploadInfo to byteArray error"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -5560,7 +5560,7 @@
 
     const-string/jumbo v4, "uploadInfo to byteArray error"
 
-    invoke-static {v1, v4}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 .end method
@@ -5592,10 +5592,10 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 146
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/h/p;->bvh:Lcom/tencent/mm/aw/g;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/h/p;->bvh:Lcom/tencent/mm/aw/Gclz;
 
     const-string/jumbo v1, "SnsMedia"
 
@@ -5611,7 +5611,7 @@
 
     move-object v7, v2
 
-    invoke-virtual/range {v0 .. v7}, Lcom/tencent/mm/aw/g;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v0 .. v7}, Lcom/tencent/mm/aw/Gclz;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -5630,7 +5630,7 @@
 
     const-string/jumbo v1, "snsMedia Insert"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz p2, :cond_0
 
@@ -5638,13 +5638,13 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/h/p;->bvh:Lcom/tencent/mm/aw/g;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/h/p;->bvh:Lcom/tencent/mm/aw/Gclz;
 
     const-string/jumbo v2, "SnsMedia"
 
     const-string/jumbo v3, "local_id"
 
-    invoke-virtual {v1, v2, v3, v0}, Lcom/tencent/mm/aw/g;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
+    invoke-virtual {v1, v2, v3, v0}, Lcom/tencent/mm/aw/Gclz;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
 
     move-result-wide v0
 
@@ -5675,7 +5675,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/h/p;->bvh:Lcom/tencent/mm/aw/g;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/h/p;->bvh:Lcom/tencent/mm/aw/Gclz;
 
     const-string/jumbo v2, "SnsMedia"
 
@@ -5685,7 +5685,7 @@
 
     aput-object p1, v4, v9
 
-    invoke-virtual {v1, v2, v0, v3, v4}, Lcom/tencent/mm/aw/g;->update(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
+    invoke-virtual {v1, v2, v0, v3, v4}, Lcom/tencent/mm/aw/Gclz;->update(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
 
     move-result v0
 
@@ -5809,7 +5809,7 @@
     invoke-direct {v8}, Lcom/tencent/mm/plugin/sns/h/o;-><init>()V
 
     .line 222
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/h/p;->bvh:Lcom/tencent/mm/aw/g;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/h/p;->bvh:Lcom/tencent/mm/aw/Gclz;
 
     const-string/jumbo v1, "SnsMedia"
 
@@ -5833,7 +5833,7 @@
 
     move-object v7, v2
 
-    invoke-virtual/range {v0 .. v7}, Lcom/tencent/mm/aw/g;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v0 .. v7}, Lcom/tencent/mm/aw/Gclz;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -5879,7 +5879,7 @@
     invoke-direct {v8}, Lcom/tencent/mm/plugin/sns/h/o;-><init>()V
 
     .line 192
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/h/p;->bvh:Lcom/tencent/mm/aw/g;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/h/p;->bvh:Lcom/tencent/mm/aw/Gclz;
 
     const-string/jumbo v1, "SnsMedia"
 
@@ -5899,7 +5899,7 @@
 
     move-object v7, v2
 
-    invoke-virtual/range {v0 .. v7}, Lcom/tencent/mm/aw/g;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v0 .. v7}, Lcom/tencent/mm/aw/Gclz;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 

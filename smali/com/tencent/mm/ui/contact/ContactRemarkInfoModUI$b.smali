@@ -49,7 +49,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -66,7 +66,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -85,7 +85,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/tools/h;->X(ILjava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/tools/Hclz;->X(ILjava/lang/String;)I
 
     move-result v0
 
@@ -187,7 +187,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/contact/ContactRemarkInfoModUI$b;->ksd:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/platformtools/t;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/platformtools/Tclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 

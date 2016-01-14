@@ -32,7 +32,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -49,7 +49,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -76,7 +76,7 @@
     .line 213
     aget-object v1, p2, v3
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/bc;->g(Ljava/lang/Object;I)I
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->g(Ljava/lang/Object;I)I
 
     move-result v0
 
@@ -88,7 +88,7 @@
 
     iget-object v2, p1, Lcom/tencent/mm/model/AXclz;->bvq:Ljava/lang/String;
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v2
 
@@ -130,7 +130,7 @@
 
     aget-object v1, p2, v1
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/bc;->g(Ljava/lang/Object;I)I
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->g(Ljava/lang/Object;I)I
 
     move-result v0
 

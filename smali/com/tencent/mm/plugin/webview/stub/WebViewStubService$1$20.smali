@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/webview/stub/WebViewStubService$1$20;
-.super Lcom/tencent/mm/sdk/platformtools/ax;
+.super Lcom/tencent/mm/sdk/platformtools/AXclz;
 .source "SourceFile"
 
 
@@ -36,13 +36,13 @@
 
     const-wide/16 v0, 0x3e8
 
-    invoke-direct {p0, v0, v1, p2}, Lcom/tencent/mm/sdk/platformtools/ax;-><init>(JLjava/lang/Object;)V
+    invoke-direct {p0, v0, v1, p2}, Lcom/tencent/mm/sdk/platformtools/AXclz;-><init>(JLjava/lang/Object;)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -75,7 +75,7 @@
 
     iget v1, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService$1$20;->hBz:I
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Integer;I)I
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Integer;I)I
 
     move-result v0
 

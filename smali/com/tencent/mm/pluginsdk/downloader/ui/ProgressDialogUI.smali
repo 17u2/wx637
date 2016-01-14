@@ -4,9 +4,9 @@
 
 
 # instance fields
-.field private ccJ:Lcom/tencent/mm/ui/base/g;
+.field private ccJ:Lcom/tencent/mm/ui/base/Gclz;
 
-.field private cfG:Lcom/tencent/mm/sdk/platformtools/ag;
+.field private cfG:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
 .field public coZ:Landroid/widget/ProgressBar;
 
@@ -27,7 +27,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -58,9 +58,9 @@
     iput-wide v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->hKp:J
 
     .line 34
-    new-instance v1, Lcom/tencent/mm/ui/base/g$a;
+    new-instance v1, Lcom/tencent/mm/ui/base/Gclz$a;
 
-    invoke-direct {v1, p0}, Lcom/tencent/mm/ui/base/g$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p0}, Lcom/tencent/mm/ui/base/Gclz$a;-><init>(Landroid/content/Context;)V
 
     .line 36
     const v0, 0x7f090893
@@ -69,7 +69,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/g$a;->El(Ljava/lang/String;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/Gclz$a;->El(Ljava/lang/String;)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 37
     const v0, 0x7f090894
@@ -78,7 +78,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI$1;-><init>(Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;)V
 
-    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/ui/base/g$a;->b(ILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/ui/base/Gclz$a;->b(ILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 45
     const v0, 0x7f090895
@@ -87,14 +87,14 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI$2;-><init>(Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;)V
 
-    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/ui/base/g$a;->c(ILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/ui/base/Gclz$a;->c(ILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 54
     new-instance v0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI$3;
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI$3;-><init>(Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;)V
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/g$a;->c(Landroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/Gclz$a;->c(Landroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 62
     :try_start_0
@@ -134,22 +134,22 @@
     invoke-virtual {v0, v3}, Landroid/widget/ProgressBar;->setMax(I)V
 
     .line 66
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/base/g$a;->au(Landroid/view/View;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/base/Gclz$a;->au(Landroid/view/View;)Lcom/tencent/mm/ui/base/Gclz$a;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 70
     :goto_0
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/base/g$a;->aVX()Lcom/tencent/mm/ui/base/g;
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/base/Gclz$a;->aVX()Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->ccJ:Lcom/tencent/mm/ui/base/g;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->ccJ:Lcom/tencent/mm/ui/base/Gclz;
 
     .line 71
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->ccJ:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->ccJ:Lcom/tencent/mm/ui/base/Gclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->show()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->show()V
 
     .line 73
     new-instance v0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI$4;
@@ -176,7 +176,7 @@
 
     new-array v4, v4, [Ljava/lang/Object;
 
-    invoke-static {v2, v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 .end method
@@ -193,7 +193,7 @@
 
     const-string/jumbo v1, "onStart"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 133
     invoke-static {}, Lcom/tencent/mm/pluginsdk/downloader/b;->aHO()Lcom/tencent/mm/pluginsdk/downloader/b;
@@ -236,11 +236,11 @@
     .line 134
     :cond_1
     :goto_0
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->cfG:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->cfG:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     if-nez v0, :cond_2
 
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     new-instance v1, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI$5;
 
@@ -248,16 +248,16 @@
 
     const/4 v2, 0x1
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->cfG:Lcom/tencent/mm/sdk/platformtools/ag;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->cfG:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     :cond_2
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->cfG:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->cfG:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     const-wide/16 v1, 0x190
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     .line 135
     return-void
@@ -283,16 +283,16 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMBaseActivity;->onStop()V
 
     .line 155
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->ccJ:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->ccJ:Lcom/tencent/mm/ui/base/Gclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->dismiss()V
 
     .line 156
     const-string/jumbo v0, "!44@/B4Tb64lLpJ4RAx5Vc4Ilfekj5Ps3ABrS1gn2P55iIs="
 
     const-string/jumbo v1, "onStop"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 157
     invoke-static {}, Lcom/tencent/mm/pluginsdk/downloader/b;->aHO()Lcom/tencent/mm/pluginsdk/downloader/b;
@@ -346,14 +346,14 @@
 
     .line 158
     :cond_2
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->cfG:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->cfG:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     if-eqz v0, :cond_3
 
     .line 159
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->cfG:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->cfG:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ag;->aOk()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOk()V
 
     .line 161
     :cond_3

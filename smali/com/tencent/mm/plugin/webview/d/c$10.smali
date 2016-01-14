@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/webview/d/c$10;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 5
 
     .prologue
@@ -51,12 +51,12 @@
     const/4 v3, 0x0
 
     .line 355
-    instance-of v0, p1, Lcom/tencent/mm/d/a/hb;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/HBclz;
 
     if-eqz v0, :cond_1
 
     .line 356
-    check-cast p1, Lcom/tencent/mm/d/a/hb;
+    check-cast p1, Lcom/tencent/mm/d/a/HBclz;
 
     .line 357
     new-instance v0, Landroid/content/Intent;
@@ -66,18 +66,18 @@
     .line 358
     const-string/jumbo v1, "resultStr"
 
-    iget-object v2, p1, Lcom/tencent/mm/d/a/hb;->aBL:Lcom/tencent/mm/d/a/hb$a;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/HBclz;->aBL:Lcom/tencent/mm/d/a/HBclz$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/a/hb$a;->aBO:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/d/a/HBclz$a;->aBO:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 359
-    iget-object v1, p1, Lcom/tencent/mm/d/a/hb;->aBM:Lcom/tencent/mm/d/a/hb$b;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/HBclz;->aBM:Lcom/tencent/mm/d/a/HBclz$b;
 
     const/4 v2, 0x2
 
-    iput v2, v1, Lcom/tencent/mm/d/a/hb$b;->ret:I
+    iput v2, v1, Lcom/tencent/mm/d/a/HBclz$b;->ret:I
 
     .line 360
     invoke-static {}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/i;->aHr()Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;
@@ -95,17 +95,17 @@
 
     .line 362
     :cond_1
-    instance-of v0, p1, Lcom/tencent/mm/d/a/it;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/ITclz;
 
     if-eqz v0, :cond_0
 
     .line 363
-    check-cast p1, Lcom/tencent/mm/d/a/it;
+    check-cast p1, Lcom/tencent/mm/d/a/ITclz;
 
     .line 364
-    iget-object v0, p1, Lcom/tencent/mm/d/a/it;->aDP:Lcom/tencent/mm/d/a/it$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/ITclz;->aDP:Lcom/tencent/mm/d/a/ITclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/it$a;->aoa:I
+    iget v0, v0, Lcom/tencent/mm/d/a/ITclz$a;->aoa:I
 
     const/4 v1, 0x1
 

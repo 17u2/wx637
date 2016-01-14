@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -67,7 +67,7 @@
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/Hclz;->set(ILjava/lang/Object;)V
 
     .line 113
-    invoke-static {v3, v3}, Lcom/tencent/mm/platformtools/m;->d(ZZ)V
+    invoke-static {v3, v3}, Lcom/tencent/mm/platformtools/Mclz;->d(ZZ)V
 
     .line 114
     iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI$2;->jXX:Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;

@@ -34,7 +34,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -64,7 +64,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -102,7 +102,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 5180
     iget-object v0, p0, Lcom/tencent/mm/ui/FitSystemWindowLayoutView;->lgS:Landroid/view/ViewGroup;
@@ -149,7 +149,7 @@
 
     aput-object v7, v6, v9
 
-    invoke-static {v1, v2, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     move v2, v3
 
@@ -176,7 +176,7 @@
 
     move-result-object v6
 
-    invoke-static {v6, v12}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v6, v12}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v6
 
@@ -205,7 +205,7 @@
 
     aput-object v8, v7, v3
 
-    invoke-static {v2, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     iput v3, v1, Lcom/tencent/mm/ui/tools/TestTimeForChatting;->kFz:I
 
@@ -216,7 +216,7 @@
 
     move-result-object v6
 
-    invoke-static {v6, v12}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v6, v12}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v6
 
@@ -245,7 +245,7 @@
 
     aput-object v8, v7, v3
 
-    invoke-static {v2, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     iput v3, v1, Lcom/tencent/mm/ui/tools/TestTimeForChatting;->lgZ:I
 
@@ -268,7 +268,7 @@
 
     aput-object v4, v6, v9
 
-    invoke-static {v1, v2, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     :cond_2
     iget v1, v0, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
@@ -279,7 +279,7 @@
 
     iget v0, v0, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
 
-    invoke-static {v1, v2, v4, v0}, Lcom/tencent/mm/ui/u;->p(IIII)V
+    invoke-static {v1, v2, v4, v0}, Lcom/tencent/mm/ui/Uclz;->p(IIII)V
 
     .line 5183
     :cond_3
@@ -290,7 +290,7 @@
     .line 5187
     const/16 v0, 0xe
 
-    invoke-static {v0}, Lcom/tencent/mm/compatible/util/c;->bV(I)Z
+    invoke-static {v0}, Lcom/tencent/mm/compatible/util/Cclz;->bV(I)Z
 
     move-result v0
 
@@ -353,7 +353,7 @@
 
     aput-object v0, v4, v9
 
-    invoke-static {v1, v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 5203
     iget-object v0, p0, Lcom/tencent/mm/ui/FitSystemWindowLayoutView;->fom:Landroid/graphics/Rect;
@@ -375,7 +375,7 @@
 
     aput-object v5, v4, v3
 
-    invoke-static {v1, v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 5207
     return v0

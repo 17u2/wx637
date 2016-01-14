@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -109,7 +109,7 @@
 
     aput-object v1, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 660
     :cond_1
@@ -122,7 +122,7 @@
 
     const-string/jumbo v2, "willen onSceneEnd err:resp == null"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -134,7 +134,7 @@
 
     const-string/jumbo v2, "handleGetBizChatInfoSceneEnd"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz v7, :cond_4
 
@@ -149,7 +149,7 @@
 
     const-string/jumbo v2, "fullBizChats is empty"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v3, 0x0
 
@@ -186,7 +186,7 @@
 
     aput-object v6, v4, v5
 
-    invoke-static {v1, v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 652
     if-eqz v3, :cond_1
@@ -198,7 +198,7 @@
 
     invoke-direct {v1, v0}, Lcom/tencent/mm/ui/conversation/BizChatFavUI$9$1;-><init>(Lcom/tencent/mm/ui/conversation/BizChatFavUI$9;)V
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
 
     goto :goto_0
 
@@ -214,17 +214,17 @@
 
     move-result-object v1
 
-    iget-object v2, v1, Lcom/tencent/mm/s/Eclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v2, v1, Lcom/tencent/mm/s/Eclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     const-wide/16 v3, 0x0
 
-    instance-of v1, v2, Lcom/tencent/mm/aw/g;
+    instance-of v1, v2, Lcom/tencent/mm/aw/Gclz;
 
     if-eqz v1, :cond_19
 
     move-object v1, v2
 
-    check-cast v1, Lcom/tencent/mm/aw/g;
+    check-cast v1, Lcom/tencent/mm/aw/Gclz;
 
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
@@ -234,7 +234,7 @@
 
     move-result-wide v3
 
-    invoke-virtual {v1, v3, v4}, Lcom/tencent/mm/aw/g;->du(J)J
+    invoke-virtual {v1, v3, v4}, Lcom/tencent/mm/aw/Gclz;->du(J)J
 
     move-result-wide v3
 
@@ -268,7 +268,7 @@
 
     const-string/jumbo v2, "bizChat == null"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_8
     :goto_3
@@ -282,15 +282,15 @@
 
     move-result-object v1
 
-    iget-object v2, v1, Lcom/tencent/mm/s/Jclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v2, v1, Lcom/tencent/mm/s/Jclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
-    instance-of v1, v2, Lcom/tencent/mm/aw/g;
+    instance-of v1, v2, Lcom/tencent/mm/aw/Gclz;
 
     if-eqz v1, :cond_9
 
     move-object v1, v2
 
-    check-cast v1, Lcom/tencent/mm/aw/g;
+    check-cast v1, Lcom/tencent/mm/aw/Gclz;
 
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
@@ -300,7 +300,7 @@
 
     move-result-wide v4
 
-    invoke-virtual {v1, v4, v5}, Lcom/tencent/mm/aw/g;->du(J)J
+    invoke-virtual {v1, v4, v5}, Lcom/tencent/mm/aw/Gclz;->du(J)J
 
     move-result-wide v4
 
@@ -386,7 +386,7 @@
 
     const-string/jumbo v12, "bizChatInfo == null"
 
-    invoke-static {v7, v12}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v7, v12}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v7, Lcom/tencent/mm/s/Dclz;
 
@@ -407,7 +407,7 @@
 
     const-string/jumbo v2, "members==null"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_3
 
@@ -469,7 +469,7 @@
 
     const-string/jumbo v12, "updateBrandUserConvName bizChatInfo is null"
 
-    invoke-static {v3, v12}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v12}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_f
     :goto_5
@@ -561,7 +561,7 @@
 
     const-string/jumbo v12, "updateBrandUserConvName cvs is null"
 
-    invoke-static {v3, v12}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v12}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_5
 
@@ -600,15 +600,15 @@
 
     if-eqz v13, :cond_f
 
-    iget-wide v14, v12, Lcom/tencent/mm/d/b/ba;->field_msgId:J
+    iget-wide v14, v12, Lcom/tencent/mm/d/b/BAclz;->field_msgId:J
 
-    iget-wide v12, v13, Lcom/tencent/mm/d/b/ba;->field_msgId:J
+    iget-wide v12, v13, Lcom/tencent/mm/d/b/BAclz;->field_msgId:J
 
     cmp-long v12, v14, v12
 
     if-nez v12, :cond_f
 
-    iget-object v12, v3, Lcom/tencent/mm/d/b/s;->field_digest:Ljava/lang/String;
+    iget-object v12, v3, Lcom/tencent/mm/d/b/Sclz;->field_digest:Ljava/lang/String;
 
     if-eqz v12, :cond_f
 
@@ -678,7 +678,7 @@
 
     move-result-object v12
 
-    iget-object v13, v3, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v13, v3, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     const/4 v14, 0x1
 
@@ -689,7 +689,7 @@
     :cond_12
     const-string/jumbo v3, ";"
 
-    invoke-static {v12, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v12, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -707,7 +707,7 @@
     const/4 v3, 0x1
 
     :cond_13
-    instance-of v6, v2, Lcom/tencent/mm/aw/g;
+    instance-of v6, v2, Lcom/tencent/mm/aw/Gclz;
 
     if-eqz v6, :cond_14
 
@@ -715,9 +715,9 @@
 
     move-result-object v6
 
-    iget-object v6, v6, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v6, v6, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/Gclz;
 
-    invoke-virtual {v6, v4, v5}, Lcom/tencent/mm/aw/g;->dv(J)I
+    invoke-virtual {v6, v4, v5}, Lcom/tencent/mm/aw/Gclz;->dv(J)I
 
     :cond_14
     iget-object v1, v1, Lcom/tencent/mm/protocal/b/NQclz;->ipy:Ljava/util/LinkedList;
@@ -793,7 +793,7 @@
     goto/16 :goto_4
 
     :cond_18
-    instance-of v1, v2, Lcom/tencent/mm/aw/g;
+    instance-of v1, v2, Lcom/tencent/mm/aw/Gclz;
 
     if-eqz v1, :cond_5
 
@@ -801,9 +801,9 @@
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/g;
+    iget-object v1, v1, Lcom/tencent/mm/model/Cclz;->bsp:Lcom/tencent/mm/aw/Gclz;
 
-    invoke-virtual {v1, v4, v5}, Lcom/tencent/mm/aw/g;->dv(J)I
+    invoke-virtual {v1, v4, v5}, Lcom/tencent/mm/aw/Gclz;->dv(J)I
 
     goto/16 :goto_1
 

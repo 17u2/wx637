@@ -4,13 +4,13 @@
 
 
 # annotations
-.annotation runtime Lcom/tencent/mm/ui/base/a;
+.annotation runtime Lcom/tencent/mm/ui/base/Aclz;
     value = 0x13
 .end annotation
 
 
 # instance fields
-.field private jtJ:Lcom/tencent/mm/ui/base/o;
+.field private jtJ:Lcom/tencent/mm/ui/base/Oclz;
 
 .field private startTime:J
 
@@ -32,7 +32,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -82,7 +82,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 60
     if-eqz v0, :cond_0
@@ -95,12 +95,12 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/DataTransferUI;)Lcom/tencent/mm/ui/base/o;
+.method static synthetic a(Lcom/tencent/mm/ui/DataTransferUI;)Lcom/tencent/mm/ui/base/Oclz;
     .locals 1
 
     .prologue
     .line 15
-    iget-object v0, p0, Lcom/tencent/mm/ui/DataTransferUI;->jtJ:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/ui/DataTransferUI;->jtJ:Lcom/tencent/mm/ui/base/Oclz;
 
     return-object v0
 .end method
@@ -137,7 +137,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 31
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -159,11 +159,11 @@
 
     const/4 v1, 0x0
 
-    invoke-static {p0, v0, v4, v1}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {p0, v0, v4, v1}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/DataTransferUI;->jtJ:Lcom/tencent/mm/ui/base/o;
+    iput-object v0, p0, Lcom/tencent/mm/ui/DataTransferUI;->jtJ:Lcom/tencent/mm/ui/base/Oclz;
 
     .line 34
     new-instance v0, Lcom/tencent/mm/ui/DataTransferUI$1;
@@ -173,7 +173,7 @@
     .line 45
     const-wide/32 v1, 0xea60
 
-    invoke-virtual {v0, v4, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessageDelayed(IJ)Z
+    invoke-virtual {v0, v4, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessageDelayed(IJ)Z
 
     .line 47
     invoke-virtual {p0}, Lcom/tencent/mm/ui/DataTransferUI;->getIntent()Landroid/content/Intent;
@@ -198,25 +198,25 @@
 
     const-string/jumbo v1, "onDestroy"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 76
-    iget-object v0, p0, Lcom/tencent/mm/ui/DataTransferUI;->jtJ:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/ui/DataTransferUI;->jtJ:Lcom/tencent/mm/ui/base/Oclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/DataTransferUI;->jtJ:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/ui/DataTransferUI;->jtJ:Lcom/tencent/mm/ui/base/Oclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/o;->isShowing()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Oclz;->isShowing()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 77
-    iget-object v0, p0, Lcom/tencent/mm/ui/DataTransferUI;->jtJ:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/ui/DataTransferUI;->jtJ:Lcom/tencent/mm/ui/base/Oclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/o;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Oclz;->dismiss()V
 
     .line 79
     :cond_0
@@ -248,7 +248,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 53
     invoke-direct {p0, p1}, Lcom/tencent/mm/ui/DataTransferUI;->H(Landroid/content/Intent;)V
@@ -286,7 +286,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 68
     invoke-super {p0}, Lcom/tencent/mm/ui/MMBaseActivity;->onPause()V

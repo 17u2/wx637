@@ -40,7 +40,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -59,7 +59,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -265,13 +265,13 @@
 
     const-string/jumbo v1, "vals is null, use \'\' as value"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string/jumbo v0, ""
 
     .line 208
     :goto_0
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOw()Z
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOw()Z
 
     move-result v1
 
@@ -365,13 +365,13 @@
 
     const-string/jumbo v2, "vals is null, use \'\' as value"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string/jumbo v0, ""
 
     .line 187
     :goto_0
-    invoke-static {}, Lcom/tencent/mm/sdk/b/b;->aNJ()Z
+    invoke-static {}, Lcom/tencent/mm/sdk/b/Bclz;->aNJ()Z
 
     move-result v2
 
@@ -412,11 +412,11 @@
 
     aput-object v0, v4, v1
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 190
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOw()Z
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOw()Z
 
     move-result v1
 
@@ -491,7 +491,7 @@
 
     .prologue
     .line 333
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOw()Z
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOw()Z
 
     move-result v0
 
@@ -594,7 +594,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 234
     :goto_0
@@ -602,7 +602,7 @@
 
     .line 228
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOw()Z
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOw()Z
 
     move-result v0
 
@@ -637,7 +637,7 @@
 
     .prologue
     .line 154
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOw()Z
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOw()Z
 
     move-result v0
 
@@ -708,7 +708,7 @@
 
     const-string/jumbo v1, "report idkeyGroupStat info == null return"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 263
     :goto_0
@@ -786,13 +786,13 @@
 
     aput-object v0, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
     .line 257
     :cond_3
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOw()Z
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOw()Z
 
     move-result v0
 

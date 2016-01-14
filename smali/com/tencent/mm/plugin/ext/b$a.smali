@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/ext/b$a;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -22,14 +22,14 @@
     .line 236
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     .line 237
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -37,7 +37,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 9
 
     .prologue
@@ -48,7 +48,7 @@
     const/4 v2, 0x0
 
     .line 241
-    instance-of v0, p1, Lcom/tencent/mm/d/a/cn;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/CNclz;
 
     if-nez v0, :cond_0
 
@@ -57,7 +57,7 @@
 
     const-string/jumbo v1, "mismatched event"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v6
 
@@ -67,10 +67,10 @@
 
     .line 245
     :cond_0
-    check-cast p1, Lcom/tencent/mm/d/a/cn;
+    check-cast p1, Lcom/tencent/mm/d/a/CNclz;
 
     .line 246
-    iget-object v0, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
     if-nez v0, :cond_1
 
@@ -79,7 +79,7 @@
 
     const-string/jumbo v1, "revent.data is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v6
 
@@ -88,17 +88,17 @@
 
     .line 250
     :cond_1
-    iget-object v0, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/cn$a;->avc:I
+    iget v0, v0, Lcom/tencent/mm/d/a/CNclz$a;->avc:I
 
     const/16 v1, 0x9
 
     if-eq v0, v1, :cond_2
 
-    iget-object v0, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/cn$a;->avc:I
+    iget v0, v0, Lcom/tencent/mm/d/a/CNclz$a;->avc:I
 
     const/16 v1, 0xd
 
@@ -108,30 +108,30 @@
     :cond_2
     new-instance v0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/cn$a;->arE:[Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/CNclz$a;->arE:[Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget v3, v3, Lcom/tencent/mm/d/a/cn$a;->avc:I
+    iget v3, v3, Lcom/tencent/mm/d/a/CNclz$a;->avc:I
 
-    iget-object v4, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v4, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/cn$a;->context:Landroid/content/Context;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/CNclz$a;->context:Landroid/content/Context;
 
     invoke-direct {v0, v1, v3, v4}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;-><init>([Ljava/lang/String;ILandroid/content/Context;)V
 
     .line 252
-    iget-object v6, p1, Lcom/tencent/mm/d/a/cn;->avA:Lcom/tencent/mm/d/a/cn$b;
+    iget-object v6, p1, Lcom/tencent/mm/d/a/CNclz;->avA:Lcom/tencent/mm/d/a/CNclz$b;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/cn$a;->uri:Landroid/net/Uri;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/CNclz$a;->uri:Landroid/net/Uri;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget-object v4, v3, Lcom/tencent/mm/d/a/cn$a;->selectionArgs:[Ljava/lang/String;
+    iget-object v4, v3, Lcom/tencent/mm/d/a/CNclz$a;->selectionArgs:[Ljava/lang/String;
 
     move-object v3, v2
 
@@ -141,7 +141,7 @@
 
     move-result-object v0
 
-    iput-object v0, v6, Lcom/tencent/mm/d/a/cn$b;->avd:Landroid/database/Cursor;
+    iput-object v0, v6, Lcom/tencent/mm/d/a/CNclz$b;->avd:Landroid/database/Cursor;
 
     :cond_3
     :goto_1
@@ -152,9 +152,9 @@
 
     .line 254
     :cond_4
-    iget-object v0, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/cn$a;->avc:I
+    iget v0, v0, Lcom/tencent/mm/d/a/CNclz$a;->avc:I
 
     const/4 v1, 0x3
 
@@ -163,30 +163,30 @@
     .line 255
     new-instance v0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderEntry;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/cn$a;->arE:[Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/CNclz$a;->arE:[Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget v3, v3, Lcom/tencent/mm/d/a/cn$a;->avc:I
+    iget v3, v3, Lcom/tencent/mm/d/a/CNclz$a;->avc:I
 
-    iget-object v4, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v4, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/cn$a;->context:Landroid/content/Context;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/CNclz$a;->context:Landroid/content/Context;
 
     invoke-direct {v0, v1, v3, v4}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderEntry;-><init>([Ljava/lang/String;ILandroid/content/Context;)V
 
     .line 256
-    iget-object v6, p1, Lcom/tencent/mm/d/a/cn;->avA:Lcom/tencent/mm/d/a/cn$b;
+    iget-object v6, p1, Lcom/tencent/mm/d/a/CNclz;->avA:Lcom/tencent/mm/d/a/CNclz$b;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/cn$a;->uri:Landroid/net/Uri;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/CNclz$a;->uri:Landroid/net/Uri;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget-object v4, v3, Lcom/tencent/mm/d/a/cn$a;->selectionArgs:[Ljava/lang/String;
+    iget-object v4, v3, Lcom/tencent/mm/d/a/CNclz$a;->selectionArgs:[Ljava/lang/String;
 
     move-object v3, v2
 
@@ -196,15 +196,15 @@
 
     move-result-object v0
 
-    iput-object v0, v6, Lcom/tencent/mm/d/a/cn$b;->avd:Landroid/database/Cursor;
+    iput-object v0, v6, Lcom/tencent/mm/d/a/CNclz$b;->avd:Landroid/database/Cursor;
 
     goto :goto_1
 
     .line 258
     :cond_5
-    iget-object v0, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/cn$a;->avc:I
+    iget v0, v0, Lcom/tencent/mm/d/a/CNclz$a;->avc:I
 
     const/16 v1, 0x1d
 
@@ -213,30 +213,30 @@
     .line 259
     new-instance v0, Lcom/tencent/mm/plugin/ext/voicecontrol/ExtControlProviderVoiceControl;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/cn$a;->arE:[Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/CNclz$a;->arE:[Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget v3, v3, Lcom/tencent/mm/d/a/cn$a;->avc:I
+    iget v3, v3, Lcom/tencent/mm/d/a/CNclz$a;->avc:I
 
-    iget-object v4, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v4, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/cn$a;->context:Landroid/content/Context;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/CNclz$a;->context:Landroid/content/Context;
 
     invoke-direct {v0, v1, v3, v4}, Lcom/tencent/mm/plugin/ext/voicecontrol/ExtControlProviderVoiceControl;-><init>([Ljava/lang/String;ILandroid/content/Context;)V
 
     .line 260
-    iget-object v8, p1, Lcom/tencent/mm/d/a/cn;->avA:Lcom/tencent/mm/d/a/cn$b;
+    iget-object v8, p1, Lcom/tencent/mm/d/a/CNclz;->avA:Lcom/tencent/mm/d/a/CNclz$b;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/cn$a;->uri:Landroid/net/Uri;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/CNclz$a;->uri:Landroid/net/Uri;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget-object v4, v3, Lcom/tencent/mm/d/a/cn$a;->selectionArgs:[Ljava/lang/String;
+    iget-object v4, v3, Lcom/tencent/mm/d/a/CNclz$a;->selectionArgs:[Ljava/lang/String;
 
     move-object v3, v2
 
@@ -246,10 +246,10 @@
 
     move-result-object v0
 
-    iput-object v0, v8, Lcom/tencent/mm/d/a/cn$b;->avd:Landroid/database/Cursor;
+    iput-object v0, v8, Lcom/tencent/mm/d/a/CNclz$b;->avd:Landroid/database/Cursor;
 
     .line 261
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOr()Landroid/content/SharedPreferences;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOr()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -282,30 +282,30 @@
     :cond_6
     new-instance v0, Lcom/tencent/mm/plugin/ext/openapi/provider/ExtControlProviderOpenApi;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/cn$a;->arE:[Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/CNclz$a;->arE:[Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget v3, v3, Lcom/tencent/mm/d/a/cn$a;->avc:I
+    iget v3, v3, Lcom/tencent/mm/d/a/CNclz$a;->avc:I
 
-    iget-object v4, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v4, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/cn$a;->context:Landroid/content/Context;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/CNclz$a;->context:Landroid/content/Context;
 
     invoke-direct {v0, v1, v3, v4}, Lcom/tencent/mm/plugin/ext/openapi/provider/ExtControlProviderOpenApi;-><init>([Ljava/lang/String;ILandroid/content/Context;)V
 
     .line 268
-    iget-object v6, p1, Lcom/tencent/mm/d/a/cn;->avA:Lcom/tencent/mm/d/a/cn$b;
+    iget-object v6, p1, Lcom/tencent/mm/d/a/CNclz;->avA:Lcom/tencent/mm/d/a/CNclz$b;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/cn$a;->uri:Landroid/net/Uri;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/CNclz$a;->uri:Landroid/net/Uri;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/cn;->avz:Lcom/tencent/mm/d/a/cn$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/CNclz;->avz:Lcom/tencent/mm/d/a/CNclz$a;
 
-    iget-object v4, v3, Lcom/tencent/mm/d/a/cn$a;->selectionArgs:[Ljava/lang/String;
+    iget-object v4, v3, Lcom/tencent/mm/d/a/CNclz$a;->selectionArgs:[Ljava/lang/String;
 
     move-object v3, v2
 
@@ -315,7 +315,7 @@
 
     move-result-object v0
 
-    iput-object v0, v6, Lcom/tencent/mm/d/a/cn$b;->avd:Landroid/database/Cursor;
+    iput-object v0, v6, Lcom/tencent/mm/d/a/CNclz$b;->avd:Landroid/database/Cursor;
 
     goto/16 :goto_1
 .end method

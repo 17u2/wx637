@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,7 +52,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -75,7 +75,7 @@
 
     const-string/jumbo v1, "Silk Thread start run"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 244
     :goto_0
@@ -133,7 +133,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 250
     if-eqz v4, :cond_0
@@ -167,7 +167,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/c/b/g$a;
+    check-cast v0, Lcom/tencent/mm/c/b/Gclz$a;
     :try_end_1
     .catch Ljava/lang/InterruptedException; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -197,7 +197,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -220,7 +220,7 @@
 
     const-string/jumbo v1, "ThreadAmr poll null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -269,25 +269,25 @@
 
     move-result-object v1
 
-    invoke-static {v5, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     move v1, v3
 
     .line 273
     :goto_1
-    invoke-static {}, Lcom/tencent/mm/c/c/cclass;->mc()Lcom/tencent/mm/c/c/a$a;
+    invoke-static {}, Lcom/tencent/mm/c/c/cclass;->mc()Lcom/tencent/mm/c/c/Aclz$a;
 
     move-result-object v4
 
-    iget v4, v4, Lcom/tencent/mm/c/c/a$a;->count:I
+    iget v4, v4, Lcom/tencent/mm/c/c/Aclz$a;->count:I
 
     if-lt v4, v8, :cond_3
 
-    invoke-static {}, Lcom/tencent/mm/c/c/cclass;->mc()Lcom/tencent/mm/c/c/a$a;
+    invoke-static {}, Lcom/tencent/mm/c/c/cclass;->mc()Lcom/tencent/mm/c/c/Aclz$a;
 
     move-result-object v4
 
-    iget-wide v4, v4, Lcom/tencent/mm/c/c/a$a;->ard:J
+    iget-wide v4, v4, Lcom/tencent/mm/c/c/Aclz$a;->ard:J
 
     const-wide/16 v6, 0xf0
 
@@ -301,7 +301,7 @@
     :cond_3
     iget-object v4, p0, Lcom/tencent/mm/c/c/cclass$a;->arq:Lcom/tencent/mm/c/c/cclass;
 
-    invoke-virtual {v4, v0, v1}, Lcom/tencent/mm/c/c/cclass;->a(Lcom/tencent/mm/c/b/g$a;I)I
+    invoke-virtual {v4, v0, v1}, Lcom/tencent/mm/c/c/cclass;->a(Lcom/tencent/mm/c/b/Gclz$a;I)I
 
     goto/16 :goto_0
 

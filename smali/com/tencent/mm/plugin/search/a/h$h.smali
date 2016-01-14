@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/search/a/h$h;
-.super Lcom/tencent/mm/modelsearch/a$a;
+.super Lcom/tencent/mm/modelsearch/Aclz$a;
 .source "SourceFile"
 
 
@@ -21,7 +21,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/search/a/h;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/modelsearch/k$i;Lcom/tencent/mm/sdk/platformtools/ab;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/search/a/h;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/modelsearch/Kclz$i;Lcom/tencent/mm/sdk/platformtools/ABclz;)V
     .locals 6
 
     .prologue
@@ -41,7 +41,7 @@
 
     move-object v5, p5
 
-    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/modelsearch/a$a;-><init>(Ljava/lang/String;ILjava/util/HashSet;Lcom/tencent/mm/modelsearch/k$i;Lcom/tencent/mm/sdk/platformtools/ab;)V
+    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/modelsearch/Aclz$a;-><init>(Ljava/lang/String;ILjava/util/HashSet;Lcom/tencent/mm/modelsearch/Kclz$i;Lcom/tencent/mm/sdk/platformtools/ABclz;)V
 
     .line 238
     iput-object p3, p0, Lcom/tencent/mm/plugin/search/a/h$h;->aoH:Ljava/lang/String;
@@ -51,7 +51,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -73,7 +73,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/plugin/search/a/h;->fIp:Lcom/tencent/mm/plugin/search/a/b/c;
 
-    sget-object v2, Lcom/tencent/mm/modelsearch/c;->bQA:[I
+    sget-object v2, Lcom/tencent/mm/modelsearch/Cclz;->bQA:[I
 
     iget-object v3, p0, Lcom/tencent/mm/plugin/search/a/h$h;->aoH:Ljava/lang/String;
 
@@ -137,13 +137,13 @@
     if-eqz v4, :cond_0
 
     .line 259
-    new-instance v4, Lcom/tencent/mm/modelsearch/l$b;
+    new-instance v4, Lcom/tencent/mm/modelsearch/Lclz$b;
 
-    invoke-direct {v4}, Lcom/tencent/mm/modelsearch/l$b;-><init>()V
+    invoke-direct {v4}, Lcom/tencent/mm/modelsearch/Lclz$b;-><init>()V
 
     const/4 v5, 0x0
 
-    invoke-virtual {v4, v1, v0, v5}, Lcom/tencent/mm/modelsearch/l$b;->a(Landroid/database/Cursor;[IZ)Lcom/tencent/mm/modelsearch/l$b;
+    invoke-virtual {v4, v1, v0, v5}, Lcom/tencent/mm/modelsearch/Lclz$b;->a(Landroid/database/Cursor;[IZ)Lcom/tencent/mm/modelsearch/Lclz$b;
 
     move-result-object v4
 
@@ -226,13 +226,13 @@
 
     const/4 v2, 0x2
 
-    iget-object v3, p0, Lcom/tencent/mm/modelsearch/a$a;->aBw:Ljava/lang/String;
+    iget-object v3, p0, Lcom/tencent/mm/modelsearch/Aclz$a;->aBw:Ljava/lang/String;
 
     aput-object v3, v1, v2
 
     const/4 v2, 0x3
 
-    iget v3, p0, Lcom/tencent/mm/modelsearch/a$a;->bQo:I
+    iget v3, p0, Lcom/tencent/mm/modelsearch/Aclz$a;->bQo:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

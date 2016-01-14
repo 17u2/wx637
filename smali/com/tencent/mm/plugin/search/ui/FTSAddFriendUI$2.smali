@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic cyy:Lcom/tencent/mm/modelsimple/z;
+.field final synthetic cyy:Lcom/tencent/mm/modelsimple/Zclz;
 
 .field final synthetic fJo:Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;
 
@@ -26,14 +26,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;Lcom/tencent/mm/modelsimple/z;Lcom/tencent/mm/q/Dclz;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;Lcom/tencent/mm/modelsimple/Zclz;Lcom/tencent/mm/q/Dclz;)V
     .locals 1
 
     .prologue
     .line 163
     iput-object p1, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$2;->fJo:Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$2;->cyy:Lcom/tencent/mm/modelsimple/z;
+    iput-object p2, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$2;->cyy:Lcom/tencent/mm/modelsimple/Zclz;
 
     iput-object p3, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$2;->fJp:Lcom/tencent/mm/q/Dclz;
 
@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -60,7 +60,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$2;->cyy:Lcom/tencent/mm/modelsimple/z;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$2;->cyy:Lcom/tencent/mm/modelsimple/Zclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 

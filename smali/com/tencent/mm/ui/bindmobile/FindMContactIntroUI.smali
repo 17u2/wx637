@@ -24,7 +24,7 @@
 
 .field private jXD:Z
 
-.field private jXE:Lcom/tencent/mm/modelfriend/aa;
+.field private jXE:Lcom/tencent/mm/modelfriend/AAclz;
 
 .field private jXR:Landroid/widget/Button;
 
@@ -72,18 +72,18 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;Lcom/tencent/mm/modelfriend/aa;)Lcom/tencent/mm/modelfriend/aa;
+.method static synthetic a(Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;Lcom/tencent/mm/modelfriend/AAclz;)Lcom/tencent/mm/modelfriend/AAclz;
     .locals 0
 
     .prologue
     .line 41
-    iput-object p1, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;->jXE:Lcom/tencent/mm/modelfriend/aa;
+    iput-object p1, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;->jXE:Lcom/tencent/mm/modelfriend/AAclz;
 
     return-object p1
 .end method
@@ -183,13 +183,13 @@
 
     move-object v0, p0
 
-    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IIIILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IIIILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     :goto_0
     return-void
 
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/modelfriend/m;->yk()Z
+    invoke-static {}, Lcom/tencent/mm/modelfriend/Mclz;->yk()Z
 
     move-result v0
 
@@ -263,7 +263,7 @@
 
     move-object v0, p0
 
-    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IIIILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IIIILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     goto :goto_0
 
@@ -293,9 +293,9 @@
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 279
-    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const v1, 0x7f090ad3
 
@@ -313,14 +313,14 @@
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI$8;-><init>(Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;)V
 
-    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;->cgh:Landroid/app/ProgressDialog;
 
     .line 289
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     move-result-object v0
 
@@ -328,7 +328,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI$9;-><init>(Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ac;->a(Lcom/tencent/mm/sdk/platformtools/ac$a;)I
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ACclz;->a(Lcom/tencent/mm/sdk/platformtools/ACclz$a;)I
 
     .line 318
     return-void
@@ -457,12 +457,12 @@
     return-object v0
 .end method
 
-.method static synthetic l(Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;)Lcom/tencent/mm/modelfriend/aa;
+.method static synthetic l(Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;)Lcom/tencent/mm/modelfriend/AAclz;
     .locals 1
 
     .prologue
     .line 41
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;->jXE:Lcom/tencent/mm/modelfriend/aa;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;->jXE:Lcom/tencent/mm/modelfriend/AAclz;
 
     return-object v0
 .end method
@@ -699,11 +699,11 @@
     iput v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;->jEd:I
 
     .line 67
-    invoke-static {}, Lcom/tencent/mm/modelfriend/m;->yl()Lcom/tencent/mm/modelfriend/m$a;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/Mclz;->yl()Lcom/tencent/mm/modelfriend/Mclz$a;
 
     move-result-object v0
 
-    sget-object v3, Lcom/tencent/mm/modelfriend/m$a;->bFc:Lcom/tencent/mm/modelfriend/m$a;
+    sget-object v3, Lcom/tencent/mm/modelfriend/Mclz$a;->bFc:Lcom/tencent/mm/modelfriend/Mclz$a;
 
     if-eq v0, v3, :cond_0
 
@@ -738,7 +738,7 @@
 
     aput-object v2, v4, v1
 
-    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 71
     return-void

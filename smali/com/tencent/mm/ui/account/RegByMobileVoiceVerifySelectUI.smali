@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private cgw:Lcom/tencent/mm/ui/base/preference/f;
+.field private cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
 .field private fOC:Ljava/lang/String;
 
@@ -26,7 +26,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,7 +42,7 @@
     move-result-object v1
 
     .line 127
-    invoke-static {p0}, Lcom/tencent/mm/aa/b;->hT(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/tencent/mm/aa/Bclz;->hT(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -92,7 +92,7 @@
     const/4 v1, 0x0
 
     .line 144
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -228,9 +228,9 @@
 
     .line 105
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifySelectUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifySelectUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/ui/base/preference/f;->removeAll()V
+    invoke-interface {v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->removeAll()V
 
     .line 107
     new-instance v0, Lcom/tencent/mm/ui/base/preference/PreferenceCategory;
@@ -238,9 +238,9 @@
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/base/preference/PreferenceCategory;-><init>(Landroid/content/Context;)V
 
     .line 108
-    iget-object v1, p0, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifySelectUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v1, p0, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifySelectUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/base/preference/f;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
 
     .line 110
     iget-object v1, p0, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifySelectUI;->jEq:[Lcom/tencent/mm/ui/account/LanguagePreference$a;
@@ -285,9 +285,9 @@
     invoke-virtual {v4, v3}, Lcom/tencent/mm/ui/account/LanguagePreference;->setKey(Ljava/lang/String;)V
 
     .line 120
-    iget-object v3, p0, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifySelectUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v3, p0, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifySelectUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v3, v4}, Lcom/tencent/mm/ui/base/preference/f;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
+    invoke-interface {v3, v4}, Lcom/tencent/mm/ui/base/preference/Fclz;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
 
     .line 110
     add-int/lit8 v0, v0, 0x1
@@ -313,7 +313,7 @@
     return-void
 .end method
 
-.method public final a(Lcom/tencent/mm/ui/base/preference/f;Lcom/tencent/mm/ui/base/preference/Preference;)Z
+.method public final a(Lcom/tencent/mm/ui/base/preference/Fclz;Lcom/tencent/mm/ui/base/preference/Preference;)Z
     .locals 6
 
     .prologue
@@ -385,9 +385,9 @@
     invoke-super {p0, p1}, Lcom/tencent/mm/ui/base/preference/MMPreference;->onCreate(Landroid/os/Bundle;)V
 
     .line 40
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/preference/MMPreference;->jUG:Lcom/tencent/mm/ui/base/preference/h;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/preference/MMPreference;->jUG:Lcom/tencent/mm/ui/base/preference/Hclz;
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifySelectUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iput-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifySelectUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     .line 41
     invoke-virtual {p0}, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifySelectUI;->Fi()V

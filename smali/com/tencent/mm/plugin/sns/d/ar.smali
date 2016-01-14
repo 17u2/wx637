@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -53,7 +53,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -66,7 +66,7 @@
     const/4 v4, 0x1
 
     .line 49
-    sget-boolean v0, Lcom/tencent/mm/platformtools/r;->cfj:Z
+    sget-boolean v0, Lcom/tencent/mm/platformtools/Rclz;->cfj:Z
 
     if-eqz v0, :cond_0
 
@@ -152,7 +152,7 @@
     const/4 v5, 0x0
 
     .line 75
-    sget-boolean v0, Lcom/tencent/mm/platformtools/r;->cfj:Z
+    sget-boolean v0, Lcom/tencent/mm/platformtools/Rclz;->cfj:Z
 
     if-eqz v0, :cond_0
 
@@ -194,7 +194,7 @@
     check-cast v0, Ljava/lang/String;
 
     .line 88
-    sget-boolean v1, Lcom/tencent/mm/platformtools/r;->cfj:Z
+    sget-boolean v1, Lcom/tencent/mm/platformtools/Rclz;->cfj:Z
 
     if-eqz v1, :cond_2
 
@@ -681,7 +681,7 @@
     if-nez v0, :cond_2
 
     .line 132
-    sget-boolean v0, Lcom/tencent/mm/platformtools/r;->cfj:Z
+    sget-boolean v0, Lcom/tencent/mm/platformtools/Rclz;->cfj:Z
 
     if-eqz v0, :cond_0
 
@@ -813,7 +813,7 @@
 
     .line 160
     :cond_3
-    sget-boolean v0, Lcom/tencent/mm/platformtools/r;->cfj:Z
+    sget-boolean v0, Lcom/tencent/mm/platformtools/Rclz;->cfj:Z
 
     if-eqz v0, :cond_2
 
@@ -843,7 +843,7 @@
     if-eqz v0, :cond_1
 
     .line 171
-    sget-boolean v0, Lcom/tencent/mm/platformtools/r;->cfj:Z
+    sget-boolean v0, Lcom/tencent/mm/platformtools/Rclz;->cfj:Z
 
     if-eqz v0, :cond_0
 

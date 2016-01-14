@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,21 +48,21 @@
 
     .prologue
     .line 7531
-    new-instance v0, Lcom/tencent/mm/d/a/km;
+    new-instance v0, Lcom/tencent/mm/d/a/KMclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/km;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/KMclz;-><init>()V
 
     .line 7532
-    iget-object v1, v0, Lcom/tencent/mm/d/a/km;->aFA:Lcom/tencent/mm/d/a/km$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/KMclz;->aFA:Lcom/tencent/mm/d/a/KMclz$a;
 
     const/4 v2, 0x1
 
-    iput-boolean v2, v1, Lcom/tencent/mm/d/a/km$a;->aFC:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/d/a/KMclz$a;->aFC:Z
 
     .line 7533
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 7534
     return-void

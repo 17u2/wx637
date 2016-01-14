@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -43,12 +43,12 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/ak/f;)V
+.method public final a(Lcom/tencent/mm/ak/Fclz;)V
     .locals 6
 
     .prologue
     .line 154
-    invoke-static {}, Lcom/tencent/mm/ak/j;->Dm()Lcom/tencent/mm/ak/g;
+    invoke-static {}, Lcom/tencent/mm/ak/Jclz;->Dm()Lcom/tencent/mm/ak/Gclz;
 
     move-result-object v0
 
@@ -58,29 +58,29 @@
 
     move-result-object v1
 
-    iget v2, p1, Lcom/tencent/mm/ak/f;->field_fileNameHash:I
+    iget v2, p1, Lcom/tencent/mm/ak/Fclz;->field_fileNameHash:I
 
     new-instance v3, Lcom/tencent/mm/plugin/sight/encode/ui/ChattingSightContainerView$2$1;
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/plugin/sight/encode/ui/ChattingSightContainerView$2$1;-><init>(Lcom/tencent/mm/plugin/sight/encode/ui/ChattingSightContainerView$2;)V
 
-    new-instance v4, Lcom/tencent/mm/ak/g$d;
+    new-instance v4, Lcom/tencent/mm/ak/Gclz$d;
 
     const/4 v5, 0x0
 
-    invoke-direct {v4, v0, v5}, Lcom/tencent/mm/ak/g$d;-><init>(Lcom/tencent/mm/ak/g;B)V
+    invoke-direct {v4, v0, v5}, Lcom/tencent/mm/ak/Gclz$d;-><init>(Lcom/tencent/mm/ak/Gclz;B)V
 
-    iput-object v1, v4, Lcom/tencent/mm/ak/g$d;->aoH:Ljava/lang/String;
+    iput-object v1, v4, Lcom/tencent/mm/ak/Gclz$d;->aoH:Ljava/lang/String;
 
-    iput v2, v4, Lcom/tencent/mm/ak/g$d;->bWX:I
+    iput v2, v4, Lcom/tencent/mm/ak/Gclz$d;->bWX:I
 
-    iput-object v3, v4, Lcom/tencent/mm/ak/g$d;->bWW:Lcom/tencent/mm/ak/g$a;
+    iput-object v3, v4, Lcom/tencent/mm/ak/Gclz$d;->bWW:Lcom/tencent/mm/ak/Gclz$a;
 
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v4}, Lcom/tencent/mm/sdk/platformtools/ac;->r(Ljava/lang/Runnable;)I
+    invoke-virtual {v0, v4}, Lcom/tencent/mm/sdk/platformtools/ACclz;->r(Ljava/lang/Runnable;)I
 
     .line 168
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/ChattingSightContainerView$2;->gao:Lcom/tencent/mm/plugin/sight/encode/ui/ChattingSightContainerView;
@@ -156,11 +156,11 @@
 
     .line 195
     :goto_0
-    invoke-static {}, Lcom/tencent/mm/ak/j;->Dj()Lcom/tencent/mm/ak/h;
+    invoke-static {}, Lcom/tencent/mm/ak/Jclz;->Dj()Lcom/tencent/mm/ak/Hclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ak/h;->Dd()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ak/Hclz;->Dd()V
 
     .line 196
     return-void

@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -58,7 +58,7 @@
     :goto_0
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ChatroomContactUI$13;->krl:Lcom/tencent/mm/ui/contact/ChatroomContactUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->f(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/ui/contact/d;
+    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->f(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/ui/contact/Dclz;
 
     move-result-object v0
 
@@ -67,23 +67,23 @@
     .line 408
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ChatroomContactUI$13;->krl:Lcom/tencent/mm/ui/contact/ChatroomContactUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->f(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/ui/contact/d;
+    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->f(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/ui/contact/Dclz;
 
     move-result-object v0
 
-    iget-object v1, v0, Lcom/tencent/mm/ui/contact/d;->bEO:Lcom/tencent/mm/ui/applet/b;
+    iget-object v1, v0, Lcom/tencent/mm/ui/contact/Dclz;->bEO:Lcom/tencent/mm/ui/applet/Bclz;
 
     if-eqz v1, :cond_0
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/contact/d;->bEO:Lcom/tencent/mm/ui/applet/b;
+    iget-object v0, v0, Lcom/tencent/mm/ui/contact/Dclz;->bEO:Lcom/tencent/mm/ui/applet/Bclz;
 
-    invoke-virtual {v0, p2}, Lcom/tencent/mm/ui/applet/b;->onTouchEvent(Landroid/view/MotionEvent;)V
+    invoke-virtual {v0, p2}, Lcom/tencent/mm/ui/applet/Bclz;->onTouchEvent(Landroid/view/MotionEvent;)V
 
     .line 411
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ChatroomContactUI$13;->krl:Lcom/tencent/mm/ui/contact/ChatroomContactUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->d(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/ui/voicesearch/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->d(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/ui/voicesearch/Bclz;
 
     move-result-object v0
 
@@ -92,17 +92,17 @@
     .line 412
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ChatroomContactUI$13;->krl:Lcom/tencent/mm/ui/contact/ChatroomContactUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->d(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/ui/voicesearch/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->d(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/ui/voicesearch/Bclz;
 
     move-result-object v0
 
-    iget-object v1, v0, Lcom/tencent/mm/ui/voicesearch/b;->bEO:Lcom/tencent/mm/ui/applet/b;
+    iget-object v1, v0, Lcom/tencent/mm/ui/voicesearch/Bclz;->bEO:Lcom/tencent/mm/ui/applet/Bclz;
 
     if-eqz v1, :cond_1
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/voicesearch/b;->bEO:Lcom/tencent/mm/ui/applet/b;
+    iget-object v0, v0, Lcom/tencent/mm/ui/voicesearch/Bclz;->bEO:Lcom/tencent/mm/ui/applet/Bclz;
 
-    invoke-virtual {v0, p2}, Lcom/tencent/mm/ui/applet/b;->onTouchEvent(Landroid/view/MotionEvent;)V
+    invoke-virtual {v0, p2}, Lcom/tencent/mm/ui/applet/Bclz;->onTouchEvent(Landroid/view/MotionEvent;)V
 
     .line 414
     :cond_1

@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -54,7 +54,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->pa()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->pa()Ljava/lang/String;
 
     move-result-object v2
 
@@ -72,7 +72,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 182
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c$1;->fXo:Lcom/tencent/mm/plugin/sight/decode/ui/c;
@@ -120,7 +120,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 188
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c$1;->fXo:Lcom/tencent/mm/plugin/sight/decode/ui/c;
@@ -178,7 +178,7 @@
 
     const-string/jumbo v2, ""
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -201,7 +201,7 @@
 
     const-string/jumbo v1, "FullScreenPlaySight"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/b/b;->n(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/b/Bclz;->n(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 194
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c$1;->fXo:Lcom/tencent/mm/plugin/sight/decode/ui/c;
@@ -211,7 +211,7 @@
     move-result-object v0
 
     .line 195
-    invoke-static {}, Lcom/tencent/mm/z/n;->zW()Lcom/tencent/mm/z/f;
+    invoke-static {}, Lcom/tencent/mm/z/Nclz;->zW()Lcom/tencent/mm/z/Fclz;
 
     move-result-object v1
 
@@ -221,7 +221,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/at/a;->getDensity(Landroid/content/Context;)F
+    invoke-static {v2}, Lcom/tencent/mm/at/Aclz;->getDensity(Landroid/content/Context;)F
 
     move-result v2
 
@@ -233,7 +233,7 @@
 
     const/4 v4, -0x1
 
-    invoke-virtual {v1, v0, v2, v3, v4}, Lcom/tencent/mm/z/f;->a(Ljava/lang/String;FLandroid/content/Context;I)Landroid/graphics/Bitmap;
+    invoke-virtual {v1, v0, v2, v3, v4}, Lcom/tencent/mm/z/Fclz;->a(Ljava/lang/String;FLandroid/content/Context;I)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -242,7 +242,7 @@
 
     invoke-direct {v2, p0, v1, v0}, Lcom/tencent/mm/plugin/sight/decode/ui/c$1$1;-><init>(Lcom/tencent/mm/plugin/sight/decode/ui/c$1;Landroid/graphics/Bitmap;Ljava/lang/String;)V
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
 
     .line 219
     return-void
@@ -267,7 +267,7 @@
 
     const-string/jumbo v1, "on completion"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 225
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c$1;->fXo:Lcom/tencent/mm/plugin/sight/decode/ui/c;

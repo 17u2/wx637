@@ -27,7 +27,7 @@
     iput-object p1, p0, Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI$c;->jIg:Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI;
 
     .line 809
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/ab;->fetchFreeHandler()Landroid/os/Handler;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/ABclz;->fetchFreeHandler()Landroid/os/Handler;
 
     move-result-object v0
 
@@ -38,7 +38,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

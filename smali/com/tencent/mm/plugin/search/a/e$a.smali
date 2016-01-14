@@ -50,13 +50,13 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method constructor <init>(Lcom/tencent/mm/modelfriend/b;)V
+.method constructor <init>(Lcom/tencent/mm/modelfriend/Bclz;)V
     .locals 2
 
     .prologue
@@ -64,11 +64,11 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2225
-    invoke-virtual {p1}, Lcom/tencent/mm/modelfriend/b;->xQ()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/modelfriend/Bclz;->xQ()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/modelfriend/b;->ha(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/tencent/mm/modelfriend/Bclz;->ha(Ljava/lang/String;)I
 
     move-result v0
 
@@ -77,68 +77,68 @@
     iput-wide v0, p0, Lcom/tencent/mm/plugin/search/a/e$a;->id:J
 
     .line 2227
-    invoke-virtual {p1}, Lcom/tencent/mm/modelfriend/b;->xS()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/modelfriend/Bclz;->xS()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$a;->bEd:Ljava/lang/String;
 
     .line 2228
-    invoke-virtual {p1}, Lcom/tencent/mm/modelfriend/b;->xU()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/modelfriend/Bclz;->xU()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$a;->fHk:Ljava/lang/String;
 
     .line 2229
-    invoke-virtual {p1}, Lcom/tencent/mm/modelfriend/b;->xT()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/modelfriend/Bclz;->xT()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$a;->fHl:Ljava/lang/String;
 
     .line 2231
-    invoke-virtual {p1}, Lcom/tencent/mm/modelfriend/b;->xV()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/modelfriend/Bclz;->xV()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$a;->aje:Ljava/lang/String;
 
     .line 2232
-    invoke-virtual {p1}, Lcom/tencent/mm/modelfriend/b;->xX()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/modelfriend/Bclz;->xX()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$a;->fHm:Ljava/lang/String;
 
     .line 2233
-    invoke-virtual {p1}, Lcom/tencent/mm/modelfriend/b;->xW()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/modelfriend/Bclz;->xW()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$a;->fHn:Ljava/lang/String;
 
     .line 2235
-    invoke-virtual {p1}, Lcom/tencent/mm/modelfriend/b;->getUsername()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/modelfriend/Bclz;->getUsername()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$a;->ajd:Ljava/lang/String;
 
     .line 2236
-    invoke-virtual {p1}, Lcom/tencent/mm/modelfriend/b;->xY()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/tencent/mm/modelfriend/Bclz;->xY()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$a;->azA:Ljava/lang/String;
 
     .line 2237
-    iget v0, p1, Lcom/tencent/mm/modelfriend/b;->type:I
+    iget v0, p1, Lcom/tencent/mm/modelfriend/Bclz;->type:I
 
     iput v0, p0, Lcom/tencent/mm/plugin/search/a/e$a;->type:I
 
     .line 2238
-    iget v0, p1, Lcom/tencent/mm/modelfriend/b;->status:I
+    iget v0, p1, Lcom/tencent/mm/modelfriend/Bclz;->status:I
 
     iput v0, p0, Lcom/tencent/mm/plugin/search/a/e$a;->status:I
 
@@ -147,7 +147,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

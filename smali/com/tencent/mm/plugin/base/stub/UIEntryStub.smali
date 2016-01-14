@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/tencent/mm/ui/base/a;
+.annotation runtime Lcom/tencent/mm/ui/base/Aclz;
     value = 0x7
 .end annotation
 
@@ -29,7 +29,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -100,7 +100,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/g;->aS(Ljava/lang/String;)Z
 
@@ -163,7 +163,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     packed-switch v1, :pswitch_data_0
 
@@ -228,7 +228,7 @@
 
     const-string/jumbo v2, ".ui.tools.OAuthUI"
 
-    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     goto :goto_0
 
@@ -237,16 +237,16 @@
 
     const-string/jumbo v1, "not logged in, ignore"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     :pswitch_1
-    new-instance v1, Lcom/tencent/mm/sdk/modelmsg/c$a;
+    new-instance v1, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;
 
-    invoke-direct {v1, p1}, Lcom/tencent/mm/sdk/modelmsg/c$a;-><init>(Landroid/os/Bundle;)V
+    invoke-direct {v1, p1}, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;-><init>(Landroid/os/Bundle;)V
 
-    iget v2, v1, Lcom/tencent/mm/sdk/modelmsg/c$a;->arG:I
+    iget v2, v1, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;->arG:I
 
     if-ne v2, v7, :cond_3
 
@@ -254,9 +254,9 @@
 
     const-string/jumbo v3, "sendMessageToWx, req.scene = send to timeline"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v2, v1, Lcom/tencent/mm/sdk/modelmsg/c$a;->jeU:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
+    iget-object v2, v1, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;->jeU:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
 
     invoke-virtual {v2}, Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;->getType()I
 
@@ -270,7 +270,7 @@
 
     const-string/jumbo v1, "sendMessageToWx fail, emoji does not support WXSceneTimeline"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/base/stub/UIEntryStub;->getIntent()Landroid/content/Intent;
 
@@ -296,11 +296,11 @@
     :cond_2
     new-instance v2, Lcom/tencent/mm/plugin/base/stub/c;
 
-    iget-object v3, v1, Lcom/tencent/mm/sdk/modelmsg/c$a;->csq:Ljava/lang/String;
+    iget-object v3, v1, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;->csq:Ljava/lang/String;
 
     new-instance v4, Lcom/tencent/mm/plugin/base/stub/UIEntryStub$2;
 
-    invoke-direct {v4, p0, p1, v1}, Lcom/tencent/mm/plugin/base/stub/UIEntryStub$2;-><init>(Lcom/tencent/mm/plugin/base/stub/UIEntryStub;Landroid/os/Bundle;Lcom/tencent/mm/sdk/modelmsg/c$a;)V
+    invoke-direct {v4, p0, p1, v1}, Lcom/tencent/mm/plugin/base/stub/UIEntryStub$2;-><init>(Lcom/tencent/mm/plugin/base/stub/UIEntryStub;Landroid/os/Bundle;Lcom/tencent/mm/sdk/modelmsg/Cclz$a;)V
 
     invoke-direct {v2, p0, v0, v3, v4}, Lcom/tencent/mm/plugin/base/stub/c;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/plugin/base/stub/c$a;)V
 
@@ -339,7 +339,7 @@
 
     const-string/jumbo v5, "SendAppMessageWrapper_Scene"
 
-    iget v6, v1, Lcom/tencent/mm/sdk/modelmsg/c$a;->arG:I
+    iget v6, v1, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;->arG:I
 
     invoke-virtual {v4, v5, v6}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
@@ -359,7 +359,7 @@
 
     const-string/jumbo v0, "Select_Open_Id"
 
-    iget-object v1, v1, Lcom/tencent/mm/sdk/modelmsg/c$a;->csq:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/sdk/modelmsg/Cclz$a;->csq:Ljava/lang/String;
 
     invoke-virtual {v3, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -390,7 +390,7 @@
 
     const-string/jumbo v1, "not logged in, ignore"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -407,7 +407,7 @@
 
     if-nez v0, :cond_5
 
-    invoke-static {p1}, Lcom/tencent/mm/ui/chatting/eb;->H(Landroid/os/Bundle;)V
+    invoke-static {p1}, Lcom/tencent/mm/ui/chatting/EBclz;->H(Landroid/os/Bundle;)V
 
     goto/16 :goto_0
 
@@ -416,7 +416,7 @@
 
     const-string/jumbo v1, "not logged in, ignore"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -433,7 +433,7 @@
 
     if-nez v0, :cond_6
 
-    invoke-static {p1}, Lcom/tencent/mm/ui/chatting/ec;->H(Landroid/os/Bundle;)V
+    invoke-static {p1}, Lcom/tencent/mm/ui/chatting/ECclz;->H(Landroid/os/Bundle;)V
 
     goto/16 :goto_0
 
@@ -442,7 +442,7 @@
 
     const-string/jumbo v1, "not logged in, ignore"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 

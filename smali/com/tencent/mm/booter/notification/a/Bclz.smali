@@ -24,7 +24,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -153,11 +153,11 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     if-eqz p3, :cond_1
 
-    sget-object v1, Lcom/tencent/mm/sdk/platformtools/bc;->cfw:[J
+    sget-object v1, Lcom/tencent/mm/sdk/platformtools/BCclz;->cfw:[J
 
     iput-object v1, p4, Landroid/app/Notification;->vibrate:[J
 
@@ -198,7 +198,7 @@
 
     aput-object v1, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     :cond_2
     :goto_0
@@ -234,7 +234,7 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     iput v0, p0, Lcom/tencent/mm/booter/notification/a/Bclz;->bhH:I
 
@@ -248,7 +248,7 @@
     :cond_3
     if-eqz v1, :cond_4
 
-    sget-object v0, Lcom/tencent/mm/ui/d$c;->bnX:Ljava/lang/String;
+    sget-object v0, Lcom/tencent/mm/ui/Dclz$c;->bnX:Ljava/lang/String;
 
     if-eq v1, v0, :cond_4
 
@@ -315,7 +315,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     const/4 v1, 0x0
 
@@ -361,12 +361,12 @@
 
     if-eqz v4, :cond_7
 
-    sget-object v1, Lcom/tencent/mm/ui/d$c;->bnX:Ljava/lang/String;
+    sget-object v1, Lcom/tencent/mm/ui/Dclz$c;->bnX:Ljava/lang/String;
 
     :cond_7
-    sget-object v4, Lcom/tencent/mm/compatible/d/p;->bml:Lcom/tencent/mm/compatible/d/j;
+    sget-object v4, Lcom/tencent/mm/compatible/d/Pclz;->bml:Lcom/tencent/mm/compatible/d/Jclz;
 
-    iget v4, v4, Lcom/tencent/mm/compatible/d/j;->blp:I
+    iget v4, v4, Lcom/tencent/mm/compatible/d/Jclz;->blp:I
 
     const/4 v5, 0x2
 
@@ -392,7 +392,7 @@
 
     const/4 v0, 0x1
 
-    invoke-static {p1, v0}, Lcom/tencent/mm/sdk/platformtools/bc;->j(Landroid/content/Context;Z)V
+    invoke-static {p1, v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->j(Landroid/content/Context;Z)V
 
     const/4 v0, 0x1
 
@@ -510,7 +510,7 @@
 
     aput-object v0, v7, v1
 
-    invoke-static {v2, v4, v7}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v4, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     iget v0, p0, Lcom/tencent/mm/booter/notification/a/Bclz;->bhH:I
 

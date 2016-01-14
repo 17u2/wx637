@@ -73,7 +73,7 @@
     iput-boolean v1, p0, Lcom/tencent/mm/plugin/sns/ui/n;->avM:Z
 
     .line 55
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->aPo()Landroid/view/View$OnTouchListener;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aPo()Landroid/view/View$OnTouchListener;
 
     move-result-object v0
 
@@ -103,7 +103,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -381,7 +381,7 @@
 
     move-result v2
 
-    invoke-static {p1}, Lcom/tencent/mm/ui/s;->cK(Landroid/content/Context;)F
+    invoke-static {p1}, Lcom/tencent/mm/ui/Sclz;->cK(Landroid/content/Context;)F
 
     move-result v3
 
@@ -395,7 +395,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/tencent/mm/at/a;->getDensity(Landroid/content/Context;)F
+    invoke-static {v3}, Lcom/tencent/mm/at/Aclz;->getDensity(Landroid/content/Context;)F
 
     move-result v3
 
@@ -705,7 +705,7 @@
     .line 261
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/n;->avR:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -857,7 +857,7 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 309
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/n;->gso:Lcom/tencent/mm/plugin/sns/h/k;

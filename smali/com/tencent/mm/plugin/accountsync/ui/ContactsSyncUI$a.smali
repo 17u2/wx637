@@ -20,7 +20,7 @@
 # instance fields
 .field private cfZ:Z
 
-.field private cga:Lcom/tencent/mm/modelsimple/d$a;
+.field private cga:Lcom/tencent/mm/modelsimple/Dclz$a;
 
 .field final synthetic cgb:Lcom/tencent/mm/plugin/accountsync/ui/ContactsSyncUI;
 
@@ -40,7 +40,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/accountsync/ui/ContactsSyncUI$a$1;-><init>(Lcom/tencent/mm/plugin/accountsync/ui/ContactsSyncUI$a;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/accountsync/ui/ContactsSyncUI$a;->cga:Lcom/tencent/mm/modelsimple/d$a;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/accountsync/ui/ContactsSyncUI$a;->cga:Lcom/tencent/mm/modelsimple/Dclz$a;
 
     .line 310
     iput-boolean p2, p0, Lcom/tencent/mm/plugin/accountsync/ui/ContactsSyncUI$a;->cfZ:Z
@@ -50,7 +50,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -73,9 +73,9 @@
 
     .line 368
     :cond_0
-    iget-object v1, p0, Lcom/tencent/mm/plugin/accountsync/ui/ContactsSyncUI$a;->cga:Lcom/tencent/mm/modelsimple/d$a;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/accountsync/ui/ContactsSyncUI$a;->cga:Lcom/tencent/mm/modelsimple/Dclz$a;
 
-    invoke-static {p1, p2, v1}, Lcom/tencent/mm/modelsimple/d;->a(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/modelsimple/d$a;)I
+    invoke-static {p1, p2, v1}, Lcom/tencent/mm/modelsimple/Dclz;->a(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/modelsimple/Dclz$a;)I
 
     move-result v1
 
@@ -167,14 +167,14 @@
 
     const-string/jumbo v1, "no need to bind mobile"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 321
     iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/ui/ContactsSyncUI$a;->cgb:Lcom/tencent/mm/plugin/accountsync/ui/ContactsSyncUI;
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/accountsync/ui/ContactsSyncUI$a;->cga:Lcom/tencent/mm/modelsimple/d$a;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/accountsync/ui/ContactsSyncUI$a;->cga:Lcom/tencent/mm/modelsimple/Dclz$a;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/modelsimple/d;->a(Landroid/content/Context;Lcom/tencent/mm/modelsimple/d$a;)I
+    invoke-static {v0, v1}, Lcom/tencent/mm/modelsimple/Dclz;->a(Landroid/content/Context;Lcom/tencent/mm/modelsimple/Dclz$a;)I
 
     .line 322
     const/4 v0, 0x0
@@ -202,7 +202,7 @@
     check-cast v0, Ljava/lang/String;
 
     .line 326
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -213,7 +213,7 @@
 
     const-string/jumbo v1, "not bind mobile phone"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 328
     const/4 v0, 0x2
@@ -222,7 +222,7 @@
 
     .line 332
     :cond_3
-    invoke-static {}, Lcom/tencent/mm/modelfriend/m;->yk()Z
+    invoke-static {}, Lcom/tencent/mm/modelfriend/Mclz;->yk()Z
 
     move-result v1
 
@@ -247,7 +247,7 @@
 
     move-object v0, p1
 
-    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IIIILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IIIILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     .line 358
     const/4 v0, 0x5

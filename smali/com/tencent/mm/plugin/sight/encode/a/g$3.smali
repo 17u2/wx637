@@ -51,7 +51,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -82,19 +82,19 @@
 
     aput-object v3, v2, v10
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 162
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/a/g$3;->amw:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/n;->bk(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/ak/Nclz;->bk(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 164
     iget-object v1, p0, Lcom/tencent/mm/plugin/sight/encode/a/g$3;->amw:Ljava/lang/String;
 
-    invoke-static {v0, v9, v1}, Lcom/tencent/mm/ak/o;->e(Ljava/lang/String;ILjava/lang/String;)J
+    invoke-static {v0, v9, v1}, Lcom/tencent/mm/ak/Oclz;->e(Ljava/lang/String;ILjava/lang/String;)J
 
     move-result-wide v1
 
@@ -114,7 +114,7 @@
 
     aput-object v0, v3, v10
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 167
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/a/g$3;->fZA:Lcom/tencent/mm/plugin/sight/encode/a/g$a;
@@ -134,7 +134,7 @@
     move-result-object v1
 
     .line 173
-    invoke-static {v1}, Lcom/tencent/mm/a/d;->av(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/a/Dclz;->av(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -145,7 +145,7 @@
 
     const-string/jumbo v3, "thumb data not found, try to create thumb"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 175
     iget-object v2, p0, Lcom/tencent/mm/plugin/sight/encode/a/g$3;->fvf:Ljava/lang/String;
@@ -162,33 +162,33 @@
 
     const/4 v5, 0x1
 
-    invoke-static {v2, v3, v4, v1, v5}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
+    invoke-static {v2, v3, v4, v1, v5}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 187
     :cond_1
     :goto_1
-    invoke-static {}, Lcom/tencent/mm/ak/j;->Di()Lcom/tencent/mm/ak/n;
+    invoke-static {}, Lcom/tencent/mm/ak/Jclz;->Di()Lcom/tencent/mm/ak/Nclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/n;->jl(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/ak/Nclz;->jl(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     .line 188
-    invoke-static {v1, v2}, Lcom/tencent/mm/a/d;->m(Ljava/lang/String;Ljava/lang/String;)J
+    invoke-static {v1, v2}, Lcom/tencent/mm/a/Dclz;->m(Ljava/lang/String;Ljava/lang/String;)J
 
     .line 191
-    invoke-static {}, Lcom/tencent/mm/ak/j;->Di()Lcom/tencent/mm/ak/n;
+    invoke-static {}, Lcom/tencent/mm/ak/Jclz;->Di()Lcom/tencent/mm/ak/Nclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/n;->jk(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/ak/Nclz;->jk(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     .line 193
     iget-object v3, p0, Lcom/tencent/mm/plugin/sight/encode/a/g$3;->fvf:Ljava/lang/String;
 
-    invoke-static {v3, v2}, Lcom/tencent/mm/a/d;->m(Ljava/lang/String;Ljava/lang/String;)J
+    invoke-static {v3, v2}, Lcom/tencent/mm/a/Dclz;->m(Ljava/lang/String;Ljava/lang/String;)J
 
     move-result-wide v3
 
@@ -209,7 +209,7 @@
 
     aput-object v8, v7, v9
 
-    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 195
     const-wide/16 v5, 0x0
@@ -231,7 +231,7 @@
 
     aput-object v2, v4, v9
 
-    invoke-static {v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 197
     iget-object v1, p0, Lcom/tencent/mm/plugin/sight/encode/a/g$3;->fZA:Lcom/tencent/mm/plugin/sight/encode/a/g$a;
@@ -239,7 +239,7 @@
     invoke-static {v1, v11}, Lcom/tencent/mm/plugin/sight/encode/a/g;->a(Lcom/tencent/mm/plugin/sight/encode/a/g$a;I)V
 
     .line 198
-    invoke-static {v0}, Lcom/tencent/mm/ak/o;->bg(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/ak/Oclz;->bg(Ljava/lang/String;)Z
 
     goto :goto_0
 
@@ -251,7 +251,7 @@
 
     const-string/jumbo v3, "save bitmap to image error"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -261,10 +261,10 @@
 
     const/16 v3, 0x3e
 
-    invoke-static {v0, v2, v3}, Lcom/tencent/mm/ak/o;->h(Ljava/lang/String;II)V
+    invoke-static {v0, v2, v3}, Lcom/tencent/mm/ak/Oclz;->h(Ljava/lang/String;II)V
 
     .line 203
-    invoke-static {v0}, Lcom/tencent/mm/ak/o;->jq(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/tencent/mm/ak/Oclz;->jq(Ljava/lang/String;)I
 
     .line 205
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/a/g$3;->fZA:Lcom/tencent/mm/plugin/sight/encode/a/g$a;
@@ -275,16 +275,16 @@
 
     invoke-direct {v2, v0, v11}, Lcom/tencent/mm/plugin/sight/encode/a/g$2;-><init>(Lcom/tencent/mm/plugin/sight/encode/a/g$a;I)V
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
 
     .line 207
     :cond_3
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/a/g$3;->fvf:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/loader/stub/b;->deleteFile(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/loader/stub/Bclz;->deleteFile(Ljava/lang/String;)Z
 
     .line 208
-    invoke-static {v1}, Lcom/tencent/mm/loader/stub/b;->deleteFile(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/loader/stub/Bclz;->deleteFile(Ljava/lang/String;)Z
 
     goto/16 :goto_0
 .end method

@@ -12,7 +12,7 @@
 
 .field private bne:Ljava/lang/reflect/Method;
 
-.field private final bnf:Lcom/tencent/mm/compatible/loader/c;
+.field private final bnf:Lcom/tencent/mm/compatible/loader/Cclz;
 
 
 # direct methods
@@ -63,7 +63,7 @@
 
     const-string/jumbo v1, "load drawable StackOverflowError"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 142
     :goto_1
@@ -164,7 +164,7 @@
 
     const-string/jumbo v1, "loadFromZipFile null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 166
     const/4 v0, 0x0
@@ -213,23 +213,23 @@
     or-long v3, v2, v4
 
     .line 176
-    iget-object v0, p0, Lcom/tencent/mm/compatible/loader/PluginResourceLoader;->bnf:Lcom/tencent/mm/compatible/loader/c;
+    iget-object v0, p0, Lcom/tencent/mm/compatible/loader/PluginResourceLoader;->bnf:Lcom/tencent/mm/compatible/loader/Cclz;
 
-    iget-object v2, v0, Lcom/tencent/mm/compatible/loader/c;->bmP:[J
+    iget-object v2, v0, Lcom/tencent/mm/compatible/loader/Cclz;->bmP:[J
 
-    iget v5, v0, Lcom/tencent/mm/compatible/loader/c;->mSize:I
+    iget v5, v0, Lcom/tencent/mm/compatible/loader/Cclz;->mSize:I
 
-    invoke-static {v2, v5, v3, v4}, Lcom/tencent/mm/compatible/loader/c;->a([JIJ)I
+    invoke-static {v2, v5, v3, v4}, Lcom/tencent/mm/compatible/loader/Cclz;->a([JIJ)I
 
     move-result v2
 
     if-ltz v2, :cond_2
 
-    iget-object v5, v0, Lcom/tencent/mm/compatible/loader/c;->em:[Ljava/lang/Object;
+    iget-object v5, v0, Lcom/tencent/mm/compatible/loader/Cclz;->em:[Ljava/lang/Object;
 
     aget-object v5, v5, v2
 
-    sget-object v6, Lcom/tencent/mm/compatible/loader/c;->ej:Ljava/lang/Object;
+    sget-object v6, Lcom/tencent/mm/compatible/loader/Cclz;->ej:Ljava/lang/Object;
 
     if-ne v5, v6, :cond_3
 
@@ -262,7 +262,7 @@
 
     const-string/jumbo v2, "get form cache"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v1, v0
 
@@ -271,40 +271,40 @@
 
     .line 176
     :cond_3
-    iget-object v0, v0, Lcom/tencent/mm/compatible/loader/c;->em:[Ljava/lang/Object;
+    iget-object v0, v0, Lcom/tencent/mm/compatible/loader/Cclz;->em:[Ljava/lang/Object;
 
     aget-object v0, v0, v2
 
     goto :goto_1
 
     :cond_4
-    iget-object v0, p0, Lcom/tencent/mm/compatible/loader/PluginResourceLoader;->bnf:Lcom/tencent/mm/compatible/loader/c;
+    iget-object v0, p0, Lcom/tencent/mm/compatible/loader/PluginResourceLoader;->bnf:Lcom/tencent/mm/compatible/loader/Cclz;
 
-    iget-object v2, v0, Lcom/tencent/mm/compatible/loader/c;->bmP:[J
+    iget-object v2, v0, Lcom/tencent/mm/compatible/loader/Cclz;->bmP:[J
 
-    iget v5, v0, Lcom/tencent/mm/compatible/loader/c;->mSize:I
+    iget v5, v0, Lcom/tencent/mm/compatible/loader/Cclz;->mSize:I
 
-    invoke-static {v2, v5, v3, v4}, Lcom/tencent/mm/compatible/loader/c;->a([JIJ)I
+    invoke-static {v2, v5, v3, v4}, Lcom/tencent/mm/compatible/loader/Cclz;->a([JIJ)I
 
     move-result v2
 
     if-ltz v2, :cond_5
 
-    iget-object v5, v0, Lcom/tencent/mm/compatible/loader/c;->em:[Ljava/lang/Object;
+    iget-object v5, v0, Lcom/tencent/mm/compatible/loader/Cclz;->em:[Ljava/lang/Object;
 
     aget-object v5, v5, v2
 
-    sget-object v6, Lcom/tencent/mm/compatible/loader/c;->ej:Ljava/lang/Object;
+    sget-object v6, Lcom/tencent/mm/compatible/loader/Cclz;->ej:Ljava/lang/Object;
 
     if-eq v5, v6, :cond_5
 
-    iget-object v5, v0, Lcom/tencent/mm/compatible/loader/c;->em:[Ljava/lang/Object;
+    iget-object v5, v0, Lcom/tencent/mm/compatible/loader/Cclz;->em:[Ljava/lang/Object;
 
-    sget-object v6, Lcom/tencent/mm/compatible/loader/c;->ej:Ljava/lang/Object;
+    sget-object v6, Lcom/tencent/mm/compatible/loader/Cclz;->ej:Ljava/lang/Object;
 
     aput-object v6, v5, v2
 
-    iput-boolean v7, v0, Lcom/tencent/mm/compatible/loader/c;->ek:Z
+    iput-boolean v7, v0, Lcom/tencent/mm/compatible/loader/Cclz;->ek:Z
 
     :cond_5
     move-object v0, v1
@@ -341,7 +341,7 @@
 
     aput-object v9, v7, v8
 
-    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 186
     invoke-virtual {p1, v2}, Ljava/util/zip/ZipFile;->getEntry(Ljava/lang/String;)Ljava/util/zip/ZipEntry;
@@ -402,7 +402,7 @@
     if-eqz v1, :cond_0
 
     .line 213
-    iget-object v0, p0, Lcom/tencent/mm/compatible/loader/PluginResourceLoader;->bnf:Lcom/tencent/mm/compatible/loader/c;
+    iget-object v0, p0, Lcom/tencent/mm/compatible/loader/PluginResourceLoader;->bnf:Lcom/tencent/mm/compatible/loader/Cclz;
 
     new-instance v2, Ljava/lang/ref/WeakReference;
 
@@ -412,7 +412,7 @@
 
     invoke-direct {v2, v5}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    invoke-virtual {v0, v3, v4, v2}, Lcom/tencent/mm/compatible/loader/c;->put(JLjava/lang/Object;)V
+    invoke-virtual {v0, v3, v4, v2}, Lcom/tencent/mm/compatible/loader/Cclz;->put(JLjava/lang/Object;)V
 
     goto/16 :goto_0
 
@@ -596,7 +596,7 @@
 
     aput-object v6, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 241
     invoke-virtual {p0, v1}, Ljava/util/zip/ZipFile;->getEntry(Ljava/lang/String;)Ljava/util/zip/ZipEntry;

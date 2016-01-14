@@ -18,7 +18,7 @@
 
     .prologue
     .line 108
-    sget-boolean v0, Lcom/tencent/mm/sdk/b/b;->foreground:Z
+    sget-boolean v0, Lcom/tencent/mm/sdk/b/Bclz;->foreground:Z
 
     if-eqz v0, :cond_0
 
@@ -169,13 +169,13 @@
 
     new-array v5, v1, [Ljava/lang/Object;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Throwable;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Throwable;)Ljava/lang/String;
 
     move-result-object v0
 
     aput-object v0, v5, v2
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     move v0, v1
 

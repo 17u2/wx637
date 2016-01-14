@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/app/WorkerProfile$16;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -30,7 +30,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     .line 1359
     new-instance v0, Lcom/tencent/mm/app/WorkerProfile$16$1;
@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -51,17 +51,17 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 2
 
     .prologue
     .line 1500
-    check-cast p1, Lcom/tencent/mm/d/a/d;
+    check-cast p1, Lcom/tencent/mm/d/a/Dclz;
 
     .line 1501
-    iget-object v0, p1, Lcom/tencent/mm/d/a/d;->arB:Lcom/tencent/mm/d/a/d$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/Dclz;->arB:Lcom/tencent/mm/d/a/Dclz$a;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/d/a/d$a;->arC:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/d/a/Dclz$a;->arC:Z
 
     if-nez v0, :cond_0
 
@@ -72,13 +72,13 @@
     if-eqz v0, :cond_0
 
     .line 1502
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/app/WorkerProfile$16;->amn:Ljava/lang/Runnable;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ac;->r(Ljava/lang/Runnable;)I
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ACclz;->r(Ljava/lang/Runnable;)I
 
     .line 1503
     :cond_0

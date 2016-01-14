@@ -11,7 +11,7 @@
 
 .field private cwE:I
 
-.field private deV:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private deV:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field private dhE:I
 
@@ -113,15 +113,15 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/gif/c;->cPN:Landroid/graphics/Paint;
 
     .line 51
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/gif/c;->deV:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/gif/c;->deV:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 57
     const-wide/16 v0, 0x0
@@ -225,7 +225,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -287,14 +287,14 @@
     iput-wide v0, p0, Lcom/tencent/mm/plugin/gif/c;->efp:J
 
     .line 162
-    iget-object v0, p0, Lcom/tencent/mm/plugin/gif/c;->deV:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/gif/c;->deV:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     if-eqz v0, :cond_0
 
     .line 164
-    iget-object v0, p0, Lcom/tencent/mm/plugin/gif/c;->deV:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/gif/c;->deV:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v0, p1, p2, p3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     .line 166
     :cond_0
@@ -545,7 +545,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 132
     iget-object v0, p0, Lcom/tencent/mm/plugin/gif/c;->efI:[I
@@ -652,7 +652,7 @@
 
     const-string/jumbo v1, "shader is not null."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 155
     iget-object v0, p0, Lcom/tencent/mm/plugin/gif/c;->efg:Landroid/graphics/Rect;
@@ -772,11 +772,11 @@
     iput-boolean v0, p0, Lcom/tencent/mm/plugin/gif/c;->eeZ:Z
 
     .line 203
-    iget-object v0, p0, Lcom/tencent/mm/plugin/gif/c;->deV:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/gif/c;->deV:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/gif/c;->efw:Ljava/lang/Runnable;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 205
     return-void

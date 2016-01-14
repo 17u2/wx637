@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -58,7 +58,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -76,14 +76,14 @@
     if-eqz p3, :cond_0
 
     .line 38
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/d;->oA(I)Landroid/graphics/Bitmap;
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/Dclz;->oA(I)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/ui/TabIconView;->jAw:Landroid/graphics/Bitmap;
 
     .line 39
-    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/d;->oA(I)Landroid/graphics/Bitmap;
+    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/Dclz;->oA(I)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -142,14 +142,14 @@
 
     .line 41
     :cond_0
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/d;->oz(I)Landroid/graphics/Bitmap;
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/Dclz;->oz(I)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/ui/TabIconView;->jAw:Landroid/graphics/Bitmap;
 
     .line 42
-    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/d;->oz(I)Landroid/graphics/Bitmap;
+    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/Dclz;->oz(I)Landroid/graphics/Bitmap;
 
     move-result-object v0
 

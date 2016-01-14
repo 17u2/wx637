@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/storage/Sclz$2;
-.super Lcom/tencent/mm/sdk/g/h;
+.super Lcom/tencent/mm/sdk/g/Hclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 155
     iput-object p1, p0, Lcom/tencent/mm/storage/Sclz$2;->joc:Lcom/tencent/mm/storage/Sclz;
 
-    invoke-direct {p0}, Lcom/tencent/mm/sdk/g/h;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/sdk/g/Hclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

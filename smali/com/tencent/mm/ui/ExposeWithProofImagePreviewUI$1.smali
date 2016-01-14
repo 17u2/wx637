@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/ui/ExposeWithProofImagePreviewUI$1;
-.super Lcom/tencent/mm/ui/base/s;
+.super Lcom/tencent/mm/ui/base/Sclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 31
     iput-object p1, p0, Lcom/tencent/mm/ui/ExposeWithProofImagePreviewUI$1;->jtS:Lcom/tencent/mm/ui/ExposeWithProofImagePreviewUI;
 
-    invoke-direct {p0}, Lcom/tencent/mm/ui/base/s;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/ui/base/Sclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -49,9 +49,9 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofImagePreviewUI$1;->jtS:Lcom/tencent/mm/ui/ExposeWithProofImagePreviewUI;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, v0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const v1, 0x7f0301cd
 
@@ -86,23 +86,23 @@
 
     check-cast v0, Lcom/tencent/mm/ui/base/MultiTouchImageView;
 
-    invoke-static {}, Lcom/tencent/mm/z/n;->Aa()Lcom/tencent/mm/z/a/a;
+    invoke-static {}, Lcom/tencent/mm/z/Nclz;->Aa()Lcom/tencent/mm/z/a/Aclz;
 
     move-result-object v2
 
-    new-instance v3, Lcom/tencent/mm/z/a/a/c$a;
+    new-instance v3, Lcom/tencent/mm/z/a/a/Cclz$a;
 
-    invoke-direct {v3}, Lcom/tencent/mm/z/a/a/c$a;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/z/a/a/Cclz$a;-><init>()V
 
     const/4 v4, 0x1
 
-    iput v4, v3, Lcom/tencent/mm/z/a/a/c$a;->bMk:I
+    iput v4, v3, Lcom/tencent/mm/z/a/a/Cclz$a;->bMk:I
 
-    invoke-virtual {v3}, Lcom/tencent/mm/z/a/a/c$a;->Ai()Lcom/tencent/mm/z/a/a/c;
+    invoke-virtual {v3}, Lcom/tencent/mm/z/a/a/Cclz$a;->Ai()Lcom/tencent/mm/z/a/a/Cclz;
 
     move-result-object v3
 
-    invoke-virtual {v2, v1, v0, v3}, Lcom/tencent/mm/z/a/a;->a(Ljava/lang/String;Landroid/widget/ImageView;Lcom/tencent/mm/z/a/a/c;)V
+    invoke-virtual {v2, v1, v0, v3}, Lcom/tencent/mm/z/a/Aclz;->a(Ljava/lang/String;Landroid/widget/ImageView;Lcom/tencent/mm/z/a/a/Cclz;)V
 
     return-object p2
 

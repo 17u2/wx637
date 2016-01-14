@@ -11,7 +11,7 @@
     .line 74
     iget-object v0, p1, Lcom/tencent/mm/protocal/b/akj;->iuA:Lcom/tencent/mm/protocal/b/ajz;
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Nclz;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -25,7 +25,7 @@
 
     iget-object v2, p1, Lcom/tencent/mm/protocal/b/akj;->iHV:Lcom/tencent/mm/protocal/b/ajz;
 
-    invoke-static {v2}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/platformtools/Nclz;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -36,7 +36,7 @@
 
     iget-object v2, p1, Lcom/tencent/mm/protocal/b/akj;->iuq:Lcom/tencent/mm/protocal/b/ajz;
 
-    invoke-static {v2}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/platformtools/Nclz;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -47,7 +47,7 @@
 
     iget-object v2, p1, Lcom/tencent/mm/protocal/b/akj;->iur:Lcom/tencent/mm/protocal/b/ajz;
 
-    invoke-static {v2}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/platformtools/Nclz;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -240,7 +240,7 @@
     .line 23
     iget-object v0, p1, Lcom/tencent/mm/protocal/b/akl;->iuA:Lcom/tencent/mm/protocal/b/ajz;
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Nclz;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -254,7 +254,7 @@
 
     iget-object v2, p1, Lcom/tencent/mm/protocal/b/akl;->iHV:Lcom/tencent/mm/protocal/b/ajz;
 
-    invoke-static {v2}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/platformtools/Nclz;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -265,7 +265,7 @@
 
     iget-object v2, p1, Lcom/tencent/mm/protocal/b/akl;->iuq:Lcom/tencent/mm/protocal/b/ajz;
 
-    invoke-static {v2}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/platformtools/Nclz;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -276,7 +276,7 @@
 
     iget-object v2, p1, Lcom/tencent/mm/protocal/b/akl;->iur:Lcom/tencent/mm/protocal/b/ajz;
 
-    invoke-static {v2}, Lcom/tencent/mm/platformtools/n;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/platformtools/Nclz;->a(Lcom/tencent/mm/protocal/b/ajz;)Ljava/lang/String;
 
     move-result-object v2
 

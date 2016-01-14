@@ -12,7 +12,7 @@
 
 .field private g:I
 
-.field private gqv:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private gqv:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field private gqw:Ljava/lang/Runnable;
 
@@ -49,11 +49,11 @@
     iput-boolean v0, p0, Lcom/tencent/mm/plugin/sns/ui/MaskImageView;->czy:Z
 
     .line 37
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/MaskImageView;->gqv:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/MaskImageView;->gqv:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     new-instance v0, Lcom/tencent/mm/plugin/sns/ui/MaskImageView$1;
 
@@ -88,7 +88,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -145,21 +145,21 @@
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
     .line 49
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/MaskImageView;->gqv:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/MaskImageView;->gqv:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/MaskImageView;->gqw:Ljava/lang/Runnable;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     goto :goto_0
 
     .line 53
     :pswitch_2
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/MaskImageView;->gqv:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/MaskImageView;->gqv:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/MaskImageView;->gqw:Ljava/lang/Runnable;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     goto :goto_0
 

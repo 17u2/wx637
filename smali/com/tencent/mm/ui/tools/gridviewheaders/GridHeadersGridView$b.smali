@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -149,7 +149,7 @@
     .line 864
     iget-object v1, p0, Lcom/tencent/mm/ui/tools/gridviewheaders/GridHeadersGridView$b;->kGD:Lcom/tencent/mm/ui/tools/gridviewheaders/GridHeadersGridView;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/tools/gridviewheaders/GridHeadersGridView;->d(Lcom/tencent/mm/ui/tools/gridviewheaders/GridHeadersGridView;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v1}, Lcom/tencent/mm/ui/tools/gridviewheaders/GridHeadersGridView;->d(Lcom/tencent/mm/ui/tools/gridviewheaders/GridHeadersGridView;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v1
 
@@ -159,7 +159,7 @@
 
     int-to-long v3, v0
 
-    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     .line 873
     :cond_1

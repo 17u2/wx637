@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field final hON:Lcom/tencent/mm/sdk/platformtools/ab;
+.field final hON:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field public final hOO:Landroid/util/SparseArray;
 
@@ -12,7 +12,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/sdk/platformtools/ab;)V
+.method constructor <init>(Lcom/tencent/mm/sdk/platformtools/ABclz;)V
     .locals 1
 
     .prologue
@@ -20,7 +20,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 23
-    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/h/a/c/g;->hON:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/h/a/c/g;->hON:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 24
     new-instance v0, Landroid/util/SparseArray;
@@ -41,7 +41,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

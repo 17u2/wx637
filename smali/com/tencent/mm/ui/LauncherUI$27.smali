@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -58,7 +58,7 @@
 
     const-string/jumbo v1, "getAddrTabUnreadCount, but mmcore not ready"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -66,7 +66,7 @@
     :goto_0
     iget-object v1, p0, Lcom/tencent/mm/ui/LauncherUI$27;->jwy:Lcom/tencent/mm/ui/LauncherUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/c;
+    invoke-static {v1}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/Cclz;
 
     move-result-object v1
 
@@ -75,11 +75,11 @@
     .line 4085
     iget-object v1, p0, Lcom/tencent/mm/ui/LauncherUI$27;->jwy:Lcom/tencent/mm/ui/LauncherUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/c;
+    invoke-static {v1}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/Cclz;
 
     move-result-object v1
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/c;->pf(I)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/Cclz;->pf(I)V
 
     .line 4087
     :cond_0
@@ -105,7 +105,7 @@
 
     check-cast v0, Ljava/lang/Integer;
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/t;->d(Ljava/lang/Integer;)I
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Tclz;->d(Ljava/lang/Integer;)I
 
     move-result v0
 

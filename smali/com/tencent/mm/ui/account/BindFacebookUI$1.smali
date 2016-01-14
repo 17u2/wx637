@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,7 +50,7 @@
     .line 86
     iget-object v0, p0, Lcom/tencent/mm/ui/account/BindFacebookUI$1;->jAT:Lcom/tencent/mm/ui/account/BindFacebookUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/account/BindFacebookUI;->a(Lcom/tencent/mm/ui/account/BindFacebookUI;)Lcom/tencent/mm/modelsimple/g;
+    invoke-static {v0}, Lcom/tencent/mm/ui/account/BindFacebookUI;->a(Lcom/tencent/mm/ui/account/BindFacebookUI;)Lcom/tencent/mm/modelsimple/Gclz;
 
     move-result-object v0
 
@@ -63,7 +63,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/account/BindFacebookUI$1;->jAT:Lcom/tencent/mm/ui/account/BindFacebookUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/account/BindFacebookUI;->a(Lcom/tencent/mm/ui/account/BindFacebookUI;)Lcom/tencent/mm/modelsimple/g;
+    invoke-static {v1}, Lcom/tencent/mm/ui/account/BindFacebookUI;->a(Lcom/tencent/mm/ui/account/BindFacebookUI;)Lcom/tencent/mm/modelsimple/Gclz;
 
     move-result-object v1
 

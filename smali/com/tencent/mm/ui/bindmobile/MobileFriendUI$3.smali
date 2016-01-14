@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -89,7 +89,7 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 342
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
@@ -109,7 +109,7 @@
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/Hclz;->set(ILjava/lang/Object;)V
 
     .line 343
-    invoke-static {v4, v4}, Lcom/tencent/mm/platformtools/m;->d(ZZ)V
+    invoke-static {v4, v4}, Lcom/tencent/mm/platformtools/Mclz;->d(ZZ)V
 
     .line 344
     iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/MobileFriendUI$3;->jYn:Lcom/tencent/mm/ui/bindmobile/MobileFriendUI;

@@ -19,7 +19,7 @@
 
 .field final synthetic jZv:Lcom/tencent/mm/ui/chatting/AppAttachFileListUI;
 
-.field public jZw:Lcom/tencent/mm/m/a$a;
+.field public jZw:Lcom/tencent/mm/m/Aclz$a;
 
 
 # direct methods
@@ -36,7 +36,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -53,7 +53,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

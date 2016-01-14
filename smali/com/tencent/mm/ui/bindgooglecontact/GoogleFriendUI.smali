@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Landroid/widget/AdapterView$OnItemClickListener;
-.implements Lcom/tencent/mm/p/d$a;
+.implements Lcom/tencent/mm/p/Dclz$a;
 .implements Lcom/tencent/mm/q/Dclz;
 .implements Lcom/tencent/mm/ui/bindgooglecontact/a$a;
 
@@ -44,7 +44,7 @@
 
 .field private jWa:Lcom/tencent/mm/ui/bindgooglecontact/a;
 
-.field private jWb:Lcom/tencent/mm/y/c;
+.field private jWb:Lcom/tencent/mm/y/Cclz;
 
 .field private jWc:Ljava/util/ArrayList;
 
@@ -84,7 +84,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -125,7 +125,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI$5;-><init>(Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;)V
 
-    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
@@ -156,7 +156,7 @@
     return-object p1
 .end method
 
-.method private a(Landroid/database/Cursor;Lcom/tencent/mm/modelfriend/o;)V
+.method private a(Landroid/database/Cursor;Lcom/tencent/mm/modelfriend/Oclz;)V
     .locals 7
 
     .prologue
@@ -193,15 +193,15 @@
     if-ge v0, v4, :cond_0
 
     .line 488
-    new-instance v5, Lcom/tencent/mm/modelfriend/o;
+    new-instance v5, Lcom/tencent/mm/modelfriend/Oclz;
 
-    invoke-direct {v5}, Lcom/tencent/mm/modelfriend/o;-><init>()V
+    invoke-direct {v5}, Lcom/tencent/mm/modelfriend/Oclz;-><init>()V
 
     .line 489
-    invoke-virtual {v5, p1}, Lcom/tencent/mm/modelfriend/o;->c(Landroid/database/Cursor;)V
+    invoke-virtual {v5, p1}, Lcom/tencent/mm/modelfriend/Oclz;->c(Landroid/database/Cursor;)V
 
     .line 490
-    iget-object v6, v5, Lcom/tencent/mm/modelfriend/o;->field_googlegmail:Ljava/lang/String;
+    iget-object v6, v5, Lcom/tencent/mm/modelfriend/Oclz;->field_googlegmail:Ljava/lang/String;
 
     invoke-virtual {v1, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -235,9 +235,9 @@
 
     .line 498
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     invoke-virtual {p0}, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->getResources()Landroid/content/res/Resources;
 
@@ -259,15 +259,15 @@
 
     new-instance v5, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI$4;
 
-    invoke-direct {v5, p0, v3, p2}, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI$4;-><init>(Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;Ljava/util/ArrayList;Lcom/tencent/mm/modelfriend/o;)V
+    invoke-direct {v5, p0, v3, p2}, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI$4;-><init>(Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;Ljava/util/ArrayList;Lcom/tencent/mm/modelfriend/Oclz;)V
 
-    invoke-static {v0, v4, v1, v2, v5}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Lcom/tencent/mm/ui/base/f$d;)Landroid/app/Dialog;
+    invoke-static {v0, v4, v1, v2, v5}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Lcom/tencent/mm/ui/base/Fclz$d;)Landroid/app/Dialog;
 
     .line 508
     return-void
 .end method
 
-.method private a(Lcom/tencent/mm/modelfriend/o;Lcom/tencent/mm/modelfriend/o;)V
+.method private a(Lcom/tencent/mm/modelfriend/Oclz;Lcom/tencent/mm/modelfriend/Oclz;)V
     .locals 6
 
     .prologue
@@ -279,14 +279,14 @@
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 512
-    iget-object v1, p1, Lcom/tencent/mm/modelfriend/o;->field_googlegmail:Ljava/lang/String;
+    iget-object v1, p1, Lcom/tencent/mm/modelfriend/Oclz;->field_googlegmail:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 513
-    new-instance v1, Lcom/tencent/mm/y/b;
+    new-instance v1, Lcom/tencent/mm/y/Bclz;
 
-    invoke-direct {v1, v0}, Lcom/tencent/mm/y/b;-><init>(Ljava/util/ArrayList;)V
+    invoke-direct {v1, v0}, Lcom/tencent/mm/y/Bclz;-><init>(Ljava/util/ArrayList;)V
 
     .line 514
     const-string/jumbo v0, "!56@/B4Tb64lLpKHrGLZvbPyiIVQZqGB7lNLR9cEovBG92K66fy5loyLJw=="
@@ -297,11 +297,11 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    iget-object v4, p1, Lcom/tencent/mm/modelfriend/o;->field_googleitemid:Ljava/lang/String;
+    iget-object v4, p1, Lcom/tencent/mm/modelfriend/Oclz;->field_googleitemid:Ljava/lang/String;
 
     aput-object v4, v3, v5
 
-    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 515
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -314,19 +314,19 @@
     if-nez p2, :cond_0
 
     .line 517
-    iget-object v0, p1, Lcom/tencent/mm/modelfriend/o;->field_googleitemid:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/modelfriend/Oclz;->field_googleitemid:Ljava/lang/String;
 
-    iput-object v0, v1, Lcom/tencent/mm/y/b;->bHT:Ljava/lang/String;
+    iput-object v0, v1, Lcom/tencent/mm/y/Bclz;->bHT:Ljava/lang/String;
 
     .line 518
-    iput v5, p1, Lcom/tencent/mm/modelfriend/o;->field_googlecgistatus:I
+    iput v5, p1, Lcom/tencent/mm/modelfriend/Oclz;->field_googlecgistatus:I
 
     .line 519
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zi()Lcom/tencent/mm/modelfriend/p;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zi()Lcom/tencent/mm/modelfriend/Pclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/modelfriend/p;->b(Lcom/tencent/mm/modelfriend/o;)Z
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/modelfriend/Pclz;->b(Lcom/tencent/mm/modelfriend/Oclz;)Z
 
     .line 525
     :goto_0
@@ -339,19 +339,19 @@
 
     .line 521
     :cond_0
-    iget-object v0, p2, Lcom/tencent/mm/modelfriend/o;->field_googleitemid:Ljava/lang/String;
+    iget-object v0, p2, Lcom/tencent/mm/modelfriend/Oclz;->field_googleitemid:Ljava/lang/String;
 
-    iput-object v0, v1, Lcom/tencent/mm/y/b;->bHT:Ljava/lang/String;
+    iput-object v0, v1, Lcom/tencent/mm/y/Bclz;->bHT:Ljava/lang/String;
 
     .line 522
-    iput v5, p2, Lcom/tencent/mm/modelfriend/o;->field_googlecgistatus:I
+    iput v5, p2, Lcom/tencent/mm/modelfriend/Oclz;->field_googlecgistatus:I
 
     .line 523
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zi()Lcom/tencent/mm/modelfriend/p;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zi()Lcom/tencent/mm/modelfriend/Pclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p2}, Lcom/tencent/mm/modelfriend/p;->b(Lcom/tencent/mm/modelfriend/o;)Z
+    invoke-virtual {v0, p2}, Lcom/tencent/mm/modelfriend/Pclz;->b(Lcom/tencent/mm/modelfriend/Oclz;)Z
 
     goto :goto_0
 .end method
@@ -382,7 +382,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 550
     iget-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->jWa:Lcom/tencent/mm/ui/bindgooglecontact/a;
@@ -411,12 +411,12 @@
     throw v0
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;Lcom/tencent/mm/modelfriend/o;Lcom/tencent/mm/modelfriend/o;)V
+.method static synthetic a(Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;Lcom/tencent/mm/modelfriend/Oclz;Lcom/tencent/mm/modelfriend/Oclz;)V
     .locals 0
 
     .prologue
     .line 73
-    invoke-direct {p0, p1, p2}, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->a(Lcom/tencent/mm/modelfriend/o;Lcom/tencent/mm/modelfriend/o;)V
+    invoke-direct {p0, p1, p2}, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->a(Lcom/tencent/mm/modelfriend/Oclz;Lcom/tencent/mm/modelfriend/Oclz;)V
 
     return-void
 .end method
@@ -438,7 +438,7 @@
 
     aput-object p1, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     sget-object v0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI$a;->jWg:Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI$a;
 
@@ -448,7 +448,7 @@
 
     if-nez v0, :cond_1
 
-    new-instance v0, Lcom/tencent/mm/y/c;
+    new-instance v0, Lcom/tencent/mm/y/Cclz;
 
     iget v1, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->jVA:I
 
@@ -456,15 +456,15 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->bIa:Ljava/lang/String;
 
-    invoke-direct {v0, p2, v1, v2, v3}, Lcom/tencent/mm/y/c;-><init>(Ljava/util/ArrayList;ILjava/util/HashMap;Ljava/lang/String;)V
+    invoke-direct {v0, p2, v1, v2, v3}, Lcom/tencent/mm/y/Cclz;-><init>(Ljava/util/ArrayList;ILjava/util/HashMap;Ljava/lang/String;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->jWb:Lcom/tencent/mm/y/c;
+    iput-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->jWb:Lcom/tencent/mm/y/Cclz;
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->jWb:Lcom/tencent/mm/y/c;
+    iget-object v1, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->jWb:Lcom/tencent/mm/y/Cclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
@@ -483,7 +483,7 @@
 
     const-string/jumbo v1, "Google Contact is Empty."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-direct {p0, v4}, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->gS(Z)V
 
@@ -496,7 +496,7 @@
 
     invoke-direct {p0}, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->aWY()V
 
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/ai;->de(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/AIclz;->de(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -506,7 +506,7 @@
 
     const-string/jumbo v1, "[handleGetGoogleContactListTaskReturn] start bindGoogleContactUI No Login or network unavaile."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Landroid/content/Intent;
 
@@ -534,7 +534,7 @@
 
     const-string/jumbo v1, "[handleGetGoogleContactListTaskReturn] start bindGoogleContactUI unknow error"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-direct {p0}, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->aWY()V
 
@@ -658,7 +658,7 @@
 
     const-string/jumbo v1, "updateToken"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 242
     iget-boolean v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->faw:Z
@@ -808,12 +808,12 @@
     return v0
 .end method
 
-.method static synthetic d(Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;)Lcom/tencent/mm/y/c;
+.method static synthetic d(Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;)Lcom/tencent/mm/y/Cclz;
     .locals 1
 
     .prologue
     .line 73
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->jWb:Lcom/tencent/mm/y/c;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->jWb:Lcom/tencent/mm/y/Cclz;
 
     return-object v0
 .end method
@@ -860,7 +860,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
     .line 604
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/ai;->de(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/AIclz;->de(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -971,19 +971,19 @@
     invoke-virtual {v0, p0}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
     .line 179
-    new-instance v0, Lcom/tencent/mm/ui/tools/q;
+    new-instance v0, Lcom/tencent/mm/ui/tools/Qclz;
 
-    invoke-direct {v0, v2, v2}, Lcom/tencent/mm/ui/tools/q;-><init>(ZZ)V
+    invoke-direct {v0, v2, v2}, Lcom/tencent/mm/ui/tools/Qclz;-><init>(ZZ)V
 
     .line 180
     new-instance v1, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI$2;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI$2;-><init>(Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;)V
 
-    iput-object v1, v0, Lcom/tencent/mm/ui/tools/q;->kEP:Lcom/tencent/mm/ui/tools/q$b;
+    iput-object v1, v0, Lcom/tencent/mm/ui/tools/Qclz;->kEP:Lcom/tencent/mm/ui/tools/Qclz$b;
 
     .line 213
-    invoke-virtual {p0, v0}, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->a(Lcom/tencent/mm/ui/tools/q;)V
+    invoke-virtual {p0, v0}, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->a(Lcom/tencent/mm/ui/tools/Qclz;)V
 
     .line 215
     return-void
@@ -1031,7 +1031,7 @@
     :goto_0
     aput-object v0, v3, v6
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 346
     invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
@@ -1051,7 +1051,7 @@
 
     const-string/jumbo v1, "Unknow scene type."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 443
     :cond_0
@@ -1074,10 +1074,10 @@
     if-eqz v0, :cond_0
 
     .line 351
-    check-cast p4, Lcom/tencent/mm/y/b;
+    check-cast p4, Lcom/tencent/mm/y/Bclz;
 
     .line 352
-    invoke-virtual {p4}, Lcom/tencent/mm/y/b;->zy()Lcom/tencent/mm/protocal/b/XWclz;
+    invoke-virtual {p4}, Lcom/tencent/mm/y/Bclz;->zy()Lcom/tencent/mm/protocal/b/XWclz;
 
     move-result-object v0
 
@@ -1096,10 +1096,10 @@
 
     aput-object v0, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 354
-    iget-object v0, p4, Lcom/tencent/mm/y/b;->bHT:Ljava/lang/String;
+    iget-object v0, p4, Lcom/tencent/mm/y/Bclz;->bHT:Ljava/lang/String;
 
     .line 356
     const-string/jumbo v1, "!56@/B4Tb64lLpKHrGLZvbPyiIVQZqGB7lNLR9cEovBG92K66fy5loyLJw=="
@@ -1110,14 +1110,14 @@
 
     aput-object v0, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 357
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zi()Lcom/tencent/mm/modelfriend/p;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zi()Lcom/tencent/mm/modelfriend/Pclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0, v4}, Lcom/tencent/mm/modelfriend/p;->s(Ljava/lang/String;I)Z
+    invoke-virtual {v1, v0, v4}, Lcom/tencent/mm/modelfriend/Pclz;->s(Ljava/lang/String;I)Z
 
     .line 358
     iget-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->jWa:Lcom/tencent/mm/ui/bindgooglecontact/a;
@@ -1147,14 +1147,14 @@
 
     aput-object v0, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 375
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zi()Lcom/tencent/mm/modelfriend/p;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zi()Lcom/tencent/mm/modelfriend/Pclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0, v4}, Lcom/tencent/mm/modelfriend/p;->s(Ljava/lang/String;I)Z
+    invoke-virtual {v1, v0, v4}, Lcom/tencent/mm/modelfriend/Pclz;->s(Ljava/lang/String;I)Z
 
     .line 376
     iget-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->jWa:Lcom/tencent/mm/ui/bindgooglecontact/a;
@@ -1165,10 +1165,10 @@
 
     .line 385
     :sswitch_2
-    check-cast p4, Lcom/tencent/mm/y/c;
+    check-cast p4, Lcom/tencent/mm/y/Cclz;
 
     .line 386
-    invoke-virtual {p4}, Lcom/tencent/mm/y/c;->zz()Lcom/tencent/mm/protocal/b/aad;
+    invoke-virtual {p4}, Lcom/tencent/mm/y/Cclz;->zz()Lcom/tencent/mm/protocal/b/aad;
 
     move-result-object v0
 
@@ -1186,7 +1186,7 @@
 
     const-string/jumbo v1, "Unknow scene type."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -1197,10 +1197,10 @@
     if-eqz v0, :cond_0
 
     .line 399
-    check-cast p4, Lcom/tencent/mm/y/b;
+    check-cast p4, Lcom/tencent/mm/y/Bclz;
 
     .line 400
-    invoke-virtual {p4}, Lcom/tencent/mm/y/b;->zy()Lcom/tencent/mm/protocal/b/XWclz;
+    invoke-virtual {p4}, Lcom/tencent/mm/y/Bclz;->zy()Lcom/tencent/mm/protocal/b/XWclz;
 
     move-result-object v0
 
@@ -1219,10 +1219,10 @@
 
     aput-object v0, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 402
-    iget-object v0, p4, Lcom/tencent/mm/y/b;->bHT:Ljava/lang/String;
+    iget-object v0, p4, Lcom/tencent/mm/y/Bclz;->bHT:Ljava/lang/String;
 
     .line 404
     const-string/jumbo v1, "!56@/B4Tb64lLpKHrGLZvbPyiIVQZqGB7lNLR9cEovBG92K66fy5loyLJw=="
@@ -1233,14 +1233,14 @@
 
     aput-object v0, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 407
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zi()Lcom/tencent/mm/modelfriend/p;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zi()Lcom/tencent/mm/modelfriend/Pclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0, v4}, Lcom/tencent/mm/modelfriend/p;->s(Ljava/lang/String;I)Z
+    invoke-virtual {v1, v0, v4}, Lcom/tencent/mm/modelfriend/Pclz;->s(Ljava/lang/String;I)Z
 
     .line 408
     iget-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->jWa:Lcom/tencent/mm/ui/bindgooglecontact/a;
@@ -1264,7 +1264,7 @@
 
     const-string/jumbo v1, ""
 
-    invoke-static {p0, v0, v1, v4}, Lcom/tencent/mm/ui/base/f;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v1, v4}, Lcom/tencent/mm/ui/base/Fclz;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)Lcom/tencent/mm/ui/base/Gclz;
 
     .line 425
     :cond_3
@@ -1288,14 +1288,14 @@
 
     aput-object v0, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 430
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zi()Lcom/tencent/mm/modelfriend/p;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zi()Lcom/tencent/mm/modelfriend/Pclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0, v6}, Lcom/tencent/mm/modelfriend/p;->s(Ljava/lang/String;I)Z
+    invoke-virtual {v1, v0, v6}, Lcom/tencent/mm/modelfriend/Pclz;->s(Ljava/lang/String;I)Z
 
     .line 431
     iget-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->jWa:Lcom/tencent/mm/ui/bindgooglecontact/a;
@@ -1310,7 +1310,7 @@
 
     if-ne p2, v0, :cond_3
 
-    invoke-static {p3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1410,7 +1410,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 229
     const/16 v0, 0x7d5
@@ -1540,7 +1540,7 @@
     invoke-virtual {p0}, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->Fi()V
 
     .line 123
-    invoke-static {p0}, Lcom/tencent/mm/modelfriend/n;->aI(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/tencent/mm/modelfriend/Nclz;->aI(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -1556,7 +1556,7 @@
 
     const-string/jumbo v1, "startActivityCheckGooglePlayServices"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Landroid/content/Intent;
 
@@ -1570,11 +1570,11 @@
 
     .line 129
     :goto_0
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zi()Lcom/tencent/mm/modelfriend/p;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zi()Lcom/tencent/mm/modelfriend/Pclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/p;->clear()V
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Pclz;->clear()V
 
     .line 130
     return-void
@@ -1594,11 +1594,11 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onDestroy()V
 
     .line 159
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zi()Lcom/tencent/mm/modelfriend/p;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zi()Lcom/tencent/mm/modelfriend/Pclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/p;->clear()V
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Pclz;->clear()V
 
     .line 160
     return-void
@@ -1629,7 +1629,7 @@
 
     aput-object v3, v2, v8
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 220
     iget-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->jWa:Lcom/tencent/mm/ui/bindgooglecontact/a;
@@ -1652,11 +1652,11 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelfriend/o;
+    check-cast v0, Lcom/tencent/mm/modelfriend/Oclz;
 
     if-eqz v0, :cond_2
 
-    iget-object v1, v0, Lcom/tencent/mm/modelfriend/o;->field_username:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_username:Ljava/lang/String;
 
     const-string/jumbo v2, "!56@/B4Tb64lLpKHrGLZvbPyiIVQZqGB7lNLR9cEovBG92K66fy5loyLJw=="
 
@@ -1664,13 +1664,13 @@
 
     new-array v4, v9, [Ljava/lang/Object;
 
-    iget-object v5, v0, Lcom/tencent/mm/modelfriend/o;->field_googlegmail:Ljava/lang/String;
+    iget-object v5, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googlegmail:Ljava/lang/String;
 
     aput-object v5, v4, v8
 
     aput-object v1, v4, v7
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
@@ -1686,16 +1686,16 @@
 
     if-eqz v2, :cond_0
 
-    iget v2, v2, Lcom/tencent/mm/d/b/o;->field_type:I
+    iget v2, v2, Lcom/tencent/mm/d/b/Oclz;->field_type:I
 
-    invoke-static {v2}, Lcom/tencent/mm/h/a;->cf(I)Z
+    invoke-static {v2}, Lcom/tencent/mm/h/Aclz;->cf(I)Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
     :cond_0
-    iget-object v2, v0, Lcom/tencent/mm/modelfriend/o;->field_nickname:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_nickname:Ljava/lang/String;
 
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1714,7 +1714,7 @@
 
     const-string/jumbo v3, "Contact_Nick"
 
-    iget-object v4, v0, Lcom/tencent/mm/modelfriend/o;->field_nickname:Ljava/lang/String;
+    iget-object v4, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_nickname:Ljava/lang/String;
 
     invoke-virtual {v2, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -1724,13 +1724,13 @@
 
     const-string/jumbo v3, "verify_gmail"
 
-    iget-object v4, v0, Lcom/tencent/mm/modelfriend/o;->field_googlegmail:Ljava/lang/String;
+    iget-object v4, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googlegmail:Ljava/lang/String;
 
     invoke-virtual {v2, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string/jumbo v3, "profileName"
 
-    iget-object v0, v0, Lcom/tencent/mm/modelfriend/o;->field_googlename:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googlename:Ljava/lang/String;
 
     invoke-virtual {v2, v3, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -1752,9 +1752,9 @@
 
     sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     invoke-interface {v0, v2, v1}, Lcom/tencent/mm/pluginsdk/f;->d(Landroid/content/Intent;Landroid/content/Context;)V
 
@@ -1781,31 +1781,31 @@
 
     const-string/jumbo v1, "friend_num"
 
-    iget-object v3, v0, Lcom/tencent/mm/modelfriend/o;->field_googlegmail:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googlegmail:Ljava/lang/String;
 
     invoke-virtual {v2, v1, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string/jumbo v1, "friend_nick"
 
-    iget-object v3, v0, Lcom/tencent/mm/modelfriend/o;->field_googlename:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googlename:Ljava/lang/String;
 
     invoke-virtual {v2, v1, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string/jumbo v1, "friend_weixin_nick"
 
-    iget-object v3, v0, Lcom/tencent/mm/modelfriend/o;->field_nickname:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_nickname:Ljava/lang/String;
 
     invoke-virtual {v2, v1, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string/jumbo v1, "friend_googleID"
 
-    iget-object v3, v0, Lcom/tencent/mm/modelfriend/o;->field_googleid:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googleid:Ljava/lang/String;
 
     invoke-virtual {v2, v1, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string/jumbo v1, "friend_googleItemID"
 
-    iget-object v0, v0, Lcom/tencent/mm/modelfriend/o;->field_googleitemid:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googleitemid:Ljava/lang/String;
 
     invoke-virtual {v2, v1, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -1848,11 +1848,11 @@
     invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 137
-    invoke-static {}, Lcom/tencent/mm/p/n;->uQ()Lcom/tencent/mm/p/d;
+    invoke-static {}, Lcom/tencent/mm/p/Nclz;->uQ()Lcom/tencent/mm/p/Dclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/p/d;->d(Lcom/tencent/mm/p/d$a;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/p/Dclz;->d(Lcom/tencent/mm/p/Dclz$a;)V
 
     .line 138
     iget-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->jWa:Lcom/tencent/mm/ui/bindgooglecontact/a;
@@ -1895,11 +1895,11 @@
     invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 153
-    invoke-static {}, Lcom/tencent/mm/p/n;->uQ()Lcom/tencent/mm/p/d;
+    invoke-static {}, Lcom/tencent/mm/p/Nclz;->uQ()Lcom/tencent/mm/p/Dclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/p/d;->e(Lcom/tencent/mm/p/d$a;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/p/Dclz;->e(Lcom/tencent/mm/p/Dclz$a;)V
 
     .line 154
     return-void
@@ -1931,13 +1931,13 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelfriend/o;
+    check-cast v0, Lcom/tencent/mm/modelfriend/Oclz;
 
     .line 296
     if-eqz v0, :cond_0
 
     .line 299
-    iget v1, v0, Lcom/tencent/mm/modelfriend/o;->field_status:I
+    iget v1, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_status:I
 
     packed-switch v1, :pswitch_data_0
 
@@ -1954,7 +1954,7 @@
     invoke-direct {v1, p0, v2}, Lcom/tencent/mm/pluginsdk/ui/applet/a;-><init>(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/ui/applet/a$a;)V
 
     .line 317
-    iget-object v2, v0, Lcom/tencent/mm/modelfriend/o;->field_googleitemid:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googleitemid:Ljava/lang/String;
 
     iput-boolean v4, v1, Lcom/tencent/mm/pluginsdk/ui/applet/a;->hSz:Z
 
@@ -1980,19 +1980,19 @@
     invoke-virtual {v2, v3}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
     .line 321
-    iget-object v3, v0, Lcom/tencent/mm/modelfriend/o;->field_username:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v1, v3, v2, v5}, Lcom/tencent/mm/pluginsdk/ui/applet/a;->a(Ljava/lang/String;Ljava/util/LinkedList;Z)V
 
     .line 322
-    iput v4, v0, Lcom/tencent/mm/modelfriend/o;->field_googlecgistatus:I
+    iput v4, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googlecgistatus:I
 
     .line 323
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zi()Lcom/tencent/mm/modelfriend/p;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zi()Lcom/tencent/mm/modelfriend/Pclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/modelfriend/p;->b(Lcom/tencent/mm/modelfriend/o;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/modelfriend/Pclz;->b(Lcom/tencent/mm/modelfriend/Oclz;)Z
 
     .line 324
     iget-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->jWa:Lcom/tencent/mm/ui/bindgooglecontact/a;
@@ -2003,14 +2003,14 @@
 
     .line 328
     :pswitch_1
-    iget-object v1, v0, Lcom/tencent/mm/modelfriend/o;->field_googleid:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googleid:Ljava/lang/String;
 
     .line 329
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zi()Lcom/tencent/mm/modelfriend/p;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zi()Lcom/tencent/mm/modelfriend/Pclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/modelfriend/p;->hl(Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/modelfriend/Pclz;->hl(Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v1
 
@@ -2027,7 +2027,7 @@
     :cond_2
     const/4 v2, 0x0
 
-    invoke-direct {p0, v0, v2}, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->a(Lcom/tencent/mm/modelfriend/o;Lcom/tencent/mm/modelfriend/o;)V
+    invoke-direct {p0, v0, v2}, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->a(Lcom/tencent/mm/modelfriend/Oclz;Lcom/tencent/mm/modelfriend/Oclz;)V
 
     .line 335
     :goto_1
@@ -2040,7 +2040,7 @@
 
     .line 333
     :cond_3
-    invoke-direct {p0, v1, v0}, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->a(Landroid/database/Cursor;Lcom/tencent/mm/modelfriend/o;)V
+    invoke-direct {p0, v1, v0}, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;->a(Landroid/database/Cursor;Lcom/tencent/mm/modelfriend/Oclz;)V
 
     goto :goto_1
 

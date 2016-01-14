@@ -88,7 +88,7 @@
 
     .line 61
     :try_start_0
-    sget-object v1, Lcom/tencent/mm/j/a$a;->CONTENT_URI:Landroid/net/Uri;
+    sget-object v1, Lcom/tencent/mm/j/Aclz$a;->CONTENT_URI:Landroid/net/Uri;
 
     iget-object v2, p0, Lcom/tencent/mm/booter/Cclz;->bfq:[Ljava/lang/String;
 
@@ -113,7 +113,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     .line 97
     :cond_0
@@ -144,7 +144,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     goto :goto_1
 
@@ -154,7 +154,7 @@
 
     const-string/jumbo v2, "com.tencent.mm.coolassist"
 
-    invoke-static {v2, p1}, Lcom/tencent/mm/sdk/platformtools/bc;->j(Ljava/lang/String;Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v2, p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->j(Ljava/lang/String;Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -172,13 +172,13 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     goto :goto_1
 
     .line 85
     :cond_3
-    invoke-static {}, Lcom/tencent/mm/sdk/b/b;->aNI()V
+    invoke-static {}, Lcom/tencent/mm/sdk/b/Bclz;->aNI()V
 
     .line 86
     const-string/jumbo v1, "key"
@@ -242,7 +242,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     goto :goto_1
 .end method
@@ -294,7 +294,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, v8}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v1, v8}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v5
 
@@ -305,7 +305,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -318,7 +318,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, v8}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v1, v8}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v1
 
@@ -347,11 +347,11 @@
     if-lez v2, :cond_0
 
     .line 111
-    new-instance v2, Lcom/tencent/mm/sdk/platformtools/az;
+    new-instance v2, Lcom/tencent/mm/sdk/platformtools/AZclz;
 
-    invoke-direct {v2, v1}, Lcom/tencent/mm/sdk/platformtools/az;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v1}, Lcom/tencent/mm/sdk/platformtools/AZclz;-><init>(Ljava/lang/String;)V
 
-    sput-object v2, Lcom/tencent/mm/xlog/Xlog;->kNh:Lcom/tencent/mm/sdk/platformtools/az;
+    sput-object v2, Lcom/tencent/mm/xlog/Xlog;->kNh:Lcom/tencent/mm/sdk/platformtools/AZclz;
 
     .line 115
     :cond_0
@@ -396,7 +396,7 @@
 
     sget-object v2, Lcom/tencent/mm/storage/Jclz;->jlg:Ljava/lang/String;
 
-    sget-object v3, Lcom/tencent/mm/compatible/util/d;->bnK:Ljava/lang/String;
+    sget-object v3, Lcom/tencent/mm/compatible/util/Dclz;->bnK:Ljava/lang/String;
 
     invoke-static {v5}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -424,11 +424,11 @@
 
     .line 131
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->getLogLevel()I
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->getLogLevel()I
 
     move-result v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/v;->oF(I)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->oF(I)V
 
     .line 132
     return-void
@@ -505,7 +505,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 622
     check-cast v0, Ljava/lang/Boolean;
@@ -566,7 +566,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 598
     check-cast v0, Ljava/lang/Integer;
@@ -628,7 +628,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 588
     check-cast v0, Ljava/lang/String;

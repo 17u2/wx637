@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/search/a/i$b;
-.super Lcom/tencent/mm/modelsearch/m$a;
+.super Lcom/tencent/mm/modelsearch/Mclz$a;
 .source "SourceFile"
 
 
@@ -21,7 +21,7 @@
 
 .field final synthetic fIJ:Lcom/tencent/mm/plugin/search/a/i;
 
-.field private fIK:Lcom/tencent/mm/modelsearch/k$g;
+.field private fIK:Lcom/tencent/mm/modelsearch/Kclz$g;
 
 
 # direct methods
@@ -32,13 +32,13 @@
     .line 116
     iput-object p1, p0, Lcom/tencent/mm/plugin/search/a/i$b;->fIJ:Lcom/tencent/mm/plugin/search/a/i;
 
-    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/m$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/Mclz$a;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -55,7 +55,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -71,12 +71,12 @@
     return p1
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/plugin/search/a/i$b;Lcom/tencent/mm/modelsearch/k$g;)Lcom/tencent/mm/modelsearch/k$g;
+.method static synthetic a(Lcom/tencent/mm/plugin/search/a/i$b;Lcom/tencent/mm/modelsearch/Kclz$g;)Lcom/tencent/mm/modelsearch/Kclz$g;
     .locals 0
 
     .prologue
     .line 116
-    iput-object p1, p0, Lcom/tencent/mm/plugin/search/a/i$b;->fIK:Lcom/tencent/mm/modelsearch/k$g;
+    iput-object p1, p0, Lcom/tencent/mm/plugin/search/a/i$b;->fIK:Lcom/tencent/mm/modelsearch/Kclz$g;
 
     return-object p1
 .end method
@@ -108,11 +108,11 @@
     .line 123
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/i$b;->fIJ:Lcom/tencent/mm/plugin/search/a/i;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/i;->fII:Lcom/tencent/mm/modelsearch/a/a;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/i;->fII:Lcom/tencent/mm/modelsearch/a/Aclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/a/i$b;->aBw:Ljava/lang/String;
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/search/a/i$b;->fIK:Lcom/tencent/mm/modelsearch/k$g;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/search/a/i$b;->fIK:Lcom/tencent/mm/modelsearch/Kclz$g;
 
     iget v3, p0, Lcom/tencent/mm/plugin/search/a/i$b;->arG:I
 
@@ -120,24 +120,24 @@
 
     move-result-object v1
 
-    iget-object v4, v0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v4, v0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v4}, Lcom/tencent/mm/modelsearch/h;->inTransaction()Z
+    invoke-interface {v4}, Lcom/tencent/mm/modelsearch/Hclz;->inTransaction()Z
 
     move-result v4
 
     if-nez v4, :cond_0
 
-    iget-object v5, v0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v5, v0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v5}, Lcom/tencent/mm/modelsearch/h;->beginTransaction()V
+    invoke-interface {v5}, Lcom/tencent/mm/modelsearch/Hclz;->beginTransaction()V
 
     :cond_0
     new-array v5, v12, [Ljava/lang/Object;
 
     aput-object v1, v5, v11
 
-    iget-object v6, v2, Lcom/tencent/mm/modelsearch/k$g;->bRF:Ljava/lang/String;
+    iget-object v6, v2, Lcom/tencent/mm/modelsearch/Kclz$g;->bRF:Ljava/lang/String;
 
     aput-object v6, v5, v10
 
@@ -151,7 +151,7 @@
 
     new-array v7, v10, [Ljava/lang/Object;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelsearch/a/a;->AT()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelsearch/a/Aclz;->AT()Ljava/lang/String;
 
     move-result-object v8
 
@@ -161,11 +161,11 @@
 
     move-result-object v6
 
-    iget-object v7, v0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v7, v0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v7, v6, v5}, Lcom/tencent/mm/modelsearch/h;->execSQL(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-interface {v7, v6, v5}, Lcom/tencent/mm/modelsearch/Hclz;->execSQL(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iget-object v5, v0, Lcom/tencent/mm/modelsearch/a/a;->bRU:Lcom/tencent/kingkong/database/SQLiteStatement;
+    iget-object v5, v0, Lcom/tencent/mm/modelsearch/a/Aclz;->bRU:Lcom/tencent/kingkong/database/SQLiteStatement;
 
     invoke-virtual {v5}, Lcom/tencent/kingkong/database/SQLiteStatement;->simpleQueryForLong()J
 
@@ -175,71 +175,71 @@
 
     if-nez v5, :cond_1
 
-    iget-object v5, v0, Lcom/tencent/mm/modelsearch/a/a;->bRQ:Lcom/tencent/kingkong/database/SQLiteStatement;
+    iget-object v5, v0, Lcom/tencent/mm/modelsearch/a/Aclz;->bRQ:Lcom/tencent/kingkong/database/SQLiteStatement;
 
-    iget-object v6, v2, Lcom/tencent/mm/modelsearch/k$g;->content:Ljava/lang/String;
+    iget-object v6, v2, Lcom/tencent/mm/modelsearch/Kclz$g;->content:Ljava/lang/String;
 
     invoke-virtual {v5, v10, v6}, Lcom/tencent/kingkong/database/SQLiteStatement;->bindString(ILjava/lang/String;)V
 
-    iget-object v5, v0, Lcom/tencent/mm/modelsearch/a/a;->bRQ:Lcom/tencent/kingkong/database/SQLiteStatement;
+    iget-object v5, v0, Lcom/tencent/mm/modelsearch/a/Aclz;->bRQ:Lcom/tencent/kingkong/database/SQLiteStatement;
 
     invoke-virtual {v5}, Lcom/tencent/kingkong/database/SQLiteStatement;->execute()V
 
-    iget-object v5, v2, Lcom/tencent/mm/modelsearch/k$g;->content:Ljava/lang/String;
+    iget-object v5, v2, Lcom/tencent/mm/modelsearch/Kclz$g;->content:Ljava/lang/String;
 
     invoke-virtual {v5}, Ljava/lang/String;->getBytes()[B
 
     move-result-object v5
 
-    invoke-static {v5}, Lcom/tencent/mm/a/f;->m([B)Ljava/lang/String;
+    invoke-static {v5}, Lcom/tencent/mm/a/Fclz;->m([B)Ljava/lang/String;
 
     move-result-object v5
 
-    iget-object v6, v0, Lcom/tencent/mm/modelsearch/a/a;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
+    iget-object v6, v0, Lcom/tencent/mm/modelsearch/a/Aclz;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
 
-    iget v7, v2, Lcom/tencent/mm/modelsearch/k$g;->type:I
+    iget v7, v2, Lcom/tencent/mm/modelsearch/Kclz$g;->type:I
 
     int-to-long v7, v7
 
     invoke-virtual {v6, v10, v7, v8}, Lcom/tencent/kingkong/database/SQLiteStatement;->bindLong(IJ)V
 
-    iget-object v6, v0, Lcom/tencent/mm/modelsearch/a/a;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
+    iget-object v6, v0, Lcom/tencent/mm/modelsearch/a/Aclz;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
 
-    iget v7, v2, Lcom/tencent/mm/modelsearch/k$g;->bRD:I
+    iget v7, v2, Lcom/tencent/mm/modelsearch/Kclz$g;->bRD:I
 
     int-to-long v7, v7
 
     invoke-virtual {v6, v9, v7, v8}, Lcom/tencent/kingkong/database/SQLiteStatement;->bindLong(IJ)V
 
-    iget-object v6, v0, Lcom/tencent/mm/modelsearch/a/a;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
+    iget-object v6, v0, Lcom/tencent/mm/modelsearch/a/Aclz;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
 
-    iget-wide v7, v2, Lcom/tencent/mm/modelsearch/k$g;->bRE:J
+    iget-wide v7, v2, Lcom/tencent/mm/modelsearch/Kclz$g;->bRE:J
 
     invoke-virtual {v6, v12, v7, v8}, Lcom/tencent/kingkong/database/SQLiteStatement;->bindLong(IJ)V
 
-    iget-object v6, v0, Lcom/tencent/mm/modelsearch/a/a;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
+    iget-object v6, v0, Lcom/tencent/mm/modelsearch/a/Aclz;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
 
     const/4 v7, 0x4
 
-    iget-object v8, v2, Lcom/tencent/mm/modelsearch/k$g;->bRF:Ljava/lang/String;
+    iget-object v8, v2, Lcom/tencent/mm/modelsearch/Kclz$g;->bRF:Ljava/lang/String;
 
     invoke-virtual {v6, v7, v8}, Lcom/tencent/kingkong/database/SQLiteStatement;->bindString(ILjava/lang/String;)V
 
-    iget-object v6, v0, Lcom/tencent/mm/modelsearch/a/a;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
+    iget-object v6, v0, Lcom/tencent/mm/modelsearch/a/Aclz;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
 
     const/4 v7, 0x5
 
-    iget-wide v8, v2, Lcom/tencent/mm/modelsearch/k$g;->timestamp:J
+    iget-wide v8, v2, Lcom/tencent/mm/modelsearch/Kclz$g;->timestamp:J
 
     invoke-virtual {v6, v7, v8, v9}, Lcom/tencent/kingkong/database/SQLiteStatement;->bindLong(IJ)V
 
-    iget-object v2, v0, Lcom/tencent/mm/modelsearch/a/a;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
+    iget-object v2, v0, Lcom/tencent/mm/modelsearch/a/Aclz;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
 
     const/4 v6, 0x6
 
     invoke-virtual {v2, v6, v1}, Lcom/tencent/kingkong/database/SQLiteStatement;->bindString(ILjava/lang/String;)V
 
-    iget-object v2, v0, Lcom/tencent/mm/modelsearch/a/a;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
+    iget-object v2, v0, Lcom/tencent/mm/modelsearch/a/Aclz;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
 
     const/4 v6, 0x7
 
@@ -247,7 +247,7 @@
 
     invoke-virtual {v2, v6, v7, v8}, Lcom/tencent/kingkong/database/SQLiteStatement;->bindLong(IJ)V
 
-    iget-object v2, v0, Lcom/tencent/mm/modelsearch/a/a;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
+    iget-object v2, v0, Lcom/tencent/mm/modelsearch/a/Aclz;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
 
     const/16 v6, 0x8
 
@@ -255,13 +255,13 @@
 
     invoke-virtual {v2, v6, v7, v8}, Lcom/tencent/kingkong/database/SQLiteStatement;->bindLong(IJ)V
 
-    iget-object v2, v0, Lcom/tencent/mm/modelsearch/a/a;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
+    iget-object v2, v0, Lcom/tencent/mm/modelsearch/a/Aclz;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
 
     const/16 v3, 0x9
 
     invoke-virtual {v2, v3, v5}, Lcom/tencent/kingkong/database/SQLiteStatement;->bindString(ILjava/lang/String;)V
 
-    iget-object v2, v0, Lcom/tencent/mm/modelsearch/a/a;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
+    iget-object v2, v0, Lcom/tencent/mm/modelsearch/a/Aclz;->bRR:Lcom/tencent/kingkong/database/SQLiteStatement;
 
     invoke-virtual {v2}, Lcom/tencent/kingkong/database/SQLiteStatement;->execute()V
 
@@ -288,7 +288,7 @@
 
     new-array v3, v10, [Ljava/lang/Object;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelsearch/a/a;->AT()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelsearch/a/Aclz;->AT()Ljava/lang/String;
 
     move-result-object v5
 
@@ -302,15 +302,15 @@
 
     aput-object v1, v3, v11
 
-    iget-object v1, v0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v1, v0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v1, v2, v3}, Lcom/tencent/mm/modelsearch/h;->execSQL(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-interface {v1, v2, v3}, Lcom/tencent/mm/modelsearch/Hclz;->execSQL(Ljava/lang/String;[Ljava/lang/Object;)V
 
     const-string/jumbo v1, "UPDATE %s SET score=score-1 WHERE query LIKE ?;"
 
     new-array v2, v10, [Ljava/lang/Object;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelsearch/a/a;->AT()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelsearch/a/Aclz;->AT()Ljava/lang/String;
 
     move-result-object v5
 
@@ -320,20 +320,20 @@
 
     move-result-object v1
 
-    iget-object v2, v0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v2, v0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v2, v1, v3}, Lcom/tencent/mm/modelsearch/h;->execSQL(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-interface {v2, v1, v3}, Lcom/tencent/mm/modelsearch/Hclz;->execSQL(Ljava/lang/String;[Ljava/lang/Object;)V
 
     if-nez v4, :cond_2
 
-    iget-object v1, v0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v1, v0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v1}, Lcom/tencent/mm/modelsearch/h;->commit()V
+    invoke-interface {v1}, Lcom/tencent/mm/modelsearch/Hclz;->commit()V
 
     :cond_2
-    invoke-virtual {v0}, Lcom/tencent/mm/modelsearch/a/a;->Bs()V
+    invoke-virtual {v0}, Lcom/tencent/mm/modelsearch/a/Aclz;->Bs()V
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelsearch/a/a;->Bt()V
+    invoke-virtual {v0}, Lcom/tencent/mm/modelsearch/a/Aclz;->Bt()V
 
     .line 124
     return v10

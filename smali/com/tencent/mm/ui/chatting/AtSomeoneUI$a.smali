@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/ui/chatting/AtSomeoneUI$a;
-.super Lcom/tencent/mm/ui/i;
+.super Lcom/tencent/mm/ui/Iclz;
 .source "SourceFile"
 
 
@@ -30,7 +30,7 @@
 
     .prologue
     .line 199
-    invoke-direct {p0, p1, p2}, Lcom/tencent/mm/ui/i;-><init>(Landroid/content/Context;Ljava/lang/Object;)V
+    invoke-direct {p0, p1, p2}, Lcom/tencent/mm/ui/Iclz;-><init>(Landroid/content/Context;Ljava/lang/Object;)V
 
     .line 200
     iput-object p3, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneUI$a;->cOY:Lcom/tencent/mm/storage/Eclz;
@@ -46,7 +46,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -98,7 +98,7 @@
     invoke-virtual {p0, v0}, Lcom/tencent/mm/ui/chatting/AtSomeoneUI$a;->setCursor(Landroid/database/Cursor;)V
 
     .line 266
-    invoke-super {p0}, Lcom/tencent/mm/ui/i;->notifyDataSetChanged()V
+    invoke-super {p0}, Lcom/tencent/mm/ui/Iclz;->notifyDataSetChanged()V
 
     .line 267
     return-void
@@ -264,7 +264,7 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneUI$a;->context:Landroid/content/Context;
 
-    iget-object v1, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->eA(Ljava/lang/String;)Z
 
@@ -275,7 +275,7 @@
     const v1, 0x7f0b01e3
 
     :goto_1
-    invoke-static {v4, v1}, Lcom/tencent/mm/at/a;->t(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
+    invoke-static {v4, v1}, Lcom/tencent/mm/at/Aclz;->t(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
 
     move-result-object v1
 
@@ -291,12 +291,12 @@
     check-cast v1, Landroid/widget/ImageView;
 
     .line 225
-    iget-object v3, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
 
     .line 228
-    iget v1, v0, Lcom/tencent/mm/d/b/o;->field_verifyFlag:I
+    iget v1, v0, Lcom/tencent/mm/d/b/Oclz;->field_verifyFlag:I
 
     if-eqz v1, :cond_5
 
@@ -308,7 +308,7 @@
     .line 231
     sget-object v1, Lcom/tencent/mm/model/Zclz$a;->btj:Lcom/tencent/mm/model/Zclz$d;
 
-    iget v3, v0, Lcom/tencent/mm/d/b/o;->field_verifyFlag:I
+    iget v3, v0, Lcom/tencent/mm/d/b/Oclz;->field_verifyFlag:I
 
     invoke-interface {v1, v3}, Lcom/tencent/mm/model/Zclz$d;->cC(I)Ljava/lang/String;
 
@@ -331,20 +331,20 @@
 
     .line 247
     :goto_2
-    iget-object v1, v0, Lcom/tencent/mm/d/b/o;->field_conRemark:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/d/b/Oclz;->field_conRemark:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/platformtools/t;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/platformtools/Tclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
     if-nez v1, :cond_6
 
     .line 249
-    iget-object v1, v0, Lcom/tencent/mm/d/b/o;->field_conRemark:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/d/b/Oclz;->field_conRemark:Ljava/lang/String;
 
     .line 253
     :goto_3
-    invoke-static {v1}, Lcom/tencent/mm/platformtools/t;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/platformtools/Tclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -422,7 +422,7 @@
     :cond_6
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/AtSomeoneUI$a;->cOY:Lcom/tencent/mm/storage/Eclz;
 
-    iget-object v3, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lcom/tencent/mm/ui/chatting/AtSomeoneUI;->a(Lcom/tencent/mm/storage/Eclz;Ljava/lang/String;)Ljava/lang/String;
 

@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -64,10 +64,10 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 345
-    invoke-static {p4}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -90,7 +90,7 @@
     move-result-object v0
 
     .line 348
-    iget-wide v1, v0, Lcom/tencent/mm/h/a;->boB:J
+    iget-wide v1, v0, Lcom/tencent/mm/h/Aclz;->boB:J
 
     long-to-int v1, v1
 
@@ -101,11 +101,11 @@
 
     .line 351
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zj()Lcom/tencent/mm/modelfriend/t;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zj()Lcom/tencent/mm/modelfriend/Tclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p4}, Lcom/tencent/mm/modelfriend/t;->hn(Ljava/lang/String;)Z
+    invoke-virtual {v0, p4}, Lcom/tencent/mm/modelfriend/Tclz;->hn(Ljava/lang/String;)Z
 
     .line 352
     iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI$3;->jXe:Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;
@@ -124,11 +124,11 @@
     :cond_1
     iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI$3;->jXe:Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->f(Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;)Lcom/tencent/mm/ui/bindlinkedin/a;
+    invoke-static {v0}, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->f(Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;)Lcom/tencent/mm/ui/bindlinkedin/Aclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/bindlinkedin/a;->Fp()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/bindlinkedin/Aclz;->Fp()V
 
     .line 356
     :cond_2

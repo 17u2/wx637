@@ -23,7 +23,7 @@
 
     .prologue
     .line 988
-    sget-object v0, Lcom/tencent/mm/compatible/util/d;->bpW:Ljava/lang/String;
+    sget-object v0, Lcom/tencent/mm/compatible/util/Dclz;->bpW:Ljava/lang/String;
 
     sput-object v0, Lcom/tencent/mm/storage/Jclz;->bpW:Ljava/lang/String;
 
@@ -32,7 +32,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -61,7 +61,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

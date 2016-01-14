@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -72,7 +72,7 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 307
     if-nez p1, :cond_0
@@ -89,14 +89,14 @@
 
     aput-object p4, v2, v5
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 309
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zi()Lcom/tencent/mm/modelfriend/p;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zi()Lcom/tencent/mm/modelfriend/Pclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p4, v4}, Lcom/tencent/mm/modelfriend/p;->s(Ljava/lang/String;I)Z
+    invoke-virtual {v0, p4, v4}, Lcom/tencent/mm/modelfriend/Pclz;->s(Ljava/lang/String;I)Z
 
     .line 313
     :goto_0
@@ -113,11 +113,11 @@
 
     .line 311
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zi()Lcom/tencent/mm/modelfriend/p;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zi()Lcom/tencent/mm/modelfriend/Pclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p4, v6}, Lcom/tencent/mm/modelfriend/p;->s(Ljava/lang/String;I)Z
+    invoke-virtual {v0, p4, v6}, Lcom/tencent/mm/modelfriend/Pclz;->s(Ljava/lang/String;I)Z
 
     goto :goto_0
 .end method

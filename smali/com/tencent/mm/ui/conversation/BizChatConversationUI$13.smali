@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -73,18 +73,18 @@
 
     const-string/jumbo v1, "bizChatExtension bizChatConv change"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 979
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizChatConversationUI$13;->kvu:Lcom/tencent/mm/ui/conversation/BizChatConversationUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizChatConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizChatConversationUI;)Lcom/tencent/mm/ui/conversation/a;
+    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizChatConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizChatConversationUI;)Lcom/tencent/mm/ui/conversation/Aclz;
 
     move-result-object v0
 
     iget-wide v1, p1, Lcom/tencent/mm/s/Cclz$a$b;->bzG:J
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ui/conversation/a;->dE(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ui/conversation/Aclz;->dE(J)V
 
     .line 980
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizChatConversationUI$13;->kvu:Lcom/tencent/mm/ui/conversation/BizChatConversationUI;
@@ -96,11 +96,11 @@
     .line 981
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizChatConversationUI$13;->kvu:Lcom/tencent/mm/ui/conversation/BizChatConversationUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizChatConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizChatConversationUI;)Lcom/tencent/mm/ui/conversation/a;
+    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizChatConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizChatConversationUI;)Lcom/tencent/mm/ui/conversation/Aclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/conversation/a;->Fp()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/conversation/Aclz;->Fp()V
 
     .line 984
     :cond_0

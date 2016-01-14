@@ -1,5 +1,5 @@
 .class public Lcom/tencent/mm/svg/code/drawable/chatting_status_gray_tick;
-.super Lcom/tencent/mm/svg/c;
+.super Lcom/tencent/mm/svg/Cclz;
 .source "SourceFile"
 
 
@@ -23,7 +23,7 @@
 
     .prologue
     .line 15
-    invoke-direct {p0}, Lcom/tencent/mm/svg/c;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/svg/Cclz;-><init>()V
 
     .line 16
     const/16 v0, 0x1c
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -99,13 +99,13 @@
     check-cast v8, Landroid/os/Looper;
 
     .line 29
-    invoke-static {v8}, Lcom/tencent/mm/svg/c;->instanceMatrix(Landroid/os/Looper;)Landroid/graphics/Matrix;
+    invoke-static {v8}, Lcom/tencent/mm/svg/Cclz;->instanceMatrix(Landroid/os/Looper;)Landroid/graphics/Matrix;
 
     .line 30
-    invoke-static {v8}, Lcom/tencent/mm/svg/c;->instanceMatrixArray(Landroid/os/Looper;)[F
+    invoke-static {v8}, Lcom/tencent/mm/svg/Cclz;->instanceMatrixArray(Landroid/os/Looper;)[F
 
     .line 31
-    invoke-static {v8}, Lcom/tencent/mm/svg/c;->instancePaint(Landroid/os/Looper;)Landroid/graphics/Paint;
+    invoke-static {v8}, Lcom/tencent/mm/svg/Cclz;->instancePaint(Landroid/os/Looper;)Landroid/graphics/Paint;
 
     move-result-object v0
 
@@ -120,7 +120,7 @@
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     .line 34
-    invoke-static {v8}, Lcom/tencent/mm/svg/c;->instancePaint(Landroid/os/Looper;)Landroid/graphics/Paint;
+    invoke-static {v8}, Lcom/tencent/mm/svg/Cclz;->instancePaint(Landroid/os/Looper;)Landroid/graphics/Paint;
 
     move-result-object v1
 
@@ -165,7 +165,7 @@
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setPathEffect(Landroid/graphics/PathEffect;)Landroid/graphics/PathEffect;
 
     .line 43
-    invoke-static {v1, v8}, Lcom/tencent/mm/svg/c;->instancePaint(Landroid/graphics/Paint;Landroid/os/Looper;)Landroid/graphics/Paint;
+    invoke-static {v1, v8}, Lcom/tencent/mm/svg/Cclz;->instancePaint(Landroid/graphics/Paint;Landroid/os/Looper;)Landroid/graphics/Paint;
 
     move-result-object v2
 
@@ -178,7 +178,7 @@
     invoke-virtual {v2, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     .line 46
-    invoke-static {v0, v8}, Lcom/tencent/mm/svg/c;->instancePaint(Landroid/graphics/Paint;Landroid/os/Looper;)Landroid/graphics/Paint;
+    invoke-static {v0, v8}, Lcom/tencent/mm/svg/Cclz;->instancePaint(Landroid/graphics/Paint;Landroid/os/Looper;)Landroid/graphics/Paint;
 
     move-result-object v1
 
@@ -194,7 +194,7 @@
     invoke-virtual {v7}, Landroid/graphics/Canvas;->save()I
 
     .line 50
-    invoke-static {v1, v8}, Lcom/tencent/mm/svg/c;->instancePaint(Landroid/graphics/Paint;Landroid/os/Looper;)Landroid/graphics/Paint;
+    invoke-static {v1, v8}, Lcom/tencent/mm/svg/Cclz;->instancePaint(Landroid/graphics/Paint;Landroid/os/Looper;)Landroid/graphics/Paint;
 
     move-result-object v9
 
@@ -202,7 +202,7 @@
     invoke-virtual {v9, v1}, Landroid/graphics/Paint;->set(Landroid/graphics/Paint;)V
 
     .line 52
-    invoke-static {v8}, Lcom/tencent/mm/svg/c;->instancePath(Landroid/os/Looper;)Landroid/graphics/Path;
+    invoke-static {v8}, Lcom/tencent/mm/svg/Cclz;->instancePath(Landroid/os/Looper;)Landroid/graphics/Path;
 
     move-result-object v0
 
@@ -332,7 +332,7 @@
     invoke-virtual {v7}, Landroid/graphics/Canvas;->restore()V
 
     .line 66
-    invoke-static {v8}, Lcom/tencent/mm/svg/c;->done(Landroid/os/Looper;)V
+    invoke-static {v8}, Lcom/tencent/mm/svg/Cclz;->done(Landroid/os/Looper;)V
 
     goto/16 :goto_0
 

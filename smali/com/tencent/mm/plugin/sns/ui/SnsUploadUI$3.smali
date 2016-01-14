@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,7 +50,7 @@
     .line 743
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadUI$3;->gFz:Lcom/tencent/mm/plugin/sns/ui/SnsUploadUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/compatible/util/h;->i(Landroid/app/Activity;)V
+    invoke-static {v0}, Lcom/tencent/mm/compatible/util/Hclz;->i(Landroid/app/Activity;)V
 
     .line 744
     return-void

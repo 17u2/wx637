@@ -18,7 +18,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -156,7 +156,7 @@
     return-void
 .end method
 
-.method public final a(Lcom/tencent/mm/sdk/g/g$a;)V
+.method public final a(Lcom/tencent/mm/sdk/g/Gclz$a;)V
     .locals 0
 
     .prologue
@@ -212,7 +212,7 @@
     return-object v0
 .end method
 
-.method public final b(Lcom/tencent/mm/sdk/g/g$a;)V
+.method public final b(Lcom/tencent/mm/sdk/g/Gclz$a;)V
     .locals 0
 
     .prologue
@@ -274,7 +274,7 @@
     return-void
 .end method
 
-.method public final c(Lcom/tencent/mm/sdk/g/g$a;)V
+.method public final c(Lcom/tencent/mm/sdk/g/Gclz$a;)V
     .locals 0
 
     .prologue
@@ -282,7 +282,7 @@
     return-void
 .end method
 
-.method public final d(Lcom/tencent/mm/sdk/g/g$a;)V
+.method public final d(Lcom/tencent/mm/sdk/g/Gclz$a;)V
     .locals 0
 
     .prologue

@@ -25,7 +25,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -81,7 +81,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 97
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/e;->gAy:Landroid/view/View;
@@ -216,7 +216,7 @@
 
     move-result-object v9
 
-    invoke-static {v8, v9}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v8, v9}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string/jumbo v8, "!44@/B4Tb64lLpIUhDmLVZ6YSaSjb8IjuvWozOZNBfbefjw="
 
@@ -266,7 +266,7 @@
 
     move-result-object v9
 
-    invoke-static {v8, v9}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v8, v9}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v8, 0x0
 
@@ -332,9 +332,9 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid$a;->cXb:Lcom/tencent/mm/sdk/c/c;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid$a;->cXb:Lcom/tencent/mm/sdk/c/Cclz;
 
     if-nez v1, :cond_0
 
@@ -342,15 +342,15 @@
 
     invoke-direct {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid$a$2;-><init>(Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid$a;)V
 
-    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid$a;->cXb:Lcom/tencent/mm/sdk/c/c;
+    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid$a;->cXb:Lcom/tencent/mm/sdk/c/Cclz;
 
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v2, "RePullEmojiInfoDesc"
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid$a;->cXb:Lcom/tencent/mm/sdk/c/c;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid$a;->cXb:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 101
     :cond_0
@@ -426,7 +426,7 @@
 
     const/4 v3, 0x6
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v2, v3}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -436,7 +436,7 @@
 
     const/4 v4, 0x6
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v3, v4}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v3
 
@@ -500,7 +500,7 @@
 
     const-string/jumbo v1, "initDefaultSmileyView error"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 .end method

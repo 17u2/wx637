@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -70,7 +70,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 59
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout$2;->gtG:Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout;
@@ -150,7 +150,7 @@
     .line 67
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout$2;->gtG:Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout;->d(Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout;->d(Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v0
 
@@ -160,7 +160,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     goto :goto_0
 
@@ -168,7 +168,7 @@
     :pswitch_2
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout$2;->gtG:Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout;->d(Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout;->d(Lcom/tencent/mm/plugin/sns/ui/MaskLinearLayout;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v0
 
@@ -178,7 +178,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     goto :goto_0
 

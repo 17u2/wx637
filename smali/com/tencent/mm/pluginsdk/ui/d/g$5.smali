@@ -26,7 +26,7 @@
 
 .field final synthetic icV:Landroid/content/DialogInterface$OnDismissListener;
 
-.field final synthetic icX:Lcom/tencent/mm/ui/base/j;
+.field final synthetic icX:Lcom/tencent/mm/ui/base/Jclz;
 
 .field final synthetic icY:Landroid/os/Bundle;
 
@@ -34,7 +34,7 @@
 
 
 # direct methods
-.method constructor <init>(Ljava/lang/String;Ljava/util/List;Landroid/content/Context;Lcom/tencent/mm/ui/base/j;Landroid/content/DialogInterface$OnDismissListener;ILandroid/os/Bundle;)V
+.method constructor <init>(Ljava/lang/String;Ljava/util/List;Landroid/content/Context;Lcom/tencent/mm/ui/base/Jclz;Landroid/content/DialogInterface$OnDismissListener;ILandroid/os/Bundle;)V
     .locals 1
 
     .prologue
@@ -45,7 +45,7 @@
 
     iput-object p3, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->val$context:Landroid/content/Context;
 
-    iput-object p4, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->icX:Lcom/tencent/mm/ui/base/j;
+    iput-object p4, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->icX:Lcom/tencent/mm/ui/base/Jclz;
 
     iput-object p5, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->icV:Landroid/content/DialogInterface$OnDismissListener;
 
@@ -59,7 +59,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -124,7 +124,7 @@
     .line 218
     const-string/jumbo v1, "!44@/B4Tb64lLpJ721CYNoMrI4TNb+IdX5kijxTVE+9ur/c="
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 219
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->val$context:Landroid/content/Context;
@@ -181,9 +181,9 @@
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/plugin/report/service/h;->E(ILjava/lang/String;)V
 
     .line 225
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->icX:Lcom/tencent/mm/ui/base/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->icX:Lcom/tencent/mm/ui/base/Jclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/j;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Jclz;->dismiss()V
 
     .line 226
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->icV:Landroid/content/DialogInterface$OnDismissListener;
@@ -248,12 +248,12 @@
 
     const-string/jumbo v3, ".ui.IPCallTalkUI"
 
-    invoke-static {v1, v2, v3, v0}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {v1, v2, v3, v0}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     .line 235
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->icX:Lcom/tencent/mm/ui/base/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->icX:Lcom/tencent/mm/ui/base/Jclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/j;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Jclz;->dismiss()V
 
     .line 236
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->icV:Landroid/content/DialogInterface$OnDismissListener;
@@ -336,12 +336,12 @@
 
     invoke-direct {v5, p0}, Lcom/tencent/mm/pluginsdk/ui/d/g$5$2;-><init>(Lcom/tencent/mm/pluginsdk/ui/d/g$5;)V
 
-    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/ui/base/f$c;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog;
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/ui/base/Fclz$c;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog;
 
     .line 298
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->icX:Lcom/tencent/mm/ui/base/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->icX:Lcom/tencent/mm/ui/base/Jclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/j;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Jclz;->dismiss()V
 
     goto/16 :goto_0
 
@@ -434,9 +434,9 @@
 
     .line 308
     :cond_6
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->icX:Lcom/tencent/mm/ui/base/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->icX:Lcom/tencent/mm/ui/base/Jclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/j;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Jclz;->dismiss()V
 
     goto/16 :goto_0
 
@@ -461,7 +461,7 @@
 
     const-string/jumbo v1, "hy: button should consume this action"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -487,9 +487,9 @@
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/g;->a(Landroid/app/Activity;Ljava/lang/String;Landroid/os/Bundle;)V
 
     .line 322
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->icX:Lcom/tencent/mm/ui/base/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->icX:Lcom/tencent/mm/ui/base/Jclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/j;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Jclz;->dismiss()V
 
     .line 323
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->icV:Landroid/content/DialogInterface$OnDismissListener;
@@ -509,12 +509,12 @@
 
     const-string/jumbo v1, "hy: error phone item clicked. should not happen"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 329
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->icX:Lcom/tencent/mm/ui/base/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->icX:Lcom/tencent/mm/ui/base/Jclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/j;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Jclz;->dismiss()V
 
     .line 330
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/g$5;->icV:Landroid/content/DialogInterface$OnDismissListener;

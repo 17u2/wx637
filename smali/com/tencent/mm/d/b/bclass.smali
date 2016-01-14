@@ -1,5 +1,5 @@
 .class public abstract Lcom/tencent/mm/d/b/bclass;
-.super Lcom/tencent/mm/sdk/g/c;
+.super Lcom/tencent/mm/sdk/g/Cclz;
 .source "SourceFile"
 
 
@@ -306,7 +306,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -319,7 +319,7 @@
     const/4 v0, 0x1
 
     .line 7
-    invoke-direct {p0}, Lcom/tencent/mm/sdk/g/c;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/sdk/g/Cclz;-><init>()V
 
     .line 31
     iput-boolean v0, p0, Lcom/tencent/mm/d/b/bclass;->aHN:Z
@@ -379,7 +379,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

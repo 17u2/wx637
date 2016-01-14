@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static a(ILcom/tencent/mm/aq/b;)I
+.method public static a(ILcom/tencent/mm/aq/Bclz;)I
     .locals 2
 
     .prologue
@@ -21,7 +21,7 @@
 
     move-result v0
 
-    iget-object v1, p1, Lcom/tencent/mm/aq/b;->ihc:[B
+    iget-object v1, p1, Lcom/tencent/mm/aq/Bclz;->ihc:[B
 
     array-length v1, v1
 
@@ -31,7 +31,7 @@
 
     add-int/2addr v0, v1
 
-    iget-object v1, p1, Lcom/tencent/mm/aq/b;->ihc:[B
+    iget-object v1, p1, Lcom/tencent/mm/aq/Bclz;->ihc:[B
 
     array-length v1, v1
 
@@ -171,9 +171,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/aq/b;
+    check-cast v0, Lcom/tencent/mm/aq/Bclz;
 
-    invoke-static {p0, v0}, La/a/a/aclass;->a(ILcom/tencent/mm/aq/b;)I
+    invoke-static {p0, v0}, La/a/a/aclass;->a(ILcom/tencent/mm/aq/Bclz;)I
 
     move-result v0
 
@@ -436,9 +436,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/aq/a;
+    check-cast v0, Lcom/tencent/mm/aq/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/aq/a;->kx()I
+    invoke-virtual {v0}, Lcom/tencent/mm/aq/Aclz;->kx()I
 
     move-result v0
 

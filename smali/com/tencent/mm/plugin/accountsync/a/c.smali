@@ -20,7 +20,7 @@
 
 .field public static cfE:I
 
-.field private static cfG:Lcom/tencent/mm/sdk/platformtools/ag;
+.field private static cfG:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
 
 # instance fields
@@ -47,13 +47,13 @@
     .line 77
     const/4 v0, 0x0
 
-    sput-object v0, Lcom/tencent/mm/plugin/accountsync/a/c;->cfG:Lcom/tencent/mm/sdk/platformtools/ag;
+    sput-object v0, Lcom/tencent/mm/plugin/accountsync/a/c;->cfG:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -76,7 +76,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -119,12 +119,12 @@
     sput v2, Lcom/tencent/mm/plugin/accountsync/a/c;->bWO:I
 
     .line 89
-    sget-object v0, Lcom/tencent/mm/plugin/accountsync/a/c;->cfG:Lcom/tencent/mm/sdk/platformtools/ag;
+    sget-object v0, Lcom/tencent/mm/plugin/accountsync/a/c;->cfG:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     if-nez v0, :cond_0
 
     .line 90
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     new-instance v1, Lcom/tencent/mm/plugin/accountsync/a/c$1;
 
@@ -132,9 +132,9 @@
 
     const/4 v2, 0x1
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
-    sput-object v0, Lcom/tencent/mm/plugin/accountsync/a/c;->cfG:Lcom/tencent/mm/sdk/platformtools/ag;
+    sput-object v0, Lcom/tencent/mm/plugin/accountsync/a/c;->cfG:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     .line 100
     :cond_0
@@ -142,27 +142,27 @@
 
     const-string/jumbo v1, "[oneliang][SmsVerifyCodeState]Sent"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 101
-    sget-object v0, Lcom/tencent/mm/plugin/accountsync/a/c;->cfG:Lcom/tencent/mm/sdk/platformtools/ag;
+    sget-object v0, Lcom/tencent/mm/plugin/accountsync/a/c;->cfG:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     const-wide/32 v1, 0xdbba0
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     goto :goto_0
 
     .line 105
     :pswitch_1
-    sget-object v0, Lcom/tencent/mm/plugin/accountsync/a/c;->cfG:Lcom/tencent/mm/sdk/platformtools/ag;
+    sget-object v0, Lcom/tencent/mm/plugin/accountsync/a/c;->cfG:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     if-eqz v0, :cond_1
 
     .line 106
-    sget-object v0, Lcom/tencent/mm/plugin/accountsync/a/c;->cfG:Lcom/tencent/mm/sdk/platformtools/ag;
+    sget-object v0, Lcom/tencent/mm/plugin/accountsync/a/c;->cfG:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ag;->aOk()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOk()V
 
     .line 108
     :cond_1
@@ -170,7 +170,7 @@
 
     const-string/jumbo v1, "[oneliang][SmsVerifyCodeState]verified"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 109
     sget v0, Lcom/tencent/mm/plugin/accountsync/a/c$a;->cfI:I
@@ -190,7 +190,7 @@
     .line 112
     const/4 v0, 0x0
 
-    sput-object v0, Lcom/tencent/mm/plugin/accountsync/a/c;->cfG:Lcom/tencent/mm/sdk/platformtools/ag;
+    sput-object v0, Lcom/tencent/mm/plugin/accountsync/a/c;->cfG:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     goto :goto_0
 
@@ -269,13 +269,13 @@
     .line 50
     iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/a/c;->cfF:Lcom/tencent/mm/plugin/accountsync/model/a;
 
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v2, "ModNewContact"
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/accountsync/model/a;->cfQ:Lcom/tencent/mm/sdk/c/c;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/accountsync/model/a;->cfQ:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/sdk/c/Aclz;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 51
     const/4 v0, 0x0

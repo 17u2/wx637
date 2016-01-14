@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/ak/f;)V
+.method public final a(Lcom/tencent/mm/ak/Fclz;)V
     .locals 3
 
     .prologue
@@ -68,9 +68,9 @@
     .line 209
     const-string/jumbo v1, "KSightPath"
 
-    iget-object v2, p1, Lcom/tencent/mm/ak/f;->field_fileName:Ljava/lang/String;
+    iget-object v2, p1, Lcom/tencent/mm/ak/Fclz;->field_fileName:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/ak/g;->jf(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/ak/Gclz;->jf(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -79,9 +79,9 @@
     .line 210
     const-string/jumbo v1, "KSightThumbPath"
 
-    iget-object v2, p1, Lcom/tencent/mm/ak/f;->field_fileName:Ljava/lang/String;
+    iget-object v2, p1, Lcom/tencent/mm/ak/Fclz;->field_fileName:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/ak/g;->jg(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/ak/Gclz;->jg(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -90,7 +90,7 @@
     .line 211
     const-string/jumbo v1, "sight_md5"
 
-    iget-object v2, p1, Lcom/tencent/mm/ak/f;->field_fileMd5:Ljava/lang/String;
+    iget-object v2, p1, Lcom/tencent/mm/ak/Fclz;->field_fileMd5:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -154,11 +154,11 @@
 
     .line 231
     :goto_0
-    invoke-static {}, Lcom/tencent/mm/ak/j;->Dj()Lcom/tencent/mm/ak/h;
+    invoke-static {}, Lcom/tencent/mm/ak/Jclz;->Dj()Lcom/tencent/mm/ak/Hclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ak/h;->Dd()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ak/Hclz;->Dd()V
 
     .line 232
     return-void

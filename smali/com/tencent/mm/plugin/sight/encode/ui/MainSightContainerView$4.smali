@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView$4;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 9
 
     .prologue
@@ -57,7 +57,7 @@
     const/4 v2, 0x0
 
     .line 762
-    check-cast p1, Lcom/tencent/mm/d/a/jj;
+    check-cast p1, Lcom/tencent/mm/d/a/JJclz;
 
     .line 763
     const-string/jumbo v3, "!44@/B4Tb64lLpKAfMIFnYldsz1A02UYN/YVEbaF1ExyUNI="
@@ -78,9 +78,9 @@
 
     aput-object v0, v5, v2
 
-    iget-object v0, p1, Lcom/tencent/mm/d/a/jj;->aEt:Lcom/tencent/mm/d/a/jj$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/JJclz;->aEt:Lcom/tencent/mm/d/a/JJclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/jj$a;->type:I
+    iget v0, v0, Lcom/tencent/mm/d/a/JJclz$a;->type:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -134,12 +134,12 @@
 
     aput-object v0, v5, v8
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 765
-    iget-object v0, p1, Lcom/tencent/mm/d/a/jj;->aEt:Lcom/tencent/mm/d/a/jj$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/JJclz;->aEt:Lcom/tencent/mm/d/a/JJclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/jj$a;->type:I
+    iget v0, v0, Lcom/tencent/mm/d/a/JJclz$a;->type:I
 
     packed-switch v0, :pswitch_data_0
 
@@ -170,7 +170,7 @@
     if-eqz v0, :cond_0
 
     .line 768
-    iget-object v0, p1, Lcom/tencent/mm/d/a/jj;->aEu:Lcom/tencent/mm/d/a/jj$b;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/JJclz;->aEu:Lcom/tencent/mm/d/a/JJclz$b;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView$4;->gbj:Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView;
 
@@ -182,10 +182,10 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/d/a/jj$b;->aEz:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/d/a/JJclz$b;->aEz:Ljava/lang/String;
 
     .line 769
-    iget-object v0, p1, Lcom/tencent/mm/d/a/jj;->aEu:Lcom/tencent/mm/d/a/jj$b;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/JJclz;->aEu:Lcom/tencent/mm/d/a/JJclz$b;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView$4;->gbj:Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView;
 
@@ -193,7 +193,7 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/d/a/jj$b;->aEx:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/d/a/JJclz$b;->aEx:Ljava/lang/String;
 
     goto :goto_2
 
@@ -206,9 +206,9 @@
     .line 774
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView$4;->gbj:Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/jj;->aEt:Lcom/tencent/mm/d/a/jj$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/JJclz;->aEt:Lcom/tencent/mm/d/a/JJclz$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/jj$a;->aEx:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/JJclz$a;->aEx:Ljava/lang/String;
 
     invoke-static {v0, v3}, Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView;->a(Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView;Ljava/lang/String;)Ljava/lang/String;
 
@@ -226,7 +226,7 @@
 
     const-string/jumbo v1, "view has dismiss, dothing"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -303,19 +303,19 @@
     if-eqz v0, :cond_6
 
     .line 788
-    invoke-static {}, Lcom/tencent/mm/ak/j;->Dm()Lcom/tencent/mm/ak/g;
+    invoke-static {}, Lcom/tencent/mm/ak/Jclz;->Dm()Lcom/tencent/mm/ak/Gclz;
 
     move-result-object v0
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/jj;->aEt:Lcom/tencent/mm/d/a/jj$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/JJclz;->aEt:Lcom/tencent/mm/d/a/JJclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/jj$a;->aEw:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/JJclz$a;->aEw:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/jj;->aEt:Lcom/tencent/mm/d/a/jj$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/JJclz;->aEt:Lcom/tencent/mm/d/a/JJclz$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/jj$a;->aEx:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/JJclz$a;->aEx:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v3}, Lcom/tencent/mm/ak/g;->X(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v3}, Lcom/tencent/mm/ak/Gclz;->X(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 789
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView$4;->gbj:Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView;
@@ -326,19 +326,19 @@
 
     .line 792
     :cond_6
-    invoke-static {}, Lcom/tencent/mm/ak/j;->Dm()Lcom/tencent/mm/ak/g;
+    invoke-static {}, Lcom/tencent/mm/ak/Jclz;->Dm()Lcom/tencent/mm/ak/Gclz;
 
     move-result-object v0
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/jj;->aEt:Lcom/tencent/mm/d/a/jj$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/JJclz;->aEt:Lcom/tencent/mm/d/a/JJclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/jj$a;->aEw:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/JJclz$a;->aEw:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/jj;->aEt:Lcom/tencent/mm/d/a/jj$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/JJclz;->aEt:Lcom/tencent/mm/d/a/JJclz$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/jj$a;->aEx:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/JJclz$a;->aEx:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v3}, Lcom/tencent/mm/ak/g;->X(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v3}, Lcom/tencent/mm/ak/Gclz;->X(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 793
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView$4;->gbj:Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView;
@@ -363,9 +363,9 @@
     if-eqz v0, :cond_8
 
     .line 799
-    iget-object v0, p1, Lcom/tencent/mm/d/a/jj;->aEt:Lcom/tencent/mm/d/a/jj$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/JJclz;->aEt:Lcom/tencent/mm/d/a/JJclz$a;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/d/a/jj$a;->aEv:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/d/a/JJclz$a;->aEv:Z
 
     if-eqz v0, :cond_7
 
@@ -399,9 +399,9 @@
     .line 802
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView$4;->gbj:Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/jj;->aEt:Lcom/tencent/mm/d/a/jj$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/JJclz;->aEt:Lcom/tencent/mm/d/a/JJclz$a;
 
-    iget-boolean v1, v1, Lcom/tencent/mm/d/a/jj$a;->aEy:Z
+    iget-boolean v1, v1, Lcom/tencent/mm/d/a/JJclz$a;->aEy:Z
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView;->ep(Z)V
 
@@ -415,9 +415,9 @@
 
     .line 807
     :cond_8
-    iget-object v0, p1, Lcom/tencent/mm/d/a/jj;->aEt:Lcom/tencent/mm/d/a/jj$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/JJclz;->aEt:Lcom/tencent/mm/d/a/JJclz$a;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/d/a/jj$a;->aEv:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/d/a/JJclz$a;->aEv:Z
 
     if-eqz v0, :cond_9
 

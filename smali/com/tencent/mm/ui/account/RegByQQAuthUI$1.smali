@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -94,7 +94,7 @@
 
     const v2, 0x7f0900e2
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/ui/base/f;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/ui/base/Fclz;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/Gclz;
 
     .line 115
     :goto_0
@@ -102,7 +102,7 @@
 
     .line 106
     :cond_0
-    new-instance v0, Lcom/tencent/mm/modelsimple/v;
+    new-instance v0, Lcom/tencent/mm/modelsimple/Vclz;
 
     const-string/jumbo v1, ""
 
@@ -136,7 +136,7 @@
 
     const/4 v8, 0x2
 
-    invoke-direct/range {v0 .. v8}, Lcom/tencent/mm/modelsimple/v;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct/range {v0 .. v8}, Lcom/tencent/mm/modelsimple/Vclz;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 107
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -166,9 +166,9 @@
 
     new-instance v4, Lcom/tencent/mm/ui/account/RegByQQAuthUI$1$1;
 
-    invoke-direct {v4, p0, v0}, Lcom/tencent/mm/ui/account/RegByQQAuthUI$1$1;-><init>(Lcom/tencent/mm/ui/account/RegByQQAuthUI$1;Lcom/tencent/mm/modelsimple/v;)V
+    invoke-direct {v4, p0, v0}, Lcom/tencent/mm/ui/account/RegByQQAuthUI$1$1;-><init>(Lcom/tencent/mm/ui/account/RegByQQAuthUI$1;Lcom/tencent/mm/modelsimple/Vclz;)V
 
-    invoke-static {v2, v3, v9, v4}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v2, v3, v9, v4}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 

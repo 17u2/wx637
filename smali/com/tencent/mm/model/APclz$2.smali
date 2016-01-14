@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -70,7 +70,7 @@
 
     iget-wide v4, p0, Lcom/tencent/mm/model/APclz$2;->buw:J
 
-    iget-object v0, v1, Lcom/tencent/mm/storage/AEclz;->bvh:Lcom/tencent/mm/aw/g;
+    iget-object v0, v1, Lcom/tencent/mm/storage/AEclz;->bvh:Lcom/tencent/mm/aw/Gclz;
 
     invoke-virtual {v1, v3}, Lcom/tencent/mm/storage/AEclz;->Di(Ljava/lang/String;)Ljava/lang/String;
 
@@ -88,7 +88,7 @@
 
     move-object v6, v2
 
-    invoke-virtual/range {v0 .. v7}, Lcom/tencent/mm/aw/g;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v0 .. v7}, Lcom/tencent/mm/aw/Gclz;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -168,13 +168,13 @@
 
     const/4 v8, 0x1
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/ae;->aOH()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/AEclz;->aOH()Ljava/lang/String;
 
     move-result-object v9
 
     aput-object v9, v7, v8
 
-    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/AEclz;->Di(Ljava/lang/String;)Ljava/lang/String;
 
@@ -186,7 +186,7 @@
 
     invoke-virtual {v0, v5, v6, v2}, Lcom/tencent/mm/storage/AEclz;->a(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
-    iget-object v5, v0, Lcom/tencent/mm/storage/AEclz;->bvh:Lcom/tencent/mm/aw/g;
+    iget-object v5, v0, Lcom/tencent/mm/storage/AEclz;->bvh:Lcom/tencent/mm/aw/Gclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/AEclz;->Di(Ljava/lang/String;)Ljava/lang/String;
 
@@ -196,7 +196,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v5, v6, v3, v2}, Lcom/tencent/mm/aw/g;->delete(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I
+    invoke-virtual {v5, v6, v3, v2}, Lcom/tencent/mm/aw/Gclz;->delete(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I
 
     move-result v2
 
@@ -236,7 +236,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/model/APclz$2$1;-><init>(Lcom/tencent/mm/model/APclz$2;)V
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
 
     .line 349
     return-void

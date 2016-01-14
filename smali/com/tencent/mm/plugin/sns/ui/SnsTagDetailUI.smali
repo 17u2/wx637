@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lcom/tencent/mm/q/Dclz;
-.implements Lcom/tencent/mm/sdk/g/j$b;
+.implements Lcom/tencent/mm/sdk/g/Jclz$b;
 
 
 # instance fields
@@ -14,9 +14,9 @@
 
 .field protected cOi:Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;
 
-.field protected cfz:Lcom/tencent/mm/ui/base/o;
+.field protected cfz:Lcom/tencent/mm/ui/base/Oclz;
 
-.field protected cgw:Lcom/tencent/mm/ui/base/preference/f;
+.field protected cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
 .field protected gCJ:Ljava/util/List;
 
@@ -42,7 +42,7 @@
     .line 60
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     .line 65
     new-instance v0, Ljava/util/ArrayList;
@@ -78,7 +78,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -95,7 +95,7 @@
 
     const-string/jumbo v1, ","
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -125,7 +125,7 @@
 
     const/4 v4, 0x0
 
-    sget v5, Lcom/tencent/mm/ui/contact/q;->ktx:I
+    sget v5, Lcom/tencent/mm/ui/contact/Qclz;->ktx:I
 
     aput v5, v3, v4
 
@@ -133,7 +133,7 @@
 
     aput v4, v3, v6
 
-    invoke-static {v3}, Lcom/tencent/mm/ui/contact/q;->k([I)I
+    invoke-static {v3}, Lcom/tencent/mm/ui/contact/Qclz;->k([I)I
 
     move-result v3
 
@@ -145,7 +145,7 @@
 
     const-string/jumbo v0, ".ui.contact.SelectContactUI"
 
-    invoke-static {p0, v0, v1, v6}, Lcom/tencent/mm/ao/c;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;I)V
+    invoke-static {p0, v0, v1, v6}, Lcom/tencent/mm/ao/Cclz;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;I)V
 
     return-void
 .end method
@@ -157,11 +157,11 @@
     const/16 v3, 0x14
 
     .line 274
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "settings_tag_name"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
 
     move-result-object v0
 
@@ -195,9 +195,9 @@
     invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
     .line 281
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/ui/base/preference/f;->notifyDataSetChanged()V
+    invoke-interface {v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->notifyDataSetChanged()V
 
     .line 283
     :cond_1
@@ -215,16 +215,16 @@
     const/4 v3, 0x0
 
     .line 330
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/preference/MMPreference;->jUG:Lcom/tencent/mm/ui/base/preference/h;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/preference/MMPreference;->jUG:Lcom/tencent/mm/ui/base/preference/Hclz;
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     .line 331
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "roominfo_contact_anchor"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
 
     move-result-object v0
 
@@ -238,13 +238,13 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cOi:Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cOi:Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;
 
     iget-object v2, v2, Lcom/tencent/mm/ui/base/preference/Preference;->ccK:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->a(Lcom/tencent/mm/ui/base/preference/f;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->a(Lcom/tencent/mm/ui/base/preference/Fclz;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cOi:Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;
 
@@ -304,7 +304,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI$6;-><init>(Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;)V
 
-    sget v2, Lcom/tencent/mm/ui/j$b;->jyX:I
+    sget v2, Lcom/tencent/mm/ui/Jclz$b;->jyX:I
 
     invoke-virtual {p0, v3, v0, v1, v2}, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->a(ILjava/lang/String;Landroid/view/MenuItem$OnMenuItemClickListener;I)V
 
@@ -410,17 +410,17 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 618
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     if-eqz v0, :cond_0
 
     .line 619
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/o;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Oclz;->dismiss()V
 
     .line 621
     :cond_0
@@ -466,7 +466,7 @@
 
     const-string/jumbo v1, "update form net"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 631
     check-cast p4, Lcom/tencent/mm/plugin/sns/d/s;
@@ -496,7 +496,7 @@
 
     const-string/jumbo v2, ","
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -587,7 +587,7 @@
     .end packed-switch
 .end method
 
-.method public final a(ILcom/tencent/mm/sdk/g/j;Ljava/lang/Object;)V
+.method public final a(ILcom/tencent/mm/sdk/g/Jclz;Ljava/lang/Object;)V
     .locals 0
 
     .prologue
@@ -595,7 +595,7 @@
     return-void
 .end method
 
-.method public final a(Lcom/tencent/mm/ui/base/preference/f;Lcom/tencent/mm/ui/base/preference/Preference;)Z
+.method public final a(Lcom/tencent/mm/ui/base/preference/Fclz;Lcom/tencent/mm/ui/base/preference/Preference;)Z
     .locals 5
 
     .prologue
@@ -647,7 +647,7 @@
 
     const-string/jumbo v4, " "
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -681,7 +681,7 @@
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI$2;-><init>(Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;)V
 
-    invoke-static {p0, v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     .line 266
     :cond_2
@@ -738,9 +738,9 @@
 
     move-result-object v4
 
-    iget v4, v4, Lcom/tencent/mm/d/b/o;->field_type:I
+    iget v4, v4, Lcom/tencent/mm/d/b/Oclz;->field_type:I
 
-    invoke-static {v4}, Lcom/tencent/mm/h/a;->cf(I)Z
+    invoke-static {v4}, Lcom/tencent/mm/h/Aclz;->cf(I)Z
 
     move-result v4
 
@@ -847,7 +847,7 @@
 
     const-string/jumbo v2, ","
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -918,7 +918,7 @@
 
     move-result-object v1
 
-    invoke-static {p0, v0, v1, v8}, Lcom/tencent/mm/ui/base/f;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v1, v8}, Lcom/tencent/mm/ui/base/Fclz;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)Lcom/tencent/mm/ui/base/Gclz;
 
     goto :goto_0
 
@@ -964,11 +964,11 @@
 
     invoke-direct {v2, p0, v0}, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI$8;-><init>(Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;Lcom/tencent/mm/plugin/sns/d/t;)V
 
-    invoke-static {p0, v1, v8, v2}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {p0, v1, v8, v2}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     goto :goto_0
 .end method
@@ -982,7 +982,7 @@
 
     const-string/jumbo v1, "Base __onCreate"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 81
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -1029,7 +1029,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/storage/Qclz;->a(Lcom/tencent/mm/sdk/g/j$b;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/storage/Qclz;->a(Lcom/tencent/mm/sdk/g/Jclz$b;)V
 
     .line 88
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atA()Lcom/tencent/mm/plugin/sns/h/r;
@@ -1076,7 +1076,7 @@
 
     const-string/jumbo v1, "Base __onDestroy"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 201
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -1130,7 +1130,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/storage/Qclz;->b(Lcom/tencent/mm/sdk/g/j$b;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/storage/Qclz;->b(Lcom/tencent/mm/sdk/g/Jclz$b;)V
 
     .line 208
     :cond_0
@@ -1183,11 +1183,11 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI$3;-><init>(Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;)V
 
-    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     .line 300
     return-void
@@ -1237,7 +1237,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->h([Ljava/lang/String;)Ljava/util/List;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->h([Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
@@ -1286,7 +1286,7 @@
 
     const-string/jumbo v2, ","
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1338,7 +1338,7 @@
 
     const/4 v3, 0x0
 
-    invoke-static {p0, v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     goto :goto_0
 
@@ -1394,7 +1394,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1439,7 +1439,7 @@
 
     move-result-object v1
 
-    invoke-static {p0, v0, v1, v3}, Lcom/tencent/mm/ui/base/f;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v1, v3}, Lcom/tencent/mm/ui/base/Fclz;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)Lcom/tencent/mm/ui/base/Gclz;
 
     goto :goto_0
 
@@ -1496,7 +1496,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->h([Ljava/lang/String;)Ljava/util/List;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->h([Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
@@ -1528,7 +1528,7 @@
 
     const-string/jumbo v4, ","
 
-    invoke-static {v1, v4}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1599,7 +1599,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_4
 
@@ -1716,7 +1716,7 @@
 
     const-string/jumbo v2, ""
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1739,7 +1739,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->h([Ljava/lang/String;)Ljava/util/List;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->h([Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
@@ -1778,9 +1778,9 @@
 
     move-result-object v4
 
-    iget v4, v4, Lcom/tencent/mm/d/b/o;->field_type:I
+    iget v4, v4, Lcom/tencent/mm/d/b/Oclz;->field_type:I
 
-    invoke-static {v4}, Lcom/tencent/mm/h/a;->cf(I)Z
+    invoke-static {v4}, Lcom/tencent/mm/h/Aclz;->cf(I)Z
 
     move-result v4
 
@@ -1901,18 +1901,18 @@
     if-gez v0, :cond_7
 
     .line 152
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "delete_tag_name"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Ep(Ljava/lang/String;)Z
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Ep(Ljava/lang/String;)Z
 
     .line 153
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "delete_tag_name_category"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Ep(Ljava/lang/String;)Z
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Ep(Ljava/lang/String;)Z
 
     .line 155
     iget-wide v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->gip:J
@@ -1922,18 +1922,18 @@
     if-lez v0, :cond_7
 
     .line 156
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "settings_tag_name"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Ep(Ljava/lang/String;)Z
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Ep(Ljava/lang/String;)Z
 
     .line 157
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "settings_tag_name_category"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Ep(Ljava/lang/String;)Z
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Ep(Ljava/lang/String;)Z
 
     .line 163
     :cond_7
@@ -1944,18 +1944,18 @@
     if-nez v0, :cond_8
 
     .line 164
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "black"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Ep(Ljava/lang/String;)Z
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Ep(Ljava/lang/String;)Z
 
     .line 165
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "group"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Ep(Ljava/lang/String;)Z
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Ep(Ljava/lang/String;)Z
 
     .line 188
     :goto_2
@@ -1992,7 +1992,7 @@
 
     const-string/jumbo v2, ","
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -2018,35 +2018,35 @@
     if-nez v0, :cond_9
 
     .line 173
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "outside"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Ep(Ljava/lang/String;)Z
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Ep(Ljava/lang/String;)Z
 
     .line 174
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "group"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Ep(Ljava/lang/String;)Z
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Ep(Ljava/lang/String;)Z
 
     goto :goto_2
 
     .line 183
     :cond_9
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "black"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Ep(Ljava/lang/String;)Z
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Ep(Ljava/lang/String;)Z
 
     .line 184
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "outside"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Ep(Ljava/lang/String;)Z
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Ep(Ljava/lang/String;)Z
 
     goto :goto_2
 
@@ -2062,14 +2062,14 @@
 
     .prologue
     .line 212
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     if-eqz v0, :cond_0
 
     .line 217
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/o;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Oclz;->dismiss()V
 
     .line 219
     :cond_0
@@ -2172,9 +2172,9 @@
     invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->fD(Z)Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;
 
     .line 459
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/ui/base/preference/f;->notifyDataSetChanged()V
+    invoke-interface {v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->notifyDataSetChanged()V
 
     .line 464
     :cond_3

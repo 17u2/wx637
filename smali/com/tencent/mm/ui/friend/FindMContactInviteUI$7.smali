@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,7 +50,7 @@
     .line 296
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI$7;->kzc:Lcom/tencent/mm/ui/friend/FindMContactInviteUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->b(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;)Lcom/tencent/mm/modelfriend/j;
+    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->b(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;)Lcom/tencent/mm/modelfriend/Jclz;
 
     move-result-object v0
 
@@ -59,17 +59,17 @@
     .line 297
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI$7;->kzc:Lcom/tencent/mm/ui/friend/FindMContactInviteUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->b(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;)Lcom/tencent/mm/modelfriend/j;
+    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->b(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;)Lcom/tencent/mm/modelfriend/Jclz;
 
     move-result-object v0
 
-    iget-object v1, v0, Lcom/tencent/mm/modelfriend/j;->bEO:Lcom/tencent/mm/ui/applet/b;
+    iget-object v1, v0, Lcom/tencent/mm/modelfriend/Jclz;->bEO:Lcom/tencent/mm/ui/applet/Bclz;
 
     if-eqz v1, :cond_0
 
-    iget-object v0, v0, Lcom/tencent/mm/modelfriend/j;->bEO:Lcom/tencent/mm/ui/applet/b;
+    iget-object v0, v0, Lcom/tencent/mm/modelfriend/Jclz;->bEO:Lcom/tencent/mm/ui/applet/Bclz;
 
-    invoke-virtual {v0, p2}, Lcom/tencent/mm/ui/applet/b;->onTouchEvent(Landroid/view/MotionEvent;)V
+    invoke-virtual {v0, p2}, Lcom/tencent/mm/ui/applet/Bclz;->onTouchEvent(Landroid/view/MotionEvent;)V
 
     .line 299
     :cond_0

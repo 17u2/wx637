@@ -44,7 +44,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -61,7 +61,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -124,7 +124,7 @@
     .line 828
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$b;->fWu:Lcom/tencent/mm/plugin/sight/decode/a/b;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/a/b;->g(Lcom/tencent/mm/plugin/sight/decode/a/b;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/a/b;->g(Lcom/tencent/mm/plugin/sight/decode/a/b;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v0
 
@@ -132,7 +132,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/plugin/sight/decode/a/b$b$1;-><init>(Lcom/tencent/mm/plugin/sight/decode/a/b$b;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 836
     :cond_0
@@ -181,7 +181,7 @@
 
     aput-object v3, v2, v10
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1058
     :cond_1
@@ -223,7 +223,7 @@
 
     aput-object v3, v2, v6
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -424,7 +424,7 @@
 
     aput-object v1, v5, v11
 
-    invoke-static {v0, v3, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 874
     :cond_6
@@ -477,7 +477,7 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 884
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$b;->fWu:Lcom/tencent/mm/plugin/sight/decode/a/b;
@@ -586,7 +586,7 @@
 
     aput-object v3, v2, v6
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 894
     iput-boolean v6, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$b;->fWz:Z
@@ -612,7 +612,7 @@
     .line 1001
     iget-object v2, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$b;->fWu:Lcom/tencent/mm/plugin/sight/decode/a/b;
 
-    invoke-static {v2}, Lcom/tencent/mm/plugin/sight/decode/a/b;->g(Lcom/tencent/mm/plugin/sight/decode/a/b;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v2}, Lcom/tencent/mm/plugin/sight/decode/a/b;->g(Lcom/tencent/mm/plugin/sight/decode/a/b;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v2
 
@@ -620,7 +620,7 @@
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/plugin/sight/decode/a/b$b$3;-><init>(Lcom/tencent/mm/plugin/sight/decode/a/b$b;)V
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 1011
     :cond_a
@@ -657,7 +657,7 @@
 
     aput-object v3, v2, v6
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1014
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$b;->fWu:Lcom/tencent/mm/plugin/sight/decode/a/b;
@@ -820,7 +820,7 @@
 
     const-string/jumbo v2, "surface is null, continue"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     move v1, v4
 
@@ -862,7 +862,7 @@
 
     aput-object v5, v3, v10
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 923
     iput-boolean v6, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$b;->fWz:Z
@@ -1042,7 +1042,7 @@
 
     aput-object v1, v7, v11
 
-    invoke-static {v3, v5, v7}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v5, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 970
     :cond_14
@@ -1131,7 +1131,7 @@
 
     aput-object v1, v7, v11
 
-    invoke-static {v3, v5, v7}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v5, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_5
 
@@ -1180,7 +1180,7 @@
 
     aput-object v5, v3, v10
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto/16 :goto_5
 
@@ -1250,7 +1250,7 @@
 
     aput-object v5, v3, v10
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 983
     iput-boolean v6, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$b;->fWz:Z
@@ -1269,7 +1269,7 @@
     :cond_19
     iget-object v1, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$b;->fWu:Lcom/tencent/mm/plugin/sight/decode/a/b;
 
-    invoke-static {v1}, Lcom/tencent/mm/plugin/sight/decode/a/b;->g(Lcom/tencent/mm/plugin/sight/decode/a/b;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v1}, Lcom/tencent/mm/plugin/sight/decode/a/b;->g(Lcom/tencent/mm/plugin/sight/decode/a/b;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v1
 
@@ -1277,7 +1277,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/plugin/sight/decode/a/b$b$2;-><init>(Lcom/tencent/mm/plugin/sight/decode/a/b$b;)V
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 994
     iget-object v1, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$b;->fWu:Lcom/tencent/mm/plugin/sight/decode/a/b;
@@ -1363,7 +1363,7 @@
 
     int-to-long v0, v0
 
-    invoke-static {p0, v0, v1}, Lcom/tencent/mm/ak/j;->b(Ljava/lang/Runnable;J)Z
+    invoke-static {p0, v0, v1}, Lcom/tencent/mm/ak/Jclz;->b(Ljava/lang/Runnable;J)Z
 
     goto/16 :goto_0
 
@@ -1376,7 +1376,7 @@
     if-lez v2, :cond_1d
 
     .line 1027
-    invoke-static {p0, v0, v1}, Lcom/tencent/mm/ak/j;->b(Ljava/lang/Runnable;J)Z
+    invoke-static {p0, v0, v1}, Lcom/tencent/mm/ak/Jclz;->b(Ljava/lang/Runnable;J)Z
 
     goto/16 :goto_0
 
@@ -1384,7 +1384,7 @@
     :cond_1d
     const-wide/16 v0, 0x0
 
-    invoke-static {p0, v0, v1}, Lcom/tencent/mm/ak/j;->b(Ljava/lang/Runnable;J)Z
+    invoke-static {p0, v0, v1}, Lcom/tencent/mm/ak/Jclz;->b(Ljava/lang/Runnable;J)Z
 
     goto/16 :goto_0
 
@@ -1414,7 +1414,7 @@
     .line 1034
     iget-object v2, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$b;->fWu:Lcom/tencent/mm/plugin/sight/decode/a/b;
 
-    invoke-static {v2}, Lcom/tencent/mm/plugin/sight/decode/a/b;->g(Lcom/tencent/mm/plugin/sight/decode/a/b;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v2}, Lcom/tencent/mm/plugin/sight/decode/a/b;->g(Lcom/tencent/mm/plugin/sight/decode/a/b;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v2
 
@@ -1422,7 +1422,7 @@
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/plugin/sight/decode/a/b$b$4;-><init>(Lcom/tencent/mm/plugin/sight/decode/a/b$b;)V
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 1051
     iget-object v2, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$b;->fWA:Lcom/tencent/mm/plugin/sight/decode/a/b$c;
@@ -1432,7 +1432,7 @@
     .line 1052
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$b;->fWu:Lcom/tencent/mm/plugin/sight/decode/a/b;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/a/b;->g(Lcom/tencent/mm/plugin/sight/decode/a/b;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/a/b;->g(Lcom/tencent/mm/plugin/sight/decode/a/b;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v0
 
@@ -1440,7 +1440,7 @@
 
     int-to-long v3, v1
 
-    invoke-virtual {v0, v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v0, v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     goto/16 :goto_0
 
@@ -1453,13 +1453,13 @@
     .line 1055
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$b;->fWu:Lcom/tencent/mm/plugin/sight/decode/a/b;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/a/b;->g(Lcom/tencent/mm/plugin/sight/decode/a/b;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/a/b;->g(Lcom/tencent/mm/plugin/sight/decode/a/b;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sight/decode/a/b$b;->fWA:Lcom/tencent/mm/plugin/sight/decode/a/b$c;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     goto/16 :goto_0
 

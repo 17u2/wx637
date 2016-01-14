@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/sns/d/g$1;
-.super Lcom/tencent/mm/sdk/platformtools/w;
+.super Lcom/tencent/mm/sdk/platformtools/Wclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 137
     iput-object p1, p0, Lcom/tencent/mm/plugin/sns/d/g$1;->ghj:Lcom/tencent/mm/plugin/sns/d/g;
 
-    invoke-direct {p0, p2}, Lcom/tencent/mm/sdk/platformtools/w;-><init>(I)V
+    invoke-direct {p0, p2}, Lcom/tencent/mm/sdk/platformtools/Wclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -47,7 +47,7 @@
     .line 137
     check-cast p1, Ljava/lang/String;
 
-    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/platformtools/w;->create(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/platformtools/Wclz;->create(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -67,7 +67,7 @@
 
     check-cast p4, Landroid/graphics/Bitmap;
 
-    invoke-super {p0, p1, p2, p3, p4}, Lcom/tencent/mm/sdk/platformtools/w;->entryRemoved(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-super {p0, p1, p2, p3, p4}, Lcom/tencent/mm/sdk/platformtools/Wclz;->entryRemoved(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     const-string/jumbo v0, "!44@/B4Tb64lLpKfv4J3pSjdmocDFxYkuwbYDgnaIbU7POY="
 
@@ -101,7 +101,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/d/g$1;->ghj:Lcom/tencent/mm/plugin/sns/d/g;
 
@@ -174,9 +174,9 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-super {p0, p1, p2}, Lcom/tencent/mm/sdk/platformtools/w;->sizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
+    invoke-super {p0, p1, p2}, Lcom/tencent/mm/sdk/platformtools/Wclz;->sizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
 
     move-result v0
 
@@ -188,7 +188,7 @@
 
     .prologue
     .line 141
-    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/platformtools/w;->trimToSize(I)V
+    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/platformtools/Wclz;->trimToSize(I)V
 
     .line 142
     return-void

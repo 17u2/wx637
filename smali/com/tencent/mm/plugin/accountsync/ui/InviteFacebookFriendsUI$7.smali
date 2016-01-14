@@ -20,22 +20,22 @@
 # instance fields
 .field final synthetic cgk:Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI;
 
-.field final synthetic cgm:Lcom/tencent/mm/modelfriend/x;
+.field final synthetic cgm:Lcom/tencent/mm/modelfriend/Xclz;
 
-.field final synthetic cgn:Lcom/tencent/mm/sdk/platformtools/ag;
+.field final synthetic cgn:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI;Lcom/tencent/mm/sdk/platformtools/ag;Lcom/tencent/mm/modelfriend/x;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI;Lcom/tencent/mm/sdk/platformtools/AGclz;Lcom/tencent/mm/modelfriend/Xclz;)V
     .locals 1
 
     .prologue
     .line 226
     iput-object p1, p0, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$7;->cgk:Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$7;->cgn:Lcom/tencent/mm/sdk/platformtools/ag;
+    iput-object p2, p0, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$7;->cgn:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    iput-object p3, p0, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$7;->cgm:Lcom/tencent/mm/modelfriend/x;
+    iput-object p3, p0, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$7;->cgm:Lcom/tencent/mm/modelfriend/Xclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,16 +56,16 @@
 
     .prologue
     .line 229
-    iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$7;->cgn:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$7;->cgn:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ag;->aOk()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOk()V
 
     .line 230
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$7;->cgm:Lcom/tencent/mm/modelfriend/x;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$7;->cgm:Lcom/tencent/mm/modelfriend/Xclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 

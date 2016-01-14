@@ -48,7 +48,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -252,7 +252,7 @@
     .line 113
     new-instance v4, Ljava/util/Random;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v0
 
@@ -290,11 +290,11 @@
 
     .line 120
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/av/g;->aPJ()Lcom/tencent/mm/av/g;
+    invoke-static {}, Lcom/tencent/mm/av/Gclz;->aPJ()Lcom/tencent/mm/av/Gclz;
 
     const/16 v0, 0x88
 
-    invoke-static {v0}, Lcom/tencent/mm/av/g;->oP(I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0}, Lcom/tencent/mm/av/Gclz;->oP(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v6
 
@@ -410,9 +410,9 @@
     invoke-direct {v3, p0, v4, v5}, Lcom/tencent/mm/ui/chatting/ChattingAnimFrame$b;-><init>(Lcom/tencent/mm/ui/chatting/ChattingAnimFrame;II)V
 
     .line 97
-    invoke-static {}, Lcom/tencent/mm/av/g;->aPJ()Lcom/tencent/mm/av/g;
+    invoke-static {}, Lcom/tencent/mm/av/Gclz;->aPJ()Lcom/tencent/mm/av/Gclz;
 
-    invoke-static {p2}, Lcom/tencent/mm/av/g;->oP(I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p2}, Lcom/tencent/mm/av/Gclz;->oP(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v4
 

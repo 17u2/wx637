@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/app/plugin/b/a$g;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -22,14 +22,14 @@
     .line 176
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     .line 177
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -37,7 +37,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 7
 
     .prologue
@@ -48,7 +48,7 @@
     const/4 v1, 0x0
 
     .line 181
-    instance-of v3, p1, Lcom/tencent/mm/d/a/cu;
+    instance-of v3, p1, Lcom/tencent/mm/d/a/CUclz;
 
     if-nez v3, :cond_0
 
@@ -57,7 +57,7 @@
 
     const-string/jumbo v2, "mismatched event"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -67,10 +67,10 @@
 
     .line 185
     :cond_0
-    check-cast p1, Lcom/tencent/mm/d/a/cu;
+    check-cast p1, Lcom/tencent/mm/d/a/CUclz;
 
     .line 186
-    invoke-static {}, Lcom/tencent/mm/modelvoice/m;->DD()Lcom/tencent/mm/modelvoice/u;
+    invoke-static {}, Lcom/tencent/mm/modelvoice/Mclz;->DD()Lcom/tencent/mm/modelvoice/Uclz;
 
     move-result-object v3
 
@@ -85,7 +85,7 @@
 
     invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->aPp()Lcom/tencent/mm/sdk/platformtools/ae;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aPp()Lcom/tencent/mm/sdk/platformtools/AEclz;
 
     move-result-object v5
 
@@ -97,17 +97,17 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 189
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/modelvoice/m;->DD()Lcom/tencent/mm/modelvoice/u;
+    invoke-static {}, Lcom/tencent/mm/modelvoice/Mclz;->DD()Lcom/tencent/mm/modelvoice/Uclz;
 
     move-result-object v3
 
-    iget-object v4, p1, Lcom/tencent/mm/d/a/cu;->avU:Lcom/tencent/mm/d/a/cu$a;
+    iget-object v4, p1, Lcom/tencent/mm/d/a/CUclz;->avU:Lcom/tencent/mm/d/a/CUclz$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/cu$a;->ani:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/CUclz$a;->ani:Ljava/lang/String;
 
     if-nez v4, :cond_3
 
@@ -116,13 +116,13 @@
     if-eqz v0, :cond_2
 
     .line 191
-    iget-object v1, p1, Lcom/tencent/mm/d/a/cu;->avV:Lcom/tencent/mm/d/a/cu$b;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/CUclz;->avV:Lcom/tencent/mm/d/a/CUclz$b;
 
-    iget v0, v0, Lcom/tencent/mm/modelvoice/p;->bXz:I
+    iget v0, v0, Lcom/tencent/mm/modelvoice/Pclz;->bXz:I
 
     int-to-long v3, v0
 
-    iput-wide v3, v1, Lcom/tencent/mm/d/a/cu$b;->avx:J
+    iput-wide v3, v1, Lcom/tencent/mm/d/a/CUclz$b;->avx:J
 
     :cond_2
     move v0, v2
@@ -152,13 +152,13 @@
 
     move-result-object v5
 
-    iget-object v3, v3, Lcom/tencent/mm/modelvoice/u;->bvh:Lcom/tencent/mm/aw/g;
+    iget-object v3, v3, Lcom/tencent/mm/modelvoice/Uclz;->bvh:Lcom/tencent/mm/aw/Gclz;
 
     new-array v6, v2, [Ljava/lang/String;
 
     aput-object v4, v6, v1
 
-    invoke-virtual {v3, v5, v6}, Lcom/tencent/mm/aw/g;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v3, v5, v6}, Lcom/tencent/mm/aw/Gclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v1
 
@@ -192,7 +192,7 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-interface {v1}, Landroid/database/Cursor;->moveToFirst()Z
 
@@ -200,11 +200,11 @@
 
     if-eqz v3, :cond_4
 
-    new-instance v0, Lcom/tencent/mm/modelvoice/p;
+    new-instance v0, Lcom/tencent/mm/modelvoice/Pclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/modelvoice/p;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/modelvoice/Pclz;-><init>()V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelvoice/p;->c(Landroid/database/Cursor;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelvoice/Pclz;->c(Landroid/database/Cursor;)V
 
     :cond_4
     invoke-interface {v1}, Landroid/database/Cursor;->close()V

@@ -40,7 +40,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -92,21 +92,21 @@
 
     aput-object v4, v3, v11
 
-    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 178
     const/16 v0, 0x2712
 
-    sget v2, Lcom/tencent/mm/platformtools/r;->ceI:I
+    sget v2, Lcom/tencent/mm/platformtools/Rclz;->ceI:I
 
     if-ne v0, v2, :cond_0
 
-    sget v0, Lcom/tencent/mm/platformtools/r;->ceJ:I
+    sget v0, Lcom/tencent/mm/platformtools/Rclz;->ceJ:I
 
     if-lez v0, :cond_0
 
     .line 179
-    sput v11, Lcom/tencent/mm/platformtools/r;->ceJ:I
+    sput v11, Lcom/tencent/mm/platformtools/Rclz;->ceJ:I
 
     .line 180
     const-string/jumbo v0, ""
@@ -136,7 +136,7 @@
     iput-object v0, v2, Lcom/tencent/mm/protocal/b/ajj;->iRV:Lcom/tencent/mm/protocal/b/CXclz;
 
     .line 188
-    invoke-static {}, Lcom/tencent/mm/compatible/d/p;->oy()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/compatible/d/Pclz;->oy()Ljava/lang/String;
 
     move-result-object v0
 
@@ -179,7 +179,7 @@
     iput-object v0, v2, Lcom/tencent/mm/protocal/b/abg;->ims:Ljava/lang/String;
 
     .line 195
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/u;->aOg()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Uclz;->aOg()Ljava/lang/String;
 
     move-result-object v0
 
@@ -190,7 +190,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->aPi()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aPi()Ljava/lang/String;
 
     move-result-object v3
 
@@ -205,23 +205,23 @@
     iput-object v0, v2, Lcom/tencent/mm/protocal/b/abg;->dnA:Ljava/lang/String;
 
     .line 199
-    sget v0, Lcom/tencent/mm/sdk/platformtools/f;->jfb:I
+    sget v0, Lcom/tencent/mm/sdk/platformtools/Fclz;->jfb:I
 
     iput v0, v2, Lcom/tencent/mm/protocal/b/abg;->iiG:I
 
     .line 200
     const/16 v0, 0x271c
 
-    sget v3, Lcom/tencent/mm/platformtools/r;->ceI:I
+    sget v3, Lcom/tencent/mm/platformtools/Rclz;->ceI:I
 
     if-ne v0, v3, :cond_1
 
-    sget v0, Lcom/tencent/mm/platformtools/r;->ceJ:I
+    sget v0, Lcom/tencent/mm/platformtools/Rclz;->ceJ:I
 
     if-lez v0, :cond_1
 
     .line 201
-    sget v0, Lcom/tencent/mm/platformtools/r;->ceJ:I
+    sget v0, Lcom/tencent/mm/platformtools/Rclz;->ceJ:I
 
     iput v0, v2, Lcom/tencent/mm/protocal/b/abg;->iiG:I
 
@@ -242,7 +242,7 @@
     iput-object v0, v2, Lcom/tencent/mm/protocal/b/abg;->iKF:Ljava/lang/String;
 
     .line 207
-    invoke-static {}, Lcom/tencent/mm/compatible/d/p;->getSimCountryIso()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/compatible/d/Pclz;->getSimCountryIso()Ljava/lang/String;
 
     move-result-object v0
 
@@ -280,7 +280,7 @@
 
     aput-object v6, v5, v12
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 214
     iget-object v3, v2, Lcom/tencent/mm/protocal/b/abg;->imn:Lcom/tencent/mm/protocal/b/CWclz;
@@ -291,7 +291,7 @@
 
     invoke-direct {v4}, Lcom/tencent/mm/protocal/b/ajy;-><init>()V
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jZ(Ljava/lang/String;)[B
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jZ(Ljava/lang/String;)[B
 
     move-result-object v0
 
@@ -311,7 +311,7 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/protocal/b/ajy;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->aPg()[B
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aPg()[B
 
     move-result-object v4
 
@@ -402,7 +402,7 @@
 
     const/4 v0, 0x4
 
-    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/bc;->H([B)Ljava/lang/String;
+    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/BCclz;->H([B)Ljava/lang/String;
 
     move-result-object v1
 
@@ -410,13 +410,13 @@
 
     const/4 v0, 0x5
 
-    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/bc;->H([B)Ljava/lang/String;
+    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->H([B)Ljava/lang/String;
 
     move-result-object v1
 
     aput-object v1, v10, v0
 
-    invoke-static {v8, v9, v10}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v8, v9, v10}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 234
     new-instance v0, Lcom/tencent/mm/protocal/b/ajy;
@@ -493,7 +493,7 @@
 
     const/16 v4, 0x9
 
-    sget v5, Lcom/tencent/mm/sdk/platformtools/f;->akm:I
+    sget v5, Lcom/tencent/mm/sdk/platformtools/Fclz;->akm:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -525,7 +525,7 @@
 
     aput-object v2, v3, v4
 
-    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 242
     :try_start_0
@@ -563,13 +563,13 @@
 
     new-array v3, v12, [Ljava/lang/Object;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Throwable;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Throwable;)Ljava/lang/String;
 
     move-result-object v0
 
     aput-object v0, v3, v11
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 246
     const/4 v0, 0x0

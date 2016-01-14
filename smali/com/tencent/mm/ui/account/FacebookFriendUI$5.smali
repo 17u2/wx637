@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/ui/i$a;
+.implements Lcom/tencent/mm/ui/Iclz$a;
 
 
 # annotations
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -70,11 +70,11 @@
     .line 144
     iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookFriendUI$5;->jBs:Lcom/tencent/mm/ui/account/FacebookFriendUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/account/FacebookFriendUI;->b(Lcom/tencent/mm/ui/account/FacebookFriendUI;)Lcom/tencent/mm/ui/account/d;
+    invoke-static {v0}, Lcom/tencent/mm/ui/account/FacebookFriendUI;->b(Lcom/tencent/mm/ui/account/FacebookFriendUI;)Lcom/tencent/mm/ui/account/Dclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/account/d;->getCount()I
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/account/Dclz;->getCount()I
 
     move-result v0
 

@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/search/a/b/a;
-.super Lcom/tencent/mm/modelsearch/b;
+.super Lcom/tencent/mm/modelsearch/Bclz;
 .source "SourceFile"
 
 
@@ -25,13 +25,13 @@
 
     .prologue
     .line 15
-    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/b;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/Bclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -44,7 +44,7 @@
 
     .prologue
     .line 54
-    invoke-super {p0}, Lcom/tencent/mm/modelsearch/b;->AR()Z
+    invoke-super {p0}, Lcom/tencent/mm/modelsearch/Bclz;->AR()Z
 
     .line 55
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/b/a;->fJe:Lcom/tencent/kingkong/database/SQLiteStatement;
@@ -87,119 +87,119 @@
 
     .prologue
     .line 29
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
     const-string/jumbo v1, "CREATE TABLE IF NOT EXISTS ChatRoomMembers (chatroom TEXT, member TEXT);"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/h;->execSQL(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/Hclz;->execSQL(Ljava/lang/String;)V
 
     .line 30
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
     const-string/jumbo v1, "CREATE INDEX IF NOT EXISTS ChatRoomMembers_chatroom ON ChatRoomMembers(chatroom);"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/h;->execSQL(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/Hclz;->execSQL(Ljava/lang/String;)V
 
     .line 31
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
     const-string/jumbo v1, "CREATE INDEX IF NOT EXISTS ChatRoomMembers_member ON ChatRoomMembers(member);"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/h;->execSQL(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/Hclz;->execSQL(Ljava/lang/String;)V
 
     .line 33
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
     const-string/jumbo v1, "CREATE TABLE IF NOT EXISTS ContactLabels (user TEXT, label_id INTEGER);"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/h;->execSQL(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/Hclz;->execSQL(Ljava/lang/String;)V
 
     .line 34
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
     const-string/jumbo v1, "CREATE INDEX IF NOT EXISTS ContactLabels_user ON ContactLabels(user);"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/h;->execSQL(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/Hclz;->execSQL(Ljava/lang/String;)V
 
     .line 35
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
     const-string/jumbo v1, "CREATE INDEX IF NOT EXISTS ContactLabels_label ON ContactLabels(label_id);"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/h;->execSQL(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/Hclz;->execSQL(Ljava/lang/String;)V
 
     .line 37
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
     const-string/jumbo v1, "INSERT INTO ChatRoomMembers (chatroom, member) VALUES (?, ?);"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/h;->compileStatement(Ljava/lang/String;)Lcom/tencent/kingkong/database/SQLiteStatement;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/Hclz;->compileStatement(Ljava/lang/String;)Lcom/tencent/kingkong/database/SQLiteStatement;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/b/a;->fJe:Lcom/tencent/kingkong/database/SQLiteStatement;
 
     .line 39
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
     const-string/jumbo v1, "DELETE FROM ChatRoomMembers WHERE chatroom=? AND member=?;"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/h;->compileStatement(Ljava/lang/String;)Lcom/tencent/kingkong/database/SQLiteStatement;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/Hclz;->compileStatement(Ljava/lang/String;)Lcom/tencent/kingkong/database/SQLiteStatement;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/b/a;->fJf:Lcom/tencent/kingkong/database/SQLiteStatement;
 
     .line 41
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
     const-string/jumbo v1, "DELETE FROM ChatRoomMembers WHERE chatroom=?;"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/h;->compileStatement(Ljava/lang/String;)Lcom/tencent/kingkong/database/SQLiteStatement;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/Hclz;->compileStatement(Ljava/lang/String;)Lcom/tencent/kingkong/database/SQLiteStatement;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/b/a;->fJg:Lcom/tencent/kingkong/database/SQLiteStatement;
 
     .line 43
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
     const-string/jumbo v1, "INSERT INTO ContactLabels (user, label_id) VALUES (?, ?);"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/h;->compileStatement(Ljava/lang/String;)Lcom/tencent/kingkong/database/SQLiteStatement;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/Hclz;->compileStatement(Ljava/lang/String;)Lcom/tencent/kingkong/database/SQLiteStatement;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/b/a;->fJh:Lcom/tencent/kingkong/database/SQLiteStatement;
 
     .line 45
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
     const-string/jumbo v1, "DELETE FROM ContactLabels WHERE user=? AND label_id=?;"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/h;->compileStatement(Ljava/lang/String;)Lcom/tencent/kingkong/database/SQLiteStatement;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/Hclz;->compileStatement(Ljava/lang/String;)Lcom/tencent/kingkong/database/SQLiteStatement;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/b/a;->fJi:Lcom/tencent/kingkong/database/SQLiteStatement;
 
     .line 47
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
     const-string/jumbo v1, "DELETE FROM ContactLabels WHERE user=?;"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/h;->compileStatement(Ljava/lang/String;)Lcom/tencent/kingkong/database/SQLiteStatement;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/Hclz;->compileStatement(Ljava/lang/String;)Lcom/tencent/kingkong/database/SQLiteStatement;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/b/a;->fJj:Lcom/tencent/kingkong/database/SQLiteStatement;
 
     .line 49
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
     const-string/jumbo v1, "SELECT changes();"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/h;->compileStatement(Ljava/lang/String;)Lcom/tencent/kingkong/database/SQLiteStatement;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/Hclz;->compileStatement(Ljava/lang/String;)Lcom/tencent/kingkong/database/SQLiteStatement;
 
     move-result-object v0
 
@@ -227,9 +227,9 @@
 
     .line 132
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/modelsearch/h;->inTransaction()Z
+    invoke-interface {v0}, Lcom/tencent/mm/modelsearch/Hclz;->inTransaction()Z
 
     move-result v1
 
@@ -237,9 +237,9 @@
     if-nez v1, :cond_2
 
     .line 134
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/modelsearch/h;->beginTransaction()V
+    invoke-interface {v0}, Lcom/tencent/mm/modelsearch/Hclz;->beginTransaction()V
 
     .line 136
     :cond_2
@@ -281,9 +281,9 @@
     if-nez v1, :cond_0
 
     .line 144
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/modelsearch/h;->commit()V
+    invoke-interface {v0}, Lcom/tencent/mm/modelsearch/Hclz;->commit()V
 
     goto :goto_0
 .end method
@@ -348,9 +348,9 @@
 
     .line 84
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/modelsearch/h;->inTransaction()Z
+    invoke-interface {v0}, Lcom/tencent/mm/modelsearch/Hclz;->inTransaction()Z
 
     move-result v1
 
@@ -358,9 +358,9 @@
     if-nez v1, :cond_2
 
     .line 86
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/modelsearch/h;->beginTransaction()V
+    invoke-interface {v0}, Lcom/tencent/mm/modelsearch/Hclz;->beginTransaction()V
 
     .line 89
     :cond_2
@@ -411,9 +411,9 @@
     if-nez v1, :cond_0
 
     .line 97
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/modelsearch/h;->commit()V
+    invoke-interface {v0}, Lcom/tencent/mm/modelsearch/Hclz;->commit()V
 
     goto :goto_0
 .end method
@@ -446,7 +446,7 @@
     const-string/jumbo v0, "SELECT DISTINCT chatroom FROM ChatRoomMembers WHERE member=?;"
 
     .line 114
-    iget-object v1, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v1, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
     const/4 v2, 0x1
 
@@ -456,7 +456,7 @@
 
     aput-object p1, v2, v3
 
-    invoke-interface {v1, v0, v2}, Lcom/tencent/mm/modelsearch/h;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface {v1, v0, v2}, Lcom/tencent/mm/modelsearch/Hclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 

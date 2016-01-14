@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -82,7 +82,7 @@
     :cond_1
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/AddressUI$a$6;->kqD:Lcom/tencent/mm/ui/contact/AddressUI$a;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/contact/AddressUI$a;->a(Lcom/tencent/mm/ui/contact/AddressUI$a;)Lcom/tencent/mm/ui/contact/a;
+    invoke-static {v1}, Lcom/tencent/mm/ui/contact/AddressUI$a;->a(Lcom/tencent/mm/ui/contact/AddressUI$a;)Lcom/tencent/mm/ui/contact/Aclz;
 
     move-result-object v1
 
@@ -90,9 +90,9 @@
 
     const-string/jumbo v3, "getSections"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/contact/a;->kpK:[Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/ui/contact/Aclz;->kpK:[Ljava/lang/String;
 
     .line 629
     if-eqz v1, :cond_0
@@ -174,11 +174,11 @@
     .line 648
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/AddressUI$a$6;->kqD:Lcom/tencent/mm/ui/contact/AddressUI$a;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/contact/AddressUI$a;->a(Lcom/tencent/mm/ui/contact/AddressUI$a;)Lcom/tencent/mm/ui/contact/a;
+    invoke-static {v1}, Lcom/tencent/mm/ui/contact/AddressUI$a;->a(Lcom/tencent/mm/ui/contact/AddressUI$a;)Lcom/tencent/mm/ui/contact/Aclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/contact/a;->getPositionForSection(I)I
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/contact/Aclz;->getPositionForSection(I)I
 
     move-result v0
 

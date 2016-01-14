@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,11 +52,11 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$9;->kvD:Lcom/tencent/mm/ui/conversation/BizChatFavUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizChatFavUI;->a(Lcom/tencent/mm/ui/conversation/BizChatFavUI;)Lcom/tencent/mm/ui/conversation/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizChatFavUI;->a(Lcom/tencent/mm/ui/conversation/BizChatFavUI;)Lcom/tencent/mm/ui/conversation/Bclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/conversation/b;->notifyDataSetChanged()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/conversation/Bclz;->notifyDataSetChanged()V
 
     .line 657
     return-void

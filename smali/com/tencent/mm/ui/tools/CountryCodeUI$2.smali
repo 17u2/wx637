@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,13 +48,13 @@
 
     .prologue
     .line 109
-    check-cast p1, Lcom/tencent/mm/ui/tools/d;
+    check-cast p1, Lcom/tencent/mm/ui/tools/Dclz;
 
-    check-cast p2, Lcom/tencent/mm/ui/tools/d;
+    check-cast p2, Lcom/tencent/mm/ui/tools/Dclz;
 
     new-instance v0, Ljava/lang/Integer;
 
-    iget v1, p1, Lcom/tencent/mm/ui/tools/d;->ekp:I
+    iget v1, p1, Lcom/tencent/mm/ui/tools/Dclz;->ekp:I
 
     invoke-direct {v0, v1}, Ljava/lang/Integer;-><init>(I)V
 
@@ -64,7 +64,7 @@
 
     new-instance v1, Ljava/lang/Integer;
 
-    iget v2, p2, Lcom/tencent/mm/ui/tools/d;->ekp:I
+    iget v2, p2, Lcom/tencent/mm/ui/tools/Dclz;->ekp:I
 
     invoke-direct {v1, v2}, Ljava/lang/Integer;-><init>(I)V
 

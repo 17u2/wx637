@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -69,7 +69,7 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI$5;->ktg:Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;->h(Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;)Lcom/tencent/mm/ui/tools/q;
+    invoke-static {v0}, Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;->h(Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;)Lcom/tencent/mm/ui/tools/Qclz;
 
     move-result-object v0
 
@@ -78,20 +78,20 @@
     .line 269
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI$5;->ktg:Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;->h(Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;)Lcom/tencent/mm/ui/tools/q;
+    invoke-static {v0}, Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;->h(Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;)Lcom/tencent/mm/ui/tools/Qclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/tools/q;->clearFocus()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/tools/Qclz;->clearFocus()V
 
     .line 270
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI$5;->ktg:Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;->h(Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;)Lcom/tencent/mm/ui/tools/q;
+    invoke-static {v0}, Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;->h(Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;)Lcom/tencent/mm/ui/tools/Qclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/tools/q;->bbJ()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/tools/Qclz;->bbJ()V
 
     .line 272
     :cond_1

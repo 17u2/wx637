@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/pluginsdk/h/a/a/b$a$1;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,14 +42,14 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 7
 
     .prologue
     const-wide/16 v5, 0x0
 
     .line 38
-    instance-of v0, p1, Lcom/tencent/mm/d/a/gx;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/GXclz;
 
     if-nez v0, :cond_1
 
@@ -58,7 +58,7 @@
 
     const-string/jumbo v1, "postTaskSyncEventLister, received mismatched event"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 43
     :cond_0
@@ -81,7 +81,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EY()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EY()J
 
     move-result-wide v1
 
@@ -103,7 +103,7 @@
 
     check-cast v0, Ljava/lang/Long;
 
-    invoke-static {v0, v5, v6}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Long;J)J
+    invoke-static {v0, v5, v6}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Long;J)J
 
     move-result-wide v3
 
@@ -115,7 +115,7 @@
 
     if-gez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->aPk()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aPk()J
 
     move-result-wide v0
 

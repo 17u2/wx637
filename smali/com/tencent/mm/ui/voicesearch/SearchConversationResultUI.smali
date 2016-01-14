@@ -6,7 +6,7 @@
 # instance fields
 .field private kJm:Landroid/widget/ListView;
 
-.field private kJn:Lcom/tencent/mm/ui/voicesearch/a;
+.field private kJn:Lcom/tencent/mm/ui/voicesearch/Aclz;
 
 .field private kJo:Ljava/lang/String;
 
@@ -32,7 +32,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -58,12 +58,12 @@
     return-void
 .end method
 
-.method static synthetic b(Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;)Lcom/tencent/mm/ui/voicesearch/a;
+.method static synthetic b(Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;)Lcom/tencent/mm/ui/voicesearch/Aclz;
     .locals 1
 
     .prologue
     .line 33
-    iget-object v0, p0, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;->kJn:Lcom/tencent/mm/ui/voicesearch/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;->kJn:Lcom/tencent/mm/ui/voicesearch/Aclz;
 
     return-object v0
 .end method
@@ -129,7 +129,7 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;->kJp:Landroid/widget/TextView;
 
     .line 56
-    new-instance v0, Lcom/tencent/mm/ui/voicesearch/a;
+    new-instance v0, Lcom/tencent/mm/ui/voicesearch/Aclz;
 
     invoke-virtual {p0}, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;->getApplicationContext()Landroid/content/Context;
 
@@ -139,28 +139,28 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI$1;-><init>(Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;)V
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/ui/voicesearch/a;-><init>(Landroid/content/Context;Lcom/tencent/mm/ui/i$a;)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/ui/voicesearch/Aclz;-><init>(Landroid/content/Context;Lcom/tencent/mm/ui/Iclz$a;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;->kJn:Lcom/tencent/mm/ui/voicesearch/a;
+    iput-object v0, p0, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;->kJn:Lcom/tencent/mm/ui/voicesearch/Aclz;
 
     .line 69
-    iget-object v0, p0, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;->kJn:Lcom/tencent/mm/ui/voicesearch/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;->kJn:Lcom/tencent/mm/ui/voicesearch/Aclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;->kJn:Lcom/tencent/mm/ui/voicesearch/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;->kJn:Lcom/tencent/mm/ui/voicesearch/Aclz;
 
     new-instance v1, Ljava/util/LinkedList;
 
     invoke-direct {v1}, Ljava/util/LinkedList;-><init>()V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/voicesearch/a;->bB(Ljava/util/List;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/voicesearch/Aclz;->bB(Ljava/util/List;)V
 
     .line 70
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;->kJm:Landroid/widget/ListView;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;->kJn:Lcom/tencent/mm/ui/voicesearch/a;
+    iget-object v1, p0, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;->kJn:Lcom/tencent/mm/ui/voicesearch/Aclz;
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
@@ -227,13 +227,13 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;->kJn:Lcom/tencent/mm/ui/voicesearch/a;
+    iget-object v1, p0, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;->kJn:Lcom/tencent/mm/ui/voicesearch/Aclz;
 
     if-eqz v1, :cond_1
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;->kJn:Lcom/tencent/mm/ui/voicesearch/a;
+    iget-object v1, p0, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;->kJn:Lcom/tencent/mm/ui/voicesearch/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/voicesearch/a;->oT(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/voicesearch/Aclz;->oT(Ljava/lang/String;)V
 
     .line 189
     :cond_1
@@ -272,9 +272,9 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onDestroy()V
 
     .line 229
-    iget-object v0, p0, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;->kJn:Lcom/tencent/mm/ui/voicesearch/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/voicesearch/SearchConversationResultUI;->kJn:Lcom/tencent/mm/ui/voicesearch/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/voicesearch/a;->abc()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/voicesearch/Aclz;->abc()V
 
     .line 230
     return-void

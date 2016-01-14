@@ -16,7 +16,7 @@
 
 .field private gGq:Landroid/graphics/Paint;
 
-.field gqv:Lcom/tencent/mm/sdk/platformtools/ab;
+.field gqv:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field gqw:Ljava/lang/Runnable;
 
@@ -74,7 +74,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -130,7 +130,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -151,11 +151,11 @@
 
     .prologue
     .line 59
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/TouchImageView;->gqv:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/TouchImageView;->gqv:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 60
     new-instance v0, Lcom/tencent/mm/plugin/sns/ui/TouchImageView$1;
@@ -189,7 +189,7 @@
 
     const-string/jumbo v1, "onAttachedToWindow"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 113
     return-void
@@ -207,7 +207,7 @@
 
     const-string/jumbo v1, "onDetachedFromWindow"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 119
     return-void

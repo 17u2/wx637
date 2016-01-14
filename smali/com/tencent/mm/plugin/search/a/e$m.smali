@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/search/a/e$m;
-.super Lcom/tencent/mm/modelsearch/m$a;
+.super Lcom/tencent/mm/modelsearch/Mclz$a;
 .source "SourceFile"
 
 
@@ -34,7 +34,7 @@
     .line 628
     iput-object p1, p0, Lcom/tencent/mm/plugin/search/a/e$m;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/m$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/Mclz$a;-><init>()V
 
     .line 625
     iput v0, p0, Lcom/tencent/mm/plugin/search/a/e$m;->fHJ:I
@@ -50,7 +50,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -104,10 +104,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelsearch/l$a;
+    check-cast v0, Lcom/tencent/mm/modelsearch/Lclz$a;
 
     .line 641
-    iget-object v4, v0, Lcom/tencent/mm/modelsearch/l$a;->bRF:Ljava/lang/String;
+    iget-object v4, v0, Lcom/tencent/mm/modelsearch/Lclz$a;->bRF:Ljava/lang/String;
 
     .line 644
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/a/e$m;->fHi:Lcom/tencent/mm/plugin/search/a/e;
@@ -142,7 +142,7 @@
 
     .line 653
     :cond_1
-    iget-wide v4, v0, Lcom/tencent/mm/modelsearch/l$a;->bRO:J
+    iget-wide v4, v0, Lcom/tencent/mm/modelsearch/Lclz$a;->bRO:J
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 

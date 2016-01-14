@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -70,12 +70,12 @@
 
     const-string/jumbo v1, "hy: searched data."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 72
-    check-cast p4, Lcom/tencent/mm/modelsimple/z;
+    check-cast p4, Lcom/tencent/mm/modelsimple/Zclz;
 
-    invoke-virtual {p4}, Lcom/tencent/mm/modelsimple/z;->BZ()Lcom/tencent/mm/protocal/b/akl;
+    invoke-virtual {p4}, Lcom/tencent/mm/modelsimple/Zclz;->BZ()Lcom/tencent/mm/protocal/b/akl;
 
     move-result-object v0
 
@@ -94,7 +94,7 @@
 
     aput-object v4, v3, v6
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 74
     iget v1, v0, Lcom/tencent/mm/protocal/b/akl;->iCS:I
@@ -115,7 +115,7 @@
 
     const-string/jumbo v2, "hy: no result is retrieved. start to search UI"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 78
     iget-object v1, p0, Lcom/tencent/mm/plugin/ext/b/b$1;->dwd:Lcom/tencent/mm/plugin/ext/b/b;
@@ -159,7 +159,7 @@
 
     const-string/jumbo v2, "hy: more than one contact is resolved. starting to ContactSearchResultUI"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 87
     sget-object v0, Lcom/tencent/mm/plugin/ext/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
@@ -200,7 +200,7 @@
 
     const-string/jumbo v2, "hy: only one result is retrieved. start to chatting directly"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 96
     iget-object v1, p0, Lcom/tencent/mm/plugin/ext/b/b$1;->dwd:Lcom/tencent/mm/plugin/ext/b/b;
@@ -231,7 +231,7 @@
 
     aput-object v3, v2, v5
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 100
     iget-object v0, p0, Lcom/tencent/mm/plugin/ext/b/b$1;->dwd:Lcom/tencent/mm/plugin/ext/b/b;

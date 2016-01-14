@@ -106,7 +106,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -273,7 +273,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     add-int/lit8 v1, v6, 0x1
 
@@ -452,31 +452,31 @@
 
     const/16 v11, 0x3e
 
-    invoke-static {v10, v11}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v10, v11}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v10
 
-    invoke-static {}, Lcom/tencent/mm/z/n;->Aa()Lcom/tencent/mm/z/a/a;
+    invoke-static {}, Lcom/tencent/mm/z/Nclz;->Aa()Lcom/tencent/mm/z/a/Aclz;
 
     move-result-object v11
 
-    new-instance v12, Lcom/tencent/mm/z/a/a/c$a;
+    new-instance v12, Lcom/tencent/mm/z/a/a/Cclz$a;
 
-    invoke-direct {v12}, Lcom/tencent/mm/z/a/a/c$a;-><init>()V
+    invoke-direct {v12}, Lcom/tencent/mm/z/a/a/Cclz$a;-><init>()V
 
     const/4 v13, 0x1
 
-    iput v13, v12, Lcom/tencent/mm/z/a/a/c$a;->bMk:I
+    iput v13, v12, Lcom/tencent/mm/z/a/a/Cclz$a;->bMk:I
 
-    iput v10, v12, Lcom/tencent/mm/z/a/a/c$a;->bMl:I
+    iput v10, v12, Lcom/tencent/mm/z/a/a/Cclz$a;->bMl:I
 
-    iput v10, v12, Lcom/tencent/mm/z/a/a/c$a;->bMm:I
+    iput v10, v12, Lcom/tencent/mm/z/a/a/Cclz$a;->bMm:I
 
-    invoke-virtual {v12}, Lcom/tencent/mm/z/a/a/c$a;->Ai()Lcom/tencent/mm/z/a/a/c;
+    invoke-virtual {v12}, Lcom/tencent/mm/z/a/a/Cclz$a;->Ai()Lcom/tencent/mm/z/a/a/Cclz;
 
     move-result-object v10
 
-    invoke-virtual {v11, v2, v0, v10}, Lcom/tencent/mm/z/a/a;->a(Ljava/lang/String;Landroid/widget/ImageView;Lcom/tencent/mm/z/a/a/c;)V
+    invoke-virtual {v11, v2, v0, v10}, Lcom/tencent/mm/z/a/Aclz;->a(Ljava/lang/String;Landroid/widget/ImageView;Lcom/tencent/mm/z/a/a/Cclz;)V
 
     goto :goto_5
 

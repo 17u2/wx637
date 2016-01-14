@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -96,7 +96,7 @@
 
     aput-object v4, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     iput-boolean v5, v0, Lcom/tencent/mm/ui/LauncherUI;->jww:Z
 
@@ -131,13 +131,13 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/ui/conversation/e;
+    check-cast v0, Lcom/tencent/mm/ui/conversation/Eclz;
 
     .line 4771
     if-eqz v0, :cond_1
 
     .line 4772
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/conversation/e;->baQ()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/conversation/Eclz;->baQ()V
 
     .line 4774
     :cond_1

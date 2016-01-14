@@ -14,7 +14,7 @@
 # instance fields
 .field arG:I
 
-.field cfz:Lcom/tencent/mm/ui/base/o;
+.field cfz:Lcom/tencent/mm/ui/base/Oclz;
 
 .field context:Landroid/content/Context;
 
@@ -143,7 +143,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

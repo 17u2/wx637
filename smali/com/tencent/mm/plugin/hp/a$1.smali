@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/hp/a$1;
-.super Lcom/tencent/mm/sdk/c/d;
+.super Lcom/tencent/mm/sdk/c/Dclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/d;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Dclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -47,19 +47,19 @@
 
     .prologue
     .line 31
-    check-cast p1, Lcom/tencent/mm/d/a/ae;
+    check-cast p1, Lcom/tencent/mm/d/a/AEclz;
 
     const/16 v0, 0x1d
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/ae;->asJ:Lcom/tencent/mm/d/a/ae$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/AEclz;->asJ:Lcom/tencent/mm/d/a/AEclz$a;
 
-    iget v1, v1, Lcom/tencent/mm/d/a/ae$a;->asF:I
+    iget v1, v1, Lcom/tencent/mm/d/a/AEclz$a;->asF:I
 
     if-ne v0, v1, :cond_0
 
-    iget-object v0, p1, Lcom/tencent/mm/d/a/ae;->asJ:Lcom/tencent/mm/d/a/ae$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/AEclz;->asJ:Lcom/tencent/mm/d/a/AEclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/ae$a;->asK:I
+    iget v0, v0, Lcom/tencent/mm/d/a/AEclz$a;->asK:I
 
     if-nez v0, :cond_0
 
@@ -67,7 +67,7 @@
 
     const-string/jumbo v1, "hp_res received new hotpatch cache request"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/tencent/mm/plugin/hp/a/b;->ZO()V
 

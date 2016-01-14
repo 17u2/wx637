@@ -4,9 +4,9 @@
 
 
 # instance fields
-.field private apq:Lcom/tencent/mm/c/b/c;
+.field private apq:Lcom/tencent/mm/c/b/Cclz;
 
-.field private aqp:Lcom/tencent/mm/c/b/c$a;
+.field private aqp:Lcom/tencent/mm/c/b/Cclz$a;
 
 .field private gNt:Lcom/tencent/mm/plugin/talkroom/component/v2engine;
 
@@ -28,7 +28,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/talkroom/component/f$1;-><init>(Lcom/tencent/mm/plugin/talkroom/component/f;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->aqp:Lcom/tencent/mm/c/b/c$a;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->aqp:Lcom/tencent/mm/c/b/Cclz$a;
 
     .line 26
     iput-object p1, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->gNt:Lcom/tencent/mm/plugin/talkroom/component/v2engine;
@@ -38,7 +38,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -106,19 +106,19 @@
 
     .prologue
     .line 30
-    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->apq:Lcom/tencent/mm/c/b/c;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->apq:Lcom/tencent/mm/c/b/Cclz;
 
     if-eqz v0, :cond_0
 
     .line 31
-    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->apq:Lcom/tencent/mm/c/b/c;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->apq:Lcom/tencent/mm/c/b/Cclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/c/b/c;->lO()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/c/b/Cclz;->lO()Z
 
     .line 32
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->apq:Lcom/tencent/mm/c/b/c;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->apq:Lcom/tencent/mm/c/b/Cclz;
 
     .line 34
     :cond_0
@@ -132,41 +132,41 @@
     const/4 v3, 0x0
 
     .line 37
-    new-instance v0, Lcom/tencent/mm/c/b/c;
+    new-instance v0, Lcom/tencent/mm/c/b/Cclz;
 
     sget v1, Lcom/tencent/mm/plugin/talkroom/model/a;->gNK:I
 
     const/4 v2, 0x2
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/c/b/c;-><init>(II)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/c/b/Cclz;-><init>(II)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->apq:Lcom/tencent/mm/c/b/c;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->apq:Lcom/tencent/mm/c/b/Cclz;
 
     .line 39
-    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->apq:Lcom/tencent/mm/c/b/c;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->apq:Lcom/tencent/mm/c/b/Cclz;
 
     const/16 v1, 0x8
 
-    invoke-virtual {v0, v1, v3}, Lcom/tencent/mm/c/b/c;->m(IZ)V
+    invoke-virtual {v0, v1, v3}, Lcom/tencent/mm/c/b/Cclz;->m(IZ)V
 
     .line 40
-    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->apq:Lcom/tencent/mm/c/b/c;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->apq:Lcom/tencent/mm/c/b/Cclz;
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->aqp:Lcom/tencent/mm/c/b/c$a;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->aqp:Lcom/tencent/mm/c/b/Cclz$a;
 
-    iput-object v1, v0, Lcom/tencent/mm/c/b/c;->apY:Lcom/tencent/mm/c/b/c$a;
+    iput-object v1, v0, Lcom/tencent/mm/c/b/Cclz;->apY:Lcom/tencent/mm/c/b/Cclz$a;
 
     .line 41
-    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->apq:Lcom/tencent/mm/c/b/c;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->apq:Lcom/tencent/mm/c/b/Cclz;
 
     const/16 v1, 0x14
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/c/b/c;->aP(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/c/b/Cclz;->aP(I)V
 
     .line 42
-    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->apq:Lcom/tencent/mm/c/b/c;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->apq:Lcom/tencent/mm/c/b/Cclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/c/b/c;->lU()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/c/b/Cclz;->lU()Z
 
     .line 43
     iput-short v3, p0, Lcom/tencent/mm/plugin/talkroom/component/f;->gNv:S

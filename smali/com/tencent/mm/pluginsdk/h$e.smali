@@ -36,10 +36,10 @@
 .method public abstract c(Ljava/util/List;Ljava/util/List;)V
 .end method
 
-.method public abstract e(Lcom/tencent/mm/sdk/g/g$a;)V
+.method public abstract e(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 .end method
 
-.method public abstract f(Lcom/tencent/mm/sdk/g/g$a;)V
+.method public abstract f(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 .end method
 
 .method public abstract po(Ljava/lang/String;)Ljava/lang/String;

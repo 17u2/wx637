@@ -17,7 +17,7 @@
 # instance fields
 .field private gxV:Landroid/app/Dialog;
 
-.field private jWK:Lcom/tencent/mm/ab/b;
+.field private jWK:Lcom/tencent/mm/ab/Bclz;
 
 .field private jWL:Landroid/widget/EditText;
 
@@ -44,7 +44,7 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;->gxV:Landroid/app/Dialog;
 
     .line 48
-    iput-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;->jWK:Lcom/tencent/mm/ab/b;
+    iput-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;->jWK:Lcom/tencent/mm/ab/Bclz;
 
     .line 49
     iput-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;->jWL:Landroid/widget/EditText;
@@ -66,7 +66,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -92,12 +92,12 @@
     return-object v0
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;Lcom/tencent/mm/ab/b;)Lcom/tencent/mm/ab/b;
+.method static synthetic a(Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;Lcom/tencent/mm/ab/Bclz;)Lcom/tencent/mm/ab/Bclz;
     .locals 0
 
     .prologue
     .line 39
-    iput-object p1, p0, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;->jWK:Lcom/tencent/mm/ab/b;
+    iput-object p1, p0, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;->jWK:Lcom/tencent/mm/ab/Bclz;
 
     return-object p1
 .end method
@@ -122,12 +122,12 @@
     return-object v0
 .end method
 
-.method static synthetic d(Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;)Lcom/tencent/mm/ab/b;
+.method static synthetic d(Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;)Lcom/tencent/mm/ab/Bclz;
     .locals 1
 
     .prologue
     .line 39
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;->jWK:Lcom/tencent/mm/ab/b;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;->jWK:Lcom/tencent/mm/ab/Bclz;
 
     return-object v0
 .end method
@@ -210,7 +210,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -227,7 +227,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;->jWO:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -282,13 +282,13 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;->jWP:Ljava/lang/String;
 
-    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
     aput-object v4, v3, v5
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -336,7 +336,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI$2;-><init>(Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;)V
 
-    sget v2, Lcom/tencent/mm/ui/j$b;->jyX:I
+    sget v2, Lcom/tencent/mm/ui/Jclz$b;->jyX:I
 
     invoke-virtual {p0, v7, v0, v1, v2}, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;->a(ILjava/lang/String;Landroid/view/MenuItem$OnMenuItemClickListener;I)V
 
@@ -408,16 +408,16 @@
 
     const-string/jumbo v1, "[oneliang][onSceneEnd]:ok"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 152
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zj()Lcom/tencent/mm/modelfriend/t;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zj()Lcom/tencent/mm/modelfriend/Tclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;->jWN:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelfriend/t;->hn(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelfriend/Tclz;->hn(Ljava/lang/String;)Z
 
     .line 153
     invoke-virtual {p0}, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;->finish()V
@@ -461,7 +461,7 @@
 
     move-object v0, p0
 
-    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -488,7 +488,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI$5;-><init>(Lcom/tencent/mm/ui/bindlinkedin/InviteLinkedInFriendUI;)V
 
-    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -526,7 +526,7 @@
 
     move-object v0, p0
 
-    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 

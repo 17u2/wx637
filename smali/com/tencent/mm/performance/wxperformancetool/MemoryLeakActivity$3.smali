@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,7 +50,7 @@
     .line 67
     iget-object v0, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity$3;->ccL:Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;
 
-    invoke-static {v0}, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->b(Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0}, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->b(Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -58,11 +58,11 @@
 
     iget-object v0, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity$3;->ccL:Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;
 
-    invoke-static {v0}, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->b(Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0}, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->b(Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->isShowing()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->isShowing()Z
 
     move-result v0
 
@@ -71,11 +71,11 @@
     .line 68
     iget-object v0, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity$3;->ccL:Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;
 
-    invoke-static {v0}, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->b(Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0}, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->b(Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->dismiss()V
 
     .line 70
     :cond_0

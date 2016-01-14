@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -60,11 +60,11 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$15;->jHu:Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->l(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;)Lcom/tencent/mm/ui/account/f;
+    invoke-static {v2}, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->l(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;)Lcom/tencent/mm/ui/account/Fclz;
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/account/f;->jCQ:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/ui/account/Fclz;->jCQ:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -78,11 +78,11 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$15;->jHu:Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->l(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;)Lcom/tencent/mm/ui/account/f;
+    invoke-static {v2}, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->l(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;)Lcom/tencent/mm/ui/account/Fclz;
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/account/f;->jCS:[B
+    iget-object v2, v2, Lcom/tencent/mm/ui/account/Fclz;->jCS:[B
 
     array-length v2, v2
 
@@ -96,7 +96,7 @@
 
     move-result-object v1
 
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->pb()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->pb()Ljava/lang/String;
 
     move-result-object v2
 
@@ -108,34 +108,34 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 369
-    new-instance v0, Lcom/tencent/mm/modelsimple/t;
+    new-instance v0, Lcom/tencent/mm/modelsimple/Tclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$15;->jHu:Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->l(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;)Lcom/tencent/mm/ui/account/f;
+    invoke-static {v1}, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->l(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;)Lcom/tencent/mm/ui/account/Fclz;
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/account/f;->bSR:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/ui/account/Fclz;->bSR:Ljava/lang/String;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$15;->jHu:Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->l(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;)Lcom/tencent/mm/ui/account/f;
+    invoke-static {v2}, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->l(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;)Lcom/tencent/mm/ui/account/Fclz;
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/account/f;->jCP:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/ui/account/Fclz;->jCP:Ljava/lang/String;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$15;->jHu:Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;
 
-    invoke-static {v3}, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->l(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;)Lcom/tencent/mm/ui/account/f;
+    invoke-static {v3}, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->l(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;)Lcom/tencent/mm/ui/account/Fclz;
 
     move-result-object v3
 
-    iget v3, v3, Lcom/tencent/mm/ui/account/f;->jCT:I
+    iget v3, v3, Lcom/tencent/mm/ui/account/Fclz;->jCT:I
 
     iget-object v4, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$15;->jHu:Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;
 
@@ -173,7 +173,7 @@
 
     move v10, v7
 
-    invoke-direct/range {v0 .. v10}, Lcom/tencent/mm/modelsimple/t;-><init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;ZZ)V
+    invoke-direct/range {v0 .. v10}, Lcom/tencent/mm/modelsimple/Tclz;-><init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;ZZ)V
 
     .line 373
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -201,9 +201,9 @@
 
     new-instance v3, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$15$1;
 
-    invoke-direct {v3, p0, v0}, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$15$1;-><init>(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$15;Lcom/tencent/mm/modelsimple/t;)V
+    invoke-direct {v3, p0, v0}, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$15$1;-><init>(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$15;Lcom/tencent/mm/modelsimple/Tclz;)V
 
-    invoke-static {v1, v2, v7, v3}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v1, v2, v7, v3}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     .line 382
     return-void

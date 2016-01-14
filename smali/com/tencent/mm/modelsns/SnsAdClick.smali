@@ -42,7 +42,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -89,7 +89,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -158,7 +158,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -171,22 +171,22 @@
 
     .prologue
     .line 77
-    new-instance v0, Lcom/tencent/mm/d/a/hu;
+    new-instance v0, Lcom/tencent/mm/d/a/HUclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/hu;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/HUclz;-><init>()V
 
     .line 78
     iput p1, p0, Lcom/tencent/mm/modelsns/SnsAdClick;->bTE:I
 
     .line 79
-    iget-object v1, v0, Lcom/tencent/mm/d/a/hu;->aDa:Lcom/tencent/mm/d/a/hu$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/HUclz;->aDa:Lcom/tencent/mm/d/a/HUclz$a;
 
-    iput-object p0, v1, Lcom/tencent/mm/d/a/hu$a;->aDb:Lcom/tencent/mm/modelsns/SnsAdClick;
+    iput-object p0, v1, Lcom/tencent/mm/d/a/HUclz$a;->aDb:Lcom/tencent/mm/modelsns/SnsAdClick;
 
     .line 80
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 81
     return-void
@@ -231,7 +231,7 @@
 
     const-string/jumbo v1, ""
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

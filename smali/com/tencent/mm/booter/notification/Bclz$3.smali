@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/booter/notification/Bclz$3;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 8
 
     .prologue
@@ -51,22 +51,22 @@
     .line 146
     if-eqz p1, :cond_0
 
-    instance-of v0, p1, Lcom/tencent/mm/d/a/iz;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/IZclz;
 
     if-eqz v0, :cond_0
 
     .line 147
-    check-cast p1, Lcom/tencent/mm/d/a/iz;
+    check-cast p1, Lcom/tencent/mm/d/a/IZclz;
 
     .line 148
-    iget-object v0, p1, Lcom/tencent/mm/d/a/iz;->aEf:Lcom/tencent/mm/d/a/iz$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/IZclz;->aEf:Lcom/tencent/mm/d/a/IZclz$a;
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/iz$a;->aDe:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/IZclz$a;->aDe:Ljava/lang/String;
 
     .line 149
-    iget-object v0, p1, Lcom/tencent/mm/d/a/iz;->aEf:Lcom/tencent/mm/d/a/iz$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/IZclz;->aEf:Lcom/tencent/mm/d/a/IZclz$a;
 
-    iget v2, v0, Lcom/tencent/mm/d/a/iz$a;->aEg:I
+    iget v2, v0, Lcom/tencent/mm/d/a/IZclz$a;->aEg:I
 
     .line 150
     iget-object v3, p0, Lcom/tencent/mm/booter/notification/Bclz$3;->bgY:Lcom/tencent/mm/booter/notification/Bclz;
@@ -86,7 +86,7 @@
 
     aput-object v6, v4, v5
 
-    invoke-static {v0, v1, v4}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     iget-object v0, v3, Lcom/tencent/mm/booter/notification/Bclz;->context:Landroid/content/Context;
 
@@ -178,7 +178,7 @@
 
     new-instance v1, Landroid/app/Notification;
 
-    invoke-static {}, Lcom/tencent/mm/an/a;->aHx()I
+    invoke-static {}, Lcom/tencent/mm/an/Aclz;->aHx()I
 
     move-result v2
 

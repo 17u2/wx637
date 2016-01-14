@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -68,11 +68,11 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$13;->jCE:Lcom/tencent/mm/ui/account/LoginHistoryUI;
 
-    invoke-static {v3}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/f;
+    invoke-static {v3}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/Fclz;
 
     move-result-object v3
 
-    iget-object v3, v3, Lcom/tencent/mm/ui/account/f;->jCQ:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/ui/account/Fclz;->jCQ:Ljava/lang/String;
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -86,11 +86,11 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$13;->jCE:Lcom/tencent/mm/ui/account/LoginHistoryUI;
 
-    invoke-static {v3}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/f;
+    invoke-static {v3}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/Fclz;
 
     move-result-object v3
 
-    iget-object v3, v3, Lcom/tencent/mm/ui/account/f;->jCS:[B
+    iget-object v3, v3, Lcom/tencent/mm/ui/account/Fclz;->jCS:[B
 
     array-length v3, v3
 
@@ -104,7 +104,7 @@
 
     move-result-object v2
 
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->pb()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->pb()Ljava/lang/String;
 
     move-result-object v3
 
@@ -116,7 +116,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1041
     const-string/jumbo v2, "!32@/B4Tb64lLpKxsTbPEeLD3A+BAp2nPFbL"
@@ -156,7 +156,7 @@
 
     iget-object v5, v5, Lcom/tencent/mm/ui/account/LoginHistoryUI;->gSB:Ljava/lang/String;
 
-    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/bc;->Bs(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bs(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -166,11 +166,11 @@
 
     iget-object v5, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$13;->jCE:Lcom/tencent/mm/ui/account/LoginHistoryUI;
 
-    invoke-static {v5}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/f;
+    invoke-static {v5}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/Fclz;
 
     move-result-object v5
 
-    iget-object v5, v5, Lcom/tencent/mm/ui/account/f;->jCO:Ljava/lang/String;
+    iget-object v5, v5, Lcom/tencent/mm/ui/account/Fclz;->jCO:Ljava/lang/String;
 
     if-nez v5, :cond_2
 
@@ -185,46 +185,46 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$13;->jCE:Lcom/tencent/mm/ui/account/LoginHistoryUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/f;
+    invoke-static {v1}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/Fclz;
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/account/f;->jCO:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/ui/account/Fclz;->jCO:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->Bs(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bs(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     aput-object v1, v4, v0
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1045
-    new-instance v0, Lcom/tencent/mm/modelsimple/t;
+    new-instance v0, Lcom/tencent/mm/modelsimple/Tclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$13;->jCE:Lcom/tencent/mm/ui/account/LoginHistoryUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/f;
+    invoke-static {v1}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/Fclz;
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/account/f;->bSR:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/ui/account/Fclz;->bSR:Ljava/lang/String;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$13;->jCE:Lcom/tencent/mm/ui/account/LoginHistoryUI;
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/f;
+    invoke-static {v2}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/Fclz;
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/account/f;->jCO:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/ui/account/Fclz;->jCO:Ljava/lang/String;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$13;->jCE:Lcom/tencent/mm/ui/account/LoginHistoryUI;
 
-    invoke-static {v3}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/f;
+    invoke-static {v3}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/Fclz;
 
     move-result-object v3
 
-    iget v3, v3, Lcom/tencent/mm/ui/account/f;->jCT:I
+    iget v3, v3, Lcom/tencent/mm/ui/account/Fclz;->jCT:I
 
     iget-object v4, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$13;->jCE:Lcom/tencent/mm/ui/account/LoginHistoryUI;
 
@@ -262,18 +262,18 @@
 
     move v10, v7
 
-    invoke-direct/range {v0 .. v10}, Lcom/tencent/mm/modelsimple/t;-><init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;ZZ)V
+    invoke-direct/range {v0 .. v10}, Lcom/tencent/mm/modelsimple/Tclz;-><init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;ZZ)V
 
     .line 1047
     iget-object v1, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$13;->jCE:Lcom/tencent/mm/ui/account/LoginHistoryUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/f;
+    invoke-static {v1}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/Fclz;
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/account/f;->jCO:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/ui/account/Fclz;->jCO:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -283,7 +283,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/ui/account/LoginHistoryUI;->gSB:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -300,20 +300,20 @@
 
     iget-object v4, v4, Lcom/tencent/mm/ui/account/LoginHistoryUI;->gSB:Ljava/lang/String;
 
-    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/bc;->Bs(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bs(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
     aput-object v4, v3, v7
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1049
     iget-object v1, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$13;->jCE:Lcom/tencent/mm/ui/account/LoginHistoryUI;
 
     iget-object v1, v1, Lcom/tencent/mm/ui/account/LoginHistoryUI;->gSB:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelsimple/t;->iF(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelsimple/Tclz;->iF(Ljava/lang/String;)V
 
     .line 1051
     :cond_0
@@ -344,9 +344,9 @@
 
     new-instance v4, Lcom/tencent/mm/ui/account/LoginHistoryUI$13$1;
 
-    invoke-direct {v4, p0, v0}, Lcom/tencent/mm/ui/account/LoginHistoryUI$13$1;-><init>(Lcom/tencent/mm/ui/account/LoginHistoryUI$13;Lcom/tencent/mm/modelsimple/t;)V
+    invoke-direct {v4, p0, v0}, Lcom/tencent/mm/ui/account/LoginHistoryUI$13$1;-><init>(Lcom/tencent/mm/ui/account/LoginHistoryUI$13;Lcom/tencent/mm/modelsimple/Tclz;)V
 
-    invoke-static {v2, v3, v11, v4}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v2, v3, v11, v4}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
@@ -370,11 +370,11 @@
     :cond_2
     iget-object v1, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$13;->jCE:Lcom/tencent/mm/ui/account/LoginHistoryUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/f;
+    invoke-static {v1}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/Fclz;
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/account/f;->jCO:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/ui/account/Fclz;->jCO:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 

@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/app/WorkerProfile$23;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 7
 
     .prologue
@@ -53,11 +53,11 @@
     .line 670
     move-object v0, p1
 
-    check-cast v0, Lcom/tencent/mm/d/a/fe;
+    check-cast v0, Lcom/tencent/mm/d/a/FEclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/fe;->azq:Lcom/tencent/mm/d/a/fe$a;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/FEclz;->azq:Lcom/tencent/mm/d/a/FEclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/fe$a;->azr:I
+    iget v0, v0, Lcom/tencent/mm/d/a/FEclz$a;->azr:I
 
     const/4 v1, 0x2
 
@@ -65,11 +65,11 @@
 
     move-object v0, p1
 
-    check-cast v0, Lcom/tencent/mm/d/a/fe;
+    check-cast v0, Lcom/tencent/mm/d/a/FEclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/fe;->azq:Lcom/tencent/mm/d/a/fe$a;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/FEclz;->azq:Lcom/tencent/mm/d/a/FEclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/fe$a;->status:I
+    iget v0, v0, Lcom/tencent/mm/d/a/FEclz$a;->status:I
 
     if-nez v0, :cond_0
 
@@ -81,7 +81,7 @@
     .line 674
     new-instance v1, Landroid/content/ComponentName;
 
-    sget-object v3, Lcom/tencent/mm/ui/d$d;->jtf:Ljava/lang/String;
+    sget-object v3, Lcom/tencent/mm/ui/Dclz$d;->jtf:Ljava/lang/String;
 
     const-string/jumbo v4, "com.tencent.mm.booter.MMReceivers$ToolsProcessReceiver"
 
@@ -97,7 +97,7 @@
     invoke-virtual {v0, v1, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 676
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -112,11 +112,11 @@
     if-eqz v0, :cond_1
 
     .line 680
-    check-cast p1, Lcom/tencent/mm/d/a/fe;
+    check-cast p1, Lcom/tencent/mm/d/a/FEclz;
 
-    iget-object v0, p1, Lcom/tencent/mm/d/a/fe;->azq:Lcom/tencent/mm/d/a/fe$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/FEclz;->azq:Lcom/tencent/mm/d/a/FEclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/fe$a;->azr:I
+    iget v0, v0, Lcom/tencent/mm/d/a/FEclz$a;->azr:I
 
     const/4 v1, 0x3
 

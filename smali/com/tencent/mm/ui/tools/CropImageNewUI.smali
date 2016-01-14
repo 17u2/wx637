@@ -70,7 +70,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -107,7 +107,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz p1, :cond_0
 
@@ -126,7 +126,7 @@
 
     const-string/jumbo v1, "isCroping"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -151,7 +151,7 @@
 
     sget-object v3, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
-    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/d;->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/Dclz;->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -225,7 +225,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/tools/n;->a([[F)[[F
+    invoke-static {v0}, Lcom/tencent/mm/ui/tools/Nclz;->a([[F)[[F
 
     move-result-object v0
 
@@ -255,7 +255,7 @@
 
     const-string/jumbo v1, "doCropImage: error"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {p0, v9}, Lcom/tencent/mm/ui/tools/CropImageNewUI;->setResult(I)V
@@ -308,11 +308,11 @@
 
     aput v3, v5, v1
 
-    invoke-static {v0, v4}, Lcom/tencent/mm/ui/tools/n;->a([[F[F)[F
+    invoke-static {v0, v4}, Lcom/tencent/mm/ui/tools/Nclz;->a([[F[F)[F
 
     move-result-object v4
 
-    invoke-static {v0, v5}, Lcom/tencent/mm/ui/tools/n;->a([[F[F)[F
+    invoke-static {v0, v5}, Lcom/tencent/mm/ui/tools/Nclz;->a([[F[F)[F
 
     move-result-object v5
 
@@ -545,7 +545,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/tencent/mm/ui/tools/CropImageNewUI;->getIntent()Landroid/content/Intent;
 
@@ -563,7 +563,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v2, Lcom/tencent/mm/compatible/util/d;->bnE:Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/compatible/util/Dclz;->bnE:Ljava/lang/String;
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -595,7 +595,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/a/f;->m([B)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/a/Fclz;->m([B)Ljava/lang/String;
 
     move-result-object v2
 
@@ -682,7 +682,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/t;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Tclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -785,7 +785,7 @@
     :try_start_0
     sget-object v1, Landroid/graphics/Bitmap$CompressFormat;->PNG:Landroid/graphics/Bitmap$CompressFormat;
 
-    invoke-static {p0, v0, v1, p1, p2}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
+    invoke-static {p0, v0, v1, p1, p2}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -821,7 +821,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1294
     :cond_0
@@ -888,7 +888,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/tencent/mm/ui/tools/CropImageNewUI;->getIntent()Landroid/content/Intent;
 
@@ -963,7 +963,7 @@
     :goto_2
     iget-object v4, p0, Lcom/tencent/mm/ui/tools/CropImageNewUI;->filePath:Ljava/lang/String;
 
-    invoke-static {v4}, Lcom/tencent/mm/platformtools/a$b;->jP(Ljava/lang/String;)I
+    invoke-static {v4}, Lcom/tencent/mm/platformtools/Aclz$b;->jP(Ljava/lang/String;)I
 
     move-result v4
 
@@ -991,7 +991,7 @@
     :cond_4
     iget-object v4, p0, Lcom/tencent/mm/ui/tools/CropImageNewUI;->filePath:Ljava/lang/String;
 
-    invoke-static {v4, v0, v3, v2}, Lcom/tencent/mm/sdk/platformtools/d;->b(Ljava/lang/String;IIZ)Landroid/graphics/Bitmap;
+    invoke-static {v4, v0, v3, v2}, Lcom/tencent/mm/sdk/platformtools/Dclz;->b(Ljava/lang/String;IIZ)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -1074,7 +1074,7 @@
 
     aput-object v11, v9, v10
 
-    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     invoke-virtual {v4}, Landroid/graphics/Bitmap;->recycle()V
 
@@ -1157,7 +1157,7 @@
 
     iput-boolean v3, v7, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
 
-    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/BitmapFactory$Options;)V
+    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/BitmapFactory$Options;)V
 
     iget-object v3, p0, Lcom/tencent/mm/ui/tools/CropImageNewUI;->filePath:Ljava/lang/String;
 
@@ -1183,7 +1183,7 @@
 
     aput-object v12, v10, v11
 
-    invoke-static {v8, v9, v10}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v8, v9, v10}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->recycle()V
 
@@ -1192,7 +1192,7 @@
 
     iget v8, v7, Landroid/graphics/BitmapFactory$Options;->outHeight:I
 
-    invoke-static {v3, v8}, Lcom/tencent/mm/platformtools/t;->ae(II)Z
+    invoke-static {v3, v8}, Lcom/tencent/mm/platformtools/Tclz;->ae(II)Z
 
     move-result v3
 
@@ -1213,7 +1213,7 @@
 
     iget v8, v7, Landroid/graphics/BitmapFactory$Options;->outHeight:I
 
-    invoke-static {v3, v8}, Lcom/tencent/mm/platformtools/t;->ad(II)Z
+    invoke-static {v3, v8}, Lcom/tencent/mm/platformtools/Tclz;->ad(II)Z
 
     move-result v3
 
@@ -1270,7 +1270,7 @@
 
     move-result-object v7
 
-    invoke-static {v3, v7}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v3, v2
 
@@ -1323,13 +1323,13 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget v3, p0, Lcom/tencent/mm/ui/tools/CropImageNewUI;->kBS:I
 
     int-to-float v3, v3
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/d;->b(Landroid/graphics/Bitmap;F)Landroid/graphics/Bitmap;
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Dclz;->b(Landroid/graphics/Bitmap;F)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -1446,7 +1446,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/l;->aN([B)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/Lclz;->aN([B)Z
 
     move-result v1
 
@@ -1526,7 +1526,7 @@
 
     move-result-object v9
 
-    invoke-static {v4, v9}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v9}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     const/high16 v4, 0x40000000    # 2.0f
 
@@ -1863,7 +1863,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v2, 0x0
 
@@ -2164,7 +2164,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -2198,7 +2198,7 @@
 
     aput-object v6, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     invoke-virtual {v0}, Landroid/graphics/Bitmap;->recycle()V
 
@@ -2358,7 +2358,7 @@
     .line 637
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/CropImageNewUI;->kBN:Lcom/tencent/mm/ui/tools/FilterImageView;
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/f;->H(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Fclz;->H(Landroid/view/View;)V
 
     .line 638
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/CropImageNewUI;->kBN:Lcom/tencent/mm/ui/tools/FilterImageView;
@@ -2409,7 +2409,7 @@
     .line 1208
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/CropImageNewUI;->filePath:Ljava/lang/String;
 
-    invoke-static {v0, p2, p1, v6}, Lcom/tencent/mm/sdk/platformtools/d;->b(Ljava/lang/String;IIZ)Landroid/graphics/Bitmap;
+    invoke-static {v0, p2, p1, v6}, Lcom/tencent/mm/sdk/platformtools/Dclz;->b(Ljava/lang/String;IIZ)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -2480,7 +2480,7 @@
 
     aput-object v6, v5, v1
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1217
     invoke-virtual {v0}, Landroid/graphics/Bitmap;->recycle()V
@@ -2508,7 +2508,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1224
     return-object v0
@@ -2554,7 +2554,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1136
     if-nez v0, :cond_0
@@ -2618,7 +2618,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -2927,7 +2927,7 @@
 
     const-string/jumbo v1, "doShowOrNot"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/CropImageNewUI;->kBO:Landroid/widget/LinearLayout;
 
@@ -3041,7 +3041,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/tencent/mm/ui/tools/CropImageNewUI;->getIntent()Landroid/content/Intent;
 
@@ -3176,7 +3176,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/tencent/mm/a/f;->m([B)Ljava/lang/String;
+    invoke-static {v3}, Lcom/tencent/mm/a/Fclz;->m([B)Ljava/lang/String;
 
     move-result-object v3
 
@@ -3208,7 +3208,7 @@
 
     const/4 v8, 0x0
 
-    invoke-static {v4, v5, v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
+    invoke-static {v4, v5, v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
 
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -3254,7 +3254,7 @@
 
     move-result-object v4
 
-    invoke-static {v4}, Lcom/tencent/mm/a/f;->m([B)Ljava/lang/String;
+    invoke-static {v4}, Lcom/tencent/mm/a/Fclz;->m([B)Ljava/lang/String;
 
     move-result-object v0
 
@@ -3331,7 +3331,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/tencent/mm/a/f;->m([B)Ljava/lang/String;
+    invoke-static {v3}, Lcom/tencent/mm/a/Fclz;->m([B)Ljava/lang/String;
 
     move-result-object v0
 
@@ -3401,7 +3401,7 @@
 
     move-object v0, p0
 
-    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/ui/base/f$c;)Landroid/app/Dialog;
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/ui/base/Fclz$c;)Landroid/app/Dialog;
 
     return-void
 
@@ -3456,7 +3456,7 @@
 
     move-object v0, p0
 
-    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/ui/base/f$c;)Landroid/app/Dialog;
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/ui/base/Fclz$c;)Landroid/app/Dialog;
 
     return-void
 .end method
@@ -3690,7 +3690,7 @@
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/ui/tools/CropImageNewUI$16;-><init>(Lcom/tencent/mm/ui/tools/CropImageNewUI;)V
 
-    invoke-static {p0, v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     return-void
 .end method
@@ -3741,7 +3741,7 @@
     .line 142
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/CropImageNewUI;->kBQ:Landroid/widget/ImageView;
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/f;->H(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Fclz;->H(Landroid/view/View;)V
 
     .line 143
     const v0, 0x7f0e0505
@@ -3831,7 +3831,7 @@
     .line 156
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/CropImageNewUI;->kBP:Lcom/tencent/mm/ui/tools/CropImageView;
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/f;->H(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Fclz;->H(Landroid/view/View;)V
 
     .line 157
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/CropImageNewUI;->kBP:Lcom/tencent/mm/ui/tools/CropImageView;
@@ -3894,31 +3894,31 @@
 
     invoke-virtual {v1, v6}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    new-instance v6, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v6, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     new-instance v7, Lcom/tencent/mm/ui/tools/CropImageNewUI$7;
 
     invoke-direct {v7, p0}, Lcom/tencent/mm/ui/tools/CropImageNewUI$7;-><init>(Lcom/tencent/mm/ui/tools/CropImageNewUI;)V
 
-    invoke-direct {v6, v7, v2}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v6, v7, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
-    new-instance v7, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v7, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     new-instance v8, Lcom/tencent/mm/ui/tools/CropImageNewUI$8;
 
     invoke-direct {v8, p0}, Lcom/tencent/mm/ui/tools/CropImageNewUI$8;-><init>(Lcom/tencent/mm/ui/tools/CropImageNewUI;)V
 
-    invoke-direct {v7, v8, v2}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v7, v8, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
     new-instance v8, Lcom/tencent/mm/ui/tools/CropImageNewUI$9;
 
-    invoke-direct {v8, p0, v6}, Lcom/tencent/mm/ui/tools/CropImageNewUI$9;-><init>(Lcom/tencent/mm/ui/tools/CropImageNewUI;Lcom/tencent/mm/sdk/platformtools/ag;)V
+    invoke-direct {v8, p0, v6}, Lcom/tencent/mm/ui/tools/CropImageNewUI$9;-><init>(Lcom/tencent/mm/ui/tools/CropImageNewUI;Lcom/tencent/mm/sdk/platformtools/AGclz;)V
 
     invoke-virtual {v0, v8}, Landroid/widget/Button;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     new-instance v0, Lcom/tencent/mm/ui/tools/CropImageNewUI$10;
 
-    invoke-direct {v0, p0, v7}, Lcom/tencent/mm/ui/tools/CropImageNewUI$10;-><init>(Lcom/tencent/mm/ui/tools/CropImageNewUI;Lcom/tencent/mm/sdk/platformtools/ag;)V
+    invoke-direct {v0, p0, v7}, Lcom/tencent/mm/ui/tools/CropImageNewUI$10;-><init>(Lcom/tencent/mm/ui/tools/CropImageNewUI;Lcom/tencent/mm/sdk/platformtools/AGclz;)V
 
     invoke-virtual {v1, v0}, Landroid/widget/Button;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
@@ -3948,7 +3948,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 218
     new-instance v1, Lcom/tencent/mm/ui/tools/CropImageNewUI$17;
@@ -3980,7 +3980,7 @@
 
     move-result-object v0
 
-    sget v2, Lcom/tencent/mm/ui/j$b;->jyX:I
+    sget v2, Lcom/tencent/mm/ui/Jclz$b;->jyX:I
 
     invoke-virtual {p0, v3, v0, v1, v2}, Lcom/tencent/mm/ui/tools/CropImageNewUI;->a(ILjava/lang/String;Landroid/view/MenuItem$OnMenuItemClickListener;I)V
 
@@ -4017,7 +4017,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/tools/CropImageNewUI$20;-><init>(Lcom/tencent/mm/ui/tools/CropImageNewUI;)V
 
-    sget v2, Lcom/tencent/mm/ui/j$b;->jyX:I
+    sget v2, Lcom/tencent/mm/ui/Jclz$b;->jyX:I
 
     invoke-virtual {p0, v3, v0, v1, v2}, Lcom/tencent/mm/ui/tools/CropImageNewUI;->a(ILjava/lang/String;Landroid/view/MenuItem$OnMenuItemClickListener;I)V
 
@@ -4219,7 +4219,7 @@
 
     move-result-object v0
 
-    sget v2, Lcom/tencent/mm/ui/j$b;->jyX:I
+    sget v2, Lcom/tencent/mm/ui/Jclz$b;->jyX:I
 
     invoke-virtual {p0, v3, v0, v1, v2}, Lcom/tencent/mm/ui/tools/CropImageNewUI;->a(ILjava/lang/String;Landroid/view/MenuItem$OnMenuItemClickListener;I)V
 
@@ -4269,7 +4269,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 385
     iget v0, p1, Landroid/content/res/Configuration;->orientation:I
@@ -4290,7 +4290,7 @@
 
     const-string/jumbo v1, "onConfigurationChanged"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 387
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/CropImageNewUI;->kBP:Lcom/tencent/mm/ui/tools/CropImageView;
@@ -4367,7 +4367,7 @@
 
     aput-object v4, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     iget-object v0, v0, Lcom/tencent/mm/ui/tools/CropImageView;->dOd:Landroid/graphics/Bitmap;
 
@@ -4410,7 +4410,7 @@
 
     aput-object v4, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     iget-object v1, v0, Lcom/tencent/mm/ui/tools/FilterImageView;->kCX:Landroid/graphics/Bitmap;
 
@@ -4424,7 +4424,7 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onDestroy()V
 
     .line 131
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->appenderClose()V
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->appenderClose()V
 
     .line 132
     invoke-static {}, Landroid/os/Process;->myPid()I

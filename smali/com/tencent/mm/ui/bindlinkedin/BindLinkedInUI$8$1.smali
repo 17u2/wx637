@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,9 +48,9 @@
 
     .prologue
     .line 227
-    new-instance v0, Lcom/tencent/mm/ab/d;
+    new-instance v0, Lcom/tencent/mm/ab/Dclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/ab/d;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/ab/Dclz;-><init>()V
 
     .line 229
     iget-object v1, p0, Lcom/tencent/mm/ui/bindlinkedin/BindLinkedInUI$8$1;->jWG:Lcom/tencent/mm/ui/bindlinkedin/BindLinkedInUI$8;
@@ -75,9 +75,9 @@
 
     new-instance v5, Lcom/tencent/mm/ui/bindlinkedin/BindLinkedInUI$8$1$1;
 
-    invoke-direct {v5, p0, v0}, Lcom/tencent/mm/ui/bindlinkedin/BindLinkedInUI$8$1$1;-><init>(Lcom/tencent/mm/ui/bindlinkedin/BindLinkedInUI$8$1;Lcom/tencent/mm/ab/d;)V
+    invoke-direct {v5, p0, v0}, Lcom/tencent/mm/ui/bindlinkedin/BindLinkedInUI$8$1$1;-><init>(Lcom/tencent/mm/ui/bindlinkedin/BindLinkedInUI$8$1;Lcom/tencent/mm/ab/Dclz;)V
 
-    invoke-static {v2, v3, v4, v5}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v2, v3, v4, v5}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v2
 

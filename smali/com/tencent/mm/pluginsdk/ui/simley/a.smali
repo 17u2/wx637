@@ -52,7 +52,7 @@
     iput-boolean v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/a;->iaV:Z
 
     .line 65
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -63,7 +63,7 @@
 
     const-string/jumbo v1, "catch invalid Smiley Tab want add??!!"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 67
     iput-boolean v2, p0, Lcom/tencent/mm/pluginsdk/ui/simley/a;->iaV:Z
@@ -73,7 +73,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     .line 94
     :cond_0
@@ -147,7 +147,7 @@
 
     if-lez v3, :cond_4
 
-    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -165,7 +165,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/a;->cYT:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v7
 
@@ -207,14 +207,14 @@
 
     aput-object v2, v4, v1
 
-    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 94
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     goto :goto_0
 
@@ -249,7 +249,7 @@
     :cond_7
     iget-object v0, v3, Lcom/tencent/mm/pluginsdk/ui/simley/d;->bsC:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/tencent/mm/av/e;->dE(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/tencent/mm/av/Eclz;->dE(Landroid/content/Context;)I
 
     move-result v0
 
@@ -258,7 +258,7 @@
     :cond_8
     iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/simley/d;->bsC:Landroid/content/Context;
 
-    invoke-static {v3}, Lcom/tencent/mm/av/e;->dF(Landroid/content/Context;)I
+    invoke-static {v3}, Lcom/tencent/mm/av/Eclz;->dF(Landroid/content/Context;)I
 
     move-result v3
 
@@ -393,7 +393,7 @@
 
     div-int/2addr v3, v0
 
-    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -519,7 +519,7 @@
 
     aput-object v7, v5, v2
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto/16 :goto_3
 
@@ -566,7 +566,7 @@
 
     const-string/jumbo v1, "refresh cache"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 188
     const/4 v0, 0x0
@@ -704,7 +704,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/simley/a;->cYT:Ljava/lang/String;
 
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 

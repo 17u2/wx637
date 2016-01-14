@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/ui/base/MMViewPager$g;
-.super Lcom/tencent/mm/sdk/platformtools/ab;
+.super Lcom/tencent/mm/sdk/platformtools/ABclz;
 .source "SourceFile"
 
 
@@ -26,7 +26,7 @@
 
     .prologue
     .line 1042
-    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     .line 1043
     iput-object p1, p0, Lcom/tencent/mm/ui/base/MMViewPager$g;->jQZ:Ljava/lang/ref/WeakReference;
@@ -36,7 +36,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -49,7 +49,7 @@
 
     .prologue
     .line 1048
-    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/platformtools/ab;->handleMessage(Landroid/os/Message;)V
+    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->handleMessage(Landroid/os/Message;)V
 
     .line 1050
     iget v0, p1, Landroid/os/Message;->what:I

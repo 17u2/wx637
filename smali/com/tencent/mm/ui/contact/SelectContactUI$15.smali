@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -60,7 +60,7 @@
 
     move-result v2
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/ui/contact/q;->aW(II)Z
+    invoke-static {v2, v4}, Lcom/tencent/mm/ui/contact/Qclz;->aW(II)Z
 
     move-result v2
 
@@ -77,7 +77,7 @@
 
     const/16 v3, 0x1000
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/ui/contact/q;->aW(II)Z
+    invoke-static {v2, v3}, Lcom/tencent/mm/ui/contact/Qclz;->aW(II)Z
 
     move-result v2
 
@@ -120,7 +120,7 @@
 
     const-string/jumbo v2, "Create the chatroom"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 482
     :goto_1
@@ -144,7 +144,7 @@
 
     move-result v2
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/ui/contact/q;->aW(II)Z
+    invoke-static {v2, v4}, Lcom/tencent/mm/ui/contact/Qclz;->aW(II)Z
 
     move-result v2
 

@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/search/a/e$e;
-.super Lcom/tencent/mm/modelsearch/m$a;
+.super Lcom/tencent/mm/modelsearch/Mclz$a;
 .source "SourceFile"
 
 
@@ -30,7 +30,7 @@
     .line 1259
     iput-object p1, p0, Lcom/tencent/mm/plugin/search/a/e$e;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/m$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/Mclz$a;-><init>()V
 
     .line 1256
     const/4 v0, 0x0
@@ -45,7 +45,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -78,7 +78,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1268
     iget v0, p0, Lcom/tencent/mm/plugin/search/a/e$e;->fHz:I
@@ -90,7 +90,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v1, Lcom/tencent/mm/modelsearch/c;->bQH:[I
+    sget-object v1, Lcom/tencent/mm/modelsearch/Cclz;->bQH:[I
 
     invoke-virtual {v0, v1, v5}, Lcom/tencent/mm/plugin/search/a/b/a;->b([II)Ljava/util/List;
 
@@ -119,7 +119,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v1, Lcom/tencent/mm/modelsearch/c;->bQI:[I
+    sget-object v1, Lcom/tencent/mm/modelsearch/Cclz;->bQI:[I
 
     invoke-virtual {v0, v1, v5}, Lcom/tencent/mm/plugin/search/a/b/a;->b([II)Ljava/util/List;
 
@@ -147,7 +147,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v1, Lcom/tencent/mm/modelsearch/c;->bQJ:[I
+    sget-object v1, Lcom/tencent/mm/modelsearch/Cclz;->bQJ:[I
 
     invoke-virtual {v0, v1, v5}, Lcom/tencent/mm/plugin/search/a/b/a;->b([II)Ljava/util/List;
 

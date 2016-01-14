@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -87,11 +87,11 @@
     :cond_1
     iget-object v2, p0, Lcom/tencent/mm/ui/tools/CountryCodeUI$4;->kBI:Lcom/tencent/mm/ui/tools/CountryCodeUI;
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/tools/CountryCodeUI;->c(Lcom/tencent/mm/ui/tools/CountryCodeUI;)Lcom/tencent/mm/ui/tools/e;
+    invoke-static {v2}, Lcom/tencent/mm/ui/tools/CountryCodeUI;->c(Lcom/tencent/mm/ui/tools/CountryCodeUI;)Lcom/tencent/mm/ui/tools/Eclz;
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/tools/e;->emv:[I
+    iget-object v2, v2, Lcom/tencent/mm/ui/tools/Eclz;->emv:[I
 
     .line 184
     if-eqz v2, :cond_0

@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -57,7 +57,7 @@
 
     iget v1, p0, Lcom/tencent/mm/ui/LauncherUI$29;->cjZ:I
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ai;->B(Landroid/content/Context;I)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/AIclz;->B(Landroid/content/Context;I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

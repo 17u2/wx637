@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic bgy:Lcom/tencent/mm/ac/b;
+.field final synthetic bgy:Lcom/tencent/mm/ac/Bclz;
 
 .field final synthetic bgz:Lcom/tencent/mm/booter/Iclz$2;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/booter/Iclz$2;Lcom/tencent/mm/ac/b;)V
+.method constructor <init>(Lcom/tencent/mm/booter/Iclz$2;Lcom/tencent/mm/ac/Bclz;)V
     .locals 1
 
     .prologue
     .line 102
     iput-object p1, p0, Lcom/tencent/mm/booter/Iclz$2$1;->bgz:Lcom/tencent/mm/booter/Iclz$2;
 
-    iput-object p2, p0, Lcom/tencent/mm/booter/Iclz$2$1;->bgy:Lcom/tencent/mm/ac/b;
+    iput-object p2, p0, Lcom/tencent/mm/booter/Iclz$2$1;->bgy:Lcom/tencent/mm/ac/Bclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -57,13 +57,13 @@
     if-nez p2, :cond_4
 
     .line 105
-    iget-object v0, p0, Lcom/tencent/mm/booter/Iclz$2$1;->bgy:Lcom/tencent/mm/ac/b;
+    iget-object v0, p0, Lcom/tencent/mm/booter/Iclz$2$1;->bgy:Lcom/tencent/mm/ac/Bclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ac/b;->bMV:Lcom/tencent/mm/q/Aclz;
+    iget-object v0, v0, Lcom/tencent/mm/ac/Bclz;->bMV:Lcom/tencent/mm/q/Aclz;
 
     iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/PHclz;
 
@@ -186,7 +186,7 @@
 
     const-string/jumbo v1, ""
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -358,14 +358,14 @@
     invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rd()V
 
     .line 134
-    new-instance v0, Lcom/tencent/mm/d/a/bk;
+    new-instance v0, Lcom/tencent/mm/d/a/BKclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/bk;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/BKclz;-><init>()V
 
     .line 135
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 136
     const/4 v0, 0x0

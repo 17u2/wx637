@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -63,7 +63,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/h/a;
+    check-cast v0, Lcom/tencent/mm/h/Aclz;
 
     .line 96
     sget-object v2, Lcom/tencent/mm/pluginsdk/h$ah;->hKh:Lcom/tencent/mm/pluginsdk/h$n$e;
@@ -82,7 +82,7 @@
 
     .line 101
     :cond_0
-    iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-interface {v2, v1, v0}, Lcom/tencent/mm/pluginsdk/h$n$e;->d(Landroid/content/Intent;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -102,15 +102,15 @@
     :cond_1
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/SnsTagContactListUI$1;->kuC:Lcom/tencent/mm/ui/contact/SnsTagContactListUI;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v1, v1, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const-string/jumbo v2, "sns"
 
     const-string/jumbo v3, ".ui.SnsUserUI"
 
-    invoke-static {v1, v2, v3, v0}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {v1, v2, v3, v0}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     goto :goto_0
 .end method

@@ -9,7 +9,7 @@
 # instance fields
 .field private final cPN:Landroid/graphics/Paint;
 
-.field private deV:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private deV:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field eeZ:Z
 
@@ -157,11 +157,11 @@
     iput v1, p0, Lcom/tencent/mm/plugin/gif/a;->eft:I
 
     .line 72
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/gif/a;->deV:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/gif/a;->deV:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 74
     new-instance v0, Lcom/tencent/mm/plugin/gif/a$1;
@@ -219,7 +219,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     throw v0
@@ -251,7 +251,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_2
     return-void
@@ -273,7 +273,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -365,11 +365,11 @@
     iput v1, p0, Lcom/tencent/mm/plugin/gif/a;->eft:I
 
     .line 72
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/gif/a;->deV:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/gif/a;->deV:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 74
     new-instance v0, Lcom/tencent/mm/plugin/gif/a$1;
@@ -427,7 +427,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     throw v0
@@ -450,7 +450,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_2
     return-void
@@ -542,11 +542,11 @@
     iput v1, p0, Lcom/tencent/mm/plugin/gif/a;->eft:I
 
     .line 72
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/gif/a;->deV:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/gif/a;->deV:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 74
     new-instance v0, Lcom/tencent/mm/plugin/gif/a$1;
@@ -608,7 +608,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     throw v0
@@ -631,7 +631,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_2
     return-void
@@ -814,7 +814,7 @@
 
     aput-object v3, v2, v6
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 214
     iget-object v0, p0, Lcom/tencent/mm/plugin/gif/a;->efc:[I
@@ -828,7 +828,7 @@
 
     aget v0, v0, v6
 
-    invoke-static {}, Lcom/tencent/mm/g/b;->pw()I
+    invoke-static {}, Lcom/tencent/mm/g/Bclz;->pw()I
 
     move-result v1
 
@@ -838,7 +838,7 @@
 
     aget v0, v0, v5
 
-    invoke-static {}, Lcom/tencent/mm/g/b;->pw()I
+    invoke-static {}, Lcom/tencent/mm/g/Bclz;->pw()I
 
     move-result v1
 
@@ -872,7 +872,7 @@
 
     aput-object v3, v2, v5
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 217
     iget v0, p0, Lcom/tencent/mm/plugin/gif/a;->efq:I
@@ -890,11 +890,11 @@
 
     .line 223
     :goto_0
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/at/a;->getDensity(Landroid/content/Context;)F
+    invoke-static {v0}, Lcom/tencent/mm/at/Aclz;->getDensity(Landroid/content/Context;)F
 
     move-result v0
 
@@ -997,16 +997,16 @@
     iput-wide v0, p0, Lcom/tencent/mm/plugin/gif/a;->efp:J
 
     .line 149
-    iget-object v0, p0, Lcom/tencent/mm/plugin/gif/a;->deV:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/gif/a;->deV:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     if-eqz v0, :cond_0
 
     .line 150
-    iget-object v0, p0, Lcom/tencent/mm/plugin/gif/a;->deV:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/gif/a;->deV:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-wide v1, p0, Lcom/tencent/mm/plugin/gif/a;->efp:J
 
-    invoke-virtual {v0, p1, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->postAtTime(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v0, p1, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postAtTime(Ljava/lang/Runnable;J)Z
 
     .line 152
     :cond_0
@@ -1252,7 +1252,7 @@
 
     aput-object v1, v4, v10
 
-    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -1262,7 +1262,7 @@
 
     const-string/jumbo v1, "colors is null."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -1270,7 +1270,7 @@
     :cond_4
     iget-object v0, p0, Lcom/tencent/mm/plugin/gif/a;->efA:Ljava/lang/Runnable;
 
-    invoke-static {v0, v11, v12}, Lcom/tencent/mm/x/a;->a(Ljava/lang/Runnable;J)Z
+    invoke-static {v0, v11, v12}, Lcom/tencent/mm/x/Aclz;->a(Ljava/lang/Runnable;J)Z
 
     goto :goto_1
 
@@ -1314,7 +1314,7 @@
 
     aput-object v2, v3, v10
 
-    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_1
 
@@ -1324,7 +1324,7 @@
 
     const-string/jumbo v1, "colors drawRect "
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 289
     iget-object v0, p0, Lcom/tencent/mm/plugin/gif/a;->efg:Landroid/graphics/Rect;
@@ -1451,7 +1451,7 @@
 
     const-string/jumbo v1, "recycle"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 354
     const/4 v0, 0x1
@@ -1523,7 +1523,7 @@
 
     const-wide/16 v1, 0x0
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/x/a;->a(Ljava/lang/Runnable;J)Z
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/x/Aclz;->a(Ljava/lang/Runnable;J)Z
 
     .line 321
     return-void
@@ -1538,7 +1538,7 @@
 
     const-string/jumbo v1, "stop"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 326
     const/4 v0, 0x0
@@ -1550,7 +1550,7 @@
 
     const-wide/16 v1, 0x12c
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/x/a;->a(Ljava/lang/Runnable;J)Z
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/x/Aclz;->a(Ljava/lang/Runnable;J)Z
 
     .line 330
     return-void

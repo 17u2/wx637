@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,7 +50,7 @@
     .line 75
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/a/d$2;->fYX:Lcom/tencent/mm/plugin/sight/encode/a/d;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/encode/a/d;->apq:Lcom/tencent/mm/c/b/c;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/encode/a/d;->apq:Lcom/tencent/mm/c/b/Cclz;
 
     if-nez v0, :cond_0
 
@@ -62,9 +62,9 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/a/d$2;->fYX:Lcom/tencent/mm/plugin/sight/encode/a/d;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/encode/a/d;->apq:Lcom/tencent/mm/c/b/c;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/encode/a/d;->apq:Lcom/tencent/mm/c/b/Cclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/c/b/c;->lO()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/c/b/Cclz;->lO()Z
 
     goto :goto_0
 .end method

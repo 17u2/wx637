@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -91,7 +91,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v1, v2, v2}, Lcom/tencent/mm/plugin/sns/ui/SnsMsgUI$a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/g/i;)V
+    invoke-virtual {v1, v2, v2}, Lcom/tencent/mm/plugin/sns/ui/SnsMsgUI$a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/g/Iclz;)V
 
     .line 275
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsMsgUI$11;->gzL:Lcom/tencent/mm/plugin/sns/ui/SnsMsgUI;
@@ -120,7 +120,7 @@
 
     const-string/jumbo v2, "remove footer"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 278
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsMsgUI$11;->gzL:Lcom/tencent/mm/plugin/sns/ui/SnsMsgUI;
@@ -173,7 +173,7 @@
 
     const-string/jumbo v1, "add mLoadingFooterView"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 285
     :cond_1

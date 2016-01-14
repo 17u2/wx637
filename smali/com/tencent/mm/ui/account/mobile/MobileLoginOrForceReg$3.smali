@@ -48,7 +48,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -68,7 +68,7 @@
     invoke-virtual {v1}, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->acY()V
 
     .line 463
-    new-instance v1, Lcom/tencent/mm/modelsimple/v;
+    new-instance v1, Lcom/tencent/mm/modelsimple/Vclz;
 
     const-string/jumbo v2, ""
 
@@ -118,9 +118,9 @@
 
     iget-object v13, v0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$3;->aoz:Lcom/tencent/mm/q/Jclz;
 
-    check-cast v13, Lcom/tencent/mm/modelsimple/v;
+    check-cast v13, Lcom/tencent/mm/modelsimple/Vclz;
 
-    invoke-virtual {v13}, Lcom/tencent/mm/modelsimple/v;->yK()Ljava/lang/String;
+    invoke-virtual {v13}, Lcom/tencent/mm/modelsimple/Vclz;->yK()Ljava/lang/String;
 
     move-result-object v13
 
@@ -138,7 +138,7 @@
 
     move-result v16
 
-    invoke-direct/range {v1 .. v16}, Lcom/tencent/mm/modelsimple/v;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V
+    invoke-direct/range {v1 .. v16}, Lcom/tencent/mm/modelsimple/Vclz;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
     .line 466
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;

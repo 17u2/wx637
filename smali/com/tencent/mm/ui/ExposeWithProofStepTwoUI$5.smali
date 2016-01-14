@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -96,11 +96,11 @@
     check-cast v0, Ljava/lang/String;
 
     .line 381
-    invoke-static {}, Lcom/tencent/mm/modelcdntran/d;->xI()Lcom/tencent/mm/modelcdntran/a;
+    invoke-static {}, Lcom/tencent/mm/modelcdntran/Dclz;->xI()Lcom/tencent/mm/modelcdntran/Aclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/modelcdntran/a;->gW(Ljava/lang/String;)Z
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/modelcdntran/Aclz;->gW(Ljava/lang/String;)Z
 
     goto :goto_0
 
@@ -123,7 +123,7 @@
     :cond_1
     iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI$5;->juj:Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->i(Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;)Lcom/tencent/mm/modelsimple/l;
+    invoke-static {v0}, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->i(Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;)Lcom/tencent/mm/modelsimple/Lclz;
 
     move-result-object v0
 
@@ -136,7 +136,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI$5;->juj:Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->i(Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;)Lcom/tencent/mm/modelsimple/l;
+    invoke-static {v1}, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;->i(Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;)Lcom/tencent/mm/modelsimple/Lclz;
 
     move-result-object v1
 

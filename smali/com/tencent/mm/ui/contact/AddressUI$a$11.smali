@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,21 +52,21 @@
     .line 1068
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/AddressUI$a$11;->kqD:Lcom/tencent/mm/ui/contact/AddressUI$a;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/contact/AddressUI$a;->a(Lcom/tencent/mm/ui/contact/AddressUI$a;)Lcom/tencent/mm/ui/contact/a;
+    invoke-static {v0}, Lcom/tencent/mm/ui/contact/AddressUI$a;->a(Lcom/tencent/mm/ui/contact/AddressUI$a;)Lcom/tencent/mm/ui/contact/Aclz;
 
     move-result-object v0
 
-    iget-object v1, v0, Lcom/tencent/mm/ui/e;->TAG:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/ui/Eclz;->TAG:Ljava/lang/String;
 
     const-string/jumbo v2, "newcursor resume "
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    iput-boolean v3, v0, Lcom/tencent/mm/ui/e;->jth:Z
+    iput-boolean v3, v0, Lcom/tencent/mm/ui/Eclz;->jth:Z
 
     const-string/jumbo v1, "resume"
 
-    invoke-virtual {v0, v1, v3}, Lcom/tencent/mm/ui/e;->ai(Ljava/lang/String;Z)V
+    invoke-virtual {v0, v1, v3}, Lcom/tencent/mm/ui/Eclz;->ai(Ljava/lang/String;Z)V
 
     .line 1069
     return-void

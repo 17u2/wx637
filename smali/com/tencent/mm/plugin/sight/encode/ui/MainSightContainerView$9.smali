@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView$9;
-.super Lcom/tencent/mm/sdk/platformtools/ab;
+.super Lcom/tencent/mm/sdk/platformtools/ABclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 1286
     iput-object p1, p0, Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView$9;->gbj:Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView;
 
-    invoke-direct {p0, p2}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {p0, p2}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -63,7 +63,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1291
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView$9;->gbj:Lcom/tencent/mm/plugin/sight/encode/ui/MainSightContainerView;

@@ -4,17 +4,17 @@
 
 
 # annotations
-.annotation runtime Lcom/tencent/mm/ui/base/a;
+.annotation runtime Lcom/tencent/mm/ui/base/Aclz;
     value = 0x3
 .end annotation
 
 
 # instance fields
-.field private ccJ:Lcom/tencent/mm/ui/base/g;
+.field private ccJ:Lcom/tencent/mm/ui/base/Gclz;
 
 .field private ccK:Ljava/lang/String;
 
-.field private mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -30,13 +30,13 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity$1;-><init>(Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,12 +52,12 @@
     return-object v0
 .end method
 
-.method static synthetic b(Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;)Lcom/tencent/mm/ui/base/g;
+.method static synthetic b(Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;)Lcom/tencent/mm/ui/base/Gclz;
     .locals 1
 
     .prologue
     .line 17
-    iget-object v0, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->ccJ:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->ccJ:Lcom/tencent/mm/ui/base/Gclz;
 
     return-object v0
 .end method
@@ -77,14 +77,14 @@
     invoke-virtual {p0, v0}, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->setContentView(I)V
 
     .line 37
-    new-instance v1, Lcom/tencent/mm/ui/base/g$a;
+    new-instance v1, Lcom/tencent/mm/ui/base/Gclz$a;
 
-    invoke-direct {v1, p0}, Lcom/tencent/mm/ui/base/g$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p0}, Lcom/tencent/mm/ui/base/Gclz$a;-><init>(Landroid/content/Context;)V
 
     .line 38
     const-string/jumbo v0, "memory leak"
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/g$a;->El(Ljava/lang/String;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/Gclz$a;->El(Ljava/lang/String;)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 40
     invoke-virtual {p0}, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->getIntent()Landroid/content/Intent;
@@ -170,7 +170,7 @@
 
     move-result-object v0
 
-    sget-object v2, Lcom/tencent/mm/ax/a;->jsj:Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/ax/Aclz;->jsj:Ljava/lang/String;
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -190,12 +190,12 @@
 
     move-result-object v0
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/g$a;->Em(Ljava/lang/String;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/Gclz$a;->Em(Ljava/lang/String;)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 51
     const/4 v0, 0x1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/g$a;->gM(Z)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/Gclz$a;->gM(Z)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 52
     const-string/jumbo v0, "dumphprof"
@@ -204,7 +204,7 @@
 
     invoke-direct {v2, p0, v3}, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity$2;-><init>(Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;Ljava/lang/String;)V
 
-    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/ui/base/g$a;->a(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/ui/base/Gclz$a;->a(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 63
     const-string/jumbo v0, "cancel"
@@ -213,21 +213,21 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity$3;-><init>(Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;)V
 
-    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/ui/base/g$a;->b(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/ui/base/Gclz$a;->b(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 74
     new-instance v0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity$4;
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity$4;-><init>(Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;)V
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/g$a;->a(Landroid/content/DialogInterface$OnDismissListener;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/Gclz$a;->a(Landroid/content/DialogInterface$OnDismissListener;)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 82
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/base/g$a;->aVX()Lcom/tencent/mm/ui/base/g;
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/base/Gclz$a;->aVX()Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->ccJ:Lcom/tencent/mm/ui/base/g;
+    iput-object v0, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->ccJ:Lcom/tencent/mm/ui/base/Gclz;
 
     .line 83
     invoke-static {}, Ljava/lang/System;->gc()V
@@ -236,13 +236,13 @@
     invoke-static {}, Ljava/lang/System;->gc()V
 
     .line 86
-    iget-object v0, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     const/4 v1, 0x0
 
     const-wide/16 v2, 0xc8
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessageDelayed(IJ)Z
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessageDelayed(IJ)Z
 
     .line 87
     return-void
@@ -258,37 +258,37 @@
     invoke-super {p0}, Landroid/app/Activity;->onDestroy()V
 
     .line 93
-    sget-object v0, Lcom/tencent/mm/performance/wxperformancetool/d;->ccS:Ljava/util/HashMap;
+    sget-object v0, Lcom/tencent/mm/performance/wxperformancetool/Dclz;->ccS:Ljava/util/HashMap;
 
     iget-object v1, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->ccK:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 94
-    iget-object v0, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacksAndMessages(Ljava/lang/Object;)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
     .line 95
-    iget-object v0, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->ccJ:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->ccJ:Lcom/tencent/mm/ui/base/Gclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->ccJ:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->ccJ:Lcom/tencent/mm/ui/base/Gclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->isShowing()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->isShowing()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 96
-    iget-object v0, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->ccJ:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->ccJ:Lcom/tencent/mm/ui/base/Gclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->dismiss()V
 
     .line 97
-    iput-object v2, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->ccJ:Lcom/tencent/mm/ui/base/g;
+    iput-object v2, p0, Lcom/tencent/mm/performance/wxperformancetool/MemoryLeakActivity;->ccJ:Lcom/tencent/mm/ui/base/Gclz;
 
     .line 99
     :cond_0

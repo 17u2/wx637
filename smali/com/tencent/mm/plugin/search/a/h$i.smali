@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/search/a/h$i;
-.super Lcom/tencent/mm/modelsearch/a$a;
+.super Lcom/tencent/mm/modelsearch/Aclz$a;
 .source "SourceFile"
 
 
@@ -19,7 +19,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/tencent/mm/plugin/search/a/h;Ljava/lang/String;ILjava/util/HashSet;Lcom/tencent/mm/modelsearch/k$i;Lcom/tencent/mm/sdk/platformtools/ab;)V
+.method public constructor <init>(Lcom/tencent/mm/plugin/search/a/h;Ljava/lang/String;ILjava/util/HashSet;Lcom/tencent/mm/modelsearch/Kclz$i;Lcom/tencent/mm/sdk/platformtools/ABclz;)V
     .locals 6
 
     .prologue
@@ -39,14 +39,14 @@
     move-object v5, p6
 
     .line 199
-    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/modelsearch/a$a;-><init>(Ljava/lang/String;ILjava/util/HashSet;Lcom/tencent/mm/modelsearch/k$i;Lcom/tencent/mm/sdk/platformtools/ab;)V
+    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/modelsearch/Aclz$a;-><init>(Ljava/lang/String;ILjava/util/HashSet;Lcom/tencent/mm/modelsearch/Kclz$i;Lcom/tencent/mm/sdk/platformtools/ABclz;)V
 
     .line 200
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -184,9 +184,9 @@
 
     aput-object v3, v4, v7
 
-    iget-object v2, v2, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v2, v2, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v2, v0, v4}, Lcom/tencent/mm/modelsearch/h;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface {v2, v0, v4}, Lcom/tencent/mm/modelsearch/Hclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -204,44 +204,44 @@
     if-eqz v3, :cond_2
 
     .line 207
-    new-instance v3, Lcom/tencent/mm/modelsearch/k$g;
+    new-instance v3, Lcom/tencent/mm/modelsearch/Kclz$g;
 
-    invoke-direct {v3}, Lcom/tencent/mm/modelsearch/k$g;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/modelsearch/Kclz$g;-><init>()V
 
     .line 208
     invoke-interface {v0, v1}, Landroid/database/Cursor;->getInt(I)I
 
     move-result v4
 
-    iput v4, v3, Lcom/tencent/mm/modelsearch/k$g;->type:I
+    iput v4, v3, Lcom/tencent/mm/modelsearch/Kclz$g;->type:I
 
     .line 209
     invoke-interface {v0, v7}, Landroid/database/Cursor;->getInt(I)I
 
     move-result v4
 
-    iput v4, v3, Lcom/tencent/mm/modelsearch/k$g;->bRD:I
+    iput v4, v3, Lcom/tencent/mm/modelsearch/Kclz$g;->bRD:I
 
     .line 210
     invoke-interface {v0, v8}, Landroid/database/Cursor;->getLong(I)J
 
     move-result-wide v4
 
-    iput-wide v4, v3, Lcom/tencent/mm/modelsearch/k$g;->bRE:J
+    iput-wide v4, v3, Lcom/tencent/mm/modelsearch/Kclz$g;->bRE:J
 
     .line 211
     invoke-interface {v0, v9}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    iput-object v4, v3, Lcom/tencent/mm/modelsearch/k$g;->bRF:Ljava/lang/String;
+    iput-object v4, v3, Lcom/tencent/mm/modelsearch/Kclz$g;->bRF:Ljava/lang/String;
 
     .line 212
     invoke-interface {v0, v10}, Landroid/database/Cursor;->getLong(I)J
 
     move-result-wide v4
 
-    iput-wide v4, v3, Lcom/tencent/mm/modelsearch/k$g;->timestamp:J
+    iput-wide v4, v3, Lcom/tencent/mm/modelsearch/Kclz$g;->timestamp:J
 
     .line 213
     const/4 v4, 0x5
@@ -250,7 +250,7 @@
 
     move-result-object v4
 
-    iput-object v4, v3, Lcom/tencent/mm/modelsearch/k$g;->content:Ljava/lang/String;
+    iput-object v4, v3, Lcom/tencent/mm/modelsearch/Kclz$g;->content:Ljava/lang/String;
 
     .line 214
     const/4 v4, 0x6
@@ -263,7 +263,7 @@
 
     move-result-object v4
 
-    iput-object v4, v3, Lcom/tencent/mm/modelsearch/k$g;->userData:Ljava/lang/Object;
+    iput-object v4, v3, Lcom/tencent/mm/modelsearch/Kclz$g;->userData:Ljava/lang/Object;
 
     .line 215
     invoke-virtual {v2, v3}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z

@@ -41,7 +41,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/compatible/util/k;->S(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/tencent/mm/compatible/util/Kclz;->S(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/compatible/util/k;->S(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/tencent/mm/compatible/util/Kclz;->S(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -85,7 +85,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/compatible/util/k;->S(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/tencent/mm/compatible/util/Kclz;->S(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -98,7 +98,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/compatible/util/k;->S(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/tencent/mm/compatible/util/Kclz;->S(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -125,7 +125,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/ui/base/m$c;
+.implements Lcom/tencent/mm/ui/base/Mclz$c;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/ui/base/k;)V
+.method public final a(Lcom/tencent/mm/ui/base/Kclz;)V
     .locals 3
 
     .prologue
@@ -54,7 +54,7 @@
 
     const v2, 0x7f070004
 
-    invoke-virtual {p1, v0, v1, v2}, Lcom/tencent/mm/ui/base/k;->w(III)Landroid/view/MenuItem;
+    invoke-virtual {p1, v0, v1, v2}, Lcom/tencent/mm/ui/base/Kclz;->w(III)Landroid/view/MenuItem;
 
     .line 279
     const/4 v0, 0x2
@@ -63,7 +63,7 @@
 
     const v2, 0x7f070015
 
-    invoke-virtual {p1, v0, v1, v2}, Lcom/tencent/mm/ui/base/k;->w(III)Landroid/view/MenuItem;
+    invoke-virtual {p1, v0, v1, v2}, Lcom/tencent/mm/ui/base/Kclz;->w(III)Landroid/view/MenuItem;
 
     .line 280
     return-void

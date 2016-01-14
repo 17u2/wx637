@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,14 +48,14 @@
 
     .prologue
     .line 632
-    new-instance v0, Lcom/tencent/mm/d/a/hz;
+    new-instance v0, Lcom/tencent/mm/d/a/HZclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/hz;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/HZclz;-><init>()V
 
     .line 633
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 634
     return-void

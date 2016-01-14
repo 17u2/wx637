@@ -139,12 +139,12 @@
     check-cast v0, Ljava/lang/String;
 
     .line 165
-    new-instance v7, Lcom/tencent/mm/h/a;
+    new-instance v7, Lcom/tencent/mm/h/Aclz;
 
-    invoke-direct {v7}, Lcom/tencent/mm/h/a;-><init>()V
+    invoke-direct {v7}, Lcom/tencent/mm/h/Aclz;-><init>()V
 
     .line 166
-    invoke-virtual {v7, v0}, Lcom/tencent/mm/h/a;->setUsername(Ljava/lang/String;)V
+    invoke-virtual {v7, v0}, Lcom/tencent/mm/h/Aclz;->setUsername(Ljava/lang/String;)V
 
     .line 167
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/SnsTagContactListUI$a;->kuD:Ljava/util/Map;
@@ -243,7 +243,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_2
     :goto_2
@@ -257,7 +257,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     goto :goto_2
 
@@ -269,7 +269,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     goto :goto_2
 .end method
@@ -357,17 +357,17 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/h/a;
+    check-cast v0, Lcom/tencent/mm/h/Aclz;
 
     .line 197
-    iget v1, v0, Lcom/tencent/mm/d/b/o;->field_showHead:I
+    iget v1, v0, Lcom/tencent/mm/d/b/Oclz;->field_showHead:I
 
     if-nez v1, :cond_0
 
     .line 198
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/SnsTagContactListUI$a;->gwu:Lcom/tencent/mm/storage/Qclz;
 
-    iget-object v2, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
@@ -485,7 +485,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/h/a;
+    check-cast v0, Lcom/tencent/mm/h/Aclz;
 
     .line 234
     if-nez v0, :cond_1
@@ -500,7 +500,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/h/a;
+    check-cast v0, Lcom/tencent/mm/h/Aclz;
 
     .line 237
     if-nez p1, :cond_2
@@ -528,7 +528,7 @@
     :goto_2
     iget-object v3, v2, Lcom/tencent/mm/ui/contact/SnsTagContactListUI$b;->crr:Landroid/widget/TextView;
 
-    iget-object v1, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->eA(Ljava/lang/String;)Z
 
@@ -551,7 +551,7 @@
     check-cast v1, Landroid/widget/ImageView;
 
     .line 255
-    iget-object v3, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     const/4 v4, 0x1
 
@@ -572,7 +572,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/contact/SnsTagContactListUI$a;->context:Landroid/content/Context;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/h/a;->qy()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/h/Aclz;->qy()Ljava/lang/String;
 
     move-result-object v0
 

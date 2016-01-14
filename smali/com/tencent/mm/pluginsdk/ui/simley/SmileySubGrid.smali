@@ -73,7 +73,7 @@
 
 .field private icz:Ljava/lang/String;
 
-.field private mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -106,11 +106,11 @@
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->icp:Landroid/graphics/Rect;
 
     .line 59
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 253
     iput v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->icA:I
@@ -315,7 +315,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -384,11 +384,11 @@
     if-eqz v0, :cond_0
 
     .line 294
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->icr:Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid$c;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     .line 296
     :cond_0
@@ -627,7 +627,7 @@
 
     aput-object v5, v4, v2
 
-    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 244
     invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->getAdapter()Landroid/widget/ListAdapter;
@@ -716,7 +716,7 @@
 
     iput-boolean v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->icB:Z
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->icr:Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid$c;
 
@@ -724,7 +724,7 @@
 
     int-to-long v2, v2
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     .line 245
     :goto_2
@@ -812,7 +812,7 @@
 
     aput-object v4, v1, v2
 
-    invoke-static {v0, v3, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_3
 .end method
@@ -988,7 +988,7 @@
 
     aput-object v0, v4, v5
 
-    invoke-static {v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 440
     invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->getResources()Landroid/content/res/Resources;
@@ -997,7 +997,7 @@
 
     const-string/jumbo v3, "drawable"
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getPackageName()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getPackageName()Ljava/lang/String;
 
     move-result-object v4
 
@@ -1034,7 +1034,7 @@
     .line 444
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->dia:Lcom/tencent/mm/pluginsdk/ui/emoji/PopEmojiView;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -1102,7 +1102,7 @@
 
     const-string/jumbo v1, "mPopImageView is null."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -1269,7 +1269,7 @@
 
     .line 148
     :cond_6
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->icu:Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid$a;
 
@@ -1277,7 +1277,7 @@
 
     int-to-long v3, v3
 
-    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     goto :goto_0
 
@@ -1369,11 +1369,11 @@
     .line 183
     :cond_8
     :goto_1
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->icu:Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid$a;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     goto/16 :goto_0
 
@@ -1437,11 +1437,11 @@
     iput v6, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->icm:I
 
     .line 188
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->icu:Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid$a;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     .line 190
     :cond_b
@@ -1498,17 +1498,17 @@
     invoke-virtual {v2}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid$b;->aLX()V
 
     .line 209
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 214
     :cond_d
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->icu:Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid$a;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     .line 216
     invoke-virtual {p0, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileySubGrid;->setScrollEnable(Z)V

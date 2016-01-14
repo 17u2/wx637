@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -54,7 +54,7 @@
     .line 1139
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$4;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v0
 
@@ -68,15 +68,15 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$4;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v0
 
     iget v1, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$4;->bER:I
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/b;->kmQ:Lcom/tencent/mm/ui/chatting/gallery/i;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Bclz;->kmQ:Lcom/tencent/mm/ui/chatting/gallery/Iclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/chatting/gallery/i;->pause(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/chatting/gallery/Iclz;->pause(I)V
 
     goto :goto_0
 .end method

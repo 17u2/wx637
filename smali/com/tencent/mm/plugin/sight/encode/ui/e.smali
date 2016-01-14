@@ -6,7 +6,7 @@
 # instance fields
 .field gbW:Z
 
-.field gbX:Lcom/tencent/mm/compatible/d/c$a$a;
+.field gbX:Lcom/tencent/mm/compatible/d/Cclz$a$a;
 
 .field lock:Ljava/lang/Object;
 
@@ -33,7 +33,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -41,7 +41,7 @@
 
 
 # virtual methods
-.method public final a(Landroid/app/Activity;I)Lcom/tencent/mm/compatible/d/c$a$a;
+.method public final a(Landroid/app/Activity;I)Lcom/tencent/mm/compatible/d/Cclz$a$a;
     .locals 11
 
     .prologue
@@ -60,7 +60,7 @@
 
     .line 1005
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v4
 
@@ -77,7 +77,7 @@
     iput-boolean v1, p0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->gbW:Z
 
     .line 1009
-    iput-object v8, p0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->gbX:Lcom/tencent/mm/compatible/d/c$a$a;
+    iput-object v8, p0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->gbX:Lcom/tencent/mm/compatible/d/Cclz$a$a;
 
     .line 1010
     iget-object v9, p0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->lock:Ljava/lang/Object;
@@ -98,7 +98,7 @@
 
     const-string/jumbo v1, "SightCamera_openCamera"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/h/e;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/h/Eclz;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -116,13 +116,13 @@
     .line 1044
     :goto_1
     :try_start_2
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->gbX:Lcom/tencent/mm/compatible/d/c$a$a;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->gbX:Lcom/tencent/mm/compatible/d/Cclz$a$a;
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->gbX:Lcom/tencent/mm/compatible/d/c$a$a;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->gbX:Lcom/tencent/mm/compatible/d/Cclz$a$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/compatible/d/c$a$a;->bkU:Landroid/hardware/Camera;
+    iget-object v0, v0, Lcom/tencent/mm/compatible/d/Cclz$a$a;->bkU:Landroid/hardware/Camera;
 
     if-eqz v0, :cond_1
 
@@ -145,7 +145,7 @@
 
     const/4 v2, 0x1
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v7
 
@@ -159,16 +159,16 @@
 
     const/4 v2, 0x2
 
-    iget-object v3, p0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->gbX:Lcom/tencent/mm/compatible/d/c$a$a;
+    iget-object v3, p0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->gbX:Lcom/tencent/mm/compatible/d/Cclz$a$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/compatible/d/c$a$a;->bkU:Landroid/hardware/Camera;
+    iget-object v3, v3, Lcom/tencent/mm/compatible/d/Cclz$a$a;->bkU:Landroid/hardware/Camera;
 
     aput-object v3, v6, v2
 
-    invoke-static {v0, v1, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1046
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->gbX:Lcom/tencent/mm/compatible/d/c$a$a;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/e;->gbX:Lcom/tencent/mm/compatible/d/Cclz$a$a;
 
     monitor-exit v9
 
@@ -206,7 +206,7 @@
 
     aput-object v0, v7, v10
 
-    invoke-static {v1, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_1
 
@@ -227,7 +227,7 @@
 
     const/4 v3, 0x0
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v6
 
@@ -239,7 +239,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1051
     monitor-exit v9

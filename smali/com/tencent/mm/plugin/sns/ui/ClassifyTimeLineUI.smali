@@ -59,7 +59,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -94,7 +94,7 @@
 
     const-string/jumbo v1, "loadingMore"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-boolean v0, p0, Lcom/tencent/mm/plugin/sns/ui/ClassifyTimeLineUI;->eqB:Z
 
@@ -189,7 +189,7 @@
 
     aput-object v6, v4, v5
 
-    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 325
     invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
@@ -202,16 +202,16 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ClassifyTimeLineUI;->gro:Lcom/tencent/mm/plugin/sns/ui/f;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/f;->gra:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/f;->gra:Lcom/tencent/mm/ui/base/Oclz;
 
     if-eqz v0, :cond_0
 
     .line 326
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ClassifyTimeLineUI;->gro:Lcom/tencent/mm/plugin/sns/ui/f;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/f;->gra:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/f;->gra:Lcom/tencent/mm/ui/base/Oclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/o;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Oclz;->dismiss()V
 
     .line 329
     :cond_0
@@ -424,12 +424,12 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 74
-    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget v1, v1, Lcom/tencent/mm/ui/j;->jyG:I
+    iget v1, v1, Lcom/tencent/mm/ui/Jclz;->jyG:I
 
     .line 75
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/ClassifyTimeLineUI;->gro:Lcom/tencent/mm/plugin/sns/ui/f;

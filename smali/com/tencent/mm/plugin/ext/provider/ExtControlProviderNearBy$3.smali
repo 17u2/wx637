@@ -34,7 +34,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,14 +42,14 @@
 
 
 # virtual methods
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/sdk/c/b;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/sdk/c/Bclz;)V
     .locals 4
 
     .prologue
     const/16 v3, 0xa
 
     .line 287
-    instance-of v0, p4, Lcom/tencent/mm/d/a/fr;
+    instance-of v0, p4, Lcom/tencent/mm/d/a/FRclz;
 
     if-eqz v0, :cond_0
 
@@ -69,7 +69,7 @@
 
     .line 291
     :cond_1
-    check-cast p4, Lcom/tencent/mm/d/a/fr;
+    check-cast p4, Lcom/tencent/mm/d/a/FRclz;
 
     .line 293
     const-string/jumbo v0, "!56@/B4Tb64lLpKAQbqlkU5I8moU7mSKZGy4N7P1mJVm15mpUS/mmtFQbA=="
@@ -98,7 +98,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 294
     if-nez p1, :cond_5
@@ -108,9 +108,9 @@
     .line 295
     iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy$3;->dwX:Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;
 
-    iget-object v1, p4, Lcom/tencent/mm/d/a/fr;->aAd:Lcom/tencent/mm/d/a/fr$b;
+    iget-object v1, p4, Lcom/tencent/mm/d/a/FRclz;->aAd:Lcom/tencent/mm/d/a/FRclz$b;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/fr$b;->aAl:Ljava/util/List;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/FRclz$b;->aAl:Ljava/util/List;
 
     invoke-static {v0, v1}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->a(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;Ljava/util/List;)Ljava/util/List;
 
@@ -141,7 +141,7 @@
 
     const-string/jumbo v1, "get lbsfriend list size:0"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 299
     iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy$3;->dwX:Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;
@@ -201,7 +201,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 303
     iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy$3;->dwX:Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;
@@ -290,7 +290,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 311
     iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy$3;->dwX:Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;

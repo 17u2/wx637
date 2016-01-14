@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/search/a/h$e;
-.super Lcom/tencent/mm/modelsearch/m$a;
+.super Lcom/tencent/mm/modelsearch/Mclz$a;
 .source "SourceFile"
 
 
@@ -30,7 +30,7 @@
     .line 697
     iput-object p1, p0, Lcom/tencent/mm/plugin/search/a/h$e;->fIw:Lcom/tencent/mm/plugin/search/a/h;
 
-    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/m$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/Mclz$a;-><init>()V
 
     .line 695
     const/4 v0, 0x0
@@ -45,7 +45,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -62,7 +62,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/h;->fIp:Lcom/tencent/mm/plugin/search/a/b/c;
 
-    sget-object v1, Lcom/tencent/mm/modelsearch/c;->bQA:[I
+    sget-object v1, Lcom/tencent/mm/modelsearch/Cclz;->bQA:[I
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/a/h$e;->fIF:Ljava/lang/String;
 

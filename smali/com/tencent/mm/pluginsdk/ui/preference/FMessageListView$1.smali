@@ -34,7 +34,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,23 +42,23 @@
 
 
 # virtual methods
-.method public final d(Lcom/tencent/mm/sdk/c/b;)V
+.method public final d(Lcom/tencent/mm/sdk/c/Bclz;)V
     .locals 2
 
     .prologue
     .line 34
-    instance-of v0, p1, Lcom/tencent/mm/d/a/ez;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/EZclz;
 
     if-eqz v0, :cond_0
 
     .line 35
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView$1;->hZc:Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;
 
-    check-cast p1, Lcom/tencent/mm/d/a/ez;
+    check-cast p1, Lcom/tencent/mm/d/a/EZclz;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/ez;->azb:Lcom/tencent/mm/d/a/ez$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/EZclz;->azb:Lcom/tencent/mm/d/a/EZclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/ez$a;->ash:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/EZclz$a;->ash:Ljava/lang/String;
 
     invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->a(Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;Ljava/lang/String;)V
 

@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -70,7 +70,7 @@
 
     check-cast v0, Ljava/lang/Integer;
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/t;->d(Ljava/lang/Integer;)I
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Tclz;->d(Ljava/lang/Integer;)I
 
     move-result v0
 
@@ -87,7 +87,7 @@
 
     const-string/jumbo v1, "not init finish , do not post sync task"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 2359
     :goto_1
@@ -158,7 +158,7 @@
 
     const-string/jumbo v0, "StartupReport_report"
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/h/e;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/h/Eclz;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
 
     .line 2353
     invoke-static {v3}, Lcom/tencent/mm/booter/Lclz;->aq(Z)V
@@ -170,13 +170,13 @@
     invoke-static {}, Lcom/tencent/mm/plugin/report/service/f;->amr()V
 
     .line 2357
-    invoke-static {}, Lcom/tencent/mm/z/m;->zN()Lcom/tencent/mm/z/m;
+    invoke-static {}, Lcom/tencent/mm/z/Mclz;->zN()Lcom/tencent/mm/z/Mclz;
 
     move-result-object v0
 
-    iget-object v4, v0, Lcom/tencent/mm/z/m;->bKD:Lcom/tencent/mm/z/m$c;
+    iget-object v4, v0, Lcom/tencent/mm/z/Mclz;->bKD:Lcom/tencent/mm/z/Mclz$c;
 
-    iget-object v0, v4, Lcom/tencent/mm/z/m$c;->bKQ:Ljava/util/LinkedList;
+    iget-object v0, v4, Lcom/tencent/mm/z/Mclz$c;->bKQ:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->size()I
 
@@ -184,7 +184,7 @@
 
     if-gtz v0, :cond_4
 
-    iget-object v0, v4, Lcom/tencent/mm/z/m$c;->bKP:Ljava/util/LinkedList;
+    iget-object v0, v4, Lcom/tencent/mm/z/Mclz$c;->bKP:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->size()I
 
@@ -194,7 +194,7 @@
 
     :cond_4
     :goto_2
-    invoke-virtual {v4}, Lcom/tencent/mm/z/m$c;->zQ()V
+    invoke-virtual {v4}, Lcom/tencent/mm/z/Mclz$c;->zQ()V
 
     .line 2358
     invoke-static {}, Landroid/os/Looper;->myQueue()Landroid/os/MessageQueue;
@@ -247,7 +247,7 @@
 
     check-cast v1, Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v5
 
@@ -271,13 +271,13 @@
 
     aget-object v7, v5, v0
 
-    invoke-static {v7}, Lcom/tencent/mm/z/m$c;->hC(Ljava/lang/String;)Lcom/tencent/mm/z/m$b;
+    invoke-static {v7}, Lcom/tencent/mm/z/Mclz$c;->hC(Ljava/lang/String;)Lcom/tencent/mm/z/Mclz$b;
 
     move-result-object v7
 
     if-eqz v7, :cond_6
 
-    iget-object v8, v4, Lcom/tencent/mm/z/m$c;->bKQ:Ljava/util/LinkedList;
+    iget-object v8, v4, Lcom/tencent/mm/z/Mclz$c;->bKQ:Ljava/util/LinkedList;
 
     invoke-virtual {v8, v7}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
@@ -292,7 +292,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     :cond_8
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -316,13 +316,13 @@
 
     aget-object v6, v1, v0
 
-    invoke-static {v6}, Lcom/tencent/mm/z/m$c;->hB(Ljava/lang/String;)Lcom/tencent/mm/z/m$b;
+    invoke-static {v6}, Lcom/tencent/mm/z/Mclz$c;->hB(Ljava/lang/String;)Lcom/tencent/mm/z/Mclz$b;
 
     move-result-object v6
 
     if-eqz v6, :cond_9
 
-    iget-object v7, v4, Lcom/tencent/mm/z/m$c;->bKP:Ljava/util/LinkedList;
+    iget-object v7, v4, Lcom/tencent/mm/z/Mclz$c;->bKP:Ljava/util/LinkedList;
 
     invoke-virtual {v7, v6}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
     :try_end_1
@@ -358,7 +358,7 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    iget-object v6, v4, Lcom/tencent/mm/z/m$c;->bKP:Ljava/util/LinkedList;
+    iget-object v6, v4, Lcom/tencent/mm/z/Mclz$c;->bKP:Ljava/util/LinkedList;
 
     invoke-virtual {v6}, Ljava/util/LinkedList;->size()I
 
@@ -370,7 +370,7 @@
 
     aput-object v6, v5, v2
 
-    iget-object v6, v4, Lcom/tencent/mm/z/m$c;->bKQ:Ljava/util/LinkedList;
+    iget-object v6, v4, Lcom/tencent/mm/z/Mclz$c;->bKQ:Ljava/util/LinkedList;
 
     invoke-virtual {v6}, Ljava/util/LinkedList;->size()I
 
@@ -382,7 +382,7 @@
 
     aput-object v6, v5, v3
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto/16 :goto_2
 

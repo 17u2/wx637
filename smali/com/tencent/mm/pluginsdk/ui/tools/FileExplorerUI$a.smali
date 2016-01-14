@@ -40,7 +40,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -57,7 +57,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -190,7 +190,7 @@
 
     move-result-object v8
 
-    invoke-static {v8}, Lcom/tencent/mm/platformtools/c;->jQ(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v8}, Lcom/tencent/mm/platformtools/Cclz;->jQ(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v8
 
@@ -377,7 +377,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 388
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/FileExplorerUI$a;->ifd:[Ljava/io/File;
@@ -591,7 +591,7 @@
 
     move-result-wide v4
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/bc;->aj(J)Ljava/lang/String;
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aj(J)Ljava/lang/String;
 
     move-result-object v1
 

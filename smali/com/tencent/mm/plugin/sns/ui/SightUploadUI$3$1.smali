@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/ui/base/f$c;
+.implements Lcom/tencent/mm/ui/base/Fclz$c;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -58,31 +58,31 @@
 
     .line 124
     :pswitch_0
-    new-instance v0, Lcom/tencent/mm/d/a/jj;
+    new-instance v0, Lcom/tencent/mm/d/a/JJclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/jj;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/JJclz;-><init>()V
 
     .line 125
-    iget-object v1, v0, Lcom/tencent/mm/d/a/jj;->aEt:Lcom/tencent/mm/d/a/jj$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/JJclz;->aEt:Lcom/tencent/mm/d/a/JJclz$a;
 
     const/4 v2, 0x0
 
-    iput v2, v1, Lcom/tencent/mm/d/a/jj$a;->type:I
+    iput v2, v1, Lcom/tencent/mm/d/a/JJclz$a;->type:I
 
     .line 126
-    iget-object v1, v0, Lcom/tencent/mm/d/a/jj;->aEt:Lcom/tencent/mm/d/a/jj$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/JJclz;->aEt:Lcom/tencent/mm/d/a/JJclz$a;
 
-    iput-boolean v3, v1, Lcom/tencent/mm/d/a/jj$a;->aEy:Z
+    iput-boolean v3, v1, Lcom/tencent/mm/d/a/JJclz$a;->aEy:Z
 
     .line 127
-    iget-object v1, v0, Lcom/tencent/mm/d/a/jj;->aEt:Lcom/tencent/mm/d/a/jj$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/JJclz;->aEt:Lcom/tencent/mm/d/a/JJclz$a;
 
-    iput-boolean v3, v1, Lcom/tencent/mm/d/a/jj$a;->aEv:Z
+    iput-boolean v3, v1, Lcom/tencent/mm/d/a/JJclz$a;->aEv:Z
 
     .line 128
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 129
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SightUploadUI$3$1;->gvt:Lcom/tencent/mm/plugin/sns/ui/SightUploadUI$3;

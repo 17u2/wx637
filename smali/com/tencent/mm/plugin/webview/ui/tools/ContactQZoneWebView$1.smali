@@ -32,7 +32,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -82,7 +82,7 @@
     .line 90
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/ContactQZoneWebView$1;->hBL:Lcom/tencent/mm/plugin/webview/ui/tools/ContactQZoneWebView;
 
-    invoke-static {v0, p2}, Lcom/tencent/mm/sdk/platformtools/bc;->z(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-static {v0, p2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->z(Landroid/content/Context;Ljava/lang/String;)Z
 
     .line 91
     invoke-virtual {p1}, Lcom/tencent/smtt/sdk/WebView;->stopLoading()V

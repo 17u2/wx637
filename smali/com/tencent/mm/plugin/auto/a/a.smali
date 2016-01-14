@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field cij:Lcom/tencent/mm/sdk/c/c;
+.field cij:Lcom/tencent/mm/sdk/c/Cclz;
 
 
 # direct methods
@@ -20,14 +20,14 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/auto/a/a$1;-><init>(Lcom/tencent/mm/plugin/auto/a/a;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/auto/a/a;->cij:Lcom/tencent/mm/sdk/c/c;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/auto/a/a;->cij:Lcom/tencent/mm/sdk/c/Cclz;
 
     .line 41
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,7 +42,7 @@
     const/4 v1, 0x1
 
     .line 264
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -76,7 +76,7 @@
 
     aput-object v5, v1, v2
 
-    invoke-static {v3, v4, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 273
     return v0

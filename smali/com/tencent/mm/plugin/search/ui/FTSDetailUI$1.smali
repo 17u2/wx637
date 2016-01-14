@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -96,13 +96,13 @@
 
     move-result-object v0
 
-    iget-object v1, v0, Lcom/tencent/mm/plugin/search/ui/d;->fJD:Lcom/tencent/mm/ui/e/h;
+    iget-object v1, v0, Lcom/tencent/mm/plugin/search/ui/d;->fJD:Lcom/tencent/mm/ui/e/Hclz;
 
     instance-of v1, v1, Lcom/tencent/mm/plugin/search/ui/c/j;
 
     if-eqz v1, :cond_1
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/search/ui/d;->fJD:Lcom/tencent/mm/ui/e/h;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/search/ui/d;->fJD:Lcom/tencent/mm/ui/e/Hclz;
 
     check-cast v0, Lcom/tencent/mm/plugin/search/ui/c/j;
 

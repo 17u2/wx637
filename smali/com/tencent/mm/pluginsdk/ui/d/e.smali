@@ -23,7 +23,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -128,7 +128,7 @@
 
     const-string/jumbo v1, "spanForTextView, textView cannot be null!"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 68
     new-instance v0, Landroid/text/SpannableString;
@@ -216,7 +216,7 @@
 
     const-string/jumbo v1, "spanForTextView, textView cannot be null!"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 85
     new-instance v0, Landroid/text/SpannableString;
@@ -338,9 +338,9 @@
     move-result-object v0
 
     .line 213
-    invoke-static {}, Lcom/tencent/mm/av/g;->aPJ()Lcom/tencent/mm/av/g;
+    invoke-static {}, Lcom/tencent/mm/av/Gclz;->aPJ()Lcom/tencent/mm/av/Gclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/av/g;->c(Landroid/text/Spannable;)V
+    invoke-static {v0}, Lcom/tencent/mm/av/Gclz;->c(Landroid/text/Spannable;)V
 
     .line 214
     return-object v0
@@ -360,7 +360,7 @@
 
     const-string/jumbo v1, "spanForTextView, textView cannot be null!"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 46
     new-instance v0, Landroid/text/SpannableString;
@@ -461,13 +461,13 @@
 
     const-string/jumbo v1, "clear MMSpanManager cache"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 285
     invoke-static {}, Lcom/tencent/mm/pluginsdk/ui/d/k;->clearCache()V
 
     .line 286
-    invoke-static {}, Lcom/tencent/mm/av/g;->aPJ()Lcom/tencent/mm/av/g;
+    invoke-static {}, Lcom/tencent/mm/av/Gclz;->aPJ()Lcom/tencent/mm/av/Gclz;
 
     .line 287
     return-void
@@ -482,7 +482,7 @@
     const/4 v2, 0x0
 
     .line 268
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -496,7 +496,7 @@
     :cond_0
     new-instance v0, Lcom/tencent/mm/pluginsdk/ui/d/k;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v1
 

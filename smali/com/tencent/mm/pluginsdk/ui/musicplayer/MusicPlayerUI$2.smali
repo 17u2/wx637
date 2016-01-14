@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -66,19 +66,19 @@
     .line 209
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI$2;->hYD:Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;
 
-    new-instance v1, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v1, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v2
 
-    invoke-direct {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
     new-instance v2, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI$5;
 
     invoke-direct {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI$5;-><init>(Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;)V
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 210
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI$2;->hYD:Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;

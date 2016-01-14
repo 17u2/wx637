@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/ui/base/m$c;
+.implements Lcom/tencent/mm/ui/base/Mclz$c;
 
 
 # annotations
@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -51,7 +51,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/ui/base/k;)V
+.method public final a(Lcom/tencent/mm/ui/base/Kclz;)V
     .locals 3
 
     .prologue
@@ -90,7 +90,7 @@
 
     check-cast v0, Ljava/lang/CharSequence;
 
-    invoke-virtual {p1, v2, v0}, Lcom/tencent/mm/ui/base/k;->a(ILjava/lang/CharSequence;)Landroid/view/MenuItem;
+    invoke-virtual {p1, v2, v0}, Lcom/tencent/mm/ui/base/Kclz;->a(ILjava/lang/CharSequence;)Landroid/view/MenuItem;
 
     .line 357
     add-int/lit8 v0, v1, 0x1

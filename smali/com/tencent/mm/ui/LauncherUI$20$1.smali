@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,7 +52,7 @@
 
     const-string/jumbo v1, "klem animationEnd"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 3148
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$20$1;->jwD:Lcom/tencent/mm/ui/LauncherUI$20;
@@ -91,7 +91,7 @@
 
     const-string/jumbo v1, "klem onAnimationStart"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 3132
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$20$1;->jwD:Lcom/tencent/mm/ui/LauncherUI$20;

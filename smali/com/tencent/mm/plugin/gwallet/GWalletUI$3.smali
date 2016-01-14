@@ -32,7 +32,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -99,17 +99,17 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/plugin/gwallet/GWalletUI$3$1;-><init>(Lcom/tencent/mm/plugin/gwallet/GWalletUI$3;)V
 
-    new-instance v3, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v3, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     new-instance v4, Lcom/tencent/mm/plugin/gwallet/a/b$2;
 
-    invoke-direct {v4, v1, v0, v2, v3}, Lcom/tencent/mm/plugin/gwallet/a/b$2;-><init>(Lcom/tencent/mm/plugin/gwallet/a/b;Ljava/util/List;Lcom/tencent/mm/plugin/gwallet/a/b$b;Lcom/tencent/mm/sdk/platformtools/ab;)V
+    invoke-direct {v4, v1, v0, v2, v3}, Lcom/tencent/mm/plugin/gwallet/a/b$2;-><init>(Lcom/tencent/mm/plugin/gwallet/a/b;Ljava/util/List;Lcom/tencent/mm/plugin/gwallet/a/b$b;Lcom/tencent/mm/sdk/platformtools/ABclz;)V
 
     const-string/jumbo v0, "IabHelper_consumeAsync"
 
-    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/h/e;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/h/Eclz;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
 
     goto :goto_0
 .end method

@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/ui/contact/SnsLabelContactListUI$b;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -29,14 +29,14 @@
     .line 304
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     .line 305
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -44,24 +44,24 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 4
 
     .prologue
     .line 309
-    instance-of v0, p1, Lcom/tencent/mm/d/a/ig;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/IGclz;
 
     if-eqz v0, :cond_1
 
     .line 310
-    check-cast p1, Lcom/tencent/mm/d/a/ig;
+    check-cast p1, Lcom/tencent/mm/d/a/IGclz;
 
     .line 311
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/SnsLabelContactListUI$b;->kuu:Lcom/tencent/mm/ui/contact/SnsLabelContactListUI;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/ig;->aDq:Lcom/tencent/mm/d/a/ig$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/IGclz;->aDq:Lcom/tencent/mm/d/a/IGclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/ig$a;->ayB:Lcom/tencent/mm/protocal/b/aod;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/IGclz$a;->ayB:Lcom/tencent/mm/protocal/b/aod;
 
     invoke-static {v0, v1}, Lcom/tencent/mm/ui/contact/SnsLabelContactListUI;->a(Lcom/tencent/mm/ui/contact/SnsLabelContactListUI;Lcom/tencent/mm/protocal/b/aod;)Lcom/tencent/mm/protocal/b/aod;
 
@@ -115,7 +115,7 @@
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/ui/contact/SnsLabelContactListUI$b$1;-><init>(Lcom/tencent/mm/ui/contact/SnsLabelContactListUI$b;)V
 
-    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     goto :goto_0
 

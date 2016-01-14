@@ -1,5 +1,5 @@
 .class public abstract Lcom/tencent/mm/pluginsdk/c/c;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 # interfaces
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,7 +52,7 @@
     const/4 v0, 0x0
 
     .line 18
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     .line 21
     iput v0, p0, Lcom/tencent/mm/pluginsdk/c/c;->hKB:I
@@ -62,13 +62,13 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method public static e(Lcom/tencent/mm/sdk/c/b;)V
+.method public static e(Lcom/tencent/mm/sdk/c/Bclz;)V
     .locals 4
 
     .prologue
@@ -177,7 +177,7 @@
 .method public abstract MB()I
 .end method
 
-.method public abstract a(ILcom/tencent/mm/q/Jclz;Lcom/tencent/mm/sdk/c/b;)Lcom/tencent/mm/sdk/c/b;
+.method public abstract a(ILcom/tencent/mm/q/Jclz;Lcom/tencent/mm/sdk/c/Bclz;)Lcom/tencent/mm/sdk/c/Bclz;
 .end method
 
 .method public final a(IILjava/lang/String;Lcom/tencent/mm/q/Jclz;)V
@@ -202,7 +202,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/sdk/c/b;
+    check-cast v0, Lcom/tencent/mm/sdk/c/Bclz;
 
     .line 38
     if-nez v0, :cond_1
@@ -214,38 +214,38 @@
 
     .line 41
     :cond_1
-    new-instance v1, Lcom/tencent/mm/d/a/ft;
+    new-instance v1, Lcom/tencent/mm/d/a/FTclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/d/a/ft;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/d/a/FTclz;-><init>()V
 
     .line 42
-    iget-object v2, v1, Lcom/tencent/mm/d/a/ft;->aAq:Lcom/tencent/mm/d/a/ft$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/FTclz;->aAq:Lcom/tencent/mm/d/a/FTclz$a;
 
-    invoke-virtual {p0, p2, p4, v0}, Lcom/tencent/mm/pluginsdk/c/c;->a(ILcom/tencent/mm/q/Jclz;Lcom/tencent/mm/sdk/c/b;)Lcom/tencent/mm/sdk/c/b;
+    invoke-virtual {p0, p2, p4, v0}, Lcom/tencent/mm/pluginsdk/c/c;->a(ILcom/tencent/mm/q/Jclz;Lcom/tencent/mm/sdk/c/Bclz;)Lcom/tencent/mm/sdk/c/Bclz;
 
     move-result-object v0
 
-    iput-object v0, v2, Lcom/tencent/mm/d/a/ft$a;->aAr:Lcom/tencent/mm/sdk/c/b;
+    iput-object v0, v2, Lcom/tencent/mm/d/a/FTclz$a;->aAr:Lcom/tencent/mm/sdk/c/Bclz;
 
     .line 43
-    iget-object v0, v1, Lcom/tencent/mm/d/a/ft;->aAq:Lcom/tencent/mm/d/a/ft$a;
+    iget-object v0, v1, Lcom/tencent/mm/d/a/FTclz;->aAq:Lcom/tencent/mm/d/a/FTclz$a;
 
-    iput p1, v0, Lcom/tencent/mm/d/a/ft$a;->errType:I
+    iput p1, v0, Lcom/tencent/mm/d/a/FTclz$a;->errType:I
 
     .line 44
-    iget-object v0, v1, Lcom/tencent/mm/d/a/ft;->aAq:Lcom/tencent/mm/d/a/ft$a;
+    iget-object v0, v1, Lcom/tencent/mm/d/a/FTclz;->aAq:Lcom/tencent/mm/d/a/FTclz$a;
 
-    iput p2, v0, Lcom/tencent/mm/d/a/ft$a;->errCode:I
+    iput p2, v0, Lcom/tencent/mm/d/a/FTclz$a;->errCode:I
 
     .line 45
-    iget-object v0, v1, Lcom/tencent/mm/d/a/ft;->aAq:Lcom/tencent/mm/d/a/ft$a;
+    iget-object v0, v1, Lcom/tencent/mm/d/a/FTclz;->aAq:Lcom/tencent/mm/d/a/FTclz$a;
 
-    iput-object p3, v0, Lcom/tencent/mm/d/a/ft$a;->awX:Ljava/lang/String;
+    iput-object p3, v0, Lcom/tencent/mm/d/a/FTclz$a;->awX:Ljava/lang/String;
 
     .line 46
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     goto :goto_0
 .end method
@@ -291,15 +291,15 @@
     goto :goto_0
 .end method
 
-.method public abstract b(Lcom/tencent/mm/sdk/c/b;)Lcom/tencent/mm/q/Jclz;
+.method public abstract b(Lcom/tencent/mm/sdk/c/Bclz;)Lcom/tencent/mm/q/Jclz;
 .end method
 
-.method public final f(Lcom/tencent/mm/sdk/c/b;)V
+.method public final f(Lcom/tencent/mm/sdk/c/Bclz;)V
     .locals 2
 
     .prologue
     .line 89
-    invoke-virtual {p0, p1}, Lcom/tencent/mm/pluginsdk/c/c;->b(Lcom/tencent/mm/sdk/c/b;)Lcom/tencent/mm/q/Jclz;
+    invoke-virtual {p0, p1}, Lcom/tencent/mm/pluginsdk/c/c;->b(Lcom/tencent/mm/sdk/c/Bclz;)Lcom/tencent/mm/q/Jclz;
 
     move-result-object v0
 

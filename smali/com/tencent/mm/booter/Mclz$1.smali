@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -58,7 +58,7 @@
     const/4 v1, 0x0
 
     .line 81
-    invoke-static {}, Lcom/tencent/mm/platformtools/t;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/platformtools/Tclz;->EZ()J
 
     move-result-wide v4
 
@@ -70,9 +70,9 @@
     .line 83
     iget-object v0, p0, Lcom/tencent/mm/booter/Mclz$1;->bgI:Lcom/tencent/mm/booter/Mclz;
 
-    sget v6, Lcom/tencent/mm/sdk/platformtools/f;->akm:I
+    sget v6, Lcom/tencent/mm/sdk/platformtools/Fclz;->akm:I
 
-    invoke-static {}, Lcom/tencent/mm/compatible/d/p;->oz()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/compatible/d/Pclz;->oz()Ljava/lang/String;
 
     move-result-object v7
 
@@ -80,13 +80,13 @@
 
     const-string/jumbo v9, "0"
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/u;->aOg()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Uclz;->aOg()Ljava/lang/String;
 
     move-result-object v10
 
     iget-object v11, v0, Lcom/tencent/mm/booter/Mclz;->context:Landroid/content/Context;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOp()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOp()Ljava/lang/String;
 
     move-result-object v12
 
@@ -102,7 +102,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/booter/Mclz;->context:Landroid/content/Context;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOp()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOp()Ljava/lang/String;
 
     move-result-object v12
 
@@ -129,7 +129,7 @@
 
     invoke-direct {v6, v11}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    sget v11, Lcom/tencent/mm/sdk/platformtools/f;->akm:I
+    sget v11, Lcom/tencent/mm/sdk/platformtools/Fclz;->akm:I
 
     invoke-virtual {v6, v11}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -223,10 +223,10 @@
 
     aput-object v0, v8, v13
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 86
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/t;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Tclz;->jY(Ljava/lang/String;)Z
 
     move-result v6
 
@@ -287,13 +287,13 @@
     .line 103
     iget-object v7, p0, Lcom/tencent/mm/booter/Mclz$1;->bgI:Lcom/tencent/mm/booter/Mclz;
 
-    sget v8, Lcom/tencent/mm/sdk/platformtools/f;->akm:I
+    sget v8, Lcom/tencent/mm/sdk/platformtools/Fclz;->akm:I
 
     sget v9, Lcom/tencent/mm/protocal/bclass;->ihp:I
 
     iget-object v7, v7, Lcom/tencent/mm/booter/Mclz;->context:Landroid/content/Context;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOp()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOp()Ljava/lang/String;
 
     move-result-object v10
 
@@ -339,7 +339,7 @@
 
     const/4 v10, 0x0
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/platformtools/t;->al(J)J
+    invoke-static {v4, v5}, Lcom/tencent/mm/platformtools/Tclz;->al(J)J
 
     move-result-wide v4
 
@@ -361,7 +361,7 @@
 
     aput-object v0, v9, v4
 
-    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -388,7 +388,7 @@
 
     aput-object v0, v2, v1
 
-    invoke-static {v4, v5, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_3
 .end method

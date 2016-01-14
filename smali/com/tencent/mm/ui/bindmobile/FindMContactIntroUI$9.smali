@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/sdk/platformtools/ac$a;
+.implements Lcom/tencent/mm/sdk/platformtools/ACclz$a;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -116,7 +116,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 309
     const/4 v0, 0x1
@@ -166,7 +166,7 @@
     .line 293
     iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI$9;->jXT:Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;
 
-    new-instance v1, Lcom/tencent/mm/modelfriend/aa;
+    new-instance v1, Lcom/tencent/mm/modelfriend/AAclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI$9;->jXT:Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;
 
@@ -180,9 +180,9 @@
 
     move-result-object v3
 
-    invoke-direct {v1, v2, v3}, Lcom/tencent/mm/modelfriend/aa;-><init>(Ljava/lang/String;Ljava/util/List;)V
+    invoke-direct {v1, v2, v3}, Lcom/tencent/mm/modelfriend/AAclz;-><init>(Ljava/lang/String;Ljava/util/List;)V
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;->a(Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;Lcom/tencent/mm/modelfriend/aa;)Lcom/tencent/mm/modelfriend/aa;
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;->a(Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;Lcom/tencent/mm/modelfriend/AAclz;)Lcom/tencent/mm/modelfriend/AAclz;
 
     .line 294
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -191,7 +191,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI$9;->jXT:Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;->l(Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;)Lcom/tencent/mm/modelfriend/aa;
+    invoke-static {v1}, Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;->l(Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;)Lcom/tencent/mm/modelfriend/AAclz;
 
     move-result-object v1
 

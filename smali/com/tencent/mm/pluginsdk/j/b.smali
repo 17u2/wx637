@@ -72,7 +72,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -92,7 +92,7 @@
 
     invoke-direct {v1, p0, p1}, Lcom/tencent/mm/pluginsdk/j/b$1;-><init>(Lcom/tencent/mm/pluginsdk/j/b;I)V
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/compatible/a/a;->a(ILcom/tencent/mm/compatible/a/a$a;)Z
+    invoke-static {v0, v1}, Lcom/tencent/mm/compatible/a/Aclz;->a(ILcom/tencent/mm/compatible/a/Aclz$a;)Z
 
     .line 253
     return-void
@@ -130,7 +130,7 @@
 
     const-string/jumbo v1, "yuvRecoder is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 236
     :cond_0
@@ -154,15 +154,15 @@
 
     const-string/jumbo v1, "holder or cam is null "
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     .line 182
     :cond_3
-    sget-object v0, Lcom/tencent/mm/compatible/d/p;->bml:Lcom/tencent/mm/compatible/d/j;
+    sget-object v0, Lcom/tencent/mm/compatible/d/Pclz;->bml:Lcom/tencent/mm/compatible/d/Jclz;
 
-    iget v0, v0, Lcom/tencent/mm/compatible/d/j;->bls:I
+    iget v0, v0, Lcom/tencent/mm/compatible/d/Jclz;->bls:I
 
     if-ne v0, v9, :cond_5
 
@@ -252,18 +252,18 @@
     .line 204
     :cond_4
     :try_start_1
-    sget-object v1, Lcom/tencent/mm/compatible/d/p;->bmh:Lcom/tencent/mm/compatible/d/t;
+    sget-object v1, Lcom/tencent/mm/compatible/d/Pclz;->bmh:Lcom/tencent/mm/compatible/d/Tclz;
 
-    iget-boolean v1, v1, Lcom/tencent/mm/compatible/d/t;->bms:Z
+    iget-boolean v1, v1, Lcom/tencent/mm/compatible/d/Tclz;->bms:Z
 
     if-eqz v1, :cond_6
 
     .line 205
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/j/b;->fYA:Landroid/media/MediaRecorder;
 
-    sget-object v3, Lcom/tencent/mm/compatible/d/p;->bmh:Lcom/tencent/mm/compatible/d/t;
+    sget-object v3, Lcom/tencent/mm/compatible/d/Pclz;->bmh:Lcom/tencent/mm/compatible/d/Tclz;
 
-    iget v3, v3, Lcom/tencent/mm/compatible/d/t;->bmv:I
+    iget v3, v3, Lcom/tencent/mm/compatible/d/Tclz;->bmv:I
 
     invoke-virtual {v1, v3}, Landroid/media/MediaRecorder;->setVideoFrameRate(I)V
     :try_end_1
@@ -305,15 +305,15 @@
 
     aput-object v4, v3, v7
 
-    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 217
     if-nez v2, :cond_8
 
     .line 218
-    sget-object v0, Lcom/tencent/mm/compatible/d/p;->bml:Lcom/tencent/mm/compatible/d/j;
+    sget-object v0, Lcom/tencent/mm/compatible/d/Pclz;->bml:Lcom/tencent/mm/compatible/d/Jclz;
 
-    iget v0, v0, Lcom/tencent/mm/compatible/d/j;->blm:I
+    iget v0, v0, Lcom/tencent/mm/compatible/d/Jclz;->blm:I
 
     if-ne v0, v9, :cond_7
 
@@ -364,7 +364,7 @@
 
     aput-object v0, v3, v7
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 229
     iget v0, p0, Lcom/tencent/mm/pluginsdk/j/b;->hPZ:I
@@ -413,7 +413,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, v0, Lcom/tencent/mm/pluginsdk/j/e;->hQk:Ljava/util/List;
 
@@ -434,9 +434,9 @@
 
     .line 182
     :cond_5
-    sget-object v0, Lcom/tencent/mm/compatible/d/p;->bml:Lcom/tencent/mm/compatible/d/j;
+    sget-object v0, Lcom/tencent/mm/compatible/d/Pclz;->bml:Lcom/tencent/mm/compatible/d/Jclz;
 
-    iget v0, v0, Lcom/tencent/mm/compatible/d/j;->bls:I
+    iget v0, v0, Lcom/tencent/mm/compatible/d/Jclz;->bls:I
 
     goto/16 :goto_2
 
@@ -457,7 +457,7 @@
 
     aput-object v3, v6, v10
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto/16 :goto_3
 
@@ -492,23 +492,23 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_4
 
     .line 218
     :cond_7
-    sget-object v0, Lcom/tencent/mm/compatible/d/p;->bml:Lcom/tencent/mm/compatible/d/j;
+    sget-object v0, Lcom/tencent/mm/compatible/d/Pclz;->bml:Lcom/tencent/mm/compatible/d/Jclz;
 
-    iget v0, v0, Lcom/tencent/mm/compatible/d/j;->blm:I
+    iget v0, v0, Lcom/tencent/mm/compatible/d/Jclz;->blm:I
 
     goto/16 :goto_5
 
     .line 221
     :cond_8
-    sget-object v0, Lcom/tencent/mm/compatible/d/p;->bml:Lcom/tencent/mm/compatible/d/j;
+    sget-object v0, Lcom/tencent/mm/compatible/d/Pclz;->bml:Lcom/tencent/mm/compatible/d/Jclz;
 
-    iget v0, v0, Lcom/tencent/mm/compatible/d/j;->bln:I
+    iget v0, v0, Lcom/tencent/mm/compatible/d/Jclz;->bln:I
 
     if-ne v0, v9, :cond_9
 
@@ -522,9 +522,9 @@
 
     .line 221
     :cond_9
-    sget-object v0, Lcom/tencent/mm/compatible/d/p;->bml:Lcom/tencent/mm/compatible/d/j;
+    sget-object v0, Lcom/tencent/mm/compatible/d/Pclz;->bml:Lcom/tencent/mm/compatible/d/Jclz;
 
-    iget v0, v0, Lcom/tencent/mm/compatible/d/j;->bln:I
+    iget v0, v0, Lcom/tencent/mm/compatible/d/Jclz;->bln:I
 
     goto :goto_8
 
@@ -546,7 +546,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_7
 .end method
@@ -668,7 +668,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->oZ()I
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->oZ()I
 
     move-result v0
 
@@ -737,13 +737,13 @@
     :cond_3
     sget v0, Lcom/tencent/mm/pluginsdk/j/e;->gce:I
 
-    invoke-static {p1, v0}, Lcom/tencent/mm/compatible/d/c;->a(Landroid/app/Activity;I)Lcom/tencent/mm/compatible/d/c$a$a;
+    invoke-static {p1, v0}, Lcom/tencent/mm/compatible/d/Cclz;->a(Landroid/app/Activity;I)Lcom/tencent/mm/compatible/d/Cclz$a$a;
 
     move-result-object v0
 
-    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/j/e;->gcg:Lcom/tencent/mm/compatible/d/c$a$a;
+    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/j/e;->gcg:Lcom/tencent/mm/compatible/d/Cclz$a$a;
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/j/e;->gcg:Lcom/tencent/mm/compatible/d/c$a$a;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/j/e;->gcg:Lcom/tencent/mm/compatible/d/Cclz$a$a;
 
     if-nez v0, :cond_4
 
@@ -751,9 +751,9 @@
 
     const-string/jumbo v2, "start camera FAILED!"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->oZ()I
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->oZ()I
 
     move-result v0
 
@@ -762,17 +762,17 @@
     goto :goto_0
 
     :cond_4
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/j/e;->gcg:Lcom/tencent/mm/compatible/d/c$a$a;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/j/e;->gcg:Lcom/tencent/mm/compatible/d/Cclz$a$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/compatible/d/c$a$a;->bkU:Landroid/hardware/Camera;
+    iget-object v0, v0, Lcom/tencent/mm/compatible/d/Cclz$a$a;->bkU:Landroid/hardware/Camera;
 
     iput-object v0, v2, Lcom/tencent/mm/pluginsdk/j/e;->bkU:Landroid/hardware/Camera;
 
     iget-object v0, v2, Lcom/tencent/mm/pluginsdk/j/e;->hQj:Lcom/tencent/mm/pluginsdk/j/a;
 
-    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/j/e;->gcg:Lcom/tencent/mm/compatible/d/c$a$a;
+    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/j/e;->gcg:Lcom/tencent/mm/compatible/d/Cclz$a$a;
 
-    iget v3, v3, Lcom/tencent/mm/compatible/d/c$a$a;->bkR:I
+    iget v3, v3, Lcom/tencent/mm/compatible/d/Cclz$a$a;->bkR:I
 
     iput v3, v0, Lcom/tencent/mm/pluginsdk/j/a;->bkR:I
 
@@ -784,9 +784,9 @@
 
     const-string/jumbo v2, "start camera FAILED!"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->oZ()I
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->oZ()I
 
     move-result v0
 

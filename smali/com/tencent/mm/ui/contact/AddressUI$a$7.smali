@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -85,7 +85,7 @@
     if-ne p2, v0, :cond_0
 
     .line 716
-    invoke-static {}, Lcom/tencent/mm/ax/c;->aSF()Lcom/tencent/mm/ax/c;
+    invoke-static {}, Lcom/tencent/mm/ax/Cclz;->aSF()Lcom/tencent/mm/ax/Cclz;
 
     move-result-object v0
 
@@ -115,7 +115,7 @@
 
     const/4 v2, 0x4
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ax/c;->aW(Ljava/lang/String;I)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/ax/Cclz;->aW(Ljava/lang/String;I)V
 
     .line 718
     :cond_0

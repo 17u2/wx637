@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/search/a/b/c;
-.super Lcom/tencent/mm/modelsearch/b;
+.super Lcom/tencent/mm/modelsearch/Bclz;
 .source "SourceFile"
 
 
@@ -9,13 +9,13 @@
 
     .prologue
     .line 14
-    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/b;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/Bclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -28,7 +28,7 @@
 
     .prologue
     .line 18
-    iget-object v0, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
     const-string/jumbo v1, "CREATE INDEX IF NOT EXISTS %s_message ON %s(aux_index, timestamp);"
 
@@ -56,7 +56,7 @@
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/h;->execSQL(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/modelsearch/Hclz;->execSQL(Ljava/lang/String;)V
 
     .line 19
     return-void
@@ -115,7 +115,7 @@
     move-result-object v1
 
     .line 46
-    iget-object v2, p0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v2, p0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
     const/4 v3, 0x2
 
@@ -133,7 +133,7 @@
 
     aput-object v4, v3, v6
 
-    invoke-interface {v2, v1, v3}, Lcom/tencent/mm/modelsearch/h;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface {v2, v1, v3}, Lcom/tencent/mm/modelsearch/Hclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v1
 

@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/sight/encode/ui/MainSightForwardContainerView$5;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 9
 
     .prologue
@@ -57,7 +57,7 @@
     const/4 v2, 0x0
 
     .line 323
-    check-cast p1, Lcom/tencent/mm/d/a/jj;
+    check-cast p1, Lcom/tencent/mm/d/a/JJclz;
 
     .line 324
     const-string/jumbo v3, "!44@/B4Tb64lLpKAfMIFnYldsz1A02UYN/YVEbaF1ExyUNI="
@@ -76,9 +76,9 @@
 
     aput-object v0, v5, v2
 
-    iget-object v0, p1, Lcom/tencent/mm/d/a/jj;->aEt:Lcom/tencent/mm/d/a/jj$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/JJclz;->aEt:Lcom/tencent/mm/d/a/JJclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/jj$a;->type:I
+    iget v0, v0, Lcom/tencent/mm/d/a/JJclz$a;->type:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -115,12 +115,12 @@
 
     aput-object v0, v5, v6
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 326
-    iget-object v0, p1, Lcom/tencent/mm/d/a/jj;->aEt:Lcom/tencent/mm/d/a/jj$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/JJclz;->aEt:Lcom/tencent/mm/d/a/JJclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/jj$a;->type:I
+    iget v0, v0, Lcom/tencent/mm/d/a/JJclz$a;->type:I
 
     packed-switch v0, :pswitch_data_0
 
@@ -150,9 +150,9 @@
     if-eqz v0, :cond_2
 
     .line 330
-    iget-object v0, p1, Lcom/tencent/mm/d/a/jj;->aEt:Lcom/tencent/mm/d/a/jj$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/JJclz;->aEt:Lcom/tencent/mm/d/a/JJclz$a;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/d/a/jj$a;->aEv:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/d/a/JJclz$a;->aEv:Z
 
     if-eqz v0, :cond_1
 
@@ -193,9 +193,9 @@
 
     .line 337
     :cond_2
-    iget-object v0, p1, Lcom/tencent/mm/d/a/jj;->aEt:Lcom/tencent/mm/d/a/jj$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/JJclz;->aEt:Lcom/tencent/mm/d/a/JJclz$a;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/d/a/jj$a;->aEv:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/d/a/JJclz$a;->aEv:Z
 
     if-eqz v0, :cond_3
 

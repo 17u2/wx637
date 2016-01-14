@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -51,9 +51,9 @@
 
     .line 245
     :try_start_0
-    sget-object v0, Lcom/tencent/mm/compatible/d/p;->bmg:Lcom/tencent/mm/compatible/d/a;
+    sget-object v0, Lcom/tencent/mm/compatible/d/Pclz;->bmg:Lcom/tencent/mm/compatible/d/Aclz;
 
-    iget v0, v0, Lcom/tencent/mm/compatible/d/a;->bjq:I
+    iget v0, v0, Lcom/tencent/mm/compatible/d/Aclz;->bjq:I
 
     if-ne v0, v3, :cond_0
 
@@ -77,7 +77,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/c/a/aclass$2$1$1;-><init>(Lcom/tencent/mm/c/a/aclass$2$1;)V
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -99,13 +99,13 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Throwable;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Throwable;)Ljava/lang/String;
 
     move-result-object v0
 
     aput-object v0, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/aw/g$a;
+.implements Lcom/tencent/mm/aw/Gclz$a;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -81,7 +81,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 390
     iget-object v0, p0, Lcom/tencent/mm/model/Cclz$1;->bsA:Lcom/tencent/mm/model/Cclz;
@@ -94,7 +94,7 @@
 
     .line 393
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/modelstat/h;->CF()Lcom/tencent/mm/modelstat/e;
+    invoke-static {}, Lcom/tencent/mm/modelstat/Hclz;->CF()Lcom/tencent/mm/modelstat/Eclz;
 
     move-result-object v0
 
@@ -118,16 +118,16 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 396
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    iget-object v0, v0, Lcom/tencent/mm/modelstat/e;->bVy:Lcom/tencent/mm/sdk/platformtools/ar;
+    iget-object v0, v0, Lcom/tencent/mm/modelstat/Eclz;->bVy:Lcom/tencent/mm/sdk/platformtools/ARclz;
 
-    invoke-virtual {v0, v4}, Lcom/tencent/mm/sdk/platformtools/ar;->gb(Z)V
+    invoke-virtual {v0, v4}, Lcom/tencent/mm/sdk/platformtools/ARclz;->gb(Z)V
 
     const-string/jumbo v0, "!32@/B4Tb64lLpKaLNAssnLXZm7wD8ibTC7s"
 
@@ -157,7 +157,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 398
     :cond_1

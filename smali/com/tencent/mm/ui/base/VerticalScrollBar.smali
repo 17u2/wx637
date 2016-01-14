@@ -30,7 +30,7 @@
 
 .field private jTq:F
 
-.field private jTr:Lcom/tencent/mm/ui/base/n;
+.field private jTr:Lcom/tencent/mm/ui/base/Nclz;
 
 .field private jTs:I
 
@@ -85,11 +85,11 @@
 
     move-result v1
 
-    new-instance v2, Lcom/tencent/mm/ui/base/n;
+    new-instance v2, Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-direct {v2, v0, v1, v1}, Lcom/tencent/mm/ui/base/n;-><init>(Landroid/view/View;II)V
+    invoke-direct {v2, v0, v1, v1}, Lcom/tencent/mm/ui/base/Nclz;-><init>(Landroid/view/View;II)V
 
-    iput-object v2, p0, Lcom/tencent/mm/ui/base/VerticalScrollBar;->jTr:Lcom/tencent/mm/ui/base/n;
+    iput-object v2, p0, Lcom/tencent/mm/ui/base/VerticalScrollBar;->jTr:Lcom/tencent/mm/ui/base/Nclz;
 
     const v1, 0x7f0e0e1c
 
@@ -128,7 +128,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -342,7 +342,7 @@
 
     const v1, 0x7f0205df
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/at/a;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0, v1}, Lcom/tencent/mm/at/Aclz;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -388,11 +388,11 @@
 
     .line 148
     :goto_0
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/VerticalScrollBar;->jTr:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/VerticalScrollBar;->jTr:Lcom/tencent/mm/ui/base/Nclz;
 
     const/16 v1, 0x11
 
-    invoke-virtual {v0, p0, v1, v3, v3}, Lcom/tencent/mm/ui/base/n;->showAtLocation(Landroid/view/View;III)V
+    invoke-virtual {v0, p0, v1, v3, v3}, Lcom/tencent/mm/ui/base/Nclz;->showAtLocation(Landroid/view/View;III)V
 
     .line 149
     iget-object v0, p0, Lcom/tencent/mm/ui/base/VerticalScrollBar;->jTt:Lcom/tencent/mm/ui/base/VerticalScrollBar$a;
@@ -411,7 +411,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, v6}, Lcom/tencent/mm/at/a;->w(Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {v1, v6}, Lcom/tencent/mm/at/Aclz;->w(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -443,9 +443,9 @@
     invoke-virtual {p0, v3}, Lcom/tencent/mm/ui/base/VerticalScrollBar;->setBackgroundResource(I)V
 
     .line 161
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/VerticalScrollBar;->jTr:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/VerticalScrollBar;->jTr:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/n;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Nclz;->dismiss()V
 
     .line 164
     :cond_7

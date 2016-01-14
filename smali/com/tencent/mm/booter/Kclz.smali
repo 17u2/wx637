@@ -21,7 +21,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,7 +52,7 @@
 
     check-cast v0, Ljava/lang/Long;
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/t;->c(Ljava/lang/Long;)J
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Tclz;->c(Ljava/lang/Long;)J
 
     move-result-wide v2
 
@@ -64,7 +64,7 @@
 
     move-result-wide v2
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/platformtools/t;->ak(J)J
+    invoke-static {v2, v3}, Lcom/tencent/mm/platformtools/Tclz;->ak(J)J
 
     move-result-wide v2
 
@@ -84,13 +84,13 @@
     if-eqz v0, :cond_0
 
     .line 14
-    invoke-static {}, Lcom/tencent/mm/ai/c;->Cm()Lcom/tencent/mm/ai/c;
+    invoke-static {}, Lcom/tencent/mm/ai/Cclz;->Cm()Lcom/tencent/mm/ai/Cclz;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/tencent/mm/ai/c;->Cn()V
+    invoke-static {}, Lcom/tencent/mm/ai/Cclz;->Cn()V
 
-    iget-boolean v2, v0, Lcom/tencent/mm/ai/c;->bPw:Z
+    iget-boolean v2, v0, Lcom/tencent/mm/ai/Cclz;->bPw:Z
 
     if-nez v2, :cond_0
 
@@ -104,9 +104,9 @@
 
     if-eqz v2, :cond_0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ai/c;->release()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ai/Cclz;->release()V
 
-    iput-boolean v1, v0, Lcom/tencent/mm/ai/c;->bPw:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/ai/Cclz;->bPw:Z
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
@@ -116,11 +116,11 @@
 
     invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
-    new-instance v0, Lcom/tencent/mm/af/k;
+    new-instance v0, Lcom/tencent/mm/af/Kclz;
 
     const/16 v1, 0x9
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/af/k;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/af/Kclz;-><init>(I)V
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 

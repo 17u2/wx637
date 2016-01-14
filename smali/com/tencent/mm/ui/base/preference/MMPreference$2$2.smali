@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -102,11 +102,11 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/base/preference/MMPreference$2;->jUH:Lcom/tencent/mm/ui/base/preference/MMPreference;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/base/preference/MMPreference;->d(Lcom/tencent/mm/ui/base/preference/MMPreference;)Lcom/tencent/mm/ui/base/preference/h;
+    invoke-static {v0}, Lcom/tencent/mm/ui/base/preference/MMPreference;->d(Lcom/tencent/mm/ui/base/preference/MMPreference;)Lcom/tencent/mm/ui/base/preference/Hclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/preference/h;->notifyDataSetChanged()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/preference/Hclz;->notifyDataSetChanged()V
 
     .line 209
     return-void

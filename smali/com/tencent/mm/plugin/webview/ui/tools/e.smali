@@ -69,11 +69,11 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/e;->hCy:Lcom/tencent/mm/protocal/JsapiPermissionWrapper;
 
     .line 33
-    sget-object v0, Lcom/tencent/mm/platformtools/r;->ceD:Ljava/lang/String;
+    sget-object v0, Lcom/tencent/mm/platformtools/Rclz;->ceD:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lcom/tencent/mm/platformtools/r;->ceD:Ljava/lang/String;
+    sget-object v0, Lcom/tencent/mm/platformtools/Rclz;->ceD:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
@@ -86,7 +86,7 @@
 
     const-string/jumbo v1, "setHardcodeJsPermission, Test.jsapiPermission is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 35
     :goto_0
@@ -105,11 +105,11 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/e;->hCz:Lcom/tencent/mm/protocal/GeneralControlWrapper;
 
     .line 36
-    sget-object v0, Lcom/tencent/mm/platformtools/r;->ceE:Ljava/lang/String;
+    sget-object v0, Lcom/tencent/mm/platformtools/Rclz;->ceE:Ljava/lang/String;
 
     if-eqz v0, :cond_1
 
-    sget-object v0, Lcom/tencent/mm/platformtools/r;->ceE:Ljava/lang/String;
+    sget-object v0, Lcom/tencent/mm/platformtools/Rclz;->ceE:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
@@ -122,7 +122,7 @@
 
     const-string/jumbo v1, "setHardcodeGeneralCtrl, Test.generalCtrl is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 38
     :goto_1
@@ -156,7 +156,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 40
     iput-object p2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/e;->hCb:Lcom/tencent/smtt/sdk/WebView;
@@ -173,7 +173,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_2
     return-void
@@ -181,7 +181,7 @@
     .line 33
     :cond_3
     :try_start_0
-    sget-object v0, Lcom/tencent/mm/platformtools/r;->ceD:Ljava/lang/String;
+    sget-object v0, Lcom/tencent/mm/platformtools/Rclz;->ceD:Ljava/lang/String;
 
     invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -193,7 +193,7 @@
 
     const-string/jumbo v1, "setHardcodeJsPermission, Test.jsapiPermission wrong"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -222,7 +222,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-object v8, p0, Lcom/tencent/mm/plugin/webview/ui/tools/e;->hCy:Lcom/tencent/mm/protocal/JsapiPermissionWrapper;
 
@@ -245,7 +245,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -264,7 +264,7 @@
     .line 36
     :cond_5
     :try_start_2
-    sget-object v0, Lcom/tencent/mm/platformtools/r;->ceE:Ljava/lang/String;
+    sget-object v0, Lcom/tencent/mm/platformtools/Rclz;->ceE:Ljava/lang/String;
 
     invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -286,7 +286,7 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     new-instance v1, Lcom/tencent/mm/protocal/b/OGclz;
 
@@ -321,7 +321,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_1
 
@@ -340,7 +340,7 @@
 
     aput-object v0, v3, v6
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     iput-object v8, p0, Lcom/tencent/mm/plugin/webview/ui/tools/e;->hCz:Lcom/tencent/mm/protocal/GeneralControlWrapper;
 
@@ -381,7 +381,7 @@
 
     .prologue
     .line 45
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -392,7 +392,7 @@
 
     const-string/jumbo v1, "update fail, url is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 61
     :goto_0
@@ -455,7 +455,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 60
     iget-object v1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/e;->hCx:Ljava/util/Map;
@@ -497,7 +497,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 78
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/e;->hCy:Lcom/tencent/mm/protocal/JsapiPermissionWrapper;
@@ -563,7 +563,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 110
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/e;->hCz:Lcom/tencent/mm/protocal/GeneralControlWrapper;
@@ -584,7 +584,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -608,7 +608,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 116
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/e;->hCB:Lcom/tencent/mm/protocal/GeneralControlWrapper;
@@ -660,7 +660,7 @@
 
     move-result-object v1
 
-    invoke-static {v3, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 122
     if-nez v0, :cond_3
@@ -694,7 +694,7 @@
     const/4 v1, 0x0
 
     .line 64
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -705,7 +705,7 @@
 
     const-string/jumbo v2, "has fail, url is null"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -781,7 +781,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 88
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/e;->hCy:Lcom/tencent/mm/protocal/JsapiPermissionWrapper;
@@ -792,7 +792,7 @@
 
     .line 91
     :cond_0
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -815,7 +815,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 93
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/e;->hCA:Lcom/tencent/mm/protocal/JsapiPermissionWrapper;
@@ -838,7 +838,7 @@
 
     const-string/jumbo v1, "getJsPerm fail, permMap is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 100
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/e;->hCA:Lcom/tencent/mm/protocal/JsapiPermissionWrapper;

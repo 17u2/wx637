@@ -77,7 +77,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -94,13 +94,13 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/n;->bk(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/ak/Nclz;->bk(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/tencent/mm/ak/j;->Di()Lcom/tencent/mm/ak/n;
+    invoke-static {}, Lcom/tencent/mm/ak/Jclz;->Di()Lcom/tencent/mm/ak/Nclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/n;->jl(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/ak/Nclz;->jl(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -110,11 +110,11 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/transmit/MsgRetransmitUI$a;->ani:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/ak/n;->jk(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/ak/Nclz;->jk(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/n;->jk(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/ak/Nclz;->jk(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -122,7 +122,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/transmit/MsgRetransmitUI$a;->ani:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/ak/n;->jl(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/ak/Nclz;->jl(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -134,7 +134,7 @@
     :cond_0
     iget-object v2, p0, Lcom/tencent/mm/ui/transmit/MsgRetransmitUI$a;->ani:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/n;->jk(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/ak/Nclz;->jk(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -175,9 +175,9 @@
     iput-object v3, p0, Lcom/tencent/mm/ui/transmit/MsgRetransmitUI$a;->cgP:Landroid/app/Dialog;
 
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/ak/j;->Di()Lcom/tencent/mm/ak/n;
+    invoke-static {}, Lcom/tencent/mm/ak/Jclz;->Di()Lcom/tencent/mm/ak/Nclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/n;->jk(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/ak/Nclz;->jk(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -185,9 +185,9 @@
 
     move-result v1
 
-    invoke-static {}, Lcom/tencent/mm/ak/j;->Di()Lcom/tencent/mm/ak/n;
+    invoke-static {}, Lcom/tencent/mm/ak/Jclz;->Di()Lcom/tencent/mm/ak/Nclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/n;->jl(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/ak/Nclz;->jl(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -272,7 +272,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/16 v1, 0xb
 
@@ -293,9 +293,9 @@
 
     iget-object v7, p0, Lcom/tencent/mm/ui/transmit/MsgRetransmitUI$a;->kIi:Lcom/tencent/mm/protocal/b/apv;
 
-    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/ak/o;->a(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;ILjava/lang/String;ILcom/tencent/mm/protocal/b/apv;)Z
+    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/ak/Oclz;->a(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;ILjava/lang/String;ILcom/tencent/mm/protocal/b/apv;)Z
 
-    invoke-static {v0}, Lcom/tencent/mm/ak/o;->jq(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/tencent/mm/ak/Oclz;->jq(Ljava/lang/String;)I
 
     move-result v0
 

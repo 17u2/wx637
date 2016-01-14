@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,11 +52,11 @@
 
     iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$7;->jdl:Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->e(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;)Lcom/tencent/mm/sandbox/updater/i;
+    invoke-static {v1}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->e(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;)Lcom/tencent/mm/sandbox/updater/Iclz;
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/tencent/mm/sandbox/updater/i;->asj:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/sandbox/updater/Iclz;->asj:Ljava/lang/String;
 
     iget-object v2, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$7;->jdl:Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;
 
@@ -70,7 +70,7 @@
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$7$1;-><init>(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$7;)V
 
-    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -79,7 +79,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$7$2;-><init>(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$7;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/g;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/Gclz;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
 
     .line 217
     return-void

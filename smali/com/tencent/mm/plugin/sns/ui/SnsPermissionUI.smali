@@ -11,9 +11,9 @@
 
 .field private arG:I
 
-.field public cfz:Lcom/tencent/mm/ui/base/o;
+.field public cfz:Lcom/tencent/mm/ui/base/Oclz;
 
-.field private cgw:Lcom/tencent/mm/ui/base/preference/f;
+.field private cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
 .field private gAE:Z
 
@@ -39,7 +39,7 @@
     invoke-direct {p0}, Lcom/tencent/mm/ui/base/preference/MMPreference;-><init>()V
 
     .line 44
-    iput-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iput-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     .line 45
     const-string/jumbo v0, ""
@@ -70,7 +70,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -123,11 +123,11 @@
     move-result v2
 
     .line 133
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v3, "sns_outside_permiss"
 
-    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/base/preference/f;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
+    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/base/preference/Fclz;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
 
     move-result-object v0
 
@@ -139,7 +139,7 @@
     .line 137
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->gAF:Lcom/tencent/mm/storage/Kclz;
 
-    iget v1, v1, Lcom/tencent/mm/d/b/o;->aOs:I
+    iget v1, v1, Lcom/tencent/mm/d/b/Oclz;->aOs:I
 
     .line 138
     const-string/jumbo v3, "!44@/B4Tb64lLpLqAvingMa0L4yrOZj7MSsFMwv8Z21zp8k="
@@ -156,7 +156,7 @@
 
     aput-object v7, v5, v6
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 139
     if-ne v1, v8, :cond_3
@@ -169,11 +169,11 @@
     .line 145
     :cond_0
     :goto_0
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v3, "sns_black_permiss"
 
-    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/base/preference/f;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
+    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/base/preference/Fclz;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
 
     move-result-object v0
 
@@ -195,26 +195,26 @@
     .line 155
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->gAF:Lcom/tencent/mm/storage/Kclz;
 
-    iget v0, v0, Lcom/tencent/mm/d/b/o;->field_type:I
+    iget v0, v0, Lcom/tencent/mm/d/b/Oclz;->field_type:I
 
-    invoke-static {v0}, Lcom/tencent/mm/h/a;->cf(I)Z
+    invoke-static {v0}, Lcom/tencent/mm/h/Aclz;->cf(I)Z
 
     move-result v0
 
     if-nez v0, :cond_2
 
     .line 156
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "sns_black_permiss"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Ep(Ljava/lang/String;)Z
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Ep(Ljava/lang/String;)Z
 
     .line 160
     :cond_2
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/ui/base/preference/f;->notifyDataSetChanged()V
+    invoke-interface {v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->notifyDataSetChanged()V
 
     .line 161
     return-void
@@ -270,7 +270,7 @@
     .line 165
     iget-object v1, v0, Lcom/tencent/mm/plugin/sns/h/q;->field_memberList:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -293,7 +293,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->h([Ljava/lang/String;)Ljava/util/List;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->h([Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
@@ -312,9 +312,9 @@
 
     .prologue
     .line 106
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/preference/MMPreference;->jUG:Lcom/tencent/mm/ui/base/preference/h;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/preference/MMPreference;->jUG:Lcom/tencent/mm/ui/base/preference/Hclz;
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     .line 107
     const v0, 0x7f0911b0
@@ -402,7 +402,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 198
     invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
@@ -422,7 +422,7 @@
 
     invoke-direct {v3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     if-nez v0, :cond_2
 
@@ -437,22 +437,22 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 200
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     if-eqz v0, :cond_0
 
     .line 201
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/o;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Oclz;->dismiss()V
 
     .line 202
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     .line 204
     :cond_0
@@ -477,7 +477,7 @@
     goto :goto_0
 .end method
 
-.method public final a(Lcom/tencent/mm/ui/base/preference/f;Lcom/tencent/mm/ui/base/preference/Preference;)Z
+.method public final a(Lcom/tencent/mm/ui/base/preference/Fclz;Lcom/tencent/mm/ui/base/preference/Preference;)Z
     .locals 9
 
     .prologue
@@ -500,31 +500,31 @@
     if-eqz v4, :cond_2
 
     .line 216
-    new-instance v1, Lcom/tencent/mm/d/a/jo;
+    new-instance v1, Lcom/tencent/mm/d/a/JOclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/d/a/jo;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/d/a/JOclz;-><init>()V
 
     .line 217
-    iget-object v2, v1, Lcom/tencent/mm/d/a/jo;->aEG:Lcom/tencent/mm/d/a/jo$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/JOclz;->aEG:Lcom/tencent/mm/d/a/JOclz$a;
 
-    iput-boolean v8, v2, Lcom/tencent/mm/d/a/jo$a;->aEI:Z
+    iput-boolean v8, v2, Lcom/tencent/mm/d/a/JOclz$a;->aEI:Z
 
     .line 218
-    iget-object v2, v1, Lcom/tencent/mm/d/a/jo;->aEG:Lcom/tencent/mm/d/a/jo$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/JOclz;->aEG:Lcom/tencent/mm/d/a/JOclz$a;
 
-    iput-boolean v0, v2, Lcom/tencent/mm/d/a/jo$a;->aEH:Z
+    iput-boolean v0, v2, Lcom/tencent/mm/d/a/JOclz$a;->aEH:Z
 
     .line 219
-    iget-object v0, v1, Lcom/tencent/mm/d/a/jo;->aEG:Lcom/tencent/mm/d/a/jo$a;
+    iget-object v0, v1, Lcom/tencent/mm/d/a/JOclz;->aEG:Lcom/tencent/mm/d/a/JOclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->ajd:Ljava/lang/String;
 
-    iput-object v2, v0, Lcom/tencent/mm/d/a/jo$a;->username:Ljava/lang/String;
+    iput-object v2, v0, Lcom/tencent/mm/d/a/JOclz$a;->username:Ljava/lang/String;
 
     .line 220
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 221
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->gAF:Lcom/tencent/mm/storage/Kclz;
@@ -567,31 +567,31 @@
     if-eqz v1, :cond_0
 
     .line 230
-    new-instance v1, Lcom/tencent/mm/d/a/jo;
+    new-instance v1, Lcom/tencent/mm/d/a/JOclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/d/a/jo;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/d/a/JOclz;-><init>()V
 
     .line 231
-    iget-object v4, v1, Lcom/tencent/mm/d/a/jo;->aEG:Lcom/tencent/mm/d/a/jo$a;
+    iget-object v4, v1, Lcom/tencent/mm/d/a/JOclz;->aEG:Lcom/tencent/mm/d/a/JOclz$a;
 
-    iput-boolean v0, v4, Lcom/tencent/mm/d/a/jo$a;->aEI:Z
+    iput-boolean v0, v4, Lcom/tencent/mm/d/a/JOclz$a;->aEI:Z
 
     .line 232
-    iget-object v4, v1, Lcom/tencent/mm/d/a/jo;->aEG:Lcom/tencent/mm/d/a/jo$a;
+    iget-object v4, v1, Lcom/tencent/mm/d/a/JOclz;->aEG:Lcom/tencent/mm/d/a/JOclz$a;
 
-    iput-boolean v8, v4, Lcom/tencent/mm/d/a/jo$a;->aEH:Z
+    iput-boolean v8, v4, Lcom/tencent/mm/d/a/JOclz$a;->aEH:Z
 
     .line 233
-    iget-object v4, v1, Lcom/tencent/mm/d/a/jo;->aEG:Lcom/tencent/mm/d/a/jo$a;
+    iget-object v4, v1, Lcom/tencent/mm/d/a/JOclz;->aEG:Lcom/tencent/mm/d/a/JOclz$a;
 
     iget-object v5, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->ajd:Ljava/lang/String;
 
-    iput-object v5, v4, Lcom/tencent/mm/d/a/jo$a;->username:Ljava/lang/String;
+    iput-object v5, v4, Lcom/tencent/mm/d/a/JOclz$a;->username:Ljava/lang/String;
 
     .line 234
-    sget-object v4, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v4, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v4, v1}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v4, v1}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 235
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->ajd:Ljava/lang/String;
@@ -657,11 +657,11 @@
 
     invoke-direct {v2, p0, v0}, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI$2;-><init>(Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;Lcom/tencent/mm/plugin/sns/d/t;)V
 
-    invoke-static {p0, v1, v8, v2}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {p0, v1, v8, v2}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cfz:Lcom/tencent/mm/ui/base/o;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     move v0, v8
 
@@ -706,7 +706,7 @@
 
     const-string/jumbo v1, "dispatchKeyEvent"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 77
     new-instance v0, Landroid/content/Intent;
@@ -825,7 +825,7 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 64
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
@@ -860,7 +860,7 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 67
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->finish()V
@@ -919,28 +919,28 @@
     if-eqz v0, :cond_0
 
     .line 92
-    new-instance v0, Lcom/tencent/mm/d/a/jm;
+    new-instance v0, Lcom/tencent/mm/d/a/JMclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/jm;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/JMclz;-><init>()V
 
     .line 93
-    iget-object v1, v0, Lcom/tencent/mm/d/a/jm;->aEC:Lcom/tencent/mm/d/a/jm$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/JMclz;->aEC:Lcom/tencent/mm/d/a/JMclz$a;
 
     iget-boolean v2, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->gAH:Z
 
-    iput-boolean v2, v1, Lcom/tencent/mm/d/a/jm$a;->aED:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/d/a/JMclz$a;->aED:Z
 
     .line 94
-    iget-object v1, v0, Lcom/tencent/mm/d/a/jm;->aEC:Lcom/tencent/mm/d/a/jm$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/JMclz;->aEC:Lcom/tencent/mm/d/a/JMclz$a;
 
     iget-wide v2, p0, Lcom/tencent/mm/plugin/sns/ui/SnsPermissionUI;->gAI:J
 
-    iput-wide v2, v1, Lcom/tencent/mm/d/a/jm$a;->axz:J
+    iput-wide v2, v1, Lcom/tencent/mm/d/a/JMclz$a;->axz:J
 
     .line 95
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 97
     :cond_0

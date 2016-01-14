@@ -32,7 +32,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -40,7 +40,7 @@
 
 
 # virtual methods
-.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/a;)Z
+.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/Aclz;)Z
     .locals 4
 
     .prologue
@@ -52,13 +52,13 @@
     .line 36
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/l$a;->fLE:Lcom/tencent/mm/plugin/search/ui/a/l;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/e/a/a;->aBw:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/ui/e/a/Aclz;->aBw:Ljava/lang/String;
 
-    iget-object v1, p2, Lcom/tencent/mm/plugin/search/ui/a/l;->cFi:Lcom/tencent/mm/modelsearch/k$g;
+    iget-object v1, p2, Lcom/tencent/mm/plugin/search/ui/a/l;->cFi:Lcom/tencent/mm/modelsearch/Kclz$g;
 
     const/4 v2, 0x0
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/modelsearch/k;->b(Ljava/lang/String;Lcom/tencent/mm/modelsearch/k$g;I)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/modelsearch/Kclz;->b(Ljava/lang/String;Lcom/tencent/mm/modelsearch/Kclz$g;I)V
 
     .line 37
     new-instance v0, Landroid/content/Intent;
@@ -82,7 +82,7 @@
     .line 39
     const-string/jumbo v1, ".ui.chatting.ChattingUI"
 
-    invoke-static {p1, v1, v0}, Lcom/tencent/mm/ao/c;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {p1, v1, v0}, Lcom/tencent/mm/ao/Cclz;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;)V
 
     .line 40
     return v3

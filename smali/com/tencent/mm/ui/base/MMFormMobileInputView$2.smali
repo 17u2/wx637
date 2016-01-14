@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private ekJ:Lcom/tencent/mm/sdk/platformtools/aj;
+.field private ekJ:Lcom/tencent/mm/sdk/platformtools/AJclz;
 
 .field final synthetic jMD:Lcom/tencent/mm/ui/base/MMFormMobileInputView;
 
@@ -34,17 +34,17 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 112
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/aj;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AJclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/aj;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/AJclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/base/MMFormMobileInputView$2;->ekJ:Lcom/tencent/mm/sdk/platformtools/aj;
+    iput-object v0, p0, Lcom/tencent/mm/ui/base/MMFormMobileInputView$2;->ekJ:Lcom/tencent/mm/sdk/platformtools/AJclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -144,7 +144,7 @@
 
     move-result-object v5
 
-    invoke-static {v5, v1}, Lcom/tencent/mm/sdk/platformtools/aj;->formatNumber(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v5, v1}, Lcom/tencent/mm/sdk/platformtools/AJclz;->formatNumber(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -161,7 +161,7 @@
 
     move-result-object v5
 
-    invoke-static {v5, v2}, Lcom/tencent/mm/sdk/platformtools/aj;->formatNumber(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v5, v2}, Lcom/tencent/mm/sdk/platformtools/AJclz;->formatNumber(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -235,7 +235,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, v2}, Lcom/tencent/mm/sdk/platformtools/aj;->formatNumber(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3, v2}, Lcom/tencent/mm/sdk/platformtools/AJclz;->formatNumber(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -309,7 +309,7 @@
 
     new-array v3, v8, [Ljava/lang/Object;
 
-    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 

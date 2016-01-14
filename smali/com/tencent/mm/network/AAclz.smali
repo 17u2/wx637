@@ -32,7 +32,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -47,7 +47,7 @@
     const/4 v0, 0x1
 
     .line 46
-    invoke-static {}, Lcom/tencent/mm/g/a;->pn()Z
+    invoke-static {}, Lcom/tencent/mm/g/Aclz;->pn()Z
 
     move-result v2
 
@@ -61,22 +61,22 @@
 
     .line 50
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/g/a;->po()I
+    invoke-static {}, Lcom/tencent/mm/g/Aclz;->po()I
 
     move-result v2
 
     .line 51
-    invoke-static {}, Lcom/tencent/mm/g/a;->pq()I
+    invoke-static {}, Lcom/tencent/mm/g/Aclz;->pq()I
 
     move-result v3
 
     .line 52
-    invoke-static {}, Lcom/tencent/mm/g/a;->pp()I
+    invoke-static {}, Lcom/tencent/mm/g/Aclz;->pp()I
 
     move-result v4
 
     .line 53
-    invoke-static {}, Lcom/tencent/mm/g/a;->pr()I
+    invoke-static {}, Lcom/tencent/mm/g/Aclz;->pr()I
 
     move-result v5
 
@@ -176,7 +176,7 @@
     .line 38
     if-eqz p0, :cond_0
 
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/ai;->dn(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/AIclz;->dn(Landroid/content/Context;)Z
 
     move-result v0
 

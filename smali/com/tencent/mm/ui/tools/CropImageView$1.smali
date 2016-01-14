@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/ui/tools/CropImageView$1;
-.super Lcom/tencent/mm/sdk/platformtools/ab;
+.super Lcom/tencent/mm/sdk/platformtools/ABclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 69
     iput-object p1, p0, Lcom/tencent/mm/ui/tools/CropImageView$1;->kCA:Lcom/tencent/mm/ui/tools/CropImageView;
 
-    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -57,7 +57,7 @@
 
     const-string/jumbo v1, "on handler"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 74
     iget v0, p1, Landroid/os/Message;->what:I
@@ -74,7 +74,7 @@
     .line 108
     :cond_0
     :goto_0
-    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/platformtools/ab;->handleMessage(Landroid/os/Message;)V
+    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->handleMessage(Landroid/os/Message;)V
 
     .line 109
     return-void
@@ -317,7 +317,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/base/e;->a(Landroid/graphics/PointF;Landroid/graphics/Bitmap;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/base/Eclz;->a(Landroid/graphics/PointF;Landroid/graphics/Bitmap;)V
 
     goto/16 :goto_0
 

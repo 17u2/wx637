@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/search/ui/e$1;
-.super Lcom/tencent/mm/sdk/platformtools/ab;
+.super Lcom/tencent/mm/sdk/platformtools/ABclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 293
     iput-object p1, p0, Lcom/tencent/mm/plugin/search/ui/e$1;->fKc:Lcom/tencent/mm/plugin/search/ui/e;
 
-    invoke-direct {p0, p2}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {p0, p2}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -73,11 +73,11 @@
     if-lez v0, :cond_0
 
     .line 299
-    invoke-static {}, Lcom/tencent/mm/ui/e/g;->bbf()Lcom/tencent/mm/ui/e/f;
+    invoke-static {}, Lcom/tencent/mm/ui/e/Gclz;->bbf()Lcom/tencent/mm/ui/e/Fclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/ui/e/f;->aom()V
+    invoke-interface {v0}, Lcom/tencent/mm/ui/e/Fclz;->aom()V
 
     .line 300
     sget-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;

@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic ksc:Lcom/tencent/mm/modelfriend/b;
+.field final synthetic ksc:Lcom/tencent/mm/modelfriend/Bclz;
 
 .field final synthetic ktN:Lcom/tencent/mm/ui/contact/ModRemarkNameUI;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/contact/ModRemarkNameUI;Lcom/tencent/mm/modelfriend/b;)V
+.method constructor <init>(Lcom/tencent/mm/ui/contact/ModRemarkNameUI;Lcom/tencent/mm/modelfriend/Bclz;)V
     .locals 1
 
     .prologue
     .line 314
     iput-object p1, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI$5;->ktN:Lcom/tencent/mm/ui/contact/ModRemarkNameUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI$5;->ksc:Lcom/tencent/mm/modelfriend/b;
+    iput-object p2, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI$5;->ksc:Lcom/tencent/mm/modelfriend/Bclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -58,9 +58,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI$5;->ksc:Lcom/tencent/mm/modelfriend/b;
+    iget-object v1, p0, Lcom/tencent/mm/ui/contact/ModRemarkNameUI$5;->ksc:Lcom/tencent/mm/modelfriend/Bclz;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/modelfriend/b;->xS()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/modelfriend/Bclz;->xS()Ljava/lang/String;
 
     move-result-object v1
 

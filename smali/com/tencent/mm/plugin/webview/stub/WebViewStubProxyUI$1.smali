@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic hBf:Lcom/tencent/mm/d/a/lg;
+.field final synthetic hBf:Lcom/tencent/mm/d/a/LGclz;
 
 .field final synthetic hBg:Lcom/tencent/mm/plugin/webview/stub/WebViewStubProxyUI;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/webview/stub/WebViewStubProxyUI;Lcom/tencent/mm/d/a/lg;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/webview/stub/WebViewStubProxyUI;Lcom/tencent/mm/d/a/LGclz;)V
     .locals 1
 
     .prologue
     .line 97
     iput-object p1, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubProxyUI$1;->hBg:Lcom/tencent/mm/plugin/webview/stub/WebViewStubProxyUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubProxyUI$1;->hBf:Lcom/tencent/mm/d/a/lg;
+    iput-object p2, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubProxyUI$1;->hBf:Lcom/tencent/mm/d/a/LGclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,11 +52,11 @@
 
     .prologue
     .line 100
-    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubProxyUI$1;->hBf:Lcom/tencent/mm/d/a/lg;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubProxyUI$1;->hBf:Lcom/tencent/mm/d/a/LGclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/lg;->aGn:Lcom/tencent/mm/d/a/lg$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/LGclz;->aGn:Lcom/tencent/mm/d/a/LGclz$b;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/d/a/lg$b;->aGo:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/d/a/LGclz$b;->aGo:Z
 
     if-nez v0, :cond_1
 
@@ -141,7 +141,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 .end method

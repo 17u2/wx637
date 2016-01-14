@@ -18,7 +18,7 @@
 
 .field private jEh:Landroid/widget/EditText;
 
-.field private jEi:Lcom/tencent/mm/ui/account/i;
+.field private jEi:Lcom/tencent/mm/ui/account/Iclz;
 
 .field private jEj:Z
 
@@ -37,13 +37,13 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileSetNickUI;->cgh:Landroid/app/ProgressDialog;
 
     .line 43
-    iput-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileSetNickUI;->jEi:Lcom/tencent/mm/ui/account/i;
+    iput-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileSetNickUI;->jEi:Lcom/tencent/mm/ui/account/Iclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -193,7 +193,7 @@
 
     move-result-object v4
 
-    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 136
     iget-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileSetNickUI;->cgh:Landroid/app/ProgressDialog;
@@ -210,7 +210,7 @@
 
     .line 141
     :cond_0
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/bc;->bd(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->bd(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -261,7 +261,7 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 149
     iget-boolean v3, p0, Lcom/tencent/mm/ui/account/RegByMobileSetNickUI;->jEj:Z
@@ -274,12 +274,12 @@
     and-int/2addr v0, v3
 
     .line 151
-    invoke-static {}, Lcom/tencent/mm/modelfriend/m;->yi()V
+    invoke-static {}, Lcom/tencent/mm/modelfriend/Mclz;->yi()V
 
     .line 152
     invoke-virtual {p0}, Lcom/tencent/mm/ui/account/RegByMobileSetNickUI;->getApplicationContext()Landroid/content/Context;
 
-    invoke-static {}, Lcom/tencent/mm/modelfriend/a;->xL()Z
+    invoke-static {}, Lcom/tencent/mm/modelfriend/Aclz;->xL()Z
 
     .line 156
     :goto_1
@@ -299,7 +299,7 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 157
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
@@ -331,17 +331,17 @@
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/c;
+    invoke-virtual {v2}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/Cclz;
 
     move-result-object v2
 
-    new-instance v3, Lcom/tencent/mm/ae/b$g;
+    new-instance v3, Lcom/tencent/mm/ae/Bclz$g;
 
     const/16 v4, 0x11
 
-    invoke-direct {v3, v4, v0}, Lcom/tencent/mm/ae/b$g;-><init>(II)V
+    invoke-direct {v3, v4, v0}, Lcom/tencent/mm/ae/Bclz$g;-><init>(II)V
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/ae/c;->b(Lcom/tencent/mm/ae/b$q;)V
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/ae/Cclz;->b(Lcom/tencent/mm/ae/Bclz$q;)V
 
     .line 160
     sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
@@ -375,9 +375,9 @@
     invoke-virtual {v0, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     .line 171
-    check-cast p4, Lcom/tencent/mm/modelsimple/v;
+    check-cast p4, Lcom/tencent/mm/modelsimple/Vclz;
 
-    iget-boolean v2, p4, Lcom/tencent/mm/modelsimple/v;->bTn:Z
+    iget-boolean v2, p4, Lcom/tencent/mm/modelsimple/Vclz;->bTn:Z
 
     .line 172
     if-eqz v2, :cond_5
@@ -436,7 +436,7 @@
     if-ne v0, v4, :cond_7
 
     .line 182
-    invoke-static {p3}, Lcom/tencent/mm/e/a;->cR(Ljava/lang/String;)Lcom/tencent/mm/e/a;
+    invoke-static {p3}, Lcom/tencent/mm/e/Aclz;->cR(Ljava/lang/String;)Lcom/tencent/mm/e/Aclz;
 
     move-result-object v0
 
@@ -444,7 +444,7 @@
     if-eqz v0, :cond_7
 
     .line 184
-    invoke-virtual {v0, p0, v6, v6}, Lcom/tencent/mm/e/a;->a(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Z
+    invoke-virtual {v0, p0, v6, v6}, Lcom/tencent/mm/e/Aclz;->a(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Z
 
     goto/16 :goto_0
 
@@ -452,9 +452,9 @@
     :cond_7
     sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
 
-    iget-object v4, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v4, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v4, v4, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v4, v4, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     invoke-interface {v0, v4, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/e;->a(Landroid/content/Context;IILjava/lang/String;)Z
 
@@ -517,7 +517,7 @@
     :cond_a
     const v0, 0x7f090132
 
-    invoke-static {p0, v0, v7}, Lcom/tencent/mm/ui/base/f;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v7}, Lcom/tencent/mm/ui/base/Fclz;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/Gclz;
 
     move v0, v1
 
@@ -530,7 +530,7 @@
 
     const v0, 0x7f0901d5
 
-    invoke-static {p0, v0, v7}, Lcom/tencent/mm/ui/base/f;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v7}, Lcom/tencent/mm/ui/base/Fclz;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/Gclz;
 
     move v0, v1
 
@@ -614,26 +614,26 @@
 
     .prologue
     .line 58
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileSetNickUI;->jEi:Lcom/tencent/mm/ui/account/i;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileSetNickUI;->jEi:Lcom/tencent/mm/ui/account/Iclz;
 
     if-eqz v0, :cond_0
 
     .line 59
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileSetNickUI;->jEi:Lcom/tencent/mm/ui/account/i;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileSetNickUI;->jEi:Lcom/tencent/mm/ui/account/Iclz;
 
-    iget-object v1, v0, Lcom/tencent/mm/ui/account/i;->jDn:Lcom/tencent/mm/ui/base/r;
+    iget-object v1, v0, Lcom/tencent/mm/ui/account/Iclz;->jDn:Lcom/tencent/mm/ui/base/Rclz;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/base/r;->cancel()V
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/base/Rclz;->cancel()V
 
-    iget-object v2, v1, Lcom/tencent/mm/ui/base/r;->anl:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v2, v1, Lcom/tencent/mm/ui/base/Rclz;->anl:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/sdk/platformtools/ag;->aOk()V
+    invoke-virtual {v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOk()V
 
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/base/r;->reset()V
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/base/Rclz;->reset()V
 
     const/4 v1, 0x0
 
-    iput-object v1, v0, Lcom/tencent/mm/ui/account/i;->text:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/ui/account/Iclz;->text:Ljava/lang/String;
 
     .line 61
     :cond_0

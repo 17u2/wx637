@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -66,7 +66,7 @@
 
     const-string/jumbo v1, "can\'t kill the working process"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 572
     :cond_0
@@ -77,7 +77,7 @@
     :cond_1
     invoke-static {}, Lcom/tencent/mm/ui/MMAppMgr;->aUK()V
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->appenderClose()V
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->appenderClose()V
 
     invoke-static {}, Lcom/tencent/mm/plugin/report/service/KVReportJni$KVReportJava2C;->onExitAppOrAppCrash()V
 
@@ -86,10 +86,10 @@
 
     const-string/jumbo v1, "now killing the working process...."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 549
-    invoke-static {}, Lcom/tencent/mm/modelfriend/a;->xM()Z
+    invoke-static {}, Lcom/tencent/mm/modelfriend/Aclz;->xM()Z
 
     move-result v0
 
@@ -100,13 +100,13 @@
 
     const-string/jumbo v1, "address book syncing, wait a minute please"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 555
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -124,7 +124,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/app/WorkerProfile$20$1;-><init>(Lcom/tencent/mm/app/WorkerProfile$20;)V
 
-    invoke-static {v0}, Lcom/tencent/mm/p/m;->b(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/tencent/mm/p/Mclz;->b(Ljava/lang/Runnable;)V
 
     goto :goto_0
 .end method
@@ -136,7 +136,7 @@
     .line 576
     iget-object v0, p0, Lcom/tencent/mm/app/WorkerProfile$20;->amm:Lcom/tencent/mm/app/WorkerProfile;
 
-    invoke-static {v0}, Lcom/tencent/mm/app/WorkerProfile;->b(Lcom/tencent/mm/app/WorkerProfile;)Lcom/tencent/mm/app/d;
+    invoke-static {v0}, Lcom/tencent/mm/app/WorkerProfile;->b(Lcom/tencent/mm/app/WorkerProfile;)Lcom/tencent/mm/app/Dclz;
 
     move-result-object v0
 
@@ -146,7 +146,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/app/d;->Z(Landroid/content/Context;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/app/Dclz;->Z(Landroid/content/Context;)V
 
     .line 577
     return-void

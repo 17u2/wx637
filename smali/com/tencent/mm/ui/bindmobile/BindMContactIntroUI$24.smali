@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -77,11 +77,11 @@
 
     .line 327
     :cond_1
-    new-instance v0, Lcom/tencent/mm/modelsimple/h;
+    new-instance v0, Lcom/tencent/mm/modelsimple/Hclz;
 
-    sget v1, Lcom/tencent/mm/modelsimple/h;->bSB:I
+    sget v1, Lcom/tencent/mm/modelsimple/Hclz;->bSB:I
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/modelsimple/h;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/modelsimple/Hclz;-><init>(I)V
 
     .line 328
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -115,11 +115,11 @@
 
     invoke-direct {v4, p0}, Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI$24$1;-><init>(Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI$24;)V
 
-    invoke-static {v1, v2, v3, v4}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v1, v2, v3, v4}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI;->a(Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI;Lcom/tencent/mm/ui/base/o;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI;->a(Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI;Lcom/tencent/mm/ui/base/Oclz;)Lcom/tencent/mm/ui/base/Oclz;
 
     goto :goto_0
 .end method

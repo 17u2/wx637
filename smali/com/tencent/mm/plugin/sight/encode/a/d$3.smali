@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/c/b/c$a;
+.implements Lcom/tencent/mm/c/b/Cclz$a;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -72,7 +72,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 160
     return-void
@@ -89,9 +89,9 @@
     .line 124
     iget-object v1, p0, Lcom/tencent/mm/plugin/sight/encode/a/d$3;->fYX:Lcom/tencent/mm/plugin/sight/encode/a/d;
 
-    iget-object v1, v1, Lcom/tencent/mm/plugin/sight/encode/a/d;->fYD:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, v1, Lcom/tencent/mm/plugin/sight/encode/a/d;->fYD:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessage(I)Z
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessage(I)Z
 
     .line 126
     iget-object v1, p0, Lcom/tencent/mm/plugin/sight/encode/a/d$3;->fYX:Lcom/tencent/mm/plugin/sight/encode/a/d;
@@ -141,7 +141,7 @@
 
     aput-object v5, v4, v2
 
-    invoke-static {v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 136
     :goto_1
@@ -194,7 +194,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     :goto_2
@@ -224,7 +224,7 @@
 
     const-string/jumbo v2, "do aac stop callback"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 144
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/a/d$3;->fYX:Lcom/tencent/mm/plugin/sight/encode/a/d;
@@ -256,24 +256,24 @@
     .line 151
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/a/d$3;->fYX:Lcom/tencent/mm/plugin/sight/encode/a/d;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/encode/a/d;->fYV:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/encode/a/d;->fYV:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sight/encode/a/d$3;->fYX:Lcom/tencent/mm/plugin/sight/encode/a/d;
 
     iget-object v1, v1, Lcom/tencent/mm/plugin/sight/encode/a/d;->fYW:Ljava/lang/Runnable;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     .line 152
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/a/d$3;->fYX:Lcom/tencent/mm/plugin/sight/encode/a/d;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/encode/a/d;->fYV:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/encode/a/d;->fYV:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sight/encode/a/d$3;->fYX:Lcom/tencent/mm/plugin/sight/encode/a/d;
 
     iget-object v1, v1, Lcom/tencent/mm/plugin/sight/encode/a/d;->fYW:Ljava/lang/Runnable;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 154
     :cond_3
@@ -352,7 +352,7 @@
 
     const-string/jumbo v1, "Audio read error"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_5
     iget-wide v0, v8, Lcom/tencent/mm/plugin/sight/encode/a/d;->fYL:J
@@ -407,7 +407,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz v7, :cond_6
 
@@ -415,7 +415,7 @@
 
     const-string/jumbo v1, "EOS received in sendAudioToEncoder"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, v8, Lcom/tencent/mm/plugin/sight/encode/a/d;->fYF:Landroid/media/MediaCodec;
 
@@ -442,7 +442,7 @@
 
     const-string/jumbo v1, "_offerAudioEncoder exception"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_2
 
@@ -473,7 +473,7 @@
 
     const-string/jumbo v2, "aac stop callback is null"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_3
 

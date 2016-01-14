@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/pluginsdk/ui/simley/d$1;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 4
 
     .prologue
@@ -51,10 +51,10 @@
 
     const-string/jumbo v1, "kv stat update click cell item"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1012
-    check-cast p1, Lcom/tencent/mm/d/a/kd;
+    check-cast p1, Lcom/tencent/mm/d/a/KDclz;
 
     .line 1013
     sget-object v0, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;
@@ -67,9 +67,9 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/kd;->aFh:Lcom/tencent/mm/d/a/kd$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/KDclz;->aFh:Lcom/tencent/mm/d/a/KDclz$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/kd$a;->atw:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/KDclz$a;->atw:Ljava/lang/String;
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

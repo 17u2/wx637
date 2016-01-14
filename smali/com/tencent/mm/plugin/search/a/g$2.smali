@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/search/a/g$2;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,26 +42,26 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 3
 
     .prologue
     .line 333
-    check-cast p1, Lcom/tencent/mm/d/a/df;
+    check-cast p1, Lcom/tencent/mm/d/a/DFclz;
 
     .line 334
-    iget-object v0, p1, Lcom/tencent/mm/d/a/df;->awQ:Lcom/tencent/mm/d/a/df$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/DFclz;->awQ:Lcom/tencent/mm/d/a/DFclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/df$a;->awR:Lcom/tencent/mm/protocal/b/aem;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/DFclz$a;->awR:Lcom/tencent/mm/protocal/b/aem;
 
     .line 335
-    new-instance v1, Lcom/tencent/mm/af/j;
+    new-instance v1, Lcom/tencent/mm/af/Jclz;
 
     iget v0, v0, Lcom/tencent/mm/protocal/b/aem;->iwS:I
 
     const/16 v2, 0x12
 
-    invoke-direct {v1, v0, v2}, Lcom/tencent/mm/af/j;-><init>(II)V
+    invoke-direct {v1, v0, v2}, Lcom/tencent/mm/af/Jclz;-><init>(II)V
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 

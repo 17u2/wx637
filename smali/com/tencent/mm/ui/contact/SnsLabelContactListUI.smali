@@ -49,7 +49,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -380,13 +380,13 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/contact/SnsLabelContactListUI;->kut:Lcom/tencent/mm/ui/contact/SnsLabelContactListUI$b;
 
     .line 70
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "ReturnSnsObjectDetail"
 
     iget-object v2, p0, Lcom/tencent/mm/ui/contact/SnsLabelContactListUI;->kut:Lcom/tencent/mm/ui/contact/SnsLabelContactListUI$b;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 71
     invoke-virtual {p0}, Lcom/tencent/mm/ui/contact/SnsLabelContactListUI;->getIntent()Landroid/content/Intent;
@@ -416,26 +416,26 @@
 
     .line 76
     :cond_1
-    new-instance v0, Lcom/tencent/mm/d/a/en;
+    new-instance v0, Lcom/tencent/mm/d/a/ENclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/en;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/ENclz;-><init>()V
 
     .line 77
-    iget-object v1, v0, Lcom/tencent/mm/d/a/en;->ayz:Lcom/tencent/mm/d/a/en$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/ENclz;->ayz:Lcom/tencent/mm/d/a/ENclz$a;
 
     iget v2, p0, Lcom/tencent/mm/ui/contact/SnsLabelContactListUI;->kur:I
 
-    iput v2, v1, Lcom/tencent/mm/d/a/en$a;->avl:I
+    iput v2, v1, Lcom/tencent/mm/d/a/ENclz$a;->avl:I
 
     .line 78
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 79
-    iget-object v0, v0, Lcom/tencent/mm/d/a/en;->ayA:Lcom/tencent/mm/d/a/en$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/ENclz;->ayA:Lcom/tencent/mm/d/a/ENclz$b;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/en$b;->ayB:Lcom/tencent/mm/protocal/b/aod;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/ENclz$b;->ayB:Lcom/tencent/mm/protocal/b/aod;
 
     iput-object v0, p0, Lcom/tencent/mm/ui/contact/SnsLabelContactListUI;->gdA:Lcom/tencent/mm/protocal/b/aod;
 
@@ -509,13 +509,13 @@
 
     .prologue
     .line 177
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "ReturnSnsObjectDetail"
 
     iget-object v2, p0, Lcom/tencent/mm/ui/contact/SnsLabelContactListUI;->kut:Lcom/tencent/mm/ui/contact/SnsLabelContactListUI$b;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 178
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onDestroy()V

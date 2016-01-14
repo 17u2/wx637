@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -69,7 +69,7 @@
     .line 103
     const/4 v0, 0x0
 
-    invoke-static {v3, v0}, Lcom/tencent/mm/platformtools/m;->d(ZZ)V
+    invoke-static {v3, v0}, Lcom/tencent/mm/platformtools/Mclz;->d(ZZ)V
 
     .line 104
     iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI$1;->jXX:Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;

@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic enf:Lcom/tencent/mm/ui/base/j;
+.field final synthetic enf:Lcom/tencent/mm/ui/base/Jclz;
 
 .field final synthetic fai:Ljava/lang/String;
 
@@ -26,14 +26,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView;Lcom/tencent/mm/ui/base/j;Ljava/lang/String;)V
+.method constructor <init>(Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView;Lcom/tencent/mm/ui/base/Jclz;Ljava/lang/String;)V
     .locals 1
 
     .prologue
     .line 92
     iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView$2;->hSb:Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView;
 
-    iput-object p2, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView$2;->enf:Lcom/tencent/mm/ui/base/j;
+    iput-object p2, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView$2;->enf:Lcom/tencent/mm/ui/base/Jclz;
 
     iput-object p3, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView$2;->fai:Ljava/lang/String;
 
@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -62,14 +62,14 @@
     const/4 v2, 0x1
 
     .line 95
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView$2;->enf:Lcom/tencent/mm/ui/base/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView$2;->enf:Lcom/tencent/mm/ui/base/Jclz;
 
     if-eqz v0, :cond_0
 
     .line 96
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView$2;->enf:Lcom/tencent/mm/ui/base/j;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView$2;->enf:Lcom/tencent/mm/ui/base/Jclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/j;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Jclz;->dismiss()V
 
     .line 97
     :cond_0
@@ -80,7 +80,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/ProfileMobilePhoneView;->hRQ:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -241,7 +241,7 @@
 
     const-string/jumbo v3, ".ui.IPCallTalkUI"
 
-    invoke-static {v1, v2, v3, v0}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {v1, v2, v3, v0}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     goto :goto_2
 

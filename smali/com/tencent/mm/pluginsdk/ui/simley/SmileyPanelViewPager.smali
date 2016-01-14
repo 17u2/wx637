@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/compatible/util/h;->aA(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/tencent/mm/compatible/util/Hclz;->aA(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -78,7 +78,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_1
     return-void
@@ -134,14 +134,14 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 61
     invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/compatible/util/h;->aA(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/tencent/mm/compatible/util/Hclz;->aA(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -191,7 +191,7 @@
 
     aput-object v4, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 66
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
@@ -225,7 +225,7 @@
 
     const-string/jumbo v2, "need deal cache size."
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 70
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;

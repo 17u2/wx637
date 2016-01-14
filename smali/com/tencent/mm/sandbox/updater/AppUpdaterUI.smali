@@ -8,7 +8,7 @@
 
 
 # instance fields
-.field private aoL:Lcom/tencent/mm/ui/base/g;
+.field private aoL:Lcom/tencent/mm/ui/base/Gclz;
 
 .field private cqb:Landroid/widget/Button;
 
@@ -16,9 +16,9 @@
 
 .field private jdg:Landroid/widget/Button;
 
-.field private jdi:Lcom/tencent/mm/sandbox/updater/i;
+.field private jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-.field private jdj:Lcom/tencent/mm/sandbox/updater/f;
+.field private jdj:Lcom/tencent/mm/sandbox/updater/Fclz;
 
 .field private jdk:Landroid/content/DialogInterface$OnClickListener;
 
@@ -37,7 +37,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -53,14 +53,14 @@
     .line 34
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/g;
+    iput-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
     .line 42
     new-instance v0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$1;
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$1;-><init>(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdj:Lcom/tencent/mm/sandbox/updater/f;
+    iput-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdj:Lcom/tencent/mm/sandbox/updater/Fclz;
 
     .line 285
     new-instance v0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$9;
@@ -80,7 +80,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -101,12 +101,12 @@
 
     .prologue
     .line 31
-    invoke-static {p0, p1}, Lcom/tencent/mm/sandbox/updater/h;->y(Landroid/content/Context;I)V
+    invoke-static {p0, p1}, Lcom/tencent/mm/sandbox/updater/Hclz;->y(Landroid/content/Context;I)V
 
     return-void
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;Lcom/tencent/mm/sandbox/monitor/c;)V
+.method static synthetic a(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;Lcom/tencent/mm/sandbox/monitor/Cclz;)V
     .locals 5
 
     .prologue
@@ -117,7 +117,7 @@
 
     const-string/jumbo v1, "showDownloadFullPackAlert()"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const v0, 0x7f0900c4
 
@@ -125,13 +125,13 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    iget-object v2, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v2, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    iget v2, v2, Lcom/tencent/mm/sandbox/updater/i;->size:I
+    iget v2, v2, Lcom/tencent/mm/sandbox/updater/Iclz;->size:I
 
     int-to-long v2, v2
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->aj(J)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aj(J)Ljava/lang/String;
 
     move-result-object v2
 
@@ -149,9 +149,9 @@
 
     new-instance v2, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$12;
 
-    invoke-direct {v2, p0, p1}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$12;-><init>(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;Lcom/tencent/mm/sandbox/monitor/c;)V
+    invoke-direct {v2, p0, p1}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$12;-><init>(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;Lcom/tencent/mm/sandbox/monitor/Cclz;)V
 
-    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -159,9 +159,9 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$13;-><init>(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/g;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/Gclz;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
 
-    invoke-virtual {v0, v4}, Lcom/tencent/mm/ui/base/g;->setCanceledOnTouchOutside(Z)V
+    invoke-virtual {v0, v4}, Lcom/tencent/mm/ui/base/Gclz;->setCanceledOnTouchOutside(Z)V
 
     return-void
 .end method
@@ -171,9 +171,9 @@
 
     .prologue
     .line 31
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     new-instance v1, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$11;
 
@@ -181,7 +181,7 @@
 
     const-wide/16 v2, 0x12c
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     return-void
 .end method
@@ -220,22 +220,22 @@
 
     .prologue
     .line 453
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->isShowing()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->isShowing()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 454
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->dismiss()V
 
     .line 456
     :cond_0
@@ -245,12 +245,12 @@
     return-void
 .end method
 
-.method static synthetic b(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;)Lcom/tencent/mm/ui/base/g;
+.method static synthetic b(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;)Lcom/tencent/mm/ui/base/Gclz;
     .locals 1
 
     .prologue
     .line 31
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
     return-object v0
 .end method
@@ -264,7 +264,7 @@
 
     const-string/jumbo v1, "showNoSDCardAlert"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const v0, 0x7f09011f
 
@@ -282,7 +282,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$3;-><init>(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;)V
 
-    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -290,7 +290,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$4;-><init>(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/g;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/Gclz;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
 
     return-void
 .end method
@@ -304,7 +304,7 @@
 
     const-string/jumbo v1, "showSDCardFullAlert"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const v0, 0x7f090122
 
@@ -322,7 +322,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$14;-><init>(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;)V
 
-    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -330,17 +330,17 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$2;-><init>(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/g;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/Gclz;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
 
     return-void
 .end method
 
-.method static synthetic e(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;)Lcom/tencent/mm/sandbox/updater/i;
+.method static synthetic e(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;)Lcom/tencent/mm/sandbox/updater/Iclz;
     .locals 1
 
     .prologue
     .line 31
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
     return-object v0
 .end method
@@ -366,11 +366,11 @@
 
     const-string/jumbo v1, "showDownloadCancelAlert"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/sandbox/updater/i;->cXu:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/sandbox/updater/Iclz;->cXu:Z
 
     if-eqz v0, :cond_0
 
@@ -386,44 +386,44 @@
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$6;-><init>(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;)V
 
-    invoke-static {p0, v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/f;->b(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v1, v2, v3}, Lcom/tencent/mm/ui/base/Fclz;->b(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     :goto_0
     return-void
 
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    iget v0, v0, Lcom/tencent/mm/sandbox/updater/i;->jdb:I
+    iget v0, v0, Lcom/tencent/mm/sandbox/updater/Iclz;->jdb:I
 
     if-ne v0, v2, :cond_1
 
     const/4 v0, 0x7
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/sandbox/updater/h;->z(Landroid/content/Context;I)V
+    invoke-static {p0, v0}, Lcom/tencent/mm/sandbox/updater/Hclz;->z(Landroid/content/Context;I)V
 
     :cond_1
     const/4 v0, 0x6
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/sandbox/updater/h;->y(Landroid/content/Context;I)V
+    invoke-static {p0, v0}, Lcom/tencent/mm/sandbox/updater/Hclz;->y(Landroid/content/Context;I)V
 
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
     const/4 v1, 0x2
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sandbox/updater/i;->K(IZ)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sandbox/updater/Iclz;->K(IZ)V
 
     invoke-direct {p0}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aNm()V
 
     goto :goto_0
 .end method
 
-.method static synthetic h(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;)Lcom/tencent/mm/sandbox/updater/f;
+.method static synthetic h(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;)Lcom/tencent/mm/sandbox/updater/Fclz;
     .locals 1
 
     .prologue
     .line 31
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdj:Lcom/tencent/mm/sandbox/updater/f;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdj:Lcom/tencent/mm/sandbox/updater/Fclz;
 
     return-object v0
 .end method
@@ -433,17 +433,17 @@
 
     .prologue
     .line 31
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sandbox/updater/i;->cancel()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sandbox/updater/Iclz;->cancel()V
 
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
     const/4 v1, 0x2
 
     const/4 v2, 0x1
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sandbox/updater/i;->K(IZ)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sandbox/updater/Iclz;->K(IZ)V
 
     invoke-direct {p0}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aNm()V
 
@@ -474,14 +474,14 @@
 
     const-string/jumbo v1, "onCreate"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 150
     invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
 
     move-result v0
 
-    invoke-static {v0, p0}, Lcom/tencent/mm/sandbox/c;->c(ILjava/lang/Object;)V
+    invoke-static {v0, p0}, Lcom/tencent/mm/sandbox/Cclz;->c(ILjava/lang/Object;)V
 
     .line 151
     invoke-static {p0}, Lcom/tencent/mm/ui/MMActivity;->dD(Landroid/content/Context;)Ljava/util/Locale;
@@ -508,7 +508,7 @@
 
     const-string/jumbo v1, "AppInstallerUI is there, finish self"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 155
     invoke-virtual {p0}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->finish()V
@@ -541,14 +541,14 @@
 
     const-string/jumbo v1, "duplicate instance, finish self"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 161
     const-string/jumbo v0, "!32@/B4Tb64lLpIxb8wjt/YBovT6oqBe5bV/"
 
     const-string/jumbo v1, "we already got one instance, does it gonna leak?"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 162
     invoke-virtual {p0}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->finish()V
@@ -565,18 +565,18 @@
     invoke-virtual {p0, v0}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->setContentView(I)V
 
     .line 170
-    sget-object v0, Lcom/tencent/mm/sandbox/updater/i$a;->jev:Lcom/tencent/mm/sandbox/updater/i;
+    sget-object v0, Lcom/tencent/mm/sandbox/updater/Iclz$a;->jev:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    iput-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iput-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
     .line 172
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
     invoke-virtual {p0}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sandbox/updater/i;->F(Landroid/content/Intent;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sandbox/updater/Iclz;->F(Landroid/content/Intent;)Z
 
     move-result v0
 
@@ -588,7 +588,7 @@
 
     const-string/jumbo v1, "updaterManager.handleCommand return false"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 176
     invoke-direct {p0}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aNm()V
@@ -597,16 +597,16 @@
 
     .line 180
     :cond_3
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/sandbox/updater/i;->cXu:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/sandbox/updater/Iclz;->cXu:Z
 
     if-eqz v0, :cond_5
 
     .line 181
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    iget v0, v0, Lcom/tencent/mm/sandbox/updater/i;->jdb:I
+    iget v0, v0, Lcom/tencent/mm/sandbox/updater/Iclz;->jdb:I
 
     if-ne v0, v7, :cond_4
 
@@ -617,7 +617,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/ui/base/f;->aS(Landroid/content/Context;Ljava/lang/String;)Landroid/widget/Toast;
+    invoke-static {p0, v0}, Lcom/tencent/mm/ui/base/Fclz;->aS(Landroid/content/Context;Ljava/lang/String;)Landroid/widget/Toast;
 
     .line 186
     :goto_1
@@ -625,7 +625,7 @@
 
     const-string/jumbo v1, "updaterManager.handleCommand return false become downloading"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 187
     invoke-direct {p0}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aNm()V
@@ -640,19 +640,19 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/ui/base/f;->aS(Landroid/content/Context;Ljava/lang/String;)Landroid/widget/Toast;
+    invoke-static {p0, v0}, Lcom/tencent/mm/ui/base/Fclz;->aS(Landroid/content/Context;Ljava/lang/String;)Landroid/widget/Toast;
 
     goto :goto_1
 
     .line 191
     :cond_5
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdj:Lcom/tencent/mm/sandbox/updater/f;
+    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdj:Lcom/tencent/mm/sandbox/updater/Fclz;
 
     if-eqz v1, :cond_6
 
-    iget-object v2, v0, Lcom/tencent/mm/sandbox/updater/i;->jei:Ljava/util/ArrayList;
+    iget-object v2, v0, Lcom/tencent/mm/sandbox/updater/Iclz;->jei:Ljava/util/ArrayList;
 
     invoke-virtual {v2, v1}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
 
@@ -660,29 +660,29 @@
 
     if-nez v2, :cond_6
 
-    iget-object v0, v0, Lcom/tencent/mm/sandbox/updater/i;->jei:Ljava/util/ArrayList;
+    iget-object v0, v0, Lcom/tencent/mm/sandbox/updater/Iclz;->jei:Ljava/util/ArrayList;
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 193
     :cond_6
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    iget v0, v0, Lcom/tencent/mm/sandbox/updater/i;->jcV:I
+    iget v0, v0, Lcom/tencent/mm/sandbox/updater/Iclz;->jcV:I
 
     const/16 v1, 0x3e7
 
     if-ne v0, v1, :cond_7
 
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/sandbox/updater/i;->jdz:[Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/sandbox/updater/Iclz;->jdz:[Ljava/lang/String;
 
     if-eqz v0, :cond_7
 
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/sandbox/updater/i;->jdz:[Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/sandbox/updater/Iclz;->jdz:[Ljava/lang/String;
 
     array-length v0, v0
 
@@ -693,12 +693,12 @@
 
     const-string/jumbo v1, "into emergency status"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 196
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     new-instance v1, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$7;
 
@@ -706,7 +706,7 @@
 
     const-wide/16 v2, 0x64
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     goto/16 :goto_0
 
@@ -720,9 +720,9 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v2, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v2, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/sandbox/updater/i;->jdz:[Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/sandbox/updater/Iclz;->jdz:[Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -732,35 +732,35 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    new-instance v2, Lcom/tencent/mm/ui/base/g$a;
+    new-instance v2, Lcom/tencent/mm/ui/base/Gclz$a;
 
-    invoke-direct {v2, p0}, Lcom/tencent/mm/ui/base/g$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v2, p0}, Lcom/tencent/mm/ui/base/Gclz$a;-><init>(Landroid/content/Context;)V
 
     const v0, 0x7f0900c1
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/ui/base/g$a;->pO(I)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/ui/base/Gclz$a;->pO(I)Lcom/tencent/mm/ui/base/Gclz$a;
 
-    invoke-virtual {v2, v5}, Lcom/tencent/mm/ui/base/g$a;->gM(Z)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v2, v5}, Lcom/tencent/mm/ui/base/Gclz$a;->gM(Z)Lcom/tencent/mm/ui/base/Gclz$a;
 
     new-instance v0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$8;
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI$8;-><init>(Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;)V
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/ui/base/g$a;->c(Landroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/ui/base/Gclz$a;->c(Landroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Gclz$a;
 
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/sandbox/updater/i;->jem:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/sandbox/updater/Iclz;->jem:Z
 
     if-eqz v0, :cond_8
 
     new-array v0, v3, [Ljava/lang/Object;
 
-    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/sandbox/updater/i;->asj:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/sandbox/updater/Iclz;->asj:Ljava/lang/String;
 
     aput-object v1, v0, v6
 
@@ -772,15 +772,15 @@
 
     aput-object v1, v0, v5
 
-    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/sandbox/updater/i;->jel:Lcom/tencent/mm/b/f$a;
+    iget-object v1, v1, Lcom/tencent/mm/sandbox/updater/Iclz;->jel:Lcom/tencent/mm/b/Fclz$a;
 
-    iget v1, v1, Lcom/tencent/mm/b/f$a;->size:I
+    iget v1, v1, Lcom/tencent/mm/b/Fclz$a;->size:I
 
     int-to-long v3, v1
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/bc;->aj(J)Ljava/lang/String;
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aj(J)Ljava/lang/String;
 
     move-result-object v1
 
@@ -791,70 +791,70 @@
     move-result-object v0
 
     :goto_2
-    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    iget v1, v1, Lcom/tencent/mm/sandbox/updater/i;->jcV:I
+    iget v1, v1, Lcom/tencent/mm/sandbox/updater/Iclz;->jcV:I
 
     if-eq v1, v5, :cond_9
 
     const v1, 0x7f09011d
 
     :goto_3
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/ui/base/g$a;->Em(Ljava/lang/String;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/ui/base/Gclz$a;->Em(Ljava/lang/String;)Lcom/tencent/mm/ui/base/Gclz$a;
 
     const v0, 0x7f09011b
 
     iget-object v3, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdd:Landroid/content/DialogInterface$OnClickListener;
 
-    invoke-virtual {v2, v0, v6, v3}, Lcom/tencent/mm/ui/base/g$a;->a(IZLandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v2, v0, v6, v3}, Lcom/tencent/mm/ui/base/Gclz$a;->a(IZLandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz$a;
 
     const/4 v0, 0x0
 
-    invoke-virtual {v2, v1, v0}, Lcom/tencent/mm/ui/base/g$a;->c(ILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v2, v1, v0}, Lcom/tencent/mm/ui/base/Gclz$a;->c(ILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz$a;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/ui/base/g$a;->aVX()Lcom/tencent/mm/ui/base/g;
+    invoke-virtual {v2}, Lcom/tencent/mm/ui/base/Gclz$a;->aVX()Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/g;
+    iput-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
-    invoke-virtual {v0, v6}, Lcom/tencent/mm/ui/base/g;->setCanceledOnTouchOutside(Z)V
+    invoke-virtual {v0, v6}, Lcom/tencent/mm/ui/base/Gclz;->setCanceledOnTouchOutside(Z)V
 
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
     const/4 v1, -0x1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/g;->getButton(I)Landroid/widget/Button;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/Gclz;->getButton(I)Landroid/widget/Button;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdg:Landroid/widget/Button;
 
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
     const/4 v1, -0x2
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/g;->getButton(I)Landroid/widget/Button;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/Gclz;->getButton(I)Landroid/widget/Button;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->cqb:Landroid/widget/Button;
 
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->show()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->show()V
 
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    iget v0, v0, Lcom/tencent/mm/sandbox/updater/i;->jdb:I
+    iget v0, v0, Lcom/tencent/mm/sandbox/updater/Iclz;->jdb:I
 
     if-ne v0, v5, :cond_0
 
     const/4 v0, 0x5
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/sandbox/updater/h;->z(Landroid/content/Context;I)V
+    invoke-static {p0, v0}, Lcom/tencent/mm/sandbox/updater/Hclz;->z(Landroid/content/Context;I)V
 
     goto/16 :goto_0
 
@@ -863,13 +863,13 @@
 
     const-string/jumbo v1, "had try to download full pack."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     new-array v0, v3, [Ljava/lang/Object;
 
-    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/sandbox/updater/i;->asj:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/sandbox/updater/Iclz;->asj:Ljava/lang/String;
 
     aput-object v1, v0, v6
 
@@ -881,13 +881,13 @@
 
     aput-object v1, v0, v5
 
-    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    iget v1, v1, Lcom/tencent/mm/sandbox/updater/i;->size:I
+    iget v1, v1, Lcom/tencent/mm/sandbox/updater/Iclz;->size:I
 
     int-to-long v3, v1
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/bc;->aj(J)Ljava/lang/String;
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aj(J)Ljava/lang/String;
 
     move-result-object v1
 
@@ -914,26 +914,26 @@
 
     const-string/jumbo v1, "onDestroy"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 228
     invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
 
     move-result v0
 
-    invoke-static {v0, p0}, Lcom/tencent/mm/sandbox/c;->d(ILjava/lang/Object;)V
+    invoke-static {v0, p0}, Lcom/tencent/mm/sandbox/Cclz;->d(ILjava/lang/Object;)V
 
     .line 229
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
     if-eqz v0, :cond_0
 
     .line 230
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/i;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdi:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdj:Lcom/tencent/mm/sandbox/updater/f;
+    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/AppUpdaterUI;->jdj:Lcom/tencent/mm/sandbox/updater/Fclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/sandbox/updater/i;->jei:Ljava/util/ArrayList;
+    iget-object v0, v0, Lcom/tencent/mm/sandbox/updater/Iclz;->jei:Ljava/util/ArrayList;
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 

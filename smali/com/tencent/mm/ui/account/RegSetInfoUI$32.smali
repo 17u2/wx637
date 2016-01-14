@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,11 +50,11 @@
     .line 370
     iget-object v0, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI$32;->jFl:Lcom/tencent/mm/ui/account/RegSetInfoUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/account/RegSetInfoUI;->m(Lcom/tencent/mm/ui/account/RegSetInfoUI;)Lcom/tencent/mm/sdk/platformtools/ag;
+    invoke-static {v0}, Lcom/tencent/mm/ui/account/RegSetInfoUI;->m(Lcom/tencent/mm/ui/account/RegSetInfoUI;)Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ag;->aOK()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOK()Z
 
     move-result v0
 
@@ -63,11 +63,11 @@
     .line 371
     iget-object v0, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI$32;->jFl:Lcom/tencent/mm/ui/account/RegSetInfoUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/account/RegSetInfoUI;->m(Lcom/tencent/mm/ui/account/RegSetInfoUI;)Lcom/tencent/mm/sdk/platformtools/ag;
+    invoke-static {v0}, Lcom/tencent/mm/ui/account/RegSetInfoUI;->m(Lcom/tencent/mm/ui/account/RegSetInfoUI;)Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ag;->aOk()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOk()V
 
     .line 373
     :cond_0
@@ -90,7 +90,7 @@
     move-result-object v0
 
     .line 374
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -121,7 +121,7 @@
     .line 377
     iget-object v1, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI$32;->jFl:Lcom/tencent/mm/ui/account/RegSetInfoUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/account/RegSetInfoUI;->u(Lcom/tencent/mm/ui/account/RegSetInfoUI;)Lcom/tencent/mm/ui/base/n;
+    invoke-static {v1}, Lcom/tencent/mm/ui/account/RegSetInfoUI;->u(Lcom/tencent/mm/ui/account/RegSetInfoUI;)Lcom/tencent/mm/ui/base/Nclz;
 
     move-result-object v1
 
@@ -130,16 +130,16 @@
     .line 378
     iget-object v1, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI$32;->jFl:Lcom/tencent/mm/ui/account/RegSetInfoUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/account/RegSetInfoUI;->u(Lcom/tencent/mm/ui/account/RegSetInfoUI;)Lcom/tencent/mm/ui/base/n;
+    invoke-static {v1}, Lcom/tencent/mm/ui/account/RegSetInfoUI;->u(Lcom/tencent/mm/ui/account/RegSetInfoUI;)Lcom/tencent/mm/ui/base/Nclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/base/n;->dismiss()V
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/base/Nclz;->dismiss()V
 
     .line 379
     iget-object v1, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI$32;->jFl:Lcom/tencent/mm/ui/account/RegSetInfoUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/account/RegSetInfoUI;->v(Lcom/tencent/mm/ui/account/RegSetInfoUI;)Lcom/tencent/mm/ui/base/n;
+    invoke-static {v1}, Lcom/tencent/mm/ui/account/RegSetInfoUI;->v(Lcom/tencent/mm/ui/account/RegSetInfoUI;)Lcom/tencent/mm/ui/base/Nclz;
 
     .line 381
     :cond_1
@@ -159,7 +159,7 @@
 
     .line 391
     :cond_2
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -194,13 +194,13 @@
     .line 393
     iget-object v1, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI$32;->jFl:Lcom/tencent/mm/ui/account/RegSetInfoUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/account/RegSetInfoUI;->m(Lcom/tencent/mm/ui/account/RegSetInfoUI;)Lcom/tencent/mm/sdk/platformtools/ag;
+    invoke-static {v1}, Lcom/tencent/mm/ui/account/RegSetInfoUI;->m(Lcom/tencent/mm/ui/account/RegSetInfoUI;)Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     move-result-object v1
 
     const-wide/16 v2, 0x1f4
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     .line 395
     :cond_4

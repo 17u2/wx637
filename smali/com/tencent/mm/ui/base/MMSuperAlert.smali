@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/tencent/mm/ui/base/a;
+.annotation runtime Lcom/tencent/mm/ui/base/Aclz;
     value = 0x3
 .end annotation
 
@@ -21,7 +21,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -77,14 +77,14 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getResources()Landroid/content/res/Resources;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 73
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getResources()Landroid/content/res/Resources;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -150,9 +150,9 @@
     move-result v2
 
     .line 32
-    new-instance v3, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v3, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     new-instance v4, Lcom/tencent/mm/ui/base/MMSuperAlert$1;
 
@@ -160,7 +160,7 @@
 
     const-wide/16 v0, 0x32
 
-    invoke-virtual {v3, v4, v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v3, v4, v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     .line 53
     return-void

@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/ui/chatting/ChatFooterCustom$b;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -29,14 +29,14 @@
     .line 866
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     .line 867
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -44,17 +44,17 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 2
 
     .prologue
     .line 871
-    check-cast p1, Lcom/tencent/mm/d/a/hb;
+    check-cast p1, Lcom/tencent/mm/d/a/HBclz;
 
     .line 872
-    iget-object v0, p1, Lcom/tencent/mm/d/a/hb;->aBL:Lcom/tencent/mm/d/a/hb$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/HBclz;->aBL:Lcom/tencent/mm/d/a/HBclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/hb$a;->aoa:I
+    iget v0, v0, Lcom/tencent/mm/d/a/HBclz$a;->aoa:I
 
     packed-switch v0, :pswitch_data_0
 

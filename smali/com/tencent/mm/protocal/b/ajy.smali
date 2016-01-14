@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/protocal/b/ajy;
-.super Lcom/tencent/mm/aq/a;
+.super Lcom/tencent/mm/aq/Aclz;
 .source "SourceFile"
 
 
@@ -8,7 +8,7 @@
 
 .field private iSv:Z
 
-.field public iSw:Lcom/tencent/mm/aq/b;
+.field public iSw:Lcom/tencent/mm/aq/Bclz;
 
 .field public iSx:Z
 
@@ -19,13 +19,13 @@
 
     .prologue
     .line 12
-    invoke-direct {p0}, Lcom/tencent/mm/aq/a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/aq/Aclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -88,7 +88,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/aq/b;)Lcom/tencent/mm/protocal/b/ajy;
+.method public final a(Lcom/tencent/mm/aq/Bclz;)Lcom/tencent/mm/protocal/b/ajy;
     .locals 1
 
     .prologue
@@ -102,7 +102,7 @@
 
     .line 47
     :cond_0
-    iput-object p1, p0, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/b;
+    iput-object p1, p0, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/Bclz;
 
     .line 48
     const/4 v0, 0x1
@@ -110,9 +110,9 @@
     iput-boolean v0, p0, Lcom/tencent/mm/protocal/b/ajy;->iSx:Z
 
     .line 49
-    iget-object v0, p0, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/b;
+    iget-object v0, p0, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/Bclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/aq/b;->ihc:[B
+    iget-object v0, v0, Lcom/tencent/mm/aq/Bclz;->ihc:[B
 
     array-length v0, v0
 
@@ -140,16 +140,16 @@
 
     const/4 v0, 0x2
 
-    iget-object v1, p0, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/b;
+    iget-object v1, p0, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/Bclz;
 
-    invoke-virtual {p1, v0, v1}, La/a/a/c/aclass;->b(ILcom/tencent/mm/aq/b;)V
+    invoke-virtual {p1, v0, v1}, La/a/a/c/aclass;->b(ILcom/tencent/mm/aq/Bclz;)V
 
     .line 115
     :cond_0
     return-void
 .end method
 
-.method public final a(La/a/a/a/aclass;Lcom/tencent/mm/aq/a;I)Z
+.method public final a(La/a/a/a/aclass;Lcom/tencent/mm/aq/Aclz;I)Z
     .locals 2
 
     .prologue
@@ -183,11 +183,11 @@
 
     .line 126
     :pswitch_1
-    invoke-virtual {p1}, La/a/a/a/aclass;->bga()Lcom/tencent/mm/aq/b;
+    invoke-virtual {p1}, La/a/a/a/aclass;->bga()Lcom/tencent/mm/aq/Bclz;
 
     move-result-object v1
 
-    invoke-virtual {p2, v1}, Lcom/tencent/mm/protocal/b/ajy;->a(Lcom/tencent/mm/aq/b;)Lcom/tencent/mm/protocal/b/ajy;
+    invoke-virtual {p2, v1}, Lcom/tencent/mm/protocal/b/ajy;->a(Lcom/tencent/mm/aq/Bclz;)Lcom/tencent/mm/protocal/b/ajy;
 
     goto :goto_0
 
@@ -204,15 +204,15 @@
 
     .prologue
     .line 28
-    invoke-static {p1}, Lcom/tencent/mm/aq/b;->aD([B)Lcom/tencent/mm/aq/b;
+    invoke-static {p1}, Lcom/tencent/mm/aq/Bclz;->aD([B)Lcom/tencent/mm/aq/Bclz;
 
     move-result-object v0
 
     .line 29
-    invoke-virtual {p0, v0}, Lcom/tencent/mm/protocal/b/ajy;->a(Lcom/tencent/mm/aq/b;)Lcom/tencent/mm/protocal/b/ajy;
+    invoke-virtual {p0, v0}, Lcom/tencent/mm/protocal/b/ajy;->a(Lcom/tencent/mm/aq/Bclz;)Lcom/tencent/mm/protocal/b/ajy;
 
     .line 30
-    iget-object v0, v0, Lcom/tencent/mm/aq/b;->ihc:[B
+    iget-object v0, v0, Lcom/tencent/mm/aq/Bclz;->ihc:[B
 
     array-length v0, v0
 
@@ -251,7 +251,7 @@
 
     .line 141
     :cond_0
-    invoke-virtual {p0, v1, p0, v0}, Lcom/tencent/mm/protocal/b/ajy;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/a;I)Z
+    invoke-virtual {p0, v1, p0, v0}, Lcom/tencent/mm/protocal/b/ajy;->a(La/a/a/a/aclass;Lcom/tencent/mm/aq/Aclz;I)Z
 
     move-result v0
 
@@ -279,7 +279,7 @@
     return v0
 .end method
 
-.method public final synthetic ak([B)Lcom/tencent/mm/aq/a;
+.method public final synthetic ak([B)Lcom/tencent/mm/aq/Aclz;
     .locals 1
 
     .prologue
@@ -313,9 +313,9 @@
 
     const/4 v1, 0x2
 
-    iget-object v2, p0, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/b;
+    iget-object v2, p0, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/Bclz;
 
-    invoke-static {v1, v2}, La/a/a/aclass;->a(ILcom/tencent/mm/aq/b;)I
+    invoke-static {v1, v2}, La/a/a/aclass;->a(ILcom/tencent/mm/aq/Bclz;)I
 
     move-result v1
 
@@ -329,7 +329,7 @@
     return v0
 .end method
 
-.method protected final synthetic ky()Lcom/tencent/mm/aq/a;
+.method protected final synthetic ky()Lcom/tencent/mm/aq/Aclz;
     .locals 1
 
     .prologue
@@ -348,15 +348,15 @@
     .line 36
     const/4 v0, 0x0
 
-    invoke-static {p1, v0, p2}, Lcom/tencent/mm/aq/b;->f([BII)Lcom/tencent/mm/aq/b;
+    invoke-static {p1, v0, p2}, Lcom/tencent/mm/aq/Bclz;->f([BII)Lcom/tencent/mm/aq/Bclz;
 
     move-result-object v0
 
     .line 37
-    invoke-virtual {p0, v0}, Lcom/tencent/mm/protocal/b/ajy;->a(Lcom/tencent/mm/aq/b;)Lcom/tencent/mm/protocal/b/ajy;
+    invoke-virtual {p0, v0}, Lcom/tencent/mm/protocal/b/ajy;->a(Lcom/tencent/mm/aq/Bclz;)Lcom/tencent/mm/protocal/b/ajy;
 
     .line 38
-    iget-object v0, v0, Lcom/tencent/mm/aq/b;->ihc:[B
+    iget-object v0, v0, Lcom/tencent/mm/aq/Bclz;->ihc:[B
 
     array-length v0, v0
 
@@ -374,7 +374,7 @@
     invoke-direct {p0}, Lcom/tencent/mm/protocal/b/ajy;->aMS()Lcom/tencent/mm/protocal/b/ajy;
 
     .line 108
-    invoke-super {p0}, Lcom/tencent/mm/aq/a;->toByteArray()[B
+    invoke-super {p0}, Lcom/tencent/mm/aq/Aclz;->toByteArray()[B
 
     move-result-object v0
 
@@ -469,7 +469,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/b;
+    iget-object v1, p0, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/Bclz;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 

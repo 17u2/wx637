@@ -51,7 +51,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -88,7 +88,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {p0, p2, p1, v0, v1}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, p2, p1, v0, v1}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     .line 354
     return-void
@@ -113,7 +113,7 @@
 
     const-string/jumbo v1, "dealWithRefreshTokenFail"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const v0, 0x7f090ad3
 
@@ -172,19 +172,19 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 99
-    new-instance v1, Lcom/tencent/mm/ui/tools/q;
+    new-instance v1, Lcom/tencent/mm/ui/tools/Qclz;
 
-    invoke-direct {v1, v6, v6}, Lcom/tencent/mm/ui/tools/q;-><init>(ZZ)V
+    invoke-direct {v1, v6, v6}, Lcom/tencent/mm/ui/tools/Qclz;-><init>(ZZ)V
 
     .line 100
     new-instance v2, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$1;
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$1;-><init>(Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI;)V
 
-    iput-object v2, v1, Lcom/tencent/mm/ui/tools/q;->kEP:Lcom/tencent/mm/ui/tools/q$b;
+    iput-object v2, v1, Lcom/tencent/mm/ui/tools/Qclz;->kEP:Lcom/tencent/mm/ui/tools/Qclz$b;
 
     .line 131
-    invoke-virtual {p0, v1}, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI;->a(Lcom/tencent/mm/ui/tools/q;)V
+    invoke-virtual {p0, v1}, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI;->a(Lcom/tencent/mm/ui/tools/Qclz;)V
 
     .line 133
     new-instance v1, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$a;
@@ -193,7 +193,7 @@
 
     invoke-direct {v2, p0, v0}, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$3;-><init>(Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI;Landroid/widget/TextView;)V
 
-    invoke-direct {v1, p0, v2}, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$a;-><init>(Landroid/content/Context;Lcom/tencent/mm/ui/i$a;)V
+    invoke-direct {v1, p0, v2}, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$a;-><init>(Landroid/content/Context;Lcom/tencent/mm/ui/Iclz$a;)V
 
     iput-object v1, p0, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI;->cgf:Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$a;
 
@@ -243,7 +243,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 175
     invoke-static {}, Lcom/tencent/mm/model/Hclz;->sr()Z
@@ -281,7 +281,7 @@
 
     check-cast v0, Ljava/lang/Long;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->c(Ljava/lang/Long;)J
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->c(Ljava/lang/Long;)J
 
     move-result-wide v1
 
@@ -302,12 +302,12 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 182
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/bc;->al(J)J
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->al(J)J
 
     move-result-wide v1
 
@@ -324,44 +324,44 @@
     if-lez v1, :cond_0
 
     .line 185
-    new-instance v1, Lcom/tencent/mm/ui/d/a/c;
+    new-instance v1, Lcom/tencent/mm/ui/d/a/Cclz;
 
     const-string/jumbo v2, "290293790992170"
 
-    invoke-direct {v1, v2}, Lcom/tencent/mm/ui/d/a/c;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcom/tencent/mm/ui/d/a/Cclz;-><init>(Ljava/lang/String;)V
 
     .line 186
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/d/a/c;->Fa(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/d/a/Cclz;->Fa(Ljava/lang/String;)V
 
     .line 188
-    new-instance v0, Lcom/tencent/mm/ui/account/h;
+    new-instance v0, Lcom/tencent/mm/ui/account/Hclz;
 
     new-instance v2, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$5;
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$5;-><init>(Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI;)V
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/ui/account/h;-><init>(Lcom/tencent/mm/ui/d/a/c;Lcom/tencent/mm/ui/account/h$a;)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/ui/account/Hclz;-><init>(Lcom/tencent/mm/ui/d/a/Cclz;Lcom/tencent/mm/ui/account/Hclz$a;)V
 
     .line 202
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/account/h;->aVl()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/account/Hclz;->aVl()V
 
     .line 205
     :cond_0
-    new-instance v1, Lcom/tencent/mm/modelfriend/x;
+    new-instance v1, Lcom/tencent/mm/modelfriend/Xclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/modelfriend/x;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/modelfriend/Xclz;-><init>()V
 
     .line 206
-    invoke-virtual {v1}, Lcom/tencent/mm/modelfriend/x;->yH()V
+    invoke-virtual {v1}, Lcom/tencent/mm/modelfriend/Xclz;->yH()V
 
     .line 208
-    new-instance v2, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v2, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     new-instance v0, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$6;
 
-    invoke-direct {v0, p0, v1}, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$6;-><init>(Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI;Lcom/tencent/mm/modelfriend/x;)V
+    invoke-direct {v0, p0, v1}, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$6;-><init>(Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI;Lcom/tencent/mm/modelfriend/Xclz;)V
 
-    invoke-direct {v2, v0, v5}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v2, v0, v5}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
     .line 217
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
@@ -380,7 +380,7 @@
 
     check-cast v0, Ljava/lang/Integer;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->d(Ljava/lang/Integer;)I
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->d(Ljava/lang/Integer;)I
 
     move-result v0
 
@@ -411,9 +411,9 @@
 
     .line 226
     :goto_0
-    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const v3, 0x7f090ad3
 
@@ -427,9 +427,9 @@
 
     new-instance v4, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$7;
 
-    invoke-direct {v4, p0, v2, v1}, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$7;-><init>(Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI;Lcom/tencent/mm/sdk/platformtools/ag;Lcom/tencent/mm/modelfriend/x;)V
+    invoke-direct {v4, p0, v2, v1}, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$7;-><init>(Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI;Lcom/tencent/mm/sdk/platformtools/AGclz;Lcom/tencent/mm/modelfriend/Xclz;)V
 
-    invoke-static {v0, v3, v6, v4}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v0, v3, v6, v4}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
@@ -471,7 +471,7 @@
     :cond_2
     const-wide/16 v3, 0x1388
 
-    invoke-virtual {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     goto :goto_0
 .end method
@@ -519,7 +519,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 366
     invoke-virtual {p4}, Lcom/tencent/mm/q/Jclz;->getType()I
@@ -559,7 +559,7 @@
     if-ne p2, v0, :cond_3
 
     .line 376
-    invoke-static {p3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -588,7 +588,7 @@
     .line 382
     iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI;->cgf:Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$a;
 
-    invoke-virtual {v0, v3, v3}, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/g/i;)V
+    invoke-virtual {v0, v3, v3}, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/g/Iclz;)V
 
     goto :goto_0
 

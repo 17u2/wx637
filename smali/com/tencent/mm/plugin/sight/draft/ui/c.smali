@@ -13,7 +13,7 @@
 
 
 # instance fields
-.field fYo:Lcom/tencent/mm/a/e;
+.field fYo:Lcom/tencent/mm/a/Eclz;
 
 .field fYp:Landroid/graphics/Bitmap;
 
@@ -27,20 +27,20 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 16
-    new-instance v0, Lcom/tencent/mm/a/e;
+    new-instance v0, Lcom/tencent/mm/a/Eclz;
 
     const/16 v1, 0x18
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/a/e;-><init>(I)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/a/Eclz;-><init>(I)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sight/draft/ui/c;->fYo:Lcom/tencent/mm/a/e;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sight/draft/ui/c;->fYo:Lcom/tencent/mm/a/Eclz;
 
     .line 86
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -58,7 +58,7 @@
     .line 53
     const v0, 0x7f07003c
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/d;->oz(I)Landroid/graphics/Bitmap;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/Dclz;->oz(I)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -78,7 +78,7 @@
 
     .prologue
     .line 22
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -96,9 +96,9 @@
 
     .line 25
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/draft/ui/c;->fYo:Lcom/tencent/mm/a/e;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/draft/ui/c;->fYo:Lcom/tencent/mm/a/Eclz;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/a/e;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/a/Eclz;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -134,11 +134,11 @@
     if-eqz p3, :cond_3
 
     .line 35
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/platformtools/ac;->r(Ljava/lang/Runnable;)I
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->r(Ljava/lang/Runnable;)I
 
     .line 43
     :cond_2
@@ -153,9 +153,9 @@
     invoke-virtual {v0}, Lcom/tencent/mm/plugin/sight/draft/ui/c$a;->run()V
 
     .line 38
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/draft/ui/c;->fYo:Lcom/tencent/mm/a/e;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/draft/ui/c;->fYo:Lcom/tencent/mm/a/Eclz;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/a/e;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/a/Eclz;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 

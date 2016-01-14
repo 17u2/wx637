@@ -58,7 +58,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -120,7 +120,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -222,7 +222,7 @@
 
     mul-int/lit8 v5, v5, 0x2
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/at/a;->x(Landroid/content/Context;I)I
+    invoke-static {v4, v5}, Lcom/tencent/mm/at/Aclz;->x(Landroid/content/Context;I)I
 
     move-result v5
 
@@ -268,7 +268,7 @@
 
     aput-object v4, v3, v2
 
-    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 322
     iput p1, p0, Lcom/tencent/mm/ui/base/MMADFlipper;->jLe:I

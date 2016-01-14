@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/search/a/e$b;
-.super Lcom/tencent/mm/modelsearch/m$a;
+.super Lcom/tencent/mm/modelsearch/Mclz$a;
 .source "SourceFile"
 
 
@@ -32,7 +32,7 @@
     .line 1295
     iput-object p1, p0, Lcom/tencent/mm/plugin/search/a/e$b;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/m$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/Mclz$a;-><init>()V
 
     .line 1297
     iput v0, p0, Lcom/tencent/mm/plugin/search/a/e$b;->dzK:I
@@ -44,7 +44,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -61,7 +61,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -86,7 +86,7 @@
 
     const-string/jumbo v3, "Start building chatroom index."
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1304
     new-instance v3, Ljava/util/HashSet;
@@ -100,9 +100,9 @@
 
     const-string/jumbo v4, "SELECT DISTINCT chatroom FROM ChatRoomMembers;"
 
-    iget-object v0, v0, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v0, v0, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
-    invoke-interface {v0, v4, v5}, Lcom/tencent/mm/modelsearch/h;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface {v0, v4, v5}, Lcom/tencent/mm/modelsearch/Hclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -133,9 +133,9 @@
     .line 1315
     iget-object v4, p0, Lcom/tencent/mm/plugin/search/a/e$b;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    iget-object v4, v4, Lcom/tencent/mm/plugin/search/a/e;->bRx:Lcom/tencent/mm/aw/g;
+    iget-object v4, v4, Lcom/tencent/mm/plugin/search/a/e;->bRx:Lcom/tencent/mm/aw/Gclz;
 
-    invoke-virtual {v4, v0, v5}, Lcom/tencent/mm/aw/g;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v4, v0, v5}, Lcom/tencent/mm/aw/Gclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v4
 
@@ -181,7 +181,7 @@
     move-result-object v5
 
     .line 1327
-    sget-object v6, Lcom/tencent/mm/modelsearch/c;->bQT:Ljava/util/regex/Pattern;
+    sget-object v6, Lcom/tencent/mm/modelsearch/Cclz;->bQT:Ljava/util/regex/Pattern;
 
     invoke-interface {v4, v8}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 

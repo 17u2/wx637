@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/ui/tools/q$b;
+.implements Lcom/tencent/mm/ui/tools/Qclz$b;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -84,7 +84,7 @@
     .line 144
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI$2;->kzQ:Lcom/tencent/mm/ui/friend/QQFriendUI;
 
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jW(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jW(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -100,15 +100,15 @@
     .line 146
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI$2;->kzQ:Lcom/tencent/mm/ui/friend/QQFriendUI;
 
-    iget-object v1, v0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/d;
+    iget-object v1, v0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/Dclz;
 
     if-eqz v1, :cond_0
 
-    iget-object v1, v0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/d;
+    iget-object v1, v0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/Dclz;
 
     iget-object v0, v0, Lcom/tencent/mm/ui/friend/QQFriendUI;->cgi:Ljava/lang/String;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/friend/d;->oT(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/friend/Dclz;->oT(Ljava/lang/String;)V
 
     .line 147
     :cond_0

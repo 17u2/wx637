@@ -72,7 +72,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -83,9 +83,9 @@
 
     .prologue
     .line 126
-    iget-object v0, p1, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/d/b/BAclz;->field_content:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/m/a$a;->ds(Ljava/lang/String;)Lcom/tencent/mm/m/a$a;
+    invoke-static {v0}, Lcom/tencent/mm/m/Aclz$a;->ds(Ljava/lang/String;)Lcom/tencent/mm/m/Aclz$a;
 
     move-result-object v1
 
@@ -111,7 +111,7 @@
     iput-object p1, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->aCM:Lcom/tencent/mm/storage/ADclz;
 
     .line 133
-    iput-object v1, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->jZw:Lcom/tencent/mm/m/a$a;
+    iput-object v1, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->jZw:Lcom/tencent/mm/m/Aclz$a;
 
     goto :goto_0
 .end method
@@ -199,9 +199,9 @@
     .line 116
     if-eqz v0, :cond_1
 
-    iget-object v2, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->jZw:Lcom/tencent/mm/m/a$a;
+    iget-object v2, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->jZw:Lcom/tencent/mm/m/Aclz$a;
 
-    iget v2, v2, Lcom/tencent/mm/m/a$a;->type:I
+    iget v2, v2, Lcom/tencent/mm/m/Aclz$a;->type:I
 
     const/4 v3, 0x6
 
@@ -248,7 +248,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 123
     return-void
@@ -283,7 +283,7 @@
 
     const-string/jumbo v1, "start to load"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -317,7 +317,7 @@
 
     const-string/jumbo v1, "stop to load"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -344,7 +344,7 @@
 
     const-string/jumbo v1, "reveive a msg"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 282
     iget-object v0, p2, Lcom/tencent/mm/storage/AEclz$c;->jpn:Ljava/util/ArrayList;
@@ -384,9 +384,9 @@
     .line 286
     if-eqz v0, :cond_0
 
-    iget-object v2, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->jZw:Lcom/tencent/mm/m/a$a;
+    iget-object v2, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->jZw:Lcom/tencent/mm/m/Aclz$a;
 
-    iget v2, v2, Lcom/tencent/mm/m/a$a;->type:I
+    iget v2, v2, Lcom/tencent/mm/m/Aclz$a;->type:I
 
     const/4 v3, 0x6
 

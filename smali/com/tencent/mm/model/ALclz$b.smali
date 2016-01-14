@@ -40,7 +40,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -67,7 +67,7 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/protocal/b/VTclz;-><init>()V
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/protocal/b/VTclz;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/protocal/b/VTclz;->ak([B)Lcom/tencent/mm/aq/Aclz;
 
     move-result-object v0
 

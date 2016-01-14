@@ -23,7 +23,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -43,7 +43,7 @@
 
     .line 250
     :cond_0
-    iget-wide v0, p0, Lcom/tencent/mm/h/a;->boB:J
+    iget-wide v0, p0, Lcom/tencent/mm/h/Aclz;->boB:J
 
     long-to-int v0, v0
 
@@ -63,7 +63,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v1, p0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Sclz;->Cs(Ljava/lang/String;)Lcom/tencent/mm/storage/Rclz;
 
@@ -108,10 +108,10 @@
 
     .prologue
     .line 340
-    iget-object v0, p0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v0, p0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     .line 341
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -962,7 +962,7 @@
 
     .line 91
     :cond_0
-    iget-wide v2, v0, Lcom/tencent/mm/h/a;->boB:J
+    iget-wide v2, v0, Lcom/tencent/mm/h/Aclz;->boB:J
 
     long-to-int v2, v2
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/ui/c;
+.implements Lcom/tencent/mm/ui/Cclz;
 
 
 # annotations
@@ -19,7 +19,7 @@
 
 .field protected hXx:I
 
-.field private jwV:Lcom/tencent/mm/ui/c$a;
+.field private jwV:Lcom/tencent/mm/ui/Cclz$a;
 
 .field private jxA:I
 
@@ -41,7 +41,7 @@
 
 .field protected jxm:Landroid/view/View$OnClickListener;
 
-.field private jxn:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private jxn:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field private jxo:I
 
@@ -98,7 +98,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/LauncherUITabView$2;-><init>(Lcom/tencent/mm/ui/LauncherUITabView;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/LauncherUITabView;->jxn:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/ui/LauncherUITabView;->jxn:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 220
     iput v2, p0, Lcom/tencent/mm/ui/LauncherUITabView;->jxo:I
@@ -126,7 +126,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -173,7 +173,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/LauncherUITabView$2;-><init>(Lcom/tencent/mm/ui/LauncherUITabView;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/LauncherUITabView;->jxn:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/ui/LauncherUITabView;->jxn:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 220
     iput v2, p0, Lcom/tencent/mm/ui/LauncherUITabView;->jxo:I
@@ -201,7 +201,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -247,22 +247,22 @@
     return-wide v0
 .end method
 
-.method static synthetic c(Lcom/tencent/mm/ui/LauncherUITabView;)Lcom/tencent/mm/sdk/platformtools/ab;
+.method static synthetic c(Lcom/tencent/mm/ui/LauncherUITabView;)Lcom/tencent/mm/sdk/platformtools/ABclz;
     .locals 1
 
     .prologue
     .line 26
-    iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUITabView;->jxn:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUITabView;->jxn:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     return-object v0
 .end method
 
-.method static synthetic d(Lcom/tencent/mm/ui/LauncherUITabView;)Lcom/tencent/mm/ui/c$a;
+.method static synthetic d(Lcom/tencent/mm/ui/LauncherUITabView;)Lcom/tencent/mm/ui/Cclz$a;
     .locals 1
 
     .prologue
     .line 26
-    iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUITabView;->jwV:Lcom/tencent/mm/ui/c$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUITabView;->jwV:Lcom/tencent/mm/ui/Cclz$a;
 
     return-object v0
 .end method
@@ -348,7 +348,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v7}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v2, v7}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -760,7 +760,7 @@
 
     aput-object v3, v2, v5
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     sub-int v0, p4, p2
 
@@ -810,7 +810,7 @@
 
     aput-object v0, v4, v6
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     invoke-virtual {p0}, Lcom/tencent/mm/ui/LauncherUITabView;->getContext()Landroid/content/Context;
 
@@ -818,7 +818,7 @@
 
     const/4 v2, 0x3
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v0, v2}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -900,7 +900,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 223
     iput p1, p0, Lcom/tencent/mm/ui/LauncherUITabView;->jxo:I
@@ -1150,12 +1150,12 @@
     goto :goto_0
 .end method
 
-.method public setOnTabClickListener(Lcom/tencent/mm/ui/c$a;)V
+.method public setOnTabClickListener(Lcom/tencent/mm/ui/Cclz$a;)V
     .locals 0
 
     .prologue
     .line 74
-    iput-object p1, p0, Lcom/tencent/mm/ui/LauncherUITabView;->jwV:Lcom/tencent/mm/ui/c$a;
+    iput-object p1, p0, Lcom/tencent/mm/ui/LauncherUITabView;->jwV:Lcom/tencent/mm/ui/Cclz$a;
 
     .line 75
     return-void

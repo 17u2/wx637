@@ -32,7 +32,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -49,7 +49,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -204,16 +204,16 @@
     .line 176
     iget-object v2, v1, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$d;->jZy:Landroid/widget/TextView;
 
-    iget-object v3, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->jZw:Lcom/tencent/mm/m/a$a;
+    iget-object v3, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->jZw:Lcom/tencent/mm/m/Aclz$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/m/a$a;->title:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/m/Aclz$a;->title:Ljava/lang/String;
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 177
     iget-object v2, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->aCM:Lcom/tencent/mm/storage/ADclz;
 
-    iget v2, v2, Lcom/tencent/mm/d/b/ba;->field_isSend:I
+    iget v2, v2, Lcom/tencent/mm/d/b/BAclz;->field_isSend:I
 
     if-ne v2, v9, :cond_1
 
@@ -230,13 +230,13 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    iget-object v6, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->jZw:Lcom/tencent/mm/m/a$a;
+    iget-object v6, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->jZw:Lcom/tencent/mm/m/Aclz$a;
 
-    iget v6, v6, Lcom/tencent/mm/m/a$a;->anX:I
+    iget v6, v6, Lcom/tencent/mm/m/Aclz$a;->anX:I
 
     int-to-long v6, v6
 
-    invoke-static {v6, v7}, Lcom/tencent/mm/sdk/platformtools/bc;->aj(J)Ljava/lang/String;
+    invoke-static {v6, v7}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aj(J)Ljava/lang/String;
 
     move-result-object v6
 
@@ -257,7 +257,7 @@
 
     iget-object v4, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->aCM:Lcom/tencent/mm/storage/ADclz;
 
-    iget-wide v4, v4, Lcom/tencent/mm/d/b/ba;->field_createTime:J
+    iget-wide v4, v4, Lcom/tencent/mm/d/b/BAclz;->field_createTime:J
 
     invoke-static {v3, v4, v5, v9}, Lcom/tencent/mm/pluginsdk/g/n;->b(Landroid/content/Context;JZ)Ljava/lang/CharSequence;
 
@@ -268,9 +268,9 @@
     .line 187
     iget-object v1, v1, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$d;->jZx:Lcom/tencent/mm/ui/MMImageView;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->jZw:Lcom/tencent/mm/m/a$a;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->jZw:Lcom/tencent/mm/m/Aclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/m/a$a;->anY:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/m/Aclz$a;->anY:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/n;->xA(Ljava/lang/String;)I
 
@@ -295,9 +295,9 @@
 
     .line 181
     :cond_1
-    iget-object v2, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->jZw:Lcom/tencent/mm/m/a$a;
+    iget-object v2, v0, Lcom/tencent/mm/ui/chatting/AppAttachFileListUI$c;->jZw:Lcom/tencent/mm/m/Aclz$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/m/a$a;->bqj:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/m/Aclz$a;->bqj:Ljava/lang/String;
 
     invoke-static {v2}, Lcom/tencent/mm/model/Iclz;->dR(Ljava/lang/String;)Ljava/lang/String;
 

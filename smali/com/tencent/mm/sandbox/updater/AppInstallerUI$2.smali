@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -54,7 +54,7 @@
 
     const-string/jumbo v1, "getBtn (ok button) is click"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 130
     iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppInstallerUI$2;->jde:Lcom/tencent/mm/sandbox/updater/AppInstallerUI;
@@ -72,7 +72,7 @@
 
     const/4 v1, 0x3
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sandbox/updater/h;->z(Landroid/content/Context;I)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sandbox/updater/Hclz;->z(Landroid/content/Context;I)V
 
     .line 135
     :cond_0
@@ -82,22 +82,22 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sandbox/monitor/c;->rS(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sandbox/monitor/Cclz;->rS(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 137
     const-string/jumbo v1, "!32@/B4Tb64lLpK4dsObr+ZXlbJd1YO/EjJD"
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 139
     if-eqz v0, :cond_1
 
     .line 140
-    sget-object v1, Lcom/tencent/mm/sandbox/updater/i$a;->jev:Lcom/tencent/mm/sandbox/updater/i;
+    sget-object v1, Lcom/tencent/mm/sandbox/updater/Iclz$a;->jev:Lcom/tencent/mm/sandbox/updater/Iclz;
 
-    invoke-virtual {v1, v2, v2}, Lcom/tencent/mm/sandbox/updater/i;->K(IZ)V
+    invoke-virtual {v1, v2, v2}, Lcom/tencent/mm/sandbox/updater/Iclz;->K(IZ)V
 
     .line 141
     iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/AppInstallerUI$2;->jde:Lcom/tencent/mm/sandbox/updater/AppInstallerUI;
@@ -114,7 +114,7 @@
 
     const-string/jumbo v1, "pack not found!"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 145
     iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppInstallerUI$2;->jde:Lcom/tencent/mm/sandbox/updater/AppInstallerUI;
@@ -127,10 +127,10 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/base/f;->aS(Landroid/content/Context;Ljava/lang/String;)Landroid/widget/Toast;
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/base/Fclz;->aS(Landroid/content/Context;Ljava/lang/String;)Landroid/widget/Toast;
 
     .line 146
-    invoke-static {}, Lcom/tencent/mm/sandbox/updater/h;->aNA()V
+    invoke-static {}, Lcom/tencent/mm/sandbox/updater/Hclz;->aNA()V
 
     .line 147
     iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/AppInstallerUI$2;->jde:Lcom/tencent/mm/sandbox/updater/AppInstallerUI;

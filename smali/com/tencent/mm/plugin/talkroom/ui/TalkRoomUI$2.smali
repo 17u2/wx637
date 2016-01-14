@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic gPY:Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;
 
-.field final synthetic gPZ:Lcom/tencent/mm/ui/base/h;
+.field final synthetic gPZ:Lcom/tencent/mm/ui/base/Hclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;Lcom/tencent/mm/ui/base/h;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;Lcom/tencent/mm/ui/base/Hclz;)V
     .locals 1
 
     .prologue
     .line 469
     iput-object p1, p0, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$2;->gPY:Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$2;->gPZ:Lcom/tencent/mm/ui/base/h;
+    iput-object p2, p0, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$2;->gPZ:Lcom/tencent/mm/ui/base/Hclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,9 +52,9 @@
 
     .prologue
     .line 473
-    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$2;->gPZ:Lcom/tencent/mm/ui/base/h;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$2;->gPZ:Lcom/tencent/mm/ui/base/Hclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/h;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Hclz;->dismiss()V
 
     .line 474
     return-void

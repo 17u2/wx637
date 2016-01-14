@@ -27,7 +27,7 @@
 
 .field bBR:Ljava/util/Map;
 
-.field bBS:Lcom/tencent/mm/sdk/platformtools/aq;
+.field bBS:Lcom/tencent/mm/sdk/platformtools/AQclz;
 
 
 # direct methods
@@ -62,13 +62,13 @@
     .line 240
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/s/Rclz$a;->bBS:Lcom/tencent/mm/sdk/platformtools/aq;
+    iput-object v0, p0, Lcom/tencent/mm/s/Rclz$a;->bBS:Lcom/tencent/mm/sdk/platformtools/AQclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -112,7 +112,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/a/f;->m([B)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/a/Fclz;->m([B)Ljava/lang/String;
 
     move-result-object v1
 
@@ -225,7 +225,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/Bitmap;ZF)Landroid/graphics/Bitmap;
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/Bitmap;ZF)Landroid/graphics/Bitmap;
     :try_end_0
     .catch Ljava/lang/OutOfMemoryError; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -284,7 +284,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 408
     invoke-virtual {p2}, Landroid/graphics/Bitmap;->recycle()V

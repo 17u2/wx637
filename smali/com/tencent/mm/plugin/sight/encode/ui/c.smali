@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/sight/encode/ui/c;
-.super Lcom/tencent/mm/ui/contact/n;
+.super Lcom/tencent/mm/ui/contact/Nclz;
 .source "SourceFile"
 
 
@@ -42,13 +42,13 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method public constructor <init>(Lcom/tencent/mm/ui/contact/l;)V
+.method public constructor <init>(Lcom/tencent/mm/ui/contact/Lclz;)V
     .locals 2
 
     .prologue
@@ -59,7 +59,7 @@
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    invoke-direct {p0, p1, v0, v1, v1}, Lcom/tencent/mm/ui/contact/n;-><init>(Lcom/tencent/mm/ui/contact/l;Ljava/util/List;ZZ)V
+    invoke-direct {p0, p1, v0, v1, v1}, Lcom/tencent/mm/ui/contact/Nclz;-><init>(Lcom/tencent/mm/ui/contact/Lclz;Ljava/util/List;ZZ)V
 
     .line 262
     iput-boolean v1, p0, Lcom/tencent/mm/plugin/sight/encode/ui/c;->gbu:Z
@@ -77,7 +77,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -109,7 +109,7 @@
 
     const v1, 0x7f0c00a5
 
-    invoke-static {p0, v1}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {p0, v1}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v1
 
@@ -121,7 +121,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    invoke-static {p0, v3}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {p0, v3}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -129,7 +129,7 @@
 
     move-result v1
 
-    invoke-static {p0, v3}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {p0, v3}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -147,7 +147,7 @@
 
     .prologue
     .line 247
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -173,7 +173,7 @@
 
     .prologue
     .line 251
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -199,7 +199,7 @@
 
     .prologue
     .line 255
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -256,7 +256,7 @@
     goto :goto_0
 .end method
 
-.method protected final iA(I)Lcom/tencent/mm/ui/contact/a/a;
+.method protected final iA(I)Lcom/tencent/mm/ui/contact/a/Aclz;
     .locals 6
 
     .prologue
@@ -299,7 +299,7 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -334,12 +334,12 @@
 
     .line 89
     :goto_1
-    iput-object v0, v1, Lcom/tencent/mm/ui/contact/a/a;->czx:Lcom/tencent/mm/storage/Kclz;
+    iput-object v0, v1, Lcom/tencent/mm/ui/contact/a/Aclz;->czx:Lcom/tencent/mm/storage/Kclz;
 
     .line 90
     iget-boolean v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/c;->gbu:Z
 
-    iput-boolean v0, v1, Lcom/tencent/mm/ui/contact/a/a;->ksV:Z
+    iput-boolean v0, v1, Lcom/tencent/mm/ui/contact/a/Aclz;->ksV:Z
 
     move-object v0, v1
 

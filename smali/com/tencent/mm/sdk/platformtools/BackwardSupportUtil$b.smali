@@ -67,7 +67,7 @@
     mul-float/2addr v0, p1
 
     .line 63
-    invoke-static {p0, p1, p2, p3}, Lcom/tencent/mm/sdk/platformtools/d;->a(Ljava/io/InputStream;FII)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1, p2, p3}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Ljava/io/InputStream;FII)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -94,7 +94,7 @@
     mul-float/2addr v0, p1
 
     .line 38
-    invoke-static {p0, p1}, Lcom/tencent/mm/sdk/platformtools/d;->c(Ljava/lang/String;F)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1}, Lcom/tencent/mm/sdk/platformtools/Dclz;->c(Ljava/lang/String;F)Landroid/graphics/Bitmap;
 
     move-result-object v1
 

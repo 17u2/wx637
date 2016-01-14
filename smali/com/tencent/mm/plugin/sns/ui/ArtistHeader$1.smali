@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,7 +50,7 @@
     .line 75
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader$1;->gqn:Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->a(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;)Lcom/tencent/mm/ui/base/h;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->a(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;)Lcom/tencent/mm/ui/base/Hclz;
 
     move-result-object v0
 
@@ -58,11 +58,11 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader$1;->gqn:Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->a(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;)Lcom/tencent/mm/ui/base/h;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->a(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;)Lcom/tencent/mm/ui/base/Hclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/h;->isShowing()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Hclz;->isShowing()Z
 
     move-result v0
 
@@ -105,7 +105,7 @@
     .line 82
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader$1;->gqn:Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;
 
-    new-instance v2, Lcom/tencent/mm/ui/base/h;
+    new-instance v2, Lcom/tencent/mm/ui/base/Hclz;
 
     iget-object v3, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader$1;->gqn:Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;
 
@@ -115,9 +115,9 @@
 
     const v4, 0x7f0d01aa
 
-    invoke-direct {v2, v3, v4}, Lcom/tencent/mm/ui/base/h;-><init>(Landroid/content/Context;I)V
+    invoke-direct {v2, v3, v4}, Lcom/tencent/mm/ui/base/Hclz;-><init>(Landroid/content/Context;I)V
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->a(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;Lcom/tencent/mm/ui/base/h;)Lcom/tencent/mm/ui/base/h;
+    invoke-static {v0, v2}, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->a(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;Lcom/tencent/mm/ui/base/Hclz;)Lcom/tencent/mm/ui/base/Hclz;
 
     .line 84
     new-instance v0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader$1$1;
@@ -129,31 +129,31 @@
     .line 91
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader$1;->gqn:Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->a(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;)Lcom/tencent/mm/ui/base/h;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->a(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;)Lcom/tencent/mm/ui/base/Hclz;
 
     move-result-object v0
 
     const/4 v2, 0x1
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/ui/base/h;->setCanceledOnTouchOutside(Z)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/ui/base/Hclz;->setCanceledOnTouchOutside(Z)V
 
     .line 92
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader$1;->gqn:Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->a(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;)Lcom/tencent/mm/ui/base/h;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->a(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;)Lcom/tencent/mm/ui/base/Hclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/h;->setContentView(Landroid/view/View;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/Hclz;->setContentView(Landroid/view/View;)V
 
     .line 93
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader$1;->gqn:Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->a(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;)Lcom/tencent/mm/ui/base/h;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->a(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;)Lcom/tencent/mm/ui/base/Hclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/h;->show()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Hclz;->show()V
 
     .line 95
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader$1;->gqn:Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;

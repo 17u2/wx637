@@ -18,9 +18,9 @@
 
 .field private hYW:Lcom/tencent/mm/pluginsdk/c/a;
 
-.field private hYX:Lcom/tencent/mm/sdk/g/g$a;
+.field private hYX:Lcom/tencent/mm/sdk/g/Gclz$a;
 
-.field private hYY:Lcom/tencent/mm/sdk/g/g$a;
+.field private hYY:Lcom/tencent/mm/sdk/g/Gclz$a;
 
 .field private final hYZ:Landroid/widget/LinearLayout$LayoutParams;
 
@@ -44,7 +44,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -69,14 +69,14 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView$2;-><init>(Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->hYX:Lcom/tencent/mm/sdk/g/g$a;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->hYX:Lcom/tencent/mm/sdk/g/Gclz$a;
 
     .line 79
     new-instance v0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView$3;
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView$3;-><init>(Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->hYY:Lcom/tencent/mm/sdk/g/g$a;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->hYY:Lcom/tencent/mm/sdk/g/Gclz$a;
 
     .line 89
     new-instance v0, Landroid/widget/LinearLayout$LayoutParams;
@@ -93,13 +93,13 @@
     iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->context:Landroid/content/Context;
 
     .line 57
-    invoke-static {}, Lcom/tencent/mm/aj/l;->CT()Lcom/tencent/mm/aj/g;
+    invoke-static {}, Lcom/tencent/mm/aj/Lclz;->CT()Lcom/tencent/mm/aj/Gclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->hYX:Lcom/tencent/mm/sdk/g/g$a;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->hYX:Lcom/tencent/mm/sdk/g/Gclz$a;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/aj/g;->g(Lcom/tencent/mm/sdk/g/g$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/aj/Gclz;->g(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 
     .line 58
     const-string/jumbo v0, "LBSVerifyStorageNotify"
@@ -109,20 +109,20 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/c/a;)V
 
     .line 60
-    invoke-static {}, Lcom/tencent/mm/aj/l;->CW()Lcom/tencent/mm/aj/k;
+    invoke-static {}, Lcom/tencent/mm/aj/Lclz;->CW()Lcom/tencent/mm/aj/Kclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->hYY:Lcom/tencent/mm/sdk/g/g$a;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->hYY:Lcom/tencent/mm/sdk/g/Gclz$a;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/aj/k;->g(Lcom/tencent/mm/sdk/g/g$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/aj/Kclz;->g(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 
     .line 61
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -148,7 +148,7 @@
 
     const-string/jumbo v1, "updateLbs, id is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -170,7 +170,7 @@
 
     const-string/jumbo v1, "updateLbs fail, sysRowId is invalid"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -207,7 +207,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move-wide v0, v2
 
@@ -230,17 +230,17 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    new-instance v2, Lcom/tencent/mm/aj/h;
+    new-instance v2, Lcom/tencent/mm/aj/Hclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/aj/h;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/aj/Hclz;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/aj/l;->CV()Lcom/tencent/mm/aj/i;
+    invoke-static {}, Lcom/tencent/mm/aj/Lclz;->CV()Lcom/tencent/mm/aj/Iclz;
 
     move-result-object v3
 
-    invoke-virtual {v3, v0, v1, v2}, Lcom/tencent/mm/aj/i;->b(JLcom/tencent/mm/sdk/g/c;)Z
+    invoke-virtual {v3, v0, v1, v2}, Lcom/tencent/mm/aj/Iclz;->b(JLcom/tencent/mm/sdk/g/Cclz;)Z
 
     move-result v3
 
@@ -262,7 +262,7 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -275,7 +275,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/preference/a$a;->aoH:Ljava/lang/String;
 
-    iget-object v1, v2, Lcom/tencent/mm/aj/h;->field_sayhiuser:Ljava/lang/String;
+    iget-object v1, v2, Lcom/tencent/mm/aj/Hclz;->field_sayhiuser:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -288,7 +288,7 @@
 
     const-string/jumbo v1, "updateLbs, other talker, no need to process"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -316,7 +316,7 @@
     :cond_6
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->context:Landroid/content/Context;
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/preference/b;->a(Landroid/content/Context;Lcom/tencent/mm/d/b/ax;)Lcom/tencent/mm/pluginsdk/ui/preference/b;
+    invoke-static {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/preference/b;->a(Landroid/content/Context;Lcom/tencent/mm/d/b/AXclz;)Lcom/tencent/mm/pluginsdk/ui/preference/b;
 
     move-result-object v0
 
@@ -345,7 +345,7 @@
 
     const-string/jumbo v1, "updateFMsg, id is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -367,7 +367,7 @@
 
     const-string/jumbo v1, "updateFMsg fail, sysRowId is invalid"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -404,7 +404,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move-wide v0, v2
 
@@ -427,17 +427,17 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    new-instance v2, Lcom/tencent/mm/aj/f;
+    new-instance v2, Lcom/tencent/mm/aj/Fclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/aj/f;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/aj/Fclz;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/aj/l;->CT()Lcom/tencent/mm/aj/g;
+    invoke-static {}, Lcom/tencent/mm/aj/Lclz;->CT()Lcom/tencent/mm/aj/Gclz;
 
     move-result-object v3
 
-    invoke-virtual {v3, v0, v1, v2}, Lcom/tencent/mm/aj/g;->b(JLcom/tencent/mm/sdk/g/c;)Z
+    invoke-virtual {v3, v0, v1, v2}, Lcom/tencent/mm/aj/Gclz;->b(JLcom/tencent/mm/sdk/g/Cclz;)Z
 
     move-result v3
 
@@ -459,7 +459,7 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -472,7 +472,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/preference/a$a;->aoH:Ljava/lang/String;
 
-    iget-object v1, v2, Lcom/tencent/mm/aj/f;->field_talker:Ljava/lang/String;
+    iget-object v1, v2, Lcom/tencent/mm/aj/Fclz;->field_talker:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -485,7 +485,7 @@
 
     const-string/jumbo v1, "updateFMsg, other talker, no need to process"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -513,7 +513,7 @@
     :cond_6
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->context:Landroid/content/Context;
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/preference/b;->a(Landroid/content/Context;Lcom/tencent/mm/aj/f;)Lcom/tencent/mm/pluginsdk/ui/preference/b;
+    invoke-static {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/preference/b;->a(Landroid/content/Context;Lcom/tencent/mm/aj/Fclz;)Lcom/tencent/mm/pluginsdk/ui/preference/b;
 
     move-result-object v0
 
@@ -542,7 +542,7 @@
 
     const-string/jumbo v1, "updateShake, id is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -564,7 +564,7 @@
 
     const-string/jumbo v1, "updateShake fail, sysRowId is invalid"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -601,7 +601,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move-wide v0, v2
 
@@ -624,17 +624,17 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    new-instance v2, Lcom/tencent/mm/aj/j;
+    new-instance v2, Lcom/tencent/mm/aj/Jclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/aj/j;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/aj/Jclz;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/aj/l;->CW()Lcom/tencent/mm/aj/k;
+    invoke-static {}, Lcom/tencent/mm/aj/Lclz;->CW()Lcom/tencent/mm/aj/Kclz;
 
     move-result-object v3
 
-    invoke-virtual {v3, v0, v1, v2}, Lcom/tencent/mm/aj/k;->b(JLcom/tencent/mm/sdk/g/c;)Z
+    invoke-virtual {v3, v0, v1, v2}, Lcom/tencent/mm/aj/Kclz;->b(JLcom/tencent/mm/sdk/g/Cclz;)Z
 
     move-result v3
 
@@ -656,7 +656,7 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -669,7 +669,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/preference/a$a;->aoH:Ljava/lang/String;
 
-    iget-object v1, v2, Lcom/tencent/mm/aj/j;->field_sayhiuser:Ljava/lang/String;
+    iget-object v1, v2, Lcom/tencent/mm/aj/Jclz;->field_sayhiuser:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -682,7 +682,7 @@
 
     const-string/jumbo v1, "updateShake, other talker, no need to process"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -710,7 +710,7 @@
     :cond_6
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->context:Landroid/content/Context;
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/preference/b;->a(Landroid/content/Context;Lcom/tencent/mm/aj/j;)Lcom/tencent/mm/pluginsdk/ui/preference/b;
+    invoke-static {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/preference/b;->a(Landroid/content/Context;Lcom/tencent/mm/aj/Jclz;)Lcom/tencent/mm/pluginsdk/ui/preference/b;
 
     move-result-object v0
 
@@ -739,7 +739,7 @@
 
     const-string/jumbo v1, "addItem fail, provider is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 229
     :goto_0
@@ -774,7 +774,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -842,7 +842,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -874,7 +874,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 141
     invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->getChildCount()I
@@ -890,7 +890,7 @@
 
     const-string/jumbo v3, "addItem, most 3 FMessageItemView, remove earliest"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 143
     invoke-virtual {p0, v0}, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->removeViewAt(I)V
@@ -908,7 +908,7 @@
 
     const-string/jumbo v3, "addItem, current child count is 0, add two child view"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 148
     new-instance v2, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView$a;
@@ -970,9 +970,9 @@
     .line 157
     if-eqz v2, :cond_5
 
-    iget v2, v2, Lcom/tencent/mm/d/b/o;->field_type:I
+    iget v2, v2, Lcom/tencent/mm/d/b/Oclz;->field_type:I
 
-    invoke-static {v2}, Lcom/tencent/mm/h/a;->cf(I)Z
+    invoke-static {v2}, Lcom/tencent/mm/h/Aclz;->cf(I)Z
 
     move-result v2
 
@@ -998,7 +998,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 159
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->hZa:Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView$a;
@@ -1099,7 +1099,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 163
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->hZa:Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView$a;
@@ -1187,7 +1187,7 @@
     .line 185
     if-eqz v2, :cond_a
 
-    iget-wide v3, v2, Lcom/tencent/mm/h/a;->boB:J
+    iget-wide v3, v2, Lcom/tencent/mm/h/Aclz;->boB:J
 
     long-to-int v3, v3
 
@@ -1208,13 +1208,13 @@
     const/4 v5, 0x0
 
     .line 100
-    invoke-static {}, Lcom/tencent/mm/aj/l;->CT()Lcom/tencent/mm/aj/g;
+    invoke-static {}, Lcom/tencent/mm/aj/Lclz;->CT()Lcom/tencent/mm/aj/Gclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->hYX:Lcom/tencent/mm/sdk/g/g$a;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->hYX:Lcom/tencent/mm/sdk/g/Gclz$a;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/aj/g;->h(Lcom/tencent/mm/sdk/g/g$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/aj/Gclz;->h(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 
     .line 101
     const-string/jumbo v0, "LBSVerifyStorageNotify"
@@ -1224,13 +1224,13 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/c/a;)V
 
     .line 102
-    invoke-static {}, Lcom/tencent/mm/aj/l;->CW()Lcom/tencent/mm/aj/k;
+    invoke-static {}, Lcom/tencent/mm/aj/Lclz;->CW()Lcom/tencent/mm/aj/Kclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->hYY:Lcom/tencent/mm/sdk/g/g$a;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->hYY:Lcom/tencent/mm/sdk/g/Gclz$a;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/aj/k;->h(Lcom/tencent/mm/sdk/g/g$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/aj/Kclz;->h(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 
     .line 104
     invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->getChildCount()I
@@ -1266,21 +1266,21 @@
 
     invoke-virtual {v3, v4, v0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
-    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/preference/a;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/preference/a;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     if-eqz v3, :cond_0
 
-    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/preference/a;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/preference/a;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/ui/base/o;->isShowing()Z
+    invoke-virtual {v3}, Lcom/tencent/mm/ui/base/Oclz;->isShowing()Z
 
     move-result v3
 
     if-eqz v3, :cond_0
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/preference/a;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/preference/a;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/o;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Oclz;->dismiss()V
 
     .line 105
     :cond_0
@@ -1355,7 +1355,7 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 235
     const/4 v3, 0x2
@@ -1379,7 +1379,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 246
     :cond_0

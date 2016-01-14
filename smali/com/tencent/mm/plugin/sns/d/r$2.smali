@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/plugin/sns/d/r;->b(Lcom/tencent/mm/protocal/b/HYclz;Lcom/tencent/mm/sdk/platformtools/ab;)Z
+    value = Lcom/tencent/mm/plugin/sns/d/r;->b(Lcom/tencent/mm/protocal/b/HYclz;Lcom/tencent/mm/sdk/platformtools/ABclz;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic gih:Lcom/tencent/mm/sdk/platformtools/ab;
+.field final synthetic gih:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field final synthetic gii:Lcom/tencent/mm/plugin/sns/d/r;
 
@@ -26,7 +26,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/sns/d/r;Lcom/tencent/mm/protocal/b/anr;Lcom/tencent/mm/sdk/platformtools/ab;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/sns/d/r;Lcom/tencent/mm/protocal/b/anr;Lcom/tencent/mm/sdk/platformtools/ABclz;)V
     .locals 1
 
     .prologue
@@ -35,7 +35,7 @@
 
     iput-object p2, p0, Lcom/tencent/mm/plugin/sns/d/r$2;->gij:Lcom/tencent/mm/protocal/b/anr;
 
-    iput-object p3, p0, Lcom/tencent/mm/plugin/sns/d/r$2;->gih:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object p3, p0, Lcom/tencent/mm/plugin/sns/d/r$2;->gih:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -82,7 +82,7 @@
 
     const-string/jumbo v3, "notify list "
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 359
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/d/r$2;->gij:Lcom/tencent/mm/protocal/b/anr;
@@ -93,11 +93,11 @@
 
     .line 361
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/d/r$2;->gih:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/d/r$2;->gih:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessage(I)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessage(I)Z
 
     .line 362
     return-void

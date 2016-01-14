@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/accountsync/model/a$1;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,19 +42,19 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 6
 
     .prologue
     const/4 v5, 0x0
 
     .line 44
-    instance-of v0, p1, Lcom/tencent/mm/d/a/fk;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/FKclz;
 
     if-eqz v0, :cond_0
 
     .line 45
-    check-cast p1, Lcom/tencent/mm/d/a/fk;
+    check-cast p1, Lcom/tencent/mm/d/a/FKclz;
 
     .line 46
     const-string/jumbo v0, "!44@/B4Tb64lLpLSOpQlr7qYXXoQpg7hlVkB5ZjNi9/Z4vE="
@@ -65,9 +65,9 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/fk;->azz:Lcom/tencent/mm/d/a/fk$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/FKclz;->azz:Lcom/tencent/mm/d/a/FKclz$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/fk$a;->username:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/FKclz$a;->username:Ljava/lang/String;
 
     aput-object v3, v2, v5
 
@@ -83,16 +83,16 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 47
     iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/model/a$1;->cfS:Lcom/tencent/mm/plugin/accountsync/model/a;
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/accountsync/model/a;->cfP:Ljava/util/Set;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/fk;->azz:Lcom/tencent/mm/d/a/fk$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/FKclz;->azz:Lcom/tencent/mm/d/a/FKclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/fk$a;->username:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/FKclz$a;->username:Ljava/lang/String;
 
     invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
@@ -106,18 +106,18 @@
     .line 49
     iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/model/a$1;->cfS:Lcom/tencent/mm/plugin/accountsync/model/a;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/accountsync/model/a;->cfR:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/accountsync/model/a;->cfR:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v5}, Lcom/tencent/mm/sdk/platformtools/ab;->removeMessages(I)V
+    invoke-virtual {v0, v5}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeMessages(I)V
 
     .line 50
     iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/model/a$1;->cfS:Lcom/tencent/mm/plugin/accountsync/model/a;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/accountsync/model/a;->cfR:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/accountsync/model/a;->cfR:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     const-wide/16 v1, 0x2710
 
-    invoke-virtual {v0, v5, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessageDelayed(IJ)Z
+    invoke-virtual {v0, v5, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessageDelayed(IJ)Z
 
     .line 53
     :cond_0

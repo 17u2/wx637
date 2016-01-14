@@ -24,7 +24,7 @@
 
     .prologue
     .line 20
-    invoke-static {}, Lcom/tencent/mm/svg/c$a;->aSp()[I
+    invoke-static {}, Lcom/tencent/mm/svg/Cclz$a;->aSp()[I
 
     move-result-object v0
 
@@ -37,7 +37,7 @@
     :try_start_0
     sget-object v0, Lcom/tencent/mm/svg/code/drawable/actionbar_search_icon2$1;->$SwitchMap$com$tencent$mm$svg$WeChatSVGCode$Command:[I
 
-    sget v1, Lcom/tencent/mm/svg/c$a;->jqT:I
+    sget v1, Lcom/tencent/mm/svg/Cclz$a;->jqT:I
 
     add-int/lit8 v1, v1, -0x1
 
@@ -51,7 +51,7 @@
     :try_start_1
     sget-object v0, Lcom/tencent/mm/svg/code/drawable/actionbar_search_icon2$1;->$SwitchMap$com$tencent$mm$svg$WeChatSVGCode$Command:[I
 
-    sget v1, Lcom/tencent/mm/svg/c$a;->jqU:I
+    sget v1, Lcom/tencent/mm/svg/Cclz$a;->jqU:I
 
     add-int/lit8 v1, v1, -0x1
 
@@ -65,7 +65,7 @@
     :try_start_2
     sget-object v0, Lcom/tencent/mm/svg/code/drawable/actionbar_search_icon2$1;->$SwitchMap$com$tencent$mm$svg$WeChatSVGCode$Command:[I
 
-    sget v1, Lcom/tencent/mm/svg/c$a;->jqV:I
+    sget v1, Lcom/tencent/mm/svg/Cclz$a;->jqV:I
 
     add-int/lit8 v1, v1, -0x1
 
@@ -79,7 +79,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     :goto_2
@@ -92,7 +92,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     goto :goto_2
 

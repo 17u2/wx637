@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/search/ui/a/e;
-.super Lcom/tencent/mm/ui/e/a/a;
+.super Lcom/tencent/mm/ui/e/a/Aclz;
 .source "SourceFile"
 
 
@@ -17,7 +17,7 @@
 
 .field public cEm:Ljava/util/List;
 
-.field public cFi:Lcom/tencent/mm/modelsearch/k$g;
+.field public cFi:Lcom/tencent/mm/modelsearch/Kclz$g;
 
 .field public fKW:I
 
@@ -40,7 +40,7 @@
     .line 130
     const/4 v0, 0x6
 
-    invoke-direct {p0, v0, p1}, Lcom/tencent/mm/ui/e/a/a;-><init>(II)V
+    invoke-direct {p0, v0, p1}, Lcom/tencent/mm/ui/e/a/Aclz;-><init>(II)V
 
     .line 202
     new-instance v0, Lcom/tencent/mm/plugin/search/ui/a/e$b;
@@ -61,7 +61,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -69,7 +69,7 @@
 
 
 # virtual methods
-.method public final Kh()Lcom/tencent/mm/ui/e/a/a$b;
+.method public final Kh()Lcom/tencent/mm/ui/e/a/Aclz$b;
     .locals 1
 
     .prologue
@@ -79,7 +79,7 @@
     return-object v0
 .end method
 
-.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/a$a;)V
+.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/Aclz$a;)V
     .locals 9
 
     .prologue
@@ -95,9 +95,9 @@
     check-cast p2, Lcom/tencent/mm/plugin/search/ui/a/e$a;
 
     .line 136
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/e;->cFi:Lcom/tencent/mm/modelsearch/k$g;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/e;->cFi:Lcom/tencent/mm/modelsearch/Kclz$g;
 
-    iget-object v0, v0, Lcom/tencent/mm/modelsearch/k$g;->bRF:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/modelsearch/Kclz$g;->bRF:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/e;->username:Ljava/lang/String;
 
@@ -121,18 +121,18 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/e;->cCn:Ljava/lang/CharSequence;
 
     .line 138
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/e;->cFi:Lcom/tencent/mm/modelsearch/k$g;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/e;->cFi:Lcom/tencent/mm/modelsearch/Kclz$g;
 
-    iget-object v0, v0, Lcom/tencent/mm/modelsearch/k$g;->userData:Ljava/lang/Object;
+    iget-object v0, v0, Lcom/tencent/mm/modelsearch/Kclz$g;->userData:Ljava/lang/Object;
 
     instance-of v0, v0, Ljava/lang/Integer;
 
     if-eqz v0, :cond_0
 
     .line 139
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/e;->cFi:Lcom/tencent/mm/modelsearch/k$g;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/e;->cFi:Lcom/tencent/mm/modelsearch/Kclz$g;
 
-    iget-object v0, v0, Lcom/tencent/mm/modelsearch/k$g;->userData:Ljava/lang/Object;
+    iget-object v0, v0, Lcom/tencent/mm/modelsearch/Kclz$g;->userData:Ljava/lang/Object;
 
     check-cast v0, Ljava/lang/Integer;
 
@@ -163,18 +163,18 @@
 
     move-result-object v2
 
-    iget-object v3, p0, Lcom/tencent/mm/plugin/search/ui/a/e;->cFi:Lcom/tencent/mm/modelsearch/k$g;
+    iget-object v3, p0, Lcom/tencent/mm/plugin/search/ui/a/e;->cFi:Lcom/tencent/mm/modelsearch/Kclz$g;
 
-    iget-wide v3, v3, Lcom/tencent/mm/modelsearch/k$g;->bRE:J
+    iget-wide v3, v3, Lcom/tencent/mm/modelsearch/Kclz$g;->bRE:J
 
     invoke-virtual {v2, v3, v4}, Lcom/tencent/mm/storage/AEclz;->dn(J)Lcom/tencent/mm/storage/ADclz;
 
     move-result-object v2
 
     .line 145
-    iget-object v3, p0, Lcom/tencent/mm/plugin/search/ui/a/e;->cFi:Lcom/tencent/mm/modelsearch/k$g;
+    iget-object v3, p0, Lcom/tencent/mm/plugin/search/ui/a/e;->cFi:Lcom/tencent/mm/modelsearch/Kclz$g;
 
-    iget v3, v3, Lcom/tencent/mm/modelsearch/k$g;->bRD:I
+    iget v3, v3, Lcom/tencent/mm/modelsearch/Kclz$g;->bRD:I
 
     packed-switch v3, :pswitch_data_0
 
@@ -188,14 +188,14 @@
     move-result v3
 
     .line 182
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->u(Ljava/lang/CharSequence;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->u(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_9
 
     .line 183
-    sget-object v2, Lcom/tencent/mm/modelsearch/e;->bRh:Landroid/text/TextPaint;
+    sget-object v2, Lcom/tencent/mm/modelsearch/Eclz;->bRh:Landroid/text/TextPaint;
 
     invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
 
@@ -227,7 +227,7 @@
     float-to-int v3, v3
 
     .line 186
-    sget-object v4, Lcom/tencent/mm/modelsearch/e;->bRh:Landroid/text/TextPaint;
+    sget-object v4, Lcom/tencent/mm/modelsearch/Eclz;->bRh:Landroid/text/TextPaint;
 
     sget-object v5, Landroid/text/TextUtils$TruncateAt;->MIDDLE:Landroid/text/TextUtils$TruncateAt;
 
@@ -252,16 +252,16 @@
     .line 189
     iget-object v3, p0, Lcom/tencent/mm/plugin/search/ui/a/e;->cEm:Ljava/util/List;
 
-    sget-object v4, Lcom/tencent/mm/modelsearch/e;->bRh:Landroid/text/TextPaint;
+    sget-object v4, Lcom/tencent/mm/modelsearch/Eclz;->bRh:Landroid/text/TextPaint;
 
     int-to-float v1, v1
 
-    invoke-static {p1, v0, v3, v4, v1}, Lcom/tencent/mm/modelsearch/e;->a(Landroid/content/Context;Ljava/lang/String;Ljava/util/List;Landroid/text/TextPaint;F)Landroid/text/Spannable;
+    invoke-static {p1, v0, v3, v4, v1}, Lcom/tencent/mm/modelsearch/Eclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/util/List;Landroid/text/TextPaint;F)Landroid/text/Spannable;
 
     move-result-object v0
 
     .line 191
-    sget v1, Lcom/tencent/mm/modelsearch/e;->bRg:I
+    sget v1, Lcom/tencent/mm/modelsearch/Eclz;->bRg:I
 
     invoke-static {p1, v0, v1}, Lcom/tencent/mm/plugin/search/ui/a/e;->a(Landroid/content/Context;Landroid/text/Spannable;I)Landroid/text/SpannableString;
 
@@ -270,7 +270,7 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/e;->fKX:Ljava/lang/CharSequence;
 
     .line 192
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->u(Ljava/lang/CharSequence;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->u(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
@@ -303,15 +303,15 @@
 
     .line 147
     :pswitch_0
-    iget-object v0, v2, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
+    iget-object v0, v2, Lcom/tencent/mm/d/b/BAclz;->field_content:Ljava/lang/String;
 
     .line 148
     if-nez v0, :cond_4
 
     .line 149
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/e;->cFi:Lcom/tencent/mm/modelsearch/k$g;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/e;->cFi:Lcom/tencent/mm/modelsearch/Kclz$g;
 
-    iget-object v0, v0, Lcom/tencent/mm/modelsearch/k$g;->content:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/modelsearch/Kclz$g;->content:Ljava/lang/String;
 
     if-nez v0, :cond_5
 
@@ -337,17 +337,17 @@
 
     .line 149
     :cond_5
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/e;->cFi:Lcom/tencent/mm/modelsearch/k$g;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/e;->cFi:Lcom/tencent/mm/modelsearch/Kclz$g;
 
-    iget-object v0, v0, Lcom/tencent/mm/modelsearch/k$g;->content:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/modelsearch/Kclz$g;->content:Ljava/lang/String;
 
     goto :goto_3
 
     .line 157
     :pswitch_1
-    iget-object v1, v2, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
+    iget-object v1, v2, Lcom/tencent/mm/d/b/BAclz;->field_content:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/m/a$a;->ds(Ljava/lang/String;)Lcom/tencent/mm/m/a$a;
+    invoke-static {v1}, Lcom/tencent/mm/m/Aclz$a;->ds(Ljava/lang/String;)Lcom/tencent/mm/m/Aclz$a;
 
     move-result-object v1
 
@@ -355,7 +355,7 @@
     if-eqz v1, :cond_6
 
     .line 159
-    iget-object v0, v1, Lcom/tencent/mm/m/a$a;->title:Ljava/lang/String;
+    iget-object v0, v1, Lcom/tencent/mm/m/Aclz$a;->title:Ljava/lang/String;
 
     .line 161
     :cond_6
@@ -369,9 +369,9 @@
 
     .line 165
     :pswitch_2
-    iget-object v1, v2, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
+    iget-object v1, v2, Lcom/tencent/mm/d/b/BAclz;->field_content:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/m/a$a;->ds(Ljava/lang/String;)Lcom/tencent/mm/m/a$a;
+    invoke-static {v1}, Lcom/tencent/mm/m/Aclz$a;->ds(Ljava/lang/String;)Lcom/tencent/mm/m/Aclz$a;
 
     move-result-object v1
 
@@ -379,7 +379,7 @@
     if-eqz v1, :cond_7
 
     .line 167
-    iget-object v0, v1, Lcom/tencent/mm/m/a$a;->title:Ljava/lang/String;
+    iget-object v0, v1, Lcom/tencent/mm/m/Aclz$a;->title:Ljava/lang/String;
 
     .line 169
     :cond_7
@@ -393,9 +393,9 @@
 
     .line 173
     :pswitch_3
-    iget-object v2, v2, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/d/b/BAclz;->field_content:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/m/a$a;->ds(Ljava/lang/String;)Lcom/tencent/mm/m/a$a;
+    invoke-static {v2}, Lcom/tencent/mm/m/Aclz$a;->ds(Ljava/lang/String;)Lcom/tencent/mm/m/Aclz$a;
 
     move-result-object v2
 
@@ -407,7 +407,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v1, v2, Lcom/tencent/mm/m/a$a;->title:Ljava/lang/String;
+    iget-object v1, v2, Lcom/tencent/mm/m/Aclz$a;->title:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -424,7 +424,7 @@
     move-result-object v1
 
     .line 176
-    iget-object v0, v2, Lcom/tencent/mm/m/a$a;->description:Ljava/lang/String;
+    iget-object v0, v2, Lcom/tencent/mm/m/Aclz$a;->description:Ljava/lang/String;
 
     goto/16 :goto_0
 

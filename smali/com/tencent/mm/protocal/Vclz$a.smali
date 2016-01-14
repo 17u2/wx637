@@ -42,7 +42,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -82,7 +82,7 @@
 
     invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ajy;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->aPg()[B
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aPg()[B
 
     move-result-object v3
 
@@ -104,7 +104,7 @@
     .line 39
     iget-object v0, p0, Lcom/tencent/mm/protocal/Vclz$a;->iis:Lcom/tencent/mm/protocal/b/adj;
 
-    sget v1, Lcom/tencent/mm/sdk/platformtools/f;->jfb:I
+    sget v1, Lcom/tencent/mm/sdk/platformtools/Fclz;->jfb:I
 
     iput v1, v0, Lcom/tencent/mm/protocal/b/adj;->iNC:I
 
@@ -200,7 +200,7 @@
 
     const/4 v0, 0x4
 
-    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/bc;->H([B)Ljava/lang/String;
+    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->H([B)Ljava/lang/String;
 
     move-result-object v2
 
@@ -208,13 +208,13 @@
 
     const/4 v0, 0x5
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->H([B)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->H([B)Ljava/lang/String;
 
     move-result-object v1
 
     aput-object v1, v8, v0
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 57
     new-instance v0, Lcom/tencent/mm/protocal/b/ajy;

@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,13 +52,13 @@
 
     .prologue
     .line 7023
-    invoke-static {}, Lcom/tencent/mm/z/n;->zV()Lcom/tencent/mm/z/b;
+    invoke-static {}, Lcom/tencent/mm/z/Nclz;->zV()Lcom/tencent/mm/z/Bclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$40;->bJE:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/z/b;->hr(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/z/Bclz;->hr(Ljava/lang/String;)V
 
     .line 7024
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$40;->hGQ:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;

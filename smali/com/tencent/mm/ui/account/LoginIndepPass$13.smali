@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,11 +50,11 @@
     .line 247
     iget-object v0, p0, Lcom/tencent/mm/ui/account/LoginIndepPass$13;->jCJ:Lcom/tencent/mm/ui/account/LoginIndepPass;
 
-    invoke-static {}, Lcom/tencent/mm/ui/account/f;->aVj()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/ui/account/Fclz;->aVj()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-static {}, Lcom/tencent/mm/ui/account/f;->aVk()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/ui/account/Fclz;->aVk()Ljava/lang/String;
 
     move-result-object v2
 

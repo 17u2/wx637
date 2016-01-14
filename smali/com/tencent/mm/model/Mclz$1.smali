@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/model/Mclz$1;
-.super Lcom/tencent/mm/sdk/platformtools/ab;
+.super Lcom/tencent/mm/sdk/platformtools/ABclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 134
     iput-object p1, p0, Lcom/tencent/mm/model/Mclz$1;->bta:Lcom/tencent/mm/model/Mclz;
 
-    invoke-direct {p0, p2}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {p0, p2}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -66,7 +66,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/z/p;->Ae()Z
+    invoke-static {}, Lcom/tencent/mm/z/Pclz;->Ae()Z
 
     move-result v1
 
@@ -75,7 +75,7 @@
     .line 142
     iget-object v1, v0, Lcom/tencent/mm/model/Mclz$c;->url:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/z/p;->hI(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/z/Pclz;->hI(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -104,12 +104,12 @@
 
     aput-object v6, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 144
     iget-object v2, v0, Lcom/tencent/mm/model/Mclz$c;->filename:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/d;->Aw(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/Dclz;->Aw(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
@@ -117,7 +117,7 @@
     if-eqz v2, :cond_4
 
     .line 146
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -141,7 +141,7 @@
 
     const-string/jumbo v3, "convert webp to png"
 
-    invoke-static {v1, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 149
     const/16 v1, 0x64
@@ -152,14 +152,14 @@
 
     const/4 v5, 0x1
 
-    invoke-static {v2, v1, v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
+    invoke-static {v2, v1, v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
 
     .line 164
     :cond_0
     :goto_0
     iget-object v1, v0, Lcom/tencent/mm/model/Mclz$c;->filename:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/a/d;->au(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/tencent/mm/a/Dclz;->au(Ljava/lang/String;)I
 
     move-result v1
 
@@ -179,7 +179,7 @@
 
     invoke-direct {v1, p0, v0}, Lcom/tencent/mm/model/Mclz$1$1;-><init>(Lcom/tencent/mm/model/Mclz$1;Lcom/tencent/mm/model/Mclz$c;)V
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
 
     .line 181
     :cond_2
@@ -192,7 +192,7 @@
 
     const-string/jumbo v3, "convert webp to jpg"
 
-    invoke-static {v1, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 152
     const/16 v1, 0x64
@@ -203,7 +203,7 @@
 
     const/4 v5, 0x1
 
-    invoke-static {v2, v1, v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
+    invoke-static {v2, v1, v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -220,13 +220,13 @@
 
     new-array v3, v7, [Ljava/lang/Object;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Throwable;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Throwable;)Ljava/lang/String;
 
     move-result-object v0
 
     aput-object v0, v3, v8
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_1
 
@@ -237,7 +237,7 @@
 
     const-string/jumbo v2, "decode webp picture failed"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 160
     iget-object v1, p0, Lcom/tencent/mm/model/Mclz$1;->bta:Lcom/tencent/mm/model/Mclz;

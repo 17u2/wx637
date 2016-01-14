@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/sns/abtest/a$2;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -22,13 +22,13 @@
     .line 75
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -36,7 +36,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 11
 
     .prologue
@@ -45,22 +45,22 @@
     const/4 v8, 0x0
 
     .line 78
-    instance-of v0, p1, Lcom/tencent/mm/d/a/cg;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/CGclz;
 
     if-eqz v0, :cond_0
 
     .line 79
-    check-cast p1, Lcom/tencent/mm/d/a/cg;
+    check-cast p1, Lcom/tencent/mm/d/a/CGclz;
 
     .line 80
-    iget-object v0, p1, Lcom/tencent/mm/d/a/cg;->auT:Lcom/tencent/mm/d/a/cg$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/CGclz;->auT:Lcom/tencent/mm/d/a/CGclz$a;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/d/a/cg$a;->auV:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/d/a/CGclz$a;->auV:Z
 
     .line 81
-    iget-object v1, p1, Lcom/tencent/mm/d/a/cg;->auT:Lcom/tencent/mm/d/a/cg$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/CGclz;->auT:Lcom/tencent/mm/d/a/CGclz$a;
 
-    iget-wide v1, v1, Lcom/tencent/mm/d/a/cg$a;->auU:J
+    iget-wide v1, v1, Lcom/tencent/mm/d/a/CGclz$a;->auU:J
 
     .line 82
     const-string/jumbo v3, "!56@/B4Tb64lLpJS/0D3j3Gd1bS+8gYCT1QlPdFvFKO+xQxizYRF9hcI0A=="
@@ -85,7 +85,7 @@
 
     aput-object v7, v5, v6
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 83
     cmp-long v3, v1, v9

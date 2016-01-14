@@ -27,9 +27,9 @@
     if-lt v0, v1, :cond_1
 
     .line 178
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/c;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/Cclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/c;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/Cclz;-><init>()V
 
     invoke-virtual {p1}, Landroid/view/animation/Animation;->cancel()V
 
@@ -40,9 +40,9 @@
 
     .line 180
     :cond_1
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/b;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/Bclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/b;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/Bclz;-><init>()V
 
     if-eqz p0, :cond_0
 

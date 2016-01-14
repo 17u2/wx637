@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -77,7 +77,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -111,7 +111,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -177,7 +177,7 @@
 
     int-to-float v1, v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/platformtools/a$a;->a(Landroid/content/Context;F)I
+    invoke-static {v0, v1}, Lcom/tencent/mm/platformtools/Aclz$a;->a(Landroid/content/Context;F)I
 
     move-result v0
 
@@ -190,7 +190,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/platformtools/a$a;->a(Landroid/content/Context;F)I
+    invoke-static {v1, v2}, Lcom/tencent/mm/platformtools/Aclz$a;->a(Landroid/content/Context;F)I
 
     move-result v1
 

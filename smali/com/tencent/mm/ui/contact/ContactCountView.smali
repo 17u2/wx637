@@ -44,7 +44,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -78,7 +78,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -168,7 +168,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/tencent/mm/h/a;->qk()I
+    invoke-static {}, Lcom/tencent/mm/h/Aclz;->qk()I
 
     move-result v6
 
@@ -186,7 +186,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/tencent/mm/h/a;->qn()I
+    invoke-static {}, Lcom/tencent/mm/h/Aclz;->qn()I
 
     move-result v6
 
@@ -204,7 +204,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/tencent/mm/h/a;->ql()I
+    invoke-static {}, Lcom/tencent/mm/h/Aclz;->ql()I
 
     move-result v6
 
@@ -316,11 +316,11 @@
 
     move-result-object v2
 
-    iget-object v0, v3, Lcom/tencent/mm/storage/Qclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v0, v3, Lcom/tencent/mm/storage/Qclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     const/4 v3, 0x0
 
-    invoke-interface {v0, v2, v3}, Lcom/tencent/mm/sdk/g/d;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface {v0, v2, v3}, Lcom/tencent/mm/sdk/g/Dclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v3
 
@@ -349,7 +349,7 @@
 
     aput-object v2, v5, v10
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     iput v0, p0, Lcom/tencent/mm/ui/contact/ContactCountView;->count:I
 
@@ -369,7 +369,7 @@
 
     aput-object v4, v3, v1
 
-    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 68
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ContactCountView;->emb:Landroid/widget/TextView;
@@ -509,7 +509,7 @@
 
     const-string/jumbo v1, "onMeasure"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 46
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ContactCountView;->cJI:Landroid/view/View;

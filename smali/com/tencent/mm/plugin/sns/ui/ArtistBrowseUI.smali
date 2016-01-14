@@ -34,7 +34,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -73,9 +73,9 @@
     move-result v3
 
     .line 85
-    invoke-static {}, Lcom/tencent/mm/af/t;->AM()Lcom/tencent/mm/af/n;
+    invoke-static {}, Lcom/tencent/mm/af/Tclz;->AM()Lcom/tencent/mm/af/Nclz;
 
-    invoke-static {}, Lcom/tencent/mm/af/n;->AJ()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/af/Nclz;->AJ()Ljava/lang/String;
 
     move-result-object v0
 
@@ -204,7 +204,7 @@
 
     const-string/jumbo v1, "dispatchKeyEvent"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 70
     new-instance v0, Landroid/content/Intent;
@@ -274,7 +274,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 179
     const/4 v0, -0x1

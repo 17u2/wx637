@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/storage/Rclz;
-.super Lcom/tencent/mm/i/a;
+.super Lcom/tencent/mm/i/Aclz;
 .source "SourceFile"
 
 # interfaces
@@ -12,14 +12,14 @@
 
     .prologue
     .line 12
-    invoke-direct {p0}, Lcom/tencent/mm/i/a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/i/Aclz;-><init>()V
 
     .line 13
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -30,14 +30,14 @@
 
     .prologue
     .line 9
-    invoke-direct {p0, p1}, Lcom/tencent/mm/i/a;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcom/tencent/mm/i/Aclz;-><init>(Ljava/lang/String;)V
 
     .line 10
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -131,7 +131,7 @@
 
     .prologue
     .line 6
-    iget-object v0, p0, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v0, p0, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -256,12 +256,12 @@
     .line 38
     const-string/jumbo v0, ""
 
-    invoke-super {p0, v0}, Lcom/tencent/mm/i/a;->cb(Ljava/lang/String;)V
+    invoke-super {p0, v0}, Lcom/tencent/mm/i/Aclz;->cb(Ljava/lang/String;)V
 
     .line 39
     const-string/jumbo v0, ""
 
-    invoke-super {p0, v0}, Lcom/tencent/mm/i/a;->cc(Ljava/lang/String;)V
+    invoke-super {p0, v0}, Lcom/tencent/mm/i/Aclz;->cc(Ljava/lang/String;)V
 
     .line 40
     return-void
@@ -272,12 +272,12 @@
 
     .prologue
     .line 17
-    iget v0, p1, Lcom/tencent/mm/d/b/ba;->field_status:I
+    iget v0, p1, Lcom/tencent/mm/d/b/BAclz;->field_status:I
 
     invoke-virtual {p0, v0}, Lcom/tencent/mm/storage/Rclz;->bk(I)V
 
     .line 18
-    iget v0, p1, Lcom/tencent/mm/d/b/ba;->field_isSend:I
+    iget v0, p1, Lcom/tencent/mm/d/b/BAclz;->field_isSend:I
 
     invoke-virtual {p0, v0}, Lcom/tencent/mm/storage/Rclz;->bl(I)V
 
@@ -292,7 +292,7 @@
 
     .line 22
     :goto_0
-    iget-wide v1, p1, Lcom/tencent/mm/d/b/ba;->field_createTime:J
+    iget-wide v1, p1, Lcom/tencent/mm/d/b/BAclz;->field_createTime:J
 
     move-wide v3, v1
 
@@ -323,7 +323,7 @@
 
     .line 22
     :cond_0
-    iget v0, p1, Lcom/tencent/mm/d/b/ba;->field_status:I
+    iget v0, p1, Lcom/tencent/mm/d/b/BAclz;->field_status:I
 
     const/4 v1, 0x1
 
@@ -337,7 +337,7 @@
 
     .line 28
     :cond_1
-    iget-object v0, p1, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/d/b/BAclz;->field_content:Ljava/lang/String;
 
     invoke-virtual {p0, v0}, Lcom/tencent/mm/storage/Rclz;->setContent(Ljava/lang/String;)V
 

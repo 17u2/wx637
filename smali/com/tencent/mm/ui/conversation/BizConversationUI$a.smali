@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/ui/conversation/BizConversationUI$a;
-.super Lcom/tencent/mm/ui/conversation/c;
+.super Lcom/tencent/mm/ui/conversation/Cclz;
 .source "SourceFile"
 
 
@@ -19,12 +19,12 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/ui/i$a;)V
+.method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/ui/Iclz$a;)V
     .locals 1
 
     .prologue
     .line 620
-    invoke-direct {p0, p1, p3}, Lcom/tencent/mm/ui/conversation/c;-><init>(Landroid/content/Context;Lcom/tencent/mm/ui/i$a;)V
+    invoke-direct {p0, p1, p3}, Lcom/tencent/mm/ui/conversation/Cclz;-><init>(Landroid/content/Context;Lcom/tencent/mm/ui/Iclz$a;)V
 
     .line 621
     iput-object p2, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$a;->aBj:Ljava/lang/String;
@@ -34,7 +34,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -68,18 +68,18 @@
     invoke-virtual {p0, v0}, Lcom/tencent/mm/ui/conversation/BizConversationUI$a;->setCursor(Landroid/database/Cursor;)V
 
     .line 627
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$a;->jxQ:Lcom/tencent/mm/ui/i$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$a;->jxQ:Lcom/tencent/mm/ui/Iclz$a;
 
     if-eqz v0, :cond_0
 
     .line 628
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$a;->jxQ:Lcom/tencent/mm/ui/i$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$a;->jxQ:Lcom/tencent/mm/ui/Iclz$a;
 
-    invoke-interface {v0}, Lcom/tencent/mm/ui/i$a;->Fm()V
+    invoke-interface {v0}, Lcom/tencent/mm/ui/Iclz$a;->Fm()V
 
     .line 630
     :cond_0
-    invoke-super {p0}, Lcom/tencent/mm/ui/conversation/c;->notifyDataSetChanged()V
+    invoke-super {p0}, Lcom/tencent/mm/ui/conversation/Cclz;->notifyDataSetChanged()V
 
     .line 631
     return-void

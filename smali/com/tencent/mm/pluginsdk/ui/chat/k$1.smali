@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -54,7 +54,7 @@
 
     const-string/jumbo v1, "onClick send emoji..."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 81
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/k$1;->hXg:Lcom/tencent/mm/pluginsdk/ui/chat/k;
@@ -122,9 +122,9 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/k$1;->hXg:Lcom/tencent/mm/pluginsdk/ui/chat/k;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->hXa:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->hXa:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/n;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Nclz;->dismiss()V
 
     .line 87
     return-void

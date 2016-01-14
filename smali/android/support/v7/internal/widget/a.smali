@@ -30,7 +30,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,7 +48,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -356,7 +356,7 @@
 
     const/4 v1, 0x0
 
-    sget-object v2, Lcom/tencent/mm/a$b;->ActionBar:[I
+    sget-object v2, Lcom/tencent/mm/Aclz$b;->ActionBar:[I
 
     const v3, 0x7f010057
 

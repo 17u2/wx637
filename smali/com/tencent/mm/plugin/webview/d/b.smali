@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -82,7 +82,7 @@
 
     aput-object p6, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 173
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/webview/d/b;->aFw()V
@@ -102,7 +102,7 @@
 
     const-string/jumbo v2, "openFileChooser fail, wvPerm is null"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 177
     invoke-virtual {p0, v0}, Lcom/tencent/mm/plugin/webview/d/b;->l(Landroid/net/Uri;)V
@@ -130,7 +130,7 @@
 
     const-string/jumbo v2, "open file chooser failed, permission fail"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 183
     invoke-virtual {p0, v0}, Lcom/tencent/mm/plugin/webview/d/b;->l(Landroid/net/Uri;)V
@@ -179,7 +179,7 @@
 
     invoke-virtual {v2, v3}, Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
 
-    invoke-static {p5}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -190,7 +190,7 @@
     invoke-virtual {v2, v3}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
     :goto_1
-    invoke-static {p6}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p6}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -226,7 +226,7 @@
 
     const-string/jumbo v0, "android.intent.extra.TITLE"
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v3
 
@@ -357,7 +357,7 @@
     :cond_a
     const/16 v3, 0x10
 
-    invoke-static {v3}, Lcom/tencent/mm/compatible/util/e;->bW(I)Z
+    invoke-static {v3}, Lcom/tencent/mm/compatible/util/Eclz;->bW(I)Z
 
     move-result v3
 
@@ -367,7 +367,7 @@
 
     const-string/jumbo v3, "android API version is below 16."
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     new-array v0, v5, [Landroid/content/Intent;
 

@@ -30,7 +30,7 @@
 
 .field hWQ:Lcom/tencent/mm/pluginsdk/ui/chat/g;
 
-.field hWR:Lcom/tencent/mm/ui/base/n;
+.field hWR:Lcom/tencent/mm/ui/base/Nclz;
 
 .field hWS:Z
 
@@ -86,7 +86,7 @@
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/i;->hWP:Lcom/tencent/mm/pluginsdk/ui/chat/h;
 
     .line 71
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOp()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOp()Ljava/lang/String;
 
     move-result-object v0
 
@@ -122,25 +122,25 @@
 
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/i;->ayG:Landroid/widget/ImageView;
 
-    new-instance v0, Lcom/tencent/mm/ui/base/n;
+    new-instance v0, Lcom/tencent/mm/ui/base/Nclz;
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/i;->cEF:Landroid/view/View;
 
-    invoke-direct {v0, v1, v4, v4, v3}, Lcom/tencent/mm/ui/base/n;-><init>(Landroid/view/View;IIZ)V
+    invoke-direct {v0, v1, v4, v4, v3}, Lcom/tencent/mm/ui/base/Nclz;-><init>(Landroid/view/View;IIZ)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/i;->hWR:Lcom/tencent/mm/ui/base/n;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/i;->hWR:Lcom/tencent/mm/ui/base/Nclz;
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/i;->hWR:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/i;->hWR:Lcom/tencent/mm/ui/base/Nclz;
 
     new-instance v1, Landroid/graphics/drawable/ColorDrawable;
 
     invoke-direct {v1, v5}, Landroid/graphics/drawable/ColorDrawable;-><init>(I)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/n;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/Nclz;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/i;->hWR:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/i;->hWR:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/ui/base/n;->setOutsideTouchable(Z)V
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/ui/base/Nclz;->setOutsideTouchable(Z)V
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/i;->cEF:Landroid/view/View;
 
@@ -155,7 +155,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -185,7 +185,7 @@
 
     const-string/jumbo v2, "because of imageQuery == null"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, v1
 
@@ -231,7 +231,7 @@
 
     const-string/jumbo v2, "because of items == null || items.size() == 0"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, v1
 
@@ -250,7 +250,7 @@
 
     iget-wide v4, v0, Lcom/tencent/mm/pluginsdk/ui/chat/g;->dMg:J
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/bc;->ak(J)J
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ak(J)J
 
     move-result-wide v4
 
@@ -279,7 +279,7 @@
 
     aput-object v0, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     move-object v0, v1
 
@@ -299,7 +299,7 @@
 
     iget-object v4, v0, Lcom/tencent/mm/pluginsdk/ui/chat/g;->hWO:Ljava/lang/String;
 
-    sget-object v5, Lcom/tencent/mm/compatible/util/d;->bnE:Ljava/lang/String;
+    sget-object v5, Lcom/tencent/mm/compatible/util/Dclz;->bnE:Ljava/lang/String;
 
     invoke-virtual {v4, v5}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
@@ -316,7 +316,7 @@
 
     iget-wide v4, v0, Lcom/tencent/mm/pluginsdk/ui/chat/g;->dMg:J
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/bc;->ak(J)J
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ak(J)J
 
     move-result-wide v4
 
@@ -353,7 +353,7 @@
 
     const-string/jumbo v2, "because of recentImage.equals(imageItem.orginalPath)"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, v1
 
@@ -386,7 +386,7 @@
 
     aput-object v0, v6, v7
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     move-object v0, v1
 

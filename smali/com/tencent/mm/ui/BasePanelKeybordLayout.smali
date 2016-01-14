@@ -40,7 +40,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -68,7 +68,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -118,7 +118,7 @@
 
     aput-object v0, v5, v10
 
-    invoke-static {v1, v3, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v3, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 52
     if-ltz v4, :cond_0
@@ -184,11 +184,11 @@
 
     .line 82
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/tencent/mm/compatible/util/h;->av(Landroid/content/Context;)I
+    invoke-static {v3}, Lcom/tencent/mm/compatible/util/Hclz;->av(Landroid/content/Context;)I
 
     move-result v7
 
@@ -197,18 +197,18 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/tencent/mm/compatible/util/h;->ay(Landroid/content/Context;)I
+    invoke-static {v3}, Lcom/tencent/mm/compatible/util/Hclz;->ay(Landroid/content/Context;)I
 
     move-result v3
 
     .line 86
-    invoke-static {}, Lcom/tencent/mm/compatible/util/h;->pd()I
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Hclz;->pd()I
 
     move-result v8
 
     if-lez v8, :cond_3
 
-    invoke-static {}, Lcom/tencent/mm/compatible/util/h;->pd()I
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Hclz;->pd()I
 
     move-result v8
 
@@ -282,7 +282,7 @@
 
     aput-object v3, v8, v2
 
-    invoke-static {v4, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 107
     iput v1, v0, Landroid/widget/LinearLayout$LayoutParams;->height:I

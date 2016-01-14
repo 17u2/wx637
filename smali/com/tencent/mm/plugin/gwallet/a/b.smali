@@ -55,7 +55,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -82,7 +82,7 @@
 
     const-string/jumbo v1, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -106,7 +106,7 @@
 
     const-string/jumbo v1, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -139,7 +139,7 @@
 
     const-string/jumbo v5, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v5, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v4, p0, Lcom/tencent/mm/plugin/gwallet/a/b;->ego:Lcom/a/a/a/a;
 
@@ -179,7 +179,7 @@
 
     const-string/jumbo v6, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v6, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v6, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz v0, :cond_1
 
@@ -199,7 +199,7 @@
 
     const-string/jumbo v2, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v2, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return v0
@@ -285,7 +285,7 @@
 
     const-string/jumbo v5, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v5, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -440,7 +440,7 @@
 
     const-string/jumbo v1, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 605
     const/4 v0, 0x0
@@ -549,7 +549,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 641
     return-void
@@ -562,7 +562,7 @@
     .line 45
     const-string/jumbo v0, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v0, p0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -595,7 +595,7 @@
 
     const-string/jumbo v1, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 111
     new-instance v0, Lcom/tencent/mm/plugin/gwallet/a/b$1;
@@ -718,7 +718,7 @@
 
     const-string/jumbo v3, "query list is empty!"
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 287
     new-instance v0, Lcom/tencent/mm/plugin/gwallet/a/c;
@@ -773,7 +773,7 @@
 
     const-string/jumbo v3, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v3, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 297
     new-instance v0, Landroid/os/Bundle;
@@ -828,7 +828,7 @@
 
     const-string/jumbo v5, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v5, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 305
     if-eqz v3, :cond_2
@@ -838,7 +838,7 @@
 
     const-string/jumbo v4, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 307
     new-instance v0, Lcom/tencent/mm/plugin/gwallet/a/c;
@@ -885,7 +885,7 @@
 
     const-string/jumbo v6, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v6, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v6, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 314
     const-string/jumbo v5, "RESPONSE_CODE"
@@ -933,7 +933,7 @@
     .line 319
     const-string/jumbo v4, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -998,7 +998,7 @@
 
     const-string/jumbo v1, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 184
     const/4 v0, 0x0
@@ -1015,7 +1015,7 @@
 
     const-string/jumbo v1, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 188
     :try_start_0
@@ -1055,7 +1055,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -1092,7 +1092,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 202
     new-instance v0, Ljava/lang/IllegalStateException;

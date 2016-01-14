@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/search/ui/a/g;
-.super Lcom/tencent/mm/ui/e/a/a;
+.super Lcom/tencent/mm/ui/e/a/Aclz;
 .source "SourceFile"
 
 
@@ -42,7 +42,7 @@
     .line 135
     const/16 v0, 0xe
 
-    invoke-direct {p0, v0, p1}, Lcom/tencent/mm/ui/e/a/a;-><init>(II)V
+    invoke-direct {p0, v0, p1}, Lcom/tencent/mm/ui/e/a/Aclz;-><init>(II)V
 
     .line 148
     new-instance v0, Lcom/tencent/mm/plugin/search/ui/a/g$b;
@@ -63,7 +63,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -71,7 +71,7 @@
 
 
 # virtual methods
-.method public final Kh()Lcom/tencent/mm/ui/e/a/a$b;
+.method public final Kh()Lcom/tencent/mm/ui/e/a/Aclz$b;
     .locals 1
 
     .prologue
@@ -81,7 +81,7 @@
     return-object v0
 .end method
 
-.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/a$a;)V
+.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/Aclz$a;)V
     .locals 2
 
     .prologue
@@ -92,7 +92,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->cER:Ljava/util/LinkedList;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/modelsearch/e;->e(Ljava/lang/String;Ljava/util/List;)Landroid/text/Spannable;
+    invoke-static {v0, v1}, Lcom/tencent/mm/modelsearch/Eclz;->e(Ljava/lang/String;Ljava/util/List;)Landroid/text/Spannable;
 
     move-result-object v0
 
@@ -105,7 +105,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->cER:Ljava/util/LinkedList;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/modelsearch/e;->e(Ljava/lang/String;Ljava/util/List;)Landroid/text/Spannable;
+    invoke-static {v0, v1}, Lcom/tencent/mm/modelsearch/Eclz;->e(Ljava/lang/String;Ljava/util/List;)Landroid/text/Spannable;
 
     move-result-object v0
 
@@ -118,7 +118,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/a/g;->cER:Ljava/util/LinkedList;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/modelsearch/e;->e(Ljava/lang/String;Ljava/util/List;)Landroid/text/Spannable;
+    invoke-static {v0, v1}, Lcom/tencent/mm/modelsearch/Eclz;->e(Ljava/lang/String;Ljava/util/List;)Landroid/text/Spannable;
 
     move-result-object v0
 

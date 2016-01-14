@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,13 +48,13 @@
 
     .prologue
     .line 269
-    check-cast p1, Lcom/tencent/mm/modelsearch/k$g;
+    check-cast p1, Lcom/tencent/mm/modelsearch/Kclz$g;
 
-    check-cast p2, Lcom/tencent/mm/modelsearch/k$g;
+    check-cast p2, Lcom/tencent/mm/modelsearch/Kclz$g;
 
-    iget-wide v0, p2, Lcom/tencent/mm/modelsearch/k$g;->timestamp:J
+    iget-wide v0, p2, Lcom/tencent/mm/modelsearch/Kclz$g;->timestamp:J
 
-    iget-wide v2, p1, Lcom/tencent/mm/modelsearch/k$g;->timestamp:J
+    iget-wide v2, p1, Lcom/tencent/mm/modelsearch/Kclz$g;->timestamp:J
 
     cmp-long v0, v0, v2
 
@@ -66,9 +66,9 @@
     return v0
 
     :cond_0
-    iget-wide v0, p2, Lcom/tencent/mm/modelsearch/k$g;->timestamp:J
+    iget-wide v0, p2, Lcom/tencent/mm/modelsearch/Kclz$g;->timestamp:J
 
-    iget-wide v2, p1, Lcom/tencent/mm/modelsearch/k$g;->timestamp:J
+    iget-wide v2, p1, Lcom/tencent/mm/modelsearch/Kclz$g;->timestamp:J
 
     cmp-long v0, v0, v2
 

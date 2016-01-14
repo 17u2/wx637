@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/modelfriend/a$b;
+.implements Lcom/tencent/mm/modelfriend/Aclz$b;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -64,7 +64,7 @@
 
     aput-object v4, v3, v2
 
-    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 77
     if-nez p1, :cond_0
@@ -75,7 +75,7 @@
 
     .line 80
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/modelfriend/m;->ys()Ljava/util/List;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/Mclz;->ys()Ljava/util/List;
 
     move-result-object v0
 
@@ -91,7 +91,7 @@
 
     const-string/jumbo v1, "start to upload mobile list"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 83
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -108,17 +108,17 @@
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     .line 85
-    new-instance v0, Lcom/tencent/mm/modelfriend/ac;
+    new-instance v0, Lcom/tencent/mm/modelfriend/ACclz;
 
-    invoke-static {}, Lcom/tencent/mm/modelfriend/m;->ys()Ljava/util/List;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/Mclz;->ys()Ljava/util/List;
 
     move-result-object v1
 
-    invoke-static {}, Lcom/tencent/mm/modelfriend/m;->yr()Ljava/util/List;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/Mclz;->yr()Ljava/util/List;
 
     move-result-object v2
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/modelfriend/ac;-><init>(Ljava/util/List;Ljava/util/List;)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/modelfriend/ACclz;-><init>(Ljava/util/List;Ljava/util/List;)V
 
     .line 86
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -135,7 +135,7 @@
 
     const-string/jumbo v1, "update mobile friend list"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 89
     iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/model/a$3;->cfS:Lcom/tencent/mm/plugin/accountsync/model/a;
@@ -173,29 +173,29 @@
     aget-object v5, v0, v1
 
     .line 93
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->za()Lcom/tencent/mm/modelfriend/c;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->za()Lcom/tencent/mm/modelfriend/Cclz;
 
     move-result-object v6
 
-    invoke-virtual {v6, v5}, Lcom/tencent/mm/modelfriend/c;->hc(Ljava/lang/String;)Lcom/tencent/mm/modelfriend/b;
+    invoke-virtual {v6, v5}, Lcom/tencent/mm/modelfriend/Cclz;->hc(Ljava/lang/String;)Lcom/tencent/mm/modelfriend/Bclz;
 
     move-result-object v6
 
     .line 94
     if-eqz v6, :cond_2
 
-    invoke-virtual {v6}, Lcom/tencent/mm/modelfriend/b;->xY()Ljava/lang/String;
+    invoke-virtual {v6}, Lcom/tencent/mm/modelfriend/Bclz;->xY()Ljava/lang/String;
 
     move-result-object v7
 
-    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v7
 
     if-nez v7, :cond_2
 
     .line 95
-    invoke-virtual {v6}, Lcom/tencent/mm/modelfriend/b;->xY()Ljava/lang/String;
+    invoke-virtual {v6}, Lcom/tencent/mm/modelfriend/Bclz;->xY()Ljava/lang/String;
 
     move-result-object v7
 
@@ -210,7 +210,7 @@
 
     new-array v9, v9, [Ljava/lang/Object;
 
-    invoke-virtual {v6}, Lcom/tencent/mm/modelfriend/b;->xY()Ljava/lang/String;
+    invoke-virtual {v6}, Lcom/tencent/mm/modelfriend/Bclz;->xY()Ljava/lang/String;
 
     move-result-object v6
 
@@ -218,7 +218,7 @@
 
     aput-object v5, v9, v10
 
-    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 92
     :goto_2
@@ -236,7 +236,7 @@
 
     aput-object v5, v8, v2
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_2
 
@@ -264,12 +264,12 @@
 
     const-string/jumbo v1, "sync mobile list is zero"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 104
-    new-instance v0, Lcom/tencent/mm/modelfriend/x;
+    new-instance v0, Lcom/tencent/mm/modelfriend/Xclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/modelfriend/x;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/modelfriend/Xclz;-><init>()V
 
     .line 105
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -298,14 +298,14 @@
 
     aput-object v5, v4, v2
 
-    invoke-static {v0, v1, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 108
-    new-instance v0, Lcom/tencent/mm/modelfriend/x;
+    new-instance v0, Lcom/tencent/mm/modelfriend/Xclz;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v3, v1}, Lcom/tencent/mm/modelfriend/x;-><init>(Ljava/util/List;Ljava/util/List;)V
+    invoke-direct {v0, v3, v1}, Lcom/tencent/mm/modelfriend/Xclz;-><init>(Ljava/util/List;Ljava/util/List;)V
 
     .line 109
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;

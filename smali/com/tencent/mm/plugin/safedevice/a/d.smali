@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/safedevice/a/d;
-.super Lcom/tencent/mm/sdk/g/f;
+.super Lcom/tencent/mm/sdk/g/Fclz;
 .source "SourceFile"
 
 
@@ -8,7 +8,7 @@
 
 
 # instance fields
-.field fxP:Lcom/tencent/mm/aw/g;
+.field fxP:Lcom/tencent/mm/aw/Gclz;
 
 
 # direct methods
@@ -23,11 +23,11 @@
 
     const/4 v1, 0x0
 
-    sget-object v2, Lcom/tencent/mm/plugin/safedevice/a/c;->anZ:Lcom/tencent/mm/sdk/g/c$a;
+    sget-object v2, Lcom/tencent/mm/plugin/safedevice/a/c;->anZ:Lcom/tencent/mm/sdk/g/Cclz$a;
 
     const-string/jumbo v3, "SafeDeviceInfo"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/g/f;->a(Lcom/tencent/mm/sdk/g/c$a;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/g/Fclz;->a(Lcom/tencent/mm/sdk/g/Cclz$a;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -39,37 +39,37 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method public constructor <init>(Lcom/tencent/mm/sdk/g/d;)V
+.method public constructor <init>(Lcom/tencent/mm/sdk/g/Dclz;)V
     .locals 3
 
     .prologue
     const/4 v2, 0x0
 
     .line 20
-    sget-object v0, Lcom/tencent/mm/plugin/safedevice/a/c;->anZ:Lcom/tencent/mm/sdk/g/c$a;
+    sget-object v0, Lcom/tencent/mm/plugin/safedevice/a/c;->anZ:Lcom/tencent/mm/sdk/g/Cclz$a;
 
     const-string/jumbo v1, "SafeDeviceInfo"
 
-    invoke-direct {p0, p1, v0, v1, v2}, Lcom/tencent/mm/sdk/g/f;-><init>(Lcom/tencent/mm/sdk/g/d;Lcom/tencent/mm/sdk/g/c$a;Ljava/lang/String;[Ljava/lang/String;)V
+    invoke-direct {p0, p1, v0, v1, v2}, Lcom/tencent/mm/sdk/g/Fclz;-><init>(Lcom/tencent/mm/sdk/g/Dclz;Lcom/tencent/mm/sdk/g/Cclz$a;Ljava/lang/String;[Ljava/lang/String;)V
 
     .line 17
-    iput-object v2, p0, Lcom/tencent/mm/plugin/safedevice/a/d;->fxP:Lcom/tencent/mm/aw/g;
+    iput-object v2, p0, Lcom/tencent/mm/plugin/safedevice/a/d;->fxP:Lcom/tencent/mm/aw/Gclz;
 
     .line 22
-    instance-of v0, p1, Lcom/tencent/mm/aw/g;
+    instance-of v0, p1, Lcom/tencent/mm/aw/Gclz;
 
     if-eqz v0, :cond_0
 
     .line 23
-    check-cast p1, Lcom/tencent/mm/aw/g;
+    check-cast p1, Lcom/tencent/mm/aw/Gclz;
 
-    iput-object p1, p0, Lcom/tencent/mm/plugin/safedevice/a/d;->fxP:Lcom/tencent/mm/aw/g;
+    iput-object p1, p0, Lcom/tencent/mm/plugin/safedevice/a/d;->fxP:Lcom/tencent/mm/aw/Gclz;
 
     .line 25
     :cond_0
@@ -77,7 +77,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_1
     return-void
@@ -90,21 +90,21 @@
 
     .prologue
     .line 37
-    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/g/f;->a(Lcom/tencent/mm/sdk/g/c;)Z
+    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/g/Fclz;->a(Lcom/tencent/mm/sdk/g/Cclz;)Z
 
     move-result v0
 
     return v0
 .end method
 
-.method public final bridge synthetic a(Lcom/tencent/mm/sdk/g/c;)Z
+.method public final bridge synthetic a(Lcom/tencent/mm/sdk/g/Cclz;)Z
     .locals 1
 
     .prologue
     .line 13
     check-cast p1, Lcom/tencent/mm/plugin/safedevice/a/c;
 
-    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/g/f;->a(Lcom/tencent/mm/sdk/g/c;)Z
+    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/g/Fclz;->a(Lcom/tencent/mm/sdk/g/Cclz;)Z
 
     move-result v0
 
@@ -128,7 +128,7 @@
     if-lez v1, :cond_1
 
     .line 50
-    invoke-super {p0}, Lcom/tencent/mm/sdk/g/f;->CH()Landroid/database/Cursor;
+    invoke-super {p0}, Lcom/tencent/mm/sdk/g/Fclz;->CH()Landroid/database/Cursor;
 
     move-result-object v1
 
@@ -170,14 +170,14 @@
     const-wide/16 v0, 0x0
 
     .line 64
-    iget-object v2, p0, Lcom/tencent/mm/plugin/safedevice/a/d;->fxP:Lcom/tencent/mm/aw/g;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/safedevice/a/d;->fxP:Lcom/tencent/mm/aw/Gclz;
 
     if-eqz v2, :cond_2
 
     .line 65
-    iget-object v0, p0, Lcom/tencent/mm/plugin/safedevice/a/d;->fxP:Lcom/tencent/mm/aw/g;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/safedevice/a/d;->fxP:Lcom/tencent/mm/aw/Gclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/aw/g;->aaZ()J
+    invoke-virtual {v0}, Lcom/tencent/mm/aw/Gclz;->aaZ()J
 
     move-result-wide v0
 
@@ -219,20 +219,20 @@
 
     new-array v4, v4, [Ljava/lang/String;
 
-    invoke-virtual {p0, v0, v4}, Lcom/tencent/mm/plugin/safedevice/a/d;->b(Lcom/tencent/mm/sdk/g/c;[Ljava/lang/String;)Z
+    invoke-virtual {p0, v0, v4}, Lcom/tencent/mm/plugin/safedevice/a/d;->b(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
 
     goto :goto_1
 
     .line 75
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/plugin/safedevice/a/d;->fxP:Lcom/tencent/mm/aw/g;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/safedevice/a/d;->fxP:Lcom/tencent/mm/aw/Gclz;
 
     if-eqz v0, :cond_1
 
     .line 76
-    iget-object v0, p0, Lcom/tencent/mm/plugin/safedevice/a/d;->fxP:Lcom/tencent/mm/aw/g;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/safedevice/a/d;->fxP:Lcom/tencent/mm/aw/Gclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/aw/g;->dv(J)I
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/aw/Gclz;->dv(J)I
 
     .line 79
     :cond_1
@@ -244,14 +244,14 @@
     goto :goto_0
 .end method
 
-.method public final bridge synthetic b(Lcom/tencent/mm/sdk/g/c;)Z
+.method public final bridge synthetic b(Lcom/tencent/mm/sdk/g/Cclz;)Z
     .locals 1
 
     .prologue
     .line 13
     check-cast p1, Lcom/tencent/mm/plugin/safedevice/a/c;
 
-    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/g/f;->b(Lcom/tencent/mm/sdk/g/c;)Z
+    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/g/Fclz;->b(Lcom/tencent/mm/sdk/g/Cclz;)Z
 
     move-result v0
 

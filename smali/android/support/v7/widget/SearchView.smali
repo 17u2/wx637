@@ -124,7 +124,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -401,7 +401,7 @@
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/SearchView$SearchAutoComplete;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
 
     .line 291
-    sget-object v0, Lcom/tencent/mm/a$b;->SearchView:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$b;->SearchView:[I
 
     invoke-virtual {p1, p2, v0, v4, v4}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -476,7 +476,7 @@
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 312
-    sget-object v0, Lcom/tencent/mm/a$b;->View:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$b;->View:[I
 
     invoke-virtual {p1, p2, v0, v4, v4}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -579,7 +579,7 @@
 
     if-nez v0, :cond_5
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_5
     return-void

@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic hHf:Lcom/tencent/mm/d/a/cr;
+.field final synthetic hHf:Lcom/tencent/mm/d/a/CRclz;
 
 .field final synthetic hHg:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$17;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$17;Lcom/tencent/mm/d/a/cr;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$17;Lcom/tencent/mm/d/a/CRclz;)V
     .locals 1
 
     .prologue
     .line 4775
     iput-object p1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$17$1;->hHg:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$17;
 
-    iput-object p2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$17$1;->hHf:Lcom/tencent/mm/d/a/cr;
+    iput-object p2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$17$1;->hHf:Lcom/tencent/mm/d/a/CRclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -70,7 +70,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 4781
     :try_start_0
@@ -105,21 +105,21 @@
 
     invoke-direct {v3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$17$1;->hHf:Lcom/tencent/mm/d/a/cr;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$17$1;->hHf:Lcom/tencent/mm/d/a/CRclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/cr;->avI:Lcom/tencent/mm/d/a/cr$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/CRclz;->avI:Lcom/tencent/mm/d/a/CRclz$b;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/cr$b;->avJ:I
+    iget v0, v0, Lcom/tencent/mm/d/a/CRclz$b;->avJ:I
 
     const/4 v4, 0x2
 
     if-ne v0, v4, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$17$1;->hHf:Lcom/tencent/mm/d/a/cr;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$17$1;->hHf:Lcom/tencent/mm/d/a/CRclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/cr;->avI:Lcom/tencent/mm/d/a/cr$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/CRclz;->avI:Lcom/tencent/mm/d/a/CRclz$b;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/cr$b;->avJ:I
+    iget v0, v0, Lcom/tencent/mm/d/a/CRclz$b;->avJ:I
 
     const/4 v4, 0x3
 
@@ -172,7 +172,7 @@
 
     const-string/jumbo v1, "callback stop record failed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 .end method

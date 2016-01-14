@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/modelcdntran/e$a;
+.implements Lcom/tencent/mm/modelcdntran/Eclz$a;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -82,7 +82,7 @@
 
     aput-object p4, v4, v7
 
-    invoke-static {v1, v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 141
     const/16 v1, -0x520d
@@ -102,7 +102,7 @@
 
     aput-object v4, v0, v3
 
-    invoke-static {v1, v2, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 195
     :cond_0
@@ -133,7 +133,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/ab;->aCM:Lcom/tencent/mm/storage/ADclz;
 
-    iget-wide v4, v2, Lcom/tencent/mm/d/b/ba;->field_msgId:J
+    iget-wide v4, v2, Lcom/tencent/mm/d/b/BAclz;->field_msgId:J
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/model/app/ab$1;->hMh:Lcom/tencent/mm/pluginsdk/model/app/ab;
 
@@ -172,7 +172,7 @@
 
     aput-object v0, v4, v9
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v5
 
@@ -184,11 +184,11 @@
 
     const/4 v0, 0x4
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
-    invoke-static {v5}, Lcom/tencent/mm/modelcdntran/b;->aH(Landroid/content/Context;)I
+    invoke-static {v5}, Lcom/tencent/mm/modelcdntran/Bclz;->aH(Landroid/content/Context;)I
 
     move-result v5
 
@@ -313,7 +313,7 @@
 
     aput-object v6, v4, v5
 
-    invoke-static {v1, v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 160
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/model/app/ab$1;->hMh:Lcom/tencent/mm/pluginsdk/model/app/ab;
@@ -335,7 +335,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/ab;->aCM:Lcom/tencent/mm/storage/ADclz;
 
-    iget-wide v4, v2, Lcom/tencent/mm/d/b/ba;->field_msgId:J
+    iget-wide v4, v2, Lcom/tencent/mm/d/b/BAclz;->field_msgId:J
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/model/app/ab$1;->hMh:Lcom/tencent/mm/pluginsdk/model/app/ab;
 
@@ -376,7 +376,7 @@
 
     aput-object v0, v4, v9
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v5
 
@@ -388,11 +388,11 @@
 
     const/4 v0, 0x4
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
-    invoke-static {v5}, Lcom/tencent/mm/modelcdntran/b;->aH(Landroid/content/Context;)I
+    invoke-static {v5}, Lcom/tencent/mm/modelcdntran/Bclz;->aH(Landroid/content/Context;)I
 
     move-result v5
 
@@ -557,7 +557,7 @@
     if-le v4, v5, :cond_5
 
     :goto_1
-    invoke-static {v1, v2, v0}, Lcom/tencent/mm/sdk/platformtools/af;->j(Ljava/lang/String;Ljava/lang/String;Z)V
+    invoke-static {v1, v2, v0}, Lcom/tencent/mm/sdk/platformtools/AFclz;->j(Ljava/lang/String;Ljava/lang/String;Z)V
 
     .line 177
     :cond_4

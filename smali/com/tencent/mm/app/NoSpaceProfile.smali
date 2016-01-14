@@ -1,5 +1,5 @@
 .class public Lcom/tencent/mm/app/NoSpaceProfile;
-.super Lcom/tencent/mm/compatible/loader/h;
+.super Lcom/tencent/mm/compatible/loader/Hclz;
 .source "SourceFile"
 
 
@@ -17,7 +17,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getPackageName()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getPackageName()Ljava/lang/String;
 
     move-result-object v1
 
@@ -41,7 +41,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,13 +52,13 @@
 
     .prologue
     .line 14
-    invoke-direct {p0}, Lcom/tencent/mm/compatible/loader/h;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/compatible/loader/Hclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -87,7 +87,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/compatible/util/i;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/compatible/util/Iclz;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
 
     .line 22
     invoke-static {}, Lcom/tencent/mm/xlog/Xlog;->init()V
@@ -95,17 +95,17 @@
     .line 24
     sget-object v0, Lcom/tencent/mm/app/NoSpaceProfile;->akQ:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/app/g;->aN(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/app/Gclz;->aN(Ljava/lang/String;)Z
 
     .line 28
-    invoke-static {}, Lcom/tencent/mm/compatible/util/i;->setupBrokenLibraryHandler()V
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Iclz;->setupBrokenLibraryHandler()V
 
     .line 30
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->dD(Landroid/content/Context;)Ljava/util/Locale;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->dD(Landroid/content/Context;)Ljava/util/Locale;
 
     .line 31
     return-void

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/modelfriend/j$a;
+.implements Lcom/tencent/mm/modelfriend/Jclz$a;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -94,11 +94,11 @@
     :goto_0
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactAddUI$5;->kza:Lcom/tencent/mm/ui/friend/FindMContactAddUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->c(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/modelfriend/j;
+    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->c(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/modelfriend/Jclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/j;->yg()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Jclz;->yg()Z
 
     move-result v0
 
@@ -157,11 +157,11 @@
     :goto_1
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactAddUI$5;->kza:Lcom/tencent/mm/ui/friend/FindMContactAddUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->c(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/modelfriend/j;
+    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->c(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/modelfriend/Jclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/j;->getSelectCount()I
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Jclz;->getSelectCount()I
 
     move-result v0
 
@@ -192,11 +192,11 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/friend/FindMContactAddUI$5;->kza:Lcom/tencent/mm/ui/friend/FindMContactAddUI;
 
-    invoke-static {v3}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->c(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/modelfriend/j;
+    invoke-static {v3}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->c(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/modelfriend/Jclz;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/tencent/mm/modelfriend/j;->getSelectCount()I
+    invoke-virtual {v3}, Lcom/tencent/mm/modelfriend/Jclz;->getSelectCount()I
 
     move-result v3
 
@@ -204,11 +204,11 @@
 
     iget-object v5, p0, Lcom/tencent/mm/ui/friend/FindMContactAddUI$5;->kza:Lcom/tencent/mm/ui/friend/FindMContactAddUI;
 
-    invoke-static {v5}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->c(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/modelfriend/j;
+    invoke-static {v5}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->c(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/modelfriend/Jclz;
 
     move-result-object v5
 
-    invoke-virtual {v5}, Lcom/tencent/mm/modelfriend/j;->getSelectCount()I
+    invoke-virtual {v5}, Lcom/tencent/mm/modelfriend/Jclz;->getSelectCount()I
 
     move-result v5
 
@@ -244,11 +244,11 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ui/friend/FindMContactAddUI$5;->kza:Lcom/tencent/mm/ui/friend/FindMContactAddUI;
 
-    invoke-static {v4}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->c(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/modelfriend/j;
+    invoke-static {v4}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->c(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/modelfriend/Jclz;
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lcom/tencent/mm/modelfriend/j;->getCount()I
+    invoke-virtual {v4}, Lcom/tencent/mm/modelfriend/Jclz;->getCount()I
 
     move-result v4
 
@@ -335,11 +335,11 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/friend/FindMContactAddUI$5;->kza:Lcom/tencent/mm/ui/friend/FindMContactAddUI;
 
-    invoke-static {v3}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->c(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/modelfriend/j;
+    invoke-static {v3}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->c(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/modelfriend/Jclz;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/tencent/mm/modelfriend/j;->getCount()I
+    invoke-virtual {v3}, Lcom/tencent/mm/modelfriend/Jclz;->getCount()I
 
     move-result v3
 
@@ -347,11 +347,11 @@
 
     iget-object v5, p0, Lcom/tencent/mm/ui/friend/FindMContactAddUI$5;->kza:Lcom/tencent/mm/ui/friend/FindMContactAddUI;
 
-    invoke-static {v5}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->c(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/modelfriend/j;
+    invoke-static {v5}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->c(Lcom/tencent/mm/ui/friend/FindMContactAddUI;)Lcom/tencent/mm/modelfriend/Jclz;
 
     move-result-object v5
 
-    invoke-virtual {v5}, Lcom/tencent/mm/modelfriend/j;->getCount()I
+    invoke-virtual {v5}, Lcom/tencent/mm/modelfriend/Jclz;->getCount()I
 
     move-result v5
 

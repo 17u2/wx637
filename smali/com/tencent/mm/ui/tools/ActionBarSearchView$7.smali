@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -72,20 +72,20 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 173
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/ActionBarSearchView$7;->kBo:Lcom/tencent/mm/ui/tools/ActionBarSearchView;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->b(Lcom/tencent/mm/ui/tools/ActionBarSearchView;)Lcom/tencent/mm/ui/tools/u;
+    invoke-static {v0}, Lcom/tencent/mm/ui/tools/ActionBarSearchView;->b(Lcom/tencent/mm/ui/tools/ActionBarSearchView;)Lcom/tencent/mm/ui/tools/Uclz;
 
     move-result-object v2
 
-    iget-boolean v0, v2, Lcom/tencent/mm/ui/tools/u;->kFD:Z
+    iget-boolean v0, v2, Lcom/tencent/mm/ui/tools/Uclz;->kFD:Z
 
     if-eqz v0, :cond_0
 
-    iget-object v0, v2, Lcom/tencent/mm/ui/tools/u;->kFB:Ljava/lang/ref/WeakReference;
+    iget-object v0, v2, Lcom/tencent/mm/ui/tools/Uclz;->kFB:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
@@ -122,21 +122,21 @@
 
     if-ne v1, v4, :cond_2
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/ui/tools/u;->ra(I)Lcom/tencent/mm/ui/tools/u$b;
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/ui/tools/Uclz;->ra(I)Lcom/tencent/mm/ui/tools/Uclz$b;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    iget-boolean v2, v1, Lcom/tencent/mm/ui/tools/u$b;->kFM:Z
+    iget-boolean v2, v1, Lcom/tencent/mm/ui/tools/Uclz$b;->kFM:Z
 
     if-eqz v2, :cond_0
 
     invoke-virtual {v0, v3}, Landroid/widget/EditText;->setTextKeepState(Ljava/lang/CharSequence;)V
 
-    iget v2, v1, Lcom/tencent/mm/ui/tools/u$b;->bRl:I
+    iget v2, v1, Lcom/tencent/mm/ui/tools/Uclz$b;->bRl:I
 
-    iget v1, v1, Lcom/tencent/mm/ui/tools/u$b;->length:I
+    iget v1, v1, Lcom/tencent/mm/ui/tools/Uclz$b;->length:I
 
     add-int/2addr v1, v2
 
@@ -145,19 +145,19 @@
     goto :goto_0
 
     :cond_2
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/ui/tools/u;->ra(I)Lcom/tencent/mm/ui/tools/u$b;
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/ui/tools/Uclz;->ra(I)Lcom/tencent/mm/ui/tools/Uclz$b;
 
     move-result-object v5
 
     if-eqz v5, :cond_3
 
-    iget-boolean v6, v5, Lcom/tencent/mm/ui/tools/u$b;->kFM:Z
+    iget-boolean v6, v5, Lcom/tencent/mm/ui/tools/Uclz$b;->kFM:Z
 
     if-eqz v6, :cond_3
 
-    iget v1, v5, Lcom/tencent/mm/ui/tools/u$b;->bRl:I
+    iget v1, v5, Lcom/tencent/mm/ui/tools/Uclz$b;->bRl:I
 
-    iget v5, v5, Lcom/tencent/mm/ui/tools/u$b;->length:I
+    iget v5, v5, Lcom/tencent/mm/ui/tools/Uclz$b;->length:I
 
     add-int/2addr v1, v5
 
@@ -171,17 +171,17 @@
     goto :goto_0
 
     :cond_4
-    invoke-virtual {v2, v4}, Lcom/tencent/mm/ui/tools/u;->ra(I)Lcom/tencent/mm/ui/tools/u$b;
+    invoke-virtual {v2, v4}, Lcom/tencent/mm/ui/tools/Uclz;->ra(I)Lcom/tencent/mm/ui/tools/Uclz$b;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    iget-boolean v4, v2, Lcom/tencent/mm/ui/tools/u$b;->kFM:Z
+    iget-boolean v4, v2, Lcom/tencent/mm/ui/tools/Uclz$b;->kFM:Z
 
     if-eqz v4, :cond_0
 
-    iget v2, v2, Lcom/tencent/mm/ui/tools/u$b;->bRl:I
+    iget v2, v2, Lcom/tencent/mm/ui/tools/Uclz$b;->bRl:I
 
     invoke-virtual {v0, v3}, Landroid/widget/EditText;->setTextKeepState(Ljava/lang/CharSequence;)V
 

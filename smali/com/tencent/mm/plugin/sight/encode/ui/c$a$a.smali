@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/sight/encode/ui/c$a$a;
-.super Lcom/tencent/mm/ui/contact/a/e$a;
+.super Lcom/tencent/mm/ui/contact/a/Eclz$a;
 .source "SourceFile"
 
 
@@ -30,13 +30,13 @@
     .line 105
     iput-object p1, p0, Lcom/tencent/mm/plugin/sight/encode/ui/c$a$a;->gbz:Lcom/tencent/mm/plugin/sight/encode/ui/c$a;
 
-    invoke-direct {p0, p1}, Lcom/tencent/mm/ui/contact/a/e$a;-><init>(Lcom/tencent/mm/ui/contact/a/e;)V
+    invoke-direct {p0, p1}, Lcom/tencent/mm/ui/contact/a/Eclz$a;-><init>(Lcom/tencent/mm/ui/contact/a/Eclz;)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

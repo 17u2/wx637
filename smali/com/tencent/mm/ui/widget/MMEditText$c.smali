@@ -61,7 +61,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -103,7 +103,7 @@
 
     move-result v5
 
-    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/bc;->e(C)Z
+    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->e(C)Z
 
     move-result v5
 
@@ -278,7 +278,7 @@
 
     move-result-object v0
 
-    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 203
     iget-object v0, p0, Lcom/tencent/mm/ui/widget/MMEditText$c;->fig:Landroid/widget/EditText;

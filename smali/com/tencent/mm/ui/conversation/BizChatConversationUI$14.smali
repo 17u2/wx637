@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -59,7 +59,7 @@
 
     const-string/jumbo v1, "bizChatExtension bizChat change"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 993
     invoke-static {}, Lcom/tencent/mm/s/AIclz;->xs()Lcom/tencent/mm/s/Eclz;
@@ -75,13 +75,13 @@
     .line 994
     iget-object v1, p0, Lcom/tencent/mm/ui/conversation/BizChatConversationUI$14;->kvu:Lcom/tencent/mm/ui/conversation/BizChatConversationUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/conversation/BizChatConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizChatConversationUI;)Lcom/tencent/mm/ui/conversation/a;
+    invoke-static {v1}, Lcom/tencent/mm/ui/conversation/BizChatConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizChatConversationUI;)Lcom/tencent/mm/ui/conversation/Aclz;
 
     move-result-object v1
 
     iget-wide v2, v0, Lcom/tencent/mm/s/Dclz;->field_bizChatLocalId:J
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/ui/conversation/a;->dE(J)V
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/ui/conversation/Aclz;->dE(J)V
 
     .line 999
     const-string/jumbo v1, "!44@/B4Tb64lLpKy3Chyc6XXOXXrN+2WuSA5l4/ktVQL7f8="
@@ -102,7 +102,7 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1000
     iget-object v1, v0, Lcom/tencent/mm/s/Dclz;->field_bizChatServId:Ljava/lang/String;

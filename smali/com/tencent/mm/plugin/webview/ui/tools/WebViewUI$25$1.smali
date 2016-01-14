@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,7 +52,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI$25;->hEd:Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;->aa(Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;)Lcom/tencent/mm/ui/base/n;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;->aa(Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;)Lcom/tencent/mm/ui/base/Nclz;
 
     move-result-object v0
 
@@ -62,11 +62,11 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI$25;->hEd:Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;->aa(Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;)Lcom/tencent/mm/ui/base/n;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;->aa(Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;)Lcom/tencent/mm/ui/base/Nclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/n;->isShowing()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Nclz;->isShowing()Z
 
     move-result v0
 
@@ -77,11 +77,11 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI$25;->hEd:Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;->aa(Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;)Lcom/tencent/mm/ui/base/n;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;->aa(Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;)Lcom/tencent/mm/ui/base/Nclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/n;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Nclz;->dismiss()V
 
     .line 4171
     :cond_0

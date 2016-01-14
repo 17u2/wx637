@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -94,7 +94,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     .line 306
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -104,7 +104,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$13$1;-><init>(Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$13;)V
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ap;->a(Landroid/content/Context;ILcom/tencent/mm/sdk/platformtools/ap$a;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/APclz;->a(Landroid/content/Context;ILcom/tencent/mm/sdk/platformtools/APclz$a;)V
 
     .line 313
     iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$13;->gPY:Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;
@@ -123,12 +123,12 @@
 
     const-string/jumbo v1, "micBtn pressed down"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 317
     iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$13;->gPY:Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->Fa()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Fa()J
 
     move-result-wide v1
 
@@ -198,25 +198,25 @@
 
     const-string/jumbo v1, "cancel during seize-success prepare time"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 339
     iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$13;->gPY:Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;->n(Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;)Lcom/tencent/mm/sdk/platformtools/ag;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;->n(Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;)Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ag;->aOk()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOk()V
 
     .line 340
     iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$13;->gPY:Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;->o(Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;)Lcom/tencent/mm/sdk/platformtools/ag;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;->o(Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;)Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ag;->aOk()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOk()V
 
     .line 343
     :cond_1
@@ -243,11 +243,11 @@
     .line 347
     iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$13;->gPY:Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;->p(Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;)Lcom/tencent/mm/sdk/platformtools/ag;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;->p(Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;)Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ag;->aOk()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOk()V
 
     .line 349
     invoke-static {}, Lcom/tencent/mm/plugin/talkroom/model/b;->ayf()Lcom/tencent/mm/plugin/talkroom/model/g;
@@ -257,7 +257,7 @@
     invoke-virtual {v0}, Lcom/tencent/mm/plugin/talkroom/model/g;->ayt()V
 
     .line 352
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -267,7 +267,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$13$2;-><init>(Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$13;)V
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ap;->a(Landroid/content/Context;ILcom/tencent/mm/sdk/platformtools/ap$a;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/APclz;->a(Landroid/content/Context;ILcom/tencent/mm/sdk/platformtools/APclz$a;)V
 
     .line 359
     iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI$13;->gPY:Lcom/tencent/mm/plugin/talkroom/ui/TalkRoomUI;

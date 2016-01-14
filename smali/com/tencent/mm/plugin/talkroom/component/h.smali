@@ -43,7 +43,7 @@
 
 .field private gNv:S
 
-.field private handler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field private final lock:Ljava/lang/Object;
 
@@ -62,7 +62,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -100,15 +100,15 @@
     iput v0, p0, Lcom/tencent/mm/plugin/talkroom/component/h;->aiv:I
 
     .line 38
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/h;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/h;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 40
     new-instance v0, Ljava/lang/Object;
@@ -171,17 +171,17 @@
     invoke-virtual {v0}, Landroid/media/AudioTrack;->release()V
 
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/plugin/talkroom/component/v2engine;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/plugin/talkroom/component/v2engine;->tp()Lcom/tencent/mm/compatible/b/Dclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v6, v7}, Lcom/tencent/mm/compatible/b/d;->b(ZZ)Z
+    invoke-virtual {v0, v6, v7}, Lcom/tencent/mm/compatible/b/Dclz;->b(ZZ)Z
 
-    invoke-static {}, Lcom/tencent/mm/plugin/talkroom/component/v2engine;->tp()Lcom/tencent/mm/compatible/b/d;
+    invoke-static {}, Lcom/tencent/mm/plugin/talkroom/component/v2engine;->tp()Lcom/tencent/mm/compatible/b/Dclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v6}, Lcom/tencent/mm/compatible/b/d;->au(Z)I
+    invoke-virtual {v0, v6}, Lcom/tencent/mm/compatible/b/Dclz;->au(Z)I
 
     move-result v1
 
@@ -204,7 +204,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     .line 62
     :cond_2
@@ -232,7 +232,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     goto :goto_0
 .end method
@@ -420,7 +420,7 @@
 
     const-string/jumbo v1, "release"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 108
     iput-boolean v2, p0, Lcom/tencent/mm/plugin/talkroom/component/h;->anm:Z
@@ -555,7 +555,7 @@
     iget-wide v3, p0, Lcom/tencent/mm/plugin/talkroom/component/h;->gNR:J
 
     .line 148
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->Fa()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Fa()J
 
     move-result-wide v5
 
@@ -673,7 +673,7 @@
 
     aput-object v6, v5, v0
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 176
     iget v0, p0, Lcom/tencent/mm/plugin/talkroom/component/h;->clk:I
@@ -707,7 +707,7 @@
 
     move-result-object v0
 
-    invoke-static {v3, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -826,7 +826,7 @@
     if-nez v6, :cond_f
 
     .line 196
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->Fa()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Fa()J
 
     move-result-wide v6
 
@@ -879,13 +879,13 @@
 
     .line 208
     :cond_d
-    iget-object v3, p0, Lcom/tencent/mm/plugin/talkroom/component/h;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v3, p0, Lcom/tencent/mm/plugin/talkroom/component/h;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     new-instance v6, Lcom/tencent/mm/plugin/talkroom/component/h$1;
 
     invoke-direct {v6, p0, v4, v5, v0}, Lcom/tencent/mm/plugin/talkroom/component/h$1;-><init>(Lcom/tencent/mm/plugin/talkroom/component/h;Lcom/tencent/mm/pointers/PInt;Lcom/tencent/mm/pointers/PInt;Z)V
 
-    invoke-virtual {v3, v6}, Lcom/tencent/mm/sdk/platformtools/ab;->postAtFrontOfQueueV2(Ljava/lang/Runnable;)Z
+    invoke-virtual {v3, v6}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postAtFrontOfQueueV2(Ljava/lang/Runnable;)Z
 
     .line 220
     iput-boolean v0, p0, Lcom/tencent/mm/plugin/talkroom/component/h;->gNP:Z
@@ -909,7 +909,7 @@
     :cond_f
     iget-wide v6, p0, Lcom/tencent/mm/plugin/talkroom/component/h;->gNO:J
 
-    invoke-static {v6, v7}, Lcom/tencent/mm/sdk/platformtools/bc;->am(J)J
+    invoke-static {v6, v7}, Lcom/tencent/mm/sdk/platformtools/BCclz;->am(J)J
     :try_end_a
     .catch Ljava/lang/Exception; {:try_start_a .. :try_end_a} :catch_1
 
@@ -950,7 +950,7 @@
     .line 254
     const-string/jumbo v0, "TalkRoomPlayer_start"
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/sdk/h/e;->c(Ljava/lang/Runnable;Ljava/lang/String;)Ljava/lang/Thread;
+    invoke-static {p0, v0}, Lcom/tencent/mm/sdk/h/Eclz;->c(Ljava/lang/Runnable;Ljava/lang/String;)Ljava/lang/Thread;
 
     move-result-object v0
 

@@ -4,7 +4,7 @@
 
 
 # static fields
-.field private static btw:Lcom/tencent/mm/compatible/b/d;
+.field private static btw:Lcom/tencent/mm/compatible/b/Dclz;
 
 
 # direct methods
@@ -19,35 +19,35 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method public static tp()Lcom/tencent/mm/compatible/b/d;
+.method public static tp()Lcom/tencent/mm/compatible/b/Dclz;
     .locals 2
 
     .prologue
     .line 20
-    sget-object v0, Lcom/tencent/mm/plugin/talkroom/component/v2engine;->btw:Lcom/tencent/mm/compatible/b/d;
+    sget-object v0, Lcom/tencent/mm/plugin/talkroom/component/v2engine;->btw:Lcom/tencent/mm/compatible/b/Dclz;
 
     if-nez v0, :cond_0
 
     .line 21
-    new-instance v0, Lcom/tencent/mm/compatible/b/d;
+    new-instance v0, Lcom/tencent/mm/compatible/b/Dclz;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/compatible/b/d;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/compatible/b/Dclz;-><init>(Landroid/content/Context;)V
 
-    sput-object v0, Lcom/tencent/mm/plugin/talkroom/component/v2engine;->btw:Lcom/tencent/mm/compatible/b/d;
+    sput-object v0, Lcom/tencent/mm/plugin/talkroom/component/v2engine;->btw:Lcom/tencent/mm/compatible/b/Dclz;
 
     .line 23
     :cond_0
-    sget-object v0, Lcom/tencent/mm/plugin/talkroom/component/v2engine;->btw:Lcom/tencent/mm/compatible/b/d;
+    sget-object v0, Lcom/tencent/mm/plugin/talkroom/component/v2engine;->btw:Lcom/tencent/mm/compatible/b/Dclz;
 
     return-object v0
 .end method

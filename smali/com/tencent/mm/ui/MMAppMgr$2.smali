@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -79,7 +79,7 @@
 
     .line 908
     :cond_0
-    sput-boolean v2, Lcom/tencent/mm/sdk/platformtools/f;->jff:Z
+    sput-boolean v2, Lcom/tencent/mm/sdk/platformtools/Fclz;->jff:Z
 
     .line 909
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V

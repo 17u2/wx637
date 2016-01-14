@@ -45,7 +45,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -62,7 +62,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -147,7 +147,7 @@
 
     .line 469
     :cond_2
-    invoke-static {p1}, Lcom/tencent/mm/platformtools/k;->jT(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {p1}, Lcom/tencent/mm/platformtools/Kclz;->jT(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -196,7 +196,7 @@
 
     iget v2, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g$b;->dEB:I
 
-    invoke-static {v1, v0, v2}, Lcom/tencent/mm/platformtools/k;->k(Ljava/lang/String;II)Landroid/graphics/Bitmap;
+    invoke-static {v1, v0, v2}, Lcom/tencent/mm/platformtools/Kclz;->k(Ljava/lang/String;II)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -223,7 +223,7 @@
 
     iget v3, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g$b;->dEB:I
 
-    invoke-static {p1, v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/d;->b(Ljava/lang/String;IIZ)Landroid/graphics/Bitmap;
+    invoke-static {p1, v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Dclz;->b(Ljava/lang/String;IIZ)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -234,7 +234,7 @@
     .line 487
     int-to-float v2, v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/d;->b(Landroid/graphics/Bitmap;F)Landroid/graphics/Bitmap;
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Dclz;->b(Landroid/graphics/Bitmap;F)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -246,7 +246,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v0, v2, v3, v1, v4}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
+    invoke-static {v0, v2, v3, v1, v4}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap$CompressFormat;Ljava/lang/String;Z)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -263,7 +263,7 @@
 
     iget v3, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g$b;->euh:I
 
-    invoke-static {p1, v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/d;->b(Ljava/lang/String;IIZ)Landroid/graphics/Bitmap;
+    invoke-static {p1, v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Dclz;->b(Ljava/lang/String;IIZ)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -290,7 +290,7 @@
 
     const-string/jumbo v1, "on load image jog, isQuit, return"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 563
     :goto_0
@@ -333,7 +333,7 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 510
     monitor-exit v1
@@ -405,7 +405,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g$b;->url:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -422,11 +422,11 @@
 
     iget v4, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g$b;->dEB:I
 
-    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/tools/g;->b(Ljava/lang/String;Ljava/lang/String;II)Lcom/tencent/mm/platformtools/j;
+    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/tools/g;->b(Ljava/lang/String;Ljava/lang/String;II)Lcom/tencent/mm/platformtools/Jclz;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/k;->a(Lcom/tencent/mm/platformtools/j;)Landroid/graphics/Bitmap;
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Kclz;->a(Lcom/tencent/mm/platformtools/Jclz;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -499,9 +499,9 @@
     .line 556
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g$b;->ify:Lcom/tencent/mm/pluginsdk/ui/tools/g;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/g;->bJo:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/g;->bJo:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 558
     :cond_4

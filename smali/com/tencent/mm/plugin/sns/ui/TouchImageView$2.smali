@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -97,20 +97,20 @@
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    iget-object v3, v2, Lcom/tencent/mm/plugin/sns/ui/TouchImageView;->gqv:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v3, v2, Lcom/tencent/mm/plugin/sns/ui/TouchImageView;->gqv:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v4, v2, Lcom/tencent/mm/plugin/sns/ui/TouchImageView;->gqw:Ljava/lang/Runnable;
 
-    invoke-virtual {v3, v4}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v3, v4}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     goto :goto_1
 
     :pswitch_2
-    iget-object v3, v2, Lcom/tencent/mm/plugin/sns/ui/TouchImageView;->gqv:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v3, v2, Lcom/tencent/mm/plugin/sns/ui/TouchImageView;->gqv:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v4, v2, Lcom/tencent/mm/plugin/sns/ui/TouchImageView;->gqw:Ljava/lang/Runnable;
 
-    invoke-virtual {v3, v4}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v3, v4}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     goto :goto_1
 

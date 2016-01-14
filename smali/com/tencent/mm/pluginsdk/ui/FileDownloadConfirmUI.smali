@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private ccJ:Lcom/tencent/mm/ui/base/g;
+.field private ccJ:Lcom/tencent/mm/ui/base/Gclz;
 
 
 # direct methods
@@ -18,13 +18,13 @@
     .line 17
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/FileDownloadConfirmUI;->ccJ:Lcom/tencent/mm/ui/base/g;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/FileDownloadConfirmUI;->ccJ:Lcom/tencent/mm/ui/base/Gclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -73,51 +73,51 @@
     invoke-direct {v1, p0}, Lcom/tencent/mm/pluginsdk/ui/FileDownloadConfirmUI$3;-><init>(Lcom/tencent/mm/pluginsdk/ui/FileDownloadConfirmUI;)V
 
     .line 48
-    new-instance v3, Lcom/tencent/mm/ui/base/g$a;
+    new-instance v3, Lcom/tencent/mm/ui/base/Gclz$a;
 
-    invoke-direct {v3, p0}, Lcom/tencent/mm/ui/base/g$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v3, p0}, Lcom/tencent/mm/ui/base/Gclz$a;-><init>(Landroid/content/Context;)V
 
     .line 49
     const-string/jumbo v4, ""
 
-    invoke-virtual {v3, v4}, Lcom/tencent/mm/ui/base/g$a;->El(Ljava/lang/String;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v3, v4}, Lcom/tencent/mm/ui/base/Gclz$a;->El(Ljava/lang/String;)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 50
     const v4, 0x7f0908b0
 
-    invoke-virtual {v3, v4}, Lcom/tencent/mm/ui/base/g$a;->pP(I)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v3, v4}, Lcom/tencent/mm/ui/base/Gclz$a;->pP(I)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 51
     const v4, 0x7f090aeb
 
-    invoke-virtual {v3, v4, v2}, Lcom/tencent/mm/ui/base/g$a;->b(ILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v3, v4, v2}, Lcom/tencent/mm/ui/base/Gclz$a;->b(ILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 52
     const v2, 0x7f090aec
 
-    invoke-virtual {v3, v2, v0}, Lcom/tencent/mm/ui/base/g$a;->c(ILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v3, v2, v0}, Lcom/tencent/mm/ui/base/Gclz$a;->c(ILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 53
-    invoke-virtual {v3, v1}, Lcom/tencent/mm/ui/base/g$a;->a(Landroid/content/DialogInterface$OnDismissListener;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v3, v1}, Lcom/tencent/mm/ui/base/Gclz$a;->a(Landroid/content/DialogInterface$OnDismissListener;)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 54
-    invoke-virtual {v3}, Lcom/tencent/mm/ui/base/g$a;->aVX()Lcom/tencent/mm/ui/base/g;
+    invoke-virtual {v3}, Lcom/tencent/mm/ui/base/Gclz$a;->aVX()Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/FileDownloadConfirmUI;->ccJ:Lcom/tencent/mm/ui/base/g;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/FileDownloadConfirmUI;->ccJ:Lcom/tencent/mm/ui/base/Gclz;
 
     .line 55
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/FileDownloadConfirmUI;->ccJ:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/FileDownloadConfirmUI;->ccJ:Lcom/tencent/mm/ui/base/Gclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->show()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->show()V
 
     .line 57
     const-string/jumbo v0, "!44@/B4Tb64lLpKVQlIh1YRBXwihd2X+6LLYtuibyMW2tj4="
 
     const-string/jumbo v1, "Confirm Dialog"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 58
     return-void
@@ -131,9 +131,9 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMBaseActivity;->onStop()V
 
     .line 63
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/FileDownloadConfirmUI;->ccJ:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/FileDownloadConfirmUI;->ccJ:Lcom/tencent/mm/ui/base/Gclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->dismiss()V
 
     .line 64
     return-void

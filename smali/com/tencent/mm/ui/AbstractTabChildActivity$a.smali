@@ -1,11 +1,11 @@
 .class public abstract Lcom/tencent/mm/ui/AbstractTabChildActivity$a;
-.super Lcom/tencent/mm/ui/n;
+.super Lcom/tencent/mm/ui/Nclz;
 .source "SourceFile"
 
 # interfaces
 .implements Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout$b;
 .implements Lcom/tencent/mm/pluginsdk/ui/tools/n$a;
-.implements Lcom/tencent/mm/ui/h;
+.implements Lcom/tencent/mm/ui/Hclz;
 
 
 # annotations
@@ -43,7 +43,7 @@
     const/4 v0, 0x0
 
     .line 21
-    invoke-direct {p0}, Lcom/tencent/mm/ui/n;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/ui/Nclz;-><init>()V
 
     .line 48
     iput-boolean v0, p0, Lcom/tencent/mm/ui/AbstractTabChildActivity$a;->jsE:Z
@@ -55,7 +55,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -219,7 +219,7 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 193
     const/4 v0, 0x1
@@ -261,7 +261,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-boolean v6, p0, Lcom/tencent/mm/ui/AbstractTabChildActivity$a;->jsA:Z
 
@@ -293,7 +293,7 @@
 
     .prologue
     .line 30
-    invoke-super {p0, p1}, Lcom/tencent/mm/ui/n;->onActivityCreated(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/tencent/mm/ui/Nclz;->onActivityCreated(Landroid/os/Bundle;)V
 
     .line 31
     const/4 v0, 0x1
@@ -312,7 +312,7 @@
     invoke-virtual {p0}, Lcom/tencent/mm/ui/AbstractTabChildActivity$a;->aSN()V
 
     .line 213
-    invoke-super {p0}, Lcom/tencent/mm/ui/n;->onDestroy()V
+    invoke-super {p0}, Lcom/tencent/mm/ui/Nclz;->onDestroy()V
 
     .line 221
     return-void
@@ -341,7 +341,7 @@
     return v0
 
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/tencent/mm/ui/n;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Lcom/tencent/mm/ui/Nclz;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v0
 
@@ -355,7 +355,7 @@
     const/4 v6, 0x0
 
     .line 164
-    invoke-super {p0}, Lcom/tencent/mm/ui/n;->onPause()V
+    invoke-super {p0}, Lcom/tencent/mm/ui/Nclz;->onPause()V
 
     .line 165
     const/4 v0, 0x1
@@ -422,7 +422,7 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-boolean v6, p0, Lcom/tencent/mm/ui/AbstractTabChildActivity$a;->jsD:Z
 
@@ -436,7 +436,7 @@
 
     .prologue
     .line 107
-    invoke-super {p0}, Lcom/tencent/mm/ui/n;->onResume()V
+    invoke-super {p0}, Lcom/tencent/mm/ui/Nclz;->onResume()V
 
     .line 108
     invoke-static {}, Lcom/tencent/mm/ui/LauncherUI;->aTU()Lcom/tencent/mm/ui/LauncherUI;
@@ -478,7 +478,7 @@
 
     .prologue
     .line 205
-    invoke-super {p0}, Lcom/tencent/mm/ui/n;->onStart()V
+    invoke-super {p0}, Lcom/tencent/mm/ui/Nclz;->onStart()V
 
     .line 206
     invoke-static {}, Lcom/tencent/mm/ui/LauncherUI;->aTU()Lcom/tencent/mm/ui/LauncherUI;
@@ -509,7 +509,7 @@
 
     .prologue
     .line 199
-    invoke-super {p0}, Lcom/tencent/mm/ui/n;->onStop()V
+    invoke-super {p0}, Lcom/tencent/mm/ui/Nclz;->onStop()V
 
     .line 200
     invoke-virtual {p0}, Lcom/tencent/mm/ui/AbstractTabChildActivity$a;->aSM()V

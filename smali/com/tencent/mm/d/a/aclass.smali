@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/d/a/aclass;
-.super Lcom/tencent/mm/sdk/c/b;
+.super Lcom/tencent/mm/sdk/c/Bclz;
 .source "SourceFile"
 
 
@@ -26,7 +26,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -37,7 +37,7 @@
 
     .prologue
     .line 8
-    invoke-direct {p0}, Lcom/tencent/mm/sdk/c/b;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/sdk/c/Bclz;-><init>()V
 
     const-string/jumbo v0, "APPHasInit"
 
@@ -51,7 +51,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

@@ -17,7 +17,7 @@
 # instance fields
 .field bOb:Ljava/util/LinkedList;
 
-.field dAE:Lcom/tencent/mm/sdk/platformtools/ab;
+.field dAE:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field final synthetic gii:Lcom/tencent/mm/plugin/sns/d/r;
 
@@ -37,13 +37,13 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/sns/d/r$a$1;-><init>(Lcom/tencent/mm/plugin/sns/d/r$a;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/d/r$a;->dAE:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/d/r$a;->dAE:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/platformtools/k$a;
+.implements Lcom/tencent/mm/platformtools/Kclz$a;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -73,7 +73,7 @@
 
     aput-object v0, v4, v1
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 430
     if-nez p2, :cond_1
@@ -114,13 +114,13 @@
     .line 438
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g$6;->ify:Lcom/tencent/mm/pluginsdk/ui/tools/g;
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/tools/g;->bJo:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/tools/g;->bJo:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     new-instance v2, Lcom/tencent/mm/pluginsdk/ui/tools/g$6$1;
 
     invoke-direct {v2, p0, v0, p2}, Lcom/tencent/mm/pluginsdk/ui/tools/g$6$1;-><init>(Lcom/tencent/mm/pluginsdk/ui/tools/g$6;Landroid/widget/ImageView;Landroid/graphics/Bitmap;)V
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 445
     :cond_2

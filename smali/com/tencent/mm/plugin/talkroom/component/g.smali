@@ -6,7 +6,7 @@
 # instance fields
 .field private final gNt:Lcom/tencent/mm/plugin/talkroom/component/v2engine;
 
-.field private final handler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private final handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -15,7 +15,7 @@
 
     .prologue
     .line 28
-    invoke-static {}, Lcom/tencent/mm/compatible/d/l;->om()S
+    invoke-static {}, Lcom/tencent/mm/compatible/d/Lclz;->om()S
 
     move-result v0
 
@@ -36,7 +36,7 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 30
     and-int/lit16 v1, v0, 0x400
@@ -44,13 +44,13 @@
     if-eqz v1, :cond_1
 
     .line 31
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
     const-string/jumbo v1, "libvoipCodec_v7a.so"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/compatible/loader/g;->q(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/compatible/loader/Gclz;->q(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     .line 37
     :goto_0
@@ -62,14 +62,14 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/compatible/util/i;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/compatible/util/Iclz;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
 
     .line 38
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -81,25 +81,25 @@
     if-eqz v0, :cond_2
 
     .line 33
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
     const-string/jumbo v1, "libvoipCodec.so"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/compatible/loader/g;->q(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/compatible/loader/Gclz;->q(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     goto :goto_0
 
     .line 35
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
     const-string/jumbo v1, "libvoipCodec_v5.so"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/compatible/loader/g;->q(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/compatible/loader/Gclz;->q(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     goto :goto_0
 .end method
@@ -112,15 +112,15 @@
     invoke-direct {p0}, Lcom/tencent/mm/plugin/talkroom/component/a$a;-><init>()V
 
     .line 41
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/g;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/talkroom/component/g;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 42
     new-instance v0, Lcom/tencent/mm/plugin/talkroom/component/v2engine;
@@ -134,7 +134,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -168,9 +168,9 @@
     invoke-direct {v0, p0, v1}, Lcom/tencent/mm/plugin/talkroom/component/g$3;-><init>(Lcom/tencent/mm/plugin/talkroom/component/g;Ljava/lang/Integer;)V
 
     .line 79
-    iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/component/g;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/component/g;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ax;->b(Lcom/tencent/mm/sdk/platformtools/ab;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/AXclz;->b(Lcom/tencent/mm/sdk/platformtools/ABclz;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -199,9 +199,9 @@
     invoke-direct {v0, p0, v1, p1}, Lcom/tencent/mm/plugin/talkroom/component/g$2;-><init>(Lcom/tencent/mm/plugin/talkroom/component/g;Ljava/lang/Integer;I)V
 
     .line 66
-    iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/component/g;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/component/g;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ax;->b(Lcom/tencent/mm/sdk/platformtools/ab;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/AXclz;->b(Lcom/tencent/mm/sdk/platformtools/ABclz;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -276,9 +276,9 @@
     invoke-direct/range {v1 .. v12}, Lcom/tencent/mm/plugin/talkroom/component/g$5;-><init>(Lcom/tencent/mm/plugin/talkroom/component/g;Ljava/lang/Integer;Lcom/tencent/mm/plugin/talkroom/component/b;IIIJ[I[SI)V
 
     .line 121
-    iget-object v2, p0, Lcom/tencent/mm/plugin/talkroom/component/g;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/talkroom/component/g;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ax;->b(Lcom/tencent/mm/sdk/platformtools/ab;)Ljava/lang/Object;
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/AXclz;->b(Lcom/tencent/mm/sdk/platformtools/ABclz;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -301,9 +301,9 @@
     invoke-direct {v0, p0, p1}, Lcom/tencent/mm/plugin/talkroom/component/g$7;-><init>(Lcom/tencent/mm/plugin/talkroom/component/g;Lcom/tencent/mm/plugin/talkroom/component/c;)V
 
     .line 149
-    iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/component/g;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/component/g;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ax;->b(Lcom/tencent/mm/sdk/platformtools/ab;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/AXclz;->b(Lcom/tencent/mm/sdk/platformtools/ABclz;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -328,9 +328,9 @@
     invoke-direct {v0, p0, v1}, Lcom/tencent/mm/plugin/talkroom/component/g$4;-><init>(Lcom/tencent/mm/plugin/talkroom/component/g;Ljava/lang/Integer;)V
 
     .line 103
-    iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/component/g;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/component/g;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ax;->b(Lcom/tencent/mm/sdk/platformtools/ab;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/AXclz;->b(Lcom/tencent/mm/sdk/platformtools/ABclz;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -353,9 +353,9 @@
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/talkroom/component/g$8;-><init>(Lcom/tencent/mm/plugin/talkroom/component/g;)V
 
     .line 162
-    iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/component/g;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/component/g;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ax;->b(Lcom/tencent/mm/sdk/platformtools/ab;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/AXclz;->b(Lcom/tencent/mm/sdk/platformtools/ABclz;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -374,9 +374,9 @@
     invoke-direct {v0, p0, p1, p2}, Lcom/tencent/mm/plugin/talkroom/component/g$6;-><init>(Lcom/tencent/mm/plugin/talkroom/component/g;[ILjava/lang/String;)V
 
     .line 136
-    iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/component/g;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/component/g;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ax;->b(Lcom/tencent/mm/sdk/platformtools/ab;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/AXclz;->b(Lcom/tencent/mm/sdk/platformtools/ABclz;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -401,9 +401,9 @@
     invoke-direct {v0, p0, v1}, Lcom/tencent/mm/plugin/talkroom/component/g$1;-><init>(Lcom/tencent/mm/plugin/talkroom/component/g;Ljava/lang/Integer;)V
 
     .line 54
-    iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/component/g;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/component/g;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ax;->b(Lcom/tencent/mm/sdk/platformtools/ab;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/AXclz;->b(Lcom/tencent/mm/sdk/platformtools/ABclz;)Ljava/lang/Object;
 
     move-result-object v0
 

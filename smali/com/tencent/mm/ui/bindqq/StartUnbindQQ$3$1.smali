@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic fNW:Lcom/tencent/mm/modelsimple/ah;
+.field final synthetic fNW:Lcom/tencent/mm/modelsimple/AHclz;
 
 .field final synthetic jYW:Lcom/tencent/mm/ui/bindqq/StartUnbindQQ$3;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/bindqq/StartUnbindQQ$3;Lcom/tencent/mm/modelsimple/ah;)V
+.method constructor <init>(Lcom/tencent/mm/ui/bindqq/StartUnbindQQ$3;Lcom/tencent/mm/modelsimple/AHclz;)V
     .locals 1
 
     .prologue
     .line 204
     iput-object p1, p0, Lcom/tencent/mm/ui/bindqq/StartUnbindQQ$3$1;->jYW:Lcom/tencent/mm/ui/bindqq/StartUnbindQQ$3;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/bindqq/StartUnbindQQ$3$1;->fNW:Lcom/tencent/mm/modelsimple/ah;
+    iput-object p2, p0, Lcom/tencent/mm/ui/bindqq/StartUnbindQQ$3$1;->fNW:Lcom/tencent/mm/modelsimple/AHclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/bindqq/StartUnbindQQ$3$1;->fNW:Lcom/tencent/mm/modelsimple/ah;
+    iget-object v1, p0, Lcom/tencent/mm/ui/bindqq/StartUnbindQQ$3$1;->fNW:Lcom/tencent/mm/modelsimple/AHclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 

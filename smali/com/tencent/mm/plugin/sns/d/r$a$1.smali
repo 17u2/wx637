@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/sns/d/r$a$1;
-.super Lcom/tencent/mm/sdk/platformtools/ab;
+.super Lcom/tencent/mm/sdk/platformtools/ABclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 553
     iput-object p1, p0, Lcom/tencent/mm/plugin/sns/d/r$a$1;->gik:Lcom/tencent/mm/plugin/sns/d/r$a;
 
-    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -73,7 +73,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/aot;
 
@@ -81,23 +81,23 @@
 
     iget-object v1, v1, Lcom/tencent/mm/q/Aclz;->bxI:Lcom/tencent/mm/q/Aclz$b;
 
-    iget-object v1, v1, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v1, v1, Lcom/tencent/mm/q/Aclz$b;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     check-cast v1, Lcom/tencent/mm/protocal/b/aos;
 
     iget-object v3, v0, Lcom/tencent/mm/protocal/b/aot;->irP:Lcom/tencent/mm/protocal/b/ajy;
 
-    iget-object v3, v3, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/b;
+    iget-object v3, v3, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/Bclz;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/aq/b;->toByteArray()[B
+    invoke-virtual {v3}, Lcom/tencent/mm/aq/Bclz;->toByteArray()[B
 
     move-result-object v3
 
     iget-object v4, v1, Lcom/tencent/mm/protocal/b/aos;->irP:Lcom/tencent/mm/protocal/b/ajy;
 
-    iget-object v4, v4, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/b;
+    iget-object v4, v4, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/Bclz;
 
-    invoke-virtual {v4}, Lcom/tencent/mm/aq/b;->toByteArray()[B
+    invoke-virtual {v4}, Lcom/tencent/mm/aq/Bclz;->toByteArray()[B
 
     move-result-object v4
 
@@ -121,7 +121,7 @@
 
     const/16 v5, 0x2003
 
-    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/bc;->aS([B)Ljava/lang/String;
+    invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aS([B)Ljava/lang/String;
 
     move-result-object v6
 
@@ -191,7 +191,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 563
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/d/r$a$1;->gik:Lcom/tencent/mm/plugin/sns/d/r$a;
@@ -209,7 +209,7 @@
 
     .line 567
     :pswitch_0
-    invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atf()Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atf()Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v1
 
@@ -217,13 +217,13 @@
 
     invoke-direct {v2, p0, v0}, Lcom/tencent/mm/plugin/sns/d/r$a$1$1;-><init>(Lcom/tencent/mm/plugin/sns/d/r$a$1;Lcom/tencent/mm/protocal/b/HYclz;)V
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     goto :goto_0
 
     .line 578
     :pswitch_1
-    invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atf()Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atf()Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v1
 
@@ -231,7 +231,7 @@
 
     invoke-direct {v2, p0, v0}, Lcom/tencent/mm/plugin/sns/d/r$a$1$2;-><init>(Lcom/tencent/mm/plugin/sns/d/r$a$1;Lcom/tencent/mm/protocal/b/HYclz;)V
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     goto :goto_0
 

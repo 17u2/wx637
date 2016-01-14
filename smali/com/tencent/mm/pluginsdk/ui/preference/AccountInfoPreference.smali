@@ -32,7 +32,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -58,7 +58,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -135,7 +135,7 @@
 
     const v2, 0x7f0c0019
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {v1, v2}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v1
 
@@ -148,7 +148,7 @@
 
     const v2, 0x7f0b004e
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/at/a;->t(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
+    invoke-static {v1, v2}, Lcom/tencent/mm/at/Aclz;->t(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
 
     move-result-object v1
 
@@ -235,7 +235,7 @@
     .line 105
     iget-object v1, p0, Lcom/tencent/mm/ui/base/preference/Preference;->mContext:Landroid/content/Context;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/tools/t;->el(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/tencent/mm/ui/tools/Tclz;->el(Landroid/content/Context;)I
 
     move-result v1
 

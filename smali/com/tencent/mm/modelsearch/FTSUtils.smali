@@ -15,7 +15,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -103,11 +103,11 @@
     invoke-direct {v1, p1}, Lcom/tencent/mm/modelsearch/FTSUtils$1;-><init>(Ljava/util/Map;)V
 
     .line 108
-    new-instance v2, Lcom/tencent/mm/modelsearch/k$g;
+    new-instance v2, Lcom/tencent/mm/modelsearch/Kclz$g;
 
-    invoke-direct {v2}, Lcom/tencent/mm/modelsearch/k$g;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/modelsearch/Kclz$g;-><init>()V
 
-    iput p2, v2, Lcom/tencent/mm/modelsearch/k$g;->type:I
+    iput p2, v2, Lcom/tencent/mm/modelsearch/Kclz$g;->type:I
 
     invoke-static {p0, v2, v1}, Ljava/util/Collections;->binarySearch(Ljava/util/List;Ljava/lang/Object;Ljava/util/Comparator;)I
 
@@ -141,7 +141,7 @@
     return-object v0
 
     :cond_0
-    iput p3, v2, Lcom/tencent/mm/modelsearch/k$g;->type:I
+    iput p3, v2, Lcom/tencent/mm/modelsearch/Kclz$g;->type:I
 
     invoke-static {p0, v2, v1}, Ljava/util/Collections;->binarySearch(Ljava/util/List;Ljava/lang/Object;Ljava/util/Comparator;)I
 
@@ -163,9 +163,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelsearch/k$g;
+    check-cast v0, Lcom/tencent/mm/modelsearch/Kclz$g;
 
-    iget v0, v0, Lcom/tencent/mm/modelsearch/k$g;->type:I
+    iget v0, v0, Lcom/tencent/mm/modelsearch/Kclz$g;->type:I
 
     if-eq v0, p2, :cond_1
 
@@ -190,9 +190,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelsearch/k$g;
+    check-cast v0, Lcom/tencent/mm/modelsearch/Kclz$g;
 
-    iget v0, v0, Lcom/tencent/mm/modelsearch/k$g;->type:I
+    iget v0, v0, Lcom/tencent/mm/modelsearch/Kclz$g;->type:I
 
     if-ne v0, p3, :cond_5
 

@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/search/a/e$t;
-.super Lcom/tencent/mm/modelsearch/m$a;
+.super Lcom/tencent/mm/modelsearch/Mclz$a;
 .source "SourceFile"
 
 
@@ -30,7 +30,7 @@
     .line 1500
     iput-object p1, p0, Lcom/tencent/mm/plugin/search/a/e$t;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/m$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/Mclz$a;-><init>()V
 
     .line 1498
     const/4 v0, 0x0
@@ -45,7 +45,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -77,7 +77,7 @@
 
     const-string/jumbo v4, "SELECT user FROM ContactLabels WHERE label_id=?;"
 
-    iget-object v1, v1, Lcom/tencent/mm/modelsearch/b;->bQt:Lcom/tencent/mm/modelsearch/h;
+    iget-object v1, v1, Lcom/tencent/mm/modelsearch/Bclz;->bQt:Lcom/tencent/mm/modelsearch/Hclz;
 
     new-array v5, v6, [Ljava/lang/String;
 
@@ -87,7 +87,7 @@
 
     aput-object v2, v5, v7
 
-    invoke-interface {v1, v4, v5}, Lcom/tencent/mm/modelsearch/h;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface {v1, v4, v5}, Lcom/tencent/mm/modelsearch/Hclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v1
 
@@ -147,7 +147,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v3, Lcom/tencent/mm/modelsearch/c;->bQG:[I
+    sget-object v3, Lcom/tencent/mm/modelsearch/Cclz;->bQG:[I
 
     invoke-virtual {v2, v3, v0, v6}, Lcom/tencent/mm/plugin/search/a/b/a;->a([ILjava/lang/String;I)Ljava/util/List;
 

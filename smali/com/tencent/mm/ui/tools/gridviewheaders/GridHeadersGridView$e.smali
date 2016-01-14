@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,7 +56,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -84,15 +84,15 @@
     :cond_1
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/gridviewheaders/GridHeadersGridView$e;->kGD:Lcom/tencent/mm/ui/tools/gridviewheaders/GridHeadersGridView;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/tools/gridviewheaders/GridHeadersGridView;->kGA:Lcom/tencent/mm/ui/tools/gridviewheaders/c;
+    iget-object v0, v0, Lcom/tencent/mm/ui/tools/gridviewheaders/GridHeadersGridView;->kGA:Lcom/tencent/mm/ui/tools/gridviewheaders/Cclz;
 
     if-eqz v0, :cond_0
 
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/gridviewheaders/GridHeadersGridView$e;->kGD:Lcom/tencent/mm/ui/tools/gridviewheaders/GridHeadersGridView;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/tools/gridviewheaders/GridHeadersGridView;->kGA:Lcom/tencent/mm/ui/tools/gridviewheaders/c;
+    iget-object v0, v0, Lcom/tencent/mm/ui/tools/gridviewheaders/GridHeadersGridView;->kGA:Lcom/tencent/mm/ui/tools/gridviewheaders/Cclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/tools/gridviewheaders/c;->getCount()I
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/tools/gridviewheaders/Cclz;->getCount()I
 
     move-result v0
 
@@ -108,9 +108,9 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/tools/gridviewheaders/GridHeadersGridView$e;->kGD:Lcom/tencent/mm/ui/tools/gridviewheaders/GridHeadersGridView;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/tools/gridviewheaders/GridHeadersGridView;->kGA:Lcom/tencent/mm/ui/tools/gridviewheaders/c;
+    iget-object v1, v1, Lcom/tencent/mm/ui/tools/gridviewheaders/GridHeadersGridView;->kGA:Lcom/tencent/mm/ui/tools/gridviewheaders/Cclz;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/tools/gridviewheaders/c;->getCount()I
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/tools/gridviewheaders/Cclz;->getCount()I
 
     move-result v1
 

@@ -36,17 +36,17 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/aq/b;->aD([B)Lcom/tencent/mm/aq/b;
+    invoke-static {v1}, Lcom/tencent/mm/aq/Bclz;->aD([B)Lcom/tencent/mm/aq/Bclz;
 
     move-result-object v1
 
     const/16 v2, 0x10
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/aq/b;->og(I)Lcom/tencent/mm/aq/b;
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/aq/Bclz;->og(I)Lcom/tencent/mm/aq/Bclz;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/CXclz;->imT:Lcom/tencent/mm/aq/b;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/CXclz;->imT:Lcom/tencent/mm/aq/Bclz;
 
     .line 43
     iget-object v1, p0, Lcom/tencent/mm/protocal/Hclz$c;->ihM:Ljava/lang/String;
@@ -55,17 +55,17 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/aq/b;->aD([B)Lcom/tencent/mm/aq/b;
+    invoke-static {v1}, Lcom/tencent/mm/aq/Bclz;->aD([B)Lcom/tencent/mm/aq/Bclz;
 
     move-result-object v1
 
     const/16 v2, 0x84
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/aq/b;->og(I)Lcom/tencent/mm/aq/b;
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/aq/Bclz;->og(I)Lcom/tencent/mm/aq/Bclz;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/CXclz;->imV:Lcom/tencent/mm/aq/b;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/CXclz;->imV:Lcom/tencent/mm/aq/Bclz;
 
     .line 44
     iget v1, p0, Lcom/tencent/mm/protocal/Hclz$c;->ihO:I
@@ -75,17 +75,17 @@
     .line 45
     iget-object v1, p0, Lcom/tencent/mm/protocal/Hclz$c;->dpq:[B
 
-    invoke-static {v1}, Lcom/tencent/mm/aq/b;->aD([B)Lcom/tencent/mm/aq/b;
+    invoke-static {v1}, Lcom/tencent/mm/aq/Bclz;->aD([B)Lcom/tencent/mm/aq/Bclz;
 
     move-result-object v1
 
     const/16 v2, 0x24
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/aq/b;->og(I)Lcom/tencent/mm/aq/b;
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/aq/Bclz;->og(I)Lcom/tencent/mm/aq/Bclz;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/protocal/b/CXclz;->inD:Lcom/tencent/mm/aq/b;
+    iput-object v1, v0, Lcom/tencent/mm/protocal/b/CXclz;->inD:Lcom/tencent/mm/aq/Bclz;
 
     .line 46
     iget v1, p0, Lcom/tencent/mm/protocal/Hclz$c;->ihK:I
@@ -127,7 +127,7 @@
 
     const-string/jumbo v1, "ErrMsg is Null!!!!!!"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method

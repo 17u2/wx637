@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,7 +48,7 @@
 
     .prologue
     .line 332
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->v(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->v(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     move-result-object v0
 

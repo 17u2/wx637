@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -90,14 +90,14 @@
     move-result-object v2
 
     .line 397
-    new-instance v3, Lcom/tencent/mm/modelcdntran/e;
+    new-instance v3, Lcom/tencent/mm/modelcdntran/Eclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/modelcdntran/e;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/modelcdntran/Eclz;-><init>()V
 
     .line 398
     iget-object v4, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI$6;->juj:Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;
 
-    iput-object v4, v3, Lcom/tencent/mm/modelcdntran/e;->bDJ:Lcom/tencent/mm/modelcdntran/e$a;
+    iput-object v4, v3, Lcom/tencent/mm/modelcdntran/Eclz;->bDJ:Lcom/tencent/mm/modelcdntran/Eclz$a;
 
     .line 400
     :try_start_0
@@ -109,7 +109,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v4
 
@@ -127,47 +127,47 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/y;->aQ([B)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/Yclz;->aQ([B)Ljava/lang/String;
 
     move-result-object v0
 
-    iput-object v0, v3, Lcom/tencent/mm/modelcdntran/e;->field_mediaId:Ljava/lang/String;
+    iput-object v0, v3, Lcom/tencent/mm/modelcdntran/Eclz;->field_mediaId:Ljava/lang/String;
     :try_end_0
     .catch Ljava/io/UnsupportedEncodingException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 404
     :goto_1
-    iput-object v2, v3, Lcom/tencent/mm/modelcdntran/e;->field_fullpath:Ljava/lang/String;
+    iput-object v2, v3, Lcom/tencent/mm/modelcdntran/Eclz;->field_fullpath:Ljava/lang/String;
 
     .line 405
     const-string/jumbo v0, ""
 
-    iput-object v0, v3, Lcom/tencent/mm/modelcdntran/e;->field_thumbpath:Ljava/lang/String;
+    iput-object v0, v3, Lcom/tencent/mm/modelcdntran/Eclz;->field_thumbpath:Ljava/lang/String;
 
     .line 406
     const/16 v0, 0x2af8
 
-    iput v0, v3, Lcom/tencent/mm/modelcdntran/e;->field_fileType:I
+    iput v0, v3, Lcom/tencent/mm/modelcdntran/Eclz;->field_fileType:I
 
     .line 407
     const-string/jumbo v0, ""
 
-    iput-object v0, v3, Lcom/tencent/mm/modelcdntran/e;->field_talker:Ljava/lang/String;
+    iput-object v0, v3, Lcom/tencent/mm/modelcdntran/Eclz;->field_talker:Ljava/lang/String;
 
     .line 408
     sget v0, Lcom/tencent/mm/modelcdntran/CdnTransportEngine;->bCz:I
 
-    iput v0, v3, Lcom/tencent/mm/modelcdntran/e;->field_priority:I
+    iput v0, v3, Lcom/tencent/mm/modelcdntran/Eclz;->field_priority:I
 
     .line 409
     const/4 v0, 0x1
 
-    iput-boolean v0, v3, Lcom/tencent/mm/modelcdntran/e;->field_needStorage:Z
+    iput-boolean v0, v3, Lcom/tencent/mm/modelcdntran/Eclz;->field_needStorage:Z
 
     .line 410
     const/4 v0, 0x0
 
-    iput-boolean v0, v3, Lcom/tencent/mm/modelcdntran/e;->field_isStreamMedia:Z
+    iput-boolean v0, v3, Lcom/tencent/mm/modelcdntran/Eclz;->field_isStreamMedia:Z
 
     .line 411
     iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI$6;->juj:Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;
@@ -176,7 +176,7 @@
 
     move-result-object v0
 
-    iget-object v2, v3, Lcom/tencent/mm/modelcdntran/e;->field_mediaId:Ljava/lang/String;
+    iget-object v2, v3, Lcom/tencent/mm/modelcdntran/Eclz;->field_mediaId:Ljava/lang/String;
 
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -187,16 +187,16 @@
 
     move-result-object v0
 
-    iget-object v2, v3, Lcom/tencent/mm/modelcdntran/e;->field_fullpath:Ljava/lang/String;
+    iget-object v2, v3, Lcom/tencent/mm/modelcdntran/Eclz;->field_fullpath:Ljava/lang/String;
 
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 413
-    invoke-static {}, Lcom/tencent/mm/modelcdntran/d;->xI()Lcom/tencent/mm/modelcdntran/a;
+    invoke-static {}, Lcom/tencent/mm/modelcdntran/Dclz;->xI()Lcom/tencent/mm/modelcdntran/Aclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/modelcdntran/a;->a(Lcom/tencent/mm/modelcdntran/e;)Z
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/modelcdntran/Aclz;->a(Lcom/tencent/mm/modelcdntran/Eclz;)Z
 
     goto :goto_0
 
@@ -225,7 +225,7 @@
 
     move-result-object v0
 
-    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -235,7 +235,7 @@
 
     const-string/jumbo v1, "[oneliang]no pic upload to cdn"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 417
     iget-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI$6;->juj:Lcom/tencent/mm/ui/ExposeWithProofStepTwoUI;

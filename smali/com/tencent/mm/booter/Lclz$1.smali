@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -68,7 +68,7 @@
 
     move-result-object v2
 
-    sget v3, Lcom/tencent/mm/sdk/platformtools/f;->akm:I
+    sget v3, Lcom/tencent/mm/sdk/platformtools/Fclz;->akm:I
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 

@@ -34,7 +34,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -62,7 +62,7 @@
     iput v0, p0, Lcom/tencent/mm/ui/base/preference/ChoicePreference;->eWX:I
 
     .line 45
-    sget-object v0, Lcom/tencent/mm/a$b;->ChoicePreference:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$b;->ChoicePreference:[I
 
     invoke-virtual {p1, p2, v0, p3, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -95,7 +95,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -191,7 +191,7 @@
     if-ge v1, v0, :cond_3
 
     .line 126
-    new-instance v0, Lcom/tencent/mm/ui/base/preference/b;
+    new-instance v0, Lcom/tencent/mm/ui/base/preference/Bclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/base/preference/ChoicePreference;->jTQ:[Ljava/lang/CharSequence;
 
@@ -201,7 +201,7 @@
 
     add-int/2addr v3, v1
 
-    invoke-direct {v0, v2, v3}, Lcom/tencent/mm/ui/base/preference/b;-><init>(Ljava/lang/CharSequence;I)V
+    invoke-direct {v0, v2, v3}, Lcom/tencent/mm/ui/base/preference/Bclz;-><init>(Ljava/lang/CharSequence;I)V
 
     .line 127
     iget-object v2, p0, Lcom/tencent/mm/ui/base/preference/ChoicePreference;->bfr:Ljava/util/HashMap;
@@ -349,7 +349,7 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/tencent/mm/ui/base/preference/b;
+    check-cast v1, Lcom/tencent/mm/ui/base/preference/Bclz;
 
     .line 72
     if-eqz v1, :cond_0
@@ -367,7 +367,7 @@
     check-cast v2, Landroid/widget/RadioButton;
 
     .line 78
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/base/preference/b;->a(Landroid/widget/RadioButton;)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/base/preference/Bclz;->a(Landroid/widget/RadioButton;)V
 
     .line 79
     iget-object v1, p0, Lcom/tencent/mm/ui/base/preference/ChoicePreference;->jTP:Landroid/widget/RadioGroup;
@@ -403,7 +403,7 @@
     check-cast v2, Landroid/widget/RadioButton;
 
     .line 83
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/base/preference/b;->a(Landroid/widget/RadioButton;)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/base/preference/Bclz;->a(Landroid/widget/RadioButton;)V
 
     .line 84
     iget-object v1, p0, Lcom/tencent/mm/ui/base/preference/ChoicePreference;->jTP:Landroid/widget/RadioGroup;
@@ -423,7 +423,7 @@
     check-cast v2, Landroid/widget/RadioButton;
 
     .line 88
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/base/preference/b;->a(Landroid/widget/RadioButton;)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/ui/base/preference/Bclz;->a(Landroid/widget/RadioButton;)V
 
     .line 89
     iget-object v1, p0, Lcom/tencent/mm/ui/base/preference/ChoicePreference;->jTP:Landroid/widget/RadioGroup;
@@ -460,7 +460,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/ui/base/preference/b;
+    check-cast v0, Lcom/tencent/mm/ui/base/preference/Bclz;
 
     .line 150
     if-nez v0, :cond_0
@@ -476,7 +476,7 @@
 
     .line 154
     :cond_0
-    iget v0, v0, Lcom/tencent/mm/ui/base/preference/b;->id:I
+    iget v0, v0, Lcom/tencent/mm/ui/base/preference/Bclz;->id:I
 
     iput v0, p0, Lcom/tencent/mm/ui/base/preference/ChoicePreference;->eWX:I
 

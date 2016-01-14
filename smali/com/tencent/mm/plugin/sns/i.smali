@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/sns/i;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -11,14 +11,14 @@
     .line 14
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     .line 15
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -26,12 +26,12 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 4
 
     .prologue
     .line 19
-    instance-of v0, p1, Lcom/tencent/mm/d/a/jw;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/JWclz;
 
     if-nez v0, :cond_0
 
@@ -40,7 +40,7 @@
 
     const-string/jumbo v1, "mismatched event"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 21
     const/4 v0, 0x0
@@ -51,28 +51,28 @@
 
     .line 23
     :cond_0
-    check-cast p1, Lcom/tencent/mm/d/a/jw;
+    check-cast p1, Lcom/tencent/mm/d/a/JWclz;
 
     .line 24
-    iget-object v0, p1, Lcom/tencent/mm/d/a/jw;->aER:Lcom/tencent/mm/d/a/jw$b;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/JWclz;->aER:Lcom/tencent/mm/d/a/JWclz$b;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/jw;->aEQ:Lcom/tencent/mm/d/a/jw$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/JWclz;->aEQ:Lcom/tencent/mm/d/a/JWclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/jw$a;->aET:Lcom/tencent/mm/d/a/as;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/JWclz$a;->aET:Lcom/tencent/mm/d/a/ASclz;
 
-    iget-object v2, p1, Lcom/tencent/mm/d/a/jw;->aEQ:Lcom/tencent/mm/d/a/jw$a;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/JWclz;->aEQ:Lcom/tencent/mm/d/a/JWclz$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/a/jw$a;->url:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/d/a/JWclz$a;->url:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/jw;->aEQ:Lcom/tencent/mm/d/a/jw$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/JWclz;->aEQ:Lcom/tencent/mm/d/a/JWclz$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/jw$a;->aES:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/JWclz$a;->aES:Ljava/lang/String;
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/plugin/sns/i/a;->a(Lcom/tencent/mm/d/a/as;Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/plugin/sns/i/a;->a(Lcom/tencent/mm/d/a/ASclz;Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v1
 
-    iput-boolean v1, v0, Lcom/tencent/mm/d/a/jw$b;->asS:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/d/a/JWclz$b;->asS:Z
 
     .line 25
     const/4 v0, 0x1

@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -57,15 +57,15 @@
     .line 591
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/d/ad$14;->gjS:Lcom/tencent/mm/plugin/sns/d/ad;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/d/ad;->a(Lcom/tencent/mm/plugin/sns/d/ad;)[Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/d/ad;->a(Lcom/tencent/mm/plugin/sns/d/ad;)[Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v0
 
     iget v1, p0, Lcom/tencent/mm/plugin/sns/d/ad$14;->bN:I
 
-    new-instance v2, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v2, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     aput-object v2, v0, v1
 

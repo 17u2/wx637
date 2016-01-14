@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/search/a/e$s;
-.super Lcom/tencent/mm/modelsearch/m$a;
+.super Lcom/tencent/mm/modelsearch/Mclz$a;
 .source "SourceFile"
 
 
@@ -32,7 +32,7 @@
     .line 1115
     iput-object p1, p0, Lcom/tencent/mm/plugin/search/a/e$s;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/m$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/Mclz$a;-><init>()V
 
     .line 1111
     const/4 v0, 0x0
@@ -52,7 +52,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -89,7 +89,7 @@
 
     aput-object v3, v2, v5
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1125
     iget v0, p0, Lcom/tencent/mm/plugin/search/a/e$s;->fHz:I
@@ -106,7 +106,7 @@
     .line 1127
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$s;->fHA:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->Bl(Ljava/lang/String;)J
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bl(Ljava/lang/String;)J
 
     move-result-wide v0
 
@@ -115,16 +115,16 @@
 
     iget-object v2, v2, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v3, Lcom/tencent/mm/modelsearch/c;->bQI:[I
+    sget-object v3, Lcom/tencent/mm/modelsearch/Cclz;->bQI:[I
 
     invoke-virtual {v2, v3, v0, v1}, Lcom/tencent/mm/plugin/search/a/b/a;->a([IJ)V
 
     .line 1129
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zf()Lcom/tencent/mm/modelfriend/ag;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zf()Lcom/tencent/mm/modelfriend/AGclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v0, v1}, Lcom/tencent/mm/modelfriend/ag;->T(J)Lcom/tencent/mm/modelfriend/af;
+    invoke-virtual {v2, v0, v1}, Lcom/tencent/mm/modelfriend/AGclz;->T(J)Lcom/tencent/mm/modelfriend/AFclz;
 
     move-result-object v0
 
@@ -152,7 +152,7 @@
     :cond_2
     new-instance v1, Lcom/tencent/mm/plugin/search/a/e$o;
 
-    invoke-direct {v1, v0}, Lcom/tencent/mm/plugin/search/a/e$o;-><init>(Lcom/tencent/mm/modelfriend/af;)V
+    invoke-direct {v1, v0}, Lcom/tencent/mm/plugin/search/a/e$o;-><init>(Lcom/tencent/mm/modelfriend/AFclz;)V
 
     .line 1134
     invoke-static {v1}, Lcom/tencent/mm/plugin/search/a/e;->b(Lcom/tencent/mm/plugin/search/a/e$o;)Z
@@ -184,7 +184,7 @@
     .line 1141
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$s;->fHA:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->Bl(Ljava/lang/String;)J
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bl(Ljava/lang/String;)J
 
     move-result-wide v0
 
@@ -193,21 +193,21 @@
 
     iget-object v2, v2, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v3, Lcom/tencent/mm/modelsearch/c;->bQJ:[I
+    sget-object v3, Lcom/tencent/mm/modelsearch/Cclz;->bQJ:[I
 
     invoke-virtual {v2, v3, v0, v1}, Lcom/tencent/mm/plugin/search/a/b/a;->a([IJ)V
 
     .line 1143
-    new-instance v2, Lcom/tencent/mm/modelfriend/o;
+    new-instance v2, Lcom/tencent/mm/modelfriend/Oclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/modelfriend/o;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/modelfriend/Oclz;-><init>()V
 
     .line 1144
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zi()Lcom/tencent/mm/modelfriend/p;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zi()Lcom/tencent/mm/modelfriend/Pclz;
 
     move-result-object v3
 
-    invoke-virtual {v3, v0, v1, v2}, Lcom/tencent/mm/modelfriend/p;->b(JLcom/tencent/mm/sdk/g/c;)Z
+    invoke-virtual {v3, v0, v1, v2}, Lcom/tencent/mm/modelfriend/Pclz;->b(JLcom/tencent/mm/sdk/g/Cclz;)Z
 
     move-result v0
 
@@ -232,7 +232,7 @@
     :cond_5
     new-instance v0, Lcom/tencent/mm/plugin/search/a/e$h;
 
-    invoke-direct {v0, v2}, Lcom/tencent/mm/plugin/search/a/e$h;-><init>(Lcom/tencent/mm/modelfriend/o;)V
+    invoke-direct {v0, v2}, Lcom/tencent/mm/plugin/search/a/e$h;-><init>(Lcom/tencent/mm/modelfriend/Oclz;)V
 
     .line 1149
     invoke-static {v0}, Lcom/tencent/mm/plugin/search/a/e;->b(Lcom/tencent/mm/plugin/search/a/e$h;)Z

@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -139,11 +139,11 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ui/base/preference/MMPreference$1;->jUH:Lcom/tencent/mm/ui/base/preference/MMPreference;
 
-    invoke-static {v4}, Lcom/tencent/mm/ui/base/preference/MMPreference;->d(Lcom/tencent/mm/ui/base/preference/MMPreference;)Lcom/tencent/mm/ui/base/preference/h;
+    invoke-static {v4}, Lcom/tencent/mm/ui/base/preference/MMPreference;->d(Lcom/tencent/mm/ui/base/preference/MMPreference;)Lcom/tencent/mm/ui/base/preference/Hclz;
 
     move-result-object v4
 
-    invoke-virtual {v3, v4, p1}, Lcom/tencent/mm/ui/base/preference/MMPreference;->a(Lcom/tencent/mm/ui/base/preference/f;Lcom/tencent/mm/ui/base/preference/Preference;)Z
+    invoke-virtual {v3, v4, p1}, Lcom/tencent/mm/ui/base/preference/MMPreference;->a(Lcom/tencent/mm/ui/base/preference/Fclz;Lcom/tencent/mm/ui/base/preference/Preference;)Z
 
     .line 129
     :cond_1
@@ -152,11 +152,11 @@
     .line 130
     iget-object v3, p0, Lcom/tencent/mm/ui/base/preference/MMPreference$1;->jUH:Lcom/tencent/mm/ui/base/preference/MMPreference;
 
-    invoke-static {v3}, Lcom/tencent/mm/ui/base/preference/MMPreference;->d(Lcom/tencent/mm/ui/base/preference/MMPreference;)Lcom/tencent/mm/ui/base/preference/h;
+    invoke-static {v3}, Lcom/tencent/mm/ui/base/preference/MMPreference;->d(Lcom/tencent/mm/ui/base/preference/MMPreference;)Lcom/tencent/mm/ui/base/preference/Hclz;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/tencent/mm/ui/base/preference/h;->notifyDataSetChanged()V
+    invoke-virtual {v3}, Lcom/tencent/mm/ui/base/preference/Hclz;->notifyDataSetChanged()V
 
     .line 132
     :cond_2

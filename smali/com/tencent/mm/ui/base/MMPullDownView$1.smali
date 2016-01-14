@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/ui/base/MMPullDownView$1;
-.super Lcom/tencent/mm/sdk/platformtools/ab;
+.super Lcom/tencent/mm/sdk/platformtools/ABclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 300
     iput-object p1, p0, Lcom/tencent/mm/ui/base/MMPullDownView$1;->jPa:Lcom/tencent/mm/ui/base/MMPullDownView;
 
-    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -47,7 +47,7 @@
     const/4 v2, 0x0
 
     .line 304
-    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/platformtools/ab;->handleMessage(Landroid/os/Message;)V
+    invoke-super {p0, p1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->handleMessage(Landroid/os/Message;)V
 
     .line 305
     iget-object v0, p0, Lcom/tencent/mm/ui/base/MMPullDownView$1;->jPa:Lcom/tencent/mm/ui/base/MMPullDownView;

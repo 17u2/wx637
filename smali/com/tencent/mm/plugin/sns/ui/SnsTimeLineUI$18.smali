@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/ui/base/f$c;
+.implements Lcom/tencent/mm/ui/base/Fclz$c;
 
 
 # annotations
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic gEt:Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI;
 
-.field final synthetic gEx:Lcom/tencent/mm/modelsns/a;
+.field final synthetic gEx:Lcom/tencent/mm/modelsns/Aclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI;Lcom/tencent/mm/modelsns/a;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI;Lcom/tencent/mm/modelsns/Aclz;)V
     .locals 1
 
     .prologue
     .line 1557
     iput-object p1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI$18;->gEt:Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI$18;->gEx:Lcom/tencent/mm/modelsns/a;
+    iput-object p2, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI$18;->gEx:Lcom/tencent/mm/modelsns/Aclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -65,21 +65,21 @@
     :pswitch_0
     sget-object v0, Lcom/tencent/mm/plugin/sns/g/c;->goq:Lcom/tencent/mm/plugin/sns/g/e;
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI$18;->gEx:Lcom/tencent/mm/modelsns/a;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI$18;->gEx:Lcom/tencent/mm/modelsns/Aclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/plugin/sns/g/e;->b(Lcom/tencent/mm/modelsns/a;)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/plugin/sns/g/e;->b(Lcom/tencent/mm/modelsns/Aclz;)Lcom/tencent/mm/modelsns/Aclz;
 
     .line 1564
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI$18;->gEx:Lcom/tencent/mm/modelsns/a;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI$18;->gEx:Lcom/tencent/mm/modelsns/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelsns/a;->Cg()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/modelsns/Aclz;->Cg()Z
 
     .line 1565
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI$18;->gEt:Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI;
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI$18;->gEx:Lcom/tencent/mm/modelsns/a;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI$18;->gEx:Lcom/tencent/mm/modelsns/Aclz;
 
-    iput-object v1, v0, Lcom/tencent/mm/plugin/sns/ui/SnsActivity;->gvO:Lcom/tencent/mm/modelsns/a;
+    iput-object v1, v0, Lcom/tencent/mm/plugin/sns/ui/SnsActivity;->gvO:Lcom/tencent/mm/modelsns/Aclz;
 
     .line 1566
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI$18;->gEt:Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI;
@@ -92,7 +92,7 @@
     :pswitch_1
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI$18;->gEt:Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ad/a;->aL(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/tencent/mm/ad/Aclz;->aL(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -108,7 +108,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI$18$1;-><init>(Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI$18;)V
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
 
     goto :goto_0
 

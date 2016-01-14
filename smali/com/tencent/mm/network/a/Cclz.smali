@@ -33,7 +33,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -80,7 +80,7 @@
     :try_start_0
     aget-object v2, v1, v2
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/p;->AB(Ljava/lang/String;)Ljava/net/InetAddress;
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/Pclz;->AB(Ljava/lang/String;)Ljava/net/InetAddress;
 
     move-result-object v2
 
@@ -124,13 +124,13 @@
 
     new-array v4, v6, [Ljava/lang/Object;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Throwable;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Throwable;)Ljava/lang/String;
 
     move-result-object v1
 
     aput-object v1, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 .end method

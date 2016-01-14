@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/tencent/mm/ui/base/a;
+.annotation runtime Lcom/tencent/mm/ui/base/Aclz;
     value = 0x7
 .end annotation
 
@@ -12,7 +12,7 @@
 # instance fields
 .field private gsg:Ljava/lang/String;
 
-.field private gsj:Lcom/tencent/mm/sdk/c/c;
+.field private gsj:Lcom/tencent/mm/sdk/c/Cclz;
 
 .field private hBD:Z
 
@@ -40,24 +40,24 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity$1;-><init>(Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;->gsj:Lcom/tencent/mm/sdk/c/c;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;->gsj:Lcom/tencent/mm/sdk/c/Cclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;)Lcom/tencent/mm/sdk/c/c;
+.method static synthetic a(Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;)Lcom/tencent/mm/sdk/c/Cclz;
     .locals 1
 
     .prologue
     .line 24
-    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;->gsj:Lcom/tencent/mm/sdk/c/c;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;->gsj:Lcom/tencent/mm/sdk/c/Cclz;
 
     return-object v0
 .end method
@@ -86,7 +86,7 @@
 
     const-string/jumbo v1, "hy: on create"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 73
     const v0, 0x7f0302c0
@@ -109,38 +109,38 @@
 
     const-string/jumbo v1, "hy: on pause"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 101
-    new-instance v0, Lcom/tencent/mm/d/a/s;
+    new-instance v0, Lcom/tencent/mm/d/a/Sclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/s;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/Sclz;-><init>()V
 
     .line 102
-    iget-object v1, v0, Lcom/tencent/mm/d/a/s;->asp:Lcom/tencent/mm/d/a/s$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/Sclz;->asp:Lcom/tencent/mm/d/a/Sclz$a;
 
-    iput-object p0, v1, Lcom/tencent/mm/d/a/s$a;->asr:Landroid/app/Activity;
+    iput-object p0, v1, Lcom/tencent/mm/d/a/Sclz$a;->asr:Landroid/app/Activity;
 
     .line 103
-    iget-object v1, v0, Lcom/tencent/mm/d/a/s;->asp:Lcom/tencent/mm/d/a/s$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/Sclz;->asp:Lcom/tencent/mm/d/a/Sclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;->gsg:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/s$a;->asq:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/Sclz$a;->asq:Ljava/lang/String;
 
     .line 104
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 105
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "NotifyDealQBarStrResult"
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;->gsj:Lcom/tencent/mm/sdk/c/c;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;->gsj:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 107
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;->finish()V
@@ -161,7 +161,7 @@
 
     const-string/jumbo v1, "hy: on start"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 81
     iget-boolean v0, p0, Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;->hBD:Z
@@ -193,35 +193,35 @@
     if-eqz v0, :cond_0
 
     .line 84
-    new-instance v0, Lcom/tencent/mm/d/a/ao;
+    new-instance v0, Lcom/tencent/mm/d/a/AOclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/ao;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/AOclz;-><init>()V
 
     .line 85
-    iget-object v1, v0, Lcom/tencent/mm/d/a/ao;->asX:Lcom/tencent/mm/d/a/ao$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/AOclz;->asX:Lcom/tencent/mm/d/a/AOclz$a;
 
-    iput-object p0, v1, Lcom/tencent/mm/d/a/ao$a;->asr:Landroid/app/Activity;
+    iput-object p0, v1, Lcom/tencent/mm/d/a/AOclz$a;->asr:Landroid/app/Activity;
 
     .line 86
-    iget-object v1, v0, Lcom/tencent/mm/d/a/ao;->asX:Lcom/tencent/mm/d/a/ao$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/AOclz;->asX:Lcom/tencent/mm/d/a/AOclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;->gsg:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/ao$a;->asq:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/AOclz$a;->asq:Ljava/lang/String;
 
     .line 87
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 88
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "NotifyDealQBarStrResult"
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;->gsj:Lcom/tencent/mm/sdk/c/c;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/webview/stub/WebviewScanImageActivity;->gsj:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 92
     :cond_0

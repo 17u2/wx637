@@ -111,7 +111,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -188,7 +188,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/compatible/util/h;->aA(Landroid/content/Context;)Z
+    invoke-static {v1}, Lcom/tencent/mm/compatible/util/Hclz;->aA(Landroid/content/Context;)Z
 
     move-result v1
 
@@ -203,7 +203,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/compatible/util/h;->ay(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/tencent/mm/compatible/util/Hclz;->ay(Landroid/content/Context;)I
 
     move-result v1
 
@@ -469,7 +469,7 @@
 
     .prologue
     .line 374
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -571,7 +571,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -605,7 +605,7 @@
 
     const-string/jumbo v1, "send edittext is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 284
     :goto_0
@@ -675,7 +675,7 @@
 
     const-string/jumbo v1, "commentfooter release"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 670
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsCommentFooter;->eEd:Lcom/tencent/mm/pluginsdk/ui/ChatFooterPanel;
@@ -725,7 +725,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 163
     if-nez p1, :cond_1
@@ -848,13 +848,13 @@
 
     const-string/jumbo v1, ""
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 298
     :goto_0
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -1004,7 +1004,7 @@
 
     const-string/jumbo v1, "jacks dynamic adjust animation up"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 652
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsCommentFooter;->gxx:Lcom/tencent/mm/plugin/sns/ui/av;

@@ -10,7 +10,7 @@
 
 
 # instance fields
-.field private final cBH:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private final cBH:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field private cBq:Landroid/widget/ImageView;
 
@@ -22,7 +22,7 @@
 
 .field private dHg:Landroid/view/View;
 
-.field private gPt:Lcom/tencent/mm/ui/base/n;
+.field private gPt:Lcom/tencent/mm/ui/base/Nclz;
 
 .field private gPu:Landroid/widget/TextView;
 
@@ -60,7 +60,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -105,7 +105,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/talkroom/ui/a$1;-><init>(Lcom/tencent/mm/plugin/talkroom/ui/a;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->cBH:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->cBH:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 39
     iput-object p1, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->context:Landroid/content/Context;
@@ -129,7 +129,7 @@
     check-cast v0, Landroid/view/LayoutInflater;
 
     .line 46
-    new-instance v1, Lcom/tencent/mm/ui/base/n;
+    new-instance v1, Lcom/tencent/mm/ui/base/Nclz;
 
     const v2, 0x7f03056a
 
@@ -143,14 +143,14 @@
 
     const/4 v3, -0x2
 
-    invoke-direct {v1, v0, v2, v3}, Lcom/tencent/mm/ui/base/n;-><init>(Landroid/view/View;II)V
+    invoke-direct {v1, v0, v2, v3}, Lcom/tencent/mm/ui/base/Nclz;-><init>(Landroid/view/View;II)V
 
-    iput-object v1, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPt:Lcom/tencent/mm/ui/base/n;
+    iput-object v1, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPt:Lcom/tencent/mm/ui/base/Nclz;
 
     .line 48
-    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPt:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPt:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/n;->getContentView()Landroid/view/View;
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Nclz;->getContentView()Landroid/view/View;
 
     move-result-object v0
 
@@ -165,9 +165,9 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->cBq:Landroid/widget/ImageView;
 
     .line 49
-    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPt:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPt:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/n;->getContentView()Landroid/view/View;
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Nclz;->getContentView()Landroid/view/View;
 
     move-result-object v0
 
@@ -180,9 +180,9 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->dHg:Landroid/view/View;
 
     .line 51
-    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPt:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPt:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/n;->getContentView()Landroid/view/View;
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Nclz;->getContentView()Landroid/view/View;
 
     move-result-object v0
 
@@ -197,9 +197,9 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPu:Landroid/widget/TextView;
 
     .line 52
-    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPt:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPt:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/n;->getContentView()Landroid/view/View;
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Nclz;->getContentView()Landroid/view/View;
 
     move-result-object v0
 
@@ -214,9 +214,9 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPv:Landroid/widget/ImageView;
 
     .line 53
-    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPt:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPt:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/n;->getContentView()Landroid/view/View;
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Nclz;->getContentView()Landroid/view/View;
 
     move-result-object v0
 
@@ -229,9 +229,9 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPw:Landroid/view/View;
 
     .line 54
-    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPt:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPt:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/n;->getContentView()Landroid/view/View;
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Nclz;->getContentView()Landroid/view/View;
 
     move-result-object v0
 
@@ -244,9 +244,9 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->dHd:Landroid/view/View;
 
     .line 55
-    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPt:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPt:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/n;->getContentView()Landroid/view/View;
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Nclz;->getContentView()Landroid/view/View;
 
     move-result-object v0
 
@@ -263,18 +263,18 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/plugin/talkroom/ui/a;)Lcom/tencent/mm/ui/base/n;
+.method static synthetic a(Lcom/tencent/mm/plugin/talkroom/ui/a;)Lcom/tencent/mm/ui/base/Nclz;
     .locals 1
 
     .prologue
     .line 18
-    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPt:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/ui/a;->gPt:Lcom/tencent/mm/ui/base/Nclz;
 
     return-object v0
 .end method

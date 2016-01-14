@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic jCE:Lcom/tencent/mm/ui/account/LoginHistoryUI;
 
-.field final synthetic jCF:Lcom/tencent/mm/modelsimple/t;
+.field final synthetic jCF:Lcom/tencent/mm/modelsimple/Tclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/account/LoginHistoryUI;Lcom/tencent/mm/modelsimple/t;)V
+.method constructor <init>(Lcom/tencent/mm/ui/account/LoginHistoryUI;Lcom/tencent/mm/modelsimple/Tclz;)V
     .locals 1
 
     .prologue
     .line 891
     iput-object p1, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$8;->jCE:Lcom/tencent/mm/ui/account/LoginHistoryUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$8;->jCF:Lcom/tencent/mm/modelsimple/t;
+    iput-object p2, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$8;->jCF:Lcom/tencent/mm/modelsimple/Tclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,14 +56,14 @@
 
     const-string/jumbo v1, "onSceneEnd, in runnable"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 896
     iget-object v0, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$8;->jCE:Lcom/tencent/mm/ui/account/LoginHistoryUI;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$8;->jCF:Lcom/tencent/mm/modelsimple/t;
+    iget-object v1, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$8;->jCF:Lcom/tencent/mm/modelsimple/Tclz;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->a(Lcom/tencent/mm/ui/account/LoginHistoryUI;Lcom/tencent/mm/modelsimple/t;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->a(Lcom/tencent/mm/ui/account/LoginHistoryUI;Lcom/tencent/mm/modelsimple/Tclz;)V
 
     .line 897
     return-void

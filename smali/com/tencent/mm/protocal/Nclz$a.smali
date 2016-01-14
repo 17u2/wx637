@@ -75,7 +75,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -114,7 +114,7 @@
 
     invoke-direct {v1}, Lcom/tencent/mm/protocal/b/ajy;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->aPg()[B
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aPg()[B
 
     move-result-object v2
 

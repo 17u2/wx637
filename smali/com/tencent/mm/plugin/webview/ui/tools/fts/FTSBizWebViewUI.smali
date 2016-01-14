@@ -33,7 +33,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -108,16 +108,16 @@
     .line 42
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/fts/FTSBaseWebViewUI;->aBw:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 43
-    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/fts/FTSBaseWebViewUI;->cRs:Lcom/tencent/mm/ui/tools/q;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/fts/FTSBaseWebViewUI;->cRs:Lcom/tencent/mm/ui/tools/Qclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/tools/q;->bbk()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/tools/Qclz;->bbk()Z
 
     .line 44
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/webview/ui/tools/fts/FTSBizWebViewUI;->alA()V
@@ -229,7 +229,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -259,7 +259,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/plugin/webview/ui/tools/fts/FTSBaseWebViewUI;->aBw:Ljava/lang/String;
 
-    invoke-static {p0, v3, p1}, Lcom/tencent/mm/modelsearch/e;->h(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/text/Spannable;
+    invoke-static {p0, v3, p1}, Lcom/tencent/mm/modelsearch/Eclz;->h(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/text/Spannable;
 
     move-result-object v3
 

@@ -18,7 +18,7 @@
 # instance fields
 .field private context:Landroid/content/Context;
 
-.field private dHP:Lcom/tencent/mm/ui/base/h;
+.field private dHP:Lcom/tencent/mm/ui/base/Hclz;
 
 .field private dyg:Landroid/view/View;
 
@@ -45,7 +45,7 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->gqf:Lcom/tencent/mm/protocal/b/BMclz;
 
     .line 27
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->dHP:Lcom/tencent/mm/ui/base/h;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->dHP:Lcom/tencent/mm/ui/base/Hclz;
 
     .line 34
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->context:Landroid/content/Context;
@@ -58,7 +58,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -77,7 +77,7 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->gqf:Lcom/tencent/mm/protocal/b/BMclz;
 
     .line 27
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->dHP:Lcom/tencent/mm/ui/base/h;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->dHP:Lcom/tencent/mm/ui/base/Hclz;
 
     .line 34
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->context:Landroid/content/Context;
@@ -90,7 +90,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -126,22 +126,22 @@
     return-object p1
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;)Lcom/tencent/mm/ui/base/h;
+.method static synthetic a(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;)Lcom/tencent/mm/ui/base/Hclz;
     .locals 1
 
     .prologue
     .line 22
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->dHP:Lcom/tencent/mm/ui/base/h;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->dHP:Lcom/tencent/mm/ui/base/Hclz;
 
     return-object v0
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;Lcom/tencent/mm/ui/base/h;)Lcom/tencent/mm/ui/base/h;
+.method static synthetic a(Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;Lcom/tencent/mm/ui/base/Hclz;)Lcom/tencent/mm/ui/base/Hclz;
     .locals 0
 
     .prologue
     .line 22
-    iput-object p1, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->dHP:Lcom/tencent/mm/ui/base/h;
+    iput-object p1, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->dHP:Lcom/tencent/mm/ui/base/Hclz;
 
     return-object p1
 .end method
@@ -281,13 +281,13 @@
 
     .line 149
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->dHP:Lcom/tencent/mm/ui/base/h;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->dHP:Lcom/tencent/mm/ui/base/Hclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->dHP:Lcom/tencent/mm/ui/base/h;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistHeader;->dHP:Lcom/tencent/mm/ui/base/Hclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/h;->isShowing()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Hclz;->isShowing()Z
 
     move-result v0
 
@@ -374,7 +374,7 @@
 
     const-string/jumbo v1, "userName or selfName is null "
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 125
     :goto_0

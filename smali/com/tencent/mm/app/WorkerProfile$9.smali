@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/app/WorkerProfile$9;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,10 +52,10 @@
 
     const-string/jumbo v1, "ExtCallBizEvent IListener:context is null."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1009
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object p0
 
@@ -75,7 +75,7 @@
 
     const-string/jumbo v1, "ExtCallBizEvent IListener:args error."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1013
     const/4 v0, 0x0
@@ -108,7 +108,7 @@
 
     aput-object v2, v5, v6
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1015
     add-int/lit8 v0, v0, 0x1
@@ -207,7 +207,7 @@
 
     aput-object v9, v7, v8
 
-    invoke-static {v3, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1045
     packed-switch p3, :pswitch_data_0
@@ -217,7 +217,7 @@
 
     const-string/jumbo v1, "ExtCallBizEvent IListener:source is out of range."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1062
     const/4 v0, 0x0
@@ -245,7 +245,7 @@
 
     aput-object v2, v7, v8
 
-    invoke-static {v3, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_2
 
@@ -270,7 +270,7 @@
 
     aput-object v3, v8, v9
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_3
 
@@ -288,7 +288,7 @@
 
     const-string/jumbo v1, "ExtCallBizEvent IListener:packageNames is null or nil."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1049
     const/4 v0, 0x0
@@ -297,7 +297,7 @@
 
     .line 1054
     :pswitch_1
-    invoke-static {p4}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -316,7 +316,7 @@
 
     aput-object p4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1056
     const/4 v0, 0x0
@@ -349,16 +349,16 @@
 
     aput-object p4, v7, v8
 
-    invoke-static {v3, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1067
-    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
     if-nez v3, :cond_9
 
-    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -370,7 +370,7 @@
 
     const-string/jumbo v1, "appId or toUsername is null or nil."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1069
     const/4 v0, 0x0
@@ -508,7 +508,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 11
 
     .prologue
@@ -530,7 +530,7 @@
 
     const-string/jumbo v2, "ExtCallBizEvent IListener:event is null."
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1003
     :goto_0
@@ -538,7 +538,7 @@
 
     .line 940
     :cond_0
-    instance-of v0, p1, Lcom/tencent/mm/d/a/ci;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/CIclz;
 
     if-nez v0, :cond_1
 
@@ -547,16 +547,16 @@
 
     const-string/jumbo v2, "ExtCallBizEvent IListener:event is not a instance of ExtCallBizEvent."
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 944
     :cond_1
-    check-cast p1, Lcom/tencent/mm/d/a/ci;
+    check-cast p1, Lcom/tencent/mm/d/a/CIclz;
 
     .line 945
-    iget-object v0, p1, Lcom/tencent/mm/d/a/ci;->auX:Lcom/tencent/mm/d/a/ci$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/CIclz;->auX:Lcom/tencent/mm/d/a/CIclz$a;
 
     if-nez v0, :cond_2
 
@@ -565,38 +565,38 @@
 
     const-string/jumbo v2, "ExtCallBizEvent IListener:event.data is null."
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 950
     :cond_2
-    iget-object v0, p1, Lcom/tencent/mm/d/a/ci;->auX:Lcom/tencent/mm/d/a/ci$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/CIclz;->auX:Lcom/tencent/mm/d/a/CIclz$a;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/ci$a;->op:I
+    iget v0, v0, Lcom/tencent/mm/d/a/CIclz$a;->op:I
 
     packed-switch v0, :pswitch_data_0
 
     .line 1003
-    iget-object v0, p1, Lcom/tencent/mm/d/a/ci;->auX:Lcom/tencent/mm/d/a/ci$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/CIclz;->auX:Lcom/tencent/mm/d/a/CIclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/ci$a;->context:Landroid/content/Context;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/CIclz$a;->context:Landroid/content/Context;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/ci;->auX:Lcom/tencent/mm/d/a/ci$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/CIclz;->auX:Lcom/tencent/mm/d/a/CIclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/ci$a;->selectionArgs:[Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/CIclz$a;->selectionArgs:[Ljava/lang/String;
 
-    iget-object v2, p1, Lcom/tencent/mm/d/a/ci;->auX:Lcom/tencent/mm/d/a/ci$a;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/CIclz;->auX:Lcom/tencent/mm/d/a/CIclz$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/a/ci$a;->arE:[Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/d/a/CIclz$a;->arE:[Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/ci;->auX:Lcom/tencent/mm/d/a/ci$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/CIclz;->auX:Lcom/tencent/mm/d/a/CIclz$a;
 
-    iget v3, v3, Lcom/tencent/mm/d/a/ci$a;->auY:I
+    iget v3, v3, Lcom/tencent/mm/d/a/CIclz$a;->auY:I
 
-    iget-object v4, p1, Lcom/tencent/mm/d/a/ci;->auX:Lcom/tencent/mm/d/a/ci$a;
+    iget-object v4, p1, Lcom/tencent/mm/d/a/CIclz;->auX:Lcom/tencent/mm/d/a/CIclz$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/ci$a;->auZ:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/CIclz$a;->auZ:Ljava/lang/String;
 
     invoke-static {v0, v1, v2, v3, v4}, Lcom/tencent/mm/app/WorkerProfile$9;->a(Landroid/content/Context;[Ljava/lang/String;[Ljava/lang/String;ILjava/lang/String;)Z
 
@@ -606,15 +606,15 @@
 
     .line 952
     :pswitch_0
-    iget-object v0, p1, Lcom/tencent/mm/d/a/ci;->auX:Lcom/tencent/mm/d/a/ci$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/CIclz;->auX:Lcom/tencent/mm/d/a/CIclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/ci$a;->selectionArgs:[Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/CIclz$a;->selectionArgs:[Ljava/lang/String;
 
     if-eqz v0, :cond_3
 
-    iget-object v0, p1, Lcom/tencent/mm/d/a/ci;->auX:Lcom/tencent/mm/d/a/ci$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/CIclz;->auX:Lcom/tencent/mm/d/a/CIclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/ci$a;->selectionArgs:[Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/CIclz$a;->selectionArgs:[Ljava/lang/String;
 
     array-length v0, v0
 
@@ -626,7 +626,7 @@
 
     const-string/jumbo v1, "ExtCallBizEvent selectionArgs error."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v1, v2
 
@@ -638,36 +638,36 @@
     const-string/jumbo v0, ""
 
     .line 958
-    iget-object v3, p1, Lcom/tencent/mm/d/a/ci;->auX:Lcom/tencent/mm/d/a/ci$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/CIclz;->auX:Lcom/tencent/mm/d/a/CIclz$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/ci$a;->selectionArgs:[Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/CIclz$a;->selectionArgs:[Ljava/lang/String;
 
     aget-object v4, v3, v1
 
     .line 959
-    iget-object v3, p1, Lcom/tencent/mm/d/a/ci;->auX:Lcom/tencent/mm/d/a/ci$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/CIclz;->auX:Lcom/tencent/mm/d/a/CIclz$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/ci$a;->selectionArgs:[Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/CIclz$a;->selectionArgs:[Ljava/lang/String;
 
     aget-object v5, v3, v2
 
     .line 960
-    iget-object v3, p1, Lcom/tencent/mm/d/a/ci;->auX:Lcom/tencent/mm/d/a/ci$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/CIclz;->auX:Lcom/tencent/mm/d/a/CIclz$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/ci$a;->selectionArgs:[Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/CIclz$a;->selectionArgs:[Ljava/lang/String;
 
     array-length v3, v3
 
     if-lt v3, v9, :cond_8
 
     .line 961
-    iget-object v0, p1, Lcom/tencent/mm/d/a/ci;->auX:Lcom/tencent/mm/d/a/ci$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/CIclz;->auX:Lcom/tencent/mm/d/a/CIclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/ci$a;->selectionArgs:[Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/CIclz$a;->selectionArgs:[Ljava/lang/String;
 
     aget-object v0, v0, v8
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -701,7 +701,7 @@
 
     aput-object v5, v6, v2
 
-    invoke-static {v0, v3, v6}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     move v1, v2
 
@@ -718,23 +718,23 @@
 
     .line 973
     :cond_6
-    iget-object v0, p1, Lcom/tencent/mm/d/a/ci;->auX:Lcom/tencent/mm/d/a/ci$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/CIclz;->auX:Lcom/tencent/mm/d/a/CIclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/ci$a;->selectionArgs:[Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/CIclz$a;->selectionArgs:[Ljava/lang/String;
 
     array-length v0, v0
 
     if-lt v0, v10, :cond_7
 
     .line 974
-    iget-object v0, p1, Lcom/tencent/mm/d/a/ci;->auX:Lcom/tencent/mm/d/a/ci$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/CIclz;->auX:Lcom/tencent/mm/d/a/CIclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/ci$a;->selectionArgs:[Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/CIclz$a;->selectionArgs:[Ljava/lang/String;
 
     aget-object v0, v0, v9
 
     .line 975
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v6
 
@@ -754,7 +754,7 @@
 
     const-string/jumbo v7, "ExtCallBizEvent jump biz tempSession"
 
-    invoke-static {v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 984
     const-string/jumbo v6, "weixin://dl/business/tempsession/?username=%s&appid=%s&sessionFrom=%s&showtype=%s&scene=%s"
@@ -788,9 +788,9 @@
     .line 985
     new-instance v1, Landroid/content/Intent;
 
-    iget-object v3, p1, Lcom/tencent/mm/d/a/ci;->auX:Lcom/tencent/mm/d/a/ci$a;
+    iget-object v3, p1, Lcom/tencent/mm/d/a/CIclz;->auX:Lcom/tencent/mm/d/a/CIclz$a;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/a/ci$a;->context:Landroid/content/Context;
+    iget-object v3, v3, Lcom/tencent/mm/d/a/CIclz$a;->context:Landroid/content/Context;
 
     const-class v4, Lcom/tencent/mm/plugin/base/stub/WXCustomSchemeEntryActivity;
 
@@ -814,9 +814,9 @@
     invoke-virtual {v1, v0, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 989
-    iget-object v0, p1, Lcom/tencent/mm/d/a/ci;->auX:Lcom/tencent/mm/d/a/ci$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/CIclz;->auX:Lcom/tencent/mm/d/a/CIclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/ci$a;->context:Landroid/content/Context;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/CIclz$a;->context:Landroid/content/Context;
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
@@ -839,12 +839,12 @@
 
     const-string/jumbo v1, "ExtCallBizEvent open exdevice rank list."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 994
-    iget-object v0, p1, Lcom/tencent/mm/d/a/ci;->auX:Lcom/tencent/mm/d/a/ci$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/CIclz;->auX:Lcom/tencent/mm/d/a/CIclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/ci$a;->context:Landroid/content/Context;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/CIclz$a;->context:Landroid/content/Context;
 
     .line 995
     new-instance v1, Landroid/content/Intent;

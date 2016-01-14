@@ -57,7 +57,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -122,7 +122,7 @@
     .line 101
     const/4 v0, 0x1
 
-    invoke-static {p1, p3, v0, p4}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {p1, p3, v0, p4}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
@@ -134,9 +134,9 @@
 
     .prologue
     .line 111
-    new-instance v0, Lcom/tencent/mm/modelsimple/ae;
+    new-instance v0, Lcom/tencent/mm/modelsimple/AEclz;
 
-    invoke-direct {v0, p1, p2, p3}, Lcom/tencent/mm/modelsimple/ae;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/ajy;)V
+    invoke-direct {v0, p1, p2, p3}, Lcom/tencent/mm/modelsimple/AEclz;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/protocal/b/ajy;)V
 
     return-object v0
 .end method
@@ -210,25 +210,25 @@
     invoke-virtual {v1}, Landroid/widget/Toast;->show()V
 
     .line 206
-    check-cast p4, Lcom/tencent/mm/modelsimple/ae;
+    check-cast p4, Lcom/tencent/mm/modelsimple/AEclz;
 
-    iget-object v1, p4, Lcom/tencent/mm/modelsimple/ae;->ant:Lcom/tencent/mm/q/Aclz;
+    iget-object v1, p4, Lcom/tencent/mm/modelsimple/AEclz;->ant:Lcom/tencent/mm/q/Aclz;
 
     if-eqz v1, :cond_3
 
-    iget-object v1, p4, Lcom/tencent/mm/modelsimple/ae;->ant:Lcom/tencent/mm/q/Aclz;
+    iget-object v1, p4, Lcom/tencent/mm/modelsimple/AEclz;->ant:Lcom/tencent/mm/q/Aclz;
 
     iget-object v1, v1, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v1, v1, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v1, v1, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     if-eqz v1, :cond_3
 
-    iget-object v0, p4, Lcom/tencent/mm/modelsimple/ae;->ant:Lcom/tencent/mm/q/Aclz;
+    iget-object v0, p4, Lcom/tencent/mm/modelsimple/AEclz;->ant:Lcom/tencent/mm/q/Aclz;
 
     iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/amh;
 
@@ -244,14 +244,14 @@
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/amh;->ilY:Lcom/tencent/mm/protocal/b/ajy;
 
     .line 209
-    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/b;
+    iget-object v0, v0, Lcom/tencent/mm/protocal/b/ajy;->iSw:Lcom/tencent/mm/aq/Bclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/aq/b;->toByteArray()[B
+    invoke-virtual {v0}, Lcom/tencent/mm/aq/Bclz;->toByteArray()[B
 
     move-result-object v0
 
     .line 210
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -282,7 +282,7 @@
     .line 213
     const-string/jumbo v2, "_auth_key"
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->aS([B)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->aS([B)Ljava/lang/String;
 
     move-result-object v0
 
@@ -381,9 +381,9 @@
     .line 231
     sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     invoke-interface {v0, v1, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/e;->a(Landroid/content/Context;IILjava/lang/String;)Z
 
@@ -430,7 +430,7 @@
 
     const-string/jumbo v1, "cpan settpassword cancel 11868 1"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 247
     sget-object v0, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;
@@ -506,7 +506,7 @@
     move-result-object v0
 
     .line 60
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jZ(Ljava/lang/String;)[B
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jZ(Ljava/lang/String;)[B
 
     move-result-object v0
 
@@ -516,7 +516,7 @@
     invoke-direct {v1}, Lcom/tencent/mm/protocal/b/BVclz;-><init>()V
 
     .line 63
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->I([B)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->I([B)Z
 
     move-result v2
 
@@ -535,7 +535,7 @@
 
     .line 66
     :try_start_0
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/protocal/b/BVclz;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/protocal/b/BVclz;->ak([B)Lcom/tencent/mm/aq/Aclz;
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -551,7 +551,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/account/SetPwdUI$1;-><init>(Lcom/tencent/mm/ui/account/SetPwdUI;)V
 
-    sget v2, Lcom/tencent/mm/ui/j$b;->jyX:I
+    sget v2, Lcom/tencent/mm/ui/Jclz$b;->jyX:I
 
     invoke-virtual {p0, v4, v0, v1, v2}, Lcom/tencent/mm/ui/account/SetPwdUI;->a(ILjava/lang/String;Landroid/view/MenuItem$OnMenuItemClickListener;I)V
 
@@ -575,7 +575,7 @@
 
     new-array v3, v4, [Ljava/lang/Object;
 
-    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 

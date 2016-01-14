@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/tencent/mm/ui/base/a;
+.annotation runtime Lcom/tencent/mm/ui/base/Aclz;
     value = 0x3
 .end annotation
 
@@ -20,11 +20,11 @@
 
 .field private aoI:Ljava/util/List;
 
-.field private aoL:Lcom/tencent/mm/ui/base/g;
+.field private aoL:Lcom/tencent/mm/ui/base/Gclz;
 
 .field private aoM:Lcom/tencent/mm/app/plugin/voicereminder/a/d$a;
 
-.field private handler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -48,7 +48,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -74,11 +74,11 @@
     iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->aoI:Ljava/util/List;
 
     .line 35
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 40
     new-instance v0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog$1;
@@ -91,7 +91,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -127,12 +127,12 @@
     return-object v0
 .end method
 
-.method static synthetic d(Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;)Lcom/tencent/mm/ui/base/g;
+.method static synthetic d(Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;)Lcom/tencent/mm/ui/base/Gclz;
     .locals 1
 
     .prologue
     .line 27
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->aoL:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
     return-object v0
 .end method
@@ -172,7 +172,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 224
     sget-boolean v0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->aoK:Z
@@ -275,13 +275,13 @@
 
     .prologue
     .line 166
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     new-instance v1, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog$5;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog$5;-><init>(Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 187
     return-void
@@ -302,19 +302,19 @@
     invoke-virtual {p0, v0}, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->requestWindowFeature(I)Z
 
     .line 59
-    new-instance v1, Lcom/tencent/mm/ui/base/g$a;
+    new-instance v1, Lcom/tencent/mm/ui/base/Gclz$a;
 
-    invoke-direct {v1, p0}, Lcom/tencent/mm/ui/base/g$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p0}, Lcom/tencent/mm/ui/base/Gclz$a;-><init>(Landroid/content/Context;)V
 
     .line 60
     const v0, 0x7f090741
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/g$a;->pO(I)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/Gclz$a;->pO(I)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 61
     const-string/jumbo v0, " "
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/g$a;->Em(Ljava/lang/String;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/Gclz$a;->Em(Ljava/lang/String;)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 62
     const v0, 0x7f09073f
@@ -323,7 +323,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog$2;-><init>(Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;)V
 
-    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/ui/base/g$a;->b(ILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/ui/base/Gclz$a;->b(ILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 84
     const v0, 0x7f090740
@@ -332,14 +332,14 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog$3;-><init>(Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;)V
 
-    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/ui/base/g$a;->c(ILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/ui/base/Gclz$a;->c(ILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 97
     new-instance v0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog$4;
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog$4;-><init>(Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;)V
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/g$a;->a(Landroid/content/DialogInterface$OnDismissListener;)Lcom/tencent/mm/ui/base/g$a;
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/Gclz$a;->a(Landroid/content/DialogInterface$OnDismissListener;)Lcom/tencent/mm/ui/base/Gclz$a;
 
     .line 112
     invoke-virtual {p0}, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->getIntent()Landroid/content/Intent;
@@ -404,23 +404,23 @@
 
     .line 157
     :cond_0
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/base/g$a;->aVX()Lcom/tencent/mm/ui/base/g;
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/base/Gclz$a;->aVX()Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->aoL:Lcom/tencent/mm/ui/base/g;
+    iput-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
     .line 158
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->aoL:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/g;->setCanceledOnTouchOutside(Z)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/Gclz;->setCanceledOnTouchOutside(Z)V
 
     .line 159
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->aoL:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->show()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->show()V
 
     .line 161
     invoke-direct {p0}, Lcom/tencent/mm/app/plugin/voicereminder/ui/RemindDialog;->lI()V

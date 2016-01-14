@@ -32,7 +32,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -186,13 +186,13 @@
     invoke-virtual {v0, v6}, Lcom/tencent/mm/plugin/talkroom/model/i;->pM(Ljava/lang/String;)V
 
     .line 838
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
     const v1, 0x7f090f7c
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ap;->C(Landroid/content/Context;I)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/APclz;->C(Landroid/content/Context;I)V
 
     goto :goto_0
 .end method

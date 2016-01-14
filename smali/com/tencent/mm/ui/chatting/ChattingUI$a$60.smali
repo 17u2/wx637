@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,7 +52,7 @@
 
     const-string/jumbo v1, "now try to activity the tools process"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 2342
     new-instance v0, Landroid/content/Intent;
@@ -62,7 +62,7 @@
     .line 2343
     new-instance v1, Landroid/content/ComponentName;
 
-    sget-object v2, Lcom/tencent/mm/ui/d$d;->jtf:Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/ui/Dclz$d;->jtf:Ljava/lang/String;
 
     const-string/jumbo v3, "com.tencent.mm.booter.MMReceivers$ToolsProcessReceiver"
 

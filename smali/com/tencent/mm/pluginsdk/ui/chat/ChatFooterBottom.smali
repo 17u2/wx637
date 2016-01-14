@@ -25,7 +25,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,7 +48,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -131,7 +131,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 59
     invoke-super/range {p0 .. p5}, Landroid/widget/FrameLayout;->onLayout(ZIIII)V
@@ -189,7 +189,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 45
     iget-boolean v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooterBottom;->aFE:Z
@@ -264,7 +264,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 69
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/FrameLayout;->onSizeChanged(IIII)V
@@ -281,19 +281,19 @@
     iput-boolean p1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooterBottom;->aFE:Z
 
     .line 76
-    new-instance v0, Lcom/tencent/mm/d/a/z;
+    new-instance v0, Lcom/tencent/mm/d/a/Zclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/z;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/Zclz;-><init>()V
 
     .line 77
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 78
-    iget-object v0, v0, Lcom/tencent/mm/d/a/z;->asB:Lcom/tencent/mm/d/a/z$a;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/Zclz;->asB:Lcom/tencent/mm/d/a/Zclz$a;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/d/a/z$a;->ib:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/d/a/Zclz$a;->ib:Z
 
     if-eqz v0, :cond_0
 
@@ -330,24 +330,24 @@
 
     .line 89
     :cond_0
-    new-instance v1, Lcom/tencent/mm/d/a/u;
+    new-instance v1, Lcom/tencent/mm/d/a/Uclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/d/a/u;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/d/a/Uclz;-><init>()V
 
     .line 90
-    iget-object v2, v1, Lcom/tencent/mm/d/a/u;->ast:Lcom/tencent/mm/d/a/u$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/Uclz;->ast:Lcom/tencent/mm/d/a/Uclz$a;
 
     if-nez p1, :cond_1
 
     const/4 v0, 0x1
 
     :cond_1
-    iput-boolean v0, v2, Lcom/tencent/mm/d/a/u$a;->isVisible:Z
+    iput-boolean v0, v2, Lcom/tencent/mm/d/a/Uclz$a;->isVisible:Z
 
     .line 91
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 93
     invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setVisibility(I)V

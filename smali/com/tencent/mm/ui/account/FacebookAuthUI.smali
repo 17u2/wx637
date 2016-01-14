@@ -19,17 +19,17 @@
 
 
 # instance fields
-.field private cgw:Lcom/tencent/mm/ui/base/preference/f;
+.field private cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
 .field private final czz:Ljava/util/Map;
 
-.field private jAP:Lcom/tencent/mm/ui/d/a/c;
+.field private jAP:Lcom/tencent/mm/ui/d/a/Cclz;
 
 .field private jAQ:Landroid/app/ProgressDialog;
 
 .field private jAR:Landroid/content/DialogInterface$OnCancelListener;
 
-.field private jAS:Lcom/tencent/mm/modelsimple/g;
+.field private jAS:Lcom/tencent/mm/modelsimple/Gclz;
 
 .field private jBj:Z
 
@@ -64,7 +64,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -97,7 +97,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -113,22 +113,22 @@
     return-object p1
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/account/FacebookAuthUI;)Lcom/tencent/mm/modelsimple/g;
+.method static synthetic a(Lcom/tencent/mm/ui/account/FacebookAuthUI;)Lcom/tencent/mm/modelsimple/Gclz;
     .locals 1
 
     .prologue
     .line 46
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAS:Lcom/tencent/mm/modelsimple/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAS:Lcom/tencent/mm/modelsimple/Gclz;
 
     return-object v0
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/account/FacebookAuthUI;Lcom/tencent/mm/modelsimple/g;)Lcom/tencent/mm/modelsimple/g;
+.method static synthetic a(Lcom/tencent/mm/ui/account/FacebookAuthUI;Lcom/tencent/mm/modelsimple/Gclz;)Lcom/tencent/mm/modelsimple/Gclz;
     .locals 0
 
     .prologue
     .line 46
-    iput-object p1, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAS:Lcom/tencent/mm/modelsimple/g;
+    iput-object p1, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAS:Lcom/tencent/mm/modelsimple/Gclz;
 
     return-object p1
 .end method
@@ -138,9 +138,9 @@
 
     .prologue
     .line 199
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/ui/base/preference/f;->removeAll()V
+    invoke-interface {v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->removeAll()V
 
     .line 201
     iget-boolean v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jBj:Z
@@ -184,9 +184,9 @@
     invoke-virtual {v0, v2}, Lcom/tencent/mm/ui/base/preference/Preference;->setTitle(I)V
 
     .line 207
-    iget-object v2, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v2, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v2, v0}, Lcom/tencent/mm/ui/base/preference/f;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
+    invoke-interface {v2, v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
 
     .line 210
     :cond_0
@@ -212,9 +212,9 @@
     check-cast v0, Lcom/tencent/mm/ui/base/preference/Preference;
 
     .line 212
-    iget-object v2, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v2, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v2, v0}, Lcom/tencent/mm/ui/base/preference/f;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
+    invoke-interface {v2, v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
 
     .line 215
     :cond_1
@@ -243,9 +243,9 @@
     check-cast v0, Lcom/tencent/mm/ui/base/preference/Preference;
 
     .line 218
-    iget-object v1, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v1, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/base/preference/f;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
 
     .line 237
     :cond_2
@@ -333,9 +333,9 @@
     invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/preference/Preference;->setTitle(Ljava/lang/CharSequence;)V
 
     .line 224
-    iget-object v1, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v1, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/base/preference/f;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
 
     .line 227
     :cond_6
@@ -361,9 +361,9 @@
     check-cast v0, Lcom/tencent/mm/ui/base/preference/Preference;
 
     .line 229
-    iget-object v1, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v1, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/base/preference/f;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
 
     .line 232
     :cond_7
@@ -389,9 +389,9 @@
     check-cast v0, Lcom/tencent/mm/ui/base/preference/Preference;
 
     .line 234
-    iget-object v1, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v1, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/base/preference/f;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->a(Lcom/tencent/mm/ui/base/preference/Preference;)V
 
     goto/16 :goto_2
 .end method
@@ -426,12 +426,12 @@
     return-object v0
 .end method
 
-.method static synthetic e(Lcom/tencent/mm/ui/account/FacebookAuthUI;)Lcom/tencent/mm/ui/d/a/c;
+.method static synthetic e(Lcom/tencent/mm/ui/account/FacebookAuthUI;)Lcom/tencent/mm/ui/d/a/Cclz;
     .locals 1
 
     .prologue
     .line 46
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAP:Lcom/tencent/mm/ui/d/a/c;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAP:Lcom/tencent/mm/ui/d/a/Cclz;
 
     return-object v0
 .end method
@@ -450,11 +450,11 @@
     const-string/jumbo v0, "0"
 
     :goto_0
-    new-instance v2, Lcom/tencent/mm/ae/b$i$a;
+    new-instance v2, Lcom/tencent/mm/ae/Bclz$i$a;
 
     const/16 v3, 0x20
 
-    invoke-direct {v2, v3, v0}, Lcom/tencent/mm/ae/b$i$a;-><init>(ILjava/lang/String;)V
+    invoke-direct {v2, v3, v0}, Lcom/tencent/mm/ae/Bclz$i$a;-><init>(ILjava/lang/String;)V
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -462,15 +462,15 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/c;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/Cclz;
 
     move-result-object v0
 
-    new-instance v2, Lcom/tencent/mm/ae/b$i;
+    new-instance v2, Lcom/tencent/mm/ae/Bclz$i;
 
-    invoke-direct {v2, v1}, Lcom/tencent/mm/ae/b$i;-><init>(Ljava/util/List;)V
+    invoke-direct {v2, v1}, Lcom/tencent/mm/ae/Bclz$i;-><init>(Ljava/util/List;)V
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/ae/c;->b(Lcom/tencent/mm/ae/b$q;)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/ae/Cclz;->b(Lcom/tencent/mm/ae/Bclz$q;)V
 
     return-void
 
@@ -502,13 +502,13 @@
     iput-boolean v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jBj:Z
 
     .line 95
-    new-instance v0, Lcom/tencent/mm/ui/d/a/c;
+    new-instance v0, Lcom/tencent/mm/ui/d/a/Cclz;
 
     const-string/jumbo v1, "290293790992170"
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/ui/d/a/c;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/ui/d/a/Cclz;-><init>(Ljava/lang/String;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAP:Lcom/tencent/mm/ui/d/a/c;
+    iput-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAP:Lcom/tencent/mm/ui/d/a/Cclz;
 
     .line 96
     new-instance v0, Lcom/tencent/mm/ui/account/FacebookAuthUI$1;
@@ -518,18 +518,18 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAR:Landroid/content/DialogInterface$OnCancelListener;
 
     .line 106
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const v1, 0x7f06002c
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->addPreferencesFromResource(I)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->addPreferencesFromResource(I)V
 
     .line 108
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "facebook_auth_tip"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
 
     move-result-object v0
 
@@ -545,11 +545,11 @@
 
     .line 113
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "facebook_auth_cat"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
 
     move-result-object v0
 
@@ -565,11 +565,11 @@
 
     .line 118
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "facebook_auth_bind_btn"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
 
     move-result-object v0
 
@@ -585,11 +585,11 @@
 
     .line 123
     :cond_2
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "facebook_auth_account"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
 
     move-result-object v0
 
@@ -605,11 +605,11 @@
 
     .line 128
     :cond_3
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "facebook_auth_cat2"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
 
     move-result-object v0
 
@@ -625,11 +625,11 @@
 
     .line 133
     :cond_4
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     const-string/jumbo v1, "facebook_auth_unbind_btn"
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/f;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/base/preference/Fclz;->Eo(Ljava/lang/String;)Lcom/tencent/mm/ui/base/preference/Preference;
 
     move-result-object v0
 
@@ -694,22 +694,22 @@
     if-nez p2, :cond_1
 
     .line 305
-    new-instance v0, Lcom/tencent/mm/modelsimple/g;
+    new-instance v0, Lcom/tencent/mm/modelsimple/Gclz;
 
     const/4 v1, 0x0
 
     const-string/jumbo v2, ""
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/modelsimple/g;-><init>(ILjava/lang/String;)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/modelsimple/Gclz;-><init>(ILjava/lang/String;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAS:Lcom/tencent/mm/modelsimple/g;
+    iput-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAS:Lcom/tencent/mm/modelsimple/Gclz;
 
     .line 306
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAS:Lcom/tencent/mm/modelsimple/g;
+    iget-object v1, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAS:Lcom/tencent/mm/modelsimple/Gclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
@@ -742,7 +742,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/account/FacebookAuthUI$5;-><init>(Lcom/tencent/mm/ui/account/FacebookAuthUI;)V
 
-    invoke-static {p0, v0, v2, v1}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v2, v1}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     goto :goto_0
 
@@ -759,7 +759,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/account/FacebookAuthUI$6;-><init>(Lcom/tencent/mm/ui/account/FacebookAuthUI;)V
 
-    invoke-static {p0, v0, v2, v1}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v2, v1}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     goto :goto_0
 
@@ -776,7 +776,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/account/FacebookAuthUI$7;-><init>(Lcom/tencent/mm/ui/account/FacebookAuthUI;)V
 
-    invoke-static {p0, v0, v2, v1}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v2, v1}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     goto :goto_0
 
@@ -793,7 +793,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/account/FacebookAuthUI$8;-><init>(Lcom/tencent/mm/ui/account/FacebookAuthUI;)V
 
-    invoke-static {p0, v0, v2, v1}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v2, v1}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     goto :goto_0
 
@@ -810,7 +810,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/account/FacebookAuthUI$9;-><init>(Lcom/tencent/mm/ui/account/FacebookAuthUI;)V
 
-    invoke-static {p0, v0, v2, v1}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v2, v1}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     goto :goto_0
 
@@ -819,25 +819,25 @@
     if-ne p2, v6, :cond_8
 
     .line 369
-    invoke-static {p0, p3}, Lcom/tencent/mm/platformtools/m;->y(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {p0, p3}, Lcom/tencent/mm/platformtools/Mclz;->y(Landroid/content/Context;Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 372
     :cond_8
-    invoke-static {p3}, Lcom/tencent/mm/e/a;->cR(Ljava/lang/String;)Lcom/tencent/mm/e/a;
+    invoke-static {p3}, Lcom/tencent/mm/e/Aclz;->cR(Ljava/lang/String;)Lcom/tencent/mm/e/Aclz;
 
     move-result-object v0
 
     .line 373
     if-eqz v0, :cond_0
 
-    iget v1, v0, Lcom/tencent/mm/e/a;->asl:I
+    iget v1, v0, Lcom/tencent/mm/e/Aclz;->asl:I
 
     if-eq v1, v4, :cond_0
 
     .line 374
-    invoke-virtual {v0, p0, v5, v5}, Lcom/tencent/mm/e/a;->a(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Z
+    invoke-virtual {v0, p0, v5, v5}, Lcom/tencent/mm/e/Aclz;->a(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Z
 
     goto :goto_0
 
@@ -863,9 +863,9 @@
 
     .line 383
     :cond_a
-    check-cast p4, Lcom/tencent/mm/modelsimple/g;
+    check-cast p4, Lcom/tencent/mm/modelsimple/Gclz;
 
-    iget v1, p4, Lcom/tencent/mm/modelsimple/g;->atB:I
+    iget v1, p4, Lcom/tencent/mm/modelsimple/Gclz;->atB:I
 
     .line 384
     if-nez p1, :cond_c
@@ -986,25 +986,25 @@
     if-ne p2, v6, :cond_10
 
     .line 413
-    invoke-static {p0, p3}, Lcom/tencent/mm/platformtools/m;->y(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {p0, p3}, Lcom/tencent/mm/platformtools/Mclz;->y(Landroid/content/Context;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
     .line 417
     :cond_10
-    invoke-static {p3}, Lcom/tencent/mm/e/a;->cR(Ljava/lang/String;)Lcom/tencent/mm/e/a;
+    invoke-static {p3}, Lcom/tencent/mm/e/Aclz;->cR(Ljava/lang/String;)Lcom/tencent/mm/e/Aclz;
 
     move-result-object v0
 
     .line 418
     if-eqz v0, :cond_11
 
-    iget v2, v0, Lcom/tencent/mm/e/a;->asl:I
+    iget v2, v0, Lcom/tencent/mm/e/Aclz;->asl:I
 
     if-eq v2, v4, :cond_11
 
     .line 419
-    invoke-virtual {v0, p0, v5, v5}, Lcom/tencent/mm/e/a;->a(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Z
+    invoke-virtual {v0, p0, v5, v5}, Lcom/tencent/mm/e/Aclz;->a(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Z
 
     goto/16 :goto_0
 
@@ -1031,7 +1031,7 @@
     goto :goto_3
 .end method
 
-.method public final a(Lcom/tencent/mm/ui/base/preference/f;Lcom/tencent/mm/ui/base/preference/Preference;)Z
+.method public final a(Lcom/tencent/mm/ui/base/preference/Fclz;Lcom/tencent/mm/ui/base/preference/Preference;)Z
     .locals 5
 
     .prologue
@@ -1050,7 +1050,7 @@
 
     const-string/jumbo v2, "onPreferenceTreeClick, key is null"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 195
     :goto_0
@@ -1068,24 +1068,24 @@
 
     .line 164
     :try_start_0
-    iget-object v2, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAP:Lcom/tencent/mm/ui/d/a/c;
+    iget-object v2, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAP:Lcom/tencent/mm/ui/d/a/Cclz;
 
-    invoke-virtual {v2, p0}, Lcom/tencent/mm/ui/d/a/c;->eg(Landroid/content/Context;)Ljava/lang/String;
+    invoke-virtual {v2, p0}, Lcom/tencent/mm/ui/d/a/Cclz;->eg(Landroid/content/Context;)Ljava/lang/String;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 166
     :goto_1
-    new-instance v2, Lcom/tencent/mm/ui/d/a/c;
+    new-instance v2, Lcom/tencent/mm/ui/d/a/Cclz;
 
     const-string/jumbo v3, "290293790992170"
 
-    invoke-direct {v2, v3}, Lcom/tencent/mm/ui/d/a/c;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v3}, Lcom/tencent/mm/ui/d/a/Cclz;-><init>(Ljava/lang/String;)V
 
-    iput-object v2, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAP:Lcom/tencent/mm/ui/d/a/c;
+    iput-object v2, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAP:Lcom/tencent/mm/ui/d/a/Cclz;
 
     .line 169
-    iget-object v2, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAP:Lcom/tencent/mm/ui/d/a/c;
+    iget-object v2, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAP:Lcom/tencent/mm/ui/d/a/Cclz;
 
     sget-object v3, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jBi:[Ljava/lang/String;
 
@@ -1093,7 +1093,7 @@
 
     invoke-direct {v4, p0, v1}, Lcom/tencent/mm/ui/account/FacebookAuthUI$a;-><init>(Lcom/tencent/mm/ui/account/FacebookAuthUI;B)V
 
-    invoke-virtual {v2, p0, v3, v4}, Lcom/tencent/mm/ui/d/a/c;->a(Landroid/app/Activity;[Ljava/lang/String;Lcom/tencent/mm/ui/d/a/c$a;)V
+    invoke-virtual {v2, p0, v3, v4}, Lcom/tencent/mm/ui/d/a/Cclz;->a(Landroid/app/Activity;[Ljava/lang/String;Lcom/tencent/mm/ui/d/a/Cclz$a;)V
 
     goto :goto_0
 
@@ -1120,7 +1120,7 @@
 
     invoke-direct {v4, p0}, Lcom/tencent/mm/ui/account/FacebookAuthUI$4;-><init>(Lcom/tencent/mm/ui/account/FacebookAuthUI;)V
 
-    invoke-static {p0, v1, v2, v3, v4}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v1, v2, v3, v4}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     goto :goto_0
 
@@ -1141,9 +1141,9 @@
 
     .prologue
     .line 241
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAP:Lcom/tencent/mm/ui/d/a/c;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->jAP:Lcom/tencent/mm/ui/d/a/Cclz;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/tencent/mm/ui/d/a/c;->d(IILandroid/content/Intent;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/tencent/mm/ui/d/a/Cclz;->d(IILandroid/content/Intent;)V
 
     .line 242
     return-void
@@ -1157,9 +1157,9 @@
     invoke-super {p0, p1}, Lcom/tencent/mm/ui/base/preference/MMPreference;->onCreate(Landroid/os/Bundle;)V
 
     .line 67
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/preference/MMPreference;->jUG:Lcom/tencent/mm/ui/base/preference/h;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/preference/MMPreference;->jUG:Lcom/tencent/mm/ui/base/preference/Hclz;
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iput-object v0, p0, Lcom/tencent/mm/ui/account/FacebookAuthUI;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     .line 68
     invoke-virtual {p0}, Lcom/tencent/mm/ui/account/FacebookAuthUI;->Fi()V

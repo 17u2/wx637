@@ -8,7 +8,7 @@
 
 
 # annotations
-.annotation runtime Lcom/tencent/mm/ui/base/a;
+.annotation runtime Lcom/tencent/mm/ui/base/Aclz;
     value = 0x13
 .end annotation
 
@@ -36,7 +36,7 @@
 
 .field private gGt:Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;
 
-.field private gGu:Lcom/tencent/mm/modelsns/a;
+.field private gGu:Lcom/tencent/mm/modelsns/Aclz;
 
 .field private gGv:Ljava/lang/String;
 
@@ -72,7 +72,7 @@
     invoke-direct {p0}, Lcom/tencent/mm/ui/MMActivity;-><init>()V
 
     .line 62
-    iput-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->gGu:Lcom/tencent/mm/modelsns/a;
+    iput-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->gGu:Lcom/tencent/mm/modelsns/Aclz;
 
     .line 64
     new-instance v0, Lcom/tencent/mm/plugin/sns/a/a/g;
@@ -165,7 +165,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -326,7 +326,7 @@
 
     const/16 v3, 0x1002
 
-    invoke-static {p0, v1, v2, v0, v3}, Lcom/tencent/mm/ao/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;I)V
+    invoke-static {p0, v1, v2, v0, v3}, Lcom/tencent/mm/ao/Cclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;I)V
 
     return-void
 .end method
@@ -336,9 +336,9 @@
 
     .prologue
     .line 55
-    new-instance v0, Lcom/tencent/mm/d/a/as;
+    new-instance v0, Lcom/tencent/mm/d/a/ASclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/as;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/ASclz;-><init>()V
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->gGA:Lcom/tencent/mm/protocal/b/abp;
 
@@ -418,7 +418,7 @@
 
     invoke-virtual {v11, v1}, Lcom/tencent/mm/protocal/b/NCclz;->ot(I)Lcom/tencent/mm/protocal/b/NCclz;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v1
 
@@ -430,35 +430,35 @@
 
     invoke-virtual {v1, v12}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     iget-object v2, v12, Lcom/tencent/mm/protocal/b/MSclz;->title:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/as$a;->title:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/ASclz$a;->title:Ljava/lang/String;
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     iget-object v2, v12, Lcom/tencent/mm/protocal/b/MSclz;->title:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/as$a;->asj:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/ASclz$a;->asj:Ljava/lang/String;
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
-    iput-object v10, v1, Lcom/tencent/mm/d/a/as$a;->atf:Lcom/tencent/mm/protocal/b/NBclz;
+    iput-object v10, v1, Lcom/tencent/mm/d/a/ASclz$a;->atf:Lcom/tencent/mm/protocal/b/NBclz;
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/as;->atd:Lcom/tencent/mm/d/a/as$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/ASclz;->atd:Lcom/tencent/mm/d/a/ASclz$a;
 
     const/4 v2, 0x4
 
-    iput v2, v1, Lcom/tencent/mm/d/a/as$a;->type:I
+    iput v2, v1, Lcom/tencent/mm/d/a/ASclz$a;->type:I
 
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/as;->ate:Lcom/tencent/mm/d/a/as$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/ASclz;->ate:Lcom/tencent/mm/d/a/ASclz$b;
 
-    iget v0, v0, Lcom/tencent/mm/d/a/as$b;->ret:I
+    iget v0, v0, Lcom/tencent/mm/d/a/ASclz$b;->ret:I
 
     if-nez v0, :cond_0
 
@@ -472,7 +472,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Lcom/tencent/mm/ui/base/f;->aS(Landroid/content/Context;Ljava/lang/String;)Landroid/widget/Toast;
+    invoke-static {p0, v0}, Lcom/tencent/mm/ui/base/Fclz;->aS(Landroid/content/Context;Ljava/lang/String;)Landroid/widget/Toast;
 
     :cond_0
     iget-boolean v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->gfZ:Z
@@ -555,7 +555,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/a/a/g;->gfA:Lcom/tencent/mm/plugin/sns/a/a/a/a;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->Fa()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Fa()J
 
     move-result-wide v2
 
@@ -603,7 +603,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -667,7 +667,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 459
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->gGt:Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;
@@ -702,7 +702,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -778,7 +778,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 426
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->gGt:Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;
@@ -859,7 +859,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -907,7 +907,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -949,7 +949,7 @@
 
     aput-object v6, v4, v1
 
-    invoke-static {v0, v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 294
     const/16 v0, 0x1001
@@ -975,26 +975,26 @@
 
     aput-object v2, v6, v1
 
-    invoke-static {v0, v4, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v4, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 298
-    new-instance v4, Lcom/tencent/mm/m/a$a;
+    new-instance v4, Lcom/tencent/mm/m/Aclz$a;
 
-    invoke-direct {v4}, Lcom/tencent/mm/m/a$a;-><init>()V
+    invoke-direct {v4}, Lcom/tencent/mm/m/Aclz$a;-><init>()V
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->gGx:Ljava/lang/String;
 
-    iput-object v0, v4, Lcom/tencent/mm/m/a$a;->title:Ljava/lang/String;
+    iput-object v0, v4, Lcom/tencent/mm/m/Aclz$a;->title:Ljava/lang/String;
 
     const/4 v0, 0x4
 
-    iput v0, v4, Lcom/tencent/mm/m/a$a;->type:I
+    iput v0, v4, Lcom/tencent/mm/m/Aclz$a;->type:I
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->gGA:Lcom/tencent/mm/protocal/b/abp;
 
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/abp;->ijp:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1004,14 +1004,14 @@
 
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/abp;->ijp:Ljava/lang/String;
 
-    iput-object v0, v4, Lcom/tencent/mm/m/a$a;->url:Ljava/lang/String;
+    iput-object v0, v4, Lcom/tencent/mm/m/Aclz$a;->url:Ljava/lang/String;
 
     :goto_0
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->gGA:Lcom/tencent/mm/protocal/b/abp;
 
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/abp;->iLs:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1022,35 +1022,35 @@
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/abp;->iLi:Ljava/lang/String;
 
     :goto_1
-    iput-object v0, v4, Lcom/tencent/mm/m/a$a;->thumburl:Ljava/lang/String;
+    iput-object v0, v4, Lcom/tencent/mm/m/Aclz$a;->thumburl:Ljava/lang/String;
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->gGA:Lcom/tencent/mm/protocal/b/abp;
 
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/abp;->iLp:Ljava/lang/String;
 
-    iput-object v0, v4, Lcom/tencent/mm/m/a$a;->brK:Ljava/lang/String;
+    iput-object v0, v4, Lcom/tencent/mm/m/Aclz$a;->brK:Ljava/lang/String;
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->gGA:Lcom/tencent/mm/protocal/b/abp;
 
     iget v0, v0, Lcom/tencent/mm/protocal/b/abp;->gGw:I
 
-    iput v0, v4, Lcom/tencent/mm/m/a$a;->brL:I
+    iput v0, v4, Lcom/tencent/mm/m/Aclz$a;->brL:I
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->gGx:Ljava/lang/String;
 
-    iput-object v0, v4, Lcom/tencent/mm/m/a$a;->brM:Ljava/lang/String;
+    iput-object v0, v4, Lcom/tencent/mm/m/Aclz$a;->brM:Ljava/lang/String;
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->brO:Ljava/lang/String;
 
-    iput-object v0, v4, Lcom/tencent/mm/m/a$a;->brO:Ljava/lang/String;
+    iput-object v0, v4, Lcom/tencent/mm/m/Aclz$a;->brO:Ljava/lang/String;
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->brN:Ljava/lang/String;
 
-    iput-object v0, v4, Lcom/tencent/mm/m/a$a;->brN:Ljava/lang/String;
+    iput-object v0, v4, Lcom/tencent/mm/m/Aclz$a;->brN:Ljava/lang/String;
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->awN:Ljava/lang/String;
 
-    iput-object v0, v4, Lcom/tencent/mm/m/a$a;->brP:Ljava/lang/String;
+    iput-object v0, v4, Lcom/tencent/mm/m/Aclz$a;->brP:Ljava/lang/String;
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->awM:Ljava/lang/String;
 
@@ -1075,13 +1075,13 @@
 
     aput-object v0, v9, v1
 
-    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     const-string/jumbo v0, ""
 
     const-string/jumbo v1, ""
 
-    invoke-static {v4, v0, v2, v1, v6}, Lcom/tencent/mm/pluginsdk/model/app/l;->a(Lcom/tencent/mm/m/a$a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[B)I
+    invoke-static {v4, v0, v2, v1, v6}, Lcom/tencent/mm/pluginsdk/model/app/l;->a(Lcom/tencent/mm/m/Aclz$a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[B)I
 
     .line 299
     const v0, 0x7f0905fa
@@ -1166,7 +1166,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/abp;->iLp:Ljava/lang/String;
 
-    iput-object v0, v4, Lcom/tencent/mm/m/a$a;->url:Ljava/lang/String;
+    iput-object v0, v4, Lcom/tencent/mm/m/Aclz$a;->url:Ljava/lang/String;
 
     goto/16 :goto_0
 
@@ -1279,7 +1279,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget v1, v0, Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;->fXJ:I
 
@@ -1411,11 +1411,11 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/modelsns/a;->k(Landroid/content/Intent;)Lcom/tencent/mm/modelsns/a;
+    invoke-static {v0}, Lcom/tencent/mm/modelsns/Aclz;->k(Landroid/content/Intent;)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->gGu:Lcom/tencent/mm/modelsns/a;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->gGu:Lcom/tencent/mm/modelsns/Aclz;
 
     .line 113
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->getIntent()Landroid/content/Intent;
@@ -1534,7 +1534,7 @@
 
     const-string/jumbo v1, ""
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1618,7 +1618,7 @@
 
     const-string/jumbo v1, ""
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1674,7 +1674,7 @@
     .line 142
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->gBZ:Lcom/tencent/mm/plugin/sns/a/a/g;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->Fa()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Fa()J
 
     move-result-wide v1
 
@@ -1777,12 +1777,12 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 148
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->bMh:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1833,7 +1833,7 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->awM:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1841,7 +1841,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->awM:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/a/d;->av(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/a/Dclz;->av(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1892,7 +1892,7 @@
     :cond_2
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->awM:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/a/d;->av(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/a/Dclz;->av(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1945,9 +1945,9 @@
 
     new-instance v2, Lcom/tencent/mm/plugin/sight/decode/ui/AdVideoPlayerLoadingBar;
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     invoke-direct {v2, v0}, Lcom/tencent/mm/plugin/sight/decode/ui/AdVideoPlayerLoadingBar;-><init>(Landroid/content/Context;)V
 
@@ -2061,7 +2061,7 @@
     .line 206
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->bMh:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/a/d;->av(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/a/Dclz;->av(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -2235,7 +2235,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 398
     invoke-direct {p0, v0}, Lcom/tencent/mm/plugin/sns/ui/VideoAdPlayerUI;->lB(I)V

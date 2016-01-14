@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -84,22 +84,22 @@
     .line 266
     iget-object v1, p0, Lcom/tencent/mm/ui/bindmobile/MobileFriendUI$10;->jYn:Lcom/tencent/mm/ui/bindmobile/MobileFriendUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/bindmobile/MobileFriendUI;->d(Lcom/tencent/mm/ui/bindmobile/MobileFriendUI;)Lcom/tencent/mm/ui/bindmobile/a;
+    invoke-static {v1}, Lcom/tencent/mm/ui/bindmobile/MobileFriendUI;->d(Lcom/tencent/mm/ui/bindmobile/MobileFriendUI;)Lcom/tencent/mm/ui/bindmobile/Aclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/bindmobile/a;->getItem(I)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/bindmobile/Aclz;->getItem(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelfriend/b;
+    check-cast v0, Lcom/tencent/mm/modelfriend/Bclz;
 
     .line 267
-    iget v1, v0, Lcom/tencent/mm/modelfriend/b;->status:I
+    iget v1, v0, Lcom/tencent/mm/modelfriend/Bclz;->status:I
 
     if-eq v1, v4, :cond_2
 
-    iget v1, v0, Lcom/tencent/mm/modelfriend/b;->status:I
+    iget v1, v0, Lcom/tencent/mm/modelfriend/Bclz;->status:I
 
     const/4 v2, 0x2
 
@@ -109,11 +109,11 @@
     :cond_2
     iget-object v1, p0, Lcom/tencent/mm/ui/bindmobile/MobileFriendUI$10;->jYn:Lcom/tencent/mm/ui/bindmobile/MobileFriendUI;
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/ui/bindmobile/MobileFriendUI;->a(Lcom/tencent/mm/ui/bindmobile/MobileFriendUI;Lcom/tencent/mm/modelfriend/b;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/ui/bindmobile/MobileFriendUI;->a(Lcom/tencent/mm/ui/bindmobile/MobileFriendUI;Lcom/tencent/mm/modelfriend/Bclz;)V
 
     .line 271
     :cond_3
-    iget v1, v0, Lcom/tencent/mm/modelfriend/b;->status:I
+    iget v1, v0, Lcom/tencent/mm/modelfriend/Bclz;->status:I
 
     if-nez v1, :cond_0
 
@@ -134,7 +134,7 @@
     .line 274
     const-string/jumbo v2, "friend_user_name"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/b;->getUsername()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Bclz;->getUsername()Ljava/lang/String;
 
     move-result-object v3
 
@@ -147,7 +147,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/b;->xY()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Bclz;->xY()Ljava/lang/String;
 
     move-result-object v4
 
@@ -164,7 +164,7 @@
     .line 276
     const-string/jumbo v2, "friend_nick"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/b;->xS()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Bclz;->xS()Ljava/lang/String;
 
     move-result-object v3
 
@@ -173,7 +173,7 @@
     .line 277
     const-string/jumbo v2, "friend_weixin_nick"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/b;->xV()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Bclz;->xV()Ljava/lang/String;
 
     move-result-object v0
 

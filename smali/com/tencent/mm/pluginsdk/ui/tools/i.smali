@@ -17,7 +17,7 @@
 
     .prologue
     .line 40
-    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ac;
+    invoke-static {}, Lcom/tencent/mm/model/AHclz;->tf()Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     move-result-object v0
 
@@ -25,7 +25,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/pluginsdk/ui/tools/i$1;-><init>(Lcom/tencent/mm/pluginsdk/ui/tools/i$a;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ac;->r(Ljava/lang/Runnable;)I
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ACclz;->r(Ljava/lang/Runnable;)I
 
     .line 51
     return-void
@@ -40,13 +40,13 @@
     const/4 v3, -0x1
 
     .line 114
-    new-instance v4, Lcom/tencent/mm/sdk/platformtools/bd;
+    new-instance v4, Lcom/tencent/mm/sdk/platformtools/BDclz;
 
-    invoke-direct {v4}, Lcom/tencent/mm/sdk/platformtools/bd;-><init>()V
+    invoke-direct {v4}, Lcom/tencent/mm/sdk/platformtools/BDclz;-><init>()V
 
     .line 115
     :try_start_0
-    iget-object v0, v4, Lcom/tencent/mm/sdk/platformtools/bd;->jjc:Lorg/xmlpull/v1/XmlPullParser;
+    iget-object v0, v4, Lcom/tencent/mm/sdk/platformtools/BDclz;->jjc:Lorg/xmlpull/v1/XmlPullParser;
 
     new-instance v1, Ljava/io/StringReader;
 
@@ -61,7 +61,7 @@
     const/4 v1, 0x0
 
     .line 118
-    invoke-virtual {v4}, Lcom/tencent/mm/sdk/platformtools/bd;->getEventType()I
+    invoke-virtual {v4}, Lcom/tencent/mm/sdk/platformtools/BDclz;->getEventType()I
 
     move-result v0
 
@@ -83,7 +83,7 @@
     if-ne v2, v6, :cond_0
 
     .line 121
-    iget-object v2, v4, Lcom/tencent/mm/sdk/platformtools/bd;->jjc:Lorg/xmlpull/v1/XmlPullParser;
+    iget-object v2, v4, Lcom/tencent/mm/sdk/platformtools/BDclz;->jjc:Lorg/xmlpull/v1/XmlPullParser;
 
     invoke-interface {v2}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
 
@@ -104,7 +104,7 @@
     .line 129
     :cond_0
     :goto_2
-    invoke-virtual {v4}, Lcom/tencent/mm/sdk/platformtools/bd;->aPs()I
+    invoke-virtual {v4}, Lcom/tencent/mm/sdk/platformtools/BDclz;->aPs()I
 
     move-result v2
 
@@ -121,11 +121,11 @@
     if-eqz v2, :cond_0
 
     .line 125
-    invoke-virtual {v4}, Lcom/tencent/mm/sdk/platformtools/bd;->aPt()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/tencent/mm/sdk/platformtools/BDclz;->aPt()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-static {v1, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v1, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v1
 

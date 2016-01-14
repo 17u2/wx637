@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -113,14 +113,14 @@
     if-nez p2, :cond_7
 
     .line 143
-    check-cast p4, Lcom/tencent/mm/modelfriend/aa;
+    check-cast p4, Lcom/tencent/mm/modelfriend/AAclz;
 
-    invoke-virtual {p4}, Lcom/tencent/mm/modelfriend/aa;->yL()Ljava/util/LinkedList;
+    invoke-virtual {p4}, Lcom/tencent/mm/modelfriend/AAclz;->yL()Ljava/util/LinkedList;
 
     move-result-object v4
 
     .line 144
-    invoke-static {v4}, Lcom/tencent/mm/modelfriend/ah;->f(Ljava/util/LinkedList;)V
+    invoke-static {v4}, Lcom/tencent/mm/modelfriend/AHclz;->f(Ljava/util/LinkedList;)V
 
     .line 148
     if-eqz v4, :cond_9
@@ -200,7 +200,7 @@
 
     aput-object v1, v7, v3
 
-    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 165
     iget-object v1, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI$3;->jXX:Lcom/tencent/mm/ui/bindmobile/FindMContactLearmMoreUI;

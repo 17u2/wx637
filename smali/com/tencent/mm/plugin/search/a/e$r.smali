@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/search/a/e$r;
-.super Lcom/tencent/mm/modelsearch/m$a;
+.super Lcom/tencent/mm/modelsearch/Mclz$a;
 .source "SourceFile"
 
 
@@ -28,7 +28,7 @@
     .line 559
     iput-object p1, p0, Lcom/tencent/mm/plugin/search/a/e$r;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/m$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/Mclz$a;-><init>()V
 
     .line 561
     const/4 v0, 0x0
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,7 +56,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -75,7 +75,7 @@
 
     const-string/jumbo v1, "Update DirtyContact"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 571
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$r;->fHi:Lcom/tencent/mm/plugin/search/a/e;
@@ -221,7 +221,7 @@
     .line 597
     if-eqz v1, :cond_2
 
-    iget-object v5, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v5, v1, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v5}, Ljava/lang/String;->length()I
 
@@ -263,7 +263,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v5, Lcom/tencent/mm/modelsearch/c;->bQF:[I
+    sget-object v5, Lcom/tencent/mm/modelsearch/Cclz;->bQF:[I
 
     invoke-virtual {v1, v5, v0}, Lcom/tencent/mm/plugin/search/a/b/a;->a([ILjava/lang/String;)V
 

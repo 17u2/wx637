@@ -34,7 +34,7 @@
 
 .field private idh:Z
 
-.field private idk:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private idk:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field private idl:Lcom/tencent/mm/pluginsdk/ui/d/h$b;
 
@@ -96,14 +96,14 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 33
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_1
     return-void
@@ -136,15 +136,15 @@
     iput-boolean v2, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idh:Z
 
     .line 167
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idk:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idk:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 176
     new-instance v0, Lcom/tencent/mm/pluginsdk/ui/d/h$b;
@@ -165,7 +165,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -198,7 +198,7 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idk:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idk:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idm:Lcom/tencent/mm/pluginsdk/ui/d/h$a;
 
@@ -208,7 +208,7 @@
 
     int-to-long v2, v2
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     :cond_0
     return-void
@@ -419,17 +419,17 @@
 
     if-ne v3, v9, :cond_6
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idk:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idk:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idl:Lcom/tencent/mm/pluginsdk/ui/d/h$b;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idk:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idk:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idm:Lcom/tencent/mm/pluginsdk/ui/d/h$a;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     iget-boolean v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idh:Z
 
@@ -478,7 +478,7 @@
 
     const-string/jumbo v1, "ACTION_UP error, lastClickSpan is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -494,7 +494,7 @@
 
     if-lez v4, :cond_8
 
-    iget-object v4, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idk:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v4, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idk:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v5, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idm:Lcom/tencent/mm/pluginsdk/ui/d/h$a;
 
@@ -502,7 +502,7 @@
 
     int-to-long v6, v6
 
-    invoke-virtual {v4, v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v4, v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     :cond_8
     if-nez v3, :cond_9
@@ -559,17 +559,17 @@
     :cond_a
     if-ne v3, v6, :cond_2
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idk:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idk:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idl:Lcom/tencent/mm/pluginsdk/ui/d/h$b;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idk:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idk:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idm:Lcom/tencent/mm/pluginsdk/ui/d/h$a;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     iget-boolean v0, p0, Lcom/tencent/mm/pluginsdk/ui/d/h;->idf:Z
 

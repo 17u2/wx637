@@ -50,7 +50,7 @@
 
 .field mContext:Landroid/content/Context;
 
-.field final mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field final mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -85,11 +85,11 @@
     iput-object v0, p0, Landroid/support/v7/app/e;->jf:Ljava/util/ArrayList;
 
     .line 93
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
-    iput-object v0, p0, Landroid/support/v7/app/e;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Landroid/support/v7/app/e;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 96
     iput v2, p0, Landroid/support/v7/app/e;->ji:I
@@ -234,7 +234,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_3
     throw v0
@@ -318,7 +318,7 @@
 
     if-nez v0, :cond_8
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_8
     return-void

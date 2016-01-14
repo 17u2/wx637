@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/talkroom/Plugin$b;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -22,14 +22,14 @@
     .line 105
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     .line 106
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -37,7 +37,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 5
 
     .prologue
@@ -55,7 +55,7 @@
 
     .line 113
     :cond_1
-    instance-of v2, p1, Lcom/tencent/mm/d/a/kl;
+    instance-of v2, p1, Lcom/tencent/mm/d/a/KLclz;
 
     if-nez v2, :cond_2
 
@@ -76,18 +76,18 @@
 
     aput-object v4, v1, v0
 
-    invoke-static {v2, v3, v1}, Lcom/tencent/mm/sdk/platformtools/v;->f(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->f(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
     .line 118
     :cond_2
-    check-cast p1, Lcom/tencent/mm/d/a/kl;
+    check-cast p1, Lcom/tencent/mm/d/a/KLclz;
 
     .line 120
-    iget-object v2, p1, Lcom/tencent/mm/d/a/kl;->aFv:Lcom/tencent/mm/d/a/kl$a;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/KLclz;->aFv:Lcom/tencent/mm/d/a/KLclz$a;
 
-    iget-boolean v2, v2, Lcom/tencent/mm/d/a/kl$a;->aFy:Z
+    iget-boolean v2, v2, Lcom/tencent/mm/d/a/KLclz$a;->aFy:Z
 
     if-eqz v2, :cond_3
 
@@ -105,13 +105,13 @@
 
     .line 125
     :cond_3
-    iget-object v2, p1, Lcom/tencent/mm/d/a/kl;->aFv:Lcom/tencent/mm/d/a/kl$a;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/KLclz;->aFv:Lcom/tencent/mm/d/a/KLclz$a;
 
-    iget-boolean v2, v2, Lcom/tencent/mm/d/a/kl$a;->aFx:Z
+    iget-boolean v2, v2, Lcom/tencent/mm/d/a/KLclz$a;->aFx:Z
 
     if-eqz v2, :cond_0
 
-    iget-object v2, p1, Lcom/tencent/mm/d/a/kl;->aFw:Lcom/tencent/mm/d/a/kl$b;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/KLclz;->aFw:Lcom/tencent/mm/d/a/KLclz$b;
 
     if-eqz v2, :cond_0
 
@@ -122,7 +122,7 @@
     if-eqz v2, :cond_0
 
     .line 126
-    iget-object v0, p1, Lcom/tencent/mm/d/a/kl;->aFw:Lcom/tencent/mm/d/a/kl$b;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/KLclz;->aFw:Lcom/tencent/mm/d/a/KLclz$b;
 
     invoke-static {}, Lcom/tencent/mm/plugin/talkroom/model/b;->ayf()Lcom/tencent/mm/plugin/talkroom/model/g;
 
@@ -130,7 +130,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/plugin/talkroom/model/g;->gOV:Ljava/lang/String;
 
-    iput-object v2, v0, Lcom/tencent/mm/d/a/kl$b;->aFz:Ljava/lang/String;
+    iput-object v2, v0, Lcom/tencent/mm/d/a/KLclz$b;->aFz:Ljava/lang/String;
 
     move v0, v1
 

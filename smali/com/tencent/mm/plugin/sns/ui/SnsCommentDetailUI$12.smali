@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/sns/ui/SnsCommentDetailUI$12;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,27 +42,27 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 3
 
     .prologue
     .line 229
-    instance-of v0, p1, Lcom/tencent/mm/d/a/jt;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/JTclz;
 
     if-eqz v0, :cond_0
 
     .line 230
-    check-cast p1, Lcom/tencent/mm/d/a/jt;
+    check-cast p1, Lcom/tencent/mm/d/a/JTclz;
 
     .line 231
-    iget-object v0, p1, Lcom/tencent/mm/d/a/jt;->aEO:Lcom/tencent/mm/d/a/jt$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/JTclz;->aEO:Lcom/tencent/mm/d/a/JTclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/jt$a;->id:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/JTclz$a;->id:Ljava/lang/String;
 
     .line 233
-    iget-object v1, p1, Lcom/tencent/mm/d/a/jt;->aEO:Lcom/tencent/mm/d/a/jt$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/JTclz;->aEO:Lcom/tencent/mm/d/a/JTclz$a;
 
-    iget v1, v1, Lcom/tencent/mm/d/a/jt$a;->type:I
+    iget v1, v1, Lcom/tencent/mm/d/a/JTclz$a;->type:I
 
     const/4 v2, 0x1
 
@@ -82,9 +82,9 @@
 
     .line 235
     :cond_1
-    iget-object v1, p1, Lcom/tencent/mm/d/a/jt;->aEO:Lcom/tencent/mm/d/a/jt$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/JTclz;->aEO:Lcom/tencent/mm/d/a/JTclz$a;
 
-    iget v1, v1, Lcom/tencent/mm/d/a/jt$a;->type:I
+    iget v1, v1, Lcom/tencent/mm/d/a/JTclz$a;->type:I
 
     const/4 v2, 0x2
 

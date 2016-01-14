@@ -32,7 +32,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -49,7 +49,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -72,7 +72,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaperGridView$a;->jNt:Lcom/tencent/mm/ui/base/MMGridPaperGridView;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(Lcom/tencent/mm/ui/base/MMGridPaperGridView;)Lcom/tencent/mm/ui/base/i;
+    invoke-static {v0}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(Lcom/tencent/mm/ui/base/MMGridPaperGridView;)Lcom/tencent/mm/ui/base/Iclz;
 
     move-result-object v0
 
@@ -101,7 +101,7 @@
     .line 133
     iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaperGridView$a;->jNt:Lcom/tencent/mm/ui/base/MMGridPaperGridView;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(Lcom/tencent/mm/ui/base/MMGridPaperGridView;)Lcom/tencent/mm/ui/base/i;
+    invoke-static {v0}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(Lcom/tencent/mm/ui/base/MMGridPaperGridView;)Lcom/tencent/mm/ui/base/Iclz;
 
     move-result-object v0
 
@@ -115,7 +115,7 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaperGridView$a;->jNt:Lcom/tencent/mm/ui/base/MMGridPaperGridView;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(Lcom/tencent/mm/ui/base/MMGridPaperGridView;)Lcom/tencent/mm/ui/base/i;
+    invoke-static {v0}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(Lcom/tencent/mm/ui/base/MMGridPaperGridView;)Lcom/tencent/mm/ui/base/Iclz;
 
     move-result-object v0
 
@@ -127,7 +127,7 @@
 
     add-int/2addr v1, p1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/i;->getItem(I)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/Iclz;->getItem(I)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -141,7 +141,7 @@
     .line 138
     iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaperGridView$a;->jNt:Lcom/tencent/mm/ui/base/MMGridPaperGridView;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(Lcom/tencent/mm/ui/base/MMGridPaperGridView;)Lcom/tencent/mm/ui/base/i;
+    invoke-static {v0}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(Lcom/tencent/mm/ui/base/MMGridPaperGridView;)Lcom/tencent/mm/ui/base/Iclz;
 
     move-result-object v0
 
@@ -155,7 +155,7 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaperGridView$a;->jNt:Lcom/tencent/mm/ui/base/MMGridPaperGridView;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(Lcom/tencent/mm/ui/base/MMGridPaperGridView;)Lcom/tencent/mm/ui/base/i;
+    invoke-static {v0}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(Lcom/tencent/mm/ui/base/MMGridPaperGridView;)Lcom/tencent/mm/ui/base/Iclz;
 
     move-result-object v0
 
@@ -167,7 +167,7 @@
 
     add-int/2addr v1, p1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/i;->getItemId(I)J
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/Iclz;->getItemId(I)J
 
     move-result-wide v0
 
@@ -199,7 +199,7 @@
     const/4 v2, 0x0
 
     .line 143
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->Fa()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Fa()J
 
     move-result-wide v4
 
@@ -259,7 +259,7 @@
 
     aput-object v0, v7, v10
 
-    invoke-static {v3, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 146
     iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaperGridView$a;->jNt:Lcom/tencent/mm/ui/base/MMGridPaperGridView;
@@ -276,7 +276,7 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaperGridView$a;->jNt:Lcom/tencent/mm/ui/base/MMGridPaperGridView;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(Lcom/tencent/mm/ui/base/MMGridPaperGridView;)Lcom/tencent/mm/ui/base/i;
+    invoke-static {v0}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(Lcom/tencent/mm/ui/base/MMGridPaperGridView;)Lcom/tencent/mm/ui/base/Iclz;
 
     move-result-object v0
 
@@ -333,7 +333,7 @@
 
     new-array v7, v9, [Ljava/lang/Object;
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/bc;->am(J)J
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->am(J)J
 
     move-result-wide v4
 
@@ -369,7 +369,7 @@
 
     aput-object v1, v7, v8
 
-    invoke-static {v0, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 155
     return-object v3
@@ -384,7 +384,7 @@
     :cond_2
     iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaperGridView$a;->jNt:Lcom/tencent/mm/ui/base/MMGridPaperGridView;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(Lcom/tencent/mm/ui/base/MMGridPaperGridView;)Lcom/tencent/mm/ui/base/i;
+    invoke-static {v0}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(Lcom/tencent/mm/ui/base/MMGridPaperGridView;)Lcom/tencent/mm/ui/base/Iclz;
 
     move-result-object v0
 
@@ -396,7 +396,7 @@
 
     add-int/2addr v3, p1
 
-    invoke-virtual {v0, v3, p2}, Lcom/tencent/mm/ui/base/i;->b(ILandroid/view/View;)Landroid/view/View;
+    invoke-virtual {v0, v3, p2}, Lcom/tencent/mm/ui/base/Iclz;->b(ILandroid/view/View;)Landroid/view/View;
 
     move-result-object v0
 
@@ -434,7 +434,7 @@
     .line 113
     iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaperGridView$a;->jNt:Lcom/tencent/mm/ui/base/MMGridPaperGridView;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(Lcom/tencent/mm/ui/base/MMGridPaperGridView;)Lcom/tencent/mm/ui/base/i;
+    invoke-static {v0}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(Lcom/tencent/mm/ui/base/MMGridPaperGridView;)Lcom/tencent/mm/ui/base/Iclz;
 
     move-result-object v0
 

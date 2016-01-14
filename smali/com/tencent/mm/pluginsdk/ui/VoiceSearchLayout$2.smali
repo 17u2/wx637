@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/sdk/platformtools/ag$a;
+.implements Lcom/tencent/mm/sdk/platformtools/AGclz$a;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,7 +52,7 @@
     .line 289
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout$2;->hSq:Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;->d(Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;)Lcom/tencent/mm/al/d;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;->d(Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;)Lcom/tencent/mm/al/Dclz;
 
     move-result-object v0
 
@@ -101,7 +101,7 @@
     :cond_1
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout$2;->hSq:Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;->d(Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;)Lcom/tencent/mm/al/d;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;->d(Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;)Lcom/tencent/mm/al/Dclz;
 
     move-result-object v0
 
@@ -113,7 +113,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget v3, v0, Lcom/tencent/mm/al/d;->bZC:I
+    iget v3, v0, Lcom/tencent/mm/al/Dclz;->bZC:I
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -123,19 +123,19 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget v1, v0, Lcom/tencent/mm/al/d;->bZC:I
+    iget v1, v0, Lcom/tencent/mm/al/Dclz;->bZC:I
 
     const/4 v2, 0x0
 
-    iput v2, v0, Lcom/tencent/mm/al/d;->bZC:I
+    iput v2, v0, Lcom/tencent/mm/al/Dclz;->bZC:I
 
-    sget v0, Lcom/tencent/mm/al/d;->aok:I
+    sget v0, Lcom/tencent/mm/al/Dclz;->aok:I
 
     if-le v1, v0, :cond_2
 
-    sput v1, Lcom/tencent/mm/al/d;->aok:I
+    sput v1, Lcom/tencent/mm/al/Dclz;->aok:I
 
     :cond_2
     const-string/jumbo v0, "getMaxAmplitude"
@@ -156,7 +156,7 @@
 
     move-result-object v2
 
-    sget v3, Lcom/tencent/mm/al/d;->aok:I
+    sget v3, Lcom/tencent/mm/al/Dclz;->aok:I
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -170,7 +170,7 @@
 
     mul-int/lit8 v3, v1, 0x64
 
-    sget v4, Lcom/tencent/mm/al/d;->aok:I
+    sget v4, Lcom/tencent/mm/al/Dclz;->aok:I
 
     div-int/2addr v3, v4
 
@@ -182,11 +182,11 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     mul-int/lit8 v0, v1, 0x64
 
-    sget v1, Lcom/tencent/mm/al/d;->aok:I
+    sget v1, Lcom/tencent/mm/al/Dclz;->aok:I
 
     div-int/2addr v0, v1
 
@@ -207,7 +207,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 299
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout$2;->hSq:Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;
@@ -321,7 +321,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 314
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout$2;->hSq:Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;

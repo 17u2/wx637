@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/modelgeo/a$a;
+.implements Lcom/tencent/mm/modelgeo/Aclz$a;
 
 
 # annotations
@@ -29,7 +29,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -51,7 +51,7 @@
 
     const-string/jumbo v1, "on location get ok"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 59
     invoke-static {p3}, Lcom/tencent/mm/booter/Iclz;->l(F)F
@@ -65,22 +65,22 @@
     invoke-static {v0}, Lcom/tencent/mm/booter/Iclz;->ap(Z)Z
 
     .line 63
-    invoke-static {}, Lcom/tencent/mm/booter/Iclz;->nf()Lcom/tencent/mm/modelgeo/c;
+    invoke-static {}, Lcom/tencent/mm/booter/Iclz;->nf()Lcom/tencent/mm/modelgeo/Cclz;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 64
-    invoke-static {}, Lcom/tencent/mm/booter/Iclz;->nf()Lcom/tencent/mm/modelgeo/c;
+    invoke-static {}, Lcom/tencent/mm/booter/Iclz;->nf()Lcom/tencent/mm/modelgeo/Cclz;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/tencent/mm/booter/Iclz;->ng()Lcom/tencent/mm/modelgeo/a$a;
+    invoke-static {}, Lcom/tencent/mm/booter/Iclz;->ng()Lcom/tencent/mm/modelgeo/Aclz$a;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelgeo/c;->c(Lcom/tencent/mm/modelgeo/a$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelgeo/Cclz;->c(Lcom/tencent/mm/modelgeo/Aclz$a;)V
 
     .line 65
     invoke-static {v2}, Lcom/tencent/mm/booter/Iclz;->ap(Z)Z
@@ -96,7 +96,7 @@
 
     const-string/jumbo v1, "getLocation fail"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method

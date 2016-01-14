@@ -6,7 +6,7 @@
 # instance fields
 .field private azD:Z
 
-.field handler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -23,17 +23,17 @@
     iput-boolean v0, p0, Lcom/tencent/mm/plugin/sns/d/h;->azD:Z
 
     .line 16
-    invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->Xd()Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->Xd()Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/d/h;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/d/h;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -41,7 +41,7 @@
 
 
 # virtual methods
-.method public abstract HD()Lcom/tencent/mm/sdk/platformtools/ab;
+.method public abstract HD()Lcom/tencent/mm/sdk/platformtools/ABclz;
 .end method
 
 .method public varargs abstract HE()Ljava/lang/Object;
@@ -70,7 +70,7 @@
     iput-boolean v1, p0, Lcom/tencent/mm/plugin/sns/d/h;->azD:Z
 
     .line 23
-    invoke-virtual {p0}, Lcom/tencent/mm/plugin/sns/d/h;->HD()Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-virtual {p0}, Lcom/tencent/mm/plugin/sns/d/h;->HD()Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v2
 
@@ -87,7 +87,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/tencent/mm/plugin/sns/d/h$1;-><init>(Lcom/tencent/mm/plugin/sns/d/h;[Ljava/lang/Object;)V
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     move v0, v1
 

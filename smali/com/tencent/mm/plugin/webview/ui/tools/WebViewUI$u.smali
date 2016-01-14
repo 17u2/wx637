@@ -42,7 +42,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -59,7 +59,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -94,9 +94,9 @@
     const/4 v4, 0x1
 
     .line 6084
-    new-instance v0, Lcom/tencent/mm/sdk/e/d$a;
+    new-instance v0, Lcom/tencent/mm/sdk/e/Dclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/e/d$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/e/Dclz$a;-><init>()V
 
     .line 6085
     invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
@@ -108,7 +108,7 @@
 
     move-result-object v2
 
-    iput-object v2, v0, Lcom/tencent/mm/sdk/e/d$a;->aya:Ljava/lang/String;
+    iput-object v2, v0, Lcom/tencent/mm/sdk/e/Dclz$a;->aya:Ljava/lang/String;
 
     .line 6087
     const-string/jumbo v2, "errCode"
@@ -117,11 +117,11 @@
 
     move-result-object v2
 
-    invoke-static {v2, v5}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v2, v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v2
 
-    iput v2, v0, Lcom/tencent/mm/sdk/e/d$a;->errCode:I
+    iput v2, v0, Lcom/tencent/mm/sdk/e/Dclz$a;->errCode:I
 
     .line 6088
     const-string/jumbo v2, "errMsg"
@@ -130,7 +130,7 @@
 
     move-result-object v2
 
-    iput-object v2, v0, Lcom/tencent/mm/sdk/e/d$a;->cjC:Ljava/lang/String;
+    iput-object v2, v0, Lcom/tencent/mm/sdk/e/Dclz$a;->cjC:Ljava/lang/String;
 
     .line 6089
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI$u;->hEd:Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;
@@ -145,7 +145,7 @@
 
     move-result-object v2
 
-    iput-object v2, v0, Lcom/tencent/mm/sdk/e/d$a;->hMq:Ljava/lang/String;
+    iput-object v2, v0, Lcom/tencent/mm/sdk/e/Dclz$a;->hMq:Ljava/lang/String;
 
     .line 6090
     const-string/jumbo v2, "appid"
@@ -155,7 +155,7 @@
     move-result-object v1
 
     .line 6092
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -166,7 +166,7 @@
 
     const-string/jumbo v1, "SDKOpenWebViewResultHandler handleUrl, appId is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6113
     :goto_0
@@ -179,15 +179,15 @@
     invoke-direct {v2}, Landroid/os/Bundle;-><init>()V
 
     .line 6098
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/sdk/e/d$a;->k(Landroid/os/Bundle;)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/sdk/e/Dclz$a;->k(Landroid/os/Bundle;)V
 
     .line 6099
     invoke-static {v2}, Lcom/tencent/mm/pluginsdk/model/app/n;->D(Landroid/os/Bundle;)V
 
     .line 6101
-    new-instance v0, Lcom/tencent/mm/sdk/a/a$a;
+    new-instance v0, Lcom/tencent/mm/sdk/a/Aclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/a/a$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/a/Aclz$a;-><init>()V
 
     .line 6103
     :try_start_0
@@ -199,12 +199,12 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/sdk/a/a$a;->jeG:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/sdk/a/Aclz$a;->jeG:Ljava/lang/String;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 6108
-    iput-object v2, v0, Lcom/tencent/mm/sdk/a/a$a;->jeI:Landroid/os/Bundle;
+    iput-object v2, v0, Lcom/tencent/mm/sdk/a/Aclz$a;->jeI:Landroid/os/Bundle;
 
     .line 6109
     const-string/jumbo v1, "!32@/B4Tb64lLpJLnjolkGdCebu9zGVXToE5"
@@ -215,12 +215,12 @@
 
     aput-object v0, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 6110
     iget-object v1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI$u;->hEd:Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/a/a;->a(Landroid/content/Context;Lcom/tencent/mm/sdk/a/a$a;)Z
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/a/Aclz;->a(Landroid/content/Context;Lcom/tencent/mm/sdk/a/Aclz$a;)Z
 
     .line 6112
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI$u;->hEd:Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;
@@ -240,7 +240,7 @@
 
     new-array v3, v5, [Ljava/lang/Object;
 
-    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 .end method

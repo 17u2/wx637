@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic cyT:Lcom/tencent/mm/ui/tools/l;
+.field final synthetic cyT:Lcom/tencent/mm/ui/tools/Lclz;
 
 .field final synthetic kvD:Lcom/tencent/mm/ui/conversation/BizChatFavUI;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/conversation/BizChatFavUI;Lcom/tencent/mm/ui/tools/l;)V
+.method constructor <init>(Lcom/tencent/mm/ui/conversation/BizChatFavUI;Lcom/tencent/mm/ui/tools/Lclz;)V
     .locals 1
 
     .prologue
     .line 237
     iput-object p1, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$18;->kvD:Lcom/tencent/mm/ui/conversation/BizChatFavUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$18;->cyT:Lcom/tencent/mm/ui/tools/l;
+    iput-object p2, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$18;->cyT:Lcom/tencent/mm/ui/tools/Lclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -71,7 +71,7 @@
 
     const-string/jumbo v1, "on header view long click, ignore"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 247
     :goto_0
@@ -79,13 +79,13 @@
 
     .line 246
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$18;->cyT:Lcom/tencent/mm/ui/tools/l;
+    iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$18;->cyT:Lcom/tencent/mm/ui/tools/Lclz;
 
     iget-object v5, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$18;->kvD:Lcom/tencent/mm/ui/conversation/BizChatFavUI;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/conversation/BizChatFavUI$18;->kvD:Lcom/tencent/mm/ui/conversation/BizChatFavUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/conversation/BizChatFavUI;->d(Lcom/tencent/mm/ui/conversation/BizChatFavUI;)Lcom/tencent/mm/ui/base/m$d;
+    invoke-static {v1}, Lcom/tencent/mm/ui/conversation/BizChatFavUI;->d(Lcom/tencent/mm/ui/conversation/BizChatFavUI;)Lcom/tencent/mm/ui/base/Mclz$d;
 
     move-result-object v6
 
@@ -95,7 +95,7 @@
 
     move-wide v3, p4
 
-    invoke-virtual/range {v0 .. v6}, Lcom/tencent/mm/ui/tools/l;->a(Landroid/view/View;IJLandroid/view/View$OnCreateContextMenuListener;Lcom/tencent/mm/ui/base/m$d;)V
+    invoke-virtual/range {v0 .. v6}, Lcom/tencent/mm/ui/tools/Lclz;->a(Landroid/view/View;IJLandroid/view/View$OnCreateContextMenuListener;Lcom/tencent/mm/ui/base/Mclz$d;)V
 
     goto :goto_0
 .end method

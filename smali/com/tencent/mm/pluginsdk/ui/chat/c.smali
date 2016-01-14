@@ -10,7 +10,7 @@
 
 .field public hWG:Lcom/tencent/mm/pluginsdk/ui/emoji/PreViewEmojiView;
 
-.field public hWH:Lcom/tencent/mm/ui/base/n;
+.field public hWH:Lcom/tencent/mm/ui/base/Nclz;
 
 .field public hWI:Landroid/view/View;
 
@@ -66,41 +66,41 @@
 
     const v1, 0x7f0c009a
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/at/a;->v(Landroid/content/Context;I)I
+    invoke-static {v0, v1}, Lcom/tencent/mm/at/Aclz;->v(Landroid/content/Context;I)I
 
     move-result v0
 
     iput v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWJ:I
 
-    new-instance v0, Lcom/tencent/mm/ui/base/n;
+    new-instance v0, Lcom/tencent/mm/ui/base/Nclz;
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/c;->mContext:Landroid/content/Context;
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/ui/base/n;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/ui/base/Nclz;-><init>(Landroid/content/Context;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/n;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/Nclz;
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/Nclz;
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/c;->gAy:Landroid/view/View;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/n;->setContentView(Landroid/view/View;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/Nclz;->setContentView(Landroid/view/View;)V
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/ui/base/n;->setOutsideTouchable(Z)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/ui/base/Nclz;->setOutsideTouchable(Z)V
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/ui/base/n;->setFocusable(Z)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/ui/base/Nclz;->setFocusable(Z)V
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/Nclz;
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/ui/base/n;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/ui/base/Nclz;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/c;->mContext:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/base/r;->dY(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/tencent/mm/ui/base/Rclz;->dY(Landroid/content/Context;)I
 
     move-result v0
 
@@ -111,7 +111,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

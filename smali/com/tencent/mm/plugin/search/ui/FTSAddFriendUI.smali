@@ -33,7 +33,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,29 +48,29 @@
     const/4 v4, 0x0
 
     .line 40
-    new-instance v0, Lcom/tencent/mm/d/a/q;
+    new-instance v0, Lcom/tencent/mm/d/a/Qclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/q;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/Qclz;-><init>()V
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/q;->arY:Lcom/tencent/mm/d/a/q$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/Qclz;->arY:Lcom/tencent/mm/d/a/Qclz$a;
 
-    iput-object p0, v1, Lcom/tencent/mm/d/a/q$a;->context:Landroid/content/Context;
+    iput-object p0, v1, Lcom/tencent/mm/d/a/Qclz$a;->context:Landroid/content/Context;
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/q;->arY:Lcom/tencent/mm/d/a/q$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/Qclz;->arY:Lcom/tencent/mm/d/a/Qclz$a;
 
-    iput v5, v1, Lcom/tencent/mm/d/a/q$a;->fromScene:I
+    iput v5, v1, Lcom/tencent/mm/d/a/Qclz$a;->fromScene:I
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/q;->arY:Lcom/tencent/mm/d/a/q$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/Qclz;->arY:Lcom/tencent/mm/d/a/Qclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->aBw:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/q$a;->asa:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/Qclz$a;->asa:Ljava/lang/String;
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/q;->arY:Lcom/tencent/mm/d/a/q$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/Qclz;->arY:Lcom/tencent/mm/d/a/Qclz$a;
 
-    iput-boolean v4, v1, Lcom/tencent/mm/d/a/q$a;->asc:Z
+    iput-boolean v4, v1, Lcom/tencent/mm/d/a/Qclz$a;->asc:Z
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/q;->arY:Lcom/tencent/mm/d/a/q$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/Qclz;->arY:Lcom/tencent/mm/d/a/Qclz$a;
 
     const v2, 0x7f0904ea
 
@@ -78,37 +78,37 @@
 
     move-result-object v2
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/q$a;->title:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/Qclz$a;->title:Ljava/lang/String;
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/q;->arY:Lcom/tencent/mm/d/a/q$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/Qclz;->arY:Lcom/tencent/mm/d/a/Qclz$a;
 
     const-wide/16 v2, 0x1
 
-    iput-wide v2, v1, Lcom/tencent/mm/d/a/q$a;->asb:J
+    iput-wide v2, v1, Lcom/tencent/mm/d/a/Qclz$a;->asb:J
 
     new-instance v1, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$3;
 
-    invoke-direct {v1, p0, v0}, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$3;-><init>(Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;Lcom/tencent/mm/d/a/q;)V
+    invoke-direct {v1, p0, v0}, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$3;-><init>(Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;Lcom/tencent/mm/d/a/Qclz;)V
 
-    iget-object v2, v0, Lcom/tencent/mm/d/a/q;->arY:Lcom/tencent/mm/d/a/q$a;
+    iget-object v2, v0, Lcom/tencent/mm/d/a/Qclz;->arY:Lcom/tencent/mm/d/a/Qclz$a;
 
-    iput-object v1, v2, Lcom/tencent/mm/d/a/q$a;->asd:Ljava/lang/Runnable;
+    iput-object v1, v2, Lcom/tencent/mm/d/a/Qclz$a;->asd:Ljava/lang/Runnable;
 
-    iget-object v2, v0, Lcom/tencent/mm/d/a/q;->arY:Lcom/tencent/mm/d/a/q$a;
+    iget-object v2, v0, Lcom/tencent/mm/d/a/Qclz;->arY:Lcom/tencent/mm/d/a/Qclz$a;
 
-    iput v5, v2, Lcom/tencent/mm/d/a/q$a;->action:I
+    iput v5, v2, Lcom/tencent/mm/d/a/Qclz$a;->action:I
 
-    sget-object v2, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v2, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/q;->arZ:Lcom/tencent/mm/d/a/q$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/Qclz;->arZ:Lcom/tencent/mm/d/a/Qclz$b;
 
-    iput-boolean v4, v0, Lcom/tencent/mm/d/a/q$b;->ase:Z
+    iput-boolean v4, v0, Lcom/tencent/mm/d/a/Qclz$b;->ase:Z
 
     invoke-interface {v1}, Ljava/lang/Runnable;->run()V
 
@@ -125,7 +125,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$4;-><init>(Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;)V
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ac;->j(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
 
     return-void
 .end method
@@ -226,9 +226,9 @@
     invoke-virtual {v2, v3, v0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 157
-    new-instance v2, Lcom/tencent/mm/modelsimple/z;
+    new-instance v2, Lcom/tencent/mm/modelsimple/Zclz;
 
-    invoke-direct {v2, p1, v1}, Lcom/tencent/mm/modelsimple/z;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v2, p1, v1}, Lcom/tencent/mm/modelsimple/Zclz;-><init>(Ljava/lang/String;I)V
 
     .line 158
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -252,9 +252,9 @@
 
     new-instance v4, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$2;
 
-    invoke-direct {v4, p0, v2, v0}, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$2;-><init>(Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;Lcom/tencent/mm/modelsimple/z;Lcom/tencent/mm/q/Dclz;)V
+    invoke-direct {v4, p0, v2, v0}, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$2;-><init>(Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;Lcom/tencent/mm/modelsimple/Zclz;Lcom/tencent/mm/q/Dclz;)V
 
-    invoke-static {p0, v1, v3, v4}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {p0, v1, v3, v4}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
@@ -293,7 +293,7 @@
     return v0
 .end method
 
-.method public final b(Lcom/tencent/mm/ui/e/a/a;)V
+.method public final b(Lcom/tencent/mm/ui/e/a/Aclz;)V
     .locals 1
 
     .prologue
@@ -303,12 +303,12 @@
     if-eqz v0, :cond_0
 
     .line 56
-    iget-object v0, p1, Lcom/tencent/mm/ui/e/a/a;->aBw:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/ui/e/a/Aclz;->aBw:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;->dDV:Ljava/lang/String;
 
     .line 57
-    iget-object v0, p1, Lcom/tencent/mm/ui/e/a/a;->aBw:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/ui/e/a/Aclz;->aBw:Ljava/lang/String;
 
     invoke-direct {p0, v0}, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;->sk(Ljava/lang/String;)V
 

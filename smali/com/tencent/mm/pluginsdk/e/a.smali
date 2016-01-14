@@ -21,7 +21,7 @@
     .line 59
     const-string/jumbo v0, "gesture"
 
-    invoke-static {v0}, Lcom/tencent/mm/ao/c;->wx(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/ao/Cclz;->wx(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -32,7 +32,7 @@
 
     const-string/jumbo v1, "Plugin gesture is not installed."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 84
     :goto_0
@@ -40,29 +40,29 @@
 
     .line 64
     :cond_0
-    new-instance v0, Lcom/tencent/mm/d/a/dz;
+    new-instance v0, Lcom/tencent/mm/d/a/DZclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/dz;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/DZclz;-><init>()V
 
     .line 70
-    iget-object v1, v0, Lcom/tencent/mm/d/a/dz;->axV:Lcom/tencent/mm/d/a/dz$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/DZclz;->axV:Lcom/tencent/mm/d/a/DZclz$a;
 
-    iput v4, v1, Lcom/tencent/mm/d/a/dz$a;->axX:I
+    iput v4, v1, Lcom/tencent/mm/d/a/DZclz$a;->axX:I
 
     .line 71
-    iget-object v1, v0, Lcom/tencent/mm/d/a/dz;->axV:Lcom/tencent/mm/d/a/dz$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/DZclz;->axV:Lcom/tencent/mm/d/a/DZclz$a;
 
-    iput-object p0, v1, Lcom/tencent/mm/d/a/dz$a;->asr:Landroid/app/Activity;
+    iput-object p0, v1, Lcom/tencent/mm/d/a/DZclz$a;->asr:Landroid/app/Activity;
 
     .line 72
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 73
-    iget-object v0, v0, Lcom/tencent/mm/d/a/dz;->axW:Lcom/tencent/mm/d/a/dz$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/DZclz;->axW:Lcom/tencent/mm/d/a/DZclz$b;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/dz$b;->data:Ljava/lang/Object;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/DZclz$b;->data:Ljava/lang/Object;
 
     check-cast v0, Ljava/lang/Integer;
 
@@ -110,7 +110,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     .line 81
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getPackageName()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getPackageName()Ljava/lang/String;
 
     move-result-object v1
 
@@ -121,7 +121,7 @@
 
     const-string/jumbo v2, ".ui.GestureGuardLogicUI"
 
-    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     .line 83
     sget-object v0, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;
@@ -180,7 +180,7 @@
     .line 134
     const-string/jumbo v0, "gesture"
 
-    invoke-static {v0}, Lcom/tencent/mm/ao/c;->wx(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/ao/Cclz;->wx(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -191,7 +191,7 @@
 
     const-string/jumbo v1, "Plugin gesture is not installed."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 142
     :goto_0
@@ -215,7 +215,7 @@
 
     const-string/jumbo v2, ".pwd.ui.WalletGestureCheckPwdUI"
 
-    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     goto :goto_0
 .end method
@@ -229,7 +229,7 @@
     .line 183
     const-string/jumbo v0, "gesture"
 
-    invoke-static {v0}, Lcom/tencent/mm/ao/c;->wx(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/ao/Cclz;->wx(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -240,7 +240,7 @@
 
     const-string/jumbo v2, "Plugin gesture is not installed."
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -250,27 +250,27 @@
 
     .line 188
     :cond_0
-    new-instance v0, Lcom/tencent/mm/d/a/dz;
+    new-instance v0, Lcom/tencent/mm/d/a/DZclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/dz;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/DZclz;-><init>()V
 
     .line 189
-    iget-object v2, v0, Lcom/tencent/mm/d/a/dz;->axV:Lcom/tencent/mm/d/a/dz$a;
+    iget-object v2, v0, Lcom/tencent/mm/d/a/DZclz;->axV:Lcom/tencent/mm/d/a/DZclz$a;
 
     const/4 v3, 0x2
 
-    iput v3, v2, Lcom/tencent/mm/d/a/dz$a;->axX:I
+    iput v3, v2, Lcom/tencent/mm/d/a/DZclz$a;->axX:I
 
     .line 190
-    sget-object v2, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v2, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 192
     :try_start_0
-    iget-object v0, v0, Lcom/tencent/mm/d/a/dz;->axW:Lcom/tencent/mm/d/a/dz$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/DZclz;->axW:Lcom/tencent/mm/d/a/DZclz$b;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/dz$b;->data:Ljava/lang/Object;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/DZclz$b;->data:Ljava/lang/Object;
 
     check-cast v0, Ljava/lang/Boolean;
 
@@ -298,7 +298,7 @@
     .line 101
     const-string/jumbo v0, "gesture"
 
-    invoke-static {v0}, Lcom/tencent/mm/ao/c;->wx(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/ao/Cclz;->wx(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -309,7 +309,7 @@
 
     const-string/jumbo v1, "Plugin gesture is not installed."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 124
     :goto_0
@@ -317,31 +317,31 @@
 
     .line 106
     :cond_0
-    new-instance v0, Lcom/tencent/mm/d/a/dz;
+    new-instance v0, Lcom/tencent/mm/d/a/DZclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/dz;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/DZclz;-><init>()V
 
     .line 107
-    iget-object v1, v0, Lcom/tencent/mm/d/a/dz;->axV:Lcom/tencent/mm/d/a/dz$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/DZclz;->axV:Lcom/tencent/mm/d/a/DZclz$a;
 
     const/4 v2, 0x1
 
-    iput v2, v1, Lcom/tencent/mm/d/a/dz$a;->axX:I
+    iput v2, v1, Lcom/tencent/mm/d/a/DZclz$a;->axX:I
 
     .line 108
-    iget-object v1, v0, Lcom/tencent/mm/d/a/dz;->axV:Lcom/tencent/mm/d/a/dz$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/DZclz;->axV:Lcom/tencent/mm/d/a/DZclz$a;
 
-    iput-object p0, v1, Lcom/tencent/mm/d/a/dz$a;->asr:Landroid/app/Activity;
+    iput-object p0, v1, Lcom/tencent/mm/d/a/DZclz$a;->asr:Landroid/app/Activity;
 
     .line 109
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 110
-    iget-object v0, v0, Lcom/tencent/mm/d/a/dz;->axW:Lcom/tencent/mm/d/a/dz$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/DZclz;->axW:Lcom/tencent/mm/d/a/DZclz$b;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/dz$b;->data:Ljava/lang/Object;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/DZclz$b;->data:Ljava/lang/Object;
 
     check-cast v0, Ljava/lang/Integer;
 
@@ -396,7 +396,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     .line 119
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getPackageName()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getPackageName()Ljava/lang/String;
 
     move-result-object v1
 
@@ -407,7 +407,7 @@
 
     const-string/jumbo v2, ".ui.GestureGuardLogicUI"
 
-    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {p0, v1, v2, v0}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     goto :goto_0
 
@@ -417,7 +417,7 @@
 
     const-string/jumbo v1, "protectMeOnResume: still in filter range, do not activate protection."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -437,7 +437,7 @@
     .line 200
     const-string/jumbo v0, "gesture"
 
-    invoke-static {v0}, Lcom/tencent/mm/ao/c;->wx(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/ao/Cclz;->wx(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -448,7 +448,7 @@
 
     const-string/jumbo v2, "Plugin gesture is not installed."
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -458,27 +458,27 @@
 
     .line 205
     :cond_0
-    new-instance v0, Lcom/tencent/mm/d/a/dz;
+    new-instance v0, Lcom/tencent/mm/d/a/DZclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/dz;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/DZclz;-><init>()V
 
     .line 206
-    iget-object v2, v0, Lcom/tencent/mm/d/a/dz;->axV:Lcom/tencent/mm/d/a/dz$a;
+    iget-object v2, v0, Lcom/tencent/mm/d/a/DZclz;->axV:Lcom/tencent/mm/d/a/DZclz$a;
 
     const/4 v3, 0x3
 
-    iput v3, v2, Lcom/tencent/mm/d/a/dz$a;->axX:I
+    iput v3, v2, Lcom/tencent/mm/d/a/DZclz$a;->axX:I
 
     .line 207
-    sget-object v2, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v2, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 209
     :try_start_0
-    iget-object v0, v0, Lcom/tencent/mm/d/a/dz;->axW:Lcom/tencent/mm/d/a/dz$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/DZclz;->axW:Lcom/tencent/mm/d/a/DZclz$b;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/dz$b;->data:Ljava/lang/Object;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/DZclz$b;->data:Ljava/lang/Object;
 
     check-cast v0, Ljava/lang/Boolean;
 

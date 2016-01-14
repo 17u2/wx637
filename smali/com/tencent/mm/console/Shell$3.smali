@@ -29,7 +29,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,7 +50,7 @@
 
     move-result v0
 
-    sput-boolean v0, Lcom/tencent/mm/platformtools/r;->ceC:Z
+    sput-boolean v0, Lcom/tencent/mm/platformtools/Rclz;->ceC:Z
 
     .line 64
     const-string/jumbo v0, "!24@/B4Tb64lLpLOIdMtS2bKaA=="
@@ -61,7 +61,7 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    sget-boolean v3, Lcom/tencent/mm/platformtools/r;->ceC:Z
+    sget-boolean v3, Lcom/tencent/mm/platformtools/Rclz;->ceC:Z
 
     invoke-static {v3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -69,7 +69,7 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 65
     return-void

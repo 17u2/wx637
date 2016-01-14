@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -62,30 +62,30 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/compatible/e/b;->oT()Z
+    invoke-static {}, Lcom/tencent/mm/compatible/e/Bclz;->oT()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
     :cond_0
-    new-instance v1, Lcom/tencent/mm/d/a/gv;
+    new-instance v1, Lcom/tencent/mm/d/a/GVclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/d/a/gv;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/d/a/GVclz;-><init>()V
 
-    iget-object v2, v1, Lcom/tencent/mm/d/a/gv;->aBs:Lcom/tencent/mm/d/a/gv$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/GVclz;->aBs:Lcom/tencent/mm/d/a/GVclz$a;
 
     const/4 v3, 0x2
 
-    iput v3, v2, Lcom/tencent/mm/d/a/gv$a;->type:I
+    iput v3, v2, Lcom/tencent/mm/d/a/GVclz$a;->type:I
 
-    sget-object v2, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v2, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/gv;->aBt:Lcom/tencent/mm/d/a/gv$b;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/GVclz;->aBt:Lcom/tencent/mm/d/a/GVclz$b;
 
-    iget-boolean v1, v1, Lcom/tencent/mm/d/a/gv$b;->aBr:Z
+    iget-boolean v1, v1, Lcom/tencent/mm/d/a/GVclz$b;->aBr:Z
 
     if-nez v1, :cond_1
 
@@ -97,7 +97,7 @@
 
     const v2, 0x7f090ad3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/ui/base/f;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/ui/base/Fclz;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -107,7 +107,7 @@
 
     const-string/jumbo v1, "new dialog failed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 416
     :cond_1
@@ -121,11 +121,11 @@
 
     .line 415
     :cond_2
-    invoke-virtual {v0, v4}, Lcom/tencent/mm/ui/base/g;->setCancelable(Z)V
+    invoke-virtual {v0, v4}, Lcom/tencent/mm/ui/base/Gclz;->setCancelable(Z)V
 
-    invoke-virtual {v0, v4}, Lcom/tencent/mm/ui/base/g;->setCanceledOnTouchOutside(Z)V
+    invoke-virtual {v0, v4}, Lcom/tencent/mm/ui/base/Gclz;->setCanceledOnTouchOutside(Z)V
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->show()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->show()V
 
     goto :goto_0
 .end method

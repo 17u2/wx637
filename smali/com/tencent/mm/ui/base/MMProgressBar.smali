@@ -12,7 +12,7 @@
 
 
 # instance fields
-.field private ePC:Lcom/tencent/mm/sdk/platformtools/ag;
+.field private ePC:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
 .field private fXl:Landroid/widget/TextView;
 
@@ -49,15 +49,15 @@
     iput v2, p0, Lcom/tencent/mm/ui/base/MMProgressBar;->jOn:I
 
     .line 36
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     new-instance v1, Lcom/tencent/mm/ui/base/MMProgressBar$1;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/base/MMProgressBar$1;-><init>(Lcom/tencent/mm/ui/base/MMProgressBar;)V
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/base/MMProgressBar;->ePC:Lcom/tencent/mm/sdk/platformtools/ag;
+    iput-object v0, p0, Lcom/tencent/mm/ui/base/MMProgressBar;->ePC:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     .line 59
     invoke-virtual {p0}, Lcom/tencent/mm/ui/base/MMProgressBar;->getContext()Landroid/content/Context;
@@ -93,7 +93,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -168,12 +168,12 @@
     return v0
 .end method
 
-.method static synthetic d(Lcom/tencent/mm/ui/base/MMProgressBar;)Lcom/tencent/mm/sdk/platformtools/ag;
+.method static synthetic d(Lcom/tencent/mm/ui/base/MMProgressBar;)Lcom/tencent/mm/sdk/platformtools/AGclz;
     .locals 1
 
     .prologue
     .line 13
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMProgressBar;->ePC:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMProgressBar;->ePC:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     return-object v0
 .end method
@@ -252,11 +252,11 @@
     if-eqz p1, :cond_0
 
     .line 101
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMProgressBar;->ePC:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMProgressBar;->ePC:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     const-wide/16 v1, 0x28
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     .line 105
     :goto_0
@@ -264,9 +264,9 @@
 
     .line 103
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMProgressBar;->ePC:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMProgressBar;->ePC:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ag;->aOk()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOk()V
 
     goto :goto_0
 .end method
@@ -310,9 +310,9 @@
     iput p1, p0, Lcom/tencent/mm/ui/base/MMProgressBar;->jOn:I
 
     .line 90
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMProgressBar;->ePC:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMProgressBar;->ePC:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ag;->aOK()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOK()Z
 
     move-result v0
 

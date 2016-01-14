@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -83,7 +83,7 @@
 
     new-array v2, v2, [I
 
-    sget v3, Lcom/tencent/mm/ui/contact/q;->kty:I
+    sget v3, Lcom/tencent/mm/ui/contact/Qclz;->kty:I
 
     aput v3, v2, v5
 
@@ -99,7 +99,7 @@
 
     aput v4, v2, v3
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/contact/q;->k([I)I
+    invoke-static {v2}, Lcom/tencent/mm/ui/contact/Qclz;->k([I)I
 
     move-result v2
 
@@ -108,9 +108,9 @@
     .line 440
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/ChatroomContactUI$3;->krl:Lcom/tencent/mm/ui/contact/ChatroomContactUI;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v1, v1, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     invoke-virtual {v1, v0}, Landroid/support/v7/app/ActionBarActivity;->startActivity(Landroid/content/Intent;)V
 

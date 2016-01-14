@@ -29,7 +29,7 @@
 
     const-string/jumbo v1, "SnsTimeLineAdapter 2"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 28
     iput-object p3, p0, Lcom/tencent/mm/plugin/sns/d/ae;->gjY:Lcom/tencent/mm/plugin/sns/ui/f;
@@ -72,7 +72,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

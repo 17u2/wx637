@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private bTH:Lcom/tencent/mm/sdk/platformtools/ac;
+.field private bTH:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
 .field private bvK:Z
 
@@ -48,7 +48,7 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/DoodleBlackBoard;->dxZ:Landroid/graphics/Path;
 
     .line 26
-    iput-object v1, p0, Lcom/tencent/mm/plugin/f2f/DoodleBlackBoard;->bTH:Lcom/tencent/mm/sdk/platformtools/ac;
+    iput-object v1, p0, Lcom/tencent/mm/plugin/f2f/DoodleBlackBoard;->bTH:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     .line 27
     const/4 v0, 0x0
@@ -83,7 +83,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -106,7 +106,7 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/DoodleBlackBoard;->dxZ:Landroid/graphics/Path;
 
     .line 26
-    iput-object v1, p0, Lcom/tencent/mm/plugin/f2f/DoodleBlackBoard;->bTH:Lcom/tencent/mm/sdk/platformtools/ac;
+    iput-object v1, p0, Lcom/tencent/mm/plugin/f2f/DoodleBlackBoard;->bTH:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     .line 27
     const/4 v0, 0x0
@@ -141,7 +141,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -333,7 +333,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 69
     iget v0, p0, Lcom/tencent/mm/plugin/f2f/DoodleBlackBoard;->dyb:I
@@ -426,12 +426,12 @@
     throw v0
 .end method
 
-.method public setMMHanderThread(Lcom/tencent/mm/sdk/platformtools/ac;)V
+.method public setMMHanderThread(Lcom/tencent/mm/sdk/platformtools/ACclz;)V
     .locals 0
 
     .prologue
     .line 352
-    iput-object p1, p0, Lcom/tencent/mm/plugin/f2f/DoodleBlackBoard;->bTH:Lcom/tencent/mm/sdk/platformtools/ac;
+    iput-object p1, p0, Lcom/tencent/mm/plugin/f2f/DoodleBlackBoard;->bTH:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     .line 353
     return-void

@@ -46,7 +46,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -150,7 +150,7 @@
 
     const-string/jumbo v1, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, v6, Lcom/tencent/mm/plugin/gwallet/a/b;->ego:Lcom/a/a/a/a;
 
@@ -250,7 +250,7 @@
 
     const-string/jumbo v2, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v2, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/16 v1, 0x2711
 
@@ -362,7 +362,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0, p1, p2}, Lcom/tencent/mm/plugin/gwallet/GWalletUI;->setResult(ILandroid/content/Intent;)V
 
@@ -396,9 +396,9 @@
 
     invoke-direct {v2, p0, p1}, Lcom/tencent/mm/plugin/gwallet/GWalletUI$4;-><init>(Lcom/tencent/mm/plugin/gwallet/GWalletUI;Z)V
 
-    new-instance v3, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v3, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     const-string/jumbo v4, "queryInventory"
 
@@ -406,11 +406,11 @@
 
     new-instance v4, Lcom/tencent/mm/plugin/gwallet/a/b$3;
 
-    invoke-direct {v4, v0, v1, v3, v2}, Lcom/tencent/mm/plugin/gwallet/a/b$3;-><init>(Lcom/tencent/mm/plugin/gwallet/a/b;Ljava/lang/String;Lcom/tencent/mm/sdk/platformtools/ab;Lcom/tencent/mm/plugin/gwallet/a/b$b;)V
+    invoke-direct {v4, v0, v1, v3, v2}, Lcom/tencent/mm/plugin/gwallet/a/b$3;-><init>(Lcom/tencent/mm/plugin/gwallet/a/b;Ljava/lang/String;Lcom/tencent/mm/sdk/platformtools/ABclz;Lcom/tencent/mm/plugin/gwallet/a/b$b;)V
 
     const-string/jumbo v0, "IabHelper_queryInventoryAsync"
 
-    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/h/e;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/h/Eclz;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
 
     .line 159
     return-void
@@ -509,7 +509,7 @@
 
     const-string/jumbo v4, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v4, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -527,7 +527,7 @@
 
     const-string/jumbo v3, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v3, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -549,7 +549,7 @@
 
     const-string/jumbo v3, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v3, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -569,7 +569,7 @@
 
     const-string/jumbo v3, "!32@/B4Tb64lLpKw9oSUpbeF6PlG5rCG0j68"
 
-    invoke-static {v3, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v2, Lcom/tencent/mm/plugin/gwallet/a/c;
 
@@ -676,7 +676,7 @@
 
     const-string/jumbo v1, "Creating IAB helper."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 52
     new-instance v0, Lcom/tencent/mm/plugin/gwallet/a/b;
@@ -690,7 +690,7 @@
 
     const-string/jumbo v1, "Starting setup."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 57
     iget-object v0, p0, Lcom/tencent/mm/plugin/gwallet/GWalletUI;->egc:Lcom/tencent/mm/plugin/gwallet/a/b;
@@ -714,7 +714,7 @@
 
     const-string/jumbo v1, "Destroying helper."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 193
     iget-object v0, p0, Lcom/tencent/mm/plugin/gwallet/GWalletUI;->egc:Lcom/tencent/mm/plugin/gwallet/a/b;

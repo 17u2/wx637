@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,7 +52,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -114,13 +114,13 @@
     .line 1391
     iget-object v0, p0, Lcom/tencent/mm/ui/base/MMListPopupWindow$f;->jNY:Lcom/tencent/mm/ui/base/MMListPopupWindow;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/base/MMListPopupWindow;->b(Lcom/tencent/mm/ui/base/MMListPopupWindow;)Lcom/tencent/mm/ui/base/n;
+    invoke-static {v0}, Lcom/tencent/mm/ui/base/MMListPopupWindow;->b(Lcom/tencent/mm/ui/base/MMListPopupWindow;)Lcom/tencent/mm/ui/base/Nclz;
 
     move-result-object v0
 
     const/4 v1, 0x2
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/n;->setInputMethodMode(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/Nclz;->setInputMethodMode(I)V
 
     .line 1392
     iget-object v0, p0, Lcom/tencent/mm/ui/base/MMListPopupWindow$f;->jNY:Lcom/tencent/mm/ui/base/MMListPopupWindow;

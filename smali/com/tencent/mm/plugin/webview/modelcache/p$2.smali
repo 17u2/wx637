@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic hAd:Lcom/tencent/mm/plugin/webview/modelcache/p;
 
-.field final synthetic hAe:Lcom/tencent/mm/sdk/platformtools/ac;
+.field final synthetic hAe:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/webview/modelcache/p;Lcom/tencent/mm/sdk/platformtools/ac;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/webview/modelcache/p;Lcom/tencent/mm/sdk/platformtools/ACclz;)V
     .locals 1
 
     .prologue
     .line 156
     iput-object p1, p0, Lcom/tencent/mm/plugin/webview/modelcache/p$2;->hAd:Lcom/tencent/mm/plugin/webview/modelcache/p;
 
-    iput-object p2, p0, Lcom/tencent/mm/plugin/webview/modelcache/p$2;->hAe:Lcom/tencent/mm/sdk/platformtools/ac;
+    iput-object p2, p0, Lcom/tencent/mm/plugin/webview/modelcache/p$2;->hAe:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

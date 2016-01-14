@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/safedevice/a/f$2;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,12 +42,12 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 2
 
     .prologue
     .line 61
-    iget-object v0, p1, Lcom/tencent/mm/sdk/c/b;->id:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/sdk/c/Bclz;->id:Ljava/lang/String;
 
     const-string/jumbo v1, "UpdateLocalSafeDevice"
 
@@ -58,12 +58,12 @@
     if-eqz v0, :cond_4
 
     .line 62
-    check-cast p1, Lcom/tencent/mm/d/a/lb;
+    check-cast p1, Lcom/tencent/mm/d/a/LBclz;
 
     .line 63
-    iget-object v0, p1, Lcom/tencent/mm/d/a/lb;->aGd:Lcom/tencent/mm/d/a/lb$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/LBclz;->aGd:Lcom/tencent/mm/d/a/LBclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/lb$a;->aGe:Lcom/tencent/mm/protocal/b/ajr;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/LBclz$a;->aGe:Lcom/tencent/mm/protocal/b/ajr;
 
     if-nez v0, :cond_1
 
@@ -71,7 +71,7 @@
 
     const-string/jumbo v1, "null resp"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 74
     :cond_0
@@ -134,7 +134,7 @@
 
     .line 64
     :cond_4
-    iget-object v0, p1, Lcom/tencent/mm/sdk/c/b;->id:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/sdk/c/Bclz;->id:Ljava/lang/String;
 
     const-string/jumbo v1, "UpdateLocalVerifySwitch"
 
@@ -145,16 +145,16 @@
     if-eqz v0, :cond_5
 
     .line 65
-    check-cast p1, Lcom/tencent/mm/d/a/lc;
+    check-cast p1, Lcom/tencent/mm/d/a/LCclz;
 
     .line 66
-    iget-object v0, p1, Lcom/tencent/mm/d/a/lc;->aGf:Lcom/tencent/mm/d/a/lc$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/LCclz;->aGf:Lcom/tencent/mm/d/a/LCclz$a;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/d/a/lc$a;->aGg:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/d/a/LCclz$a;->aGg:Z
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/lc;->aGf:Lcom/tencent/mm/d/a/lc$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/LCclz;->aGf:Lcom/tencent/mm/d/a/LCclz$a;
 
-    iget-boolean v1, v1, Lcom/tencent/mm/d/a/lc$a;->aGh:Z
+    iget-boolean v1, v1, Lcom/tencent/mm/d/a/LCclz$a;->aGh:Z
 
     invoke-static {v0, v1}, Lcom/tencent/mm/plugin/safedevice/a/e;->l(ZZ)V
 
@@ -162,7 +162,7 @@
 
     .line 67
     :cond_5
-    iget-object v0, p1, Lcom/tencent/mm/sdk/c/b;->id:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/sdk/c/Bclz;->id:Ljava/lang/String;
 
     const-string/jumbo v1, "GetSafeDeviceName"
 
@@ -173,26 +173,26 @@
     if-eqz v0, :cond_6
 
     .line 68
-    check-cast p1, Lcom/tencent/mm/d/a/el;
+    check-cast p1, Lcom/tencent/mm/d/a/ELclz;
 
     .line 69
-    iget-object v0, p1, Lcom/tencent/mm/d/a/el;->ayv:Lcom/tencent/mm/d/a/el$b;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/ELclz;->ayv:Lcom/tencent/mm/d/a/ELclz$b;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/el;->ayu:Lcom/tencent/mm/d/a/el$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/ELclz;->ayu:Lcom/tencent/mm/d/a/ELclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/el$a;->context:Landroid/content/Context;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/ELclz$a;->context:Landroid/content/Context;
 
     invoke-static {v1}, Lcom/tencent/mm/plugin/safedevice/a/e;->bU(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/d/a/el$b;->ayw:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/d/a/ELclz$b;->ayw:Ljava/lang/String;
 
     goto :goto_0
 
     .line 70
     :cond_6
-    iget-object v0, p1, Lcom/tencent/mm/sdk/c/b;->id:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/sdk/c/Bclz;->id:Ljava/lang/String;
 
     const-string/jumbo v1, "GetSafeDeviceType"
 
@@ -203,16 +203,16 @@
     if-eqz v0, :cond_0
 
     .line 71
-    check-cast p1, Lcom/tencent/mm/d/a/em;
+    check-cast p1, Lcom/tencent/mm/d/a/EMclz;
 
     .line 72
-    iget-object v0, p1, Lcom/tencent/mm/d/a/em;->ayx:Lcom/tencent/mm/d/a/em$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/EMclz;->ayx:Lcom/tencent/mm/d/a/EMclz$a;
 
     invoke-static {}, Lcom/tencent/mm/plugin/safedevice/a/e;->amx()Ljava/lang/String;
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/tencent/mm/d/a/em$a;->ayy:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/d/a/EMclz$a;->ayy:Ljava/lang/String;
 
     goto :goto_0
 .end method

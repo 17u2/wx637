@@ -13,7 +13,7 @@
 
 
 # instance fields
-.field private volatile btq:Lcom/tencent/mm/sdk/platformtools/ac;
+.field private volatile btq:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
 .field private final hAa:Ljava/lang/Object;
 
@@ -21,7 +21,7 @@
 
 .field public final hAc:Landroid/util/SparseArray;
 
-.field public final hzW:Lcom/tencent/mm/sdk/c/c;
+.field public final hzW:Lcom/tencent/mm/sdk/c/Cclz;
 
 .field private volatile hzX:Lcom/tencent/mm/plugin/webview/modelcache/g;
 
@@ -43,7 +43,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/webview/modelcache/p$1;-><init>(Lcom/tencent/mm/plugin/webview/modelcache/p;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->hzW:Lcom/tencent/mm/sdk/c/c;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->hzW:Lcom/tencent/mm/sdk/c/Cclz;
 
     .line 91
     new-instance v0, Landroid/util/SparseArray;
@@ -78,7 +78,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -95,7 +95,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -106,7 +106,7 @@
 
     .prologue
     .line 184
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/bc;->bd(Ljava/util/List;)Z
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->bd(Ljava/util/List;)Z
 
     move-result v0
 
@@ -140,7 +140,7 @@
     .line 188
     iget-object v0, v6, Lcom/tencent/mm/plugin/webview/modelcache/d;->field_localPath:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -221,13 +221,13 @@
 
     move-result-object v0
 
-    iget-object v1, v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/WebViewCacheDownloadHelper;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/WebViewCacheDownloadHelper;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     new-instance v2, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/WebViewCacheDownloadHelper$1;
 
     invoke-direct {v2, v0, v7}, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/WebViewCacheDownloadHelper$1;-><init>(Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/WebViewCacheDownloadHelper;Ljava/util/List;)V
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 195
     :cond_3
@@ -292,7 +292,7 @@
     invoke-virtual {v0}, Landroid/util/SparseArray;->clear()V
 
     .line 80
-    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->btq:Lcom/tencent/mm/sdk/platformtools/ac;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->btq:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     if-nez v0, :cond_1
 
@@ -305,7 +305,7 @@
     monitor-enter v1
 
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->btq:Lcom/tencent/mm/sdk/platformtools/ac;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->btq:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     if-nez v0, :cond_2
 
@@ -326,9 +326,9 @@
     if-eqz p1, :cond_3
 
     :try_start_1
-    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->btq:Lcom/tencent/mm/sdk/platformtools/ac;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->btq:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/sdk/platformtools/ac;->jgj:Landroid/os/HandlerThread;
+    iget-object v0, v0, Lcom/tencent/mm/sdk/platformtools/ACclz;->jgj:Landroid/os/HandlerThread;
 
     invoke-virtual {v0}, Landroid/os/HandlerThread;->quit()Z
 
@@ -337,19 +337,19 @@
     goto :goto_1
 
     :cond_3
-    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->btq:Lcom/tencent/mm/sdk/platformtools/ac;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->btq:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->btq:Lcom/tencent/mm/sdk/platformtools/ac;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->btq:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     new-instance v3, Lcom/tencent/mm/plugin/webview/modelcache/p$2;
 
-    invoke-direct {v3, p0, v0}, Lcom/tencent/mm/plugin/webview/modelcache/p$2;-><init>(Lcom/tencent/mm/plugin/webview/modelcache/p;Lcom/tencent/mm/sdk/platformtools/ac;)V
+    invoke-direct {v3, p0, v0}, Lcom/tencent/mm/plugin/webview/modelcache/p$2;-><init>(Lcom/tencent/mm/plugin/webview/modelcache/p;Lcom/tencent/mm/sdk/platformtools/ACclz;)V
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/sdk/platformtools/ac;->r(Ljava/lang/Runnable;)I
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/sdk/platformtools/ACclz;->r(Ljava/lang/Runnable;)I
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->btq:Lcom/tencent/mm/sdk/platformtools/ac;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->btq:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     monitor-exit v1
     :try_end_1
@@ -401,7 +401,7 @@
 
     aput-object v6, v4, v5
 
-    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/plugin/webview/modelcache/k$d;->a(Lcom/tencent/mm/sdk/g/c;Z[Ljava/lang/String;)Z
+    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/plugin/webview/modelcache/k$d;->a(Lcom/tencent/mm/sdk/g/Cclz;Z[Ljava/lang/String;)Z
 
     .line 353
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->hAb:[B
@@ -488,7 +488,7 @@
 
     aput-object v1, v4, v9
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 358
     :cond_0
@@ -509,12 +509,12 @@
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_0
 .end method
 
-.method public final tf()Lcom/tencent/mm/sdk/platformtools/ac;
+.method public final tf()Lcom/tencent/mm/sdk/platformtools/ACclz;
     .locals 3
 
     .prologue
     .line 135
-    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->btq:Lcom/tencent/mm/sdk/platformtools/ac;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->btq:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     if-nez v0, :cond_0
 
@@ -525,13 +525,13 @@
 
     .line 137
     :try_start_0
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ac;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     const-string/jumbo v2, "WebViewCacheWorkerManager#WorkerThread"
 
-    invoke-direct {v0, v2}, Lcom/tencent/mm/sdk/platformtools/ac;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Lcom/tencent/mm/sdk/platformtools/ACclz;-><init>(Ljava/lang/String;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->btq:Lcom/tencent/mm/sdk/platformtools/ac;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->btq:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     .line 138
     monitor-exit v1
@@ -540,7 +540,7 @@
 
     .line 140
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->btq:Lcom/tencent/mm/sdk/platformtools/ac;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/modelcache/p;->btq:Lcom/tencent/mm/sdk/platformtools/ACclz;
 
     return-object v0
 

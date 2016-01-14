@@ -24,7 +24,7 @@
 
 
 # instance fields
-.field public kgx:Lcom/tencent/mm/ui/n;
+.field public kgx:Lcom/tencent/mm/ui/Nclz;
 
 
 # direct methods
@@ -40,7 +40,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v1, p0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
@@ -67,7 +67,7 @@
 
     if-eqz v0, :cond_0
 
-    iget-wide v1, v0, Lcom/tencent/mm/h/a;->boB:J
+    iget-wide v1, v0, Lcom/tencent/mm/h/Aclz;->boB:J
 
     long-to-int v1, v1
 
@@ -96,7 +96,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v2, p0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v2, p0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -106,7 +106,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -128,7 +128,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v1, p0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
@@ -156,20 +156,20 @@
 
     aput-object p1, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 431
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI;->kgx:Lcom/tencent/mm/ui/n;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI;->kgx:Lcom/tencent/mm/ui/Nclz;
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI;->kgx:Lcom/tencent/mm/ui/n;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI;->kgx:Lcom/tencent/mm/ui/Nclz;
 
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v2
 
-    invoke-virtual {v1, v2, p1}, Lcom/tencent/mm/ui/n;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-virtual {v1, v2, p1}, Lcom/tencent/mm/ui/Nclz;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v1
 
@@ -246,7 +246,7 @@
 
     const-string/jumbo v1, "talker is null !!"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 426
     :goto_0
@@ -280,7 +280,7 @@
 
     const-string/jumbo v1, "bizChatId is null !!"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -295,7 +295,7 @@
 
     invoke-direct {v1, v9}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;-><init>(B)V
 
-    iput-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI;->kgx:Lcom/tencent/mm/ui/n;
+    iput-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI;->kgx:Lcom/tencent/mm/ui/Nclz;
 
     .line 370
     invoke-virtual {p0}, Lcom/tencent/mm/ui/chatting/ChattingUI;->getIntent()Landroid/content/Intent;
@@ -312,9 +312,9 @@
     invoke-virtual {v1, v2, v4}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
     .line 372
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI;->kgx:Lcom/tencent/mm/ui/n;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI;->kgx:Lcom/tencent/mm/ui/Nclz;
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/ui/n;->setArguments(Landroid/os/Bundle;)V
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/ui/Nclz;->setArguments(Landroid/os/Bundle;)V
 
     .line 373
     iget-object v1, p0, Landroid/support/v4/app/FragmentActivity;->aX:Landroid/support/v4/app/e;
@@ -326,7 +326,7 @@
     .line 374
     const v2, 0x7f0e0423
 
-    iget-object v3, p0, Lcom/tencent/mm/ui/chatting/ChattingUI;->kgx:Lcom/tencent/mm/ui/n;
+    iget-object v3, p0, Lcom/tencent/mm/ui/chatting/ChattingUI;->kgx:Lcom/tencent/mm/ui/Nclz;
 
     invoke-virtual {v1, v2, v3}, Landroid/support/v4/app/g;->a(ILandroid/support/v4/app/Fragment;)Landroid/support/v4/app/g;
 
@@ -355,7 +355,7 @@
     move-result-object v7
 
     .line 378
-    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -408,7 +408,7 @@
 
     move-object v0, p0
 
-    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     .line 393
     :cond_2
@@ -431,7 +431,7 @@
 
     const-wide/16 v1, 0x1f4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ac;->e(Ljava/lang/Runnable;J)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ACclz;->e(Ljava/lang/Runnable;J)V
 
     .line 418
     invoke-virtual {p0}, Lcom/tencent/mm/ui/chatting/ChattingUI;->getIntent()Landroid/content/Intent;
@@ -444,11 +444,11 @@
 
     .line 420
     :cond_3
-    invoke-static {}, Lcom/tencent/mm/permission/a;->EF()Lcom/tencent/mm/permission/a;
+    invoke-static {}, Lcom/tencent/mm/permission/Aclz;->EF()Lcom/tencent/mm/permission/Aclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/permission/a;->EG()V
+    invoke-virtual {v0}, Lcom/tencent/mm/permission/Aclz;->EG()V
 
     .line 422
     invoke-virtual {p0}, Lcom/tencent/mm/ui/chatting/ChattingUI;->aUQ()Z
@@ -481,7 +481,7 @@
 
     aput-object p2, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 446
     invoke-super {p0, p1, p2}, Lcom/tencent/mm/ui/MMFragmentActivity;->onKeyDown(ILandroid/view/KeyEvent;)Z
@@ -500,7 +500,7 @@
 
     const-string/jumbo v1, "chatting ui on key up"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 440
     invoke-super {p0, p1, p2}, Lcom/tencent/mm/ui/MMFragmentActivity;->onKeyUp(ILandroid/view/KeyEvent;)Z

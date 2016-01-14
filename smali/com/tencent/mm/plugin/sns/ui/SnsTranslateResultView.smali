@@ -41,7 +41,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -161,7 +161,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -212,7 +212,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/at/a;->cK(Landroid/content/Context;)F
+    invoke-static {v2}, Lcom/tencent/mm/at/Aclz;->cK(Landroid/content/Context;)F
 
     move-result v2
 
@@ -247,7 +247,7 @@
     .line 126
     :cond_1
     :goto_1
-    invoke-static {p3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -274,7 +274,7 @@
 
     const/16 v0, 0xb
 
-    invoke-static {v0}, Lcom/tencent/mm/compatible/util/c;->bV(I)Z
+    invoke-static {v0}, Lcom/tencent/mm/compatible/util/Cclz;->bV(I)Z
 
     move-result v0
 
@@ -287,11 +287,11 @@
 
     invoke-direct {v1, p0, p1}, Lcom/tencent/mm/plugin/sns/ui/SnsTranslateResultView$1;-><init>(Lcom/tencent/mm/plugin/sns/ui/SnsTranslateResultView;Lcom/tencent/mm/plugin/sns/d/an$b;)V
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/tools/j;->a(Landroid/view/View;Landroid/animation/Animator$AnimatorListener;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/tools/Jclz;->a(Landroid/view/View;Landroid/animation/Animator$AnimatorListener;)V
 
     .line 161
     :cond_2
-    invoke-static {p4}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -327,7 +327,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/at/a;->cK(Landroid/content/Context;)F
+    invoke-static {v2}, Lcom/tencent/mm/at/Aclz;->cK(Landroid/content/Context;)F
 
     move-result v2
 
@@ -436,7 +436,7 @@
 
     const/4 v2, 0x3
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v1, v2}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v1
 
@@ -452,7 +452,7 @@
     .line 71
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTranslateResultView;->fEg:Landroid/widget/TextView;
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/ui/tools/j;->a(Landroid/view/View;Landroid/animation/Animator$AnimatorListener;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/ui/tools/Jclz;->a(Landroid/view/View;Landroid/animation/Animator$AnimatorListener;)V
 
     .line 73
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTranslateResultView;->gEO:Landroid/widget/TextView;

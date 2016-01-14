@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -101,26 +101,26 @@
     .line 374
     if-eqz v2, :cond_1
 
-    iget-wide v3, v2, Lcom/tencent/mm/h/a;->boB:J
+    iget-wide v3, v2, Lcom/tencent/mm/h/Aclz;->boB:J
 
     long-to-int v3, v3
 
     if-lez v3, :cond_1
 
-    iget v2, v2, Lcom/tencent/mm/d/b/o;->field_type:I
+    iget v2, v2, Lcom/tencent/mm/d/b/Oclz;->field_type:I
 
-    invoke-static {v2}, Lcom/tencent/mm/h/a;->cf(I)Z
+    invoke-static {v2}, Lcom/tencent/mm/h/Aclz;->cf(I)Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
     .line 375
-    invoke-static {v1, v0}, Lcom/tencent/mm/ui/contact/e;->a(Landroid/content/Intent;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/ui/contact/Eclz;->a(Landroid/content/Intent;Ljava/lang/String;)V
 
     .line 378
     :cond_1
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -141,7 +141,7 @@
 
     const-string/jumbo v3, ".ui.ContactInfoUI"
 
-    invoke-static {v0, v2, v3, v1}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {v0, v2, v3, v1}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     .line 381
     :cond_2
@@ -194,7 +194,7 @@
     move-result-object v1
 
     .line 393
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -205,7 +205,7 @@
 
     const-string/jumbo v2, "jumpToActivity fail, user is null"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 409
     :goto_0
@@ -243,22 +243,22 @@
     .line 403
     if-eqz v3, :cond_1
 
-    iget-wide v4, v3, Lcom/tencent/mm/h/a;->boB:J
+    iget-wide v4, v3, Lcom/tencent/mm/h/Aclz;->boB:J
 
     long-to-int v4, v4
 
     if-lez v4, :cond_1
 
-    iget v3, v3, Lcom/tencent/mm/d/b/o;->field_type:I
+    iget v3, v3, Lcom/tencent/mm/d/b/Oclz;->field_type:I
 
-    invoke-static {v3}, Lcom/tencent/mm/h/a;->cf(I)Z
+    invoke-static {v3}, Lcom/tencent/mm/h/Aclz;->cf(I)Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
     .line 404
-    invoke-static {v2, v1}, Lcom/tencent/mm/ui/contact/e;->a(Landroid/content/Intent;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/tencent/mm/ui/contact/Eclz;->a(Landroid/content/Intent;Ljava/lang/String;)V
 
     .line 406
     :cond_1
@@ -272,7 +272,7 @@
 
     const-string/jumbo v4, ".ui.ContactInfoUI"
 
-    invoke-static {v1, v3, v4, v2}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {v1, v3, v4, v2}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     goto :goto_0
 

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/app/WorkerProfile$25;->a(Lcom/tencent/mm/sdk/c/b;)Z
+    value = Lcom/tencent/mm/app/WorkerProfile$25;->a(Lcom/tencent/mm/sdk/c/Bclz;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -51,7 +51,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -64,7 +64,7 @@
 
     .prologue
     .line 723
-    invoke-static {}, Lcom/tencent/mm/z/m;->zN()Lcom/tencent/mm/z/m;
+    invoke-static {}, Lcom/tencent/mm/z/Mclz;->zN()Lcom/tencent/mm/z/Mclz;
 
     move-result-object v0
 
@@ -80,7 +80,7 @@
 
     const v6, 0x7f02019a
 
-    invoke-virtual/range {v0 .. v6}, Lcom/tencent/mm/z/m;->a(IILjava/lang/String;Ljava/lang/String;ZI)V
+    invoke-virtual/range {v0 .. v6}, Lcom/tencent/mm/z/Mclz;->a(IILjava/lang/String;Ljava/lang/String;ZI)V
 
     .line 725
     return-void

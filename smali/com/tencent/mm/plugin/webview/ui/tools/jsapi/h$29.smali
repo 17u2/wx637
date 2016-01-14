@@ -51,7 +51,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -105,7 +105,7 @@
 
     invoke-direct {v4, p0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$29$1;-><init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$29;)V
 
-    invoke-static {v1, v2, v3, v4}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v1, v2, v3, v4}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v1
 
@@ -113,46 +113,46 @@
 
     .line 5386
     :cond_0
-    new-instance v0, Lcom/tencent/mm/d/a/ct;
+    new-instance v0, Lcom/tencent/mm/d/a/CTclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/ct;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/CTclz;-><init>()V
 
     .line 5387
-    iget-object v1, v0, Lcom/tencent/mm/d/a/ct;->avP:Lcom/tencent/mm/d/a/ct$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CTclz;->avP:Lcom/tencent/mm/d/a/CTclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$29;->gsm:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/ct$a;->avR:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/CTclz$a;->avR:Ljava/lang/String;
 
     .line 5388
-    iget-object v1, v0, Lcom/tencent/mm/d/a/ct;->avP:Lcom/tencent/mm/d/a/ct$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CTclz;->avP:Lcom/tencent/mm/d/a/CTclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$29;->hHe:Lcom/tencent/mm/plugin/webview/c/v;
 
     iget-object v2, v2, Lcom/tencent/mm/plugin/webview/c/v;->ani:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/ct$a;->ani:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/CTclz$a;->ani:Ljava/lang/String;
 
     .line 5389
-    iget-object v1, v0, Lcom/tencent/mm/d/a/ct;->avP:Lcom/tencent/mm/d/a/ct$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CTclz;->avP:Lcom/tencent/mm/d/a/CTclz$a;
 
     const/4 v2, 0x0
 
-    iput v2, v1, Lcom/tencent/mm/d/a/ct$a;->avS:I
+    iput v2, v1, Lcom/tencent/mm/d/a/CTclz$a;->avS:I
 
     .line 5390
-    iget-object v1, v0, Lcom/tencent/mm/d/a/ct;->avP:Lcom/tencent/mm/d/a/ct$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/CTclz;->avP:Lcom/tencent/mm/d/a/CTclz$a;
 
     new-instance v2, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$29$2;
 
-    invoke-direct {v2, p0, v0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$29$2;-><init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$29;Lcom/tencent/mm/d/a/ct;)V
+    invoke-direct {v2, p0, v0}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$29$2;-><init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$29;Lcom/tencent/mm/d/a/CTclz;)V
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/ct$a;->avT:Ljava/lang/Runnable;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/CTclz$a;->avT:Ljava/lang/Runnable;
 
     .line 5409
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 5410
     return-void

@@ -69,13 +69,13 @@
 
 .field private jOO:Z
 
-.field private jOP:Lcom/tencent/mm/ui/tools/k;
+.field private jOP:Lcom/tencent/mm/ui/tools/Kclz;
 
 .field private jOQ:Z
 
 .field private jOR:Lcom/tencent/mm/ui/base/MMPullDownView$a;
 
-.field private jOT:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private jOT:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field jOU:Z
 
@@ -125,7 +125,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -145,7 +145,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -211,7 +211,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/base/MMPullDownView$1;-><init>(Lcom/tencent/mm/ui/base/MMPullDownView;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/base/MMPullDownView;->jOT:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/ui/base/MMPullDownView;->jOT:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 376
     iput-boolean v1, p0, Lcom/tencent/mm/ui/base/MMPullDownView;->jOU:Z
@@ -262,11 +262,11 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/base/MMPullDownView;->jIF:Landroid/view/GestureDetector;
 
     .line 132
-    new-instance v0, Lcom/tencent/mm/ui/tools/k;
+    new-instance v0, Lcom/tencent/mm/ui/tools/Kclz;
 
-    invoke-direct {v0, p1}, Lcom/tencent/mm/ui/tools/k;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p1}, Lcom/tencent/mm/ui/tools/Kclz;-><init>(Landroid/content/Context;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/base/MMPullDownView;->jOP:Lcom/tencent/mm/ui/tools/k;
+    iput-object v0, p0, Lcom/tencent/mm/ui/base/MMPullDownView;->jOP:Lcom/tencent/mm/ui/tools/Kclz;
 
     .line 134
     iput-object p1, p0, Lcom/tencent/mm/ui/base/MMPullDownView;->context:Landroid/content/Context;
@@ -276,7 +276,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -663,13 +663,13 @@
     iput-boolean v3, p0, Lcom/tencent/mm/ui/base/MMPullDownView;->jOA:Z
 
     .line 288
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMPullDownView;->jOT:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMPullDownView;->jOT:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     sget v1, Lcom/tencent/mm/ui/base/MMPullDownView;->jOS:I
 
     int-to-long v1, v1
 
-    invoke-virtual {v0, v3, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessageDelayed(IJ)Z
+    invoke-virtual {v0, v3, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessageDelayed(IJ)Z
 
     goto :goto_0
 .end method
@@ -687,13 +687,13 @@
     const/4 v1, 0x0
 
     .line 394
-    iget-object v2, p0, Lcom/tencent/mm/ui/base/MMPullDownView;->jOP:Lcom/tencent/mm/ui/tools/k;
+    iget-object v2, p0, Lcom/tencent/mm/ui/base/MMPullDownView;->jOP:Lcom/tencent/mm/ui/tools/Kclz;
 
-    iget-object v3, v2, Lcom/tencent/mm/ui/tools/k;->kDv:Lcom/tencent/mm/ui/tools/k$a;
+    iget-object v3, v2, Lcom/tencent/mm/ui/tools/Kclz;->kDv:Lcom/tencent/mm/ui/tools/Kclz$a;
 
     if-eqz v3, :cond_0
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/tools/k;->kDu:Landroid/view/GestureDetector;
+    iget-object v2, v2, Lcom/tencent/mm/ui/tools/Kclz;->kDu:Landroid/view/GestureDetector;
 
     invoke-virtual {v2, p1}, Landroid/view/GestureDetector;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
@@ -961,7 +961,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 563
     return v5
@@ -1043,7 +1043,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 235
     iget-boolean v0, p0, Lcom/tencent/mm/ui/base/MMPullDownView;->jOM:Z
@@ -1199,7 +1199,7 @@
 
     aput-object v9, v7, v8
 
-    invoke-static {v5, v1, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v1, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_1
 
@@ -1450,7 +1450,7 @@
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 604
     invoke-virtual {p0}, Lcom/tencent/mm/ui/base/MMPullDownView;->getScrollY()I
@@ -1705,7 +1705,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 683
     :cond_3
@@ -1734,7 +1734,7 @@
 
     const-string/jumbo v1, "onScrollChanged full"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -1755,7 +1755,7 @@
 
     const-string/jumbo v1, "onScrollChanged white"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 690
     iget v0, p0, Lcom/tencent/mm/ui/base/MMPullDownView;->bgColor:I
@@ -2058,14 +2058,14 @@
     return-void
 .end method
 
-.method public setOnMMFlingListener(Lcom/tencent/mm/ui/tools/k$a;)V
+.method public setOnMMFlingListener(Lcom/tencent/mm/ui/tools/Kclz$a;)V
     .locals 1
 
     .prologue
     .line 178
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMPullDownView;->jOP:Lcom/tencent/mm/ui/tools/k;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMPullDownView;->jOP:Lcom/tencent/mm/ui/tools/Kclz;
 
-    iput-object p1, v0, Lcom/tencent/mm/ui/tools/k;->kDv:Lcom/tencent/mm/ui/tools/k$a;
+    iput-object p1, v0, Lcom/tencent/mm/ui/tools/Kclz;->kDv:Lcom/tencent/mm/ui/tools/Kclz$a;
 
     .line 179
     return-void

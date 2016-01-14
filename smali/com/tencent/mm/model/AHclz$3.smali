@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -67,7 +67,7 @@
 
     .line 1164
     :cond_1
-    iget-object v0, p1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/storage/Kclz;->BR(Ljava/lang/String;)Z
 
@@ -75,7 +75,7 @@
 
     if-nez v0, :cond_2
 
-    iget-object v0, p1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/storage/Kclz;->BT(Ljava/lang/String;)Z
 
@@ -83,7 +83,7 @@
 
     if-nez v0, :cond_2
 
-    iget-object v0, p1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/storage/Kclz;->BV(Ljava/lang/String;)Z
 
@@ -91,7 +91,7 @@
 
     if-nez v0, :cond_2
 
-    iget-object v0, p1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->dT(Ljava/lang/String;)Z
 
@@ -101,7 +101,7 @@
 
     .line 1168
     :cond_2
-    iget-object v0, p1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/storage/Kclz;->BV(Ljava/lang/String;)Z
 
@@ -161,7 +161,7 @@
     .line 1181
     if-eqz v1, :cond_4
 
-    iget-wide v2, v1, Lcom/tencent/mm/d/b/ba;->field_msgId:J
+    iget-wide v2, v1, Lcom/tencent/mm/d/b/BAclz;->field_msgId:J
 
     cmp-long v0, v2, v8
 
@@ -175,7 +175,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v2, v1, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/d/b/BAclz;->field_talker:Ljava/lang/String;
 
     invoke-static {v2}, Lcom/tencent/mm/storage/Kclz;->BX(Ljava/lang/String;)Ljava/lang/String;
 
@@ -191,7 +191,7 @@
 
     move-result-object v0
 
-    iget-object v2, v1, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/d/b/BAclz;->field_content:Ljava/lang/String;
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -204,7 +204,7 @@
     invoke-virtual {v6, v0}, Lcom/tencent/mm/storage/Rclz;->setContent(Ljava/lang/String;)V
 
     .line 1184
-    iget v0, v1, Lcom/tencent/mm/d/b/ba;->field_type:I
+    iget v0, v1, Lcom/tencent/mm/d/b/BAclz;->field_type:I
 
     invoke-static {v0}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
@@ -239,7 +239,7 @@
     invoke-virtual {v1, v8}, Lcom/tencent/mm/storage/ADclz;->setTalker(Ljava/lang/String;)V
 
     .line 1192
-    iget-object v8, v6, Lcom/tencent/mm/d/b/s;->field_content:Ljava/lang/String;
+    iget-object v8, v6, Lcom/tencent/mm/d/b/Sclz;->field_content:Ljava/lang/String;
 
     invoke-virtual {v1, v8}, Lcom/tencent/mm/storage/ADclz;->setContent(Ljava/lang/String;)V
 
@@ -279,7 +279,7 @@
 
     .line 1208
     :cond_5
-    iget-object v0, v6, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v0, v6, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {p2, v6, v0, v11}, Lcom/tencent/mm/storage/Sclz;->a(Lcom/tencent/mm/storage/Rclz;Ljava/lang/String;Z)I
 
@@ -287,7 +287,7 @@
 
     .line 1213
     :cond_6
-    iget-object v0, p1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/storage/Kclz;->BR(Ljava/lang/String;)Z
 
@@ -295,7 +295,7 @@
 
     if-nez v0, :cond_7
 
-    iget-object v0, p1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/storage/Kclz;->BT(Ljava/lang/String;)Z
 
@@ -305,7 +305,7 @@
 
     .line 1214
     :cond_7
-    iget-object v0, p1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/storage/Kclz;->BR(Ljava/lang/String;)Z
 
@@ -314,7 +314,7 @@
     if-nez v0, :cond_0
 
     .line 1232
-    iget-object v0, p1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/storage/Kclz;->BT(Ljava/lang/String;)Z
 
@@ -405,7 +405,7 @@
     :goto_5
     if-eqz v1, :cond_a
 
-    iget-wide v2, v1, Lcom/tencent/mm/d/b/ba;->field_msgId:J
+    iget-wide v2, v1, Lcom/tencent/mm/d/b/BAclz;->field_msgId:J
 
     cmp-long v0, v2, v8
 
@@ -419,7 +419,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v2, v1, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/d/b/BAclz;->field_talker:Ljava/lang/String;
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -431,7 +431,7 @@
 
     move-result-object v0
 
-    iget-object v2, v1, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/d/b/BAclz;->field_content:Ljava/lang/String;
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -444,7 +444,7 @@
     invoke-virtual {v7, v0}, Lcom/tencent/mm/storage/Rclz;->setContent(Ljava/lang/String;)V
 
     .line 1245
-    iget v0, v1, Lcom/tencent/mm/d/b/ba;->field_type:I
+    iget v0, v1, Lcom/tencent/mm/d/b/BAclz;->field_type:I
 
     invoke-static {v0}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
@@ -479,7 +479,7 @@
     invoke-virtual {v1, v8}, Lcom/tencent/mm/storage/ADclz;->setTalker(Ljava/lang/String;)V
 
     .line 1253
-    iget-object v8, v7, Lcom/tencent/mm/d/b/s;->field_content:Ljava/lang/String;
+    iget-object v8, v7, Lcom/tencent/mm/d/b/Sclz;->field_content:Ljava/lang/String;
 
     invoke-virtual {v1, v8}, Lcom/tencent/mm/storage/ADclz;->setContent(Ljava/lang/String;)V
 
@@ -527,7 +527,7 @@
 
     .line 1268
     :cond_b
-    iget-object v0, v7, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v0, v7, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {p2, v7, v0, v11}, Lcom/tencent/mm/storage/Sclz;->a(Lcom/tencent/mm/storage/Rclz;Ljava/lang/String;Z)I
 
@@ -535,7 +535,7 @@
 
     .line 1274
     :cond_c
-    iget-object v0, p1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->dT(Ljava/lang/String;)Z
 
@@ -543,16 +543,16 @@
 
     if-eqz v0, :cond_10
 
-    iget-object v0, p1, Lcom/tencent/mm/d/b/s;->field_parentRef:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/d/b/Sclz;->field_parentRef:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_10
 
     .line 1279
-    iget-object v0, p1, Lcom/tencent/mm/d/b/s;->field_parentRef:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/d/b/Sclz;->field_parentRef:Ljava/lang/String;
 
     invoke-virtual {p2, v0}, Lcom/tencent/mm/storage/Sclz;->Cs(Ljava/lang/String;)Lcom/tencent/mm/storage/Rclz;
 
@@ -565,18 +565,18 @@
 
     new-array v3, v7, [Ljava/lang/Object;
 
-    iget-object v4, p1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v4, p1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     aput-object v4, v3, v5
 
-    iget-object v4, p1, Lcom/tencent/mm/d/b/s;->field_parentRef:Ljava/lang/String;
+    iget-object v4, p1, Lcom/tencent/mm/d/b/Sclz;->field_parentRef:Ljava/lang/String;
 
     aput-object v4, v3, v11
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1282
-    iget-object v1, p1, Lcom/tencent/mm/d/b/s;->field_parentRef:Ljava/lang/String;
+    iget-object v1, p1, Lcom/tencent/mm/d/b/Sclz;->field_parentRef:Ljava/lang/String;
 
     const-string/jumbo v2, "officialaccounts"
 
@@ -595,7 +595,7 @@
     .line 1286
     new-instance v0, Lcom/tencent/mm/storage/Rclz;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/b/s;->field_parentRef:Ljava/lang/String;
+    iget-object v1, p1, Lcom/tencent/mm/d/b/Sclz;->field_parentRef:Ljava/lang/String;
 
     invoke-direct {v0, v1}, Lcom/tencent/mm/storage/Rclz;-><init>(Ljava/lang/String;)V
 
@@ -625,7 +625,7 @@
 
     move-result-object v2
 
-    iget-object v3, p1, Lcom/tencent/mm/d/b/s;->field_parentRef:Ljava/lang/String;
+    iget-object v3, p1, Lcom/tencent/mm/d/b/Sclz;->field_parentRef:Ljava/lang/String;
 
     invoke-virtual {v2, v3}, Lcom/tencent/mm/storage/Sclz;->CC(Ljava/lang/String;)I
 
@@ -641,7 +641,7 @@
 
     new-array v4, v11, [Ljava/lang/Object;
 
-    iget v6, v1, Lcom/tencent/mm/d/b/s;->field_unReadCount:I
+    iget v6, v1, Lcom/tencent/mm/d/b/Sclz;->field_unReadCount:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -649,7 +649,7 @@
 
     aput-object v6, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 1296
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
@@ -660,7 +660,7 @@
 
     move-result-object v2
 
-    iget-object v3, p1, Lcom/tencent/mm/d/b/s;->field_parentRef:Ljava/lang/String;
+    iget-object v3, p1, Lcom/tencent/mm/d/b/Sclz;->field_parentRef:Ljava/lang/String;
 
     invoke-virtual {v2, v3}, Lcom/tencent/mm/storage/Sclz;->CD(Ljava/lang/String;)Ljava/lang/String;
 
@@ -682,7 +682,7 @@
     .line 1299
     if-eqz v7, :cond_11
 
-    iget-wide v2, v7, Lcom/tencent/mm/d/b/ba;->field_msgId:J
+    iget-wide v2, v7, Lcom/tencent/mm/d/b/BAclz;->field_msgId:J
 
     cmp-long v2, v2, v8
 
@@ -696,7 +696,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v3, v7, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
+    iget-object v3, v7, Lcom/tencent/mm/d/b/BAclz;->field_talker:Ljava/lang/String;
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -708,7 +708,7 @@
 
     move-result-object v2
 
-    iget-object v3, v7, Lcom/tencent/mm/d/b/ba;->field_content:Ljava/lang/String;
+    iget-object v3, v7, Lcom/tencent/mm/d/b/BAclz;->field_content:Ljava/lang/String;
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -721,7 +721,7 @@
     invoke-virtual {v1, v2}, Lcom/tencent/mm/storage/Rclz;->setContent(Ljava/lang/String;)V
 
     .line 1302
-    iget v2, v7, Lcom/tencent/mm/d/b/ba;->field_type:I
+    iget v2, v7, Lcom/tencent/mm/d/b/BAclz;->field_type:I
 
     invoke-static {v2}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
@@ -751,12 +751,12 @@
     invoke-direct {v10}, Lcom/tencent/mm/pointers/PInt;-><init>()V
 
     .line 1309
-    iget-object v2, p1, Lcom/tencent/mm/d/b/s;->field_parentRef:Ljava/lang/String;
+    iget-object v2, p1, Lcom/tencent/mm/d/b/Sclz;->field_parentRef:Ljava/lang/String;
 
     invoke-virtual {v7, v2}, Lcom/tencent/mm/storage/ADclz;->setTalker(Ljava/lang/String;)V
 
     .line 1310
-    iget-object v2, v1, Lcom/tencent/mm/d/b/s;->field_content:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/d/b/Sclz;->field_content:Ljava/lang/String;
 
     invoke-virtual {v7, v2}, Lcom/tencent/mm/storage/ADclz;->setContent(Ljava/lang/String;)V
 
@@ -791,7 +791,7 @@
     :goto_a
     const-string/jumbo v0, "@blacklist"
 
-    iget-object v1, p1, Lcom/tencent/mm/d/b/s;->field_parentRef:Ljava/lang/String;
+    iget-object v1, p1, Lcom/tencent/mm/d/b/Sclz;->field_parentRef:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -808,7 +808,7 @@
 
     move-result-object v0
 
-    iget-object v1, p1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v1, p1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Qclz;->Ci(Ljava/lang/String;)Lcom/tencent/mm/storage/Kclz;
 
@@ -817,9 +817,9 @@
     .line 1329
     if-eqz v0, :cond_0
 
-    iget-object v1, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -842,7 +842,7 @@
 
     new-array v1, v11, [Ljava/lang/String;
 
-    iget-object v2, p1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v2, p1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     aput-object v2, v1, v5
 
@@ -860,7 +860,7 @@
 
     .line 1323
     :cond_12
-    iget-object v0, v1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v0, v1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {p2, v1, v0, v11}, Lcom/tencent/mm/storage/Sclz;->a(Lcom/tencent/mm/storage/Rclz;Ljava/lang/String;Z)I
 

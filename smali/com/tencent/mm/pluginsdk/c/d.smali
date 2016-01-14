@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/sdk/g/g$a;
+.implements Lcom/tencent/mm/sdk/g/Gclz$a;
 
 
 # instance fields
@@ -27,7 +27,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -35,31 +35,31 @@
 
 
 # virtual methods
-.method public abstract YG()Lcom/tencent/mm/sdk/g/g;
+.method public abstract YG()Lcom/tencent/mm/sdk/g/Gclz;
 .end method
 
-.method public final a(Ljava/lang/String;Lcom/tencent/mm/sdk/g/i;)V
+.method public final a(Ljava/lang/String;Lcom/tencent/mm/sdk/g/Iclz;)V
     .locals 3
 
     .prologue
     .line 41
-    new-instance v0, Lcom/tencent/mm/d/a/fh;
+    new-instance v0, Lcom/tencent/mm/d/a/FHclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/fh;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/FHclz;-><init>()V
 
     .line 42
-    iget-object v1, v0, Lcom/tencent/mm/d/a/fh;->azw:Lcom/tencent/mm/d/a/fh$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/FHclz;->azw:Lcom/tencent/mm/d/a/FHclz$a;
 
-    invoke-virtual {p0, p1}, Lcom/tencent/mm/pluginsdk/c/d;->ou(Ljava/lang/String;)Lcom/tencent/mm/sdk/c/b;
+    invoke-virtual {p0, p1}, Lcom/tencent/mm/pluginsdk/c/d;->ou(Ljava/lang/String;)Lcom/tencent/mm/sdk/c/Bclz;
 
     move-result-object v2
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/fh$a;->azx:Lcom/tencent/mm/sdk/c/b;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/FHclz$a;->azx:Lcom/tencent/mm/sdk/c/Bclz;
 
     .line 43
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 44
     return-void
@@ -75,7 +75,7 @@
     if-nez v0, :cond_0
 
     .line 18
-    invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/c/d;->YG()Lcom/tencent/mm/sdk/g/g;
+    invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/c/d;->YG()Lcom/tencent/mm/sdk/g/Gclz;
 
     move-result-object v0
 
@@ -83,7 +83,7 @@
     if-eqz v0, :cond_0
 
     .line 20
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/sdk/g/g;->g(Lcom/tencent/mm/sdk/g/g$a;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/sdk/g/Gclz;->g(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 
     .line 23
     :cond_0
@@ -97,7 +97,7 @@
     return-void
 .end method
 
-.method public abstract ou(Ljava/lang/String;)Lcom/tencent/mm/sdk/c/b;
+.method public abstract ou(Ljava/lang/String;)Lcom/tencent/mm/sdk/c/Bclz;
 .end method
 
 .method public final unregister()V
@@ -128,7 +128,7 @@
     if-nez v0, :cond_0
 
     .line 32
-    invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/c/d;->YG()Lcom/tencent/mm/sdk/g/g;
+    invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/c/d;->YG()Lcom/tencent/mm/sdk/g/Gclz;
 
     move-result-object v0
 
@@ -136,7 +136,7 @@
     if-eqz v0, :cond_0
 
     .line 34
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/sdk/g/g;->h(Lcom/tencent/mm/sdk/g/g$a;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/sdk/g/Gclz;->h(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 
     goto :goto_0
 .end method

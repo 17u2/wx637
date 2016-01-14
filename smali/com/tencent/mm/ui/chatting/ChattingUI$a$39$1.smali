@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic kjq:Lcom/tencent/mm/d/a/fu;
+.field final synthetic kjq:Lcom/tencent/mm/d/a/FUclz;
 
 .field final synthetic kjr:Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;Lcom/tencent/mm/d/a/fu;)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;Lcom/tencent/mm/d/a/FUclz;)V
     .locals 1
 
     .prologue
     .line 10419
     iput-object p1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39$1;->kjr:Lcom/tencent/mm/ui/chatting/ChattingUI$a$39;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39$1;->kjq:Lcom/tencent/mm/d/a/fu;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39$1;->kjq:Lcom/tencent/mm/d/a/FUclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,20 +52,20 @@
 
     .prologue
     .line 10423
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39$1;->kjq:Lcom/tencent/mm/d/a/fu;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39$1;->kjq:Lcom/tencent/mm/d/a/FUclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/fu;->aAs:Lcom/tencent/mm/d/a/fu$a;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/FUclz;->aAs:Lcom/tencent/mm/d/a/FUclz$a;
 
     const/4 v1, 0x1
 
-    iput-boolean v1, v0, Lcom/tencent/mm/d/a/fu$a;->azK:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/d/a/FUclz$a;->azK:Z
 
     .line 10424
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39$1;->kjq:Lcom/tencent/mm/d/a/fu;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$39$1;->kjq:Lcom/tencent/mm/d/a/FUclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 10425
     return-void

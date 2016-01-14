@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/search/ui/a/a;
-.super Lcom/tencent/mm/ui/e/a/a;
+.super Lcom/tencent/mm/ui/e/a/Aclz;
 .source "SourceFile"
 
 
@@ -30,7 +30,7 @@
     .line 62
     const/16 v0, 0xa
 
-    invoke-direct {p0, v0, p1}, Lcom/tencent/mm/ui/e/a/a;-><init>(II)V
+    invoke-direct {p0, v0, p1}, Lcom/tencent/mm/ui/e/a/Aclz;-><init>(II)V
 
     .line 71
     new-instance v0, Lcom/tencent/mm/plugin/search/ui/a/a$b;
@@ -51,7 +51,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -59,7 +59,7 @@
 
 
 # virtual methods
-.method public final Kh()Lcom/tencent/mm/ui/e/a/a$b;
+.method public final Kh()Lcom/tencent/mm/ui/e/a/Aclz$b;
     .locals 1
 
     .prologue
@@ -69,7 +69,7 @@
     return-object v0
 .end method
 
-.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/a$a;)V
+.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/Aclz$a;)V
     .locals 4
 
     .prologue
@@ -94,11 +94,11 @@
 
     const/4 v1, 0x1
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/e/a/a;->aBw:Ljava/lang/String;
+    iget-object v2, p0, Lcom/tencent/mm/ui/e/a/Aclz;->aBw:Ljava/lang/String;
 
     iget-object v3, p0, Lcom/tencent/mm/plugin/search/ui/a/a;->cEm:Ljava/util/List;
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/modelsearch/e;->e(Ljava/lang/String;Ljava/util/List;)Landroid/text/Spannable;
+    invoke-static {v2, v3}, Lcom/tencent/mm/modelsearch/Eclz;->e(Ljava/lang/String;Ljava/util/List;)Landroid/text/Spannable;
 
     move-result-object v2
 

@@ -24,7 +24,7 @@
 
 .field private giI:I
 
-.field private handler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -95,7 +95,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_2
     return-void
@@ -130,14 +130,14 @@
 
     invoke-direct {v0, p0, v1}, Lcom/tencent/mm/plugin/sns/d/y$1;-><init>(Lcom/tencent/mm/plugin/sns/d/y;Landroid/os/Looper;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/d/y;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/d/y;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 65
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -241,12 +241,12 @@
     return v0
 .end method
 
-.method static synthetic e(Lcom/tencent/mm/plugin/sns/d/y;)Lcom/tencent/mm/sdk/platformtools/ab;
+.method static synthetic e(Lcom/tencent/mm/plugin/sns/d/y;)Lcom/tencent/mm/sdk/platformtools/ABclz;
     .locals 1
 
     .prologue
     .line 24
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/d/y;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/d/y;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     return-object v0
 .end method
@@ -290,7 +290,7 @@
 
     const-string/jumbo v2, "broken here by ??"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v1
 
@@ -302,7 +302,7 @@
 
     if-eqz v4, :cond_3
 
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -335,14 +335,14 @@
 
     aput-object p1, v5, v1
 
-    invoke-static {v0, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
     :cond_3
     iget-wide v4, v0, Lcom/tencent/mm/modelsfs/SFSContext$FileEntry;->timestamp:J
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/bc;->al(J)J
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->al(J)J
 
     move-result-wide v4
 

@@ -31,7 +31,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -54,7 +54,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -77,7 +77,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -96,7 +96,7 @@
     .line 70
     const/16 v0, 0x10
 
-    invoke-static {v0}, Lcom/tencent/mm/compatible/util/c;->bW(I)Z
+    invoke-static {v0}, Lcom/tencent/mm/compatible/util/Cclz;->bW(I)Z
 
     move-result v0
 
@@ -117,7 +117,7 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 118
     :goto_0
@@ -127,7 +127,7 @@
     :cond_0
     const/16 v0, 0x14
 
-    invoke-static {v0}, Lcom/tencent/mm/compatible/util/c;->bX(I)Z
+    invoke-static {v0}, Lcom/tencent/mm/compatible/util/Cclz;->bX(I)Z
 
     move-result v0
 
@@ -148,15 +148,15 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
     .line 80
     :cond_1
-    sget-object v0, Lcom/tencent/mm/compatible/d/p;->bml:Lcom/tencent/mm/compatible/d/j;
+    sget-object v0, Lcom/tencent/mm/compatible/d/Pclz;->bml:Lcom/tencent/mm/compatible/d/Jclz;
 
-    iget v0, v0, Lcom/tencent/mm/compatible/d/j;->blM:I
+    iget v0, v0, Lcom/tencent/mm/compatible/d/Jclz;->blM:I
 
     const/4 v1, 0x2
 
@@ -167,7 +167,7 @@
 
     const-string/jumbo v1, "do not do sly textureView, config ERROR"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -187,7 +187,7 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 87
     iget-boolean v0, p0, Lcom/tencent/mm/ui/base/MMTextureView;->jQw:Z
@@ -199,7 +199,7 @@
 
     const-string/jumbo v1, "detect texture problem, slyed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -229,17 +229,17 @@
     .line 98
     if-eqz v0, :cond_4
 
-    instance-of v2, v0, Lcom/tencent/mm/ui/base/q;
+    instance-of v2, v0, Lcom/tencent/mm/ui/base/Qclz;
 
     if-nez v2, :cond_4
 
     .line 99
-    new-instance v2, Lcom/tencent/mm/ui/base/q;
+    new-instance v2, Lcom/tencent/mm/ui/base/Qclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/ui/base/q;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/ui/base/Qclz;-><init>()V
 
     .line 100
-    iput-object v0, v2, Lcom/tencent/mm/ui/base/q;->jPI:Landroid/graphics/SurfaceTexture;
+    iput-object v0, v2, Lcom/tencent/mm/ui/base/Qclz;->jPI:Landroid/graphics/SurfaceTexture;
 
     .line 101
     invoke-virtual {v1, p0, v2}, Ljava/lang/reflect/Field;->set(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -254,7 +254,7 @@
 
     const-string/jumbo v1, "detect texture problem, wrap"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/NoSuchFieldException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_1
@@ -270,7 +270,7 @@
 
     const-string/jumbo v1, "detect texture problem, NoSuchFieldException"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -281,7 +281,7 @@
 
     const-string/jumbo v1, "detect texture problem, no wrap"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catch Ljava/lang/NoSuchFieldException; {:try_start_1 .. :try_end_1} :catch_0
     .catch Ljava/lang/IllegalArgumentException; {:try_start_1 .. :try_end_1} :catch_1
@@ -297,7 +297,7 @@
 
     const-string/jumbo v1, "detect texture problem, IllegalArgumentException"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -309,7 +309,7 @@
 
     const-string/jumbo v1, "detect texture problem, IllegalAccessException"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 .end method
@@ -344,7 +344,7 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 .end method

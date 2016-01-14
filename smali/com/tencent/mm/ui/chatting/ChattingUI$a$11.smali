@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,15 +56,15 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$11;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/cj;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/CJclz;
 
     if-eqz v0, :cond_0
 
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$11;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/cj;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/CJclz;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/ui/chatting/cj;->keY:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/ui/chatting/CJclz;->keY:Z
 
     if-nez v0, :cond_0
 

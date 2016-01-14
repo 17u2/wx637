@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,9 +50,9 @@
     .line 249
     iget-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileRegUI$1;->jEf:Lcom/tencent/mm/ui/account/RegByMobileRegUI;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, v0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/account/RegByMobileRegUI$1;->jEf:Lcom/tencent/mm/ui/account/RegByMobileRegUI;
 
@@ -62,7 +62,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->z(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->z(Landroid/content/Context;Ljava/lang/String;)Z
 
     .line 250
     return-void

@@ -7,13 +7,13 @@
 
 
 # instance fields
-.field private beY:Lcom/tencent/mm/sdk/platformtools/al;
+.field private beY:Lcom/tencent/mm/sdk/platformtools/ALclz;
 
-.field private beZ:Lcom/tencent/mm/sdk/platformtools/al$a;
+.field private beZ:Lcom/tencent/mm/sdk/platformtools/ALclz$a;
 
 .field private bfa:Ljava/util/List;
 
-.field private bfb:Lcom/tencent/mm/sdk/c/c;
+.field private bfb:Lcom/tencent/mm/sdk/c/Cclz;
 
 
 # direct methods
@@ -32,37 +32,37 @@
     iput-object v0, p0, Lcom/tencent/mm/booter/Aclz;->bfa:Ljava/util/List;
 
     .line 38
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/al;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ALclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/al;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ALclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/booter/Aclz;->beY:Lcom/tencent/mm/sdk/platformtools/al;
+    iput-object v0, p0, Lcom/tencent/mm/booter/Aclz;->beY:Lcom/tencent/mm/sdk/platformtools/ALclz;
 
     .line 39
     new-instance v0, Lcom/tencent/mm/booter/Aclz$1;
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/booter/Aclz$1;-><init>(Lcom/tencent/mm/booter/Aclz;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/booter/Aclz;->beZ:Lcom/tencent/mm/sdk/platformtools/al$a;
+    iput-object v0, p0, Lcom/tencent/mm/booter/Aclz;->beZ:Lcom/tencent/mm/sdk/platformtools/ALclz$a;
 
     .line 60
-    iget-object v0, p0, Lcom/tencent/mm/booter/Aclz;->beY:Lcom/tencent/mm/sdk/platformtools/al;
+    iget-object v0, p0, Lcom/tencent/mm/booter/Aclz;->beY:Lcom/tencent/mm/sdk/platformtools/ALclz;
 
-    iget-object v1, p0, Lcom/tencent/mm/booter/Aclz;->beZ:Lcom/tencent/mm/sdk/platformtools/al$a;
+    iget-object v1, p0, Lcom/tencent/mm/booter/Aclz;->beZ:Lcom/tencent/mm/sdk/platformtools/ALclz$a;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/al;->a(Lcom/tencent/mm/sdk/platformtools/al$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ALclz;->a(Lcom/tencent/mm/sdk/platformtools/ALclz$a;)V
 
     .line 61
-    iget-object v0, p0, Lcom/tencent/mm/booter/Aclz;->beY:Lcom/tencent/mm/sdk/platformtools/al;
+    iget-object v0, p0, Lcom/tencent/mm/booter/Aclz;->beY:Lcom/tencent/mm/sdk/platformtools/ALclz;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/al;->dt(Landroid/content/Context;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ALclz;->dt(Landroid/content/Context;)V
 
     .line 63
-    iget-object v0, p0, Lcom/tencent/mm/booter/Aclz;->bfb:Lcom/tencent/mm/sdk/c/c;
+    iget-object v0, p0, Lcom/tencent/mm/booter/Aclz;->bfb:Lcom/tencent/mm/sdk/c/Cclz;
 
     if-nez v0, :cond_0
 
@@ -70,23 +70,23 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/booter/Aclz$2;-><init>(Lcom/tencent/mm/booter/Aclz;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/booter/Aclz;->bfb:Lcom/tencent/mm/sdk/c/c;
+    iput-object v0, p0, Lcom/tencent/mm/booter/Aclz;->bfb:Lcom/tencent/mm/sdk/c/Cclz;
 
     :cond_0
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "RecordStateChange"
 
-    iget-object v2, p0, Lcom/tencent/mm/booter/Aclz;->bfb:Lcom/tencent/mm/sdk/c/c;
+    iget-object v2, p0, Lcom/tencent/mm/booter/Aclz;->bfb:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 65
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_1
     return-void
@@ -118,7 +118,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 73
     iget-object v0, p0, Lcom/tencent/mm/booter/Aclz;->bfa:Ljava/util/List;

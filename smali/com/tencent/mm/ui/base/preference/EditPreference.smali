@@ -12,7 +12,7 @@
 
 
 # instance fields
-.field private aoL:Lcom/tencent/mm/ui/base/g;
+.field private aoL:Lcom/tencent/mm/ui/base/Gclz;
 
 .field private jTS:Lcom/tencent/mm/ui/base/preference/Preference$a;
 
@@ -38,7 +38,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,18 +56,18 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/base/preference/EditPreference;)Lcom/tencent/mm/ui/base/g;
+.method static synthetic a(Lcom/tencent/mm/ui/base/preference/EditPreference;)Lcom/tencent/mm/ui/base/Gclz;
     .locals 1
 
     .prologue
     .line 16
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/preference/EditPreference;->aoL:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/preference/EditPreference;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
     return-object v0
 .end method
@@ -197,7 +197,7 @@
 
     const v4, 0x7f090ade
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/at/a;->w(Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {v3, v4}, Lcom/tencent/mm/at/Aclz;->w(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object v3
 
@@ -205,7 +205,7 @@
 
     const v5, 0x7f090ada
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/at/a;->w(Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {v4, v5}, Lcom/tencent/mm/at/Aclz;->w(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object v4
 
@@ -217,11 +217,11 @@
 
     invoke-direct {v6, p0}, Lcom/tencent/mm/ui/base/preference/EditPreference$2;-><init>(Lcom/tencent/mm/ui/base/preference/EditPreference;)V
 
-    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;Landroid/view/View;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;Landroid/view/View;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/base/preference/EditPreference;->aoL:Lcom/tencent/mm/ui/base/g;
+    iput-object v0, p0, Lcom/tencent/mm/ui/base/preference/EditPreference;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
     .line 108
     return-void

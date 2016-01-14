@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/sdk/platformtools/ag$a;
+.implements Lcom/tencent/mm/sdk/platformtools/AGclz$a;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -54,17 +54,17 @@
     .line 370
     iget-object v2, p0, Lcom/tencent/mm/booter/CoreService$2;->bfo:Lcom/tencent/mm/booter/CoreService;
 
-    invoke-static {v2}, Lcom/tencent/mm/booter/CoreService;->a(Lcom/tencent/mm/booter/CoreService;)Lcom/tencent/mm/platformtools/g;
+    invoke-static {v2}, Lcom/tencent/mm/booter/CoreService;->a(Lcom/tencent/mm/booter/CoreService;)Lcom/tencent/mm/platformtools/Gclz;
 
     move-result-object v2
 
-    iget-wide v3, v2, Lcom/tencent/mm/platformtools/g;->cdn:J
+    iget-wide v3, v2, Lcom/tencent/mm/platformtools/Gclz;->cdn:J
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/platformtools/t;->am(J)J
+    invoke-static {v3, v4}, Lcom/tencent/mm/platformtools/Tclz;->am(J)J
 
     move-result-wide v3
 
-    iget-wide v5, v2, Lcom/tencent/mm/platformtools/g;->cdl:J
+    iget-wide v5, v2, Lcom/tencent/mm/platformtools/Gclz;->cdl:J
 
     cmp-long v3, v3, v5
 
@@ -78,7 +78,7 @@
 
     invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-wide v5, v2, Lcom/tencent/mm/platformtools/g;->cdn:J
+    iget-wide v5, v2, Lcom/tencent/mm/platformtools/Gclz;->cdn:J
 
     invoke-virtual {v4, v5, v6}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -90,7 +90,7 @@
 
     move-result-object v4
 
-    invoke-static {}, Lcom/tencent/mm/platformtools/t;->Fa()J
+    invoke-static {}, Lcom/tencent/mm/platformtools/Tclz;->Fa()J
 
     move-result-wide v5
 
@@ -104,7 +104,7 @@
 
     move-result-object v4
 
-    iget v5, v2, Lcom/tencent/mm/platformtools/g;->cdo:I
+    iget v5, v2, Lcom/tencent/mm/platformtools/Gclz;->cdo:I
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -114,9 +114,9 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget v3, v2, Lcom/tencent/mm/platformtools/g;->cdo:I
+    iget v3, v2, Lcom/tencent/mm/platformtools/Gclz;->cdo:I
 
     if-gtz v3, :cond_0
 
@@ -130,7 +130,7 @@
 
     const-string/jumbo v2, "checker frequency limited"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 389
     :goto_1
@@ -138,27 +138,27 @@
 
     .line 370
     :cond_0
-    iget v3, v2, Lcom/tencent/mm/platformtools/g;->cdo:I
+    iget v3, v2, Lcom/tencent/mm/platformtools/Gclz;->cdo:I
 
     add-int/lit8 v3, v3, -0x1
 
-    iput v3, v2, Lcom/tencent/mm/platformtools/g;->cdo:I
+    iput v3, v2, Lcom/tencent/mm/platformtools/Gclz;->cdo:I
 
     :goto_2
-    invoke-static {}, Lcom/tencent/mm/platformtools/t;->Fa()J
+    invoke-static {}, Lcom/tencent/mm/platformtools/Tclz;->Fa()J
 
     move-result-wide v3
 
-    iput-wide v3, v2, Lcom/tencent/mm/platformtools/g;->cdn:J
+    iput-wide v3, v2, Lcom/tencent/mm/platformtools/Gclz;->cdn:J
 
     move v2, v0
 
     goto :goto_0
 
     :cond_1
-    iget v3, v2, Lcom/tencent/mm/platformtools/g;->cdm:I
+    iget v3, v2, Lcom/tencent/mm/platformtools/Gclz;->cdm:I
 
-    iput v3, v2, Lcom/tencent/mm/platformtools/g;->cdo:I
+    iput v3, v2, Lcom/tencent/mm/platformtools/Gclz;->cdo:I
 
     goto :goto_2
 
@@ -168,7 +168,7 @@
 
     const-string/jumbo v3, "start checker, borast NotifyReceiver"
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 379
     iget-object v2, p0, Lcom/tencent/mm/booter/CoreService$2;->bfo:Lcom/tencent/mm/booter/CoreService;
@@ -183,7 +183,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->I([B)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->I([B)Z
 
     move-result v6
 
@@ -215,7 +215,7 @@
 
     move-result-object v3
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EZ()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EZ()J
 
     move-result-wide v4
 
@@ -230,7 +230,7 @@
 
     const-string/jumbo v2, "deal with notify sync in push"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -256,7 +256,7 @@
 
     aput-object v1, v4, v0
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 388
     invoke-static {}, Lcom/tencent/mm/booter/CoreService;->mv()V

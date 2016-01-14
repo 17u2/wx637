@@ -123,7 +123,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_1
     return-void
@@ -160,7 +160,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -1071,9 +1071,9 @@
 
     iget-object v3, p0, Landroid/support/v4/app/e;->mActivity:Landroid/support/v4/app/FragmentActivity;
 
-    iget-object v3, v3, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v3, v3, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/sdk/platformtools/ab;->getLooper()Landroid/os/Looper;
+    invoke-virtual {v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->getLooper()Landroid/os/Looper;
 
     move-result-object v3
 
@@ -1209,11 +1209,11 @@
     .line 1455
     iget-object v1, p0, Landroid/support/v4/app/e;->mActivity:Landroid/support/v4/app/FragmentActivity;
 
-    iget-object v1, v1, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, v1, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v4, p0, Landroid/support/v4/app/e;->bH:Ljava/lang/Runnable;
 
-    invoke-virtual {v1, v4}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v1, v4}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     .line 1456
     monitor-exit p0
@@ -4515,20 +4515,20 @@
     .line 1365
     iget-object v0, p0, Landroid/support/v4/app/e;->mActivity:Landroid/support/v4/app/FragmentActivity;
 
-    iget-object v0, v0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, v0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Landroid/support/v4/app/e;->bH:Ljava/lang/Runnable;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     .line 1366
     iget-object v0, p0, Landroid/support/v4/app/e;->mActivity:Landroid/support/v4/app/FragmentActivity;
 
-    iget-object v0, v0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, v0, Landroid/support/v4/app/FragmentActivity;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Landroid/support/v4/app/e;->bH:Ljava/lang/Runnable;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 1368
     :cond_3

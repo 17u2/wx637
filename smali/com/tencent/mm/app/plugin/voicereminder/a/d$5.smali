@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/app/plugin/voicereminder/a/d$5;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 8
 
     .prologue
@@ -51,15 +51,15 @@
     const/4 v5, 0x0
 
     .line 378
-    check-cast p1, Lcom/tencent/mm/d/a/id;
+    check-cast p1, Lcom/tencent/mm/d/a/IDclz;
 
     .line 379
-    iget-object v0, p1, Lcom/tencent/mm/d/a/id;->aDl:Lcom/tencent/mm/d/a/id$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/IDclz;->aDl:Lcom/tencent/mm/d/a/IDclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/id$a;->arO:Lcom/tencent/mm/storage/ADclz;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/IDclz$a;->arO:Lcom/tencent/mm/storage/ADclz;
 
     .line 380
-    iget-wide v0, v0, Lcom/tencent/mm/d/b/ba;->field_msgId:J
+    iget-wide v0, v0, Lcom/tencent/mm/d/b/BAclz;->field_msgId:J
 
     long-to-int v0, v0
 
@@ -77,7 +77,7 @@
 
     move-result-object v0
 
-    iget-wide v1, v0, Lcom/tencent/mm/d/b/ba;->field_msgId:J
+    iget-wide v1, v0, Lcom/tencent/mm/d/b/BAclz;->field_msgId:J
 
     const-wide/16 v3, 0x0
 
@@ -85,7 +85,7 @@
 
     if-eqz v1, :cond_0
 
-    iget-object v1, v0, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/d/b/BAclz;->field_imgPath:Ljava/lang/String;
 
     if-nez v1, :cond_1
 
@@ -96,15 +96,15 @@
 
     .line 380
     :cond_1
-    iget-object v1, v0, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/d/b/BAclz;->field_imgPath:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/platformtools/t;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/platformtools/Tclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    iget-object v1, v0, Lcom/tencent/mm/d/b/ba;->field_imgPath:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/d/b/BAclz;->field_imgPath:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/tencent/mm/app/plugin/voicereminder/a/h;->bf(Ljava/lang/String;)Lcom/tencent/mm/app/plugin/voicereminder/a/g;
 
@@ -114,7 +114,7 @@
 
     iget-object v2, v1, Lcom/tencent/mm/app/plugin/voicereminder/a/g;->field_filename:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/platformtools/t;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/platformtools/Tclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -190,7 +190,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget v2, v1, Lcom/tencent/mm/app/plugin/voicereminder/a/g;->field_msglocalid:I
 
@@ -198,7 +198,7 @@
 
     iget-object v2, v1, Lcom/tencent/mm/app/plugin/voicereminder/a/g;->field_user:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/platformtools/t;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/platformtools/Tclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -235,7 +235,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -252,7 +252,7 @@
 
     move-result-object v1
 
-    iget-wide v2, v0, Lcom/tencent/mm/d/b/ba;->field_msgId:J
+    iget-wide v2, v0, Lcom/tencent/mm/d/b/BAclz;->field_msgId:J
 
     invoke-virtual {v1, v2, v3, v0}, Lcom/tencent/mm/storage/AEclz;->a(JLcom/tencent/mm/storage/ADclz;)V
 

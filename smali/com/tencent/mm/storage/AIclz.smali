@@ -1,9 +1,9 @@
 .class public final Lcom/tencent/mm/storage/AIclz;
-.super Lcom/tencent/mm/sdk/g/g;
+.super Lcom/tencent/mm/sdk/g/Gclz;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/aw/f$a;
+.implements Lcom/tencent/mm/aw/Fclz$a;
 
 
 # static fields
@@ -11,7 +11,7 @@
 
 
 # instance fields
-.field public aoD:Lcom/tencent/mm/sdk/g/d;
+.field public aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
 
 # direct methods
@@ -36,33 +36,33 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method public constructor <init>(Lcom/tencent/mm/aw/g;)V
+.method public constructor <init>(Lcom/tencent/mm/aw/Gclz;)V
     .locals 1
 
     .prologue
     .line 37
-    invoke-direct {p0}, Lcom/tencent/mm/sdk/g/g;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/sdk/g/Gclz;-><init>()V
 
     .line 20
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/storage/AIclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iput-object v0, p0, Lcom/tencent/mm/storage/AIclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     .line 38
-    iput-object p1, p0, Lcom/tencent/mm/storage/AIclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iput-object p1, p0, Lcom/tencent/mm/storage/AIclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     .line 39
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -97,7 +97,7 @@
     invoke-direct {v8}, Lcom/tencent/mm/storage/AHclz;-><init>()V
 
     .line 59
-    iget-object v0, p0, Lcom/tencent/mm/storage/AIclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v0, p0, Lcom/tencent/mm/storage/AIclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     const-string/jumbo v1, "role_info"
 
@@ -131,7 +131,7 @@
 
     move-object v7, v2
 
-    invoke-interface/range {v0 .. v7}, Lcom/tencent/mm/sdk/g/d;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface/range {v0 .. v7}, Lcom/tencent/mm/sdk/g/Dclz;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -184,7 +184,7 @@
     invoke-direct {v8}, Lcom/tencent/mm/storage/AHclz;-><init>()V
 
     .line 75
-    iget-object v0, p0, Lcom/tencent/mm/storage/AIclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v0, p0, Lcom/tencent/mm/storage/AIclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     const-string/jumbo v1, "role_info"
 
@@ -200,7 +200,7 @@
 
     move-object v7, v2
 
-    invoke-interface/range {v0 .. v7}, Lcom/tencent/mm/sdk/g/d;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface/range {v0 .. v7}, Lcom/tencent/mm/sdk/g/Dclz;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -230,7 +230,7 @@
     goto :goto_0
 .end method
 
-.method public final a(Lcom/tencent/mm/aw/f;)I
+.method public final a(Lcom/tencent/mm/aw/Fclz;)I
     .locals 1
 
     .prologue
@@ -238,7 +238,7 @@
     if-eqz p1, :cond_0
 
     .line 44
-    iput-object p1, p0, Lcom/tencent/mm/storage/AIclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iput-object p1, p0, Lcom/tencent/mm/storage/AIclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     .line 46
     :cond_0
@@ -269,13 +269,13 @@
     if-lez v1, :cond_0
 
     .line 117
-    iget-object v1, p0, Lcom/tencent/mm/storage/AIclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v1, p0, Lcom/tencent/mm/storage/AIclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     const-string/jumbo v2, "role_info"
 
     const-string/jumbo v3, "id"
 
-    invoke-interface {v1, v2, v3, v0}, Lcom/tencent/mm/sdk/g/d;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
+    invoke-interface {v1, v2, v3, v0}, Lcom/tencent/mm/sdk/g/Dclz;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
 
     move-result-wide v0
 
@@ -298,7 +298,7 @@
 
     .prologue
     .line 129
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -309,7 +309,7 @@
 
     const-string/jumbo v1, "insert role info failed: empty user"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 139
     :cond_0
@@ -351,7 +351,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -373,7 +373,7 @@
     if-lez v1, :cond_0
 
     .line 182
-    iget-object v1, p0, Lcom/tencent/mm/storage/AIclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v1, p0, Lcom/tencent/mm/storage/AIclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     const-string/jumbo v2, "role_info"
 
@@ -389,7 +389,7 @@
 
     aput-object v6, v4, v5
 
-    invoke-interface {v1, v2, v0, v3, v4}, Lcom/tencent/mm/sdk/g/d;->update(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
+    invoke-interface {v1, v2, v0, v3, v4}, Lcom/tencent/mm/sdk/g/Dclz;->update(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
 
     move-result v0
 
@@ -422,7 +422,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 185
     if-lez v0, :cond_0
@@ -456,7 +456,7 @@
     invoke-static {v0}, Ljunit/framework/Assert;->assertTrue(Z)V
 
     .line 193
-    iget-object v0, p0, Lcom/tencent/mm/storage/AIclz;->aoD:Lcom/tencent/mm/sdk/g/d;
+    iget-object v0, p0, Lcom/tencent/mm/storage/AIclz;->aoD:Lcom/tencent/mm/sdk/g/Dclz;
 
     const-string/jumbo v3, "role_info"
 
@@ -466,7 +466,7 @@
 
     aput-object p1, v1, v2
 
-    invoke-interface {v0, v3, v4, v1}, Lcom/tencent/mm/sdk/g/d;->delete(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I
+    invoke-interface {v0, v3, v4, v1}, Lcom/tencent/mm/sdk/g/Dclz;->delete(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I
 
     move-result v0
 
@@ -497,7 +497,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 195
     if-lez v0, :cond_0

@@ -47,7 +47,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -197,7 +197,7 @@
 
     check-cast v3, Landroid/widget/EditText;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/u;->aOc()Z
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Uclz;->aOc()Z
 
     move-result v4
 
@@ -303,7 +303,7 @@
     move-result-object v0
 
     .line 74
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -325,7 +325,7 @@
 
     .line 81
     :cond_5
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -366,14 +366,14 @@
     check-cast v1, Ljava/lang/String;
 
     .line 84
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
     if-nez v2, :cond_8
 
     .line 85
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->Bp(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bp(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
@@ -384,9 +384,9 @@
     if-eqz v1, :cond_7
 
     .line 86
-    new-instance v1, Lcom/tencent/mm/sdk/platformtools/aj;
+    new-instance v1, Lcom/tencent/mm/sdk/platformtools/AJclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/sdk/platformtools/aj;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/sdk/platformtools/AJclz;-><init>()V
 
     .line 87
     const-string/jumbo v1, "86"
@@ -410,7 +410,7 @@
     move-result-object v1
 
     .line 91
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/aj;->pe(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/AJclz;->pe(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -429,7 +429,7 @@
     .line 96
     :cond_6
     :goto_1
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/aj;->formatNumber(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/AJclz;->formatNumber(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -457,7 +457,7 @@
 
     .line 101
     :cond_8
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -705,7 +705,7 @@
     :pswitch_0
     const v0, 0x7f090163
 
-    invoke-static {p0, v0, v3}, Lcom/tencent/mm/ui/base/f;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v3}, Lcom/tencent/mm/ui/base/Fclz;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/Gclz;
 
     goto :goto_0
 
@@ -713,7 +713,7 @@
     :pswitch_1
     const v0, 0x7f090164
 
-    invoke-static {p0, v0, v3}, Lcom/tencent/mm/ui/base/f;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v3}, Lcom/tencent/mm/ui/base/Fclz;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/Gclz;
 
     goto :goto_0
 
@@ -721,7 +721,7 @@
     :pswitch_2
     const v0, 0x7f0900ef
 
-    invoke-static {p0, v0, v2}, Lcom/tencent/mm/ui/base/f;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v2}, Lcom/tencent/mm/ui/base/Fclz;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/Gclz;
 
     goto :goto_0
 
@@ -729,7 +729,7 @@
     :pswitch_3
     const v0, 0x7f0900f0
 
-    invoke-static {p0, v0, v2}, Lcom/tencent/mm/ui/base/f;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v2}, Lcom/tencent/mm/ui/base/Fclz;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/Gclz;
 
     goto :goto_0
 

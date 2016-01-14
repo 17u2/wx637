@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/sdk/platformtools/v$a;
+.implements Lcom/tencent/mm/sdk/platformtools/Vclz$a;
 
 
 # annotations
@@ -17,7 +17,7 @@
 # static fields
 .field static kNg:Z
 
-.field public static kNh:Lcom/tencent/mm/sdk/platformtools/az;
+.field public static kNh:Lcom/tencent/mm/sdk/platformtools/AZclz;
 
 
 # direct methods
@@ -41,7 +41,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -59,7 +59,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -70,14 +70,14 @@
 
     .prologue
     .line 56
-    sget-object v0, Lcom/tencent/mm/xlog/Xlog;->kNh:Lcom/tencent/mm/sdk/platformtools/az;
+    sget-object v0, Lcom/tencent/mm/xlog/Xlog;->kNh:Lcom/tencent/mm/sdk/platformtools/AZclz;
 
     if-eqz v0, :cond_0
 
     .line 57
-    sget-object v0, Lcom/tencent/mm/xlog/Xlog;->kNh:Lcom/tencent/mm/sdk/platformtools/az;
+    sget-object v0, Lcom/tencent/mm/xlog/Xlog;->kNh:Lcom/tencent/mm/sdk/platformtools/AZclz;
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/sdk/platformtools/az;->AS(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/sdk/platformtools/AZclz;->AS(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -119,7 +119,7 @@
 
     .line 46
     :try_start_0
-    sget-object v0, Lcom/tencent/mm/sdk/a;->jeD:Ljava/lang/String;
+    sget-object v0, Lcom/tencent/mm/sdk/Aclz;->jeD:Ljava/lang/String;
 
     const-class v1, Lcom/tencent/mm/xlog/Xlog;
 
@@ -127,7 +127,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/compatible/util/i;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/compatible/util/Iclz;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -137,7 +137,7 @@
     :catch_0
     move-exception v0
 
-    sget-object v0, Lcom/tencent/mm/sdk/a;->jeD:Ljava/lang/String;
+    sget-object v0, Lcom/tencent/mm/sdk/Aclz;->jeD:Ljava/lang/String;
 
     invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 

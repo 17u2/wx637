@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -64,9 +64,9 @@
 
     iget-object v2, v2, Lcom/tencent/mm/plugin/sns/d/r$a$1;->gik:Lcom/tencent/mm/plugin/sns/d/r$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/sns/d/r$a;->dAE:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/sns/d/r$a;->dAE:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/plugin/sns/d/r;->b(Lcom/tencent/mm/protocal/b/HYclz;Lcom/tencent/mm/sdk/platformtools/ab;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/plugin/sns/d/r;->b(Lcom/tencent/mm/protocal/b/HYclz;Lcom/tencent/mm/sdk/platformtools/ABclz;)Z
 
     move-result v0
 
@@ -77,11 +77,11 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/d/r$a$1;->gik:Lcom/tencent/mm/plugin/sns/d/r$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/d/r$a;->dAE:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sns/d/r$a;->dAE:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessage(I)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessage(I)Z
 
     .line 584
     :cond_0

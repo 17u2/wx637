@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -68,7 +68,7 @@
     .line 269
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/CountryCodeUI$7;->kBI:Lcom/tencent/mm/ui/tools/CountryCodeUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/tools/CountryCodeUI;->c(Lcom/tencent/mm/ui/tools/CountryCodeUI;)Lcom/tencent/mm/ui/tools/e;
+    invoke-static {v0}, Lcom/tencent/mm/ui/tools/CountryCodeUI;->c(Lcom/tencent/mm/ui/tools/CountryCodeUI;)Lcom/tencent/mm/ui/tools/Eclz;
 
     move-result-object v0
 
@@ -84,23 +84,23 @@
 
     sub-int v2, p3, v2
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/ui/tools/e;->getItem(I)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/ui/tools/Eclz;->getItem(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/ui/tools/d;
+    check-cast v0, Lcom/tencent/mm/ui/tools/Dclz;
 
     .line 270
     const-string/jumbo v2, "country_name"
 
-    iget-object v3, v0, Lcom/tencent/mm/ui/tools/d;->bMU:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/ui/tools/Dclz;->bMU:Ljava/lang/String;
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 271
     const-string/jumbo v2, "couttry_code"
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/tools/d;->aFX:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/ui/tools/Dclz;->aFX:Ljava/lang/String;
 
     invoke-virtual {v1, v2, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 

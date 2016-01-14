@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -106,7 +106,7 @@
 
     const v2, 0x7f090162
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/ui/base/f;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/ui/base/Fclz;->h(Landroid/content/Context;II)Lcom/tencent/mm/ui/base/Gclz;
 
     .line 982
     :goto_0
@@ -144,7 +144,7 @@
     invoke-virtual {v0, v2, v6}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 971
-    new-instance v0, Lcom/tencent/mm/modelfriend/z;
+    new-instance v0, Lcom/tencent/mm/modelfriend/Zclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI$16;->jFl:Lcom/tencent/mm/ui/account/RegSetInfoUI;
 
@@ -154,9 +154,9 @@
 
     iget-object v6, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI$16;->aoz:Lcom/tencent/mm/q/Jclz;
 
-    check-cast v6, Lcom/tencent/mm/modelfriend/z;
+    check-cast v6, Lcom/tencent/mm/modelfriend/Zclz;
 
-    invoke-virtual {v6}, Lcom/tencent/mm/modelfriend/z;->yK()Ljava/lang/String;
+    invoke-virtual {v6}, Lcom/tencent/mm/modelfriend/Zclz;->yK()Ljava/lang/String;
 
     move-result-object v6
 
@@ -170,7 +170,7 @@
 
     move-result-object v7
 
-    invoke-direct/range {v0 .. v7}, Lcom/tencent/mm/modelfriend/z;-><init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v7}, Lcom/tencent/mm/modelfriend/Zclz;-><init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 972
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -202,9 +202,9 @@
 
     new-instance v5, Lcom/tencent/mm/ui/account/RegSetInfoUI$16$1;
 
-    invoke-direct {v5, p0, v0}, Lcom/tencent/mm/ui/account/RegSetInfoUI$16$1;-><init>(Lcom/tencent/mm/ui/account/RegSetInfoUI$16;Lcom/tencent/mm/modelfriend/z;)V
+    invoke-direct {v5, p0, v0}, Lcom/tencent/mm/ui/account/RegSetInfoUI$16$1;-><init>(Lcom/tencent/mm/ui/account/RegSetInfoUI$16;Lcom/tencent/mm/modelfriend/Zclz;)V
 
-    invoke-static {v2, v3, v4, v5}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v2, v3, v4, v5}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 

@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/pluginsdk/h/a/c/o;
-.super Lcom/tencent/mm/sdk/g/f;
+.super Lcom/tencent/mm/sdk/g/Fclz;
 .source "SourceFile"
 
 
@@ -27,7 +27,7 @@
 
 
 # instance fields
-.field final bvh:Lcom/tencent/mm/aw/g;
+.field final bvh:Lcom/tencent/mm/aw/Gclz;
 
 .field private final hPp:Ljava/util/HashMap;
 
@@ -44,11 +44,11 @@
     .line 25
     new-array v0, v3, [Ljava/lang/String;
 
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h/a/c/n;->anZ:Lcom/tencent/mm/sdk/g/c$a;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/h/a/c/n;->anZ:Lcom/tencent/mm/sdk/g/Cclz$a;
 
     const-string/jumbo v2, "ResDownloaderRecord"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/g/f;->a(Lcom/tencent/mm/sdk/g/c$a;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/g/Fclz;->a(Lcom/tencent/mm/sdk/g/Cclz$a;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -87,7 +87,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/a/f;->m([B)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/a/Fclz;->m([B)Ljava/lang/String;
 
     move-result-object v1
 
@@ -172,24 +172,24 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_2
     return-void
 .end method
 
-.method private constructor <init>(Lcom/tencent/mm/aw/g;)V
+.method private constructor <init>(Lcom/tencent/mm/aw/Gclz;)V
     .locals 4
 
     .prologue
     .line 94
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h/a/c/n;->anZ:Lcom/tencent/mm/sdk/g/c$a;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/h/a/c/n;->anZ:Lcom/tencent/mm/sdk/g/Cclz$a;
 
     const-string/jumbo v1, "ResDownloaderRecord"
 
     const/4 v2, 0x0
 
-    invoke-direct {p0, p1, v0, v1, v2}, Lcom/tencent/mm/sdk/g/f;-><init>(Lcom/tencent/mm/sdk/g/d;Lcom/tencent/mm/sdk/g/c$a;Ljava/lang/String;[Ljava/lang/String;)V
+    invoke-direct {p0, p1, v0, v1, v2}, Lcom/tencent/mm/sdk/g/Fclz;-><init>(Lcom/tencent/mm/sdk/g/Dclz;Lcom/tencent/mm/sdk/g/Cclz$a;Ljava/lang/String;[Ljava/lang/String;)V
 
     .line 90
     new-instance v0, Ljava/util/HashMap;
@@ -199,7 +199,7 @@
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/c/o;->hPp:Ljava/util/HashMap;
 
     .line 95
-    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/h/a/c/o;->bvh:Lcom/tencent/mm/aw/g;
+    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/h/a/c/o;->bvh:Lcom/tencent/mm/aw/Gclz;
 
     .line 97
     invoke-static {}, Lcom/tencent/mm/pluginsdk/h/a/c/m;->aJb()Ljava/util/Collection;
@@ -260,7 +260,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_2
     return-void
@@ -293,9 +293,9 @@
     invoke-virtual {v0}, Ljava/io/File;->mkdirs()Z
 
     .line 107
-    new-instance v0, Lcom/tencent/mm/aw/g;
+    new-instance v0, Lcom/tencent/mm/aw/Gclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/aw/g;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/aw/Gclz;-><init>()V
 
     .line 108
     new-instance v1, Ljava/lang/StringBuilder;
@@ -340,13 +340,13 @@
 
     const-wide/32 v3, -0x80000000
 
-    invoke-static {}, Lcom/tencent/mm/compatible/d/p;->oy()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/compatible/d/Pclz;->oy()Ljava/lang/String;
 
     move-result-object v5
 
     sget-object v6, Lcom/tencent/mm/pluginsdk/h/a/c/o;->hPo:Ljava/util/HashMap;
 
-    invoke-virtual/range {v0 .. v6}, Lcom/tencent/mm/aw/g;->a(Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;Ljava/util/HashMap;)Z
+    invoke-virtual/range {v0 .. v6}, Lcom/tencent/mm/aw/Gclz;->a(Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;Ljava/util/HashMap;)Z
 
     move-result v1
 
@@ -357,7 +357,7 @@
 
     const-string/jumbo v1, "res downloader db init failed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, v7
 
@@ -369,7 +369,7 @@
     :cond_0
     new-instance v1, Lcom/tencent/mm/pluginsdk/h/a/c/o;
 
-    invoke-direct {v1, v0}, Lcom/tencent/mm/pluginsdk/h/a/c/o;-><init>(Lcom/tencent/mm/aw/g;)V
+    invoke-direct {v1, v0}, Lcom/tencent/mm/pluginsdk/h/a/c/o;-><init>(Lcom/tencent/mm/aw/Gclz;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -394,7 +394,7 @@
 
     aput-object v0, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     move-object v0, v7
 
@@ -402,26 +402,26 @@
     goto :goto_0
 .end method
 
-.method static synthetic b(Lcom/tencent/mm/pluginsdk/h/a/c/o;)Lcom/tencent/mm/aw/g;
+.method static synthetic b(Lcom/tencent/mm/pluginsdk/h/a/c/o;)Lcom/tencent/mm/aw/Gclz;
     .locals 1
 
     .prologue
     .line 21
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/c/o;->bvh:Lcom/tencent/mm/aw/g;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/c/o;->bvh:Lcom/tencent/mm/aw/Gclz;
 
     return-object v0
 .end method
 
 
 # virtual methods
-.method public final bridge synthetic a(JLcom/tencent/mm/sdk/g/c;)Z
+.method public final bridge synthetic a(JLcom/tencent/mm/sdk/g/Cclz;)Z
     .locals 1
 
     .prologue
     .line 21
     check-cast p3, Lcom/tencent/mm/pluginsdk/h/a/c/n;
 
-    invoke-super {p0, p1, p2, p3}, Lcom/tencent/mm/sdk/g/f;->a(JLcom/tencent/mm/sdk/g/c;)Z
+    invoke-super {p0, p1, p2, p3}, Lcom/tencent/mm/sdk/g/Fclz;->a(JLcom/tencent/mm/sdk/g/Cclz;)Z
 
     move-result v0
 

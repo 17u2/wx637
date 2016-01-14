@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -117,7 +117,7 @@
 
     int-to-long v2, v2
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->ak(J)J
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ak(J)J
 
     move-result-wide v2
 
@@ -180,7 +180,7 @@
 
     int-to-long v2, v2
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->ak(J)J
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ak(J)J
 
     move-result-wide v2
 

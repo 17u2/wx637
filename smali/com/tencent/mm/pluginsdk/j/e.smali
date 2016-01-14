@@ -21,7 +21,7 @@
 
 .field private gcd:Z
 
-.field gcg:Lcom/tencent/mm/compatible/d/c$a$a;
+.field gcg:Lcom/tencent/mm/compatible/d/Cclz$a$a;
 
 .field gch:Landroid/hardware/Sensor;
 
@@ -56,7 +56,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -122,7 +122,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -168,9 +168,9 @@
     const/4 v5, 0x0
 
     .line 95
-    sget-object v0, Lcom/tencent/mm/compatible/d/p;->bmf:Lcom/tencent/mm/compatible/d/b;
+    sget-object v0, Lcom/tencent/mm/compatible/d/Pclz;->bmf:Lcom/tencent/mm/compatible/d/Bclz;
 
-    iget v0, v0, Lcom/tencent/mm/compatible/d/b;->bkC:I
+    iget v0, v0, Lcom/tencent/mm/compatible/d/Bclz;->bkC:I
 
     if-lez v0, :cond_1
 
@@ -261,7 +261,7 @@
 
     aput-object v11, v10, v13
 
-    invoke-static {v8, v9, v10}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v8, v9, v10}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 118
     if-ltz v2, :cond_3
@@ -305,7 +305,7 @@
 
     aput-object v5, v4, v12
 
-    invoke-static {v0, v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 131
     if-eq v3, v14, :cond_0
@@ -367,7 +367,7 @@
 
     const-string/jumbo v1, "release camera"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 71
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/j/e;->bkU:Landroid/hardware/Camera;
@@ -421,7 +421,7 @@
     if-nez p1, :cond_1
 
     .line 147
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->oZ()I
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->oZ()I
 
     move-result v0
 
@@ -448,11 +448,11 @@
 
     const-string/jumbo v2, "getFitRecordSize"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const v3, 0x7fffffff
 
-    invoke-static {v7}, Lcom/tencent/mm/compatible/d/c;->b(Landroid/hardware/Camera$Parameters;)Ljava/util/List;
+    invoke-static {v7}, Lcom/tencent/mm/compatible/d/Cclz;->b(Landroid/hardware/Camera$Parameters;)Ljava/util/List;
 
     move-result-object v0
 
@@ -462,9 +462,9 @@
 
     const-string/jumbo v2, "getFitRecordSize getSupportedVideoSizes null, use getSupportedPreviewSizes instead"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v7}, Lcom/tencent/mm/compatible/d/c;->a(Landroid/hardware/Camera$Parameters;)Ljava/util/List;
+    invoke-static {v7}, Lcom/tencent/mm/compatible/d/Cclz;->a(Landroid/hardware/Camera$Parameters;)Ljava/util/List;
 
     move-result-object v0
 
@@ -526,7 +526,7 @@
 
     move-result-object v11
 
-    invoke-static {v0, v11}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v11}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     mul-int v0, v9, v10
 
@@ -652,7 +652,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 155
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/j/e;->hQj:Lcom/tencent/mm/pluginsdk/j/a;
@@ -699,7 +699,7 @@
     .line 165
     const/16 v2, 0x9
 
-    invoke-static {v2}, Lcom/tencent/mm/compatible/util/c;->bX(I)Z
+    invoke-static {v2}, Lcom/tencent/mm/compatible/util/Cclz;->bX(I)Z
 
     move-result v2
 
@@ -718,7 +718,7 @@
 
     const-string/jumbo v2, "support continous-video"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 168
     const/4 v0, 0x0
@@ -824,10 +824,10 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 182
-    invoke-static {}, Lcom/tencent/mm/compatible/util/f;->oZ()I
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Fclz;->oZ()I
 
     move-result v0
 
@@ -851,7 +851,7 @@
 
     const-string/jumbo v2, "don\'t support auto"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 172
     const/4 v0, 0x0
@@ -967,7 +967,7 @@
 
     const-string/jumbo v4, "auto focus"
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 440
     iget-object v3, p0, Lcom/tencent/mm/pluginsdk/j/e;->bkU:Landroid/hardware/Camera;
@@ -1005,7 +1005,7 @@
 
     const-string/jumbo v4, "auto focus failed"
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method

@@ -9,13 +9,13 @@
 
     .prologue
     .line 15
-    sget-object v0, Lcom/tencent/mm/compatible/d/p;->bml:Lcom/tencent/mm/compatible/d/j;
+    sget-object v0, Lcom/tencent/mm/compatible/d/Pclz;->bml:Lcom/tencent/mm/compatible/d/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/compatible/d/j;->blL:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/compatible/d/Jclz;->blL:Ljava/lang/String;
 
     const-string/jumbo v1, ""
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -32,7 +32,7 @@
 
     const-string/jumbo v1, "match full type surface"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 17
     new-instance v0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSurfaceView;
@@ -47,7 +47,7 @@
     :cond_0
     const-string/jumbo v0, "ro.mediatek.platform"
 
-    invoke-static {v0}, Lcom/tencent/mm/compatible/d/w;->get(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/compatible/d/Wclz;->get(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -80,7 +80,7 @@
 
     const-string/jumbo v1, "IS MTK platform"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 21
     new-instance v0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;
@@ -101,7 +101,7 @@
 
     const-string/jumbo v1, "default settings, use sightview"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 24
     new-instance v0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;

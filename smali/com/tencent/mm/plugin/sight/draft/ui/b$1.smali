@@ -32,7 +32,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -69,20 +69,20 @@
     check-cast v0, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;
 
     .line 65
-    iget-object v2, v0, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/f;
+    iget-object v2, v0, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/Fclz;
 
     if-eqz v2, :cond_0
 
     .line 66
     const-string/jumbo v2, ""
 
-    invoke-static {p1, v2}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    iget-object v3, v0, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/f;
+    iget-object v3, v0, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/Fclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/ak/f;->field_fileName:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/ak/Fclz;->field_fileName:Ljava/lang/String;
 
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

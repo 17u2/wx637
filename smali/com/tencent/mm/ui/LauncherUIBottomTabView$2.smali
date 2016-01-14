@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/ui/LauncherUIBottomTabView$2;
-.super Lcom/tencent/mm/sdk/platformtools/ab;
+.super Lcom/tencent/mm/sdk/platformtools/ABclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 111
     iput-object p1, p0, Lcom/tencent/mm/ui/LauncherUIBottomTabView$2;->jxu:Lcom/tencent/mm/ui/LauncherUIBottomTabView;
 
-    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -49,18 +49,18 @@
 
     const-string/jumbo v1, "onMainTabClick"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 115
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUIBottomTabView$2;->jxu:Lcom/tencent/mm/ui/LauncherUIBottomTabView;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUIBottomTabView;->d(Lcom/tencent/mm/ui/LauncherUIBottomTabView;)Lcom/tencent/mm/ui/c$a;
+    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUIBottomTabView;->d(Lcom/tencent/mm/ui/LauncherUIBottomTabView;)Lcom/tencent/mm/ui/Cclz$a;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/c$a;->go(I)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/Cclz$a;->go(I)V
 
     .line 116
     return-void

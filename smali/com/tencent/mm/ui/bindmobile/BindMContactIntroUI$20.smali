@@ -24,7 +24,7 @@
 
     .prologue
     .line 234
-    invoke-static {}, Lcom/tencent/mm/modelfriend/m$a;->values()[Lcom/tencent/mm/modelfriend/m$a;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/Mclz$a;->values()[Lcom/tencent/mm/modelfriend/Mclz$a;
 
     move-result-object v0
 
@@ -37,9 +37,9 @@
     :try_start_0
     sget-object v0, Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI$20;->jXo:[I
 
-    sget-object v1, Lcom/tencent/mm/modelfriend/m$a;->bFa:Lcom/tencent/mm/modelfriend/m$a;
+    sget-object v1, Lcom/tencent/mm/modelfriend/Mclz$a;->bFa:Lcom/tencent/mm/modelfriend/Mclz$a;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/modelfriend/m$a;->ordinal()I
+    invoke-virtual {v1}, Lcom/tencent/mm/modelfriend/Mclz$a;->ordinal()I
 
     move-result v1
 
@@ -53,9 +53,9 @@
     :try_start_1
     sget-object v0, Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI$20;->jXo:[I
 
-    sget-object v1, Lcom/tencent/mm/modelfriend/m$a;->bFb:Lcom/tencent/mm/modelfriend/m$a;
+    sget-object v1, Lcom/tencent/mm/modelfriend/Mclz$a;->bFb:Lcom/tencent/mm/modelfriend/Mclz$a;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/modelfriend/m$a;->ordinal()I
+    invoke-virtual {v1}, Lcom/tencent/mm/modelfriend/Mclz$a;->ordinal()I
 
     move-result v1
 
@@ -69,9 +69,9 @@
     :try_start_2
     sget-object v0, Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI$20;->jXo:[I
 
-    sget-object v1, Lcom/tencent/mm/modelfriend/m$a;->bFd:Lcom/tencent/mm/modelfriend/m$a;
+    sget-object v1, Lcom/tencent/mm/modelfriend/Mclz$a;->bFd:Lcom/tencent/mm/modelfriend/Mclz$a;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/modelfriend/m$a;->ordinal()I
+    invoke-virtual {v1}, Lcom/tencent/mm/modelfriend/Mclz$a;->ordinal()I
 
     move-result v1
 
@@ -85,9 +85,9 @@
     :try_start_3
     sget-object v0, Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI$20;->jXo:[I
 
-    sget-object v1, Lcom/tencent/mm/modelfriend/m$a;->bFc:Lcom/tencent/mm/modelfriend/m$a;
+    sget-object v1, Lcom/tencent/mm/modelfriend/Mclz$a;->bFc:Lcom/tencent/mm/modelfriend/Mclz$a;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/modelfriend/m$a;->ordinal()I
+    invoke-virtual {v1}, Lcom/tencent/mm/modelfriend/Mclz$a;->ordinal()I
 
     move-result v1
 
@@ -101,7 +101,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     :goto_3
@@ -114,7 +114,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     goto :goto_3
 

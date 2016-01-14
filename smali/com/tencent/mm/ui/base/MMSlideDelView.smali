@@ -55,7 +55,7 @@
 
 .field private jPz:Lcom/tencent/mm/ui/base/MMSlideDelView$a;
 
-.field private mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field time:J
 
@@ -90,11 +90,11 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->jPz:Lcom/tencent/mm/ui/base/MMSlideDelView$a;
 
     .line 49
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 114
     new-instance v0, Landroid/widget/Scroller;
@@ -136,7 +136,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -181,16 +181,16 @@
 
     .prologue
     .line 452
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     if-eqz v0, :cond_0
 
     .line 453
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->jPv:Lcom/tencent/mm/ui/base/MMSlideDelView$b;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     .line 455
     :cond_0
@@ -835,7 +835,7 @@
 
     const-string/jumbo v6, "onTouchEvent a menu has been shown, skip"
 
-    invoke-static {v2, v6}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 248
     iput-boolean v3, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->jPy:Z
@@ -879,16 +879,16 @@
     packed-switch v0, :pswitch_data_0
 
     .line 420
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     if-eqz v0, :cond_0
 
     .line 421
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->jPz:Lcom/tencent/mm/ui/base/MMSlideDelView$a;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     goto :goto_0
 
@@ -966,7 +966,7 @@
 
     .line 290
     :cond_8
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->jPv:Lcom/tencent/mm/ui/base/MMSlideDelView$b;
 
@@ -976,7 +976,7 @@
 
     int-to-long v6, v6
 
-    invoke-virtual {v0, v2, v6, v7}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v0, v2, v6, v7}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     .line 292
     iput v4, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->fX:F
@@ -1009,13 +1009,13 @@
     iput v2, v0, Lcom/tencent/mm/ui/base/MMSlideDelView$h;->icG:I
 
     .line 301
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->jPz:Lcom/tencent/mm/ui/base/MMSlideDelView$a;
 
     iget-wide v3, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->jPx:J
 
-    invoke-virtual {v0, v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v0, v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     goto/16 :goto_0
 
@@ -1128,16 +1128,16 @@
 
     .line 333
     :goto_2
-    iget-object v2, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v2, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     if-eqz v2, :cond_e
 
     .line 334
-    iget-object v2, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v2, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v6, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->jPz:Lcom/tencent/mm/ui/base/MMSlideDelView$a;
 
-    invoke-virtual {v2, v6}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v2, v6}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     .line 336
     :cond_e
@@ -1245,7 +1245,7 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->jPw:Ljava/lang/Runnable;
 
     .line 373
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->jPw:Ljava/lang/Runnable;
 
@@ -1255,7 +1255,7 @@
 
     int-to-long v3, v3
 
-    invoke-virtual {v0, v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v0, v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     .line 378
     :goto_3
@@ -1271,16 +1271,16 @@
     invoke-direct {p0}, Lcom/tencent/mm/ui/base/MMSlideDelView;->aWo()V
 
     .line 389
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     if-eqz v0, :cond_0
 
     .line 390
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->jPz:Lcom/tencent/mm/ui/base/MMSlideDelView$a;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     goto/16 :goto_0
 
@@ -1310,16 +1310,16 @@
     invoke-direct {p0}, Lcom/tencent/mm/ui/base/MMSlideDelView;->aWo()V
 
     .line 409
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     if-eqz v0, :cond_0
 
     .line 410
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/base/MMSlideDelView;->jPz:Lcom/tencent/mm/ui/base/MMSlideDelView$a;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeCallbacks(Ljava/lang/Runnable;)V
 
     goto/16 :goto_0
 
@@ -1347,7 +1347,7 @@
 
     const-string/jumbo v1, "window focus change, reset long press status"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 443
     const/4 v0, 0x0

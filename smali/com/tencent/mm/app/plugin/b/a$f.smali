@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/app/plugin/b/a$f;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -17,9 +17,9 @@
 # instance fields
 .field ani:Ljava/lang/String;
 
-.field ank:Lcom/tencent/mm/modelvoice/k;
+.field ank:Lcom/tencent/mm/modelvoice/Kclz;
 
-.field anl:Lcom/tencent/mm/sdk/platformtools/ag;
+.field anl:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
 .field anm:Z
 
@@ -27,7 +27,7 @@
 
 .field ano:Z
 
-.field anp:Lcom/tencent/mm/d/a/cr;
+.field anp:Lcom/tencent/mm/d/a/CRclz;
 
 .field anq:Ljava/lang/Runnable;
 
@@ -40,7 +40,7 @@
     .line 319
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     .line 311
     const-string/jumbo v0, ""
@@ -52,7 +52,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -60,7 +60,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 9
 
     .prologue
@@ -71,7 +71,7 @@
     const/4 v0, 0x0
 
     .line 324
-    instance-of v2, p1, Lcom/tencent/mm/d/a/cr;
+    instance-of v2, p1, Lcom/tencent/mm/d/a/CRclz;
 
     if-nez v2, :cond_0
 
@@ -80,7 +80,7 @@
 
     const-string/jumbo v2, "mismatched event"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->f(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 356
     :goto_0
@@ -88,65 +88,65 @@
 
     .line 328
     :cond_0
-    check-cast p1, Lcom/tencent/mm/d/a/cr;
+    check-cast p1, Lcom/tencent/mm/d/a/CRclz;
 
     .line 329
-    iget-object v2, p1, Lcom/tencent/mm/d/a/cr;->avH:Lcom/tencent/mm/d/a/cr$a;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/CRclz;->avH:Lcom/tencent/mm/d/a/CRclz$a;
 
-    iget v2, v2, Lcom/tencent/mm/d/a/cr$a;->op:I
+    iget v2, v2, Lcom/tencent/mm/d/a/CRclz$a;->op:I
 
     if-ne v2, v1, :cond_6
 
     .line 330
-    iget-object v2, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ank:Lcom/tencent/mm/modelvoice/k;
+    iget-object v2, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
     if-nez v2, :cond_1
 
     .line 331
-    new-instance v2, Lcom/tencent/mm/modelvoice/k;
+    new-instance v2, Lcom/tencent/mm/modelvoice/Kclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/modelvoice/k;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/modelvoice/Kclz;-><init>()V
 
-    iput-object v2, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ank:Lcom/tencent/mm/modelvoice/k;
+    iput-object v2, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
     .line 333
     :cond_1
-    iget-object v2, p1, Lcom/tencent/mm/d/a/cr;->avH:Lcom/tencent/mm/d/a/cr$a;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/CRclz;->avH:Lcom/tencent/mm/d/a/CRclz$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/a/cr$a;->anq:Ljava/lang/Runnable;
+    iget-object v2, v2, Lcom/tencent/mm/d/a/CRclz$a;->anq:Ljava/lang/Runnable;
 
     iput-object v2, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anq:Ljava/lang/Runnable;
 
     .line 334
-    iget-object v2, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ank:Lcom/tencent/mm/modelvoice/k;
+    iget-object v2, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
-    iget v2, v2, Lcom/tencent/mm/modelvoice/k;->mStatus:I
+    iget v2, v2, Lcom/tencent/mm/modelvoice/Kclz;->mStatus:I
 
     if-ne v2, v1, :cond_2
 
     .line 335
-    iget-object v2, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ank:Lcom/tencent/mm/modelvoice/k;
+    iget-object v2, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/modelvoice/k;->lO()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/modelvoice/Kclz;->lO()Z
 
     .line 337
     :cond_2
-    iget-object v2, p1, Lcom/tencent/mm/d/a/cr;->avI:Lcom/tencent/mm/d/a/cr$b;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/CRclz;->avI:Lcom/tencent/mm/d/a/CRclz$b;
 
-    iget-object v3, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ank:Lcom/tencent/mm/modelvoice/k;
+    iget-object v3, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
-    iget-object v4, p1, Lcom/tencent/mm/d/a/cr;->avH:Lcom/tencent/mm/d/a/cr$a;
+    iget-object v4, p1, Lcom/tencent/mm/d/a/CRclz;->avH:Lcom/tencent/mm/d/a/CRclz$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/cr$a;->filePath:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/CRclz$a;->filePath:Ljava/lang/String;
 
-    invoke-virtual {v3, v4}, Lcom/tencent/mm/modelvoice/k;->bm(Ljava/lang/String;)Z
+    invoke-virtual {v3, v4}, Lcom/tencent/mm/modelvoice/Kclz;->bm(Ljava/lang/String;)Z
 
     move-result v3
 
-    iput-boolean v3, v2, Lcom/tencent/mm/d/a/cr$b;->asS:Z
+    iput-boolean v3, v2, Lcom/tencent/mm/d/a/CRclz$b;->asS:Z
 
     .line 338
-    invoke-static {}, Lcom/tencent/mm/g/h;->pT()Lcom/tencent/mm/g/c;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pT()Lcom/tencent/mm/g/Cclz;
 
     move-result-object v2
 
@@ -154,13 +154,13 @@
 
     const-string/jumbo v4, "maxVoiceRecordTime"
 
-    invoke-virtual {v2, v3, v4}, Lcom/tencent/mm/g/c;->u(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v3, v4}, Lcom/tencent/mm/g/Cclz;->u(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     const/16 v3, 0x3c
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v2
 
@@ -181,42 +181,42 @@
 
     aput-object v7, v6, v0
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 340
-    iget-object v4, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anl:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v4, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anl:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     if-nez v4, :cond_3
 
-    new-instance v4, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v4, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     new-instance v5, Lcom/tencent/mm/app/plugin/b/a$f$1;
 
     invoke-direct {v5, p0}, Lcom/tencent/mm/app/plugin/b/a$f$1;-><init>(Lcom/tencent/mm/app/plugin/b/a$f;)V
 
-    invoke-direct {v4, v5, v0}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v4, v5, v0}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
-    iput-object v4, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anl:Lcom/tencent/mm/sdk/platformtools/ag;
+    iput-object v4, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anl:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     :cond_3
-    iget-object v4, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anl:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v4, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anl:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-virtual {v4}, Lcom/tencent/mm/sdk/platformtools/ag;->aOK()Z
+    invoke-virtual {v4}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOK()Z
 
     move-result v4
 
     if-eqz v4, :cond_4
 
-    iget-object v4, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anl:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v4, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anl:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-virtual {v4}, Lcom/tencent/mm/sdk/platformtools/ag;->aOk()V
+    invoke-virtual {v4}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOk()V
 
     :cond_4
     iput-boolean v0, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ano:Z
 
-    iget-object v4, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anl:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v4, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anl:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-virtual {v4, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v4, v2, v3}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     .line 341
     iput-boolean v0, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anm:Z
@@ -228,9 +228,9 @@
 
     new-array v4, v8, [Ljava/lang/Object;
 
-    iget-object v5, p1, Lcom/tencent/mm/d/a/cr;->avH:Lcom/tencent/mm/d/a/cr$a;
+    iget-object v5, p1, Lcom/tencent/mm/d/a/CRclz;->avH:Lcom/tencent/mm/d/a/CRclz$a;
 
-    iget v5, v5, Lcom/tencent/mm/d/a/cr$a;->op:I
+    iget v5, v5, Lcom/tencent/mm/d/a/CRclz$a;->op:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -238,9 +238,9 @@
 
     aput-object v5, v4, v0
 
-    iget-object v0, p1, Lcom/tencent/mm/d/a/cr;->avI:Lcom/tencent/mm/d/a/cr$b;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/CRclz;->avI:Lcom/tencent/mm/d/a/CRclz$b;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/d/a/cr$b;->asS:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/d/a/CRclz$b;->asS:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -248,7 +248,7 @@
 
     aput-object v0, v4, v1
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     :cond_5
     :goto_1
@@ -259,14 +259,14 @@
 
     .line 343
     :cond_6
-    iget-object v2, p1, Lcom/tencent/mm/d/a/cr;->avH:Lcom/tencent/mm/d/a/cr$a;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/CRclz;->avH:Lcom/tencent/mm/d/a/CRclz$a;
 
-    iget v2, v2, Lcom/tencent/mm/d/a/cr$a;->op:I
+    iget v2, v2, Lcom/tencent/mm/d/a/CRclz$a;->op:I
 
     if-ne v2, v8, :cond_5
 
     .line 344
-    iget-object v2, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ank:Lcom/tencent/mm/modelvoice/k;
+    iget-object v2, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
     if-eqz v2, :cond_5
 
@@ -276,27 +276,27 @@
     if-nez v2, :cond_7
 
     .line 346
-    iget-object v2, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anl:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v2, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anl:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-virtual {v2}, Lcom/tencent/mm/sdk/platformtools/ag;->aOk()V
+    invoke-virtual {v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOk()V
 
     .line 347
     const-string/jumbo v2, "!44@/B4Tb64lLpIAhUt0Bg2QThuc37pqTsjLtAkd+Z5MTHc="
 
     const-string/jumbo v3, "Voice record stop."
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 348
     invoke-virtual {p0}, Lcom/tencent/mm/app/plugin/b/a$f;->lq()V
 
     .line 350
     :cond_7
-    iget-object v2, p1, Lcom/tencent/mm/d/a/cr;->avI:Lcom/tencent/mm/d/a/cr$b;
+    iget-object v2, p1, Lcom/tencent/mm/d/a/CRclz;->avI:Lcom/tencent/mm/d/a/CRclz$b;
 
     iget-boolean v3, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ann:Z
 
-    iput-boolean v3, v2, Lcom/tencent/mm/d/a/cr$b;->asS:Z
+    iput-boolean v3, v2, Lcom/tencent/mm/d/a/CRclz$b;->asS:Z
 
     .line 351
     const-string/jumbo v2, "!44@/B4Tb64lLpIAhUt0Bg2QThuc37pqTsjLtAkd+Z5MTHc="
@@ -307,9 +307,9 @@
 
     new-array v4, v4, [Ljava/lang/Object;
 
-    iget-object v5, p1, Lcom/tencent/mm/d/a/cr;->avH:Lcom/tencent/mm/d/a/cr$a;
+    iget-object v5, p1, Lcom/tencent/mm/d/a/CRclz;->avH:Lcom/tencent/mm/d/a/CRclz$a;
 
-    iget v5, v5, Lcom/tencent/mm/d/a/cr$a;->op:I
+    iget v5, v5, Lcom/tencent/mm/d/a/CRclz$a;->op:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -321,9 +321,9 @@
 
     aput-object v5, v4, v1
 
-    iget-object v5, p1, Lcom/tencent/mm/d/a/cr;->avI:Lcom/tencent/mm/d/a/cr$b;
+    iget-object v5, p1, Lcom/tencent/mm/d/a/CRclz;->avI:Lcom/tencent/mm/d/a/CRclz$b;
 
-    iget-boolean v5, v5, Lcom/tencent/mm/d/a/cr$b;->asS:Z
+    iget-boolean v5, v5, Lcom/tencent/mm/d/a/CRclz$b;->asS:Z
 
     invoke-static {v5}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -331,7 +331,7 @@
 
     aput-object v5, v4, v8
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 352
     const-string/jumbo v2, ""
@@ -351,14 +351,14 @@
     const/4 v2, 0x0
 
     .line 379
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ank:Lcom/tencent/mm/modelvoice/k;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
     if-eqz v0, :cond_3
 
     .line 380
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ank:Lcom/tencent/mm/modelvoice/k;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelvoice/k;->lO()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/modelvoice/Kclz;->lO()Z
 
     move-result v0
 
@@ -370,25 +370,25 @@
     if-eqz v0, :cond_2
 
     .line 382
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anp:Lcom/tencent/mm/d/a/cr;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anp:Lcom/tencent/mm/d/a/CRclz;
 
     if-eqz v0, :cond_0
 
     .line 383
-    iget-object v0, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anp:Lcom/tencent/mm/d/a/cr;
+    iget-object v0, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anp:Lcom/tencent/mm/d/a/CRclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/cr;->avI:Lcom/tencent/mm/d/a/cr$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/CRclz;->avI:Lcom/tencent/mm/d/a/CRclz$b;
 
-    iget-object v1, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ank:Lcom/tencent/mm/modelvoice/k;
+    iget-object v1, p0, Lcom/tencent/mm/app/plugin/b/a$f;->ank:Lcom/tencent/mm/modelvoice/Kclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/modelvoice/k;->apq:Lcom/tencent/mm/c/b/c;
+    iget-object v1, v1, Lcom/tencent/mm/modelvoice/Kclz;->apq:Lcom/tencent/mm/c/b/Cclz;
 
-    iget v1, v1, Lcom/tencent/mm/c/b/c;->aqd:I
+    iget v1, v1, Lcom/tencent/mm/c/b/Cclz;->aqd:I
 
-    iput v1, v0, Lcom/tencent/mm/d/a/cr$b;->avJ:I
+    iput v1, v0, Lcom/tencent/mm/d/a/CRclz$b;->avJ:I
 
     .line 384
-    iput-object v2, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anp:Lcom/tencent/mm/d/a/cr;
+    iput-object v2, p0, Lcom/tencent/mm/app/plugin/b/a$f;->anp:Lcom/tencent/mm/d/a/CRclz;
 
     .line 386
     :cond_0

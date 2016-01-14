@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -66,11 +66,11 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$9;->jCE:Lcom/tencent/mm/ui/account/LoginHistoryUI;
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/f;
+    invoke-static {v2}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/Fclz;
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/account/f;->bSR:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/ui/account/Fclz;->bSR:Ljava/lang/String;
 
     invoke-virtual {v1, v0, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -79,11 +79,11 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$9;->jCE:Lcom/tencent/mm/ui/account/LoginHistoryUI;
 
-    invoke-static {v2}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/f;
+    invoke-static {v2}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->f(Lcom/tencent/mm/ui/account/LoginHistoryUI;)Lcom/tencent/mm/ui/account/Fclz;
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/account/f;->jCO:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/ui/account/Fclz;->jCO:Ljava/lang/String;
 
     invoke-virtual {v1, v0, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -99,9 +99,9 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$9;->aoz:Lcom/tencent/mm/q/Jclz;
 
-    check-cast v0, Lcom/tencent/mm/modelsimple/t;
+    check-cast v0, Lcom/tencent/mm/modelsimple/Tclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelsimple/t;->yy()I
+    invoke-virtual {v0}, Lcom/tencent/mm/modelsimple/Tclz;->yy()I
 
     move-result v0
 
@@ -117,9 +117,9 @@
     .line 925
     iget-object v0, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI$9;->jCE:Lcom/tencent/mm/ui/account/LoginHistoryUI;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, v0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     invoke-virtual {v0, v1}, Landroid/support/v7/app/ActionBarActivity;->startActivity(Landroid/content/Intent;)V
 

@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/app/plugin/voicereminder/a/d$3;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 9
 
     .prologue
@@ -51,21 +51,21 @@
     const/4 v7, 0x0
 
     .line 333
-    check-cast p1, Lcom/tencent/mm/d/a/ll;
+    check-cast p1, Lcom/tencent/mm/d/a/LLclz;
 
     .line 334
-    iget-object v0, p1, Lcom/tencent/mm/d/a/ll;->aGt:Lcom/tencent/mm/d/a/ll$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/LLclz;->aGt:Lcom/tencent/mm/d/a/LLclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/ll$a;->aCa:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/LLclz$a;->aCa:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/app/plugin/voicereminder/a/e;->bc(Ljava/lang/String;)Lcom/tencent/mm/app/plugin/voicereminder/a/e;
 
     move-result-object v1
 
     .line 335
-    iget-object v0, p1, Lcom/tencent/mm/d/a/ll;->aGt:Lcom/tencent/mm/d/a/ll$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/LLclz;->aGt:Lcom/tencent/mm/d/a/LLclz$a;
 
-    iget-object v2, v0, Lcom/tencent/mm/d/a/ll$a;->arO:Lcom/tencent/mm/storage/ADclz;
+    iget-object v2, v0, Lcom/tencent/mm/d/a/LLclz$a;->arO:Lcom/tencent/mm/storage/ADclz;
 
     .line 337
     if-eqz v1, :cond_2
@@ -88,15 +88,15 @@
     check-cast v0, Lcom/tencent/mm/app/plugin/voicereminder/a/d;
 
     .line 339
-    iget-object v3, v2, Lcom/tencent/mm/d/b/ba;->field_talker:Ljava/lang/String;
+    iget-object v3, v2, Lcom/tencent/mm/d/b/BAclz;->field_talker:Ljava/lang/String;
 
-    iget-object v4, p1, Lcom/tencent/mm/d/a/ll;->aGt:Lcom/tencent/mm/d/a/ll$a;
+    iget-object v4, p1, Lcom/tencent/mm/d/a/LLclz;->aGt:Lcom/tencent/mm/d/a/LLclz$a;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/ll$a;->description:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/LLclz$a;->description:Ljava/lang/String;
 
     iget v1, v1, Lcom/tencent/mm/app/plugin/voicereminder/a/e;->anP:I
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
@@ -180,7 +180,7 @@
     move-result-object v1
 
     :cond_1
-    iget-wide v4, v2, Lcom/tencent/mm/d/b/ba;->field_createTime:J
+    iget-wide v4, v2, Lcom/tencent/mm/d/b/BAclz;->field_createTime:J
 
     invoke-virtual {v0, v3, v1, v4, v5}, Lcom/tencent/mm/app/plugin/voicereminder/a/d;->a(Ljava/lang/String;Ljava/lang/String;J)V
 

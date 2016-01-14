@@ -44,7 +44,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -75,7 +75,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -155,7 +155,7 @@
 
     const-string/jumbo v1, "reflesh"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 110
     :try_start_0
@@ -198,7 +198,7 @@
 
     const-string/jumbo v1, "hideCustomBtn"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 143
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
@@ -246,7 +246,7 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 158
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
@@ -362,7 +362,7 @@
 
     const-string/jumbo v1, "onDestroy"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 64
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
@@ -374,7 +374,7 @@
 
     const-string/jumbo v1, "ui clear"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 66
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
@@ -407,23 +407,23 @@
 
     const-string/jumbo v2, "SmileyPanelManager destroy remove listener."
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
 
     move-result-object v1
 
-    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->cYw:Lcom/tencent/mm/sdk/g/g$a;
+    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->cYw:Lcom/tencent/mm/sdk/g/Gclz$a;
 
-    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/h$f;->d(Lcom/tencent/mm/sdk/g/g$a;)V
+    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/h$f;->d(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 
     invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
 
     move-result-object v1
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->cYx:Lcom/tencent/mm/sdk/g/g$a;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->cYx:Lcom/tencent/mm/sdk/g/Gclz$a;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/pluginsdk/h$f;->b(Lcom/tencent/mm/sdk/g/g$a;)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/pluginsdk/h$f;->b(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 
     .line 67
     iput-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
@@ -439,7 +439,7 @@
 
     const-string/jumbo v1, "stg clear"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 72
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
@@ -560,7 +560,7 @@
 
     const-string/jumbo v1, "onPause"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 59
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
@@ -586,7 +586,7 @@
 
     const-string/jumbo v1, "onResume"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 48
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
@@ -733,7 +733,7 @@
 
     invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/d;->aLK()V
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibR:Lcom/tencent/mm/sdk/c/c;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibR:Lcom/tencent/mm/sdk/c/Cclz;
 
     if-nez v1, :cond_0
 
@@ -741,22 +741,22 @@
 
     invoke-direct {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/d$1;-><init>(Lcom/tencent/mm/pluginsdk/ui/simley/d;)V
 
-    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibR:Lcom/tencent/mm/sdk/c/c;
+    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibR:Lcom/tencent/mm/sdk/c/Cclz;
 
     :cond_0
     const-string/jumbo v1, "!64@/B4Tb64lLpIUhDmLVZ6YSfFgXjzkEDm0SGvdmwO2++pwePLUH2P5VYxhCHoAe2LT"
 
     const-string/jumbo v2, "add succeed send listener"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v2, "SucceedUploadEmotion"
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibR:Lcom/tencent/mm/sdk/c/c;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibR:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 213
     return-void
@@ -794,7 +794,7 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 174
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
@@ -891,7 +891,7 @@
 
     const-string/jumbo v3, "initView begin"
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz p0, :cond_0
 
@@ -909,7 +909,7 @@
 
     const-string/jumbo v1, "already load view --- pass"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 205
     :cond_0
@@ -1127,7 +1127,7 @@
 
     const-string/jumbo v1, "Smiley Panel Manager is null."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -1150,7 +1150,7 @@
 
     const-string/jumbo v1, "Smiley PanelStg Manager is null."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 .end method
@@ -1184,7 +1184,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 151
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;

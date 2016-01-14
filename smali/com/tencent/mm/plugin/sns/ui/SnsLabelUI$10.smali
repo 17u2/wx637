@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -245,7 +245,7 @@
     .line 563
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI$10;->gzs:Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;->p(Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;->p(Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
@@ -253,11 +253,11 @@
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI$10;->gzs:Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;->p(Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;->p(Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/o;->isShowing()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Oclz;->isShowing()Z
 
     move-result v0
 
@@ -266,11 +266,11 @@
     .line 565
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI$10;->gzs:Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;->p(Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;->p(Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/o;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Oclz;->dismiss()V
 
     .line 567
     :cond_3

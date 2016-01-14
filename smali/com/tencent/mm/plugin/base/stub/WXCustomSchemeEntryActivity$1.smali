@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -88,7 +88,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 170
     iget-object v0, p0, Lcom/tencent/mm/plugin/base/stub/WXCustomSchemeEntryActivity$1;->csM:Landroid/app/ProgressDialog;
@@ -116,14 +116,14 @@
 
     if-eqz p2, :cond_1
 
-    instance-of v0, p4, Lcom/tencent/mm/modelsimple/ag;
+    instance-of v0, p4, Lcom/tencent/mm/modelsimple/AGclz;
 
     if-eqz v0, :cond_1
 
     .line 174
-    check-cast p4, Lcom/tencent/mm/modelsimple/ag;
+    check-cast p4, Lcom/tencent/mm/modelsimple/AGclz;
 
-    invoke-virtual {p4}, Lcom/tencent/mm/modelsimple/ag;->Ca()Lcom/tencent/mm/protocal/b/arh;
+    invoke-virtual {p4}, Lcom/tencent/mm/modelsimple/AGclz;->Ca()Lcom/tencent/mm/protocal/b/arh;
 
     move-result-object v0
 
@@ -165,7 +165,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/arh;->iXy:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -177,7 +177,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0, v5}, Lcom/tencent/mm/ui/base/r;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+    invoke-static {v1, v0, v5}, Lcom/tencent/mm/ui/base/Rclz;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     move-result-object v0
 

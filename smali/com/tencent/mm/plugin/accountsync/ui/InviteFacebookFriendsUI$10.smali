@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,11 +50,11 @@
     const/4 v1, 0x1
 
     .line 258
-    new-instance v3, Lcom/tencent/mm/ui/d/a/c;
+    new-instance v3, Lcom/tencent/mm/ui/d/a/Cclz;
 
     const-string/jumbo v0, "290293790992170"
 
-    invoke-direct {v3, v0}, Lcom/tencent/mm/ui/d/a/c;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v0}, Lcom/tencent/mm/ui/d/a/Cclz;-><init>(Ljava/lang/String;)V
 
     .line 259
     new-instance v4, Landroid/os/Bundle;
@@ -166,7 +166,7 @@
 
     invoke-direct {v6, p0, v5}, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$10$1;-><init>(Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$10;[J)V
 
-    invoke-virtual {v3, v0, v2, v4, v6}, Lcom/tencent/mm/ui/d/a/c;->a(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;Lcom/tencent/mm/ui/d/a/c$a;)V
+    invoke-virtual {v3, v0, v2, v4, v6}, Lcom/tencent/mm/ui/d/a/Cclz;->a(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;Lcom/tencent/mm/ui/d/a/Cclz$a;)V
 
     .line 329
     return v1

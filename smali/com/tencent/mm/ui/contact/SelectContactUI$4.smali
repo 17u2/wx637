@@ -34,7 +34,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/sdk/c/b;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/sdk/c/Bclz;)V
     .locals 11
 
     .prologue
@@ -53,17 +53,17 @@
     const/4 v2, 0x0
 
     .line 717
-    instance-of v0, p4, Lcom/tencent/mm/d/a/fo;
+    instance-of v0, p4, Lcom/tencent/mm/d/a/FOclz;
 
     if-eqz v0, :cond_0
 
     .line 718
-    check-cast p4, Lcom/tencent/mm/d/a/fo;
+    check-cast p4, Lcom/tencent/mm/d/a/FOclz;
 
     .line 719
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/SelectContactUI$4;->kuh:Lcom/tencent/mm/ui/contact/SelectContactUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/contact/SelectContactUI;->e(Lcom/tencent/mm/ui/contact/SelectContactUI;)Lcom/tencent/mm/d/a/fo;
+    invoke-static {v0}, Lcom/tencent/mm/ui/contact/SelectContactUI;->e(Lcom/tencent/mm/ui/contact/SelectContactUI;)Lcom/tencent/mm/d/a/FOclz;
 
     move-result-object v0
 
@@ -102,7 +102,7 @@
     :cond_2
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/SelectContactUI$4;->kuh:Lcom/tencent/mm/ui/contact/SelectContactUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/contact/SelectContactUI;->g(Lcom/tencent/mm/ui/contact/SelectContactUI;)Lcom/tencent/mm/d/a/fo;
+    invoke-static {v0}, Lcom/tencent/mm/ui/contact/SelectContactUI;->g(Lcom/tencent/mm/ui/contact/SelectContactUI;)Lcom/tencent/mm/d/a/FOclz;
 
     .line 727
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/SelectContactUI$4;->kuh:Lcom/tencent/mm/ui/contact/SelectContactUI;
@@ -112,16 +112,16 @@
     .line 728
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/SelectContactUI$4;->kuh:Lcom/tencent/mm/ui/contact/SelectContactUI;
 
-    iget-object v1, p4, Lcom/tencent/mm/d/a/fo;->azM:Lcom/tencent/mm/d/a/fo$b;
+    iget-object v1, p4, Lcom/tencent/mm/d/a/FOclz;->azM:Lcom/tencent/mm/d/a/FOclz$b;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/fo$b;->azQ:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/FOclz$b;->azQ:Ljava/lang/String;
 
     invoke-static {v0, v1}, Lcom/tencent/mm/ui/contact/SelectContactUI;->a(Lcom/tencent/mm/ui/contact/SelectContactUI;Ljava/lang/String;)Ljava/lang/String;
 
     .line 729
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/SelectContactUI$4;->kuh:Lcom/tencent/mm/ui/contact/SelectContactUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->bd(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->bd(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -132,7 +132,7 @@
 
     const/4 v1, 0x4
 
-    invoke-static {v0, p1, p2, p3, v1}, Lcom/tencent/mm/ui/m$a;->b(Landroid/content/Context;IILjava/lang/String;I)Z
+    invoke-static {v0, p1, p2, p3, v1}, Lcom/tencent/mm/ui/Mclz$a;->b(Landroid/content/Context;IILjava/lang/String;I)Z
 
     move-result v0
 
@@ -149,7 +149,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -161,7 +161,7 @@
 
     const-string/jumbo v0, ""
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v3
 
@@ -192,13 +192,13 @@
     move-result-object v0
 
     :cond_4
-    iget-object v4, p4, Lcom/tencent/mm/d/a/fo;->azM:Lcom/tencent/mm/d/a/fo$b;
+    iget-object v4, p4, Lcom/tencent/mm/d/a/FOclz;->azM:Lcom/tencent/mm/d/a/FOclz$b;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/fo$b;->azU:Ljava/util/List;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/FOclz$b;->azU:Ljava/util/List;
 
-    iget-object v5, p4, Lcom/tencent/mm/d/a/fo;->azM:Lcom/tencent/mm/d/a/fo$b;
+    iget-object v5, p4, Lcom/tencent/mm/d/a/FOclz;->azM:Lcom/tencent/mm/d/a/FOclz$b;
 
-    iget-object v5, v5, Lcom/tencent/mm/d/a/fo$b;->azS:Ljava/util/List;
+    iget-object v5, v5, Lcom/tencent/mm/d/a/FOclz$b;->azS:Ljava/util/List;
 
     if-eqz v4, :cond_7
 
@@ -212,9 +212,9 @@
 
     move-result v6
 
-    iget-object v7, p4, Lcom/tencent/mm/d/a/fo;->azM:Lcom/tencent/mm/d/a/fo$b;
+    iget-object v7, p4, Lcom/tencent/mm/d/a/FOclz;->azM:Lcom/tencent/mm/d/a/FOclz$b;
 
-    iget v7, v7, Lcom/tencent/mm/d/a/fo$b;->azP:I
+    iget v7, v7, Lcom/tencent/mm/d/a/FOclz$b;->azP:I
 
     if-eq v6, v7, :cond_5
 
@@ -226,9 +226,9 @@
 
     if-lez v6, :cond_7
 
-    iget-object v6, p4, Lcom/tencent/mm/d/a/fo;->azM:Lcom/tencent/mm/d/a/fo$b;
+    iget-object v6, p4, Lcom/tencent/mm/d/a/FOclz;->azM:Lcom/tencent/mm/d/a/FOclz$b;
 
-    iget v6, v6, Lcom/tencent/mm/d/a/fo$b;->azP:I
+    iget v6, v6, Lcom/tencent/mm/d/a/FOclz$b;->azP:I
 
     invoke-interface {v4}, Ljava/util/List;->size()I
 
@@ -274,9 +274,9 @@
     goto/16 :goto_0
 
     :cond_7
-    iget-object v4, p4, Lcom/tencent/mm/d/a/fo;->azM:Lcom/tencent/mm/d/a/fo$b;
+    iget-object v4, p4, Lcom/tencent/mm/d/a/FOclz;->azM:Lcom/tencent/mm/d/a/FOclz$b;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/fo$b;->azS:Ljava/util/List;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/FOclz$b;->azS:Ljava/util/List;
 
     if-eqz v4, :cond_8
 
@@ -286,9 +286,9 @@
 
     if-lez v5, :cond_8
 
-    iget-object v5, p4, Lcom/tencent/mm/d/a/fo;->azM:Lcom/tencent/mm/d/a/fo$b;
+    iget-object v5, p4, Lcom/tencent/mm/d/a/FOclz;->azM:Lcom/tencent/mm/d/a/FOclz$b;
 
-    iget v5, v5, Lcom/tencent/mm/d/a/fo$b;->azP:I
+    iget v5, v5, Lcom/tencent/mm/d/a/FOclz$b;->azP:I
 
     invoke-interface {v4}, Ljava/util/List;->size()I
 
@@ -320,7 +320,7 @@
 
     move-result-object v4
 
-    invoke-static {v4, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -339,9 +339,9 @@
     move-result-object v0
 
     :cond_8
-    iget-object v4, p4, Lcom/tencent/mm/d/a/fo;->azM:Lcom/tencent/mm/d/a/fo$b;
+    iget-object v4, p4, Lcom/tencent/mm/d/a/FOclz;->azM:Lcom/tencent/mm/d/a/FOclz$b;
 
-    iget-object v4, v4, Lcom/tencent/mm/d/a/fo$b;->azR:Ljava/util/List;
+    iget-object v4, v4, Lcom/tencent/mm/d/a/FOclz$b;->azR:Ljava/util/List;
 
     if-eqz v4, :cond_9
 
@@ -375,7 +375,7 @@
 
     move-result-object v4
 
-    invoke-static {v4, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v4, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -404,7 +404,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/contact/SelectContactUI$4;->kuh:Lcom/tencent/mm/ui/contact/SelectContactUI;
 
-    invoke-static {v2, v0, v1, v9}, Lcom/tencent/mm/ui/base/f;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v2, v0, v1, v9}, Lcom/tencent/mm/ui/base/Fclz;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)Lcom/tencent/mm/ui/base/Gclz;
 
     goto/16 :goto_0
 
@@ -451,9 +451,9 @@
 
     move-result-object v0
 
-    iget-object v1, p4, Lcom/tencent/mm/d/a/fo;->azM:Lcom/tencent/mm/d/a/fo$b;
+    iget-object v1, p4, Lcom/tencent/mm/d/a/FOclz;->azM:Lcom/tencent/mm/d/a/FOclz$b;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/fo$b;->azV:Ljava/util/List;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/FOclz$b;->azV:Ljava/util/List;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/contact/SelectContactUI$4;->kuh:Lcom/tencent/mm/ui/contact/SelectContactUI;
 
@@ -468,9 +468,9 @@
     invoke-static {v0, v1, v3, v2, v4}, Lcom/tencent/mm/model/APclz;->a(Ljava/lang/String;Ljava/util/List;Ljava/lang/String;ZLjava/lang/String;)V
 
     .line 741
-    iget-object v0, p4, Lcom/tencent/mm/d/a/fo;->azM:Lcom/tencent/mm/d/a/fo$b;
+    iget-object v0, p4, Lcom/tencent/mm/d/a/FOclz;->azM:Lcom/tencent/mm/d/a/FOclz$b;
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/fo$b;->azU:Ljava/util/List;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/FOclz$b;->azU:Ljava/util/List;
 
     .line 742
     if-eqz v1, :cond_d
@@ -567,7 +567,7 @@
 
     aput-object v3, v1, v2
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->h([Ljava/lang/String;)Ljava/util/List;
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->h([Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v1
 

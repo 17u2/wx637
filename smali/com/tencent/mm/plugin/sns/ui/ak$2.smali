@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -88,7 +88,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/ak/r;->aZ(Landroid/content/Context;)Z
+    invoke-static {v1}, Lcom/tencent/mm/ak/Rclz;->aZ(Landroid/content/Context;)Z
 
     move-result v1
 
@@ -100,7 +100,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/ad/a;->aL(Landroid/content/Context;)Z
+    invoke-static {v1}, Lcom/tencent/mm/ad/Aclz;->aL(Landroid/content/Context;)Z
 
     move-result v1
 

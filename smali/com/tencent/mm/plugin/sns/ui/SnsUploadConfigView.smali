@@ -4,8 +4,8 @@
 
 # interfaces
 .implements Lcom/tencent/mm/q/Dclz;
-.implements Lcom/tencent/mm/ui/h/a$a;
-.implements Lcom/tencent/mm/ui/h/a$b;
+.implements Lcom/tencent/mm/ui/h/Aclz$a;
+.implements Lcom/tencent/mm/ui/h/Aclz$b;
 
 
 # annotations
@@ -45,7 +45,7 @@
 
 .field gFj:Lcom/tencent/mm/protocal/b/aak;
 
-.field gFk:Lcom/tencent/mm/ui/h/a;
+.field gFk:Lcom/tencent/mm/ui/h/Aclz;
 
 .field private gFl:Landroid/app/ProgressDialog;
 
@@ -64,7 +64,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -112,11 +112,11 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;->gFj:Lcom/tencent/mm/protocal/b/aak;
 
     .line 62
-    new-instance v0, Lcom/tencent/mm/ui/h/a;
+    new-instance v0, Lcom/tencent/mm/ui/h/Aclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/ui/h/a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/ui/h/Aclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;->gFk:Lcom/tencent/mm/ui/h/a;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;->gFk:Lcom/tencent/mm/ui/h/Aclz;
 
     .line 64
     const/4 v0, 0x0
@@ -129,7 +129,7 @@
     .line 76
     iput-object p1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;->context:Landroid/content/Context;
 
-    invoke-static {p1}, Lcom/tencent/mm/ui/o;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {p1}, Lcom/tencent/mm/ui/Oclz;->dO(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v0
 
@@ -169,7 +169,7 @@
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;->gFc:Landroid/widget/ImageView;
 
-    invoke-static {}, Lcom/tencent/mm/aa/b;->Ap()Z
+    invoke-static {}, Lcom/tencent/mm/aa/Bclz;->Ap()Z
 
     move-result v0
 
@@ -180,7 +180,7 @@
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/aa/b;->At()Z
+    invoke-static {}, Lcom/tencent/mm/aa/Bclz;->At()Z
 
     move-result v0
 
@@ -231,7 +231,7 @@
 
     if-nez v0, :cond_3
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_3
     return-void
@@ -371,12 +371,12 @@
     return-object v0
 .end method
 
-.method static synthetic j(Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;)Lcom/tencent/mm/ui/h/a;
+.method static synthetic j(Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;)Lcom/tencent/mm/ui/h/Aclz;
     .locals 1
 
     .prologue
     .line 42
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;->gFk:Lcom/tencent/mm/ui/h/a;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;->gFk:Lcom/tencent/mm/ui/h/Aclz;
 
     return-object v0
 .end method
@@ -392,7 +392,7 @@
 
     const-string/jumbo v1, "dealWithRefreshTokenFail"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-boolean v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;->gFe:Z
 
@@ -428,7 +428,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v2, v1, v0, v3, v4}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v2, v1, v0, v3, v4}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     :cond_0
     iput-boolean v5, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;->gFe:Z
@@ -457,7 +457,7 @@
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$5;-><init>(Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;)V
 
-    invoke-static {v0, p1, v1, v2, v3}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0, p1, v1, v2, v3}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     .line 542
     return-void
@@ -481,7 +481,7 @@
     return-void
 .end method
 
-.method public final a(Lcom/tencent/mm/ui/h/a$c;)V
+.method public final a(Lcom/tencent/mm/ui/h/Aclz$c;)V
     .locals 3
 
     .prologue
@@ -501,7 +501,7 @@
     :cond_0
     sget-object v0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$6;->gFo:[I
 
-    invoke-virtual {p1}, Lcom/tencent/mm/ui/h/a$c;->ordinal()I
+    invoke-virtual {p1}, Lcom/tencent/mm/ui/h/Aclz$c;->ordinal()I
 
     move-result v1
 
@@ -630,7 +630,7 @@
 
     check-cast v0, Ljava/lang/Integer;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->d(Ljava/lang/Integer;)I
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->d(Ljava/lang/Integer;)I
 
     move-result v0
 
@@ -652,7 +652,7 @@
 
     invoke-direct {v5, p0}, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$10;-><init>(Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;)V
 
-    invoke-static {v0, v2, v3, v4, v5}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0, v2, v3, v4, v5}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     :cond_0
     move v0, v1
@@ -708,9 +708,9 @@
     if-eqz v0, :cond_2
 
     .line 269
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;->gFk:Lcom/tencent/mm/ui/h/a;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;->gFk:Lcom/tencent/mm/ui/h/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/h/a;->bcp()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/h/Aclz;->bcp()Z
 
     move-result v0
 
@@ -732,7 +732,7 @@
 
     invoke-direct {v5, p0}, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$14;-><init>(Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;)V
 
-    invoke-static {v0, v2, v3, v4, v5}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0, v2, v3, v4, v5}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     move v0, v1
 
@@ -773,14 +773,14 @@
     goto :goto_1
 .end method
 
-.method public final b(Lcom/tencent/mm/ui/h/a$c;)V
+.method public final b(Lcom/tencent/mm/ui/h/Aclz$c;)V
     .locals 2
 
     .prologue
     .line 577
     sget-object v0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$6;->gFo:[I
 
-    invoke-virtual {p1}, Lcom/tencent/mm/ui/h/a$c;->ordinal()I
+    invoke-virtual {p1}, Lcom/tencent/mm/ui/h/Aclz$c;->ordinal()I
 
     move-result v1
 
@@ -884,9 +884,9 @@
 
     .prologue
     .line 354
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;->gFk:Lcom/tencent/mm/ui/h/a;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;->gFk:Lcom/tencent/mm/ui/h/Aclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/h/a;->kIM:Lb/a/d/iclass;
+    iget-object v0, v0, Lcom/tencent/mm/ui/h/Aclz;->kIM:Lb/a/d/iclass;
 
     return-object v0
 .end method
@@ -943,7 +943,7 @@
 
     invoke-direct {v5, p0}, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$12;-><init>(Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;)V
 
-    invoke-static {v0, v2, v3, v4, v5}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0, v2, v3, v4, v5}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     move v0, v1
 
@@ -978,23 +978,23 @@
 
     if-eqz v0, :cond_2
 
-    new-instance v0, Lcom/tencent/mm/d/a/da;
+    new-instance v0, Lcom/tencent/mm/d/a/DAclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/da;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/DAclz;-><init>()V
 
     new-instance v1, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$2;
 
-    invoke-direct {v1, p0, v0}, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$2;-><init>(Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;Lcom/tencent/mm/d/a/da;)V
+    invoke-direct {v1, p0, v0}, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$2;-><init>(Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;Lcom/tencent/mm/d/a/DAclz;)V
 
-    iput-object v1, v0, Lcom/tencent/mm/d/a/da;->fZu:Ljava/lang/Runnable;
+    iput-object v1, v0, Lcom/tencent/mm/d/a/DAclz;->fZu:Ljava/lang/Runnable;
 
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object v2
 
-    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/sdk/c/a;->a(Lcom/tencent/mm/sdk/c/b;Landroid/os/Looper;)V
+    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/sdk/c/Aclz;->a(Lcom/tencent/mm/sdk/c/Bclz;Landroid/os/Looper;)V
 
     .line 261
     :cond_2

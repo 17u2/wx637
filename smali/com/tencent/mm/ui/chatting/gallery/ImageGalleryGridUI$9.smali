@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,7 +56,7 @@
 
     const-string/jumbo v1, "delete message"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 625
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI$9;->knS:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI;
@@ -65,7 +65,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI$9;->knS:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI;
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/ui/chatting/r;->a(Landroid/content/Context;Ljava/util/Set;Lcom/tencent/mm/ui/chatting/di;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/ui/chatting/Rclz;->a(Landroid/content/Context;Ljava/util/Set;Lcom/tencent/mm/ui/chatting/DIclz;)V
 
     .line 626
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI$9;->knS:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI;

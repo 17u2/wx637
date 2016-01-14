@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,11 +48,11 @@
 
     .prologue
     .line 88
-    new-instance v0, Lcom/tencent/mm/ui/d/a/c;
+    new-instance v0, Lcom/tencent/mm/ui/d/a/Cclz;
 
     const-string/jumbo v1, "290293790992170"
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/ui/d/a/c;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/ui/d/a/Cclz;-><init>(Ljava/lang/String;)V
 
     .line 89
     new-instance v1, Landroid/os/Bundle;
@@ -96,7 +96,7 @@
 
     invoke-direct {v4, p0}, Lcom/tencent/mm/ui/account/ShowNonWeixinFriendUI$2$1;-><init>(Lcom/tencent/mm/ui/account/ShowNonWeixinFriendUI$2;)V
 
-    invoke-virtual {v0, v2, v3, v1, v4}, Lcom/tencent/mm/ui/d/a/c;->a(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;Lcom/tencent/mm/ui/d/a/c$a;)V
+    invoke-virtual {v0, v2, v3, v1, v4}, Lcom/tencent/mm/ui/d/a/Cclz;->a(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;Lcom/tencent/mm/ui/d/a/Cclz$a;)V
 
     .line 125
     return-void

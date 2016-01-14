@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic fyg:Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI;
 
-.field final synthetic fyh:Lcom/tencent/mm/modelsimple/s;
+.field final synthetic fyh:Lcom/tencent/mm/modelsimple/Sclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI;Lcom/tencent/mm/modelsimple/s;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI;Lcom/tencent/mm/modelsimple/Sclz;)V
     .locals 1
 
     .prologue
     .line 86
     iput-object p1, p0, Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI$3;->fyg:Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI$3;->fyh:Lcom/tencent/mm/modelsimple/s;
+    iput-object p2, p0, Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI$3;->fyh:Lcom/tencent/mm/modelsimple/Sclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI$3;->fyh:Lcom/tencent/mm/modelsimple/s;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/safedevice/ui/MySafeDeviceListUI$3;->fyh:Lcom/tencent/mm/modelsimple/Sclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 

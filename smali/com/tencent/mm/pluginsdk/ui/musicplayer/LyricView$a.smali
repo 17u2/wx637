@@ -46,7 +46,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -92,7 +92,7 @@
     .line 67
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$a;->hXN:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
 
-    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->a(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->a(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v2
 
@@ -101,11 +101,11 @@
     .line 68
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$a;->hXN:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->a(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->a(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0, v7, v8}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v0, p0, v7, v8}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     .line 74
     :goto_0
@@ -136,7 +136,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$a;->hXN:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
 
-    invoke-static {v5}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->a(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v5}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->a(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v5
 
@@ -151,7 +151,7 @@
 
     aput-object v0, v4, v1
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 .end method

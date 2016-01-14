@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public ggA:Lcom/tencent/mm/sdk/c/c;
+.field public ggA:Lcom/tencent/mm/sdk/c/Cclz;
 
 
 # direct methods
@@ -23,16 +23,16 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/sns/c/a$1;-><init>(Lcom/tencent/mm/plugin/sns/c/a;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/c/a;->ggA:Lcom/tencent/mm/sdk/c/c;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/c/a;->ggA:Lcom/tencent/mm/sdk/c/Cclz;
 
     .line 24
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "SnsImageDownloaded"
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/sns/c/a;->ggA:Lcom/tencent/mm/sdk/c/c;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/sns/c/a;->ggA:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 25
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->ats()Lcom/tencent/mm/plugin/sns/d/b;
@@ -46,7 +46,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -95,24 +95,24 @@
 
     aput-object p1, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 69
-    new-instance v0, Lcom/tencent/mm/d/a/jn;
+    new-instance v0, Lcom/tencent/mm/d/a/JNclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/jn;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/JNclz;-><init>()V
 
     .line 70
-    iget-object v1, v0, Lcom/tencent/mm/d/a/jn;->aEE:Lcom/tencent/mm/d/a/jn$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/JNclz;->aEE:Lcom/tencent/mm/d/a/JNclz$a;
 
     const/4 v2, 0x2
 
-    iput v2, v1, Lcom/tencent/mm/d/a/jn$a;->asK:I
+    iput v2, v1, Lcom/tencent/mm/d/a/JNclz$a;->asK:I
 
     .line 71
-    iget-object v1, v0, Lcom/tencent/mm/d/a/jn;->aEE:Lcom/tencent/mm/d/a/jn$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/JNclz;->aEE:Lcom/tencent/mm/d/a/JNclz$a;
 
-    iput-object p1, v1, Lcom/tencent/mm/d/a/jn$a;->mediaId:Ljava/lang/String;
+    iput-object p1, v1, Lcom/tencent/mm/d/a/JNclz$a;->mediaId:Ljava/lang/String;
 
     .line 72
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atj()Ljava/lang/String;
@@ -124,7 +124,7 @@
     move-result-object v1
 
     .line 73
-    iget-object v2, v0, Lcom/tencent/mm/d/a/jn;->aEE:Lcom/tencent/mm/d/a/jn$a;
+    iget-object v2, v0, Lcom/tencent/mm/d/a/JNclz;->aEE:Lcom/tencent/mm/d/a/JNclz$a;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -146,12 +146,12 @@
 
     move-result-object v1
 
-    iput-object v1, v2, Lcom/tencent/mm/d/a/jn$a;->path:Ljava/lang/String;
+    iput-object v1, v2, Lcom/tencent/mm/d/a/JNclz$a;->path:Ljava/lang/String;
 
     .line 74
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 75
     return-void

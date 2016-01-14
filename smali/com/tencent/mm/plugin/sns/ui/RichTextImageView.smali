@@ -91,7 +91,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -225,7 +225,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 101
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/RichTextImageView;->grN:Landroid/widget/TextView;
@@ -372,7 +372,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 136
     const-string/jumbo v2, "test"
@@ -397,7 +397,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 140
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/RichTextImageView;->guS:Landroid/widget/TextView;
@@ -421,15 +421,15 @@
     iput-boolean v1, p0, Lcom/tencent/mm/plugin/sns/ui/RichTextImageView;->guT:Z
 
     .line 145
-    new-instance v1, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v1, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>()V
 
     new-instance v2, Lcom/tencent/mm/plugin/sns/ui/RichTextImageView$1;
 
     invoke-direct {v2, p0, v0}, Lcom/tencent/mm/plugin/sns/ui/RichTextImageView$1;-><init>(Lcom/tencent/mm/plugin/sns/ui/RichTextImageView;I)V
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 161
     :cond_4
@@ -465,7 +465,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 .end method

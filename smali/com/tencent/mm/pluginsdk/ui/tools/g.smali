@@ -18,13 +18,13 @@
 # instance fields
 .field public bDU:[B
 
-.field bJo:Lcom/tencent/mm/sdk/platformtools/ab;
+.field bJo:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field volatile ifn:Z
 
 .field private ifo:Landroid/os/HandlerThread;
 
-.field private ifp:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private ifp:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field public ifq:Ljava/util/HashMap;
 
@@ -40,7 +40,7 @@
 
 .field private ifw:Z
 
-.field private ifx:Lcom/tencent/mm/platformtools/k$a;
+.field private ifx:Lcom/tencent/mm/platformtools/Kclz$a;
 
 
 # direct methods
@@ -71,7 +71,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/pluginsdk/ui/tools/g$6;-><init>(Lcom/tencent/mm/pluginsdk/ui/tools/g;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g;->ifx:Lcom/tencent/mm/platformtools/k$a;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g;->ifx:Lcom/tencent/mm/platformtools/Kclz$a;
 
     .line 64
     new-instance v0, Ljava/util/HashMap;
@@ -106,7 +106,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/h/e;->BC(Ljava/lang/String;)Landroid/os/HandlerThread;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/h/Eclz;->BC(Ljava/lang/String;)Landroid/os/HandlerThread;
 
     move-result-object v0
 
@@ -118,7 +118,7 @@
     invoke-virtual {v0}, Landroid/os/HandlerThread;->start()V
 
     .line 68
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g;->ifo:Landroid/os/HandlerThread;
 
@@ -126,20 +126,20 @@
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g;->ifp:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g;->ifp:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 69
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g;->bJo:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g;->bJo:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 70
     new-instance v0, Lcom/tencent/mm/pluginsdk/ui/tools/g$1;
@@ -180,16 +180,16 @@
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g;->ifs:Lcom/tencent/mm/pluginsdk/ui/tools/g$c;
 
     .line 98
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g;->ifx:Lcom/tencent/mm/platformtools/k$a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g;->ifx:Lcom/tencent/mm/platformtools/Kclz$a;
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/k;->b(Lcom/tencent/mm/platformtools/k$a;)Z
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Kclz;->b(Lcom/tencent/mm/platformtools/Kclz$a;)Z
 
     .line 99
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -227,7 +227,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p2}, Lcom/tencent/mm/compatible/f/a;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
+    invoke-static {v0, p2}, Lcom/tencent/mm/compatible/f/Aclz;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -254,7 +254,7 @@
 
     const-string/jumbo v1, "null"
 
-    invoke-static {p0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -270,7 +270,7 @@
 
     const-string/jumbo v1, "null"
 
-    invoke-static {p1, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -335,7 +335,7 @@
 
     const-string/jumbo v1, "on attach, isQuit, return"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -348,7 +348,7 @@
 
     const-string/jumbo v1, "attach from file path fail, imageview is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -361,7 +361,7 @@
     if-gtz v0, :cond_4
 
     :cond_3
-    invoke-static {p3}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -372,7 +372,7 @@
 
     const-string/jumbo v1, "attach from file path fail, path and url are null or empty"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 640
     invoke-direct {p0, p1, p4}, Lcom/tencent/mm/pluginsdk/ui/tools/g;->a(Landroid/widget/ImageView;I)V
@@ -479,7 +479,7 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 662
     if-eqz p2, :cond_9
@@ -534,7 +534,7 @@
 
     aput-object v3, v8, v2
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 668
     if-eqz v0, :cond_c
@@ -553,7 +553,7 @@
 
     const-string/jumbo v1, "use default res to render"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 677
     invoke-direct {p0, p1, p4}, Lcom/tencent/mm/pluginsdk/ui/tools/g;->a(Landroid/widget/ImageView;I)V
@@ -600,9 +600,9 @@
     invoke-static {v0, p6}, Lcom/tencent/mm/pluginsdk/ui/tools/g$b;->b(Lcom/tencent/mm/pluginsdk/ui/tools/g$b;I)I
 
     .line 691
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g;->ifp:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g;->ifp:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/platformtools/ab;->postAtFrontOfQueueV2(Ljava/lang/Runnable;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postAtFrontOfQueueV2(Ljava/lang/Runnable;)Z
 
     goto/16 :goto_0
 
@@ -632,7 +632,7 @@
     throw v0
 .end method
 
-.method public b(Ljava/lang/String;Ljava/lang/String;II)Lcom/tencent/mm/platformtools/j;
+.method public b(Ljava/lang/String;Ljava/lang/String;II)Lcom/tencent/mm/platformtools/Jclz;
     .locals 1
 
     .prologue
@@ -651,7 +651,7 @@
 
     const-string/jumbo v1, "do destory"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 113
     const/4 v0, 0x1
@@ -664,9 +664,9 @@
     invoke-virtual {v0}, Landroid/os/HandlerThread;->quit()Z
 
     .line 115
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g;->ifx:Lcom/tencent/mm/platformtools/k$a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g;->ifx:Lcom/tencent/mm/platformtools/Kclz$a;
 
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/k;->c(Lcom/tencent/mm/platformtools/k$a;)Z
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Kclz;->c(Lcom/tencent/mm/platformtools/Kclz$a;)Z
 
     .line 116
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/g;->ift:Landroid/util/SparseArray;
@@ -711,7 +711,7 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/h/e;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/h/Eclz;->a(Ljava/lang/Runnable;Ljava/lang/String;)V
 
     .line 145
     return-void

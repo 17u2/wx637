@@ -13,7 +13,7 @@
 
 
 # instance fields
-.field private aoL:Lcom/tencent/mm/ui/base/g;
+.field private aoL:Lcom/tencent/mm/ui/base/Gclz;
 
 .field private jCQ:Ljava/lang/String;
 
@@ -66,25 +66,25 @@
     iput-object v1, p0, Lcom/tencent/mm/ui/applet/SecurityImage;->jIR:Landroid/widget/EditText;
 
     .line 34
-    iput-object v1, p0, Lcom/tencent/mm/ui/applet/SecurityImage;->aoL:Lcom/tencent/mm/ui/base/g;
+    iput-object v1, p0, Lcom/tencent/mm/ui/applet/SecurityImage;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
     .line 57
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/applet/SecurityImage;Lcom/tencent/mm/ui/base/g;)Lcom/tencent/mm/ui/base/g;
+.method static synthetic a(Lcom/tencent/mm/ui/applet/SecurityImage;Lcom/tencent/mm/ui/base/Gclz;)Lcom/tencent/mm/ui/base/Gclz;
     .locals 0
 
     .prologue
     .line 24
-    iput-object p1, p0, Lcom/tencent/mm/ui/applet/SecurityImage;->aoL:Lcom/tencent/mm/ui/base/g;
+    iput-object p1, p0, Lcom/tencent/mm/ui/applet/SecurityImage;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
     return-object p1
 .end method
@@ -111,12 +111,12 @@
     return-object v0
 .end method
 
-.method static synthetic c(Lcom/tencent/mm/ui/applet/SecurityImage;)Lcom/tencent/mm/ui/base/g;
+.method static synthetic c(Lcom/tencent/mm/ui/applet/SecurityImage;)Lcom/tencent/mm/ui/base/Gclz;
     .locals 1
 
     .prologue
     .line 24
-    iget-object v0, p0, Lcom/tencent/mm/ui/applet/SecurityImage;->aoL:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/applet/SecurityImage;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
     return-object v0
 .end method
@@ -197,7 +197,7 @@
 
     iput p1, p0, Lcom/tencent/mm/ui/applet/SecurityImage;->jCT:I
 
-    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/d;->aM([B)Landroid/graphics/Bitmap;
+    invoke-static {p2}, Lcom/tencent/mm/sdk/platformtools/Dclz;->aM([B)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -245,7 +245,7 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     iput-object p3, p0, Lcom/tencent/mm/ui/applet/SecurityImage;->jCQ:Ljava/lang/String;
 
@@ -269,7 +269,7 @@
 
     const-string/jumbo v1, "setSecImg failed, decode failed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -295,7 +295,7 @@
 
     aput-object v0, v3, v6
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -310,19 +310,19 @@
 
     .prologue
     .line 133
-    iget-object v0, p0, Lcom/tencent/mm/ui/applet/SecurityImage;->aoL:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/applet/SecurityImage;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
     if-eqz v0, :cond_0
 
     .line 134
-    iget-object v0, p0, Lcom/tencent/mm/ui/applet/SecurityImage;->aoL:Lcom/tencent/mm/ui/base/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/applet/SecurityImage;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->dismiss()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->dismiss()V
 
     .line 135
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/applet/SecurityImage;->aoL:Lcom/tencent/mm/ui/base/g;
+    iput-object v0, p0, Lcom/tencent/mm/ui/applet/SecurityImage;->aoL:Lcom/tencent/mm/ui/base/Gclz;
 
     .line 137
     :cond_0

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/ui/friend/i$a;
+.implements Lcom/tencent/mm/ui/friend/Iclz$a;
 
 
 # annotations
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -82,24 +82,24 @@
     if-nez v0, :cond_0
 
     .line 267
-    new-instance v0, Lcom/tencent/mm/d/a/lc;
+    new-instance v0, Lcom/tencent/mm/d/a/LCclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/lc;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/LCclz;-><init>()V
 
     .line 268
-    iget-object v1, v0, Lcom/tencent/mm/d/a/lc;->aGf:Lcom/tencent/mm/d/a/lc$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/LCclz;->aGf:Lcom/tencent/mm/d/a/LCclz$a;
 
-    iput-boolean v3, v1, Lcom/tencent/mm/d/a/lc$a;->aGg:Z
+    iput-boolean v3, v1, Lcom/tencent/mm/d/a/LCclz$a;->aGg:Z
 
     .line 269
-    iget-object v1, v0, Lcom/tencent/mm/d/a/lc;->aGf:Lcom/tencent/mm/d/a/lc$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/LCclz;->aGf:Lcom/tencent/mm/d/a/LCclz$a;
 
-    iput-boolean v3, v1, Lcom/tencent/mm/d/a/lc$a;->aGh:Z
+    iput-boolean v3, v1, Lcom/tencent/mm/d/a/LCclz$a;->aGh:Z
 
     .line 270
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 273
     :cond_0
@@ -150,7 +150,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/base/f;->aS(Landroid/content/Context;Ljava/lang/String;)Landroid/widget/Toast;
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/base/Fclz;->aS(Landroid/content/Context;Ljava/lang/String;)Landroid/widget/Toast;
 
     .line 281
     iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactUI$6;->jXx:Lcom/tencent/mm/ui/bindmobile/BindMContactUI;

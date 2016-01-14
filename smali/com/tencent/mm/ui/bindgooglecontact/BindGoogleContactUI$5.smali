@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,7 +50,7 @@
     .line 378
     iget-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/BindGoogleContactUI$5;->jVL:Lcom/tencent/mm/ui/bindgooglecontact/BindGoogleContactUI;
 
-    sget v1, Lcom/tencent/mm/y/a;->bHJ:I
+    sget v1, Lcom/tencent/mm/y/Aclz;->bHJ:I
 
     invoke-static {v0, v1}, Lcom/tencent/mm/ui/bindgooglecontact/BindGoogleContactUI;->a(Lcom/tencent/mm/ui/bindgooglecontact/BindGoogleContactUI;I)V
 

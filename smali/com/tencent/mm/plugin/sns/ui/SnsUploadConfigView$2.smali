@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic gFm:Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;
 
-.field final synthetic gFn:Lcom/tencent/mm/d/a/da;
+.field final synthetic gFn:Lcom/tencent/mm/d/a/DAclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;Lcom/tencent/mm/d/a/da;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;Lcom/tencent/mm/d/a/DAclz;)V
     .locals 1
 
     .prologue
     .line 490
     iput-object p1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$2;->gFm:Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;
 
-    iput-object p2, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$2;->gFn:Lcom/tencent/mm/d/a/da;
+    iput-object p2, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$2;->gFn:Lcom/tencent/mm/d/a/DAclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,11 +52,11 @@
 
     .prologue
     .line 494
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$2;->gFn:Lcom/tencent/mm/d/a/da;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$2;->gFn:Lcom/tencent/mm/d/a/DAclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/da;->awq:Lcom/tencent/mm/d/a/da$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/DAclz;->awq:Lcom/tencent/mm/d/a/DAclz$b;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/d/a/da$b;->asS:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/d/a/DAclz$b;->asS:Z
 
     if-nez v0, :cond_0
 

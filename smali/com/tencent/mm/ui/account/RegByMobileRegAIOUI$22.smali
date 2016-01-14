@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private ekJ:Lcom/tencent/mm/sdk/platformtools/aj;
+.field private ekJ:Lcom/tencent/mm/sdk/platformtools/AJclz;
 
 .field final synthetic jDY:Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI;
 
@@ -34,17 +34,17 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 410
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/aj;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AJclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/aj;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/AJclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI$22;->ekJ:Lcom/tencent/mm/sdk/platformtools/aj;
+    iput-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileRegAIOUI$22;->ekJ:Lcom/tencent/mm/sdk/platformtools/AJclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

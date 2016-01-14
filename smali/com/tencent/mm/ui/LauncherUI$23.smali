@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -69,7 +69,7 @@
 
     const-string/jumbo v1, "Account not Ready!!!"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 669
     :goto_0
@@ -79,7 +79,7 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$23;->jwy:Lcom/tencent/mm/ui/LauncherUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/Cclz;
 
     move-result-object v0
 
@@ -90,7 +90,7 @@
 
     const-string/jumbo v1, "set tag job, but tab view is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -106,7 +106,7 @@
 
     const-string/jumbo v2, "getFindTabUnreadCount, but mmcore not ready"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     move v2, v1
 
@@ -114,37 +114,37 @@
     :goto_1
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$23;->jwy:Lcom/tencent/mm/ui/LauncherUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/Cclz;
 
     move-result-object v0
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/c;->gi(Z)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/Cclz;->gi(Z)V
 
     .line 582
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$23;->jwy:Lcom/tencent/mm/ui/LauncherUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/Cclz;
 
     move-result-object v0
 
-    invoke-interface {v0, v2}, Lcom/tencent/mm/ui/c;->pg(I)V
+    invoke-interface {v0, v2}, Lcom/tencent/mm/ui/Cclz;->pg(I)V
 
     .line 583
     if-gtz v2, :cond_2
 
     .line 584
-    invoke-static {}, Lcom/tencent/mm/am/a;->aHw()Z
+    invoke-static {}, Lcom/tencent/mm/am/Aclz;->aHw()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
     .line 585
-    invoke-static {}, Lcom/tencent/mm/aj/l;->CV()Lcom/tencent/mm/aj/i;
+    invoke-static {}, Lcom/tencent/mm/aj/Lclz;->CV()Lcom/tencent/mm/aj/Iclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/aj/i;->CN()I
+    invoke-virtual {v0}, Lcom/tencent/mm/aj/Iclz;->CN()I
 
     move-result v0
 
@@ -153,11 +153,11 @@
     .line 586
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$23;->jwy:Lcom/tencent/mm/ui/LauncherUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/Cclz;
 
     move-result-object v0
 
-    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/c;->gi(Z)V
+    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/Cclz;->gi(Z)V
 
     .line 590
     :cond_2
@@ -187,7 +187,7 @@
 
     check-cast v0, Ljava/lang/Boolean;
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/platformtools/t;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v0, v3}, Lcom/tencent/mm/platformtools/Tclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v0
 
@@ -211,7 +211,7 @@
     check-cast v0, Ljava/lang/String;
 
     .line 594
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/t;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Tclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -220,11 +220,11 @@
     .line 596
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$23;->jwy:Lcom/tencent/mm/ui/LauncherUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/Cclz;
 
     move-result-object v0
 
-    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/c;->gi(Z)V
+    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/Cclz;->gi(Z)V
 
     goto/16 :goto_0
 
@@ -253,17 +253,17 @@
 
     if-nez v2, :cond_12
 
-    invoke-static {}, Lcom/tencent/mm/am/a;->aHw()Z
+    invoke-static {}, Lcom/tencent/mm/am/Aclz;->aHw()Z
 
     move-result v2
 
     if-nez v2, :cond_12
 
-    invoke-static {}, Lcom/tencent/mm/aj/l;->CV()Lcom/tencent/mm/aj/i;
+    invoke-static {}, Lcom/tencent/mm/aj/Lclz;->CV()Lcom/tencent/mm/aj/Iclz;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/tencent/mm/aj/i;->CN()I
+    invoke-virtual {v2}, Lcom/tencent/mm/aj/Iclz;->CN()I
 
     move-result v2
 
@@ -278,13 +278,13 @@
 
     if-nez v4, :cond_5
 
-    invoke-static {}, Lcom/tencent/mm/aj/l;->CW()Lcom/tencent/mm/aj/k;
+    invoke-static {}, Lcom/tencent/mm/aj/Lclz;->CW()Lcom/tencent/mm/aj/Kclz;
 
     move-result-object v4
 
     if-eqz v4, :cond_4
 
-    invoke-virtual {v4}, Lcom/tencent/mm/aj/k;->CN()I
+    invoke-virtual {v4}, Lcom/tencent/mm/aj/Kclz;->CN()I
 
     move-result v4
 
@@ -334,35 +334,35 @@
     if-gtz v2, :cond_9
 
     .line 602
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v0
 
     const-string/jumbo v2, "JDEntranceConfigName"
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 603
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v2
 
     const-string/jumbo v4, "JDEntranceConfigIconUrl"
 
-    invoke-virtual {v2, v4}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v4}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     .line 604
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v4
 
     const-string/jumbo v5, "JDEntranceConfigJumpUrl"
 
-    invoke-virtual {v4, v5}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v4, v5}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -403,22 +403,22 @@
 
     move-result-object v6
 
-    invoke-static {v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 606
-    invoke-static {v0}, Lcom/tencent/mm/platformtools/t;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/platformtools/Tclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_9
 
-    invoke-static {v2}, Lcom/tencent/mm/platformtools/t;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/platformtools/Tclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_9
 
-    invoke-static {v4}, Lcom/tencent/mm/platformtools/t;->jY(Ljava/lang/String;)Z
+    invoke-static {v4}, Lcom/tencent/mm/platformtools/Tclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -452,7 +452,7 @@
 
     move-result-object v5
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 611
     if-eqz v2, :cond_9
@@ -472,11 +472,11 @@
     .line 614
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$23;->jwy:Lcom/tencent/mm/ui/LauncherUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/Cclz;
 
     move-result-object v0
 
-    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/c;->gi(Z)V
+    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/Cclz;->gi(Z)V
 
     goto/16 :goto_0
 
@@ -486,7 +486,7 @@
 
     const-string/jumbo v2, "jd time isExpire"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 625
     :cond_9
@@ -519,11 +519,11 @@
     .line 626
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$23;->jwy:Lcom/tencent/mm/ui/LauncherUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/Cclz;
 
     move-result-object v0
 
-    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/c;->gi(Z)V
+    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/Cclz;->gi(Z)V
 
     .line 629
     :cond_a
@@ -545,7 +545,7 @@
 
     const-string/jumbo v2, ""
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/platformtools/t;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v2}, Lcom/tencent/mm/platformtools/Tclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -566,7 +566,7 @@
 
     check-cast v0, Ljava/lang/Boolean;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/platformtools/t;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v0, v1}, Lcom/tencent/mm/platformtools/Tclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v0
 
@@ -588,7 +588,7 @@
 
     if-eqz v0, :cond_b
 
-    invoke-static {v2}, Lcom/tencent/mm/platformtools/t;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/platformtools/Tclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -626,11 +626,11 @@
     .line 634
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$23;->jwy:Lcom/tencent/mm/ui/LauncherUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/Cclz;
 
     move-result-object v0
 
-    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/c;->gi(Z)V
+    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/Cclz;->gi(Z)V
 
     .line 644
     :cond_b
@@ -660,17 +660,17 @@
 
     .line 651
     :goto_5
-    invoke-static {}, Lcom/tencent/mm/g/h;->pS()Lcom/tencent/mm/g/e;
+    invoke-static {}, Lcom/tencent/mm/g/Hclz;->pS()Lcom/tencent/mm/g/Eclz;
 
     move-result-object v0
 
     const-string/jumbo v4, "VoiceprintEntry"
 
-    invoke-virtual {v0, v4}, Lcom/tencent/mm/g/e;->getValue(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v4}, Lcom/tencent/mm/g/Eclz;->getValue(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/bc;->getInt(Ljava/lang/String;I)I
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->getInt(Ljava/lang/String;I)I
 
     move-result v0
 
@@ -712,16 +712,16 @@
 
     const-string/jumbo v2, "show voiceprint dot"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 656
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$23;->jwy:Lcom/tencent/mm/ui/LauncherUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/Cclz;
 
     move-result-object v0
 
-    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/c;->gj(Z)V
+    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/Cclz;->gj(Z)V
 
     .line 659
     :cond_c
@@ -791,11 +791,11 @@
     .line 662
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$23;->jwy:Lcom/tencent/mm/ui/LauncherUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/Cclz;
 
     move-result-object v0
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/c;->gi(Z)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/ui/Cclz;->gi(Z)V
 
     .line 668
     :cond_d
@@ -844,11 +844,11 @@
     :cond_f
     iget-object v0, p0, Lcom/tencent/mm/ui/LauncherUI$23;->jwy:Lcom/tencent/mm/ui/LauncherUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/LauncherUI;->a(Lcom/tencent/mm/ui/LauncherUI;)Lcom/tencent/mm/ui/Cclz;
 
     move-result-object v0
 
-    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/c;->gi(Z)V
+    invoke-interface {v0, v3}, Lcom/tencent/mm/ui/Cclz;->gi(Z)V
 
     goto :goto_7
 

@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -72,7 +72,7 @@
 
     const-wide/32 v2, 0xa4cb80
 
-    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/String;Ljava/lang/String;J)V
+    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/String;Ljava/lang/String;J)V
 
     goto :goto_0
 .end method

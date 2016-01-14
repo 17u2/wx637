@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/app/ToolsProfile;
-.super Lcom/tencent/mm/compatible/loader/h;
+.super Lcom/tencent/mm/compatible/loader/Hclz;
 .source "SourceFile"
 
 
@@ -21,7 +21,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getPackageName()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getPackageName()Ljava/lang/String;
 
     move-result-object v1
 
@@ -50,7 +50,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -61,13 +61,13 @@
 
     .prologue
     .line 25
-    invoke-direct {p0}, Lcom/tencent/mm/compatible/loader/h;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/compatible/loader/Hclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -165,7 +165,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 102
     sget-object v1, Lcom/tencent/mm/app/ToolsProfile;->locale:Ljava/util/Locale;
@@ -181,7 +181,7 @@
 
     const-string/jumbo v1, "language changed, restart process"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 104
     const/4 v0, -0x1
@@ -218,7 +218,7 @@
     .line 36
     const-string/jumbo v3, "stlport_shared"
 
-    invoke-static {v3, v2}, Lcom/tencent/mm/compatible/util/i;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
+    invoke-static {v3, v2}, Lcom/tencent/mm/compatible/util/Iclz;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
 
     .line 38
     iget-object v3, p0, Lcom/tencent/mm/app/ToolsProfile;->bnh:Landroid/app/Application;
@@ -232,7 +232,7 @@
     move-result-object v3
 
     .line 41
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v4
 
@@ -241,10 +241,10 @@
     .line 43
     sget-object v4, Lcom/tencent/mm/app/ToolsProfile;->akQ:Ljava/lang/String;
 
-    invoke-static {v4}, Lcom/tencent/mm/app/g;->aN(Ljava/lang/String;)Z
+    invoke-static {v4}, Lcom/tencent/mm/app/Gclz;->aN(Ljava/lang/String;)Z
 
     .line 47
-    invoke-static {}, Lcom/tencent/mm/compatible/util/i;->setupBrokenLibraryHandler()V
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Iclz;->setupBrokenLibraryHandler()V
 
     .line 49
     invoke-static {}, Lcom/tencent/mm/xlog/Xlog;->init()V
@@ -252,30 +252,30 @@
     .line 50
     const-string/jumbo v4, "kkdb"
 
-    invoke-static {v4, v2}, Lcom/tencent/mm/compatible/util/i;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
+    invoke-static {v4, v2}, Lcom/tencent/mm/compatible/util/Iclz;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
 
     .line 51
     const-string/jumbo v4, "wechatcommon"
 
-    invoke-static {v4, v2}, Lcom/tencent/mm/compatible/util/i;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
+    invoke-static {v4, v2}, Lcom/tencent/mm/compatible/util/Iclz;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
 
     .line 52
     const-string/jumbo v4, "wechatImgTools"
 
-    invoke-static {v4, v2}, Lcom/tencent/mm/compatible/util/i;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
+    invoke-static {v4, v2}, Lcom/tencent/mm/compatible/util/Iclz;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
 
     .line 66
     const-string/jumbo v4, "FFmpeg"
 
-    invoke-static {v4, v2}, Lcom/tencent/mm/compatible/util/i;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
+    invoke-static {v4, v2}, Lcom/tencent/mm/compatible/util/Iclz;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
 
     .line 67
     const-string/jumbo v4, "wechatpack"
 
-    invoke-static {v4, v2}, Lcom/tencent/mm/compatible/util/i;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
+    invoke-static {v4, v2}, Lcom/tencent/mm/compatible/util/Iclz;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
 
     .line 68
-    invoke-static {}, Lcom/tencent/mm/compatible/d/l;->om()S
+    invoke-static {}, Lcom/tencent/mm/compatible/d/Lclz;->om()S
 
     move-result v4
 
@@ -299,12 +299,12 @@
 
     aput-object v8, v7, v9
 
-    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 71
     const-string/jumbo v5, "wechatsight_v7a"
 
-    invoke-static {v5, v2}, Lcom/tencent/mm/compatible/util/i;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
+    invoke-static {v5, v2}, Lcom/tencent/mm/compatible/util/Iclz;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
 
     .line 72
     shr-int/lit8 v2, v4, 0xc
@@ -341,11 +341,11 @@
 
     move-result-object v2
 
-    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v2
 
-    sput-boolean v2, Lcom/tencent/mm/platformtools/r;->cdW:Z
+    sput-boolean v2, Lcom/tencent/mm/platformtools/Rclz;->cdW:Z
 
     const-string/jumbo v2, ".com.tencent.mm.debug.test.display_msgstate"
 
@@ -353,11 +353,11 @@
 
     move-result-object v2
 
-    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v2
 
-    sput-boolean v2, Lcom/tencent/mm/platformtools/r;->cdX:Z
+    sput-boolean v2, Lcom/tencent/mm/platformtools/Rclz;->cdX:Z
 
     const-string/jumbo v2, ".com.tencent.mm.debug.test.network.simulate_fault"
 
@@ -365,11 +365,11 @@
 
     move-result-object v2
 
-    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v2
 
-    sput-boolean v2, Lcom/tencent/mm/platformtools/r;->cdY:Z
+    sput-boolean v2, Lcom/tencent/mm/platformtools/Rclz;->cdY:Z
 
     const-string/jumbo v2, ".com.tencent.mm.debug.test.network.force_touch"
 
@@ -377,11 +377,11 @@
 
     move-result-object v2
 
-    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v2
 
-    sput-boolean v2, Lcom/tencent/mm/platformtools/r;->cdZ:Z
+    sput-boolean v2, Lcom/tencent/mm/platformtools/Rclz;->cdZ:Z
 
     const-string/jumbo v2, ".com.tencent.mm.debug.test.outputToSdCardlog"
 
@@ -389,11 +389,11 @@
 
     move-result-object v2
 
-    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v2
 
-    sput-boolean v2, Lcom/tencent/mm/platformtools/r;->cea:Z
+    sput-boolean v2, Lcom/tencent/mm/platformtools/Rclz;->cea:Z
 
     const-string/jumbo v2, ".com.tencent.mm.debug.test.crashIsExit"
 
@@ -401,11 +401,11 @@
 
     move-result-object v2
 
-    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v2
 
-    sput-boolean v2, Lcom/tencent/mm/platformtools/r;->ceb:Z
+    sput-boolean v2, Lcom/tencent/mm/platformtools/Rclz;->ceb:Z
 
     const-string/jumbo v2, ".com.tencent.mm.debug.test.album_show_info"
 
@@ -413,11 +413,11 @@
 
     move-result-object v2
 
-    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v2
 
-    sput-boolean v2, Lcom/tencent/mm/platformtools/r;->cef:Z
+    sput-boolean v2, Lcom/tencent/mm/platformtools/Rclz;->cef:Z
 
     const-string/jumbo v2, ".com.tencent.mm.debug.test.location_help"
 
@@ -425,11 +425,11 @@
 
     move-result-object v2
 
-    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v2
 
-    sput-boolean v2, Lcom/tencent/mm/platformtools/r;->ceg:Z
+    sput-boolean v2, Lcom/tencent/mm/platformtools/Rclz;->ceg:Z
 
     const-string/jumbo v2, ".com.tencent.mm.debug.test.force_soso"
 
@@ -437,11 +437,11 @@
 
     move-result-object v2
 
-    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v2
 
-    sput-boolean v2, Lcom/tencent/mm/platformtools/r;->cej:Z
+    sput-boolean v2, Lcom/tencent/mm/platformtools/Rclz;->cej:Z
 
     const-string/jumbo v2, ".com.tencent.mm.debug.test.simulatePostServerError"
 
@@ -449,11 +449,11 @@
 
     move-result-object v2
 
-    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v2
 
-    sput-boolean v2, Lcom/tencent/mm/platformtools/r;->cek:Z
+    sput-boolean v2, Lcom/tencent/mm/platformtools/Rclz;->cek:Z
 
     const-string/jumbo v2, ".com.tencent.mm.debug.test.simulateUploadServerError"
 
@@ -461,11 +461,11 @@
 
     move-result-object v2
 
-    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v2
 
-    sput-boolean v2, Lcom/tencent/mm/platformtools/r;->cel:Z
+    sput-boolean v2, Lcom/tencent/mm/platformtools/Rclz;->cel:Z
 
     const-string/jumbo v2, ".com.tencent.mm.debug.test.snsNotwirteThumb"
 
@@ -473,11 +473,11 @@
 
     move-result-object v2
 
-    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v2
 
-    sput-boolean v2, Lcom/tencent/mm/platformtools/r;->cem:Z
+    sput-boolean v2, Lcom/tencent/mm/platformtools/Rclz;->cem:Z
 
     const-string/jumbo v2, ".com.tencent.mm.debug.test.filterfpnp"
 
@@ -485,11 +485,11 @@
 
     move-result-object v2
 
-    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v2
 
-    sput-boolean v2, Lcom/tencent/mm/platformtools/r;->cep:Z
+    sput-boolean v2, Lcom/tencent/mm/platformtools/Rclz;->cep:Z
 
     const-string/jumbo v2, ".com.tencent.mm.debug.test.testForPull"
 
@@ -497,11 +497,11 @@
 
     move-result-object v2
 
-    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v2
 
-    sput-boolean v2, Lcom/tencent/mm/platformtools/r;->ceq:Z
+    sput-boolean v2, Lcom/tencent/mm/platformtools/Rclz;->ceq:Z
 
     const-string/jumbo v2, ".com.tencent.mm.debug.test.cdnDownloadThread"
 
@@ -509,19 +509,19 @@
 
     move-result-object v2
 
-    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Integer;I)I
+    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Integer;I)I
 
     move-result v2
 
-    sput v2, Lcom/tencent/mm/platformtools/r;->cen:I
+    sput v2, Lcom/tencent/mm/platformtools/Rclz;->cen:I
 
     if-eq v2, v11, :cond_0
 
-    sget v2, Lcom/tencent/mm/platformtools/r;->cen:I
+    sget v2, Lcom/tencent/mm/platformtools/Rclz;->cen:I
 
     if-lez v2, :cond_0
 
-    sget v2, Lcom/tencent/mm/platformtools/r;->cen:I
+    sget v2, Lcom/tencent/mm/platformtools/Rclz;->cen:I
 
     sput v2, Lcom/tencent/mm/storage/Iclz;->jkS:I
 
@@ -533,7 +533,7 @@
 
     invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    sget v5, Lcom/tencent/mm/platformtools/r;->cen:I
+    sget v5, Lcom/tencent/mm/platformtools/Rclz;->cen:I
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -543,7 +543,7 @@
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     const-string/jumbo v2, ".com.tencent.mm.debug.test.logShowSnsItemXml"
@@ -552,11 +552,11 @@
 
     move-result-object v2
 
-    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v2
 
-    sput-boolean v2, Lcom/tencent/mm/platformtools/r;->ceo:Z
+    sput-boolean v2, Lcom/tencent/mm/platformtools/Rclz;->ceo:Z
 
     :try_start_0
     const-string/jumbo v2, ".com.tencent.mm.debug.log.setversion"
@@ -597,7 +597,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -637,7 +637,7 @@
 
     sput-object v2, Lcom/tencent/mm/protocal/bclass;->ihm:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/b/b;->Aq(Ljava/lang/String;)V
+    invoke-static {v2}, Lcom/tencent/mm/sdk/b/Bclz;->Aq(Ljava/lang/String;)V
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -657,7 +657,7 @@
 
     move-result-object v2
 
-    invoke-static {}, Lcom/tencent/mm/sdk/b/b;->aNK()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/b/Bclz;->aNK()Ljava/lang/String;
 
     move-result-object v4
 
@@ -738,7 +738,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v2
 
@@ -750,7 +750,7 @@
 
     const/4 v5, 0x0
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v4
 
@@ -762,7 +762,7 @@
 
     const/4 v6, 0x0
 
-    invoke-static {v5, v6}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v5, v6}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v5
 
@@ -774,7 +774,7 @@
 
     const/4 v7, 0x0
 
-    invoke-static {v6, v7}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v6, v7}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v6
 
@@ -835,11 +835,11 @@
 
     const-string/jumbo v4, ""
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    sput-object v2, Lcom/tencent/mm/platformtools/r;->ceD:Ljava/lang/String;
+    sput-object v2, Lcom/tencent/mm/platformtools/Rclz;->ceD:Ljava/lang/String;
 
     const-string/jumbo v2, "!32@/B4Tb64lLpKDiUa1siRPtt5j20lPwojX"
 
@@ -849,7 +849,7 @@
 
     invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    sget-object v5, Lcom/tencent/mm/platformtools/r;->ceD:Ljava/lang/String;
+    sget-object v5, Lcom/tencent/mm/platformtools/Rclz;->ceD:Ljava/lang/String;
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -859,7 +859,7 @@
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string/jumbo v2, ".com.tencent.mm.debug.generalcontrol.permission"
 
@@ -869,11 +869,11 @@
 
     const-string/jumbo v4, ""
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/bc;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ac(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    sput-object v2, Lcom/tencent/mm/platformtools/r;->ceE:Ljava/lang/String;
+    sput-object v2, Lcom/tencent/mm/platformtools/Rclz;->ceE:Ljava/lang/String;
 
     const-string/jumbo v2, "!32@/B4Tb64lLpKDiUa1siRPtt5j20lPwojX"
 
@@ -883,7 +883,7 @@
 
     invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    sget-object v5, Lcom/tencent/mm/platformtools/r;->ceE:Ljava/lang/String;
+    sget-object v5, Lcom/tencent/mm/platformtools/Rclz;->ceE:Ljava/lang/String;
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -893,7 +893,7 @@
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string/jumbo v2, ".com.tencent.mm.debug.skiploadurlcheck"
 
@@ -901,11 +901,11 @@
 
     move-result-object v2
 
-    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v2
 
-    sput-boolean v2, Lcom/tencent/mm/platformtools/r;->ceF:Z
+    sput-boolean v2, Lcom/tencent/mm/platformtools/Rclz;->ceF:Z
 
     const-string/jumbo v2, "!32@/B4Tb64lLpKDiUa1siRPtt5j20lPwojX"
 
@@ -915,7 +915,7 @@
 
     invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    sget-boolean v5, Lcom/tencent/mm/platformtools/r;->ceF:Z
+    sget-boolean v5, Lcom/tencent/mm/platformtools/Rclz;->ceF:Z
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
@@ -925,7 +925,7 @@
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string/jumbo v2, ".com.tencent.mm.debug.forcex5webview"
 
@@ -933,11 +933,11 @@
 
     move-result-object v2
 
-    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/bc;->a(Ljava/lang/Boolean;Z)Z
+    invoke-static {v2, v9}, Lcom/tencent/mm/sdk/platformtools/BCclz;->a(Ljava/lang/Boolean;Z)Z
 
     move-result v2
 
-    sput-boolean v2, Lcom/tencent/mm/platformtools/r;->ceG:Z
+    sput-boolean v2, Lcom/tencent/mm/platformtools/Rclz;->ceG:Z
 
     const-string/jumbo v2, "!32@/B4Tb64lLpKDiUa1siRPtt5j20lPwojX"
 
@@ -947,7 +947,7 @@
 
     invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    sget-boolean v4, Lcom/tencent/mm/platformtools/r;->ceG:Z
+    sget-boolean v4, Lcom/tencent/mm/platformtools/Rclz;->ceG:Z
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
@@ -957,12 +957,12 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 88
     const/16 v2, 0xe
 
-    invoke-static {v2}, Lcom/tencent/mm/compatible/util/c;->bV(I)Z
+    invoke-static {v2}, Lcom/tencent/mm/compatible/util/Cclz;->bV(I)Z
 
     move-result v2
 
@@ -1010,7 +1010,7 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 96
     return-void
@@ -1027,12 +1027,12 @@
 
     const-string/jumbo v5, "load wechatsight"
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 79
     const-string/jumbo v4, "wechatsight"
 
-    invoke-static {v4, v2}, Lcom/tencent/mm/compatible/util/i;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
+    invoke-static {v4, v2}, Lcom/tencent/mm/compatible/util/Iclz;->a(Ljava/lang/String;Ljava/lang/ClassLoader;)V
 
     .line 80
     sput v10, Lcom/tencent/mm/plugin/sight/base/a;->fVz:I
@@ -1047,7 +1047,7 @@
 
     const-string/jumbo v4, "no debugger was got"
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_1
 
@@ -1058,7 +1058,7 @@
 
     const-string/jumbo v4, "no debugger was got"
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_2
 
@@ -1069,7 +1069,7 @@
 
     const-string/jumbo v4, "no debugger was got"
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_3
 
@@ -1080,7 +1080,7 @@
 
     const-string/jumbo v4, "no debugger was got"
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_4
 
@@ -1091,7 +1091,7 @@
 
     const-string/jumbo v4, "no debugger was got"
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_5
 .end method

@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/search/ui/a/e$b;
-.super Lcom/tencent/mm/ui/e/a/a$b;
+.super Lcom/tencent/mm/ui/e/a/Aclz$b;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 41
     iput-object p1, p0, Lcom/tencent/mm/plugin/search/ui/a/e$b;->fLb:Lcom/tencent/mm/plugin/search/ui/a/e;
 
-    invoke-direct {p0, p1}, Lcom/tencent/mm/ui/e/a/a$b;-><init>(Lcom/tencent/mm/ui/e/a/a;)V
+    invoke-direct {p0, p1}, Lcom/tencent/mm/ui/e/a/Aclz$b;-><init>(Lcom/tencent/mm/ui/e/a/Aclz;)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -162,7 +162,7 @@
     return-object v2
 .end method
 
-.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/a$a;Lcom/tencent/mm/ui/e/a/a;)V
+.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/Aclz$a;Lcom/tencent/mm/ui/e/a/Aclz;)V
     .locals 2
 
     .prologue
@@ -189,27 +189,27 @@
 
     iget-object v1, p2, Lcom/tencent/mm/plugin/search/ui/a/e$a;->cyE:Landroid/widget/TextView;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/modelsearch/e;->b(Ljava/lang/CharSequence;Landroid/widget/TextView;)Z
+    invoke-static {v0, v1}, Lcom/tencent/mm/modelsearch/Eclz;->b(Ljava/lang/CharSequence;Landroid/widget/TextView;)Z
 
     .line 71
     iget-object v0, p3, Lcom/tencent/mm/plugin/search/ui/a/e;->fKX:Ljava/lang/CharSequence;
 
     iget-object v1, p2, Lcom/tencent/mm/plugin/search/ui/a/e$a;->dGY:Landroid/widget/TextView;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/modelsearch/e;->b(Ljava/lang/CharSequence;Landroid/widget/TextView;)Z
+    invoke-static {v0, v1}, Lcom/tencent/mm/modelsearch/Eclz;->b(Ljava/lang/CharSequence;Landroid/widget/TextView;)Z
 
     .line 72
     iget-object v0, p3, Lcom/tencent/mm/plugin/search/ui/a/e;->fKY:Ljava/lang/CharSequence;
 
     iget-object v1, p2, Lcom/tencent/mm/plugin/search/ui/a/e$a;->dGw:Landroid/widget/TextView;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/modelsearch/e;->b(Ljava/lang/CharSequence;Landroid/widget/TextView;)Z
+    invoke-static {v0, v1}, Lcom/tencent/mm/modelsearch/Eclz;->b(Ljava/lang/CharSequence;Landroid/widget/TextView;)Z
 
     .line 73
     return-void
 .end method
 
-.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/a;)Z
+.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/Aclz;)Z
     .locals 5
 
     .prologue
@@ -288,7 +288,7 @@
     .line 87
     const-string/jumbo v1, ".ui.conversation.BizChatConversationUI"
 
-    invoke-static {p1, v1, v0}, Lcom/tencent/mm/ao/c;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {p1, v1, v0}, Lcom/tencent/mm/ao/Cclz;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;)V
 
     goto :goto_0
 
@@ -320,9 +320,9 @@
 
     const-string/jumbo v1, "msg_local_id"
 
-    iget-object v2, p2, Lcom/tencent/mm/plugin/search/ui/a/e;->cFi:Lcom/tencent/mm/modelsearch/k$g;
+    iget-object v2, p2, Lcom/tencent/mm/plugin/search/ui/a/e;->cFi:Lcom/tencent/mm/modelsearch/Kclz$g;
 
-    iget-wide v2, v2, Lcom/tencent/mm/modelsearch/k$g;->bRE:J
+    iget-wide v2, v2, Lcom/tencent/mm/modelsearch/Kclz$g;->bRE:J
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
@@ -363,7 +363,7 @@
     .line 101
     const-string/jumbo v1, ".ui.conversation.BizChatConversationUI"
 
-    invoke-static {p1, v1, v0}, Lcom/tencent/mm/ao/c;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {p1, v1, v0}, Lcom/tencent/mm/ao/Cclz;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;)V
 
     goto :goto_0
 
@@ -385,7 +385,7 @@
 
     const-string/jumbo v1, "key_query"
 
-    iget-object v2, p2, Lcom/tencent/mm/ui/e/a/a;->aBw:Ljava/lang/String;
+    iget-object v2, p2, Lcom/tencent/mm/ui/e/a/Aclz;->aBw:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 

@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/ui/account/FacebookFriendUI$8;
-.super Lcom/tencent/mm/n/a;
+.super Lcom/tencent/mm/n/Aclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 228
     iput-object p1, p0, Lcom/tencent/mm/ui/account/FacebookFriendUI$8;->jBs:Lcom/tencent/mm/ui/account/FacebookFriendUI;
 
-    invoke-direct {p0}, Lcom/tencent/mm/n/a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/n/Aclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -45,7 +45,7 @@
 
     .prologue
     .line 232
-    invoke-super {p0, p1}, Lcom/tencent/mm/n/a;->g(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/tencent/mm/n/Aclz;->g(Landroid/os/Bundle;)V
 
     .line 233
     return-void
@@ -56,7 +56,7 @@
 
     .prologue
     .line 238
-    invoke-super {p0, p1, p2}, Lcom/tencent/mm/n/a;->onError(ILjava/lang/String;)V
+    invoke-super {p0, p1, p2}, Lcom/tencent/mm/n/Aclz;->onError(ILjava/lang/String;)V
 
     .line 239
     const/4 v0, 0x3

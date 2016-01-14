@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private cRs:Lcom/tencent/mm/ui/tools/q;
+.field private cRs:Lcom/tencent/mm/ui/tools/Qclz;
 
 .field private cge:Landroid/widget/ListView;
 
@@ -21,7 +21,7 @@
 
 .field private jG:I
 
-.field kzP:Lcom/tencent/mm/ui/friend/d;
+.field kzP:Lcom/tencent/mm/ui/friend/Dclz;
 
 
 # direct methods
@@ -49,7 +49,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -105,12 +105,12 @@
     return-object v0
 .end method
 
-.method static synthetic d(Lcom/tencent/mm/ui/friend/QQFriendUI;)Lcom/tencent/mm/ui/friend/d;
+.method static synthetic d(Lcom/tencent/mm/ui/friend/QQFriendUI;)Lcom/tencent/mm/ui/friend/Dclz;
     .locals 1
 
     .prologue
     .line 47
-    iget-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/d;
+    iget-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/Dclz;
 
     return-object v0
 .end method
@@ -153,25 +153,25 @@
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
     .line 133
-    new-instance v0, Lcom/tencent/mm/ui/tools/q;
+    new-instance v0, Lcom/tencent/mm/ui/tools/Qclz;
 
-    invoke-direct {v0, v1, v1}, Lcom/tencent/mm/ui/tools/q;-><init>(ZZ)V
+    invoke-direct {v0, v1, v1}, Lcom/tencent/mm/ui/tools/Qclz;-><init>(ZZ)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->cRs:Lcom/tencent/mm/ui/tools/q;
+    iput-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->cRs:Lcom/tencent/mm/ui/tools/Qclz;
 
     .line 134
-    iget-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->cRs:Lcom/tencent/mm/ui/tools/q;
+    iget-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->cRs:Lcom/tencent/mm/ui/tools/Qclz;
 
     new-instance v2, Lcom/tencent/mm/ui/friend/QQFriendUI$2;
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ui/friend/QQFriendUI$2;-><init>(Lcom/tencent/mm/ui/friend/QQFriendUI;)V
 
-    iput-object v2, v0, Lcom/tencent/mm/ui/tools/q;->kEP:Lcom/tencent/mm/ui/tools/q$b;
+    iput-object v2, v0, Lcom/tencent/mm/ui/tools/Qclz;->kEP:Lcom/tencent/mm/ui/tools/Qclz$b;
 
     .line 166
-    iget-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->cRs:Lcom/tencent/mm/ui/tools/q;
+    iget-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->cRs:Lcom/tencent/mm/ui/tools/Qclz;
 
-    invoke-virtual {p0, v0}, Lcom/tencent/mm/ui/friend/QQFriendUI;->a(Lcom/tencent/mm/ui/tools/q;)V
+    invoke-virtual {p0, v0}, Lcom/tencent/mm/ui/friend/QQFriendUI;->a(Lcom/tencent/mm/ui/tools/Qclz;)V
 
     .line 170
     invoke-static {}, Lcom/tencent/mm/model/a/Fclz;->uD()Lcom/tencent/mm/model/a/Bclz;
@@ -222,28 +222,28 @@
     if-nez v0, :cond_1
 
     .line 181
-    new-instance v0, Lcom/tencent/mm/ui/friend/e;
+    new-instance v0, Lcom/tencent/mm/ui/friend/Eclz;
 
     iget v1, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->jG:I
 
-    invoke-direct {v0, p0, v1}, Lcom/tencent/mm/ui/friend/e;-><init>(Lcom/tencent/mm/ui/MMActivity;I)V
+    invoke-direct {v0, p0, v1}, Lcom/tencent/mm/ui/friend/Eclz;-><init>(Lcom/tencent/mm/ui/MMActivity;I)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/d;
+    iput-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/Dclz;
 
     .line 185
     :goto_2
-    iget-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/d;
+    iget-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/Dclz;
 
     new-instance v1, Lcom/tencent/mm/ui/friend/QQFriendUI$3;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/friend/QQFriendUI$3;-><init>(Lcom/tencent/mm/ui/friend/QQFriendUI;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/friend/d;->a(Lcom/tencent/mm/ui/friend/d$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/friend/Dclz;->a(Lcom/tencent/mm/ui/friend/Dclz$a;)V
 
     .line 199
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->cge:Landroid/widget/ListView;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/d;
+    iget-object v1, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/Dclz;
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
@@ -257,13 +257,13 @@
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
     .line 266
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zf()Lcom/tencent/mm/modelfriend/ag;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zf()Lcom/tencent/mm/modelfriend/AGclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/d;
+    iget-object v1, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/Dclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelfriend/ag;->a(Lcom/tencent/mm/sdk/g/j$b;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelfriend/AGclz;->a(Lcom/tencent/mm/sdk/g/Jclz$b;)V
 
     .line 268
     new-instance v0, Lcom/tencent/mm/ui/friend/QQFriendUI$5;
@@ -297,13 +297,13 @@
 
     .line 183
     :cond_1
-    new-instance v0, Lcom/tencent/mm/ui/friend/f;
+    new-instance v0, Lcom/tencent/mm/ui/friend/Fclz;
 
     iget v1, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->jG:I
 
-    invoke-direct {v0, p0, v1}, Lcom/tencent/mm/ui/friend/f;-><init>(Lcom/tencent/mm/ui/MMActivity;I)V
+    invoke-direct {v0, p0, v1}, Lcom/tencent/mm/ui/friend/Fclz;-><init>(Lcom/tencent/mm/ui/MMActivity;I)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/d;
+    iput-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/Dclz;
 
     goto :goto_2
 
@@ -359,12 +359,12 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 298
-    check-cast p4, Lcom/tencent/mm/modelfriend/y;
+    check-cast p4, Lcom/tencent/mm/modelfriend/Yclz;
 
-    invoke-virtual {p4}, Lcom/tencent/mm/modelfriend/y;->yI()I
+    invoke-virtual {p4}, Lcom/tencent/mm/modelfriend/Yclz;->yI()I
 
     move-result v0
 
@@ -399,9 +399,9 @@
     if-nez p2, :cond_2
 
     .line 311
-    iget-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/d;
+    iget-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/Dclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/friend/d;->Fp()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/friend/Dclz;->Fp()V
 
     goto :goto_0
 
@@ -453,7 +453,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 292
     invoke-super {p0, p1}, Lcom/tencent/mm/ui/MMActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -507,7 +507,7 @@
     iput v1, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->jG:I
 
     .line 66
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zf()Lcom/tencent/mm/modelfriend/ag;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zf()Lcom/tencent/mm/modelfriend/AGclz;
 
     move-result-object v1
 
@@ -529,7 +529,7 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -545,26 +545,26 @@
 
     move-result-object v2
 
-    iget-object v1, v1, Lcom/tencent/mm/modelfriend/ag;->bvh:Lcom/tencent/mm/aw/g;
+    iget-object v1, v1, Lcom/tencent/mm/modelfriend/AGclz;->bvh:Lcom/tencent/mm/aw/Gclz;
 
     const-string/jumbo v3, "qqlist"
 
-    invoke-virtual {v1, v3, v2}, Lcom/tencent/mm/aw/g;->bX(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-virtual {v1, v3, v2}, Lcom/tencent/mm/aw/Gclz;->bX(Ljava/lang/String;Ljava/lang/String;)Z
 
     .line 67
     iget v1, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->jG:I
 
-    invoke-static {v1}, Lcom/tencent/mm/modelfriend/m;->dg(I)Z
+    invoke-static {v1}, Lcom/tencent/mm/modelfriend/Mclz;->dg(I)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    new-instance v1, Lcom/tencent/mm/modelfriend/y;
+    new-instance v1, Lcom/tencent/mm/modelfriend/Yclz;
 
     iget v2, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->jG:I
 
-    invoke-direct {v1, v6, v2}, Lcom/tencent/mm/modelfriend/y;-><init>(II)V
+    invoke-direct {v1, v6, v2}, Lcom/tencent/mm/modelfriend/Yclz;-><init>(II)V
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
@@ -572,9 +572,9 @@
 
     invoke-virtual {v2, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v2, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v2, v2, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     const v3, 0x7f090ad3
 
@@ -588,9 +588,9 @@
 
     new-instance v4, Lcom/tencent/mm/ui/friend/QQFriendUI$1;
 
-    invoke-direct {v4, p0, v1}, Lcom/tencent/mm/ui/friend/QQFriendUI$1;-><init>(Lcom/tencent/mm/ui/friend/QQFriendUI;Lcom/tencent/mm/modelfriend/y;)V
+    invoke-direct {v4, p0, v1}, Lcom/tencent/mm/ui/friend/QQFriendUI$1;-><init>(Lcom/tencent/mm/ui/friend/QQFriendUI;Lcom/tencent/mm/modelfriend/Yclz;)V
 
-    invoke-static {v2, v3, v6, v4}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {v2, v3, v6, v4}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v1
 
@@ -617,13 +617,13 @@
     invoke-static {v0}, Lcom/tencent/mm/model/a/Eclz;->fr(Ljava/lang/String;)V
 
     .line 102
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zf()Lcom/tencent/mm/modelfriend/ag;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zf()Lcom/tencent/mm/modelfriend/AGclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/d;
+    iget-object v1, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/Dclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelfriend/ag;->b(Lcom/tencent/mm/sdk/g/j$b;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelfriend/AGclz;->b(Lcom/tencent/mm/sdk/g/Jclz$b;)V
 
     .line 103
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -635,16 +635,16 @@
     invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 104
-    iget-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/d;
+    iget-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/Dclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/friend/d;->abc()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/friend/Dclz;->abc()V
 
     .line 105
-    invoke-static {}, Lcom/tencent/mm/p/n;->vh()Lcom/tencent/mm/p/c;
+    invoke-static {}, Lcom/tencent/mm/p/Nclz;->vh()Lcom/tencent/mm/p/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/p/c;->cancel()V
+    invoke-virtual {v0}, Lcom/tencent/mm/p/Cclz;->cancel()V
 
     .line 106
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onDestroy()V
@@ -662,7 +662,7 @@
 
     const-string/jumbo v1, "qq friend onKeyDown"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 125
     invoke-super {p0, p1, p2}, Lcom/tencent/mm/ui/MMActivity;->onKeyDown(ILandroid/view/KeyEvent;)Z
@@ -677,13 +677,13 @@
 
     .prologue
     .line 113
-    invoke-static {}, Lcom/tencent/mm/p/n;->uQ()Lcom/tencent/mm/p/d;
+    invoke-static {}, Lcom/tencent/mm/p/Nclz;->uQ()Lcom/tencent/mm/p/Dclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/d;
+    iget-object v1, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/Dclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/p/d;->e(Lcom/tencent/mm/p/d$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/p/Dclz;->e(Lcom/tencent/mm/p/Dclz$a;)V
 
     .line 114
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onPause()V
@@ -700,18 +700,18 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onResume()V
 
     .line 93
-    invoke-static {}, Lcom/tencent/mm/p/n;->uQ()Lcom/tencent/mm/p/d;
+    invoke-static {}, Lcom/tencent/mm/p/Nclz;->uQ()Lcom/tencent/mm/p/Dclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/d;
+    iget-object v1, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/Dclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/p/d;->d(Lcom/tencent/mm/p/d$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/p/Dclz;->d(Lcom/tencent/mm/p/Dclz$a;)V
 
     .line 94
-    iget-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/d;
+    iget-object v0, p0, Lcom/tencent/mm/ui/friend/QQFriendUI;->kzP:Lcom/tencent/mm/ui/friend/Dclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/friend/d;->notifyDataSetChanged()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/friend/Dclz;->notifyDataSetChanged()V
 
     .line 95
     return-void

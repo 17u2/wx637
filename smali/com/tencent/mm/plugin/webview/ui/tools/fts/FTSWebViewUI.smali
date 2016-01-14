@@ -15,7 +15,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -33,7 +33,7 @@
     .line 14
     iget v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/fts/FTSBaseWebViewUI;->arG:I
 
-    invoke-static {v0}, Lcom/tencent/mm/modelsearch/g;->dK(I)V
+    invoke-static {v0}, Lcom/tencent/mm/modelsearch/Gclz;->dK(I)V
 
     .line 15
     return-void
@@ -47,10 +47,10 @@
     invoke-super {p0}, Lcom/tencent/mm/plugin/webview/ui/tools/fts/FTSBaseWebViewUI;->onDestroy()V
 
     .line 32
-    invoke-static {}, Lcom/tencent/mm/modelsearch/g;->Bg()V
+    invoke-static {}, Lcom/tencent/mm/modelsearch/Gclz;->Bg()V
 
     .line 33
-    invoke-static {}, Lcom/tencent/mm/modelsearch/g;->Bh()V
+    invoke-static {}, Lcom/tencent/mm/modelsearch/Gclz;->Bh()V
 
     .line 34
     return-void
@@ -64,7 +64,7 @@
     invoke-super {p0}, Lcom/tencent/mm/plugin/webview/ui/tools/fts/FTSBaseWebViewUI;->onPause()V
 
     .line 26
-    invoke-static {}, Lcom/tencent/mm/modelsearch/g;->Bf()V
+    invoke-static {}, Lcom/tencent/mm/modelsearch/Gclz;->Bf()V
 
     .line 27
     return-void
@@ -78,7 +78,7 @@
     invoke-super {p0}, Lcom/tencent/mm/plugin/webview/ui/tools/fts/FTSBaseWebViewUI;->onResume()V
 
     .line 20
-    invoke-static {}, Lcom/tencent/mm/modelsearch/g;->Be()V
+    invoke-static {}, Lcom/tencent/mm/modelsearch/Gclz;->Be()V
 
     .line 21
     return-void

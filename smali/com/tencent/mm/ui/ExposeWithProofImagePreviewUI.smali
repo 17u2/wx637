@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private jtQ:Lcom/tencent/mm/ui/base/s;
+.field private jtQ:Lcom/tencent/mm/ui/base/Sclz;
 
 .field private jtR:Ljava/util/List;
 
@@ -20,7 +20,7 @@
     invoke-direct {p0}, Lcom/tencent/mm/ui/MMActivity;-><init>()V
 
     .line 20
-    iput-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofImagePreviewUI;->jtQ:Lcom/tencent/mm/ui/base/s;
+    iput-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofImagePreviewUI;->jtQ:Lcom/tencent/mm/ui/base/Sclz;
 
     .line 21
     iput-object v0, p0, Lcom/tencent/mm/ui/ExposeWithProofImagePreviewUI;->jtR:Ljava/util/List;
@@ -29,7 +29,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -91,10 +91,10 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/ExposeWithProofImagePreviewUI$1;-><init>(Lcom/tencent/mm/ui/ExposeWithProofImagePreviewUI;)V
 
-    iput-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofImagePreviewUI;->jtQ:Lcom/tencent/mm/ui/base/s;
+    iput-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofImagePreviewUI;->jtQ:Lcom/tencent/mm/ui/base/Sclz;
 
     .line 57
-    iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofImagePreviewUI;->jtQ:Lcom/tencent/mm/ui/base/s;
+    iget-object v1, p0, Lcom/tencent/mm/ui/ExposeWithProofImagePreviewUI;->jtQ:Lcom/tencent/mm/ui/base/Sclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/MMViewPager;->setAdapter(Landroid/support/v4/view/j;)V
 

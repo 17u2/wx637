@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,13 +48,13 @@
 
     .prologue
     .line 85
-    check-cast p1, Lcom/tencent/mm/ui/tools/d;
+    check-cast p1, Lcom/tencent/mm/ui/tools/Dclz;
 
-    check-cast p2, Lcom/tencent/mm/ui/tools/d;
+    check-cast p2, Lcom/tencent/mm/ui/tools/Dclz;
 
-    iget-object v0, p1, Lcom/tencent/mm/ui/tools/d;->ekq:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/ui/tools/Dclz;->ekq:Ljava/lang/String;
 
-    iget-object v1, p2, Lcom/tencent/mm/ui/tools/d;->ekq:Ljava/lang/String;
+    iget-object v1, p2, Lcom/tencent/mm/ui/tools/Dclz;->ekq:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->compareTo(Ljava/lang/String;)I
 

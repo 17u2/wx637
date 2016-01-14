@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -100,7 +100,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 287
     iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper$5;->jNh:Lcom/tencent/mm/ui/base/MMGridPaper;
@@ -118,13 +118,13 @@
     .line 289
     iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper$5;->jNh:Lcom/tencent/mm/ui/base/MMGridPaper;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/base/MMGridPaper;->fuJ:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, v0, Lcom/tencent/mm/ui/base/MMGridPaper;->fuJ:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     new-instance v1, Lcom/tencent/mm/ui/base/MMGridPaper$5$1;
 
     invoke-direct {v1, p0, p1}, Lcom/tencent/mm/ui/base/MMGridPaper$5$1;-><init>(Lcom/tencent/mm/ui/base/MMGridPaper$5;I)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 329
     :cond_0
@@ -166,13 +166,13 @@
     .line 309
     iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper$5;->jNh:Lcom/tencent/mm/ui/base/MMGridPaper;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/base/MMGridPaper;->fuJ:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, v0, Lcom/tencent/mm/ui/base/MMGridPaper;->fuJ:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     new-instance v1, Lcom/tencent/mm/ui/base/MMGridPaper$5$2;
 
     invoke-direct {v1, p0, p1}, Lcom/tencent/mm/ui/base/MMGridPaper$5$2;-><init>(Lcom/tencent/mm/ui/base/MMGridPaper$5;I)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     goto :goto_0
 .end method

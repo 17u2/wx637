@@ -84,7 +84,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_1
     throw v0
@@ -396,7 +396,7 @@
 
     if-nez v0, :cond_4
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_4
     throw v1
@@ -417,7 +417,7 @@
 
     if-nez v0, :cond_7
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_7
     return-void

@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -72,10 +72,10 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 7234
-    new-instance v1, Lcom/tencent/mm/ui/tools/p;
+    new-instance v1, Lcom/tencent/mm/ui/tools/Pclz;
 
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$113;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -83,23 +83,23 @@
 
     move-result-object v0
 
-    invoke-direct {v1, v0}, Lcom/tencent/mm/ui/tools/p;-><init>(Landroid/widget/ListView;)V
+    invoke-direct {v1, v0}, Lcom/tencent/mm/ui/tools/Pclz;-><init>(Landroid/widget/ListView;)V
 
     iget v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$113;->kjY:I
 
-    iget-object v0, v1, Lcom/tencent/mm/ui/tools/p;->eTV:Landroid/widget/ListView;
+    iget-object v0, v1, Lcom/tencent/mm/ui/tools/Pclz;->eTV:Landroid/widget/ListView;
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->removeCallbacks(Ljava/lang/Runnable;)Z
 
-    iput v4, v1, Lcom/tencent/mm/ui/tools/p;->kEI:I
+    iput v4, v1, Lcom/tencent/mm/ui/tools/Pclz;->kEI:I
 
-    iget-object v0, v1, Lcom/tencent/mm/ui/tools/p;->eTV:Landroid/widget/ListView;
+    iget-object v0, v1, Lcom/tencent/mm/ui/tools/Pclz;->eTV:Landroid/widget/ListView;
 
     invoke-virtual {v0}, Landroid/widget/ListView;->getFirstVisiblePosition()I
 
     move-result v0
 
-    iget-object v3, v1, Lcom/tencent/mm/ui/tools/p;->eTV:Landroid/widget/ListView;
+    iget-object v3, v1, Lcom/tencent/mm/ui/tools/Pclz;->eTV:Landroid/widget/ListView;
 
     invoke-virtual {v3}, Landroid/widget/ListView;->getChildCount()I
 
@@ -117,23 +117,23 @@
 
     const/4 v3, 0x2
 
-    iput v3, v1, Lcom/tencent/mm/ui/tools/p;->mMode:I
+    iput v3, v1, Lcom/tencent/mm/ui/tools/Pclz;->mMode:I
 
     :goto_0
     if-lez v0, :cond_2
 
     div-int v0, v6, v0
 
-    iput v0, v1, Lcom/tencent/mm/ui/tools/p;->kEG:I
+    iput v0, v1, Lcom/tencent/mm/ui/tools/Pclz;->kEG:I
 
     :goto_1
-    iput v2, v1, Lcom/tencent/mm/ui/tools/p;->kEE:I
+    iput v2, v1, Lcom/tencent/mm/ui/tools/Pclz;->kEE:I
 
     const/4 v0, -0x1
 
-    iput v0, v1, Lcom/tencent/mm/ui/tools/p;->kEF:I
+    iput v0, v1, Lcom/tencent/mm/ui/tools/Pclz;->kEF:I
 
-    iget-object v0, v1, Lcom/tencent/mm/ui/tools/p;->eTV:Landroid/widget/ListView;
+    iget-object v0, v1, Lcom/tencent/mm/ui/tools/Pclz;->eTV:Landroid/widget/ListView;
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->post(Ljava/lang/Runnable;)Z
 
@@ -149,12 +149,12 @@
 
     add-int/lit8 v0, v0, 0x1
 
-    iput v5, v1, Lcom/tencent/mm/ui/tools/p;->mMode:I
+    iput v5, v1, Lcom/tencent/mm/ui/tools/Pclz;->mMode:I
 
     goto :goto_0
 
     :cond_2
-    iput v6, v1, Lcom/tencent/mm/ui/tools/p;->kEG:I
+    iput v6, v1, Lcom/tencent/mm/ui/tools/Pclz;->kEG:I
 
     goto :goto_1
 .end method

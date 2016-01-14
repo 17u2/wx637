@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/search/ui/a/k$b;
-.super Lcom/tencent/mm/ui/e/a/a$b;
+.super Lcom/tencent/mm/ui/e/a/Aclz$b;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 42
     iput-object p1, p0, Lcom/tencent/mm/plugin/search/ui/a/k$b;->fLC:Lcom/tencent/mm/plugin/search/ui/a/k;
 
-    invoke-direct {p0, p1}, Lcom/tencent/mm/ui/e/a/a$b;-><init>(Lcom/tencent/mm/ui/e/a/a;)V
+    invoke-direct {p0, p1}, Lcom/tencent/mm/ui/e/a/Aclz$b;-><init>(Lcom/tencent/mm/ui/e/a/Aclz;)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -162,7 +162,7 @@
     return-object v2
 .end method
 
-.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/a$a;Lcom/tencent/mm/ui/e/a/a;)V
+.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/Aclz$a;Lcom/tencent/mm/ui/e/a/Aclz;)V
     .locals 2
 
     .prologue
@@ -210,7 +210,7 @@
 
     const/16 v1, 0xc8
 
-    invoke-static {p1, v1}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {p1, v1}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v1
 
@@ -221,14 +221,14 @@
 
     iget-object v1, p2, Lcom/tencent/mm/plugin/search/ui/a/k$a;->cFn:Landroid/widget/TextView;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/modelsearch/e;->b(Ljava/lang/CharSequence;Landroid/widget/TextView;)Z
+    invoke-static {v0, v1}, Lcom/tencent/mm/modelsearch/Eclz;->b(Ljava/lang/CharSequence;Landroid/widget/TextView;)Z
 
     .line 86
     iget-object v0, p3, Lcom/tencent/mm/plugin/search/ui/a/k;->fLz:Ljava/lang/CharSequence;
 
     iget-object v1, p2, Lcom/tencent/mm/plugin/search/ui/a/k$a;->fob:Landroid/widget/TextView;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/modelsearch/e;->b(Ljava/lang/CharSequence;Landroid/widget/TextView;)Z
+    invoke-static {v0, v1}, Lcom/tencent/mm/modelsearch/Eclz;->b(Ljava/lang/CharSequence;Landroid/widget/TextView;)Z
 
     .line 87
     return-void
@@ -244,7 +244,7 @@
     goto :goto_0
 .end method
 
-.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/a;)Z
+.method public final varargs a(Landroid/content/Context;Lcom/tencent/mm/ui/e/a/Aclz;)Z
     .locals 4
 
     .prologue
@@ -256,13 +256,13 @@
     .line 92
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/a/k$b;->fLC:Lcom/tencent/mm/plugin/search/ui/a/k;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/e/a/a;->aBw:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/ui/e/a/Aclz;->aBw:Ljava/lang/String;
 
-    iget-object v1, p2, Lcom/tencent/mm/plugin/search/ui/a/k;->cFi:Lcom/tencent/mm/modelsearch/k$g;
+    iget-object v1, p2, Lcom/tencent/mm/plugin/search/ui/a/k;->cFi:Lcom/tencent/mm/modelsearch/Kclz$g;
 
     const/4 v2, 0x0
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/modelsearch/k;->b(Ljava/lang/String;Lcom/tencent/mm/modelsearch/k$g;I)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/modelsearch/Kclz;->b(Ljava/lang/String;Lcom/tencent/mm/modelsearch/Kclz$g;I)V
 
     .line 93
     new-instance v0, Landroid/content/Intent;

@@ -142,7 +142,7 @@
     invoke-virtual {p0, v6}, Landroid/support/v7/internal/widget/ActionBarView;->setBackgroundResource(I)V
 
     .line 173
-    sget-object v1, Lcom/tencent/mm/a$b;->ActionBar:[I
+    sget-object v1, Lcom/tencent/mm/Aclz$b;->ActionBar:[I
 
     const v2, 0x7f010057
 
@@ -491,7 +491,7 @@
 
     if-nez v1, :cond_5
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_5
     return-void

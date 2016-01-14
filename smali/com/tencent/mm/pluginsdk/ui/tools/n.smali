@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/pluginsdk/ui/tools/n;
-.super Lcom/tencent/mm/ui/tools/q;
+.super Lcom/tencent/mm/ui/tools/Qclz;
 .source "SourceFile"
 
 
@@ -31,7 +31,7 @@
 
     .prologue
     .line 85
-    invoke-direct {p0}, Lcom/tencent/mm/ui/tools/q;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/ui/tools/Qclz;-><init>()V
 
     .line 40
     const/4 v0, 0x1
@@ -50,7 +50,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -63,7 +63,7 @@
     const/4 v0, 0x1
 
     .line 89
-    invoke-direct {p0, v0, v0}, Lcom/tencent/mm/ui/tools/q;-><init>(ZZ)V
+    invoke-direct {p0, v0, v0}, Lcom/tencent/mm/ui/tools/Qclz;-><init>(ZZ)V
 
     .line 40
     iput-boolean v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->igq:Z
@@ -80,7 +80,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -93,7 +93,7 @@
 
     .prologue
     .line 157
-    invoke-super {p0, p1, p2}, Lcom/tencent/mm/ui/tools/q;->a(Landroid/app/Activity;Landroid/view/Menu;)V
+    invoke-super {p0, p1, p2}, Lcom/tencent/mm/ui/tools/Qclz;->a(Landroid/app/Activity;Landroid/view/Menu;)V
 
     .line 158
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->fJv:Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;
@@ -120,7 +120,7 @@
     iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->igt:Lcom/tencent/mm/pluginsdk/ui/tools/n$a;
 
     .line 98
-    iput-object p1, p0, Lcom/tencent/mm/ui/tools/q;->kEP:Lcom/tencent/mm/ui/tools/q$b;
+    iput-object p1, p0, Lcom/tencent/mm/ui/tools/Qclz;->kEP:Lcom/tencent/mm/ui/tools/Qclz$b;
 
     .line 99
     return-void
@@ -164,7 +164,7 @@
 
     aput-object v0, v4, v1
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 138
     iget-boolean v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->igq:Z
@@ -183,22 +183,22 @@
 
     const-string/jumbo v1, "do require voice search"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 144
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->kEO:Lcom/tencent/mm/ui/tools/g;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->kEO:Lcom/tencent/mm/ui/tools/Gclz;
 
     if-eqz v0, :cond_0
 
     .line 145
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->kEO:Lcom/tencent/mm/ui/tools/g;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->kEO:Lcom/tencent/mm/ui/tools/Gclz;
 
-    invoke-interface {v0, v2}, Lcom/tencent/mm/ui/tools/g;->setEditTextEnabled(Z)V
+    invoke-interface {v0, v2}, Lcom/tencent/mm/ui/tools/Gclz;->setEditTextEnabled(Z)V
 
     .line 146
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->kEO:Lcom/tencent/mm/ui/tools/g;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->kEO:Lcom/tencent/mm/ui/tools/Gclz;
 
-    invoke-interface {v0, v2}, Lcom/tencent/mm/ui/tools/g;->setStatusBtnEnabled(Z)V
+    invoke-interface {v0, v2}, Lcom/tencent/mm/ui/tools/Gclz;->setStatusBtnEnabled(Z)V
 
     .line 148
     :cond_0
@@ -221,7 +221,7 @@
 
     const-string/jumbo v1, "do voice search layout start"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 150
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->fJv:Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;
@@ -257,7 +257,7 @@
 
     const-string/jumbo v1, "do cancel"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 114
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->fJv:Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;
@@ -271,19 +271,19 @@
 
     .line 117
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->kEO:Lcom/tencent/mm/ui/tools/g;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->kEO:Lcom/tencent/mm/ui/tools/Gclz;
 
     if-eqz v0, :cond_1
 
     .line 118
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->kEO:Lcom/tencent/mm/ui/tools/g;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->kEO:Lcom/tencent/mm/ui/tools/Gclz;
 
-    invoke-interface {v0, v2}, Lcom/tencent/mm/ui/tools/g;->setEditTextEnabled(Z)V
+    invoke-interface {v0, v2}, Lcom/tencent/mm/ui/tools/Gclz;->setEditTextEnabled(Z)V
 
     .line 119
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->kEO:Lcom/tencent/mm/ui/tools/g;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->kEO:Lcom/tencent/mm/ui/tools/Gclz;
 
-    invoke-interface {v0, v2}, Lcom/tencent/mm/ui/tools/g;->setStatusBtnEnabled(Z)V
+    invoke-interface {v0, v2}, Lcom/tencent/mm/ui/tools/Gclz;->setStatusBtnEnabled(Z)V
 
     .line 121
     :cond_1
@@ -332,7 +332,7 @@
 
     aput-object v6, v5, v2
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 168
     invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/ui/tools/n;->cancel()V
@@ -356,10 +356,10 @@
 
     const-string/jumbo v1, "not match key code, pass to super"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 174
-    invoke-super {p0, p1, p2}, Lcom/tencent/mm/ui/tools/q;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Lcom/tencent/mm/ui/tools/Qclz;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v1
 

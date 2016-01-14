@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -70,7 +70,7 @@
     move-result-object v0
 
     .line 237
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -81,7 +81,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/tools/h;->Fn(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/tencent/mm/ui/tools/Hclz;->Fn(Ljava/lang/String;)I
 
     move-result v1
 
@@ -96,7 +96,7 @@
 
     iget v1, v1, Lcom/tencent/mm/ui/base/MMTagPanel$c;->jQi:I
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/tools/h;->Fo(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/tencent/mm/ui/tools/Hclz;->Fo(Ljava/lang/String;)I
 
     move-result v2
 

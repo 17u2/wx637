@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -60,7 +60,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Fclz;->BM(Ljava/lang/String;)Lcom/tencent/mm/storage/Eclz;
 
@@ -80,37 +80,37 @@
 
     const-string/jumbo v2, "cpan[doScene NetSceneGetChatroomMemberDetail]"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1783
-    new-instance v1, Lcom/tencent/mm/d/a/fq;
+    new-instance v1, Lcom/tencent/mm/d/a/FQclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/d/a/fq;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/d/a/FQclz;-><init>()V
 
     .line 1784
-    iget-object v2, v1, Lcom/tencent/mm/d/a/fq;->aAa:Lcom/tencent/mm/d/a/fq$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/FQclz;->aAa:Lcom/tencent/mm/d/a/FQclz$a;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$54;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
     iget-object v3, v3, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
-    iput-object v3, v2, Lcom/tencent/mm/d/a/fq$a;->azY:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/d/a/FQclz$a;->azY:Ljava/lang/String;
 
     .line 1785
-    iget-object v2, v1, Lcom/tencent/mm/d/a/fq;->aAa:Lcom/tencent/mm/d/a/fq$a;
+    iget-object v2, v1, Lcom/tencent/mm/d/a/FQclz;->aAa:Lcom/tencent/mm/d/a/FQclz$a;
 
     invoke-virtual {v0}, Lcom/tencent/mm/storage/Eclz;->aPN()I
 
     move-result v0
 
-    iput v0, v2, Lcom/tencent/mm/d/a/fq$a;->aAb:I
+    iput v0, v2, Lcom/tencent/mm/d/a/FQclz$a;->aAb:I
 
     .line 1786
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 1788
     :cond_0

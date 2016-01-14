@@ -21,7 +21,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -38,7 +38,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -61,7 +61,7 @@
     .line 119
     new-instance v1, Landroid/content/ComponentName;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getPackageName()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getPackageName()Ljava/lang/String;
 
     move-result-object v2
 
@@ -81,7 +81,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 121
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -91,7 +91,7 @@
     return-void
 .end method
 
-.method public static a(Lcom/tencent/mm/modelstat/b;)V
+.method public static a(Lcom/tencent/mm/modelstat/Bclz;)V
     .locals 4
 
     .prologue
@@ -108,7 +108,7 @@
     .line 95
     new-instance v1, Landroid/content/ComponentName;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getPackageName()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getPackageName()Ljava/lang/String;
 
     move-result-object v2
 
@@ -130,61 +130,61 @@
     .line 97
     const-string/jumbo v1, "rtType"
 
-    iget v2, p0, Lcom/tencent/mm/modelstat/b;->rtType:I
+    iget v2, p0, Lcom/tencent/mm/modelstat/Bclz;->rtType:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 98
     const-string/jumbo v1, "beginTime"
 
-    iget-wide v2, p0, Lcom/tencent/mm/modelstat/b;->beginTime:J
+    iget-wide v2, p0, Lcom/tencent/mm/modelstat/Bclz;->beginTime:J
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
     .line 99
     const-string/jumbo v1, "endTime"
 
-    iget-wide v2, p0, Lcom/tencent/mm/modelstat/b;->endTime:J
+    iget-wide v2, p0, Lcom/tencent/mm/modelstat/Bclz;->endTime:J
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
     .line 100
     const-string/jumbo v1, "rtType"
 
-    iget v2, p0, Lcom/tencent/mm/modelstat/b;->rtType:I
+    iget v2, p0, Lcom/tencent/mm/modelstat/Bclz;->rtType:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 101
     const-string/jumbo v1, "dataLen"
 
-    iget-wide v2, p0, Lcom/tencent/mm/modelstat/b;->bUI:J
+    iget-wide v2, p0, Lcom/tencent/mm/modelstat/Bclz;->bUI:J
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
     .line 102
     const-string/jumbo v1, "isSend"
 
-    iget-boolean v2, p0, Lcom/tencent/mm/modelstat/b;->bDI:Z
+    iget-boolean v2, p0, Lcom/tencent/mm/modelstat/Bclz;->bDI:Z
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     .line 103
     const-string/jumbo v1, "cost"
 
-    iget-wide v2, p0, Lcom/tencent/mm/modelstat/b;->bUK:J
+    iget-wide v2, p0, Lcom/tencent/mm/modelstat/Bclz;->bUK:J
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
     .line 104
     const-string/jumbo v1, "doSceneCount"
 
-    iget-wide v2, p0, Lcom/tencent/mm/modelstat/b;->bUJ:J
+    iget-wide v2, p0, Lcom/tencent/mm/modelstat/Bclz;->bUJ:J
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
     .line 105
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -211,7 +211,7 @@
     .line 127
     new-instance v1, Landroid/content/ComponentName;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getPackageName()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getPackageName()Ljava/lang/String;
 
     move-result-object v2
 
@@ -245,7 +245,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 131
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -260,7 +260,7 @@
 
     .prologue
     .line 135
-    invoke-static {}, Lcom/tencent/mm/sdk/b/b;->aNJ()Z
+    invoke-static {}, Lcom/tencent/mm/sdk/b/Bclz;->aNJ()Z
 
     move-result v0
 
@@ -284,7 +284,7 @@
     .line 140
     new-instance v1, Landroid/content/ComponentName;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getPackageName()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getPackageName()Ljava/lang/String;
 
     move-result-object v2
 
@@ -309,7 +309,7 @@
     invoke-virtual {v0, v1, p0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 143
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -325,7 +325,7 @@
     .line 86
     sget-object v0, Lcom/tencent/mm/modelstat/WatchDogPushReceiver;->className:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -336,7 +336,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getPackageName()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getPackageName()Ljava/lang/String;
 
     move-result-object v1
 
@@ -383,7 +383,7 @@
 
     const-string/jumbo v1, "onReceive intent == null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 81
     :cond_0
@@ -415,7 +415,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 41
     if-ne v0, v5, :cond_4
@@ -569,7 +569,7 @@
 
     move-result-object v1
 
-    invoke-static {v2, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 58
     iget-wide v1, v0, Lcom/tencent/mm/network/a/Aclz$a;->cbI:J
@@ -662,7 +662,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -699,7 +699,7 @@
 
     if-ne v0, v1, :cond_6
 
-    invoke-static {}, Lcom/tencent/mm/sdk/b/b;->aNJ()Z
+    invoke-static {}, Lcom/tencent/mm/sdk/b/Bclz;->aNJ()Z
 
     move-result v1
 
@@ -763,7 +763,7 @@
     if-ne v0, v1, :cond_0
 
     .line 79
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/v;->appenderFlush()V
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Vclz;->appenderFlush()V
 
     goto/16 :goto_0
 .end method

@@ -20,7 +20,7 @@
 
 .field private static context:Landroid/content/Context;
 
-.field private static handler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private static handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -37,19 +37,19 @@
     sput-object v0, Lcom/tencent/mm/jni/platformcomm/PlatformComm;->context:Landroid/content/Context;
 
     .line 42
-    sput-object v0, Lcom/tencent/mm/jni/platformcomm/PlatformComm;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    sput-object v0, Lcom/tencent/mm/jni/platformcomm/PlatformComm;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;Lcom/tencent/mm/sdk/platformtools/ab;)V
+.method public static a(Landroid/content/Context;Lcom/tencent/mm/sdk/platformtools/ABclz;)V
     .locals 0
 
     .prologue
@@ -57,10 +57,10 @@
     sput-object p0, Lcom/tencent/mm/jni/platformcomm/PlatformComm;->context:Landroid/content/Context;
 
     .line 77
-    sput-object p1, Lcom/tencent/mm/jni/platformcomm/PlatformComm;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    sput-object p1, Lcom/tencent/mm/jni/platformcomm/PlatformComm;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 78
-    invoke-static {p0}, Lcom/tencent/mm/jni/platformcomm/a;->aE(Landroid/content/Context;)V
+    invoke-static {p0}, Lcom/tencent/mm/jni/platformcomm/Aclz;->aE(Landroid/content/Context;)V
 
     .line 79
     return-void
@@ -76,12 +76,12 @@
     return-object v0
 .end method
 
-.method static synthetic qR()Lcom/tencent/mm/sdk/platformtools/ab;
+.method static synthetic qR()Lcom/tencent/mm/sdk/platformtools/ABclz;
     .locals 1
 
     .prologue
     .line 16
-    sget-object v0, Lcom/tencent/mm/jni/platformcomm/PlatformComm;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    sget-object v0, Lcom/tencent/mm/jni/platformcomm/PlatformComm;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     return-object v0
 .end method

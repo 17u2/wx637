@@ -59,7 +59,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -99,19 +99,19 @@
 
     iget v9, p0, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI$23$11;->hEB:F
 
-    iget-object v0, v1, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;->hGc:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, v1, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;->hGc:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ag;->aOK()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOK()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, v1, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;->hGc:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, v1, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/f;->hGc:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     const-wide/16 v10, 0x3e8
 
-    invoke-virtual {v0, v10, v11}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v0, v10, v11}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     :cond_0
     new-instance v10, Lorg/json/JSONObject;
@@ -326,7 +326,7 @@
 
     aput-object v0, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 .end method

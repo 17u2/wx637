@@ -41,7 +41,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -135,7 +135,7 @@
     goto :goto_0
 .end method
 
-.method public final bga()Lcom/tencent/mm/aq/b;
+.method public final bga()Lcom/tencent/mm/aq/Bclz;
     .locals 4
 
     .prologue
@@ -160,7 +160,7 @@
 
     iget v3, v1, La/a/a/b/a/aclass;->aix:I
 
-    invoke-static {v0, v3, v2}, Lcom/tencent/mm/aq/b;->f([BII)Lcom/tencent/mm/aq/b;
+    invoke-static {v0, v3, v2}, Lcom/tencent/mm/aq/Bclz;->f([BII)Lcom/tencent/mm/aq/Bclz;
 
     move-result-object v0
 
@@ -178,7 +178,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/aq/b;->aD([B)Lcom/tencent/mm/aq/b;
+    invoke-static {v0}, Lcom/tencent/mm/aq/Bclz;->aD([B)Lcom/tencent/mm/aq/Bclz;
 
     move-result-object v0
 

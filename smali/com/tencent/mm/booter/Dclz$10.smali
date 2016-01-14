@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -85,7 +85,7 @@
 
     aput-object v3, v2, v8
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 883
     iget-object v0, p0, Lcom/tencent/mm/booter/Dclz$10;->bfV:Lcom/tencent/mm/booter/Dclz;
@@ -118,11 +118,11 @@
     .line 890
     iget-object v0, p0, Lcom/tencent/mm/booter/Dclz$10;->bfV:Lcom/tencent/mm/booter/Dclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/booter/Dclz;->d(Lcom/tencent/mm/booter/Dclz;)Lcom/tencent/mm/sdk/platformtools/ag;
+    invoke-static {v0}, Lcom/tencent/mm/booter/Dclz;->d(Lcom/tencent/mm/booter/Dclz;)Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ag;->aOk()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOk()V
 
     .line 893
     :cond_2
@@ -188,7 +188,7 @@
 
     aput-object v7, v5, v6
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 897
     invoke-interface {v0}, Lcom/tencent/mm/model/Vclz;->onFinish()V
@@ -238,7 +238,7 @@
 
     const-string/jumbo v1, "NEXT MUSIC PLAY."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 906
     iget-object v0, p0, Lcom/tencent/mm/booter/Dclz$10;->bfV:Lcom/tencent/mm/booter/Dclz;

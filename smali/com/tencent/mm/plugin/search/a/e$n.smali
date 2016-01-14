@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/search/a/e$n;
-.super Lcom/tencent/mm/modelsearch/m$a;
+.super Lcom/tencent/mm/modelsearch/Mclz$a;
 .source "SourceFile"
 
 
@@ -34,7 +34,7 @@
     .line 463
     iput-object p1, p0, Lcom/tencent/mm/plugin/search/a/e$n;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/m$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/Mclz$a;-><init>()V
 
     .line 460
     iput-boolean v0, p0, Lcom/tencent/mm/plugin/search/a/e$n;->dYT:Z
@@ -50,7 +50,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -77,7 +77,7 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 471
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$n;->fHi:Lcom/tencent/mm/plugin/search/a/e;
@@ -105,7 +105,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v1, Lcom/tencent/mm/modelsearch/c;->bQF:[I
+    sget-object v1, Lcom/tencent/mm/modelsearch/Cclz;->bQF:[I
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/a/e$n;->bhr:Ljava/lang/String;
 
@@ -135,7 +135,7 @@
     .line 488
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$n;->fHi:Lcom/tencent/mm/plugin/search/a/e;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->bRA:Lcom/tencent/mm/modelsearch/m;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/search/a/e;->bRA:Lcom/tencent/mm/modelsearch/Mclz;
 
     const v1, 0x10014
 
@@ -147,7 +147,7 @@
 
     invoke-direct {v2, v3, v4}, Lcom/tencent/mm/plugin/search/a/e$j;-><init>(Lcom/tencent/mm/plugin/search/a/e;Ljava/lang/String;)V
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/modelsearch/m;->a(ILcom/tencent/mm/modelsearch/m$a;)Lcom/tencent/mm/modelsearch/m$a;
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/modelsearch/Mclz;->a(ILcom/tencent/mm/modelsearch/Mclz$a;)Lcom/tencent/mm/modelsearch/Mclz$a;
 
     goto :goto_0
 
@@ -193,7 +193,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/plugin/search/a/e;->fGS:Lcom/tencent/mm/plugin/search/a/b/a;
 
-    sget-object v3, Lcom/tencent/mm/modelsearch/c;->bQF:[I
+    sget-object v3, Lcom/tencent/mm/modelsearch/Cclz;->bQF:[I
 
     invoke-virtual {v2, v3, v1, v5}, Lcom/tencent/mm/plugin/search/a/b/a;->a([ILjava/lang/String;I)Ljava/util/List;
 

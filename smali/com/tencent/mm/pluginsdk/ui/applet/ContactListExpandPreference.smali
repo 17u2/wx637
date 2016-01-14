@@ -52,7 +52,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_1
     return-void
@@ -98,7 +98,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -129,7 +129,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -243,7 +243,7 @@
     return-void
 .end method
 
-.method public final a(Lcom/tencent/mm/ui/base/preference/f;Ljava/lang/String;)V
+.method public final a(Lcom/tencent/mm/ui/base/preference/Fclz;Ljava/lang/String;)V
     .locals 1
 
     .prologue
@@ -266,13 +266,13 @@
 
     .line 99
     :cond_1
-    iput-object p1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->cgw:Lcom/tencent/mm/ui/base/preference/f;
+    iput-object p1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
     iput-object p2, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hSP:Ljava/lang/String;
 
     const/4 v0, 0x1
 
-    invoke-interface {p1, p2, v0}, Lcom/tencent/mm/ui/base/preference/f;->am(Ljava/lang/String;Z)V
+    invoke-interface {p1, p2, v0}, Lcom/tencent/mm/ui/base/preference/Fclz;->am(Ljava/lang/String;Z)V
 
     goto :goto_0
 .end method
@@ -608,7 +608,7 @@
 
     check-cast v0, Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     .line 229
     :goto_0
@@ -650,7 +650,7 @@
 
     check-cast v0, Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_nickname:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/b/Oclz;->field_nickname:Ljava/lang/String;
 
     .line 236
     :goto_0
@@ -692,7 +692,7 @@
 
     check-cast v0, Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_conRemark:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/b/Oclz;->field_conRemark:Ljava/lang/String;
 
     .line 243
     :goto_0

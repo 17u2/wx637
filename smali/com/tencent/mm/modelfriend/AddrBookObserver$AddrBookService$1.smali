@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/modelfriend/a$b;
+.implements Lcom/tencent/mm/modelfriend/Aclz$b;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -57,7 +57,7 @@
 
     const-string/jumbo v1, "onSyncEnd not sync succ, do not upload"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 88
     iget-object v0, p0, Lcom/tencent/mm/modelfriend/AddrBookObserver$AddrBookService$1;->bDP:Lcom/tencent/mm/modelfriend/AddrBookObserver$AddrBookService;
@@ -76,17 +76,17 @@
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     .line 93
-    new-instance v0, Lcom/tencent/mm/modelfriend/ac;
+    new-instance v0, Lcom/tencent/mm/modelfriend/ACclz;
 
-    invoke-static {}, Lcom/tencent/mm/modelfriend/m;->ys()Ljava/util/List;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/Mclz;->ys()Ljava/util/List;
 
     move-result-object v1
 
-    invoke-static {}, Lcom/tencent/mm/modelfriend/m;->yr()Ljava/util/List;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/Mclz;->yr()Ljava/util/List;
 
     move-result-object v2
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/modelfriend/ac;-><init>(Ljava/util/List;Ljava/util/List;)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/modelfriend/ACclz;-><init>(Ljava/util/List;Ljava/util/List;)V
 
     .line 94
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;

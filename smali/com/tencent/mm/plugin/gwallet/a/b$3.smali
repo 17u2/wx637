@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic czE:Lcom/tencent/mm/sdk/platformtools/ab;
+.field final synthetic czE:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field final synthetic egB:Ljava/lang/String;
 
@@ -28,7 +28,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/tencent/mm/plugin/gwallet/a/b;Ljava/lang/String;Lcom/tencent/mm/sdk/platformtools/ab;Lcom/tencent/mm/plugin/gwallet/a/b$b;)V
+.method public constructor <init>(Lcom/tencent/mm/plugin/gwallet/a/b;Ljava/lang/String;Lcom/tencent/mm/sdk/platformtools/ABclz;Lcom/tencent/mm/plugin/gwallet/a/b$b;)V
     .locals 1
 
     .prologue
@@ -37,7 +37,7 @@
 
     iput-object p2, p0, Lcom/tencent/mm/plugin/gwallet/a/b$3;->egB:Ljava/lang/String;
 
-    iput-object p3, p0, Lcom/tencent/mm/plugin/gwallet/a/b$3;->czE:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object p3, p0, Lcom/tencent/mm/plugin/gwallet/a/b$3;->czE:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iput-object p4, p0, Lcom/tencent/mm/plugin/gwallet/a/b$3;->egC:Lcom/tencent/mm/plugin/gwallet/a/b$b;
 
@@ -47,7 +47,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -106,13 +106,13 @@
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 478
-    iget-object v2, p0, Lcom/tencent/mm/plugin/gwallet/a/b$3;->czE:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/gwallet/a/b$3;->czE:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     new-instance v3, Lcom/tencent/mm/plugin/gwallet/a/b$3$1;
 
     invoke-direct {v3, p0, v0, v1}, Lcom/tencent/mm/plugin/gwallet/a/b$3$1;-><init>(Lcom/tencent/mm/plugin/gwallet/a/b$3;Lcom/tencent/mm/plugin/gwallet/a/c;Landroid/content/Intent;)V
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 483
     return-void

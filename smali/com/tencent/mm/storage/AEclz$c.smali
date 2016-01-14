@@ -52,7 +52,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -72,7 +72,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -122,7 +122,7 @@
     .line 93
     if-eqz p3, :cond_0
 
-    iget-wide v0, p3, Lcom/tencent/mm/d/b/ba;->field_bizChatId:J
+    iget-wide v0, p3, Lcom/tencent/mm/d/b/BAclz;->field_bizChatId:J
 
     :cond_0
     iput-wide v0, p0, Lcom/tencent/mm/storage/AEclz$c;->cOn:J
@@ -141,7 +141,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_2
     return-void
@@ -154,11 +154,11 @@
     .line 105
     if-eqz p0, :cond_0
 
-    iget v0, p0, Lcom/tencent/mm/d/b/ba;->field_isSend:I
+    iget v0, p0, Lcom/tencent/mm/d/b/BAclz;->field_isSend:I
 
     if-nez v0, :cond_0
 
-    iget v0, p0, Lcom/tencent/mm/d/b/ba;->field_status:I
+    iget v0, p0, Lcom/tencent/mm/d/b/BAclz;->field_status:I
 
     const/4 v1, 0x3
 

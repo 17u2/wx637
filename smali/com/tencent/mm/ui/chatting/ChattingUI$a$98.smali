@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -149,7 +149,7 @@
     .line 5053
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$98;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/cj;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/CJclz;
 
     .line 5054
     iget-object v6, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$98;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
@@ -206,15 +206,15 @@
     invoke-virtual {v7}, Lcom/tencent/mm/ui/base/MMPullDownView;->postInvalidate()V
 
     :cond_0
-    iget-object v0, v6, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->khe:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, v6, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->khe:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ag;->aOk()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOk()V
 
-    iget-object v0, v6, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->khe:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, v6, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->khe:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     const-wide/16 v1, 0x3e8
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     iget-object v0, v6, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->gvF:Lcom/tencent/mm/plugin/sight/decode/ui/c;
 
@@ -229,17 +229,17 @@
     if-nez v0, :cond_4
 
     :cond_1
-    new-instance v0, Lcom/tencent/mm/d/a/kv;
+    new-instance v0, Lcom/tencent/mm/d/a/KVclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/kv;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/KVclz;-><init>()V
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/kv;->aFS:Lcom/tencent/mm/d/a/kv$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/KVclz;->aFS:Lcom/tencent/mm/d/a/KVclz$a;
 
     const/4 v2, 0x5
 
-    iput v2, v1, Lcom/tencent/mm/d/a/kv$a;->type:I
+    iput v2, v1, Lcom/tencent/mm/d/a/KVclz$a;->type:I
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/kv;->aFS:Lcom/tencent/mm/d/a/kv$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/KVclz;->aFS:Lcom/tencent/mm/d/a/KVclz$a;
 
     iget-object v2, v6, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kgM:Landroid/widget/ListView;
 
@@ -247,9 +247,9 @@
 
     move-result v2
 
-    iput v2, v1, Lcom/tencent/mm/d/a/kv$a;->aFT:I
+    iput v2, v1, Lcom/tencent/mm/d/a/KVclz$a;->aFT:I
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/kv;->aFS:Lcom/tencent/mm/d/a/kv$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/KVclz;->aFS:Lcom/tencent/mm/d/a/KVclz$a;
 
     iget-object v2, v6, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kgM:Landroid/widget/ListView;
 
@@ -257,9 +257,9 @@
 
     move-result v2
 
-    iput v2, v1, Lcom/tencent/mm/d/a/kv$a;->aFU:I
+    iput v2, v1, Lcom/tencent/mm/d/a/KVclz$a;->aFU:I
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/kv;->aFS:Lcom/tencent/mm/d/a/kv$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/KVclz;->aFS:Lcom/tencent/mm/d/a/KVclz$a;
 
     iget-object v2, v6, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kgM:Landroid/widget/ListView;
 
@@ -267,18 +267,18 @@
 
     move-result v2
 
-    iput v2, v1, Lcom/tencent/mm/d/a/kv$a;->aFV:I
+    iput v2, v1, Lcom/tencent/mm/d/a/KVclz$a;->aFV:I
 
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     :cond_2
     const/4 v0, 0x2
 
     if-ne p2, v0, :cond_3
 
-    invoke-static {}, Lcom/tencent/mm/ax/c;->aSF()Lcom/tencent/mm/ax/c;
+    invoke-static {}, Lcom/tencent/mm/ax/Cclz;->aSF()Lcom/tencent/mm/ax/Cclz;
 
     move-result-object v0
 
@@ -306,38 +306,38 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1, v8}, Lcom/tencent/mm/ax/c;->aW(Ljava/lang/String;I)V
+    invoke-virtual {v0, v1, v8}, Lcom/tencent/mm/ax/Cclz;->aW(Ljava/lang/String;I)V
 
-    iget-object v0, v6, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->khe:Lcom/tencent/mm/sdk/platformtools/ag;
+    iget-object v0, v6, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->khe:Lcom/tencent/mm/sdk/platformtools/AGclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ag;->aOk()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/AGclz;->aOk()V
 
-    invoke-static {}, Lcom/tencent/mm/z/n;->zX()Lcom/tencent/mm/z/c;
+    invoke-static {}, Lcom/tencent/mm/z/Nclz;->zX()Lcom/tencent/mm/z/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v6}, Lcom/tencent/mm/z/c;->a(Lcom/tencent/mm/z/c$a;)V
+    invoke-virtual {v0, v6}, Lcom/tencent/mm/z/Cclz;->a(Lcom/tencent/mm/z/Cclz$a;)V
 
     :cond_3
-    new-instance v0, Lcom/tencent/mm/d/a/w;
+    new-instance v0, Lcom/tencent/mm/d/a/Wclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/w;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/Wclz;-><init>()V
 
-    iget-object v1, v0, Lcom/tencent/mm/d/a/w;->asv:Lcom/tencent/mm/d/a/w$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/Wclz;->asv:Lcom/tencent/mm/d/a/Wclz$a;
 
-    iput p2, v1, Lcom/tencent/mm/d/a/w$a;->asw:I
+    iput p2, v1, Lcom/tencent/mm/d/a/Wclz$a;->asw:I
 
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 5055
     :cond_4
-    invoke-static {}, Lcom/tencent/mm/z/n;->Aa()Lcom/tencent/mm/z/a/a;
+    invoke-static {}, Lcom/tencent/mm/z/Nclz;->Aa()Lcom/tencent/mm/z/a/Aclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p2}, Lcom/tencent/mm/z/a/a;->dB(I)V
+    invoke-virtual {v0, p2}, Lcom/tencent/mm/z/a/Aclz;->dB(I)V
 
     .line 5056
     return-void

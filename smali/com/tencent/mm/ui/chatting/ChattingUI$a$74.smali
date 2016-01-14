@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,38 +52,38 @@
     const/4 v3, 0x1
 
     .line 3892
-    new-instance v0, Lcom/tencent/mm/d/a/ln;
+    new-instance v0, Lcom/tencent/mm/d/a/LNclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/ln;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/LNclz;-><init>()V
 
     .line 3893
-    iget-object v1, v0, Lcom/tencent/mm/d/a/ln;->aGy:Lcom/tencent/mm/d/a/ln$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/LNclz;->aGy:Lcom/tencent/mm/d/a/LNclz$a;
 
     const/4 v2, 0x5
 
-    iput v2, v1, Lcom/tencent/mm/d/a/ln$a;->awa:I
+    iput v2, v1, Lcom/tencent/mm/d/a/LNclz$a;->awa:I
 
     .line 3894
-    iget-object v1, v0, Lcom/tencent/mm/d/a/ln;->aGy:Lcom/tencent/mm/d/a/ln$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/LNclz;->aGy:Lcom/tencent/mm/d/a/LNclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$74;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
     iget-object v2, v2, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kaS:Lcom/tencent/mm/storage/Kclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/ln$a;->aoH:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/LNclz$a;->aoH:Ljava/lang/String;
 
     .line 3895
-    iget-object v1, v0, Lcom/tencent/mm/d/a/ln;->aGy:Lcom/tencent/mm/d/a/ln$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/LNclz;->aGy:Lcom/tencent/mm/d/a/LNclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$74;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/n;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v2, v2, Lcom/tencent/mm/ui/Nclz;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v2, v2, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/ln$a;->context:Landroid/content/Context;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/LNclz$a;->context:Landroid/content/Context;
 
     .line 3896
     invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
@@ -93,18 +93,18 @@
     if-ne v1, v3, :cond_1
 
     .line 3897
-    iget-object v1, v0, Lcom/tencent/mm/d/a/ln;->aGy:Lcom/tencent/mm/d/a/ln$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/LNclz;->aGy:Lcom/tencent/mm/d/a/LNclz$a;
 
     const/4 v2, 0x4
 
-    iput v2, v1, Lcom/tencent/mm/d/a/ln$a;->aGB:I
+    iput v2, v1, Lcom/tencent/mm/d/a/LNclz$a;->aGB:I
 
     .line 3901
     :cond_0
     :goto_0
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 3902
     return v3
@@ -118,9 +118,9 @@
     if-ne v1, v4, :cond_0
 
     .line 3899
-    iget-object v1, v0, Lcom/tencent/mm/d/a/ln;->aGy:Lcom/tencent/mm/d/a/ln$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/LNclz;->aGy:Lcom/tencent/mm/d/a/LNclz$a;
 
-    iput v4, v1, Lcom/tencent/mm/d/a/ln$a;->aGB:I
+    iput v4, v1, Lcom/tencent/mm/d/a/LNclz$a;->aGB:I
 
     goto :goto_0
 .end method

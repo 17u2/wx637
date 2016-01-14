@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,11 +52,11 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$19;->kvP:Lcom/tencent/mm/ui/conversation/BizConversationUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/conversation/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->b(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/conversation/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p3}, Lcom/tencent/mm/ui/conversation/c;->getItem(I)Ljava/lang/Object;
+    invoke-virtual {v0, p3}, Lcom/tencent/mm/ui/conversation/Cclz;->getItem(I)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -73,14 +73,14 @@
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/tencent/mm/d/b/s;->field_username:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
     invoke-static {v0, v1}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->a(Lcom/tencent/mm/ui/conversation/BizConversationUI;Ljava/lang/String;)Ljava/lang/String;
 
     .line 320
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$19;->kvP:Lcom/tencent/mm/ui/conversation/BizConversationUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->e(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/tools/l;
+    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->e(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/tools/Lclz;
 
     move-result-object v0
 
@@ -88,7 +88,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/conversation/BizConversationUI$19;->kvP:Lcom/tencent/mm/ui/conversation/BizConversationUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->d(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/base/m$d;
+    invoke-static {v1}, Lcom/tencent/mm/ui/conversation/BizConversationUI;->d(Lcom/tencent/mm/ui/conversation/BizConversationUI;)Lcom/tencent/mm/ui/base/Mclz$d;
 
     move-result-object v6
 
@@ -98,7 +98,7 @@
 
     move-wide v3, p4
 
-    invoke-virtual/range {v0 .. v6}, Lcom/tencent/mm/ui/tools/l;->a(Landroid/view/View;IJLandroid/view/View$OnCreateContextMenuListener;Lcom/tencent/mm/ui/base/m$d;)V
+    invoke-virtual/range {v0 .. v6}, Lcom/tencent/mm/ui/tools/Lclz;->a(Landroid/view/View;IJLandroid/view/View$OnCreateContextMenuListener;Lcom/tencent/mm/ui/base/Mclz$d;)V
 
     .line 321
     const/4 v0, 0x1

@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private final hNX:Lcom/tencent/mm/sdk/c/c;
+.field private final hNX:Lcom/tencent/mm/sdk/c/Cclz;
 
 .field private final hNY:Lcom/tencent/mm/model/BBclz$b;
 
@@ -38,7 +38,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/pluginsdk/h/a/a/b$a$1;-><init>(Lcom/tencent/mm/pluginsdk/h/a/a/b$a;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/a/b$a;->hNX:Lcom/tencent/mm/sdk/c/c;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/a/b$a;->hNX:Lcom/tencent/mm/sdk/c/Cclz;
 
     .line 47
     new-instance v0, Lcom/tencent/mm/pluginsdk/h/a/a/b$a$2;
@@ -58,7 +58,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -80,7 +80,7 @@
 
     const-string/jumbo v1, "get mismatch NetworkRequest type, return null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 82
     const/4 v0, 0x0
@@ -95,7 +95,7 @@
 
     const-string/jumbo v1, "return CheckResUpdateNetworkRequestHandler"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 85
     new-instance v0, Lcom/tencent/mm/pluginsdk/h/a/a/d;
@@ -112,13 +112,13 @@
 
     .prologue
     .line 62
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "PostSyncTask"
 
-    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/h/a/a/b$a;->hNX:Lcom/tencent/mm/sdk/c/c;
+    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/h/a/a/b$a;->hNX:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 63
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tg()Lcom/tencent/mm/model/BBclz;
@@ -175,13 +175,13 @@
 
     .prologue
     .line 69
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "PostSyncTask"
 
-    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/h/a/a/b$a;->hNX:Lcom/tencent/mm/sdk/c/c;
+    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/h/a/a/b$a;->hNX:Lcom/tencent/mm/sdk/c/Cclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 70
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tg()Lcom/tencent/mm/model/BBclz;

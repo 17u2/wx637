@@ -177,7 +177,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/d;->Aw(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/Dclz;->Aw(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -187,7 +187,7 @@
 
     const-string/jumbo v2, "not found brand icon local"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_6
     :goto_1
@@ -202,13 +202,13 @@
 
     move-result-object v2
 
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_7
 
-    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -241,7 +241,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_3
     move-object v0, v1
@@ -298,7 +298,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/d;->Aw(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/Dclz;->Aw(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -308,7 +308,7 @@
 
     const-string/jumbo v2, "not found brand icon local"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -327,13 +327,13 @@
 
     check-cast v0, Ljava/lang/Integer;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->d(Ljava/lang/Integer;)I
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->d(Ljava/lang/Integer;)I
 
     move-result v0
 
     int-to-long v3, v0
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/bc;->ak(J)J
+    invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->ak(J)J
 
     move-result-wide v3
 
@@ -359,14 +359,14 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_3
 
     :cond_d
     iget-object v0, v2, Lcom/tencent/mm/s/Rclz$a;->bBQ:Ljava/util/Map;
 
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/bc;->EY()J
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->EY()J
 
     move-result-wide v3
 
@@ -378,41 +378,41 @@
 
     invoke-interface {v0, p0, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    iget-object v0, v2, Lcom/tencent/mm/s/Rclz$a;->bBS:Lcom/tencent/mm/sdk/platformtools/aq;
+    iget-object v0, v2, Lcom/tencent/mm/s/Rclz$a;->bBS:Lcom/tencent/mm/sdk/platformtools/AQclz;
 
     if-eqz v0, :cond_e
 
-    iget-object v0, v2, Lcom/tencent/mm/s/Rclz$a;->bBS:Lcom/tencent/mm/sdk/platformtools/aq;
+    iget-object v0, v2, Lcom/tencent/mm/s/Rclz$a;->bBS:Lcom/tencent/mm/sdk/platformtools/AQclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/aq;->aOO()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/AQclz;->aOO()Z
 
     move-result v0
 
     if-eqz v0, :cond_f
 
     :cond_e
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/aq;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AQclz;
 
     const/4 v3, 0x1
 
     const-string/jumbo v4, "brand-logic"
 
-    invoke-direct {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/aq;-><init>(ILjava/lang/String;)V
+    invoke-direct {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/AQclz;-><init>(ILjava/lang/String;)V
 
-    iput-object v0, v2, Lcom/tencent/mm/s/Rclz$a;->bBS:Lcom/tencent/mm/sdk/platformtools/aq;
+    iput-object v0, v2, Lcom/tencent/mm/s/Rclz$a;->bBS:Lcom/tencent/mm/sdk/platformtools/AQclz;
 
     :cond_f
     invoke-static {p0, p1}, Lcom/tencent/mm/s/Rclz;->Q(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    iget-object v2, v2, Lcom/tencent/mm/s/Rclz$a;->bBS:Lcom/tencent/mm/sdk/platformtools/aq;
+    iget-object v2, v2, Lcom/tencent/mm/s/Rclz$a;->bBS:Lcom/tencent/mm/sdk/platformtools/AQclz;
 
     new-instance v3, Lcom/tencent/mm/s/Rclz$b;
 
     invoke-direct {v3, p0, v0}, Lcom/tencent/mm/s/Rclz$b;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/sdk/platformtools/aq;->c(Lcom/tencent/mm/sdk/platformtools/aq$a;)I
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/sdk/platformtools/AQclz;->c(Lcom/tencent/mm/sdk/platformtools/AQclz$a;)I
 
     goto/16 :goto_3
 .end method
@@ -438,10 +438,10 @@
     invoke-direct {v1}, Landroid/graphics/BitmapFactory$Options;-><init>()V
 
     .line 142
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/BitmapFactory$Options;)V
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/BitmapFactory$Options;)V
 
     .line 143
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -471,7 +471,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/d;->a(Landroid/graphics/Bitmap;ZF)Landroid/graphics/Bitmap;
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Dclz;->a(Landroid/graphics/Bitmap;ZF)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -491,7 +491,7 @@
     const/high16 v6, 0x3fc00000    # 1.5f
 
     .line 45
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -612,7 +612,7 @@
 
     aput-object v1, v5, v2
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 

@@ -42,7 +42,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -69,7 +69,7 @@
     .line 760
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$3;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v0
 
@@ -84,11 +84,11 @@
     :cond_1
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$3;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/ui/chatting/gallery/b;->pW(I)Landroid/view/View;
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/ui/chatting/gallery/Bclz;->pW(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -108,7 +108,7 @@
 
     aput-object v4, v3, v6
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 771
     :cond_2
@@ -119,7 +119,7 @@
     .line 773
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$3;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v1
 
@@ -128,25 +128,25 @@
     .line 774
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$3;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/chatting/gallery/b;->aZz()V
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/chatting/gallery/Bclz;->aZz()V
 
     .line 789
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$3;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, p1}, Lcom/tencent/mm/ui/chatting/gallery/b;->qy(I)Lcom/tencent/mm/storage/ADclz;
+    invoke-virtual {v1, p1}, Lcom/tencent/mm/ui/chatting/gallery/Bclz;->qy(I)Lcom/tencent/mm/storage/ADclz;
 
     move-result-object v1
 
     .line 791
-    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/gallery/b;->ah(Lcom/tencent/mm/storage/ADclz;)Z
+    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/gallery/Bclz;->ah(Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v2
 
@@ -165,9 +165,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/ui/chatting/gallery/j;
+    check-cast v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/j;->kpw:Lcom/tencent/mm/ui/base/MultiTouchImageView;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpw:Lcom/tencent/mm/ui/base/MultiTouchImageView;
 
     invoke-virtual {v0}, Lcom/tencent/mm/ui/base/MultiTouchImageView;->aWG()V
 
@@ -175,7 +175,7 @@
     :cond_3
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$3;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v0
 
@@ -184,31 +184,31 @@
     .line 796
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$3;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1, v6}, Lcom/tencent/mm/ui/chatting/gallery/b;->a(Lcom/tencent/mm/storage/ADclz;Z)Lcom/tencent/mm/z/d;
+    invoke-virtual {v0, v1, v6}, Lcom/tencent/mm/ui/chatting/gallery/Bclz;->a(Lcom/tencent/mm/storage/ADclz;Z)Lcom/tencent/mm/z/Dclz;
 
     move-result-object v0
 
     .line 797
-    invoke-static {v1, v0}, Lcom/tencent/mm/ui/chatting/gallery/b;->a(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/z/d;)Z
+    invoke-static {v1, v0}, Lcom/tencent/mm/ui/chatting/gallery/Bclz;->a(Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/z/Dclz;)Z
 
     move-result v2
 
     if-eqz v2, :cond_6
 
     .line 799
-    invoke-static {v0}, Lcom/tencent/mm/z/e;->a(Lcom/tencent/mm/z/d;)Lcom/tencent/mm/z/d;
+    invoke-static {v0}, Lcom/tencent/mm/z/Eclz;->a(Lcom/tencent/mm/z/Dclz;)Lcom/tencent/mm/z/Dclz;
 
     move-result-object v0
 
     .line 800
-    iget v1, v0, Lcom/tencent/mm/z/d;->bxb:I
+    iget v1, v0, Lcom/tencent/mm/z/Dclz;->bxb:I
 
     .line 801
-    iget v0, v0, Lcom/tencent/mm/z/d;->offset:I
+    iget v0, v0, Lcom/tencent/mm/z/Dclz;->offset:I
 
     .line 802
     if-eqz v1, :cond_5
@@ -260,7 +260,7 @@
 
     aput-object v4, v3, v7
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 805
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$3;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
@@ -272,7 +272,7 @@
     :goto_2
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$3;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v0
 
@@ -281,11 +281,11 @@
     .line 842
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$3;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/ui/chatting/gallery/b;->n(I)V
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/ui/chatting/gallery/Bclz;->n(I)V
 
     goto/16 :goto_0
 
@@ -299,11 +299,11 @@
     :cond_6
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$3;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/chatting/gallery/b;->ak(Lcom/tencent/mm/storage/ADclz;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/chatting/gallery/Bclz;->ak(Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v0
 
@@ -348,7 +348,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -358,7 +358,7 @@
 
     const-string/jumbo v2, "[arthurdan.ImageGallery] Notice!!! adapter is null"
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_3
 
@@ -419,7 +419,7 @@
     :cond_2
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$3;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v0
 
@@ -428,25 +428,25 @@
     .line 866
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI$3;->koZ:Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;->e(Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryUI;)Lcom/tencent/mm/ui/chatting/gallery/Bclz;
 
     move-result-object v0
 
-    iget-object v1, v0, Lcom/tencent/mm/ui/chatting/gallery/b;->kmP:Lcom/tencent/mm/ui/chatting/gallery/d;
+    iget-object v1, v0, Lcom/tencent/mm/ui/chatting/gallery/Bclz;->kmP:Lcom/tencent/mm/ui/chatting/gallery/Dclz;
 
     if-eqz v1, :cond_3
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/b;->kmP:Lcom/tencent/mm/ui/chatting/gallery/d;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Bclz;->kmP:Lcom/tencent/mm/ui/chatting/gallery/Dclz;
 
-    iput p1, v0, Lcom/tencent/mm/ui/chatting/gallery/d;->fo:I
+    iput p1, v0, Lcom/tencent/mm/ui/chatting/gallery/Dclz;->fo:I
 
-    iget-object v1, v0, Lcom/tencent/mm/ui/chatting/gallery/d;->koa:Lcom/tencent/mm/ui/chatting/gallery/e;
+    iget-object v1, v0, Lcom/tencent/mm/ui/chatting/gallery/Dclz;->koa:Lcom/tencent/mm/ui/chatting/gallery/Eclz;
 
     if-eqz v1, :cond_3
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/d;->koa:Lcom/tencent/mm/ui/chatting/gallery/e;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Dclz;->koa:Lcom/tencent/mm/ui/chatting/gallery/Eclz;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/ui/chatting/gallery/e;->o(I)V
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/ui/chatting/gallery/Eclz;->o(I)V
 
     .line 869
     :cond_3

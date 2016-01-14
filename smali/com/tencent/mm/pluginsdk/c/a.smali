@@ -1,5 +1,5 @@
 .class public abstract Lcom/tencent/mm/pluginsdk/c/a;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -15,7 +15,7 @@
     .line 15
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     .line 12
     new-instance v0, Ljava/util/ArrayList;
@@ -31,7 +31,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -57,14 +57,14 @@
 
     .line 24
     :cond_0
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "MStorageNotify"
 
-    invoke-virtual {v0, v1, p1}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, p1}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 25
-    invoke-static {p0}, Lcom/tencent/mm/pluginsdk/c/e;->xr(Ljava/lang/String;)Lcom/tencent/mm/d/a/kf;
+    invoke-static {p0}, Lcom/tencent/mm/pluginsdk/c/e;->xr(Ljava/lang/String;)Lcom/tencent/mm/d/a/KFclz;
 
     .line 26
     return-void
@@ -78,11 +78,11 @@
     invoke-static {p0}, Lcom/tencent/mm/pluginsdk/c/e;->xs(Ljava/lang/String;)V
 
     .line 30
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "MStorageNotify"
 
-    invoke-virtual {v0, v1, p1}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, p1}, Lcom/tencent/mm/sdk/c/Aclz;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 31
     iget-object v0, p1, Lcom/tencent/mm/pluginsdk/c/a;->hKA:Ljava/util/ArrayList;
@@ -105,32 +105,32 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 2
 
     .prologue
     .line 38
-    instance-of v0, p1, Lcom/tencent/mm/d/a/fh;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/FHclz;
 
     if-eqz v0, :cond_0
 
     .line 39
-    check-cast p1, Lcom/tencent/mm/d/a/fh;
+    check-cast p1, Lcom/tencent/mm/d/a/FHclz;
 
     .line 40
-    iget-object v0, p1, Lcom/tencent/mm/d/a/fh;->azw:Lcom/tencent/mm/d/a/fh$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/FHclz;->azw:Lcom/tencent/mm/d/a/FHclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/fh$a;->azx:Lcom/tencent/mm/sdk/c/b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/FHclz$a;->azx:Lcom/tencent/mm/sdk/c/Bclz;
 
     if-eqz v0, :cond_0
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/c/a;->hKA:Ljava/util/ArrayList;
 
-    iget-object v1, p1, Lcom/tencent/mm/d/a/fh;->azw:Lcom/tencent/mm/d/a/fh$a;
+    iget-object v1, p1, Lcom/tencent/mm/d/a/FHclz;->azw:Lcom/tencent/mm/d/a/FHclz$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/d/a/fh$a;->azx:Lcom/tencent/mm/sdk/c/b;
+    iget-object v1, v1, Lcom/tencent/mm/d/a/FHclz$a;->azx:Lcom/tencent/mm/sdk/c/Bclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/sdk/c/b;->id:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/sdk/c/Bclz;->id:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
 
@@ -139,11 +139,11 @@
     if-eqz v0, :cond_0
 
     .line 41
-    iget-object v0, p1, Lcom/tencent/mm/d/a/fh;->azw:Lcom/tencent/mm/d/a/fh$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/FHclz;->azw:Lcom/tencent/mm/d/a/FHclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/fh$a;->azx:Lcom/tencent/mm/sdk/c/b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/FHclz$a;->azx:Lcom/tencent/mm/sdk/c/Bclz;
 
-    invoke-virtual {p0, v0}, Lcom/tencent/mm/pluginsdk/c/a;->d(Lcom/tencent/mm/sdk/c/b;)V
+    invoke-virtual {p0, v0}, Lcom/tencent/mm/pluginsdk/c/a;->d(Lcom/tencent/mm/sdk/c/Bclz;)V
 
     .line 44
     :cond_0
@@ -152,5 +152,5 @@
     return v0
 .end method
 
-.method public abstract d(Lcom/tencent/mm/sdk/c/b;)V
+.method public abstract d(Lcom/tencent/mm/sdk/c/Bclz;)V
 .end method

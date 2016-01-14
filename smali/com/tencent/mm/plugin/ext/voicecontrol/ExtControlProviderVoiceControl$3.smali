@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -64,9 +64,9 @@
 
     iget-object v3, p0, Lcom/tencent/mm/plugin/ext/voicecontrol/ExtControlProviderVoiceControl$3;->dxu:Lcom/tencent/mm/plugin/ext/voicecontrol/a;
 
-    iget-object v3, v3, Lcom/tencent/mm/plugin/ext/voicecontrol/a;->dxx:Lcom/tencent/mm/aq/b;
+    iget-object v3, v3, Lcom/tencent/mm/plugin/ext/voicecontrol/a;->dxx:Lcom/tencent/mm/aq/Bclz;
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/plugin/ext/voicecontrol/ExtControlProviderVoiceControl;->a(ILjava/lang/String;Lcom/tencent/mm/aq/b;)Z
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/plugin/ext/voicecontrol/ExtControlProviderVoiceControl;->a(ILjava/lang/String;Lcom/tencent/mm/aq/Bclz;)Z
 
     .line 420
     return-void

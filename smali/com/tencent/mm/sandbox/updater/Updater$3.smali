@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic jef:Lcom/tencent/mm/sandbox/a/a;
+.field final synthetic jef:Lcom/tencent/mm/sandbox/a/Aclz;
 
 .field final synthetic jeg:Lcom/tencent/mm/sandbox/updater/Updater;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/sandbox/updater/Updater;Lcom/tencent/mm/sandbox/a/a;)V
+.method constructor <init>(Lcom/tencent/mm/sandbox/updater/Updater;Lcom/tencent/mm/sandbox/a/Aclz;)V
     .locals 1
 
     .prologue
     .line 228
     iput-object p1, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jeg:Lcom/tencent/mm/sandbox/updater/Updater;
 
-    iput-object p2, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jef:Lcom/tencent/mm/sandbox/a/a;
+    iput-object p2, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jef:Lcom/tencent/mm/sandbox/a/Aclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -80,10 +80,10 @@
 
     const-string/jumbo v1, "go to update"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 239
-    invoke-static {}, Lcom/tencent/mm/compatible/util/g;->getExternalStorageState()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/compatible/util/Gclz;->getExternalStorageState()Ljava/lang/String;
 
     move-result-object v0
 
@@ -100,7 +100,7 @@
 
     const-string/jumbo v1, "no sdcard."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 241
     iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jeg:Lcom/tencent/mm/sandbox/updater/Updater;
@@ -109,20 +109,20 @@
 
     .line 244
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jef:Lcom/tencent/mm/sandbox/a/a;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jef:Lcom/tencent/mm/sandbox/a/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sandbox/a/a;->aNc()I
+    invoke-virtual {v0}, Lcom/tencent/mm/sandbox/a/Aclz;->aNc()I
 
     move-result v1
 
     .line 245
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jef:Lcom/tencent/mm/sandbox/a/a;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jef:Lcom/tencent/mm/sandbox/a/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sandbox/a/a;->aNe()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/sandbox/a/Aclz;->aNe()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/b/f;->aI(Ljava/lang/String;)Lcom/tencent/mm/b/f;
+    invoke-static {v0}, Lcom/tencent/mm/b/Fclz;->aI(Ljava/lang/String;)Lcom/tencent/mm/b/Fclz;
 
     move-result-object v2
 
@@ -133,7 +133,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/sandbox/updater/h;->cT(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sandbox/updater/Hclz;->cT(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -144,7 +144,7 @@
     if-eqz v2, :cond_2
 
     .line 249
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/b/f;->aH(Ljava/lang/String;)Lcom/tencent/mm/b/f$a;
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/b/Fclz;->aH(Ljava/lang/String;)Lcom/tencent/mm/b/Fclz$a;
 
     move-result-object v0
 
@@ -155,7 +155,7 @@
     int-to-long v0, v1
 
     :goto_0
-    invoke-static {v0, v1}, Lcom/tencent/mm/compatible/util/e;->B(J)Z
+    invoke-static {v0, v1}, Lcom/tencent/mm/compatible/util/Eclz;->B(J)Z
 
     move-result v0
 
@@ -166,7 +166,7 @@
 
     const-string/jumbo v1, "no enough space."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 254
     iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jeg:Lcom/tencent/mm/sandbox/updater/Updater;
@@ -175,7 +175,7 @@
 
     .line 262
     :cond_3
-    sget v0, Lcom/tencent/mm/sdk/platformtools/f;->akq:I
+    sget v0, Lcom/tencent/mm/sdk/platformtools/Fclz;->akq:I
 
     and-int/lit8 v0, v0, 0x1
 
@@ -186,7 +186,7 @@
 
     const-string/jumbo v1, "channel pack, not silence download."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 264
     iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jeg:Lcom/tencent/mm/sandbox/updater/Updater;
@@ -212,32 +212,32 @@
     if-nez v0, :cond_6
 
     .line 268
-    invoke-static {}, Lcom/tencent/mm/sandbox/updater/h;->EU()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/sandbox/updater/Hclz;->EU()Ljava/lang/String;
 
     move-result-object v0
 
     .line 269
-    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jef:Lcom/tencent/mm/sandbox/a/a;
+    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jef:Lcom/tencent/mm/sandbox/a/Aclz;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/sandbox/a/a;->aNd()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/sandbox/a/Aclz;->aNd()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/sandbox/monitor/c;->rS(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/tencent/mm/sandbox/monitor/Cclz;->rS(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_6
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
     if-nez v1, :cond_6
 
-    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jef:Lcom/tencent/mm/sandbox/a/a;
+    iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jef:Lcom/tencent/mm/sandbox/a/Aclz;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/sandbox/a/a;->aNd()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/sandbox/a/Aclz;->aNd()Ljava/lang/String;
 
     move-result-object v1
 
@@ -256,7 +256,7 @@
 
     aput-object v0, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 323
     :goto_1
@@ -264,7 +264,7 @@
 
     .line 251
     :cond_5
-    iget v0, v0, Lcom/tencent/mm/b/f$a;->size:I
+    iget v0, v0, Lcom/tencent/mm/b/Fclz$a;->size:I
 
     add-int/2addr v0, v1
 
@@ -274,9 +274,9 @@
 
     .line 276
     :cond_6
-    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jef:Lcom/tencent/mm/sandbox/a/a;
+    iget-object v0, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jef:Lcom/tencent/mm/sandbox/a/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sandbox/a/a;->aHI()Lcom/tencent/mm/protocal/b/VAclz;
+    invoke-virtual {v0}, Lcom/tencent/mm/sandbox/a/Aclz;->aHI()Lcom/tencent/mm/protocal/b/VAclz;
 
     move-result-object v0
 
@@ -289,7 +289,7 @@
 
     iget-object v1, v0, Lcom/tencent/mm/protocal/b/VAclz;->iFQ:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -329,10 +329,10 @@
 
     const-string/jumbo v3, ".ui.tools.WebViewUI"
 
-    invoke-static {v0, v2, v3, v1}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {v0, v2, v3, v1}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     .line 284
-    invoke-static {}, Lcom/tencent/mm/sandbox/updater/h;->aNv()V
+    invoke-static {}, Lcom/tencent/mm/sandbox/updater/Hclz;->aNv()V
 
     goto :goto_1
 
@@ -351,7 +351,7 @@
 
     const-string/jumbo v1, "gonna start UpdaterService"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 291
     new-instance v0, Landroid/content/Intent;
@@ -369,9 +369,9 @@
     .line 292
     iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jeg:Lcom/tencent/mm/sandbox/updater/Updater;
 
-    iget-object v2, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jef:Lcom/tencent/mm/sandbox/a/a;
+    iget-object v2, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jef:Lcom/tencent/mm/sandbox/a/Aclz;
 
-    invoke-static {v1, v0, p1, v2}, Lcom/tencent/mm/sandbox/updater/Updater;->a(Lcom/tencent/mm/sandbox/updater/Updater;Landroid/content/Intent;Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/sandbox/a/a;)V
+    invoke-static {v1, v0, p1, v2}, Lcom/tencent/mm/sandbox/updater/Updater;->a(Lcom/tencent/mm/sandbox/updater/Updater;Landroid/content/Intent;Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/sandbox/a/Aclz;)V
 
     .line 293
     const-string/jumbo v1, "intent_extra_run_in_foreground"
@@ -394,13 +394,13 @@
 
     .line 319
     :goto_2
-    invoke-static {}, Lcom/tencent/mm/l/c;->qO()Lcom/tencent/mm/l/a;
+    invoke-static {}, Lcom/tencent/mm/l/Cclz;->qO()Lcom/tencent/mm/l/Aclz;
 
     move-result-object v0
 
     const v1, 0x40001
 
-    invoke-virtual {v0, v1, v6}, Lcom/tencent/mm/l/a;->n(IZ)V
+    invoke-virtual {v0, v1, v6}, Lcom/tencent/mm/l/Aclz;->n(IZ)V
 
     .line 321
     invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/a;->aIe()V
@@ -413,7 +413,7 @@
 
     const-string/jumbo v1, "gonna start AppUpdaterUI"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 298
     new-instance v0, Landroid/content/Intent;
@@ -431,9 +431,9 @@
     .line 302
     iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jeg:Lcom/tencent/mm/sandbox/updater/Updater;
 
-    iget-object v2, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jef:Lcom/tencent/mm/sandbox/a/a;
+    iget-object v2, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jef:Lcom/tencent/mm/sandbox/a/Aclz;
 
-    invoke-static {v1, v0, p1, v2}, Lcom/tencent/mm/sandbox/updater/Updater;->a(Lcom/tencent/mm/sandbox/updater/Updater;Landroid/content/Intent;Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/sandbox/a/a;)V
+    invoke-static {v1, v0, p1, v2}, Lcom/tencent/mm/sandbox/updater/Updater;->a(Lcom/tencent/mm/sandbox/updater/Updater;Landroid/content/Intent;Lcom/tencent/mm/network/Eclz;Lcom/tencent/mm/sandbox/a/Aclz;)V
 
     .line 304
     const-string/jumbo v1, "!32@/B4Tb64lLpJ7QNEsxPPC97dw8tpB2lT1"
@@ -454,7 +454,7 @@
 
     aput-object v4, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 306
     iget-object v1, p0, Lcom/tencent/mm/sandbox/updater/Updater$3;->jeg:Lcom/tencent/mm/sandbox/updater/Updater;

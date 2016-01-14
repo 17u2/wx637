@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,7 +48,7 @@
 
     .prologue
     .line 264
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -60,7 +60,7 @@
 
     const-string/jumbo v1, "parseMsgSource context is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 278
     :cond_0
@@ -88,30 +88,30 @@
     if-lez v0, :cond_0
 
     .line 272
-    invoke-static {}, Lcom/tencent/mm/model/ARclz;->ug()Lcom/tencent/mm/sdk/platformtools/aq;
+    invoke-static {}, Lcom/tencent/mm/model/ARclz;->ug()Lcom/tencent/mm/sdk/platformtools/AQclz;
 
     move-result-object v0
 
     if-nez v0, :cond_2
 
     .line 273
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/aq;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AQclz;
 
     const/4 v2, 0x1
 
     const-string/jumbo v3, "!32@/B4Tb64lLpLzSPiC36REVuOjo/7Q98V8"
 
-    invoke-direct {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/aq;-><init>(ILjava/lang/String;)V
+    invoke-direct {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/AQclz;-><init>(ILjava/lang/String;)V
 
-    invoke-static {v0}, Lcom/tencent/mm/model/ARclz;->a(Lcom/tencent/mm/sdk/platformtools/aq;)Lcom/tencent/mm/sdk/platformtools/aq;
+    invoke-static {v0}, Lcom/tencent/mm/model/ARclz;->a(Lcom/tencent/mm/sdk/platformtools/AQclz;)Lcom/tencent/mm/sdk/platformtools/AQclz;
 
     .line 275
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/model/ARclz;->ug()Lcom/tencent/mm/sdk/platformtools/aq;
+    invoke-static {}, Lcom/tencent/mm/model/ARclz;->ug()Lcom/tencent/mm/sdk/platformtools/AQclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/aq;->c(Lcom/tencent/mm/sdk/platformtools/aq$a;)I
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/AQclz;->c(Lcom/tencent/mm/sdk/platformtools/AQclz$a;)I
 
     goto :goto_0
 .end method

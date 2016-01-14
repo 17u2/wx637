@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,7 +50,7 @@
     .line 635
     iget-object v0, p0, Lcom/tencent/mm/ui/transmit/MsgRetransmitUI$7;->kIb:Lcom/tencent/mm/ui/transmit/MsgRetransmitUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/transmit/MsgRetransmitUI;->b(Lcom/tencent/mm/ui/transmit/MsgRetransmitUI;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0}, Lcom/tencent/mm/ui/transmit/MsgRetransmitUI;->b(Lcom/tencent/mm/ui/transmit/MsgRetransmitUI;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -59,11 +59,11 @@
     .line 636
     iget-object v0, p0, Lcom/tencent/mm/ui/transmit/MsgRetransmitUI$7;->kIb:Lcom/tencent/mm/ui/transmit/MsgRetransmitUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/transmit/MsgRetransmitUI;->b(Lcom/tencent/mm/ui/transmit/MsgRetransmitUI;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0}, Lcom/tencent/mm/ui/transmit/MsgRetransmitUI;->b(Lcom/tencent/mm/ui/transmit/MsgRetransmitUI;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/g;->cancel()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Gclz;->cancel()V
 
     .line 638
     :cond_0

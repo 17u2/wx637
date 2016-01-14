@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/booter/Iclz$3;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -22,13 +22,13 @@
     .line 207
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -36,7 +36,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 11
 
     .prologue
@@ -45,27 +45,27 @@
     .line 209
     if-eqz p1, :cond_1
 
-    instance-of v0, p1, Lcom/tencent/mm/d/a/bm;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/BMclz;
 
     if-eqz v0, :cond_1
 
     .line 210
-    check-cast p1, Lcom/tencent/mm/d/a/bm;
+    check-cast p1, Lcom/tencent/mm/d/a/BMclz;
 
     .line 211
-    iget-object v0, p1, Lcom/tencent/mm/d/a/bm;->aue:Lcom/tencent/mm/d/a/bm$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/BMclz;->aue:Lcom/tencent/mm/d/a/BMclz$a;
 
-    iget-object v3, v0, Lcom/tencent/mm/d/a/bm$a;->auc:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/d/a/BMclz$a;->auc:Ljava/lang/String;
 
     .line 212
-    iget-object v0, p1, Lcom/tencent/mm/d/a/bm;->aue:Lcom/tencent/mm/d/a/bm$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/BMclz;->aue:Lcom/tencent/mm/d/a/BMclz$a;
 
-    iget v4, v0, Lcom/tencent/mm/d/a/bm$a;->auf:I
+    iget v4, v0, Lcom/tencent/mm/d/a/BMclz$a;->auf:I
 
     .line 213
-    iget-object v0, p1, Lcom/tencent/mm/d/a/bm;->aue:Lcom/tencent/mm/d/a/bm$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/BMclz;->aue:Lcom/tencent/mm/d/a/BMclz$a;
 
-    iget v5, v0, Lcom/tencent/mm/d/a/bm$a;->aug:I
+    iget v5, v0, Lcom/tencent/mm/d/a/BMclz$a;->aug:I
 
     .line 215
     invoke-static {}, Lcom/tencent/mm/booter/Iclz;->nj()Ljava/util/Map;
@@ -129,9 +129,9 @@
     iput v0, v6, Lcom/tencent/mm/protocal/b/XCclz;->minor:I
 
     .line 220
-    iget-object v0, p1, Lcom/tencent/mm/d/a/bm;->aue:Lcom/tencent/mm/d/a/bm$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/BMclz;->aue:Lcom/tencent/mm/d/a/BMclz$a;
 
-    iget-wide v0, v0, Lcom/tencent/mm/d/a/bm$a;->auh:D
+    iget-wide v0, v0, Lcom/tencent/mm/d/a/BMclz$a;->auh:D
 
     iput-wide v0, v6, Lcom/tencent/mm/protocal/b/XCclz;->fSA:D
 
@@ -175,9 +175,9 @@
     invoke-interface {v0, v1, v6}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 223
-    iget-object v0, p1, Lcom/tencent/mm/d/a/bm;->aue:Lcom/tencent/mm/d/a/bm$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/BMclz;->aue:Lcom/tencent/mm/d/a/BMclz$a;
 
-    iget-wide v0, v0, Lcom/tencent/mm/d/a/bm$a;->auh:D
+    iget-wide v0, v0, Lcom/tencent/mm/d/a/BMclz$a;->auh:D
 
     const-wide/16 v7, 0x0
 
@@ -221,9 +221,9 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/XCclz;
 
     .line 227
-    iget-object v7, p1, Lcom/tencent/mm/d/a/bm;->aue:Lcom/tencent/mm/d/a/bm$a;
+    iget-object v7, p1, Lcom/tencent/mm/d/a/BMclz;->aue:Lcom/tencent/mm/d/a/BMclz$a;
 
-    iget-wide v7, v7, Lcom/tencent/mm/d/a/bm$a;->auh:D
+    iget-wide v7, v7, Lcom/tencent/mm/d/a/BMclz$a;->auh:D
 
     iget-wide v9, v0, Lcom/tencent/mm/protocal/b/XCclz;->fSA:D
 
@@ -299,7 +299,7 @@
 
     aput-object v4, v6, v3
 
-    invoke-static {v0, v1, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 241
     :cond_1
@@ -319,9 +319,9 @@
 
     if-ne v1, v7, :cond_3
 
-    iget-object v7, p1, Lcom/tencent/mm/d/a/bm;->aue:Lcom/tencent/mm/d/a/bm$a;
+    iget-object v7, p1, Lcom/tencent/mm/d/a/BMclz;->aue:Lcom/tencent/mm/d/a/BMclz$a;
 
-    iget-wide v7, v7, Lcom/tencent/mm/d/a/bm$a;->auh:D
+    iget-wide v7, v7, Lcom/tencent/mm/d/a/BMclz$a;->auh:D
 
     iget-wide v9, v0, Lcom/tencent/mm/protocal/b/XCclz;->fSA:D
 

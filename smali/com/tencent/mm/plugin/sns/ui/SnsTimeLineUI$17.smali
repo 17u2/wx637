@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -104,14 +104,14 @@
     .line 1524
     const/16 v1, 0x2c1
 
-    invoke-static {v1}, Lcom/tencent/mm/modelsns/a;->dR(I)Lcom/tencent/mm/modelsns/a;
+    invoke-static {v1}, Lcom/tencent/mm/modelsns/Aclz;->dR(I)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v1
 
     .line 1525
-    iget v2, v1, Lcom/tencent/mm/modelsns/a;->bTK:I
+    iget v2, v1, Lcom/tencent/mm/modelsns/Aclz;->bTK:I
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/modelsns/a;->dV(I)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/modelsns/Aclz;->dV(I)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v2
 
@@ -131,32 +131,32 @@
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/modelsns/a;->iI(Ljava/lang/String;)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/modelsns/Aclz;->iI(Ljava/lang/String;)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v2
 
-    iget v3, v1, Lcom/tencent/mm/modelsns/a;->bTM:I
+    iget v3, v1, Lcom/tencent/mm/modelsns/Aclz;->bTM:I
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/modelsns/a;->dV(I)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/modelsns/Aclz;->dV(I)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v6}, Lcom/tencent/mm/modelsns/a;->dV(I)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v2, v6}, Lcom/tencent/mm/modelsns/Aclz;->dV(I)Lcom/tencent/mm/modelsns/Aclz;
 
     .line 1530
     sget-object v2, Lcom/tencent/mm/plugin/sns/g/c;->goq:Lcom/tencent/mm/plugin/sns/g/e;
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/plugin/sns/g/e;->b(Lcom/tencent/mm/modelsns/a;)Lcom/tencent/mm/modelsns/a;
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/plugin/sns/g/e;->b(Lcom/tencent/mm/modelsns/Aclz;)Lcom/tencent/mm/modelsns/Aclz;
 
     move-result-object v1
 
     .line 1531
-    invoke-virtual {v1}, Lcom/tencent/mm/modelsns/a;->Cg()Z
+    invoke-virtual {v1}, Lcom/tencent/mm/modelsns/Aclz;->Cg()Z
 
     .line 1532
     const-string/jumbo v2, "intent_key_StatisticsOplog"
 
-    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/modelsns/a;->b(Landroid/content/Intent;Ljava/lang/String;)V
+    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/modelsns/Aclz;->b(Landroid/content/Intent;Ljava/lang/String;)V
 
     .line 1533
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI$17;->gEt:Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI;

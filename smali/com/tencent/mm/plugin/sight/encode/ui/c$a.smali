@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/sight/encode/ui/c$a;
-.super Lcom/tencent/mm/ui/contact/a/e;
+.super Lcom/tencent/mm/ui/contact/a/Eclz;
 .source "SourceFile"
 
 
@@ -34,14 +34,14 @@
     iput-object p1, p0, Lcom/tencent/mm/plugin/sight/encode/ui/c$a;->gbx:Lcom/tencent/mm/plugin/sight/encode/ui/c;
 
     .line 97
-    invoke-direct {p0, p2}, Lcom/tencent/mm/ui/contact/a/e;-><init>(I)V
+    invoke-direct {p0, p2}, Lcom/tencent/mm/ui/contact/a/Eclz;-><init>(I)V
 
     .line 98
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -49,7 +49,7 @@
 
 
 # virtual methods
-.method public final afQ()Lcom/tencent/mm/ui/contact/a/a$b;
+.method public final afQ()Lcom/tencent/mm/ui/contact/a/Aclz$b;
     .locals 1
 
     .prologue
@@ -61,7 +61,7 @@
     return-object v0
 .end method
 
-.method protected final arM()Lcom/tencent/mm/ui/contact/a/a$a;
+.method protected final arM()Lcom/tencent/mm/ui/contact/a/Aclz$a;
     .locals 1
 
     .prologue

@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -66,7 +66,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 374
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ChatroomContactUI$12;->krl:Lcom/tencent/mm/ui/contact/ChatroomContactUI;
@@ -86,7 +86,7 @@
 
     const-string/jumbo v1, "on item long click, but match header view"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 390
     :cond_0
@@ -97,7 +97,7 @@
     :cond_1
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ChatroomContactUI$12;->krl:Lcom/tencent/mm/ui/contact/ChatroomContactUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->d(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/ui/voicesearch/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->d(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/ui/voicesearch/Bclz;
 
     move-result-object v0
 
@@ -105,11 +105,11 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ChatroomContactUI$12;->krl:Lcom/tencent/mm/ui/contact/ChatroomContactUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->d(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/ui/voicesearch/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->d(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/ui/voicesearch/Bclz;
 
     move-result-object v0
 
-    iget-boolean v0, v0, Lcom/tencent/mm/ui/voicesearch/b;->kJv:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/ui/voicesearch/Bclz;->kJv:Z
 
     if-nez v0, :cond_0
 
@@ -117,7 +117,7 @@
     :cond_2
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ChatroomContactUI$12;->krl:Lcom/tencent/mm/ui/contact/ChatroomContactUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->f(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/ui/contact/d;
+    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->f(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/ui/contact/Dclz;
 
     move-result-object v0
 
@@ -133,14 +133,14 @@
 
     sub-int v1, p3, v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/contact/d;->getItem(I)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/contact/Dclz;->getItem(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lcom/tencent/mm/storage/Kclz;
 
     .line 384
-    iget-object v0, v0, Lcom/tencent/mm/d/b/o;->field_username:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     .line 385
     invoke-static {v0}, Lcom/tencent/mm/model/Iclz;->eq(Ljava/lang/String;)Z
@@ -163,7 +163,7 @@
     .line 389
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ChatroomContactUI$12;->krl:Lcom/tencent/mm/ui/contact/ChatroomContactUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->h(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/ui/tools/l;
+    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->h(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/ui/tools/Lclz;
 
     move-result-object v0
 
@@ -171,7 +171,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/ChatroomContactUI$12;->krl:Lcom/tencent/mm/ui/contact/ChatroomContactUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->g(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/ui/base/m$d;
+    invoke-static {v1}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->g(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/ui/base/Mclz$d;
 
     move-result-object v6
 
@@ -181,7 +181,7 @@
 
     move-wide v3, p4
 
-    invoke-virtual/range {v0 .. v6}, Lcom/tencent/mm/ui/tools/l;->a(Landroid/view/View;IJLandroid/view/View$OnCreateContextMenuListener;Lcom/tencent/mm/ui/base/m$d;)V
+    invoke-virtual/range {v0 .. v6}, Lcom/tencent/mm/ui/tools/Lclz;->a(Landroid/view/View;IJLandroid/view/View$OnCreateContextMenuListener;Lcom/tencent/mm/ui/base/Mclz$d;)V
 
     goto :goto_0
 .end method

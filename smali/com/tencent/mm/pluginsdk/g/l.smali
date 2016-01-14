@@ -46,7 +46,7 @@
     iput-boolean v0, p0, Lcom/tencent/mm/pluginsdk/g/l;->emP:Z
 
     .line 20
-    invoke-static {}, Lcom/tencent/mm/sdk/b/b;->aNJ()Z
+    invoke-static {}, Lcom/tencent/mm/sdk/b/Bclz;->aNJ()Z
 
     move-result v0
 
@@ -66,7 +66,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_1
     return-void

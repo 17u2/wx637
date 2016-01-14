@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -128,20 +128,20 @@
     .line 254
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI$5;->kzc:Lcom/tencent/mm/ui/friend/FindMContactInviteUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->b(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;)Lcom/tencent/mm/modelfriend/j;
+    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->b(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;)Lcom/tencent/mm/modelfriend/Jclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/modelfriend/j;->aU(Z)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/modelfriend/Jclz;->aU(Z)V
 
     .line 255
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI$5;->kzc:Lcom/tencent/mm/ui/friend/FindMContactInviteUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->b(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;)Lcom/tencent/mm/modelfriend/j;
+    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->b(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;)Lcom/tencent/mm/modelfriend/Jclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/j;->notifyDataSetChanged()V
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Jclz;->notifyDataSetChanged()V
 
     .line 256
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI$5;->kzc:Lcom/tencent/mm/ui/friend/FindMContactInviteUI;
@@ -188,20 +188,20 @@
     .line 260
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI$5;->kzc:Lcom/tencent/mm/ui/friend/FindMContactInviteUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->b(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;)Lcom/tencent/mm/modelfriend/j;
+    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->b(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;)Lcom/tencent/mm/modelfriend/Jclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/modelfriend/j;->aU(Z)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/modelfriend/Jclz;->aU(Z)V
 
     .line 261
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI$5;->kzc:Lcom/tencent/mm/ui/friend/FindMContactInviteUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->b(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;)Lcom/tencent/mm/modelfriend/j;
+    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->b(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;)Lcom/tencent/mm/modelfriend/Jclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/j;->notifyDataSetChanged()V
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Jclz;->notifyDataSetChanged()V
 
     .line 262
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI$5;->kzc:Lcom/tencent/mm/ui/friend/FindMContactInviteUI;
@@ -214,20 +214,20 @@
     :cond_2
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI$5;->kzc:Lcom/tencent/mm/ui/friend/FindMContactInviteUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->b(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;)Lcom/tencent/mm/modelfriend/j;
+    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->b(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;)Lcom/tencent/mm/modelfriend/Jclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/modelfriend/j;->aU(Z)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/modelfriend/Jclz;->aU(Z)V
 
     .line 265
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI$5;->kzc:Lcom/tencent/mm/ui/friend/FindMContactInviteUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->b(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;)Lcom/tencent/mm/modelfriend/j;
+    invoke-static {v0}, Lcom/tencent/mm/ui/friend/FindMContactInviteUI;->b(Lcom/tencent/mm/ui/friend/FindMContactInviteUI;)Lcom/tencent/mm/modelfriend/Jclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/j;->notifyDataSetChanged()V
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Jclz;->notifyDataSetChanged()V
 
     .line 266
     iget-object v0, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI$5;->kzc:Lcom/tencent/mm/ui/friend/FindMContactInviteUI;

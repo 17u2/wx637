@@ -50,7 +50,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -67,7 +67,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -312,7 +312,7 @@
 
     if-nez v9, :cond_2
 
-    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/bc;->AX(Ljava/lang/String;)Z
+    invoke-static {v7}, Lcom/tencent/mm/sdk/platformtools/BCclz;->AX(Ljava/lang/String;)Z
 
     move-result v9
 
@@ -331,12 +331,12 @@
     if-nez v9, :cond_2
 
     .line 911
-    new-instance v9, Lcom/tencent/mm/modelfriend/o;
+    new-instance v9, Lcom/tencent/mm/modelfriend/Oclz;
 
-    invoke-direct {v9}, Lcom/tencent/mm/modelfriend/o;-><init>()V
+    invoke-direct {v9}, Lcom/tencent/mm/modelfriend/Oclz;-><init>()V
 
     .line 912
-    iput-object v5, v9, Lcom/tencent/mm/modelfriend/o;->field_googleid:Ljava/lang/String;
+    iput-object v5, v9, Lcom/tencent/mm/modelfriend/Oclz;->field_googleid:Ljava/lang/String;
 
     .line 913
     new-instance v10, Ljava/lang/StringBuilder;
@@ -355,16 +355,16 @@
 
     move-result-object v10
 
-    iput-object v10, v9, Lcom/tencent/mm/modelfriend/o;->field_googleitemid:Ljava/lang/String;
+    iput-object v10, v9, Lcom/tencent/mm/modelfriend/Oclz;->field_googleitemid:Ljava/lang/String;
 
     .line 914
-    iput-object v4, v9, Lcom/tencent/mm/modelfriend/o;->field_googlename:Ljava/lang/String;
+    iput-object v4, v9, Lcom/tencent/mm/modelfriend/Oclz;->field_googlename:Ljava/lang/String;
 
     .line 915
-    iput-object v3, v9, Lcom/tencent/mm/modelfriend/o;->field_googlephotourl:Ljava/lang/String;
+    iput-object v3, v9, Lcom/tencent/mm/modelfriend/Oclz;->field_googlephotourl:Ljava/lang/String;
 
     .line 916
-    iput-object v7, v9, Lcom/tencent/mm/modelfriend/o;->field_googlegmail:Ljava/lang/String;
+    iput-object v7, v9, Lcom/tencent/mm/modelfriend/Oclz;->field_googlegmail:Ljava/lang/String;
 
     .line 917
     iget-object v10, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI$b;->jWd:Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;
@@ -439,7 +439,7 @@
 
     const-string/jumbo v3, "doInBackground"
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v2
 
@@ -472,7 +472,7 @@
 
     aput-object v0, v7, v8
 
-    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 772
     const-string/jumbo v0, "json"
@@ -533,7 +533,7 @@
 
     aput-object v9, v7, v8
 
-    invoke-static {v0, v5, v7}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v5, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     invoke-virtual {v6}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
@@ -569,7 +569,7 @@
 
     aput-object v10, v8, v9
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     const/16 v6, 0xc8
 
@@ -662,7 +662,7 @@
 
     const-string/jumbo v6, "Server OAuth Error,Please Try Again."
 
-    invoke-static {v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_4
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
@@ -676,7 +676,7 @@
 
     const-string/jumbo v6, "Unknow Error."
 
-    invoke-static {v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_1
@@ -713,7 +713,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_3
 
@@ -753,7 +753,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_3
 
@@ -838,7 +838,7 @@
 
     const-string/jumbo v1, "onPostExecute"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI$b;->jWl:Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI$a;
 
@@ -912,7 +912,7 @@
 
     const-string/jumbo v1, "onPreExecute"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 759
     iget-object v0, p0, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI$b;->jWd:Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;

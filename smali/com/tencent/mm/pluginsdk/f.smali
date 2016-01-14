@@ -9,13 +9,13 @@
 
 
 # virtual methods
-.method public abstract a(Ljava/lang/Runnable;Lcom/tencent/mm/ui/MMActivity;IILandroid/content/Intent;)Lcom/tencent/mm/ui/base/g;
+.method public abstract a(Ljava/lang/Runnable;Lcom/tencent/mm/ui/MMActivity;IILandroid/content/Intent;)Lcom/tencent/mm/ui/base/Gclz;
 .end method
 
 .method public abstract a(Landroid/app/Activity;Landroid/content/Intent;I)V
 .end method
 
-.method public abstract a(Landroid/app/Activity;Landroid/content/Intent;Landroid/content/Intent;Ljava/lang/String;ILcom/tencent/mm/ui/tools/a$a;)V
+.method public abstract a(Landroid/app/Activity;Landroid/content/Intent;Landroid/content/Intent;Ljava/lang/String;ILcom/tencent/mm/ui/tools/Aclz$a;)V
 .end method
 
 .method public abstract a(Landroid/content/Context;Landroid/content/Intent;Landroid/content/Intent;)V
@@ -57,7 +57,7 @@
 .method public varargs abstract a(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/Object;)Z
 .end method
 
-.method public abstract ad(Landroid/content/Context;)Lcom/tencent/mm/ui/base/g;
+.method public abstract ad(Landroid/content/Context;)Lcom/tencent/mm/ui/base/Gclz;
 .end method
 
 .method public abstract ae(Landroid/content/Context;)Landroid/content/Intent;

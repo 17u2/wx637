@@ -45,7 +45,7 @@
     iput-object p2, p0, Lcom/tencent/mm/model/Mclz$c;->url:Ljava/lang/String;
 
     .line 42
-    invoke-static {}, Lcom/tencent/mm/z/p;->Ae()Z
+    invoke-static {}, Lcom/tencent/mm/z/Pclz;->Ae()Z
 
     move-result v0
 
@@ -58,7 +58,7 @@
     .line 43
     iget-object v0, p0, Lcom/tencent/mm/model/Mclz$c;->url:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/z/p;->hG(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/z/Pclz;->hG(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -79,7 +79,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_1
     return-void

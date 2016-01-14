@@ -34,7 +34,7 @@
 
     aput-byte v5, v0, v2
 
-    invoke-static {v0}, Lcom/tencent/mm/a/f;->n([B)[B
+    invoke-static {v0}, Lcom/tencent/mm/a/Fclz;->n([B)[B
 
     move-result-object v0
 
@@ -46,13 +46,13 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->H([B)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->H([B)Ljava/lang/String;
 
     move-result-object v4
 
     aput-object v4, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-object v0
 .end method

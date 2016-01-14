@@ -9,9 +9,9 @@
 # instance fields
 .field egH:Lcom/tencent/mm/plugin/hp/a/a;
 
-.field private egI:Lcom/tencent/mm/sdk/c/d;
+.field private egI:Lcom/tencent/mm/sdk/c/Dclz;
 
-.field private egJ:Lcom/tencent/mm/sdk/c/d;
+.field private egJ:Lcom/tencent/mm/sdk/c/Dclz;
 
 
 # direct methods
@@ -34,41 +34,41 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/hp/a$1;-><init>(Lcom/tencent/mm/plugin/hp/a;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/hp/a;->egI:Lcom/tencent/mm/sdk/c/d;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/hp/a;->egI:Lcom/tencent/mm/sdk/c/Dclz;
 
     .line 47
     new-instance v0, Lcom/tencent/mm/plugin/hp/a$2;
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/hp/a$2;-><init>(Lcom/tencent/mm/plugin/hp/a;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/hp/a;->egJ:Lcom/tencent/mm/sdk/c/d;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/hp/a;->egJ:Lcom/tencent/mm/sdk/c/Dclz;
 
     .line 66
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "HotPatchApply"
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/hp/a;->egH:Lcom/tencent/mm/plugin/hp/a/a;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 67
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "CheckResUpdateCacheFile"
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/hp/a;->egJ:Lcom/tencent/mm/sdk/c/d;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/hp/a;->egJ:Lcom/tencent/mm/sdk/c/Dclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 68
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "CheckResUpdatePreOperation"
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/hp/a;->egI:Lcom/tencent/mm/sdk/c/d;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/hp/a;->egI:Lcom/tencent/mm/sdk/c/Dclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 76
     invoke-static {}, Lcom/tencent/mm/plugin/hp/a/b;->ZN()V
@@ -78,7 +78,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

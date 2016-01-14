@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -83,11 +83,11 @@
     .line 239
     iget-object v1, p0, Lcom/tencent/mm/ui/base/preference/MMPreference$3;->jUH:Lcom/tencent/mm/ui/base/preference/MMPreference;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/base/preference/MMPreference;->d(Lcom/tencent/mm/ui/base/preference/MMPreference;)Lcom/tencent/mm/ui/base/preference/h;
+    invoke-static {v1}, Lcom/tencent/mm/ui/base/preference/MMPreference;->d(Lcom/tencent/mm/ui/base/preference/MMPreference;)Lcom/tencent/mm/ui/base/preference/Hclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/base/preference/h;->getCount()I
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/base/preference/Hclz;->getCount()I
 
     move-result v1
 
@@ -112,11 +112,11 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ui/base/preference/MMPreference$3;->jUH:Lcom/tencent/mm/ui/base/preference/MMPreference;
 
-    invoke-static {v4}, Lcom/tencent/mm/ui/base/preference/MMPreference;->d(Lcom/tencent/mm/ui/base/preference/MMPreference;)Lcom/tencent/mm/ui/base/preference/h;
+    invoke-static {v4}, Lcom/tencent/mm/ui/base/preference/MMPreference;->d(Lcom/tencent/mm/ui/base/preference/MMPreference;)Lcom/tencent/mm/ui/base/preference/Hclz;
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lcom/tencent/mm/ui/base/preference/h;->getCount()I
+    invoke-virtual {v4}, Lcom/tencent/mm/ui/base/preference/Hclz;->getCount()I
 
     move-result v4
 
@@ -126,7 +126,7 @@
 
     aput-object v4, v3, v0
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -134,11 +134,11 @@
     :cond_1
     iget-object v1, p0, Lcom/tencent/mm/ui/base/preference/MMPreference$3;->jUH:Lcom/tencent/mm/ui/base/preference/MMPreference;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/base/preference/MMPreference;->d(Lcom/tencent/mm/ui/base/preference/MMPreference;)Lcom/tencent/mm/ui/base/preference/h;
+    invoke-static {v1}, Lcom/tencent/mm/ui/base/preference/MMPreference;->d(Lcom/tencent/mm/ui/base/preference/MMPreference;)Lcom/tencent/mm/ui/base/preference/Hclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/preference/h;->getItem(I)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/ui/base/preference/Hclz;->getItem(I)Ljava/lang/Object;
 
     goto :goto_0
 .end method

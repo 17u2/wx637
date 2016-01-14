@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -149,7 +149,7 @@
 
     const/4 v4, 0x0
 
-    sget v5, Lcom/tencent/mm/ui/contact/q;->ktx:I
+    sget v5, Lcom/tencent/mm/ui/contact/Qclz;->ktx:I
 
     aput v5, v3, v4
 
@@ -157,7 +157,7 @@
 
     aput v4, v3, v6
 
-    invoke-static {v3}, Lcom/tencent/mm/ui/contact/q;->k([I)I
+    invoke-static {v3}, Lcom/tencent/mm/ui/contact/Qclz;->k([I)I
 
     move-result v3
 
@@ -173,7 +173,7 @@
 
     const-string/jumbo v2, ".ui.contact.SelectContactUI"
 
-    invoke-static {v1, v2, v0, v6}, Lcom/tencent/mm/ao/c;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;I)V
+    invoke-static {v1, v2, v0, v6}, Lcom/tencent/mm/ao/Cclz;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;I)V
 
     goto :goto_0
 .end method

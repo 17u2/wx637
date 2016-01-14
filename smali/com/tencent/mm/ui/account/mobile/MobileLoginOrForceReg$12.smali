@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,7 +50,7 @@
     .line 215
     iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$12;->jHu:Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;
 
-    new-instance v1, Lcom/tencent/mm/ui/account/mobile/a;
+    new-instance v1, Lcom/tencent/mm/ui/account/mobile/Aclz;
 
     new-instance v2, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$12$1;
 
@@ -74,20 +74,20 @@
 
     move-result-object v5
 
-    invoke-direct {v1, v2, v3, v4, v5}, Lcom/tencent/mm/ui/account/mobile/a;-><init>(Lcom/tencent/mm/ui/account/mobile/a$a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v2, v3, v4, v5}, Lcom/tencent/mm/ui/account/mobile/Aclz;-><init>(Lcom/tencent/mm/ui/account/mobile/Aclz$a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->a(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;Lcom/tencent/mm/ui/account/mobile/a;)Lcom/tencent/mm/ui/account/mobile/a;
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->a(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;Lcom/tencent/mm/ui/account/mobile/Aclz;)Lcom/tencent/mm/ui/account/mobile/Aclz;
 
     .line 223
     iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$12;->jHu:Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->f(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;)Lcom/tencent/mm/ui/account/mobile/a;
+    invoke-static {v0}, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->f(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;)Lcom/tencent/mm/ui/account/mobile/Aclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$12;->jHu:Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/account/mobile/a;->e(Lcom/tencent/mm/ui/MMActivity;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/account/mobile/Aclz;->e(Lcom/tencent/mm/ui/MMActivity;)V
 
     .line 224
     return-void

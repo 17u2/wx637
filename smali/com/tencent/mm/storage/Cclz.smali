@@ -46,7 +46,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -80,14 +80,14 @@
     if-eqz v0, :cond_0
 
     .line 199
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/s;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/Sclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/s;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/sdk/platformtools/Sclz;-><init>()V
 
     .line 200
     iget-object v1, p0, Lcom/tencent/mm/storage/Cclz;->field_lvbuff:[B
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/s;->aO([B)I
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Sclz;->aO([B)I
 
     move-result v1
 
@@ -97,117 +97,117 @@
     .line 205
     const/4 v1, 0x4
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/s;->oC(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Sclz;->oC(I)V
 
     .line 207
     const/4 v1, 0x4
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/s;->oC(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Sclz;->oC(I)V
 
     .line 209
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/s;->aNY()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/Sclz;->aNY()V
 
     .line 211
     const/16 v1, 0x8
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/s;->oC(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Sclz;->oC(I)V
 
     .line 213
     const/4 v1, 0x4
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/s;->oC(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Sclz;->oC(I)V
 
     .line 215
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/s;->aNY()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/Sclz;->aNY()V
 
     .line 217
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/s;->aNY()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/Sclz;->aNY()V
 
     .line 219
     const/4 v1, 0x4
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/s;->oC(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Sclz;->oC(I)V
 
     .line 221
     const/4 v1, 0x4
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/s;->oC(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Sclz;->oC(I)V
 
     .line 223
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/s;->aNY()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/Sclz;->aNY()V
 
     .line 225
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/s;->aNY()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/Sclz;->aNY()V
 
     .line 227
     const/4 v1, 0x4
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/s;->oC(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Sclz;->oC(I)V
 
     .line 229
     const/4 v1, 0x4
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/s;->oC(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Sclz;->oC(I)V
 
     .line 230
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/s;->getString()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/Sclz;->getString()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/tencent/mm/storage/Cclz;->field_signature:Ljava/lang/String;
 
     .line 234
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/s;->aNY()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/Sclz;->aNY()V
 
     .line 236
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/s;->aNY()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/Sclz;->aNY()V
 
     .line 238
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/s;->aNY()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/Sclz;->aNY()V
 
     .line 240
     const/4 v1, 0x4
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/s;->oC(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Sclz;->oC(I)V
 
     .line 242
     const/4 v1, 0x4
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/s;->oC(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Sclz;->oC(I)V
 
     .line 244
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/s;->aNY()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/Sclz;->aNY()V
 
     .line 246
     const/4 v1, 0x4
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/s;->oC(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Sclz;->oC(I)V
 
     .line 248
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/s;->aNY()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/Sclz;->aNY()V
 
     .line 252
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/s;->aNY()V
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/Sclz;->aNY()V
 
     .line 256
     const/4 v1, 0x4
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/s;->oC(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Sclz;->oC(I)V
 
     .line 260
     const/4 v1, 0x4
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/s;->oC(I)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Sclz;->oC(I)V
 
     .line 262
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/s;->aNZ()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/Sclz;->aNZ()Z
 
     move-result v1
 
     if-nez v1, :cond_2
 
     .line 263
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/s;->getString()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/Sclz;->getString()Ljava/lang/String;
 
     move-result-object v0
 
@@ -238,13 +238,13 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->b(Ljava/lang/Throwable;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->b(Ljava/lang/Throwable;)Ljava/lang/String;
 
     move-result-object v0
 
     aput-object v0, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto/16 :goto_0
 .end method

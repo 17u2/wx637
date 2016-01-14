@@ -49,7 +49,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -139,7 +139,7 @@
 
     move-result v2
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->e(C)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->e(C)Z
 
     move-result v2
 
@@ -236,7 +236,7 @@
     .line 54
     iget-object v0, p0, Lcom/tencent/mm/ui/ExposeSupplementUI;->jtN:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -317,7 +317,7 @@
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/ui/ExposeSupplementUI$3;-><init>(Lcom/tencent/mm/ui/ExposeSupplementUI;)V
 
-    sget v4, Lcom/tencent/mm/ui/j$b;->jyX:I
+    sget v4, Lcom/tencent/mm/ui/Jclz$b;->jyX:I
 
     invoke-virtual {p0, v0, v2, v3, v4}, Lcom/tencent/mm/ui/ExposeSupplementUI;->a(ILjava/lang/String;Landroid/view/MenuItem$OnMenuItemClickListener;I)V
 

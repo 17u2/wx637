@@ -25,9 +25,9 @@
 
 .field cXM:Landroid/content/Context;
 
-.field final cYw:Lcom/tencent/mm/sdk/g/g$a;
+.field final cYw:Lcom/tencent/mm/sdk/g/Gclz$a;
 
-.field final cYx:Lcom/tencent/mm/sdk/g/g$a;
+.field final cYx:Lcom/tencent/mm/sdk/g/Gclz$a;
 
 .field ded:Lcom/tencent/mm/ui/base/MMDotView;
 
@@ -75,7 +75,7 @@
 
 .field ibq:Ljava/lang/String;
 
-.field private mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field mView:Landroid/view/View;
 
@@ -108,7 +108,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/pluginsdk/ui/simley/c$1;-><init>(Lcom/tencent/mm/pluginsdk/ui/simley/c;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 106
     const/4 v0, -0x1
@@ -130,17 +130,17 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/pluginsdk/ui/simley/c$4;-><init>(Lcom/tencent/mm/pluginsdk/ui/simley/c;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->cYw:Lcom/tencent/mm/sdk/g/g$a;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->cYw:Lcom/tencent/mm/sdk/g/Gclz$a;
 
     .line 1044
     new-instance v0, Lcom/tencent/mm/pluginsdk/ui/simley/c$5;
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/pluginsdk/ui/simley/c$5;-><init>(Lcom/tencent/mm/pluginsdk/ui/simley/c;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->cYx:Lcom/tencent/mm/sdk/g/g$a;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->cYx:Lcom/tencent/mm/sdk/g/Gclz$a;
 
     .line 111
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->getContext()Landroid/content/Context;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -160,32 +160,32 @@
 
     const-string/jumbo v1, "SmileyPanelManager add listener."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 117
     invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->cYw:Lcom/tencent/mm/sdk/g/g$a;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->cYw:Lcom/tencent/mm/sdk/g/Gclz$a;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$f;->c(Lcom/tencent/mm/sdk/g/g$a;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$f;->c(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 
     .line 118
     invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->cYx:Lcom/tencent/mm/sdk/g/g$a;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->cYx:Lcom/tencent/mm/sdk/g/Gclz$a;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$f;->a(Lcom/tencent/mm/sdk/g/g$a;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$f;->a(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 
     .line 120
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -216,7 +216,7 @@
 
     aput-object p2, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 704
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
@@ -287,7 +287,7 @@
 
     aput-object p1, v2, v6
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 385
     return-void
@@ -548,7 +548,7 @@
 
     const-string/jumbo v2, "called emoji store must refresh by net"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 508
     const-string/jumbo v1, "emoji_stroe_must_refresh_by_net"
@@ -561,7 +561,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/simley/d;->hVl:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -584,7 +584,7 @@
 
     const-string/jumbo v3, ".ui.v2.EmojiStoreV2UI"
 
-    invoke-static {v1, v2, v3, v0}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {v1, v2, v3, v0}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     .line 517
     sget-object v0, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;
@@ -773,17 +773,17 @@
 
     invoke-static {v2, v1}, Lcom/tencent/mm/pluginsdk/ui/simley/h;->a(Landroid/widget/ImageView;Lcom/tencent/mm/pluginsdk/ui/simley/d;)Landroid/widget/ImageView;
 
-    new-instance v0, Lcom/tencent/mm/z/a/a/c$a;
+    new-instance v0, Lcom/tencent/mm/z/a/a/Cclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/z/a/a/c$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/z/a/a/Cclz$a;-><init>()V
 
-    iput-boolean v6, v0, Lcom/tencent/mm/z/a/a/c$a;->bMd:Z
+    iput-boolean v6, v0, Lcom/tencent/mm/z/a/a/Cclz$a;->bMd:Z
 
     const/4 v3, 0x4
 
-    iput v3, v0, Lcom/tencent/mm/z/a/a/c$a;->bMk:I
+    iput v3, v0, Lcom/tencent/mm/z/a/a/Cclz$a;->bMk:I
 
-    invoke-virtual {v0}, Lcom/tencent/mm/z/a/a/c$a;->Ai()Lcom/tencent/mm/z/a/a/c;
+    invoke-virtual {v0}, Lcom/tencent/mm/z/a/a/Cclz$a;->Ai()Lcom/tencent/mm/z/a/a/Cclz;
 
     move-result-object v3
 
@@ -907,35 +907,35 @@
 
     move-result-object v3
 
-    new-instance v4, Lcom/tencent/mm/z/a/a/c$a;
+    new-instance v4, Lcom/tencent/mm/z/a/a/Cclz$a;
 
-    invoke-direct {v4}, Lcom/tencent/mm/z/a/a/c$a;-><init>()V
+    invoke-direct {v4}, Lcom/tencent/mm/z/a/a/Cclz$a;-><init>()V
 
-    iput-object v3, v4, Lcom/tencent/mm/z/a/a/c$a;->bMh:Ljava/lang/String;
+    iput-object v3, v4, Lcom/tencent/mm/z/a/a/Cclz$a;->bMh:Ljava/lang/String;
 
-    iput-boolean v6, v4, Lcom/tencent/mm/z/a/a/c$a;->bMd:Z
+    iput-boolean v6, v4, Lcom/tencent/mm/z/a/a/Cclz$a;->bMd:Z
 
     iget v3, v1, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibu:I
 
-    iput v3, v4, Lcom/tencent/mm/z/a/a/c$a;->bMm:I
+    iput v3, v4, Lcom/tencent/mm/z/a/a/Cclz$a;->bMm:I
 
     iget v1, v1, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibu:I
 
-    iput v1, v4, Lcom/tencent/mm/z/a/a/c$a;->bMl:I
+    iput v1, v4, Lcom/tencent/mm/z/a/a/Cclz$a;->bMl:I
 
-    iput-boolean v6, v4, Lcom/tencent/mm/z/a/a/c$a;->bMf:Z
+    iput-boolean v6, v4, Lcom/tencent/mm/z/a/a/Cclz$a;->bMf:Z
 
-    iput v7, v4, Lcom/tencent/mm/z/a/a/c$a;->bMu:I
+    iput v7, v4, Lcom/tencent/mm/z/a/a/Cclz$a;->bMu:I
 
-    invoke-virtual {v4}, Lcom/tencent/mm/z/a/a/c$a;->Ai()Lcom/tencent/mm/z/a/a/c;
+    invoke-virtual {v4}, Lcom/tencent/mm/z/a/a/Cclz$a;->Ai()Lcom/tencent/mm/z/a/a/Cclz;
 
     move-result-object v1
 
-    invoke-static {}, Lcom/tencent/mm/z/n;->Aa()Lcom/tencent/mm/z/a/a;
+    invoke-static {}, Lcom/tencent/mm/z/Nclz;->Aa()Lcom/tencent/mm/z/a/Aclz;
 
     move-result-object v3
 
-    invoke-virtual {v3, v0, v2, v1}, Lcom/tencent/mm/z/a/a;->a(Ljava/lang/String;Landroid/widget/ImageView;Lcom/tencent/mm/z/a/a/c;)V
+    invoke-virtual {v3, v0, v2, v1}, Lcom/tencent/mm/z/a/Aclz;->a(Ljava/lang/String;Landroid/widget/ImageView;Lcom/tencent/mm/z/a/a/Cclz;)V
 
     goto/16 :goto_1
 
@@ -970,68 +970,68 @@
 
     move-result-object v0
 
-    new-instance v3, Lcom/tencent/mm/z/a/a/c$a;
+    new-instance v3, Lcom/tencent/mm/z/a/a/Cclz$a;
 
-    invoke-direct {v3}, Lcom/tencent/mm/z/a/a/c$a;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/z/a/a/Cclz$a;-><init>()V
 
-    iput-object v0, v3, Lcom/tencent/mm/z/a/a/c$a;->bMh:Ljava/lang/String;
+    iput-object v0, v3, Lcom/tencent/mm/z/a/a/Cclz$a;->bMh:Ljava/lang/String;
 
-    iput-boolean v6, v3, Lcom/tencent/mm/z/a/a/c$a;->bMd:Z
+    iput-boolean v6, v3, Lcom/tencent/mm/z/a/a/Cclz$a;->bMd:Z
 
     iget v4, v1, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibu:I
 
-    iput v4, v3, Lcom/tencent/mm/z/a/a/c$a;->bMm:I
+    iput v4, v3, Lcom/tencent/mm/z/a/a/Cclz$a;->bMm:I
 
     iget v1, v1, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibu:I
 
-    iput v1, v3, Lcom/tencent/mm/z/a/a/c$a;->bMl:I
+    iput v1, v3, Lcom/tencent/mm/z/a/a/Cclz$a;->bMl:I
 
-    iput v7, v3, Lcom/tencent/mm/z/a/a/c$a;->bMu:I
+    iput v7, v3, Lcom/tencent/mm/z/a/a/Cclz$a;->bMu:I
 
-    iput v6, v3, Lcom/tencent/mm/z/a/a/c$a;->bMk:I
+    iput v6, v3, Lcom/tencent/mm/z/a/a/Cclz$a;->bMk:I
 
-    invoke-virtual {v3}, Lcom/tencent/mm/z/a/a/c$a;->Ai()Lcom/tencent/mm/z/a/a/c;
+    invoke-virtual {v3}, Lcom/tencent/mm/z/a/a/Cclz$a;->Ai()Lcom/tencent/mm/z/a/a/Cclz;
 
     move-result-object v1
 
-    invoke-static {}, Lcom/tencent/mm/z/n;->Aa()Lcom/tencent/mm/z/a/a;
+    invoke-static {}, Lcom/tencent/mm/z/Nclz;->Aa()Lcom/tencent/mm/z/a/Aclz;
 
     move-result-object v3
 
-    invoke-virtual {v3, v0, v2, v1}, Lcom/tencent/mm/z/a/a;->a(Ljava/lang/String;Landroid/widget/ImageView;Lcom/tencent/mm/z/a/a/c;)V
+    invoke-virtual {v3, v0, v2, v1}, Lcom/tencent/mm/z/a/Aclz;->a(Ljava/lang/String;Landroid/widget/ImageView;Lcom/tencent/mm/z/a/a/Cclz;)V
 
     goto/16 :goto_1
 
     :pswitch_1
-    invoke-static {}, Lcom/tencent/mm/z/n;->Aa()Lcom/tencent/mm/z/a/a;
+    invoke-static {}, Lcom/tencent/mm/z/Nclz;->Aa()Lcom/tencent/mm/z/a/Aclz;
 
     move-result-object v0
 
     const-string/jumbo v1, "2131165364"
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/z/a/a;->a(Ljava/lang/String;Landroid/widget/ImageView;Lcom/tencent/mm/z/a/a/c;)V
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/z/a/Aclz;->a(Ljava/lang/String;Landroid/widget/ImageView;Lcom/tencent/mm/z/a/a/Cclz;)V
 
     goto/16 :goto_1
 
     :pswitch_2
-    invoke-static {}, Lcom/tencent/mm/z/n;->Aa()Lcom/tencent/mm/z/a/a;
+    invoke-static {}, Lcom/tencent/mm/z/Nclz;->Aa()Lcom/tencent/mm/z/a/Aclz;
 
     move-result-object v0
 
     const-string/jumbo v1, "2130838157"
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/z/a/a;->a(Ljava/lang/String;Landroid/widget/ImageView;Lcom/tencent/mm/z/a/a/c;)V
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/z/a/Aclz;->a(Ljava/lang/String;Landroid/widget/ImageView;Lcom/tencent/mm/z/a/a/Cclz;)V
 
     goto/16 :goto_1
 
     :pswitch_3
-    invoke-static {}, Lcom/tencent/mm/z/n;->Aa()Lcom/tencent/mm/z/a/a;
+    invoke-static {}, Lcom/tencent/mm/z/Nclz;->Aa()Lcom/tencent/mm/z/a/Aclz;
 
     move-result-object v0
 
     const-string/jumbo v1, "2131165363"
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/z/a/a;->a(Ljava/lang/String;Landroid/widget/ImageView;Lcom/tencent/mm/z/a/a/c;)V
+    invoke-virtual {v0, v1, v2, v3}, Lcom/tencent/mm/z/a/Aclz;->a(Ljava/lang/String;Landroid/widget/ImageView;Lcom/tencent/mm/z/a/a/Cclz;)V
 
     goto/16 :goto_1
 
@@ -1183,7 +1183,7 @@
 
     aput-object v6, v5, v7
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 828
     sub-int/2addr v0, v2
@@ -1221,7 +1221,7 @@
 
     const-string/jumbo v5, "adjusting tab site --- to left."
 
-    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 848
     :cond_2
@@ -1251,7 +1251,7 @@
 
     const-string/jumbo v1, "adjusting tab site --- to right."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -1291,7 +1291,7 @@
 
     const-string/jumbo v1, "onCheckedChanged not end loading but catch check tab, current deal pass~"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 699
     :cond_1
@@ -1314,7 +1314,7 @@
 
     const-string/jumbo v1, "onCheckedChanged not end initView but catch check tab, current deal pass~"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -1342,7 +1342,7 @@
     check-cast v1, Ljava/lang/String;
 
     .line 647
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -1353,7 +1353,7 @@
 
     const-string/jumbo v1, "onCheckedChanged productId = null, pass~"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -1372,7 +1372,7 @@
 
     const-string/jumbo v1, "onCheckedChanged getTab null pass~"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -1489,7 +1489,7 @@
 
     aput-object v1, v3, v6
 
-    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 684
     invoke-direct {p0, p2, v1}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->Q(ILjava/lang/String;)V
@@ -1759,16 +1759,16 @@
     iput-boolean v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ibp:Z
 
     .line 1001
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->removeMessages(I)V
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeMessages(I)V
 
     .line 1002
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->mHandler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->mHandler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     const-wide/16 v1, 0x64
 
-    invoke-virtual {v0, v3, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessageDelayed(IJ)Z
+    invoke-virtual {v0, v3, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessageDelayed(IJ)Z
 
     .line 1003
     return-void
@@ -1804,7 +1804,7 @@
 
     const-string/jumbo v2, "not view can\'t deal"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -1833,7 +1833,7 @@
 
     const-string/jumbo v3, "initeSmileyData"
 
-    invoke-static {v1, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -1884,7 +1884,7 @@
 
     aput-object v1, v13, v14
 
-    invoke-static {v11, v12, v13}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v11, v12, v13}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -1905,7 +1905,7 @@
 
     const-string/jumbo v11, "removeAllGridViewListener already release: .."
 
-    invoke-static {v1, v11}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v11}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -1969,7 +1969,7 @@
 
     const-string/jumbo v2, "- deal View"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
 
@@ -1979,7 +1979,7 @@
 
     const-string/jumbo v2, "initPanelVP failed"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_3
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
@@ -2069,7 +2069,7 @@
 
     const-string/jumbo v2, "init set currentItem not default qq. "
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 192
     :cond_8
@@ -2101,7 +2101,7 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 194
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -2127,7 +2127,7 @@
 
     aput-object v1, v5, v6
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 197
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
@@ -2240,7 +2240,7 @@
 
     const-string/jumbo v2, "start add middle"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v1, Ljava/util/ArrayList;
 
@@ -2262,7 +2262,7 @@
 
     const-string/jumbo v2, "Emoji Group Info Cache can\'t use & unuse cache retry"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_d
     if-nez v6, :cond_e
@@ -2378,7 +2378,7 @@
 
     aput-object v6, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto/16 :goto_2
 
@@ -2413,7 +2413,7 @@
 
     iget-object v1, v2, Lcom/tencent/mm/storage/a/Aclz;->field_productID:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -2445,7 +2445,7 @@
 
     const-string/jumbo v4, "use cache middle already release.... so new one"
 
-    invoke-static {v1, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-direct {p0, v2}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->b(Lcom/tencent/mm/storage/a/Aclz;)Lcom/tencent/mm/ui/base/MMRadioImageButton;
 
@@ -2614,7 +2614,7 @@
 
     const-string/jumbo v1, "clearViewPagerCache"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 280
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaZ:Lcom/tencent/mm/pluginsdk/ui/simley/g;
@@ -2667,7 +2667,7 @@
     check-cast v1, Ljava/lang/String;
 
     .line 725
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -2791,7 +2791,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->hVl:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -2836,7 +2836,7 @@
 
     const-string/jumbo v3, ".ui.EmojiStoreDetailUI"
 
-    invoke-static {v0, v2, v3, v1}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {v0, v2, v3, v1}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     goto/16 :goto_0
 
@@ -2980,7 +2980,7 @@
 
     aput-object v3, v2, v6
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 772
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
@@ -3029,7 +3029,7 @@
 
     aput-object v3, v2, v6
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -3100,22 +3100,22 @@
     invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/plugin/report/service/h;->g(I[Ljava/lang/Object;)V
 
     .line 784
-    invoke-static {}, Lcom/tencent/mm/l/c;->qO()Lcom/tencent/mm/l/a;
+    invoke-static {}, Lcom/tencent/mm/l/Cclz;->qO()Lcom/tencent/mm/l/Aclz;
 
     move-result-object v1
 
     const v2, 0x40003
 
-    invoke-virtual {v1, v2, v7}, Lcom/tencent/mm/l/a;->G(II)V
+    invoke-virtual {v1, v2, v7}, Lcom/tencent/mm/l/Aclz;->G(II)V
 
     .line 785
-    invoke-static {}, Lcom/tencent/mm/l/c;->qO()Lcom/tencent/mm/l/a;
+    invoke-static {}, Lcom/tencent/mm/l/Cclz;->qO()Lcom/tencent/mm/l/Aclz;
 
     move-result-object v1
 
     const v2, 0x40005
 
-    invoke-virtual {v1, v2, v7}, Lcom/tencent/mm/l/a;->G(II)V
+    invoke-virtual {v1, v2, v7}, Lcom/tencent/mm/l/Aclz;->G(II)V
 
     .line 786
     invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->aLC()V
@@ -3227,7 +3227,7 @@
 
     const-string/jumbo v1, "catch Size & start deal"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 927
     if-lez p1, :cond_1
@@ -3296,7 +3296,7 @@
 
     const-string/jumbo v1, "tab size changed ,so adjusting tab site."
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 948
     iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
@@ -3487,7 +3487,7 @@
 
     const/4 v3, 0x0
 
-    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/ao/c;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/ao/Cclz;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)V
 
     goto :goto_0
 .end method

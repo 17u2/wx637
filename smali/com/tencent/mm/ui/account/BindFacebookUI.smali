@@ -15,13 +15,13 @@
 
 
 # instance fields
-.field private jAP:Lcom/tencent/mm/ui/d/a/c;
+.field private jAP:Lcom/tencent/mm/ui/d/a/Cclz;
 
 .field private jAQ:Landroid/app/ProgressDialog;
 
 .field private jAR:Landroid/content/DialogInterface$OnCancelListener;
 
-.field private jAS:Lcom/tencent/mm/modelsimple/g;
+.field private jAS:Lcom/tencent/mm/modelsimple/Gclz;
 
 
 # direct methods
@@ -37,7 +37,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -53,22 +53,22 @@
     return-object p1
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/account/BindFacebookUI;)Lcom/tencent/mm/modelsimple/g;
+.method static synthetic a(Lcom/tencent/mm/ui/account/BindFacebookUI;)Lcom/tencent/mm/modelsimple/Gclz;
     .locals 1
 
     .prologue
     .line 38
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/BindFacebookUI;->jAS:Lcom/tencent/mm/modelsimple/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/BindFacebookUI;->jAS:Lcom/tencent/mm/modelsimple/Gclz;
 
     return-object v0
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/account/BindFacebookUI;Lcom/tencent/mm/modelsimple/g;)Lcom/tencent/mm/modelsimple/g;
+.method static synthetic a(Lcom/tencent/mm/ui/account/BindFacebookUI;Lcom/tencent/mm/modelsimple/Gclz;)Lcom/tencent/mm/modelsimple/Gclz;
     .locals 0
 
     .prologue
     .line 38
-    iput-object p1, p0, Lcom/tencent/mm/ui/account/BindFacebookUI;->jAS:Lcom/tencent/mm/modelsimple/g;
+    iput-object p1, p0, Lcom/tencent/mm/ui/account/BindFacebookUI;->jAS:Lcom/tencent/mm/modelsimple/Gclz;
 
     return-object p1
 .end method
@@ -83,12 +83,12 @@
     return-void
 .end method
 
-.method static synthetic c(Lcom/tencent/mm/ui/account/BindFacebookUI;)Lcom/tencent/mm/ui/d/a/c;
+.method static synthetic c(Lcom/tencent/mm/ui/account/BindFacebookUI;)Lcom/tencent/mm/ui/d/a/Cclz;
     .locals 1
 
     .prologue
     .line 38
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/BindFacebookUI;->jAP:Lcom/tencent/mm/ui/d/a/c;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/BindFacebookUI;->jAP:Lcom/tencent/mm/ui/d/a/Cclz;
 
     return-object v0
 .end method
@@ -127,11 +127,11 @@
     const-string/jumbo v0, "0"
 
     :goto_0
-    new-instance v2, Lcom/tencent/mm/ae/b$i$a;
+    new-instance v2, Lcom/tencent/mm/ae/Bclz$i$a;
 
     const/16 v3, 0x20
 
-    invoke-direct {v2, v3, v0}, Lcom/tencent/mm/ae/b$i$a;-><init>(ILjava/lang/String;)V
+    invoke-direct {v2, v3, v0}, Lcom/tencent/mm/ae/Bclz$i$a;-><init>(ILjava/lang/String;)V
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -139,15 +139,15 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/c;
+    invoke-virtual {v0}, Lcom/tencent/mm/model/Cclz;->rh()Lcom/tencent/mm/ae/Cclz;
 
     move-result-object v0
 
-    new-instance v2, Lcom/tencent/mm/ae/b$i;
+    new-instance v2, Lcom/tencent/mm/ae/Bclz$i;
 
-    invoke-direct {v2, v1}, Lcom/tencent/mm/ae/b$i;-><init>(Ljava/util/List;)V
+    invoke-direct {v2, v1}, Lcom/tencent/mm/ae/Bclz$i;-><init>(Ljava/util/List;)V
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/ae/c;->b(Lcom/tencent/mm/ae/b$q;)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/ae/Cclz;->b(Lcom/tencent/mm/ae/Bclz$q;)V
 
     return-void
 
@@ -166,13 +166,13 @@
     const/4 v2, 0x0
 
     .line 81
-    new-instance v0, Lcom/tencent/mm/ui/d/a/c;
+    new-instance v0, Lcom/tencent/mm/ui/d/a/Cclz;
 
     const-string/jumbo v1, "290293790992170"
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/ui/d/a/c;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/ui/d/a/Cclz;-><init>(Ljava/lang/String;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/account/BindFacebookUI;->jAP:Lcom/tencent/mm/ui/d/a/c;
+    iput-object v0, p0, Lcom/tencent/mm/ui/account/BindFacebookUI;->jAP:Lcom/tencent/mm/ui/d/a/Cclz;
 
     .line 82
     new-instance v0, Lcom/tencent/mm/ui/account/BindFacebookUI$1;
@@ -278,9 +278,9 @@
     :cond_2
     sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     invoke-interface {v0, v1, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/e;->a(Landroid/content/Context;IILjava/lang/String;)Z
 
@@ -289,9 +289,9 @@
     if-nez v0, :cond_0
 
     .line 187
-    check-cast p4, Lcom/tencent/mm/modelsimple/g;
+    check-cast p4, Lcom/tencent/mm/modelsimple/Gclz;
 
-    iget v0, p4, Lcom/tencent/mm/modelsimple/g;->atB:I
+    iget v0, p4, Lcom/tencent/mm/modelsimple/Gclz;->atB:I
 
     .line 188
     if-nez p1, :cond_4

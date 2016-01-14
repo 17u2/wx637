@@ -24,7 +24,7 @@
 
     .prologue
     .line 558
-    invoke-static {}, Lcom/tencent/mm/ui/h/a$c;->values()[Lcom/tencent/mm/ui/h/a$c;
+    invoke-static {}, Lcom/tencent/mm/ui/h/Aclz$c;->values()[Lcom/tencent/mm/ui/h/Aclz$c;
 
     move-result-object v0
 
@@ -37,9 +37,9 @@
     :try_start_0
     sget-object v0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$6;->gFo:[I
 
-    sget-object v1, Lcom/tencent/mm/ui/h/a$c;->kIV:Lcom/tencent/mm/ui/h/a$c;
+    sget-object v1, Lcom/tencent/mm/ui/h/Aclz$c;->kIV:Lcom/tencent/mm/ui/h/Aclz$c;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/h/a$c;->ordinal()I
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/h/Aclz$c;->ordinal()I
 
     move-result v1
 
@@ -53,9 +53,9 @@
     :try_start_1
     sget-object v0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$6;->gFo:[I
 
-    sget-object v1, Lcom/tencent/mm/ui/h/a$c;->kIX:Lcom/tencent/mm/ui/h/a$c;
+    sget-object v1, Lcom/tencent/mm/ui/h/Aclz$c;->kIX:Lcom/tencent/mm/ui/h/Aclz$c;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/h/a$c;->ordinal()I
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/h/Aclz$c;->ordinal()I
 
     move-result v1
 
@@ -69,9 +69,9 @@
     :try_start_2
     sget-object v0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$6;->gFo:[I
 
-    sget-object v1, Lcom/tencent/mm/ui/h/a$c;->kIW:Lcom/tencent/mm/ui/h/a$c;
+    sget-object v1, Lcom/tencent/mm/ui/h/Aclz$c;->kIW:Lcom/tencent/mm/ui/h/Aclz$c;
 
-    invoke-virtual {v1}, Lcom/tencent/mm/ui/h/a$c;->ordinal()I
+    invoke-virtual {v1}, Lcom/tencent/mm/ui/h/Aclz$c;->ordinal()I
 
     move-result v1
 
@@ -85,7 +85,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     :goto_2
@@ -98,7 +98,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     goto :goto_2
 

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/plugin/sns/d/ad$5;->a(Lcom/tencent/mm/sdk/c/b;)Z
+    value = Lcom/tencent/mm/plugin/sns/d/ad$5;->a(Lcom/tencent/mm/sdk/c/Bclz;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -66,14 +66,14 @@
     invoke-virtual {v0}, Lcom/tencent/mm/plugin/sns/d/as;->atS()V
 
     .line 846
-    new-instance v0, Lcom/tencent/mm/d/a/lf;
+    new-instance v0, Lcom/tencent/mm/d/a/LFclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/lf;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/LFclz;-><init>()V
 
     .line 847
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 848
     return-void

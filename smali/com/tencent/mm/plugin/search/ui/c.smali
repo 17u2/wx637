@@ -7,7 +7,7 @@
 .method public abstract acY()V
 .end method
 
-.method public abstract b(Lcom/tencent/mm/ui/e/a/a;)V
+.method public abstract b(Lcom/tencent/mm/ui/e/a/Aclz;)V
 .end method
 
 .method public abstract getContext()Landroid/content/Context;

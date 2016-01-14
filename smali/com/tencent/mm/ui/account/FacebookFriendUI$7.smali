@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,7 +50,7 @@
     .line 180
     iget-object v0, p0, Lcom/tencent/mm/ui/account/FacebookFriendUI$7;->jBs:Lcom/tencent/mm/ui/account/FacebookFriendUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/account/FacebookFriendUI;->b(Lcom/tencent/mm/ui/account/FacebookFriendUI;)Lcom/tencent/mm/ui/account/d;
+    invoke-static {v0}, Lcom/tencent/mm/ui/account/FacebookFriendUI;->b(Lcom/tencent/mm/ui/account/FacebookFriendUI;)Lcom/tencent/mm/ui/account/Dclz;
 
     move-result-object v0
 
@@ -66,20 +66,20 @@
 
     sub-int v1, p3, v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/account/d;->getItem(I)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/account/Dclz;->getItem(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelfriend/h;
+    check-cast v0, Lcom/tencent/mm/modelfriend/Hclz;
 
     .line 181
-    iget v1, v0, Lcom/tencent/mm/modelfriend/h;->status:I
+    iget v1, v0, Lcom/tencent/mm/modelfriend/Hclz;->status:I
 
     const/16 v2, 0x64
 
     if-eq v1, v2, :cond_0
 
-    iget v1, v0, Lcom/tencent/mm/modelfriend/h;->status:I
+    iget v1, v0, Lcom/tencent/mm/modelfriend/Hclz;->status:I
 
     const/16 v2, 0x65
 
@@ -94,7 +94,7 @@
     .line 183
     const-string/jumbo v2, "Contact_User"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/h;->getUsername()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Hclz;->getUsername()Ljava/lang/String;
 
     move-result-object v3
 
@@ -103,7 +103,7 @@
     .line 184
     const-string/jumbo v2, "Contact_Nick"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/h;->xV()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Hclz;->xV()Ljava/lang/String;
 
     move-result-object v3
 
@@ -112,14 +112,14 @@
     .line 185
     const-string/jumbo v2, "Contact_KFacebookId"
 
-    iget-wide v3, v0, Lcom/tencent/mm/modelfriend/h;->aOu:J
+    iget-wide v3, v0, Lcom/tencent/mm/modelfriend/Hclz;->aOu:J
 
     invoke-virtual {v1, v2, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
     .line 186
     const-string/jumbo v2, "Contact_KFacebookName"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/h;->ye()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Hclz;->ye()Ljava/lang/String;
 
     move-result-object v3
 
@@ -141,7 +141,7 @@
 
     .line 191
     :cond_1
-    iget v0, v0, Lcom/tencent/mm/modelfriend/h;->status:I
+    iget v0, v0, Lcom/tencent/mm/modelfriend/Hclz;->status:I
 
     const/16 v1, 0x66
 

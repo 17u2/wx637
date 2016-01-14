@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -112,7 +112,7 @@
 
     move-result v4
 
-    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/bc;->e(C)Z
+    invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->e(C)Z
 
     move-result v4
 

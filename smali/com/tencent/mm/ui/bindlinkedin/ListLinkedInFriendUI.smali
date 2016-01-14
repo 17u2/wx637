@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lcom/tencent/mm/q/Dclz;
-.implements Lcom/tencent/mm/ui/bindlinkedin/a$a;
+.implements Lcom/tencent/mm/ui/bindlinkedin/Aclz$a;
 
 
 # instance fields
@@ -16,7 +16,7 @@
 
 .field private gxV:Landroid/app/Dialog;
 
-.field private jWZ:Lcom/tencent/mm/ui/bindlinkedin/a;
+.field private jWZ:Lcom/tencent/mm/ui/bindlinkedin/Aclz;
 
 .field private jXa:Z
 
@@ -24,7 +24,7 @@
 
 .field private jXc:Z
 
-.field private jXd:Lcom/tencent/mm/ab/c;
+.field private jXd:Lcom/tencent/mm/ab/Cclz;
 
 
 # direct methods
@@ -40,7 +40,7 @@
     invoke-direct {p0}, Lcom/tencent/mm/ui/MMActivity;-><init>()V
 
     .line 59
-    iput-object v1, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/a;
+    iput-object v1, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/Aclz;
 
     .line 60
     iput-object v1, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->cRo:Landroid/widget/ListView;
@@ -64,19 +64,19 @@
     iput-boolean v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jXc:Z
 
     .line 67
-    iput-object v1, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jXd:Lcom/tencent/mm/ab/c;
+    iput-object v1, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jXd:Lcom/tencent/mm/ab/Cclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;Lcom/tencent/mm/modelfriend/s;)V
+.method static synthetic a(Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;Lcom/tencent/mm/modelfriend/Sclz;)V
     .locals 7
 
     .prologue
@@ -89,7 +89,7 @@
     .line 55
     if-eqz p1, :cond_3
 
-    iget-object v0, p1, Lcom/tencent/mm/modelfriend/s;->field_wechatUsername:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/modelfriend/Sclz;->field_wechatUsername:Ljava/lang/String;
 
     const-string/jumbo v1, "!44@/B4Tb64lLpJ4FHnyJpFGLC6Xej9PxJXB86Z93mHPIZQ="
 
@@ -99,7 +99,7 @@
 
     aput-object v0, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
@@ -115,18 +115,18 @@
 
     if-eqz v1, :cond_0
 
-    iget v1, v1, Lcom/tencent/mm/d/b/o;->field_type:I
+    iget v1, v1, Lcom/tencent/mm/d/b/Oclz;->field_type:I
 
-    invoke-static {v1}, Lcom/tencent/mm/h/a;->cf(I)Z
+    invoke-static {v1}, Lcom/tencent/mm/h/Aclz;->cf(I)Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
     :cond_0
-    iget-object v1, p1, Lcom/tencent/mm/modelfriend/s;->field_wechatUsername:Ljava/lang/String;
+    iget-object v1, p1, Lcom/tencent/mm/modelfriend/Sclz;->field_wechatUsername:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -147,7 +147,7 @@
 
     const-string/jumbo v2, "Contact_Nick"
 
-    iget-object v3, p1, Lcom/tencent/mm/modelfriend/s;->field_nickname:Ljava/lang/String;
+    iget-object v3, p1, Lcom/tencent/mm/modelfriend/Sclz;->field_nickname:Ljava/lang/String;
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -169,13 +169,13 @@
 
     const-string/jumbo v2, "KLinkedInAddFriendNickName"
 
-    iget-object v3, p1, Lcom/tencent/mm/modelfriend/s;->field_name:Ljava/lang/String;
+    iget-object v3, p1, Lcom/tencent/mm/modelfriend/Sclz;->field_name:Ljava/lang/String;
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string/jumbo v2, "KLinkedInAddFriendPubUrl"
 
-    iget-object v3, p1, Lcom/tencent/mm/modelfriend/s;->field_linkedInProfileUrl:Ljava/lang/String;
+    iget-object v3, p1, Lcom/tencent/mm/modelfriend/Sclz;->field_linkedInProfileUrl:Ljava/lang/String;
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -183,27 +183,27 @@
 
     invoke-virtual {v1, v2, v5}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    new-instance v2, Lcom/tencent/mm/p/h;
+    new-instance v2, Lcom/tencent/mm/p/Hclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/p/h;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/p/Hclz;-><init>()V
 
-    iput-object v0, v2, Lcom/tencent/mm/p/h;->username:Ljava/lang/String;
+    iput-object v0, v2, Lcom/tencent/mm/p/Hclz;->username:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/tencent/mm/modelfriend/s;->field_wechatSmallHead:Ljava/lang/String;
+    iget-object v3, p1, Lcom/tencent/mm/modelfriend/Sclz;->field_wechatSmallHead:Ljava/lang/String;
 
-    iput-object v3, v2, Lcom/tencent/mm/p/h;->bxj:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/p/Hclz;->bxj:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/tencent/mm/modelfriend/s;->field_wechatBigHead:Ljava/lang/String;
+    iget-object v3, p1, Lcom/tencent/mm/modelfriend/Sclz;->field_wechatBigHead:Ljava/lang/String;
 
-    iput-object v3, v2, Lcom/tencent/mm/p/h;->bxk:Ljava/lang/String;
+    iput-object v3, v2, Lcom/tencent/mm/p/Hclz;->bxk:Ljava/lang/String;
 
-    invoke-virtual {v2, v6}, Lcom/tencent/mm/p/h;->aL(Z)V
+    invoke-virtual {v2, v6}, Lcom/tencent/mm/p/Hclz;->aL(Z)V
 
-    invoke-static {}, Lcom/tencent/mm/p/n;->vf()Lcom/tencent/mm/p/i;
+    invoke-static {}, Lcom/tencent/mm/p/Nclz;->vf()Lcom/tencent/mm/p/Iclz;
 
     move-result-object v3
 
-    invoke-virtual {v3, v2}, Lcom/tencent/mm/p/i;->a(Lcom/tencent/mm/p/h;)Z
+    invoke-virtual {v3, v2}, Lcom/tencent/mm/p/Iclz;->a(Lcom/tencent/mm/p/Hclz;)Z
 
     if-eqz v0, :cond_2
 
@@ -215,9 +215,9 @@
 
     sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v2, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/j;->jyq:Landroid/support/v7/app/ActionBarActivity;
+    iget-object v2, v2, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
     invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/f;->d(Landroid/content/Intent;Landroid/content/Context;)V
 
@@ -243,19 +243,19 @@
 
     const-string/jumbo v1, "friend_nick"
 
-    iget-object v2, p1, Lcom/tencent/mm/modelfriend/s;->field_name:Ljava/lang/String;
+    iget-object v2, p1, Lcom/tencent/mm/modelfriend/Sclz;->field_name:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string/jumbo v1, "friend_linkedInID"
 
-    iget-object v2, p1, Lcom/tencent/mm/modelfriend/s;->field_linkedInId:Ljava/lang/String;
+    iget-object v2, p1, Lcom/tencent/mm/modelfriend/Sclz;->field_linkedInId:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string/jumbo v1, "friend_linkedInPicUrl"
 
-    iget-object v2, p1, Lcom/tencent/mm/modelfriend/s;->field_picUrl:Ljava/lang/String;
+    iget-object v2, p1, Lcom/tencent/mm/modelfriend/Sclz;->field_picUrl:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -294,15 +294,15 @@
     if-eqz v0, :cond_0
 
     .line 132
-    new-instance v0, Lcom/tencent/mm/ab/c;
+    new-instance v0, Lcom/tencent/mm/ab/Cclz;
 
     iget v1, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->arG:I
 
     iget v2, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->bMW:I
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/ab/c;-><init>(II)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/ab/Cclz;-><init>(II)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jXd:Lcom/tencent/mm/ab/c;
+    iput-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jXd:Lcom/tencent/mm/ab/Cclz;
 
     .line 133
     const v0, 0x7f090bb0
@@ -315,7 +315,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI$6;-><init>(Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;)V
 
-    invoke-static {p0, v0, v3, v1}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/o;
+    invoke-static {p0, v0, v3, v1}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
@@ -326,7 +326,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jXd:Lcom/tencent/mm/ab/c;
+    iget-object v1, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jXd:Lcom/tencent/mm/ab/Cclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
@@ -382,12 +382,12 @@
     return-void
 .end method
 
-.method static synthetic f(Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;)Lcom/tencent/mm/ui/bindlinkedin/a;
+.method static synthetic f(Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;)Lcom/tencent/mm/ui/bindlinkedin/Aclz;
     .locals 1
 
     .prologue
     .line 55
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/Aclz;
 
     return-object v0
 .end method
@@ -402,12 +402,12 @@
     return-object v0
 .end method
 
-.method static synthetic h(Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;)Lcom/tencent/mm/ab/c;
+.method static synthetic h(Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;)Lcom/tencent/mm/ab/Cclz;
     .locals 1
 
     .prologue
     .line 55
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jXd:Lcom/tencent/mm/ab/c;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jXd:Lcom/tencent/mm/ab/Cclz;
 
     return-object v0
 .end method
@@ -447,7 +447,7 @@
 
     const/16 v3, 0x64
 
-    invoke-static {p0, v1, v2, v0, v3}, Lcom/tencent/mm/ao/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;I)V
+    invoke-static {p0, v1, v2, v0, v3}, Lcom/tencent/mm/ao/Cclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;I)V
 
     return-void
 .end method
@@ -512,21 +512,21 @@
     move-result-object v0
 
     .line 79
-    new-instance v1, Lcom/tencent/mm/ui/bindlinkedin/a;
+    new-instance v1, Lcom/tencent/mm/ui/bindlinkedin/Aclz;
 
-    invoke-direct {v1, p0, v0}, Lcom/tencent/mm/ui/bindlinkedin/a;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v1, p0, v0}, Lcom/tencent/mm/ui/bindlinkedin/Aclz;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
-    iput-object v1, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/a;
+    iput-object v1, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/Aclz;
 
     .line 80
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/Aclz;
 
-    iput-object p0, v0, Lcom/tencent/mm/ui/bindlinkedin/a;->jWT:Lcom/tencent/mm/ui/bindlinkedin/a$a;
+    iput-object p0, v0, Lcom/tencent/mm/ui/bindlinkedin/Aclz;->jWT:Lcom/tencent/mm/ui/bindlinkedin/Aclz$a;
 
     .line 81
     iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->cRo:Landroid/widget/ListView;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/a;
+    iget-object v1, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/Aclz;
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
@@ -607,18 +607,18 @@
 
     const-string/jumbo v3, "[oneliang][onSceneEnd]:ok"
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, p4
 
     .line 277
-    check-cast v0, Lcom/tencent/mm/ab/c;
+    check-cast v0, Lcom/tencent/mm/ab/Cclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ab/c;->bMV:Lcom/tencent/mm/q/Aclz;
+    iget-object v0, v0, Lcom/tencent/mm/ab/Cclz;->bMV:Lcom/tencent/mm/q/Aclz;
 
     iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/aaf;
 
@@ -630,13 +630,13 @@
     iput-boolean v1, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jXb:Z
 
     .line 278
-    check-cast p4, Lcom/tencent/mm/ab/c;
+    check-cast p4, Lcom/tencent/mm/ab/Cclz;
 
-    iget-object v0, p4, Lcom/tencent/mm/ab/c;->bMV:Lcom/tencent/mm/q/Aclz;
+    iget-object v0, p4, Lcom/tencent/mm/ab/Cclz;->bMV:Lcom/tencent/mm/q/Aclz;
 
     iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
-    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/a;
+    iget-object v0, v0, Lcom/tencent/mm/q/Aclz$c;->bxR:Lcom/tencent/mm/aq/Aclz;
 
     check-cast v0, Lcom/tencent/mm/protocal/b/aaf;
 
@@ -645,14 +645,14 @@
     iput v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->bMW:I
 
     .line 279
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/Aclz;
 
     if-eqz v0, :cond_1
 
     .line 280
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/bindlinkedin/a;->Fp()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/bindlinkedin/Aclz;->Fp()V
 
     .line 328
     :cond_1
@@ -700,7 +700,7 @@
 
     move-object v0, p0
 
-    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -713,18 +713,18 @@
     if-ne p2, v3, :cond_5
 
     .line 301
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     new-instance v1, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI$10;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI$10;-><init>(Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;)V
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
     .line 312
     const-wide/16 v1, 0x7d0
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     goto :goto_1
 
@@ -758,7 +758,7 @@
 
     move-object v0, p0
 
-    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -774,7 +774,7 @@
     const/4 v5, 0x1
 
     .line 331
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/Aclz;
 
     if-nez v0, :cond_1
 
@@ -785,25 +785,25 @@
 
     .line 334
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/Aclz;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/ui/bindlinkedin/a;->getItem(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/ui/bindlinkedin/Aclz;->getItem(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelfriend/s;
+    check-cast v0, Lcom/tencent/mm/modelfriend/Sclz;
 
     .line 335
     if-eqz v0, :cond_0
 
     .line 338
-    iget-object v1, v0, Lcom/tencent/mm/modelfriend/s;->field_linkedInId:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/modelfriend/Sclz;->field_linkedInId:Ljava/lang/String;
 
     .line 339
-    iget-object v2, v0, Lcom/tencent/mm/modelfriend/s;->field_name:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/modelfriend/Sclz;->field_name:Ljava/lang/String;
 
     .line 340
-    iget v3, v0, Lcom/tencent/mm/modelfriend/s;->field_status:I
+    iget v3, v0, Lcom/tencent/mm/modelfriend/Sclz;->field_status:I
 
     packed-switch v3, :pswitch_data_0
 
@@ -844,24 +844,24 @@
     invoke-virtual {v3, v4}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
     .line 363
-    iget-object v4, v0, Lcom/tencent/mm/modelfriend/s;->field_wechatUsername:Ljava/lang/String;
+    iget-object v4, v0, Lcom/tencent/mm/modelfriend/Sclz;->field_wechatUsername:Ljava/lang/String;
 
     invoke-virtual {v2, v4, v3, v5}, Lcom/tencent/mm/pluginsdk/ui/applet/a;->a(Ljava/lang/String;Ljava/util/LinkedList;Z)V
 
     .line 364
-    iput v5, v0, Lcom/tencent/mm/modelfriend/s;->field_userOpStatus:I
+    iput v5, v0, Lcom/tencent/mm/modelfriend/Sclz;->field_userOpStatus:I
 
     .line 365
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zj()Lcom/tencent/mm/modelfriend/t;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zj()Lcom/tencent/mm/modelfriend/Tclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelfriend/t;->hn(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/modelfriend/Tclz;->hn(Ljava/lang/String;)Z
 
     .line 366
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/bindlinkedin/a;->Fp()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/bindlinkedin/Aclz;->Fp()V
 
     goto :goto_0
 
@@ -918,7 +918,7 @@
     .line 375
     const-string/jumbo v0, "intent.key.linkedin.to.name"
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jX(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -982,7 +982,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 207
     if-nez p3, :cond_0
@@ -1003,7 +1003,7 @@
 
     const-string/jumbo v1, "onActivityResult unknow request"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -1045,7 +1045,7 @@
 
     move-result-object v0
 
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v5
 
@@ -1055,12 +1055,12 @@
 
     const-string/jumbo v1, "linkedin oauth ret is null, maybe canceled"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     :cond_1
-    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/bc;->Bk(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Bk(Ljava/lang/String;)I
 
     move-result v1
 
@@ -1078,7 +1078,7 @@
 
     aput-object v4, v3, v8
 
-    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     if-ne v1, v7, :cond_2
 
@@ -1095,7 +1095,7 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI$7;-><init>(Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;)V
 
-    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     iput-boolean v8, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jXa:Z
 
@@ -1109,7 +1109,7 @@
     :cond_3
     iput-boolean v7, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jXa:Z
 
-    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/bc;->jY(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -1119,7 +1119,7 @@
 
     const-string/jumbo v1, "linkedin member id is null"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -1144,7 +1144,7 @@
 
     aput-object v0, v6, v7
 
-    invoke-static {v1, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
 
@@ -1220,9 +1220,9 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onDestroy()V
 
     .line 127
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/Aclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/bindlinkedin/a;->fuh:Lcom/tencent/mm/pluginsdk/ui/tools/g;
+    iget-object v0, v0, Lcom/tencent/mm/ui/bindlinkedin/Aclz;->fuh:Lcom/tencent/mm/pluginsdk/ui/tools/g;
 
     invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/g;->destory()V
 
@@ -1267,14 +1267,14 @@
     invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->a(ILcom/tencent/mm/q/Dclz;)V
 
     .line 119
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/Aclz;
 
     if-eqz v0, :cond_0
 
     .line 120
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/bindlinkedin/a;->Fp()V
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/bindlinkedin/Aclz;->Fp()V
 
     .line 122
     :cond_0

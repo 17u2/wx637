@@ -19,7 +19,7 @@
 
 .field amz:Landroid/os/HandlerThread;
 
-.field handler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # direct methods
@@ -35,7 +35,7 @@
     .line 421
     const/16 v0, 0xa
 
-    invoke-static {p2, v0}, Lcom/tencent/mm/sdk/h/e;->aP(Ljava/lang/String;I)Landroid/os/HandlerThread;
+    invoke-static {p2, v0}, Lcom/tencent/mm/sdk/h/Eclz;->aP(Ljava/lang/String;I)Landroid/os/HandlerThread;
 
     move-result-object v0
 
@@ -47,7 +47,7 @@
     invoke-virtual {v0}, Landroid/os/HandlerThread;->start()V
 
     .line 423
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     iget-object v1, p0, Lcom/tencent/mm/app/WorkerProfile$b;->amz:Landroid/os/HandlerThread;
 
@@ -55,16 +55,16 @@
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/app/WorkerProfile$b;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/app/WorkerProfile$b;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 424
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

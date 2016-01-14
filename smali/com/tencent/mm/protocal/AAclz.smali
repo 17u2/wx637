@@ -11,7 +11,7 @@
     const/4 v3, 0x0
 
     .line 56
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/bc;->I([B)Z
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->I([B)Z
 
     move-result v0
 
@@ -30,7 +30,7 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/protocal/b/aqh;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/protocal/b/aqh;->ak([B)Lcom/tencent/mm/aq/a;
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/protocal/b/aqh;->ak([B)Lcom/tencent/mm/aq/Aclz;
 
     move-result-object v0
 
@@ -74,7 +74,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 69
     iget-object v5, v0, Lcom/tencent/mm/protocal/b/aqh;->iUa:Ljava/util/LinkedList;
@@ -176,7 +176,7 @@
 
     .prologue
     .line 116
-    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/bc;->I([B)Z
+    invoke-static {p0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->I([B)Z
 
     move-result v0
 
@@ -405,7 +405,7 @@
 
     const-string/jumbo v1, "empty old key, use new key"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 52
     :goto_0
@@ -425,7 +425,7 @@
 
     const-string/jumbo v2, "newKey is null"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object p1, v0
 
@@ -451,7 +451,7 @@
 
     const-string/jumbo v2, "merge key failed"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/IncompatibleClassChangeError; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -473,7 +473,7 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 47
     new-instance v1, Ljava/lang/IncompatibleClassChangeError;
@@ -520,7 +520,7 @@
 
     const-string/jumbo v1, "dkpush local sync key failed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v3
 
@@ -542,7 +542,7 @@
 
     const-string/jumbo v1, "dkpush svr sync key failed"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v4
 
@@ -607,7 +607,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v3
 
@@ -652,7 +652,7 @@
 
     move-result-object v0
 
-    invoke-static {v8, v0}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v8, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 154
     invoke-virtual {v2}, Ljava/lang/Long;->longValue()J
@@ -678,7 +678,7 @@
 
     const-string/jumbo v1, "dkpush two sync key is the same"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v4
 

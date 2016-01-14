@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -168,7 +168,7 @@
     return-void
 .end method
 
-.method public final b(ILcom/tencent/mm/aq/b;)V
+.method public final b(ILcom/tencent/mm/aq/Bclz;)V
     .locals 3
 
     .prologue
@@ -181,7 +181,7 @@
 
     invoke-virtual {v0, p1, v1}, La/a/a/b/b/aclass;->w(II)V
 
-    invoke-virtual {p2}, Lcom/tencent/mm/aq/b;->toByteArray()[B
+    invoke-virtual {p2}, Lcom/tencent/mm/aq/Bclz;->toByteArray()[B
 
     move-result-object v1
 
@@ -408,9 +408,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/aq/b;
+    check-cast v0, Lcom/tencent/mm/aq/Bclz;
 
-    invoke-virtual {p0, p1, v0}, La/a/a/c/aclass;->b(ILcom/tencent/mm/aq/b;)V
+    invoke-virtual {p0, p1, v0}, La/a/a/c/aclass;->b(ILcom/tencent/mm/aq/Bclz;)V
 
     .line 87
     add-int/lit8 v0, v1, 0x1
@@ -617,17 +617,17 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/aq/a;
+    check-cast v0, Lcom/tencent/mm/aq/Aclz;
 
     .line 124
-    invoke-virtual {v0}, Lcom/tencent/mm/aq/a;->kx()I
+    invoke-virtual {v0}, Lcom/tencent/mm/aq/Aclz;->kx()I
 
     move-result v2
 
     invoke-virtual {p0, p1, v2}, La/a/a/c/aclass;->cd(II)V
 
     .line 125
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/aq/a;->a(La/a/a/c/aclass;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/aq/Aclz;->a(La/a/a/c/aclass;)V
 
     .line 122
     add-int/lit8 v0, v1, 0x1

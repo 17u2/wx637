@@ -22,11 +22,11 @@
 
 .field final synthetic kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-.field final synthetic kjk:Lcom/tencent/mm/modelsimple/w;
+.field final synthetic kjk:Lcom/tencent/mm/modelsimple/Wclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/modelsimple/w;)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/modelsimple/Wclz;)V
     .locals 1
 
     .prologue
@@ -35,7 +35,7 @@
 
     iput-object p2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$25;->fuX:Lcom/tencent/mm/storage/ADclz;
 
-    iput-object p3, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$25;->kjk:Lcom/tencent/mm/modelsimple/w;
+    iput-object p3, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$25;->kjk:Lcom/tencent/mm/modelsimple/Wclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -68,7 +68,7 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$25;->fuX:Lcom/tencent/mm/storage/ADclz;
 
-    iget-wide v4, v4, Lcom/tencent/mm/d/b/ba;->field_msgId:J
+    iget-wide v4, v4, Lcom/tencent/mm/d/b/BAclz;->field_msgId:J
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -76,14 +76,14 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 9896
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$25;->kjk:Lcom/tencent/mm/modelsimple/w;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$25;->kjk:Lcom/tencent/mm/modelsimple/Wclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 

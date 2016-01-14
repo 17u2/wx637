@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,19 +48,19 @@
 
     .prologue
     .line 390
-    new-instance v0, Lcom/tencent/mm/d/a/hc;
+    new-instance v0, Lcom/tencent/mm/d/a/HCclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/hc;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/HCclz;-><init>()V
 
     .line 391
-    iget-object v1, v0, Lcom/tencent/mm/d/a/hc;->aBP:Lcom/tencent/mm/d/a/hc$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/HCclz;->aBP:Lcom/tencent/mm/d/a/HCclz$a;
 
     const/4 v2, 0x0
 
-    iput v2, v1, Lcom/tencent/mm/d/a/hc$a;->atB:I
+    iput v2, v1, Lcom/tencent/mm/d/a/HCclz$a;->atB:I
 
     .line 392
-    iget-object v1, v0, Lcom/tencent/mm/d/a/hc;->aBP:Lcom/tencent/mm/d/a/hc$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/HCclz;->aBP:Lcom/tencent/mm/d/a/HCclz$a;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -86,10 +86,10 @@
 
     move-result-object v2
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/hc$a;->aBR:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/HCclz$a;->aBR:Ljava/lang/String;
 
     .line 393
-    iget-object v1, v0, Lcom/tencent/mm/d/a/hc;->aBP:Lcom/tencent/mm/d/a/hc$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/HCclz;->aBP:Lcom/tencent/mm/d/a/HCclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI$2;->kzt:Lcom/tencent/mm/ui/friend/InviteFriendUI;
 
@@ -97,17 +97,17 @@
 
     move-result-object v2
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/hc$a;->aBS:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/HCclz$a;->aBS:Ljava/lang/String;
 
     .line 394
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 396
-    iget-object v0, v0, Lcom/tencent/mm/d/a/hc;->aBQ:Lcom/tencent/mm/d/a/hc$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/HCclz;->aBQ:Lcom/tencent/mm/d/a/HCclz$b;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/d/a/hc$b;->asS:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/d/a/HCclz$b;->asS:Z
 
     if-eqz v0, :cond_0
 

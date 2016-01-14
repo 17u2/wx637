@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/ui/chatting/ChattingUI$a$108;
-.super Lcom/tencent/mm/sdk/c/c;
+.super Lcom/tencent/mm/sdk/c/Cclz;
 .source "SourceFile"
 
 
@@ -28,13 +28,13 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/c;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/sdk/c/Cclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -42,29 +42,29 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/sdk/c/b;)Z
+.method public final a(Lcom/tencent/mm/sdk/c/Bclz;)Z
     .locals 6
 
     .prologue
     const/4 v1, 0x0
 
     .line 974
-    instance-of v0, p1, Lcom/tencent/mm/d/a/ks;
+    instance-of v0, p1, Lcom/tencent/mm/d/a/KSclz;
 
     if-eqz v0, :cond_0
 
     .line 975
-    check-cast p1, Lcom/tencent/mm/d/a/ks;
+    check-cast p1, Lcom/tencent/mm/d/a/KSclz;
 
     .line 976
-    iget-object v0, p1, Lcom/tencent/mm/d/a/ks;->aFP:Lcom/tencent/mm/d/a/ks$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/KSclz;->aFP:Lcom/tencent/mm/d/a/KSclz$a;
 
-    iget-object v2, v0, Lcom/tencent/mm/d/a/ks$a;->id:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/d/a/KSclz$a;->id:Ljava/lang/String;
 
     .line 977
-    iget-object v0, p1, Lcom/tencent/mm/d/a/ks;->aFP:Lcom/tencent/mm/d/a/ks$a;
+    iget-object v0, p1, Lcom/tencent/mm/d/a/KSclz;->aFP:Lcom/tencent/mm/d/a/KSclz$a;
 
-    iget v3, v0, Lcom/tencent/mm/d/a/ks$a;->ret:I
+    iget v3, v0, Lcom/tencent/mm/d/a/KSclz$a;->ret:I
 
     .line 978
     const/4 v0, 0x5
@@ -77,7 +77,7 @@
     :goto_0
     iget-object v4, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$108;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    invoke-static {v4}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->m(Lcom/tencent/mm/ui/chatting/ChattingUI$a;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v4}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->m(Lcom/tencent/mm/ui/chatting/ChattingUI$a;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v4
 
@@ -87,7 +87,7 @@
 
     int-to-long v2, v0
 
-    invoke-virtual {v4, v5, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v4, v5, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->postDelayed(Ljava/lang/Runnable;J)Z
 
     .line 1000
     :cond_0

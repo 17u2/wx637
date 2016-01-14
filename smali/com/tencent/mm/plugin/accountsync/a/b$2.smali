@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -54,14 +54,14 @@
     .line 78
     iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/a/b$2;->cfB:Lcom/tencent/mm/plugin/accountsync/a/b;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/accountsync/a/b;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/accountsync/a/b;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     if-eqz v0, :cond_0
 
     .line 79
     iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/a/b$2;->cfB:Lcom/tencent/mm/plugin/accountsync/a/b;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/accountsync/a/b;->cfz:Lcom/tencent/mm/ui/base/o;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/accountsync/a/b;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -97,7 +97,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/o;->setMessage(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/base/Oclz;->setMessage(Ljava/lang/CharSequence;)V
 
     .line 81
     :cond_0

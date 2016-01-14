@@ -23,7 +23,7 @@
 
 .field volatile fIf:Z
 
-.field fIg:Lcom/tencent/mm/modelsearch/m$a;
+.field fIg:Lcom/tencent/mm/modelsearch/Mclz$a;
 
 .field private fIh:Z
 
@@ -70,7 +70,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -161,7 +161,7 @@
 
     move-result-object v1
 
-    invoke-static {v2, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_2
     .catch Ljava/lang/SecurityException; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -200,7 +200,7 @@
 
     aput-object v0, v4, v5
 
-    invoke-static {v2, v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
@@ -398,7 +398,7 @@
     const/4 v0, 0x0
 
     :try_start_1
-    iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/f$b;->fIg:Lcom/tencent/mm/modelsearch/m$a;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/f$b;->fIg:Lcom/tencent/mm/modelsearch/Mclz$a;
 
     .line 320
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/f$b;->fIe:Ljava/util/concurrent/PriorityBlockingQueue;
@@ -407,7 +407,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelsearch/m$a;
+    check-cast v0, Lcom/tencent/mm/modelsearch/Mclz$a;
     :try_end_1
     .catch Ljava/lang/InterruptedException; {:try_start_1 .. :try_end_1} :catch_7
     .catch Lcom/tencent/mm/plugin/search/a/a/a; {:try_start_1 .. :try_end_1} :catch_1
@@ -419,10 +419,10 @@
 
     .line 324
     :try_start_2
-    iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/f$b;->fIg:Lcom/tencent/mm/modelsearch/m$a;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/f$b;->fIg:Lcom/tencent/mm/modelsearch/Mclz$a;
 
     .line 325
-    iget v4, v0, Lcom/tencent/mm/modelsearch/m$a;->mPriority:I
+    iget v4, v0, Lcom/tencent/mm/modelsearch/Mclz$a;->mPriority:I
 
     invoke-virtual {p0, v4}, Lcom/tencent/mm/plugin/search/a/f$b;->kb(I)V
 
@@ -440,7 +440,7 @@
 
     .line 331
     :cond_2
-    invoke-virtual {v0}, Lcom/tencent/mm/modelsearch/m$a;->execute()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/modelsearch/Mclz$a;->execute()Z
 
     .line 332
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -452,10 +452,10 @@
     .line 341
     const/4 v4, 0x1
 
-    invoke-static {v4}, Lcom/tencent/mm/modelsearch/f;->dJ(I)V
+    invoke-static {v4}, Lcom/tencent/mm/modelsearch/Fclz;->dJ(I)V
 
     .line 342
-    invoke-virtual {v0}, Lcom/tencent/mm/modelsearch/m$a;->getId()I
+    invoke-virtual {v0}, Lcom/tencent/mm/modelsearch/Mclz$a;->getId()I
 
     move-result v4
 
@@ -491,7 +491,7 @@
 
     aput-object v4, v8, v9
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     new-instance v4, Ljava/util/ArrayList;
 
@@ -577,7 +577,7 @@
 
     aput-object v8, v6, v7
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_2
     .catch Ljava/lang/InterruptedException; {:try_start_2 .. :try_end_2} :catch_0
     .catch Lcom/tencent/mm/plugin/search/a/a/a; {:try_start_2 .. :try_end_2} :catch_6
@@ -604,7 +604,7 @@
     if-eqz v3, :cond_0
 
     .line 348
-    iget-boolean v4, v3, Lcom/tencent/mm/modelsearch/m$a;->bRP:Z
+    iget-boolean v4, v3, Lcom/tencent/mm/modelsearch/Mclz$a;->bRP:Z
 
     if-nez v4, :cond_4
 
@@ -649,7 +649,7 @@
 
     move-result-object v5
 
-    iget-boolean v0, v3, Lcom/tencent/mm/modelsearch/m$a;->bRP:Z
+    iget-boolean v0, v3, Lcom/tencent/mm/modelsearch/Mclz$a;->bRP:Z
 
     if-eqz v0, :cond_5
 
@@ -674,7 +674,7 @@
 
     move-result-object v0
 
-    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -715,12 +715,12 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 358
     const/4 v0, 0x6
 
-    invoke-static {v0}, Lcom/tencent/mm/modelsearch/f;->dJ(I)V
+    invoke-static {v0}, Lcom/tencent/mm/modelsearch/Fclz;->dJ(I)V
 
     goto/16 :goto_0
 
@@ -756,12 +756,12 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 362
     const/4 v0, 0x7
 
-    invoke-static {v0}, Lcom/tencent/mm/modelsearch/f;->dJ(I)V
+    invoke-static {v0}, Lcom/tencent/mm/modelsearch/Fclz;->dJ(I)V
 
     goto/16 :goto_0
 
@@ -778,7 +778,7 @@
     .line 365
     const/4 v1, 0x3
 
-    invoke-static {v1}, Lcom/tencent/mm/modelsearch/f;->dJ(I)V
+    invoke-static {v1}, Lcom/tencent/mm/modelsearch/Fclz;->dJ(I)V
 
     .line 372
     :goto_6
@@ -808,7 +808,7 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->printErrStackTrace(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 375
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/a/f$b;->fIi:Ljava/lang/Runnable;
@@ -831,7 +831,7 @@
     .line 367
     const/4 v1, 0x4
 
-    invoke-static {v1}, Lcom/tencent/mm/modelsearch/f;->dJ(I)V
+    invoke-static {v1}, Lcom/tencent/mm/modelsearch/Fclz;->dJ(I)V
 
     goto :goto_6
 
@@ -839,7 +839,7 @@
     :cond_7
     const/4 v1, 0x5
 
-    invoke-static {v1}, Lcom/tencent/mm/modelsearch/f;->dJ(I)V
+    invoke-static {v1}, Lcom/tencent/mm/modelsearch/Fclz;->dJ(I)V
 
     goto :goto_6
 

@@ -26,7 +26,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -60,15 +60,15 @@
 
     aput-object v6, v4, v5
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 330
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/z;->aOt()Landroid/content/SharedPreferences;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOt()Landroid/content/SharedPreferences;
 
     .line 332
     const/16 v2, 0xcd
 
-    invoke-static {v2, v0, v1}, Lcom/tencent/mm/compatible/d/r;->j(IJ)V
+    invoke-static {v2, v0, v1}, Lcom/tencent/mm/compatible/d/Rclz;->j(IJ)V
 
     .line 334
     return-void

@@ -16,7 +16,7 @@
 
 .field private static bDM:Landroid/content/Intent;
 
-.field private static handler:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private static handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # instance fields
@@ -42,13 +42,13 @@
 
     invoke-direct {v0, v1}, Lcom/tencent/mm/modelfriend/AddrBookObserver$1;-><init>(Landroid/os/Looper;)V
 
-    sput-object v0, Lcom/tencent/mm/modelfriend/AddrBookObserver;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    sput-object v0, Lcom/tencent/mm/modelfriend/AddrBookObserver;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -59,7 +59,7 @@
 
     .prologue
     .line 57
-    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/ab;->fetchFreeHandler()Landroid/os/Handler;
+    invoke-static {}, Lcom/tencent/mm/sdk/platformtools/ABclz;->fetchFreeHandler()Landroid/os/Handler;
 
     move-result-object v0
 
@@ -73,7 +73,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -115,7 +115,7 @@
 
     const-string/jumbo v1, "address book changed, start sync after 20 second"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 66
     sget-boolean v0, Lcom/tencent/mm/modelfriend/AddrBookObserver;->bDL:Z
@@ -147,7 +147,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 76
     :goto_0
@@ -155,14 +155,14 @@
 
     .line 71
     :cond_0
-    sget-object v0, Lcom/tencent/mm/modelfriend/AddrBookObserver;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    sget-object v0, Lcom/tencent/mm/modelfriend/AddrBookObserver;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->removeMessages(I)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeMessages(I)V
 
     .line 72
-    sget-object v0, Lcom/tencent/mm/modelfriend/AddrBookObserver;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    sget-object v0, Lcom/tencent/mm/modelfriend/AddrBookObserver;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ab;->obtainMessage()Landroid/os/Message;
+    invoke-virtual {v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;->obtainMessage()Landroid/os/Message;
 
     move-result-object v0
 
@@ -175,11 +175,11 @@
     iput v2, v0, Landroid/os/Message;->what:I
 
     .line 75
-    sget-object v1, Lcom/tencent/mm/modelfriend/AddrBookObserver;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    sget-object v1, Lcom/tencent/mm/modelfriend/AddrBookObserver;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     const-wide/16 v2, 0x4e20
 
-    invoke-virtual {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ab;->sendMessageDelayed(Landroid/os/Message;J)Z
+    invoke-virtual {v1, v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendMessageDelayed(Landroid/os/Message;J)Z
 
     goto :goto_0
 .end method

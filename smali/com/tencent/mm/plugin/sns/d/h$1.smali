@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -61,13 +61,13 @@
     .line 33
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/d/h$1;->ghA:Lcom/tencent/mm/plugin/sns/d/h;
 
-    iget-object v1, v1, Lcom/tencent/mm/plugin/sns/d/h;->handler:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v1, v1, Lcom/tencent/mm/plugin/sns/d/h;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     new-instance v2, Lcom/tencent/mm/plugin/sns/d/h$1$1;
 
     invoke-direct {v2, p0, v0}, Lcom/tencent/mm/plugin/sns/d/h$1$1;-><init>(Lcom/tencent/mm/plugin/sns/d/h$1;Ljava/lang/Object;)V
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 40
     return-void

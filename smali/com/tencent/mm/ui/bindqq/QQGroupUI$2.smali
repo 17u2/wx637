@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -50,15 +50,15 @@
     .line 140
     iget-object v0, p0, Lcom/tencent/mm/ui/bindqq/QQGroupUI$2;->jYP:Lcom/tencent/mm/ui/bindqq/QQGroupUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/bindqq/QQGroupUI;->d(Lcom/tencent/mm/ui/bindqq/QQGroupUI;)Lcom/tencent/mm/ui/i;
+    invoke-static {v0}, Lcom/tencent/mm/ui/bindqq/QQGroupUI;->d(Lcom/tencent/mm/ui/bindqq/QQGroupUI;)Lcom/tencent/mm/ui/Iclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p3}, Lcom/tencent/mm/ui/i;->getItem(I)Ljava/lang/Object;
+    invoke-virtual {v0, p3}, Lcom/tencent/mm/ui/Iclz;->getItem(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelfriend/ad;
+    check-cast v0, Lcom/tencent/mm/modelfriend/ADclz;
 
     .line 141
     new-instance v1, Landroid/content/Intent;
@@ -72,14 +72,14 @@
     .line 142
     const-string/jumbo v2, "qqgroup_id"
 
-    iget v3, v0, Lcom/tencent/mm/modelfriend/ad;->bFE:I
+    iget v3, v0, Lcom/tencent/mm/modelfriend/ADclz;->bFE:I
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 143
     const-string/jumbo v2, "qqgroup_name"
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/ad;->yO()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/ADclz;->yO()Ljava/lang/String;
 
     move-result-object v0
 

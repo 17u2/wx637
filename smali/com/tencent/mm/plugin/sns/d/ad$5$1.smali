@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/plugin/sns/d/ad$5;->a(Lcom/tencent/mm/sdk/c/b;)Z
+    value = Lcom/tencent/mm/plugin/sns/d/ad$5;->a(Lcom/tencent/mm/sdk/c/Bclz;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic gjT:Lcom/tencent/mm/d/a/kb;
+.field final synthetic gjT:Lcom/tencent/mm/d/a/KBclz;
 
 .field final synthetic gjU:Lcom/tencent/mm/plugin/sns/d/ad$5;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/sns/d/ad$5;Lcom/tencent/mm/d/a/kb;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/sns/d/ad$5;Lcom/tencent/mm/d/a/KBclz;)V
     .locals 1
 
     .prologue
     .line 814
     iput-object p1, p0, Lcom/tencent/mm/plugin/sns/d/ad$5$1;->gjU:Lcom/tencent/mm/plugin/sns/d/ad$5;
 
-    iput-object p2, p0, Lcom/tencent/mm/plugin/sns/d/ad$5$1;->gjT:Lcom/tencent/mm/d/a/kb;
+    iput-object p2, p0, Lcom/tencent/mm/plugin/sns/d/ad$5$1;->gjT:Lcom/tencent/mm/d/a/KBclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -52,11 +52,11 @@
 
     .prologue
     .line 818
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/d/ad$5$1;->gjT:Lcom/tencent/mm/d/a/kb;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/d/ad$5$1;->gjT:Lcom/tencent/mm/d/a/KBclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/kb;->aFd:Lcom/tencent/mm/d/a/kb$a;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/KBclz;->aFd:Lcom/tencent/mm/d/a/KBclz$a;
 
-    iget-wide v0, v0, Lcom/tencent/mm/d/a/kb$a;->aFf:J
+    iget-wide v0, v0, Lcom/tencent/mm/d/a/KBclz$a;->aFf:J
 
     long-to-int v0, v0
 
@@ -95,13 +95,13 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v1, v1, Lcom/tencent/mm/plugin/sns/h/h;->bvh:Lcom/tencent/mm/aw/g;
+    iget-object v1, v1, Lcom/tencent/mm/plugin/sns/h/h;->bvh:Lcom/tencent/mm/aw/Gclz;
 
     const-string/jumbo v2, "SnsComment"
 
-    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/aw/g;->bX(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/aw/Gclz;->bX(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -122,7 +122,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 821
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/r;->asS()V

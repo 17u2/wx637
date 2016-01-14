@@ -40,13 +40,13 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method constructor <init>(Lcom/tencent/mm/modelfriend/o;)V
+.method constructor <init>(Lcom/tencent/mm/modelfriend/Oclz;)V
     .locals 2
 
     .prologue
@@ -54,32 +54,32 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2463
-    iget-wide v0, p1, Lcom/tencent/mm/modelfriend/o;->jjf:J
+    iget-wide v0, p1, Lcom/tencent/mm/modelfriend/Oclz;->jjf:J
 
     iput-wide v0, p0, Lcom/tencent/mm/plugin/search/a/e$h;->fHB:J
 
     .line 2464
-    iget-object v0, p1, Lcom/tencent/mm/modelfriend/o;->field_googlegmail:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/modelfriend/Oclz;->field_googlegmail:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$h;->fHC:Ljava/lang/String;
 
     .line 2465
-    iget-object v0, p1, Lcom/tencent/mm/modelfriend/o;->field_username:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/modelfriend/Oclz;->field_username:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$h;->username:Ljava/lang/String;
 
     .line 2466
-    iget-object v0, p1, Lcom/tencent/mm/modelfriend/o;->field_googlename:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/modelfriend/Oclz;->field_googlename:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$h;->fHD:Ljava/lang/String;
 
     .line 2467
-    iget-object v0, p1, Lcom/tencent/mm/modelfriend/o;->field_googlenamepy:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/modelfriend/Oclz;->field_googlenamepy:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/search/a/e$h;->fHE:Ljava/lang/String;
 
     .line 2468
-    iget v0, p1, Lcom/tencent/mm/modelfriend/o;->field_status:I
+    iget v0, p1, Lcom/tencent/mm/modelfriend/Oclz;->field_status:I
 
     iput v0, p0, Lcom/tencent/mm/plugin/search/a/e$h;->status:I
 
@@ -88,7 +88,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

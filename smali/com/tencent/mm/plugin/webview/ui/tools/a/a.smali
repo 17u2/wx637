@@ -54,7 +54,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -100,7 +100,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -208,7 +208,7 @@
 
     aput-object v3, v2, v4
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 181
     iget-boolean v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/a/a;->hFk:Z
@@ -216,31 +216,31 @@
     if-eqz v0, :cond_1
 
     .line 182
-    new-instance v0, Lcom/tencent/mm/d/a/bt;
+    new-instance v0, Lcom/tencent/mm/d/a/BTclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/bt;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/BTclz;-><init>()V
 
     .line 183
-    iget-object v1, v0, Lcom/tencent/mm/d/a/bt;->aut:Lcom/tencent/mm/d/a/bt$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/BTclz;->aut:Lcom/tencent/mm/d/a/BTclz$a;
 
-    iput-boolean v4, v1, Lcom/tencent/mm/d/a/bt$a;->Jm:Z
+    iput-boolean v4, v1, Lcom/tencent/mm/d/a/BTclz$a;->Jm:Z
 
     .line 184
-    iget-object v1, v0, Lcom/tencent/mm/d/a/bt;->aut:Lcom/tencent/mm/d/a/bt$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/BTclz;->aut:Lcom/tencent/mm/d/a/BTclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/a/a;->atJ:Ljava/lang/String;
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/bt$a;->atJ:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/BTclz$a;->atJ:Ljava/lang/String;
 
     .line 185
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 186
-    iget-object v0, v0, Lcom/tencent/mm/d/a/bt;->auu:Lcom/tencent/mm/d/a/bt$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/BTclz;->auu:Lcom/tencent/mm/d/a/BTclz$b;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/d/a/bt$b;->atK:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/d/a/BTclz$b;->atK:Z
 
     if-nez v0, :cond_0
 
@@ -249,7 +249,7 @@
 
     const-string/jumbo v1, "stopScanWXDevice fail"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 189
     :cond_0
@@ -265,49 +265,49 @@
     if-eqz v0, :cond_2
 
     .line 193
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "ExDeviceOnScanDeviceResult"
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/a/a;->hFg:Lcom/tencent/mm/plugin/webview/ui/tools/a/a$a;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 194
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "ExDeviceOnRecvDataFromDevice"
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/a/a;->hFg:Lcom/tencent/mm/plugin/webview/ui/tools/a/a$a;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 195
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "OpFromExDevice"
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/a/a;->hFg:Lcom/tencent/mm/plugin/webview/ui/tools/a/a$a;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 196
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "ExDeviceOnDeviceBindStateChange"
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/a/a;->hFg:Lcom/tencent/mm/plugin/webview/ui/tools/a/a$a;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 197
-    sget-object v0, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
     const-string/jumbo v1, "ExDeviceOnBluetoothStateChange"
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/a/a;->hFg:Lcom/tencent/mm/plugin/webview/ui/tools/a/a$a;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/a;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/c;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->b(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 198
     iput-object v6, p0, Lcom/tencent/mm/plugin/webview/ui/tools/a/a;->hFg:Lcom/tencent/mm/plugin/webview/ui/tools/a/a$a;
@@ -317,31 +317,31 @@
     iput-object v6, p0, Lcom/tencent/mm/plugin/webview/ui/tools/a/a;->hFi:[B
 
     .line 202
-    new-instance v0, Lcom/tencent/mm/d/a/bv;
+    new-instance v0, Lcom/tencent/mm/d/a/BVclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/bv;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/BVclz;-><init>()V
 
     .line 203
-    iget-object v1, v0, Lcom/tencent/mm/d/a/bv;->auy:Lcom/tencent/mm/d/a/bv$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/BVclz;->auy:Lcom/tencent/mm/d/a/BVclz$a;
 
     const-string/jumbo v2, ""
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/bv$a;->alx:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/BVclz$a;->alx:Ljava/lang/String;
 
     .line 204
-    iget-object v1, v0, Lcom/tencent/mm/d/a/bv;->auy:Lcom/tencent/mm/d/a/bv$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/BVclz;->auy:Lcom/tencent/mm/d/a/BVclz$a;
 
-    iput v4, v1, Lcom/tencent/mm/d/a/bv$a;->direction:I
+    iput v4, v1, Lcom/tencent/mm/d/a/BVclz$a;->direction:I
 
     .line 205
-    iget-object v1, v0, Lcom/tencent/mm/d/a/bv;->auy:Lcom/tencent/mm/d/a/bv$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/BVclz;->auy:Lcom/tencent/mm/d/a/BVclz$a;
 
-    iput-boolean v5, v1, Lcom/tencent/mm/d/a/bv$a;->auA:Z
+    iput-boolean v5, v1, Lcom/tencent/mm/d/a/BVclz$a;->auA:Z
 
     .line 206
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 207
     const-string/jumbo v1, "!56@/B4Tb64lLpJtyfG0tyKQK0x5GILwaefoi4WJZB0Q9Gu9KexhLlvfMw=="
@@ -350,9 +350,9 @@
 
     new-array v3, v5, [Ljava/lang/Object;
 
-    iget-object v0, v0, Lcom/tencent/mm/d/a/bv;->auz:Lcom/tencent/mm/d/a/bv$b;
+    iget-object v0, v0, Lcom/tencent/mm/d/a/BVclz;->auz:Lcom/tencent/mm/d/a/BVclz$b;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/d/a/bv$b;->atK:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/d/a/BVclz$b;->atK:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -360,7 +360,7 @@
 
     aput-object v0, v3, v4
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 208
     return-void

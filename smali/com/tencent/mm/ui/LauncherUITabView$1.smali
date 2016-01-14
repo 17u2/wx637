@@ -42,7 +42,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -102,25 +102,25 @@
 
     const-string/jumbo v2, "onMainTabDoubleClick"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 87
     iget-object v1, p0, Lcom/tencent/mm/ui/LauncherUITabView$1;->jxI:Lcom/tencent/mm/ui/LauncherUITabView;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/LauncherUITabView;->c(Lcom/tencent/mm/ui/LauncherUITabView;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v1}, Lcom/tencent/mm/ui/LauncherUITabView;->c(Lcom/tencent/mm/ui/LauncherUITabView;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v5}, Lcom/tencent/mm/sdk/platformtools/ab;->removeMessages(I)V
+    invoke-virtual {v1, v5}, Lcom/tencent/mm/sdk/platformtools/ABclz;->removeMessages(I)V
 
     .line 88
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    new-instance v2, Lcom/tencent/mm/d/a/fi;
+    new-instance v2, Lcom/tencent/mm/d/a/FIclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/d/a/fi;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/d/a/FIclz;-><init>()V
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 89
     iget-object v1, p0, Lcom/tencent/mm/ui/LauncherUITabView$1;->jxI:Lcom/tencent/mm/ui/LauncherUITabView;
@@ -144,7 +144,7 @@
     :cond_0
     iget-object v1, p0, Lcom/tencent/mm/ui/LauncherUITabView$1;->jxI:Lcom/tencent/mm/ui/LauncherUITabView;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/LauncherUITabView;->d(Lcom/tencent/mm/ui/LauncherUITabView;)Lcom/tencent/mm/ui/c$a;
+    invoke-static {v1}, Lcom/tencent/mm/ui/LauncherUITabView;->d(Lcom/tencent/mm/ui/LauncherUITabView;)Lcom/tencent/mm/ui/Cclz$a;
 
     move-result-object v1
 
@@ -179,11 +179,11 @@
     .line 99
     iget-object v1, p0, Lcom/tencent/mm/ui/LauncherUITabView$1;->jxI:Lcom/tencent/mm/ui/LauncherUITabView;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/LauncherUITabView;->d(Lcom/tencent/mm/ui/LauncherUITabView;)Lcom/tencent/mm/ui/c$a;
+    invoke-static {v1}, Lcom/tencent/mm/ui/LauncherUITabView;->d(Lcom/tencent/mm/ui/LauncherUITabView;)Lcom/tencent/mm/ui/Cclz$a;
 
     move-result-object v1
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/c$a;->go(I)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/ui/Cclz$a;->go(I)V
 
     goto :goto_0
 
@@ -191,11 +191,11 @@
     :cond_2
     iget-object v1, p0, Lcom/tencent/mm/ui/LauncherUITabView$1;->jxI:Lcom/tencent/mm/ui/LauncherUITabView;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/LauncherUITabView;->c(Lcom/tencent/mm/ui/LauncherUITabView;)Lcom/tencent/mm/sdk/platformtools/ab;
+    invoke-static {v1}, Lcom/tencent/mm/ui/LauncherUITabView;->c(Lcom/tencent/mm/ui/LauncherUITabView;)Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/ab;->sendEmptyMessageDelayed(IJ)Z
+    invoke-virtual {v1, v5, v6, v7}, Lcom/tencent/mm/sdk/platformtools/ABclz;->sendEmptyMessageDelayed(IJ)Z
 
     .line 106
     :cond_3
@@ -229,7 +229,7 @@
 
     aput-object v0, v3, v5
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 .end method

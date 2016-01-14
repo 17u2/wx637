@@ -1,11 +1,11 @@
 .class final Lcom/tencent/mm/plugin/search/a/h$3$1;
-.super Lcom/tencent/mm/modelsearch/m$a;
+.super Lcom/tencent/mm/modelsearch/Mclz$a;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/plugin/search/a/h$3;->a(Lcom/tencent/mm/sdk/c/b;)Z
+    value = Lcom/tencent/mm/plugin/search/a/h$3;->a(Lcom/tencent/mm/sdk/c/Bclz;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,13 +26,13 @@
     .line 833
     iput-object p1, p0, Lcom/tencent/mm/plugin/search/a/h$3$1;->fIx:Lcom/tencent/mm/plugin/search/a/h$3;
 
-    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/m$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/modelsearch/Mclz$a;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

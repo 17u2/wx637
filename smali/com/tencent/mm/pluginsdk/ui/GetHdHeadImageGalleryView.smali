@@ -14,7 +14,7 @@
 
 
 # instance fields
-.field private hQK:Lcom/tencent/mm/ui/base/n;
+.field private hQK:Lcom/tencent/mm/ui/base/Nclz;
 
 .field private hQL:Landroid/graphics/Bitmap;
 
@@ -43,7 +43,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -64,18 +64,18 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/pluginsdk/ui/GetHdHeadImageGalleryView;)Lcom/tencent/mm/ui/base/n;
+.method static synthetic a(Lcom/tencent/mm/pluginsdk/ui/GetHdHeadImageGalleryView;)Lcom/tencent/mm/ui/base/Nclz;
     .locals 1
 
     .prologue
     .line 25
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/GetHdHeadImageGalleryView;->hQK:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/GetHdHeadImageGalleryView;->hQK:Lcom/tencent/mm/ui/base/Nclz;
 
     return-object v0
 .end method
@@ -194,12 +194,12 @@
     return-void
 .end method
 
-.method public setParentWindow(Lcom/tencent/mm/ui/base/n;)V
+.method public setParentWindow(Lcom/tencent/mm/ui/base/Nclz;)V
     .locals 0
 
     .prologue
     .line 63
-    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/GetHdHeadImageGalleryView;->hQK:Lcom/tencent/mm/ui/base/n;
+    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/GetHdHeadImageGalleryView;->hQK:Lcom/tencent/mm/ui/base/Nclz;
 
     .line 64
     return-void

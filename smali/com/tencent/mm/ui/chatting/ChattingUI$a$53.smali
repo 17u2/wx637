@@ -39,7 +39,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -54,9 +54,9 @@
     .line 1739
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$53;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/n;->jxX:Lcom/tencent/mm/ui/j;
+    iget-object v0, v0, Lcom/tencent/mm/ui/Nclz;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/ui/j;->jyg:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/ui/Jclz;->jyg:Z
 
     if-nez v0, :cond_1
 
@@ -65,7 +65,7 @@
 
     const-string/jumbo v1, "Actionbar customView onclick screen not enable"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1748
     :cond_0

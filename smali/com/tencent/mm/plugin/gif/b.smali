@@ -8,9 +8,9 @@
 
 
 # instance fields
-.field efD:Lcom/tencent/mm/a/e;
+.field efD:Lcom/tencent/mm/a/Eclz;
 
-.field efE:Lcom/tencent/mm/a/e;
+.field efE:Lcom/tencent/mm/a/Eclz;
 
 
 # direct methods
@@ -24,29 +24,29 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 25
-    new-instance v0, Lcom/tencent/mm/a/e;
+    new-instance v0, Lcom/tencent/mm/a/Eclz;
 
-    invoke-direct {v0, v2}, Lcom/tencent/mm/a/e;-><init>(I)V
+    invoke-direct {v0, v2}, Lcom/tencent/mm/a/Eclz;-><init>(I)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/gif/b;->efD:Lcom/tencent/mm/a/e;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/gif/b;->efD:Lcom/tencent/mm/a/Eclz;
 
     .line 26
-    new-instance v0, Lcom/tencent/mm/a/e;
+    new-instance v0, Lcom/tencent/mm/a/Eclz;
 
     new-instance v1, Lcom/tencent/mm/plugin/gif/b$1;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/plugin/gif/b$1;-><init>(Lcom/tencent/mm/plugin/gif/b;)V
 
-    invoke-direct {v0, v2, v1}, Lcom/tencent/mm/a/e;-><init>(ILcom/tencent/mm/a/e$a;)V
+    invoke-direct {v0, v2, v1}, Lcom/tencent/mm/a/Eclz;-><init>(ILcom/tencent/mm/a/Eclz$a;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/e;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/gif/b;->efE:Lcom/tencent/mm/a/Eclz;
 
     .line 42
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void

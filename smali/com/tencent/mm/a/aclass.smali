@@ -4,7 +4,7 @@
 
 
 # static fields
-.field static ajZ:Lcom/tencent/mm/sdk/platformtools/ab;
+.field static ajZ:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 
 # instance fields
@@ -46,7 +46,7 @@
 
     .line 27
     :try_start_0
-    sget-object v0, Lcom/tencent/mm/a/aclass;->ajZ:Lcom/tencent/mm/sdk/platformtools/ab;
+    sget-object v0, Lcom/tencent/mm/a/aclass;->ajZ:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     if-nez v0, :cond_0
 
@@ -61,15 +61,15 @@
     invoke-virtual {v0}, Landroid/os/HandlerThread;->start()V
 
     .line 30
-    new-instance v2, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v2, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-virtual {v0}, Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
 
     move-result-object v0
 
-    invoke-direct {v2, v0}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v2, v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
-    sput-object v2, Lcom/tencent/mm/a/aclass;->ajZ:Lcom/tencent/mm/sdk/platformtools/ab;
+    sput-object v2, Lcom/tencent/mm/a/aclass;->ajZ:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 32
     :cond_0
@@ -94,7 +94,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     .line 34
     :cond_1
@@ -114,7 +114,7 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_2
     throw v0
@@ -133,22 +133,22 @@
 
     aput-object p1, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    sget-object v0, Lcom/tencent/mm/a/aclass;->ajZ:Lcom/tencent/mm/sdk/platformtools/ab;
+    sget-object v0, Lcom/tencent/mm/a/aclass;->ajZ:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     new-instance v1, Lcom/tencent/mm/a/aclass$1;
 
     invoke-direct {v1, p0, p1}, Lcom/tencent/mm/a/aclass$1;-><init>(Lcom/tencent/mm/a/aclass;Ljava/lang/String;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 34
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     goto :goto_0
 .end method
@@ -196,7 +196,7 @@
 
     const-string/jumbo v1, "getFile await"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 78
     iget-object v0, p0, Lcom/tencent/mm/a/aclass;->ajY:Ljava/util/concurrent/locks/Condition;

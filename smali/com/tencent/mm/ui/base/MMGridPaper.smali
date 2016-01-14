@@ -16,7 +16,7 @@
 
 .field protected ded:Lcom/tencent/mm/ui/base/MMDotView;
 
-.field protected fuJ:Lcom/tencent/mm/sdk/platformtools/ab;
+.field protected fuJ:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field protected jKT:I
 
@@ -24,7 +24,7 @@
 
 .field protected jMF:Lcom/tencent/mm/ui/base/MMFlipper;
 
-.field protected jMG:Lcom/tencent/mm/ui/base/i;
+.field protected jMG:Lcom/tencent/mm/ui/base/Iclz;
 
 .field protected jMH:I
 
@@ -202,15 +202,15 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMq:Lcom/tencent/mm/ui/base/MMFlipper$b;
 
     .line 86
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ab;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->fuJ:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->fuJ:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     invoke-virtual {p0}, Lcom/tencent/mm/ui/base/MMGridPaper;->getContext()Landroid/content/Context;
 
@@ -231,7 +231,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -311,7 +311,7 @@
 
     const-string/jumbo v1, "MMGridPaper initFlipper"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 337
     iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->ded:Lcom/tencent/mm/ui/base/MMDotView;
@@ -422,7 +422,7 @@
 
     iget v3, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMS:I
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v2, v3}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -446,7 +446,7 @@
 
     aput-object v6, v5, v7
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 220
     iput v2, v0, Landroid/widget/LinearLayout$LayoutParams;->height:I
@@ -455,13 +455,13 @@
     invoke-virtual {v1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 223
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->fuJ:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->fuJ:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     new-instance v1, Lcom/tencent/mm/ui/base/MMGridPaper$2;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/base/MMGridPaper$2;-><init>(Lcom/tencent/mm/ui/base/MMGridPaper;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     .line 254
     :cond_0
@@ -499,7 +499,7 @@
 
     iget v3, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMT:I
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v2, v3}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -523,7 +523,7 @@
 
     aput-object v6, v5, v7
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 240
     iput v2, v0, Landroid/widget/LinearLayout$LayoutParams;->height:I
@@ -532,13 +532,13 @@
     invoke-virtual {v1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 243
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->fuJ:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->fuJ:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     new-instance v1, Lcom/tencent/mm/ui/base/MMGridPaper$3;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/base/MMGridPaper$3;-><init>(Lcom/tencent/mm/ui/base/MMGridPaper;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ab;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
     goto :goto_0
 .end method
@@ -580,7 +580,7 @@
 
     aput-object v5, v4, v2
 
-    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 421
     iget v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMH:I
@@ -597,7 +597,7 @@
 
     const-string/jumbo v1, "initSubGrid:gridWithd or gridHeight is 0"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 495
     :goto_0
@@ -611,7 +611,7 @@
 
     iget v3, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMU:I
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v0, v3}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v0
 
@@ -622,7 +622,7 @@
 
     iget v4, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMV:I
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v3, v4}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v3
 
@@ -709,7 +709,7 @@
     iput v1, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMO:I
 
     .line 447
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMG:Lcom/tencent/mm/ui/base/i;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMG:Lcom/tencent/mm/ui/base/Iclz;
 
     if-nez v0, :cond_7
 
@@ -740,7 +740,7 @@
 
     aput-object v7, v6, v2
 
-    invoke-static {v0, v4, v6}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v4, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     if-ltz v3, :cond_8
 
@@ -778,9 +778,9 @@
 
     .line 447
     :cond_7
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMG:Lcom/tencent/mm/ui/base/i;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMG:Lcom/tencent/mm/ui/base/Iclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/i;->getCount()I
+    invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Iclz;->getCount()I
 
     move-result v0
 
@@ -851,7 +851,7 @@
 
     aput-object v4, v9, v0
 
-    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     iget v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMS:I
 
@@ -927,7 +927,7 @@
 
     aput-object v4, v9, v0
 
-    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v7, v8, v9}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     iget v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMT:I
 
@@ -982,7 +982,7 @@
 
     aput-object v4, v7, v2
 
-    invoke-static {v0, v3, v7}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v7}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     move v0, v1
 
@@ -1129,7 +1129,7 @@
 
     aput-object v6, v4, v5
 
-    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 466
     iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMF:Lcom/tencent/mm/ui/base/MMFlipper;
@@ -1162,7 +1162,7 @@
 
     aput-object v4, v2, v1
 
-    invoke-static {v0, v3, v2}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v3, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 472
     iput-boolean v1, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMQ:Z
@@ -1202,9 +1202,9 @@
 
     iget v3, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->cVX:I
 
-    iget-object v4, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMG:Lcom/tencent/mm/ui/base/i;
+    iget-object v4, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMG:Lcom/tencent/mm/ui/base/Iclz;
 
-    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(IIILcom/tencent/mm/ui/base/i;)V
+    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(IIILcom/tencent/mm/ui/base/Iclz;)V
 
     .line 477
     invoke-virtual {p0}, Lcom/tencent/mm/ui/base/MMGridPaper;->getContext()Landroid/content/Context;
@@ -1213,7 +1213,7 @@
 
     iget v3, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jKT:I
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v2, v3}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -1226,7 +1226,7 @@
 
     iget v3, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jKU:I
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/at/a;->fromDPToPix(Landroid/content/Context;I)I
+    invoke-static {v2, v3}, Lcom/tencent/mm/at/Aclz;->fromDPToPix(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -1283,7 +1283,7 @@
 
     aput-object v4, v8, v10
 
-    invoke-static {v3, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto/16 :goto_4
 
@@ -1341,16 +1341,16 @@
 
     aput-object v7, v6, v2
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 486
     iget v4, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMP:I
 
     iget v5, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->cVX:I
 
-    iget-object v6, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMG:Lcom/tencent/mm/ui/base/i;
+    iget-object v6, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMG:Lcom/tencent/mm/ui/base/Iclz;
 
-    invoke-virtual {v0, v3, v4, v5, v6}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(IIILcom/tencent/mm/ui/base/i;)V
+    invoke-virtual {v0, v3, v4, v5, v6}, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->a(IIILcom/tencent/mm/ui/base/Iclz;)V
 
     .line 487
     iget-object v4, v0, Lcom/tencent/mm/ui/base/MMGridPaperGridView;->jNq:Lcom/tencent/mm/ui/base/MMGridPaperGridView$a;
@@ -1376,7 +1376,7 @@
 
     const-string/jumbo v4, "same grid index, continus"
 
-    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_8
 
@@ -1416,7 +1416,7 @@
 
     const-string/jumbo v3, "set DotView"
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 556
     iget v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMO:I
@@ -1436,7 +1436,7 @@
     invoke-virtual {v0, v3}, Lcom/tencent/mm/ui/base/MMDotView;->setDotCount(I)V
 
     .line 558
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMG:Lcom/tencent/mm/ui/base/i;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMG:Lcom/tencent/mm/ui/base/Iclz;
 
     if-eqz v0, :cond_0
 
@@ -1457,7 +1457,7 @@
 
     const-string/jumbo v1, "set DotView gone"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 565
     :goto_1
@@ -1520,7 +1520,7 @@
 
     const-string/jumbo v1, "set DotView visible"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 .end method
@@ -1558,7 +1558,7 @@
 
     aput-object v4, v3, v6
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 536
     :goto_0
@@ -1604,7 +1604,7 @@
 
     aput-object v0, v4, v7
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     move v0, v1
 
@@ -1787,7 +1787,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 598
     iput-boolean v3, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMW:Z
@@ -1842,7 +1842,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 580
     iget v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jNa:I
@@ -1865,7 +1865,7 @@
 
     const-string/jumbo v1, "onLayout, currentOrientation changed, reAdjustDisplayArea"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 583
     iput-boolean v5, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMW:Z
@@ -1953,7 +1953,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/v;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 175
     invoke-direct {p0}, Lcom/tencent/mm/ui/base/MMGridPaper;->aKa()V
@@ -2006,7 +2006,7 @@
     return-void
 .end method
 
-.method public final setGridPaperAdapter(Lcom/tencent/mm/ui/base/i;)V
+.method public final setGridPaperAdapter(Lcom/tencent/mm/ui/base/Iclz;)V
     .locals 5
 
     .prologue
@@ -2015,7 +2015,7 @@
     const/4 v1, 0x0
 
     .line 151
-    iput-object p1, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMG:Lcom/tencent/mm/ui/base/i;
+    iput-object p1, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMG:Lcom/tencent/mm/ui/base/Iclz;
 
     .line 152
     const-string/jumbo v2, "!32@/B4Tb64lLpJ3ysDJ3BtNKcrZSCfaejKv"
@@ -2033,21 +2033,21 @@
 
     aput-object v0, v4, v1
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 153
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMG:Lcom/tencent/mm/ui/base/i;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMG:Lcom/tencent/mm/ui/base/Iclz;
 
     if-eqz v0, :cond_0
 
     .line 154
-    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMG:Lcom/tencent/mm/ui/base/i;
+    iget-object v0, p0, Lcom/tencent/mm/ui/base/MMGridPaper;->jMG:Lcom/tencent/mm/ui/base/Iclz;
 
     new-instance v1, Lcom/tencent/mm/ui/base/MMGridPaper$1;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/base/MMGridPaper$1;-><init>(Lcom/tencent/mm/ui/base/MMGridPaper;)V
 
-    iput-object v1, v0, Lcom/tencent/mm/ui/base/i;->jNk:Lcom/tencent/mm/ui/base/i$a;
+    iput-object v1, v0, Lcom/tencent/mm/ui/base/Iclz;->jNk:Lcom/tencent/mm/ui/base/Iclz$a;
 
     .line 169
     :cond_0

@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$a;
-.super Lcom/tencent/mm/ui/i;
+.super Lcom/tencent/mm/ui/Iclz;
 .source "SourceFile"
 
 
@@ -29,26 +29,26 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/tencent/mm/ui/i$a;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/tencent/mm/ui/Iclz$a;)V
     .locals 1
 
     .prologue
     .line 404
-    new-instance v0, Lcom/tencent/mm/modelfriend/h;
+    new-instance v0, Lcom/tencent/mm/modelfriend/Hclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/modelfriend/h;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/modelfriend/Hclz;-><init>()V
 
-    invoke-direct {p0, p1, v0}, Lcom/tencent/mm/ui/i;-><init>(Landroid/content/Context;Ljava/lang/Object;)V
+    invoke-direct {p0, p1, v0}, Lcom/tencent/mm/ui/Iclz;-><init>(Landroid/content/Context;Ljava/lang/Object;)V
 
     .line 405
-    iput-object p2, p0, Lcom/tencent/mm/ui/i;->jxQ:Lcom/tencent/mm/ui/i$a;
+    iput-object p2, p0, Lcom/tencent/mm/ui/Iclz;->jxQ:Lcom/tencent/mm/ui/Iclz$a;
 
     .line 406
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -115,12 +115,12 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelfriend/h;
+    check-cast v0, Lcom/tencent/mm/modelfriend/Hclz;
 
     .line 457
     add-int/lit8 v1, v2, 0x1
 
-    iget-wide v5, v0, Lcom/tencent/mm/modelfriend/h;->aOu:J
+    iget-wide v5, v0, Lcom/tencent/mm/modelfriend/Hclz;->aOu:J
 
     aput-wide v5, v4, v2
 
@@ -151,7 +151,7 @@
 
     .prologue
     .line 475
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->zb()Lcom/tencent/mm/modelfriend/i;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->zb()Lcom/tencent/mm/modelfriend/Iclz;
 
     move-result-object v0
 
@@ -244,7 +244,7 @@
     invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :cond_0
-    iget-object v0, v0, Lcom/tencent/mm/modelfriend/i;->bvh:Lcom/tencent/mm/aw/g;
+    iget-object v0, v0, Lcom/tencent/mm/modelfriend/Iclz;->bvh:Lcom/tencent/mm/aw/Gclz;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -272,7 +272,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/aw/g;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/aw/Gclz;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -297,7 +297,7 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$a;->cgs:[Z
 
     .line 478
-    invoke-super {p0}, Lcom/tencent/mm/ui/i;->notifyDataSetChanged()V
+    invoke-super {p0}, Lcom/tencent/mm/ui/Iclz;->notifyDataSetChanged()V
 
     .line 480
     return-void
@@ -319,16 +319,16 @@
 
     .prologue
     .line 395
-    check-cast p1, Lcom/tencent/mm/modelfriend/h;
+    check-cast p1, Lcom/tencent/mm/modelfriend/Hclz;
 
     if-nez p1, :cond_0
 
-    new-instance p1, Lcom/tencent/mm/modelfriend/h;
+    new-instance p1, Lcom/tencent/mm/modelfriend/Hclz;
 
-    invoke-direct {p1}, Lcom/tencent/mm/modelfriend/h;-><init>()V
+    invoke-direct {p1}, Lcom/tencent/mm/modelfriend/Hclz;-><init>()V
 
     :cond_0
-    invoke-virtual {p1, p2}, Lcom/tencent/mm/modelfriend/h;->c(Landroid/database/Cursor;)V
+    invoke-virtual {p1, p2}, Lcom/tencent/mm/modelfriend/Hclz;->c(Landroid/database/Cursor;)V
 
     return-object p1
 .end method
@@ -367,7 +367,7 @@
     aput-boolean v0, v1, p1
 
     .line 470
-    invoke-super {p0}, Lcom/tencent/mm/ui/i;->notifyDataSetChanged()V
+    invoke-super {p0}, Lcom/tencent/mm/ui/Iclz;->notifyDataSetChanged()V
 
     goto :goto_0
 
@@ -387,7 +387,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/modelfriend/h;
+    check-cast v0, Lcom/tencent/mm/modelfriend/Hclz;
 
     .line 413
     if-nez p2, :cond_0
@@ -463,7 +463,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/plugin/accountsync/ui/InviteFacebookFriendsUI$a;->context:Landroid/content/Context;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/h;->ye()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Hclz;->ye()Ljava/lang/String;
 
     move-result-object v4
 
@@ -484,7 +484,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-wide v3, v0, Lcom/tencent/mm/modelfriend/h;->aOu:J
+    iget-wide v3, v0, Lcom/tencent/mm/modelfriend/Hclz;->aOu:J
 
     invoke-virtual {v2, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -494,7 +494,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/p/b;->fA(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {v2}, Lcom/tencent/mm/p/Bclz;->fA(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
@@ -508,7 +508,7 @@
 
     const v4, 0x7f070089
 
-    invoke-static {v3, v4}, Lcom/tencent/mm/at/a;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v3, v4}, Lcom/tencent/mm/at/Aclz;->u(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v3
 
@@ -525,17 +525,17 @@
     invoke-virtual {v2, v3}, Landroid/widget/CheckBox;->setChecked(Z)V
 
     .line 435
-    invoke-static {}, Lcom/tencent/mm/modelfriend/ah;->ze()Lcom/tencent/mm/modelfriend/r;
+    invoke-static {}, Lcom/tencent/mm/modelfriend/AHclz;->ze()Lcom/tencent/mm/modelfriend/Rclz;
 
     move-result-object v2
 
-    iget-wide v3, v0, Lcom/tencent/mm/modelfriend/h;->aOu:J
+    iget-wide v3, v0, Lcom/tencent/mm/modelfriend/Hclz;->aOu:J
 
     invoke-static {v3, v4}, Ljava/lang/Long;->toString(J)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/modelfriend/r;->hm(Ljava/lang/String;)Z
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/modelfriend/Rclz;->hm(Ljava/lang/String;)Z
 
     move-result v0
 

@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/pluginsdk/ui/chat/i$2;
-.super Lcom/tencent/mm/sdk/platformtools/ab;
+.super Lcom/tencent/mm/sdk/platformtools/ABclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 105
     iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/i$2;->hWV:Lcom/tencent/mm/pluginsdk/ui/chat/i;
 
-    invoke-direct {p0, p2}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {p0, p2}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -61,7 +61,7 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/i;->hWR:Lcom/tencent/mm/ui/base/n;
+    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/i;->hWR:Lcom/tencent/mm/ui/base/Nclz;
 
     if-eqz v0, :cond_0
 
@@ -117,7 +117,7 @@
 
     if-lt v5, v6, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/ui/u;->bgS()Landroid/graphics/Rect;
+    invoke-static {}, Lcom/tencent/mm/ui/Uclz;->bgS()Landroid/graphics/Rect;
 
     move-result-object v5
 
@@ -158,26 +158,26 @@
 
     aput-object v5, v8, v9
 
-    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v6, v7, v8}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     :cond_2
-    iget-object v5, v4, Lcom/tencent/mm/pluginsdk/ui/chat/i;->hWR:Lcom/tencent/mm/ui/base/n;
+    iget-object v5, v4, Lcom/tencent/mm/pluginsdk/ui/chat/i;->hWR:Lcom/tencent/mm/ui/base/Nclz;
 
     iget-object v6, v4, Lcom/tencent/mm/pluginsdk/ui/chat/i;->hRG:Landroid/view/View;
 
-    invoke-virtual {v5, v6, v0, v1, v3}, Lcom/tencent/mm/ui/base/n;->showAtLocation(Landroid/view/View;III)V
+    invoke-virtual {v5, v6, v0, v1, v3}, Lcom/tencent/mm/ui/base/Nclz;->showAtLocation(Landroid/view/View;III)V
 
-    new-instance v0, Lcom/tencent/mm/sdk/platformtools/ag;
+    new-instance v0, Lcom/tencent/mm/sdk/platformtools/AGclz;
 
     new-instance v1, Lcom/tencent/mm/pluginsdk/ui/chat/i$4;
 
     invoke-direct {v1, v4}, Lcom/tencent/mm/pluginsdk/ui/chat/i$4;-><init>(Lcom/tencent/mm/pluginsdk/ui/chat/i;)V
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;-><init>(Lcom/tencent/mm/sdk/platformtools/ag$a;Z)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;-><init>(Lcom/tencent/mm/sdk/platformtools/AGclz$a;Z)V
 
     const-wide/16 v1, 0x2710
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/ag;->dg(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/AGclz;->dg(J)V
 
     goto :goto_0
 

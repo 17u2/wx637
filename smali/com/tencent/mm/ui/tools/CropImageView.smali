@@ -72,11 +72,11 @@
 
 .field private kCu:Ljava/util/Timer;
 
-.field private kCv:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private kCv:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field private kCw:Lcom/tencent/mm/ui/tools/CropImageView$b;
 
-.field private kCx:Lcom/tencent/mm/sdk/platformtools/ab;
+.field private kCx:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
 .field private kCy:Lcom/tencent/mm/ui/tools/CropImageView$a;
 
@@ -174,7 +174,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/tools/CropImageView$1;-><init>(Lcom/tencent/mm/ui/tools/CropImageView;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/tools/CropImageView;->kCv:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/ui/tools/CropImageView;->kCv:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 130
     iput-object v4, p0, Lcom/tencent/mm/ui/tools/CropImageView;->kCw:Lcom/tencent/mm/ui/tools/CropImageView$b;
@@ -184,7 +184,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/tools/CropImageView$2;-><init>(Lcom/tencent/mm/ui/tools/CropImageView;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/tools/CropImageView;->kCx:Lcom/tencent/mm/sdk/platformtools/ab;
+    iput-object v0, p0, Lcom/tencent/mm/ui/tools/CropImageView;->kCx:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     .line 165
     iput v1, p0, Lcom/tencent/mm/ui/tools/CropImageView;->ayY:I
@@ -207,7 +207,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -445,12 +445,12 @@
     return v0
 .end method
 
-.method static synthetic l(Lcom/tencent/mm/ui/tools/CropImageView;)Lcom/tencent/mm/sdk/platformtools/ab;
+.method static synthetic l(Lcom/tencent/mm/ui/tools/CropImageView;)Lcom/tencent/mm/sdk/platformtools/ABclz;
     .locals 1
 
     .prologue
     .line 21
-    iget-object v0, p0, Lcom/tencent/mm/ui/tools/CropImageView;->kCv:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/tools/CropImageView;->kCv:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     return-object v0
 .end method
@@ -643,12 +643,12 @@
     return v0
 .end method
 
-.method static synthetic t(Lcom/tencent/mm/ui/tools/CropImageView;)Lcom/tencent/mm/sdk/platformtools/ab;
+.method static synthetic t(Lcom/tencent/mm/ui/tools/CropImageView;)Lcom/tencent/mm/sdk/platformtools/ABclz;
     .locals 1
 
     .prologue
     .line 21
-    iget-object v0, p0, Lcom/tencent/mm/ui/tools/CropImageView;->kCx:Lcom/tencent/mm/sdk/platformtools/ab;
+    iget-object v0, p0, Lcom/tencent/mm/ui/tools/CropImageView;->kCx:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
     return-object v0
 .end method
@@ -1057,7 +1057,7 @@
     .line 189
     iget-object v0, p0, Lcom/tencent/mm/ui/tools/CropImageView;->kCg:Landroid/graphics/PointF;
 
-    invoke-static {v0, p1}, Lcom/tencent/mm/ui/base/e;->a(Landroid/graphics/PointF;Landroid/graphics/Bitmap;)V
+    invoke-static {v0, p1}, Lcom/tencent/mm/ui/base/Eclz;->a(Landroid/graphics/PointF;Landroid/graphics/Bitmap;)V
 
     .line 190
     invoke-super {p0, p1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V

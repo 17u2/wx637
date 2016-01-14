@@ -25,7 +25,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -38,7 +38,7 @@
 
     .prologue
     .line 29
-    invoke-static {}, Lcom/tencent/mm/an/a;->aHx()I
+    invoke-static {}, Lcom/tencent/mm/an/Aclz;->aHx()I
 
     move-result v0
 
@@ -74,7 +74,7 @@
     if-gez v0, :cond_1
 
     .line 49
-    invoke-static {}, Lcom/tencent/mm/an/a;->aHx()I
+    invoke-static {}, Lcom/tencent/mm/an/Aclz;->aHx()I
 
     move-result v0
 

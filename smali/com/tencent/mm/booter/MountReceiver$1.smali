@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/booter/MountReceiver$1;
-.super Lcom/tencent/mm/sdk/platformtools/ab;
+.super Lcom/tencent/mm/sdk/platformtools/ABclz;
 .source "SourceFile"
 
 
@@ -26,13 +26,13 @@
     .line 32
     iput-object p1, p0, Lcom/tencent/mm/booter/MountReceiver$1;->bgd:Lcom/tencent/mm/booter/MountReceiver;
 
-    invoke-direct {p0, p2}, Lcom/tencent/mm/sdk/platformtools/ab;-><init>(Landroid/os/Looper;)V
+    invoke-direct {p0, p2}, Lcom/tencent/mm/sdk/platformtools/ABclz;-><init>(Landroid/os/Looper;)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -94,7 +94,7 @@
 
     const/4 v0, 0x3
 
-    invoke-static {}, Lcom/tencent/mm/platformtools/t;->Fc()Z
+    invoke-static {}, Lcom/tencent/mm/platformtools/Tclz;->Fc()Z
 
     move-result v1
 
@@ -104,7 +104,7 @@
 
     aput-object v1, v4, v0
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/v;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 37
     iget-object v0, p0, Lcom/tencent/mm/booter/MountReceiver$1;->bgd:Lcom/tencent/mm/booter/MountReceiver;
@@ -128,7 +128,7 @@
 
     .line 40
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/platformtools/t;->Fc()Z
+    invoke-static {}, Lcom/tencent/mm/platformtools/Tclz;->Fc()Z
 
     move-result v0
 
@@ -141,7 +141,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/base/r;->dX(Landroid/content/Context;)V
+    invoke-static {v0}, Lcom/tencent/mm/ui/base/Rclz;->dX(Landroid/content/Context;)V
 
     goto :goto_1
 .end method

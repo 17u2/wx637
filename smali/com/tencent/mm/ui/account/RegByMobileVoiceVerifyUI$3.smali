@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -86,7 +86,7 @@
     :cond_0
     iget-object v6, p0, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI$3;->jEv:Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;
 
-    new-instance v0, Lcom/tencent/mm/modelfriend/u;
+    new-instance v0, Lcom/tencent/mm/modelfriend/Uclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI$3;->jEv:Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;
 
@@ -108,9 +108,9 @@
 
     move-result-object v5
 
-    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/modelfriend/u;-><init>(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)V
+    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/modelfriend/Uclz;-><init>(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)V
 
-    invoke-static {v6, v0}, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;->a(Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;Lcom/tencent/mm/modelfriend/u;)Lcom/tencent/mm/modelfriend/u;
+    invoke-static {v6, v0}, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;->a(Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;Lcom/tencent/mm/modelfriend/Uclz;)Lcom/tencent/mm/modelfriend/Uclz;
 
     .line 152
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -119,7 +119,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI$3;->jEv:Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;->e(Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;)Lcom/tencent/mm/modelfriend/u;
+    invoke-static {v1}, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;->e(Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;)Lcom/tencent/mm/modelfriend/Uclz;
 
     move-result-object v1
 
@@ -132,7 +132,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI$3$1;-><init>(Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI$3;)V
 
-    invoke-static {v0, v8, v9, v1}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0, v8, v9, v1}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     .line 178
     :cond_1
@@ -163,7 +163,7 @@
     :cond_3
     iget-object v0, p0, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI$3;->jEv:Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;
 
-    new-instance v2, Lcom/tencent/mm/modelfriend/v;
+    new-instance v2, Lcom/tencent/mm/modelfriend/Vclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI$3;->jEv:Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;
 
@@ -181,9 +181,9 @@
 
     move v6, v4
 
-    invoke-direct/range {v2 .. v7}, Lcom/tencent/mm/modelfriend/v;-><init>(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)V
+    invoke-direct/range {v2 .. v7}, Lcom/tencent/mm/modelfriend/Vclz;-><init>(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)V
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;->a(Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;Lcom/tencent/mm/modelfriend/v;)Lcom/tencent/mm/modelfriend/v;
+    invoke-static {v0, v2}, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;->a(Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;Lcom/tencent/mm/modelfriend/Vclz;)Lcom/tencent/mm/modelfriend/Vclz;
 
     .line 165
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -192,7 +192,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI$3;->jEv:Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;->f(Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;)Lcom/tencent/mm/modelfriend/v;
+    invoke-static {v1}, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;->f(Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI;)Lcom/tencent/mm/modelfriend/Vclz;
 
     move-result-object v1
 
@@ -205,7 +205,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI$3$2;-><init>(Lcom/tencent/mm/ui/account/RegByMobileVoiceVerifyUI$3;)V
 
-    invoke-static {v0, v8, v9, v1}, Lcom/tencent/mm/ui/base/f;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/g;
+    invoke-static {v0, v8, v9, v1}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;IILandroid/content/DialogInterface$OnClickListener;)Lcom/tencent/mm/ui/base/Gclz;
 
     goto :goto_0
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/ui/base/m$c;
+.implements Lcom/tencent/mm/ui/base/Mclz$c;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -43,14 +43,14 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/ui/base/k;)V
+.method public final a(Lcom/tencent/mm/ui/base/Kclz;)V
     .locals 2
 
     .prologue
     .line 197
     const v0, 0x7f090528
 
-    invoke-virtual {p1, v0}, Lcom/tencent/mm/ui/base/k;->setHeaderTitle(I)Landroid/view/ContextMenu;
+    invoke-virtual {p1, v0}, Lcom/tencent/mm/ui/base/Kclz;->setHeaderTitle(I)Landroid/view/ContextMenu;
 
     .line 198
     iget-object v0, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI$23$1;->jXq:Lcom/tencent/mm/ui/bindmobile/BindMContactIntroUI$23;
@@ -66,7 +66,7 @@
 
     const v1, 0x7f09052a
 
-    invoke-virtual {p1, v0, v1}, Lcom/tencent/mm/ui/base/k;->bI(II)Landroid/view/MenuItem;
+    invoke-virtual {p1, v0, v1}, Lcom/tencent/mm/ui/base/Kclz;->bI(II)Landroid/view/MenuItem;
 
     .line 201
     :cond_0
@@ -83,7 +83,7 @@
 
     const v1, 0x7f09052b
 
-    invoke-virtual {p1, v0, v1}, Lcom/tencent/mm/ui/base/k;->bI(II)Landroid/view/MenuItem;
+    invoke-virtual {p1, v0, v1}, Lcom/tencent/mm/ui/base/Kclz;->bI(II)Landroid/view/MenuItem;
 
     .line 204
     :cond_1

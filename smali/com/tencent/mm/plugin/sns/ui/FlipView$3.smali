@@ -35,7 +35,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -48,12 +48,12 @@
 
     .prologue
     .line 366
-    new-instance v0, Lcom/tencent/mm/d/a/t;
+    new-instance v0, Lcom/tencent/mm/d/a/Tclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/d/a/t;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/d/a/Tclz;-><init>()V
 
     .line 367
-    iget-object v1, v0, Lcom/tencent/mm/d/a/t;->ass:Lcom/tencent/mm/d/a/t$a;
+    iget-object v1, v0, Lcom/tencent/mm/d/a/Tclz;->ass:Lcom/tencent/mm/d/a/Tclz$a;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView$3;->gsk:Lcom/tencent/mm/plugin/sns/ui/FlipView;
 
@@ -61,17 +61,17 @@
 
     move-result-object v2
 
-    iput-object v2, v1, Lcom/tencent/mm/d/a/t$a;->filePath:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/d/a/Tclz$a;->filePath:Ljava/lang/String;
 
     .line 368
-    sget-object v1, Lcom/tencent/mm/sdk/c/a;->jeN:Lcom/tencent/mm/sdk/c/a;
+    sget-object v1, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/a;->g(Lcom/tencent/mm/sdk/c/b;)Z
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/sdk/c/Aclz;->g(Lcom/tencent/mm/sdk/c/Bclz;)Z
 
     .line 370
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView$3;->gsk:Lcom/tencent/mm/plugin/sns/ui/FlipView;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/FlipView;->b(Lcom/tencent/mm/plugin/sns/ui/FlipView;)Lcom/tencent/mm/ui/tools/l;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/FlipView;->b(Lcom/tencent/mm/plugin/sns/ui/FlipView;)Lcom/tencent/mm/ui/tools/Lclz;
 
     .line 371
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView$3;->gsk:Lcom/tencent/mm/plugin/sns/ui/FlipView;

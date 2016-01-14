@@ -37,7 +37,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -54,7 +54,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/A;->a()V
+    invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
     :cond_0
     return-void
@@ -109,17 +109,17 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sight/draft/ui/b$a;->fYb:Lcom/tencent/mm/plugin/sight/draft/ui/b$e;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/f;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/Fclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/ak/f;->field_fileName:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/ak/Fclz;->field_fileName:Ljava/lang/String;
 
     iget-object v3, p0, Lcom/tencent/mm/plugin/sight/draft/ui/b$a;->fYb:Lcom/tencent/mm/plugin/sight/draft/ui/b$e;
 
-    iget-object v3, v3, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/f;
+    iget-object v3, v3, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/Fclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/ak/f;->field_fileName:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/ak/Fclz;->field_fileName:Ljava/lang/String;
 
-    invoke-static {v3}, Lcom/tencent/mm/ak/g;->jg(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/tencent/mm/ak/Gclz;->jg(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -150,7 +150,7 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/ui/tools/j;->e(Landroid/view/View;F)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/ui/tools/Jclz;->e(Landroid/view/View;F)V
 
     .line 280
     iput-object v4, p0, Lcom/tencent/mm/plugin/sight/draft/ui/b$a;->fYb:Lcom/tencent/mm/plugin/sight/draft/ui/b$e;
@@ -198,7 +198,7 @@
     check-cast v0, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;
 
     .line 233
-    iget-object v2, v0, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/f;
+    iget-object v2, v0, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/Fclz;
 
     if-nez v2, :cond_2
 
@@ -217,7 +217,7 @@
 
     aput-object v4, v3, v1
 
-    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -225,9 +225,9 @@
     :cond_2
     const/4 v2, -0x1
 
-    iget-object v3, v0, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/f;
+    iget-object v3, v0, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/Fclz;
 
-    iget v3, v3, Lcom/tencent/mm/ak/f;->field_fileStatus:I
+    iget v3, v3, Lcom/tencent/mm/ak/Fclz;->field_fileStatus:I
 
     if-ne v2, v3, :cond_3
 
@@ -246,7 +246,7 @@
 
     aput-object v4, v3, v1
 
-    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/v;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 238
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/draft/ui/b$a;->fYa:Lcom/tencent/mm/plugin/sight/draft/ui/b;
@@ -288,11 +288,11 @@
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/sight/draft/ui/b$a;->aqW()Z
 
     .line 247
-    iget-object v2, v0, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/f;
+    iget-object v2, v0, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/Fclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/ak/f;->field_fileName:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/ak/Fclz;->field_fileName:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/ak/g;->jf(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/ak/Gclz;->jf(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -336,7 +336,7 @@
 
     const/16 v1, 0xb
 
-    invoke-static {v1}, Lcom/tencent/mm/compatible/util/c;->bW(I)Z
+    invoke-static {v1}, Lcom/tencent/mm/compatible/util/Cclz;->bW(I)Z
 
     move-result v1
 
@@ -421,9 +421,9 @@
 
     move-result-object v1
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/f;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/draft/ui/b$e;->bWU:Lcom/tencent/mm/ak/Fclz;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/plugin/sight/draft/ui/a;->a(Lcom/tencent/mm/ak/f;)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/plugin/sight/draft/ui/a;->a(Lcom/tencent/mm/ak/Fclz;)V
 
     goto/16 :goto_0
 .end method

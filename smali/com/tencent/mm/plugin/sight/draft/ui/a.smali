@@ -4,7 +4,7 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/tencent/mm/ak/f;)V
+.method public abstract a(Lcom/tencent/mm/ak/Fclz;)V
 .end method
 
 .method public abstract a(Lcom/tencent/mm/plugin/sight/draft/ui/b$d;)V

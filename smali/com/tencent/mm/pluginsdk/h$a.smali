@@ -67,7 +67,7 @@
 
     const-string/jumbo v1, "get emoji mgr is null, new default"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 755
     new-instance v0, Lcom/tencent/mm/pluginsdk/a/b;
@@ -153,7 +153,7 @@
 
     const-string/jumbo v1, "get shake mgr is null, new default"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/v;->w(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 735
     new-instance v0, Lcom/tencent/mm/pluginsdk/a/d;
