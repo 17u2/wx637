@@ -420,11 +420,11 @@
     invoke-virtual {v1, v0, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 273
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/account/mobile/Cclz;->jGQ:Lcom/tencent/mm/ui/account/mobile/MobileInputUI;
 
-    invoke-interface {v0, v2, v1}, Lcom/tencent/mm/pluginsdk/f;->f(Landroid/content/Context;Landroid/content/Intent;)V
+    invoke-interface {v0, v2, v1}, Lcom/tencent/mm/pluginsdk/Fclz;->f(Landroid/content/Context;Landroid/content/Intent;)V
 
     goto :goto_0
 
@@ -638,11 +638,11 @@
 
     .line 359
     :cond_b
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/account/mobile/Cclz;->jGQ:Lcom/tencent/mm/ui/account/mobile/MobileInputUI;
 
-    invoke-interface {v0, v3, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/e;->a(Landroid/content/Context;IILjava/lang/String;)Z
+    invoke-interface {v0, v3, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/Eclz;->a(Landroid/content/Context;IILjava/lang/String;)Z
 
     move-result v0
 

@@ -881,7 +881,7 @@
     invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 272
-    new-instance v1, Lcom/tencent/mm/pluginsdk/model/app/aj;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/model/app/AJclz;
 
     move-object v2, p1
 
@@ -897,15 +897,15 @@
 
     move-object/from16 v8, p7
 
-    invoke-direct/range {v1 .. v8}, Lcom/tencent/mm/pluginsdk/model/app/aj;-><init>(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;I[Ljava/lang/String;)V
+    invoke-direct/range {v1 .. v8}, Lcom/tencent/mm/pluginsdk/model/app/AJclz;-><init>(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;I[Ljava/lang/String;)V
 
-    sput-object v1, Lcom/tencent/mm/pluginsdk/model/app/aj;->hMP:Lcom/tencent/mm/pluginsdk/model/app/aj;
+    sput-object v1, Lcom/tencent/mm/pluginsdk/model/app/AJclz;->hMP:Lcom/tencent/mm/pluginsdk/model/app/AJclz;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    sput-wide v1, Lcom/tencent/mm/pluginsdk/model/app/aj;->hMQ:J
+    sput-wide v1, Lcom/tencent/mm/pluginsdk/model/app/AJclz;->hMQ:J
 
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/base/stub/WXCommProvider;->getContext()Landroid/content/Context;
 
@@ -1540,7 +1540,7 @@
 
     aget-object v2, p4, v2
 
-    sput-object v2, Lcom/tencent/mm/pluginsdk/d;->hJC:Ljava/lang/String;
+    sput-object v2, Lcom/tencent/mm/pluginsdk/Dclz;->hJC:Ljava/lang/String;
 
     .line 375
     :cond_10

@@ -12,7 +12,7 @@
 
 
 # direct methods
-.method static c(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/h/a/c/j;)V
+.method static c(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/h/a/c/Jclz;)V
     .locals 10
 
     .prologue
@@ -35,11 +35,11 @@
 
     .line 140
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h/a/c/l$a;->aJa()Lcom/tencent/mm/pluginsdk/h/a/c/l;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/h/a/c/Lclz$a;->aJa()Lcom/tencent/mm/pluginsdk/h/a/c/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/pluginsdk/h/a/c/l;->yg(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/h/a/c/n;
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/pluginsdk/h/a/c/Lclz;->yg(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;
 
     move-result-object v7
 
@@ -60,7 +60,7 @@
     :cond_1
     const-string/jumbo v0, "WebViewCache"
 
-    iget-object v1, v7, Lcom/tencent/mm/pluginsdk/h/a/c/n;->field_groupId1:Ljava/lang/String;
+    iget-object v1, v7, Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;->field_groupId1:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -78,7 +78,7 @@
 
     aput-object p0, v2, v3
 
-    iget-object v3, v7, Lcom/tencent/mm/pluginsdk/h/a/c/n;->field_groupId1:Ljava/lang/String;
+    iget-object v3, v7, Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;->field_groupId1:Ljava/lang/String;
 
     aput-object v3, v2, v4
 
@@ -87,35 +87,35 @@
     goto :goto_0
 
     :cond_2
-    iget-object v0, p1, Lcom/tencent/mm/pluginsdk/h/a/c/j;->aHj:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/pluginsdk/h/a/c/Jclz;->aHj:Ljava/lang/String;
 
-    iput-object v0, v7, Lcom/tencent/mm/pluginsdk/h/a/c/n;->field_contentType:Ljava/lang/String;
+    iput-object v0, v7, Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;->field_contentType:Ljava/lang/String;
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h/a/c/l$a;->aJa()Lcom/tencent/mm/pluginsdk/h/a/c/l;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/h/a/c/Lclz$a;->aJa()Lcom/tencent/mm/pluginsdk/h/a/c/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v7}, Lcom/tencent/mm/pluginsdk/h/a/c/l;->g(Lcom/tencent/mm/pluginsdk/h/a/c/n;)V
+    invoke-virtual {v0, v7}, Lcom/tencent/mm/pluginsdk/h/a/c/Lclz;->g(Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;)V
 
     new-instance v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/i;
 
-    iget-object v1, v7, Lcom/tencent/mm/pluginsdk/h/a/c/n;->field_url:Ljava/lang/String;
+    iget-object v1, v7, Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;->field_url:Ljava/lang/String;
 
-    iget-object v2, v7, Lcom/tencent/mm/pluginsdk/h/a/c/n;->field_filePath:Ljava/lang/String;
+    iget-object v2, v7, Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;->field_filePath:Ljava/lang/String;
 
-    iget-object v3, v7, Lcom/tencent/mm/pluginsdk/h/a/c/n;->field_fileVersion:Ljava/lang/String;
+    iget-object v3, v7, Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;->field_fileVersion:Ljava/lang/String;
 
-    iget-object v4, v7, Lcom/tencent/mm/pluginsdk/h/a/c/n;->field_appId:Ljava/lang/String;
+    iget-object v4, v7, Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;->field_appId:Ljava/lang/String;
 
-    iget-object v5, v7, Lcom/tencent/mm/pluginsdk/h/a/c/n;->field_groupId2:Ljava/lang/String;
+    iget-object v5, v7, Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;->field_groupId2:Ljava/lang/String;
 
-    iget-object v6, v7, Lcom/tencent/mm/pluginsdk/h/a/c/n;->field_packageId:Ljava/lang/String;
+    iget-object v6, v7, Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;->field_packageId:Ljava/lang/String;
 
-    iget v7, v7, Lcom/tencent/mm/pluginsdk/h/a/c/n;->field_wvCacheType:I
+    iget v7, v7, Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;->field_wvCacheType:I
 
-    iget-object v8, p1, Lcom/tencent/mm/pluginsdk/h/a/c/j;->aHj:Ljava/lang/String;
+    iget-object v8, p1, Lcom/tencent/mm/pluginsdk/h/a/c/Jclz;->aHj:Ljava/lang/String;
 
-    iget-object v9, p1, Lcom/tencent/mm/pluginsdk/h/a/c/j;->hPc:Ljava/lang/Exception;
+    iget-object v9, p1, Lcom/tencent/mm/pluginsdk/h/a/c/Jclz;->hPc:Ljava/lang/Exception;
 
     invoke-direct/range {v0 .. v9}, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/i;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/Exception;)V
 

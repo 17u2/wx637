@@ -1010,7 +1010,7 @@
     :pswitch_0
     iget-object v7, v4, Lcom/tencent/mm/m/Aclz$a;->appId:Ljava/lang/String;
 
-    invoke-static {v7, v1}, Lcom/tencent/mm/pluginsdk/model/app/g;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-static {v7, v1}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v7
 
@@ -1021,13 +1021,13 @@
     goto/16 :goto_6
 
     :pswitch_1
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->HO()Lcom/tencent/mm/pluginsdk/model/app/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->HO()Lcom/tencent/mm/pluginsdk/model/app/Cclz;
 
     move-result-object v7
 
     iget-object v8, v4, Lcom/tencent/mm/m/Aclz$a;->anW:Ljava/lang/String;
 
-    invoke-virtual {v7, v8}, Lcom/tencent/mm/pluginsdk/model/app/c;->xC(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/model/app/b;
+    invoke-virtual {v7, v8}, Lcom/tencent/mm/pluginsdk/model/app/Cclz;->xC(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/model/app/Bclz;
 
     move-result-object v7
 
@@ -1035,7 +1035,7 @@
 
     new-instance v8, Ljava/io/File;
 
-    iget-object v7, v7, Lcom/tencent/mm/pluginsdk/model/app/b;->field_fileFullPath:Ljava/lang/String;
+    iget-object v7, v7, Lcom/tencent/mm/pluginsdk/model/app/Bclz;->field_fileFullPath:Ljava/lang/String;
 
     invoke-direct {v8, v7}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
@@ -1056,7 +1056,7 @@
     goto :goto_7
 
     :cond_11
-    iget-object v7, v7, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appName:Ljava/lang/String;
+    iget-object v7, v7, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appName:Ljava/lang/String;
 
     const/4 v8, 0x6
 

@@ -1374,11 +1374,11 @@
 
     .line 189
     :cond_1a
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/c/a;->asr:Landroid/app/Activity;
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/f;->c(Landroid/content/Context;Landroid/content/Intent;)V
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/Fclz;->c(Landroid/content/Context;Landroid/content/Intent;)V
 
     goto/16 :goto_0
 
@@ -2296,7 +2296,7 @@
     invoke-static {v1, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 443
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHC()Lcom/tencent/mm/pluginsdk/h$k;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHC()Lcom/tencent/mm/pluginsdk/Hclz$k;
 
     move-result-object v0
 
@@ -2310,7 +2310,7 @@
 
     const/4 v9, 0x0
 
-    invoke-interface/range {v0 .. v9}, Lcom/tencent/mm/pluginsdk/h$k;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IILcom/tencent/mm/protocal/b/apv;ZZ)V
+    invoke-interface/range {v0 .. v9}, Lcom/tencent/mm/pluginsdk/Hclz$k;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IILcom/tencent/mm/protocal/b/apv;ZZ)V
 
     .line 447
     iget v0, p0, Lcom/tencent/mm/plugin/sns/ui/c/a;->arG:I
@@ -2394,7 +2394,7 @@
     move-result-object v3
 
     .line 456
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHC()Lcom/tencent/mm/pluginsdk/h$k;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHC()Lcom/tencent/mm/pluginsdk/Hclz$k;
 
     move-result-object v0
 
@@ -2404,7 +2404,7 @@
 
     const/4 v6, 0x1
 
-    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/h$k;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;II)V
+    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/Hclz$k;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;II)V
 
     .line 458
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/c/a;->asr:Landroid/app/Activity;

@@ -485,22 +485,22 @@
     invoke-virtual {v0}, Lcom/tencent/mm/ui/MMActivity;->finish()V
 
     .line 213
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/k;->grQ:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$f;->mi(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$f;->mi(Ljava/lang/String;)I
 
     .line 214
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/k;->grQ:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$f;->mj(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$f;->mj(Ljava/lang/String;)Ljava/lang/String;
 
     .line 215
     const/4 v0, 0x0

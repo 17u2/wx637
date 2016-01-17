@@ -21,7 +21,7 @@
 
 .field private cni:Ljava/util/List;
 
-.field private kjb:Lcom/tencent/mm/pluginsdk/c/b;
+.field private kjb:Lcom/tencent/mm/pluginsdk/c/Bclz;
 
 .field private kqi:I
 
@@ -78,7 +78,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/contact/SelectContactUI$4;-><init>(Lcom/tencent/mm/ui/contact/SelectContactUI;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/contact/SelectContactUI;->kjb:Lcom/tencent/mm/pluginsdk/c/b;
+    iput-object v0, p0, Lcom/tencent/mm/ui/contact/SelectContactUI;->kjb:Lcom/tencent/mm/pluginsdk/c/Bclz;
 
     .line 971
     const/4 v0, 0x0
@@ -382,15 +382,15 @@
     goto :goto_0
 
     :cond_1
-    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/applet/i;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/applet/Iclz;
 
     new-instance v2, Lcom/tencent/mm/ui/contact/SelectContactUI$6;
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ui/contact/SelectContactUI$6;-><init>(Lcom/tencent/mm/ui/contact/SelectContactUI;)V
 
-    invoke-direct {v1, p0, v2}, Lcom/tencent/mm/pluginsdk/ui/applet/i;-><init>(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/ui/applet/i$a;)V
+    invoke-direct {v1, p0, v2}, Lcom/tencent/mm/pluginsdk/ui/applet/Iclz;-><init>(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/ui/applet/Iclz$a;)V
 
-    invoke-virtual {v1, p1, v0}, Lcom/tencent/mm/pluginsdk/ui/applet/i;->e(Ljava/util/LinkedList;Ljava/util/LinkedList;)V
+    invoke-virtual {v1, p1, v0}, Lcom/tencent/mm/pluginsdk/ui/applet/Iclz;->e(Ljava/util/LinkedList;Ljava/util/LinkedList;)V
 
     return-void
 .end method
@@ -3076,9 +3076,9 @@
     .line 150
     const-string/jumbo v0, "NetSceneCreateChatRoom"
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/contact/SelectContactUI;->kjb:Lcom/tencent/mm/pluginsdk/c/b;
+    iget-object v1, p0, Lcom/tencent/mm/ui/contact/SelectContactUI;->kjb:Lcom/tencent/mm/pluginsdk/c/Bclz;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/c/b;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/c/b;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/c/Bclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/c/Bclz;)V
 
     .line 152
     const-string/jumbo v0, "!44@/B4Tb64lLpJQGo7VtHU/gqcqIvwmEmrSejrKUoictEE="
@@ -3168,9 +3168,9 @@
     .line 179
     const-string/jumbo v0, "NetSceneCreateChatRoom"
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/contact/SelectContactUI;->kjb:Lcom/tencent/mm/pluginsdk/c/b;
+    iget-object v1, p0, Lcom/tencent/mm/ui/contact/SelectContactUI;->kjb:Lcom/tencent/mm/pluginsdk/c/Bclz;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/c/b;->b(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/c/b;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/c/Bclz;->b(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/c/Bclz;)V
 
     .line 180
     invoke-super {p0}, Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;->onDestroy()V

@@ -223,9 +223,9 @@
     goto :goto_1
 
     :cond_5
-    new-instance v0, Lcom/tencent/mm/pluginsdk/h/a/a/o;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/h/a/a/Oclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/h/a/a/o;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/h/a/a/Oclz;-><init>()V
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 

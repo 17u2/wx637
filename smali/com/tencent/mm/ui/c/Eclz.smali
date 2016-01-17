@@ -13,7 +13,7 @@
 
 
 # direct methods
-.method public static a(Landroid/content/Context;I[Ljava/lang/Object;)Lcom/tencent/mm/pluginsdk/ui/b/a;
+.method public static a(Landroid/content/Context;I[Ljava/lang/Object;)Lcom/tencent/mm/pluginsdk/ui/b/Aclz;
     .locals 9
 
     .prologue
@@ -274,7 +274,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/d/a/AMclz$b;->asV:Ljava/lang/Object;
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/b/a;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/b/Aclz;
 
     move-object v1, v0
 

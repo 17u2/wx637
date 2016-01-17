@@ -773,7 +773,7 @@
     invoke-static {v0, v1, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 215
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHC()Lcom/tencent/mm/pluginsdk/h$k;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHC()Lcom/tencent/mm/pluginsdk/Hclz$k;
 
     move-result-object v0
 
@@ -781,7 +781,7 @@
 
     move-object v1, p0
 
-    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/h$k;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;II)V
+    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/Hclz$k;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;II)V
 
     .line 217
     const v0, 0x7f0905fa

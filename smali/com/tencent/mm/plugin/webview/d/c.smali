@@ -932,15 +932,15 @@
     .line 169
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/d/c;->hAE:Lcom/tencent/mm/plugin/webview/c/t;
 
-    iget-object v1, v0, Lcom/tencent/mm/plugin/webview/c/t;->hyo:Lcom/tencent/mm/pluginsdk/model/downloader/k;
+    iget-object v1, v0, Lcom/tencent/mm/plugin/webview/c/t;->hyo:Lcom/tencent/mm/pluginsdk/model/downloader/Kclz;
 
     if-eqz v1, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
-    iget-object v1, v0, Lcom/tencent/mm/plugin/webview/c/t;->hyo:Lcom/tencent/mm/pluginsdk/model/downloader/k;
+    iget-object v1, v0, Lcom/tencent/mm/plugin/webview/c/t;->hyo:Lcom/tencent/mm/pluginsdk/model/downloader/Kclz;
 
-    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/model/downloader/a;->b(Lcom/tencent/mm/pluginsdk/model/downloader/k;)V
+    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/model/downloader/Aclz;->b(Lcom/tencent/mm/pluginsdk/model/downloader/Kclz;)V
 
     :cond_0
     iget-object v1, v0, Lcom/tencent/mm/plugin/webview/c/t;->hyp:Ljava/util/Set;
@@ -986,7 +986,7 @@
 
     invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
     move-result-object v2
 
@@ -994,7 +994,7 @@
 
     move-result-wide v3
 
-    invoke-virtual {v2, v3, v4}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->cz(J)I
+    invoke-virtual {v2, v3, v4}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->cz(J)I
 
     goto :goto_0
 

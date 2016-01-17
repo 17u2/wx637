@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/ui/chat/b;
+.implements Lcom/tencent/mm/pluginsdk/ui/chat/Bclz;
 
 
 # static fields

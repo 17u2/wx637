@@ -162,9 +162,9 @@
 
     array-length v3, p1
 
-    sget v4, Lcom/tencent/mm/pluginsdk/j/a;->hPJ:I
+    sget v4, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPJ:I
 
-    sget v5, Lcom/tencent/mm/pluginsdk/j/a;->hPI:I
+    sget v5, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPI:I
 
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/BCclz;->Fa()J
 

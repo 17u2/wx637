@@ -167,13 +167,13 @@
     invoke-virtual {v1, v0, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     .line 291
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/account/mobile/Gclz$7;->jHH:Lcom/tencent/mm/ui/account/mobile/Gclz;
 
     iget-object v2, v2, Lcom/tencent/mm/ui/account/mobile/Gclz;->jHC:Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI;
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/f;->k(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/Fclz;->k(Landroid/content/Intent;Landroid/content/Context;)V
 
     .line 306
     :goto_0

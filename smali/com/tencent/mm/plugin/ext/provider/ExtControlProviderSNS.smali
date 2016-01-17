@@ -989,17 +989,17 @@
 
     invoke-static {v1, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    new-instance v1, Lcom/tencent/mm/pluginsdk/d/a/a;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/pluginsdk/d/a/a;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;-><init>()V
 
     const-wide/16 v3, 0x2710
 
     new-instance v5, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;
 
-    invoke-direct {v5, p0, v2, v1}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;-><init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS;Lcom/tencent/mm/storage/Kclz;Lcom/tencent/mm/pluginsdk/d/a/a;)V
+    invoke-direct {v5, p0, v2, v1}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;-><init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS;Lcom/tencent/mm/storage/Kclz;Lcom/tencent/mm/pluginsdk/d/a/Aclz;)V
 
-    invoke-virtual {v1, v3, v4, v5}, Lcom/tencent/mm/pluginsdk/d/a/a;->b(JLjava/lang/Runnable;)V
+    invoke-virtual {v1, v3, v4, v5}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;->b(JLjava/lang/Runnable;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

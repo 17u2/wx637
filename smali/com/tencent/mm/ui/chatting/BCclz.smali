@@ -111,13 +111,13 @@
     check-cast v7, Lcom/tencent/mm/ui/chatting/BCclz$a;
 
     .line 48
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->aIy()Lcom/tencent/mm/pluginsdk/model/app/k;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->aIy()Lcom/tencent/mm/pluginsdk/model/app/Kclz;
 
     move-result-object v0
 
     iget-wide v2, p4, Lcom/tencent/mm/d/b/BAclz;->field_msgId:J
 
-    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/pluginsdk/model/app/k;->cI(J)Lcom/tencent/mm/m/Aclz;
+    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/pluginsdk/model/app/Kclz;->cI(J)Lcom/tencent/mm/m/Aclz;
 
     move-result-object v0
 
@@ -170,7 +170,7 @@
 
     iget-object v2, v8, Lcom/tencent/mm/m/Aclz$a;->brd:Ljava/lang/String;
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/pluginsdk/ui/a$b;->k(Landroid/widget/ImageView;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->k(Landroid/widget/ImageView;Ljava/lang/String;)V
 
     .line 63
     iget-object v1, v7, Lcom/tencent/mm/ui/chatting/BCclz$a;->kdB:Landroid/widget/TextView;
@@ -327,7 +327,7 @@
     .line 90
     iget-object v0, v0, Lcom/tencent/mm/m/Aclz$a;->anW:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/l;->xJ(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/Lclz;->xJ(Ljava/lang/String;)V
 
     .line 92
     :cond_1

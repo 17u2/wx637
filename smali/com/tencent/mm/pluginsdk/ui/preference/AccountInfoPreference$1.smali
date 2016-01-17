@@ -52,7 +52,7 @@
     .line 118
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference$1;->hYP:Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference;->a(Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference;)Lcom/tencent/mm/pluginsdk/h$m;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference;->a(Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference;)Lcom/tencent/mm/pluginsdk/Hclz$m;
 
     move-result-object v0
 
@@ -78,11 +78,11 @@
     .line 121
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference$1;->hYP:Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference;->a(Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference;)Lcom/tencent/mm/pluginsdk/h$m;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference;->a(Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference;)Lcom/tencent/mm/pluginsdk/Hclz$m;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$m;->show()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$m;->show()V
 
     .line 123
     :cond_0

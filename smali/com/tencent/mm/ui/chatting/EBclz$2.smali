@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
+.implements Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/ui/chatting/EBclz;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Lcom/tencent/mm/pluginsdk/model/app/f;)Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
+    value = Lcom/tencent/mm/ui/chatting/EBclz;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Lcom/tencent/mm/pluginsdk/model/app/Fclz;)Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,13 +20,13 @@
 # instance fields
 .field final synthetic kmF:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
 
-.field final synthetic kmG:Lcom/tencent/mm/pluginsdk/model/app/f;
+.field final synthetic kmG:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
 .field final synthetic kmH:Lcom/tencent/mm/ui/chatting/EBclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/EBclz;Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Lcom/tencent/mm/pluginsdk/model/app/f;)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/EBclz;Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Lcom/tencent/mm/pluginsdk/model/app/Fclz;)V
     .locals 1
 
     .prologue
@@ -35,7 +35,7 @@
 
     iput-object p2, p0, Lcom/tencent/mm/ui/chatting/EBclz$2;->kmF:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
 
-    iput-object p3, p0, Lcom/tencent/mm/ui/chatting/EBclz$2;->kmG:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iput-object p3, p0, Lcom/tencent/mm/ui/chatting/EBclz$2;->kmG:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -97,7 +97,7 @@
 
     .line 266
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v0
 
@@ -113,11 +113,11 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/EBclz$2;->kmF:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
 
-    iget-object v3, p0, Lcom/tencent/mm/ui/chatting/EBclz$2;->kmG:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iget-object v3, p0, Lcom/tencent/mm/ui/chatting/EBclz$2;->kmG:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
-    invoke-interface {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/h$f;->a(Landroid/content/Context;Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/Hclz$f;->a(Landroid/content/Context;Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -177,13 +177,13 @@
     .line 276
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/EBclz$2;->kmF:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/EBclz$2;->kmG:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/EBclz$2;->kmG:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/EBclz$2;->kmG:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/EBclz$2;->kmG:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appName:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appName:Ljava/lang/String;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/chatting/EBclz$2;->kmH:Lcom/tencent/mm/ui/chatting/EBclz;
 
@@ -195,7 +195,7 @@
 
     move-result-object v3
 
-    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/app/l;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)I
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/app/Lclz;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)I
 
     goto :goto_0
 .end method

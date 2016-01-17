@@ -111,13 +111,13 @@
     check-cast v7, Lcom/tencent/mm/ui/chatting/BDclz$a;
 
     .line 51
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->aIy()Lcom/tencent/mm/pluginsdk/model/app/k;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->aIy()Lcom/tencent/mm/pluginsdk/model/app/Kclz;
 
     move-result-object v0
 
     iget-wide v2, p4, Lcom/tencent/mm/d/b/BAclz;->field_msgId:J
 
-    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/pluginsdk/model/app/k;->cI(J)Lcom/tencent/mm/m/Aclz;
+    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/pluginsdk/model/app/Kclz;->cI(J)Lcom/tencent/mm/m/Aclz;
 
     move-result-object v0
 
@@ -327,7 +327,7 @@
     .line 93
     iget-object v0, v0, Lcom/tencent/mm/m/Aclz$a;->anW:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/l;->xJ(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/Lclz;->xJ(Ljava/lang/String;)V
 
     .line 95
     :cond_1

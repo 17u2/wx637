@@ -131,11 +131,11 @@
     invoke-virtual {v7, v0, v6}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 340
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsCommentDetailUI$26;->gwX:Lcom/tencent/mm/plugin/sns/ui/SnsCommentDetailUI;
 
-    invoke-interface {v0, v7, v1}, Lcom/tencent/mm/pluginsdk/f;->d(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v0, v7, v1}, Lcom/tencent/mm/pluginsdk/Fclz;->d(Landroid/content/Intent;Landroid/content/Context;)V
 
     .line 354
     :cond_0

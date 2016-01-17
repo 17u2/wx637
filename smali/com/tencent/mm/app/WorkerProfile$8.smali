@@ -116,7 +116,7 @@
     goto :goto_0
 
     :cond_3
-    invoke-static {v1, v4}, Lcom/tencent/mm/pluginsdk/model/app/g;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-static {v1, v4}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v3
 
@@ -135,7 +135,7 @@
     goto :goto_0
 
     :cond_4
-    iget v1, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_status:I
+    iget v1, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_status:I
 
     const/4 v4, 0x3
 
@@ -149,7 +149,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v2, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_packageName:Ljava/lang/String;
+    iget-object v2, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_packageName:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -164,11 +164,11 @@
     goto :goto_0
 
     :cond_5
-    iget-object v1, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_packageName:Ljava/lang/String;
+    iget-object v1, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_packageName:Ljava/lang/String;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_openId:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_openId:Ljava/lang/String;
 
-    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/model/app/g;->a(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;)Lcom/tencent/mm/sdk/modelmsg/Dclz$a;
+    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->a(Landroid/content/Context;Ljava/lang/String;Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;)Lcom/tencent/mm/sdk/modelmsg/Dclz$a;
 
     goto :goto_0
 .end method

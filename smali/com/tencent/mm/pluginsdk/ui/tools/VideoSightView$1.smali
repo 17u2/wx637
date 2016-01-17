@@ -57,16 +57,16 @@
     .line 57
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView$1;->ige:Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
     if-eqz v0, :cond_0
 
     .line 58
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView$1;->ige:Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
-    invoke-interface {v0, v1, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/f$a;->ay(II)V
+    invoke-interface {v0, v1, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;->ay(II)V
 
     .line 65
     :cond_0
@@ -80,16 +80,16 @@
     .line 61
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView$1;->ige:Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
     if-eqz v0, :cond_0
 
     .line 62
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView$1;->ige:Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f$a;->lN()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;->lN()V
 
     goto :goto_0
 .end method

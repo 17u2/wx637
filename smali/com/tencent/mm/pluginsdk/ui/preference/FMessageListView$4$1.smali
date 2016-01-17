@@ -75,9 +75,9 @@
     .line 216
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView$4$1;->hZe:Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView$4;
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView$4;->hZd:Lcom/tencent/mm/pluginsdk/ui/preference/b;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView$4;->hZd:Lcom/tencent/mm/pluginsdk/ui/preference/Bclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/preference/b;->brV:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/preference/Bclz;->brV:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Landroid/text/ClipboardManager;->setText(Ljava/lang/CharSequence;)V
 

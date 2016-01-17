@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/ui/bindlinkedin/Aclz$1;
-.super Lcom/tencent/mm/pluginsdk/ui/tools/g;
+.super Lcom/tencent/mm/pluginsdk/ui/tools/Gclz;
 .source "SourceFile"
 
 
@@ -28,7 +28,7 @@
 
     const/16 v0, 0xa
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/pluginsdk/ui/tools/g;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Gclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -47,9 +47,9 @@
 
     .prologue
     .line 38
-    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/tools/d;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/tools/Dclz;
 
-    invoke-direct {v0, p1, p2, p3, p4}, Lcom/tencent/mm/pluginsdk/ui/tools/d;-><init>(Ljava/lang/String;Ljava/lang/String;II)V
+    invoke-direct {v0, p1, p2, p3, p4}, Lcom/tencent/mm/pluginsdk/ui/tools/Dclz;-><init>(Ljava/lang/String;Ljava/lang/String;II)V
 
     return-object v0
 .end method

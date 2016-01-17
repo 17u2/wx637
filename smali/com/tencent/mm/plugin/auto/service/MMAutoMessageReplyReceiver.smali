@@ -103,7 +103,7 @@
     invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 32
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHC()Lcom/tencent/mm/pluginsdk/h$k;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHC()Lcom/tencent/mm/pluginsdk/Hclz$k;
 
     move-result-object v2
 
@@ -115,7 +115,7 @@
 
     move-result v3
 
-    invoke-interface {v2, v1, v0, v3}, Lcom/tencent/mm/pluginsdk/h$k;->q(Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-interface {v2, v1, v0, v3}, Lcom/tencent/mm/pluginsdk/Hclz$k;->q(Ljava/lang/String;Ljava/lang/String;I)V
 
     goto :goto_0
 .end method

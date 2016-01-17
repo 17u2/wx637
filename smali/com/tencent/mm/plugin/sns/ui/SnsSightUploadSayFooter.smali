@@ -103,15 +103,15 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    sget-object v1, Lcom/tencent/mm/pluginsdk/ui/chat/e;->hWM:Lcom/tencent/mm/pluginsdk/ui/chat/e$a;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/ui/chat/Eclz;->hWM:Lcom/tencent/mm/pluginsdk/ui/chat/Eclz$a;
 
     if-nez v1, :cond_1
 
-    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/chat/d;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/chat/Dclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightUploadSayFooter;->arA:Lcom/tencent/mm/ui/MMActivity;
 
-    invoke-direct {v1, v2}, Lcom/tencent/mm/pluginsdk/ui/chat/d;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, v2}, Lcom/tencent/mm/pluginsdk/ui/chat/Dclz;-><init>(Landroid/content/Context;)V
 
     iput-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightUploadSayFooter;->eEd:Lcom/tencent/mm/pluginsdk/ui/ChatFooterPanel;
 
@@ -156,13 +156,13 @@
 
     .line 47
     :cond_1
-    sget-object v1, Lcom/tencent/mm/pluginsdk/ui/chat/e;->hWM:Lcom/tencent/mm/pluginsdk/ui/chat/e$a;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/ui/chat/Eclz;->hWM:Lcom/tencent/mm/pluginsdk/ui/chat/Eclz$a;
 
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/sns/ui/SnsSightUploadSayFooter;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
-    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/ui/chat/e$a;->cC(Landroid/content/Context;)Lcom/tencent/mm/pluginsdk/ui/ChatFooterPanel;
+    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/ui/chat/Eclz$a;->cC(Landroid/content/Context;)Lcom/tencent/mm/pluginsdk/ui/ChatFooterPanel;
 
     move-result-object v1
 

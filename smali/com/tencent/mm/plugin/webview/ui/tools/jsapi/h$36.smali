@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic hGQ:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;
 
-.field final synthetic hHr:Lcom/tencent/mm/pluginsdk/ui/applet/b;
+.field final synthetic hHr:Lcom/tencent/mm/pluginsdk/ui/applet/Bclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;Lcom/tencent/mm/pluginsdk/ui/applet/b;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;Lcom/tencent/mm/pluginsdk/ui/applet/Bclz;)V
     .locals 1
 
     .prologue
     .line 6742
     iput-object p1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$36;->hGQ:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;
 
-    iput-object p2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$36;->hHr:Lcom/tencent/mm/pluginsdk/ui/applet/b;
+    iput-object p2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$36;->hHr:Lcom/tencent/mm/pluginsdk/ui/applet/Bclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,9 +52,9 @@
 
     .prologue
     .line 6746
-    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$36;->hHr:Lcom/tencent/mm/pluginsdk/ui/applet/b;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$36;->hHr:Lcom/tencent/mm/pluginsdk/ui/applet/Bclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/applet/b;->show()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/applet/Bclz;->show()V
 
     .line 6747
     return-void

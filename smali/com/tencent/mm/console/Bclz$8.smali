@@ -145,7 +145,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/e;->kT()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Eclz;->kT()V
 
     .line 754
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->lc()Lcom/tencent/mm/model/Yclz;
@@ -185,16 +185,16 @@
     invoke-virtual {v1, v0}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
 
     .line 761
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJI:Lcom/tencent/mm/pluginsdk/h$i;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJI:Lcom/tencent/mm/pluginsdk/Hclz$i;
 
     if-eqz v0, :cond_0
 
     .line 762
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJI:Lcom/tencent/mm/pluginsdk/h$i;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJI:Lcom/tencent/mm/pluginsdk/Hclz$i;
 
     iget-object v1, p0, Lcom/tencent/mm/console/Bclz$8;->bos:Landroid/app/Activity;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$i;->ac(Landroid/content/Context;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$i;->ac(Landroid/content/Context;)V
 
     .line 764
     :cond_0

@@ -889,7 +889,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->eGe:Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->hVy:Lcom/tencent/mm/pluginsdk/ui/chat/k;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->hVy:Lcom/tencent/mm/pluginsdk/ui/chat/Kclz;
 
     if-eqz v1, :cond_2
 
@@ -897,7 +897,7 @@
 
     if-eqz v1, :cond_2
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->hVy:Lcom/tencent/mm/pluginsdk/ui/chat/k;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->hVy:Lcom/tencent/mm/pluginsdk/ui/chat/Kclz;
 
     const-string/jumbo v1, "!56@/B4Tb64lLpIUhDmLVZ6YSYNmGC1A559IOpziKnLhSwba9W2PlYV7+A=="
 
@@ -911,7 +911,7 @@
 
     if-nez v1, :cond_8
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->hXf:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Kclz;->hXf:Ljava/lang/String;
 
     invoke-virtual {v7, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -919,14 +919,14 @@
 
     if-nez v1, :cond_8
 
-    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/chat/k$3;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/chat/Kclz$3;
 
-    invoke-direct {v1, v0, v7}, Lcom/tencent/mm/pluginsdk/ui/chat/k$3;-><init>(Lcom/tencent/mm/pluginsdk/ui/chat/k;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v7}, Lcom/tencent/mm/pluginsdk/ui/chat/Kclz$3;-><init>(Lcom/tencent/mm/pluginsdk/ui/chat/Kclz;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/ACclz;->j(Ljava/lang/Runnable;)V
 
     :cond_8
-    iput-object v7, v0, Lcom/tencent/mm/pluginsdk/ui/chat/k;->hXf:Ljava/lang/String;
+    iput-object v7, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Kclz;->hXf:Ljava/lang/String;
 
     goto/16 :goto_1
 

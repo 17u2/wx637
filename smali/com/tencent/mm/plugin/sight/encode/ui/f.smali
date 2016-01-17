@@ -25,7 +25,7 @@
 
 .field fZj:Landroid/hardware/Camera$PreviewCallback;
 
-.field gcb:Lcom/tencent/mm/pluginsdk/j/a;
+.field gcb:Lcom/tencent/mm/pluginsdk/j/Aclz;
 
 .field gcc:Z
 
@@ -127,11 +127,11 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcn:Lcom/tencent/mm/plugin/sight/encode/ui/f$a;
 
     .line 78
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/j/a;->aJf()Lcom/tencent/mm/pluginsdk/j/a;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/j/Aclz;->aJf()Lcom/tencent/mm/pluginsdk/j/Aclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/a;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/Aclz;
 
     .line 79
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -181,7 +181,7 @@
     move-result-object v7
 
     .line 206
-    iget-object v8, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/a;
+    iget-object v8, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/Aclz;
 
     const v3, 0x7fffffff
 
@@ -263,19 +263,19 @@
 
     mul-int v0, v9, v10
 
-    iget v11, v8, Lcom/tencent/mm/pluginsdk/j/a;->hPN:I
+    iget v11, v8, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPN:I
 
     if-lt v10, v11, :cond_6
 
-    iget v11, v8, Lcom/tencent/mm/pluginsdk/j/a;->hPO:I
+    iget v11, v8, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPO:I
 
     if-lt v9, v11, :cond_6
 
     if-ge v0, v3, :cond_6
 
-    iput v10, v8, Lcom/tencent/mm/pluginsdk/j/a;->hPL:I
+    iput v10, v8, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPL:I
 
-    iput v9, v8, Lcom/tencent/mm/pluginsdk/j/a;->hPK:I
+    iput v9, v8, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPK:I
 
     move v2, v0
 
@@ -301,11 +301,11 @@
 
     iget v2, v0, Landroid/hardware/Camera$Size;->height:I
 
-    iput v2, v8, Lcom/tencent/mm/pluginsdk/j/a;->hPK:I
+    iput v2, v8, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPK:I
 
     iget v0, v0, Landroid/hardware/Camera$Size;->width:I
 
-    iput v0, v8, Lcom/tencent/mm/pluginsdk/j/a;->hPL:I
+    iput v0, v8, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPL:I
 
     :cond_2
     :goto_4
@@ -317,7 +317,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget v3, v8, Lcom/tencent/mm/pluginsdk/j/a;->bkR:I
+    iget v3, v8, Lcom/tencent/mm/pluginsdk/j/Aclz;->bkR:I
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -329,7 +329,7 @@
 
     move-result-object v2
 
-    iget v3, v8, Lcom/tencent/mm/pluginsdk/j/a;->hPL:I
+    iget v3, v8, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPL:I
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -341,7 +341,7 @@
 
     move-result-object v2
 
-    iget v3, v8, Lcom/tencent/mm/pluginsdk/j/a;->hPK:I
+    iget v3, v8, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPK:I
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -353,9 +353,9 @@
 
     invoke-static {v0, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    sget v0, Lcom/tencent/mm/pluginsdk/j/a;->hPJ:I
+    sget v0, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPJ:I
 
-    iget v2, v8, Lcom/tencent/mm/pluginsdk/j/a;->hPL:I
+    iget v2, v8, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPL:I
 
     if-eq v0, v2, :cond_3
 
@@ -369,7 +369,7 @@
 
     const/4 v5, 0x0
 
-    sget v6, Lcom/tencent/mm/pluginsdk/j/a;->hPJ:I
+    sget v6, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPJ:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -379,7 +379,7 @@
 
     const/4 v5, 0x1
 
-    iget v6, v8, Lcom/tencent/mm/pluginsdk/j/a;->hPL:I
+    iget v6, v8, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPL:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -389,14 +389,14 @@
 
     invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iget v0, v8, Lcom/tencent/mm/pluginsdk/j/a;->hPL:I
+    iget v0, v8, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPL:I
 
-    sput v0, Lcom/tencent/mm/pluginsdk/j/a;->hPJ:I
+    sput v0, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPJ:I
 
     :cond_3
-    sget v0, Lcom/tencent/mm/pluginsdk/j/a;->hPI:I
+    sget v0, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPI:I
 
-    iget v2, v8, Lcom/tencent/mm/pluginsdk/j/a;->hPK:I
+    iget v2, v8, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPK:I
 
     if-eq v0, v2, :cond_4
 
@@ -410,7 +410,7 @@
 
     const/4 v5, 0x0
 
-    sget v6, Lcom/tencent/mm/pluginsdk/j/a;->hPI:I
+    sget v6, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPI:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -420,7 +420,7 @@
 
     const/4 v5, 0x1
 
-    iget v6, v8, Lcom/tencent/mm/pluginsdk/j/a;->hPK:I
+    iget v6, v8, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPK:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -430,19 +430,19 @@
 
     invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iget v0, v8, Lcom/tencent/mm/pluginsdk/j/a;->hPK:I
+    iget v0, v8, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPK:I
 
-    sput v0, Lcom/tencent/mm/pluginsdk/j/a;->hPI:I
+    sput v0, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPI:I
 
     .line 207
     :cond_4
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/a;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/Aclz;
 
-    iget v0, v0, Lcom/tencent/mm/pluginsdk/j/a;->hPL:I
+    iget v0, v0, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPL:I
 
-    iget-object v2, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/a;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/Aclz;
 
-    iget v2, v2, Lcom/tencent/mm/pluginsdk/j/a;->hPK:I
+    iget v2, v2, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPK:I
 
     invoke-virtual {v7, v0, v2}, Landroid/hardware/Camera$Parameters;->setPreviewSize(II)V
 
@@ -492,11 +492,11 @@
 
     iget v2, v0, Landroid/hardware/Camera$Size;->height:I
 
-    iput v2, v8, Lcom/tencent/mm/pluginsdk/j/a;->hPK:I
+    iput v2, v8, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPK:I
 
     iget v0, v0, Landroid/hardware/Camera$Size;->width:I
 
-    iput v0, v8, Lcom/tencent/mm/pluginsdk/j/a;->hPL:I
+    iput v0, v8, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPL:I
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -1660,13 +1660,13 @@
     iput-boolean v1, v0, Lcom/tencent/mm/plugin/sight/encode/ui/f$a;->gcr:Z
 
     .line 949
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/a;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/Aclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcg:Lcom/tencent/mm/compatible/d/Cclz$a$a;
 
     iget v2, v2, Lcom/tencent/mm/compatible/d/Cclz$a$a;->bkR:I
 
-    iput v2, v0, Lcom/tencent/mm/pluginsdk/j/a;->bkR:I
+    iput v2, v0, Lcom/tencent/mm/pluginsdk/j/Aclz;->bkR:I
 
     .line 950
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->bkU:Landroid/hardware/Camera;
@@ -2000,13 +2000,13 @@
     if-eqz v2, :cond_a
 
     .line 363
-    iget-object v2, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/a;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/Aclz;
 
-    iget v2, v2, Lcom/tencent/mm/pluginsdk/j/a;->hPL:I
+    iget v2, v2, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPL:I
 
-    iget-object v6, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/a;
+    iget-object v6, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/Aclz;
 
-    iget v6, v6, Lcom/tencent/mm/pluginsdk/j/a;->hPK:I
+    iget v6, v6, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPK:I
 
     mul-int/2addr v2, v6
 
@@ -2672,13 +2672,13 @@
     if-eqz v2, :cond_a
 
     .line 450
-    iget-object v2, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/a;
+    iget-object v2, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/Aclz;
 
-    iget v2, v2, Lcom/tencent/mm/pluginsdk/j/a;->hPL:I
+    iget v2, v2, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPL:I
 
-    iget-object v6, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/a;
+    iget-object v6, p0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/Aclz;
 
-    iget v6, v6, Lcom/tencent/mm/pluginsdk/j/a;->hPK:I
+    iget v6, v6, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPK:I
 
     mul-int/2addr v2, v6
 

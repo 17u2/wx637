@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic kIb:Lcom/tencent/mm/ui/transmit/MsgRetransmitUI;
 
-.field final synthetic kkc:Lcom/tencent/mm/pluginsdk/model/g;
+.field final synthetic kkc:Lcom/tencent/mm/pluginsdk/model/Gclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/transmit/MsgRetransmitUI;Lcom/tencent/mm/pluginsdk/model/g;)V
+.method constructor <init>(Lcom/tencent/mm/ui/transmit/MsgRetransmitUI;Lcom/tencent/mm/pluginsdk/model/Gclz;)V
     .locals 1
 
     .prologue
     .line 804
     iput-object p1, p0, Lcom/tencent/mm/ui/transmit/MsgRetransmitUI$10;->kIb:Lcom/tencent/mm/ui/transmit/MsgRetransmitUI;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/transmit/MsgRetransmitUI$10;->kkc:Lcom/tencent/mm/pluginsdk/model/g;
+    iput-object p2, p0, Lcom/tencent/mm/ui/transmit/MsgRetransmitUI$10;->kkc:Lcom/tencent/mm/pluginsdk/model/Gclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,9 +52,9 @@
 
     .prologue
     .line 807
-    iget-object v0, p0, Lcom/tencent/mm/ui/transmit/MsgRetransmitUI$10;->kkc:Lcom/tencent/mm/pluginsdk/model/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/transmit/MsgRetransmitUI$10;->kkc:Lcom/tencent/mm/pluginsdk/model/Gclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/g;->aHU()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/Gclz;->aHU()V
 
     .line 808
     iget-object v0, p0, Lcom/tencent/mm/ui/transmit/MsgRetransmitUI$10;->kIb:Lcom/tencent/mm/ui/transmit/MsgRetransmitUI;

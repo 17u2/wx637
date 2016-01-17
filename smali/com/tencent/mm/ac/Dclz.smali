@@ -630,14 +630,14 @@
     iput-object p2, p0, Lcom/tencent/mm/ac/Dclz;->ans:Lcom/tencent/mm/q/Dclz;
 
     .line 74
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKd:Lcom/tencent/mm/pluginsdk/h$n$b;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKd:Lcom/tencent/mm/pluginsdk/Hclz$n$b;
 
     if-eqz v0, :cond_0
 
     .line 75
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKd:Lcom/tencent/mm/pluginsdk/h$n$b;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKd:Lcom/tencent/mm/pluginsdk/Hclz$n$b;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$n$b;->aur()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$n$b;->aur()V
 
     .line 77
     :cond_0

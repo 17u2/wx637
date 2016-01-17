@@ -710,7 +710,7 @@
 
     .line 236
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$aj;->aHM()Lcom/tencent/mm/pluginsdk/h$ae$a;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$aj;->aHM()Lcom/tencent/mm/pluginsdk/Hclz$ae$a;
 
     move-result-object v1
 
@@ -735,11 +735,11 @@
     invoke-direct {v1, v0}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
 
     .line 239
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$aj;->aHM()Lcom/tencent/mm/pluginsdk/h$ae$a;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$aj;->aHM()Lcom/tencent/mm/pluginsdk/Hclz$ae$a;
 
     move-result-object v2
 
-    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/h$ae$a;->aEr()Ljava/lang/String;
+    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/Hclz$ae$a;->aEr()Ljava/lang/String;
 
     move-result-object v2
 
@@ -819,11 +819,11 @@
     if-eqz v1, :cond_3
 
     .line 252
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$aj;->aHM()Lcom/tencent/mm/pluginsdk/h$ae$a;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$aj;->aHM()Lcom/tencent/mm/pluginsdk/Hclz$ae$a;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/tencent/mm/pluginsdk/h$ae$a;->aEs()V
+    invoke-interface {v1}, Lcom/tencent/mm/pluginsdk/Hclz$ae$a;->aEs()V
 
     .line 253
     const/4 v1, 0x1
@@ -3069,13 +3069,13 @@
     move-result-object v1
 
     .line 664
-    new-instance v2, Lcom/tencent/mm/pluginsdk/ui/applet/j;
+    new-instance v2, Lcom/tencent/mm/pluginsdk/ui/applet/Jclz;
 
     move-object/from16 v0, p0
 
-    invoke-direct {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/applet/j;-><init>(Landroid/content/Context;)V
+    invoke-direct {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/applet/Jclz;-><init>(Landroid/content/Context;)V
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/j;->yu(Ljava/lang/String;)V
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/Jclz;->yu(Ljava/lang/String;)V
 
     .line 667
     :cond_31
@@ -4982,11 +4982,11 @@
     move-result-object v1
 
     .line 1068
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v2
 
-    invoke-interface {v2, v1}, Lcom/tencent/mm/pluginsdk/h$f;->ml(Ljava/lang/String;)V
+    invoke-interface {v2, v1}, Lcom/tencent/mm/pluginsdk/Hclz$f;->ml(Ljava/lang/String;)V
 
     .line 1069
     const/4 v1, 0x1
@@ -5071,11 +5071,11 @@
     move-result-object v1
 
     .line 1092
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->aIx()Lcom/tencent/mm/pluginsdk/model/app/i;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->aIx()Lcom/tencent/mm/pluginsdk/model/app/Iclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/pluginsdk/model/app/i;->xH(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/pluginsdk/model/app/Iclz;->xH(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v1
 
@@ -5084,7 +5084,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/model/app/f;->mf()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->mf()Ljava/lang/String;
 
     move-result-object v3
 
@@ -5098,7 +5098,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/model/app/f;->mg()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->mg()Ljava/lang/String;
 
     move-result-object v3
 
@@ -5112,7 +5112,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/model/app/f;->mh()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->mh()Ljava/lang/String;
 
     move-result-object v1
 
@@ -5260,7 +5260,7 @@
     if-eqz v1, :cond_69
 
     .line 1111
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHB()Lcom/tencent/mm/pluginsdk/h$o;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHB()Lcom/tencent/mm/pluginsdk/Hclz$o;
 
     move-result-object v1
 
@@ -5270,7 +5270,7 @@
     .line 1113
     move-object/from16 v0, p0
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/pluginsdk/h$o;->bH(Landroid/content/Context;)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/pluginsdk/Hclz$o;->bH(Landroid/content/Context;)V
 
     .line 1115
     :cond_68
@@ -5455,11 +5455,11 @@
     if-eqz v1, :cond_6f
 
     .line 1161
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHz()Lcom/tencent/mm/pluginsdk/h$l;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHz()Lcom/tencent/mm/pluginsdk/Hclz$l;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/tencent/mm/pluginsdk/h$l;->apj()V
+    invoke-interface {v1}, Lcom/tencent/mm/pluginsdk/Hclz$l;->apj()V
 
     .line 1162
     const/4 v1, 0x1
@@ -5479,11 +5479,11 @@
     if-eqz v1, :cond_70
 
     .line 1167
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHz()Lcom/tencent/mm/pluginsdk/h$l;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHz()Lcom/tencent/mm/pluginsdk/Hclz$l;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/tencent/mm/pluginsdk/h$l;->apk()V
+    invoke-interface {v1}, Lcom/tencent/mm/pluginsdk/Hclz$l;->apk()V
 
     .line 1168
     const/4 v1, 0x1
@@ -5788,13 +5788,13 @@
     move-result v1
 
     .line 1217
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$ah;->aHL()Lcom/tencent/mm/pluginsdk/h$n$d;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$ah;->aHL()Lcom/tencent/mm/pluginsdk/Hclz$n$d;
 
     move-result-object v2
 
     int-to-long v3, v1
 
-    invoke-interface {v2, v3, v4}, Lcom/tencent/mm/pluginsdk/h$n$d;->cp(J)V
+    invoke-interface {v2, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$n$d;->cp(J)V
 
     .line 1218
     const/4 v1, 0x1
@@ -7229,11 +7229,11 @@
     invoke-virtual {v2, v3, v4}, Lcom/tencent/mm/storage/Hclz;->set(ILjava/lang/Object;)V
 
     .line 1516
-    new-instance v2, Lcom/tencent/mm/pluginsdk/model/app/a;
+    new-instance v2, Lcom/tencent/mm/pluginsdk/model/app/Aclz;
 
-    invoke-direct {v2, v1}, Lcom/tencent/mm/pluginsdk/model/app/a;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v1}, Lcom/tencent/mm/pluginsdk/model/app/Aclz;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v2}, Lcom/tencent/mm/pluginsdk/model/app/a;->aIg()V
+    invoke-virtual {v2}, Lcom/tencent/mm/pluginsdk/model/app/Aclz;->aIg()V
 
     .line 1517
     const/4 v1, 0x1
@@ -7264,7 +7264,7 @@
 
     .line 1521
     :cond_99
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$af;->aHJ()Lcom/tencent/mm/pluginsdk/h$ac;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$af;->aHJ()Lcom/tencent/mm/pluginsdk/Hclz$ac;
 
     move-result-object v1
 
@@ -7276,12 +7276,12 @@
 
     move-result v2
 
-    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/h$ac;->dO(Z)V
+    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/Hclz$ac;->dO(Z)V
 
     .line 1522
     const/4 v1, 0x1
 
-    sput-boolean v1, Lcom/tencent/mm/pluginsdk/h$af;->hJZ:Z
+    sput-boolean v1, Lcom/tencent/mm/pluginsdk/Hclz$af;->hJZ:Z
 
     .line 1523
     const/4 v1, 0x1
@@ -8392,7 +8392,7 @@
     move-result-wide v2
 
     .line 1747
-    invoke-static {v2, v3}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->cN(J)Lcom/tencent/mm/storage/Yclz;
+    invoke-static {v2, v3}, Lcom/tencent/mm/pluginsdk/model/downloader/Bclz;->cN(J)Lcom/tencent/mm/storage/Yclz;
 
     move-result-object v2
 
@@ -8460,7 +8460,7 @@
     :catch_8
     move-exception v2
 
-    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->xS(Ljava/lang/String;)Lcom/tencent/mm/storage/Yclz;
+    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/model/downloader/Bclz;->xS(Ljava/lang/String;)Lcom/tencent/mm/storage/Yclz;
 
     move-result-object v1
 
@@ -8758,11 +8758,11 @@
     move-result-object v1
 
     .line 1855
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->aIw()Lcom/tencent/mm/pluginsdk/model/app/h;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->aIw()Lcom/tencent/mm/pluginsdk/model/app/Hclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/pluginsdk/model/app/h;->xF(Ljava/lang/String;)V
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/pluginsdk/model/app/Hclz;->xF(Ljava/lang/String;)V
 
     .line 1856
     const/4 v1, 0x1
@@ -8930,13 +8930,13 @@
 
     .line 1922
     :sswitch_10
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v1
 
     const-string/jumbo v2, ""
 
-    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/h$f;->ml(Ljava/lang/String;)V
+    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/Hclz$f;->ml(Ljava/lang/String;)V
 
     .line 1923
     const/4 v1, 0x1

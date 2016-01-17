@@ -1081,7 +1081,7 @@
 
     const-string/jumbo v1, ""
 
-    invoke-static {v4, v0, v2, v1, v6}, Lcom/tencent/mm/pluginsdk/model/app/l;->a(Lcom/tencent/mm/m/Aclz$a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[B)I
+    invoke-static {v4, v0, v2, v1, v6}, Lcom/tencent/mm/pluginsdk/model/app/Lclz;->a(Lcom/tencent/mm/m/Aclz$a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[B)I
 
     .line 299
     const v0, 0x7f0905fa
@@ -1989,9 +1989,9 @@
 
     iput-object v2, v1, Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;->fXy:Lcom/tencent/mm/plugin/sight/decode/ui/a;
 
-    iget-object v0, v1, Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, v1, Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0, v7}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->setPlayProgressCallback(Z)V
+    invoke-interface {v0, v7}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->setPlayProgressCallback(Z)V
 
     iget-object v0, v1, Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;->fXy:Lcom/tencent/mm/plugin/sight/decode/ui/a;
 
@@ -2017,9 +2017,9 @@
 
     iget-object v0, v1, Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;->fXy:Lcom/tencent/mm/plugin/sight/decode/ui/a;
 
-    iget-object v3, v1, Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v3, v1, Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v3}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->isPlaying()Z
+    invoke-interface {v3}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->isPlaying()Z
 
     move-result v3
 

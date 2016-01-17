@@ -48,14 +48,14 @@
 
     .prologue
     .line 356
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$af;->aHJ()Lcom/tencent/mm/pluginsdk/h$ac;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$af;->aHJ()Lcom/tencent/mm/pluginsdk/Hclz$ac;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 357
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$af;->aHJ()Lcom/tencent/mm/pluginsdk/h$ac;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$af;->aHJ()Lcom/tencent/mm/pluginsdk/Hclz$ac;
 
     move-result-object v0
 
@@ -63,7 +63,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/ui/Mclz$9;->val$context:Landroid/content/Context;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$ac;->bW(Landroid/content/Context;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$ac;->bW(Landroid/content/Context;)V
 
     .line 359
     :cond_0

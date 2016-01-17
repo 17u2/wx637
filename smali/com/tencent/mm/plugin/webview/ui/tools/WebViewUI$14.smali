@@ -85,7 +85,7 @@
 
     move-result-object v4
 
-    invoke-static {v2, v3, v4, v0}, Lcom/tencent/mm/pluginsdk/ui/tools/q;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
+    invoke-static {v2, v3, v4, v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Qclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 

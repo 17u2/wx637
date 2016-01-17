@@ -1398,7 +1398,7 @@
 
     const-string/jumbo v7, "@T"
 
-    invoke-static {v3, v5, v7}, Lcom/tencent/mm/pluginsdk/model/o;->l(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v3, v5, v7}, Lcom/tencent/mm/pluginsdk/model/Oclz;->l(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -1456,7 +1456,7 @@
 
     iget-wide v4, v12, Lcom/tencent/mm/m/Dclz;->time:J
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/pluginsdk/g/n;->o(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/pluginsdk/g/Nclz;->o(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object v3
 
@@ -1879,7 +1879,7 @@
 
     const-string/jumbo v7, "@S"
 
-    invoke-static {v2, v6, v7}, Lcom/tencent/mm/pluginsdk/model/o;->l(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v6, v7}, Lcom/tencent/mm/pluginsdk/model/Oclz;->l(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
@@ -2570,7 +2570,7 @@
     iput-object v1, v2, Lcom/tencent/mm/d/a/ASclz$a;->atj:Ljava/lang/String;
 
     .line 409
-    invoke-static {v0, p3}, Lcom/tencent/mm/pluginsdk/model/c;->a(Lcom/tencent/mm/d/a/ASclz;Lcom/tencent/mm/storage/ADclz;)Z
+    invoke-static {v0, p3}, Lcom/tencent/mm/pluginsdk/model/Cclz;->a(Lcom/tencent/mm/d/a/ASclz;Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v1
 

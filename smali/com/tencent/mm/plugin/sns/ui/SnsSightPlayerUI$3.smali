@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+.implements Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
 
 # annotations
@@ -127,11 +127,11 @@
     .line 307
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI$3;->gCg:Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->f(Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;)Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->f(Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;)Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->stop()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->stop()V
 
     .line 309
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI$3;->gCg:Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;
@@ -315,13 +315,13 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI$3;->gCg:Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->f(Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;)Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->f(Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;)Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->setLoop(Z)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->setLoop(Z)V
 
     .line 367
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI$3;->gCg:Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;

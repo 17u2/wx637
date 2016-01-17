@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/ui/chat/l$a;
+.implements Lcom/tencent/mm/pluginsdk/ui/chat/Lclz$a;
 
 
 # annotations
@@ -50,11 +50,11 @@
     .line 1388
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter$13;->hWt:Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->C(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/pluginsdk/ui/chat/l;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->C(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/pluginsdk/ui/chat/Lclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/l;->hXh:Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Lclz;->hXh:Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;
 
     invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;->aJI()V
 
@@ -87,11 +87,11 @@
     .line 1395
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter$13;->hWt:Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->C(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/pluginsdk/ui/chat/l;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->C(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/pluginsdk/ui/chat/Lclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/l;->hXh:Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Lclz;->hXh:Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;
 
     invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;->aJI()V
 
@@ -189,11 +189,11 @@
     .line 1379
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter$13;->hWt:Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->C(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/pluginsdk/ui/chat/l;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->C(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/pluginsdk/ui/chat/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/l;->aKS()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/Lclz;->aKS()V
 
     .line 1384
     :cond_0
@@ -204,11 +204,11 @@
     :cond_1
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter$13;->hWt:Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->C(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/pluginsdk/ui/chat/l;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->C(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/pluginsdk/ui/chat/Lclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/l;->hXh:Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Lclz;->hXh:Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;
 
     invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;->aJI()V
 

@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout$b;
-.implements Lcom/tencent/mm/pluginsdk/ui/tools/n$a;
+.implements Lcom/tencent/mm/pluginsdk/ui/tools/Nclz$a;
 .implements Lcom/tencent/mm/ui/Hclz;
 
 

@@ -79,12 +79,12 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/h$v;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/Hclz$v;
 
     .line 139
     iget-object v3, p0, Lcom/tencent/mm/plugin/talkroom/model/i$8;->amO:Ljava/lang/String;
 
-    invoke-interface {v0, v3}, Lcom/tencent/mm/pluginsdk/h$v;->pM(Ljava/lang/String;)V
+    invoke-interface {v0, v3}, Lcom/tencent/mm/pluginsdk/Hclz$v;->pM(Ljava/lang/String;)V
 
     goto :goto_0
 

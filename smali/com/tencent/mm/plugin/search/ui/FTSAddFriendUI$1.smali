@@ -229,7 +229,7 @@
     invoke-virtual {v1, v2, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;[B)Landroid/content/Intent;
 
     .line 125
-    sget-object v0, Lcom/tencent/mm/plugin/search/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/search/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$1;->fJo:Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;
 
@@ -237,7 +237,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/f;->y(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/Fclz;->y(Landroid/content/Intent;Landroid/content/Context;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -263,7 +263,7 @@
 
     iget v2, v2, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;->fJn:I
 
-    invoke-static {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/c;->a(Landroid/content/Intent;Lcom/tencent/mm/protocal/b/akj;I)V
+    invoke-static {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Cclz;->a(Landroid/content/Intent;Lcom/tencent/mm/protocal/b/akj;I)V
 
     goto/16 :goto_0
 
@@ -308,7 +308,7 @@
 
     iget v2, v2, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;->fJn:I
 
-    invoke-static {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/c;->a(Landroid/content/Intent;Lcom/tencent/mm/protocal/b/akl;I)V
+    invoke-static {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Cclz;->a(Landroid/content/Intent;Lcom/tencent/mm/protocal/b/akl;I)V
 
     .line 145
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$1;->fJo:Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;
@@ -343,11 +343,11 @@
     invoke-virtual {v1, v0, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 149
-    sget-object v0, Lcom/tencent/mm/plugin/search/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/search/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI$1;->fJo:Lcom/tencent/mm/plugin/search/ui/FTSAddFriendUI;
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/f;->d(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/Fclz;->d(Landroid/content/Intent;Landroid/content/Context;)V
 
     goto/16 :goto_0
 

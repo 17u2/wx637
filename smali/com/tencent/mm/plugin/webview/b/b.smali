@@ -950,11 +950,11 @@
     invoke-static {v2, v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 539
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/ui/a$b;->aJn()Lcom/tencent/mm/pluginsdk/ui/h$a;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->aJn()Lcom/tencent/mm/pluginsdk/ui/Hclz$a;
 
     move-result-object v2
 
-    invoke-interface {v2, p1}, Lcom/tencent/mm/pluginsdk/ui/h$a;->aJ(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-interface {v2, p1}, Lcom/tencent/mm/pluginsdk/ui/Hclz$a;->aJ(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v2
 

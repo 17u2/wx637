@@ -131,7 +131,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p0}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->h(Ljava/lang/String;Landroid/content/Context;)V
+    invoke-static {v0, p0}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->h(Ljava/lang/String;Landroid/content/Context;)V
 
     return-void
 .end method

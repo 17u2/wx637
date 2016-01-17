@@ -377,15 +377,15 @@
 
     .line 100
     :goto_3
-    sget v0, Lcom/tencent/mm/pluginsdk/j/a;->hPJ:I
+    sget v0, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPJ:I
 
-    sget v1, Lcom/tencent/mm/pluginsdk/j/a;->hPI:I
+    sget v1, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPI:I
 
     const/16 v2, 0x5a
 
-    sget v3, Lcom/tencent/mm/pluginsdk/j/a;->hPI:I
+    sget v3, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPI:I
 
-    sget v4, Lcom/tencent/mm/pluginsdk/j/a;->hPI:I
+    sget v4, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPI:I
 
     iget v5, p0, Lcom/tencent/mm/plugin/sight/encode/a/e;->fZg:I
 

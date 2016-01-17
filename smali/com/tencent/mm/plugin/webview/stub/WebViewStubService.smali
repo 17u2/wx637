@@ -26,7 +26,7 @@
 
 .field private hBq:I
 
-.field private hBr:Lcom/tencent/mm/pluginsdk/model/downloader/k;
+.field private hBr:Lcom/tencent/mm/pluginsdk/model/downloader/Kclz;
 
 .field private hBs:Lcom/tencent/mm/plugin/webview/c/c$a;
 
@@ -619,7 +619,7 @@
     .line 1843
     const/16 v4, 0x1e
 
-    invoke-static {v3, v0, v4}, Lcom/tencent/mm/pluginsdk/ui/tools/c;->a(Landroid/content/Intent;Lcom/tencent/mm/protocal/b/akl;I)V
+    invoke-static {v3, v0, v4}, Lcom/tencent/mm/pluginsdk/ui/tools/Cclz;->a(Landroid/content/Intent;Lcom/tencent/mm/protocal/b/akl;I)V
 
     .line 1845
     invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
@@ -701,9 +701,9 @@
     invoke-virtual {v3, v0}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     .line 1856
-    sget-object v0, Lcom/tencent/mm/plugin/webview/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/webview/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
-    invoke-interface {v0, v3, p0}, Lcom/tencent/mm/pluginsdk/f;->d(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v0, v3, p0}, Lcom/tencent/mm/pluginsdk/Fclz;->d(Landroid/content/Intent;Landroid/content/Context;)V
 
     .line 1858
     new-instance v0, Landroid/os/Bundle;
@@ -1491,14 +1491,14 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService$3;-><init>(Lcom/tencent/mm/plugin/webview/stub/WebViewStubService;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService;->hBr:Lcom/tencent/mm/pluginsdk/model/downloader/k;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService;->hBr:Lcom/tencent/mm/pluginsdk/model/downloader/Kclz;
 
     .line 1715
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
-    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService;->hBr:Lcom/tencent/mm/pluginsdk/model/downloader/k;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService;->hBr:Lcom/tencent/mm/pluginsdk/model/downloader/Kclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/downloader/a;->a(Lcom/tencent/mm/pluginsdk/model/downloader/k;)V
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/downloader/Aclz;->a(Lcom/tencent/mm/pluginsdk/model/downloader/Kclz;)V
 
     .line 1717
     new-instance v0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService$4;
@@ -1559,11 +1559,11 @@
     invoke-super {p0}, Landroid/app/Service;->onDestroy()V
 
     .line 1809
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
-    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService;->hBr:Lcom/tencent/mm/pluginsdk/model/downloader/k;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService;->hBr:Lcom/tencent/mm/pluginsdk/model/downloader/Kclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/downloader/a;->b(Lcom/tencent/mm/pluginsdk/model/downloader/k;)V
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/downloader/Aclz;->b(Lcom/tencent/mm/pluginsdk/model/downloader/Kclz;)V
 
     .line 1810
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
@@ -1593,7 +1593,7 @@
     :cond_0
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService;->hBr:Lcom/tencent/mm/pluginsdk/model/downloader/k;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService;->hBr:Lcom/tencent/mm/pluginsdk/model/downloader/Kclz;
 
     .line 1814
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService;->hBp:Ljava/util/List;

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/h$k;
+.implements Lcom/tencent/mm/pluginsdk/Hclz$k;
 
 
 # direct methods
@@ -387,9 +387,9 @@
 
     .line 126
     :cond_1
-    new-instance v0, Lcom/tencent/mm/pluginsdk/model/app/b;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/model/app/Bclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/model/app/b;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/model/app/Bclz;-><init>()V
 
     .line 127
     iget-object v3, v2, Lcom/tencent/mm/m/Aclz$a;->anW:Ljava/lang/String;
@@ -409,34 +409,34 @@
     if-eqz v5, :cond_5
 
     .line 130
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->HO()Lcom/tencent/mm/pluginsdk/model/app/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->HO()Lcom/tencent/mm/pluginsdk/model/app/Cclz;
 
     move-result-object v5
 
-    invoke-virtual {v5, v3, v4, v0}, Lcom/tencent/mm/pluginsdk/model/app/c;->b(JLcom/tencent/mm/sdk/g/Cclz;)Z
+    invoke-virtual {v5, v3, v4, v0}, Lcom/tencent/mm/pluginsdk/model/app/Cclz;->b(JLcom/tencent/mm/sdk/g/Cclz;)Z
 
     .line 132
-    iget-wide v5, v0, Lcom/tencent/mm/pluginsdk/model/app/b;->jjf:J
+    iget-wide v5, v0, Lcom/tencent/mm/pluginsdk/model/app/Bclz;->jjf:J
 
     cmp-long v3, v5, v3
 
     if-eqz v3, :cond_3
 
     .line 133
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->HO()Lcom/tencent/mm/pluginsdk/model/app/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->HO()Lcom/tencent/mm/pluginsdk/model/app/Cclz;
 
     move-result-object v0
 
     iget-object v3, v2, Lcom/tencent/mm/m/Aclz$a;->anW:Ljava/lang/String;
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/pluginsdk/model/app/c;->xC(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/model/app/b;
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/pluginsdk/model/app/Cclz;->xC(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/model/app/Bclz;
 
     move-result-object v0
 
     .line 134
     if-eqz v0, :cond_2
 
-    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/model/app/b;->field_mediaSvrId:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/model/app/Bclz;->field_mediaSvrId:Ljava/lang/String;
 
     iget-object v4, v2, Lcom/tencent/mm/m/Aclz$a;->anW:Ljava/lang/String;
 
@@ -457,11 +457,11 @@
     .line 147
     if-eqz v0, :cond_4
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/app/b;->field_fileFullPath:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/app/Bclz;->field_fileFullPath:Ljava/lang/String;
 
     if-eqz v1, :cond_4
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/app/b;->field_fileFullPath:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/app/Bclz;->field_fileFullPath:Ljava/lang/String;
 
     const-string/jumbo v4, ""
 
@@ -507,7 +507,7 @@
     move-result-object v3
 
     .line 149
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/b;->field_fileFullPath:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/Bclz;->field_fileFullPath:Ljava/lang/String;
 
     const/4 v1, 0x0
 
@@ -535,26 +535,26 @@
 
     move-object v5, p4
 
-    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/app/l;->a(Lcom/tencent/mm/m/Aclz$a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[BLjava/lang/String;)I
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/app/Lclz;->a(Lcom/tencent/mm/m/Aclz$a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[BLjava/lang/String;)I
 
     goto/16 :goto_0
 
     .line 139
     :cond_5
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->HO()Lcom/tencent/mm/pluginsdk/model/app/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->HO()Lcom/tencent/mm/pluginsdk/model/app/Cclz;
 
     move-result-object v0
 
     iget-object v3, v2, Lcom/tencent/mm/m/Aclz$a;->anW:Ljava/lang/String;
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/pluginsdk/model/app/c;->xC(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/model/app/b;
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/pluginsdk/model/app/Cclz;->xC(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/model/app/Bclz;
 
     move-result-object v0
 
     .line 140
     if-eqz v0, :cond_6
 
-    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/model/app/b;->field_mediaSvrId:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/model/app/Bclz;->field_mediaSvrId:Ljava/lang/String;
 
     iget-object v4, v2, Lcom/tencent/mm/m/Aclz$a;->anW:Ljava/lang/String;
 

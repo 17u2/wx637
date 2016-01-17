@@ -146,7 +146,7 @@
     move-result-object v7
 
     .line 282
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v8
 
@@ -283,7 +283,7 @@
 
     aget-object v1, v7, v4
 
-    invoke-interface {v8, v1}, Lcom/tencent/mm/pluginsdk/h$e;->po(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v8, v1}, Lcom/tencent/mm/pluginsdk/Hclz$e;->po(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1004,7 +1004,7 @@
 
     move-object/from16 v0, p1
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/text/SpannableString;
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/text/SpannableString;
 
     move-result-object v1
 

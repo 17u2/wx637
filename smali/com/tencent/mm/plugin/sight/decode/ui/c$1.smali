@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+.implements Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
 
 # annotations
@@ -125,11 +125,11 @@
     .line 188
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c$1;->fXo:Lcom/tencent/mm/plugin/sight/decode/ui/c;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/ui/c;->c(Lcom/tencent/mm/plugin/sight/decode/ui/c;)Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/ui/c;->c(Lcom/tencent/mm/plugin/sight/decode/ui/c;)Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->stop()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->stop()V
 
     .line 190
     new-instance v0, Ljava/lang/StringBuilder;
@@ -285,13 +285,13 @@
     .line 233
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c$1;->fXo:Lcom/tencent/mm/plugin/sight/decode/ui/c;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/ui/c;->c(Lcom/tencent/mm/plugin/sight/decode/ui/c;)Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/ui/c;->c(Lcom/tencent/mm/plugin/sight/decode/ui/c;)Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->setLoop(Z)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->setLoop(Z)V
 
     .line 234
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c$1;->fXo:Lcom/tencent/mm/plugin/sight/decode/ui/c;

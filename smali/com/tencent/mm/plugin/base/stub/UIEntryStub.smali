@@ -102,19 +102,19 @@
 
     invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/g;->aS(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->aS(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$a;->hJN:Lcom/tencent/mm/pluginsdk/h$o;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJN:Lcom/tencent/mm/pluginsdk/Hclz$o;
 
     if-eqz v1, :cond_0
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/base/stub/UIEntryStub;->cst:Ljava/lang/String;
 
-    invoke-interface {v1, p0, v0, v2}, Lcom/tencent/mm/pluginsdk/h$o;->l(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-interface {v1, p0, v0, v2}, Lcom/tencent/mm/pluginsdk/Hclz$o;->l(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     const-string/jumbo v1, "_wxapi_command_type"

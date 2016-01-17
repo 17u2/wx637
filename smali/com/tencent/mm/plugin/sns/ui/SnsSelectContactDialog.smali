@@ -294,9 +294,9 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    sget-object v1, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v1, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
-    invoke-interface {v1, v0, p0, v4}, Lcom/tencent/mm/pluginsdk/f;->a(Landroid/content/Intent;Landroid/app/Activity;I)V
+    invoke-interface {v1, v0, p0, v4}, Lcom/tencent/mm/pluginsdk/Fclz;->a(Landroid/content/Intent;Landroid/app/Activity;I)V
 
     return-void
 .end method

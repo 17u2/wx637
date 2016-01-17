@@ -52,11 +52,11 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/conversation/Eclz$12;->kxT:Lcom/tencent/mm/ui/conversation/Eclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/Eclz;->b(Lcom/tencent/mm/ui/conversation/Eclz;)Lcom/tencent/mm/pluginsdk/ui/b/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/Eclz;->b(Lcom/tencent/mm/ui/conversation/Eclz;)Lcom/tencent/mm/pluginsdk/ui/b/Bclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/b/b;->Ie()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/b/Bclz;->Ie()Z
 
     move-result v0
 

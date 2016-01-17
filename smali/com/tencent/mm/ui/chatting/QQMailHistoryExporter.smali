@@ -49,7 +49,7 @@
 
     const-string/jumbo v2, "this.id + \'@@\' + this.src"
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/q;->bM(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Qclz;->bM(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1381,13 +1381,13 @@
     :cond_10
     iget-object v1, v7, Lcom/tencent/mm/m/Aclz$a;->appId:Ljava/lang/String;
 
-    invoke-static {v1, v3}, Lcom/tencent/mm/pluginsdk/model/app/g;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-static {v1, v3}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v8
 
     if-eqz v8, :cond_11
 
-    iget-object v1, v8, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appName:Ljava/lang/String;
+    iget-object v1, v8, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appName:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
@@ -1401,7 +1401,7 @@
     :goto_5
     iget-object v9, p0, Lcom/tencent/mm/ui/chatting/QQMailHistoryExporter;->context:Landroid/content/Context;
 
-    invoke-static {v9, v8, v1}, Lcom/tencent/mm/pluginsdk/model/app/g;->a(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/f;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v9, v8, v1}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->a(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/Fclz;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v8
 
@@ -1427,7 +1427,7 @@
     goto/16 :goto_4
 
     :cond_12
-    iget-object v1, v8, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appName:Ljava/lang/String;
+    iget-object v1, v8, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appName:Ljava/lang/String;
 
     goto :goto_5
 

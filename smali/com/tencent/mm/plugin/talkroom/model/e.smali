@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/h$t;
+.implements Lcom/tencent/mm/pluginsdk/Hclz$t;
 
 
 # instance fields
@@ -249,7 +249,7 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/tencent/mm/pluginsdk/h$s;
+    check-cast v2, Lcom/tencent/mm/pluginsdk/Hclz$s;
 
     .line 118
     iget-object v7, p0, Lcom/tencent/mm/plugin/talkroom/model/e;->handler:Lcom/tencent/mm/sdk/platformtools/ABclz;
@@ -264,7 +264,7 @@
 
     move-object v5, p3
 
-    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/plugin/talkroom/model/e$1;-><init>(Lcom/tencent/mm/plugin/talkroom/model/e;Lcom/tencent/mm/pluginsdk/h$s;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/plugin/talkroom/model/e$1;-><init>(Lcom/tencent/mm/plugin/talkroom/model/e;Lcom/tencent/mm/pluginsdk/Hclz$s;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v7, v0}, Lcom/tencent/mm/sdk/platformtools/ABclz;->post(Ljava/lang/Runnable;)Z
 
@@ -277,7 +277,7 @@
 
 
 # virtual methods
-.method public final declared-synchronized a(Lcom/tencent/mm/pluginsdk/h$s;)V
+.method public final declared-synchronized a(Lcom/tencent/mm/pluginsdk/Hclz$s;)V
     .locals 1
 
     .prologue
@@ -566,7 +566,7 @@
     throw v0
 .end method
 
-.method public final declared-synchronized b(Lcom/tencent/mm/pluginsdk/h$s;)V
+.method public final declared-synchronized b(Lcom/tencent/mm/pluginsdk/Hclz$s;)V
     .locals 1
 
     .prologue

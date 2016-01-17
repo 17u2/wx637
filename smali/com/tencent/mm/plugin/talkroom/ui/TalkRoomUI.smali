@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/h$v;
+.implements Lcom/tencent/mm/pluginsdk/Hclz$v;
 .implements Lcom/tencent/mm/q/Dclz;
 
 
@@ -1283,7 +1283,7 @@
 
     move-result v0
 
-    invoke-static {p0, p1, v0}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {p0, p1, v0}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v0
 
@@ -2138,7 +2138,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/plugin/talkroom/model/g;->a(Lcom/tencent/mm/pluginsdk/h$v;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/plugin/talkroom/model/g;->a(Lcom/tencent/mm/pluginsdk/Hclz$v;)V
 
     .line 197
     const-string/jumbo v0, "audio"
@@ -2243,7 +2243,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/plugin/talkroom/model/g;->b(Lcom/tencent/mm/pluginsdk/h$v;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/plugin/talkroom/model/g;->b(Lcom/tencent/mm/pluginsdk/Hclz$v;)V
 
     .line 544
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -2592,7 +2592,7 @@
 
     move-result v1
 
-    invoke-static {p0, v0, v1}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {p0, v0, v1}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v0
 

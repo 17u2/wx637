@@ -349,9 +349,9 @@
     if-eqz p1, :cond_0
 
     .line 141
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/e;->kO()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Eclz;->kO()V
 
     .line 143
     :cond_0

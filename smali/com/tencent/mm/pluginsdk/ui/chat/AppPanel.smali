@@ -79,7 +79,7 @@
 
 .field private hUw:I
 
-.field public hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+.field public hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
 .field private hUy:I
 
@@ -505,11 +505,11 @@
     mul-int v6, v4, v0
 
     .line 726
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUX:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUX:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     if-eqz v0, :cond_6
 
@@ -806,13 +806,13 @@
 
     .prologue
     .line 1271
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJM:Lcom/tencent/mm/pluginsdk/h$d;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJM:Lcom/tencent/mm/pluginsdk/Hclz$d;
 
     .line 1272
     if-eqz v0, :cond_0
 
     .line 1273
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$d;->KV()Z
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$d;->KV()Z
 
     move-result v0
 
@@ -871,7 +871,7 @@
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    sget-object v2, Lcom/tencent/mm/pluginsdk/h$a;->hJJ:Lcom/tencent/mm/pluginsdk/h$q;
+    sget-object v2, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJJ:Lcom/tencent/mm/pluginsdk/Hclz$q;
 
     if-nez v2, :cond_5
 
@@ -933,24 +933,24 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/model/app/f;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     .line 288
     if-eqz v0, :cond_4
 
-    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     if-eqz v3, :cond_4
 
     .line 289
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/app/f;->aIj()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->aIj()Z
 
     move-result v3
 
     if-eqz v3, :cond_4
 
     .line 290
-    iget v3, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_serviceAppInfoFlag:I
+    iget v3, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_serviceAppInfoFlag:I
 
     and-int/lit8 v3, v3, 0x1
 
@@ -968,7 +968,7 @@
     :cond_0
     sget-object v3, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUp:Ljava/lang/String;
 
-    iget-object v8, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v8, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1003,7 +1003,7 @@
     :cond_2
     sget-object v3, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUr:Ljava/lang/String;
 
-    iget-object v8, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v8, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1044,9 +1044,9 @@
 
     .line 280
     :cond_5
-    sget-object v2, Lcom/tencent/mm/pluginsdk/h$a;->hJJ:Lcom/tencent/mm/pluginsdk/h$q;
+    sget-object v2, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJJ:Lcom/tencent/mm/pluginsdk/Hclz$q;
 
-    invoke-interface {v2, v1, v0}, Lcom/tencent/mm/pluginsdk/h$q;->bv(II)Landroid/database/Cursor;
+    invoke-interface {v2, v1, v0}, Lcom/tencent/mm/pluginsdk/Hclz$q;->bv(II)Landroid/database/Cursor;
 
     move-result-object v2
 
@@ -1104,25 +1104,25 @@
 
     .line 317
     :cond_9
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
     iget-boolean v1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUB:Z
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/a;->fF(Z)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->fF(Z)V
 
     .line 318
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
     iget-boolean v1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUC:Z
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/a;->fG(Z)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->fG(Z)V
 
     .line 319
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
     iget-boolean v1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUD:Z
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/a;->fH(Z)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->fH(Z)V
 
     .line 320
     invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->aJZ()V
@@ -1190,14 +1190,14 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/model/app/f;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     .line 1263
     if-eqz v0, :cond_2
 
     sget-object v2, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUq:Ljava/lang/String;
 
-    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1426,87 +1426,87 @@
     const/4 v2, 0x1
 
     .line 328
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUO:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUO:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUP:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUP:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUQ:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUQ:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUR:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUR:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUS:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUS:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUT:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUT:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUU:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUU:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVd:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVd:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVb:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVb:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUV:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUV:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUW:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUW:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUX:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUX:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUY:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUY:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUZ:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUZ:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVa:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVa:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVc:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVc:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVe:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVe:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVf:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVf:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v3, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v3, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVg:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVg:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVh:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVh:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v2, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v2, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     .line 329
     iput-boolean v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUE:Z
@@ -1518,25 +1518,25 @@
     invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->aJY()V
 
     .line 335
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
     iget-boolean v1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUB:Z
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/a;->fF(Z)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->fF(Z)V
 
     .line 336
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
     iget-boolean v1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUC:Z
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/a;->fG(Z)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->fG(Z)V
 
     .line 337
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
     iget-boolean v1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUD:Z
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/a;->fH(Z)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->fH(Z)V
 
     .line 339
     invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->aJZ()V
@@ -1585,18 +1585,18 @@
 
     .line 356
     :goto_1
-    iget-object v4, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v4, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v4, v4, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUU:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v4, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUU:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     .line 358
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVa:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVa:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v3, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v3, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     .line 361
     const-string/jumbo v0, "location"
@@ -1606,11 +1606,11 @@
     move-result v0
 
     .line 362
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVe:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVe:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v0, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v0, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     .line 365
     invoke-static {}, Lcom/tencent/mm/model/Hclz;->sb()I
@@ -1625,11 +1625,11 @@
 
     .line 366
     :goto_2
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVc:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVc:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     .line 367
     return-void
@@ -1698,11 +1698,11 @@
 
     .line 503
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUQ:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUQ:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     if-nez v0, :cond_12
 
@@ -1715,19 +1715,19 @@
 
     .line 508
     :goto_1
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVd:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVd:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     if-eqz v3, :cond_1
 
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVe:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVe:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     if-nez v3, :cond_2
 
@@ -1744,11 +1744,11 @@
 
     .line 513
     :cond_2
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUV:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUV:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     if-nez v3, :cond_3
 
@@ -1764,11 +1764,11 @@
 
     .line 518
     :cond_3
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUW:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUW:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     if-nez v3, :cond_4
 
@@ -1784,11 +1784,11 @@
 
     .line 523
     :cond_4
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUR:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUR:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     if-nez v3, :cond_5
 
@@ -1804,11 +1804,11 @@
 
     .line 529
     :cond_5
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVf:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVf:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     if-nez v3, :cond_6
 
@@ -1824,11 +1824,11 @@
 
     .line 534
     :cond_6
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVi:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVi:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     if-nez v3, :cond_7
 
@@ -1844,11 +1844,11 @@
 
     .line 539
     :cond_7
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUS:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUS:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     if-nez v3, :cond_8
 
@@ -1864,11 +1864,11 @@
 
     .line 544
     :cond_8
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUY:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUY:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     if-nez v3, :cond_9
 
@@ -1884,19 +1884,19 @@
 
     .line 549
     :cond_9
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVa:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVa:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     if-eqz v3, :cond_a
 
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUZ:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUZ:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     if-nez v3, :cond_b
 
@@ -1913,19 +1913,19 @@
 
     .line 554
     :cond_b
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUU:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUU:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     if-eqz v3, :cond_c
 
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUT:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUT:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     if-nez v3, :cond_d
 
@@ -1942,19 +1942,19 @@
 
     .line 559
     :cond_d
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVc:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVc:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     if-eqz v3, :cond_e
 
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVb:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVb:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     if-nez v3, :cond_f
 
@@ -1971,11 +1971,11 @@
 
     .line 564
     :cond_f
-    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVg:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVg:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v3, v3, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     if-nez v3, :cond_10
 
@@ -1989,11 +1989,11 @@
 
     .line 569
     :cond_10
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVh:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVh:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v1, v1, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v1, v1, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     if-nez v1, :cond_11
 
@@ -2159,13 +2159,13 @@
 
     .prologue
     .line 424
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hUZ:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hUZ:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
     const/4 v1, 0x0
 
-    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     .line 426
     invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->aJZ()V
@@ -2179,11 +2179,11 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/ui/chat/a;->hVa:Lcom/tencent/mm/pluginsdk/ui/chat/a$a;
+    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->hVa:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;
 
-    iget-boolean v2, v2, Lcom/tencent/mm/pluginsdk/ui/chat/a$a;->value:Z
+    iget-boolean v2, v2, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz$a;->value:Z
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
@@ -2214,11 +2214,11 @@
     const/4 v4, 0x0
 
     .line 235
-    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
     .line 236
     iput p1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUA:I
@@ -2329,7 +2329,7 @@
 
     iget v2, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUA:I
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/g;->a(Landroid/content/Context;ZI)Ljava/util/List;
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->a(Landroid/content/Context;ZI)Ljava/util/List;
 
     move-result-object v0
 
@@ -2390,7 +2390,7 @@
 
     iget v2, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUA:I
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/g;->a(Landroid/content/Context;ZI)Ljava/util/List;
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->a(Landroid/content/Context;ZI)Ljava/util/List;
 
     move-result-object v0
 
@@ -2424,7 +2424,7 @@
 
     iget v1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUA:I
 
-    invoke-static {v0, v4, v1}, Lcom/tencent/mm/pluginsdk/model/app/g;->a(Landroid/content/Context;ZI)Ljava/util/List;
+    invoke-static {v0, v4, v1}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->a(Landroid/content/Context;ZI)Ljava/util/List;
 
     move-result-object v0
 
@@ -2535,7 +2535,7 @@
 
     iget v2, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUA:I
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/g;->a(Landroid/content/Context;ZI)Ljava/util/List;
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->a(Landroid/content/Context;ZI)Ljava/util/List;
 
     move-result-object v0
 
@@ -2570,30 +2570,30 @@
     invoke-direct {p0, v0}, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->aZ(Ljava/util/List;)V
 
     .line 679
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
     if-eqz v0, :cond_2
 
     .line 680
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
     iget-boolean v1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUB:Z
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/a;->fF(Z)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->fF(Z)V
 
     .line 681
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
     iget-boolean v1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUC:Z
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/a;->fG(Z)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->fG(Z)V
 
     .line 682
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUx:Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;
 
     iget-boolean v1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUD:Z
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/a;->fH(Z)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/Aclz;->fH(Z)V
 
     .line 685
     :cond_2
@@ -2635,7 +2635,7 @@
 
     iget v2, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUA:I
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/g;->a(Landroid/content/Context;ZI)Ljava/util/List;
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->a(Landroid/content/Context;ZI)Ljava/util/List;
 
     move-result-object v0
 
@@ -2669,7 +2669,7 @@
 
     iget v1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUA:I
 
-    invoke-static {v0, v4, v1}, Lcom/tencent/mm/pluginsdk/model/app/g;->a(Landroid/content/Context;ZI)Ljava/util/List;
+    invoke-static {v0, v4, v1}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->a(Landroid/content/Context;ZI)Ljava/util/List;
 
     move-result-object v0
 

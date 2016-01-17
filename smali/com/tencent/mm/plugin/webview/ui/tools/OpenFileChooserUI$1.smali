@@ -82,7 +82,7 @@
 
     const/4 v3, 0x2
 
-    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->d(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;I)Z
+    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->d(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;I)Z
 
     .line 76
     return-void

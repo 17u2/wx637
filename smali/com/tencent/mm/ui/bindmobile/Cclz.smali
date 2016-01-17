@@ -621,7 +621,7 @@
 
     move-result-object v5
 
-    invoke-static {v1, v5}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
 
     .line 203
     iget v1, v0, Lcom/tencent/mm/modelfriend/Bclz;->status:I

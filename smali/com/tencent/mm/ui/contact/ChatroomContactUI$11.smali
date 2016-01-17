@@ -209,7 +209,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ChatroomContactUI$11;->krl:Lcom/tencent/mm/ui/contact/ChatroomContactUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->e(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/pluginsdk/ui/tools/n;
+    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->e(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
     move-result-object v0
 
@@ -225,11 +225,11 @@
     :cond_3
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/ChatroomContactUI$11;->krl:Lcom/tencent/mm/ui/contact/ChatroomContactUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->e(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/pluginsdk/ui/tools/n;
+    invoke-static {v0}, Lcom/tencent/mm/ui/contact/ChatroomContactUI;->e(Lcom/tencent/mm/ui/contact/ChatroomContactUI;)Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/n;->getSearchContent()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;->getSearchContent()Ljava/lang/String;
 
     move-result-object v0
 

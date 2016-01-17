@@ -4,11 +4,11 @@
 
 
 # instance fields
-.field jJk:Lcom/tencent/mm/pluginsdk/i/a/a;
+.field jJk:Lcom/tencent/mm/pluginsdk/i/a/Aclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/pluginsdk/i/a/a;)V
+.method constructor <init>(Lcom/tencent/mm/pluginsdk/i/a/Aclz;)V
     .locals 1
 
     .prologue
@@ -16,7 +16,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 28
-    iput-object p1, p0, Lcom/tencent/mm/ui/c/Cclz;->jJk:Lcom/tencent/mm/pluginsdk/i/a/a;
+    iput-object p1, p0, Lcom/tencent/mm/ui/c/Cclz;->jJk:Lcom/tencent/mm/pluginsdk/i/a/Aclz;
 
     .line 29
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -252,12 +252,12 @@
 
     .line 90
     :cond_6
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/i/a/a;->yn(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/i/a/a$a;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/i/a/Aclz;->yn(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/i/a/Aclz$a;
 
     move-result-object v3
 
     .line 91
-    sget-object v2, Lcom/tencent/mm/pluginsdk/i/a/a$a;->hPG:Lcom/tencent/mm/pluginsdk/i/a/a$a;
+    sget-object v2, Lcom/tencent/mm/pluginsdk/i/a/Aclz$a;->hPG:Lcom/tencent/mm/pluginsdk/i/a/Aclz$a;
 
     if-ne v3, v2, :cond_7
 
@@ -268,7 +268,7 @@
 
     .line 94
     :cond_7
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/i/a/a;->ym(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/i/a/Aclz;->ym(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -291,7 +291,7 @@
     .line 100
     :cond_8
     :try_start_0
-    sget-object v2, Lcom/tencent/mm/pluginsdk/i/a/a$a;->hPE:Lcom/tencent/mm/pluginsdk/i/a/a$a;
+    sget-object v2, Lcom/tencent/mm/pluginsdk/i/a/Aclz$a;->hPE:Lcom/tencent/mm/pluginsdk/i/a/Aclz$a;
 
     if-ne v3, v2, :cond_a
 
@@ -522,9 +522,9 @@
     invoke-static {v1}, Ljunit/framework/Assert;->assertTrue(Z)V
 
     .line 44
-    iget-object v0, p0, Lcom/tencent/mm/ui/c/Cclz;->jJk:Lcom/tencent/mm/pluginsdk/i/a/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/c/Cclz;->jJk:Lcom/tencent/mm/pluginsdk/i/a/Aclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/i/a/a;->hPC:Ljava/util/Map;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/i/a/Aclz;->hPC:Ljava/util/Map;
 
     iget-object v1, p1, Lcom/tencent/mm/ui/c/Dclz;->jJl:Landroid/view/View;
 
@@ -567,9 +567,9 @@
     .line 72
     iget-object v1, p1, Lcom/tencent/mm/ui/c/Dclz;->jJm:Landroid/widget/Button;
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/c/Cclz;->jJk:Lcom/tencent/mm/pluginsdk/i/a/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/c/Cclz;->jJk:Lcom/tencent/mm/pluginsdk/i/a/Aclz;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/pluginsdk/i/a/a;->hPw:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/pluginsdk/i/a/Aclz;->hPw:Z
 
     if-eqz v0, :cond_3
 

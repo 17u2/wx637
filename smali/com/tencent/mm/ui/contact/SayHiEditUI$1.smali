@@ -92,13 +92,13 @@
     move-result-object v4
 
     .line 78
-    new-instance v0, Lcom/tencent/mm/pluginsdk/model/k;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/model/Kclz;
 
     const/4 v1, 0x2
 
     const-string/jumbo v5, ""
 
-    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/k;-><init>(ILjava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/Kclz;-><init>(ILjava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 79
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -134,7 +134,7 @@
 
     new-instance v5, Lcom/tencent/mm/ui/contact/SayHiEditUI$1$1;
 
-    invoke-direct {v5, p0, v0}, Lcom/tencent/mm/ui/contact/SayHiEditUI$1$1;-><init>(Lcom/tencent/mm/ui/contact/SayHiEditUI$1;Lcom/tencent/mm/pluginsdk/model/k;)V
+    invoke-direct {v5, p0, v0}, Lcom/tencent/mm/ui/contact/SayHiEditUI$1$1;-><init>(Lcom/tencent/mm/ui/contact/SayHiEditUI$1;Lcom/tencent/mm/pluginsdk/model/Kclz;)V
 
     invoke-static {v2, v3, v4, v5}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 

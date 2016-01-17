@@ -87,9 +87,9 @@
     invoke-virtual {v0}, Lcom/tencent/mm/storage/Kclz;->qd()V
 
     .line 189
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/e;->kO()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Eclz;->kO()V
 
     goto :goto_0
 
@@ -113,9 +113,9 @@
     invoke-virtual {v0}, Lcom/tencent/mm/storage/Kclz;->qc()V
 
     .line 193
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/e;->kO()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Eclz;->kO()V
 
     goto :goto_0
 

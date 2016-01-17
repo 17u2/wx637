@@ -776,18 +776,18 @@
 
     .line 97
     :cond_8
-    new-instance v1, Lcom/tencent/mm/pluginsdk/d/a/a;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/pluginsdk/d/a/a;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;-><init>()V
 
     .line 98
     const-wide/16 v2, 0xfa0
 
     new-instance v4, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSearchContact$1;
 
-    invoke-direct {v4, p0, v0, v1}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSearchContact$1;-><init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSearchContact;Landroid/database/Cursor;Lcom/tencent/mm/pluginsdk/d/a/a;)V
+    invoke-direct {v4, p0, v0, v1}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSearchContact$1;-><init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSearchContact;Landroid/database/Cursor;Lcom/tencent/mm/pluginsdk/d/a/Aclz;)V
 
-    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/d/a/a;->b(JLjava/lang/Runnable;)V
+    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;->b(JLjava/lang/Runnable;)V
 
     .line 106
     iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSearchContact;->dxc:Landroid/database/Cursor;

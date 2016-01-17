@@ -96,7 +96,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/model/app/g;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v0
 
@@ -133,7 +133,7 @@
 
     .line 53
     :cond_2
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_openId:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_openId:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/tencent/mm/platformtools/Tclz;->jY(Ljava/lang/String;)Z
 
@@ -184,13 +184,13 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 57
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->aIA()Lcom/tencent/mm/pluginsdk/model/app/m;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->aIA()Lcom/tencent/mm/pluginsdk/model/app/Mclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/base/stub/c;->appId:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/model/app/m;->xL(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/model/app/Mclz;->xL(Ljava/lang/String;)V
 
     .line 58
     iget-object v0, p0, Lcom/tencent/mm/plugin/base/stub/c;->csr:Lcom/tencent/mm/plugin/base/stub/c$a;
@@ -203,7 +203,7 @@
     :cond_3
     iget-object v1, p0, Lcom/tencent/mm/plugin/base/stub/c;->csq:Ljava/lang/String;
 
-    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_openId:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_openId:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
@@ -273,7 +273,7 @@
 
     move-result-object v2
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_openId:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_openId:Ljava/lang/String;
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

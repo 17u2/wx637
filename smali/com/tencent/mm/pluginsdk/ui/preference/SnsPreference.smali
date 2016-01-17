@@ -337,7 +337,7 @@
 
     .line 105
     :cond_6
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->emu:Ljava/util/List;
 
@@ -357,7 +357,7 @@
 
     iget-object v6, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->ggk:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v4, v5, v6}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
+    invoke-interface {v1, v0, v4, v5, v6}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 106
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->iad:Landroid/widget/ImageView;
@@ -380,7 +380,7 @@
 
     .line 114
     :cond_7
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->emu:Ljava/util/List;
 
@@ -402,7 +402,7 @@
 
     iget-object v6, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->ggk:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v4, v5, v6}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
+    invoke-interface {v1, v0, v4, v5, v6}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 115
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->iae:Landroid/widget/ImageView;
@@ -435,7 +435,7 @@
 
     .line 123
     :cond_9
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->emu:Ljava/util/List;
 
@@ -455,7 +455,7 @@
 
     iget-object v6, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->ggk:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v4, v5, v6}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
+    invoke-interface {v1, v0, v4, v5, v6}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 124
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/SnsPreference;->iaf:Landroid/widget/ImageView;

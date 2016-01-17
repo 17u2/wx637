@@ -2077,9 +2077,9 @@
 
     .line 538
     :cond_2
-    new-instance v5, Lcom/tencent/mm/pluginsdk/d/a/a;
+    new-instance v5, Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
-    invoke-direct {v5}, Lcom/tencent/mm/pluginsdk/d/a/a;-><init>()V
+    invoke-direct {v5}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;-><init>()V
 
     .line 539
     const-wide/16 v8, 0xfa0
@@ -2090,9 +2090,9 @@
 
     move-object v6, p1
 
-    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$1;-><init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;IJLcom/tencent/mm/pluginsdk/d/a/a;[Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$1;-><init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;IJLcom/tencent/mm/pluginsdk/d/a/Aclz;[Ljava/lang/String;)V
 
-    invoke-virtual {v5, v8, v9, v0}, Lcom/tencent/mm/pluginsdk/d/a/a;->b(JLjava/lang/Runnable;)V
+    invoke-virtual {v5, v8, v9, v0}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;->b(JLjava/lang/Runnable;)V
 
     .line 618
     iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;->dwD:Landroid/database/MatrixCursor;
@@ -2763,18 +2763,18 @@
     iput-object v2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;->dwD:Landroid/database/MatrixCursor;
 
     .line 764
-    new-instance v2, Lcom/tencent/mm/pluginsdk/d/a/a;
+    new-instance v2, Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/pluginsdk/d/a/a;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;-><init>()V
 
     .line 766
     const-wide/16 v3, 0x3a98
 
     new-instance v5, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;
 
-    invoke-direct {v5, p0, v1, p1, v2}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;-><init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;Lcom/tencent/mm/storage/Kclz;[Ljava/lang/String;Lcom/tencent/mm/pluginsdk/d/a/a;)V
+    invoke-direct {v5, p0, v1, p1, v2}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;-><init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;Lcom/tencent/mm/storage/Kclz;[Ljava/lang/String;Lcom/tencent/mm/pluginsdk/d/a/Aclz;)V
 
-    invoke-virtual {v2, v3, v4, v5}, Lcom/tencent/mm/pluginsdk/d/a/a;->b(JLjava/lang/Runnable;)V
+    invoke-virtual {v2, v3, v4, v5}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;->b(JLjava/lang/Runnable;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 

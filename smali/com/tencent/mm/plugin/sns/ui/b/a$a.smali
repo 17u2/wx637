@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/sns/ui/b/a$a;
-.super Lcom/tencent/mm/pluginsdk/ui/d/j;
+.super Lcom/tencent/mm/pluginsdk/ui/d/Jclz;
 .source "SourceFile"
 
 
@@ -26,7 +26,7 @@
     .line 1045
     iput-object p1, p0, Lcom/tencent/mm/plugin/sns/ui/b/a$a;->gHe:Lcom/tencent/mm/plugin/sns/ui/b/a;
 
-    invoke-direct {p0}, Lcom/tencent/mm/pluginsdk/ui/d/j;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/pluginsdk/ui/d/Jclz;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -79,7 +79,7 @@
     move-result v0
 
     .line 1055
-    iget-boolean v1, p0, Lcom/tencent/mm/pluginsdk/ui/d/i;->ido:Z
+    iget-boolean v1, p0, Lcom/tencent/mm/pluginsdk/ui/d/Iclz;->ido:Z
 
     if-eqz v1, :cond_0
 

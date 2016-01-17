@@ -119,7 +119,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v0, v3}, Lcom/tencent/mm/pluginsdk/model/c;->a(Lcom/tencent/mm/d/a/ASclz;ILjava/lang/String;)Z
+    invoke-static {v2, v0, v3}, Lcom/tencent/mm/pluginsdk/model/Cclz;->a(Lcom/tencent/mm/d/a/ASclz;ILjava/lang/String;)Z
 
     move-result v0
 
@@ -155,7 +155,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/pluginsdk/model/c;->a(Lcom/tencent/mm/d/a/ASclz;J)Z
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/pluginsdk/model/Cclz;->a(Lcom/tencent/mm/d/a/ASclz;J)Z
 
     move-result v0
 

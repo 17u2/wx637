@@ -1517,13 +1517,13 @@
 
     if-nez v4, :cond_1d
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v4
 
     iget-object v5, v10, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
-    invoke-interface {v4, v5, v2}, Lcom/tencent/mm/pluginsdk/h$e;->aM(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-interface {v4, v5, v2}, Lcom/tencent/mm/pluginsdk/Hclz$e;->aM(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string/jumbo v2, ""
 
@@ -2773,11 +2773,11 @@
 
     .line 565
     :cond_33
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/tencent/mm/pluginsdk/h$e;->abt()V
+    invoke-interface {v1}, Lcom/tencent/mm/pluginsdk/Hclz$e;->abt()V
 
     goto/16 :goto_0
 
@@ -4015,16 +4015,16 @@
     invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 674
-    sget-object v4, Lcom/tencent/mm/pluginsdk/h$ah;->hKd:Lcom/tencent/mm/pluginsdk/h$n$b;
+    sget-object v4, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKd:Lcom/tencent/mm/pluginsdk/Hclz$n$b;
 
     if-eqz v4, :cond_2
 
     .line 675
-    sget-object v4, Lcom/tencent/mm/pluginsdk/h$ah;->hKd:Lcom/tencent/mm/pluginsdk/h$n$b;
+    sget-object v4, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKd:Lcom/tencent/mm/pluginsdk/Hclz$n$b;
 
     iget-object v5, p0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
-    invoke-interface {v4, v5, v0}, Lcom/tencent/mm/pluginsdk/h$n$b;->a(Ljava/lang/String;Lcom/tencent/mm/protocal/b/apf;)Z
+    invoke-interface {v4, v5, v0}, Lcom/tencent/mm/pluginsdk/Hclz$n$b;->a(Ljava/lang/String;Lcom/tencent/mm/protocal/b/apf;)Z
 
     .line 680
     :cond_2
@@ -4366,7 +4366,7 @@
     const/4 v10, 0x0
 
     .line 708
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJP:Lcom/tencent/mm/pluginsdk/h$x;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJP:Lcom/tencent/mm/pluginsdk/Hclz$x;
 
     if-nez v0, :cond_0
 
@@ -4378,9 +4378,9 @@
 
     .line 711
     :cond_0
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJP:Lcom/tencent/mm/pluginsdk/h$x;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJP:Lcom/tencent/mm/pluginsdk/Hclz$x;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$x;->acc()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$x;->acc()Ljava/lang/String;
 
     move-result-object v0
 
@@ -4460,18 +4460,18 @@
 
     .line 725
     :cond_4
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJQ:Lcom/tencent/mm/pluginsdk/h$z;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJQ:Lcom/tencent/mm/pluginsdk/Hclz$z;
 
     if-eqz v0, :cond_6
 
     .line 726
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJQ:Lcom/tencent/mm/pluginsdk/h$z;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJQ:Lcom/tencent/mm/pluginsdk/Hclz$z;
 
     invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-interface {v0, p0, v1}, Lcom/tencent/mm/pluginsdk/h$z;->aP(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-interface {v0, p0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$z;->aP(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -4501,7 +4501,7 @@
 
     .line 734
     :cond_5
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJQ:Lcom/tencent/mm/pluginsdk/h$z;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJQ:Lcom/tencent/mm/pluginsdk/Hclz$z;
 
     const/4 v2, 0x0
 
@@ -4515,17 +4515,17 @@
 
     move-wide v5, v3
 
-    invoke-interface/range {v0 .. v9}, Lcom/tencent/mm/pluginsdk/h$z;->a(Ljava/lang/String;Ljava/util/LinkedList;DDLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-interface/range {v0 .. v9}, Lcom/tencent/mm/pluginsdk/Hclz$z;->a(Ljava/lang/String;Ljava/util/LinkedList;DDLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 736
     :cond_6
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJP:Lcom/tencent/mm/pluginsdk/h$x;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJP:Lcom/tencent/mm/pluginsdk/Hclz$x;
 
     if-eqz v0, :cond_7
 
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJQ:Lcom/tencent/mm/pluginsdk/h$z;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJQ:Lcom/tencent/mm/pluginsdk/Hclz$z;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$z;->acm()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$z;->acm()Ljava/lang/String;
 
     move-result-object v0
 
@@ -4542,9 +4542,9 @@
 
     new-array v2, v11, [Ljava/lang/Object;
 
-    sget-object v3, Lcom/tencent/mm/pluginsdk/h$a;->hJP:Lcom/tencent/mm/pluginsdk/h$x;
+    sget-object v3, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJP:Lcom/tencent/mm/pluginsdk/Hclz$x;
 
-    invoke-interface {v3}, Lcom/tencent/mm/pluginsdk/h$x;->acc()Ljava/lang/String;
+    invoke-interface {v3}, Lcom/tencent/mm/pluginsdk/Hclz$x;->acc()Ljava/lang/String;
 
     move-result-object v3
 
@@ -4560,9 +4560,9 @@
     .line 739
     iget-object v1, v0, Lcom/tencent/mm/d/a/CFclz;->auS:Lcom/tencent/mm/d/a/CFclz$a;
 
-    sget-object v2, Lcom/tencent/mm/pluginsdk/h$a;->hJP:Lcom/tencent/mm/pluginsdk/h$x;
+    sget-object v2, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJP:Lcom/tencent/mm/pluginsdk/Hclz$x;
 
-    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/h$x;->acc()Ljava/lang/String;
+    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/Hclz$x;->acc()Ljava/lang/String;
 
     move-result-object v2
 
@@ -4717,12 +4717,12 @@
 
     .line 764
     :cond_3
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJG:Lcom/tencent/mm/pluginsdk/h$t;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJG:Lcom/tencent/mm/pluginsdk/Hclz$t;
 
     if-eqz v0, :cond_4
 
     .line 765
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJG:Lcom/tencent/mm/pluginsdk/h$t;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJG:Lcom/tencent/mm/pluginsdk/Hclz$t;
 
     const/4 v2, 0x0
 
@@ -4734,7 +4734,7 @@
 
     move-object v1, p0
 
-    invoke-interface/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/h$t;->a(Ljava/lang/String;Ljava/util/LinkedList;Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-interface/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/Hclz$t;->a(Ljava/lang/String;Ljava/util/LinkedList;Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 768
     :cond_4
@@ -4834,7 +4834,7 @@
 
     move-result-object v4
 
-    invoke-static {v4, v1}, Lcom/tencent/mm/pluginsdk/ui/preference/b;->a(Landroid/content/Context;[Lcom/tencent/mm/aj/Jclz;)[Lcom/tencent/mm/pluginsdk/ui/preference/b;
+    invoke-static {v4, v1}, Lcom/tencent/mm/pluginsdk/ui/preference/Bclz;->a(Landroid/content/Context;[Lcom/tencent/mm/aj/Jclz;)[Lcom/tencent/mm/pluginsdk/ui/preference/Bclz;
 
     move-result-object v4
 
@@ -4887,7 +4887,7 @@
 
     move-result-object v4
 
-    invoke-static {v4, v3}, Lcom/tencent/mm/pluginsdk/ui/preference/b;->a(Landroid/content/Context;[Lcom/tencent/mm/d/b/AXclz;)[Lcom/tencent/mm/pluginsdk/ui/preference/b;
+    invoke-static {v4, v3}, Lcom/tencent/mm/pluginsdk/ui/preference/Bclz;->a(Landroid/content/Context;[Lcom/tencent/mm/d/b/AXclz;)[Lcom/tencent/mm/pluginsdk/ui/preference/Bclz;
 
     move-result-object v4
 
@@ -4920,7 +4920,7 @@
 
     move-result-object v4
 
-    invoke-static {v4, v2}, Lcom/tencent/mm/pluginsdk/ui/preference/b;->a(Landroid/content/Context;[Lcom/tencent/mm/aj/Fclz;)[Lcom/tencent/mm/pluginsdk/ui/preference/b;
+    invoke-static {v4, v2}, Lcom/tencent/mm/pluginsdk/ui/preference/Bclz;->a(Landroid/content/Context;[Lcom/tencent/mm/aj/Fclz;)[Lcom/tencent/mm/pluginsdk/ui/preference/Bclz;
 
     move-result-object v4
 
@@ -4956,12 +4956,12 @@
     invoke-direct {v10}, Lcom/tencent/mm/storage/ADclz;-><init>()V
 
     .line 1680
-    iget-object v1, v9, Lcom/tencent/mm/pluginsdk/ui/preference/b;->brV:Ljava/lang/String;
+    iget-object v1, v9, Lcom/tencent/mm/pluginsdk/ui/preference/Bclz;->brV:Ljava/lang/String;
 
     invoke-virtual {v10, v1}, Lcom/tencent/mm/storage/ADclz;->setContent(Ljava/lang/String;)V
 
     .line 1681
-    iget-object v1, v9, Lcom/tencent/mm/pluginsdk/ui/preference/b;->username:Ljava/lang/String;
+    iget-object v1, v9, Lcom/tencent/mm/pluginsdk/ui/preference/Bclz;->username:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/tencent/mm/model/Iclz;->eC(Ljava/lang/String;)I
 
@@ -5013,7 +5013,7 @@
 
     .line 1691
     :goto_3
-    iget-object v2, v9, Lcom/tencent/mm/pluginsdk/ui/preference/b;->username:Ljava/lang/String;
+    iget-object v2, v9, Lcom/tencent/mm/pluginsdk/ui/preference/Bclz;->username:Ljava/lang/String;
 
     invoke-virtual {v10, v2}, Lcom/tencent/mm/storage/ADclz;->setTalker(Ljava/lang/String;)V
 
@@ -5021,7 +5021,7 @@
     invoke-virtual {v10, v11}, Lcom/tencent/mm/storage/ADclz;->setType(I)V
 
     .line 1694
-    iget-boolean v2, v9, Lcom/tencent/mm/pluginsdk/ui/preference/b;->bDI:Z
+    iget-boolean v2, v9, Lcom/tencent/mm/pluginsdk/ui/preference/Bclz;->bDI:Z
 
     if-eqz v2, :cond_6
 
@@ -9806,19 +9806,19 @@
 
     if-lez v2, :cond_2
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$ah;->aHK()Lcom/tencent/mm/pluginsdk/h$n$b;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$ah;->aHK()Lcom/tencent/mm/pluginsdk/Hclz$n$b;
 
     move-result-object v2
 
     if-eqz v2, :cond_5c
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$ah;->aHK()Lcom/tencent/mm/pluginsdk/h$n$b;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$ah;->aHK()Lcom/tencent/mm/pluginsdk/Hclz$n$b;
 
     move-result-object v2
 
     iget-object v3, v0, Lcom/tencent/mm/protocal/b/atq;->iJc:Lcom/tencent/mm/protocal/b/apf;
 
-    invoke-interface {v2, v1, v3}, Lcom/tencent/mm/pluginsdk/h$n$b;->a(Ljava/lang/String;Lcom/tencent/mm/protocal/b/apf;)Z
+    invoke-interface {v2, v1, v3}, Lcom/tencent/mm/pluginsdk/Hclz$n$b;->a(Ljava/lang/String;Lcom/tencent/mm/protocal/b/apf;)Z
 
     :cond_5c
     invoke-static {}, Lcom/tencent/mm/model/Hclz;->rS()Ljava/lang/String;

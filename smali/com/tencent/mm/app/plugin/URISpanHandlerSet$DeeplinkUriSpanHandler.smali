@@ -44,7 +44,7 @@
 
 
 # virtual methods
-.method final a(Lcom/tencent/mm/pluginsdk/ui/applet/g;Lcom/tencent/mm/pluginsdk/ui/d/b;)Z
+.method final a(Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;Lcom/tencent/mm/pluginsdk/ui/d/Bclz;)Z
     .locals 11
 
     .prologue
@@ -67,7 +67,7 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    iget v7, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->type:I
+    iget v7, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->type:I
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -75,7 +75,7 @@
 
     aput-object v7, v5, v1
 
-    iget-object v7, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->url:Ljava/lang/String;
+    iget-object v7, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->url:Ljava/lang/String;
 
     aput-object v7, v5, v8
 
@@ -85,7 +85,7 @@
     if-eqz p2, :cond_8
 
     .line 1423
-    invoke-interface {p2, p1}, Lcom/tencent/mm/pluginsdk/ui/d/b;->a(Lcom/tencent/mm/pluginsdk/ui/applet/g;)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Lcom/tencent/mm/pluginsdk/ui/d/Bclz;->a(Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -95,14 +95,14 @@
 
     .line 1425
     :goto_0
-    iget v0, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->type:I
+    iget v0, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->type:I
 
     const/16 v3, 0x1e
 
     if-ne v0, v3, :cond_7
 
     .line 1427
-    iget-object v0, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->url:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->url:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jX(Ljava/lang/String;)Ljava/lang/String;
 
@@ -236,7 +236,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/d;->m(Landroid/net/Uri;)Z
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/Dclz;->m(Landroid/net/Uri;)Z
 
     move-result v0
 
@@ -249,7 +249,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, v7, v9}, Lcom/tencent/mm/pluginsdk/d;->p(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v7, v9}, Lcom/tencent/mm/pluginsdk/Dclz;->p(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -269,7 +269,7 @@
 
     move-object v5, v9
 
-    invoke-static/range {v1 .. v6}, Lcom/tencent/mm/pluginsdk/d;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Lcom/tencent/mm/pluginsdk/d$a;)V
+    invoke-static/range {v1 .. v6}, Lcom/tencent/mm/pluginsdk/Dclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Lcom/tencent/mm/pluginsdk/Dclz$a;)V
 
     goto :goto_2
 
@@ -285,7 +285,7 @@
     goto/16 :goto_0
 .end method
 
-.method final a(Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/j;Landroid/os/Bundle;)Z
+.method final a(Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/Jclz;Landroid/os/Bundle;)Z
     .locals 8
 
     .prologue
@@ -360,7 +360,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/d;->m(Landroid/net/Uri;)Z
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/Dclz;->m(Landroid/net/Uri;)Z
 
     move-result v0
 
@@ -423,7 +423,7 @@
 
     invoke-direct {v4, p0, v2}, Lcom/tencent/mm/app/plugin/URISpanHandlerSet$DeeplinkUriSpanHandler$3;-><init>(Lcom/tencent/mm/app/plugin/URISpanHandlerSet$DeeplinkUriSpanHandler;Lcom/tencent/mm/ui/base/Oclz;)V
 
-    invoke-static {v3, p1, v0, v4}, Lcom/tencent/mm/pluginsdk/d;->a(Landroid/content/Context;Ljava/lang/String;ILcom/tencent/mm/pluginsdk/d$a;)V
+    invoke-static {v3, p1, v0, v4}, Lcom/tencent/mm/pluginsdk/Dclz;->a(Landroid/content/Context;Ljava/lang/String;ILcom/tencent/mm/pluginsdk/Dclz$a;)V
 
     move v2, v1
 
@@ -431,7 +431,7 @@
     goto :goto_2
 .end method
 
-.method final aY(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/ui/applet/g;
+.method final aY(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;
     .locals 5
 
     .prologue
@@ -470,11 +470,11 @@
     if-eqz v0, :cond_0
 
     .line 1402
-    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/applet/g;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;
 
     const/16 v2, 0x1e
 
-    invoke-direct {v0, p1, v2, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/g;-><init>(Ljava/lang/String;ILjava/lang/Object;)V
+    invoke-direct {v0, p1, v2, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;-><init>(Ljava/lang/String;ILjava/lang/Object;)V
 
     .line 1405
     :goto_0

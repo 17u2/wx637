@@ -58,7 +58,7 @@
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/gallery/Hclz$1;->koA:Lcom/tencent/mm/ui/chatting/gallery/Hclz;
 
@@ -72,7 +72,7 @@
 
     const/4 v2, 0x1
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->f(Landroid/content/Context;Z)Z
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->f(Landroid/content/Context;Z)Z
 
     .line 199
     return-void

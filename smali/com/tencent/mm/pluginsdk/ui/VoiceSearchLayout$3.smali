@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;->a(ZLcom/tencent/mm/pluginsdk/ui/g;)V
+    value = Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;->a(ZLcom/tencent/mm/pluginsdk/ui/Gclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic hSq:Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;
 
-.field final synthetic hSr:Lcom/tencent/mm/pluginsdk/ui/g;
+.field final synthetic hSr:Lcom/tencent/mm/pluginsdk/ui/Gclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;Lcom/tencent/mm/pluginsdk/ui/g;)V
+.method constructor <init>(Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;Lcom/tencent/mm/pluginsdk/ui/Gclz;)V
     .locals 1
 
     .prologue
     .line 340
     iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout$3;->hSq:Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;
 
-    iput-object p2, p0, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout$3;->hSr:Lcom/tencent/mm/pluginsdk/ui/g;
+    iput-object p2, p0, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout$3;->hSr:Lcom/tencent/mm/pluginsdk/ui/Gclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

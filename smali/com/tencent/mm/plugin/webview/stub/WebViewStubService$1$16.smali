@@ -499,13 +499,13 @@
     invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     .line 296
-    sget-object v1, Lcom/tencent/mm/plugin/webview/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v1, Lcom/tencent/mm/plugin/webview/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService$1$16;->hBv:Lcom/tencent/mm/plugin/webview/stub/WebViewStubService$1;
 
     iget-object v2, v2, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService$1;->hBu:Lcom/tencent/mm/plugin/webview/stub/WebViewStubService;
 
-    invoke-interface {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/f;->w(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/Fclz;->w(Landroid/content/Intent;Landroid/content/Context;)V
 
     goto/16 :goto_0
 
@@ -526,13 +526,13 @@
     invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     .line 304
-    sget-object v1, Lcom/tencent/mm/plugin/webview/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v1, Lcom/tencent/mm/plugin/webview/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService$1$16;->hBv:Lcom/tencent/mm/plugin/webview/stub/WebViewStubService$1;
 
     iget-object v2, v2, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService$1;->hBu:Lcom/tencent/mm/plugin/webview/stub/WebViewStubService;
 
-    invoke-interface {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/f;->x(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/Fclz;->x(Landroid/content/Intent;Landroid/content/Context;)V
 
     goto/16 :goto_0
 

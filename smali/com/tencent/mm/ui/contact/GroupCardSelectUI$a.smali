@@ -169,7 +169,7 @@
 
     iget-object v3, v0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
 
     .line 207
     iget-object v2, v1, Lcom/tencent/mm/ui/contact/GroupCardSelectUI$b;->ksF:Landroid/widget/TextView;
@@ -194,7 +194,7 @@
 
     move-result v5
 
-    invoke-static {v3, v4, v5}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/text/SpannableString;
+    invoke-static {v3, v4, v5}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/text/SpannableString;
 
     move-result-object v3
 

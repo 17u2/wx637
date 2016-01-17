@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic keh:Lcom/tencent/mm/ui/chatting/BVclz;
 
-.field final synthetic kei:Lcom/tencent/mm/pluginsdk/model/app/b;
+.field final synthetic kei:Lcom/tencent/mm/pluginsdk/model/app/Bclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/BVclz;Lcom/tencent/mm/pluginsdk/model/app/b;)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/BVclz;Lcom/tencent/mm/pluginsdk/model/app/Bclz;)V
     .locals 1
 
     .prologue
     .line 211
     iput-object p1, p0, Lcom/tencent/mm/ui/chatting/BVclz$3;->keh:Lcom/tencent/mm/ui/chatting/BVclz;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/BVclz$3;->kei:Lcom/tencent/mm/pluginsdk/model/app/b;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/BVclz$3;->kei:Lcom/tencent/mm/pluginsdk/model/app/Bclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -95,15 +95,15 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 216
-    check-cast p4, Lcom/tencent/mm/pluginsdk/model/app/v;
+    check-cast p4, Lcom/tencent/mm/pluginsdk/model/app/Vclz;
 
-    iget-object v0, p4, Lcom/tencent/mm/pluginsdk/model/app/v;->hLU:Lcom/tencent/mm/pluginsdk/model/app/b;
+    iget-object v0, p4, Lcom/tencent/mm/pluginsdk/model/app/Vclz;->hLU:Lcom/tencent/mm/pluginsdk/model/app/Bclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/b;->field_mediaSvrId:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/Bclz;->field_mediaSvrId:Ljava/lang/String;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/BVclz$3;->kei:Lcom/tencent/mm/pluginsdk/model/app/b;
+    iget-object v1, p0, Lcom/tencent/mm/ui/chatting/BVclz$3;->kei:Lcom/tencent/mm/pluginsdk/model/app/Bclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/app/b;->field_mediaSvrId:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/app/Bclz;->field_mediaSvrId:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

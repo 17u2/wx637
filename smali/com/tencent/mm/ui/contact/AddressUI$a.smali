@@ -22,7 +22,7 @@
 
 .field private final bWl:J
 
-.field cOz:Lcom/tencent/mm/pluginsdk/ui/d;
+.field cOz:Lcom/tencent/mm/pluginsdk/ui/Dclz;
 
 .field private cgh:Landroid/app/ProgressDialog;
 
@@ -154,15 +154,15 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/contact/AddressUI$a;->emC:Lcom/tencent/mm/ui/base/VerticalScrollBar$a;
 
     .line 700
-    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/d;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/Dclz;
 
     new-instance v1, Lcom/tencent/mm/ui/contact/AddressUI$a$7;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/contact/AddressUI$a$7;-><init>(Lcom/tencent/mm/ui/contact/AddressUI$a;)V
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/d;-><init>(Landroid/widget/AbsListView$OnScrollListener;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/Dclz;-><init>(Landroid/widget/AbsListView$OnScrollListener;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/contact/AddressUI$a;->cOz:Lcom/tencent/mm/pluginsdk/ui/d;
+    iput-object v0, p0, Lcom/tencent/mm/ui/contact/AddressUI$a;->cOz:Lcom/tencent/mm/pluginsdk/ui/Dclz;
 
     .line 887
     new-instance v0, Ljava/util/LinkedList;
@@ -1683,7 +1683,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/AddressUI$a;->epl:Landroid/widget/ListView;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/contact/AddressUI$a;->cOz:Lcom/tencent/mm/pluginsdk/ui/d;
+    iget-object v1, p0, Lcom/tencent/mm/ui/contact/AddressUI$a;->cOz:Lcom/tencent/mm/pluginsdk/ui/Dclz;
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setOnScrollListener(Landroid/widget/AbsListView$OnScrollListener;)V
 
@@ -3116,7 +3116,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
+    invoke-static {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
 
     move-result-object v0
 
@@ -3152,7 +3152,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
+    invoke-static {v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
 
     move-result-object v1
 

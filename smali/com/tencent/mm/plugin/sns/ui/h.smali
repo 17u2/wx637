@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/ui/d/j$a;
+.implements Lcom/tencent/mm/pluginsdk/ui/d/Jclz$a;
 
 
 # instance fields
@@ -245,11 +245,11 @@
     invoke-virtual {v3, v0, v5}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     .line 81
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/h;->asr:Landroid/app/Activity;
 
-    invoke-interface {v0, v3, v1}, Lcom/tencent/mm/pluginsdk/f;->k(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v0, v3, v1}, Lcom/tencent/mm/pluginsdk/Fclz;->k(Landroid/content/Intent;Landroid/content/Context;)V
 
     goto/16 :goto_0
 
@@ -277,11 +277,11 @@
     invoke-virtual {v3, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 88
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/h;->asr:Landroid/app/Activity;
 
-    invoke-interface {v0, v3, v1}, Lcom/tencent/mm/pluginsdk/f;->d(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v0, v3, v1}, Lcom/tencent/mm/pluginsdk/Fclz;->d(Landroid/content/Intent;Landroid/content/Context;)V
 
     .line 90
     new-instance v0, Lcom/tencent/mm/plugin/sns/a/a/c;

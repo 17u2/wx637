@@ -62,9 +62,9 @@
     .line 53
     iget-object v1, p0, Lcom/tencent/mm/plugin/safedevice/ui/BindSafeDeviceUI$2;->fxT:Lcom/tencent/mm/plugin/safedevice/ui/BindSafeDeviceUI;
 
-    sget-object v2, Lcom/tencent/mm/plugin/safedevice/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v2, Lcom/tencent/mm/plugin/safedevice/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
-    invoke-interface {v2, v1, v0}, Lcom/tencent/mm/pluginsdk/f;->b(Lcom/tencent/mm/ui/MMWizardActivity;Landroid/content/Intent;)V
+    invoke-interface {v2, v1, v0}, Lcom/tencent/mm/pluginsdk/Fclz;->b(Lcom/tencent/mm/ui/MMWizardActivity;Landroid/content/Intent;)V
 
     .line 55
     return-void

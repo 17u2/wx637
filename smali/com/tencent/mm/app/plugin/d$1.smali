@@ -48,13 +48,13 @@
 
     .prologue
     .line 33
-    check-cast p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;
+    check-cast p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;
 
-    check-cast p2, Lcom/tencent/mm/pluginsdk/ui/applet/g;
+    check-cast p2, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;
 
-    iget v0, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->bRl:I
+    iget v0, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->bRl:I
 
-    iget v1, p2, Lcom/tencent/mm/pluginsdk/ui/applet/g;->bRl:I
+    iget v1, p2, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->bRl:I
 
     if-ge v0, v1, :cond_0
 

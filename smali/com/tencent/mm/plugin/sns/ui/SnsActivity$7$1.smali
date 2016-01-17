@@ -174,7 +174,7 @@
     if-eqz v6, :cond_1
 
     .line 896
-    new-instance v6, Lcom/tencent/mm/pluginsdk/ui/tools/l;
+    new-instance v6, Lcom/tencent/mm/pluginsdk/ui/tools/Lclz;
 
     iget-object v7, p0, Lcom/tencent/mm/plugin/sns/ui/SnsActivity$7$1;->gvQ:Lcom/tencent/mm/plugin/sns/ui/SnsActivity$7;
 
@@ -188,19 +188,19 @@
 
     move-result-object v5
 
-    invoke-direct {v6, v7, v5}, Lcom/tencent/mm/pluginsdk/ui/tools/l;-><init>(Landroid/content/Context;Landroid/net/Uri;)V
+    invoke-direct {v6, v7, v5}, Lcom/tencent/mm/pluginsdk/ui/tools/Lclz;-><init>(Landroid/content/Context;Landroid/net/Uri;)V
 
     .line 897
-    iget v5, v6, Lcom/tencent/mm/pluginsdk/ui/tools/l;->axg:I
+    iget v5, v6, Lcom/tencent/mm/pluginsdk/ui/tools/Lclz;->axg:I
 
     if-eqz v5, :cond_4
 
-    iget-object v5, v6, Lcom/tencent/mm/pluginsdk/ui/tools/l;->filePath:Ljava/lang/String;
+    iget-object v5, v6, Lcom/tencent/mm/pluginsdk/ui/tools/Lclz;->filePath:Ljava/lang/String;
 
     if-eqz v5, :cond_4
 
     .line 898
-    iget v5, v6, Lcom/tencent/mm/pluginsdk/ui/tools/l;->axg:I
+    iget v5, v6, Lcom/tencent/mm/pluginsdk/ui/tools/Lclz;->axg:I
 
     packed-switch v5, :pswitch_data_1
 
@@ -208,7 +208,7 @@
 
     .line 900
     :pswitch_2
-    iget-object v5, v6, Lcom/tencent/mm/pluginsdk/ui/tools/l;->filePath:Ljava/lang/String;
+    iget-object v5, v6, Lcom/tencent/mm/pluginsdk/ui/tools/Lclz;->filePath:Ljava/lang/String;
 
     invoke-virtual {v4, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 

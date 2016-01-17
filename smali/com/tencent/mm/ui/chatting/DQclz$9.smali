@@ -137,13 +137,13 @@
     invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 378
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v2
 
     iget-object v3, p0, Lcom/tencent/mm/ui/chatting/DQclz$9;->val$context:Landroid/content/Context;
 
-    invoke-interface {v2, v3, v1, v0}, Lcom/tencent/mm/pluginsdk/h$f;->k(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-interface {v2, v3, v1, v0}, Lcom/tencent/mm/pluginsdk/Hclz$f;->k(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
 

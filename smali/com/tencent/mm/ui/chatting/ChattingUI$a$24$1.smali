@@ -195,7 +195,7 @@
     if-eqz v1, :cond_6
 
     .line 9712
-    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/tools/l;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/tools/Lclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$24$1;->kjj:Lcom/tencent/mm/ui/chatting/ChattingUI$a$24;
 
@@ -209,19 +209,19 @@
 
     move-result-object v3
 
-    invoke-direct {v1, v2, v3}, Lcom/tencent/mm/pluginsdk/ui/tools/l;-><init>(Landroid/content/Context;Landroid/net/Uri;)V
+    invoke-direct {v1, v2, v3}, Lcom/tencent/mm/pluginsdk/ui/tools/Lclz;-><init>(Landroid/content/Context;Landroid/net/Uri;)V
 
     .line 9713
-    iget v2, v1, Lcom/tencent/mm/pluginsdk/ui/tools/l;->axg:I
+    iget v2, v1, Lcom/tencent/mm/pluginsdk/ui/tools/Lclz;->axg:I
 
     if-eqz v2, :cond_5
 
-    iget-object v2, v1, Lcom/tencent/mm/pluginsdk/ui/tools/l;->filePath:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/pluginsdk/ui/tools/Lclz;->filePath:Ljava/lang/String;
 
     if-eqz v2, :cond_5
 
     .line 9714
-    iget v2, v1, Lcom/tencent/mm/pluginsdk/ui/tools/l;->axg:I
+    iget v2, v1, Lcom/tencent/mm/pluginsdk/ui/tools/Lclz;->axg:I
 
     packed-switch v2, :pswitch_data_1
 
@@ -247,7 +247,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$24;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/tools/l;->filePath:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/tools/Lclz;->filePath:Ljava/lang/String;
 
     invoke-static {v0, v1}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Ljava/lang/String;)Ljava/lang/String;
 
@@ -309,28 +309,28 @@
     iput-object v1, v0, Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;->description:Ljava/lang/String;
 
     .line 9736
-    new-instance v2, Lcom/tencent/mm/pluginsdk/model/app/f;
+    new-instance v2, Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/pluginsdk/model/app/f;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/pluginsdk/model/app/Fclz;-><init>()V
 
     .line 9737
     const-string/jumbo v1, "wx4310bbd51be7d979"
 
-    iput-object v1, v2, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iput-object v1, v2, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     .line 9738
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->aIx()Lcom/tencent/mm/pluginsdk/model/app/i;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->aIx()Lcom/tencent/mm/pluginsdk/model/app/Iclz;
 
     move-result-object v1
 
     new-array v3, v7, [Ljava/lang/String;
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/pluginsdk/model/app/i;->c(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/pluginsdk/model/app/Iclz;->c(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
 
     .line 9740
-    iget-object v1, v2, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v1, v2, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
-    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appName:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appName:Ljava/lang/String;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$24$1;->kjj:Lcom/tencent/mm/ui/chatting/ChattingUI$a$24;
 
@@ -344,7 +344,7 @@
 
     const/4 v5, 0x0
 
-    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/app/l;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)I
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/app/Lclz;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)I
 
     goto/16 :goto_2
 
@@ -354,7 +354,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$24;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/tools/l;->filePath:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/tools/Lclz;->filePath:Ljava/lang/String;
 
     invoke-static {v0, v1}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Ljava/lang/String;)Ljava/lang/String;
 

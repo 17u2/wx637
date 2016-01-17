@@ -183,12 +183,12 @@
 
     invoke-static {v1}, Lcom/tencent/smtt/sdk/QbSdk;->setTbsListener(Lcom/tencent/smtt/sdk/n;)V
 
-    invoke-static {v9}, Lcom/tencent/mm/pluginsdk/ui/tools/j;->od(I)V
+    invoke-static {v9}, Lcom/tencent/mm/pluginsdk/ui/tools/Jclz;->od(I)V
 
     :cond_1
     invoke-static {v2}, Lcom/tencent/smtt/sdk/k;->eI(Landroid/content/Context;)V
 
-    invoke-static {v10}, Lcom/tencent/mm/pluginsdk/ui/tools/j;->od(I)V
+    invoke-static {v10}, Lcom/tencent/mm/pluginsdk/ui/tools/Jclz;->od(I)V
 
     goto :goto_0
 
@@ -281,7 +281,7 @@
     invoke-static {v0}, Lcom/tencent/smtt/sdk/k;->eI(Landroid/content/Context;)V
 
     .line 139
-    invoke-static {v8}, Lcom/tencent/mm/pluginsdk/ui/tools/j;->od(I)V
+    invoke-static {v8}, Lcom/tencent/mm/pluginsdk/ui/tools/Jclz;->od(I)V
 
     goto :goto_0
 
@@ -297,7 +297,7 @@
     .line 142
     const/4 v0, 0x4
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/j;->od(I)V
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Jclz;->od(I)V
 
     goto :goto_0
 .end method

@@ -85,7 +85,7 @@
 
     iget-object v5, v5, Lcom/tencent/mm/d/a/IVclz$a;->aDW:Ljava/lang/String;
 
-    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/app/l;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)I
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/app/Lclz;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)I
 
     .line 766
     :goto_0
@@ -169,7 +169,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {v13, v2, v1}, Lcom/tencent/mm/pluginsdk/model/app/l;->a(Lcom/tencent/mm/m/Aclz$a;Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v13, v2, v1}, Lcom/tencent/mm/pluginsdk/model/app/Lclz;->a(Lcom/tencent/mm/m/Aclz$a;Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -273,7 +273,7 @@
 
     if-nez v6, :cond_1
 
-    invoke-static {v5, v13, v1}, Lcom/tencent/mm/pluginsdk/model/app/l;->a(Ljava/lang/String;Lcom/tencent/mm/m/Aclz$a;Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/model/app/b;
+    invoke-static {v5, v13, v1}, Lcom/tencent/mm/pluginsdk/model/app/Lclz;->a(Ljava/lang/String;Lcom/tencent/mm/m/Aclz$a;Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/model/app/Bclz;
 
     move-result-object v0
 
@@ -382,7 +382,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-wide v6, v0, Lcom/tencent/mm/pluginsdk/model/app/b;->jjf:J
+    iget-wide v6, v0, Lcom/tencent/mm/pluginsdk/model/app/Bclz;->jjf:J
 
     invoke-virtual {v1, v6, v7}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -425,7 +425,7 @@
 
     iget v7, v13, Lcom/tencent/mm/m/Aclz$a;->bqz:I
 
-    invoke-static {v1, v4, v6, v7}, Lcom/tencent/mm/pluginsdk/model/app/l;->l(IIII)I
+    invoke-static {v1, v4, v6, v7}, Lcom/tencent/mm/pluginsdk/model/app/Lclz;->l(IIII)I
 
     move-result v1
 
@@ -579,21 +579,21 @@
 
     iput-object v3, v1, Lcom/tencent/mm/m/Aclz;->field_source:Ljava/lang/String;
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->aIy()Lcom/tencent/mm/pluginsdk/model/app/k;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->aIy()Lcom/tencent/mm/pluginsdk/model/app/Kclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/pluginsdk/model/app/k;->a(Lcom/tencent/mm/sdk/g/Cclz;)Z
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/pluginsdk/model/app/Kclz;->a(Lcom/tencent/mm/sdk/g/Cclz;)Z
 
     if-eqz v0, :cond_6
 
-    iput-wide v6, v0, Lcom/tencent/mm/pluginsdk/model/app/b;->field_msgInfoId:J
+    iput-wide v6, v0, Lcom/tencent/mm/pluginsdk/model/app/Bclz;->field_msgInfoId:J
 
     const-wide/16 v1, 0x65
 
-    iput-wide v1, v0, Lcom/tencent/mm/pluginsdk/model/app/b;->field_status:J
+    iput-wide v1, v0, Lcom/tencent/mm/pluginsdk/model/app/Bclz;->field_status:J
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->HO()Lcom/tencent/mm/pluginsdk/model/app/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->HO()Lcom/tencent/mm/pluginsdk/model/app/Cclz;
 
     move-result-object v1
 
@@ -601,20 +601,20 @@
 
     new-array v2, v2, [Ljava/lang/String;
 
-    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/model/app/c;->a(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
+    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/model/app/Cclz;->a(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->aIz()Lcom/tencent/mm/pluginsdk/model/app/ag$a;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->aIz()Lcom/tencent/mm/pluginsdk/model/app/AGclz$a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/app/ag$a;->run()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/app/AGclz$a;->run()V
 
     goto/16 :goto_0
 
     :cond_6
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->aIz()Lcom/tencent/mm/pluginsdk/model/app/ag$a;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->aIz()Lcom/tencent/mm/pluginsdk/model/app/AGclz$a;
 
-    invoke-static {v6, v7, v12}, Lcom/tencent/mm/pluginsdk/model/app/ag$a;->j(JLjava/lang/String;)V
+    invoke-static {v6, v7, v12}, Lcom/tencent/mm/pluginsdk/model/app/AGclz$a;->j(JLjava/lang/String;)V
 
     goto/16 :goto_0
 .end method

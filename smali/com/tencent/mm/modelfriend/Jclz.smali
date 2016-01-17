@@ -861,7 +861,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/aag;->dRj:Ljava/lang/String;
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
 
     .line 350
     :cond_3

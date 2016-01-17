@@ -70,13 +70,13 @@
     invoke-virtual {v1, v2, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 942
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/c/b$6;->gIK:Lcom/tencent/mm/plugin/sns/ui/c/b;
 
     iget-object v2, v2, Lcom/tencent/mm/plugin/sns/ui/c/b;->asr:Landroid/app/Activity;
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/f;->z(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/Fclz;->z(Landroid/content/Intent;Landroid/content/Context;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

@@ -78,7 +78,7 @@
 
     const/4 v1, 0x1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/widget/TextView;I)Landroid/text/SpannableString;
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/widget/TextView;I)Landroid/text/SpannableString;
 
     .line 110
     iget-object v7, p1, Lcom/tencent/mm/ui/chatting/DUclz;->kmi:Lcom/tencent/mm/ui/base/MMTextView;

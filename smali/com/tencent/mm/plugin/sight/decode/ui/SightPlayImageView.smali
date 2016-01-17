@@ -25,7 +25,7 @@
 
 .field private fXc:I
 
-.field public fXd:Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+.field public fXd:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
 .field public fXe:Z
 

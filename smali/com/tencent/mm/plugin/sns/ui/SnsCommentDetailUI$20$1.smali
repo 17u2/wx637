@@ -224,18 +224,18 @@
 
     if-nez v2, :cond_3
 
-    sget-object v2, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v2, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v2, v0}, Lcom/tencent/mm/pluginsdk/e;->aS(Ljava/lang/String;)Z
+    invoke-interface {v2, v0}, Lcom/tencent/mm/pluginsdk/Eclz;->aS(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_3
 
     .line 2001
-    sget-object v2, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v2, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v2, v0}, Lcom/tencent/mm/pluginsdk/e;->aQ(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v2, v0}, Lcom/tencent/mm/pluginsdk/Eclz;->aQ(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 

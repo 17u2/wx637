@@ -241,9 +241,9 @@
     invoke-virtual {p0, v1}, Lcom/tencent/mm/plugin/webview/ui/tools/ContactQZoneWebView;->startActivity(Landroid/content/Intent;)V
 
     .line 62
-    sget-object v0, Lcom/tencent/mm/plugin/webview/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/webview/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
-    invoke-interface {v0, v1, p0}, Lcom/tencent/mm/pluginsdk/f;->v(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v0, v1, p0}, Lcom/tencent/mm/pluginsdk/Fclz;->v(Landroid/content/Intent;Landroid/content/Context;)V
 
     goto :goto_0
 .end method

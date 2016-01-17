@@ -384,7 +384,7 @@
 
     invoke-virtual {v3, v0}, Lcom/tencent/mm/sdk/modelmsg/Bclz$b;->k(Landroid/os/Bundle;)V
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/n;->D(Landroid/os/Bundle;)V
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/Nclz;->D(Landroid/os/Bundle;)V
 
     new-instance v1, Lcom/tencent/mm/sdk/a/Aclz$a;
 
@@ -628,7 +628,7 @@
     invoke-virtual {v3, v0}, Lcom/tencent/mm/sdk/modelmsg/Bclz$b;->k(Landroid/os/Bundle;)V
 
     .line 271
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/n;->D(Landroid/os/Bundle;)V
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/Nclz;->D(Landroid/os/Bundle;)V
 
     .line 273
     new-instance v1, Lcom/tencent/mm/sdk/a/Aclz$a;

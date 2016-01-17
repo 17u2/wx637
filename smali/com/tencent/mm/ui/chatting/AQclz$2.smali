@@ -54,7 +54,7 @@
     .line 560
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AQclz$2;->fuX:Lcom/tencent/mm/storage/ADclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/l;->y(Lcom/tencent/mm/storage/ADclz;)V
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/Lclz;->y(Lcom/tencent/mm/storage/ADclz;)V
 
     .line 561
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AQclz$2;->fuX:Lcom/tencent/mm/storage/ADclz;

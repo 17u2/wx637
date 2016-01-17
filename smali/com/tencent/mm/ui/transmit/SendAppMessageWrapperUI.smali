@@ -20,7 +20,7 @@
 
 .field private dCk:I
 
-.field private kIt:Lcom/tencent/mm/pluginsdk/model/app/f;
+.field private kIt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
 .field private kIu:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
 
@@ -43,7 +43,7 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->aFK:Ljava/lang/String;
 
     .line 54
-    iput-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iput-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     .line 55
     iput-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->awK:Ljava/lang/String;
@@ -93,7 +93,7 @@
     return v0
 .end method
 
-.method private a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
+.method private a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;
     .locals 1
 
     .prologue
@@ -158,15 +158,15 @@
     return-void
 
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iget-object v1, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
-    invoke-interface {v0, p0, p1, v1}, Lcom/tencent/mm/pluginsdk/h$f;->a(Landroid/content/Context;Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, p0, p1, v1}, Lcom/tencent/mm/pluginsdk/Hclz$f;->a(Landroid/content/Context;Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -184,13 +184,13 @@
     move-object v5, v6
 
     :cond_2
-    iget-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appName:Ljava/lang/String;
+    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appName:Ljava/lang/String;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->awK:Ljava/lang/String;
 
@@ -198,11 +198,11 @@
 
     move-object v0, p1
 
-    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/app/l;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)I
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/app/Lclz;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)I
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     const-string/jumbo v1, "wx4310bbd51be7d979"
 
@@ -229,7 +229,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->jxX:Lcom/tencent/mm/ui/Jclz;
 
-    invoke-static {v3, v6, v0, v2, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->a(Lcom/tencent/mm/ui/Jclz;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/pluginsdk/ui/applet/c$a;Lcom/tencent/mm/pluginsdk/ui/applet/c$a;)Lcom/tencent/mm/ui/base/Nclz;
+    invoke-static {v3, v6, v0, v2, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->a(Lcom/tencent/mm/ui/Jclz;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;)Lcom/tencent/mm/ui/base/Nclz;
 
     if-eqz p2, :cond_3
 
@@ -253,9 +253,9 @@
 
     new-array v1, v8, [Ljava/lang/Object;
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iget-object v2, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appName:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appName:Ljava/lang/String;
 
     aput-object v2, v1, v7
 
@@ -305,19 +305,19 @@
     goto/16 :goto_0
 
     :cond_6
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKb:Lcom/tencent/mm/pluginsdk/h$n$h;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKb:Lcom/tencent/mm/pluginsdk/Hclz$n$h;
 
     if-eqz v0, :cond_7
 
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKb:Lcom/tencent/mm/pluginsdk/h$n$h;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKb:Lcom/tencent/mm/pluginsdk/Hclz$n$h;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iget-object v1, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    iget-object v3, v1, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v3, v1, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iget-object v1, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    iget-object v4, v1, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appName:Ljava/lang/String;
+    iget-object v4, v1, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appName:Ljava/lang/String;
 
     move-object v1, p1
 
@@ -325,11 +325,11 @@
 
     move v5, p3
 
-    invoke-interface/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/h$n$h;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Z
+    invoke-interface/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/Hclz$n$h;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Z
 
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKb:Lcom/tencent/mm/pluginsdk/h$n$h;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKb:Lcom/tencent/mm/pluginsdk/Hclz$n$h;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$n$h;->atS()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$n$h;->atS()V
 
     :cond_7
     invoke-virtual {p0}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->getIntent()Landroid/content/Intent;
@@ -469,9 +469,9 @@
     goto :goto_1
 
     :cond_5
-    iget-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     const-string/jumbo v2, "wx4310bbd51be7d979"
 
@@ -488,11 +488,11 @@
 
     iget-object v3, v1, Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;->description:Ljava/lang/String;
 
-    invoke-direct {p0, v1}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
+    invoke-direct {p0, v1}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;
 
     move-result-object v1
 
-    invoke-static {v2, v3, v0, v5, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->a(Lcom/tencent/mm/ui/Jclz;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/c$a;)Lcom/tencent/mm/ui/base/Gclz;
+    invoke-static {v2, v3, v0, v5, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->a(Lcom/tencent/mm/ui/Jclz;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -524,11 +524,11 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->aFK:Ljava/lang/String;
 
-    invoke-direct {p0, v1}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
+    invoke-direct {p0, v1}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;
 
     move-result-object v1
 
-    invoke-static {v0, v2, v3, v5, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->a(Lcom/tencent/mm/ui/Jclz;[BLjava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/c$a;)Lcom/tencent/mm/ui/base/Gclz;
+    invoke-static {v0, v2, v3, v5, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->a(Lcom/tencent/mm/ui/Jclz;[BLjava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -567,11 +567,11 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->aFK:Ljava/lang/String;
 
-    invoke-direct {p0, v1}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
+    invoke-direct {p0, v1}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;
 
     move-result-object v1
 
-    invoke-static {v2, v0, v3, v5, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->a(Lcom/tencent/mm/ui/Jclz;[BLjava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/c$a;)Lcom/tencent/mm/ui/base/Gclz;
+    invoke-static {v2, v0, v3, v5, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->a(Lcom/tencent/mm/ui/Jclz;[BLjava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -584,11 +584,11 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->aFK:Ljava/lang/String;
 
-    invoke-direct {p0, v1}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
+    invoke-direct {p0, v1}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;
 
     move-result-object v1
 
-    invoke-static {v2, v0, v3, v5, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->b(Lcom/tencent/mm/ui/Jclz;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/c$a;)Lcom/tencent/mm/ui/base/Gclz;
+    invoke-static {v2, v0, v3, v5, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->b(Lcom/tencent/mm/ui/Jclz;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -624,11 +624,11 @@
 
     const/4 v6, 0x2
 
-    invoke-direct {p0, v7}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
+    invoke-direct {p0, v7}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;
 
     move-result-object v7
 
-    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->a(Lcom/tencent/mm/ui/Jclz;[BLjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILcom/tencent/mm/pluginsdk/ui/applet/c$a;)Lcom/tencent/mm/ui/base/Gclz;
+    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->a(Lcom/tencent/mm/ui/Jclz;[BLjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -650,11 +650,11 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->aFK:Ljava/lang/String;
 
-    invoke-direct {p0, v7}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
+    invoke-direct {p0, v7}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;
 
     move-result-object v6
 
-    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->a(Lcom/tencent/mm/ui/Jclz;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/c$a;)Lcom/tencent/mm/ui/base/Gclz;
+    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->a(Lcom/tencent/mm/ui/Jclz;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -683,13 +683,13 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->aFK:Ljava/lang/String;
 
-    invoke-direct {p0, v6}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
+    invoke-direct {p0, v6}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;
 
     move-result-object v7
 
     move v6, v5
 
-    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->a(Lcom/tencent/mm/ui/Jclz;[BLjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILcom/tencent/mm/pluginsdk/ui/applet/c$a;)Lcom/tencent/mm/ui/base/Gclz;
+    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->a(Lcom/tencent/mm/ui/Jclz;[BLjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -711,11 +711,11 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->aFK:Ljava/lang/String;
 
-    invoke-direct {p0, v6}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
+    invoke-direct {p0, v6}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;
 
     move-result-object v6
 
-    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->a(Lcom/tencent/mm/ui/Jclz;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/c$a;)Lcom/tencent/mm/ui/base/Gclz;
+    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->a(Lcom/tencent/mm/ui/Jclz;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -746,11 +746,11 @@
 
     move-result-object v6
 
-    invoke-direct {p0, v7}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
+    invoke-direct {p0, v7}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;
 
     move-result-object v7
 
-    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->a(Lcom/tencent/mm/ui/Jclz;Ljava/lang/String;[BLjava/lang/String;Ljava/lang/String;ZLjava/lang/String;Lcom/tencent/mm/pluginsdk/ui/applet/c$a;)Lcom/tencent/mm/ui/base/Gclz;
+    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->a(Lcom/tencent/mm/ui/Jclz;Ljava/lang/String;[BLjava/lang/String;Ljava/lang/String;ZLjava/lang/String;Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -783,13 +783,13 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->aFK:Ljava/lang/String;
 
-    invoke-direct {p0, v6}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
+    invoke-direct {p0, v6}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;
 
     move-result-object v7
 
     move v6, v8
 
-    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->a(Lcom/tencent/mm/ui/Jclz;[BLjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILcom/tencent/mm/pluginsdk/ui/applet/c$a;)Lcom/tencent/mm/ui/base/Gclz;
+    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->a(Lcom/tencent/mm/ui/Jclz;[BLjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -801,15 +801,15 @@
     goto/16 :goto_1
 
     :cond_c
-    iget-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     invoke-static {p0}, Lcom/tencent/mm/at/Aclz;->getDensity(Landroid/content/Context;)F
 
     move-result v2
 
-    invoke-static {v0, v5, v2}, Lcom/tencent/mm/pluginsdk/model/app/g;->b(Ljava/lang/String;IF)Landroid/graphics/Bitmap;
+    invoke-static {v0, v5, v2}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->b(Ljava/lang/String;IF)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
@@ -829,7 +829,7 @@
 
     iget-object v7, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->aFK:Ljava/lang/String;
 
-    invoke-direct {p0, v6}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
+    invoke-direct {p0, v6}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;
 
     move-result-object v0
 
@@ -837,7 +837,7 @@
 
     const v9, 0x7f030134
 
-    invoke-static {v6, v9}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->p(Landroid/content/Context;I)Landroid/view/View;
+    invoke-static {v6, v9}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->p(Landroid/content/Context;I)Landroid/view/View;
 
     move-result-object v6
 
@@ -851,7 +851,7 @@
 
     invoke-virtual {v9, v8}, Lcom/tencent/mm/ui/base/Gclz$a;->gN(Z)Lcom/tencent/mm/ui/base/Gclz$a;
 
-    invoke-static {v6, v5}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->c(Landroid/view/View;Z)V
+    invoke-static {v6, v5}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->c(Landroid/view/View;Z)V
 
     iget-object v10, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
@@ -863,7 +863,7 @@
 
     move-result-object v10
 
-    invoke-static {v1, v9, v0, v6, v10}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->a(Lcom/tencent/mm/ui/Jclz;Lcom/tencent/mm/ui/base/Gclz$a;Lcom/tencent/mm/pluginsdk/ui/applet/c$a;Landroid/view/View;Ljava/lang/String;)V
+    invoke-static {v1, v9, v0, v6, v10}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->a(Lcom/tencent/mm/ui/Jclz;Lcom/tencent/mm/ui/base/Gclz$a;Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;Landroid/view/View;Ljava/lang/String;)V
 
     const v0, 0x7f0e0489
 
@@ -879,7 +879,7 @@
 
     move-result v11
 
-    invoke-static {v10, v3, v11}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {v10, v3, v11}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v3
 
@@ -899,7 +899,7 @@
 
     move-result v3
 
-    invoke-static {v1, v4, v3}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {v1, v4, v3}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v1
 
@@ -976,7 +976,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    invoke-static {v9, v2}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->a(Lcom/tencent/mm/ui/base/Gclz$a;Landroid/graphics/Bitmap;)V
+    invoke-static {v9, v2}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->a(Lcom/tencent/mm/ui/base/Gclz$a;Landroid/graphics/Bitmap;)V
 
     goto :goto_9
 
@@ -989,11 +989,11 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->aFK:Ljava/lang/String;
 
-    invoke-direct {p0, v6}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
+    invoke-direct {p0, v6}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;
 
     move-result-object v6
 
-    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->a(Lcom/tencent/mm/ui/Jclz;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/c$a;)Lcom/tencent/mm/ui/base/Gclz;
+    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->a(Lcom/tencent/mm/ui/Jclz;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -1022,13 +1022,13 @@
 
     const/4 v4, 0x0
 
-    invoke-direct {p0, v6}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
+    invoke-direct {p0, v6}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;
 
     move-result-object v7
 
     move v6, v8
 
-    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->a(Lcom/tencent/mm/ui/Jclz;[BLjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILcom/tencent/mm/pluginsdk/ui/applet/c$a;)Lcom/tencent/mm/ui/base/Gclz;
+    invoke-static/range {v0 .. v7}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->a(Lcom/tencent/mm/ui/Jclz;[BLjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -1050,11 +1050,11 @@
 
     const/4 v4, 0x0
 
-    invoke-direct {p0, v6}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
+    invoke-direct {p0, v6}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;
 
     move-result-object v6
 
-    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->a(Lcom/tencent/mm/ui/Jclz;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/c$a;)Lcom/tencent/mm/ui/base/Gclz;
+    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->a(Lcom/tencent/mm/ui/Jclz;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -1079,11 +1079,11 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->aFK:Ljava/lang/String;
 
-    invoke-direct {p0, v6}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
+    invoke-direct {p0, v6}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;
 
     move-result-object v3
 
-    invoke-static {v0, v1, v2, v5, v3}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->a(Lcom/tencent/mm/ui/Jclz;[BLjava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/c$a;)Lcom/tencent/mm/ui/base/Gclz;
+    invoke-static {v0, v1, v2, v5, v3}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->a(Lcom/tencent/mm/ui/Jclz;[BLjava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -1103,11 +1103,11 @@
 
     iget-object v4, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->aFK:Ljava/lang/String;
 
-    invoke-direct {p0, v6}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/c$a;
+    invoke-direct {p0, v6}, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;)Lcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;
 
     move-result-object v6
 
-    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->a(Lcom/tencent/mm/ui/Jclz;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/c$a;)Lcom/tencent/mm/ui/base/Gclz;
+    invoke-static/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->a(Lcom/tencent/mm/ui/Jclz;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;)Lcom/tencent/mm/ui/base/Gclz;
 
     move-result-object v0
 
@@ -1437,32 +1437,32 @@
 
     .line 115
     :cond_1
-    new-instance v1, Lcom/tencent/mm/pluginsdk/model/app/f;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/pluginsdk/model/app/f;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/pluginsdk/model/app/Fclz;-><init>()V
 
-    iput-object v1, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iput-object v1, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     .line 116
-    iget-object v1, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iget-object v1, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    iput-object v0, v1, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iput-object v0, v1, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     .line 117
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->aIx()Lcom/tencent/mm/pluginsdk/model/app/i;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->aIx()Lcom/tencent/mm/pluginsdk/model/app/Iclz;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iget-object v1, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     new-array v7, v13, [Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v7}, Lcom/tencent/mm/pluginsdk/model/app/i;->c(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
+    invoke-virtual {v0, v1, v7}, Lcom/tencent/mm/pluginsdk/model/app/Iclz;->c(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
 
     .line 119
-    iget-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appName:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appName:Ljava/lang/String;
 
     if-nez v0, :cond_2
 
@@ -1520,13 +1520,13 @@
     .line 140
     iget-object v7, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIu:Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    iget-object v8, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v8, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iget-object v0, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    iget-object v9, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appName:Ljava/lang/String;
+    iget-object v9, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appName:Ljava/lang/String;
 
     const-string/jumbo v0, "!32@/B4Tb64lLpJOVlL8x781nzvuAH+bDIti"
 
@@ -1675,9 +1675,9 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iget-object v1, p0, Lcom/tencent/mm/ui/transmit/SendAppMessageWrapperUI;->kIt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/pluginsdk/model/app/g;->a(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/f;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->a(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/Fclz;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

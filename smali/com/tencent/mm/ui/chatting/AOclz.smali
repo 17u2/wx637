@@ -142,25 +142,25 @@
 
     const/4 v3, 0x1
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/widget/TextView;I)Landroid/text/SpannableString;
+    invoke-static {v0, v3}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/widget/TextView;I)Landroid/text/SpannableString;
 
     .line 200
     iget-object v0, v2, Lcom/tencent/mm/m/Aclz$a;->appId:Ljava/lang/String;
 
     const/4 v3, 0x1
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/pluginsdk/model/app/g;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-static {v0, v3}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v3
 
     .line 201
     if-eqz v3, :cond_0
 
-    iget-object v0, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appName:Ljava/lang/String;
+    iget-object v0, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appName:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appName:Ljava/lang/String;
+    iget-object v0, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appName:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
@@ -189,7 +189,7 @@
 
     if-lez v4, :cond_5
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/g;->aR(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->aR(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -210,7 +210,7 @@
 
     iget-object v8, v8, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-static {v8, v3, v0}, Lcom/tencent/mm/pluginsdk/model/app/g;->a(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/f;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v8, v3, v0}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->a(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/Fclz;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -340,7 +340,7 @@
 
     .line 201
     :cond_4
-    iget-object v0, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appName:Ljava/lang/String;
+    iget-object v0, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appName:Ljava/lang/String;
 
     goto/16 :goto_1
 

@@ -82,7 +82,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/friend/FindMContactInviteUI$3;->kzc:Lcom/tencent/mm/ui/friend/FindMContactInviteUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/a;->cs(Landroid/content/Context;)Ljava/util/List;
+    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/Aclz;->cs(Landroid/content/Context;)Ljava/util/List;
 
     move-result-object v1
 

@@ -630,9 +630,9 @@
     if-eqz p1, :cond_2
 
     .line 756
-    iget-object v2, v1, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v2, v1, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->stop()V
+    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->stop()V
 
     .line 757
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -720,9 +720,9 @@
 
     .line 768
     :cond_3
-    iget-object v2, v1, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v2, v1, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->stop()V
+    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->stop()V
 
     .line 769
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -837,14 +837,14 @@
 
     .line 779
     :cond_7
-    iget-object v0, v1, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, v1, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     instance-of v0, v0, Lcom/tencent/mm/plugin/sight/decode/a/a;
 
     if-eqz v0, :cond_8
 
     .line 780
-    iget-object v0, v1, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, v1, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     check-cast v0, Lcom/tencent/mm/plugin/sight/decode/a/a;
 
@@ -854,9 +854,9 @@
 
     .line 782
     :cond_8
-    iget-object v0, v1, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, v1, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->start()Z
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->start()Z
 
     move-result v0
 
@@ -1107,11 +1107,11 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/ui/tools/m;->cH(Landroid/content/Context;)Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Mclz;->cH(Landroid/content/Context;)Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     move-result-object v2
 
-    iput-object v2, v5, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iput-object v2, v5, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     new-instance v6, Landroid/widget/RelativeLayout$LayoutParams;
 
@@ -1129,7 +1129,7 @@
 
     check-cast v2, Landroid/view/ViewGroup;
 
-    iget-object v4, v5, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v4, v5, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     check-cast v4, Landroid/view/View;
 
@@ -1361,7 +1361,7 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setClickable(Z)V
 
-    iget-object v2, v4, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v2, v4, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     check-cast v2, Landroid/view/View;
 
@@ -1369,7 +1369,7 @@
 
     invoke-virtual {v2, v7}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    iget-object v2, v4, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v2, v4, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     check-cast v2, Landroid/view/View;
 
@@ -1460,7 +1460,7 @@
 
     invoke-static {v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v2, v4, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v2, v4, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     check-cast v2, Landroid/view/View;
 
@@ -1468,9 +1468,9 @@
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setVisibility(I)V
 
-    iget-object v2, v4, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v2, v4, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v2, v6}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->setVideoPath(Ljava/lang/String;)V
+    invoke-interface {v2, v6}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->setVideoPath(Ljava/lang/String;)V
 
     iget-object v2, v4, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyY:Lcom/tencent/mm/ui/widget/MMPinProgressBtn;
 
@@ -1672,7 +1672,7 @@
     goto/16 :goto_3
 
     :cond_8
-    iget-object v2, v4, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v2, v4, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     check-cast v2, Landroid/view/View;
 
@@ -1680,7 +1680,7 @@
 
     invoke-virtual {v2, v6}, Landroid/view/View;->setVisibility(I)V
 
-    iget-object v2, v4, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v2, v4, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     check-cast v2, Landroid/view/View;
 
@@ -1688,7 +1688,7 @@
 
     invoke-virtual {v2, v6}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    iget-object v2, v4, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v2, v4, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     check-cast v2, Landroid/view/View;
 
@@ -1696,11 +1696,11 @@
 
     invoke-virtual {v2, v6}, Landroid/view/View;->setClickable(Z)V
 
-    iget-object v2, v4, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v2, v4, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     const/4 v6, 0x0
 
-    invoke-interface {v2, v6}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->setVideoPath(Ljava/lang/String;)V
+    invoke-interface {v2, v6}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->setVideoPath(Ljava/lang/String;)V
 
     if-eqz v5, :cond_a
 
@@ -1776,9 +1776,9 @@
 
     invoke-virtual {v2, v5}, Landroid/widget/ImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    iget-object v2, v4, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v2, v4, Lcom/tencent/mm/plugin/sns/ui/SnsInfoFlip$d;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->stop()V
+    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->stop()V
 
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atu()Lcom/tencent/mm/plugin/sns/d/g;
 

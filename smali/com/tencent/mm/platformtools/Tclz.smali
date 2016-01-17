@@ -1229,18 +1229,18 @@
     const/4 v6, 0x1
 
     .line 1345
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$af;->aHJ()Lcom/tencent/mm/pluginsdk/h$ac;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$af;->aHJ()Lcom/tencent/mm/pluginsdk/Hclz$ac;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 1346
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$af;->aHJ()Lcom/tencent/mm/pluginsdk/h$ac;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$af;->aHJ()Lcom/tencent/mm/pluginsdk/Hclz$ac;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$ac;->amE()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$ac;->amE()V
 
     .line 1350
     :cond_0
@@ -1368,14 +1368,14 @@
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
     .line 1370
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$af;->aHJ()Lcom/tencent/mm/pluginsdk/h$ac;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$af;->aHJ()Lcom/tencent/mm/pluginsdk/Hclz$ac;
 
     move-result-object v0
 
     if-eqz v0, :cond_2
 
     .line 1371
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$af;->aHJ()Lcom/tencent/mm/pluginsdk/h$ac;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$af;->aHJ()Lcom/tencent/mm/pluginsdk/Hclz$ac;
 
     move-result-object v0
 
@@ -1383,14 +1383,14 @@
 
     invoke-direct {v1}, Lcom/tencent/mm/platformtools/Tclz$1;-><init>()V
 
-    invoke-interface {v0, p0, v1}, Lcom/tencent/mm/pluginsdk/h$ac;->a(Landroid/content/Context;Landroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/pluginsdk/h$aa;
+    invoke-interface {v0, p0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$ac;->a(Landroid/content/Context;Landroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/pluginsdk/Hclz$aa;
 
     move-result-object v0
 
     .line 1376
     const/4 v1, 0x3
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$aa;->update(I)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$aa;->update(I)V
 
     goto :goto_0
 .end method

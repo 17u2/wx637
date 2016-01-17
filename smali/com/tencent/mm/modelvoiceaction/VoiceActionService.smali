@@ -63,7 +63,7 @@
     move-result-object v0
 
     .line 39
-    invoke-static {v8}, Lcom/tencent/mm/pluginsdk/a;->rE(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v8}, Lcom/tencent/mm/pluginsdk/Aclz;->rE(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -90,7 +90,7 @@
     move-result-object v1
 
     .line 42
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHC()Lcom/tencent/mm/pluginsdk/h$k;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHC()Lcom/tencent/mm/pluginsdk/Hclz$k;
 
     move-result-object v2
 
@@ -98,7 +98,7 @@
 
     move-result v3
 
-    invoke-interface {v2, v1, v0, v3}, Lcom/tencent/mm/pluginsdk/h$k;->q(Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-interface {v2, v1, v0, v3}, Lcom/tencent/mm/pluginsdk/Hclz$k;->q(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 45
     :try_start_0

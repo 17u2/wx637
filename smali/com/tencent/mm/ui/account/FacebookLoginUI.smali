@@ -648,13 +648,13 @@
     sparse-switch p2, :sswitch_data_0
 
     :cond_b
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
     iget-object v3, v3, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-interface {v0, v3, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/e;->a(Landroid/content/Context;IILjava/lang/String;)Z
+    invoke-interface {v0, v3, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/Eclz;->a(Landroid/content/Context;IILjava/lang/String;)Z
 
     move-result v0
 
@@ -865,9 +865,9 @@
 
     invoke-virtual {v0, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
-    sget-object v3, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v3, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
-    invoke-interface {v3, v0, p0}, Lcom/tencent/mm/pluginsdk/f;->k(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v3, v0, p0}, Lcom/tencent/mm/pluginsdk/Fclz;->k(Landroid/content/Intent;Landroid/content/Context;)V
 
     :cond_e
     move v0, v2
@@ -969,9 +969,9 @@
     invoke-virtual {p0, v0}, Lcom/tencent/mm/ui/account/FacebookLoginUI;->pp(I)V
 
     .line 71
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/e;->kT()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Eclz;->kT()V
 
     .line 72
     invoke-static {}, Lcom/tencent/mm/plugin/a/b;->Fe()Ljava/lang/String;

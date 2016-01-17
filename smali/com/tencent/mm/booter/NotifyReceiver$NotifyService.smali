@@ -529,11 +529,11 @@
 
     invoke-virtual {v0}, Lcom/tencent/mm/z/Hclz;->run()V
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->aIz()Lcom/tencent/mm/pluginsdk/model/app/ag$a;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->aIz()Lcom/tencent/mm/pluginsdk/model/app/AGclz$a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/app/ag$a;->run()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/app/AGclz$a;->run()V
 
     invoke-static {}, Lcom/tencent/mm/app/plugin/voicereminder/a/d;->ly()Lcom/tencent/mm/app/plugin/voicereminder/a/j;
 

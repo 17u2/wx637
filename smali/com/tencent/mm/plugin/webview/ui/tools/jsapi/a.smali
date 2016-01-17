@@ -189,7 +189,7 @@
     goto :goto_0
 
     :pswitch_0
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v0
 
@@ -209,14 +209,14 @@
 
     const-string/jumbo v8, ""
 
-    invoke-interface/range {v0 .. v8}, Lcom/tencent/mm/pluginsdk/h$f;->a(Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
+    invoke-interface/range {v0 .. v8}, Lcom/tencent/mm/pluginsdk/Hclz$f;->a(Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 
     move-result-object v0
 
     goto :goto_1
 
     :pswitch_1
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v0
 
@@ -236,7 +236,7 @@
 
     const-string/jumbo v8, ""
 
-    invoke-interface/range {v0 .. v8}, Lcom/tencent/mm/pluginsdk/h$f;->a(Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
+    invoke-interface/range {v0 .. v8}, Lcom/tencent/mm/pluginsdk/Hclz$f;->a(Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 
     move-result-object v0
 

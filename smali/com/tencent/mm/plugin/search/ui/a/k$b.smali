@@ -195,7 +195,7 @@
 
     iget-object v1, p3, Lcom/tencent/mm/plugin/search/ui/a/k;->username:Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
 
     .line 83
     :goto_0
@@ -284,9 +284,9 @@
     move-result-object v0
 
     .line 96
-    sget-object v1, Lcom/tencent/mm/plugin/search/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v1, Lcom/tencent/mm/plugin/search/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
-    invoke-interface {v1, v0, p1}, Lcom/tencent/mm/pluginsdk/f;->e(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v1, v0, p1}, Lcom/tencent/mm/pluginsdk/Fclz;->e(Landroid/content/Intent;Landroid/content/Context;)V
 
     .line 97
     return v3

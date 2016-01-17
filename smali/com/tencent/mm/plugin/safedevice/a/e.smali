@@ -245,9 +245,9 @@
     invoke-virtual {v0, v2}, Lcom/tencent/mm/ae/Cclz;->b(Lcom/tencent/mm/ae/Bclz$q;)V
 
     .line 50
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/e;->kO()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Eclz;->kO()V
 
     goto :goto_0
 

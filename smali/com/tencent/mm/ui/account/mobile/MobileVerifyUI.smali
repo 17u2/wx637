@@ -34,7 +34,7 @@
 
 .field private hnT:[Ljava/lang/String;
 
-.field private jCw:Lcom/tencent/mm/pluginsdk/g/a;
+.field private jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
 .field protected jDc:Z
 
@@ -1504,14 +1504,14 @@
 
     .line 694
     :cond_4
-    new-instance v0, Lcom/tencent/mm/pluginsdk/g/o;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/g/Oclz;
 
-    invoke-direct {v0, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/g/o;-><init>(IILjava/lang/String;)V
+    invoke-direct {v0, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/g/Oclz;-><init>(IILjava/lang/String;)V
 
     .line 695
-    iget-object v3, p0, Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI;->jCw:Lcom/tencent/mm/pluginsdk/g/a;
+    iget-object v3, p0, Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI;->jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
-    invoke-virtual {v3, p0, v0}, Lcom/tencent/mm/pluginsdk/g/a;->a(Landroid/app/Activity;Lcom/tencent/mm/pluginsdk/g/o;)Z
+    invoke-virtual {v3, p0, v0}, Lcom/tencent/mm/pluginsdk/g/Aclz;->a(Landroid/app/Activity;Lcom/tencent/mm/pluginsdk/g/Oclz;)Z
 
     move-result v0
 
@@ -1825,11 +1825,11 @@
 
     .line 219
     :goto_2
-    new-instance v0, Lcom/tencent/mm/pluginsdk/g/a;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/g/Aclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/g/a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/g/Aclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI;->jCw:Lcom/tencent/mm/pluginsdk/g/a;
+    iput-object v0, p0, Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI;->jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
     goto/16 :goto_0
 
@@ -1947,14 +1947,14 @@
 
     .line 228
     :cond_0
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI;->jCw:Lcom/tencent/mm/pluginsdk/g/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI;->jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
     if-eqz v0, :cond_1
 
     .line 229
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI;->jCw:Lcom/tencent/mm/pluginsdk/g/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI;->jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/g/a;->close()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/g/Aclz;->close()V
 
     .line 231
     :cond_1

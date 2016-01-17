@@ -170,9 +170,9 @@
     invoke-virtual {v0, v2}, Lcom/tencent/mm/ae/Cclz;->b(Lcom/tencent/mm/ae/Bclz$q;)V
 
     .line 446
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/e;->kO()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Eclz;->kO()V
 
     .line 448
     :cond_0
@@ -848,9 +848,9 @@
     if-eqz v0, :cond_0
 
     .line 268
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
-    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/f;->ae(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/Fclz;->ae(Landroid/content/Context;)Landroid/content/Intent;
 
     move-result-object v0
 

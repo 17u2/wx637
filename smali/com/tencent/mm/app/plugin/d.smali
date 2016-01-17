@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/h$j;
+.implements Lcom/tencent/mm/pluginsdk/Hclz$j;
 
 
 # direct methods
@@ -168,7 +168,7 @@
     move-result-object v0
 
     .line 134
-    invoke-static {p1, v0, p3}, Lcom/tencent/mm/pluginsdk/ui/d/g;->b(Landroid/content/Context;Ljava/lang/String;Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-static {p1, v0, p3}, Lcom/tencent/mm/pluginsdk/ui/d/Gclz;->b(Landroid/content/Context;Ljava/lang/String;Landroid/content/DialogInterface$OnDismissListener;)V
 
     :goto_1
     move v0, v1
@@ -210,7 +210,7 @@
     invoke-virtual {v2, v3, v4}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
     .line 139
-    invoke-static {p1, v0, p3, v2}, Lcom/tencent/mm/pluginsdk/ui/d/g;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/DialogInterface$OnDismissListener;Landroid/os/Bundle;)V
+    invoke-static {p1, v0, p3, v2}, Lcom/tencent/mm/pluginsdk/ui/d/Gclz;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/DialogInterface$OnDismissListener;Landroid/os/Bundle;)V
 
     goto :goto_1
 .end method
@@ -270,7 +270,7 @@
 
     .line 26
     .line 28
-    invoke-static {p1, p2}, Lcom/tencent/mm/pluginsdk/ui/d/a;->aH(Landroid/content/Context;Ljava/lang/String;)Ljava/util/ArrayList;
+    invoke-static {p1, p2}, Lcom/tencent/mm/pluginsdk/ui/d/Aclz;->aH(Landroid/content/Context;Ljava/lang/String;)Ljava/util/ArrayList;
 
     move-result-object v0
 
@@ -311,24 +311,24 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/applet/g;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;
 
     const/4 v2, 0x0
 
-    iget v4, v0, Lcom/tencent/mm/pluginsdk/ui/applet/g;->bRl:I
+    iget v4, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->bRl:I
 
-    iget v5, v0, Lcom/tencent/mm/pluginsdk/ui/applet/g;->bRm:I
+    iget v5, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->bRm:I
 
-    iget v6, v0, Lcom/tencent/mm/pluginsdk/ui/applet/g;->type:I
+    iget v6, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->type:I
 
     sparse-switch v6, :sswitch_data_0
 
     :goto_2
     if-eqz v2, :cond_2
 
-    iget-object v6, v0, Lcom/tencent/mm/pluginsdk/ui/applet/g;->url:Ljava/lang/String;
+    iget-object v6, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->url:Ljava/lang/String;
 
-    iget v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/g;->type:I
+    iget v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->type:I
 
     if-ne v0, v9, :cond_1
 

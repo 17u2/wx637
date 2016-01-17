@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method final a(Lcom/tencent/mm/pluginsdk/ui/applet/g;Lcom/tencent/mm/pluginsdk/ui/d/b;)Z
+.method final a(Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;Lcom/tencent/mm/pluginsdk/ui/d/Bclz;)Z
     .locals 7
 
     .prologue
@@ -52,14 +52,14 @@
     const/4 v1, 0x0
 
     .line 2101
-    iget v2, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->type:I
+    iget v2, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->type:I
 
     const/16 v3, 0x22
 
     if-ne v2, v3, :cond_0
 
     .line 2102
-    iget-object v2, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->url:Ljava/lang/String;
+    iget-object v2, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->url:Ljava/lang/String;
 
     invoke-virtual {v2}, Ljava/lang/String;->trim()Ljava/lang/String;
 
@@ -82,7 +82,7 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    iget-object v6, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->url:Ljava/lang/String;
+    iget-object v6, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->url:Ljava/lang/String;
 
     aput-object v6, v5, v1
 
@@ -95,7 +95,7 @@
 
     move-result-object v1
 
-    new-instance v3, Lcom/tencent/mm/pluginsdk/model/j;
+    new-instance v3, Lcom/tencent/mm/pluginsdk/model/Jclz;
 
     invoke-static {}, Lcom/tencent/mm/compatible/d/Pclz;->oN()Ljava/lang/String;
 
@@ -103,7 +103,7 @@
 
     const/16 v5, 0x8
 
-    invoke-direct {v3, v4, v2, v5}, Lcom/tencent/mm/pluginsdk/model/j;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct {v3, v4, v2, v5}, Lcom/tencent/mm/pluginsdk/model/Jclz;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
 
     invoke-virtual {v1, v3}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
@@ -117,7 +117,7 @@
     goto :goto_0
 .end method
 
-.method final a(Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/j;Landroid/os/Bundle;)Z
+.method final a(Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/Jclz;Landroid/os/Bundle;)Z
     .locals 1
 
     .prologue
@@ -127,7 +127,7 @@
     return v0
 .end method
 
-.method final aY(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/ui/applet/g;
+.method final aY(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;
     .locals 3
 
     .prologue
@@ -147,11 +147,11 @@
     if-eqz v0, :cond_0
 
     .line 2083
-    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/applet/g;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;
 
     const/16 v2, 0x22
 
-    invoke-direct {v0, p1, v2, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/g;-><init>(Ljava/lang/String;ILjava/lang/Object;)V
+    invoke-direct {v0, p1, v2, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;-><init>(Ljava/lang/String;ILjava/lang/Object;)V
 
     .line 2086
     :goto_0

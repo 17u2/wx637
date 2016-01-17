@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/ui/Fclz$8;
-.super Lcom/tencent/mm/pluginsdk/c/a;
+.super Lcom/tencent/mm/pluginsdk/c/Aclz;
 .source "SourceFile"
 
 
@@ -28,7 +28,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/pluginsdk/c/a;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/pluginsdk/c/Aclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 

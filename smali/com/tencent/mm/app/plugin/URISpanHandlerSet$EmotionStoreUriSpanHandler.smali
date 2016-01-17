@@ -43,12 +43,12 @@
 
 
 # virtual methods
-.method final a(Lcom/tencent/mm/pluginsdk/ui/applet/g;Lcom/tencent/mm/pluginsdk/ui/d/b;)Z
+.method final a(Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;Lcom/tencent/mm/pluginsdk/ui/d/Bclz;)Z
     .locals 4
 
     .prologue
     .line 1366
-    iget v0, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->type:I
+    iget v0, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->type:I
 
     const/16 v1, 0x1d
 
@@ -58,7 +58,7 @@
     if-eqz p2, :cond_0
 
     .line 1368
-    invoke-interface {p2, p1}, Lcom/tencent/mm/pluginsdk/ui/d/b;->a(Lcom/tencent/mm/pluginsdk/ui/applet/g;)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Lcom/tencent/mm/pluginsdk/ui/d/Bclz;->a(Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;)Ljava/lang/Object;
 
     .line 1370
     :cond_0
@@ -78,7 +78,7 @@
 
     const-class v0, Ljava/lang/String;
 
-    invoke-virtual {p1, v0}, Lcom/tencent/mm/pluginsdk/ui/applet/g;->c(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->c(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -119,7 +119,7 @@
     goto :goto_0
 .end method
 
-.method final a(Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/j;Landroid/os/Bundle;)Z
+.method final a(Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/Jclz;Landroid/os/Bundle;)Z
     .locals 1
 
     .prologue
@@ -129,7 +129,7 @@
     return v0
 .end method
 
-.method final aY(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/ui/applet/g;
+.method final aY(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;
     .locals 3
 
     .prologue
@@ -170,11 +170,11 @@
 
     .line 1348
     :cond_0
-    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/applet/g;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;
 
     const/16 v2, 0x1d
 
-    invoke-direct {v1, p1, v2, v0}, Lcom/tencent/mm/pluginsdk/ui/applet/g;-><init>(Ljava/lang/String;ILjava/lang/Object;)V
+    invoke-direct {v1, p1, v2, v0}, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;-><init>(Ljava/lang/String;ILjava/lang/Object;)V
 
     move-object v0, v1
 

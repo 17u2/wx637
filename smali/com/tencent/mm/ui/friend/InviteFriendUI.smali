@@ -574,13 +574,13 @@
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 209
-    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/tools/d;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/tools/Dclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI;->kzs:Ljava/lang/String;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI;->kzs:Ljava/lang/String;
 
-    invoke-direct {v0, v1, v2, v9, v9}, Lcom/tencent/mm/pluginsdk/ui/tools/d;-><init>(Ljava/lang/String;Ljava/lang/String;II)V
+    invoke-direct {v0, v1, v2, v9, v9}, Lcom/tencent/mm/pluginsdk/ui/tools/Dclz;-><init>(Ljava/lang/String;Ljava/lang/String;II)V
 
     invoke-static {v0}, Lcom/tencent/mm/platformtools/Kclz;->a(Lcom/tencent/mm/platformtools/Jclz;)Landroid/graphics/Bitmap;
 

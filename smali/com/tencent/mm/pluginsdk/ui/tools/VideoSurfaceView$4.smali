@@ -79,7 +79,7 @@
     .line 208
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSurfaceView$4;->ign:Lcom/tencent/mm/pluginsdk/ui/tools/VideoSurfaceView;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSurfaceView;->e(Lcom/tencent/mm/pluginsdk/ui/tools/VideoSurfaceView;)Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSurfaceView;->e(Lcom/tencent/mm/pluginsdk/ui/tools/VideoSurfaceView;)Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
     move-result-object v0
 
@@ -88,11 +88,11 @@
     .line 209
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSurfaceView$4;->ign:Lcom/tencent/mm/pluginsdk/ui/tools/VideoSurfaceView;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSurfaceView;->e(Lcom/tencent/mm/pluginsdk/ui/tools/VideoSurfaceView;)Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSurfaceView;->e(Lcom/tencent/mm/pluginsdk/ui/tools/VideoSurfaceView;)Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
     move-result-object v0
 
-    invoke-interface {v0, p2, p3}, Lcom/tencent/mm/pluginsdk/ui/tools/f$a;->ay(II)V
+    invoke-interface {v0, p2, p3}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;->ay(II)V
 
     .line 211
     :cond_0

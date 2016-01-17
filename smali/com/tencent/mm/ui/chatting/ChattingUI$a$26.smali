@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/ui/chatting/ChattingUI$a$26;
-.super Lcom/tencent/mm/pluginsdk/c/b;
+.super Lcom/tencent/mm/pluginsdk/c/Bclz;
 .source "SourceFile"
 
 
@@ -28,7 +28,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/tencent/mm/pluginsdk/c/b;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/tencent/mm/pluginsdk/c/Bclz;-><init>(I)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 

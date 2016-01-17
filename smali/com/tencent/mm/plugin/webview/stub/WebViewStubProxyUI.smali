@@ -826,12 +826,12 @@
 
     .line 173
     :pswitch_4
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$a;->hJU:Lcom/tencent/mm/pluginsdk/h$j;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJU:Lcom/tencent/mm/pluginsdk/Hclz$j;
 
     if-eqz v1, :cond_1
 
     .line 174
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$a;->hJU:Lcom/tencent/mm/pluginsdk/h$j;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJU:Lcom/tencent/mm/pluginsdk/Hclz$j;
 
     const-string/jumbo v2, "proxyui_handle_event_url"
 
@@ -841,7 +841,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubProxyUI;->hBe:Landroid/content/DialogInterface$OnDismissListener;
 
-    invoke-interface {v1, p0, v0, v2}, Lcom/tencent/mm/pluginsdk/h$j;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/DialogInterface$OnDismissListener;)Z
+    invoke-interface {v1, p0, v0, v2}, Lcom/tencent/mm/pluginsdk/Hclz$j;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/DialogInterface$OnDismissListener;)Z
 
     goto/16 :goto_0
 
@@ -924,9 +924,9 @@
     invoke-virtual {v0, v1}, Landroid/content/Intent;->putExtras(Landroid/content/Intent;)Landroid/content/Intent;
 
     .line 199
-    sget-object v1, Lcom/tencent/mm/plugin/webview/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v1, Lcom/tencent/mm/plugin/webview/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
-    invoke-interface {v1, p0, v0}, Lcom/tencent/mm/pluginsdk/f;->c(Landroid/content/Context;Landroid/content/Intent;)V
+    invoke-interface {v1, p0, v0}, Lcom/tencent/mm/pluginsdk/Fclz;->c(Landroid/content/Context;Landroid/content/Intent;)V
 
     .line 200
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/webview/stub/WebViewStubProxyUI;->finish()V
@@ -980,7 +980,7 @@
     .line 213
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubProxyUI;->hBe:Landroid/content/DialogInterface$OnDismissListener;
 
-    invoke-static {p0, v0, v2, v1}, Lcom/tencent/mm/pluginsdk/ui/d/g;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/DialogInterface$OnDismissListener;Landroid/os/Bundle;)V
+    invoke-static {p0, v0, v2, v1}, Lcom/tencent/mm/pluginsdk/ui/d/Gclz;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/DialogInterface$OnDismissListener;Landroid/os/Bundle;)V
 
     goto/16 :goto_0
 

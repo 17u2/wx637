@@ -131,11 +131,11 @@
     iget-object v3, v0, Lcom/tencent/mm/d/b/Oclz;->field_contactLabelIds:Ljava/lang/String;
 
     .line 71
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v0
 
-    invoke-interface {v0, v3}, Lcom/tencent/mm/pluginsdk/h$e;->pr(Ljava/lang/String;)Ljava/util/List;
+    invoke-interface {v0, v3}, Lcom/tencent/mm/pluginsdk/Hclz$e;->pr(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
@@ -180,7 +180,7 @@
 
     move-result-object v0
 
-    invoke-static {v3, v0}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
+    invoke-static {v3, v0}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
 
     move-result-object v0
 
@@ -234,11 +234,11 @@
     iget-object v3, v0, Lcom/tencent/mm/storage/AKclz;->field_contactLabels:Ljava/lang/String;
 
     .line 92
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v0
 
-    invoke-interface {v0, v3}, Lcom/tencent/mm/pluginsdk/h$e;->pq(Ljava/lang/String;)Ljava/util/List;
+    invoke-interface {v0, v3}, Lcom/tencent/mm/pluginsdk/Hclz$e;->pq(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
@@ -283,7 +283,7 @@
 
     move-result-object v0
 
-    invoke-static {v3, v0}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
+    invoke-static {v3, v0}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
 
     move-result-object v0
 

@@ -1503,7 +1503,7 @@
     invoke-static/range {v3 .. v8}, Lcom/tencent/mm/sdk/platformtools/Dclz;->b(Ljava/lang/String;IILandroid/graphics/Bitmap$CompressFormat;ILjava/lang/String;)Z
 
     .line 583
-    new-instance v21, Lcom/tencent/mm/pluginsdk/model/l;
+    new-instance v21, Lcom/tencent/mm/pluginsdk/model/Lclz;
 
     move-object/from16 v0, p0
 
@@ -1531,7 +1531,7 @@
 
     move-object/from16 v0, v21
 
-    invoke-direct {v0, v3, v4}, Lcom/tencent/mm/pluginsdk/model/l;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v0, v3, v4}, Lcom/tencent/mm/pluginsdk/model/Lclz;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 585
     new-instance v3, Lcom/tencent/mm/ui/account/mobile/Iclz$5;
@@ -1564,7 +1564,7 @@
 
     move-object/from16 v0, v21
 
-    invoke-virtual {v0, v3, v12}, Lcom/tencent/mm/pluginsdk/model/l;->a(Ljava/lang/Runnable;Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v3, v12}, Lcom/tencent/mm/pluginsdk/model/Lclz;->a(Ljava/lang/Runnable;Ljava/lang/Runnable;)Z
 
     .line 738
     :cond_13
@@ -1695,13 +1695,13 @@
     invoke-virtual {v3, v4, v11}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 717
-    sget-object v4, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v4, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     move-object/from16 v0, p0
 
     iget-object v5, v0, Lcom/tencent/mm/ui/account/mobile/Iclz;->jHC:Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI;
 
-    invoke-interface {v4, v5}, Lcom/tencent/mm/pluginsdk/f;->ae(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-interface {v4, v5}, Lcom/tencent/mm/pluginsdk/Fclz;->ae(Landroid/content/Context;)Landroid/content/Intent;
 
     move-result-object v4
 
@@ -1759,13 +1759,13 @@
 
     .line 723
     :cond_18
-    sget-object v3, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v3, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     move-object/from16 v0, p0
 
     iget-object v4, v0, Lcom/tencent/mm/ui/account/mobile/Iclz;->jHC:Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI;
 
-    invoke-interface {v3, v4}, Lcom/tencent/mm/pluginsdk/f;->ae(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-interface {v3, v4}, Lcom/tencent/mm/pluginsdk/Fclz;->ae(Landroid/content/Context;)Landroid/content/Intent;
 
     move-result-object v3
 

@@ -117,11 +117,11 @@
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 183
-    sget-object v1, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v1, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI$3;->jXT:Lcom/tencent/mm/ui/bindmobile/FindMContactIntroUI;
 
-    invoke-interface {v1, v2, v0}, Lcom/tencent/mm/pluginsdk/f;->a(Lcom/tencent/mm/ui/MMWizardActivity;Landroid/content/Intent;)V
+    invoke-interface {v1, v2, v0}, Lcom/tencent/mm/pluginsdk/Fclz;->a(Lcom/tencent/mm/ui/MMWizardActivity;Landroid/content/Intent;)V
 
     .line 184
     const-string/jumbo v0, "R300_300_phone"

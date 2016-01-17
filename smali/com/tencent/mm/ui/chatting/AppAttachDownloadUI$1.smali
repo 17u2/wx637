@@ -50,7 +50,7 @@
     .line 227
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI$1;->jZo:Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->a(Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;)Lcom/tencent/mm/pluginsdk/model/app/v;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->a(Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;)Lcom/tencent/mm/pluginsdk/model/app/Vclz;
 
     move-result-object v0
 
@@ -63,7 +63,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI$1;->jZo:Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->a(Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;)Lcom/tencent/mm/pluginsdk/model/app/v;
+    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->a(Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;)Lcom/tencent/mm/pluginsdk/model/app/Vclz;
 
     move-result-object v1
 

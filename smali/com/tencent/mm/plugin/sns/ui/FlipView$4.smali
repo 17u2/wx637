@@ -111,7 +111,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->h(Ljava/lang/String;Landroid/content/Context;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->h(Ljava/lang/String;Landroid/content/Context;)V
 
     goto :goto_0
 
@@ -144,7 +144,7 @@
     invoke-virtual {v0, v1, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 397
-    sget-object v1, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v1, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView$4;->gsk:Lcom/tencent/mm/plugin/sns/ui/FlipView;
 
@@ -152,7 +152,7 @@
 
     move-result-object v2
 
-    invoke-interface {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/f;->m(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/Fclz;->m(Landroid/content/Intent;Landroid/content/Context;)V
 
     goto :goto_0
 
@@ -381,7 +381,7 @@
     invoke-virtual {v1, v2, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 440
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/FlipView$4;->gsk:Lcom/tencent/mm/plugin/sns/ui/FlipView;
 
@@ -389,7 +389,7 @@
 
     move-result-object v2
 
-    invoke-interface {v0, v2, v1}, Lcom/tencent/mm/pluginsdk/f;->c(Landroid/content/Context;Landroid/content/Intent;)V
+    invoke-interface {v0, v2, v1}, Lcom/tencent/mm/pluginsdk/Fclz;->c(Landroid/content/Context;Landroid/content/Intent;)V
 
     goto/16 :goto_0
 

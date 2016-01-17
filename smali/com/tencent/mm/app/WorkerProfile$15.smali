@@ -98,7 +98,7 @@
 
     aget-object v3, v3, v7
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/pluginsdk/model/app/n;->aE(Landroid/content/Context;Ljava/lang/String;)[Landroid/content/pm/Signature;
+    invoke-static {v0, v3}, Lcom/tencent/mm/pluginsdk/model/app/Nclz;->aE(Landroid/content/Context;Ljava/lang/String;)[Landroid/content/pm/Signature;
 
     move-result-object v0
 

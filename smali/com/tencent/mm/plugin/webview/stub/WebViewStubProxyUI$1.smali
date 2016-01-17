@@ -104,7 +104,7 @@
     invoke-virtual {v0}, Lcom/tencent/mm/plugin/webview/stub/WebViewStubProxyUI;->finish()V
 
     .line 115
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJI:Lcom/tencent/mm/pluginsdk/h$i;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJI:Lcom/tencent/mm/pluginsdk/Hclz$i;
 
     .line 116
     if-eqz v0, :cond_0
@@ -112,7 +112,7 @@
     .line 117
     iget-object v1, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubProxyUI$1;->hBg:Lcom/tencent/mm/plugin/webview/stub/WebViewStubProxyUI;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$i;->ac(Landroid/content/Context;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$i;->ac(Landroid/content/Context;)V
 
     goto :goto_0
 

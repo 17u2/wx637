@@ -274,7 +274,7 @@
 
     iget-object v0, v1, Lcom/tencent/mm/plugin/sight/encode/ui/MainSightForwardContainerView;->gaG:Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraView;
 
-    sget v4, Lcom/tencent/mm/pluginsdk/j/a;->hPI:I
+    sget v4, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPI:I
 
     invoke-virtual {v0, v4}, Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraView;->setTargetWidth(I)V
 

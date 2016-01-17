@@ -12,7 +12,7 @@
 
 .field public hKp:J
 
-.field private hKy:Lcom/tencent/mm/pluginsdk/model/downloader/k;
+.field private hKy:Lcom/tencent/mm/pluginsdk/model/downloader/Kclz;
 
 
 # direct methods
@@ -156,7 +156,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI$4;-><init>(Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->hKy:Lcom/tencent/mm/pluginsdk/model/downloader/k;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->hKy:Lcom/tencent/mm/pluginsdk/model/downloader/Kclz;
 
     .line 127
     return-void
@@ -196,17 +196,17 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 133
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/downloader/b;->aHO()Lcom/tencent/mm/pluginsdk/downloader/b;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/downloader/Bclz;->aHO()Lcom/tencent/mm/pluginsdk/downloader/Bclz;
 
     move-result-object v0
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/downloader/b;->hKo:Lcom/tencent/mm/pluginsdk/downloader/a;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/downloader/Bclz;->hKo:Lcom/tencent/mm/pluginsdk/downloader/Aclz;
 
-    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->hKy:Lcom/tencent/mm/pluginsdk/model/downloader/k;
+    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->hKy:Lcom/tencent/mm/pluginsdk/model/downloader/Kclz;
 
     if-eqz v2, :cond_1
 
-    iget-object v0, v1, Lcom/tencent/mm/pluginsdk/downloader/a;->bfI:Ljava/util/List;
+    iget-object v0, v1, Lcom/tencent/mm/pluginsdk/downloader/Aclz;->bfI:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -229,7 +229,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/model/downloader/k;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/model/downloader/Kclz;
 
     if-ne v0, v2, :cond_0
 
@@ -264,7 +264,7 @@
 
     .line 133
     :cond_3
-    iget-object v0, v1, Lcom/tencent/mm/pluginsdk/downloader/a;->bfI:Ljava/util/List;
+    iget-object v0, v1, Lcom/tencent/mm/pluginsdk/downloader/Aclz;->bfI:Ljava/util/List;
 
     new-instance v1, Ljava/lang/ref/WeakReference;
 
@@ -295,17 +295,17 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 157
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/downloader/b;->aHO()Lcom/tencent/mm/pluginsdk/downloader/b;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/downloader/Bclz;->aHO()Lcom/tencent/mm/pluginsdk/downloader/Bclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/downloader/b;->hKo:Lcom/tencent/mm/pluginsdk/downloader/a;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/downloader/Bclz;->hKo:Lcom/tencent/mm/pluginsdk/downloader/Aclz;
 
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->hKy:Lcom/tencent/mm/pluginsdk/model/downloader/k;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->hKy:Lcom/tencent/mm/pluginsdk/model/downloader/Kclz;
 
     if-eqz v1, :cond_2
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/downloader/a;->bfI:Ljava/util/List;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/downloader/Aclz;->bfI:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -329,7 +329,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/model/downloader/k;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/model/downloader/Kclz;
 
     if-nez v0, :cond_1
 

@@ -60,7 +60,7 @@
 
     .prologue
     .line 170
-    new-instance v0, Lcom/tencent/mm/pluginsdk/model/app/ad;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/model/app/ADclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/Jclz$2;->kaj:Lcom/tencent/mm/m/Aclz$a;
 
@@ -70,14 +70,14 @@
 
     const-string/jumbo v3, "1"
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/model/app/ad;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/model/app/ADclz;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 171
-    new-instance v1, Lcom/tencent/mm/pluginsdk/model/app/u;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/model/app/Uclz;
 
     const/4 v2, 0x2
 
-    invoke-direct {v1, v2, v0}, Lcom/tencent/mm/pluginsdk/model/app/u;-><init>(ILcom/tencent/mm/pluginsdk/model/app/t;)V
+    invoke-direct {v1, v2, v0}, Lcom/tencent/mm/pluginsdk/model/app/Uclz;-><init>(ILcom/tencent/mm/pluginsdk/model/app/Tclz;)V
 
     .line 172
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/Jclz$2;->kah:Lcom/tencent/mm/ui/chatting/Jclz;
@@ -85,7 +85,7 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/ui/chatting/Jclz;->a(Lcom/tencent/mm/ui/chatting/Jclz;Lcom/tencent/mm/q/Jclz;)V
 
     .line 173
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJN:Lcom/tencent/mm/pluginsdk/h$o;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJN:Lcom/tencent/mm/pluginsdk/Hclz$o;
 
     .line 174
     if-eqz v0, :cond_0
@@ -117,7 +117,7 @@
 
     const/4 v6, 0x1
 
-    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/h$o;->a(Ljava/lang/String;Ljava/lang/String;IILjava/lang/String;I)V
+    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/Hclz$o;->a(Ljava/lang/String;Ljava/lang/String;IILjava/lang/String;I)V
 
     .line 177
     :cond_0

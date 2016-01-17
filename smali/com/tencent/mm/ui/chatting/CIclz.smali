@@ -99,7 +99,7 @@
 
     iget-wide v2, p4, Lcom/tencent/mm/d/b/BAclz;->field_createTime:J
 
-    invoke-static {v1, v2, v3}, Lcom/tencent/mm/pluginsdk/g/n;->k(Landroid/content/Context;J)Ljava/lang/CharSequence;
+    invoke-static {v1, v2, v3}, Lcom/tencent/mm/pluginsdk/g/Nclz;->k(Landroid/content/Context;J)Ljava/lang/CharSequence;
 
     move-result-object v1
 

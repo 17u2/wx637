@@ -151,11 +151,11 @@
     :try_start_1
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter$2;->hWt:Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;
 
-    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->j(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/pluginsdk/ui/chat/b;
+    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->j(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/pluginsdk/ui/chat/Bclz;
 
     move-result-object v1
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/chat/b;->qc(Ljava/lang/String;)Z
+    invoke-interface {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/chat/Bclz;->qc(Ljava/lang/String;)Z
 
     move-result v0
 

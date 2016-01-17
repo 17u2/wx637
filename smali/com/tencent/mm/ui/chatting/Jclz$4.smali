@@ -61,7 +61,7 @@
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 
     .line 201
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->YE()Lcom/tencent/mm/pluginsdk/model/app/d;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->YE()Lcom/tencent/mm/pluginsdk/model/app/Dclz;
 
     move-result-object v0
 
@@ -69,7 +69,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/Jclz$4;->kah:Lcom/tencent/mm/ui/chatting/Jclz;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/d;->b(ILcom/tencent/mm/pluginsdk/model/app/q;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/Dclz;->b(ILcom/tencent/mm/pluginsdk/model/app/Qclz;)V
 
     .line 202
     return-void

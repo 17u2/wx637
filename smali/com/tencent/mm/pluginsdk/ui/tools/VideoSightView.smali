@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/ui/tools/f;
+.implements Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
 
 # instance fields
@@ -706,12 +706,12 @@
     return-void
 .end method
 
-.method public setVideoCallback(Lcom/tencent/mm/pluginsdk/ui/tools/f$a;)V
+.method public setVideoCallback(Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;)V
     .locals 0
 
     .prologue
     .line 144
-    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
     .line 145
     return-void
@@ -736,7 +736,7 @@
 
     aput-object p1, v5, v2
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
     if-nez v0, :cond_1
 
@@ -758,14 +758,14 @@
     iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fVN:Ljava/lang/String;
 
     .line 121
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
     if-eqz v0, :cond_0
 
     .line 122
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f$a;->Vh()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;->Vh()V
 
     .line 124
     :cond_0

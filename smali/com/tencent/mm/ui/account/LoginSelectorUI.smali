@@ -113,9 +113,9 @@
     if-eqz v0, :cond_0
 
     .line 78
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/e;->h(Landroid/app/Activity;)V
+    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/Eclz;->h(Landroid/app/Activity;)V
 
     .line 82
     :goto_0
@@ -123,9 +123,9 @@
 
     .line 80
     :cond_0
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/e;->ab(Landroid/content/Context;)V
+    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/Eclz;->ab(Landroid/content/Context;)V
 
     goto :goto_0
 .end method
@@ -278,9 +278,9 @@
     invoke-virtual {v1, v0, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     .line 116
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
-    invoke-interface {v0, v1, p0}, Lcom/tencent/mm/pluginsdk/f;->k(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v0, v1, p0}, Lcom/tencent/mm/pluginsdk/Fclz;->k(Landroid/content/Intent;Landroid/content/Context;)V
 
     goto :goto_0
 
@@ -319,9 +319,9 @@
     invoke-virtual {p0, v0}, Lcom/tencent/mm/ui/account/LoginSelectorUI;->po(I)V
 
     .line 40
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/e;->kT()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Eclz;->kT()V
 
     .line 41
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->ti()V
@@ -353,9 +353,9 @@
     if-nez v0, :cond_0
 
     .line 87
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
-    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/f;->ae(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/Fclz;->ae(Landroid/content/Context;)Landroid/content/Intent;
 
     move-result-object v0
 

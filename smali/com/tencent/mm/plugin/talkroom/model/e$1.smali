@@ -24,20 +24,20 @@
 
 .field final synthetic erM:Ljava/lang/String;
 
-.field final synthetic gOk:Lcom/tencent/mm/pluginsdk/h$s;
+.field final synthetic gOk:Lcom/tencent/mm/pluginsdk/Hclz$s;
 
 .field final synthetic gOl:Lcom/tencent/mm/plugin/talkroom/model/e;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/talkroom/model/e;Lcom/tencent/mm/pluginsdk/h$s;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/talkroom/model/e;Lcom/tencent/mm/pluginsdk/Hclz$s;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
     .prologue
     .line 118
     iput-object p1, p0, Lcom/tencent/mm/plugin/talkroom/model/e$1;->gOl:Lcom/tencent/mm/plugin/talkroom/model/e;
 
-    iput-object p2, p0, Lcom/tencent/mm/plugin/talkroom/model/e$1;->gOk:Lcom/tencent/mm/pluginsdk/h$s;
+    iput-object p2, p0, Lcom/tencent/mm/plugin/talkroom/model/e$1;->gOk:Lcom/tencent/mm/pluginsdk/Hclz$s;
 
     iput-object p3, p0, Lcom/tencent/mm/plugin/talkroom/model/e$1;->bwA:Ljava/lang/String;
 
@@ -64,7 +64,7 @@
 
     .prologue
     .line 121
-    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/model/e$1;->gOk:Lcom/tencent/mm/pluginsdk/h$s;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/model/e$1;->gOk:Lcom/tencent/mm/pluginsdk/Hclz$s;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/talkroom/model/e$1;->bwA:Ljava/lang/String;
 
@@ -72,7 +72,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/plugin/talkroom/model/e$1;->erM:Ljava/lang/String;
 
-    invoke-interface {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/h$s;->o(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-interface {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/Hclz$s;->o(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 122
     return-void

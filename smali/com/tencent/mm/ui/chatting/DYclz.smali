@@ -302,7 +302,7 @@
     :goto_3
     iget-object v0, p3, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/CJclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/e;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
     if-eqz v0, :cond_2
 
@@ -311,18 +311,18 @@
 
     iget-object v1, p3, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/CJclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/e;
+    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
-    iget v1, v1, Lcom/tencent/mm/pluginsdk/ui/e;->hQC:I
+    iget v1, v1, Lcom/tencent/mm/pluginsdk/ui/Eclz;->hQC:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
     .line 520
     iget-object v0, p3, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/CJclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/e;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/pluginsdk/ui/e;->hQD:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/pluginsdk/ui/Eclz;->hQD:Z
 
     if-eqz v0, :cond_d
 
@@ -337,9 +337,9 @@
 
     iget-object v4, p3, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/CJclz;
 
-    iget-object v4, v4, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/e;
+    iget-object v4, v4, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
-    iget v4, v4, Lcom/tencent/mm/pluginsdk/ui/e;->hQE:I
+    iget v4, v4, Lcom/tencent/mm/pluginsdk/ui/Eclz;->hQE:I
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/widget/TextView;->setShadowLayer(FFFI)V
 
@@ -347,9 +347,9 @@
     :goto_4
     iget-object v0, p3, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kbM:Lcom/tencent/mm/ui/chatting/CJclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/e;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/pluginsdk/ui/e;->hQF:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/pluginsdk/ui/Eclz;->hQF:Z
 
     if-eqz v0, :cond_e
 

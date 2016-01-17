@@ -100,7 +100,7 @@
 
     .line 63
     :cond_0
-    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/d/j;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/d/Jclz;
 
     new-instance v1, Lcom/tencent/mm/plugin/sns/data/a;
 
@@ -128,10 +128,10 @@
 
     iget-object v2, v2, Lcom/tencent/mm/plugin/sns/ui/an;->gwy:Lcom/tencent/mm/plugin/sns/ui/h;
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/j;-><init>(Ljava/lang/Object;Lcom/tencent/mm/pluginsdk/ui/d/j$a;)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/Jclz;-><init>(Ljava/lang/Object;Lcom/tencent/mm/pluginsdk/ui/d/Jclz$a;)V
 
     .line 64
-    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/d/f;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/d/Fclz;
 
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/sns/ui/AsyncTextView;->getContext()Landroid/content/Context;
 
@@ -143,16 +143,16 @@
 
     move-result v4
 
-    invoke-static {v2, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {v2, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v2
 
-    invoke-direct {v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/f;-><init>(Landroid/text/SpannableString;)V
+    invoke-direct {v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/Fclz;-><init>(Landroid/text/SpannableString;)V
 
     .line 65
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/AsyncTextView;->gqB:Ljava/lang/String;
 
-    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/ui/d/f;->e(Ljava/lang/Object;Ljava/lang/CharSequence;)V
+    invoke-virtual {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/ui/d/Fclz;->e(Ljava/lang/Object;Ljava/lang/CharSequence;)V
 
     .line 67
     sget-object v0, Landroid/widget/TextView$BufferType;->SPANNABLE:Landroid/widget/TextView$BufferType;

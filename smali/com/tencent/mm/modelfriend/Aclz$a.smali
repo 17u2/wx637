@@ -218,7 +218,7 @@
     if-nez p0, :cond_4
 
     .line 316
-    invoke-static {v5}, Lcom/tencent/mm/pluginsdk/a;->rE(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v5}, Lcom/tencent/mm/pluginsdk/Aclz;->rE(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -377,7 +377,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/a;->cu(Landroid/content/Context;)Ljava/util/List;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/Aclz;->cu(Landroid/content/Context;)Ljava/util/List;
 
     move-result-object v3
 
@@ -522,7 +522,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/a;->ct(Landroid/content/Context;)Ljava/util/List;
+    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/Aclz;->ct(Landroid/content/Context;)Ljava/util/List;
 
     move-result-object v1
 
@@ -582,7 +582,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/a;->cr(Landroid/content/Context;)Ljava/util/List;
+    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/Aclz;->cr(Landroid/content/Context;)Ljava/util/List;
 
     move-result-object v1
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/ui/applet/f$b;
+.implements Lcom/tencent/mm/pluginsdk/ui/applet/Fclz$b;
 
 
 # annotations
@@ -54,15 +54,15 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cOi:Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;
 
-    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v2, :cond_1
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/e;->nF(I)Z
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->nF(I)Z
 
     move-result v0
 

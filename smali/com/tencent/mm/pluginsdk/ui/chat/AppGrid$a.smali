@@ -115,7 +115,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/model/app/f;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     .line 439
     if-nez v0, :cond_2
@@ -142,14 +142,14 @@
     if-eqz v1, :cond_8
 
     .line 446
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/app/f;->aIj()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->aIj()Z
 
     move-result v1
 
     if-eqz v1, :cond_9
 
     .line 447
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     const/4 v3, 0x4
 
@@ -163,7 +163,7 @@
 
     move-result v4
 
-    invoke-static {v1, v3, v4}, Lcom/tencent/mm/pluginsdk/model/app/g;->b(Ljava/lang/String;IF)Landroid/graphics/Bitmap;
+    invoke-static {v1, v3, v4}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->b(Ljava/lang/String;IF)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -190,20 +190,20 @@
 
     move-result-object v3
 
-    invoke-static {v3, v0, v2}, Lcom/tencent/mm/pluginsdk/model/app/g;->a(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/f;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3, v0, v2}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->a(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/Fclz;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 466
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/app/f;->aIj()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->aIj()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/app/f;->aIk()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->aIk()Z
 
     move-result v1
 
@@ -251,7 +251,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -280,7 +280,7 @@
     :cond_4
     sget-object v1, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUp:Ljava/lang/String;
 
-    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -301,7 +301,7 @@
     :cond_5
     sget-object v1, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUr:Ljava/lang/String;
 
-    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -322,7 +322,7 @@
     :cond_6
     sget-object v1, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUq:Ljava/lang/String;
 
-    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v3, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -430,7 +430,7 @@
 
     .prologue
     .line 153
-    invoke-virtual {p0, p1}, Lcom/tencent/mm/pluginsdk/ui/chat/AppGrid$a;->lH(I)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-virtual {p0, p1}, Lcom/tencent/mm/pluginsdk/ui/chat/AppGrid$a;->lH(I)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v0
 
@@ -659,14 +659,14 @@
     .line 424
     :cond_0
     :goto_1
-    invoke-virtual {p0, p1}, Lcom/tencent/mm/pluginsdk/ui/chat/AppGrid$a;->lH(I)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-virtual {p0, p1}, Lcom/tencent/mm/pluginsdk/ui/chat/AppGrid$a;->lH(I)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v0
 
     .line 425
     if-eqz v0, :cond_1
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/g;->k(Lcom/tencent/mm/pluginsdk/model/app/f;)Z
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->k(Lcom/tencent/mm/pluginsdk/model/app/Fclz;)Z
 
     move-result v0
 
@@ -1551,7 +1551,7 @@
     invoke-virtual {v2, v0}, Landroid/widget/ImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 384
-    invoke-virtual {p0, p1}, Lcom/tencent/mm/pluginsdk/ui/chat/AppGrid$a;->lH(I)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-virtual {p0, p1}, Lcom/tencent/mm/pluginsdk/ui/chat/AppGrid$a;->lH(I)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v2
 
@@ -1570,14 +1570,14 @@
     if-eqz v0, :cond_17
 
     .line 388
-    iget v0, v2, Lcom/tencent/mm/pluginsdk/model/app/f;->field_status:I
+    iget v0, v2, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_status:I
 
     const/4 v3, 0x5
 
     if-ne v0, v3, :cond_11
 
     .line 390
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     const/4 v3, 0x3
 
@@ -1591,7 +1591,7 @@
 
     move-result v4
 
-    invoke-static {v0, v3, v4}, Lcom/tencent/mm/pluginsdk/model/app/g;->b(Ljava/lang/String;IF)Landroid/graphics/Bitmap;
+    invoke-static {v0, v3, v4}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->b(Ljava/lang/String;IF)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -1620,27 +1620,27 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v3, v2, v4}, Lcom/tencent/mm/pluginsdk/model/app/g;->a(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/f;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3, v2, v4}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->a(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/Fclz;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 413
-    invoke-virtual {v2}, Lcom/tencent/mm/pluginsdk/model/app/f;->aIj()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->aIj()Z
 
     move-result v0
 
     if-eqz v0, :cond_e
 
-    invoke-virtual {v2}, Lcom/tencent/mm/pluginsdk/model/app/f;->aIk()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->aIk()Z
 
     move-result v0
 
     if-nez v0, :cond_f
 
     :cond_e
-    invoke-virtual {v2}, Lcom/tencent/mm/pluginsdk/model/app/f;->aIl()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->aIl()Z
 
     move-result v0
 
@@ -1689,7 +1689,7 @@
 
     invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1714,14 +1714,14 @@
 
     .line 391
     :cond_11
-    invoke-virtual {v2}, Lcom/tencent/mm/pluginsdk/model/app/f;->aIj()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->aIj()Z
 
     move-result v0
 
     if-eqz v0, :cond_12
 
     .line 392
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     const/4 v3, 0x4
 
@@ -1735,7 +1735,7 @@
 
     move-result v4
 
-    invoke-static {v0, v3, v4}, Lcom/tencent/mm/pluginsdk/model/app/g;->b(Ljava/lang/String;IF)Landroid/graphics/Bitmap;
+    invoke-static {v0, v3, v4}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->b(Ljava/lang/String;IF)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -1743,7 +1743,7 @@
 
     .line 394
     :cond_12
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     iget-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/chat/AppGrid$a;->hUg:Lcom/tencent/mm/pluginsdk/ui/chat/AppGrid;
 
@@ -1755,7 +1755,7 @@
 
     move-result v3
 
-    invoke-static {v0, v6, v3}, Lcom/tencent/mm/pluginsdk/model/app/g;->b(Ljava/lang/String;IF)Landroid/graphics/Bitmap;
+    invoke-static {v0, v6, v3}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->b(Ljava/lang/String;IF)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -1765,7 +1765,7 @@
     :cond_13
     sget-object v0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUp:Ljava/lang/String;
 
-    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1786,7 +1786,7 @@
     :cond_14
     sget-object v0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUr:Ljava/lang/String;
 
-    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1807,7 +1807,7 @@
     :cond_15
     sget-object v0, Lcom/tencent/mm/pluginsdk/ui/chat/AppPanel;->hUq:Ljava/lang/String;
 
-    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1864,7 +1864,7 @@
     .end packed-switch
 .end method
 
-.method public final lH(I)Lcom/tencent/mm/pluginsdk/model/app/f;
+.method public final lH(I)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
     .locals 6
 
     .prologue
@@ -2002,7 +2002,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/model/app/f;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     goto :goto_0
 .end method

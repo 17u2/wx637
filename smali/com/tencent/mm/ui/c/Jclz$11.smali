@@ -128,13 +128,13 @@
     move v1, v2
 
     :goto_0
-    sget-object v5, Lcom/tencent/mm/pluginsdk/h$ah;->hKe:Lcom/tencent/mm/pluginsdk/h$n$a;
+    sget-object v5, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKe:Lcom/tencent/mm/pluginsdk/Hclz$n$a;
 
     if-eqz v5, :cond_0
 
-    sget-object v5, Lcom/tencent/mm/pluginsdk/h$ah;->hKe:Lcom/tencent/mm/pluginsdk/h$n$a;
+    sget-object v5, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKe:Lcom/tencent/mm/pluginsdk/Hclz$n$a;
 
-    invoke-interface {v5}, Lcom/tencent/mm/pluginsdk/h$n$a;->CN()I
+    invoke-interface {v5}, Lcom/tencent/mm/pluginsdk/Hclz$n$a;->CN()I
 
     move-result v5
 

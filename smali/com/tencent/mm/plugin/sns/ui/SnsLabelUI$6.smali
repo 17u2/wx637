@@ -53,7 +53,7 @@
     invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;->j(Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;)Z
 
     .line 297
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v0
 
@@ -63,7 +63,7 @@
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$e;->aa(Ljava/util/List;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$e;->aa(Ljava/util/List;)V
 
     .line 298
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI$6;->gzs:Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;

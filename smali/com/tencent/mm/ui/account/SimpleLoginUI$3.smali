@@ -60,9 +60,9 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ui/account/SimpleLoginUI$3$1;-><init>(Lcom/tencent/mm/ui/account/SimpleLoginUI$3;)V
 
-    new-instance v6, Lcom/tencent/mm/pluginsdk/model/app/s;
+    new-instance v6, Lcom/tencent/mm/pluginsdk/model/app/Sclz;
 
-    invoke-direct {v6, v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/s;-><init>(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/s$a;)V
+    invoke-direct {v6, v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/Sclz;-><init>(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/Sclz$a;)V
 
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->aOr()Landroid/content/SharedPreferences;
 
@@ -124,13 +124,13 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-static {v0, v4}, Lcom/tencent/mm/pluginsdk/model/app/g;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-static {v0, v4}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v3
 
     if-eqz v3, :cond_2
 
-    iget v3, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_status:I
+    iget v3, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_status:I
 
     if-nez v3, :cond_1
 
@@ -210,15 +210,15 @@
 
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/g;->aIm()V
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->aIm()V
 
-    iget-object v0, v6, Lcom/tencent/mm/pluginsdk/model/app/s;->hLQ:Lcom/tencent/mm/pluginsdk/model/app/s$a;
+    iget-object v0, v6, Lcom/tencent/mm/pluginsdk/model/app/Sclz;->hLQ:Lcom/tencent/mm/pluginsdk/model/app/Sclz$a;
 
     if-eqz v0, :cond_9
 
-    iget-object v0, v6, Lcom/tencent/mm/pluginsdk/model/app/s;->hLQ:Lcom/tencent/mm/pluginsdk/model/app/s$a;
+    iget-object v0, v6, Lcom/tencent/mm/pluginsdk/model/app/Sclz;->hLQ:Lcom/tencent/mm/pluginsdk/model/app/Sclz$a;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/model/app/s$a;->ayT()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/model/app/Sclz$a;->ayT()V
 
     .line 443
     :cond_9
@@ -245,25 +245,25 @@
 
     invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->YE()Lcom/tencent/mm/pluginsdk/model/app/d;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->YE()Lcom/tencent/mm/pluginsdk/model/app/Dclz;
 
     move-result-object v1
 
     const/4 v2, 0x7
 
-    invoke-virtual {v1, v2, v6}, Lcom/tencent/mm/pluginsdk/model/app/d;->a(ILcom/tencent/mm/pluginsdk/model/app/q;)V
+    invoke-virtual {v1, v2, v6}, Lcom/tencent/mm/pluginsdk/model/app/Dclz;->a(ILcom/tencent/mm/pluginsdk/model/app/Qclz;)V
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->aIw()Lcom/tencent/mm/pluginsdk/model/app/h;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->aIw()Lcom/tencent/mm/pluginsdk/model/app/Hclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/pluginsdk/model/app/h;->O(Ljava/util/LinkedList;)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/pluginsdk/model/app/Hclz;->O(Ljava/util/LinkedList;)V
 
-    iget-object v0, v6, Lcom/tencent/mm/pluginsdk/model/app/s;->mContext:Landroid/content/Context;
+    iget-object v0, v6, Lcom/tencent/mm/pluginsdk/model/app/Sclz;->mContext:Landroid/content/Context;
 
     if-eqz v0, :cond_b
 
-    iget-object v0, v6, Lcom/tencent/mm/pluginsdk/model/app/s;->mContext:Landroid/content/Context;
+    iget-object v0, v6, Lcom/tencent/mm/pluginsdk/model/app/Sclz;->mContext:Landroid/content/Context;
 
     check-cast v0, Landroid/app/Activity;
 
@@ -273,15 +273,15 @@
 
     if-nez v0, :cond_b
 
-    iget-object v0, v6, Lcom/tencent/mm/pluginsdk/model/app/s;->mContext:Landroid/content/Context;
+    iget-object v0, v6, Lcom/tencent/mm/pluginsdk/model/app/Sclz;->mContext:Landroid/content/Context;
 
-    iget-object v1, v6, Lcom/tencent/mm/pluginsdk/model/app/s;->mContext:Landroid/content/Context;
+    iget-object v1, v6, Lcom/tencent/mm/pluginsdk/model/app/Sclz;->mContext:Landroid/content/Context;
 
     const v2, 0x7f090ad3
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
-    iget-object v1, v6, Lcom/tencent/mm/pluginsdk/model/app/s;->mContext:Landroid/content/Context;
+    iget-object v1, v6, Lcom/tencent/mm/pluginsdk/model/app/Sclz;->mContext:Landroid/content/Context;
 
     const v2, 0x7f090b13
 
@@ -289,26 +289,26 @@
 
     move-result-object v1
 
-    new-instance v2, Lcom/tencent/mm/pluginsdk/model/app/s$1;
+    new-instance v2, Lcom/tencent/mm/pluginsdk/model/app/Sclz$1;
 
-    invoke-direct {v2, v6}, Lcom/tencent/mm/pluginsdk/model/app/s$1;-><init>(Lcom/tencent/mm/pluginsdk/model/app/s;)V
+    invoke-direct {v2, v6}, Lcom/tencent/mm/pluginsdk/model/app/Sclz$1;-><init>(Lcom/tencent/mm/pluginsdk/model/app/Sclz;)V
 
     invoke-static {v0, v1, v5, v2}, Lcom/tencent/mm/ui/base/Fclz;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/ui/base/Oclz;
 
     move-result-object v0
 
-    iput-object v0, v6, Lcom/tencent/mm/pluginsdk/model/app/s;->cfz:Lcom/tencent/mm/ui/base/Oclz;
+    iput-object v0, v6, Lcom/tencent/mm/pluginsdk/model/app/Sclz;->cfz:Lcom/tencent/mm/ui/base/Oclz;
 
     goto :goto_3
 
     :cond_b
-    iget-object v0, v6, Lcom/tencent/mm/pluginsdk/model/app/s;->hLQ:Lcom/tencent/mm/pluginsdk/model/app/s$a;
+    iget-object v0, v6, Lcom/tencent/mm/pluginsdk/model/app/Sclz;->hLQ:Lcom/tencent/mm/pluginsdk/model/app/Sclz$a;
 
     if-eqz v0, :cond_c
 
-    iget-object v0, v6, Lcom/tencent/mm/pluginsdk/model/app/s;->hLQ:Lcom/tencent/mm/pluginsdk/model/app/s$a;
+    iget-object v0, v6, Lcom/tencent/mm/pluginsdk/model/app/Sclz;->hLQ:Lcom/tencent/mm/pluginsdk/model/app/Sclz$a;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/model/app/s$a;->ayT()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/model/app/Sclz$a;->ayT()V
 
     :cond_c
     const-string/jumbo v0, "!44@/B4Tb64lLpIw1vCoUyRMKQjZ1dpQIMvamblCzn1RUg4="

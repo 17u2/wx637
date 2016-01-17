@@ -173,7 +173,7 @@
     if-eqz v0, :cond_3
 
     .line 398
-    invoke-static {v9}, Lcom/tencent/mm/pluginsdk/ui/tools/j;->od(I)V
+    invoke-static {v9}, Lcom/tencent/mm/pluginsdk/ui/tools/Jclz;->od(I)V
 
     .line 402
     :cond_3

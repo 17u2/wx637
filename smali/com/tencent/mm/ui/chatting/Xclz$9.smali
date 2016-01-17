@@ -1578,7 +1578,7 @@
     goto :goto_0
 .end method
 
-.method public final c(Lcom/tencent/mm/pluginsdk/model/app/f;)V
+.method public final c(Lcom/tencent/mm/pluginsdk/model/app/Fclz;)V
     .locals 6
 
     .prologue
@@ -1616,18 +1616,18 @@
 
     .line 837
     :cond_1
-    invoke-virtual {p1}, Lcom/tencent/mm/pluginsdk/model/app/f;->aIj()Z
+    invoke-virtual {p1}, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->aIj()Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->p(Lcom/tencent/mm/pluginsdk/model/app/f;)V
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->p(Lcom/tencent/mm/pluginsdk/model/app/Fclz;)V
 
     goto :goto_0
 
     :cond_2
-    iget v1, p1, Lcom/tencent/mm/pluginsdk/model/app/f;->field_status:I
+    iget v1, p1, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_status:I
 
     const/4 v2, 0x3
 
@@ -1641,7 +1641,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v2, p1, Lcom/tencent/mm/pluginsdk/model/app/f;->field_packageName:Ljava/lang/String;
+    iget-object v2, p1, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_packageName:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1658,9 +1658,9 @@
     :cond_3
     iget-object v1, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->kij:Lcom/tencent/mm/ui/chatting/EBclz;
 
-    iget-object v2, p1, Lcom/tencent/mm/pluginsdk/model/app/f;->field_packageName:Ljava/lang/String;
+    iget-object v2, p1, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_packageName:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/tencent/mm/pluginsdk/model/app/f;->field_openId:Ljava/lang/String;
+    iget-object v3, p1, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_openId:Ljava/lang/String;
 
     invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/ui/chatting/EBclz;->co(Ljava/lang/String;Ljava/lang/String;)Z
 
@@ -1668,7 +1668,7 @@
 
     if-nez v1, :cond_0
 
-    iget v1, p1, Lcom/tencent/mm/pluginsdk/model/app/f;->field_status:I
+    iget v1, p1, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_status:I
 
     const/4 v2, 0x5
 
@@ -1776,7 +1776,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->j(Landroid/support/v4/app/Fragment;)Z
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->j(Landroid/support/v4/app/Fragment;)Z
 
     .line 809
     :goto_1
@@ -1835,7 +1835,7 @@
 
     const/4 v3, 0x3
 
-    invoke-static {v2, v3, v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->a(Landroid/support/v4/app/Fragment;ILjava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v3, v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->a(Landroid/support/v4/app/Fragment;ILjava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -1847,7 +1847,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->a(Landroid/support/v4/app/Fragment;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->a(Landroid/support/v4/app/Fragment;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -1938,7 +1938,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->a(Lcom/tencent/mm/ui/Nclz;Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->a(Lcom/tencent/mm/ui/Nclz;Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
 

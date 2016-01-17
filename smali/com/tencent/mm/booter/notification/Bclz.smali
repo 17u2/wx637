@@ -3051,7 +3051,7 @@
 
     invoke-direct {v1}, Lcom/tencent/mm/platformtools/Lclz$2;-><init>()V
 
-    invoke-static {v7, v0, v1}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/ao/Aclz;Lcom/tencent/mm/ao/Bclz;)Lcom/tencent/mm/pluginsdk/b/c;
+    invoke-static {v7, v0, v1}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/ao/Aclz;Lcom/tencent/mm/ao/Bclz;)Lcom/tencent/mm/pluginsdk/b/Cclz;
 
     .line 589
     return-void

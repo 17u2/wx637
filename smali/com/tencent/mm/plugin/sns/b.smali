@@ -73,7 +73,7 @@
 
     invoke-direct {v4, p0, p1}, Lcom/tencent/mm/plugin/sns/b$1;-><init>(Lcom/tencent/mm/plugin/sns/b;Lcom/tencent/mm/d/a/CSclz;)V
 
-    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/plugin/sns/d/al$a;->a(ILjava/lang/String;Lcom/tencent/mm/pluginsdk/h$n$e$a;)V
+    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/plugin/sns/d/al$a;->a(ILjava/lang/String;Lcom/tencent/mm/pluginsdk/Hclz$n$e$a;)V
 
     .line 42
     iget-object v2, p1, Lcom/tencent/mm/d/a/CSclz;->avK:Lcom/tencent/mm/d/a/CSclz$a;

@@ -97,7 +97,7 @@
     if-eqz v0, :cond_0
 
     .line 80
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/b/d;->jt:Landroid/app/Activity;
 
@@ -107,7 +107,7 @@
 
     iget-wide v5, p3, Lcom/tencent/mm/plugin/sns/h/k;->field_snsId:J
 
-    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/e;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V
+    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/Eclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V
 
     .line 83
     :cond_0
@@ -154,9 +154,9 @@
 
     .line 79
     :cond_2
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0, v2}, Lcom/tencent/mm/pluginsdk/e;->aS(Ljava/lang/String;)Z
+    invoke-interface {v0, v2}, Lcom/tencent/mm/pluginsdk/Eclz;->aS(Ljava/lang/String;)Z
 
     move-result v0
 

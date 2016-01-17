@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/ui/c/Aclz;
-.super Lcom/tencent/mm/pluginsdk/ui/b/b;
+.super Lcom/tencent/mm/pluginsdk/ui/b/Bclz;
 .source "SourceFile"
 
 
@@ -29,7 +29,7 @@
 
     .prologue
     .line 27
-    invoke-direct {p0, p1}, Lcom/tencent/mm/pluginsdk/ui/b/b;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lcom/tencent/mm/pluginsdk/ui/b/Bclz;-><init>(Landroid/content/Context;)V
 
     .line 21
     const/4 v0, 0x0

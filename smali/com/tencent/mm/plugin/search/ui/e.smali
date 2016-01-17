@@ -1565,9 +1565,9 @@
     invoke-interface {v0}, Lcom/tencent/mm/ui/e/Fclz;->aok()V
 
     .line 339
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$n$c;->pause()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->pause()V
 
     .line 347
     :cond_0

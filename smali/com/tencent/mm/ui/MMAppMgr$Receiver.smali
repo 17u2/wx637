@@ -609,7 +609,7 @@
     if-ne v0, v1, :cond_9
 
     .line 197
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/a;->aIc()Lcom/tencent/mm/pluginsdk/model/app/a;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/Aclz;->aIc()Lcom/tencent/mm/pluginsdk/model/app/Aclz;
 
     move-result-object v0
 
@@ -617,7 +617,7 @@
     if-eqz v0, :cond_9
 
     .line 199
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/app/a;->aIf()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/app/Aclz;->aIf()V
 
     goto/16 :goto_2
 

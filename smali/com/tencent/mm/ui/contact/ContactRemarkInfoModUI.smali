@@ -1497,13 +1497,13 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/contact/ContactRemarkInfoModUI;->epE:Ljava/lang/String;
 
     .line 1048
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/ContactRemarkInfoModUI;->epE:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$e;->pr(Ljava/lang/String;)Ljava/util/List;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$e;->pr(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
@@ -2559,7 +2559,7 @@
 
     move-result v4
 
-    invoke-static {p0, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {p0, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v3
 
@@ -2580,7 +2580,7 @@
 
     move-result v4
 
-    invoke-static {p0, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {p0, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v3
 
@@ -2602,7 +2602,7 @@
 
     move-result v4
 
-    invoke-static {p0, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {p0, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v3
 
@@ -2632,7 +2632,7 @@
 
     move-result v4
 
-    invoke-static {p0, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {p0, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v3
 
@@ -2996,7 +2996,7 @@
 
     move-result v4
 
-    invoke-static {p0, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {p0, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v3
 
@@ -3021,7 +3021,7 @@
 
     move-result v4
 
-    invoke-static {p0, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {p0, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v3
 
@@ -3166,7 +3166,7 @@
 
     move-result v4
 
-    invoke-static {p0, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {p0, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v3
 
@@ -3484,7 +3484,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, p3, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->a(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p3, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->a(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -3779,13 +3779,13 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/contact/ContactRemarkInfoModUI;->epE:Ljava/lang/String;
 
     .line 229
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/ContactRemarkInfoModUI;->epE:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$e;->pr(Ljava/lang/String;)Ljava/util/List;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$e;->pr(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 

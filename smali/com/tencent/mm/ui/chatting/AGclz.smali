@@ -154,13 +154,13 @@
     if-eqz v2, :cond_0
 
     .line 75
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v0
 
     iget-object v2, v2, Lcom/tencent/mm/m/Aclz$a;->bqf:Ljava/lang/String;
 
-    invoke-interface {v0, v2}, Lcom/tencent/mm/pluginsdk/h$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
+    invoke-interface {v0, v2}, Lcom/tencent/mm/pluginsdk/Hclz$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 
     move-result-object v0
 
@@ -183,13 +183,13 @@
     if-nez v0, :cond_c
 
     .line 79
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v0
 
     iget-object v2, v4, Lcom/tencent/mm/storage/Vclz;->atr:Ljava/lang/String;
 
-    invoke-interface {v0, v2}, Lcom/tencent/mm/pluginsdk/h$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
+    invoke-interface {v0, v2}, Lcom/tencent/mm/pluginsdk/Hclz$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 
     move-result-object v0
 
@@ -720,13 +720,13 @@
     if-eqz v1, :cond_5
 
     .line 196
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v1
 
     iget-object v0, v0, Lcom/tencent/mm/m/Aclz$a;->bqf:Ljava/lang/String;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/pluginsdk/h$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
+    invoke-interface {v1, v0}, Lcom/tencent/mm/pluginsdk/Hclz$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 
     move-result-object v0
 

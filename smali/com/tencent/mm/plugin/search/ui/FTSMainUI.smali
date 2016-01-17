@@ -1268,7 +1268,7 @@
     invoke-interface {v0}, Lcom/tencent/mm/ui/e/Fclz;->aom()V
 
     .line 100
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKh:Lcom/tencent/mm/pluginsdk/h$n$e;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKh:Lcom/tencent/mm/pluginsdk/Hclz$n$e;
 
     const/4 v1, 0x6
 
@@ -1276,7 +1276,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/plugin/search/ui/FTSMainUI;->fJL:Lcom/tencent/mm/modelsearch/Eclz$b;
 
-    invoke-interface {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/h$n$e;->a(ILjava/lang/String;Lcom/tencent/mm/pluginsdk/h$n$e$a;)V
+    invoke-interface {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/Hclz$n$e;->a(ILjava/lang/String;Lcom/tencent/mm/pluginsdk/Hclz$n$e$a;)V
 
     goto :goto_1
 .end method
@@ -1308,13 +1308,13 @@
 
     .line 167
     :cond_0
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKh:Lcom/tencent/mm/pluginsdk/h$n$e;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKh:Lcom/tencent/mm/pluginsdk/Hclz$n$e;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/FTSMainUI;->fJL:Lcom/tencent/mm/modelsearch/Eclz$b;
 
     const/4 v2, 0x6
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/h$n$e;->a(Lcom/tencent/mm/pluginsdk/h$n$e$a;I)Z
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/Hclz$n$e;->a(Lcom/tencent/mm/pluginsdk/Hclz$n$e$a;I)Z
 
     .line 168
     invoke-super {p0}, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->onDestroy()V

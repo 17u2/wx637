@@ -401,13 +401,13 @@
 
     .line 108
     :pswitch_1
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->HO()Lcom/tencent/mm/pluginsdk/model/app/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->HO()Lcom/tencent/mm/pluginsdk/model/app/Cclz;
 
     move-result-object v7
 
     iget-object v8, v0, Lcom/tencent/mm/m/Aclz$a;->anW:Ljava/lang/String;
 
-    invoke-virtual {v7, v8}, Lcom/tencent/mm/pluginsdk/model/app/c;->xC(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/model/app/b;
+    invoke-virtual {v7, v8}, Lcom/tencent/mm/pluginsdk/model/app/Cclz;->xC(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/model/app/Bclz;
 
     move-result-object v7
 
@@ -417,7 +417,7 @@
     .line 112
     new-instance v8, Ljava/io/File;
 
-    iget-object v7, v7, Lcom/tencent/mm/pluginsdk/model/app/b;->field_fileFullPath:Ljava/lang/String;
+    iget-object v7, v7, Lcom/tencent/mm/pluginsdk/model/app/Bclz;->field_fileFullPath:Ljava/lang/String;
 
     invoke-direct {v8, v7}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 

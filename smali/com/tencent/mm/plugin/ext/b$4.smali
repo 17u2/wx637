@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/model/f$a;
+.implements Lcom/tencent/mm/pluginsdk/model/Fclz$a;
 
 
 # annotations
@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/pluginsdk/model/i;)V
+.method public final a(Lcom/tencent/mm/pluginsdk/model/Iclz;)V
     .locals 10
 
     .prologue
@@ -63,7 +63,7 @@
 
     .line 369
     :cond_1
-    iget-object v0, p1, Lcom/tencent/mm/pluginsdk/model/i;->dmy:Lcom/tencent/mm/q/Aclz;
+    iget-object v0, p1, Lcom/tencent/mm/pluginsdk/model/Iclz;->dmy:Lcom/tencent/mm/q/Aclz;
 
     if-nez v0, :cond_4
 
@@ -102,7 +102,7 @@
 
     new-array v7, v7, [Ljava/lang/Object;
 
-    iget-object v8, p1, Lcom/tencent/mm/pluginsdk/model/i;->hLe:Ljava/lang/String;
+    iget-object v8, p1, Lcom/tencent/mm/pluginsdk/model/Iclz;->hLe:Ljava/lang/String;
 
     aput-object v8, v7, v2
 
@@ -169,7 +169,7 @@
 
     .line 369
     :cond_4
-    iget-object v0, p1, Lcom/tencent/mm/pluginsdk/model/i;->dmy:Lcom/tencent/mm/q/Aclz;
+    iget-object v0, p1, Lcom/tencent/mm/pluginsdk/model/Iclz;->dmy:Lcom/tencent/mm/q/Aclz;
 
     iget-object v0, v0, Lcom/tencent/mm/q/Aclz;->bxJ:Lcom/tencent/mm/q/Aclz$c;
 
@@ -200,14 +200,14 @@
     :cond_6
     iget-object v5, v0, Lcom/tencent/mm/protocal/b/atr;->iZp:Ljava/lang/String;
 
-    invoke-static {v5}, Lcom/tencent/mm/pluginsdk/model/f;->xv(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/model/f$b;
+    invoke-static {v5}, Lcom/tencent/mm/pluginsdk/model/Fclz;->xv(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/model/Fclz$b;
 
     move-result-object v5
 
     .line 387
     if-eqz v5, :cond_2
 
-    iget-object v6, v5, Lcom/tencent/mm/pluginsdk/model/f$b;->hKN:Ljava/lang/String;
+    iget-object v6, v5, Lcom/tencent/mm/pluginsdk/model/Fclz$b;->hKN:Ljava/lang/String;
 
     invoke-static {v6}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
@@ -222,11 +222,11 @@
 
     new-array v7, v9, [Ljava/lang/Object;
 
-    iget-object v8, p1, Lcom/tencent/mm/pluginsdk/model/i;->hLe:Ljava/lang/String;
+    iget-object v8, p1, Lcom/tencent/mm/pluginsdk/model/Iclz;->hLe:Ljava/lang/String;
 
     aput-object v8, v7, v2
 
-    iget-object v8, v5, Lcom/tencent/mm/pluginsdk/model/f$b;->hKN:Ljava/lang/String;
+    iget-object v8, v5, Lcom/tencent/mm/pluginsdk/model/Fclz$b;->hKN:Ljava/lang/String;
 
     aput-object v8, v7, v3
 
@@ -235,11 +235,11 @@
     .line 391
     new-instance v1, Lcom/tencent/mm/storage/AMclz;
 
-    iget-object v6, p1, Lcom/tencent/mm/pluginsdk/model/i;->hLe:Ljava/lang/String;
+    iget-object v6, p1, Lcom/tencent/mm/pluginsdk/model/Iclz;->hLe:Ljava/lang/String;
 
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/atr;->dRj:Ljava/lang/String;
 
-    iget-object v5, v5, Lcom/tencent/mm/pluginsdk/model/f$b;->hKN:Ljava/lang/String;
+    iget-object v5, v5, Lcom/tencent/mm/pluginsdk/model/Fclz$b;->hKN:Ljava/lang/String;
 
     invoke-direct {v1, v6, v0, v5}, Lcom/tencent/mm/storage/AMclz;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 

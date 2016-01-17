@@ -688,7 +688,7 @@
 
     if-nez v0, :cond_4
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/ui/tools/q;->bgW()Ljava/lang/String;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/ui/tools/Qclz;->bgW()Ljava/lang/String;
 
     move-result-object v0
 

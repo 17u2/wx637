@@ -159,11 +159,11 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/ArtistUI;->cRo:Landroid/widget/ListView;
 
     .line 104
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
     const/4 v1, 0x0
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/e;->af(Z)Lcom/tencent/mm/q/Jclz;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Eclz;->af(Z)Lcom/tencent/mm/q/Jclz;
 
     .line 105
     new-instance v0, Lcom/tencent/mm/plugin/sns/ui/c;

@@ -14,7 +14,7 @@
 # instance fields
 .field private final TAG:Ljava/lang/String;
 
-.field private iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+.field private iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
 .field private ice:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager$a;
 
@@ -146,7 +146,7 @@
     move-result v0
 
     .line 63
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
     if-eqz v1, :cond_5
 
@@ -175,9 +175,9 @@
 
     .line 65
     :cond_3
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    iput p2, v1, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibJ:I
+    iput p2, v1, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibJ:I
 
     const-string/jumbo v1, "!64@/B4Tb64lLpIUhDmLVZ6YSfFgXjzkEDm0SGvdmwO2++pwePLUH2P5VYxhCHoAe2LT"
 
@@ -194,24 +194,24 @@
     invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 66
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    iput p1, v1, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibK:I
+    iput p1, v1, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibK:I
 
     .line 68
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->ice:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager$a;
 
     if-eqz v1, :cond_5
 
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    iget-boolean v1, v1, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibL:Z
+    iget-boolean v1, v1, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibL:Z
 
     if-eqz v1, :cond_4
 
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    iget-boolean v1, v1, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibM:Z
+    iget-boolean v1, v1, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibM:Z
 
     if-nez v1, :cond_4
 
@@ -228,9 +228,9 @@
     invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 70
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    iput-boolean v5, v1, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibM:Z
+    iput-boolean v5, v1, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibM:Z
 
     .line 71
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->ice:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager$a;
@@ -270,12 +270,12 @@
     return-void
 .end method
 
-.method public final setAdapter$791dce07(Lcom/tencent/mm/pluginsdk/ui/simley/g;)V
+.method public final setAdapter$791dce07(Lcom/tencent/mm/pluginsdk/ui/simley/Gclz;)V
     .locals 1
 
     .prologue
     .line 102
-    invoke-virtual {p1}, Lcom/tencent/mm/pluginsdk/ui/simley/g;->aLV()V
+    invoke-virtual {p1}, Lcom/tencent/mm/pluginsdk/ui/simley/Gclz;->aLV()V
 
     .line 103
     invoke-super {p0, p1}, Lcom/tencent/mm/ui/base/CustomViewPager;->setAdapter(Landroid/support/v4/view/j;)V
@@ -283,18 +283,18 @@
     .line 104
     const/4 v0, 0x0
 
-    iput-boolean v0, p1, Lcom/tencent/mm/pluginsdk/ui/simley/g;->ici:Z
+    iput-boolean v0, p1, Lcom/tencent/mm/pluginsdk/ui/simley/Gclz;->ici:Z
 
     .line 105
     return-void
 .end method
 
-.method public setPanelStg(Lcom/tencent/mm/pluginsdk/ui/simley/d;)V
+.method public setPanelStg(Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;)V
     .locals 0
 
     .prologue
     .line 49
-    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
     .line 50
     return-void

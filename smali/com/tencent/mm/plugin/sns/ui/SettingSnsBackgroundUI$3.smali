@@ -48,9 +48,9 @@
 
     .prologue
     .line 181
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/e;->kQ()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Eclz;->kQ()V
 
     .line 182
     return-void

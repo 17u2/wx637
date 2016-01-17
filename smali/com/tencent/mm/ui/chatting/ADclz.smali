@@ -235,12 +235,12 @@
     :cond_1
     iget-object v4, v3, Lcom/tencent/mm/m/Aclz$a;->appId:Ljava/lang/String;
 
-    invoke-static {v4, v2}, Lcom/tencent/mm/pluginsdk/model/app/g;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-static {v4, v2}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v4
 
     .line 96
-    invoke-static {v4}, Lcom/tencent/mm/pluginsdk/model/app/g;->i(Lcom/tencent/mm/pluginsdk/model/app/f;)Z
+    invoke-static {v4}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->i(Lcom/tencent/mm/pluginsdk/model/app/Fclz;)Z
 
     move-result v4
 
@@ -366,7 +366,7 @@
     .line 131
     iget-object v0, v0, Lcom/tencent/mm/m/Aclz$a;->anW:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/l;->xJ(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/Lclz;->xJ(Ljava/lang/String;)V
 
     .line 133
     :cond_2

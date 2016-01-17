@@ -637,7 +637,7 @@
 
     iget-object v3, v3, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
-    invoke-static {v0, v2, v3, v1, v9}, Lcom/tencent/mm/pluginsdk/model/d;->a(Landroid/content/Context;Lcom/tencent/mm/d/a/ASclz;Ljava/lang/String;Ljava/util/List;Z)Z
+    invoke-static {v0, v2, v3, v1, v9}, Lcom/tencent/mm/pluginsdk/model/Dclz;->a(Landroid/content/Context;Lcom/tencent/mm/d/a/ASclz;Ljava/lang/String;Ljava/util/List;Z)Z
 
     move-result v0
 

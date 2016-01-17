@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field public aCX:Lcom/tencent/mm/pluginsdk/ui/a/a;
+.field public aCX:Lcom/tencent/mm/pluginsdk/ui/a/Aclz;
 
 .field public aCY:Landroid/widget/EditText;
 

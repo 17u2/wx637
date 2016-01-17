@@ -27,7 +27,7 @@
 
 .field private dye:Landroid/graphics/Canvas;
 
-.field private dyf:Lcom/tencent/mm/pluginsdk/g/l;
+.field private dyf:Lcom/tencent/mm/pluginsdk/g/Lclz;
 
 
 # direct methods
@@ -73,7 +73,7 @@
     iput-object v1, p0, Lcom/tencent/mm/plugin/f2f/DoodleBlackBoard;->dye:Landroid/graphics/Canvas;
 
     .line 45
-    iput-object v1, p0, Lcom/tencent/mm/plugin/f2f/DoodleBlackBoard;->dyf:Lcom/tencent/mm/pluginsdk/g/l;
+    iput-object v1, p0, Lcom/tencent/mm/plugin/f2f/DoodleBlackBoard;->dyf:Lcom/tencent/mm/pluginsdk/g/Lclz;
 
     .line 55
     invoke-direct {p0}, Lcom/tencent/mm/plugin/f2f/DoodleBlackBoard;->init()V
@@ -131,7 +131,7 @@
     iput-object v1, p0, Lcom/tencent/mm/plugin/f2f/DoodleBlackBoard;->dye:Landroid/graphics/Canvas;
 
     .line 45
-    iput-object v1, p0, Lcom/tencent/mm/plugin/f2f/DoodleBlackBoard;->dyf:Lcom/tencent/mm/pluginsdk/g/l;
+    iput-object v1, p0, Lcom/tencent/mm/plugin/f2f/DoodleBlackBoard;->dyf:Lcom/tencent/mm/pluginsdk/g/Lclz;
 
     .line 60
     invoke-direct {p0}, Lcom/tencent/mm/plugin/f2f/DoodleBlackBoard;->init()V
@@ -154,13 +154,13 @@
     const/4 v4, 0x0
 
     .line 115
-    new-instance v0, Lcom/tencent/mm/pluginsdk/g/l;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/g/Lclz;
 
     const-string/jumbo v1, "doodlef2f"
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/pluginsdk/g/l;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/pluginsdk/g/Lclz;-><init>(Ljava/lang/String;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/DoodleBlackBoard;->dyf:Lcom/tencent/mm/pluginsdk/g/l;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/DoodleBlackBoard;->dyf:Lcom/tencent/mm/pluginsdk/g/Lclz;
 
     .line 116
     const/4 v0, 0x0

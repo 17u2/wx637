@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/sns/d/ao;
-.super Lcom/tencent/mm/pluginsdk/model/h;
+.super Lcom/tencent/mm/pluginsdk/model/Hclz;
 .source "SourceFile"
 
 
@@ -23,7 +23,7 @@
 
     .prologue
     .line 16
-    invoke-direct {p0}, Lcom/tencent/mm/pluginsdk/model/h;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/pluginsdk/model/Hclz;-><init>()V
 
     .line 23
     const/4 v0, 0x0
@@ -80,7 +80,7 @@
     .line 16
     check-cast p1, [Lcom/tencent/mm/plugin/sns/data/f;
 
-    invoke-super {p0, p1}, Lcom/tencent/mm/pluginsdk/model/h;->h([Ljava/lang/Object;)V
+    invoke-super {p0, p1}, Lcom/tencent/mm/pluginsdk/model/Hclz;->h([Ljava/lang/Object;)V
 
     const/4 v0, 0x0
 
@@ -161,7 +161,7 @@
     .line 16
     check-cast p1, Ljava/lang/Boolean;
 
-    invoke-super {p0, p1}, Lcom/tencent/mm/pluginsdk/model/h;->onPostExecute(Ljava/lang/Object;)V
+    invoke-super {p0, p1}, Lcom/tencent/mm/pluginsdk/model/Hclz;->onPostExecute(Ljava/lang/Object;)V
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 

@@ -16,7 +16,7 @@
     :try_start_0
     const-string/jumbo v2, "com.tencent.mobileqq"
 
-    invoke-static {p0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/q;->ao(Landroid/content/Context;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-static {p0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Qclz;->ao(Landroid/content/Context;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
 
     move-result-object v3
 
@@ -98,7 +98,7 @@
     :try_start_0
     const-string/jumbo v2, "com.tencent.WBlog"
 
-    invoke-static {p0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/q;->ao(Landroid/content/Context;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-static {p0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Qclz;->ao(Landroid/content/Context;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
 
     move-result-object v3
 
@@ -200,7 +200,7 @@
     :try_start_0
     const-string/jumbo v2, "com.qzone"
 
-    invoke-static {p0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/q;->ao(Landroid/content/Context;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
+    invoke-static {p0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Qclz;->ao(Landroid/content/Context;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
 
     move-result-object v3
 

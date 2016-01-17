@@ -392,7 +392,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/transmit/ShareImageSelectorUI;->kGN:Ljava/lang/String;
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/c;->a(Lcom/tencent/mm/d/a/ASclz;ILjava/lang/String;)Z
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/Cclz;->a(Lcom/tencent/mm/d/a/ASclz;ILjava/lang/String;)Z
 
     move-result v1
 

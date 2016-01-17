@@ -52,13 +52,13 @@
 
     .prologue
     .line 29
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
     move-result-object v0
 
     iget-wide v1, p0, Lcom/tencent/mm/pluginsdk/ui/FileDownloadConfirmUI$1;->gjV:J
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->cz(J)I
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->cz(J)I
 
     .line 30
     const-string/jumbo v0, "!44@/B4Tb64lLpKVQlIh1YRBXwihd2X+6LLYtuibyMW2tj4="

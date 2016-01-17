@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->a(Lcom/tencent/mm/pluginsdk/ui/preference/b;)V
+    value = Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;->a(Lcom/tencent/mm/pluginsdk/ui/preference/Bclz;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic hZc:Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;
 
-.field final synthetic hZd:Lcom/tencent/mm/pluginsdk/ui/preference/b;
+.field final synthetic hZd:Lcom/tencent/mm/pluginsdk/ui/preference/Bclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;Lcom/tencent/mm/pluginsdk/ui/preference/b;)V
+.method constructor <init>(Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;Lcom/tencent/mm/pluginsdk/ui/preference/Bclz;)V
     .locals 1
 
     .prologue
     .line 203
     iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView$4;->hZc:Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView;
 
-    iput-object p2, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView$4;->hZd:Lcom/tencent/mm/pluginsdk/ui/preference/b;
+    iput-object p2, p0, Lcom/tencent/mm/pluginsdk/ui/preference/FMessageListView$4;->hZd:Lcom/tencent/mm/pluginsdk/ui/preference/Bclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

@@ -6,7 +6,7 @@
 # instance fields
 .field public ajd:Ljava/lang/String;
 
-.field public gLp:Lcom/tencent/mm/pluginsdk/h$m;
+.field public gLp:Lcom/tencent/mm/pluginsdk/Hclz$m;
 
 .field public hYL:Landroid/text/SpannableString;
 
@@ -48,7 +48,7 @@
     invoke-direct {p0, p1, p2, p3}, Lcom/tencent/mm/ui/base/preference/Preference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 28
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference;->gLp:Lcom/tencent/mm/pluginsdk/h$m;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference;->gLp:Lcom/tencent/mm/pluginsdk/Hclz$m;
 
     .line 30
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference;->hYO:Landroid/view/View$OnClickListener;
@@ -64,12 +64,12 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference;)Lcom/tencent/mm/pluginsdk/h$m;
+.method static synthetic a(Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference;)Lcom/tencent/mm/pluginsdk/Hclz$m;
     .locals 1
 
     .prologue
     .line 23
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference;->gLp:Lcom/tencent/mm/pluginsdk/h$m;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference;->gLp:Lcom/tencent/mm/pluginsdk/Hclz$m;
 
     return-object v0
 .end method
@@ -108,7 +108,7 @@
     .line 83
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/preference/AccountInfoPreference;->ajd:Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
 
     .line 86
     :cond_0

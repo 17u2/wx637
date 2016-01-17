@@ -51,7 +51,7 @@
 .method public abstract aeZ()V
 .end method
 
-.method public abstract c(Lcom/tencent/mm/pluginsdk/model/app/f;)V
+.method public abstract c(Lcom/tencent/mm/pluginsdk/model/app/Fclz;)V
 .end method
 
 .method public abstract ir(I)V

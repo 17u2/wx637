@@ -27,26 +27,26 @@
     if-nez v1, :cond_0
 
     .line 119
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->HO()Lcom/tencent/mm/pluginsdk/model/app/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->HO()Lcom/tencent/mm/pluginsdk/model/app/Cclz;
 
     move-result-object v1
 
     iget-object v2, p1, Lcom/tencent/mm/m/Aclz$a;->anW:Ljava/lang/String;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/c;->xC(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/model/app/b;
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/Cclz;->xC(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/model/app/Bclz;
 
     move-result-object v1
 
     .line 120
     if-eqz v1, :cond_0
 
-    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/model/app/b;->aIh()Z
+    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/model/app/Bclz;->aIh()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    iget-object v2, v1, Lcom/tencent/mm/pluginsdk/model/app/b;->field_fileFullPath:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/pluginsdk/model/app/Bclz;->field_fileFullPath:Ljava/lang/String;
 
     invoke-static {v2}, Lcom/tencent/mm/a/Dclz;->av(Ljava/lang/String;)Z
 
@@ -55,7 +55,7 @@
     if-eqz v2, :cond_0
 
     .line 121
-    iget-object v0, v1, Lcom/tencent/mm/pluginsdk/model/app/b;->field_fileFullPath:Ljava/lang/String;
+    iget-object v0, v1, Lcom/tencent/mm/pluginsdk/model/app/Bclz;->field_fileFullPath:Ljava/lang/String;
 
     .line 124
     :cond_0

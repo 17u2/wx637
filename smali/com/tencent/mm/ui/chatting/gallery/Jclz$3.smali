@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+.implements Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
 
 # annotations
@@ -66,9 +66,9 @@
     .line 346
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/Jclz$3;->kpA:Lcom/tencent/mm/ui/chatting/gallery/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->stop()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->stop()V
 
     .line 347
     new-instance v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz$3$1;

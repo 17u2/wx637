@@ -112,7 +112,7 @@
     if-eqz v0, :cond_0
 
     .line 397
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     new-instance v1, Landroid/content/Intent;
 
@@ -150,7 +150,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/friend/InviteFriendUI$2;->kzt:Lcom/tencent/mm/ui/friend/InviteFriendUI;
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/f;->e(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/Fclz;->e(Landroid/content/Intent;Landroid/content/Context;)V
 
     .line 399
     :cond_0

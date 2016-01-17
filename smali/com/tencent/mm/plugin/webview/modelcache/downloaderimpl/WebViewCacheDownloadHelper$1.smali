@@ -96,7 +96,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h/a/c/l$a;->aJa()Lcom/tencent/mm/pluginsdk/h/a/c/l;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/h/a/c/Lclz$a;->aJa()Lcom/tencent/mm/pluginsdk/h/a/c/Lclz;
 
     move-result-object v2
 
@@ -110,7 +110,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/pluginsdk/h/a/c/l;->gB(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/pluginsdk/h/a/c/Lclz;->gB(Ljava/lang/String;)V
 
     :cond_1
     iget-object v2, v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/h;->url:Ljava/lang/String;

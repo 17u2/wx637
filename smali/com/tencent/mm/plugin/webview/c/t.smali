@@ -4,6 +4,6 @@
 
 
 # instance fields
-.field public hyo:Lcom/tencent/mm/pluginsdk/model/downloader/k;
+.field public hyo:Lcom/tencent/mm/pluginsdk/model/downloader/Kclz;
 
 .field public hyp:Ljava/util/Set;

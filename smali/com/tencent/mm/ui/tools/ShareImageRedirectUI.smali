@@ -88,7 +88,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, p3, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->a(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p3, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->a(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -259,7 +259,7 @@
 
     const/4 v2, 0x0
 
-    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->d(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;I)Z
+    invoke-static {p0, v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->d(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;I)Z
 
     .line 38
     invoke-virtual {p0}, Lcom/tencent/mm/ui/tools/ShareImageRedirectUI;->getWindow()Landroid/view/Window;

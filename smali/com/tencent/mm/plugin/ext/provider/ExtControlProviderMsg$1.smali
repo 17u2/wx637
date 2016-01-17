@@ -26,11 +26,11 @@
 
 .field final synthetic dwH:Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;
 
-.field final synthetic dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
+.field final synthetic dwr:Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;IJLcom/tencent/mm/pluginsdk/d/a/a;[Ljava/lang/String;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;IJLcom/tencent/mm/pluginsdk/d/a/Aclz;[Ljava/lang/String;)V
     .locals 1
 
     .prologue
@@ -41,7 +41,7 @@
 
     iput-wide p3, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$1;->dwF:J
 
-    iput-object p5, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$1;->dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
+    iput-object p5, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$1;->dwr:Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
     iput-object p6, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$1;->dwG:[Ljava/lang/String;
 
@@ -103,9 +103,9 @@
     invoke-virtual {v0, v8}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;->gM(I)V
 
     .line 549
-    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$1;->dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$1;->dwr:Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/a;->countDown()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;->countDown()V
 
     .line 616
     :goto_0
@@ -144,9 +144,9 @@
     invoke-virtual {v0, v9}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;->gM(I)V
 
     .line 557
-    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$1;->dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$1;->dwr:Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/a;->countDown()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;->countDown()V
 
     goto :goto_0
 
@@ -240,9 +240,9 @@
     .line 615
     :cond_3
     :goto_2
-    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$1;->dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$1;->dwr:Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/a;->countDown()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;->countDown()V
 
     goto :goto_0
 
@@ -312,9 +312,9 @@
     invoke-virtual {v0, v9}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;->gM(I)V
 
     .line 576
-    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$1;->dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$1;->dwr:Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/a;->countDown()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;->countDown()V
 
     goto/16 :goto_0
 
@@ -371,9 +371,9 @@
     invoke-virtual {v0}, Landroid/database/MatrixCursor;->close()V
 
     .line 587
-    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$1;->dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$1;->dwr:Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/a;->countDown()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;->countDown()V
 
     goto/16 :goto_0
 

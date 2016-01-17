@@ -33,7 +33,7 @@
 
 .field private bgv:Lcom/tencent/mm/modelgeo/Aclz$a;
 
-.field private cPn:Lcom/tencent/mm/pluginsdk/c/b;
+.field private cPn:Lcom/tencent/mm/pluginsdk/c/Bclz;
 
 .field private dwL:I
 
@@ -171,7 +171,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy$3;-><init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->cPn:Lcom/tencent/mm/pluginsdk/c/b;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->cPn:Lcom/tencent/mm/pluginsdk/c/Bclz;
 
     .line 319
     new-instance v0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy$4;
@@ -677,9 +677,9 @@
     :cond_1
     const-string/jumbo v2, "NetSceneLbsFind"
 
-    iget-object v3, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->cPn:Lcom/tencent/mm/pluginsdk/c/b;
+    iget-object v3, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->cPn:Lcom/tencent/mm/pluginsdk/c/Bclz;
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/pluginsdk/c/b;->b(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/c/b;)V
+    invoke-static {v2, v3}, Lcom/tencent/mm/pluginsdk/c/Bclz;->b(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/c/Bclz;)V
 
     const-string/jumbo v2, "!56@/B4Tb64lLpKAQbqlkU5I8moU7mSKZGy4N7P1mJVm15mpUS/mmtFQbA=="
 
@@ -1351,9 +1351,9 @@
     :try_start_1
     const-string/jumbo v0, "NetSceneLbsFind"
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->cPn:Lcom/tencent/mm/pluginsdk/c/b;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy;->cPn:Lcom/tencent/mm/pluginsdk/c/Bclz;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/c/b;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/c/b;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/c/Bclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/c/Bclz;)V
 
     new-instance v0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderNearBy$2;
 

@@ -769,7 +769,7 @@
 
     if-lez v3, :cond_15
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/f;->aHS()Lcom/tencent/mm/pluginsdk/model/f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/Fclz;->aHS()Lcom/tencent/mm/pluginsdk/model/Fclz;
 
     move-result-object v3
 
@@ -777,7 +777,7 @@
 
     move-result-object v4
 
-    iget-object v1, v1, Lcom/tencent/mm/plugin/ext/b;->dvP:Lcom/tencent/mm/pluginsdk/model/f$a;
+    iget-object v1, v1, Lcom/tencent/mm/plugin/ext/b;->dvP:Lcom/tencent/mm/pluginsdk/model/Fclz$a;
 
     const-string/jumbo v5, "!44@/B4Tb64lLpJGu9pVCGYwj1kfnqh0kP99yscgaJEQpZg="
 
@@ -785,11 +785,11 @@
 
     invoke-static {v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    sget-boolean v5, Lcom/tencent/mm/pluginsdk/model/f;->hKK:Z
+    sget-boolean v5, Lcom/tencent/mm/pluginsdk/model/Fclz;->hKK:Z
 
     if-nez v5, :cond_14
 
-    invoke-virtual {v3}, Lcom/tencent/mm/pluginsdk/model/f;->aHT()V
+    invoke-virtual {v3}, Lcom/tencent/mm/pluginsdk/model/Fclz;->aHT()V
 
     :cond_14
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->qZ()Z
@@ -835,17 +835,17 @@
 
     .line 483
     :cond_16
-    iput-object v1, v3, Lcom/tencent/mm/pluginsdk/model/f;->hKM:Lcom/tencent/mm/pluginsdk/model/f$a;
+    iput-object v1, v3, Lcom/tencent/mm/pluginsdk/model/Fclz;->hKM:Lcom/tencent/mm/pluginsdk/model/Fclz$a;
 
-    new-instance v1, Lcom/tencent/mm/pluginsdk/model/i;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/model/Iclz;
 
-    invoke-direct {v1, v2, v12}, Lcom/tencent/mm/pluginsdk/model/i;-><init>(Ljava/lang/String;Ljava/util/LinkedList;)V
+    invoke-direct {v1, v2, v12}, Lcom/tencent/mm/pluginsdk/model/Iclz;-><init>(Ljava/lang/String;Ljava/util/LinkedList;)V
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->YE()Lcom/tencent/mm/pluginsdk/model/app/d;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->YE()Lcom/tencent/mm/pluginsdk/model/app/Dclz;
 
     const/16 v2, 0xe
 
-    invoke-static {v2, v1}, Lcom/tencent/mm/pluginsdk/model/app/d;->a(ILcom/tencent/mm/pluginsdk/model/app/t;)V
+    invoke-static {v2, v1}, Lcom/tencent/mm/pluginsdk/model/app/Dclz;->a(ILcom/tencent/mm/pluginsdk/model/app/Tclz;)V
 
     goto :goto_5
 

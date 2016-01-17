@@ -3,8 +3,8 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/ui/a$a;
-.implements Lcom/tencent/mm/pluginsdk/ui/d$a;
+.implements Lcom/tencent/mm/pluginsdk/ui/Aclz$a;
+.implements Lcom/tencent/mm/pluginsdk/ui/Dclz$a;
 
 
 # instance fields
@@ -1189,10 +1189,10 @@
     .line 319
     iget-object v0, p0, Lcom/tencent/mm/ui/AddressView;->avatarDrawable:Landroid/graphics/drawable/Drawable;
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/a;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/Aclz;
 
     .line 320
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/a;->aJw()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/Aclz;->aJw()V
 
     .line 322
     :cond_0
@@ -1358,10 +1358,10 @@
     .line 326
     iget-object v0, p0, Lcom/tencent/mm/ui/AddressView;->avatarDrawable:Landroid/graphics/drawable/Drawable;
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/a;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/Aclz;
 
     .line 327
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/a;->aJv()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/Aclz;->aJv()V
 
     .line 329
     :cond_0

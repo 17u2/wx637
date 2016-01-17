@@ -33,7 +33,7 @@
 
 .field private dvO:Lcom/tencent/mm/storage/AEclz$a;
 
-.field dvP:Lcom/tencent/mm/pluginsdk/model/f$a;
+.field dvP:Lcom/tencent/mm/pluginsdk/model/Fclz$a;
 
 .field private dvQ:Lcom/tencent/mm/sdk/platformtools/ABclz;
 
@@ -233,7 +233,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/ext/b$4;-><init>(Lcom/tencent/mm/plugin/ext/b;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/ext/b;->dvP:Lcom/tencent/mm/pluginsdk/model/f$a;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/ext/b;->dvP:Lcom/tencent/mm/pluginsdk/model/Fclz$a;
 
     .line 401
     new-instance v0, Lcom/tencent/mm/plugin/ext/b$5;
@@ -998,11 +998,11 @@
 
     .line 186
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/f;->aHS()Lcom/tencent/mm/pluginsdk/model/f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/Fclz;->aHS()Lcom/tencent/mm/pluginsdk/model/Fclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/f;->aHT()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/Fclz;->aHT()V
 
     .line 188
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
@@ -1042,7 +1042,7 @@
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
     .line 194
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->aIx()Lcom/tencent/mm/pluginsdk/model/app/i;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->aIx()Lcom/tencent/mm/pluginsdk/model/app/Iclz;
 
     move-result-object v0
 
@@ -1052,7 +1052,7 @@
     .line 196
     iget-object v1, p0, Lcom/tencent/mm/plugin/ext/b;->dvU:Lcom/tencent/mm/sdk/g/Gclz$a;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/model/app/i;->g(Lcom/tencent/mm/sdk/g/Gclz$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/model/app/Iclz;->g(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 
     .line 198
     :cond_2
@@ -1176,7 +1176,7 @@
 
     .line 207
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->aIx()Lcom/tencent/mm/pluginsdk/model/app/i;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->aIx()Lcom/tencent/mm/pluginsdk/model/app/Iclz;
 
     move-result-object v0
 
@@ -1186,7 +1186,7 @@
     .line 209
     iget-object v1, p0, Lcom/tencent/mm/plugin/ext/b;->dvU:Lcom/tencent/mm/sdk/g/Gclz$a;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/model/app/i;->h(Lcom/tencent/mm/sdk/g/Gclz$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/model/app/Iclz;->h(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 
     .line 213
     :cond_1
@@ -1232,7 +1232,7 @@
 
     .line 219
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/f;->aHS()Lcom/tencent/mm/pluginsdk/model/f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/Fclz;->aHS()Lcom/tencent/mm/pluginsdk/model/Fclz;
 
     move-result-object v0
 
@@ -1244,15 +1244,15 @@
 
     const/4 v1, 0x0
 
-    sput-boolean v1, Lcom/tencent/mm/pluginsdk/model/f;->hKK:Z
+    sput-boolean v1, Lcom/tencent/mm/pluginsdk/model/Fclz;->hKK:Z
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->YE()Lcom/tencent/mm/pluginsdk/model/app/d;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->YE()Lcom/tencent/mm/pluginsdk/model/app/Dclz;
 
     move-result-object v1
 
     const/16 v2, 0xe
 
-    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/pluginsdk/model/app/d;->b(ILcom/tencent/mm/pluginsdk/model/app/q;)V
+    invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/pluginsdk/model/app/Dclz;->b(ILcom/tencent/mm/pluginsdk/model/app/Qclz;)V
 
     .line 221
     :cond_3

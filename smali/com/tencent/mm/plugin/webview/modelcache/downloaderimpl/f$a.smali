@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/f$a;
-.super Lcom/tencent/mm/pluginsdk/h/a/c/o$a;
+.super Lcom/tencent/mm/pluginsdk/h/a/c/Oclz$a;
 .source "SourceFile"
 
 
@@ -20,7 +20,7 @@
 
     .prologue
     .line 28
-    invoke-direct {p0}, Lcom/tencent/mm/pluginsdk/h/a/c/o$a;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/pluginsdk/h/a/c/Oclz$a;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -34,14 +34,14 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/pluginsdk/h/a/c/o;)Lcom/tencent/mm/pluginsdk/h/a/c/o$b;
+.method public final a(Lcom/tencent/mm/pluginsdk/h/a/c/Oclz;)Lcom/tencent/mm/pluginsdk/h/a/c/Oclz$b;
     .locals 2
 
     .prologue
     .line 41
     new-instance v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/f;
 
-    invoke-direct {v0, p1}, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/f;-><init>(Lcom/tencent/mm/pluginsdk/h/a/c/o;)V
+    invoke-direct {v0, p1}, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/f;-><init>(Lcom/tencent/mm/pluginsdk/h/a/c/Oclz;)V
 
     .line 42
     invoke-static {}, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/WebViewCacheDownloadHelper;->aFn()Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/WebViewCacheDownloadHelper;

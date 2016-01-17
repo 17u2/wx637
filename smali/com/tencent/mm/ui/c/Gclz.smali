@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/ui/c/Gclz;
-.super Lcom/tencent/mm/pluginsdk/ui/b/b;
+.super Lcom/tencent/mm/pluginsdk/ui/b/Bclz;
 .source "SourceFile"
 
 
@@ -19,7 +19,7 @@
     const/4 v0, 0x0
 
     .line 26
-    invoke-direct {p0, p1}, Lcom/tencent/mm/pluginsdk/ui/b/b;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lcom/tencent/mm/pluginsdk/ui/b/Bclz;-><init>(Landroid/content/Context;)V
 
     .line 21
     iput-object v0, p0, Lcom/tencent/mm/ui/c/Gclz;->jJA:Ljava/lang/String;

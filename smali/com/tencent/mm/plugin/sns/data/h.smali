@@ -173,7 +173,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {p1, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/e;->b(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {p1, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->b(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v1
 
@@ -1106,13 +1106,13 @@
 
     move-result v0
 
-    const-class v3, Lcom/tencent/mm/pluginsdk/ui/d/j;
+    const-class v3, Lcom/tencent/mm/pluginsdk/ui/d/Jclz;
 
     invoke-virtual {v2, v1, v0, v3}, Landroid/text/SpannableString;->getSpans(IILjava/lang/Class;)[Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lcom/tencent/mm/pluginsdk/ui/d/j;
+    check-cast v0, [Lcom/tencent/mm/pluginsdk/ui/d/Jclz;
 
     .line 1033
     const-string/jumbo v3, "!32@/B4Tb64lLpJPtJ9harqkIfE+gBdA22Jc"

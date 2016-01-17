@@ -104,13 +104,13 @@
     .line 323
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView$4;->fXK:Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;->a(Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;)Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;->a(Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;)Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     move-result-object v0
 
     int-to-double v1, p1
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->i(D)V
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->i(D)V
 
     .line 324
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView$4;->fXK:Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;

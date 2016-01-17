@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method final a(Lcom/tencent/mm/pluginsdk/ui/applet/g;Lcom/tencent/mm/pluginsdk/ui/d/b;)Z
+.method final a(Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;Lcom/tencent/mm/pluginsdk/ui/d/Bclz;)Z
     .locals 6
 
     .prologue
@@ -52,7 +52,7 @@
     const/4 v2, 0x0
 
     .line 1999
-    iget v0, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->type:I
+    iget v0, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->type:I
 
     const/16 v1, 0x19
 
@@ -62,7 +62,7 @@
     const-string/jumbo v1, ""
 
     .line 2005
-    iget-object v0, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->data:Ljava/lang/Object;
+    iget-object v0, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->data:Ljava/lang/Object;
 
     .line 2006
     if-eqz v0, :cond_4
@@ -146,9 +146,9 @@
 
     move-result-object v0
 
-    iget-object v4, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->url:Ljava/lang/String;
+    iget-object v4, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->url:Ljava/lang/String;
 
-    invoke-static {v0, v4, v2, v1}, Lcom/tencent/mm/pluginsdk/ui/d/g;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/DialogInterface$OnDismissListener;Landroid/os/Bundle;)V
+    invoke-static {v0, v4, v2, v1}, Lcom/tencent/mm/pluginsdk/ui/d/Gclz;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/DialogInterface$OnDismissListener;Landroid/os/Bundle;)V
 
     move v0, v3
 
@@ -158,7 +158,7 @@
 
     .line 2024
     :cond_1
-    iget v0, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->type:I
+    iget v0, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->type:I
 
     const/16 v1, 0x18
 
@@ -171,9 +171,9 @@
 
     move-result-object v0
 
-    iget-object v1, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->url:Ljava/lang/String;
+    iget-object v1, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->url:Ljava/lang/String;
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/g;->b(Landroid/content/Context;Ljava/lang/String;Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/Gclz;->b(Landroid/content/Context;Ljava/lang/String;Landroid/content/DialogInterface$OnDismissListener;)V
 
     .line 2027
     :cond_2
@@ -192,7 +192,7 @@
     goto :goto_0
 .end method
 
-.method final a(Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/j;Landroid/os/Bundle;)Z
+.method final a(Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/Jclz;Landroid/os/Bundle;)Z
     .locals 1
 
     .prologue
@@ -202,7 +202,7 @@
     return v0
 .end method
 
-.method final aY(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/ui/applet/g;
+.method final aY(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;
     .locals 1
 
     .prologue

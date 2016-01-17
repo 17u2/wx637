@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/g;
+.implements Lcom/tencent/mm/pluginsdk/Gclz;
 
 
 # instance fields
@@ -86,7 +86,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/pluginsdk/e;)V
+.method public final a(Lcom/tencent/mm/pluginsdk/Eclz;)V
     .locals 0
 
     .prologue
@@ -94,7 +94,7 @@
     return-void
 .end method
 
-.method public final a(Lcom/tencent/mm/pluginsdk/f;)V
+.method public final a(Lcom/tencent/mm/pluginsdk/Fclz;)V
     .locals 0
 
     .prologue

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/ui/h$a;
+.implements Lcom/tencent/mm/pluginsdk/ui/Hclz$a;
 
 
 # instance fields
@@ -67,7 +67,7 @@
     return-object v0
 .end method
 
-.method public final a(Lcom/tencent/mm/pluginsdk/ui/h;)V
+.method public final a(Lcom/tencent/mm/pluginsdk/ui/Hclz;)V
     .locals 1
 
     .prologue

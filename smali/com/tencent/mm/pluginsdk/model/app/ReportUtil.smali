@@ -61,15 +61,15 @@
 
     .line 86
     :cond_1
-    new-instance v1, Lcom/tencent/mm/pluginsdk/model/app/f;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/pluginsdk/model/app/f;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/pluginsdk/model/app/Fclz;-><init>()V
 
     .line 87
-    iput-object v0, v1, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iput-object v0, v1, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     .line 88
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->aIx()Lcom/tencent/mm/pluginsdk/model/app/i;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->aIx()Lcom/tencent/mm/pluginsdk/model/app/Iclz;
 
     move-result-object v0
 
@@ -77,7 +77,7 @@
 
     new-array v2, v2, [Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/i;->c(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/Iclz;->c(Lcom/tencent/mm/sdk/g/Cclz;[Ljava/lang/String;)Z
 
     .line 90
     new-instance v0, Lcom/tencent/mm/pluginsdk/model/app/ReportUtil$ReportArgs;
@@ -85,7 +85,7 @@
     invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/model/app/ReportUtil$ReportArgs;-><init>()V
 
     .line 91
-    iget-object v2, v1, Lcom/tencent/mm/pluginsdk/model/app/f;->field_packageName:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_packageName:Ljava/lang/String;
 
     iput-object v2, v0, Lcom/tencent/mm/pluginsdk/model/app/ReportUtil$ReportArgs;->cst:Ljava/lang/String;
 
@@ -104,7 +104,7 @@
     iput-object v2, v0, Lcom/tencent/mm/pluginsdk/model/app/ReportUtil$ReportArgs;->hMq:Ljava/lang/String;
 
     .line 94
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/app/f;->field_openId:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_openId:Ljava/lang/String;
 
     iput-object v1, v0, Lcom/tencent/mm/pluginsdk/model/app/ReportUtil$ReportArgs;->csq:Ljava/lang/String;
 
@@ -144,7 +144,7 @@
     invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/modelmsg/Cclz$b;->k(Landroid/os/Bundle;)V
 
     .line 63
-    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/model/app/n;->D(Landroid/os/Bundle;)V
+    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/model/app/Nclz;->D(Landroid/os/Bundle;)V
 
     .line 65
     new-instance v0, Lcom/tencent/mm/sdk/a/Aclz$a;

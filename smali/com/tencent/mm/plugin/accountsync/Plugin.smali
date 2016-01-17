@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/b/c;
+.implements Lcom/tencent/mm/pluginsdk/b/Cclz;
 
 
 # direct methods
@@ -27,7 +27,7 @@
 
 
 # virtual methods
-.method public final createApplication()Lcom/tencent/mm/pluginsdk/g;
+.method public final createApplication()Lcom/tencent/mm/pluginsdk/Gclz;
     .locals 1
 
     .prologue
@@ -51,7 +51,7 @@
     return-object v0
 .end method
 
-.method public final getContactWidgetFactory()Lcom/tencent/mm/pluginsdk/b/b;
+.method public final getContactWidgetFactory()Lcom/tencent/mm/pluginsdk/b/Bclz;
     .locals 1
 
     .prologue

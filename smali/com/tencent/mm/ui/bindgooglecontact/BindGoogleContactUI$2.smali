@@ -192,7 +192,7 @@
 
     const-string/jumbo v2, "document.getElementById(\'code\').value"
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/q;->a(Lcom/tencent/smtt/sdk/WebView;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Qclz;->a(Lcom/tencent/smtt/sdk/WebView;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 328
     :cond_2

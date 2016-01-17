@@ -134,11 +134,11 @@
 
     if-nez p2, :cond_0
 
-    check-cast p4, Lcom/tencent/mm/pluginsdk/model/app/v;
+    check-cast p4, Lcom/tencent/mm/pluginsdk/model/app/Vclz;
 
-    iget-object v0, p4, Lcom/tencent/mm/pluginsdk/model/app/v;->hLU:Lcom/tencent/mm/pluginsdk/model/app/b;
+    iget-object v0, p4, Lcom/tencent/mm/pluginsdk/model/app/Vclz;->hLU:Lcom/tencent/mm/pluginsdk/model/app/Bclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/b;->field_mediaSvrId:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/Bclz;->field_mediaSvrId:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/BVclz$2;->bDj:Ljava/lang/String;
 

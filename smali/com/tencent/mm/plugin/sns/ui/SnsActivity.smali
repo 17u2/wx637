@@ -5,7 +5,7 @@
 # interfaces
 .implements Lcom/tencent/mm/plugin/sns/d/as$a;
 .implements Lcom/tencent/mm/plugin/sns/d/b$b;
-.implements Lcom/tencent/mm/pluginsdk/h$n$e$a;
+.implements Lcom/tencent/mm/pluginsdk/Hclz$n$e$a;
 
 
 # instance fields
@@ -541,7 +541,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/SnsActivity;->ajd:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v2, p0}, Lcom/tencent/mm/plugin/sns/d/al$a;->a(ILjava/lang/String;Lcom/tencent/mm/pluginsdk/h$n$e$a;)V
+    invoke-virtual {v0, v1, v2, p0}, Lcom/tencent/mm/plugin/sns/d/al$a;->a(ILjava/lang/String;Lcom/tencent/mm/pluginsdk/Hclz$n$e$a;)V
 
     .line 403
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/sns/ui/SnsActivity;->getType()I
@@ -992,7 +992,7 @@
     if-eqz v0, :cond_4
 
     .line 734
-    invoke-static {p0, v6, v5}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->a(Landroid/app/Activity;ILandroid/content/Intent;)Z
+    invoke-static {p0, v6, v5}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->a(Landroid/app/Activity;ILandroid/content/Intent;)Z
 
     :cond_3
     :goto_1
@@ -1009,7 +1009,7 @@
 
     const/4 v3, 0x4
 
-    invoke-static {p0, v0, v1, v3, v5}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->a(Landroid/app/Activity;IIILandroid/content/Intent;)V
+    invoke-static {p0, v0, v1, v3, v5}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->a(Landroid/app/Activity;IIILandroid/content/Intent;)V
 
     goto :goto_1
 .end method
@@ -1101,7 +1101,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, p3, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->a(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p3, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->a(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1262,7 +1262,7 @@
     invoke-virtual {v3, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     .line 496
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atk()Ljava/lang/String;
 
@@ -1278,7 +1278,7 @@
 
     move-object v2, p3
 
-    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/f;->a(Landroid/app/Activity;Landroid/content/Intent;Landroid/content/Intent;Ljava/lang/String;ILcom/tencent/mm/ui/tools/Aclz$a;)V
+    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/Fclz;->a(Landroid/app/Activity;Landroid/content/Intent;Landroid/content/Intent;Ljava/lang/String;ILcom/tencent/mm/ui/tools/Aclz$a;)V
 
     goto/16 :goto_0
 
@@ -2543,7 +2543,7 @@
 
     iget-object v6, v5, Lcom/tencent/mm/plugin/sns/ui/SnsHeader;->context:Landroid/content/Context;
 
-    invoke-static {v6, v0}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
+    invoke-static {v6, v0}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
 
     move-result-object v0
 
@@ -2563,7 +2563,7 @@
 
     move-result v6
 
-    invoke-static {v4, v3, v6}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {v4, v3, v6}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v3
 
@@ -2605,7 +2605,7 @@
 
     iget-object v7, v5, Lcom/tencent/mm/plugin/sns/ui/SnsHeader;->ajd:Ljava/lang/String;
 
-    invoke-static {v6, v7, v1}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;Z)V
+    invoke-static {v6, v7, v1}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->b(Landroid/widget/ImageView;Ljava/lang/String;Z)V
 
     goto :goto_6
 
@@ -2687,7 +2687,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, p0, v1}, Lcom/tencent/mm/plugin/sns/d/al$a;->a(Lcom/tencent/mm/pluginsdk/h$n$e$a;I)Z
+    invoke-virtual {v0, p0, v1}, Lcom/tencent/mm/plugin/sns/d/al$a;->a(Lcom/tencent/mm/pluginsdk/Hclz$n$e$a;I)Z
 
     .line 780
     :cond_1
@@ -2822,7 +2822,7 @@
     .line 417
     const/4 v0, 0x7
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/wallet/c;->oe(I)V
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/wallet/Cclz;->oe(I)V
 
     .line 418
     new-instance v0, Lcom/tencent/mm/d/a/GSclz;

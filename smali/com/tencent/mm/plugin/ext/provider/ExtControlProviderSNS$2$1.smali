@@ -50,9 +50,9 @@
     .line 399
     iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2$1;->dxb:Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;->dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;->dwr:Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/a;->countDown()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;->countDown()V
 
     .line 400
     return-void

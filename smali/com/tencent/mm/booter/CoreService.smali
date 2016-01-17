@@ -1200,7 +1200,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/a;->aHy()Landroid/net/Uri;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Aclz;->aHy()Landroid/net/Uri;
 
     move-result-object v1
 

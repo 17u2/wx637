@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
+.field final synthetic dwr:Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
 .field final synthetic dws:Lcom/tencent/mm/plugin/ext/provider/ExtContentProviderBase;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/ext/provider/ExtContentProviderBase;Lcom/tencent/mm/pluginsdk/d/a/a;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/ext/provider/ExtContentProviderBase;Lcom/tencent/mm/pluginsdk/d/a/Aclz;)V
     .locals 1
 
     .prologue
     .line 181
     iput-object p1, p0, Lcom/tencent/mm/plugin/ext/provider/ExtContentProviderBase$1;->dws:Lcom/tencent/mm/plugin/ext/provider/ExtContentProviderBase;
 
-    iput-object p2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtContentProviderBase$1;->dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
+    iput-object p2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtContentProviderBase$1;->dwr:Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -94,9 +94,9 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 198
-    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtContentProviderBase$1;->dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtContentProviderBase$1;->dwr:Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/a;->countDown()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;->countDown()V
 
     goto :goto_0
 .end method

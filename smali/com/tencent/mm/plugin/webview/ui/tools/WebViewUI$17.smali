@@ -116,7 +116,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI$17;->val$url:Ljava/lang/String;
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/g/c;->a(Landroid/content/Context;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/g/Cclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V
 
     goto :goto_0
 

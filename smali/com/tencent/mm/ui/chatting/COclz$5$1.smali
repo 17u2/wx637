@@ -85,13 +85,13 @@
 
     invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    new-instance v1, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;
 
-    invoke-direct {v1}, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;-><init>()V
 
     iget-object v2, v0, Lcom/tencent/mm/ui/chatting/COclz;->flJ:Ljava/lang/String;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;->xU(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;->xU(Ljava/lang/String;)V
 
     iget-object v2, v0, Lcom/tencent/mm/ui/chatting/COclz;->mContext:Landroid/content/Context;
 
@@ -105,23 +105,23 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;->xV(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;->xV(Ljava/lang/String;)V
 
     iget-object v2, v0, Lcom/tencent/mm/ui/chatting/COclz;->flK:Ljava/lang/String;
 
-    invoke-virtual {v1, v2}, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;->xW(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;->xW(Ljava/lang/String;)V
 
-    invoke-virtual {v1, v4}, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;->fy(Z)V
+    invoke-virtual {v1, v4}, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;->fy(Z)V
 
-    invoke-virtual {v1, v4}, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;->ns(I)V
+    invoke-virtual {v1, v4}, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;->ns(I)V
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
     move-result-object v2
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;->hNi:Lcom/tencent/mm/pluginsdk/model/downloader/d;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;->hNi:Lcom/tencent/mm/pluginsdk/model/downloader/Dclz;
 
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->a(Lcom/tencent/mm/pluginsdk/model/downloader/d;)J
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->a(Lcom/tencent/mm/pluginsdk/model/downloader/Dclz;)J
 
     move-result-wide v1
 

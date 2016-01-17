@@ -200,42 +200,42 @@
 
     if-eqz v1, :cond_0
 
-    iget-object v1, v0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/a;
+    iget-object v1, v0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/Aclz;
 
     sget-object v2, Lcom/tencent/mm/compatible/d/Pclz;->bmh:Lcom/tencent/mm/compatible/d/Tclz;
 
     iget v2, v2, Lcom/tencent/mm/compatible/d/Tclz;->bmu:I
 
-    iput v2, v1, Lcom/tencent/mm/pluginsdk/j/a;->hPN:I
+    iput v2, v1, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPN:I
 
-    iget-object v1, v0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/a;
+    iget-object v1, v0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/Aclz;
 
     sget-object v2, Lcom/tencent/mm/compatible/d/Pclz;->bmh:Lcom/tencent/mm/compatible/d/Tclz;
 
     iget v2, v2, Lcom/tencent/mm/compatible/d/Tclz;->bmt:I
 
-    iput v2, v1, Lcom/tencent/mm/pluginsdk/j/a;->hPO:I
+    iput v2, v1, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPO:I
 
-    iget-object v1, v0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/a;
+    iget-object v1, v0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/Aclz;
 
     sget-object v2, Lcom/tencent/mm/compatible/d/Pclz;->bmh:Lcom/tencent/mm/compatible/d/Tclz;
 
     iget v2, v2, Lcom/tencent/mm/compatible/d/Tclz;->bmw:I
 
-    iput v2, v1, Lcom/tencent/mm/pluginsdk/j/a;->hPM:I
+    iput v2, v1, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPM:I
 
     :cond_0
-    iget-object v1, v0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/a;
+    iget-object v1, v0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/Aclz;
 
     invoke-static {}, Lcom/tencent/mm/compatible/d/Cclz;->getNumberOfCameras()I
 
     move-result v2
 
-    iput v2, v1, Lcom/tencent/mm/pluginsdk/j/a;->hPX:I
+    iput v2, v1, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPX:I
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/a;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/Aclz;
 
-    iput v5, v0, Lcom/tencent/mm/pluginsdk/j/a;->bkR:I
+    iput v5, v0, Lcom/tencent/mm/pluginsdk/j/Aclz;->bkR:I
 
     const v0, 0x7f0e0e15
 

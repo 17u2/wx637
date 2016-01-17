@@ -185,7 +185,7 @@
 
     const/4 v2, 0x1
 
-    invoke-static {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;Z)V
+    invoke-static {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->b(Landroid/widget/ImageView;Ljava/lang/String;Z)V
 
     .line 225
     return-object p2

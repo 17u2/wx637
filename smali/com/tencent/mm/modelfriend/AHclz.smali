@@ -1007,7 +1007,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJX:Lcom/tencent/mm/pluginsdk/h$b;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJX:Lcom/tencent/mm/pluginsdk/Hclz$b;
 
     .line 313
     return-void
@@ -1122,7 +1122,7 @@
     iput-object v3, p0, Lcom/tencent/mm/modelfriend/AHclz;->bGg:Ljava/util/LinkedList;
 
     .line 199
-    sput-object v3, Lcom/tencent/mm/pluginsdk/h$a;->hJX:Lcom/tencent/mm/pluginsdk/h$b;
+    sput-object v3, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJX:Lcom/tencent/mm/pluginsdk/Hclz$b;
 
     .line 200
     return-void

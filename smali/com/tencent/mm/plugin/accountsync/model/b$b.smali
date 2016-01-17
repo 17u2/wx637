@@ -199,9 +199,9 @@
     invoke-virtual {v3, v9}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     .line 164
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
-    invoke-interface {v0, v3, p1}, Lcom/tencent/mm/pluginsdk/f;->e(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v0, v3, p1}, Lcom/tencent/mm/pluginsdk/Fclz;->e(Landroid/content/Intent;Landroid/content/Context;)V
 
     move v0, v1
 
@@ -761,7 +761,7 @@
     .line 126
     iget-object v0, p0, Lcom/tencent/mm/plugin/accountsync/model/b$b;->cfT:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/a;->rE(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/Aclz;->rE(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

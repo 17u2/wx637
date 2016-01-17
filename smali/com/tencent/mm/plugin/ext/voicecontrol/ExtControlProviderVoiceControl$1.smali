@@ -142,9 +142,9 @@
     .line 196
     iget-object v0, p0, Lcom/tencent/mm/plugin/ext/voicecontrol/ExtControlProviderVoiceControl$1;->dxt:Lcom/tencent/mm/plugin/ext/voicecontrol/ExtControlProviderVoiceControl;
 
-    iget-object v0, v0, Lcom/tencent/mm/plugin/ext/voicecontrol/ExtControlProviderVoiceControl;->dxl:Lcom/tencent/mm/pluginsdk/d/a/a;
+    iget-object v0, v0, Lcom/tencent/mm/plugin/ext/voicecontrol/ExtControlProviderVoiceControl;->dxl:Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/a;->countDown()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;->countDown()V
 
     .line 198
     :cond_0

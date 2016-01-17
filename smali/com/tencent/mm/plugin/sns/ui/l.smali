@@ -485,13 +485,13 @@
     invoke-virtual {v0}, Lcom/tencent/mm/ui/MMActivity;->finish()V
 
     .line 212
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/l;->grQ:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$f;->mh(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$f;->mh(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

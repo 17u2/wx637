@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/h$v;
+.implements Lcom/tencent/mm/pluginsdk/Hclz$v;
 
 
 # instance fields
@@ -180,9 +180,9 @@
 
     .line 183
     :goto_1
-    sget-object v2, Lcom/tencent/mm/plugin/talkroom/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v2, Lcom/tencent/mm/plugin/talkroom/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/e;->kU()Landroid/content/Intent;
+    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/Eclz;->kU()Landroid/content/Intent;
 
     move-result-object v2
 

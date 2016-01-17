@@ -49,7 +49,7 @@
 
     move-result-wide v0
 
-    sget-wide v2, Lcom/tencent/mm/pluginsdk/model/app/aj;->hMQ:J
+    sget-wide v2, Lcom/tencent/mm/pluginsdk/model/app/AJclz;->hMQ:J
 
     sub-long/2addr v0, v2
 
@@ -83,24 +83,24 @@
     .line 184
     iget-object v0, p0, Lcom/tencent/mm/plugin/base/stub/WXCommProvider$1;->csF:Lcom/tencent/mm/plugin/base/stub/WXCommProvider;
 
-    iget-object v1, v7, Lcom/tencent/mm/pluginsdk/model/app/aj;->uri:Landroid/net/Uri;
+    iget-object v1, v7, Lcom/tencent/mm/pluginsdk/model/app/AJclz;->uri:Landroid/net/Uri;
 
-    iget-object v2, v7, Lcom/tencent/mm/pluginsdk/model/app/aj;->projection:[Ljava/lang/String;
+    iget-object v2, v7, Lcom/tencent/mm/pluginsdk/model/app/AJclz;->projection:[Ljava/lang/String;
 
-    iget-object v3, v7, Lcom/tencent/mm/pluginsdk/model/app/aj;->selection:Ljava/lang/String;
+    iget-object v3, v7, Lcom/tencent/mm/pluginsdk/model/app/AJclz;->selection:Ljava/lang/String;
 
-    iget-object v4, v7, Lcom/tencent/mm/pluginsdk/model/app/aj;->selectionArgs:[Ljava/lang/String;
+    iget-object v4, v7, Lcom/tencent/mm/pluginsdk/model/app/AJclz;->selectionArgs:[Ljava/lang/String;
 
-    iget-object v5, v7, Lcom/tencent/mm/pluginsdk/model/app/aj;->hMN:Ljava/lang/String;
+    iget-object v5, v7, Lcom/tencent/mm/pluginsdk/model/app/AJclz;->hMN:Ljava/lang/String;
 
-    iget v6, v7, Lcom/tencent/mm/pluginsdk/model/app/aj;->cnE:I
+    iget v6, v7, Lcom/tencent/mm/pluginsdk/model/app/AJclz;->cnE:I
 
-    iget-object v7, v7, Lcom/tencent/mm/pluginsdk/model/app/aj;->hMO:[Ljava/lang/String;
+    iget-object v7, v7, Lcom/tencent/mm/pluginsdk/model/app/AJclz;->hMO:[Ljava/lang/String;
 
     invoke-virtual/range {v0 .. v7}, Lcom/tencent/mm/plugin/base/stub/WXCommProvider;->a(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;I[Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 185
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/n;->aIr()V
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/Nclz;->aIr()V
 
     .line 187
     :cond_0
@@ -108,7 +108,7 @@
 
     .line 181
     :cond_1
-    sget-object v0, Lcom/tencent/mm/pluginsdk/model/app/aj;->hMP:Lcom/tencent/mm/pluginsdk/model/app/aj;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/model/app/AJclz;->hMP:Lcom/tencent/mm/pluginsdk/model/app/AJclz;
 
     move-object v7, v0
 

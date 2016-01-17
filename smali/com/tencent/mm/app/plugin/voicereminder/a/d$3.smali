@@ -100,7 +100,7 @@
 
     move-result-object v5
 
-    invoke-static {v5, v1}, Lcom/tencent/mm/pluginsdk/g/n;->n(Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {v5, v1}, Lcom/tencent/mm/pluginsdk/g/Nclz;->n(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object v5
 

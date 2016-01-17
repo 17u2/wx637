@@ -181,18 +181,18 @@
 
     iget-object v2, v2, Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraSurfaceView;->gcM:Lcom/tencent/mm/plugin/sight/encode/ui/f;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/a;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/Aclz;
 
-    iget v2, v2, Lcom/tencent/mm/pluginsdk/j/a;->hPK:I
+    iget v2, v2, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPK:I
 
     .line 87
     iget-object v3, p0, Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraSurfaceView$1;->gcC:Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraSurfaceView;
 
     iget-object v3, v3, Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraSurfaceView;->gcM:Lcom/tencent/mm/plugin/sight/encode/ui/f;
 
-    iget-object v3, v3, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/a;
+    iget-object v3, v3, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/Aclz;
 
-    iget v3, v3, Lcom/tencent/mm/pluginsdk/j/a;->hPL:I
+    iget v3, v3, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPL:I
 
     .line 88
     const-string/jumbo v4, "!44@/B4Tb64lLpJusIoUV0UaqO6w8cKbz4Zp48YkOe0V9s4="
@@ -302,18 +302,18 @@
 
     iget-object v2, v2, Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraSurfaceView;->gcM:Lcom/tencent/mm/plugin/sight/encode/ui/f;
 
-    iget-object v2, v2, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/a;
+    iget-object v2, v2, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/Aclz;
 
-    iget v2, v2, Lcom/tencent/mm/pluginsdk/j/a;->hPL:I
+    iget v2, v2, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPL:I
 
     .line 94
     iget-object v3, p0, Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraSurfaceView$1;->gcC:Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraSurfaceView;
 
     iget-object v3, v3, Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraSurfaceView;->gcM:Lcom/tencent/mm/plugin/sight/encode/ui/f;
 
-    iget-object v3, v3, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/a;
+    iget-object v3, v3, Lcom/tencent/mm/plugin/sight/encode/ui/f;->gcb:Lcom/tencent/mm/pluginsdk/j/Aclz;
 
-    iget v3, v3, Lcom/tencent/mm/pluginsdk/j/a;->hPK:I
+    iget v3, v3, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPK:I
 
     .line 95
     const-string/jumbo v4, "!44@/B4Tb64lLpJusIoUV0UaqO6w8cKbz4Zp48YkOe0V9s4="

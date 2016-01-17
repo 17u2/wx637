@@ -57,7 +57,7 @@
     iget-object v0, v0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
     .line 392
-    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/f;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference$2;->hZW:Lcom/tencent/mm/pluginsdk/ui/preference/NormalUserHeaderPreference;
 
@@ -65,7 +65,7 @@
 
     move-result-object v2
 
-    invoke-direct {v1, v2, v0}, Lcom/tencent/mm/pluginsdk/ui/f;-><init>(Landroid/app/Activity;Ljava/lang/String;)V
+    invoke-direct {v1, v2, v0}, Lcom/tencent/mm/pluginsdk/ui/Fclz;-><init>(Landroid/app/Activity;Ljava/lang/String;)V
 
     .line 393
     invoke-static {v0}, Lcom/tencent/mm/storage/Kclz;->BV(Ljava/lang/String;)Z
@@ -79,7 +79,7 @@
 
     .line 396
     :cond_0
-    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/ui/f;->aJt()V
+    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/ui/Fclz;->aJt()V
 
     .line 397
     return-void

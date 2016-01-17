@@ -904,7 +904,7 @@
 
     move-result v6
 
-    invoke-static {v1, v5, v6}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {v1, v5, v6}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v1
 
@@ -1103,7 +1103,7 @@
 
     move-result v5
 
-    invoke-static {v4, v1, v5}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {v4, v1, v5}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v1
 
@@ -1177,7 +1177,7 @@
 
     iget-object v3, v0, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
-    invoke-static {v1, v3}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
 
     .line 321
     iget-boolean v1, p0, Lcom/tencent/mm/ui/voicesearch/Aclz;->kvS:Z
@@ -1337,15 +1337,15 @@
     invoke-virtual {v3, v0, v4, v5}, Lcom/tencent/mm/storage/Sclz;->a(Lcom/tencent/mm/storage/Rclz;Ljava/lang/String;Z)I
 
     :cond_a
-    sget-object v3, Lcom/tencent/mm/pluginsdk/h$a;->hJG:Lcom/tencent/mm/pluginsdk/h$t;
+    sget-object v3, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJG:Lcom/tencent/mm/pluginsdk/Hclz$t;
 
     if-eqz v3, :cond_b
 
-    sget-object v3, Lcom/tencent/mm/pluginsdk/h$a;->hJG:Lcom/tencent/mm/pluginsdk/h$t;
+    sget-object v3, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJG:Lcom/tencent/mm/pluginsdk/Hclz$t;
 
     iget-object v4, v0, Lcom/tencent/mm/d/b/Sclz;->field_username:Ljava/lang/String;
 
-    invoke-interface {v3, v4}, Lcom/tencent/mm/pluginsdk/h$t;->uM(Ljava/lang/String;)Z
+    invoke-interface {v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$t;->uM(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -1395,7 +1395,7 @@
 
     const/4 v7, 0x1
 
-    invoke-static {v1, v5, v6, v7}, Lcom/tencent/mm/pluginsdk/g/n;->b(Landroid/content/Context;JZ)Ljava/lang/CharSequence;
+    invoke-static {v1, v5, v6, v7}, Lcom/tencent/mm/pluginsdk/g/Nclz;->b(Landroid/content/Context;JZ)Ljava/lang/CharSequence;
 
     move-result-object v1
 
@@ -1512,7 +1512,7 @@
 
     move-result-object v6
 
-    invoke-static {v1, v6, v5}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/text/SpannableString;
+    invoke-static {v1, v6, v5}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/text/SpannableString;
 
     move-result-object v1
 

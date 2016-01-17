@@ -128,9 +128,9 @@
 
     .line 167
     :cond_0
-    new-instance v0, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;
 
-    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;-><init>()V
 
     .line 168
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI$4;->ies:Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;
@@ -144,39 +144,39 @@
     .line 169
     const-string/jumbo v1, "http://mdc.html5.qq.com/d/directdown.jsp?channel_id=10375"
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;->xU(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;->xU(Ljava/lang/String;)V
 
     .line 173
     :goto_0
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI$4;->ies:Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;->g(Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;)Lcom/tencent/mm/pluginsdk/model/p;
+    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;->g(Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;)Lcom/tencent/mm/pluginsdk/model/Pclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/model/p;->aHZ()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/model/Pclz;->aHZ()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;->xV(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;->xV(Ljava/lang/String;)V
 
     .line 174
-    invoke-virtual {v0, v5}, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;->ns(I)V
+    invoke-virtual {v0, v5}, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;->ns(I)V
 
     .line 175
-    invoke-virtual {v0, v5}, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;->fy(Z)V
+    invoke-virtual {v0, v5}, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;->fy(Z)V
 
     .line 176
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
     move-result-object v1
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;->hNi:Lcom/tencent/mm/pluginsdk/model/downloader/d;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;->hNi:Lcom/tencent/mm/pluginsdk/model/downloader/Dclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->a(Lcom/tencent/mm/pluginsdk/model/downloader/d;)J
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->a(Lcom/tencent/mm/pluginsdk/model/downloader/Dclz;)J
 
     .line 178
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/q;->aIa()Lcom/tencent/mm/pluginsdk/model/q;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/Qclz;->aIa()Lcom/tencent/mm/pluginsdk/model/Qclz;
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI$4;->ies:Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;
 
@@ -184,7 +184,7 @@
 
     move-result v0
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/q;->nq(I)V
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/Qclz;->nq(I)V
 
     .line 179
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI$4;->ies:Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;
@@ -272,15 +272,15 @@
     :cond_3
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI$4;->ies:Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;->g(Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;)Lcom/tencent/mm/pluginsdk/model/p;
+    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;->g(Lcom/tencent/mm/pluginsdk/ui/tools/AppChooserUI;)Lcom/tencent/mm/pluginsdk/model/Pclz;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/model/p;->EN()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/model/Pclz;->EN()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;->xU(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;->xU(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -335,15 +335,15 @@
 
     invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
     move-result-object v3
 
-    invoke-virtual {v3, v1, v2}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->cA(J)Lcom/tencent/mm/pluginsdk/model/downloader/e;
+    invoke-virtual {v3, v1, v2}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->cA(J)Lcom/tencent/mm/pluginsdk/model/downloader/Eclz;
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/downloader/e;->path:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/downloader/Eclz;->path:Ljava/lang/String;
 
     const-string/jumbo v2, "!32@/B4Tb64lLpIg3+3oVdUfy4qJrktshWRo"
 
@@ -367,7 +367,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/n;->c(Landroid/content/Context;Landroid/net/Uri;)Z
+    invoke-static {v1, v2}, Lcom/tencent/mm/pluginsdk/model/app/Nclz;->c(Landroid/content/Context;Landroid/net/Uri;)Z
 
     move-result v1
 

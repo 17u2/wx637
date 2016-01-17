@@ -14,7 +14,7 @@
 # instance fields
 .field public hQG:Lcom/tencent/mm/pluginsdk/ui/ChatFooterPanel$a;
 
-.field public hQH:Lcom/tencent/mm/pluginsdk/ui/chat/f;
+.field public hQH:Lcom/tencent/mm/pluginsdk/ui/chat/Fclz;
 
 .field protected hQI:I
 
@@ -66,12 +66,12 @@
 .method public abstract onResume()V
 .end method
 
-.method public setCallback(Lcom/tencent/mm/pluginsdk/ui/chat/f;)V
+.method public setCallback(Lcom/tencent/mm/pluginsdk/ui/chat/Fclz;)V
     .locals 0
 
     .prologue
     .line 54
-    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/ChatFooterPanel;->hQH:Lcom/tencent/mm/pluginsdk/ui/chat/f;
+    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/ChatFooterPanel;->hQH:Lcom/tencent/mm/pluginsdk/ui/chat/Fclz;
 
     .line 55
     return-void

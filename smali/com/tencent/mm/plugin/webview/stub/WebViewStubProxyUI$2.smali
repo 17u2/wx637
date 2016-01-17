@@ -48,7 +48,7 @@
 
     .prologue
     .line 139
-    sget-object v0, Lcom/tencent/mm/plugin/webview/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/webview/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     new-instance v1, Landroid/content/Intent;
 
@@ -56,7 +56,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubProxyUI$2;->hBg:Lcom/tencent/mm/plugin/webview/stub/WebViewStubProxyUI;
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/f;->h(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/Fclz;->h(Landroid/content/Intent;Landroid/content/Context;)V
 
     .line 140
     return-void

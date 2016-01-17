@@ -359,13 +359,13 @@
 
     .prologue
     .line 141
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/SelectLabelContactUI;->label:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$e;->pp(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$e;->pp(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -380,11 +380,11 @@
 
     move-result v2
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v3
 
-    invoke-interface {v3, v0}, Lcom/tencent/mm/pluginsdk/h$e;->pt(Ljava/lang/String;)Ljava/util/List;
+    invoke-interface {v3, v0}, Lcom/tencent/mm/pluginsdk/Hclz$e;->pt(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 

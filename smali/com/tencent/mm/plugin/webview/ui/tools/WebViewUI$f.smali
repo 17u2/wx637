@@ -99,7 +99,7 @@
     .line 6064
     iget-object v1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI$f;->hEd:Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;
 
-    invoke-static {v1, v0, v0}, Lcom/tencent/mm/pluginsdk/g/c;->a(Landroid/content/Context;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V
+    invoke-static {v1, v0, v0}, Lcom/tencent/mm/pluginsdk/g/Cclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V
 
     .line 6065
     const/4 v0, 0x1

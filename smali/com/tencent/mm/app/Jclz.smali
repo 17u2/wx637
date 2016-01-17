@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/f;
+.implements Lcom/tencent/mm/pluginsdk/Fclz;
 
 
 # direct methods
@@ -401,7 +401,7 @@
 
     move-object v9, v1
 
-    invoke-static/range {v2 .. v9}, Lcom/tencent/mm/pluginsdk/ui/applet/c;->a(Lcom/tencent/mm/ui/Jclz;[BLjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILcom/tencent/mm/pluginsdk/ui/applet/c$a;)Lcom/tencent/mm/ui/base/Gclz;
+    invoke-static/range {v2 .. v9}, Lcom/tencent/mm/pluginsdk/ui/applet/Cclz;->a(Lcom/tencent/mm/ui/Jclz;[BLjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILcom/tencent/mm/pluginsdk/ui/applet/Cclz$a;)Lcom/tencent/mm/ui/base/Gclz;
 
     .line 332
     return-void
@@ -441,7 +441,7 @@
 
     .line 555
     :cond_0
-    invoke-static {p4, p3, p2}, Lcom/tencent/mm/pluginsdk/i/b/a/a;->c(Ljava/lang/String;Landroid/content/Context;Z)Z
+    invoke-static {p4, p3, p2}, Lcom/tencent/mm/pluginsdk/i/b/a/Aclz;->c(Ljava/lang/String;Landroid/content/Context;Z)Z
 
     move-result v0
 
@@ -503,11 +503,11 @@
 
     .prologue
     .line 350
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJT:Lcom/tencent/mm/pluginsdk/h$ad;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJT:Lcom/tencent/mm/pluginsdk/Hclz$ad;
 
     const/4 v1, 0x0
 
-    invoke-interface {v0, p1, p2, v1, p3}, Lcom/tencent/mm/pluginsdk/h$ad;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/os/Bundle;)Z
+    invoke-interface {v0, p1, p2, v1, p3}, Lcom/tencent/mm/pluginsdk/Hclz$ad;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/os/Bundle;)Z
 
     move-result v0
 
@@ -519,9 +519,9 @@
 
     .prologue
     .line 787
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJT:Lcom/tencent/mm/pluginsdk/h$ad;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJT:Lcom/tencent/mm/pluginsdk/Hclz$ad;
 
-    invoke-interface {v0, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/h$ad;->b(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/Object;)Z
+    invoke-interface {v0, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/Hclz$ad;->b(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -1299,11 +1299,11 @@
 
     .prologue
     .line 820
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJT:Lcom/tencent/mm/pluginsdk/h$ad;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJT:Lcom/tencent/mm/pluginsdk/Hclz$ad;
 
     const/4 v1, 0x1
 
-    invoke-interface {v0, p1, p2, v1}, Lcom/tencent/mm/pluginsdk/h$ad;->a(Landroid/content/Context;Ljava/lang/String;Z)Z
+    invoke-interface {v0, p1, p2, v1}, Lcom/tencent/mm/pluginsdk/Hclz$ad;->a(Landroid/content/Context;Ljava/lang/String;Z)Z
 
     .line 821
     return-void
@@ -1320,7 +1320,7 @@
 
     move-result-object v0
 
-    invoke-static {p2, v0}, Lcom/tencent/mm/pluginsdk/ui/d/l;->a(Landroid/content/Context;Landroid/os/Bundle;)V
+    invoke-static {p2, v0}, Lcom/tencent/mm/pluginsdk/ui/d/Lclz;->a(Landroid/content/Context;Landroid/os/Bundle;)V
 
     .line 233
     return-void
@@ -1614,7 +1614,7 @@
 
     .line 506
     :cond_0
-    invoke-static {p2}, Lcom/tencent/mm/pluginsdk/d;->cv(Landroid/content/Context;)V
+    invoke-static {p2}, Lcom/tencent/mm/pluginsdk/Dclz;->cv(Landroid/content/Context;)V
 
     .line 507
     return-void

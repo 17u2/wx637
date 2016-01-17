@@ -86,11 +86,11 @@
 
     move-result-object v2
 
-    invoke-virtual {v2, p3}, Lcom/tencent/mm/pluginsdk/ui/chat/AppGrid$a;->lH(I)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-virtual {v2, p3}, Lcom/tencent/mm/pluginsdk/ui/chat/AppGrid$a;->lH(I)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v2
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/chat/AppGrid$b;->a(ILcom/tencent/mm/pluginsdk/model/app/f;)V
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/chat/AppGrid$b;->a(ILcom/tencent/mm/pluginsdk/model/app/Fclz;)V
 
     .line 121
     return-void

@@ -93,7 +93,7 @@
     move-result-object v7
 
     .line 158
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v8
 
@@ -240,7 +240,7 @@
 
     aget-object v0, v7, v4
 
-    invoke-interface {v8, v0}, Lcom/tencent/mm/pluginsdk/h$e;->po(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v8, v0}, Lcom/tencent/mm/pluginsdk/Hclz$e;->po(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

@@ -249,7 +249,7 @@
 
     const/4 v2, 0x2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/widget/TextView;I)Landroid/text/SpannableString;
+    invoke-static {v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/widget/TextView;I)Landroid/text/SpannableString;
 
     .line 93
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/CollapsibleTextView;->grx:Lcom/tencent/mm/plugin/sns/ui/SnsTextView;

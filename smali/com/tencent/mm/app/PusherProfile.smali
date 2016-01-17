@@ -675,7 +675,7 @@
     .line 64
     const-string/jumbo v0, "gcm"
 
-    invoke-static {v0, v7, v7}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v7, v7}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "gcm"
 

@@ -65,20 +65,20 @@
     check-cast p1, Lcom/tencent/mm/d/a/CKclz;
 
     .line 228
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKi:Lcom/tencent/mm/pluginsdk/h$n$d;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKi:Lcom/tencent/mm/pluginsdk/Hclz$n$d;
 
     if-eqz v0, :cond_1
 
     .line 229
     iget-object v0, p1, Lcom/tencent/mm/d/a/CKclz;->avf:Lcom/tencent/mm/d/a/CKclz$b;
 
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKi:Lcom/tencent/mm/pluginsdk/h$n$d;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKi:Lcom/tencent/mm/pluginsdk/Hclz$n$d;
 
     iget-object v2, p1, Lcom/tencent/mm/d/a/CKclz;->ave:Lcom/tencent/mm/d/a/CKclz$a;
 
     iget-object v2, v2, Lcom/tencent/mm/d/a/CKclz$a;->avg:Ljava/lang/String;
 
-    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/h$n$d;->uh(Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/Hclz$n$d;->uh(Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v1
 

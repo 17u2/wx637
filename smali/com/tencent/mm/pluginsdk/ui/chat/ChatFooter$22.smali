@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/ui/a/a;
+.implements Lcom/tencent/mm/pluginsdk/ui/a/Aclz;
 
 
 # annotations

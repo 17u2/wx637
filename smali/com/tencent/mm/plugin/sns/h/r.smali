@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/h$n$g;
+.implements Lcom/tencent/mm/pluginsdk/Hclz$n$g;
 
 
 # static fields

@@ -3,13 +3,13 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/g;
+.implements Lcom/tencent/mm/pluginsdk/Gclz;
 
 
 # static fields
-.field public static cfx:Lcom/tencent/mm/pluginsdk/f;
+.field public static cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
-.field private static cfy:Lcom/tencent/mm/pluginsdk/e;
+.field private static cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
 
 # direct methods
@@ -32,23 +32,23 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/pluginsdk/e;)V
+.method public final a(Lcom/tencent/mm/pluginsdk/Eclz;)V
     .locals 0
 
     .prologue
     .line 29
-    sput-object p1, Lcom/tencent/mm/plugin/ext/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sput-object p1, Lcom/tencent/mm/plugin/ext/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
     .line 30
     return-void
 .end method
 
-.method public final a(Lcom/tencent/mm/pluginsdk/f;)V
+.method public final a(Lcom/tencent/mm/pluginsdk/Fclz;)V
     .locals 0
 
     .prologue
     .line 19
-    sput-object p1, Lcom/tencent/mm/plugin/ext/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sput-object p1, Lcom/tencent/mm/plugin/ext/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     .line 20
     return-void

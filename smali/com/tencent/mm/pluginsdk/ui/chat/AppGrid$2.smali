@@ -86,7 +86,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2, p3}, Lcom/tencent/mm/pluginsdk/ui/chat/AppGrid$a;->lH(I)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-virtual {v2, p3}, Lcom/tencent/mm/pluginsdk/ui/chat/AppGrid$a;->lH(I)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/AppGrid$b;->nM(I)V
 

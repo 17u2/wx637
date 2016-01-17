@@ -43,7 +43,7 @@
     .line 112
     iget-object v0, p1, Lcom/tencent/mm/ui/chatting/BOclz$b;->kec:Landroid/widget/TextView;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/d/e;->b(Landroid/widget/TextView;)Landroid/text/SpannableString;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->b(Landroid/widget/TextView;)Landroid/text/SpannableString;
 
     .line 113
     iget-object v0, p1, Lcom/tencent/mm/ui/chatting/BOclz$b;->kec:Landroid/widget/TextView;

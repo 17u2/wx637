@@ -104,7 +104,7 @@
     .line 542
     const/4 v3, 0x1
 
-    invoke-static {v0, v3}, Lcom/tencent/mm/pluginsdk/model/app/g;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-static {v0, v3}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v3
 
@@ -146,7 +146,7 @@
     .line 549
     :cond_2
     :try_start_1
-    iget-object v4, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v4, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     invoke-static {v4}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
@@ -179,7 +179,7 @@
 
     const/4 v0, 0x1
 
-    iget v7, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appInfoFlag:I
+    iget v7, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appInfoFlag:I
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -189,7 +189,7 @@
 
     const/4 v0, 0x2
 
-    iget-object v7, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v7, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     aput-object v7, v6, v0
 
@@ -200,7 +200,7 @@
 
     move-result-object v0
 
-    iget-object v4, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v4, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     invoke-virtual {v0, v4}, Lcom/tencent/mm/storage/AGclz;->Dl(Ljava/lang/String;)Lcom/tencent/mm/storage/AFclz;
 
@@ -220,7 +220,7 @@
 
     const/4 v6, 0x0
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     aput-object v3, v5, v6
 
@@ -230,7 +230,7 @@
 
     .line 559
     :cond_4
-    invoke-static {v3}, Lcom/tencent/mm/pluginsdk/model/app/g;->j(Lcom/tencent/mm/pluginsdk/model/app/f;)Z
+    invoke-static {v3}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->j(Lcom/tencent/mm/pluginsdk/model/app/Fclz;)Z
 
     move-result v0
 
@@ -252,7 +252,7 @@
 
     move-result-object v0
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     invoke-static {v3}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 

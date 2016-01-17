@@ -272,7 +272,7 @@
     .line 289
     iget-object v2, v1, Lcom/tencent/mm/plugin/sns/ui/SnsSelectContactDialog$b;->dcq:Landroid/widget/ImageView;
 
-    invoke-static {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
 
     goto :goto_2
 

@@ -75,11 +75,11 @@
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 225
-    sget-object v1, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v1, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/bindmobile/BindMContactUI$5;->jXx:Lcom/tencent/mm/ui/bindmobile/BindMContactUI;
 
-    invoke-interface {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/f;->b(Landroid/content/Intent;Landroid/app/Activity;)V
+    invoke-interface {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/Fclz;->b(Landroid/content/Intent;Landroid/app/Activity;)V
 
     .line 226
     return-void

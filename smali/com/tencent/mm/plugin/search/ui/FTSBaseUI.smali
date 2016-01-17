@@ -5,7 +5,7 @@
 # interfaces
 .implements Lcom/tencent/mm/plugin/search/ui/b$a;
 .implements Lcom/tencent/mm/plugin/search/ui/c;
-.implements Lcom/tencent/mm/pluginsdk/ui/tools/n$a;
+.implements Lcom/tencent/mm/pluginsdk/ui/tools/Nclz$a;
 
 
 # annotations
@@ -17,7 +17,7 @@
 # instance fields
 .field aBw:Ljava/lang/String;
 
-.field cDk:Lcom/tencent/mm/pluginsdk/ui/tools/n;
+.field cDk:Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
 .field private ebO:Landroid/widget/TextView;
 
@@ -55,12 +55,12 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;)Lcom/tencent/mm/pluginsdk/ui/tools/n;
+.method static synthetic a(Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;)Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
     .locals 1
 
     .prologue
     .line 32
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
     return-object v0
 .end method
@@ -517,18 +517,18 @@
     if-eqz v0, :cond_1
 
     .line 181
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/n;->bbj()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;->bbj()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
     .line 182
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/n;->bbk()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;->bbk()Z
 
     .line 183
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->alA()V
@@ -587,31 +587,31 @@
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->anU()V
 
     .line 72
-    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/tools/n;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/n;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/n;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->aoe()Z
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/n;->hu(Z)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;->hu(Z)V
 
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/pluginsdk/ui/tools/n;->a(Lcom/tencent/mm/pluginsdk/ui/tools/n$a;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;->a(Lcom/tencent/mm/pluginsdk/ui/tools/Nclz$a;)V
 
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->anT()Z
 
     move-result v1
 
-    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/tools/n;->igq:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;->igq:Z
 
     const v0, 0x7f0e0719
 
@@ -734,11 +734,11 @@
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;->setVisibility(I)V
 
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->fJv:Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/n;->r(Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;->r(Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;)V
 
     const v0, 0x7f0e071a
 
@@ -782,9 +782,9 @@
 
     .prologue
     .line 300
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
-    invoke-virtual {v0, p0, p1}, Lcom/tencent/mm/pluginsdk/ui/tools/n;->a(Landroid/support/v4/app/FragmentActivity;Landroid/view/Menu;)V
+    invoke-virtual {v0, p0, p1}, Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;->a(Landroid/support/v4/app/FragmentActivity;Landroid/view/Menu;)V
 
     .line 301
     const/4 v0, 0x1
@@ -816,14 +816,14 @@
     invoke-super {p0}, Lcom/tencent/mm/ui/MMActivity;->onPause()V
 
     .line 287
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/n;->cancel()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;->cancel()V
 
     .line 288
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/n;->clearFocus()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;->clearFocus()V
 
     .line 289
     return-void
@@ -834,9 +834,9 @@
 
     .prologue
     .line 306
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
-    invoke-virtual {v0, p0, p1}, Lcom/tencent/mm/pluginsdk/ui/tools/n;->a(Landroid/app/Activity;Landroid/view/Menu;)V
+    invoke-virtual {v0, p0, p1}, Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;->a(Landroid/app/Activity;Landroid/view/Menu;)V
 
     .line 307
     const/4 v0, 0x1

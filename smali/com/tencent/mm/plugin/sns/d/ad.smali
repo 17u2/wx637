@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lcom/tencent/mm/model/AEclz;
-.implements Lcom/tencent/mm/pluginsdk/h$n$f;
+.implements Lcom/tencent/mm/pluginsdk/Hclz$n$f;
 
 
 # static fields
@@ -788,7 +788,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/d/ad;->gjq:Lcom/tencent/mm/plugin/sns/h/r;
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKf:Lcom/tencent/mm/pluginsdk/h$n$g;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKf:Lcom/tencent/mm/pluginsdk/Hclz$n$g;
 
     .line 471
     :cond_1
@@ -2946,7 +2946,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/d/ad;->gjs:Lcom/tencent/mm/plugin/sns/d/al$a;
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKh:Lcom/tencent/mm/pluginsdk/h$n$e;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKh:Lcom/tencent/mm/pluginsdk/Hclz$n$e;
 
     .line 331
     :cond_1
@@ -3273,7 +3273,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/d/ad;->gju:Lcom/tencent/mm/plugin/sns/d/as;
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKb:Lcom/tencent/mm/pluginsdk/h$n$h;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKb:Lcom/tencent/mm/pluginsdk/Hclz$n$h;
 
     .line 394
     :cond_1
@@ -3334,7 +3334,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/d/ad;->gjn:Lcom/tencent/mm/plugin/sns/d/g;
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     .line 405
     :cond_1
@@ -3477,7 +3477,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/d/ad;->gjl:Lcom/tencent/mm/plugin/sns/h/l;
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKi:Lcom/tencent/mm/pluginsdk/h$n$d;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKi:Lcom/tencent/mm/pluginsdk/Hclz$n$d;
 
     .line 426
     :cond_1
@@ -3606,7 +3606,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/d/ad;->gjo:Lcom/tencent/mm/plugin/sns/h/j;
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKd:Lcom/tencent/mm/pluginsdk/h$n$b;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKd:Lcom/tencent/mm/pluginsdk/Hclz$n$b;
 
     .line 449
     :cond_1
@@ -3673,7 +3673,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/sns/d/ad;->gjp:Lcom/tencent/mm/plugin/sns/h/h;
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKe:Lcom/tencent/mm/pluginsdk/h$n$a;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKe:Lcom/tencent/mm/pluginsdk/Hclz$n$a;
 
     .line 460
     :cond_1
@@ -4291,52 +4291,52 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKb:Lcom/tencent/mm/pluginsdk/h$n$h;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKb:Lcom/tencent/mm/pluginsdk/Hclz$n$h;
 
     .line 736
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atu()Lcom/tencent/mm/plugin/sns/d/g;
 
     move-result-object v0
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     .line 737
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->aty()Lcom/tencent/mm/plugin/sns/h/j;
 
     move-result-object v0
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKd:Lcom/tencent/mm/pluginsdk/h$n$b;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKd:Lcom/tencent/mm/pluginsdk/Hclz$n$b;
 
     .line 738
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atz()Lcom/tencent/mm/plugin/sns/h/h;
 
     move-result-object v0
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKe:Lcom/tencent/mm/pluginsdk/h$n$a;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKe:Lcom/tencent/mm/pluginsdk/Hclz$n$a;
 
     .line 739
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atA()Lcom/tencent/mm/plugin/sns/h/r;
 
     move-result-object v0
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKf:Lcom/tencent/mm/pluginsdk/h$n$g;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKf:Lcom/tencent/mm/pluginsdk/Hclz$n$g;
 
     .line 740
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atn()Lcom/tencent/mm/plugin/sns/d/al$a;
 
     move-result-object v0
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKh:Lcom/tencent/mm/pluginsdk/h$n$e;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKh:Lcom/tencent/mm/pluginsdk/Hclz$n$e;
 
     .line 741
-    sput-object p0, Lcom/tencent/mm/pluginsdk/h$ah;->hKg:Lcom/tencent/mm/pluginsdk/h$n$f;
+    sput-object p0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKg:Lcom/tencent/mm/pluginsdk/Hclz$n$f;
 
     .line 742
     invoke-static {}, Lcom/tencent/mm/plugin/sns/d/ad;->atw()Lcom/tencent/mm/plugin/sns/h/l;
 
     move-result-object v0
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKi:Lcom/tencent/mm/pluginsdk/h$n$d;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKi:Lcom/tencent/mm/pluginsdk/Hclz$n$d;
 
     .line 744
     sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;

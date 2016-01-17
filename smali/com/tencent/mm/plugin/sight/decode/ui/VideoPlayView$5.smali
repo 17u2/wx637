@@ -84,11 +84,11 @@
     .line 335
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView$5;->fXK:Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;->a(Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;)Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;->a(Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;)Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->isPlaying()Z
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->isPlaying()Z
 
     move-result v0
 
@@ -131,7 +131,7 @@
     .line 342
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView$5;->fXK:Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;->a(Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;)Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;->a(Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;)Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     move-result-object v0
 
@@ -141,7 +141,7 @@
 
     move-result-wide v1
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->i(D)V
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->i(D)V
 
     .line 343
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView$5;->fXK:Lcom/tencent/mm/plugin/sight/decode/ui/VideoPlayView;

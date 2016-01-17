@@ -42,7 +42,7 @@
 
 .field public gmw:Ljava/util/HashMap;
 
-.field private gmz:Lcom/tencent/mm/pluginsdk/ui/d/j$a;
+.field private gmz:Lcom/tencent/mm/pluginsdk/ui/d/Jclz$a;
 
 
 # direct methods
@@ -128,7 +128,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/sns/e/c$6;-><init>(Lcom/tencent/mm/plugin/sns/e/c;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/e/c;->gmz:Lcom/tencent/mm/pluginsdk/ui/d/j$a;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/e/c;->gmz:Lcom/tencent/mm/pluginsdk/ui/d/Jclz$a;
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -224,7 +224,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     .line 754
-    new-instance v12, Lcom/tencent/mm/pluginsdk/ui/d/j;
+    new-instance v12, Lcom/tencent/mm/pluginsdk/ui/d/Jclz;
 
     move-object/from16 v0, p4
 
@@ -248,7 +248,7 @@
 
     invoke-direct/range {v1 .. v8}, Lcom/tencent/mm/plugin/sns/e/c$5;-><init>(Lcom/tencent/mm/plugin/sns/e/c;Landroid/content/Context;Lcom/tencent/mm/protocal/b/aod;Lcom/tencent/mm/plugin/sns/e/d$a;Lcom/tencent/mm/plugin/sns/e/d$b;Lcom/tencent/mm/plugin/sns/ui/b/a$b;Lcom/tencent/mm/plugin/sns/e/d;)V
 
-    invoke-direct {v12, v13, v1}, Lcom/tencent/mm/pluginsdk/ui/d/j;-><init>(Ljava/lang/Object;Lcom/tencent/mm/pluginsdk/ui/d/j$a;)V
+    invoke-direct {v12, v13, v1}, Lcom/tencent/mm/pluginsdk/ui/d/Jclz;-><init>(Ljava/lang/Object;Lcom/tencent/mm/pluginsdk/ui/d/Jclz$a;)V
 
     invoke-virtual {v10}, Ljava/lang/String;->length()I
 
@@ -269,7 +269,7 @@
     :cond_0
     move-object/from16 v0, p3
 
-    invoke-static {p1, v0}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
+    invoke-static {p1, v0}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
 
     move-result-object v1
 
@@ -938,9 +938,9 @@
     invoke-virtual {v1, v0, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     .line 632
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
-    invoke-interface {v0, v1, p1}, Lcom/tencent/mm/pluginsdk/f;->k(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v0, v1, p1}, Lcom/tencent/mm/pluginsdk/Fclz;->k(Landroid/content/Intent;Landroid/content/Context;)V
 
     .line 633
     iget-wide v0, p2, Lcom/tencent/mm/protocal/b/aod;->wv:J

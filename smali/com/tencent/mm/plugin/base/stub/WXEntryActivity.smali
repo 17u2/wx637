@@ -102,7 +102,7 @@
     :cond_0
     iget-object v3, p0, Lcom/tencent/mm/plugin/base/stub/WXEntryActivity;->appId:Ljava/lang/String;
 
-    invoke-static {v3, v1}, Lcom/tencent/mm/pluginsdk/model/app/g;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-static {v3, v1}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v3
 
@@ -124,7 +124,7 @@
     :cond_1
     iget-object v4, p0, Lcom/tencent/mm/plugin/base/stub/WXEntryActivity;->cst:Ljava/lang/String;
 
-    invoke-static {p0, v3, v4}, Lcom/tencent/mm/pluginsdk/model/app/n;->b(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/f;Ljava/lang/String;)Z
+    invoke-static {p0, v3, v4}, Lcom/tencent/mm/pluginsdk/model/app/Nclz;->b(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/Fclz;Ljava/lang/String;)Z
 
     move-result v3
 
@@ -144,13 +144,13 @@
     invoke-static {v2, v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 465
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->aIw()Lcom/tencent/mm/pluginsdk/model/app/h;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->aIw()Lcom/tencent/mm/pluginsdk/model/app/Hclz;
 
     move-result-object v2
 
     iget-object v3, p0, Lcom/tencent/mm/plugin/base/stub/WXEntryActivity;->appId:Ljava/lang/String;
 
-    invoke-virtual {v2, v3}, Lcom/tencent/mm/pluginsdk/model/app/h;->xF(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/tencent/mm/pluginsdk/model/app/Hclz;->xF(Ljava/lang/String;)V
 
     .line 466
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/base/stub/WXEntryActivity;->getIntent()Landroid/content/Intent;
@@ -936,7 +936,7 @@
     .line 568
     iget-object v1, p0, Lcom/tencent/mm/plugin/base/stub/WXEntryActivity;->appId:Ljava/lang/String;
 
-    invoke-static {p0, v1}, Lcom/tencent/mm/pluginsdk/model/app/g;->j(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v1}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->j(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1444,7 +1444,7 @@
     .line 329
     iget-object v2, p0, Lcom/tencent/mm/plugin/base/stub/WXEntryActivity;->appId:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/model/app/n;->xO(Ljava/lang/String;)V
+    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/model/app/Nclz;->xO(Ljava/lang/String;)V
 
     .line 331
     :cond_2

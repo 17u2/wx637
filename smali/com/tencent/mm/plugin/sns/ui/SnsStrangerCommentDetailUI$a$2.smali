@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/sns/ui/SnsStrangerCommentDetailUI$a$2;
-.super Lcom/tencent/mm/pluginsdk/ui/d/j;
+.super Lcom/tencent/mm/pluginsdk/ui/d/Jclz;
 .source "SourceFile"
 
 
@@ -28,7 +28,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, p2, v0}, Lcom/tencent/mm/pluginsdk/ui/d/j;-><init>(Ljava/lang/Object;Lcom/tencent/mm/pluginsdk/ui/d/j$a;)V
+    invoke-direct {p0, p2, v0}, Lcom/tencent/mm/pluginsdk/ui/d/Jclz;-><init>(Ljava/lang/Object;Lcom/tencent/mm/pluginsdk/ui/d/Jclz$a;)V
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 
@@ -65,7 +65,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 475
-    sget-object v1, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v1, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/SnsStrangerCommentDetailUI$a$2;->gCH:Lcom/tencent/mm/plugin/sns/ui/SnsStrangerCommentDetailUI$a;
 
@@ -73,7 +73,7 @@
 
     move-result-object v2
 
-    invoke-interface {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/f;->d(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/Fclz;->d(Landroid/content/Intent;Landroid/content/Context;)V
 
     .line 478
     return-void

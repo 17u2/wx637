@@ -154,11 +154,11 @@
 
     :cond_1
     :goto_2
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     if-eqz v0, :cond_2
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$n$c;->asO()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->asO()V
 
     :cond_2
     iget-object v0, v1, Lcom/tencent/mm/ui/LauncherUI;->jwf:Ljava/util/HashMap;

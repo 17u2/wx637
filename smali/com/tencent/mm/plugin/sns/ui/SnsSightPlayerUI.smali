@@ -34,7 +34,7 @@
 
 .field public dDk:Lcom/tencent/mm/ui/tools/Lclz;
 
-.field private dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+.field private dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
 .field private dFb:Landroid/widget/TextView;
 
@@ -119,7 +119,7 @@
     iput-boolean v2, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->gfZ:Z
 
     .line 96
-    iput-object v3, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iput-object v3, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     .line 97
     iput-object v3, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->fXl:Landroid/widget/TextView;
@@ -383,21 +383,21 @@
     invoke-static {v1, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 857
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     check-cast v1, Landroid/view/View;
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 859
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     instance-of v1, v1, Lcom/tencent/mm/plugin/sight/decode/a/a;
 
     if-eqz v1, :cond_2
 
     .line 860
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     check-cast v1, Lcom/tencent/mm/plugin/sight/decode/a/a;
 
@@ -429,7 +429,7 @@
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 869
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     check-cast v0, Landroid/view/View;
 
@@ -539,9 +539,9 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 429
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->isPlaying()Z
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->isPlaying()Z
 
     move-result v0
 
@@ -571,9 +571,9 @@
 
     .prologue
     .line 467
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->pause()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->pause()V
 
     .line 468
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->bfG:Lcom/tencent/mm/model/Dclz;
@@ -633,14 +633,14 @@
     const/4 v1, 0x2
 
     .line 453
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->start()Z
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->start()Z
 
     .line 455
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->getDuration()I
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->getDuration()I
 
     move-result v0
 
@@ -726,12 +726,12 @@
     goto :goto_0
 .end method
 
-.method static synthetic f(Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;)Lcom/tencent/mm/pluginsdk/ui/tools/f;
+.method static synthetic f(Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;)Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
     .locals 1
 
     .prologue
     .line 77
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     return-object v0
 .end method
@@ -816,9 +816,9 @@
 
     .line 880
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->isPlaying()Z
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->isPlaying()Z
 
     move-result v0
 
@@ -830,9 +830,9 @@
     if-nez v0, :cond_2
 
     .line 882
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->getDuration()I
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->getDuration()I
 
     move-result v0
 
@@ -1029,11 +1029,11 @@
     iput v3, v0, Lcom/tencent/mm/plugin/sns/a/a/g;->gfw:I
 
     .line 785
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->bMh:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->setVideoPath(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->setVideoPath(Ljava/lang/String;)V
 
     .line 786
     invoke-direct {p0, v3}, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->eh(Z)V
@@ -1297,7 +1297,7 @@
     invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 737
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHC()Lcom/tencent/mm/pluginsdk/h$k;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHC()Lcom/tencent/mm/pluginsdk/Hclz$k;
 
     move-result-object v0
 
@@ -1311,7 +1311,7 @@
 
     move v9, v8
 
-    invoke-interface/range {v0 .. v9}, Lcom/tencent/mm/pluginsdk/h$k;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IILcom/tencent/mm/protocal/b/apv;ZZ)V
+    invoke-interface/range {v0 .. v9}, Lcom/tencent/mm/pluginsdk/Hclz$k;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IILcom/tencent/mm/protocal/b/apv;ZZ)V
 
     .line 744
     :goto_2
@@ -1403,7 +1403,7 @@
     invoke-static {v0, v1, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 741
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHC()Lcom/tencent/mm/pluginsdk/h$k;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHC()Lcom/tencent/mm/pluginsdk/Hclz$k;
 
     move-result-object v0
 
@@ -1415,7 +1415,7 @@
 
     move-object v1, p0
 
-    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/h$k;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;II)V
+    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/Hclz$k;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;II)V
 
     goto :goto_2
 
@@ -1924,11 +1924,11 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/m;->cH(Landroid/content/Context;)Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Mclz;->cH(Landroid/content/Context;)Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     .line 206
     new-instance v5, Landroid/widget/LinearLayout$LayoutParams;
@@ -1951,7 +1951,7 @@
     .line 211
     iget-object v6, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->fXx:Landroid/view/ViewGroup;
 
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     check-cast v0, Landroid/view/View;
 
@@ -2014,13 +2014,13 @@
 
     .line 296
     :goto_2
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     new-instance v5, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI$3;
 
     invoke-direct {v5, p0}, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI$3;-><init>(Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;)V
 
-    invoke-interface {v0, v5}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->setVideoCallback(Lcom/tencent/mm/pluginsdk/ui/tools/f$a;)V
+    invoke-interface {v0, v5}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->setVideoCallback(Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;)V
 
     .line 383
     const v0, 0x7f0e068b
@@ -2036,7 +2036,7 @@
     invoke-virtual {v0, v5}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 391
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     check-cast v0, Landroid/view/View;
 
@@ -2061,16 +2061,16 @@
     if-eqz v0, :cond_7
 
     .line 401
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->stop()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->stop()V
 
     .line 402
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->bMh:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->setVideoPath(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->setVideoPath(Ljava/lang/String;)V
 
     .line 404
     :cond_7
@@ -2148,7 +2148,7 @@
     :cond_8
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dDk:Lcom/tencent/mm/ui/tools/Lclz;
 
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     check-cast v0, Landroid/view/View;
 
@@ -2494,24 +2494,24 @@
 
     .line 534
     :cond_3
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     if-eqz v0, :cond_4
 
     .line 535
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0, v5}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->setVideoCallback(Lcom/tencent/mm/pluginsdk/ui/tools/f$a;)V
+    invoke-interface {v0, v5}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->setVideoCallback(Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;)V
 
     .line 536
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->stop()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->stop()V
 
     .line 537
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsSightPlayerUI;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->onDetach()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->onDetach()V
 
     .line 540
     :cond_4

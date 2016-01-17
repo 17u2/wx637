@@ -226,14 +226,14 @@
 
     iget v2, v2, Lcom/tencent/mm/plugin/search/ui/FTSMainUI;->fJn:I
 
-    invoke-static {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/c;->a(Landroid/content/Intent;Lcom/tencent/mm/protocal/b/akj;I)V
+    invoke-static {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Cclz;->a(Landroid/content/Intent;Lcom/tencent/mm/protocal/b/akj;I)V
 
     .line 397
-    sget-object v0, Lcom/tencent/mm/plugin/search/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/search/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/FTSMainUI$2;->fKk:Lcom/tencent/mm/plugin/search/ui/FTSMainUI;
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/f;->d(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/Fclz;->d(Landroid/content/Intent;Landroid/content/Context;)V
 
     goto :goto_0
 
@@ -278,7 +278,7 @@
 
     iget v2, v2, Lcom/tencent/mm/plugin/search/ui/FTSMainUI;->fJn:I
 
-    invoke-static {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/c;->a(Landroid/content/Intent;Lcom/tencent/mm/protocal/b/akl;I)V
+    invoke-static {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Cclz;->a(Landroid/content/Intent;Lcom/tencent/mm/protocal/b/akl;I)V
 
     .line 411
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSMainUI$2;->fKk:Lcom/tencent/mm/plugin/search/ui/FTSMainUI;
@@ -305,11 +305,11 @@
     invoke-virtual {v1, v0, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 415
-    sget-object v0, Lcom/tencent/mm/plugin/search/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/search/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/search/ui/FTSMainUI$2;->fKk:Lcom/tencent/mm/plugin/search/ui/FTSMainUI;
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/f;->d(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/Fclz;->d(Landroid/content/Intent;Landroid/content/Context;)V
 
     goto/16 :goto_0
 

@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/f;
-.super Lcom/tencent/mm/pluginsdk/h/a/c/o$b;
+.super Lcom/tencent/mm/pluginsdk/h/a/c/Oclz$b;
 .source "SourceFile"
 
 
@@ -12,25 +12,25 @@
 
 
 # instance fields
-.field private final hAv:Lcom/tencent/mm/pluginsdk/h/a/c/o;
+.field private final hAv:Lcom/tencent/mm/pluginsdk/h/a/c/Oclz;
 
 
 # direct methods
-.method public constructor <init>(Lcom/tencent/mm/pluginsdk/h/a/c/o;)V
+.method public constructor <init>(Lcom/tencent/mm/pluginsdk/h/a/c/Oclz;)V
     .locals 3
 
     .prologue
     .line 23
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h/a/c/n;->anZ:Lcom/tencent/mm/sdk/g/Cclz$a;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;->anZ:Lcom/tencent/mm/sdk/g/Cclz$a;
 
     const-string/jumbo v1, "ResDownloaderRecord"
 
-    sget-object v2, Lcom/tencent/mm/pluginsdk/h/a/c/n;->aHv:[Ljava/lang/String;
+    sget-object v2, Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;->aHv:[Ljava/lang/String;
 
-    invoke-direct {p0, p1, v0, v1, v2}, Lcom/tencent/mm/pluginsdk/h/a/c/o$b;-><init>(Lcom/tencent/mm/pluginsdk/h/a/c/o;Lcom/tencent/mm/sdk/g/Cclz$a;Ljava/lang/String;[Ljava/lang/String;)V
+    invoke-direct {p0, p1, v0, v1, v2}, Lcom/tencent/mm/pluginsdk/h/a/c/Oclz$b;-><init>(Lcom/tencent/mm/pluginsdk/h/a/c/Oclz;Lcom/tencent/mm/sdk/g/Cclz$a;Ljava/lang/String;[Ljava/lang/String;)V
 
     .line 25
-    iput-object p1, p0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/f;->hAv:Lcom/tencent/mm/pluginsdk/h/a/c/o;
+    iput-object p1, p0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/f;->hAv:Lcom/tencent/mm/pluginsdk/h/a/c/Oclz;
 
     .line 26
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z

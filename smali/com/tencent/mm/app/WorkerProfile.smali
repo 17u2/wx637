@@ -1724,13 +1724,13 @@
 
     invoke-static {v5, v6}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/ui/a$b;->fcy:Lcom/tencent/mm/pluginsdk/ui/h$a;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->fcy:Lcom/tencent/mm/pluginsdk/ui/Hclz$a;
 
     new-instance v0, Lcom/tencent/mm/app/WorkerProfile$17;
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/app/WorkerProfile$17;-><init>(Lcom/tencent/mm/app/WorkerProfile;)V
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJI:Lcom/tencent/mm/pluginsdk/h$i;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJI:Lcom/tencent/mm/pluginsdk/Hclz$i;
 
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
 
@@ -1744,7 +1744,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "setting"
 
@@ -1752,7 +1752,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "subapp"
 
@@ -1760,7 +1760,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "nearby"
 
@@ -1768,7 +1768,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "brandservice"
 
@@ -1776,7 +1776,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "favorite"
 
@@ -1784,7 +1784,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "scanner"
 
@@ -1792,7 +1792,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "shake"
 
@@ -1800,7 +1800,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "wallet"
 
@@ -1808,7 +1808,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "mall"
 
@@ -1816,7 +1816,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "voip"
 
@@ -1824,7 +1824,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "radar"
 
@@ -1832,7 +1832,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "sns"
 
@@ -1840,7 +1840,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "ext"
 
@@ -1848,7 +1848,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "accountsync"
 
@@ -1856,7 +1856,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "traceroute"
 
@@ -1864,7 +1864,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "qqmail"
 
@@ -1872,7 +1872,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "readerapp"
 
@@ -1880,7 +1880,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "talkroom"
 
@@ -1888,7 +1888,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "emoticon"
 
@@ -1896,7 +1896,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "sandbox"
 
@@ -1904,7 +1904,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "webview"
 
@@ -1912,7 +1912,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "bottle"
 
@@ -1920,7 +1920,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "masssend"
 
@@ -1928,7 +1928,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "emoji"
 
@@ -1936,7 +1936,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "qmessage"
 
@@ -1944,7 +1944,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "game"
 
@@ -1952,7 +1952,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "location"
 
@@ -1960,7 +1960,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "clean"
 
@@ -1968,7 +1968,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "chatroom"
 
@@ -1976,7 +1976,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "safedevice"
 
@@ -1984,7 +1984,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "card"
 
@@ -1992,7 +1992,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "search"
 
@@ -2000,7 +2000,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "exdevice"
 
@@ -2008,7 +2008,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "translate"
 
@@ -2016,7 +2016,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "location_soso"
 
@@ -2024,7 +2024,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "location_google"
 
@@ -2032,7 +2032,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "extqlauncher"
 
@@ -2040,7 +2040,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "nearlife"
 
@@ -2048,7 +2048,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "freewifi"
 
@@ -2056,7 +2056,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "pwdgroup"
 
@@ -2064,7 +2064,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "gallery"
 
@@ -2072,7 +2072,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "label"
 
@@ -2080,7 +2080,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "address"
 
@@ -2088,7 +2088,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "wxcredit"
 
@@ -2096,7 +2096,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "offline"
 
@@ -2104,7 +2104,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "recharge"
 
@@ -2112,7 +2112,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "wallet_index"
 
@@ -2120,7 +2120,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "order"
 
@@ -2128,7 +2128,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "product"
 
@@ -2136,7 +2136,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "remittance"
 
@@ -2144,7 +2144,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "collect"
 
@@ -2152,7 +2152,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "extaccessories"
 
@@ -2160,7 +2160,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "gai"
 
@@ -2168,7 +2168,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "backup"
 
@@ -2176,7 +2176,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "record"
 
@@ -2184,7 +2184,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "webwx"
 
@@ -2192,7 +2192,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "notification"
 
@@ -2200,7 +2200,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "gesture"
 
@@ -2208,7 +2208,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "voiceprint"
 
@@ -2216,7 +2216,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "wear"
 
@@ -2224,7 +2224,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "wallet_payu"
 
@@ -2232,7 +2232,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "luckymoney"
 
@@ -2240,7 +2240,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "fingerprint"
 
@@ -2248,7 +2248,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "ipcall"
 
@@ -2256,7 +2256,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "multitalk"
 
@@ -2264,7 +2264,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     const-string/jumbo v0, "hp"
 
@@ -2272,7 +2272,7 @@
 
     iget-object v5, p0, Lcom/tencent/mm/app/WorkerProfile;->amk:Lcom/tencent/mm/app/Iclz;
 
-    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;Lcom/tencent/mm/pluginsdk/e;)V
+    invoke-static {v0, v1, v5}, Lcom/tencent/mm/ao/Cclz;->a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;Lcom/tencent/mm/pluginsdk/Eclz;)V
 
     sget-object v0, Lcom/tencent/mm/sdk/c/Aclz;->jeN:Lcom/tencent/mm/sdk/c/Aclz;
 
@@ -2601,25 +2601,25 @@
 
     invoke-direct {v0}, Lcom/tencent/mm/ui/transmit/Bclz;-><init>()V
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJO:Lcom/tencent/mm/pluginsdk/h$k;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJO:Lcom/tencent/mm/pluginsdk/Hclz$k;
 
     new-instance v0, Lcom/tencent/mm/app/plugin/a;
 
     invoke-direct {v0}, Lcom/tencent/mm/app/plugin/a;-><init>()V
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJT:Lcom/tencent/mm/pluginsdk/h$ad;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJT:Lcom/tencent/mm/pluginsdk/Hclz$ad;
 
     new-instance v0, Lcom/tencent/mm/app/plugin/d;
 
     invoke-direct {v0}, Lcom/tencent/mm/app/plugin/d;-><init>()V
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJU:Lcom/tencent/mm/pluginsdk/h$j;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJU:Lcom/tencent/mm/pluginsdk/Hclz$j;
 
     invoke-static {}, Lcom/tencent/mm/app/plugin/e;->ln()Lcom/tencent/mm/app/plugin/e;
 
     move-result-object v0
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJV:Lcom/tencent/mm/pluginsdk/h$c;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJV:Lcom/tencent/mm/pluginsdk/Hclz$c;
 
     .line 1510
     if-eqz p1, :cond_d
@@ -3334,15 +3334,15 @@
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2040
-    const-class v1, Lcom/tencent/mm/pluginsdk/model/app/ah;
+    const-class v1, Lcom/tencent/mm/pluginsdk/model/app/AHclz;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object v1
 
-    new-instance v2, Lcom/tencent/mm/pluginsdk/model/app/ah;
+    new-instance v2, Lcom/tencent/mm/pluginsdk/model/app/AHclz;
 
-    invoke-direct {v2}, Lcom/tencent/mm/pluginsdk/model/app/ah;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;-><init>()V
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

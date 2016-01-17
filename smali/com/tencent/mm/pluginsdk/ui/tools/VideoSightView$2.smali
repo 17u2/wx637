@@ -71,14 +71,14 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView$2;->ige:Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
     if-eqz v0, :cond_1
 
     .line 232
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView$2;->ige:Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSightView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
     long-to-int v1, p2
 
@@ -88,7 +88,7 @@
 
     move-result v2
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/f$a;->az(II)I
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;->az(II)I
 
     .line 234
     :cond_1

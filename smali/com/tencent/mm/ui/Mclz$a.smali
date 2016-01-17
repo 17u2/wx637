@@ -65,7 +65,7 @@
 
     move-result-object v3
 
-    invoke-static {p0, v0, v3}, Lcom/tencent/mm/pluginsdk/ui/i;->r(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {p0, v0, v3}, Lcom/tencent/mm/pluginsdk/ui/Iclz;->r(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -83,7 +83,7 @@
 
     if-eqz v0, :cond_2
 
-    invoke-static {p0}, Lcom/tencent/mm/pluginsdk/ui/i;->cE(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/tencent/mm/pluginsdk/ui/Iclz;->cE(Landroid/content/Context;)Z
 
     move-result v0
 

@@ -531,7 +531,7 @@
     move-result-object v0
 
     .line 223
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/d/e;->yG(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->yG(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -5781,7 +5781,7 @@
     sget v2, Lcom/tencent/mm/booter/notification/a/Hclz;->bij:I
 
     :goto_5
-    invoke-static {v3, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/text/SpannableString;
+    invoke-static {v3, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/text/SpannableString;
 
     move-result-object v2
 
@@ -5924,7 +5924,7 @@
 
     .line 391
     :goto_0
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/d/e;->yG(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->yG(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 

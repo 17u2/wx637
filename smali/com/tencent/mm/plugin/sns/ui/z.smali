@@ -1236,7 +1236,7 @@
     invoke-virtual {v3, v0, v7}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     .line 570
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/z;->arA:Lcom/tencent/mm/ui/MMActivity;
 
@@ -1250,7 +1250,7 @@
 
     move-object v2, p2
 
-    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/f;->a(Landroid/app/Activity;Landroid/content/Intent;Landroid/content/Intent;Ljava/lang/String;ILcom/tencent/mm/ui/tools/Aclz$a;)V
+    invoke-interface/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/Fclz;->a(Landroid/app/Activity;Landroid/content/Intent;Landroid/content/Intent;Ljava/lang/String;ILcom/tencent/mm/ui/tools/Aclz$a;)V
 
     move v0, v7
 
@@ -1276,7 +1276,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, p2, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->a(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p2, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->a(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1488,11 +1488,11 @@
     invoke-interface {v1, v3, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 613
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/z;->arA:Lcom/tencent/mm/ui/MMActivity;
 
-    invoke-interface {v0, v1, v2, v5}, Lcom/tencent/mm/pluginsdk/f;->a(Landroid/app/Activity;Landroid/content/Intent;I)V
+    invoke-interface {v0, v1, v2, v5}, Lcom/tencent/mm/pluginsdk/Fclz;->a(Landroid/app/Activity;Landroid/content/Intent;I)V
 
     .line 614
     iput-boolean v7, p0, Lcom/tencent/mm/plugin/sns/ui/z;->gtS:Z
@@ -2489,7 +2489,7 @@
 
     const/4 v3, 0x0
 
-    invoke-static {v0, v2, v3}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->a(Landroid/app/Activity;ILandroid/content/Intent;)Z
+    invoke-static {v0, v2, v3}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->a(Landroid/app/Activity;ILandroid/content/Intent;)Z
 
     :goto_1
     move v0, v1
@@ -2507,7 +2507,7 @@
 
     const/4 v5, 0x0
 
-    invoke-static {v2, v3, v0, v4, v5}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->a(Landroid/app/Activity;IIILandroid/content/Intent;)V
+    invoke-static {v2, v3, v0, v4, v5}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->a(Landroid/app/Activity;IIILandroid/content/Intent;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

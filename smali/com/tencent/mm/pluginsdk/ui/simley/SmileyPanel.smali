@@ -3,15 +3,15 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/ui/simley/c$a;
+.implements Lcom/tencent/mm/pluginsdk/ui/simley/Cclz$a;
 
 
 # instance fields
 .field private final TAG:Ljava/lang/String;
 
-.field private iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
+.field private iaP:Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;
 
-.field private iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+.field private iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
 .field private iaR:Z
 
@@ -86,24 +86,24 @@
 
     .prologue
     .line 40
-    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/d;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
     .line 41
-    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;
 
     invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    invoke-direct {v0, v1, v2, p0}, Lcom/tencent/mm/pluginsdk/ui/simley/c;-><init>(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/ui/simley/d;Lcom/tencent/mm/pluginsdk/ui/simley/c$a;)V
+    invoke-direct {v0, v1, v2, p0}, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;-><init>(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;Lcom/tencent/mm/pluginsdk/ui/simley/Cclz$a;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;
 
     .line 43
     return-void
@@ -121,14 +121,14 @@
     iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->hQG:Lcom/tencent/mm/pluginsdk/ui/ChatFooterPanel$a;
 
     .line 99
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;
 
     if-eqz v0, :cond_0
 
     .line 100
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaZ:Lcom/tencent/mm/pluginsdk/ui/simley/g;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaZ:Lcom/tencent/mm/pluginsdk/ui/simley/Gclz;
 
     if-nez v1, :cond_1
 
@@ -139,9 +139,9 @@
 
     .line 100
     :cond_1
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaZ:Lcom/tencent/mm/pluginsdk/ui/simley/g;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaZ:Lcom/tencent/mm/pluginsdk/ui/simley/Gclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/g;->aLT()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Gclz;->aLT()V
 
     goto :goto_0
 .end method
@@ -159,11 +159,11 @@
 
     .line 110
     :try_start_0
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;
 
     if-nez v0, :cond_1
 
@@ -174,9 +174,9 @@
 
     .line 117
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->aLG()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->aLG()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -201,20 +201,20 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 143
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
     const/4 v1, 0x1
 
-    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibC:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibC:Z
 
     .line 144
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iba:Lcom/tencent/mm/ui/base/MMSmoothHorizontalScrollView;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iba:Lcom/tencent/mm/ui/base/MMSmoothHorizontalScrollView;
 
     if-eqz v1, :cond_0
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iba:Lcom/tencent/mm/ui/base/MMSmoothHorizontalScrollView;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iba:Lcom/tencent/mm/ui/base/MMSmoothHorizontalScrollView;
 
     const/16 v1, 0x8
 
@@ -249,14 +249,14 @@
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 158
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;
 
-    invoke-virtual {v0, v4}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->fQ(Z)V
+    invoke-virtual {v0, v4}, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->fQ(Z)V
 
     .line 159
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    iput-boolean v5, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibH:Z
+    iput-boolean v5, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibH:Z
 
     .line 160
     return-void
@@ -267,11 +267,11 @@
 
     .prologue
     .line 230
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
     const/4 v1, 0x1
 
-    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibM:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibM:Z
 
     .line 231
     return-void
@@ -282,27 +282,27 @@
 
     .prologue
     .line 234
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;
 
     if-eqz v0, :cond_0
 
     .line 235
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;
 
     const-string/jumbo v1, "TAG_DEFAULT_TAB"
 
-    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
+    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
 
     if-eqz v2, :cond_0
 
-    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
     if-nez v2, :cond_2
 
     .line 238
     :cond_0
     :goto_0
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
     if-eqz v0, :cond_1
 
@@ -327,24 +327,24 @@
 
     .line 235
     :cond_2
-    iget-boolean v2, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ibp:Z
+    iget-boolean v2, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->ibp:Z
 
     if-nez v2, :cond_3
 
-    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ibq:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->ibq:Ljava/lang/String;
 
     goto :goto_0
 
     :cond_3
     const/4 v2, 0x0
 
-    iput-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ibq:Ljava/lang/String;
+    iput-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->ibq:Ljava/lang/String;
 
-    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
+    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
 
-    new-instance v3, Lcom/tencent/mm/pluginsdk/ui/simley/c$3;
+    new-instance v3, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz$3;
 
-    invoke-direct {v3, v0, v1}, Lcom/tencent/mm/pluginsdk/ui/simley/c$3;-><init>(Lcom/tencent/mm/pluginsdk/ui/simley/c;Ljava/lang/String;)V
+    invoke-direct {v3, v0, v1}, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz$3;-><init>(Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;Ljava/lang/String;)V
 
     invoke-virtual {v2, v3}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->post(Ljava/lang/Runnable;)Z
 
@@ -365,7 +365,7 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 64
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;
 
     if-eqz v0, :cond_2
 
@@ -377,28 +377,28 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 66
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->aLx()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->aLx()V
 
-    iput-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->cXM:Landroid/content/Context;
+    iput-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->cXM:Landroid/content/Context;
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
 
     if-eqz v1, :cond_0
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
 
     invoke-virtual {v1, v3}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->setAdapter(Landroid/support/v4/view/j;)V
 
-    iput-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
+    iput-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
 
     :cond_0
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ibf:Ljava/util/List;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->ibf:Ljava/util/List;
 
     if-eqz v1, :cond_1
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ibf:Ljava/util/List;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->ibf:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
@@ -409,28 +409,28 @@
 
     invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v1
 
-    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->cYw:Lcom/tencent/mm/sdk/g/Gclz$a;
+    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->cYw:Lcom/tencent/mm/sdk/g/Gclz$a;
 
-    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/h$f;->d(Lcom/tencent/mm/sdk/g/Gclz$a;)V
+    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/Hclz$f;->d(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v1
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->cYx:Lcom/tencent/mm/sdk/g/Gclz$a;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->cYx:Lcom/tencent/mm/sdk/g/Gclz$a;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/pluginsdk/h$f;->b(Lcom/tencent/mm/sdk/g/Gclz$a;)V
+    invoke-interface {v1, v0}, Lcom/tencent/mm/pluginsdk/Hclz$f;->b(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 
     .line 67
-    iput-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
+    iput-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;
 
     .line 70
     :cond_2
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
     if-eqz v0, :cond_5
 
@@ -442,9 +442,9 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 72
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    iget-object v0, v1, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibQ:Ljava/util/ArrayList;
+    iget-object v0, v1, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibQ:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
@@ -462,19 +462,19 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/simley/a;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/simley/Aclz;
 
     if-eqz v0, :cond_3
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/a;->aLv()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Aclz;->aLv()V
 
     goto :goto_0
 
     :cond_4
-    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/ui/simley/d;->aLR()V
+    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->aLR()V
 
     .line 73
-    iput-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iput-object v3, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
     .line 76
     :cond_5
@@ -486,21 +486,21 @@
 
     .prologue
     .line 178
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    iget v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibI:I
+    iget v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibI:I
 
     return v0
 .end method
 
-.method public getSmileyPanelCallback()Lcom/tencent/mm/pluginsdk/ui/simley/b;
+.method public getSmileyPanelCallback()Lcom/tencent/mm/pluginsdk/ui/simley/Bclz;
     .locals 1
 
     .prologue
     .line 169
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->hQH:Lcom/tencent/mm/pluginsdk/ui/chat/f;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->hQH:Lcom/tencent/mm/pluginsdk/ui/chat/Fclz;
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/simley/b;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/simley/Bclz;
 
     return-object v0
 .end method
@@ -563,15 +563,15 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 59
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
     const/4 v1, 0x0
 
-    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibG:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibG:Z
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/d;->aLK()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->aLK()V
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/d;->aLR()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->aLR()V
 
     .line 60
     return-void
@@ -589,20 +589,20 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 48
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
     const/4 v1, 0x1
 
-    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibG:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibG:Z
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/d;->aLL()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->aLL()V
 
     .line 49
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->aLC()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->aLC()V
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->aLF()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->aLF()V
 
     .line 50
     return-void
@@ -619,31 +619,31 @@
     return-void
 .end method
 
-.method public setCallback(Lcom/tencent/mm/pluginsdk/ui/chat/f;)V
+.method public setCallback(Lcom/tencent/mm/pluginsdk/ui/chat/Fclz;)V
     .locals 4
 
     .prologue
     .line 80
-    invoke-super {p0, p1}, Lcom/tencent/mm/pluginsdk/ui/ChatFooterPanel;->setCallback(Lcom/tencent/mm/pluginsdk/ui/chat/f;)V
+    invoke-super {p0, p1}, Lcom/tencent/mm/pluginsdk/ui/ChatFooterPanel;->setCallback(Lcom/tencent/mm/pluginsdk/ui/chat/Fclz;)V
 
     .line 81
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;
 
-    check-cast p1, Lcom/tencent/mm/pluginsdk/ui/simley/b;
+    check-cast p1, Lcom/tencent/mm/pluginsdk/ui/simley/Bclz;
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaZ:Lcom/tencent/mm/pluginsdk/ui/simley/g;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaZ:Lcom/tencent/mm/pluginsdk/ui/simley/Gclz;
 
     if-eqz v1, :cond_0
 
     if-eqz p1, :cond_0
 
-    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaZ:Lcom/tencent/mm/pluginsdk/ui/simley/g;
+    iget-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaZ:Lcom/tencent/mm/pluginsdk/ui/simley/Gclz;
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/g;->icj:Landroid/util/SparseArray;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Gclz;->icj:Landroid/util/SparseArray;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/g;->icj:Landroid/util/SparseArray;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Gclz;->icj:Landroid/util/SparseArray;
 
     invoke-virtual {v0}, Landroid/util/SparseArray;->size()I
 
@@ -662,7 +662,7 @@
     move v1, v0
 
     :goto_0
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/g;->icj:Landroid/util/SparseArray;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Gclz;->icj:Landroid/util/SparseArray;
 
     invoke-virtual {v0}, Landroid/util/SparseArray;->size()I
 
@@ -670,13 +670,13 @@
 
     if-ge v1, v0, :cond_0
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/g;->icj:Landroid/util/SparseArray;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Gclz;->icj:Landroid/util/SparseArray;
 
     invoke-virtual {v0, v1}, Landroid/util/SparseArray;->keyAt(I)I
 
     move-result v0
 
-    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/ui/simley/g;->icj:Landroid/util/SparseArray;
+    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Gclz;->icj:Landroid/util/SparseArray;
 
     invoke-virtual {v3, v0}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
@@ -695,7 +695,7 @@
 
     check-cast v0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid;->setCallback(Lcom/tencent/mm/pluginsdk/ui/simley/b;)V
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid;->setCallback(Lcom/tencent/mm/pluginsdk/ui/simley/Bclz;)V
 
     :cond_2
     add-int/lit8 v0, v1, 0x1
@@ -705,7 +705,7 @@
     goto :goto_0
 
     :cond_3
-    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/ui/simley/g;->icj:Landroid/util/SparseArray;
+    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Gclz;->icj:Landroid/util/SparseArray;
 
     invoke-virtual {v3, v0}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
@@ -727,21 +727,21 @@
 
     .prologue
     .line 212
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/simley/d;->setShowProductId(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->setShowProductId(Ljava/lang/String;)V
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/d;->aLK()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->aLK()V
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibR:Lcom/tencent/mm/sdk/c/Cclz;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibR:Lcom/tencent/mm/sdk/c/Cclz;
 
     if-nez v1, :cond_0
 
-    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/simley/d$1;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz$1;
 
-    invoke-direct {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/d$1;-><init>(Lcom/tencent/mm/pluginsdk/ui/simley/d;)V
+    invoke-direct {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz$1;-><init>(Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;)V
 
-    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibR:Lcom/tencent/mm/sdk/c/Cclz;
+    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibR:Lcom/tencent/mm/sdk/c/Cclz;
 
     :cond_0
     const-string/jumbo v1, "!64@/B4Tb64lLpIUhDmLVZ6YSfFgXjzkEDm0SGvdmwO2++pwePLUH2P5VYxhCHoAe2LT"
@@ -754,7 +754,7 @@
 
     const-string/jumbo v2, "SucceedUploadEmotion"
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibR:Lcom/tencent/mm/sdk/c/Cclz;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibR:Lcom/tencent/mm/sdk/c/Cclz;
 
     invoke-virtual {v1, v2, v0}, Lcom/tencent/mm/sdk/c/Aclz;->a(Ljava/lang/String;Lcom/tencent/mm/sdk/c/Cclz;)Z
 
@@ -797,18 +797,18 @@
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 174
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    iget v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibI:I
+    iget v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibI:I
 
     if-eq v1, p1, :cond_0
 
-    iput-boolean v4, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibP:Z
+    iput-boolean v4, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibP:Z
 
-    iput-boolean v4, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibO:Z
+    iput-boolean v4, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibO:Z
 
     :cond_0
-    iput p1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibI:I
+    iput p1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibI:I
 
     .line 175
     return-void
@@ -819,13 +819,13 @@
 
     .prologue
     .line 87
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ibk:Landroid/widget/TextView;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->ibk:Landroid/widget/TextView;
 
     if-eqz v1, :cond_0
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ibk:Landroid/widget/TextView;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->ibk:Landroid/widget/TextView;
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setEnabled(Z)V
 
@@ -839,9 +839,9 @@
 
     .prologue
     .line 53
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/simley/d;->setShowProductId(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->setShowProductId(Ljava/lang/String;)V
 
     .line 54
     return-void
@@ -852,9 +852,9 @@
 
     .prologue
     .line 208
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    iput-object p1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->hVl:Ljava/lang/String;
+    iput-object p1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->hVl:Ljava/lang/String;
 
     .line 209
     return-void
@@ -880,12 +880,12 @@
     iput-boolean v1, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaR:Z
 
     .line 192
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;
 
     if-eqz v0, :cond_5
 
     .line 193
-    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/c;
+    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaP:Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;
 
     const-string/jumbo v0, "!64@/B4Tb64lLpIUhDmLVZ6YSfFgXjzkEDm0SGvdmwO2++rS2W7tnlwr+XaH77pBXT19"
 
@@ -895,7 +895,7 @@
 
     if-eqz p0, :cond_0
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->mView:Landroid/view/View;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->mView:Landroid/view/View;
 
     if-eqz v0, :cond_1
 
@@ -918,15 +918,15 @@
 
     .line 193
     :cond_1
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibU:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibU:Z
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->mView:Landroid/view/View;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->mView:Landroid/view/View;
 
     if-nez v0, :cond_3
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->bsC:Landroid/content/Context;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->bsC:Landroid/content/Context;
 
     const v3, 0x7f0304e4
 
@@ -936,59 +936,59 @@
 
     move-result-object v0
 
-    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->mView:Landroid/view/View;
+    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->mView:Landroid/view/View;
 
     :cond_2
     :goto_1
     const v0, 0x7f0e0e43
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
 
-    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
+    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
 
-    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    invoke-virtual {v0, v3}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->setPanelStg(Lcom/tencent/mm/pluginsdk/ui/simley/d;)V
+    invoke-virtual {v0, v3}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->setPanelStg(Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;)V
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
 
     invoke-virtual {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->setSmileyPanelViewPagerLayoutListener(Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager$a;)V
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
 
     invoke-virtual {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->setOnPageChangeListener(Landroid/support/v4/view/ViewPager$e;)V
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
+    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaY:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;
 
     invoke-virtual {v3}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanelViewPager;->getWidth()I
 
     move-result v3
 
-    iput v3, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibK:I
+    iput v3, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibK:I
 
     const v0, 0x7f0e0e3f
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Lcom/tencent/mm/ui/base/MMDotView;
 
-    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ded:Lcom/tencent/mm/ui/base/MMDotView;
+    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->ded:Lcom/tencent/mm/ui/base/MMDotView;
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ded:Lcom/tencent/mm/ui/base/MMDotView;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->ded:Lcom/tencent/mm/ui/base/MMDotView;
 
     invoke-virtual {v0, v6}, Lcom/tencent/mm/ui/base/MMDotView;->setDotCount(I)V
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ded:Lcom/tencent/mm/ui/base/MMDotView;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->ded:Lcom/tencent/mm/ui/base/MMDotView;
 
     const/16 v3, 0x14
 
@@ -996,79 +996,79 @@
 
     const v0, 0x7f0e0e40
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Lcom/tencent/mm/ui/base/MMSmoothHorizontalScrollView;
 
-    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iba:Lcom/tencent/mm/ui/base/MMSmoothHorizontalScrollView;
+    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iba:Lcom/tencent/mm/ui/base/MMSmoothHorizontalScrollView;
 
     const v0, 0x7f0e0e41
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Lcom/tencent/mm/ui/base/MMRadioGroupView;
 
-    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ibb:Lcom/tencent/mm/ui/base/MMRadioGroupView;
+    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->ibb:Lcom/tencent/mm/ui/base/MMRadioGroupView;
 
     const v0, 0x7f0e0e42
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ibk:Landroid/widget/TextView;
+    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->ibk:Landroid/widget/TextView;
 
     const v0, 0x7f0e0e46
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/ImageView;
 
-    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ibh:Landroid/widget/ImageView;
+    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->ibh:Landroid/widget/ImageView;
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ibh:Landroid/widget/ImageView;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->ibh:Landroid/widget/ImageView;
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     const v0, 0x7f0e0e45
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ibg:Landroid/view/View;
+    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->ibg:Landroid/view/View;
 
     const v0, 0x7f0e0e47
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/c;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/ImageView;
 
-    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ibi:Landroid/widget/ImageView;
+    iput-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->ibi:Landroid/widget/ImageView;
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ibb:Lcom/tencent/mm/ui/base/MMRadioGroupView;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->ibb:Lcom/tencent/mm/ui/base/MMRadioGroupView;
 
     invoke-virtual {v0, v2}, Lcom/tencent/mm/ui/base/MMRadioGroupView;->setOnSizeChangeObserver(Lcom/tencent/mm/ui/base/MMRadioGroupView$d;)V
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ibk:Landroid/widget/TextView;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->ibk:Landroid/widget/TextView;
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->ibk:Landroid/widget/TextView;
+    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->ibk:Landroid/widget/TextView;
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/d;->aLM()Z
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->aLM()Z
 
     move-result v0
 
@@ -1079,7 +1079,7 @@
     :goto_2
     invoke-virtual {v3, v0}, Landroid/widget/TextView;->setVisibility(I)V
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->mView:Landroid/view/View;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->mView:Landroid/view/View;
 
     new-instance v1, Landroid/widget/LinearLayout$LayoutParams;
 
@@ -1087,14 +1087,14 @@
 
     invoke-virtual {p0, v0, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    iput-boolean v6, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibU:Z
+    iput-boolean v6, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibU:Z
 
     goto/16 :goto_0
 
     :cond_3
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->mView:Landroid/view/View;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->mView:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
@@ -1102,7 +1102,7 @@
 
     if-eqz v0, :cond_2
 
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->mView:Landroid/view/View;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->mView:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
@@ -1110,7 +1110,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/ui/simley/c;->mView:Landroid/view/View;
+    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/ui/simley/Cclz;->mView:Landroid/view/View;
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
@@ -1133,14 +1133,14 @@
 
     .line 198
     :cond_6
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
     if-eqz v0, :cond_7
 
     .line 199
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/d;->aLR()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->aLR()V
 
     goto/16 :goto_0
 
@@ -1187,14 +1187,14 @@
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 151
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    iput-boolean p1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibD:Z
+    iput-boolean p1, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibD:Z
 
     .line 152
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyPanel;->iaQ:Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
-    iput-boolean v5, v0, Lcom/tencent/mm/pluginsdk/ui/simley/d;->ibE:Z
+    iput-boolean v5, v0, Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;->ibE:Z
 
     .line 153
     return-void

@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/c;
-.super Lcom/tencent/mm/pluginsdk/h/a/c/k$a;
+.super Lcom/tencent/mm/pluginsdk/h/a/c/Kclz$a;
 .source "SourceFile"
 
 
@@ -34,7 +34,7 @@
 
     .prologue
     .line 18
-    invoke-direct {p0, p1}, Lcom/tencent/mm/pluginsdk/h/a/c/k$a;-><init>(Lcom/tencent/mm/pluginsdk/h/a/c/i;)V
+    invoke-direct {p0, p1}, Lcom/tencent/mm/pluginsdk/h/a/c/Kclz$a;-><init>(Lcom/tencent/mm/pluginsdk/h/a/c/Iclz;)V
 
     .line 19
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -49,14 +49,14 @@
 
 
 # virtual methods
-.method protected final a(Lcom/tencent/mm/pluginsdk/h/a/c/h;)Lcom/tencent/mm/pluginsdk/h/a/c/j;
+.method protected final a(Lcom/tencent/mm/pluginsdk/h/a/c/Hclz;)Lcom/tencent/mm/pluginsdk/h/a/c/Jclz;
     .locals 5
 
     .prologue
     .line 42
     sget-object v1, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/c;->hAu:Ljava/util/concurrent/ConcurrentHashMap;
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/c/d$d;->hOM:Lcom/tencent/mm/pluginsdk/h/a/c/d$b;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/c/Dclz$d;->hOM:Lcom/tencent/mm/pluginsdk/h/a/c/Dclz$b;
 
     check-cast v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/g;
 
@@ -83,11 +83,11 @@
 
     const/4 v4, 0x0
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/c/d$d;->hOM:Lcom/tencent/mm/pluginsdk/h/a/c/d$b;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/c/Dclz$d;->hOM:Lcom/tencent/mm/pluginsdk/h/a/c/Dclz$b;
 
     check-cast v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/g;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/h/a/c/i;->hNG:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/h/a/c/Iclz;->hNG:Ljava/lang/String;
 
     aput-object v0, v3, v4
 
@@ -102,14 +102,14 @@
 
     .line 48
     :cond_0
-    invoke-virtual {p1, p0}, Lcom/tencent/mm/pluginsdk/h/a/c/h;->a(Lcom/tencent/mm/pluginsdk/h/a/c/c;)Lcom/tencent/mm/pluginsdk/h/a/c/j;
+    invoke-virtual {p1, p0}, Lcom/tencent/mm/pluginsdk/h/a/c/Hclz;->a(Lcom/tencent/mm/pluginsdk/h/a/c/Cclz;)Lcom/tencent/mm/pluginsdk/h/a/c/Jclz;
 
     move-result-object v1
 
     .line 51
     sget-object v2, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/c;->hAu:Ljava/util/concurrent/ConcurrentHashMap;
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/c/d$d;->hOM:Lcom/tencent/mm/pluginsdk/h/a/c/d$b;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/h/a/c/Dclz$d;->hOM:Lcom/tencent/mm/pluginsdk/h/a/c/Dclz$b;
 
     check-cast v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/g;
 

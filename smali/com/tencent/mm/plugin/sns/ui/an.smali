@@ -1222,18 +1222,18 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1024
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0, p0, p2}, Lcom/tencent/mm/pluginsdk/e;->k(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-interface {v0, p0, p2}, Lcom/tencent/mm/pluginsdk/Eclz;->k(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v0
 
     .line 1025
-    sget-object v1, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v1, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
     const-string/jumbo v2, "timeline"
 
-    invoke-interface {v1, p1, v2, v0}, Lcom/tencent/mm/pluginsdk/e;->a(Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;
+    invoke-interface {v1, p1, v2, v0}, Lcom/tencent/mm/pluginsdk/Eclz;->a(Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1548,7 +1548,7 @@
 
     .line 258
     :cond_3
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/ui/d/e;->clearCache()V
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->clearCache()V
 
     .line 262
     const/4 v0, 0x1
@@ -2022,13 +2022,13 @@
 
     iget-object v2, v2, Lcom/tencent/mm/protocal/b/AXclz;->ikW:Ljava/lang/String;
 
-    invoke-static {v2, v0}, Lcom/tencent/mm/pluginsdk/model/app/g;->aF(Ljava/lang/String;I)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-static {v2, v0}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->aF(Ljava/lang/String;I)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v0
 
     const/4 v2, 0x0
 
-    invoke-static {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/model/app/g;->a(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/f;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->a(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/Fclz;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

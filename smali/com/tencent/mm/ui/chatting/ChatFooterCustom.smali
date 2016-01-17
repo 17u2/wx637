@@ -364,7 +364,7 @@
 
     iget-object v3, v3, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
-    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->a(Landroid/support/v4/app/Fragment;ILjava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->a(Landroid/support/v4/app/Fragment;ILjava/lang/String;Ljava/lang/String;)V
 
     .line 200
     :cond_0
@@ -461,7 +461,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->a(Lcom/tencent/mm/ui/Nclz;Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->a(Lcom/tencent/mm/ui/Nclz;Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1619,7 +1619,7 @@
 
     iget-object v7, v3, Lcom/tencent/mm/s/Kclz$c$b$a;->name:Ljava/lang/String;
 
-    invoke-static {v6, v7}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
+    invoke-static {v6, v7}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
 
     move-result-object v6
 
@@ -2481,7 +2481,7 @@
     const/16 v1, 0x8
 
     :try_start_1
-    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/wallet/c;->oe(I)V
+    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/wallet/Cclz;->oe(I)V
 
     .line 268
     check-cast v0, Lcom/tencent/mm/s/Kclz$c$b$a;
@@ -2657,7 +2657,7 @@
     invoke-direct {p0, v0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->d(Lcom/tencent/mm/s/Kclz$c$b$a;)V
 
     .line 288
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$a;->hJT:Lcom/tencent/mm/pluginsdk/h$ad;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJT:Lcom/tencent/mm/pluginsdk/Hclz$ad;
 
     invoke-virtual {p0}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->getContext()Landroid/content/Context;
 
@@ -2669,7 +2669,7 @@
 
     new-array v4, v4, [Ljava/lang/Object;
 
-    invoke-interface {v1, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/h$ad;->b(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/Object;)Z
+    invoke-interface {v1, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$ad;->b(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/Object;)Z
 
     move-result v1
 

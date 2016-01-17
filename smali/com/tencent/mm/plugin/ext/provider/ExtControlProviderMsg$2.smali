@@ -24,11 +24,11 @@
 
 .field final synthetic dwI:Lcom/tencent/mm/storage/Kclz;
 
-.field final synthetic dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
+.field final synthetic dwr:Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;Lcom/tencent/mm/storage/Kclz;[Ljava/lang/String;Lcom/tencent/mm/pluginsdk/d/a/a;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;Lcom/tencent/mm/storage/Kclz;[Ljava/lang/String;Lcom/tencent/mm/pluginsdk/d/a/Aclz;)V
     .locals 1
 
     .prologue
@@ -39,7 +39,7 @@
 
     iput-object p3, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;->dwG:[Ljava/lang/String;
 
-    iput-object p4, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;->dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
+    iput-object p4, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;->dwr:Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -121,9 +121,9 @@
     invoke-virtual {v0, v4}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;->gM(I)V
 
     .line 777
-    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;->dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;->dwr:Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/a;->countDown()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;->countDown()V
 
     .line 827
     :goto_0
@@ -189,9 +189,9 @@
     invoke-virtual {v0, v4}, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg;->gM(I)V
 
     .line 825
-    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;->dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderMsg$2;->dwr:Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/a;->countDown()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;->countDown()V
 
     goto :goto_0
 .end method

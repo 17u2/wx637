@@ -113,7 +113,7 @@
     if-eqz v0, :cond_0
 
     .line 195
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ai;->hKj:Lcom/tencent/mm/pluginsdk/h$p;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ai;->hKj:Lcom/tencent/mm/pluginsdk/Hclz$p;
 
     .line 196
     if-eqz v0, :cond_2
@@ -127,7 +127,7 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$p;->axB()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$p;->axB()Ljava/lang/String;
 
     move-result-object v4
 
@@ -137,11 +137,11 @@
 
     aput-object v4, v3, v6
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$p;->axC()Lcom/tencent/mm/pluginsdk/h$h;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$p;->axC()Lcom/tencent/mm/pluginsdk/Hclz$h;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$h;->axn()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$h;->axn()Ljava/lang/String;
 
     move-result-object v0
 

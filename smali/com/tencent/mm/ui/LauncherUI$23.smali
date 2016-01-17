@@ -291,11 +291,11 @@
     add-int/2addr v2, v4
 
     :cond_4
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHz()Lcom/tencent/mm/pluginsdk/h$l;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHz()Lcom/tencent/mm/pluginsdk/Hclz$l;
 
     move-result-object v4
 
-    invoke-interface {v4}, Lcom/tencent/mm/pluginsdk/h$l;->apg()I
+    invoke-interface {v4}, Lcom/tencent/mm/pluginsdk/Hclz$l;->apg()I
 
     move-result v4
 
@@ -312,13 +312,13 @@
 
     if-nez v2, :cond_6
 
-    sget-object v2, Lcom/tencent/mm/pluginsdk/h$ah;->hKe:Lcom/tencent/mm/pluginsdk/h$n$a;
+    sget-object v2, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKe:Lcom/tencent/mm/pluginsdk/Hclz$n$a;
 
     if-eqz v2, :cond_6
 
-    sget-object v2, Lcom/tencent/mm/pluginsdk/h$ah;->hKe:Lcom/tencent/mm/pluginsdk/h$n$a;
+    sget-object v2, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKe:Lcom/tencent/mm/pluginsdk/Hclz$n$a;
 
-    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/h$n$a;->CN()I
+    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/Hclz$n$a;->CN()I
 
     move-result v2
 
@@ -425,13 +425,13 @@
     if-nez v0, :cond_9
 
     .line 607
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ai;->hKj:Lcom/tencent/mm/pluginsdk/h$p;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ai;->hKj:Lcom/tencent/mm/pluginsdk/Hclz$p;
 
     .line 608
     if-eqz v0, :cond_9
 
     .line 609
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$p;->axu()Z
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$p;->axu()Z
 
     move-result v2
 
@@ -458,12 +458,12 @@
     if-eqz v2, :cond_9
 
     .line 612
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$p;->axC()Lcom/tencent/mm/pluginsdk/h$h;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$p;->axC()Lcom/tencent/mm/pluginsdk/Hclz$h;
 
     move-result-object v0
 
     .line 613
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$h;->axm()Z
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$h;->axm()Z
 
     move-result v0
 

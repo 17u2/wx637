@@ -88,7 +88,7 @@
 
     .line 9287
     :cond_1
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJQ:Lcom/tencent/mm/pluginsdk/h$z;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJQ:Lcom/tencent/mm/pluginsdk/Hclz$z;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$14;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -96,7 +96,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$z;->pA(Ljava/lang/String;)Ljava/util/LinkedList;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$z;->pA(Ljava/lang/String;)Ljava/util/LinkedList;
 
     move-result-object v0
 
@@ -122,7 +122,7 @@
     invoke-static {v1, v2, v3}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 9289
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJQ:Lcom/tencent/mm/pluginsdk/h$z;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJQ:Lcom/tencent/mm/pluginsdk/Hclz$z;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$14;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -130,7 +130,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$z;->pC(Ljava/lang/String;)Z
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$z;->pC(Ljava/lang/String;)Z
 
     move-result v0
 

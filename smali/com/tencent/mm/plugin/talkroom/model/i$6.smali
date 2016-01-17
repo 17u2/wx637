@@ -75,10 +75,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/h$v;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/Hclz$v;
 
     .line 103
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$v;->acD()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$v;->acD()V
 
     goto :goto_0
 

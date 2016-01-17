@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/d;
-.super Lcom/tencent/mm/pluginsdk/h/a/c/a;
+.super Lcom/tencent/mm/pluginsdk/h/a/c/Aclz;
 .source "SourceFile"
 
 
@@ -57,7 +57,7 @@
 
     move-object/from16 v13, p6
 
-    invoke-direct/range {v2 .. v13}, Lcom/tencent/mm/pluginsdk/h/a/c/a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IILjava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v2 .. v13}, Lcom/tencent/mm/pluginsdk/h/a/c/Aclz;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IILjava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 29
     move-object/from16 v0, p6
@@ -92,29 +92,29 @@
 
 
 # virtual methods
-.method public final aFu()Lcom/tencent/mm/pluginsdk/h/a/c/n;
+.method public final aFu()Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;
     .locals 2
 
     .prologue
     .line 69
-    invoke-super {p0}, Lcom/tencent/mm/pluginsdk/h/a/c/a;->aFu()Lcom/tencent/mm/pluginsdk/h/a/c/n;
+    invoke-super {p0}, Lcom/tencent/mm/pluginsdk/h/a/c/Aclz;->aFu()Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;
 
     move-result-object v0
 
     .line 70
     iget-object v1, p0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/d;->appId:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/h/a/c/n;->field_appId:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;->field_appId:Ljava/lang/String;
 
     .line 71
     iget v1, p0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/d;->aHi:I
 
-    iput v1, v0, Lcom/tencent/mm/pluginsdk/h/a/c/n;->field_wvCacheType:I
+    iput v1, v0, Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;->field_wvCacheType:I
 
     .line 72
     iget-object v1, p0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/d;->aHh:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/h/a/c/n;->field_packageId:Ljava/lang/String;
+    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;->field_packageId:Ljava/lang/String;
 
     .line 73
     return-object v0

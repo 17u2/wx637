@@ -261,7 +261,7 @@
     .line 128
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTranslateResultView;->fEg:Landroid/widget/TextView;
 
-    invoke-static {v0, v5}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/widget/TextView;I)Landroid/text/SpannableString;
+    invoke-static {v0, v5}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/widget/TextView;I)Landroid/text/SpannableString;
 
     .line 132
     :goto_2

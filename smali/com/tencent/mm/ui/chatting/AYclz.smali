@@ -91,13 +91,13 @@
     iput-object p3, p0, Lcom/tencent/mm/ui/chatting/AYclz;->kcm:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
     .line 197
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v0
 
     iget-object v1, p4, Lcom/tencent/mm/d/b/BAclz;->field_imgPath:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 
     move-result-object v4
 
@@ -131,19 +131,19 @@
     const/4 v1, 0x1
 
     :goto_0
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v2
 
-    invoke-interface {v2, v4}, Lcom/tencent/mm/pluginsdk/h$f;->c(Lcom/tencent/mm/storage/a/Cclz;)I
+    invoke-interface {v2, v4}, Lcom/tencent/mm/pluginsdk/Hclz$f;->c(Lcom/tencent/mm/storage/a/Cclz;)I
 
     move-result v2
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v3
 
-    invoke-interface {v3, v4}, Lcom/tencent/mm/pluginsdk/h$f;->d(Lcom/tencent/mm/storage/a/Cclz;)[I
+    invoke-interface {v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$f;->d(Lcom/tencent/mm/storage/a/Cclz;)[I
 
     move-result-object v3
 
@@ -330,13 +330,13 @@
     iget v0, v0, Lcom/tencent/mm/ui/chatting/DDclz;->position:I
 
     .line 246
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v1
 
     iget-object v2, p3, Lcom/tencent/mm/d/b/BAclz;->field_imgPath:Ljava/lang/String;
 
-    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/h$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
+    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/Hclz$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 
     move-result-object v1
 

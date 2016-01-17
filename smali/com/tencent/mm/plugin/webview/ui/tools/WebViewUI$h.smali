@@ -111,7 +111,7 @@
 
     move-result-wide v3
 
-    invoke-static {p1, v3, v4}, Lcom/tencent/mm/pluginsdk/d;->n(Ljava/lang/String;J)Z
+    invoke-static {p1, v3, v4}, Lcom/tencent/mm/pluginsdk/Dclz;->n(Ljava/lang/String;J)Z
 
     move-result v3
 
@@ -387,7 +387,7 @@
 
     .line 6415
     :cond_6
-    invoke-static {p1}, Lcom/tencent/mm/pluginsdk/d;->xm(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/pluginsdk/Dclz;->xm(Ljava/lang/String;)Z
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 

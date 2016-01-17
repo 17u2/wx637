@@ -259,7 +259,7 @@
 
     iget-wide v4, v4, Lcom/tencent/mm/d/b/BAclz;->field_createTime:J
 
-    invoke-static {v3, v4, v5, v9}, Lcom/tencent/mm/pluginsdk/g/n;->b(Landroid/content/Context;JZ)Ljava/lang/CharSequence;
+    invoke-static {v3, v4, v5, v9}, Lcom/tencent/mm/pluginsdk/g/Nclz;->b(Landroid/content/Context;JZ)Ljava/lang/CharSequence;
 
     move-result-object v3
 
@@ -272,7 +272,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/m/Aclz$a;->anY:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/n;->xA(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/Nclz;->xA(Ljava/lang/String;)I
 
     move-result v0
 

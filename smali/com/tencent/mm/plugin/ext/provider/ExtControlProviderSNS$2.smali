@@ -20,13 +20,13 @@
 # instance fields
 .field final synthetic cPI:Lcom/tencent/mm/storage/Kclz;
 
-.field final synthetic dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
+.field final synthetic dwr:Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
 .field final synthetic dxa:Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS;Lcom/tencent/mm/storage/Kclz;Lcom/tencent/mm/pluginsdk/d/a/a;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS;Lcom/tencent/mm/storage/Kclz;Lcom/tencent/mm/pluginsdk/d/a/Aclz;)V
     .locals 1
 
     .prologue
@@ -35,7 +35,7 @@
 
     iput-object p2, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;->cPI:Lcom/tencent/mm/storage/Kclz;
 
-    iput-object p3, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;->dwr:Lcom/tencent/mm/pluginsdk/d/a/a;
+    iput-object p3, p0, Lcom/tencent/mm/plugin/ext/provider/ExtControlProviderSNS$2;->dwr:Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

@@ -268,7 +268,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI$4;-><init>(Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;)V
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->a(Lcom/tencent/mm/pluginsdk/ui/applet/f$b;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->a(Lcom/tencent/mm/pluginsdk/ui/applet/Fclz$b;)V
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTagDetailUI;->cOi:Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;
 
@@ -654,9 +654,9 @@
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 248
-    sget-object v2, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v2, Lcom/tencent/mm/plugin/sns/b/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
-    invoke-interface {v2, v1, p0}, Lcom/tencent/mm/pluginsdk/f;->a(Landroid/content/Intent;Landroid/app/Activity;)V
+    invoke-interface {v2, v1, p0}, Lcom/tencent/mm/pluginsdk/Fclz;->a(Landroid/content/Intent;Landroid/app/Activity;)V
 
     .line 252
     :cond_1

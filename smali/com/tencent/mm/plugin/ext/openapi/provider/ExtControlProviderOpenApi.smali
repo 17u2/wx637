@@ -1345,11 +1345,11 @@
     :cond_3
     const/4 v6, 0x1
 
-    invoke-static {v0, v6}, Lcom/tencent/mm/pluginsdk/model/app/g;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-static {v0, v6}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/g;->j(Lcom/tencent/mm/pluginsdk/model/app/f;)Z
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->j(Lcom/tencent/mm/pluginsdk/model/app/Fclz;)Z
 
     move-result v0
 
@@ -2244,7 +2244,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/ext/openapi/provider/ExtControlProviderOpenApi;->context:Landroid/content/Context;
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/pluginsdk/a;->g(Ljava/lang/String;Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v0, v2}, Lcom/tencent/mm/pluginsdk/Aclz;->g(Ljava/lang/String;Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 

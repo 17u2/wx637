@@ -366,7 +366,7 @@
     if-eqz v0, :cond_2
 
     .line 691
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v5
 
@@ -376,7 +376,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-interface {v5, v0}, Lcom/tencent/mm/pluginsdk/h$e;->pp(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v5, v0}, Lcom/tencent/mm/pluginsdk/Hclz$e;->pp(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -412,11 +412,11 @@
 
     .line 697
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v0
 
-    invoke-interface {v0, v3, v4}, Lcom/tencent/mm/pluginsdk/h$e;->c(Ljava/util/List;Ljava/util/List;)V
+    invoke-interface {v0, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$e;->c(Ljava/util/List;Ljava/util/List;)V
 
     goto :goto_0
 .end method
@@ -1121,11 +1121,11 @@
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;->gza:Lcom/tencent/mm/ui/base/AnimatedExpandableListView;
 
     .line 160
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$e;->abu()Ljava/util/List;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$e;->abu()Ljava/util/List;
 
     move-result-object v0
 
@@ -1430,11 +1430,11 @@
 
     iget-object v4, p0, Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;->gzp:Ljava/util/ArrayList;
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$e;->abw()Ljava/util/List;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$e;->abw()Ljava/util/List;
 
     move-result-object v0
 
@@ -1575,13 +1575,13 @@
     iput-boolean v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;->gzi:Z
 
     .line 509
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsLabelUI;->gzp:Ljava/util/ArrayList;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$e;->aa(Ljava/util/List;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$e;->aa(Ljava/util/List;)V
 
     .line 517
     :goto_5
@@ -1729,11 +1729,11 @@
     invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/storage/Hclz;->set(ILjava/lang/Object;)V
 
     .line 535
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$e;->abu()Ljava/util/List;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$e;->abu()Ljava/util/List;
 
     move-result-object v0
 
@@ -2476,11 +2476,11 @@
     if-nez v0, :cond_2
 
     .line 473
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$e;->abu()Ljava/util/List;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$e;->abu()Ljava/util/List;
 
     move-result-object v0
 

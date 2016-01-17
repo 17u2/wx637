@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Landroid/view/View$OnClickListener;
-.implements Lcom/tencent/mm/pluginsdk/model/app/q;
+.implements Lcom/tencent/mm/pluginsdk/model/app/Qclz;
 .implements Lcom/tencent/mm/q/Dclz;
 
 
@@ -104,7 +104,7 @@
 
 
 # virtual methods
-.method public final a(IILjava/lang/String;Lcom/tencent/mm/pluginsdk/model/app/t;)V
+.method public final a(IILjava/lang/String;Lcom/tencent/mm/pluginsdk/model/app/Tclz;)V
     .locals 7
 
     .prologue
@@ -166,11 +166,11 @@
 
     .line 213
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->YE()Lcom/tencent/mm/pluginsdk/model/app/d;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->YE()Lcom/tencent/mm/pluginsdk/model/app/Dclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v3, p0}, Lcom/tencent/mm/pluginsdk/model/app/d;->b(ILcom/tencent/mm/pluginsdk/model/app/q;)V
+    invoke-virtual {v0, v3, p0}, Lcom/tencent/mm/pluginsdk/model/app/Dclz;->b(ILcom/tencent/mm/pluginsdk/model/app/Qclz;)V
 
     .line 215
     if-nez p1, :cond_2
@@ -445,11 +445,11 @@
     if-eqz v6, :cond_0
 
     .line 73
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->YE()Lcom/tencent/mm/pluginsdk/model/app/d;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->YE()Lcom/tencent/mm/pluginsdk/model/app/Dclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v5, p0}, Lcom/tencent/mm/pluginsdk/model/app/d;->a(ILcom/tencent/mm/pluginsdk/model/app/q;)V
+    invoke-virtual {v1, v5, p0}, Lcom/tencent/mm/pluginsdk/model/app/Dclz;->a(ILcom/tencent/mm/pluginsdk/model/app/Qclz;)V
 
     .line 75
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/Jclz;->amR:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
@@ -542,7 +542,7 @@
 
     .line 69
     :cond_3
-    invoke-static {v1, v6}, Lcom/tencent/mm/pluginsdk/model/app/g;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-static {v1, v6}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v2
 

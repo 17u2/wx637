@@ -110,13 +110,13 @@
     move-result-wide v3
 
     .line 161
-    sget-object v5, Lcom/tencent/mm/pluginsdk/h$ah;->hKf:Lcom/tencent/mm/pluginsdk/h$n$g;
+    sget-object v5, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKf:Lcom/tencent/mm/pluginsdk/Hclz$n$g;
 
     .line 162
     if-eqz v5, :cond_0
 
     .line 163
-    invoke-interface {v5, v3, v4}, Lcom/tencent/mm/pluginsdk/h$n$g;->ct(J)Ljava/util/List;
+    invoke-interface {v5, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$n$g;->ct(J)Ljava/util/List;
 
     move-result-object v0
 
@@ -159,7 +159,7 @@
 
     move-result-object v8
 
-    invoke-interface {v5, v3, v4}, Lcom/tencent/mm/pluginsdk/h$n$g;->cu(J)Ljava/lang/String;
+    invoke-interface {v5, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$n$g;->cu(J)Ljava/lang/String;
 
     move-result-object v9
 
@@ -555,7 +555,7 @@
 
     const/4 v4, 0x1
 
-    invoke-static {v1, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;Z)V
+    invoke-static {v1, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->b(Landroid/widget/ImageView;Ljava/lang/String;Z)V
 
     .line 257
     iget-object v1, v2, Lcom/tencent/mm/ui/contact/SnsTagContactListUI$b;->kuz:Landroid/widget/TextView;
@@ -582,7 +582,7 @@
 
     move-result v4
 
-    invoke-static {v3, v0, v4}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {v3, v0, v4}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v0
 

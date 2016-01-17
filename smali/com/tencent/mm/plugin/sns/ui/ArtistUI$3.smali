@@ -171,11 +171,11 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 141
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
     const/4 v1, 0x1
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/e;->af(Z)Lcom/tencent/mm/q/Jclz;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Eclz;->af(Z)Lcom/tencent/mm/q/Jclz;
 
     .line 143
     :cond_0

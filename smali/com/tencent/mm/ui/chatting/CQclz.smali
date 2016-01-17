@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/ui/simley/b;
+.implements Lcom/tencent/mm/pluginsdk/ui/simley/Bclz;
 
 
 # instance fields
@@ -221,11 +221,11 @@
 
     iput v0, p1, Lcom/tencent/mm/storage/a/Cclz;->field_state:I
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v0
 
-    invoke-interface {v0, p1}, Lcom/tencent/mm/pluginsdk/h$f;->b(Lcom/tencent/mm/storage/a/Cclz;)V
+    invoke-interface {v0, p1}, Lcom/tencent/mm/pluginsdk/Hclz$f;->b(Lcom/tencent/mm/storage/a/Cclz;)V
 
     new-instance v0, Lcom/tencent/mm/storage/ADclz;
 
@@ -298,7 +298,7 @@
 
     .line 102
     :cond_4
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v1
 
@@ -317,7 +317,7 @@
     :goto_2
     const/4 v2, 0x0
 
-    invoke-interface {v1, v0, p1, v2}, Lcom/tencent/mm/pluginsdk/h$f;->a(Ljava/lang/String;Lcom/tencent/mm/storage/a/Cclz;Lcom/tencent/mm/storage/ADclz;)V
+    invoke-interface {v1, v0, p1, v2}, Lcom/tencent/mm/pluginsdk/Hclz$f;->a(Ljava/lang/String;Lcom/tencent/mm/storage/a/Cclz;Lcom/tencent/mm/storage/ADclz;)V
 
     goto/16 :goto_0
 
@@ -476,7 +476,7 @@
 
     move-result-object v5
 
-    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/app/l;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)I
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/app/Lclz;->a(Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)I
 
     goto/16 :goto_0
 

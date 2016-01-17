@@ -171,7 +171,7 @@
 
     .line 39
     :cond_0
-    new-instance v4, Lcom/tencent/mm/pluginsdk/ui/applet/a;
+    new-instance v4, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;
 
     iget-object v5, p0, Lcom/tencent/mm/ui/friend/Aclz;->context:Landroid/content/Context;
 
@@ -179,7 +179,7 @@
 
     invoke-direct {v6, p0, v3, v0, v1}, Lcom/tencent/mm/ui/friend/Aclz$1;-><init>(Lcom/tencent/mm/ui/friend/Aclz;Lcom/tencent/mm/storage/Kclz;ILjava/lang/String;)V
 
-    invoke-direct {v4, v5, v6}, Lcom/tencent/mm/pluginsdk/ui/applet/a;-><init>(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/ui/applet/a$a;)V
+    invoke-direct {v4, v5, v6}, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;-><init>(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/ui/applet/Aclz$a;)V
 
     .line 52
     new-instance v0, Ljava/util/LinkedList;
@@ -194,7 +194,7 @@
     invoke-virtual {v0, v2}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
     .line 55
-    invoke-virtual {v4, v1, v0}, Lcom/tencent/mm/pluginsdk/ui/applet/a;->d(Ljava/lang/String;Ljava/util/LinkedList;)V
+    invoke-virtual {v4, v1, v0}, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;->d(Ljava/lang/String;Ljava/util/LinkedList;)V
 
     .line 56
     return-void

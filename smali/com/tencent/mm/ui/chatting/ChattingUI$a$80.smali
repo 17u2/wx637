@@ -103,7 +103,7 @@
     move-result-object v4
 
     .line 4387
-    new-instance v0, Lcom/tencent/mm/pluginsdk/model/k;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/model/Kclz;
 
     new-array v2, v5, [Ljava/lang/String;
 
@@ -135,7 +135,7 @@
 
     const-string/jumbo v5, ""
 
-    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/k;-><init>(ILjava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/Kclz;-><init>(ILjava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 4388
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -180,7 +180,7 @@
 
     move-result-object v2
 
-    new-instance v3, Lcom/tencent/mm/pluginsdk/model/k;
+    new-instance v3, Lcom/tencent/mm/pluginsdk/model/Kclz;
 
     iget-object v4, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$80;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -196,7 +196,7 @@
 
     move-result v6
 
-    invoke-direct {v3, v4, v5, v6}, Lcom/tencent/mm/pluginsdk/model/k;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct {v3, v4, v5, v6}, Lcom/tencent/mm/pluginsdk/model/Kclz;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
 
     invoke-virtual {v2, v3}, Lcom/tencent/mm/q/Lclz;->d(Lcom/tencent/mm/q/Jclz;)Z
 
@@ -272,7 +272,7 @@
 
     .line 4403
     :cond_2
-    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/applet/a;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$80;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -284,7 +284,7 @@
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/ui/chatting/ChattingUI$a$80$1;-><init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a$80;)V
 
-    invoke-direct {v0, v2, v3}, Lcom/tencent/mm/pluginsdk/ui/applet/a;-><init>(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/ui/applet/a$a;)V
+    invoke-direct {v0, v2, v3}, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;-><init>(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/ui/applet/Aclz$a;)V
 
     .line 4414
     new-instance v2, Ljava/util/LinkedList;
@@ -305,7 +305,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v0, v3, v2}, Lcom/tencent/mm/pluginsdk/ui/applet/a;->d(Ljava/lang/String;Ljava/util/LinkedList;)V
+    invoke-virtual {v0, v3, v2}, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;->d(Ljava/lang/String;Ljava/util/LinkedList;)V
 
     .line 4419
     sget-object v0, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;

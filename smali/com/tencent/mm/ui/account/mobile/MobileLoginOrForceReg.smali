@@ -33,7 +33,7 @@
 
 .field private jCq:Lcom/tencent/mm/ui/account/Fclz;
 
-.field private jCw:Lcom/tencent/mm/pluginsdk/g/a;
+.field private jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
 .field private jHk:Landroid/widget/Button;
 
@@ -759,11 +759,11 @@
 
     .line 202
     :goto_2
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/ui/a$b;->aJn()Lcom/tencent/mm/pluginsdk/ui/h$a;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->aJn()Lcom/tencent/mm/pluginsdk/ui/Hclz$a;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/h$a;->kz()Landroid/graphics/Bitmap;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/Hclz$a;->kz()Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -1489,7 +1489,7 @@
     invoke-static/range {v3 .. v8}, Lcom/tencent/mm/sdk/platformtools/Dclz;->b(Ljava/lang/String;IILandroid/graphics/Bitmap$CompressFormat;ILjava/lang/String;)Z
 
     .line 496
-    new-instance v3, Lcom/tencent/mm/pluginsdk/model/l;
+    new-instance v3, Lcom/tencent/mm/pluginsdk/model/Lclz;
 
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -1513,7 +1513,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-direct {v3, v0, v4}, Lcom/tencent/mm/pluginsdk/model/l;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v3, v0, v4}, Lcom/tencent/mm/pluginsdk/model/Lclz;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 498
     new-instance v4, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$4;
@@ -1532,7 +1532,7 @@
 
     invoke-direct {v5, v0, v1, v9}, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg$5;-><init>(Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;Lcom/tencent/mm/q/Jclz;Ljava/lang/String;)V
 
-    invoke-virtual {v3, v4, v5}, Lcom/tencent/mm/pluginsdk/model/l;->a(Ljava/lang/Runnable;Ljava/lang/Runnable;)Z
+    invoke-virtual {v3, v4, v5}, Lcom/tencent/mm/pluginsdk/model/Lclz;->a(Ljava/lang/Runnable;Ljava/lang/Runnable;)Z
 
     .line 610
     :cond_d
@@ -1577,11 +1577,11 @@
     invoke-virtual {v3, v4, v9}, Lcom/tencent/mm/model/AGclz;->E(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 540
-    sget-object v3, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v3, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     move-object/from16 v0, p0
 
-    invoke-interface {v3, v0}, Lcom/tencent/mm/pluginsdk/f;->ae(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-interface {v3, v0}, Lcom/tencent/mm/pluginsdk/Fclz;->ae(Landroid/content/Context;)Landroid/content/Intent;
 
     move-result-object v3
 
@@ -1675,7 +1675,7 @@
 
     .line 616
     :cond_f
-    new-instance v3, Lcom/tencent/mm/pluginsdk/g/o;
+    new-instance v3, Lcom/tencent/mm/pluginsdk/g/Oclz;
 
     move/from16 v0, p1
 
@@ -1683,15 +1683,15 @@
 
     move-object/from16 v2, p3
 
-    invoke-direct {v3, v0, v1, v2}, Lcom/tencent/mm/pluginsdk/g/o;-><init>(IILjava/lang/String;)V
+    invoke-direct {v3, v0, v1, v2}, Lcom/tencent/mm/pluginsdk/g/Oclz;-><init>(IILjava/lang/String;)V
 
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->jCw:Lcom/tencent/mm/pluginsdk/g/a;
+    iget-object v4, v0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v4, v0, v3}, Lcom/tencent/mm/pluginsdk/g/a;->a(Landroid/app/Activity;Lcom/tencent/mm/pluginsdk/g/o;)Z
+    invoke-virtual {v4, v0, v3}, Lcom/tencent/mm/pluginsdk/g/Aclz;->a(Landroid/app/Activity;Lcom/tencent/mm/pluginsdk/g/Oclz;)Z
 
     move-result v3
 
@@ -2244,11 +2244,11 @@
     invoke-virtual {p0}, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->Fi()V
 
     .line 140
-    new-instance v0, Lcom/tencent/mm/pluginsdk/g/a;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/g/Aclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/g/a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/g/Aclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->jCw:Lcom/tencent/mm/pluginsdk/g/a;
+    iput-object v0, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
     .line 141
     return-void
@@ -2292,14 +2292,14 @@
     invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 282
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->jCw:Lcom/tencent/mm/pluginsdk/g/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
     if-eqz v0, :cond_0
 
     .line 283
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->jCw:Lcom/tencent/mm/pluginsdk/g/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/mobile/MobileLoginOrForceReg;->jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/g/a;->close()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/g/Aclz;->close()V
 
     .line 285
     :cond_0

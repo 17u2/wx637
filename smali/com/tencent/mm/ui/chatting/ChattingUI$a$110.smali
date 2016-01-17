@@ -265,7 +265,7 @@
     .line 6718
     iget-object v1, v0, Lcom/tencent/mm/d/b/BAclz;->field_imgPath:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/model/g;->xx(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/model/Gclz;->xx(Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -292,19 +292,19 @@
     if-eqz v1, :cond_9
 
     .line 6739
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v1
 
     iget-object v0, v0, Lcom/tencent/mm/d/b/BAclz;->field_imgPath:Ljava/lang/String;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/pluginsdk/h$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
+    invoke-interface {v1, v0}, Lcom/tencent/mm/pluginsdk/Hclz$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 
     move-result-object v0
 
     .line 6748
     :goto_3
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v1
 
@@ -314,7 +314,7 @@
 
     iget-object v2, v2, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-interface {v1, v2, v0, v6}, Lcom/tencent/mm/pluginsdk/h$f;->a(Landroid/content/Context;Lcom/tencent/mm/storage/a/Cclz;I)Z
+    invoke-interface {v1, v2, v0, v6}, Lcom/tencent/mm/pluginsdk/Hclz$f;->a(Landroid/content/Context;Lcom/tencent/mm/storage/a/Cclz;I)Z
 
     move-result v0
 
@@ -353,13 +353,13 @@
     if-nez v1, :cond_0
 
     .line 6745
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v1
 
     iget-object v0, v0, Lcom/tencent/mm/storage/Vclz;->atr:Ljava/lang/String;
 
-    invoke-interface {v1, v0}, Lcom/tencent/mm/pluginsdk/h$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
+    invoke-interface {v1, v0}, Lcom/tencent/mm/pluginsdk/Hclz$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 
     move-result-object v0
 
@@ -832,7 +832,7 @@
 
     iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->d(Ljava/lang/String;Landroid/content/Context;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->d(Ljava/lang/String;Landroid/content/Context;)V
 
     goto/16 :goto_0
 
@@ -1525,7 +1525,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2, v0}, Lcom/tencent/mm/pluginsdk/g/c;->a(Landroid/content/Context;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V
+    invoke-static {v1, v2, v0}, Lcom/tencent/mm/pluginsdk/g/Cclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V
 
     goto/16 :goto_0
 
@@ -1828,7 +1828,7 @@
     invoke-direct {v1}, Lcom/tencent/mm/d/a/ASclz;-><init>()V
 
     .line 7005
-    invoke-static {v1, v0}, Lcom/tencent/mm/pluginsdk/model/c;->a(Lcom/tencent/mm/d/a/ASclz;Lcom/tencent/mm/storage/ADclz;)Z
+    invoke-static {v1, v0}, Lcom/tencent/mm/pluginsdk/model/Cclz;->a(Lcom/tencent/mm/d/a/ASclz;Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v2
 

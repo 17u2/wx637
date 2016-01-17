@@ -21,7 +21,7 @@
 
 .field private hYA:Landroid/widget/TextView;
 
-.field private hYB:Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;
+.field private hYB:Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;
 
 .field private final hYC:I
 
@@ -221,12 +221,12 @@
 
     .line 261
     :goto_1
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYB:Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYB:Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;
 
     if-eqz v0, :cond_1
 
     .line 262
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYB:Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYB:Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;
 
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYn:Lcom/tencent/mm/protocal/b/ada;
 
@@ -242,13 +242,13 @@
 
     move-result-object v4
 
-    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;->hYn:Lcom/tencent/mm/protocal/b/ada;
+    iput-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;->hYn:Lcom/tencent/mm/protocal/b/ada;
 
-    iput-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;->hYo:Ljava/lang/String;
+    iput-object v2, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;->hYo:Ljava/lang/String;
 
-    iput-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;->dQa:Ljava/lang/String;
+    iput-object v3, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;->dQa:Ljava/lang/String;
 
-    iput-object v4, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;->hXK:Ljava/lang/String;
+    iput-object v4, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;->hXK:Ljava/lang/String;
 
     .line 265
     :cond_1
@@ -381,7 +381,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->setLyricMgr(Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->setLyricMgr(Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;)V
 
     .line 303
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYu:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
@@ -461,14 +461,14 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;->bH(Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;->bH(Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;
 
     move-result-object v0
 
     .line 312
     iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYu:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->setLyricMgr(Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->setLyricMgr(Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;)V
 
     .line 313
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYu:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
@@ -763,7 +763,7 @@
 .method public abstract apZ()Ljava/lang/String;
 .end method
 
-.method public abstract aqa()Lcom/tencent/mm/pluginsdk/f;
+.method public abstract aqa()Lcom/tencent/mm/pluginsdk/Fclz;
 .end method
 
 .method public aqb()Z
@@ -863,21 +863,21 @@
     const/4 v7, 0x1
 
     .line 525
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYB:Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYB:Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;
 
     if-eqz v0, :cond_1
 
-    iget-object v5, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYB:Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;
+    iget-object v5, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYB:Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;
 
-    iget-object v0, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;->hYp:Lcom/tencent/mm/pluginsdk/f;
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;->cFS:Lcom/tencent/mm/ui/MMActivity;
+    iget-object v0, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;->hYp:Lcom/tencent/mm/pluginsdk/Fclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;->hYo:Ljava/lang/String;
+    iget-object v0, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;->cFS:Lcom/tencent/mm/ui/MMActivity;
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;->hYo:Ljava/lang/String;
 
     if-nez v0, :cond_3
 
@@ -890,15 +890,15 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    iget-object v3, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;->hYp:Lcom/tencent/mm/pluginsdk/f;
+    iget-object v3, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;->hYp:Lcom/tencent/mm/pluginsdk/Fclz;
 
     aput-object v3, v2, v6
 
-    iget-object v3, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;->cFS:Lcom/tencent/mm/ui/MMActivity;
+    iget-object v3, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;->cFS:Lcom/tencent/mm/ui/MMActivity;
 
     aput-object v3, v2, v7
 
-    iget-object v3, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;->hYo:Ljava/lang/String;
+    iget-object v3, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;->hYo:Ljava/lang/String;
 
     aput-object v3, v2, v4
 
@@ -933,21 +933,21 @@
 
     move-result-object v4
 
-    invoke-virtual {v5}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;->aLc()Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
+    invoke-virtual {v5}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;->aLc()Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;
 
     move-result-object v3
 
     if-eqz v3, :cond_4
 
-    iget-object v0, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;->hYp:Lcom/tencent/mm/pluginsdk/f;
+    iget-object v0, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;->hYp:Lcom/tencent/mm/pluginsdk/Fclz;
 
-    iget-object v1, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;->cFS:Lcom/tencent/mm/ui/MMActivity;
+    iget-object v1, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;->cFS:Lcom/tencent/mm/ui/MMActivity;
 
-    iget-object v2, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;->dQa:Ljava/lang/String;
+    iget-object v2, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;->dQa:Ljava/lang/String;
 
-    iget-object v5, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;->hYo:Ljava/lang/String;
+    iget-object v5, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;->hYo:Ljava/lang/String;
 
-    invoke-interface/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/f;->a(Lcom/tencent/mm/ui/MMActivity;Ljava/lang/String;Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-interface/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/Fclz;->a(Lcom/tencent/mm/ui/MMActivity;Ljava/lang/String;Lcom/tencent/mm/sdk/modelmsg/WXMediaMessage;Ljava/lang/String;Ljava/lang/String;)V
 
     const-string/jumbo v0, "!44@/B4Tb64lLpJ7ZKpS3Weia+8Jv+sgGQDwGkbz9wCWSpY="
 
@@ -1086,7 +1086,7 @@
 
     .line 120
     :cond_2
-    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;
 
     invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->aLg()Lcom/tencent/mm/protocal/b/ada;
 
@@ -1104,32 +1104,32 @@
 
     move-result-object v5
 
-    invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->aqa()Lcom/tencent/mm/pluginsdk/f;
+    invoke-virtual {p0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->aqa()Lcom/tencent/mm/pluginsdk/Fclz;
 
     move-result-object v6
 
     move-object v2, p0
 
-    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;-><init>(Lcom/tencent/mm/protocal/b/ada;Lcom/tencent/mm/ui/MMActivity;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/pluginsdk/f;)V
+    invoke-direct/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;-><init>(Lcom/tencent/mm/protocal/b/ada;Lcom/tencent/mm/ui/MMActivity;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/pluginsdk/Fclz;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYB:Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYB:Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;
 
     .line 122
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYB:Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYB:Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;->hYn:Lcom/tencent/mm/protocal/b/ada;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;->hYn:Lcom/tencent/mm/protocal/b/ada;
 
     if-eqz v1, :cond_3
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;->cFS:Lcom/tencent/mm/ui/MMActivity;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;->cFS:Lcom/tencent/mm/ui/MMActivity;
 
     const/4 v2, 0x0
 
     const v3, 0x7f0701af
 
-    new-instance v4, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b$1;
+    new-instance v4, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz$1;
 
-    invoke-direct {v4, v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/b$1;-><init>(Lcom/tencent/mm/pluginsdk/ui/musicplayer/b;)V
+    invoke-direct {v4, v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz$1;-><init>(Lcom/tencent/mm/pluginsdk/ui/musicplayer/Bclz;)V
 
     invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/ui/MMActivity;->a(IILandroid/view/MenuItem$OnMenuItemClickListener;)V
 

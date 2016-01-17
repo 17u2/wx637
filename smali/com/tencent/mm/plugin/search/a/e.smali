@@ -1017,7 +1017,7 @@
     invoke-virtual {v0, v1}, Lcom/tencent/mm/storage/Sclz;->b(Lcom/tencent/mm/sdk/g/Jclz$b;)V
 
     .line 150
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v0
 
@@ -1027,7 +1027,7 @@
     .line 152
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/a/e;->fHd:Lcom/tencent/mm/sdk/g/Gclz$a;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$e;->f(Lcom/tencent/mm/sdk/g/Gclz$a;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$e;->f(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 
     .line 154
     :cond_0
@@ -3311,7 +3311,7 @@
     invoke-virtual {v0, v1}, Lcom/tencent/mm/sdk/g/Jclz;->a(Lcom/tencent/mm/sdk/g/Jclz$b;)V
 
     .line 121
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v0
 
@@ -3321,7 +3321,7 @@
     .line 123
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/a/e;->fHd:Lcom/tencent/mm/sdk/g/Gclz$a;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$e;->e(Lcom/tencent/mm/sdk/g/Gclz$a;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$e;->e(Lcom/tencent/mm/sdk/g/Gclz$a;)V
 
     .line 126
     :cond_1

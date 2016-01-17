@@ -1,5 +1,5 @@
 .class public abstract Lcom/tencent/mm/plugin/sns/d/a/b;
-.super Lcom/tencent/mm/pluginsdk/model/h;
+.super Lcom/tencent/mm/pluginsdk/model/Hclz;
 .source "SourceFile"
 
 
@@ -88,7 +88,7 @@
     const-wide/16 v1, -0x1
 
     .line 104
-    invoke-direct {p0}, Lcom/tencent/mm/pluginsdk/model/h;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/pluginsdk/model/Hclz;-><init>()V
 
     .line 64
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/d/a/b;->bitmap:Landroid/graphics/Bitmap;
@@ -3315,7 +3315,7 @@
     .line 46
     check-cast p1, Ljava/lang/Integer;
 
-    invoke-super {p0, p1}, Lcom/tencent/mm/pluginsdk/model/h;->onPostExecute(Ljava/lang/Object;)V
+    invoke-super {p0, p1}, Lcom/tencent/mm/pluginsdk/model/Hclz;->onPostExecute(Ljava/lang/Object;)V
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/sns/d/a/b;->glq:Lcom/tencent/mm/plugin/sns/d/a/a;
 

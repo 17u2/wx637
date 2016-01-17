@@ -167,25 +167,25 @@
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->cP(J)Z
+    invoke-static {v2, v3}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->cP(J)Z
 
     move-result v0
 
     if-eqz v0, :cond_5
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->cR(J)J
+    invoke-static {v2, v3}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->cR(J)J
 
     move-result-wide v0
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->cS(J)V
+    invoke-virtual {v2, v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->cS(J)V
 
     goto :goto_0
 
@@ -201,7 +201,7 @@
     goto/16 :goto_0
 
     :cond_5
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->rm()Lcom/tencent/mm/storage/Zclz;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Bclz;->rm()Lcom/tencent/mm/storage/Zclz;
 
     move-result-object v0
 

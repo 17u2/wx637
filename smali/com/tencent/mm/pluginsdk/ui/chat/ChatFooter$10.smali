@@ -131,11 +131,11 @@
     .line 1104
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter$10;->hWt:Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->j(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/pluginsdk/ui/chat/b;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->j(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/pluginsdk/ui/chat/Bclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/b;->aeI()Z
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/Bclz;->aeI()Z
 
     .line 1105
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter$10;->hWt:Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;
@@ -202,11 +202,11 @@
     .line 1115
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter$10;->hWt:Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->j(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/pluginsdk/ui/chat/b;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->j(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/pluginsdk/ui/chat/Bclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/b;->aeF()Z
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/Bclz;->aeF()Z
 
     .line 1118
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter$10;->hWt:Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;

@@ -524,7 +524,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
+    invoke-static {v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
 
     move-result-object v1
 
@@ -1147,15 +1147,15 @@
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/ui/widget/MMEditText;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    sget-object v0, Lcom/tencent/mm/pluginsdk/ui/chat/e;->hWM:Lcom/tencent/mm/pluginsdk/ui/chat/e$a;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/ui/chat/Eclz;->hWM:Lcom/tencent/mm/pluginsdk/ui/chat/Eclz$a;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/chat/d;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/chat/Dclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsCommentFooter;->arA:Lcom/tencent/mm/ui/MMActivity;
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/d;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/Dclz;-><init>(Landroid/content/Context;)V
 
     iput-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsCommentFooter;->eEd:Lcom/tencent/mm/pluginsdk/ui/ChatFooterPanel;
 
@@ -1165,13 +1165,13 @@
 
     .line 135
     :cond_0
-    sget-object v0, Lcom/tencent/mm/pluginsdk/ui/chat/e;->hWM:Lcom/tencent/mm/pluginsdk/ui/chat/e$a;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/ui/chat/Eclz;->hWM:Lcom/tencent/mm/pluginsdk/ui/chat/Eclz$a;
 
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/sns/ui/SnsCommentFooter;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/e$a;->cC(Landroid/content/Context;)Lcom/tencent/mm/pluginsdk/ui/ChatFooterPanel;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/Eclz$a;->cC(Landroid/content/Context;)Lcom/tencent/mm/pluginsdk/ui/ChatFooterPanel;
 
     move-result-object v0
 
@@ -1263,7 +1263,7 @@
 
     move-result v2
 
-    invoke-static {v1, p1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {v1, p1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v1
 

@@ -70,13 +70,13 @@
     if-eqz v0, :cond_a
 
     .line 63
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
     iget-object v3, v4, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
     iget-object v3, v3, Lcom/tencent/mm/protocal/b/Iclz;->ijl:Ljava/lang/String;
 
-    invoke-interface {v0, p0, v3}, Lcom/tencent/mm/pluginsdk/e;->k(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-interface {v0, p0, v3}, Lcom/tencent/mm/pluginsdk/Eclz;->k(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -152,13 +152,13 @@
 
     .line 55
     :cond_2
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/model/app/g;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v3
 
     if-eqz v3, :cond_3
 
-    iget-object v0, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v0, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
@@ -172,7 +172,7 @@
     goto :goto_0
 
     :cond_4
-    iget v0, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appInfoFlag:I
+    iget v0, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appInfoFlag:I
 
     and-int/lit8 v0, v0, 0x20
 
@@ -189,7 +189,7 @@
 
     new-array v6, v6, [Ljava/lang/Object;
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     aput-object v3, v6, v2
 
@@ -303,13 +303,13 @@
     goto :goto_7
 
     :cond_c
-    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/b/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
     iget-object v5, v4, Lcom/tencent/mm/protocal/b/Kclz;->iju:Lcom/tencent/mm/protocal/b/Iclz;
 
     iget-object v5, v5, Lcom/tencent/mm/protocal/b/Iclz;->ijl:Ljava/lang/String;
 
-    invoke-interface {v0, p0, v5}, Lcom/tencent/mm/pluginsdk/e;->k(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-interface {v0, p0, v5}, Lcom/tencent/mm/pluginsdk/Eclz;->k(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v0
 

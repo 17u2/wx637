@@ -86,7 +86,7 @@
     .line 466
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI$6;->jZo:Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;
 
-    new-instance v1, Lcom/tencent/mm/pluginsdk/model/app/v;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/model/app/Vclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI$6;->jZo:Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;
 
@@ -106,9 +106,9 @@
 
     move-result-object v5
 
-    invoke-direct {v1, v2, v3, v4, v5}, Lcom/tencent/mm/pluginsdk/model/app/v;-><init>(JLjava/lang/String;Lcom/tencent/mm/q/Eclz;)V
+    invoke-direct {v1, v2, v3, v4, v5}, Lcom/tencent/mm/pluginsdk/model/app/Vclz;-><init>(JLjava/lang/String;Lcom/tencent/mm/q/Eclz;)V
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->a(Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;Lcom/tencent/mm/pluginsdk/model/app/v;)Lcom/tencent/mm/pluginsdk/model/app/v;
+    invoke-static {v0, v1}, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->a(Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;Lcom/tencent/mm/pluginsdk/model/app/Vclz;)Lcom/tencent/mm/pluginsdk/model/app/Vclz;
 
     .line 467
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
@@ -117,7 +117,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI$6;->jZo:Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;
 
-    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->a(Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;)Lcom/tencent/mm/pluginsdk/model/app/v;
+    invoke-static {v1}, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->a(Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;)Lcom/tencent/mm/pluginsdk/model/app/Vclz;
 
     move-result-object v1
 

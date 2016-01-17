@@ -120,7 +120,7 @@
 
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/Jclz;->bBD:Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
 
     const v0, 0x7f0e05c9
 

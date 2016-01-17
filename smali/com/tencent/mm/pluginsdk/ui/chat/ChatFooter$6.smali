@@ -52,11 +52,11 @@
     .line 864
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter$6;->hWt:Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->j(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/pluginsdk/ui/chat/b;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;->j(Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;)Lcom/tencent/mm/pluginsdk/ui/chat/Bclz;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/b;->aeJ()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/chat/Bclz;->aeJ()V
 
     .line 866
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter$6;->hWt:Lcom/tencent/mm/pluginsdk/ui/chat/ChatFooter;

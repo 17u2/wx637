@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+.implements Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
 
 # annotations
@@ -66,14 +66,14 @@
     .line 209
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/Jclz$1;->kpA:Lcom/tencent/mm/ui/chatting/gallery/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->stop()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->stop()V
 
     .line 210
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/Jclz$1;->kpA:Lcom/tencent/mm/ui/chatting/gallery/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     check-cast v0, Landroid/view/View;
 
@@ -192,9 +192,9 @@
     .line 245
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/Jclz$1;->kpA:Lcom/tencent/mm/ui/chatting/gallery/Jclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->start()Z
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->start()Z
 
     .line 247
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/gallery/Jclz$1;->kpA:Lcom/tencent/mm/ui/chatting/gallery/Jclz;

@@ -82,7 +82,7 @@
     .line 171
     const/4 v0, 0x5
 
-    invoke-static {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/tools/j;->bB(II)V
+    invoke-static {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/tools/Jclz;->bB(II)V
 
     .line 173
     const/16 v0, 0x6e
@@ -196,7 +196,7 @@
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 203
-    invoke-static {v4, p1}, Lcom/tencent/mm/pluginsdk/ui/tools/j;->bB(II)V
+    invoke-static {v4, p1}, Lcom/tencent/mm/pluginsdk/ui/tools/Jclz;->bB(II)V
 
     .line 205
     const/16 v0, 0xc8

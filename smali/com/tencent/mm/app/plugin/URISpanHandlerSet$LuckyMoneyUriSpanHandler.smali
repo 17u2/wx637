@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method final a(Lcom/tencent/mm/pluginsdk/ui/applet/g;Lcom/tencent/mm/pluginsdk/ui/d/b;)Z
+.method final a(Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;Lcom/tencent/mm/pluginsdk/ui/d/Bclz;)Z
     .locals 8
 
     .prologue
@@ -54,7 +54,7 @@
     const/4 v1, 0x0
 
     .line 2060
-    iget v2, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->type:I
+    iget v2, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->type:I
 
     const/16 v3, 0x21
 
@@ -68,7 +68,7 @@
     .line 2062
     const-string/jumbo v3, "key_native_url"
 
-    iget-object v4, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->url:Ljava/lang/String;
+    iget-object v4, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->url:Ljava/lang/String;
 
     invoke-virtual {v2, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -153,7 +153,7 @@
     goto :goto_0
 .end method
 
-.method final a(Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/j;Landroid/os/Bundle;)Z
+.method final a(Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/Jclz;Landroid/os/Bundle;)Z
     .locals 1
 
     .prologue
@@ -163,7 +163,7 @@
     return v0
 .end method
 
-.method final aY(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/ui/applet/g;
+.method final aY(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;
     .locals 3
 
     .prologue
@@ -187,11 +187,11 @@
     if-eqz v0, :cond_0
 
     .line 2042
-    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/applet/g;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;
 
     const/16 v2, 0x21
 
-    invoke-direct {v0, p1, v2, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/g;-><init>(Ljava/lang/String;ILjava/lang/Object;)V
+    invoke-direct {v0, p1, v2, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;-><init>(Ljava/lang/String;ILjava/lang/Object;)V
 
     .line 2045
     :goto_0

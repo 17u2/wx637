@@ -76,7 +76,7 @@
 
 .field private dyd:Landroid/graphics/RectF;
 
-.field private dyf:Lcom/tencent/mm/pluginsdk/g/l;
+.field private dyf:Lcom/tencent/mm/pluginsdk/g/Lclz;
 
 .field private dyk:Z
 
@@ -180,13 +180,13 @@
     iput v2, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dzb:I
 
     .line 71
-    new-instance v0, Lcom/tencent/mm/pluginsdk/g/l;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/g/Lclz;
 
     const-string/jumbo v1, "FaceToFaceVideoView"
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/pluginsdk/g/l;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/pluginsdk/g/Lclz;-><init>(Ljava/lang/String;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyf:Lcom/tencent/mm/pluginsdk/g/l;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyf:Lcom/tencent/mm/pluginsdk/g/Lclz;
 
     .line 73
     new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
@@ -309,13 +309,13 @@
     iput v2, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dzb:I
 
     .line 71
-    new-instance v0, Lcom/tencent/mm/pluginsdk/g/l;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/g/Lclz;
 
     const-string/jumbo v1, "FaceToFaceVideoView"
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/pluginsdk/g/l;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/pluginsdk/g/Lclz;-><init>(Ljava/lang/String;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyf:Lcom/tencent/mm/pluginsdk/g/l;
+    iput-object v0, p0, Lcom/tencent/mm/plugin/f2f/FaceToFaceVideoView;->dyf:Lcom/tencent/mm/pluginsdk/g/Lclz;
 
     .line 73
     new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;

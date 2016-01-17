@@ -934,7 +934,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$c;->hXN:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;
 
     move-result-object v0
 
@@ -987,7 +987,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$c;->hXN:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;
 
     move-result-object v0
 
@@ -1189,11 +1189,11 @@
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$c;->hXN:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;->cV(J)I
+    invoke-virtual {v0, v2, v3}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;->cV(J)I
 
     move-result v0
 
@@ -1201,17 +1201,17 @@
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$c;->hXN:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;
 
     move-result-object v0
 
     iget v4, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$c;->hXx:I
 
-    invoke-virtual {v0, v4}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;->nT(I)Lcom/tencent/mm/pluginsdk/ui/musicplayer/a$a;
+    invoke-virtual {v0, v4}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;->nT(I)Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz$a;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a$a;->content:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz$a;->content:Ljava/lang/String;
 
     iget-object v4, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$c;->hXT:Landroid/graphics/Paint;
 
@@ -1219,7 +1219,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$c;->hXN:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;
 
     move-result-object v4
 
@@ -1235,7 +1235,7 @@
 
     int-to-float v5, v0
 
-    invoke-virtual {v4, v2, v3}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;->cV(J)I
+    invoke-virtual {v4, v2, v3}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;->cV(J)I
 
     move-result v6
 
@@ -1262,17 +1262,17 @@
 
     iget-object v5, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$c;->hXN:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
 
-    invoke-static {v5}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;
+    invoke-static {v5}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;
 
     move-result-object v5
 
     iget v6, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$c;->hXx:I
 
-    invoke-virtual {v5, v6}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;->nT(I)Lcom/tencent/mm/pluginsdk/ui/musicplayer/a$a;
+    invoke-virtual {v5, v6}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;->nT(I)Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz$a;
 
     move-result-object v5
 
-    iget-wide v5, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a$a;->timestamp:J
+    iget-wide v5, v5, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz$a;->timestamp:J
 
     sub-long/2addr v2, v5
 
@@ -1384,15 +1384,15 @@
     :cond_6
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$c;->hXN:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v8}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;->nT(I)Lcom/tencent/mm/pluginsdk/ui/musicplayer/a$a;
+    invoke-virtual {v0, v8}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;->nT(I)Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz$a;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a$a;->content:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz$a;->content:Ljava/lang/String;
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$c;->hXU:Landroid/graphics/Paint;
 
@@ -1427,7 +1427,7 @@
     goto :goto_4
 
     :cond_7
-    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;->hXv:Ljava/util/ArrayList;
+    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;->hXv:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
@@ -1442,7 +1442,7 @@
     goto/16 :goto_3
 
     :cond_8
-    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;->hXv:Ljava/util/ArrayList;
+    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;->hXv:Ljava/util/ArrayList;
 
     add-int/lit8 v7, v6, 0x1
 
@@ -1450,19 +1450,19 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a$a;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz$a;
 
-    iget-wide v7, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a$a;->timestamp:J
+    iget-wide v7, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz$a;->timestamp:J
 
-    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;->hXv:Ljava/util/ArrayList;
+    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;->hXv:Ljava/util/ArrayList;
 
     invoke-virtual {v0, v6}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a$a;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz$a;
 
-    iget-wide v10, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a$a;->timestamp:J
+    iget-wide v10, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz$a;->timestamp:J
 
     sub-long v6, v7, v10
 
@@ -1501,11 +1501,11 @@
     :goto_5
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$c;->hXN:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;->hXv:Ljava/util/ArrayList;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;->hXv:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
@@ -1574,15 +1574,15 @@
     :cond_b
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$c;->hXN:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v8}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;->nT(I)Lcom/tencent/mm/pluginsdk/ui/musicplayer/a$a;
+    invoke-virtual {v0, v8}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;->nT(I)Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz$a;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a$a;->content:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz$a;->content:Ljava/lang/String;
 
     iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$c;->hXU:Landroid/graphics/Paint;
 
@@ -1643,7 +1643,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView$c;->hXN:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->e(Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;
 
     move-result-object v0
 

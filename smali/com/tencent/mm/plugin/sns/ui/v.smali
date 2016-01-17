@@ -7,7 +7,7 @@
 
 
 # static fields
-.field private static gtC:Lcom/tencent/mm/pluginsdk/ui/d/j;
+.field private static gtC:Lcom/tencent/mm/pluginsdk/ui/d/Jclz;
 
 .field private static gtD:Landroid/widget/TextView;
 
@@ -37,16 +37,16 @@
     const/4 v2, 0x0
 
     .line 119
-    sget-object v0, Lcom/tencent/mm/plugin/sns/ui/v;->gtC:Lcom/tencent/mm/pluginsdk/ui/d/j;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/ui/v;->gtC:Lcom/tencent/mm/pluginsdk/ui/d/Jclz;
 
     if-eqz v0, :cond_0
 
     .line 120
-    sget-object v0, Lcom/tencent/mm/plugin/sns/ui/v;->gtC:Lcom/tencent/mm/pluginsdk/ui/d/j;
+    sget-object v0, Lcom/tencent/mm/plugin/sns/ui/v;->gtC:Lcom/tencent/mm/pluginsdk/ui/d/Jclz;
 
     const/4 v1, 0x0
 
-    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/d/i;->ido:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/d/Iclz;->ido:Z
 
     .line 121
     sget-object v0, Lcom/tencent/mm/plugin/sns/ui/v;->gtD:Landroid/widget/TextView;
@@ -57,7 +57,7 @@
     sput-object v2, Lcom/tencent/mm/plugin/sns/ui/v;->gtD:Landroid/widget/TextView;
 
     .line 123
-    sput-object v2, Lcom/tencent/mm/plugin/sns/ui/v;->gtC:Lcom/tencent/mm/pluginsdk/ui/d/j;
+    sput-object v2, Lcom/tencent/mm/plugin/sns/ui/v;->gtC:Lcom/tencent/mm/pluginsdk/ui/d/Jclz;
 
     .line 125
     :cond_0
@@ -169,13 +169,13 @@
 
     move-result v4
 
-    const-class v5, Lcom/tencent/mm/pluginsdk/ui/d/j;
+    const-class v5, Lcom/tencent/mm/pluginsdk/ui/d/Jclz;
 
     invoke-interface {v0, v3, v3, v5}, Landroid/text/Spannable;->getSpans(IILjava/lang/Class;)[Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lcom/tencent/mm/pluginsdk/ui/d/j;
+    check-cast v0, [Lcom/tencent/mm/pluginsdk/ui/d/Jclz;
 
     array-length v3, v0
 
@@ -209,7 +209,7 @@
 
     aget-object v0, v0, v3
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/d/j;->onClick(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/d/Jclz;->onClick(Landroid/view/View;)V
 
     new-instance v0, Lcom/tencent/mm/sdk/platformtools/ABclz;
 
@@ -249,13 +249,13 @@
 
     aget-object v4, v0, v3
 
-    sput-object v4, Lcom/tencent/mm/plugin/sns/ui/v;->gtC:Lcom/tencent/mm/pluginsdk/ui/d/j;
+    sput-object v4, Lcom/tencent/mm/plugin/sns/ui/v;->gtC:Lcom/tencent/mm/pluginsdk/ui/d/Jclz;
 
     sput-object p1, Lcom/tencent/mm/plugin/sns/ui/v;->gtD:Landroid/widget/TextView;
 
     aget-object v0, v0, v3
 
-    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/d/i;->ido:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/d/Iclz;->ido:Z
 
     invoke-virtual {p1}, Landroid/widget/TextView;->invalidate()V
 

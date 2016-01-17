@@ -1010,7 +1010,7 @@
 
     move-result v7
 
-    invoke-static {v6, v3, v7}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {v6, v3, v7}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v3
 
@@ -1105,7 +1105,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, v5, v6}, Lcom/tencent/mm/pluginsdk/g/n;->o(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {v7, v5, v6}, Lcom/tencent/mm/pluginsdk/g/Nclz;->o(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object v5
 
@@ -2696,7 +2696,7 @@
 
     iget-wide v5, v14, Lcom/tencent/mm/ui/chatting/CUclz;->time:J
 
-    invoke-static {v4, v5, v6}, Lcom/tencent/mm/pluginsdk/g/n;->o(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {v4, v5, v6}, Lcom/tencent/mm/pluginsdk/g/Nclz;->o(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object v4
 
@@ -2953,7 +2953,7 @@
 
     move-result v2
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;F)Landroid/text/SpannableString;
 
     move-result-object v0
 

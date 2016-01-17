@@ -28,7 +28,7 @@
 
 .field protected eLB:Lcom/tencent/mm/ui/base/MMSlideDelView$f;
 
-.field hTn:Lcom/tencent/mm/pluginsdk/ui/d;
+.field hTn:Lcom/tencent/mm/pluginsdk/ui/Dclz;
 
 .field protected kpE:Ljava/lang/String;
 
@@ -545,24 +545,24 @@
     .line 258
     iget-object v3, v0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
-    invoke-static {v1, v3}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
 
     .line 259
     invoke-virtual {v1}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    check-cast v1, Lcom/tencent/mm/pluginsdk/ui/a;
+    check-cast v1, Lcom/tencent/mm/pluginsdk/ui/Aclz;
 
     .line 260
-    iget-object v3, p0, Lcom/tencent/mm/ui/contact/Dclz;->hTn:Lcom/tencent/mm/pluginsdk/ui/d;
+    iget-object v3, p0, Lcom/tencent/mm/ui/contact/Dclz;->hTn:Lcom/tencent/mm/pluginsdk/ui/Dclz;
 
     if-eqz v3, :cond_3
 
     .line 261
-    iget-object v3, p0, Lcom/tencent/mm/ui/contact/Dclz;->hTn:Lcom/tencent/mm/pluginsdk/ui/d;
+    iget-object v3, p0, Lcom/tencent/mm/ui/contact/Dclz;->hTn:Lcom/tencent/mm/pluginsdk/ui/Dclz;
 
-    invoke-virtual {v3, v1}, Lcom/tencent/mm/pluginsdk/ui/d;->a(Lcom/tencent/mm/pluginsdk/ui/d$a;)V
+    invoke-virtual {v3, v1}, Lcom/tencent/mm/pluginsdk/ui/Dclz;->a(Lcom/tencent/mm/pluginsdk/ui/Dclz$a;)V
 
     .line 266
     :cond_3
@@ -590,7 +590,7 @@
 
     float-to-int v4, v4
 
-    invoke-static {v3, v0, v4}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/text/SpannableString;
+    invoke-static {v3, v0, v4}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/text/SpannableString;
 
     move-result-object v0
 

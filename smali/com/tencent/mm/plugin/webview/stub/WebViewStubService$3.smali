@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/model/downloader/k;
+.implements Lcom/tencent/mm/pluginsdk/model/downloader/Kclz;
 
 
 # annotations

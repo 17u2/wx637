@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/ui/tools/f;
+.implements Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
 
 # instance fields
@@ -11,7 +11,7 @@
 
 .field private bmu:I
 
-.field private fXd:Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+.field private fXd:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
 .field private gcx:Landroid/media/MediaPlayer;
 
@@ -652,12 +652,12 @@
     return v0
 .end method
 
-.method static synthetic e(Lcom/tencent/mm/pluginsdk/ui/tools/VideoSurfaceView;)Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+.method static synthetic e(Lcom/tencent/mm/pluginsdk/ui/tools/VideoSurfaceView;)Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
     .locals 1
 
     .prologue
     .line 15
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSurfaceView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSurfaceView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
     return-object v0
 .end method
@@ -960,12 +960,12 @@
     return-void
 .end method
 
-.method public setVideoCallback(Lcom/tencent/mm/pluginsdk/ui/tools/f$a;)V
+.method public setVideoCallback(Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;)V
     .locals 0
 
     .prologue
     .line 295
-    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSurfaceView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/ui/tools/VideoSurfaceView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
     .line 296
     return-void

@@ -446,7 +446,7 @@
     .line 345
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/encode/ui/ChattingSightContainerView;->gad:Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraView;
 
-    sget v1, Lcom/tencent/mm/pluginsdk/j/a;->hPI:I
+    sget v1, Lcom/tencent/mm/pluginsdk/j/Aclz;->hPI:I
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/plugin/sight/encode/ui/SightCameraView;->setTargetWidth(I)V
 

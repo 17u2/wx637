@@ -562,7 +562,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/sns/ui/SnsTimeLineUI;->gDU:Ljava/lang/String;
 
-    invoke-static {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

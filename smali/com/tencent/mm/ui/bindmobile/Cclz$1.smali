@@ -128,7 +128,7 @@
     if-ne v1, v5, :cond_0
 
     .line 66
-    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/applet/a;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/bindmobile/Cclz$1;->jYg:Lcom/tencent/mm/ui/bindmobile/Cclz;
 
@@ -140,17 +140,17 @@
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/ui/bindmobile/Cclz$1$1;-><init>(Lcom/tencent/mm/ui/bindmobile/Cclz$1;)V
 
-    invoke-direct {v1, v2, v3}, Lcom/tencent/mm/pluginsdk/ui/applet/a;-><init>(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/ui/applet/a$a;)V
+    invoke-direct {v1, v2, v3}, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;-><init>(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/ui/applet/Aclz$a;)V
 
     .line 91
     invoke-virtual {v0}, Lcom/tencent/mm/modelfriend/Bclz;->xQ()Ljava/lang/String;
 
     move-result-object v2
 
-    iput-object v2, v1, Lcom/tencent/mm/pluginsdk/ui/applet/a;->hSA:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;->hSA:Ljava/lang/String;
 
     .line 92
-    iput-boolean v6, v1, Lcom/tencent/mm/pluginsdk/ui/applet/a;->hSz:Z
+    iput-boolean v6, v1, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;->hSz:Z
 
     .line 93
     new-instance v2, Ljava/util/LinkedList;
@@ -171,7 +171,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v3, v2, v5}, Lcom/tencent/mm/pluginsdk/ui/applet/a;->a(Ljava/lang/String;Ljava/util/LinkedList;Z)V
+    invoke-virtual {v1, v3, v2, v5}, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;->a(Ljava/lang/String;Ljava/util/LinkedList;Z)V
 
     .line 96
     iput v5, v0, Lcom/tencent/mm/modelfriend/Bclz;->bxh:I

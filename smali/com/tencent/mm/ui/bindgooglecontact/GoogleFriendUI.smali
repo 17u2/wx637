@@ -1133,10 +1133,10 @@
     if-eqz v0, :cond_0
 
     .line 371
-    check-cast p4, Lcom/tencent/mm/pluginsdk/model/k;
+    check-cast p4, Lcom/tencent/mm/pluginsdk/model/Kclz;
 
     .line 372
-    iget-object v0, p4, Lcom/tencent/mm/pluginsdk/model/k;->bHT:Ljava/lang/String;
+    iget-object v0, p4, Lcom/tencent/mm/pluginsdk/model/Kclz;->bHT:Ljava/lang/String;
 
     .line 374
     const-string/jumbo v1, "!56@/B4Tb64lLpKHrGLZvbPyiIVQZqGB7lNLR9cEovBG92K66fy5loyLJw=="
@@ -1274,10 +1274,10 @@
     if-eqz v0, :cond_0
 
     .line 426
-    check-cast p4, Lcom/tencent/mm/pluginsdk/model/k;
+    check-cast p4, Lcom/tencent/mm/pluginsdk/model/Kclz;
 
     .line 427
-    iget-object v0, p4, Lcom/tencent/mm/pluginsdk/model/k;->bHT:Ljava/lang/String;
+    iget-object v0, p4, Lcom/tencent/mm/pluginsdk/model/Kclz;->bHT:Ljava/lang/String;
 
     .line 429
     const-string/jumbo v1, "!56@/B4Tb64lLpKHrGLZvbPyiIVQZqGB7lNLR9cEovBG92K66fy5loyLJw=="
@@ -1750,13 +1750,13 @@
 
     if-lez v0, :cond_2
 
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
     iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-interface {v0, v2, v1}, Lcom/tencent/mm/pluginsdk/f;->d(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v0, v2, v1}, Lcom/tencent/mm/pluginsdk/Fclz;->d(Landroid/content/Intent;Landroid/content/Context;)V
 
     .line 224
     :cond_2
@@ -1945,25 +1945,25 @@
 
     .line 302
     :pswitch_0
-    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/applet/a;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;
 
     new-instance v2, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI$3;
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI$3;-><init>(Lcom/tencent/mm/ui/bindgooglecontact/GoogleFriendUI;)V
 
-    invoke-direct {v1, p0, v2}, Lcom/tencent/mm/pluginsdk/ui/applet/a;-><init>(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/ui/applet/a$a;)V
+    invoke-direct {v1, p0, v2}, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;-><init>(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/ui/applet/Aclz$a;)V
 
     .line 317
     iget-object v2, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googleitemid:Ljava/lang/String;
 
-    iput-boolean v4, v1, Lcom/tencent/mm/pluginsdk/ui/applet/a;->hSz:Z
+    iput-boolean v4, v1, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;->hSz:Z
 
-    iput-boolean v5, v1, Lcom/tencent/mm/pluginsdk/ui/applet/a;->hSy:Z
+    iput-boolean v5, v1, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;->hSy:Z
 
-    iput-object v2, v1, Lcom/tencent/mm/pluginsdk/ui/applet/a;->hSA:Ljava/lang/String;
+    iput-object v2, v1, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;->hSA:Ljava/lang/String;
 
     .line 318
-    iput-boolean v4, v1, Lcom/tencent/mm/pluginsdk/ui/applet/a;->hSz:Z
+    iput-boolean v4, v1, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;->hSz:Z
 
     .line 319
     new-instance v2, Ljava/util/LinkedList;
@@ -1982,7 +1982,7 @@
     .line 321
     iget-object v3, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_username:Ljava/lang/String;
 
-    invoke-virtual {v1, v3, v2, v5}, Lcom/tencent/mm/pluginsdk/ui/applet/a;->a(Ljava/lang/String;Ljava/util/LinkedList;Z)V
+    invoke-virtual {v1, v3, v2, v5}, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;->a(Ljava/lang/String;Ljava/util/LinkedList;Z)V
 
     .line 322
     iput v4, v0, Lcom/tencent/mm/modelfriend/Oclz;->field_googlecgistatus:I

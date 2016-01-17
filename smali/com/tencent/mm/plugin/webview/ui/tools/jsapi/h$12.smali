@@ -311,7 +311,7 @@
 
     .line 1362
     :cond_7
-    sget-object v0, Lcom/tencent/mm/plugin/webview/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/webview/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$12;->val$intent:Landroid/content/Intent;
 
@@ -321,7 +321,7 @@
 
     move-result-object v2
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/f;->d(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/Fclz;->d(Landroid/content/Intent;Landroid/content/Context;)V
 
     .line 1363
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$12;->hGQ:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;

@@ -1318,13 +1318,13 @@
     invoke-static {v0, v3, v1}, Lcom/tencent/mm/ui/g/Bclz;->a(Lcom/tencent/mm/aw/Gclz;Ljava/io/PrintStream;Ljava/util/List;)V
 
     .line 416
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKi:Lcom/tencent/mm/pluginsdk/h$n$d;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKi:Lcom/tencent/mm/pluginsdk/Hclz$n$d;
 
     .line 417
     if-eqz v0, :cond_4
 
     .line 418
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$n$d;->auP()Lcom/tencent/mm/aw/Gclz;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$n$d;->auP()Lcom/tencent/mm/aw/Gclz;
 
     move-result-object v0
 

@@ -786,7 +786,7 @@
     invoke-virtual {v1}, Landroid/widget/Toast;->show()V
 
     :cond_6
-    invoke-static {v0, p0}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->d(Ljava/lang/String;Landroid/content/Context;)V
+    invoke-static {v0, p0}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->d(Ljava/lang/String;Landroid/content/Context;)V
 
     goto/16 :goto_2
 
@@ -2087,7 +2087,7 @@
     invoke-direct {v1}, Lcom/tencent/mm/d/a/ASclz;-><init>()V
 
     .line 416
-    invoke-static {v1, v0}, Lcom/tencent/mm/pluginsdk/model/c;->a(Lcom/tencent/mm/d/a/ASclz;Lcom/tencent/mm/storage/ADclz;)Z
+    invoke-static {v1, v0}, Lcom/tencent/mm/pluginsdk/model/Cclz;->a(Lcom/tencent/mm/d/a/ASclz;Lcom/tencent/mm/storage/ADclz;)Z
 
     move-result v0
 

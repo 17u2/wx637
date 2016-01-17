@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/h$s;
+.implements Lcom/tencent/mm/pluginsdk/Hclz$s;
 
 
 # annotations
@@ -35,7 +35,7 @@
 
 .field private cOs:Z
 
-.field private cOz:Lcom/tencent/mm/pluginsdk/ui/d;
+.field private cOz:Lcom/tencent/mm/pluginsdk/ui/Dclz;
 
 .field private cPi:Ljava/lang/String;
 
@@ -95,15 +95,15 @@
     iput v0, p0, Lcom/tencent/mm/ui/SingleChatInfoUI;->cOZ:I
 
     .line 78
-    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/d;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/Dclz;
 
     new-instance v1, Lcom/tencent/mm/ui/SingleChatInfoUI$1;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/ui/SingleChatInfoUI$1;-><init>(Lcom/tencent/mm/ui/SingleChatInfoUI;)V
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/d;-><init>(Landroid/widget/AbsListView$OnScrollListener;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/Dclz;-><init>(Landroid/widget/AbsListView$OnScrollListener;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/SingleChatInfoUI;->cOz:Lcom/tencent/mm/pluginsdk/ui/d;
+    iput-object v0, p0, Lcom/tencent/mm/ui/SingleChatInfoUI;->cOz:Lcom/tencent/mm/pluginsdk/ui/Dclz;
 
     .line 106
     const/4 v0, 0x0
@@ -640,16 +640,16 @@
     .line 202
     iget-object v0, p0, Lcom/tencent/mm/ui/base/preference/MMPreference;->gqL:Landroid/widget/ListView;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/SingleChatInfoUI;->cOz:Lcom/tencent/mm/pluginsdk/ui/d;
+    iget-object v1, p0, Lcom/tencent/mm/ui/SingleChatInfoUI;->cOz:Lcom/tencent/mm/pluginsdk/ui/Dclz;
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setOnScrollListener(Landroid/widget/AbsListView$OnScrollListener;)V
 
     .line 203
     iget-object v0, p0, Lcom/tencent/mm/ui/SingleChatInfoUI;->cOi:Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/SingleChatInfoUI;->cOz:Lcom/tencent/mm/pluginsdk/ui/d;
+    iget-object v1, p0, Lcom/tencent/mm/ui/SingleChatInfoUI;->cOz:Lcom/tencent/mm/pluginsdk/ui/Dclz;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->a(Lcom/tencent/mm/pluginsdk/ui/d;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->a(Lcom/tencent/mm/pluginsdk/ui/Dclz;)V
 
     .line 205
     iget-object v0, p0, Lcom/tencent/mm/ui/SingleChatInfoUI;->cOi:Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;
@@ -1266,14 +1266,14 @@
     invoke-super {p0, p1}, Lcom/tencent/mm/ui/base/preference/MMPreference;->onCreate(Landroid/os/Bundle;)V
 
     .line 92
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJG:Lcom/tencent/mm/pluginsdk/h$t;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJG:Lcom/tencent/mm/pluginsdk/Hclz$t;
 
     if-eqz v0, :cond_0
 
     .line 93
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJG:Lcom/tencent/mm/pluginsdk/h$t;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJG:Lcom/tencent/mm/pluginsdk/Hclz$t;
 
-    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/h$t;->a(Lcom/tencent/mm/pluginsdk/h$s;)V
+    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/Hclz$t;->a(Lcom/tencent/mm/pluginsdk/Hclz$s;)V
 
     .line 96
     :cond_0
@@ -1346,14 +1346,14 @@
     invoke-static {}, Lcom/tencent/mm/ui/f/Aclz;->dismiss()V
 
     .line 157
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJG:Lcom/tencent/mm/pluginsdk/h$t;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJG:Lcom/tencent/mm/pluginsdk/Hclz$t;
 
     if-eqz v0, :cond_0
 
     .line 158
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJG:Lcom/tencent/mm/pluginsdk/h$t;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJG:Lcom/tencent/mm/pluginsdk/Hclz$t;
 
-    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/h$t;->b(Lcom/tencent/mm/pluginsdk/h$s;)V
+    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/Hclz$t;->b(Lcom/tencent/mm/pluginsdk/Hclz$s;)V
 
     .line 161
     :cond_0

@@ -1407,7 +1407,7 @@
 
     const/4 v3, 0x0
 
-    invoke-static {p0, v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->a(Landroid/app/Activity;IIILandroid/content/Intent;)V
+    invoke-static {p0, v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->a(Landroid/app/Activity;IIILandroid/content/Intent;)V
 
     goto :goto_0
 .end method

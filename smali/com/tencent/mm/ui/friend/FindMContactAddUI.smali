@@ -364,7 +364,7 @@
     goto :goto_1
 
     :cond_2
-    new-instance v0, Lcom/tencent/mm/pluginsdk/model/k;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/model/Kclz;
 
     const/4 v1, 0x2
 
@@ -372,7 +372,7 @@
 
     const-string/jumbo v5, ""
 
-    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/k;-><init>(ILjava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/model/Kclz;-><init>(ILjava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->to()Lcom/tencent/mm/q/Lclz;
 
@@ -824,9 +824,9 @@
     invoke-virtual {p0, v0}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->pp(I)V
 
     .line 72
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/e;->kT()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Eclz;->kT()V
 
     .line 73
     invoke-virtual {p0}, Lcom/tencent/mm/ui/friend/FindMContactAddUI;->getIntent()Landroid/content/Intent;

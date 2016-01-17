@@ -113,7 +113,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/a;->xh(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/Aclz;->xh(Ljava/lang/String;)Z
 
     move-result v0
 

@@ -50,11 +50,11 @@
     .line 345
     iget-object v0, p0, Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI$7;->ktg:Lcom/tencent/mm/ui/contact/MMBaseSelectContactUI;
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHD()Lcom/tencent/mm/pluginsdk/h$e;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHD()Lcom/tencent/mm/pluginsdk/Hclz$e;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/tencent/mm/pluginsdk/h$e;->abu()Ljava/util/List;
+    invoke-interface {v1}, Lcom/tencent/mm/pluginsdk/Hclz$e;->abu()Ljava/util/List;
 
     move-result-object v1
 

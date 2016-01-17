@@ -294,18 +294,18 @@
     if-nez v1, :cond_0
 
     .line 180
-    new-instance v1, Lcom/tencent/mm/pluginsdk/d/a/a;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/d/a/Aclz;
 
-    invoke-direct {v1}, Lcom/tencent/mm/pluginsdk/d/a/a;-><init>()V
+    invoke-direct {v1}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;-><init>()V
 
     .line 181
     const-wide/16 v2, 0xfa0
 
     new-instance v4, Lcom/tencent/mm/plugin/ext/provider/ExtContentProviderBase$1;
 
-    invoke-direct {v4, p0, v1}, Lcom/tencent/mm/plugin/ext/provider/ExtContentProviderBase$1;-><init>(Lcom/tencent/mm/plugin/ext/provider/ExtContentProviderBase;Lcom/tencent/mm/pluginsdk/d/a/a;)V
+    invoke-direct {v4, p0, v1}, Lcom/tencent/mm/plugin/ext/provider/ExtContentProviderBase$1;-><init>(Lcom/tencent/mm/plugin/ext/provider/ExtContentProviderBase;Lcom/tencent/mm/pluginsdk/d/a/Aclz;)V
 
-    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/d/a/a;->b(JLjava/lang/Runnable;)V
+    invoke-virtual {v1, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/d/a/Aclz;->b(JLjava/lang/Runnable;)V
 
     .line 204
     :cond_0
@@ -579,7 +579,7 @@
 
     const/4 v1, 0x1
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/model/app/g;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v4
 
@@ -600,7 +600,7 @@
 
     .line 259
     :cond_4
-    iget v0, v4, Lcom/tencent/mm/pluginsdk/model/app/f;->field_status:I
+    iget v0, v4, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_status:I
 
     if-ne v0, v5, :cond_7
 
@@ -615,7 +615,7 @@
 
     const/4 v6, 0x0
 
-    iget-object v4, v4, Lcom/tencent/mm/pluginsdk/model/app/f;->field_packageName:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_packageName:Ljava/lang/String;
 
     aput-object v4, v5, v6
 
@@ -711,11 +711,11 @@
     invoke-static {v0, v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 287
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJJ:Lcom/tencent/mm/pluginsdk/h$q;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJJ:Lcom/tencent/mm/pluginsdk/Hclz$q;
 
     iget-object v4, p0, Lcom/tencent/mm/plugin/ext/provider/ExtContentProviderBase;->dwn:Ljava/lang/String;
 
-    invoke-interface {v0, v4}, Lcom/tencent/mm/pluginsdk/h$q;->xp(Ljava/lang/String;)V
+    invoke-interface {v0, v4}, Lcom/tencent/mm/pluginsdk/Hclz$q;->xp(Ljava/lang/String;)V
 
     .line 288
     sget-object v0, Lcom/tencent/mm/plugin/ext/provider/ExtContentProviderBase;->dwq:Ljava/util/HashMap;
@@ -755,7 +755,7 @@
     aget-object v6, v1, v0
 
     .line 263
-    iget-object v7, v4, Lcom/tencent/mm/pluginsdk/model/app/f;->field_packageName:Ljava/lang/String;
+    iget-object v7, v4, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_packageName:Ljava/lang/String;
 
     invoke-virtual {v6, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -767,7 +767,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, v4, v6}, Lcom/tencent/mm/pluginsdk/model/app/n;->b(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/f;Ljava/lang/String;)Z
+    invoke-static {v7, v4, v6}, Lcom/tencent/mm/pluginsdk/model/app/Nclz;->b(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/Fclz;Ljava/lang/String;)Z
 
     move-result v7
 
@@ -804,7 +804,7 @@
 
     .line 271
     :try_start_4
-    sget-object v0, Lcom/tencent/mm/pluginsdk/b$a;->hJA:Ljava/util/HashMap;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Bclz$a;->hJA:Ljava/util/HashMap;
 
     iget v5, p0, Lcom/tencent/mm/plugin/ext/provider/ExtContentProviderBase;->dwp:I
 
@@ -836,7 +836,7 @@
 
     if-eqz v4, :cond_9
 
-    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
@@ -863,7 +863,7 @@
 
     .line 275
     :cond_b
-    iget v0, v4, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appInfoFlag:I
+    iget v0, v4, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appInfoFlag:I
 
     and-int/2addr v0, v5
 
@@ -882,7 +882,7 @@
 
     const/4 v9, 0x0
 
-    iget-object v4, v4, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iget-object v4, v4, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     aput-object v4, v8, v9
 

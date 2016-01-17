@@ -40,7 +40,7 @@
 
     .prologue
     .line 184
-    invoke-static {p0, p1, p2}, Lcom/tencent/mm/pluginsdk/a;->b(Ljava/lang/String;Landroid/content/Context;[B)Z
+    invoke-static {p0, p1, p2}, Lcom/tencent/mm/pluginsdk/Aclz;->b(Ljava/lang/String;Landroid/content/Context;[B)Z
 
     move-result v0
 
@@ -54,7 +54,7 @@
     .line 180
     const/4 v0, 0x0
 
-    invoke-static {p0, p1, v0}, Lcom/tencent/mm/pluginsdk/a;->b(Ljava/lang/String;Landroid/content/Context;Z)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1, v0}, Lcom/tencent/mm/pluginsdk/Aclz;->b(Ljava/lang/String;Landroid/content/Context;Z)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -1187,11 +1187,11 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/a;->rE(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/Aclz;->rE(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/a;->xh(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/Aclz;->xh(Ljava/lang/String;)Z
 
     move-result v3
 

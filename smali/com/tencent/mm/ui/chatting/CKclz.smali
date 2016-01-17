@@ -1279,13 +1279,13 @@
     if-eqz v3, :cond_f
 
     .line 278
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v0
 
     iget-object v3, v6, Lcom/tencent/mm/ui/chatting/DDclz;->aXP:Ljava/lang/String;
 
-    invoke-interface {v0, v3}, Lcom/tencent/mm/pluginsdk/h$f;->mg(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v3}, Lcom/tencent/mm/pluginsdk/Hclz$f;->mg(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -4046,7 +4046,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v0
 
@@ -4056,7 +4056,7 @@
 
     move-result-object v3
 
-    invoke-interface {v0, v3}, Lcom/tencent/mm/pluginsdk/h$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
+    invoke-interface {v0, v3}, Lcom/tencent/mm/pluginsdk/Hclz$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 
     move-result-object v0
 
@@ -4974,7 +4974,7 @@
 
     iget-object v0, v6, Lcom/tencent/mm/ui/chatting/DDclz;->aCM:Lcom/tencent/mm/storage/ADclz;
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v3
 
@@ -4984,7 +4984,7 @@
 
     move-result-object v4
 
-    invoke-interface {v3, v4, v0}, Lcom/tencent/mm/pluginsdk/h$f;->a(Landroid/content/Context;Lcom/tencent/mm/storage/ADclz;)V
+    invoke-interface {v3, v4, v0}, Lcom/tencent/mm/pluginsdk/Hclz$f;->a(Landroid/content/Context;Lcom/tencent/mm/storage/ADclz;)V
 
     sget-object v0, Lcom/tencent/mm/plugin/report/service/h;->fxL:Lcom/tencent/mm/plugin/report/service/h;
 

@@ -2599,7 +2599,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/d;->m(Landroid/net/Uri;)Z
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/Dclz;->m(Landroid/net/Uri;)Z
 
     move-result v0
 
@@ -2733,7 +2733,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-static {v0, p2}, Lcom/tencent/mm/pluginsdk/d;->aB(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {v0, p2}, Lcom/tencent/mm/pluginsdk/Dclz;->aB(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 4600
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI$i;->hEd:Lcom/tencent/mm/plugin/webview/ui/tools/WebViewUI;

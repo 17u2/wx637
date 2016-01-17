@@ -398,11 +398,11 @@
 
     .prologue
     .line 731
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJT:Lcom/tencent/mm/pluginsdk/h$ad;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJT:Lcom/tencent/mm/pluginsdk/Hclz$ad;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService$1;->hBu:Lcom/tencent/mm/plugin/webview/stub/WebViewStubService;
 
-    invoke-interface {v0, v1, p1, p2}, Lcom/tencent/mm/pluginsdk/h$ad;->a(Landroid/content/Context;Ljava/lang/String;Z)Z
+    invoke-interface {v0, v1, p1, p2}, Lcom/tencent/mm/pluginsdk/Hclz$ad;->a(Landroid/content/Context;Ljava/lang/String;Z)Z
 
     .line 732
     return-void
@@ -743,11 +743,11 @@
 
     .prologue
     .line 709
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJT:Lcom/tencent/mm/pluginsdk/h$ad;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJT:Lcom/tencent/mm/pluginsdk/Hclz$ad;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService$1;->hBu:Lcom/tencent/mm/plugin/webview/stub/WebViewStubService;
 
-    invoke-interface {v0, v1, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/h$ad;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/os/Bundle;)Z
+    invoke-interface {v0, v1, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/Hclz$ad;->a(Landroid/content/Context;Ljava/lang/String;ZLandroid/os/Bundle;)Z
 
     move-result v0
 
@@ -1494,7 +1494,7 @@
 
     .prologue
     .line 1599
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/wallet/c;->aGd()I
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/wallet/Cclz;->aGd()I
 
     move-result v0
 
@@ -1569,9 +1569,9 @@
 
     .prologue
     .line 859
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJU:Lcom/tencent/mm/pluginsdk/h$j;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJU:Lcom/tencent/mm/pluginsdk/Hclz$j;
 
-    invoke-interface {v0, p1}, Lcom/tencent/mm/pluginsdk/h$j;->aX(Ljava/lang/String;)Z
+    invoke-interface {v0, p1}, Lcom/tencent/mm/pluginsdk/Hclz$j;->aX(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -2088,35 +2088,35 @@
 
     .line 1256
     :cond_1
-    new-instance v2, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;
+    new-instance v2, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;
 
-    invoke-direct {v2}, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;-><init>()V
+    invoke-direct {v2}, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;-><init>()V
 
     .line 1257
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;->xU(Ljava/lang/String;)V
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;->xU(Ljava/lang/String;)V
 
     .line 1258
-    invoke-virtual {v2, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;->xV(Ljava/lang/String;)V
+    invoke-virtual {v2, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;->xV(Ljava/lang/String;)V
 
     .line 1259
     const/4 v0, 0x1
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;->fy(Z)V
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;->fy(Z)V
 
     .line 1260
     const/4 v0, 0x1
 
-    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;->ns(I)V
+    invoke-virtual {v2, v0}, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;->ns(I)V
 
     .line 1261
-    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/model/downloader/d$a;->hNi:Lcom/tencent/mm/pluginsdk/model/downloader/d;
+    iget-object v0, v2, Lcom/tencent/mm/pluginsdk/model/downloader/Dclz$a;->hNi:Lcom/tencent/mm/pluginsdk/model/downloader/Dclz;
 
     .line 1262
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->a(Lcom/tencent/mm/pluginsdk/model/downloader/d;)J
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->a(Lcom/tencent/mm/pluginsdk/model/downloader/Dclz;)J
 
     move-result-wide v1
 
@@ -2162,11 +2162,11 @@
     move-result-wide v1
 
     .line 1272
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->cA(J)Lcom/tencent/mm/pluginsdk/model/downloader/e;
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->cA(J)Lcom/tencent/mm/pluginsdk/model/downloader/Eclz;
 
     move-result-object v3
 
@@ -2214,7 +2214,7 @@
     if-eqz v3, :cond_2
 
     .line 1276
-    iget v0, v3, Lcom/tencent/mm/pluginsdk/model/downloader/e;->status:I
+    iget v0, v3, Lcom/tencent/mm/pluginsdk/model/downloader/Eclz;->status:I
 
     .line 1278
     :cond_2
@@ -2266,7 +2266,7 @@
     goto :goto_1
 
     :cond_4
-    iget v0, v3, Lcom/tencent/mm/pluginsdk/model/downloader/e;->status:I
+    iget v0, v3, Lcom/tencent/mm/pluginsdk/model/downloader/Eclz;->status:I
 
     goto :goto_2
 
@@ -2281,11 +2281,11 @@
     move-result-wide v0
 
     .line 1286
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->cz(J)I
+    invoke-virtual {v2, v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->cz(J)I
 
     move-result v2
 
@@ -2351,11 +2351,11 @@
     move-result-wide v0
 
     .line 1295
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->cA(J)Lcom/tencent/mm/pluginsdk/model/downloader/e;
+    invoke-virtual {v2, v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->cA(J)Lcom/tencent/mm/pluginsdk/model/downloader/Eclz;
 
     move-result-object v1
 
@@ -2385,7 +2385,7 @@
 
     .line 1303
     :cond_6
-    iget v2, v1, Lcom/tencent/mm/pluginsdk/model/downloader/e;->status:I
+    iget v2, v1, Lcom/tencent/mm/pluginsdk/model/downloader/Eclz;->status:I
 
     const/4 v3, 0x3
 
@@ -2400,7 +2400,7 @@
 
     invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget v1, v1, Lcom/tencent/mm/pluginsdk/model/downloader/e;->status:I
+    iget v1, v1, Lcom/tencent/mm/pluginsdk/model/downloader/Eclz;->status:I
 
     invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -2423,7 +2423,7 @@
 
     .line 1309
     :cond_7
-    iget-object v2, v1, Lcom/tencent/mm/pluginsdk/model/downloader/e;->path:Ljava/lang/String;
+    iget-object v2, v1, Lcom/tencent/mm/pluginsdk/model/downloader/Eclz;->path:Ljava/lang/String;
 
     invoke-static {v2}, Lcom/tencent/mm/a/Dclz;->av(Ljava/lang/String;)Z
 
@@ -2434,7 +2434,7 @@
     .line 1310
     new-instance v2, Ljava/io/File;
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/downloader/e;->path:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/downloader/Eclz;->path:Ljava/lang/String;
 
     invoke-direct {v2, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
@@ -2446,7 +2446,7 @@
     .line 1312
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService$1;->hBu:Lcom/tencent/mm/plugin/webview/stub/WebViewStubService;
 
-    invoke-static {v2, v1}, Lcom/tencent/mm/pluginsdk/model/app/n;->c(Landroid/content/Context;Landroid/net/Uri;)Z
+    invoke-static {v2, v1}, Lcom/tencent/mm/pluginsdk/model/app/Nclz;->c(Landroid/content/Context;Landroid/net/Uri;)Z
 
     move-result v1
 
@@ -2469,7 +2469,7 @@
 
     const/4 v5, 0x0
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/downloader/e;->path:Ljava/lang/String;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/model/downloader/Eclz;->path:Ljava/lang/String;
 
     aput-object v1, v4, v5
 
@@ -4586,7 +4586,7 @@
     invoke-virtual {v0}, Lcom/tencent/mm/modelsns/Aclz;->Cg()Z
 
     :cond_4
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/ui/tools/p;->aMp()Ljava/util/List;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/ui/tools/Pclz;->aMp()Ljava/util/List;
 
     move-result-object v0
 
@@ -4605,7 +4605,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/tools/p$a;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/tools/Pclz$a;
 
     const-string/jumbo v2, "!32@/B4Tb64lLpIW+l+CVB5RCiEi2AKtgO6B"
 
@@ -4615,7 +4615,7 @@
 
     invoke-direct {v4, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/p$a;->getName()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Pclz$a;->getName()Ljava/lang/String;
 
     move-result-object v6
 
@@ -4629,7 +4629,7 @@
 
     invoke-static {v2, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/p$a;->aGV()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Pclz$a;->aGV()V
 
     goto :goto_1
 
@@ -5141,7 +5141,7 @@
     goto/16 :goto_0
 
     :cond_15
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/ui/tools/p;->clear()V
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/ui/tools/Pclz;->clear()V
 
     invoke-static {}, Lcom/tencent/mm/plugin/webview/c/ad;->aEQ()Lcom/tencent/mm/plugin/webview/c/ad;
 
@@ -5422,7 +5422,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService$1;->hBu:Lcom/tencent/mm/plugin/webview/stub/WebViewStubService;
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/ui/tools/p;->aMp()Ljava/util/List;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/ui/tools/Pclz;->aMp()Ljava/util/List;
 
     move-result-object v0
 
@@ -5441,7 +5441,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/tools/p$a;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/tools/Pclz$a;
 
     const-string/jumbo v4, "!32@/B4Tb64lLpIW+l+CVB5RCiEi2AKtgO6B"
 
@@ -5451,7 +5451,7 @@
 
     invoke-direct {v5, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/p$a;->getName()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Pclz$a;->getName()Ljava/lang/String;
 
     move-result-object v6
 
@@ -5465,7 +5465,7 @@
 
     invoke-static {v4, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-interface {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/p$a;->cp(Landroid/content/Context;)V
+    invoke-interface {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Pclz$a;->cp(Landroid/content/Context;)V
 
     goto :goto_0
 
@@ -5490,7 +5490,7 @@
 
     move-result-object v1
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/ui/tools/p;->aMp()Ljava/util/List;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/ui/tools/Pclz;->aMp()Ljava/util/List;
 
     move-result-object v0
 
@@ -5509,7 +5509,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/tools/p$a;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/tools/Pclz$a;
 
     const-string/jumbo v3, "!32@/B4Tb64lLpIW+l+CVB5RCiEi2AKtgO6B"
 
@@ -5519,7 +5519,7 @@
 
     invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/p$a;->getName()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Pclz$a;->getName()Ljava/lang/String;
 
     move-result-object v5
 
@@ -5533,7 +5533,7 @@
 
     invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/p$a;->aGW()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Pclz$a;->aGW()V
 
     goto :goto_0
 
@@ -5907,7 +5907,7 @@
     iput v4, v3, Lcom/tencent/mm/d/a/ASclz$a;->ati:I
 
     .line 399
-    invoke-static {v6, v1, v2}, Lcom/tencent/mm/pluginsdk/model/c;->a(Lcom/tencent/mm/d/a/ASclz;J)Z
+    invoke-static {v6, v1, v2}, Lcom/tencent/mm/pluginsdk/model/Cclz;->a(Lcom/tencent/mm/d/a/ASclz;J)Z
 
     move-result v1
 
@@ -6165,7 +6165,7 @@
     invoke-direct {v1}, Lcom/tencent/mm/d/a/ASclz;-><init>()V
 
     .line 1025
-    invoke-static {v1, v0, p1}, Lcom/tencent/mm/pluginsdk/model/c;->a(Lcom/tencent/mm/d/a/ASclz;ILjava/lang/String;)Z
+    invoke-static {v1, v0, p1}, Lcom/tencent/mm/pluginsdk/model/Cclz;->a(Lcom/tencent/mm/d/a/ASclz;ILjava/lang/String;)Z
 
     move-result v2
 
@@ -6225,11 +6225,11 @@
     invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     .line 1043
-    sget-object v1, Lcom/tencent/mm/plugin/webview/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v1, Lcom/tencent/mm/plugin/webview/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService$1;->hBu:Lcom/tencent/mm/plugin/webview/stub/WebViewStubService;
 
-    invoke-interface {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/f;->m(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v1, v0, v2}, Lcom/tencent/mm/pluginsdk/Fclz;->m(Landroid/content/Intent;Landroid/content/Context;)V
 
     .line 1045
     return-void
@@ -6432,7 +6432,7 @@
     const-string/jumbo v0, ""
 
     .line 1194
-    invoke-static {p1}, Lcom/tencent/mm/pluginsdk/d;->xm(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/tencent/mm/pluginsdk/Dclz;->xm(Ljava/lang/String;)Z
 
     .line 1211
     return-object v0
@@ -6567,16 +6567,16 @@
 
     .prologue
     .line 715
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJU:Lcom/tencent/mm/pluginsdk/h$j;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJU:Lcom/tencent/mm/pluginsdk/Hclz$j;
 
     if-eqz v0, :cond_0
 
     .line 716
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJU:Lcom/tencent/mm/pluginsdk/h$j;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJU:Lcom/tencent/mm/pluginsdk/Hclz$j;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/webview/stub/WebViewStubService$1;->hBu:Lcom/tencent/mm/plugin/webview/stub/WebViewStubService;
 
-    invoke-interface {v0, v1, p1}, Lcom/tencent/mm/pluginsdk/h$j;->m(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v1, p1}, Lcom/tencent/mm/pluginsdk/Hclz$j;->m(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -6597,14 +6597,14 @@
     .line 826
     const/4 v0, 0x0
 
-    invoke-static {p1, v0}, Lcom/tencent/mm/pluginsdk/model/app/g;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-static {p1, v0}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v0
 
     .line 827
     if-eqz v0, :cond_0
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_openId:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_openId:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/tencent/mm/sdk/platformtools/BCclz;->jY(Ljava/lang/String;)Z
 
@@ -6708,7 +6708,7 @@
     :cond_0
     const/4 v0, 0x0
 
-    invoke-static {p1, v0}, Lcom/tencent/mm/pluginsdk/model/app/g;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-static {p1, v0}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v0
 
@@ -6720,7 +6720,7 @@
     goto :goto_0
 
     :cond_1
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/f;->field_packageName:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_packageName:Ljava/lang/String;
 
     goto :goto_0
 .end method

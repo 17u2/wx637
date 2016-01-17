@@ -49,7 +49,7 @@
 
 .field kfW:Landroid/view/View$OnClickListener;
 
-.field private kfX:Lcom/tencent/mm/pluginsdk/ui/tools/i$a;
+.field private kfX:Lcom/tencent/mm/pluginsdk/ui/tools/Iclz$a;
 
 .field mContext:Landroid/content/Context;
 
@@ -104,7 +104,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/chatting/COclz$6;-><init>(Lcom/tencent/mm/ui/chatting/COclz;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/COclz;->kfX:Lcom/tencent/mm/pluginsdk/ui/tools/i$a;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/COclz;->kfX:Lcom/tencent/mm/pluginsdk/ui/tools/Iclz$a;
 
     .line 107
     invoke-virtual {p1}, Lcom/tencent/mm/ui/chatting/ChatFooterCustom;->getContext()Landroid/content/Context;
@@ -233,7 +233,7 @@
 
     const-string/jumbo v1, "com.tencent.androidqqmail"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/model/app/n;->k(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/model/app/Nclz;->k(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -282,9 +282,9 @@
     packed-switch v0, :pswitch_data_0
 
     .line 193
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/COclz;->kfX:Lcom/tencent/mm/pluginsdk/ui/tools/i$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/COclz;->kfX:Lcom/tencent/mm/pluginsdk/ui/tools/Iclz$a;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/i;->a(Lcom/tencent/mm/pluginsdk/ui/tools/i$a;)V
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Iclz;->a(Lcom/tencent/mm/pluginsdk/ui/tools/Iclz$a;)V
 
     .line 196
     :goto_1
@@ -342,19 +342,19 @@
     goto :goto_0
 
     :cond_2
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
     move-result-object v0
 
     iget-wide v1, p0, Lcom/tencent/mm/ui/chatting/COclz;->doN:J
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->cA(J)Lcom/tencent/mm/pluginsdk/model/downloader/e;
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->cA(J)Lcom/tencent/mm/pluginsdk/model/downloader/Eclz;
 
     move-result-object v0
 
-    iget v1, v0, Lcom/tencent/mm/pluginsdk/model/downloader/e;->status:I
+    iget v1, v0, Lcom/tencent/mm/pluginsdk/model/downloader/Eclz;->status:I
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/downloader/e;->path:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/model/downloader/Eclz;->path:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/tencent/mm/ui/chatting/COclz;->kfT:Ljava/lang/String;
 
@@ -436,9 +436,9 @@
 
     .line 190
     :pswitch_5
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/COclz;->kfX:Lcom/tencent/mm/pluginsdk/ui/tools/i$a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/COclz;->kfX:Lcom/tencent/mm/pluginsdk/ui/tools/Iclz$a;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/i;->a(Lcom/tencent/mm/pluginsdk/ui/tools/i$a;)V
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Iclz;->a(Lcom/tencent/mm/pluginsdk/ui/tools/Iclz$a;)V
 
     goto/16 :goto_1
 

@@ -48,7 +48,7 @@
 
     .prologue
     .line 71
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJN:Lcom/tencent/mm/pluginsdk/h$o;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJN:Lcom/tencent/mm/pluginsdk/Hclz$o;
 
     .line 72
     if-eqz v0, :cond_0
@@ -66,7 +66,7 @@
 
     iget-object v3, v3, Lcom/tencent/mm/plugin/base/stub/c;->appId:Ljava/lang/String;
 
-    invoke-interface {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/h$o;->u(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-interface {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/Hclz$o;->u(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 75
     :cond_0

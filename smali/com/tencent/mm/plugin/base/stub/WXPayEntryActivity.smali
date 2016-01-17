@@ -143,7 +143,7 @@
 
     move-result-object v1
 
-    invoke-static {p0, v1, v0}, Lcom/tencent/mm/pluginsdk/wallet/b;->a(Landroid/content/Context;Landroid/os/Bundle;Z)Z
+    invoke-static {p0, v1, v0}, Lcom/tencent/mm/pluginsdk/wallet/Bclz;->a(Landroid/content/Context;Landroid/os/Bundle;Z)Z
 
     .line 57
     invoke-virtual {p0}, Lcom/tencent/mm/plugin/base/stub/WXPayEntryActivity;->finish()V
@@ -206,7 +206,7 @@
     goto :goto_1
 
     :cond_6
-    invoke-static {v2, v0}, Lcom/tencent/mm/pluginsdk/model/app/g;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-static {v2, v0}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v3
 
@@ -218,44 +218,44 @@
 
     invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->w(Ljava/lang/String;Ljava/lang/String;)V
 
-    new-instance v3, Lcom/tencent/mm/pluginsdk/model/app/f;
+    new-instance v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
-    invoke-direct {v3}, Lcom/tencent/mm/pluginsdk/model/app/f;-><init>()V
+    invoke-direct {v3}, Lcom/tencent/mm/pluginsdk/model/app/Fclz;-><init>()V
 
-    iput-object v2, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appId:Ljava/lang/String;
+    iput-object v2, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appId:Ljava/lang/String;
 
     const-string/jumbo v4, ""
 
-    iput-object v4, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_appName:Ljava/lang/String;
+    iput-object v4, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_appName:Ljava/lang/String;
 
     iget-object v4, p0, Lcom/tencent/mm/plugin/base/stub/WXPayEntryActivity;->csP:Ljava/lang/String;
 
-    iput-object v4, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_packageName:Ljava/lang/String;
+    iput-object v4, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_packageName:Ljava/lang/String;
 
-    iput v1, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_status:I
+    iput v1, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_status:I
 
     iget-object v4, p0, Lcom/tencent/mm/plugin/base/stub/WXPayEntryActivity;->csP:Ljava/lang/String;
 
-    invoke-static {p0, v4}, Lcom/tencent/mm/pluginsdk/model/app/n;->aD(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v4}, Lcom/tencent/mm/pluginsdk/model/app/Nclz;->aD(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
     if-eqz v4, :cond_7
 
-    iput-object v4, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_signature:Ljava/lang/String;
+    iput-object v4, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_signature:Ljava/lang/String;
 
     :cond_7
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->aIx()Lcom/tencent/mm/pluginsdk/model/app/i;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->aIx()Lcom/tencent/mm/pluginsdk/model/app/Iclz;
 
     move-result-object v4
 
-    invoke-virtual {v4, v3}, Lcom/tencent/mm/pluginsdk/model/app/i;->m(Lcom/tencent/mm/pluginsdk/model/app/f;)Z
+    invoke-virtual {v4, v3}, Lcom/tencent/mm/pluginsdk/model/app/Iclz;->m(Lcom/tencent/mm/pluginsdk/model/app/Fclz;)Z
 
     move-result v4
 
     if-eqz v4, :cond_2
 
-    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_openId:Ljava/lang/String;
+    iget-object v3, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_openId:Ljava/lang/String;
 
     invoke-static {v3}, Lcom/tencent/mm/platformtools/Tclz;->jY(Ljava/lang/String;)Z
 
@@ -281,16 +281,16 @@
 
     invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->aIA()Lcom/tencent/mm/pluginsdk/model/app/m;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->aIA()Lcom/tencent/mm/pluginsdk/model/app/Mclz;
 
     move-result-object v3
 
-    invoke-virtual {v3, v2}, Lcom/tencent/mm/pluginsdk/model/app/m;->xL(Ljava/lang/String;)V
+    invoke-virtual {v3, v2}, Lcom/tencent/mm/pluginsdk/model/app/Mclz;->xL(Ljava/lang/String;)V
 
     goto/16 :goto_1
 
     :cond_8
-    iget v2, v3, Lcom/tencent/mm/pluginsdk/model/app/f;->field_status:I
+    iget v2, v3, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->field_status:I
 
     const/4 v4, 0x3
 
@@ -309,7 +309,7 @@
     :cond_9
     iget-object v2, p0, Lcom/tencent/mm/plugin/base/stub/WXPayEntryActivity;->csP:Ljava/lang/String;
 
-    invoke-static {p0, v3, v2}, Lcom/tencent/mm/pluginsdk/model/app/n;->b(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/f;Ljava/lang/String;)Z
+    invoke-static {p0, v3, v2}, Lcom/tencent/mm/pluginsdk/model/app/Nclz;->b(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/model/app/Fclz;Ljava/lang/String;)Z
 
     move-result v2
 

@@ -2098,7 +2098,7 @@
 
     invoke-virtual/range {v0 .. v7}, Landroid/graphics/Bitmap;->getPixels([IIIIIII)V
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v2
 
@@ -2110,7 +2110,7 @@
 
     move-result v4
 
-    invoke-interface {v2, v1, v3, v4}, Lcom/tencent/mm/pluginsdk/h$f;->extractForeground([III)Z
+    invoke-interface {v2, v1, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$f;->extractForeground([III)Z
 
     move-result v2
 
@@ -3638,7 +3638,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p0}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->h(Ljava/lang/String;Landroid/content/Context;)V
+    invoke-static {v0, p0}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->h(Ljava/lang/String;Landroid/content/Context;)V
 
     return-void
 .end method

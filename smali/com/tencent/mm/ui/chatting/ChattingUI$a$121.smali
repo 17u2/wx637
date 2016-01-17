@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-.field final synthetic kkc:Lcom/tencent/mm/pluginsdk/model/g;
+.field final synthetic kkc:Lcom/tencent/mm/pluginsdk/model/Gclz;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/pluginsdk/model/g;)V
+.method constructor <init>(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/pluginsdk/model/Gclz;)V
     .locals 1
 
     .prologue
     .line 7820
     iput-object p1, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$121;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$121;->kkc:Lcom/tencent/mm/pluginsdk/model/g;
+    iput-object p2, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$121;->kkc:Lcom/tencent/mm/pluginsdk/model/Gclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,9 +52,9 @@
 
     .prologue
     .line 7823
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$121;->kkc:Lcom/tencent/mm/pluginsdk/model/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$121;->kkc:Lcom/tencent/mm/pluginsdk/model/Gclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/g;->aHU()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/model/Gclz;->aHU()V
 
     .line 7824
     return-void

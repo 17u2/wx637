@@ -27,7 +27,7 @@
 
 .field public dBQ:I
 
-.field private dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+.field private dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
 .field public fWx:I
 
@@ -74,7 +74,7 @@
     invoke-direct {p0, p1, v0}, Lcom/tencent/mm/ui/base/Hclz;-><init>(Landroid/content/Context;I)V
 
     .line 56
-    iput-object v2, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iput-object v2, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     .line 57
     iput-object v2, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->fXl:Landroid/widget/TextView;
@@ -131,9 +131,9 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 286
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->isPlaying()Z
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->isPlaying()Z
 
     move-result v0
 
@@ -163,9 +163,9 @@
 
     .prologue
     .line 307
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->pause()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->pause()V
 
     .line 308
     iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->bfG:Lcom/tencent/mm/model/Dclz;
@@ -183,9 +183,9 @@
 
     .prologue
     .line 52
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->start()Z
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->start()Z
 
     move-result v0
 
@@ -204,12 +204,12 @@
     goto :goto_0
 .end method
 
-.method static synthetic c(Lcom/tencent/mm/plugin/sight/decode/ui/c;)Lcom/tencent/mm/pluginsdk/ui/tools/f;
+.method static synthetic c(Lcom/tencent/mm/plugin/sight/decode/ui/c;)Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
     .locals 1
 
     .prologue
     .line 52
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     return-object v0
 .end method
@@ -290,24 +290,24 @@
 
     .line 357
     :cond_1
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     if-eqz v0, :cond_2
 
     .line 358
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->setVideoCallback(Lcom/tencent/mm/pluginsdk/ui/tools/f$a;)V
+    invoke-interface {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->setVideoCallback(Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;)V
 
     .line 359
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->stop()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->stop()V
 
     .line 360
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->onDetach()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->onDetach()V
 
     .line 361
     const v0, 0x7f0e068b
@@ -564,11 +564,11 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/ui/tools/m;->cH(Landroid/content/Context;)Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Mclz;->cH(Landroid/content/Context;)Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     move-result-object v1
 
-    iput-object v1, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iput-object v1, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     .line 172
     new-instance v4, Landroid/widget/RelativeLayout$LayoutParams;
@@ -585,20 +585,20 @@
     invoke-virtual {v4, v1}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
     .line 175
-    iget-object v1, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     check-cast v1, Landroid/view/View;
 
     invoke-virtual {v0, v1, v4}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 177
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     new-instance v1, Lcom/tencent/mm/plugin/sight/decode/ui/c$1;
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/plugin/sight/decode/ui/c$1;-><init>(Lcom/tencent/mm/plugin/sight/decode/ui/c;)V
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->setVideoCallback(Lcom/tencent/mm/pluginsdk/ui/tools/f$a;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->setVideoCallback(Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;)V
 
     .line 250
     invoke-virtual {p0, v6}, Lcom/tencent/mm/plugin/sight/decode/ui/c;->findViewById(I)Landroid/view/View;
@@ -612,7 +612,7 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 259
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     check-cast v0, Landroid/view/View;
 
@@ -628,16 +628,16 @@
     if-eqz v0, :cond_2
 
     .line 268
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->stop()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->stop()V
 
     .line 269
-    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->dFa:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/sight/decode/ui/c;->bMh:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->setVideoPath(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->setVideoPath(Ljava/lang/String;)V
 
     .line 272
     :cond_2

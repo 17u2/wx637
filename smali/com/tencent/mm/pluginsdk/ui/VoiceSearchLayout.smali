@@ -354,7 +354,7 @@
     return-void
 .end method
 
-.method private a(ZLcom/tencent/mm/pluginsdk/ui/g;)V
+.method private a(ZLcom/tencent/mm/pluginsdk/ui/Gclz;)V
     .locals 4
 
     .prologue
@@ -445,7 +445,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, p0, v2}, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout$3;-><init>(Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;Lcom/tencent/mm/pluginsdk/ui/g;)V
+    invoke-direct {v1, p0, v2}, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout$3;-><init>(Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;Lcom/tencent/mm/pluginsdk/ui/Gclz;)V
 
     invoke-virtual {v0, v1}, Landroid/media/MediaPlayer;->setOnCompletionListener(Landroid/media/MediaPlayer$OnCompletionListener;)V
 
@@ -454,7 +454,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, p0, v2}, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout$4;-><init>(Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;Lcom/tencent/mm/pluginsdk/ui/g;)V
+    invoke-direct {v1, p0, v2}, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout$4;-><init>(Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;Lcom/tencent/mm/pluginsdk/ui/Gclz;)V
 
     invoke-virtual {v0, v1}, Landroid/media/MediaPlayer;->setOnErrorListener(Landroid/media/MediaPlayer$OnErrorListener;)V
 
@@ -826,7 +826,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {p0, v0, v1}, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;->a(ZLcom/tencent/mm/pluginsdk/ui/g;)V
+    invoke-direct {p0, v0, v1}, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;->a(ZLcom/tencent/mm/pluginsdk/ui/Gclz;)V
 
     return-void
 .end method
@@ -1129,7 +1129,7 @@
     .line 171
     const/4 v2, 0x0
 
-    invoke-direct {p0, v0, v2}, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;->a(ZLcom/tencent/mm/pluginsdk/ui/g;)V
+    invoke-direct {p0, v0, v2}, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;->a(ZLcom/tencent/mm/pluginsdk/ui/Gclz;)V
 
     .line 172
     iput v1, p0, Lcom/tencent/mm/pluginsdk/ui/VoiceSearchLayout;->hSp:I

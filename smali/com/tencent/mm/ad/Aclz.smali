@@ -38,13 +38,13 @@
 
     .prologue
     .line 43
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJG:Lcom/tencent/mm/pluginsdk/h$t;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJG:Lcom/tencent/mm/pluginsdk/Hclz$t;
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJG:Lcom/tencent/mm/pluginsdk/h$t;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJG:Lcom/tencent/mm/pluginsdk/Hclz$t;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$t;->aym()Z
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$t;->aym()Z
 
     move-result v0
 
@@ -66,13 +66,13 @@
 
     .prologue
     .line 48
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJQ:Lcom/tencent/mm/pluginsdk/h$z;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJQ:Lcom/tencent/mm/pluginsdk/Hclz$z;
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJQ:Lcom/tencent/mm/pluginsdk/h$z;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJQ:Lcom/tencent/mm/pluginsdk/Hclz$z;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$z;->acl()Z
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$z;->acl()Z
 
     move-result v0
 

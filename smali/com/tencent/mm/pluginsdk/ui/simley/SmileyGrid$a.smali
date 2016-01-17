@@ -688,11 +688,11 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setBackgroundResource(I)V
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v1
 
-    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/h$f;->bI(Z)I
+    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/Hclz$f;->bI(Z)I
 
     move-result v1
 
@@ -1331,7 +1331,7 @@
     .line 412
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid$a;->iaE:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid;->getSmileyPanelStg()Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid;->getSmileyPanelStg()Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
     move-result-object v0
 
@@ -1381,7 +1381,7 @@
     .line 416
     :cond_1
     :try_start_1
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v0
 
@@ -1391,7 +1391,7 @@
 
     move-result-object v2
 
-    invoke-interface {v0, v2}, Lcom/tencent/mm/pluginsdk/h$f;->mk(Ljava/lang/String;)Ljava/util/ArrayList;
+    invoke-interface {v0, v2}, Lcom/tencent/mm/pluginsdk/Hclz$f;->mk(Ljava/lang/String;)Ljava/util/ArrayList;
 
     move-result-object v0
 
@@ -1425,7 +1425,7 @@
     .line 419
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid$a;->iaE:Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid;->getSmileyPanelStg()Lcom/tencent/mm/pluginsdk/ui/simley/d;
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/simley/SmileyGrid;->getSmileyPanelStg()Lcom/tencent/mm/pluginsdk/ui/simley/Dclz;
 
     move-result-object v0
 
@@ -1442,11 +1442,11 @@
 
     .line 422
     :cond_3
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$f;->OH()Ljava/util/ArrayList;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$f;->OH()Ljava/util/ArrayList;
 
     move-result-object v0
 

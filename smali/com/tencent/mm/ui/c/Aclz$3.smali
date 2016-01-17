@@ -48,7 +48,7 @@
 
     .prologue
     .line 81
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/i/a/a;->aJd()V
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/i/a/Aclz;->aJd()V
 
     .line 82
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
@@ -76,7 +76,7 @@
 
     .prologue
     .line 72
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/i/a/a;->aJd()V
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/i/a/Aclz;->aJd()V
 
     .line 73
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->tn()Lcom/tencent/mm/model/Cclz;
@@ -115,7 +115,7 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 75
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$a;->hJT:Lcom/tencent/mm/pluginsdk/h$ad;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJT:Lcom/tencent/mm/pluginsdk/Hclz$ad;
 
     iget-object v0, p0, Lcom/tencent/mm/ui/c/Aclz$3;->jJi:Lcom/tencent/mm/ui/c/Aclz;
 
@@ -129,7 +129,7 @@
 
     const/4 v2, 0x1
 
-    invoke-interface {v1, v0, p2, v2}, Lcom/tencent/mm/pluginsdk/h$ad;->a(Landroid/content/Context;Ljava/lang/String;Z)Z
+    invoke-interface {v1, v0, p2, v2}, Lcom/tencent/mm/pluginsdk/Hclz$ad;->a(Landroid/content/Context;Ljava/lang/String;Z)Z
 
     .line 76
     return-void

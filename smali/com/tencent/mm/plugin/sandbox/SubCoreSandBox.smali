@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lcom/tencent/mm/model/AEclz;
-.implements Lcom/tencent/mm/pluginsdk/h$ac;
+.implements Lcom/tencent/mm/pluginsdk/Hclz$ac;
 
 
 # static fields
@@ -79,7 +79,7 @@
 
 
 # virtual methods
-.method public final a(Landroid/content/Context;Landroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/pluginsdk/h$aa;
+.method public final a(Landroid/content/Context;Landroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/pluginsdk/Hclz$aa;
     .locals 1
 
     .prologue
@@ -197,7 +197,7 @@
     return-void
 .end method
 
-.method public final amF()Lcom/tencent/mm/pluginsdk/h$ab;
+.method public final amF()Lcom/tencent/mm/pluginsdk/Hclz$ab;
     .locals 2
 
     .prologue
@@ -211,7 +211,7 @@
     return-object v0
 .end method
 
-.method public final b(Landroid/content/Context;Landroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/pluginsdk/h$aa;
+.method public final b(Landroid/content/Context;Landroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/pluginsdk/Hclz$aa;
     .locals 1
 
     .prologue
@@ -234,7 +234,7 @@
     return-void
 .end method
 
-.method public final bV(Landroid/content/Context;)Lcom/tencent/mm/pluginsdk/h$aa;
+.method public final bV(Landroid/content/Context;)Lcom/tencent/mm/pluginsdk/Hclz$aa;
     .locals 1
 
     .prologue

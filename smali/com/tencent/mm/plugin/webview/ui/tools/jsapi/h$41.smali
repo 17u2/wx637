@@ -28,7 +28,7 @@
 
 .field final synthetic hGQ:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;
 
-.field final synthetic hHt:Lcom/tencent/mm/pluginsdk/model/app/f;
+.field final synthetic hHt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
 .field final synthetic hHv:Ljava/lang/String;
 
@@ -38,7 +38,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;Landroid/app/ProgressDialog;Lcom/tencent/mm/pluginsdk/model/app/f;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+.method constructor <init>(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;Landroid/app/ProgressDialog;Lcom/tencent/mm/pluginsdk/model/app/Fclz;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
     .prologue
@@ -47,7 +47,7 @@
 
     iput-object p2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$41;->hHz:Landroid/app/ProgressDialog;
 
-    iput-object p3, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$41;->hHt:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iput-object p3, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$41;->hHt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     iput-object p4, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$41;->amB:Ljava/lang/String;
 
@@ -95,7 +95,7 @@
     :cond_0
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$41;->hGQ:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$41;->hHt:Lcom/tencent/mm/pluginsdk/model/app/f;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$41;->hHt:Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$41;->amB:Ljava/lang/String;
 
@@ -109,7 +109,7 @@
 
     iget-object v8, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$41;->hHw:Ljava/lang/String;
 
-    invoke-static/range {v0 .. v8}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;->a(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;Lcom/tencent/mm/pluginsdk/model/app/f;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static/range {v0 .. v8}, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;->a(Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;Lcom/tencent/mm/pluginsdk/model/app/Fclz;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
 
     .line 7036
     iget-object v0, p0, Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h$41;->hGQ:Lcom/tencent/mm/plugin/webview/ui/tools/jsapi/h;

@@ -200,7 +200,7 @@
     .line 196
     iget-object v0, v0, Lcom/tencent/mm/protocal/b/abx;->v:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/a;->rE(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/Aclz;->rE(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

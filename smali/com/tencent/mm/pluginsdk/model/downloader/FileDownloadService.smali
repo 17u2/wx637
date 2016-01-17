@@ -422,7 +422,7 @@
     goto :goto_0
 
     :cond_4
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->cN(J)Lcom/tencent/mm/storage/Yclz;
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/Bclz;->cN(J)Lcom/tencent/mm/storage/Yclz;
 
     move-result-object v2
 
@@ -444,13 +444,13 @@
 
     iput v6, v2, Lcom/tencent/mm/storage/Yclz;->field_status:I
 
-    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->b(Lcom/tencent/mm/storage/Yclz;)J
+    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/model/downloader/Bclz;->b(Lcom/tencent/mm/storage/Yclz;)J
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->cS(J)V
+    invoke-virtual {v2, v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->cS(J)V
 
     goto :goto_0
 
@@ -467,13 +467,13 @@
 
     iput v6, v2, Lcom/tencent/mm/storage/Yclz;->field_status:I
 
-    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->b(Lcom/tencent/mm/storage/Yclz;)J
+    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/model/downloader/Bclz;->b(Lcom/tencent/mm/storage/Yclz;)J
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->cS(J)V
+    invoke-virtual {v2, v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->cS(J)V
 
     goto/16 :goto_0
 
@@ -486,13 +486,13 @@
 
     iput v3, v2, Lcom/tencent/mm/storage/Yclz;->field_status:I
 
-    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->b(Lcom/tencent/mm/storage/Yclz;)J
+    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/model/downloader/Bclz;->b(Lcom/tencent/mm/storage/Yclz;)J
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
     move-result-object v2
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/b;->cN(J)Lcom/tencent/mm/storage/Yclz;
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/Bclz;->cN(J)Lcom/tencent/mm/storage/Yclz;
 
     move-result-object v3
 
@@ -522,13 +522,13 @@
 
     const-string/jumbo v4, ""
 
-    invoke-static {v3, v4, v8}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->a(Ljava/lang/String;Ljava/lang/String;Landroid/app/PendingIntent;)V
+    invoke-static {v3, v4, v8}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->a(Ljava/lang/String;Ljava/lang/String;Landroid/app/PendingIntent;)V
 
     :cond_7
     :goto_1
-    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/downloader/c;->hNa:Lcom/tencent/mm/pluginsdk/model/downloader/a;
+    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->hNa:Lcom/tencent/mm/pluginsdk/model/downloader/Aclz;
 
-    invoke-virtual {v2, v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/a;->cM(J)V
+    invoke-virtual {v2, v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/Aclz;->cM(J)V
 
     goto/16 :goto_0
 
@@ -553,7 +553,7 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4, v8}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->a(Ljava/lang/String;Ljava/lang/String;Landroid/app/PendingIntent;)V
+    invoke-static {v3, v4, v8}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->a(Ljava/lang/String;Ljava/lang/String;Landroid/app/PendingIntent;)V
 
     goto :goto_1
 

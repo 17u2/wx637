@@ -81,13 +81,13 @@
     .line 449
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI$5;->jZo:Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->a(Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;)Lcom/tencent/mm/pluginsdk/model/app/v;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;->a(Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;)Lcom/tencent/mm/pluginsdk/model/app/Vclz;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI$5;->jZo:Lcom/tencent/mm/ui/chatting/AppAttachDownloadUI;
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/model/app/v;->a(Lcom/tencent/mm/pluginsdk/model/app/v$a;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/model/app/Vclz;->a(Lcom/tencent/mm/pluginsdk/model/app/Vclz$a;)V
 
     .line 450
     return-void

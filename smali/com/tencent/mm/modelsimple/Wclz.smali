@@ -520,7 +520,7 @@
 
     .line 99
     :sswitch_5
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/ah;->HO()Lcom/tencent/mm/pluginsdk/model/app/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/AHclz;->HO()Lcom/tencent/mm/pluginsdk/model/app/Cclz;
 
     move-result-object v2
 
@@ -528,7 +528,7 @@
 
     iget-wide v11, v0, Lcom/tencent/mm/d/b/BAclz;->field_msgId:J
 
-    invoke-virtual {v2, v11, v12}, Lcom/tencent/mm/pluginsdk/model/app/c;->cH(J)Lcom/tencent/mm/pluginsdk/model/app/b;
+    invoke-virtual {v2, v11, v12}, Lcom/tencent/mm/pluginsdk/model/app/Cclz;->cH(J)Lcom/tencent/mm/pluginsdk/model/app/Bclz;
 
     move-result-object v2
 
@@ -536,7 +536,7 @@
     if-eqz v2, :cond_3
 
     .line 101
-    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/b;->field_clientAppDataId:Ljava/lang/String;
+    iget-object v2, v2, Lcom/tencent/mm/pluginsdk/model/app/Bclz;->field_clientAppDataId:Ljava/lang/String;
 
     .line 105
     :goto_2

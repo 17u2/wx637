@@ -1921,7 +1921,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/ui/chatting/gallery/ImageGalleryGridUI;->aoH:Ljava/lang/String;
 
-    invoke-static {v2, v0, v3, v1, v5}, Lcom/tencent/mm/pluginsdk/model/d;->a(Landroid/content/Context;Lcom/tencent/mm/d/a/ASclz;Ljava/lang/String;Ljava/util/List;Z)Z
+    invoke-static {v2, v0, v3, v1, v5}, Lcom/tencent/mm/pluginsdk/model/Dclz;->a(Landroid/content/Context;Lcom/tencent/mm/d/a/ASclz;Ljava/lang/String;Ljava/util/List;Z)Z
 
     move-result v2
 

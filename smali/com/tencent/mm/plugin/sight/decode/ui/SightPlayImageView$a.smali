@@ -92,14 +92,14 @@
     invoke-static {v0, p2}, Lcom/tencent/mm/plugin/sight/decode/ui/SightPlayImageView;->b(Lcom/tencent/mm/plugin/sight/decode/ui/SightPlayImageView;I)I
 
     .line 66
-    iget-object v1, v0, Lcom/tencent/mm/plugin/sight/decode/ui/SightPlayImageView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+    iget-object v1, v0, Lcom/tencent/mm/plugin/sight/decode/ui/SightPlayImageView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
     if-eqz v1, :cond_1
 
     .line 67
-    iget-object v1, v0, Lcom/tencent/mm/plugin/sight/decode/ui/SightPlayImageView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/f$a;
+    iget-object v1, v0, Lcom/tencent/mm/plugin/sight/decode/ui/SightPlayImageView;->fXd:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;
 
-    invoke-interface {v1, p1, p2}, Lcom/tencent/mm/pluginsdk/ui/tools/f$a;->aA(II)V
+    invoke-interface {v1, p1, p2}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz$a;->aA(II)V
 
     .line 69
     :cond_1

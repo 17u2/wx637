@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/d$a;
-.super Lcom/tencent/mm/pluginsdk/h/a/c/a$a;
+.super Lcom/tencent/mm/pluginsdk/h/a/c/Aclz$a;
 .source "SourceFile"
 
 
@@ -30,7 +30,7 @@
 
     .prologue
     .line 90
-    invoke-direct {p0, p1}, Lcom/tencent/mm/pluginsdk/h/a/c/a$a;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcom/tencent/mm/pluginsdk/h/a/c/Aclz$a;-><init>(Ljava/lang/String;)V
 
     .line 91
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z

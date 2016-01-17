@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/h/a/c/b;
+.implements Lcom/tencent/mm/pluginsdk/h/a/c/Bclz;
 
 
 # annotations
@@ -46,11 +46,11 @@
 
     .prologue
     .line 78
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h/a/c/l$a;->aJa()Lcom/tencent/mm/pluginsdk/h/a/c/l;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/h/a/c/Lclz$a;->aJa()Lcom/tencent/mm/pluginsdk/h/a/c/Lclz;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/pluginsdk/h/a/c/l;->yg(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/h/a/c/n;
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/pluginsdk/h/a/c/Lclz;->yg(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;
 
     move-result-object v0
 
@@ -58,9 +58,9 @@
     if-eqz v0, :cond_0
 
     .line 80
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/h/a/c/n;->field_filePath:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/h/a/c/Nclz;->field_filePath:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/h/a/d/a;->yl(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/h/a/d/Aclz;->yl(Ljava/lang/String;)Z
 
     .line 82
     :cond_0
@@ -69,18 +69,18 @@
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/h/a/c/j;)V
+.method public final a(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/h/a/c/Jclz;)V
     .locals 0
 
     .prologue
     .line 65
-    invoke-static {p1, p2}, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/b;->c(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/h/a/c/j;)V
+    invoke-static {p1, p2}, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/b;->c(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/h/a/c/Jclz;)V
 
     .line 66
     return-void
 .end method
 
-.method public final b(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/h/a/c/j;)V
+.method public final b(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/h/a/c/Jclz;)V
     .locals 0
 
     .prologue
@@ -88,7 +88,7 @@
     invoke-static {p1}, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/WebViewCacheDownloadHelper$ResDownloaderPlugin$1;->wo(Ljava/lang/String;)V
 
     .line 71
-    invoke-static {p1, p2}, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/b;->c(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/h/a/c/j;)V
+    invoke-static {p1, p2}, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/b;->c(Ljava/lang/String;Lcom/tencent/mm/pluginsdk/h/a/c/Jclz;)V
 
     .line 72
     return-void

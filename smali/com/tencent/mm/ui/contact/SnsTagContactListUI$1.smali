@@ -66,7 +66,7 @@
     check-cast v0, Lcom/tencent/mm/h/Aclz;
 
     .line 96
-    sget-object v2, Lcom/tencent/mm/pluginsdk/h$ah;->hKh:Lcom/tencent/mm/pluginsdk/h$n$e;
+    sget-object v2, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKh:Lcom/tencent/mm/pluginsdk/Hclz$n$e;
 
     .line 97
     if-nez v2, :cond_0
@@ -84,7 +84,7 @@
     :cond_0
     iget-object v0, v0, Lcom/tencent/mm/d/b/Oclz;->field_username:Ljava/lang/String;
 
-    invoke-interface {v2, v1, v0}, Lcom/tencent/mm/pluginsdk/h$n$e;->d(Landroid/content/Intent;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-interface {v2, v1, v0}, Lcom/tencent/mm/pluginsdk/Hclz$n$e;->d(Landroid/content/Intent;Ljava/lang/String;)Landroid/content/Intent;
 
     move-result-object v0
 

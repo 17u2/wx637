@@ -1,5 +1,5 @@
 .class final Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/g;
-.super Lcom/tencent/mm/pluginsdk/h/a/c/i;
+.super Lcom/tencent/mm/pluginsdk/h/a/c/Iclz;
 .source "SourceFile"
 
 
@@ -27,7 +27,7 @@
 
     move v8, p6
 
-    invoke-direct/range {v0 .. v8}, Lcom/tencent/mm/pluginsdk/h/a/c/i;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;II)V
+    invoke-direct/range {v0 .. v8}, Lcom/tencent/mm/pluginsdk/h/a/c/Iclz;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;II)V
 
     .line 15
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z

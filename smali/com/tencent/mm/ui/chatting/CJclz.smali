@@ -45,7 +45,7 @@
 
 .field protected fqQ:Landroid/view/View$OnCreateContextMenuListener;
 
-.field protected fqm:Lcom/tencent/mm/pluginsdk/ui/e;
+.field protected fqm:Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
 .field private gDD:Ljava/util/HashMap;
 
@@ -73,9 +73,9 @@
 
 .field private keH:Lcom/tencent/mm/ui/chatting/CLclz;
 
-.field protected keI:Lcom/tencent/mm/pluginsdk/ui/chat/j;
+.field protected keI:Lcom/tencent/mm/pluginsdk/ui/chat/Jclz;
 
-.field private keJ:Lcom/tencent/mm/pluginsdk/ui/chat/j;
+.field private keJ:Lcom/tencent/mm/pluginsdk/ui/chat/Jclz;
 
 .field protected keK:Lcom/tencent/mm/ui/chatting/CJclz$a;
 
@@ -117,7 +117,7 @@
 
 .field kev:Ljava/util/HashSet;
 
-.field kew:Lcom/tencent/mm/pluginsdk/ui/d/b;
+.field kew:Lcom/tencent/mm/pluginsdk/ui/d/Bclz;
 
 .field protected kex:Lcom/tencent/mm/ui/chatting/Kclz;
 
@@ -2332,7 +2332,7 @@
     .line 1290
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/e;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
     .line 1456
     const/4 v0, 0x0
@@ -2393,7 +2393,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/tencent/mm/ui/chatting/CJclz$1;-><init>(Lcom/tencent/mm/ui/chatting/CJclz;Lcom/tencent/mm/ui/chatting/ChattingUI$a;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->kew:Lcom/tencent/mm/pluginsdk/ui/d/b;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->kew:Lcom/tencent/mm/pluginsdk/ui/d/Bclz;
 
     .line 522
     iput-object p6, p0, Lcom/tencent/mm/ui/chatting/CJclz;->keO:Landroid/view/View$OnCreateContextMenuListener;
@@ -2419,17 +2419,17 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->keG:Lcom/tencent/mm/ui/chatting/CLclz;
 
     .line 526
-    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/chat/j;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/chat/Jclz;
 
     iget-object v1, p1, Lcom/tencent/mm/ui/Nclz;->jxX:Lcom/tencent/mm/ui/Jclz;
 
     iget-object v1, v1, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/j;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/chat/Jclz;-><init>(Landroid/content/Context;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->keJ:Lcom/tencent/mm/pluginsdk/ui/chat/j;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->keJ:Lcom/tencent/mm/pluginsdk/ui/chat/Jclz;
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->keI:Lcom/tencent/mm/pluginsdk/ui/chat/j;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->keI:Lcom/tencent/mm/pluginsdk/ui/chat/Jclz;
 
     .line 527
     new-instance v0, Lcom/tencent/mm/ui/chatting/CJclz$a;
@@ -2849,7 +2849,7 @@
     return-object p0
 .end method
 
-.method static synthetic a(Lcom/tencent/mm/ui/chatting/CJclz;Lcom/tencent/mm/pluginsdk/ui/applet/g;)V
+.method static synthetic a(Lcom/tencent/mm/ui/chatting/CJclz;Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;)V
     .locals 5
 
     .prologue
@@ -2866,7 +2866,7 @@
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->url:Ljava/lang/String;
+    iget-object v0, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->url:Ljava/lang/String;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/chatting/CJclz;->aoH:Ljava/lang/String;
 
@@ -2878,7 +2878,7 @@
 
     add-int/lit8 v2, v0, 0x1
 
-    iget-object v3, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->url:Ljava/lang/String;
+    iget-object v3, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->url:Ljava/lang/String;
 
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
@@ -2901,7 +2901,7 @@
 
     add-int/lit8 v2, v0, 0x1
 
-    iget-object v3, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->url:Ljava/lang/String;
+    iget-object v3, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->url:Ljava/lang/String;
 
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
@@ -2909,7 +2909,7 @@
 
     if-ge v2, v3, :cond_0
 
-    iget-object v2, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->url:Ljava/lang/String;
+    iget-object v2, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->url:Ljava/lang/String;
 
     add-int/lit8 v0, v0, 0x1
 
@@ -2953,7 +2953,7 @@
     goto :goto_1
 
     :cond_3
-    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/applet/i;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/applet/Iclz;
 
     iget-object v3, p0, Lcom/tencent/mm/ui/chatting/CJclz;->kau:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
@@ -2965,9 +2965,9 @@
 
     invoke-direct {v4, p0}, Lcom/tencent/mm/ui/chatting/CJclz$2;-><init>(Lcom/tencent/mm/ui/chatting/CJclz;)V
 
-    invoke-direct {v0, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/applet/i;-><init>(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/ui/applet/i$a;)V
+    invoke-direct {v0, v3, v4}, Lcom/tencent/mm/pluginsdk/ui/applet/Iclz;-><init>(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/ui/applet/Iclz$a;)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/applet/i;->e(Ljava/util/LinkedList;Ljava/util/LinkedList;)V
+    invoke-virtual {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/applet/Iclz;->e(Ljava/util/LinkedList;Ljava/util/LinkedList;)V
 
     goto :goto_0
 .end method
@@ -2990,11 +2990,11 @@
     move-result-object v0
 
     .line 1296
-    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/e;
+    new-instance v1, Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
-    invoke-direct {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/e;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/Eclz;-><init>(Ljava/lang/String;)V
 
-    iput-object v1, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/e;
+    iput-object v1, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/Eclz;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -3010,7 +3010,7 @@
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/e;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
     .line 1300
     const/4 v0, 0x0
@@ -4933,9 +4933,9 @@
 
     iput-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->keG:Lcom/tencent/mm/ui/chatting/CLclz;
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->keJ:Lcom/tencent/mm/pluginsdk/ui/chat/j;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->keJ:Lcom/tencent/mm/pluginsdk/ui/chat/Jclz;
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->keI:Lcom/tencent/mm/pluginsdk/ui/chat/j;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->keI:Lcom/tencent/mm/pluginsdk/ui/chat/Jclz;
 
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->keL:Lcom/tencent/mm/ui/chatting/CJclz$a;
 
@@ -5201,9 +5201,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/e;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/e;
+    iput-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
     move v0, v1
 
@@ -5228,16 +5228,16 @@
     move-result-object v0
 
     .line 1316
-    new-instance v2, Lcom/tencent/mm/pluginsdk/ui/e;
+    new-instance v2, Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
-    invoke-direct {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/e;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/Eclz;-><init>(Ljava/lang/String;)V
 
-    iput-object v2, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/e;
+    iput-object v2, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
     .line 1317
     sget-object v0, Lcom/tencent/mm/ui/chatting/CJclz;->kfk:Ljava/util/HashMap;
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/e;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
     invoke-virtual {v0, p2, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
@@ -5615,7 +5615,7 @@
     iput-object v2, p0, Lcom/tencent/mm/ui/chatting/CJclz;->keG:Lcom/tencent/mm/ui/chatting/CLclz;
 
     .line 1181
-    iput-object v2, p0, Lcom/tencent/mm/ui/chatting/CJclz;->keI:Lcom/tencent/mm/pluginsdk/ui/chat/j;
+    iput-object v2, p0, Lcom/tencent/mm/ui/chatting/CJclz;->keI:Lcom/tencent/mm/pluginsdk/ui/chat/Jclz;
 
     .line 1182
     iput-object v2, p0, Lcom/tencent/mm/ui/chatting/CJclz;->keK:Lcom/tencent/mm/ui/chatting/CJclz$a;
@@ -6479,7 +6479,7 @@
 
     const/4 v7, 0x0
 
-    invoke-static {v3, v5, v6, v7}, Lcom/tencent/mm/pluginsdk/g/n;->b(Landroid/content/Context;JZ)Ljava/lang/CharSequence;
+    invoke-static {v3, v5, v6, v7}, Lcom/tencent/mm/pluginsdk/g/Nclz;->b(Landroid/content/Context;JZ)Ljava/lang/CharSequence;
 
     move-result-object v3
 
@@ -6620,21 +6620,21 @@
 
     if-nez v0, :cond_d
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/e;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
     if-eqz v0, :cond_d
 
     iget-object v0, v1, Lcom/tencent/mm/ui/chatting/Yclz$a;->dGw:Landroid/widget/TextView;
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/e;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
-    iget v2, v2, Lcom/tencent/mm/pluginsdk/ui/e;->hQy:I
+    iget v2, v2, Lcom/tencent/mm/pluginsdk/ui/Eclz;->hQy:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/e;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/pluginsdk/ui/e;->hQz:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/pluginsdk/ui/Eclz;->hQz:Z
 
     if-eqz v0, :cond_20
 
@@ -6646,16 +6646,16 @@
 
     const v5, 0x3f99999a    # 1.2f
 
-    iget-object v6, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/e;
+    iget-object v6, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
-    iget v6, v6, Lcom/tencent/mm/pluginsdk/ui/e;->hQA:I
+    iget v6, v6, Lcom/tencent/mm/pluginsdk/ui/Eclz;->hQA:I
 
     invoke-virtual {v0, v2, v3, v5, v6}, Landroid/widget/TextView;->setShadowLayer(FFFI)V
 
     :goto_b
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/e;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
-    iget-boolean v0, v0, Lcom/tencent/mm/pluginsdk/ui/e;->hQB:Z
+    iget-boolean v0, v0, Lcom/tencent/mm/pluginsdk/ui/Eclz;->hQB:Z
 
     if-eqz v0, :cond_21
 
@@ -6691,7 +6691,7 @@
 
     if-nez v0, :cond_e
 
-    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/e;
+    iget-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
     if-eqz v0, :cond_e
 
@@ -6715,9 +6715,9 @@
 
     iget-object v0, v1, Lcom/tencent/mm/ui/chatting/Yclz$a;->fMs:Landroid/widget/TextView;
 
-    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/e;
+    iget-object v2, p0, Lcom/tencent/mm/ui/chatting/CJclz;->fqm:Lcom/tencent/mm/pluginsdk/ui/Eclz;
 
-    iget v2, v2, Lcom/tencent/mm/pluginsdk/ui/e;->hQC:I
+    iget v2, v2, Lcom/tencent/mm/pluginsdk/ui/Eclz;->hQC:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setTextColor(I)V
 

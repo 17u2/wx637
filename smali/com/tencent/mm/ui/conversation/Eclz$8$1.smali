@@ -96,7 +96,7 @@
 
     sget v1, Lcom/tencent/mm/ui/c/Eclz$a;->jJx:I
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/ui/c/Eclz;->a(Landroid/content/Context;I[Ljava/lang/Object;)Lcom/tencent/mm/pluginsdk/ui/b/a;
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/ui/c/Eclz;->a(Landroid/content/Context;I[Ljava/lang/Object;)Lcom/tencent/mm/pluginsdk/ui/b/Aclz;
 
     move-result-object v0
 
@@ -114,7 +114,7 @@
 
     sget v1, Lcom/tencent/mm/ui/c/Eclz$a;->jJo:I
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/ui/c/Eclz;->a(Landroid/content/Context;I[Ljava/lang/Object;)Lcom/tencent/mm/pluginsdk/ui/b/a;
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/ui/c/Eclz;->a(Landroid/content/Context;I[Ljava/lang/Object;)Lcom/tencent/mm/pluginsdk/ui/b/Aclz;
 
     move-result-object v0
 
@@ -122,7 +122,7 @@
     :cond_1
     if-eqz v0, :cond_2
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/b/a;->getView()Landroid/view/View;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/b/Aclz;->getView()Landroid/view/View;
 
     move-result-object v1
 
@@ -142,7 +142,7 @@
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
     .line 959
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/b/a;->getView()Landroid/view/View;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/b/Aclz;->getView()Landroid/view/View;
 
     move-result-object v0
 

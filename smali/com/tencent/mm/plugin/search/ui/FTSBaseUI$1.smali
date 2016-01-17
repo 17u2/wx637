@@ -50,11 +50,11 @@
     .line 102
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI$1;->fJA:Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;
 
-    invoke-static {v0}, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->a(Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;)Lcom/tencent/mm/pluginsdk/ui/tools/n;
+    invoke-static {v0}, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->a(Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;)Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/n;->clearFocus()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;->clearFocus()V
 
     .line 103
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI$1;->fJA:Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;

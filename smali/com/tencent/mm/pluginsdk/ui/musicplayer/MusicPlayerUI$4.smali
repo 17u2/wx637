@@ -86,11 +86,11 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;->bH(Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;
+    invoke-static {v2, v3}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;->bH(Ljava/lang/String;Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;
 
     move-result-object v2
 
-    invoke-virtual {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->setLyricMgr(Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;)V
+    invoke-virtual {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->setLyricMgr(Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;)V
 
     iget-object v0, v1, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYu:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
 

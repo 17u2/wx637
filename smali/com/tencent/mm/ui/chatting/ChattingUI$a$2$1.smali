@@ -61,7 +61,7 @@
     check-cast v0, Lcom/tencent/mm/d/a/IJclz;
 
     .line 1025
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v3
 
@@ -69,7 +69,7 @@
 
     iget-object v4, v4, Lcom/tencent/mm/d/a/IJclz$a;->atr:Ljava/lang/String;
 
-    invoke-interface {v3, v4}, Lcom/tencent/mm/pluginsdk/h$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
+    invoke-interface {v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 
     move-result-object v3
 
@@ -148,7 +148,7 @@
 
     iget-object v4, v4, Lcom/tencent/mm/ui/chatting/ChattingUI$a$2;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    invoke-static {v4}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->n(Lcom/tencent/mm/ui/chatting/ChattingUI$a;)Lcom/tencent/mm/pluginsdk/ui/chat/c;
+    invoke-static {v4}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->n(Lcom/tencent/mm/ui/chatting/ChattingUI$a;)Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;
 
     move-result-object v4
 
@@ -161,17 +161,17 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/chatting/ChattingUI$a$2;->kjc:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->n(Lcom/tencent/mm/ui/chatting/ChattingUI$a;)Lcom/tencent/mm/pluginsdk/ui/chat/c;
+    invoke-static {v0}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->n(Lcom/tencent/mm/ui/chatting/ChattingUI$a;)Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;
 
     move-result-object v4
 
-    iput-object v3, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->dbw:Lcom/tencent/mm/storage/a/Cclz;
+    iput-object v3, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->dbw:Lcom/tencent/mm/storage/a/Cclz;
 
-    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/Nclz;
+    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWH:Lcom/tencent/mm/ui/base/Nclz;
 
     if-eqz v0, :cond_4
 
-    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/Nclz;
+    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWH:Lcom/tencent/mm/ui/base/Nclz;
 
     invoke-virtual {v0}, Lcom/tencent/mm/ui/base/Nclz;->isShowing()Z
 
@@ -198,15 +198,15 @@
 
     .line 1028
     :cond_4
-    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->dbw:Lcom/tencent/mm/storage/a/Cclz;
+    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->dbw:Lcom/tencent/mm/storage/a/Cclz;
 
     if-eqz v0, :cond_5
 
-    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWG:Lcom/tencent/mm/pluginsdk/ui/emoji/PreViewEmojiView;
+    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWG:Lcom/tencent/mm/pluginsdk/ui/emoji/PreViewEmojiView;
 
     if-eqz v0, :cond_5
 
-    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/Nclz;
+    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWH:Lcom/tencent/mm/ui/base/Nclz;
 
     if-nez v0, :cond_6
 
@@ -238,28 +238,28 @@
 
     move-result-object v0
 
-    iget-object v3, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWG:Lcom/tencent/mm/pluginsdk/ui/emoji/PreViewEmojiView;
+    iget-object v3, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWG:Lcom/tencent/mm/pluginsdk/ui/emoji/PreViewEmojiView;
 
-    new-instance v5, Lcom/tencent/mm/pluginsdk/ui/chat/c$1;
+    new-instance v5, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz$1;
 
-    invoke-direct {v5, v4}, Lcom/tencent/mm/pluginsdk/ui/chat/c$1;-><init>(Lcom/tencent/mm/pluginsdk/ui/chat/c;)V
+    invoke-direct {v5, v4}, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz$1;-><init>(Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;)V
 
     invoke-virtual {v3, v0, v5}, Lcom/tencent/mm/pluginsdk/ui/emoji/PreViewEmojiView;->a(Ljava/lang/String;Lcom/tencent/mm/plugin/gif/d;)V
 
     :cond_7
-    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/Nclz;
+    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWH:Lcom/tencent/mm/ui/base/Nclz;
 
-    iget-object v3, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWG:Lcom/tencent/mm/pluginsdk/ui/emoji/PreViewEmojiView;
+    iget-object v3, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWG:Lcom/tencent/mm/pluginsdk/ui/emoji/PreViewEmojiView;
 
     invoke-virtual {v3}, Lcom/tencent/mm/pluginsdk/ui/emoji/PreViewEmojiView;->getIntrinsicWidth()I
 
     move-result v3
 
-    iget v5, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWJ:I
+    iget v5, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWJ:I
 
     mul-int/2addr v3, v5
 
-    iget-object v5, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWG:Lcom/tencent/mm/pluginsdk/ui/emoji/PreViewEmojiView;
+    iget-object v5, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWG:Lcom/tencent/mm/pluginsdk/ui/emoji/PreViewEmojiView;
 
     invoke-virtual {v5}, Lcom/tencent/mm/pluginsdk/ui/emoji/PreViewEmojiView;->getIntrinsicHeight()I
 
@@ -269,9 +269,9 @@
 
     invoke-virtual {v0, v3}, Lcom/tencent/mm/ui/base/Nclz;->setWidth(I)V
 
-    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/Nclz;
+    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWH:Lcom/tencent/mm/ui/base/Nclz;
 
-    iget v3, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWJ:I
+    iget v3, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWJ:I
 
     invoke-virtual {v0, v3}, Lcom/tencent/mm/ui/base/Nclz;->setHeight(I)V
 
@@ -283,7 +283,7 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    iget-object v6, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWG:Lcom/tencent/mm/pluginsdk/ui/emoji/PreViewEmojiView;
+    iget-object v6, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWG:Lcom/tencent/mm/pluginsdk/ui/emoji/PreViewEmojiView;
 
     invoke-virtual {v6}, Lcom/tencent/mm/pluginsdk/ui/emoji/PreViewEmojiView;->getIntrinsicWidth()I
 
@@ -295,7 +295,7 @@
 
     aput-object v6, v5, v1
 
-    iget-object v6, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWG:Lcom/tencent/mm/pluginsdk/ui/emoji/PreViewEmojiView;
+    iget-object v6, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWG:Lcom/tencent/mm/pluginsdk/ui/emoji/PreViewEmojiView;
 
     invoke-virtual {v6}, Lcom/tencent/mm/pluginsdk/ui/emoji/PreViewEmojiView;->getIntrinsicHeight()I
 
@@ -309,17 +309,17 @@
 
     invoke-static {v0, v3, v5}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWI:Landroid/view/View;
+    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWI:Landroid/view/View;
 
     if-eqz v0, :cond_2
 
-    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWI:Landroid/view/View;
+    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWI:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getTop()I
 
     move-result v0
 
-    iget-object v2, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/Nclz;
+    iget-object v2, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWH:Lcom/tencent/mm/ui/base/Nclz;
 
     invoke-virtual {v2}, Lcom/tencent/mm/ui/base/Nclz;->getHeight()I
 
@@ -329,7 +329,7 @@
 
     div-int/lit8 v0, v0, 0x2
 
-    iget-object v2, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/Nclz;
+    iget-object v2, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWH:Lcom/tencent/mm/ui/base/Nclz;
 
     invoke-virtual {v2}, Lcom/tencent/mm/ui/base/Nclz;->getHeight()I
 
@@ -339,7 +339,7 @@
 
     add-int/2addr v2, v0
 
-    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->mContext:Landroid/content/Context;
+    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->mContext:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -355,7 +355,7 @@
 
     if-le v3, v0, :cond_8
 
-    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->mContext:Landroid/content/Context;
+    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->mContext:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -367,7 +367,7 @@
 
     move-result v0
 
-    iget v3, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWK:I
+    iget v3, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWK:I
 
     add-int/2addr v0, v3
 
@@ -375,16 +375,16 @@
     if-ge v2, v0, :cond_9
 
     :goto_3
-    iget-object v2, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWH:Lcom/tencent/mm/ui/base/Nclz;
+    iget-object v2, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWH:Lcom/tencent/mm/ui/base/Nclz;
 
-    iget-object v3, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWI:Landroid/view/View;
+    iget-object v3, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWI:Landroid/view/View;
 
     invoke-virtual {v2, v3, v1, v1, v0}, Lcom/tencent/mm/ui/base/Nclz;->showAtLocation(Landroid/view/View;III)V
 
     goto/16 :goto_1
 
     :cond_8
-    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->mContext:Landroid/content/Context;
+    iget-object v0, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->mContext:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -396,7 +396,7 @@
 
     move-result v0
 
-    iget v3, v4, Lcom/tencent/mm/pluginsdk/ui/chat/c;->hWK:I
+    iget v3, v4, Lcom/tencent/mm/pluginsdk/ui/chat/Cclz;->hWK:I
 
     add-int/2addr v0, v3
 

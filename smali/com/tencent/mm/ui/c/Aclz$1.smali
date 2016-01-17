@@ -78,9 +78,9 @@
 
     iget-object v1, v1, Lcom/tencent/mm/ui/c/Aclz;->jJh:Lcom/tencent/mm/ui/c/Aclz$a;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/c/Cclz;->jJk:Lcom/tencent/mm/pluginsdk/i/a/a;
+    iget-object v0, v0, Lcom/tencent/mm/ui/c/Cclz;->jJk:Lcom/tencent/mm/pluginsdk/i/a/Aclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/i/a/a;->id:Ljava/lang/String;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/i/a/Aclz;->id:Ljava/lang/String;
 
     invoke-interface {v1, v0}, Lcom/tencent/mm/ui/c/Aclz$a;->Ei(Ljava/lang/String;)V
 

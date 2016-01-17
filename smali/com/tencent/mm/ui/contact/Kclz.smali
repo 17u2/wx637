@@ -611,7 +611,7 @@
 
     iget-object v3, v0, Lcom/tencent/mm/aj/Bclz;->field_displayName:Ljava/lang/String;
 
-    invoke-static {v2, v3}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
+    invoke-static {v2, v3}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
 
     move-result-object v2
 
@@ -746,7 +746,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/aj/Bclz;->field_talker:Ljava/lang/String;
 
-    invoke-static {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
 
     goto/16 :goto_0
 
@@ -981,7 +981,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/aj/Bclz;->field_talker:Ljava/lang/String;
 
-    invoke-static {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -1013,7 +1013,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/aj/Bclz;->field_talker:Ljava/lang/String;
 
-    invoke-static {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -1049,7 +1049,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/aj/Bclz;->field_talker:Ljava/lang/String;
 
-    invoke-static {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -1086,7 +1086,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/aj/Bclz;->field_talker:Ljava/lang/String;
 
-    invoke-static {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 

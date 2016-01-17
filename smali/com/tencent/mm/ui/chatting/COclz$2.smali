@@ -176,13 +176,13 @@
 
     invoke-static {v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
     move-result-object v1
 
     iget-wide v2, v0, Lcom/tencent/mm/ui/chatting/COclz;->doN:J
 
-    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->cz(J)I
+    invoke-virtual {v1, v2, v3}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->cz(J)I
 
     invoke-virtual {v0}, Lcom/tencent/mm/ui/chatting/COclz;->aXZ()V
 

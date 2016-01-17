@@ -175,17 +175,17 @@
 
     .line 84
     :cond_1
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJQ:Lcom/tencent/mm/pluginsdk/h$z;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJQ:Lcom/tencent/mm/pluginsdk/Hclz$z;
 
     if-eqz v0, :cond_2
 
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJQ:Lcom/tencent/mm/pluginsdk/h$z;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJQ:Lcom/tencent/mm/pluginsdk/Hclz$z;
 
     invoke-virtual {p3}, Lcom/tencent/mm/ui/chatting/ChattingUI$a;->getTalkerUserName()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$z;->pC(Ljava/lang/String;)Z
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$z;->pC(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -279,7 +279,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/model/app/l;->xK(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/model/app/Lclz;->xK(Ljava/lang/String;)I
 
     .line 104
     iget-object v1, p0, Lcom/tencent/mm/ui/chatting/AKclz;->kcm:Lcom/tencent/mm/ui/chatting/ChattingUI$a;
@@ -299,7 +299,7 @@
     .line 105
     iget-object v2, v1, Lcom/tencent/mm/m/Aclz$a;->appId:Ljava/lang/String;
 
-    invoke-static {v2, v4}, Lcom/tencent/mm/pluginsdk/model/app/g;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-static {v2, v4}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v2
 
@@ -314,7 +314,7 @@
 
     if-eqz v2, :cond_0
 
-    invoke-virtual {v2}, Lcom/tencent/mm/pluginsdk/model/app/f;->aIi()Z
+    invoke-virtual {v2}, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->aIi()Z
 
     move-result v2
 
@@ -492,7 +492,7 @@
     .line 154
     iget-object v1, v0, Lcom/tencent/mm/m/Aclz$a;->anW:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/model/app/l;->xJ(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/model/app/Lclz;->xJ(Ljava/lang/String;)V
 
     .line 155
     iget-wide v1, p3, Lcom/tencent/mm/d/b/BAclz;->field_msgId:J
@@ -502,21 +502,21 @@
     .line 157
     iget-object v1, v0, Lcom/tencent/mm/m/Aclz$a;->appId:Ljava/lang/String;
 
-    invoke-static {v1, v4}, Lcom/tencent/mm/pluginsdk/model/app/g;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/f;
+    invoke-static {v1, v4}, Lcom/tencent/mm/pluginsdk/model/app/Gclz;->ac(Ljava/lang/String;Z)Lcom/tencent/mm/pluginsdk/model/app/Fclz;
 
     move-result-object v1
 
     .line 158
     if-eqz v1, :cond_0
 
-    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/model/app/f;->aIi()Z
+    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/model/app/Fclz;->aIi()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
     .line 159
-    invoke-static {p2, v0, p3, v1}, Lcom/tencent/mm/ui/chatting/AKclz;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/m/Aclz$a;Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/pluginsdk/model/app/f;)V
+    invoke-static {p2, v0, p3, v1}, Lcom/tencent/mm/ui/chatting/AKclz;->a(Lcom/tencent/mm/ui/chatting/ChattingUI$a;Lcom/tencent/mm/m/Aclz$a;Lcom/tencent/mm/storage/ADclz;Lcom/tencent/mm/pluginsdk/model/app/Fclz;)V
 
     goto :goto_0
 

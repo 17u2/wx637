@@ -67,9 +67,9 @@
     invoke-static {v0, v1}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 418
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/e;->kR()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Eclz;->kR()V
 
     .line 421
     iget-object v0, p0, Lcom/tencent/mm/modelsimple/Tclz$3;->bTb:Lcom/tencent/mm/protocal/b/art;
@@ -85,9 +85,9 @@
     if-nez v1, :cond_1
 
     .line 425
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/e;->kS()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Eclz;->kS()V
 
     .line 432
     :goto_0

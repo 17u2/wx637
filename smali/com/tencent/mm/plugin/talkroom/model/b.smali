@@ -270,14 +270,14 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJG:Lcom/tencent/mm/pluginsdk/h$t;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJG:Lcom/tencent/mm/pluginsdk/Hclz$t;
 
     .line 126
     invoke-static {}, Lcom/tencent/mm/plugin/talkroom/model/b;->ayf()Lcom/tencent/mm/plugin/talkroom/model/g;
 
     move-result-object v0
 
-    sput-object v0, Lcom/tencent/mm/pluginsdk/h$a;->hJH:Lcom/tencent/mm/pluginsdk/h$u;
+    sput-object v0, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJH:Lcom/tencent/mm/pluginsdk/Hclz$u;
 
     .line 127
     return-void
@@ -322,10 +322,10 @@
     invoke-static {v0}, Lcom/tencent/mm/model/AHclz;->b(Lcom/tencent/mm/network/Mclz;)V
 
     .line 138
-    sput-object v1, Lcom/tencent/mm/pluginsdk/h$a;->hJG:Lcom/tencent/mm/pluginsdk/h$t;
+    sput-object v1, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJG:Lcom/tencent/mm/pluginsdk/Hclz$t;
 
     .line 139
-    sput-object v1, Lcom/tencent/mm/pluginsdk/h$a;->hJH:Lcom/tencent/mm/pluginsdk/h$u;
+    sput-object v1, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJH:Lcom/tencent/mm/pluginsdk/Hclz$u;
 
     .line 141
     iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/model/b;->gNZ:Lcom/tencent/mm/plugin/talkroom/model/g;

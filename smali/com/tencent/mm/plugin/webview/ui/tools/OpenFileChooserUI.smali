@@ -123,7 +123,7 @@
 
     sget-object v1, Lcom/tencent/mm/compatible/util/Dclz;->bnE:Ljava/lang/String;
 
-    invoke-static {v0, p3, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->a(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p3, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->a(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -352,7 +352,7 @@
 
     iget v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/OpenFileChooserUI;->dNd:I
 
-    invoke-static {p0, v4, v0, v2, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->a(Landroid/app/Activity;IIILandroid/content/Intent;)V
+    invoke-static {p0, v4, v0, v2, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->a(Landroid/app/Activity;IIILandroid/content/Intent;)V
 
     .line 92
     :goto_0
@@ -367,7 +367,7 @@
     .line 66
     iget v2, p0, Lcom/tencent/mm/plugin/webview/ui/tools/OpenFileChooserUI;->dNd:I
 
-    invoke-static {p0, v4, v0, v2, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/k;->a(Landroid/app/Activity;IIILandroid/content/Intent;)V
+    invoke-static {p0, v4, v0, v2, v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Kclz;->a(Landroid/app/Activity;IIILandroid/content/Intent;)V
 
     goto :goto_0
 

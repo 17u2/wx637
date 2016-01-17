@@ -992,7 +992,7 @@
 
     move-result-object v1
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$a;->aHA()Lcom/tencent/mm/pluginsdk/h$f;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$a;->aHA()Lcom/tencent/mm/pluginsdk/Hclz$f;
 
     move-result-object v2
 
@@ -1000,7 +1000,7 @@
 
     iget-object v1, v0, Lcom/tencent/mm/d/b/BAclz;->field_imgPath:Ljava/lang/String;
 
-    invoke-interface {v2, v1}, Lcom/tencent/mm/pluginsdk/h$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
+    invoke-interface {v2, v1}, Lcom/tencent/mm/pluginsdk/Hclz$f;->ma(Ljava/lang/String;)Lcom/tencent/mm/storage/a/Cclz;
 
     move-result-object v1
 
@@ -1008,7 +1008,7 @@
 
     move-result-object v6
 
-    invoke-interface {v2, v6}, Lcom/tencent/mm/pluginsdk/h$f;->me(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v2, v6}, Lcom/tencent/mm/pluginsdk/Hclz$f;->me(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
@@ -1041,7 +1041,7 @@
 
     move-result-object v1
 
-    invoke-interface {v2, v1}, Lcom/tencent/mm/pluginsdk/h$f;->me(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v2, v1}, Lcom/tencent/mm/pluginsdk/Hclz$f;->me(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 

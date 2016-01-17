@@ -696,7 +696,7 @@
     .line 390
     iget-object v0, p1, Lcom/tencent/mm/d/b/BAclz;->field_imgPath:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/g;->xw(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/Gclz;->xw(Ljava/lang/String;)Z
 
     move-result v0
 

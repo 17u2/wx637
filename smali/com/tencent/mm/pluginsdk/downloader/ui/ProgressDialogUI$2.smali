@@ -48,30 +48,30 @@
 
     .prologue
     .line 48
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/downloader/b;->aHO()Lcom/tencent/mm/pluginsdk/downloader/b;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/downloader/Bclz;->aHO()Lcom/tencent/mm/pluginsdk/downloader/Bclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/downloader/b;->hKo:Lcom/tencent/mm/pluginsdk/downloader/a;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/downloader/Bclz;->hKo:Lcom/tencent/mm/pluginsdk/downloader/Aclz;
 
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI$2;->hKz:Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;
 
     iget-wide v0, v0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;->hKp:J
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/c;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->aIH()Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;
 
     move-result-object v2
 
-    invoke-virtual {v2, v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/c;->cz(J)I
+    invoke-virtual {v2, v0, v1}, Lcom/tencent/mm/pluginsdk/model/downloader/Cclz;->cz(J)I
 
     .line 49
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/downloader/b;->aHO()Lcom/tencent/mm/pluginsdk/downloader/b;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/downloader/Bclz;->aHO()Lcom/tencent/mm/pluginsdk/downloader/Bclz;
 
     move-result-object v0
 
-    sget v1, Lcom/tencent/mm/pluginsdk/downloader/a/a$a;->hKs:I
+    sget v1, Lcom/tencent/mm/pluginsdk/downloader/a/Aclz$a;->hKs:I
 
-    iput v1, v0, Lcom/tencent/mm/pluginsdk/downloader/b;->hKq:I
+    iput v1, v0, Lcom/tencent/mm/pluginsdk/downloader/Bclz;->hKq:I
 
     .line 50
     iget-object v0, p0, Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI$2;->hKz:Lcom/tencent/mm/pluginsdk/downloader/ui/ProgressDialogUI;

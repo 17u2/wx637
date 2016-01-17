@@ -14,9 +14,9 @@
 # instance fields
 .field private hTK:I
 
-.field public hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+.field public hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-.field public hTM:Lcom/tencent/mm/pluginsdk/ui/applet/f;
+.field public hTM:Lcom/tencent/mm/pluginsdk/ui/applet/Fclz;
 
 
 # direct methods
@@ -64,11 +64,11 @@
     .line 46
     iput v1, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTK:I
 
-    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/applet/f;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/applet/Fclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/ui/applet/f;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/ui/applet/Fclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTM:Lcom/tencent/mm/pluginsdk/ui/applet/f;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTM:Lcom/tencent/mm/pluginsdk/ui/applet/Fclz;
 
     goto :goto_0
 .end method
@@ -145,13 +145,13 @@
     iput v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTK:I
 
     .line 71
-    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/base/preference/Preference;->mContext:Landroid/content/Context;
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/d;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;-><init>(Landroid/content/Context;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iput-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     .line 72
     return-void
@@ -164,20 +164,20 @@
 
     .prologue
     .line 127
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v0, :cond_0
 
     .line 128
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    invoke-virtual {v1, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/e;->I(Ljava/util/ArrayList;)V
+    invoke-virtual {v1, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->I(Ljava/util/ArrayList;)V
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/d;->pO(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->pO(Ljava/lang/String;)V
 
     .line 130
     :cond_0
@@ -189,54 +189,54 @@
 
     .prologue
     .line 357
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v0, :cond_0
 
     .line 358
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iput-object p1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hSV:Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference$a;
+    iput-object p1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hSV:Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference$a;
 
     .line 360
     :cond_0
     return-void
 .end method
 
-.method public final a(Lcom/tencent/mm/pluginsdk/ui/applet/f$b;)V
+.method public final a(Lcom/tencent/mm/pluginsdk/ui/applet/Fclz$b;)V
     .locals 1
 
     .prologue
     .line 351
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v0, :cond_0
 
     .line 352
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iput-object p1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hSU:Lcom/tencent/mm/pluginsdk/ui/applet/f$b;
+    iput-object p1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hSU:Lcom/tencent/mm/pluginsdk/ui/applet/Fclz$b;
 
     .line 354
     :cond_0
     return-void
 .end method
 
-.method public final a(Lcom/tencent/mm/pluginsdk/ui/d;)V
+.method public final a(Lcom/tencent/mm/pluginsdk/ui/Dclz;)V
     .locals 1
 
     .prologue
     .line 104
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v0, :cond_0
 
     .line 105
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    iput-object p1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->hTn:Lcom/tencent/mm/pluginsdk/ui/d;
+    iput-object p1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->hTn:Lcom/tencent/mm/pluginsdk/ui/Dclz;
 
     .line 107
     :cond_0
@@ -248,12 +248,12 @@
 
     .prologue
     .line 98
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v0, :cond_0
 
     .line 99
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz p1, :cond_0
 
@@ -266,9 +266,9 @@
 
     .line 99
     :cond_1
-    iput-object p1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
+    iput-object p1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->cgw:Lcom/tencent/mm/ui/base/preference/Fclz;
 
-    iput-object p2, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hSP:Ljava/lang/String;
+    iput-object p2, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hSP:Ljava/lang/String;
 
     const/4 v0, 0x1
 
@@ -282,18 +282,18 @@
 
     .prologue
     .line 143
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v0, :cond_0
 
     .line 144
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
     const/4 v1, 0x0
 
-    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->hTE:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->hTE:Z
 
     .line 146
     :cond_0
@@ -305,18 +305,18 @@
 
     .prologue
     .line 149
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v0, :cond_0
 
     .line 150
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
     const/4 v1, 0x1
 
-    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->hTv:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->hTv:Z
 
     .line 152
     :cond_0
@@ -328,20 +328,20 @@
 
     .prologue
     .line 247
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v0, :cond_0
 
     .line 248
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
     const/4 v1, 0x0
 
-    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->cQD:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->cQD:Z
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/applet/e;->notifyChanged()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->notifyChanged()V
 
     .line 250
     :cond_0
@@ -353,18 +353,18 @@
 
     .prologue
     .line 275
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v0, :cond_0
 
     .line 276
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
     const/4 v1, 0x0
 
-    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->hTq:Z
+    iput-boolean v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->hTq:Z
 
     .line 278
     :cond_0
@@ -378,23 +378,23 @@
     const/4 v0, 0x0
 
     .line 297
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v1, :cond_1
 
     .line 298
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iput-boolean v0, v1, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hSR:Z
+    iput-boolean v0, v1, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hSR:Z
 
-    iget-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hSR:Z
+    iget-boolean v2, v1, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hSR:Z
 
     if-eqz v2, :cond_0
 
     const/4 v0, 0x1
 
     :cond_0
-    iput-boolean v0, v1, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hSS:Z
+    iput-boolean v0, v1, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hSS:Z
 
     .line 300
     :cond_1
@@ -406,18 +406,18 @@
 
     .prologue
     .line 313
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v0, :cond_0
 
     .line 314
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/e;->aM(Ljava/util/List;)V
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->aM(Ljava/util/List;)V
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/applet/e;->notifyChanged()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->notifyChanged()V
 
     .line 316
     :cond_0
@@ -429,16 +429,16 @@
 
     .prologue
     .line 260
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v0, :cond_0
 
     .line 261
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    iput-boolean p1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->hTp:Z
+    iput-boolean p1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->hTp:Z
 
     .line 263
     :cond_0
@@ -450,16 +450,16 @@
 
     .prologue
     .line 267
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v0, :cond_0
 
     .line 268
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    iput-boolean p1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->hTo:Z
+    iput-boolean p1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->hTo:Z
 
     .line 270
     :cond_0
@@ -471,14 +471,14 @@
 
     .prologue
     .line 117
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v0, :cond_1
 
     .line 118
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iput-object p1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->username:Ljava/lang/String;
+    iput-object p1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->username:Ljava/lang/String;
 
     if-nez p2, :cond_0
 
@@ -489,11 +489,11 @@
     invoke-direct {p2, v1}, Ljava/util/ArrayList;-><init>(I)V
 
     :cond_0
-    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    invoke-virtual {v1, p2}, Lcom/tencent/mm/pluginsdk/ui/applet/e;->aM(Ljava/util/List;)V
+    invoke-virtual {v1, p2}, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->aM(Ljava/util/List;)V
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/d;->pO(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->pO(Ljava/lang/String;)V
 
     .line 120
     :cond_1
@@ -505,16 +505,16 @@
 
     .prologue
     .line 194
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v0, :cond_0
 
     .line 195
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/e;->nG(I)Z
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->nG(I)Z
 
     move-result v0
 
@@ -535,26 +535,26 @@
     const/4 v0, 0x0
 
     .line 215
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    invoke-virtual {v1, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/e;->nG(I)Z
+    invoke-virtual {v1, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->nG(I)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
     .line 216
-    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v1, v1, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    invoke-virtual {v1, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/e;->getItem(I)Ljava/lang/Object;
+    invoke-virtual {v1, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->getItem(I)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -563,11 +563,11 @@
     if-eqz v1, :cond_0
 
     .line 217
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/e;->getItem(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->getItem(I)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -583,26 +583,26 @@
 
     .prologue
     .line 226
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/e;->nG(I)Z
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->nG(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 227
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/e;->getItem(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->getItem(I)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -625,26 +625,26 @@
 
     .prologue
     .line 233
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/e;->nG(I)Z
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->nG(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 234
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/e;->getItem(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->getItem(I)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -667,26 +667,26 @@
 
     .prologue
     .line 240
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/e;->nG(I)Z
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->nG(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 241
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/e;->getItem(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->getItem(I)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -709,14 +709,14 @@
 
     .prologue
     .line 111
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v0, :cond_0
 
     .line 112
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/applet/d;->akY()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->akY()V
 
     .line 114
     :cond_0
@@ -741,7 +741,7 @@
     if-ne v0, v2, :cond_5
 
     .line 86
-    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTM:Lcom/tencent/mm/pluginsdk/ui/applet/f;
+    iget-object v2, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTM:Lcom/tencent/mm/pluginsdk/ui/applet/Fclz;
 
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -754,15 +754,15 @@
     check-cast v0, Landroid/view/ViewGroup;
 
     :goto_0
-    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/ui/applet/f;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/ui/applet/Fclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    invoke-virtual {v3}, Lcom/tencent/mm/pluginsdk/ui/applet/e;->getCount()I
+    invoke-virtual {v3}, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->getCount()I
 
     move-result v3
 
     div-int/lit8 v3, v3, 0x4
 
-    iget v4, v2, Lcom/tencent/mm/pluginsdk/ui/applet/f;->row:I
+    iget v4, v2, Lcom/tencent/mm/pluginsdk/ui/applet/Fclz;->row:I
 
     add-int/lit8 v4, v4, 0x1
 
@@ -775,16 +775,16 @@
     invoke-virtual {v3, v1}, Landroid/view/View;->setVisibility(I)V
 
     :goto_1
-    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/ui/applet/f;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/ui/applet/Fclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
     if-eqz v3, :cond_4
 
-    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/ui/applet/f;->fvA:Landroid/view/View$OnClickListener;
+    iget-object v3, v2, Lcom/tencent/mm/pluginsdk/ui/applet/Fclz;->fvA:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :goto_2
-    iget v3, v2, Lcom/tencent/mm/pluginsdk/ui/applet/f;->hTd:I
+    iget v3, v2, Lcom/tencent/mm/pluginsdk/ui/applet/Fclz;->hTd:I
 
     if-ge v1, v3, :cond_4
 
@@ -792,36 +792,36 @@
 
     move-result-object v3
 
-    iget v4, v2, Lcom/tencent/mm/pluginsdk/ui/applet/f;->row:I
+    iget v4, v2, Lcom/tencent/mm/pluginsdk/ui/applet/Fclz;->row:I
 
-    iget v5, v2, Lcom/tencent/mm/pluginsdk/ui/applet/f;->hTd:I
+    iget v5, v2, Lcom/tencent/mm/pluginsdk/ui/applet/Fclz;->hTd:I
 
     mul-int/2addr v4, v5
 
     add-int/2addr v4, v1
 
-    iget-object v5, v2, Lcom/tencent/mm/pluginsdk/ui/applet/f;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v5, v2, Lcom/tencent/mm/pluginsdk/ui/applet/Fclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    invoke-virtual {v5, v4, v3, v0}, Lcom/tencent/mm/pluginsdk/ui/applet/e;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
+    invoke-virtual {v5, v4, v3, v0}, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
 
-    iget-object v5, v2, Lcom/tencent/mm/pluginsdk/ui/applet/f;->hTa:Lcom/tencent/mm/pluginsdk/ui/applet/f$a;
+    iget-object v5, v2, Lcom/tencent/mm/pluginsdk/ui/applet/Fclz;->hTa:Lcom/tencent/mm/pluginsdk/ui/applet/Fclz$a;
 
     if-eqz v5, :cond_0
 
-    new-instance v5, Lcom/tencent/mm/pluginsdk/ui/applet/f$3;
+    new-instance v5, Lcom/tencent/mm/pluginsdk/ui/applet/Fclz$3;
 
-    invoke-direct {v5, v2, v0, v4}, Lcom/tencent/mm/pluginsdk/ui/applet/f$3;-><init>(Lcom/tencent/mm/pluginsdk/ui/applet/f;Landroid/view/ViewGroup;I)V
+    invoke-direct {v5, v2, v0, v4}, Lcom/tencent/mm/pluginsdk/ui/applet/Fclz$3;-><init>(Lcom/tencent/mm/pluginsdk/ui/applet/Fclz;Landroid/view/ViewGroup;I)V
 
     invoke-virtual {v3, v5}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_0
-    iget-object v5, v2, Lcom/tencent/mm/pluginsdk/ui/applet/f;->hTN:Lcom/tencent/mm/pluginsdk/ui/applet/f$b;
+    iget-object v5, v2, Lcom/tencent/mm/pluginsdk/ui/applet/Fclz;->hTN:Lcom/tencent/mm/pluginsdk/ui/applet/Fclz$b;
 
     if-eqz v5, :cond_1
 
-    new-instance v5, Lcom/tencent/mm/pluginsdk/ui/applet/f$4;
+    new-instance v5, Lcom/tencent/mm/pluginsdk/ui/applet/Fclz$4;
 
-    invoke-direct {v5, v2, v0, v4}, Lcom/tencent/mm/pluginsdk/ui/applet/f$4;-><init>(Lcom/tencent/mm/pluginsdk/ui/applet/f;Landroid/view/ViewGroup;I)V
+    invoke-direct {v5, v2, v0, v4}, Lcom/tencent/mm/pluginsdk/ui/applet/Fclz$4;-><init>(Lcom/tencent/mm/pluginsdk/ui/applet/Fclz;Landroid/view/ViewGroup;I)V
 
     invoke-virtual {v3, v5}, Landroid/view/View;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
@@ -851,11 +851,11 @@
     goto :goto_1
 
     :cond_4
-    iget v0, v2, Lcom/tencent/mm/pluginsdk/ui/applet/f;->background:I
+    iget v0, v2, Lcom/tencent/mm/pluginsdk/ui/applet/Fclz;->background:I
 
     if-ltz v0, :cond_5
 
-    iget v0, v2, Lcom/tencent/mm/pluginsdk/ui/applet/f;->background:I
+    iget v0, v2, Lcom/tencent/mm/pluginsdk/ui/applet/Fclz;->background:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -872,16 +872,16 @@
 
     .prologue
     .line 167
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
     if-eqz v0, :cond_0
 
     .line 168
-    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/d;
+    iget-object v0, p0, Lcom/tencent/mm/pluginsdk/ui/applet/ContactListExpandPreference;->hTL:Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/d;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/e;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Dclz;->hST:Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;
 
-    iput-object p1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/e;->hTw:Ljava/lang/String;
+    iput-object p1, v0, Lcom/tencent/mm/pluginsdk/ui/applet/Eclz;->hTw:Ljava/lang/String;
 
     .line 170
     :cond_0

@@ -53,7 +53,7 @@
 
 .field private jCv:Ljava/lang/String;
 
-.field private jCw:Lcom/tencent/mm/pluginsdk/g/a;
+.field private jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
 .field private jCx:Landroid/widget/LinearLayout;
 
@@ -158,9 +158,9 @@
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 955
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
-    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/f;->ae(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/Fclz;->ae(Landroid/content/Context;)Landroid/content/Intent;
 
     move-result-object v0
 
@@ -1694,9 +1694,9 @@
     if-eqz v0, :cond_3
 
     .line 662
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/e;->h(Landroid/app/Activity;)V
+    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/Eclz;->h(Landroid/app/Activity;)V
 
     goto/16 :goto_1
 
@@ -2306,9 +2306,9 @@
     packed-switch p2, :pswitch_data_0
 
     :cond_a
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0, p0, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/e;->a(Landroid/content/Context;IILjava/lang/String;)Z
+    invoke-interface {v0, p0, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/Eclz;->a(Landroid/content/Context;IILjava/lang/String;)Z
 
     move-result v0
 
@@ -2464,13 +2464,13 @@
     sparse-switch p2, :sswitch_data_0
 
     :cond_f
-    new-instance v0, Lcom/tencent/mm/pluginsdk/g/o;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/g/Oclz;
 
-    invoke-direct {v0, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/g/o;-><init>(IILjava/lang/String;)V
+    invoke-direct {v0, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/g/Oclz;-><init>(IILjava/lang/String;)V
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI;->jCw:Lcom/tencent/mm/pluginsdk/g/a;
+    iget-object v1, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI;->jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
-    invoke-virtual {v1, p0, v0}, Lcom/tencent/mm/pluginsdk/g/a;->a(Landroid/app/Activity;Lcom/tencent/mm/pluginsdk/g/o;)Z
+    invoke-virtual {v1, p0, v0}, Lcom/tencent/mm/pluginsdk/g/Aclz;->a(Landroid/app/Activity;Lcom/tencent/mm/pluginsdk/g/Oclz;)Z
 
     move-result v0
 
@@ -2732,9 +2732,9 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    sget-object v1, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v1, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
-    invoke-interface {v1, p0, v0}, Lcom/tencent/mm/pluginsdk/f;->f(Landroid/content/Context;Landroid/content/Intent;)V
+    invoke-interface {v1, p0, v0}, Lcom/tencent/mm/pluginsdk/Fclz;->f(Landroid/content/Context;Landroid/content/Intent;)V
 
     const/4 v0, 0x1
 
@@ -3126,9 +3126,9 @@
     invoke-virtual {p0}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->aUD()V
 
     .line 141
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/e;->kT()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Eclz;->kT()V
 
     .line 143
     invoke-static {}, Lcom/tencent/mm/sdk/platformtools/Zclz;->getContext()Landroid/content/Context;
@@ -3151,11 +3151,11 @@
     invoke-virtual {p0}, Lcom/tencent/mm/ui/account/LoginHistoryUI;->Fi()V
 
     .line 150
-    new-instance v0, Lcom/tencent/mm/pluginsdk/g/a;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/g/Aclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/g/a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/g/Aclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI;->jCw:Lcom/tencent/mm/pluginsdk/g/a;
+    iput-object v0, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI;->jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
     .line 151
     return-void
@@ -3175,14 +3175,14 @@
     invoke-virtual {v0, v1, p0}, Lcom/tencent/mm/q/Lclz;->b(ILcom/tencent/mm/q/Dclz;)V
 
     .line 176
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI;->jCw:Lcom/tencent/mm/pluginsdk/g/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI;->jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
     if-eqz v0, :cond_0
 
     .line 177
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI;->jCw:Lcom/tencent/mm/pluginsdk/g/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/LoginHistoryUI;->jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/g/a;->close()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/g/Aclz;->close()V
 
     .line 179
     :cond_0
@@ -3212,9 +3212,9 @@
     if-nez v0, :cond_0
 
     .line 292
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
-    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/f;->ae(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/Fclz;->ae(Landroid/content/Context;)Landroid/content/Intent;
 
     move-result-object v0
 

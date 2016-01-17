@@ -91,14 +91,14 @@
     if-eqz v0, :cond_3
 
     .line 209
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKd:Lcom/tencent/mm/pluginsdk/h$n$b;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKd:Lcom/tencent/mm/pluginsdk/Hclz$n$b;
 
     if-eqz v0, :cond_2
 
     .line 210
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKd:Lcom/tencent/mm/pluginsdk/h$n$b;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKd:Lcom/tencent/mm/pluginsdk/Hclz$n$b;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$n$b;->aus()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$n$b;->aus()V
 
     .line 212
     :cond_2
@@ -322,14 +322,14 @@
     invoke-static {v2, v1}, Ljunit/framework/Assert;->assertTrue(Ljava/lang/String;Z)V
 
     .line 233
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKd:Lcom/tencent/mm/pluginsdk/h$n$b;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKd:Lcom/tencent/mm/pluginsdk/Hclz$n$b;
 
     if-eqz v1, :cond_5
 
     .line 234
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKd:Lcom/tencent/mm/pluginsdk/h$n$b;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKd:Lcom/tencent/mm/pluginsdk/Hclz$n$b;
 
-    invoke-interface {v1}, Lcom/tencent/mm/pluginsdk/h$n$b;->aus()V
+    invoke-interface {v1}, Lcom/tencent/mm/pluginsdk/Hclz$n$b;->aus()V
 
     .line 236
     :cond_5

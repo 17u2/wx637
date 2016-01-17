@@ -49,7 +49,7 @@
     .line 219
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/Eclz$12;->kxT:Lcom/tencent/mm/ui/conversation/Eclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/Eclz;->b(Lcom/tencent/mm/ui/conversation/Eclz;)Lcom/tencent/mm/pluginsdk/ui/b/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/Eclz;->b(Lcom/tencent/mm/ui/conversation/Eclz;)Lcom/tencent/mm/pluginsdk/ui/b/Bclz;
 
     move-result-object v0
 
@@ -58,11 +58,11 @@
     .line 220
     iget-object v0, p0, Lcom/tencent/mm/ui/conversation/Eclz$12;->kxT:Lcom/tencent/mm/ui/conversation/Eclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/Eclz;->b(Lcom/tencent/mm/ui/conversation/Eclz;)Lcom/tencent/mm/pluginsdk/ui/b/b;
+    invoke-static {v0}, Lcom/tencent/mm/ui/conversation/Eclz;->b(Lcom/tencent/mm/ui/conversation/Eclz;)Lcom/tencent/mm/pluginsdk/ui/b/Bclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/b/b;->view:Landroid/view/View;
+    iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/b/Bclz;->view:Landroid/view/View;
 
     new-instance v1, Lcom/tencent/mm/ui/conversation/Eclz$12$1;
 

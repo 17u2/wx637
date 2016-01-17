@@ -19,7 +19,7 @@
 
 .field private hiK:Ljava/lang/String;
 
-.field private jCw:Lcom/tencent/mm/pluginsdk/g/a;
+.field private jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
 .field private jDF:Z
 
@@ -880,14 +880,14 @@
     const/4 v1, 0x1
 
     .line 1066
-    new-instance v0, Lcom/tencent/mm/pluginsdk/g/o;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/g/Oclz;
 
-    invoke-direct {v0, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/g/o;-><init>(IILjava/lang/String;)V
+    invoke-direct {v0, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/g/Oclz;-><init>(IILjava/lang/String;)V
 
     .line 1067
-    iget-object v2, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI;->jCw:Lcom/tencent/mm/pluginsdk/g/a;
+    iget-object v2, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI;->jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
-    invoke-virtual {v2, p0, v0}, Lcom/tencent/mm/pluginsdk/g/a;->a(Landroid/app/Activity;Lcom/tencent/mm/pluginsdk/g/o;)Z
+    invoke-virtual {v2, p0, v0}, Lcom/tencent/mm/pluginsdk/g/Aclz;->a(Landroid/app/Activity;Lcom/tencent/mm/pluginsdk/g/Oclz;)Z
 
     move-result v0
 
@@ -901,13 +901,13 @@
 
     .line 1071
     :cond_0
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
     iget-object v2, v2, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-interface {v0, v2, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/e;->a(Landroid/content/Context;IILjava/lang/String;)Z
+    invoke-interface {v0, v2, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/Eclz;->a(Landroid/content/Context;IILjava/lang/String;)Z
 
     move-result v0
 
@@ -1628,9 +1628,9 @@
 
     .prologue
     .line 74
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/e;->g(Landroid/app/Activity;)Z
+    invoke-interface {v0, p0}, Lcom/tencent/mm/pluginsdk/Eclz;->g(Landroid/app/Activity;)Z
 
     move-result v0
 
@@ -2413,7 +2413,7 @@
     invoke-static/range {v2 .. v7}, Lcom/tencent/mm/sdk/platformtools/Dclz;->b(Ljava/lang/String;IILandroid/graphics/Bitmap$CompressFormat;ILjava/lang/String;)Z
 
     .line 705
-    new-instance v20, Lcom/tencent/mm/pluginsdk/model/l;
+    new-instance v20, Lcom/tencent/mm/pluginsdk/model/Lclz;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -2439,7 +2439,7 @@
 
     move-object/from16 v1, p0
 
-    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/l;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/Lclz;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 706
     new-instance v2, Lcom/tencent/mm/ui/account/RegSetInfoUI$9;
@@ -2472,7 +2472,7 @@
 
     move-object/from16 v0, v20
 
-    invoke-virtual {v0, v2, v11}, Lcom/tencent/mm/pluginsdk/model/l;->a(Ljava/lang/Runnable;Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v2, v11}, Lcom/tencent/mm/pluginsdk/model/Lclz;->a(Ljava/lang/Runnable;Ljava/lang/Runnable;)Z
 
     .line 825
     :cond_3
@@ -2667,11 +2667,11 @@
     invoke-virtual {v2, v3, v10}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 805
-    sget-object v3, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v3, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     move-object/from16 v0, p0
 
-    invoke-interface {v3, v0}, Lcom/tencent/mm/pluginsdk/f;->ae(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-interface {v3, v0}, Lcom/tencent/mm/pluginsdk/Fclz;->ae(Landroid/content/Context;)Landroid/content/Intent;
 
     move-result-object v3
 
@@ -2721,11 +2721,11 @@
 
     .line 811
     :cond_a
-    sget-object v2, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v2, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     move-object/from16 v0, p0
 
-    invoke-interface {v2, v0}, Lcom/tencent/mm/pluginsdk/f;->ae(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-interface {v2, v0}, Lcom/tencent/mm/pluginsdk/Fclz;->ae(Landroid/content/Context;)Landroid/content/Intent;
 
     move-result-object v2
 
@@ -3549,9 +3549,9 @@
     invoke-static {v0, v1, v2}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 594
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0, p0, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/e;->a(Landroid/app/Activity;IILandroid/content/Intent;)Landroid/graphics/Bitmap;
+    invoke-interface {v0, p0, p1, p2, p3}, Lcom/tencent/mm/pluginsdk/Eclz;->a(Landroid/app/Activity;IILandroid/content/Intent;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -3635,9 +3635,9 @@
     invoke-virtual {p0, v0}, Lcom/tencent/mm/ui/account/RegSetInfoUI;->DW(Ljava/lang/String;)V
 
     .line 157
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/e;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfy:Lcom/tencent/mm/pluginsdk/Eclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/e;->kT()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Eclz;->kT()V
 
     .line 158
     invoke-virtual {p0}, Lcom/tencent/mm/ui/account/RegSetInfoUI;->getIntent()Landroid/content/Intent;
@@ -3848,11 +3848,11 @@
     iput-boolean v3, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI;->jFj:Z
 
     .line 185
-    new-instance v0, Lcom/tencent/mm/pluginsdk/g/a;
+    new-instance v0, Lcom/tencent/mm/pluginsdk/g/Aclz;
 
-    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/g/a;-><init>()V
+    invoke-direct {v0}, Lcom/tencent/mm/pluginsdk/g/Aclz;-><init>()V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI;->jCw:Lcom/tencent/mm/pluginsdk/g/a;
+    iput-object v0, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI;->jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
     .line 186
     return-void
@@ -4082,14 +4082,14 @@
     .line 217
     :cond_0
     :goto_0
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI;->jCw:Lcom/tencent/mm/pluginsdk/g/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI;->jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
     if-eqz v0, :cond_1
 
     .line 218
-    iget-object v0, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI;->jCw:Lcom/tencent/mm/pluginsdk/g/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/account/RegSetInfoUI;->jCw:Lcom/tencent/mm/pluginsdk/g/Aclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/g/a;->close()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/g/Aclz;->close()V
 
     .line 220
     :cond_1

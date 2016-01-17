@@ -115,7 +115,7 @@
 
     .line 42
     :cond_0
-    instance-of v0, v1, Lcom/tencent/mm/pluginsdk/h/a/b/c;
+    instance-of v0, v1, Lcom/tencent/mm/pluginsdk/h/a/b/Cclz;
 
     if-eqz v0, :cond_1
 
@@ -128,7 +128,7 @@
 
     .line 45
     :cond_1
-    instance-of v0, v1, Lcom/tencent/mm/pluginsdk/h/a/b/d;
+    instance-of v0, v1, Lcom/tencent/mm/pluginsdk/h/a/b/Dclz;
 
     if-eqz v0, :cond_2
 

@@ -73,7 +73,7 @@
     .line 201
     iget-object v0, p0, Lcom/tencent/mm/ac/Kclz$2;->bOl:Lcom/tencent/mm/protocal/b/AFclz;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/j;->d(Lcom/tencent/mm/protocal/b/AFclz;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/model/app/Jclz;->d(Lcom/tencent/mm/protocal/b/AFclz;)Ljava/lang/String;
 
     move-result-object v0
 

@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/plugin/sns/d/y$a;
-.super Lcom/tencent/mm/pluginsdk/model/h;
+.super Lcom/tencent/mm/pluginsdk/model/Hclz;
 .source "SourceFile"
 
 
@@ -44,7 +44,7 @@
     .line 75
     iput-object p1, p0, Lcom/tencent/mm/plugin/sns/d/y$a;->giK:Lcom/tencent/mm/plugin/sns/d/y;
 
-    invoke-direct {p0}, Lcom/tencent/mm/pluginsdk/model/h;-><init>()V
+    invoke-direct {p0}, Lcom/tencent/mm/pluginsdk/model/Hclz;-><init>()V
 
     .line 68
     const/4 v0, 0x0

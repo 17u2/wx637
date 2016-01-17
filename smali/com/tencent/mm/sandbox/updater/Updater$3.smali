@@ -403,7 +403,7 @@
     invoke-virtual {v0, v1, v6}, Lcom/tencent/mm/l/Aclz;->n(IZ)V
 
     .line 321
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/a;->aIe()V
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/Aclz;->aIe()V
 
     goto/16 :goto_1
 

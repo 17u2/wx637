@@ -1,5 +1,5 @@
 .class public final Lcom/tencent/mm/ui/c/Kclz;
-.super Lcom/tencent/mm/pluginsdk/ui/b/b;
+.super Lcom/tencent/mm/pluginsdk/ui/b/Bclz;
 .source "SourceFile"
 
 # interfaces
@@ -30,7 +30,7 @@
 
     .prologue
     .line 95
-    invoke-direct {p0, p1}, Lcom/tencent/mm/pluginsdk/ui/b/b;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lcom/tencent/mm/pluginsdk/ui/b/Bclz;-><init>(Landroid/content/Context;)V
 
     .line 41
     new-instance v0, Ljava/util/HashMap;

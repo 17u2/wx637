@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/h$n$e;
+.implements Lcom/tencent/mm/pluginsdk/Hclz$n$e;
 .implements Lcom/tencent/mm/q/Dclz;
 
 
@@ -1451,7 +1451,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/h$n$e$a;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/Hclz$n$e$a;
 
     .line 371
     iget-object v1, p0, Lcom/tencent/mm/plugin/sns/d/al$a;->byx:Ljava/util/Map;
@@ -1533,7 +1533,7 @@
 
     move-result v5
 
-    invoke-interface {v0, v3, v4, v1, v5}, Lcom/tencent/mm/pluginsdk/h$n$e$a;->a(ZZLjava/lang/String;Z)V
+    invoke-interface {v0, v3, v4, v1, v5}, Lcom/tencent/mm/pluginsdk/Hclz$n$e$a;->a(ZZLjava/lang/String;Z)V
 
     goto :goto_2
 
@@ -1624,7 +1624,7 @@
 
     move-result v4
 
-    invoke-interface {v0, v3, v1, v4}, Lcom/tencent/mm/pluginsdk/h$n$e$a;->b(ZLjava/lang/String;Z)V
+    invoke-interface {v0, v3, v1, v4}, Lcom/tencent/mm/pluginsdk/Hclz$n$e$a;->b(ZLjava/lang/String;Z)V
 
     goto/16 :goto_2
 
@@ -1638,7 +1638,7 @@
     .end packed-switch
 .end method
 
-.method public final a(ILjava/lang/String;Lcom/tencent/mm/pluginsdk/h$n$e$a;)V
+.method public final a(ILjava/lang/String;Lcom/tencent/mm/pluginsdk/Hclz$n$e$a;)V
     .locals 5
 
     .prologue
@@ -2109,7 +2109,7 @@
     goto :goto_1
 .end method
 
-.method public final a(Lcom/tencent/mm/pluginsdk/h$n$e$a;I)Z
+.method public final a(Lcom/tencent/mm/pluginsdk/Hclz$n$e$a;I)Z
     .locals 4
 
     .prologue

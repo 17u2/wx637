@@ -180,7 +180,7 @@
     const/4 v0, 0x1
 
     .line 439
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/a;->aIc()Lcom/tencent/mm/pluginsdk/model/app/a;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/Aclz;->aIc()Lcom/tencent/mm/pluginsdk/model/app/Aclz;
 
     move-result-object v1
 
@@ -188,7 +188,7 @@
     if-eqz v1, :cond_0
 
     .line 441
-    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/model/app/a;->aIg()V
+    invoke-virtual {v1}, Lcom/tencent/mm/pluginsdk/model/app/Aclz;->aIg()V
 
     .line 442
     const-string/jumbo v1, "!44@/B4Tb64lLpLK/95/Wmq011KSsXOn368D0RVH0Tnzu9k="
@@ -203,25 +203,25 @@
 
     .line 446
     :cond_0
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$af;->aHJ()Lcom/tencent/mm/pluginsdk/h$ac;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$af;->aHJ()Lcom/tencent/mm/pluginsdk/Hclz$ac;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
     .line 447
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$af;->aHJ()Lcom/tencent/mm/pluginsdk/h$ac;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$af;->aHJ()Lcom/tencent/mm/pluginsdk/Hclz$ac;
 
     move-result-object v1
 
-    invoke-interface {v1, p0}, Lcom/tencent/mm/pluginsdk/h$ac;->bV(Landroid/content/Context;)Lcom/tencent/mm/pluginsdk/h$aa;
+    invoke-interface {v1, p0}, Lcom/tencent/mm/pluginsdk/Hclz$ac;->bV(Landroid/content/Context;)Lcom/tencent/mm/pluginsdk/Hclz$aa;
 
     move-result-object v1
 
     .line 448
     const/4 v2, 0x2
 
-    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/h$aa;->update(I)V
+    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/Hclz$aa;->update(I)V
 
     goto :goto_0
 
@@ -933,13 +933,13 @@
 
     .line 380
     :pswitch_1
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$af;->aHJ()Lcom/tencent/mm/pluginsdk/h$ac;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$af;->aHJ()Lcom/tencent/mm/pluginsdk/Hclz$ac;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$af;->aHJ()Lcom/tencent/mm/pluginsdk/h$ac;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$af;->aHJ()Lcom/tencent/mm/pluginsdk/Hclz$ac;
 
     move-result-object v0
 
@@ -947,11 +947,11 @@
 
     invoke-direct {v2, p0}, Lcom/tencent/mm/ui/Mclz$10;-><init>(Landroid/app/Activity;)V
 
-    invoke-interface {v0, p0, v2}, Lcom/tencent/mm/pluginsdk/h$ac;->b(Landroid/content/Context;Landroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/pluginsdk/h$aa;
+    invoke-interface {v0, p0, v2}, Lcom/tencent/mm/pluginsdk/Hclz$ac;->b(Landroid/content/Context;Landroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/pluginsdk/Hclz$aa;
 
     move-result-object v0
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$aa;->update(I)V
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$aa;->update(I)V
 
     move v2, v1
 
@@ -1086,13 +1086,13 @@
     if-nez v0, :cond_9
 
     .line 426
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$af;->aHJ()Lcom/tencent/mm/pluginsdk/h$ac;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$af;->aHJ()Lcom/tencent/mm/pluginsdk/Hclz$ac;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$af;->aHJ()Lcom/tencent/mm/pluginsdk/h$ac;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$af;->aHJ()Lcom/tencent/mm/pluginsdk/Hclz$ac;
 
     move-result-object v0
 
@@ -1102,11 +1102,11 @@
 
     invoke-direct {v2, v3, p0}, Lcom/tencent/mm/ui/Mclz$2;-><init>(Landroid/content/Intent;Landroid/app/Activity;)V
 
-    invoke-interface {v0, p0, v2}, Lcom/tencent/mm/pluginsdk/h$ac;->b(Landroid/content/Context;Landroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/pluginsdk/h$aa;
+    invoke-interface {v0, p0, v2}, Lcom/tencent/mm/pluginsdk/Hclz$ac;->b(Landroid/content/Context;Landroid/content/DialogInterface$OnCancelListener;)Lcom/tencent/mm/pluginsdk/Hclz$aa;
 
     move-result-object v0
 
-    invoke-interface {v0, v9}, Lcom/tencent/mm/pluginsdk/h$aa;->update(I)V
+    invoke-interface {v0, v9}, Lcom/tencent/mm/pluginsdk/Hclz$aa;->update(I)V
 
     move v2, v1
 

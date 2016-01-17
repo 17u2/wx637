@@ -305,7 +305,7 @@
 
     iget-object v1, p3, Lcom/tencent/mm/plugin/sns/ui/a/a;->username:Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/a$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->b(Landroid/widget/ImageView;Ljava/lang/String;)V
 
     .line 82
     iget-object v0, p3, Lcom/tencent/mm/plugin/sns/ui/a/a;->cEU:Ljava/lang/CharSequence;
@@ -479,7 +479,7 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/abp;
 
     .line 120
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     iget-object v2, p2, Lcom/tencent/mm/plugin/sns/ui/a/a$a;->gGR:Landroid/widget/ImageView;
 
@@ -489,7 +489,7 @@
 
     sget-object v4, Lcom/tencent/mm/storage/Iclz$a;->jle:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
+    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 180
     :goto_1
@@ -559,7 +559,7 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/abp;
 
     .line 130
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     iget-object v2, p2, Lcom/tencent/mm/plugin/sns/ui/a/a$a;->gGS:Landroid/widget/ImageView;
 
@@ -569,7 +569,7 @@
 
     sget-object v4, Lcom/tencent/mm/storage/Iclz$a;->jle:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
+    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 131
     iget-object v0, p3, Lcom/tencent/mm/plugin/sns/ui/a/a;->gGI:Ljava/util/List;
@@ -581,7 +581,7 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/abp;
 
     .line 132
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     iget-object v2, p2, Lcom/tencent/mm/plugin/sns/ui/a/a$a;->gGT:Landroid/widget/ImageView;
 
@@ -591,7 +591,7 @@
 
     sget-object v4, Lcom/tencent/mm/storage/Iclz$a;->jle:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
+    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     goto :goto_1
 
@@ -650,7 +650,7 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/abp;
 
     .line 142
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     iget-object v2, p2, Lcom/tencent/mm/plugin/sns/ui/a/a$a;->gGS:Landroid/widget/ImageView;
 
@@ -660,7 +660,7 @@
 
     sget-object v4, Lcom/tencent/mm/storage/Iclz$a;->jle:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
+    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 143
     iget-object v0, p3, Lcom/tencent/mm/plugin/sns/ui/a/a;->gGI:Ljava/util/List;
@@ -672,7 +672,7 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/abp;
 
     .line 144
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     iget-object v2, p2, Lcom/tencent/mm/plugin/sns/ui/a/a$a;->gGT:Landroid/widget/ImageView;
 
@@ -682,7 +682,7 @@
 
     sget-object v4, Lcom/tencent/mm/storage/Iclz$a;->jle:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
+    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 145
     iget-object v0, p3, Lcom/tencent/mm/plugin/sns/ui/a/a;->gGI:Ljava/util/List;
@@ -694,7 +694,7 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/abp;
 
     .line 146
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     iget-object v2, p2, Lcom/tencent/mm/plugin/sns/ui/a/a$a;->gGU:Landroid/widget/ImageView;
 
@@ -704,7 +704,7 @@
 
     sget-object v4, Lcom/tencent/mm/storage/Iclz$a;->jle:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
+    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     goto/16 :goto_1
 
@@ -765,7 +765,7 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/abp;
 
     .line 156
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     iget-object v2, p2, Lcom/tencent/mm/plugin/sns/ui/a/a$a;->gGS:Landroid/widget/ImageView;
 
@@ -775,7 +775,7 @@
 
     sget-object v4, Lcom/tencent/mm/storage/Iclz$a;->jle:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
+    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 157
     iget-object v0, p3, Lcom/tencent/mm/plugin/sns/ui/a/a;->gGI:Ljava/util/List;
@@ -787,7 +787,7 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/abp;
 
     .line 158
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     iget-object v2, p2, Lcom/tencent/mm/plugin/sns/ui/a/a$a;->gGT:Landroid/widget/ImageView;
 
@@ -797,7 +797,7 @@
 
     sget-object v4, Lcom/tencent/mm/storage/Iclz$a;->jle:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
+    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 159
     iget-object v0, p3, Lcom/tencent/mm/plugin/sns/ui/a/a;->gGI:Ljava/util/List;
@@ -809,7 +809,7 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/abp;
 
     .line 160
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     iget-object v2, p2, Lcom/tencent/mm/plugin/sns/ui/a/a$a;->gGU:Landroid/widget/ImageView;
 
@@ -819,7 +819,7 @@
 
     sget-object v4, Lcom/tencent/mm/storage/Iclz$a;->jle:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
+    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 161
     iget-object v0, p3, Lcom/tencent/mm/plugin/sns/ui/a/a;->gGI:Ljava/util/List;
@@ -831,7 +831,7 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/abp;
 
     .line 162
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     iget-object v2, p2, Lcom/tencent/mm/plugin/sns/ui/a/a$a;->gGV:Landroid/widget/ImageView;
 
@@ -841,7 +841,7 @@
 
     sget-object v4, Lcom/tencent/mm/storage/Iclz$a;->jle:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
+    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     goto/16 :goto_1
 
@@ -891,7 +891,7 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/abp;
 
     .line 172
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     iget-object v2, p2, Lcom/tencent/mm/plugin/sns/ui/a/a$a;->gGS:Landroid/widget/ImageView;
 
@@ -901,7 +901,7 @@
 
     sget-object v4, Lcom/tencent/mm/storage/Iclz$a;->jle:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
+    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 173
     iget-object v0, p3, Lcom/tencent/mm/plugin/sns/ui/a/a;->gGI:Ljava/util/List;
@@ -913,7 +913,7 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/abp;
 
     .line 174
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     iget-object v2, p2, Lcom/tencent/mm/plugin/sns/ui/a/a$a;->gGT:Landroid/widget/ImageView;
 
@@ -923,7 +923,7 @@
 
     sget-object v4, Lcom/tencent/mm/storage/Iclz$a;->jle:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
+    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 175
     iget-object v0, p3, Lcom/tencent/mm/plugin/sns/ui/a/a;->gGI:Ljava/util/List;
@@ -935,7 +935,7 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/abp;
 
     .line 176
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     iget-object v2, p2, Lcom/tencent/mm/plugin/sns/ui/a/a$a;->gGU:Landroid/widget/ImageView;
 
@@ -945,7 +945,7 @@
 
     sget-object v4, Lcom/tencent/mm/storage/Iclz$a;->jle:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
+    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 177
     iget-object v0, p2, Lcom/tencent/mm/plugin/sns/ui/a/a$a;->gGW:Landroid/widget/TextView;
@@ -1020,7 +1020,7 @@
     check-cast v0, Lcom/tencent/mm/protocal/b/abp;
 
     .line 192
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
     iget-object v2, p2, Lcom/tencent/mm/plugin/sns/ui/a/a$a;->gGR:Landroid/widget/ImageView;
 
@@ -1030,7 +1030,7 @@
 
     sget-object v4, Lcom/tencent/mm/storage/Iclz$a;->jle:Lcom/tencent/mm/storage/Iclz$a;
 
-    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/h$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
+    invoke-interface {v1, v0, v2, v3, v4}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->b(Lcom/tencent/mm/protocal/b/abp;Landroid/view/View;ILcom/tencent/mm/storage/Iclz$a;)V
 
     .line 193
     iget-object v0, p2, Lcom/tencent/mm/plugin/sns/ui/a/a$a;->gGQ:Landroid/widget/LinearLayout;

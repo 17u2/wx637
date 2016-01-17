@@ -15,7 +15,7 @@
 
 
 # virtual methods
-.method public abstract a(ILcom/tencent/mm/pluginsdk/model/app/f;)V
+.method public abstract a(ILcom/tencent/mm/pluginsdk/model/app/Fclz;)V
 .end method
 
 .method public abstract nL(I)I

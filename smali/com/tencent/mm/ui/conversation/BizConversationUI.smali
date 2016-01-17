@@ -1540,7 +1540,7 @@
     check-cast p3, Landroid/widget/AdapterView$AdapterContextMenuInfo;
 
     .line 667
-    invoke-static {p0, v0}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
+    invoke-static {p0, v0}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;)Landroid/text/SpannableString;
 
     move-result-object v0
 
@@ -1879,7 +1879,7 @@
 
     const-string/jumbo v4, "MM/dd"
 
-    invoke-static {v4, v0}, Lcom/tencent/mm/pluginsdk/g/m;->a(Ljava/lang/CharSequence;Landroid/text/format/Time;)Ljava/lang/CharSequence;
+    invoke-static {v4, v0}, Lcom/tencent/mm/pluginsdk/g/Mclz;->a(Ljava/lang/CharSequence;Landroid/text/format/Time;)Ljava/lang/CharSequence;
 
     move-result-object v0
 

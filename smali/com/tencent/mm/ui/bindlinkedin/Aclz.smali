@@ -15,7 +15,7 @@
 # instance fields
 .field private context:Landroid/content/Context;
 
-.field fuh:Lcom/tencent/mm/pluginsdk/ui/tools/g;
+.field fuh:Lcom/tencent/mm/pluginsdk/ui/tools/Gclz;
 
 .field private jWS:Ljava/lang/String;
 
@@ -48,7 +48,7 @@
     iput-object v1, p0, Lcom/tencent/mm/ui/bindlinkedin/Aclz;->jWT:Lcom/tencent/mm/ui/bindlinkedin/Aclz$a;
 
     .line 28
-    iput-object v1, p0, Lcom/tencent/mm/ui/bindlinkedin/Aclz;->fuh:Lcom/tencent/mm/pluginsdk/ui/tools/g;
+    iput-object v1, p0, Lcom/tencent/mm/ui/bindlinkedin/Aclz;->fuh:Lcom/tencent/mm/pluginsdk/ui/tools/Gclz;
 
     .line 32
     iput-object p1, p0, Lcom/tencent/mm/ui/bindlinkedin/Aclz;->context:Landroid/content/Context;
@@ -70,7 +70,7 @@
 
     invoke-direct {v0, p0}, Lcom/tencent/mm/ui/bindlinkedin/Aclz$1;-><init>(Lcom/tencent/mm/ui/bindlinkedin/Aclz;)V
 
-    iput-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/Aclz;->fuh:Lcom/tencent/mm/pluginsdk/ui/tools/g;
+    iput-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/Aclz;->fuh:Lcom/tencent/mm/pluginsdk/ui/tools/Gclz;
 
     .line 41
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
@@ -305,7 +305,7 @@
 
     :cond_2
     :goto_1
-    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/Aclz;->fuh:Lcom/tencent/mm/pluginsdk/ui/tools/g;
+    iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/Aclz;->fuh:Lcom/tencent/mm/pluginsdk/ui/tools/Gclz;
 
     iget-object v1, v1, Lcom/tencent/mm/ui/bindlinkedin/Aclz$b;->jWV:Landroid/widget/ImageView;
 
@@ -315,7 +315,7 @@
 
     move v6, v5
 
-    invoke-virtual/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/ui/tools/g;->a(Landroid/widget/ImageView;[Ljava/lang/String;Ljava/lang/String;III)V
+    invoke-virtual/range {v0 .. v6}, Lcom/tencent/mm/pluginsdk/ui/tools/Gclz;->a(Landroid/widget/ImageView;[Ljava/lang/String;Ljava/lang/String;III)V
 
     .line 57
     return-object p2

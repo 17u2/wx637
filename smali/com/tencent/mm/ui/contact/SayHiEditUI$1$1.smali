@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic fcs:Lcom/tencent/mm/pluginsdk/model/k;
+.field final synthetic fcs:Lcom/tencent/mm/pluginsdk/model/Kclz;
 
 .field final synthetic ktQ:Lcom/tencent/mm/ui/contact/SayHiEditUI$1;
 
 
 # direct methods
-.method constructor <init>(Lcom/tencent/mm/ui/contact/SayHiEditUI$1;Lcom/tencent/mm/pluginsdk/model/k;)V
+.method constructor <init>(Lcom/tencent/mm/ui/contact/SayHiEditUI$1;Lcom/tencent/mm/pluginsdk/model/Kclz;)V
     .locals 1
 
     .prologue
     .line 80
     iput-object p1, p0, Lcom/tencent/mm/ui/contact/SayHiEditUI$1$1;->ktQ:Lcom/tencent/mm/ui/contact/SayHiEditUI$1;
 
-    iput-object p2, p0, Lcom/tencent/mm/ui/contact/SayHiEditUI$1$1;->fcs:Lcom/tencent/mm/pluginsdk/model/k;
+    iput-object p2, p0, Lcom/tencent/mm/ui/contact/SayHiEditUI$1$1;->fcs:Lcom/tencent/mm/pluginsdk/model/Kclz;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/contact/SayHiEditUI$1$1;->fcs:Lcom/tencent/mm/pluginsdk/model/k;
+    iget-object v1, p0, Lcom/tencent/mm/ui/contact/SayHiEditUI$1$1;->fcs:Lcom/tencent/mm/pluginsdk/model/Kclz;
 
     invoke-virtual {v0, v1}, Lcom/tencent/mm/q/Lclz;->c(Lcom/tencent/mm/q/Jclz;)V
 

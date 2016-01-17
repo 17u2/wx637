@@ -27,7 +27,7 @@
 
 .field gyU:Landroid/widget/FrameLayout;
 
-.field gyV:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+.field gyV:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
 .field gyW:Landroid/widget/ImageView;
 

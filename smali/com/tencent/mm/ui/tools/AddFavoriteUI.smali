@@ -371,7 +371,7 @@
 
     const-string/jumbo v3, ""
 
-    invoke-static {v0, v2, p1, v1, v3}, Lcom/tencent/mm/pluginsdk/model/c;->a(Lcom/tencent/mm/d/a/ASclz;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v0, v2, p1, v1, v3}, Lcom/tencent/mm/pluginsdk/model/Cclz;->a(Lcom/tencent/mm/d/a/ASclz;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v1
 
@@ -2324,7 +2324,7 @@
 
     iget-object v2, p0, Lcom/tencent/mm/ui/tools/AddFavoriteUI;->filePath:Ljava/lang/String;
 
-    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/c;->a(Lcom/tencent/mm/d/a/ASclz;ILjava/lang/String;)Z
+    invoke-static {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/model/Cclz;->a(Lcom/tencent/mm/d/a/ASclz;ILjava/lang/String;)Z
 
     move-result v1
 
@@ -2846,7 +2846,7 @@
 
     const-string/jumbo v3, ""
 
-    invoke-static {v4, v8, v0, v5, v3}, Lcom/tencent/mm/pluginsdk/model/c;->a(Lcom/tencent/mm/d/a/ASclz;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v4, v8, v0, v5, v3}, Lcom/tencent/mm/pluginsdk/model/Cclz;->a(Lcom/tencent/mm/d/a/ASclz;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
 

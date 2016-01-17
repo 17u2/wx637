@@ -43,7 +43,7 @@
 
 
 # virtual methods
-.method final a(Lcom/tencent/mm/pluginsdk/ui/applet/g;Lcom/tencent/mm/pluginsdk/ui/d/b;)Z
+.method final a(Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;Lcom/tencent/mm/pluginsdk/ui/d/Bclz;)Z
     .locals 1
 
     .prologue
@@ -53,7 +53,7 @@
     return v0
 .end method
 
-.method final a(Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/j;Landroid/os/Bundle;)Z
+.method final a(Ljava/lang/String;ZLcom/tencent/mm/pluginsdk/Jclz;Landroid/os/Bundle;)Z
     .locals 5
 
     .prologue
@@ -75,7 +75,7 @@
     if-eqz p3, :cond_0
 
     .line 1919
-    invoke-interface {p3}, Lcom/tencent/mm/pluginsdk/j;->aHN()Ljava/lang/Object;
+    invoke-interface {p3}, Lcom/tencent/mm/pluginsdk/Jclz;->aHN()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -124,7 +124,7 @@
     goto :goto_0
 .end method
 
-.method final aY(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/ui/applet/g;
+.method final aY(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;
     .locals 1
 
     .prologue

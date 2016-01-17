@@ -79,12 +79,12 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/tencent/mm/pluginsdk/h$v;
+    check-cast v0, Lcom/tencent/mm/pluginsdk/Hclz$v;
 
     .line 121
     iget v3, p0, Lcom/tencent/mm/plugin/talkroom/model/i$7;->aoB:I
 
-    invoke-interface {v0, v3}, Lcom/tencent/mm/pluginsdk/h$v;->hZ(I)V
+    invoke-interface {v0, v3}, Lcom/tencent/mm/pluginsdk/Hclz$v;->hZ(I)V
 
     goto :goto_0
 

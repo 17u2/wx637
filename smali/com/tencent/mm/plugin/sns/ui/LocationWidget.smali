@@ -721,7 +721,7 @@
 
     .prologue
     .line 207
-    invoke-static/range {p0 .. p7}, Lcom/tencent/mm/pluginsdk/i;->c(DDDD)D
+    invoke-static/range {p0 .. p7}, Lcom/tencent/mm/pluginsdk/Iclz;->c(DDDD)D
 
     move-result-wide v0
 

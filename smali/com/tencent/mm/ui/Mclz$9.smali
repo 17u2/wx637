@@ -63,7 +63,7 @@
     if-ne v0, v1, :cond_1
 
     .line 344
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/a;->aIc()Lcom/tencent/mm/pluginsdk/model/app/a;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/model/app/Aclz;->aIc()Lcom/tencent/mm/pluginsdk/model/app/Aclz;
 
     move-result-object v0
 
@@ -84,20 +84,20 @@
 
     .line 350
     :cond_1
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$af;->aHJ()Lcom/tencent/mm/pluginsdk/h$ac;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$af;->aHJ()Lcom/tencent/mm/pluginsdk/Hclz$ac;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 351
-    invoke-static {}, Lcom/tencent/mm/pluginsdk/h$af;->aHJ()Lcom/tencent/mm/pluginsdk/h$ac;
+    invoke-static {}, Lcom/tencent/mm/pluginsdk/Hclz$af;->aHJ()Lcom/tencent/mm/pluginsdk/Hclz$ac;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/tencent/mm/ui/Mclz$9;->dcc:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/h$ac;->rS(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Hclz$ac;->rS(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

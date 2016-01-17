@@ -6,7 +6,7 @@
 # instance fields
 .field private jEI:Ljava/util/ArrayList;
 
-.field public jJj:Lcom/tencent/mm/pluginsdk/i/a/a;
+.field public jJj:Lcom/tencent/mm/pluginsdk/i/a/Aclz;
 
 
 # direct methods
@@ -27,7 +27,7 @@
     iput-object v0, p0, Lcom/tencent/mm/ui/c/Bclz;->jEI:Ljava/util/ArrayList;
 
     .line 20
-    iput-object v1, p0, Lcom/tencent/mm/ui/c/Bclz;->jJj:Lcom/tencent/mm/pluginsdk/i/a/a;
+    iput-object v1, p0, Lcom/tencent/mm/ui/c/Bclz;->jJj:Lcom/tencent/mm/pluginsdk/i/a/Aclz;
 
     .line 28
     invoke-virtual {p0}, Lcom/tencent/mm/ui/c/Bclz;->Fq()V
@@ -55,7 +55,7 @@
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
     .line 45
-    iget-object v0, p0, Lcom/tencent/mm/ui/c/Bclz;->jJj:Lcom/tencent/mm/pluginsdk/i/a/a;
+    iget-object v0, p0, Lcom/tencent/mm/ui/c/Bclz;->jJj:Lcom/tencent/mm/pluginsdk/i/a/Aclz;
 
     if-nez v0, :cond_0
 
@@ -67,9 +67,9 @@
     :cond_0
     new-instance v0, Lcom/tencent/mm/ui/c/Cclz;
 
-    iget-object v1, p0, Lcom/tencent/mm/ui/c/Bclz;->jJj:Lcom/tencent/mm/pluginsdk/i/a/a;
+    iget-object v1, p0, Lcom/tencent/mm/ui/c/Bclz;->jJj:Lcom/tencent/mm/pluginsdk/i/a/Aclz;
 
-    invoke-direct {v0, v1}, Lcom/tencent/mm/ui/c/Cclz;-><init>(Lcom/tencent/mm/pluginsdk/i/a/a;)V
+    invoke-direct {v0, v1}, Lcom/tencent/mm/ui/c/Cclz;-><init>(Lcom/tencent/mm/pluginsdk/i/a/Aclz;)V
 
     .line 49
     iget-object v1, p0, Lcom/tencent/mm/ui/c/Bclz;->jEI:Ljava/util/ArrayList;

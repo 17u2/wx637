@@ -90,7 +90,7 @@
 
     const-string/jumbo v1, "weixin://dl/feedback"
 
-    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/d;->aA(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-static {v0, v1}, Lcom/tencent/mm/pluginsdk/Dclz;->aA(Landroid/content/Context;Ljava/lang/String;)Z
 
     .line 210
     invoke-static {}, Lcom/tencent/mm/ui/conversation/Fclz;->baX()Lcom/tencent/mm/ui/base/Gclz;

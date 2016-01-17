@@ -61,7 +61,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/pluginsdk/ui/musicplayer/MusicPlayerUI;->hYu:Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->getLyricMgr()Lcom/tencent/mm/pluginsdk/ui/musicplayer/a;
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/musicplayer/LyricView;->getLyricMgr()Lcom/tencent/mm/pluginsdk/ui/musicplayer/Aclz;
 
     move-result-object v0
 

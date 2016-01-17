@@ -224,11 +224,11 @@
 
     move-result-object v4
 
-    iput-object v4, v3, Lcom/tencent/mm/pluginsdk/h/a/c/a$a;->hNG:Ljava/lang/String;
+    iput-object v4, v3, Lcom/tencent/mm/pluginsdk/h/a/c/Aclz$a;->hNG:Ljava/lang/String;
 
     iget-object v4, v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/h;->hAw:Ljava/lang/String;
 
-    invoke-virtual {v3, v4}, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/d$a;->yb(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/h/a/c/a$a;
+    invoke-virtual {v3, v4}, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/d$a;->yb(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/h/a/c/Aclz$a;
 
     iget-object v4, v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/h;->url:Ljava/lang/String;
 
@@ -236,11 +236,11 @@
 
     move-result-object v4
 
-    invoke-virtual {v3, v4}, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/d$a;->yd(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/h/a/c/a$a;
+    invoke-virtual {v3, v4}, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/d$a;->yd(Ljava/lang/String;)Lcom/tencent/mm/pluginsdk/h/a/c/Aclz$a;
 
     const-wide/16 v4, 0x0
 
-    iput-wide v4, v3, Lcom/tencent/mm/pluginsdk/h/a/c/a$a;->gJu:J
+    iput-wide v4, v3, Lcom/tencent/mm/pluginsdk/h/a/c/Aclz$a;->gJu:J
 
     iget-object v4, v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/h;->aHg:Ljava/lang/String;
 
@@ -260,7 +260,7 @@
 
     iget v0, v0, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/h;->networkType:I
 
-    iput v0, v3, Lcom/tencent/mm/pluginsdk/h/a/c/a$a;->networkType:I
+    iput v0, v3, Lcom/tencent/mm/pluginsdk/h/a/c/Aclz$a;->networkType:I
 
     invoke-virtual {v3}, Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/d$a;->aFv()Lcom/tencent/mm/plugin/webview/modelcache/downloaderimpl/d;
 

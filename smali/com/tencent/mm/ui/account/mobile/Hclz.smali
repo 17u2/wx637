@@ -169,7 +169,7 @@
     .line 157
     iget-object v2, p0, Lcom/tencent/mm/ui/account/mobile/Hclz;->jHC:Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI;
 
-    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/a;->cu(Landroid/content/Context;)Ljava/util/List;
+    invoke-static {v2}, Lcom/tencent/mm/pluginsdk/Aclz;->cu(Landroid/content/Context;)Ljava/util/List;
 
     move-result-object v2
 
@@ -244,11 +244,11 @@
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 167
-    sget-object v1, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v1, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/account/mobile/Hclz;->jHC:Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI;
 
-    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/f;->ae(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/Fclz;->ae(Landroid/content/Context;)Landroid/content/Intent;
 
     move-result-object v1
 
@@ -272,11 +272,11 @@
 
     .line 172
     :cond_3
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v1, p0, Lcom/tencent/mm/ui/account/mobile/Hclz;->jHC:Lcom/tencent/mm/ui/account/mobile/MobileVerifyUI;
 
-    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/f;->ae(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-interface {v0, v1}, Lcom/tencent/mm/pluginsdk/Fclz;->ae(Landroid/content/Context;)Landroid/content/Intent;
 
     move-result-object v0
 

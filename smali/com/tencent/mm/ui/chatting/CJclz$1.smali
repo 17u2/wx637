@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/tencent/mm/pluginsdk/ui/d/b;
+.implements Lcom/tencent/mm/pluginsdk/ui/d/Bclz;
 
 
 # annotations
@@ -47,12 +47,12 @@
 
 
 # virtual methods
-.method public final a(Lcom/tencent/mm/pluginsdk/ui/applet/g;)Ljava/lang/Object;
+.method public final a(Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;)Ljava/lang/Object;
     .locals 1
 
     .prologue
     .line 476
-    iget v0, p1, Lcom/tencent/mm/pluginsdk/ui/applet/g;->type:I
+    iget v0, p1, Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;->type:I
 
     packed-switch v0, :pswitch_data_0
 
@@ -68,7 +68,7 @@
     :pswitch_1
     iget-object v0, p0, Lcom/tencent/mm/ui/chatting/CJclz$1;->kfn:Lcom/tencent/mm/ui/chatting/CJclz;
 
-    invoke-static {v0, p1}, Lcom/tencent/mm/ui/chatting/CJclz;->a(Lcom/tencent/mm/ui/chatting/CJclz;Lcom/tencent/mm/pluginsdk/ui/applet/g;)V
+    invoke-static {v0, p1}, Lcom/tencent/mm/ui/chatting/CJclz;->a(Lcom/tencent/mm/ui/chatting/CJclz;Lcom/tencent/mm/pluginsdk/ui/applet/Gclz;)V
 
     goto :goto_0
 

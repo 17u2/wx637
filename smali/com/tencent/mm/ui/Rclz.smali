@@ -1504,13 +1504,13 @@
     move v0, v1
 
     :goto_1
-    sget-object v2, Lcom/tencent/mm/pluginsdk/h$ah;->hKe:Lcom/tencent/mm/pluginsdk/h$n$a;
+    sget-object v2, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKe:Lcom/tencent/mm/pluginsdk/Hclz$n$a;
 
     if-eqz v2, :cond_14
 
-    sget-object v2, Lcom/tencent/mm/pluginsdk/h$ah;->hKe:Lcom/tencent/mm/pluginsdk/h$n$a;
+    sget-object v2, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKe:Lcom/tencent/mm/pluginsdk/Hclz$n$a;
 
-    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/h$n$a;->CN()I
+    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/Hclz$n$a;->CN()I
 
     move-result v2
 
@@ -1931,14 +1931,14 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/Rclz;->mContext:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/d;->cv(Landroid/content/Context;)V
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/Dclz;->cv(Landroid/content/Context;)V
 
     goto/16 :goto_0
 
     :sswitch_14
     iget-object v0, p0, Lcom/tencent/mm/ui/Rclz;->mContext:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/wallet/b;->cI(Landroid/content/Context;)V
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/wallet/Bclz;->cI(Landroid/content/Context;)V
 
     goto/16 :goto_0
 

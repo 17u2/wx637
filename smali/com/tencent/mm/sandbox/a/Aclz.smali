@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lcom/tencent/mm/network/Jclz;
-.implements Lcom/tencent/mm/pluginsdk/h$ab;
+.implements Lcom/tencent/mm/pluginsdk/Hclz$ab;
 
 
 # instance fields

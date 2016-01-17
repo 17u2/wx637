@@ -334,7 +334,7 @@
 
     iget-object v6, v6, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-static {v5, v6, v4}, Lcom/tencent/mm/pluginsdk/i/b/a/a;->c(Ljava/lang/String;Landroid/content/Context;Z)Z
+    invoke-static {v5, v6, v4}, Lcom/tencent/mm/pluginsdk/i/b/a/Aclz;->c(Ljava/lang/String;Landroid/content/Context;Z)Z
 
     move-result v4
 
@@ -366,9 +366,9 @@
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->getVideoPath()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->getVideoPath()Ljava/lang/String;
 
     move-result-object v0
 
@@ -378,9 +378,9 @@
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->getVideoPath()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->getVideoPath()Ljava/lang/String;
 
     move-result-object v0
 
@@ -394,9 +394,9 @@
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->isPlaying()Z
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->isPlaying()Z
 
     move-result v0
 
@@ -407,9 +407,9 @@
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->start()Z
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->start()Z
 
     .line 199
     :goto_3
@@ -452,18 +452,18 @@
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->setVideoPath(Ljava/lang/String;)V
+    invoke-interface {v0, v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->setVideoPath(Ljava/lang/String;)V
 
     .line 197
     invoke-virtual {v3}, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->aZV()Lcom/tencent/mm/ui/chatting/gallery/Jclz;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->start()Z
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->start()Z
 
     goto :goto_3
 
@@ -536,7 +536,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-static {v2, v0, v4}, Lcom/tencent/mm/pluginsdk/i/b/a/a;->d(Ljava/lang/String;Landroid/content/Context;Z)Z
+    invoke-static {v2, v0, v4}, Lcom/tencent/mm/pluginsdk/i/b/a/Aclz;->d(Ljava/lang/String;Landroid/content/Context;Z)Z
 
     move-result v0
 
@@ -607,9 +607,9 @@
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->isPlaying()Z
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->isPlaying()Z
 
     move-result v0
 
@@ -620,9 +620,9 @@
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v0, v0, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->pause()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->pause()V
 
     .line 338
     :cond_1
@@ -1129,9 +1129,9 @@
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->isPlaying()Z
+    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->isPlaying()Z
 
     move-result v2
 
@@ -1142,9 +1142,9 @@
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->stop()V
+    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->stop()V
 
     .line 88
     :cond_2
@@ -1267,7 +1267,7 @@
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
     check-cast v1, Landroid/view/View;
 
@@ -1294,9 +1294,9 @@
 
     move-result-object v1
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v1, v1, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v1}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->stop()V
+    invoke-interface {v1}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->stop()V
 
     invoke-virtual {v0, v3}, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->hi(Z)V
 
@@ -1656,9 +1656,9 @@
 
     move-result-object v4
 
-    iget-object v4, v4, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v4, v4, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v4}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->isPlaying()Z
+    invoke-interface {v4}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->isPlaying()Z
 
     move-result v4
 
@@ -1691,9 +1691,9 @@
 
     move-result-object v2
 
-    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/f;
+    iget-object v2, v2, Lcom/tencent/mm/ui/chatting/gallery/Jclz;->kpl:Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;
 
-    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/ui/tools/f;->getCurrentPosition()I
+    invoke-interface {v2}, Lcom/tencent/mm/pluginsdk/ui/tools/Fclz;->getCurrentPosition()I
 
     move-result v2
 

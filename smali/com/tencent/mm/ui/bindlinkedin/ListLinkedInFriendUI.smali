@@ -213,13 +213,13 @@
 
     if-lez v0, :cond_2
 
-    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/f;
+    sget-object v0, Lcom/tencent/mm/plugin/a/a;->cfx:Lcom/tencent/mm/pluginsdk/Fclz;
 
     iget-object v2, p0, Lcom/tencent/mm/ui/MMActivity;->jxX:Lcom/tencent/mm/ui/Jclz;
 
     iget-object v2, v2, Lcom/tencent/mm/ui/Jclz;->jyq:Landroid/support/v7/app/ActionBarActivity;
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/f;->d(Landroid/content/Intent;Landroid/content/Context;)V
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/Fclz;->d(Landroid/content/Intent;Landroid/content/Context;)V
 
     :cond_2
     :goto_0
@@ -811,23 +811,23 @@
 
     .line 342
     :pswitch_0
-    new-instance v2, Lcom/tencent/mm/pluginsdk/ui/applet/a;
+    new-instance v2, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;
 
     new-instance v3, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI$3;
 
     invoke-direct {v3, p0}, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI$3;-><init>(Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;)V
 
-    invoke-direct {v2, p0, v3}, Lcom/tencent/mm/pluginsdk/ui/applet/a;-><init>(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/ui/applet/a$a;)V
+    invoke-direct {v2, p0, v3}, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;-><init>(Landroid/content/Context;Lcom/tencent/mm/pluginsdk/ui/applet/Aclz$a;)V
 
     .line 358
-    iput-boolean v5, v2, Lcom/tencent/mm/pluginsdk/ui/applet/a;->hSz:Z
+    iput-boolean v5, v2, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;->hSz:Z
 
-    iput-boolean v5, v2, Lcom/tencent/mm/pluginsdk/ui/applet/a;->hSy:Z
+    iput-boolean v5, v2, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;->hSy:Z
 
-    iput-object v1, v2, Lcom/tencent/mm/pluginsdk/ui/applet/a;->hSA:Ljava/lang/String;
+    iput-object v1, v2, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;->hSA:Ljava/lang/String;
 
     .line 360
-    iput-boolean v5, v2, Lcom/tencent/mm/pluginsdk/ui/applet/a;->hSz:Z
+    iput-boolean v5, v2, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;->hSz:Z
 
     .line 361
     new-instance v3, Ljava/util/LinkedList;
@@ -846,7 +846,7 @@
     .line 363
     iget-object v4, v0, Lcom/tencent/mm/modelfriend/Sclz;->field_wechatUsername:Ljava/lang/String;
 
-    invoke-virtual {v2, v4, v3, v5}, Lcom/tencent/mm/pluginsdk/ui/applet/a;->a(Ljava/lang/String;Ljava/util/LinkedList;Z)V
+    invoke-virtual {v2, v4, v3, v5}, Lcom/tencent/mm/pluginsdk/ui/applet/Aclz;->a(Ljava/lang/String;Ljava/util/LinkedList;Z)V
 
     .line 364
     iput v5, v0, Lcom/tencent/mm/modelfriend/Sclz;->field_userOpStatus:I
@@ -1222,9 +1222,9 @@
     .line 127
     iget-object v0, p0, Lcom/tencent/mm/ui/bindlinkedin/ListLinkedInFriendUI;->jWZ:Lcom/tencent/mm/ui/bindlinkedin/Aclz;
 
-    iget-object v0, v0, Lcom/tencent/mm/ui/bindlinkedin/Aclz;->fuh:Lcom/tencent/mm/pluginsdk/ui/tools/g;
+    iget-object v0, v0, Lcom/tencent/mm/ui/bindlinkedin/Aclz;->fuh:Lcom/tencent/mm/pluginsdk/ui/tools/Gclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/g;->destory()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Gclz;->destory()V
 
     .line 128
     return-void

@@ -114,19 +114,19 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/d;->xj(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/tencent/mm/pluginsdk/Dclz;->xj(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_5
 
-    invoke-static {v4}, Lcom/tencent/mm/pluginsdk/d;->m(Landroid/net/Uri;)Z
+    invoke-static {v4}, Lcom/tencent/mm/pluginsdk/Dclz;->m(Landroid/net/Uri;)Z
 
     move-result v1
 
     if-eqz v1, :cond_3
 
-    invoke-static {v4}, Lcom/tencent/mm/pluginsdk/d;->n(Landroid/net/Uri;)Z
+    invoke-static {v4}, Lcom/tencent/mm/pluginsdk/Dclz;->n(Landroid/net/Uri;)Z
 
     move-result v1
 
@@ -166,7 +166,7 @@
 
     invoke-direct {v3, p0, v0}, Lcom/tencent/mm/plugin/base/stub/WXCustomSchemeEntryActivity$1;-><init>(Lcom/tencent/mm/plugin/base/stub/WXCustomSchemeEntryActivity;Landroid/app/ProgressDialog;)V
 
-    invoke-static {p0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/d;->a(Landroid/content/Context;Ljava/lang/String;ILcom/tencent/mm/pluginsdk/d$a;)V
+    invoke-static {p0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/Dclz;->a(Landroid/content/Context;Ljava/lang/String;ILcom/tencent/mm/pluginsdk/Dclz$a;)V
 
     move v0, v6
 
@@ -208,7 +208,7 @@
 
     invoke-direct {v1, p0}, Lcom/tencent/mm/plugin/base/stub/WXCustomSchemeEntryActivity$2;-><init>(Lcom/tencent/mm/plugin/base/stub/WXCustomSchemeEntryActivity;)V
 
-    invoke-static {p0, v0, v2, v1}, Lcom/tencent/mm/pluginsdk/d;->a(Landroid/content/Context;Ljava/lang/String;ILcom/tencent/mm/pluginsdk/d$a;)V
+    invoke-static {p0, v0, v2, v1}, Lcom/tencent/mm/pluginsdk/Dclz;->a(Landroid/content/Context;Ljava/lang/String;ILcom/tencent/mm/pluginsdk/Dclz$a;)V
 
     :cond_2
     :goto_4
@@ -221,7 +221,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/d;->xk(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/tencent/mm/pluginsdk/Dclz;->xk(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -255,7 +255,7 @@
 
     move-object v0, p0
 
-    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/d;->a(Landroid/content/Context;Ljava/lang/String;ILcom/tencent/mm/pluginsdk/d$a;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/Dclz;->a(Landroid/content/Context;Ljava/lang/String;ILcom/tencent/mm/pluginsdk/Dclz$a;Ljava/lang/String;Ljava/lang/String;)V
 
     move v0, v6
 
@@ -296,7 +296,7 @@
 
     move-object v0, p0
 
-    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/d;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Lcom/tencent/mm/pluginsdk/d$a;)V
+    invoke-static/range {v0 .. v5}, Lcom/tencent/mm/pluginsdk/Dclz;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Lcom/tencent/mm/pluginsdk/Dclz$a;)V
 
     goto :goto_4
 
@@ -502,11 +502,11 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {v3}, Lcom/tencent/mm/pluginsdk/f/a;->xt(Ljava/lang/String;)Landroid/os/Bundle;
+    invoke-static {v3}, Lcom/tencent/mm/pluginsdk/f/Aclz;->xt(Ljava/lang/String;)Landroid/os/Bundle;
 
     move-result-object v0
 
-    invoke-static {p0, v0, v7}, Lcom/tencent/mm/pluginsdk/wallet/b;->a(Landroid/content/Context;Landroid/os/Bundle;Z)Z
+    invoke-static {p0, v0, v7}, Lcom/tencent/mm/pluginsdk/wallet/Bclz;->a(Landroid/content/Context;Landroid/os/Bundle;Z)Z
 
     goto/16 :goto_4
 
@@ -610,7 +610,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/tencent/mm/pluginsdk/d;->xj(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/tencent/mm/pluginsdk/Dclz;->xj(Ljava/lang/String;)Z
 
     move-result v3
 

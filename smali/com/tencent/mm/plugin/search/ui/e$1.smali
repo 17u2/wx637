@@ -80,9 +80,9 @@
     invoke-interface {v0}, Lcom/tencent/mm/ui/e/Fclz;->aom()V
 
     .line 300
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKc:Lcom/tencent/mm/pluginsdk/h$n$c;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKc:Lcom/tencent/mm/pluginsdk/Hclz$n$c;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$n$c;->start()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$n$c;->start()V
 
     .line 301
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/e$1;->fKc:Lcom/tencent/mm/plugin/search/ui/e;

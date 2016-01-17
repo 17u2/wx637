@@ -351,9 +351,9 @@
     .line 143
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->aBw:Ljava/lang/String;
 
-    iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/n;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/tools/n;->setSearchContent(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;->setSearchContent(Ljava/lang/String;)V
 
     .line 144
     iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSDetailUI;->fJM:Lcom/tencent/mm/plugin/search/ui/d;
@@ -378,14 +378,14 @@
     const-string/jumbo v0, ""
 
     :goto_0
-    iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/n;
+    iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
-    invoke-virtual {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/tools/n;->setHint(Ljava/lang/CharSequence;)V
+    invoke-virtual {v1, v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;->setHint(Ljava/lang/CharSequence;)V
 
     .line 146
-    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/n;
+    iget-object v0, p0, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->cDk:Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;
 
-    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/n;->clearFocus()V
+    invoke-virtual {v0}, Lcom/tencent/mm/pluginsdk/ui/tools/Nclz;->clearFocus()V
 
     .line 159
     :cond_0
@@ -485,7 +485,7 @@
     invoke-interface {v0}, Lcom/tencent/mm/ui/e/Fclz;->aom()V
 
     .line 42
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKh:Lcom/tencent/mm/pluginsdk/h$n$e;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKh:Lcom/tencent/mm/pluginsdk/Hclz$n$e;
 
     const/4 v1, 0x7
 
@@ -493,7 +493,7 @@
 
     iget-object v3, p0, Lcom/tencent/mm/plugin/search/ui/FTSDetailUI;->fJL:Lcom/tencent/mm/modelsearch/Eclz$b;
 
-    invoke-interface {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/h$n$e;->a(ILjava/lang/String;Lcom/tencent/mm/pluginsdk/h$n$e$a;)V
+    invoke-interface {v0, v1, v2, v3}, Lcom/tencent/mm/pluginsdk/Hclz$n$e;->a(ILjava/lang/String;Lcom/tencent/mm/pluginsdk/Hclz$n$e$a;)V
 
     .line 44
     return-void
@@ -521,13 +521,13 @@
     invoke-interface {v0}, Lcom/tencent/mm/ui/e/Fclz;->aoj()V
 
     .line 130
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ah;->hKh:Lcom/tencent/mm/pluginsdk/h$n$e;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ah;->hKh:Lcom/tencent/mm/pluginsdk/Hclz$n$e;
 
     iget-object v1, p0, Lcom/tencent/mm/plugin/search/ui/FTSDetailUI;->fJL:Lcom/tencent/mm/modelsearch/Eclz$b;
 
     const/4 v2, 0x7
 
-    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/h$n$e;->a(Lcom/tencent/mm/pluginsdk/h$n$e$a;I)Z
+    invoke-interface {v0, v1, v2}, Lcom/tencent/mm/pluginsdk/Hclz$n$e;->a(Lcom/tencent/mm/pluginsdk/Hclz$n$e$a;I)Z
 
     .line 132
     invoke-super {p0}, Lcom/tencent/mm/plugin/search/ui/FTSBaseUI;->onDestroy()V

@@ -4,8 +4,8 @@
 
 # interfaces
 .implements Lcom/tencent/mm/model/Rclz;
-.implements Lcom/tencent/mm/pluginsdk/h$s;
-.implements Lcom/tencent/mm/pluginsdk/h$u;
+.implements Lcom/tencent/mm/pluginsdk/Hclz$s;
+.implements Lcom/tencent/mm/pluginsdk/Hclz$u;
 .implements Lcom/tencent/mm/q/Dclz;
 
 
@@ -309,7 +309,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/talkroom/model/b;->gOb:Lcom/tencent/mm/plugin/talkroom/model/c;
 
-    invoke-virtual {p0, v0}, Lcom/tencent/mm/plugin/talkroom/model/g;->b(Lcom/tencent/mm/pluginsdk/h$v;)V
+    invoke-virtual {p0, v0}, Lcom/tencent/mm/plugin/talkroom/model/g;->b(Lcom/tencent/mm/pluginsdk/Hclz$v;)V
 
     .line 191
     :goto_0
@@ -336,7 +336,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/talkroom/model/b;->gOb:Lcom/tencent/mm/plugin/talkroom/model/c;
 
-    invoke-virtual {p0, v0}, Lcom/tencent/mm/plugin/talkroom/model/g;->a(Lcom/tencent/mm/pluginsdk/h$v;)V
+    invoke-virtual {p0, v0}, Lcom/tencent/mm/plugin/talkroom/model/g;->a(Lcom/tencent/mm/pluginsdk/Hclz$v;)V
 
     goto :goto_0
 
@@ -382,7 +382,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/plugin/talkroom/model/e;->a(Lcom/tencent/mm/pluginsdk/h$s;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/plugin/talkroom/model/e;->a(Lcom/tencent/mm/pluginsdk/Hclz$s;)V
 
     .line 200
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->lf()Lcom/tencent/mm/model/Qclz;
@@ -2289,7 +2289,7 @@
     goto/16 :goto_1
 .end method
 
-.method public final a(Lcom/tencent/mm/pluginsdk/h$v;)V
+.method public final a(Lcom/tencent/mm/pluginsdk/Hclz$v;)V
     .locals 2
 
     .prologue
@@ -2674,7 +2674,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/tencent/mm/plugin/talkroom/model/e;->b(Lcom/tencent/mm/pluginsdk/h$s;)V
+    invoke-virtual {v0, p0}, Lcom/tencent/mm/plugin/talkroom/model/e;->b(Lcom/tencent/mm/pluginsdk/Hclz$s;)V
 
     invoke-static {}, Lcom/tencent/mm/model/AHclz;->lf()Lcom/tencent/mm/model/Qclz;
 
@@ -2688,7 +2688,7 @@
 
     iget-object v0, v0, Lcom/tencent/mm/plugin/talkroom/model/b;->gOb:Lcom/tencent/mm/plugin/talkroom/model/c;
 
-    invoke-virtual {p0, v0}, Lcom/tencent/mm/plugin/talkroom/model/g;->b(Lcom/tencent/mm/pluginsdk/h$v;)V
+    invoke-virtual {p0, v0}, Lcom/tencent/mm/plugin/talkroom/model/g;->b(Lcom/tencent/mm/pluginsdk/Hclz$v;)V
 
     iget-object v0, p0, Lcom/tencent/mm/plugin/talkroom/model/g;->gPa:Lcom/tencent/mm/plugin/talkroom/component/a;
 
@@ -3060,15 +3060,15 @@
 
     if-eq v1, v0, :cond_0
 
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$a;->hJQ:Lcom/tencent/mm/pluginsdk/h$z;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJQ:Lcom/tencent/mm/pluginsdk/Hclz$z;
 
     if-eqz v1, :cond_1
 
-    sget-object v1, Lcom/tencent/mm/pluginsdk/h$a;->hJQ:Lcom/tencent/mm/pluginsdk/h$z;
+    sget-object v1, Lcom/tencent/mm/pluginsdk/Hclz$a;->hJQ:Lcom/tencent/mm/pluginsdk/Hclz$z;
 
     iget-object v2, p0, Lcom/tencent/mm/plugin/talkroom/model/g;->gOV:Ljava/lang/String;
 
-    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/h$z;->pC(Ljava/lang/String;)Z
+    invoke-interface {v1, v2}, Lcom/tencent/mm/pluginsdk/Hclz$z;->pC(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -3430,7 +3430,7 @@
     goto :goto_0
 .end method
 
-.method public final b(Lcom/tencent/mm/pluginsdk/h$v;)V
+.method public final b(Lcom/tencent/mm/pluginsdk/Hclz$v;)V
     .locals 1
 
     .prologue

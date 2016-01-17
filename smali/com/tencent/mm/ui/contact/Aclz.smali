@@ -2056,11 +2056,11 @@
     .line 631
     iget-object v1, p0, Lcom/tencent/mm/ui/contact/Aclz;->kpL:Lcom/tencent/mm/ui/contact/AddressUI$a;
 
-    iget-object v1, v1, Lcom/tencent/mm/ui/contact/AddressUI$a;->cOz:Lcom/tencent/mm/pluginsdk/ui/d;
+    iget-object v1, v1, Lcom/tencent/mm/ui/contact/AddressUI$a;->cOz:Lcom/tencent/mm/pluginsdk/ui/Dclz;
 
     iget-object v4, v3, Lcom/tencent/mm/ui/contact/Aclz$b;->epk:Lcom/tencent/mm/ui/AddressView;
 
-    invoke-virtual {v1, v4}, Lcom/tencent/mm/pluginsdk/ui/d;->a(Lcom/tencent/mm/pluginsdk/ui/d$a;)V
+    invoke-virtual {v1, v4}, Lcom/tencent/mm/pluginsdk/ui/Dclz;->a(Lcom/tencent/mm/pluginsdk/ui/Dclz$a;)V
 
     .line 632
     invoke-virtual {v2, v3}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
@@ -2148,7 +2148,7 @@
 
     iget-object v2, v0, Lcom/tencent/mm/storage/Cclz;->field_username:Ljava/lang/String;
 
-    invoke-static {v1, v2}, Lcom/tencent/mm/pluginsdk/ui/a$b;->a(Lcom/tencent/mm/pluginsdk/ui/a$a;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/tencent/mm/pluginsdk/ui/Aclz$b;->a(Lcom/tencent/mm/pluginsdk/ui/Aclz$a;Ljava/lang/String;)V
 
     iget v1, v0, Lcom/tencent/mm/storage/Cclz;->field_verifyFlag:I
 
@@ -2296,7 +2296,7 @@
 
     move-result v2
 
-    invoke-static {v4, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/e;->a(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/text/SpannableString;
+    invoke-static {v4, v1, v2}, Lcom/tencent/mm/pluginsdk/ui/d/Eclz;->a(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/text/SpannableString;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

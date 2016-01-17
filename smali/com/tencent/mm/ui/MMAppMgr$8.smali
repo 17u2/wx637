@@ -230,14 +230,14 @@
     invoke-virtual {v0, v1}, Lcom/tencent/mm/z/Aclz;->aN(Z)V
 
     .line 310
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ai;->hKj:Lcom/tencent/mm/pluginsdk/h$p;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ai;->hKj:Lcom/tencent/mm/pluginsdk/Hclz$p;
 
     if-eqz v0, :cond_2
 
     .line 311
-    sget-object v0, Lcom/tencent/mm/pluginsdk/h$ai;->hKj:Lcom/tencent/mm/pluginsdk/h$p;
+    sget-object v0, Lcom/tencent/mm/pluginsdk/Hclz$ai;->hKj:Lcom/tencent/mm/pluginsdk/Hclz$p;
 
-    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/h$p;->axz()V
+    invoke-interface {v0}, Lcom/tencent/mm/pluginsdk/Hclz$p;->axz()V
 
     .line 314
     :cond_2
