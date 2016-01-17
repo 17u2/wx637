@@ -212,7 +212,7 @@
     .line 99
     iget-object v0, p0, Landroid/support/v7/app/a;->iC:Landroid/support/v7/app/ActionBarActivity;
 
-    sget-object v1, Lcom/tencent/mm/Aclz$b;->ActionBarWindow:[I
+    sget-object v1, Lcom/tencent/mm/Aclz$SubB;->ActionBarWindow:[I
 
     invoke-virtual {v0, v1}, Landroid/support/v7/app/ActionBarActivity;->obtainStyledAttributes([I)Landroid/content/res/TypedArray;
 

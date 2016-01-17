@@ -62,7 +62,7 @@
     invoke-virtual {v0, v1}, Landroid/text/TextPaint;->setTextAlign(Landroid/graphics/Paint$Align;)V
 
     .line 32
-    sget-object v0, Lcom/tencent/mm/Aclz$b;->verticaltextview:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$SubB;->verticaltextview:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

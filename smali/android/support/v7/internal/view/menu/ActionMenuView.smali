@@ -79,7 +79,7 @@
     iput v0, p0, Landroid/support/v7/internal/view/menu/ActionMenuView;->kW:I
 
     .line 65
-    sget-object v0, Lcom/tencent/mm/Aclz$b;->ActionBar:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$SubB;->ActionBar:[I
 
     const v1, 0x7f010057
 

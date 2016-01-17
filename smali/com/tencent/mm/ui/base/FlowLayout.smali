@@ -126,7 +126,7 @@
 
     .prologue
     .line 39
-    sget-object v0, Lcom/tencent/mm/Aclz$b;->FlowLayout:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$SubB;->FlowLayout:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

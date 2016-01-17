@@ -51,7 +51,7 @@
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 50
-    sget-object v0, Lcom/tencent/mm/Aclz$b;->MaskLayout:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$SubB;->MaskLayout:[I
 
     invoke-virtual {p1, p2, v0, p3, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

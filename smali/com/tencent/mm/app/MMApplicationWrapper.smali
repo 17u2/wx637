@@ -490,7 +490,7 @@
     invoke-static {v3, v4}, Lcom/tencent/mm/sdk/platformtools/Vclz;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :try_start_1
-    const-class v3, Lcom/tencent/mm/Aclz$a;
+    const-class v3, Lcom/tencent/mm/Aclz$SubA;
 
     invoke-static {v3}, Lcom/tencent/mm/svg/a/Eclz;->f(Ljava/lang/Class;)V
 

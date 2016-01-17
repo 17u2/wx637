@@ -62,7 +62,7 @@
     iput v0, p0, Lcom/tencent/mm/ui/base/preference/ChoicePreference;->eWX:I
 
     .line 45
-    sget-object v0, Lcom/tencent/mm/Aclz$b;->ChoicePreference:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$SubB;->ChoicePreference:[I
 
     invoke-virtual {p1, p2, v0, p3, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

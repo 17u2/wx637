@@ -401,7 +401,7 @@
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/SearchView$SearchAutoComplete;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
 
     .line 291
-    sget-object v0, Lcom/tencent/mm/Aclz$b;->SearchView:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$SubB;->SearchView:[I
 
     invoke-virtual {p1, p2, v0, v4, v4}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -476,7 +476,7 @@
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 312
-    sget-object v0, Lcom/tencent/mm/Aclz$b;->View:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$SubB;->View:[I
 
     invoke-virtual {p1, p2, v0, v4, v4}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

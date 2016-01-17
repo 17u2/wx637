@@ -39,7 +39,7 @@
     invoke-virtual {p0, v2}, Landroid/support/v7/internal/widget/ActionBarContainer;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 60
-    sget-object v2, Lcom/tencent/mm/Aclz$b;->ActionBar:[I
+    sget-object v2, Lcom/tencent/mm/Aclz$SubB;->ActionBar:[I
 
     invoke-virtual {p1, p2, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

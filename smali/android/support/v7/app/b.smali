@@ -715,7 +715,7 @@
     :cond_5
     iget-object v0, p0, Landroid/support/v7/app/b;->iC:Landroid/support/v7/app/ActionBarActivity;
 
-    sget-object v1, Lcom/tencent/mm/Aclz$b;->ActionBarWindow:[I
+    sget-object v1, Lcom/tencent/mm/Aclz$SubB;->ActionBarWindow:[I
 
     invoke-virtual {v0, v1}, Landroid/support/v7/app/ActionBarActivity;->obtainStyledAttributes([I)Landroid/content/res/TypedArray;
 
@@ -870,7 +870,7 @@
 
     if-nez v3, :cond_6
 
-    sget-object v3, Lcom/tencent/mm/Aclz$b;->Theme:[I
+    sget-object v3, Lcom/tencent/mm/Aclz$SubB;->Theme:[I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->obtainStyledAttributes([I)Landroid/content/res/TypedArray;
 

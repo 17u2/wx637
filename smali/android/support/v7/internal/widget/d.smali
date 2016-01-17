@@ -73,7 +73,7 @@
     iput-object v0, p0, Landroid/support/v7/internal/widget/d;->eM:Landroid/graphics/Rect;
 
     .line 151
-    sget-object v0, Lcom/tencent/mm/Aclz$b;->Spinner:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$SubB;->Spinner:[I
 
     invoke-virtual {p1, v5, v0, v2, v4}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

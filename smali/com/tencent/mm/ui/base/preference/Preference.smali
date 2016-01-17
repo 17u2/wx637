@@ -165,7 +165,7 @@
     iput-object p1, p0, Lcom/tencent/mm/ui/base/preference/Preference;->mContext:Landroid/content/Context;
 
     .line 210
-    sget-object v0, Lcom/tencent/mm/Aclz$b;->Preference:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$SubB;->Preference:[I
 
     invoke-virtual {p1, p2, v0, p3, v5}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

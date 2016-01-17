@@ -104,7 +104,7 @@
     iput v1, p0, Landroid/support/v7/internal/widget/ActivityChooserView;->oS:I
 
     .line 212
-    sget-object v0, Lcom/tencent/mm/Aclz$b;->ActivityChooserView:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$SubB;->ActivityChooserView:[I
 
     invoke-virtual {p1, p2, v0, p3, v3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

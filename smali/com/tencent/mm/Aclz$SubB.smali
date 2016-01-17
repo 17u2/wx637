@@ -1,4 +1,4 @@
-.class public final Lcom/tencent/mm/Aclz$b;
+.class public final Lcom/tencent/mm/Aclz$SubB;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -10,7 +10,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x19
-    name = "b"
+    name = "SubB"
 .end annotation
 
 
@@ -830,7 +830,7 @@
 
     fill-array-data v0, :array_0
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->ActionBar:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->ActionBar:[I
 
     .line 21113
     new-array v0, v4, [I
@@ -839,14 +839,14 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->ActionBarLayout:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->ActionBarLayout:[I
 
     .line 21139
     new-array v0, v3, [I
 
     fill-array-data v0, :array_1
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->ActionBarWindow:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->ActionBarWindow:[I
 
     .line 21194
     new-array v0, v4, [I
@@ -855,19 +855,19 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->ActionMenuItemView:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->ActionMenuItemView:[I
 
     .line 21205
     new-array v0, v2, [I
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->ActionMenuView:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->ActionMenuView:[I
 
     .line 21226
     new-array v0, v6, [I
 
     fill-array-data v0, :array_2
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->ActionMode:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->ActionMode:[I
 
     .line 21310
     const/4 v0, 0x2
@@ -876,7 +876,7 @@
 
     fill-array-data v0, :array_3
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->ActivityChooserView:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->ActivityChooserView:[I
 
     .line 21382
     const/16 v0, 0xe
@@ -885,35 +885,35 @@
 
     fill-array-data v0, :array_4
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->AddrEditView:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->AddrEditView:[I
 
     .line 21562
     new-array v0, v3, [I
 
     fill-array-data v0, :array_5
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->AdsAttrs:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->AdsAttrs:[I
 
     .line 21635
     new-array v0, v3, [I
 
     fill-array-data v0, :array_6
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->AppPreference:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->AppPreference:[I
 
     .line 21696
     new-array v0, v5, [I
 
     fill-array-data v0, :array_7
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->AutoSwitchLayout:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->AutoSwitchLayout:[I
 
     .line 21774
     new-array v0, v3, [I
 
     fill-array-data v0, :array_8
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->CheckBoxPreference:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->CheckBoxPreference:[I
 
     .line 21854
     const/4 v0, 0x2
@@ -922,7 +922,7 @@
 
     fill-array-data v0, :array_9
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->ChoicePreference:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->ChoicePreference:[I
 
     .line 21887
     new-array v0, v4, [I
@@ -931,7 +931,7 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->CompatTextView:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->CompatTextView:[I
 
     .line 21925
     const/4 v0, 0x6
@@ -940,7 +940,7 @@
 
     fill-array-data v0, :array_a
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->DialogPreference:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->DialogPreference:[I
 
     .line 22072
     const/16 v0, 0x12
@@ -949,7 +949,7 @@
 
     fill-array-data v0, :array_b
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->DragSortListView:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->DragSortListView:[I
 
     .line 22377
     const/16 v0, 0xe
@@ -958,7 +958,7 @@
 
     fill-array-data v0, :array_c
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->EditHintView:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->EditHintView:[I
 
     .line 22557
     new-array v0, v4, [I
@@ -967,7 +967,7 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->FaceToFaceVideoLayout:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->FaceToFaceVideoLayout:[I
 
     .line 22586
     const/4 v0, 0x2
@@ -976,21 +976,21 @@
 
     fill-array-data v0, :array_d
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->FlowLayout:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->FlowLayout:[I
 
     .line 22635
     new-array v0, v3, [I
 
     fill-array-data v0, :array_e
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->FormItemView:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->FormItemView:[I
 
     .line 22694
     new-array v0, v6, [I
 
     fill-array-data v0, :array_f
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->IPCallFuncButton:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->IPCallFuncButton:[I
 
     .line 22766
     new-array v0, v4, [I
@@ -999,7 +999,7 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->IconPreference:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->IconPreference:[I
 
     .line 22791
     new-array v0, v4, [I
@@ -1008,21 +1008,21 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->ImagePreference:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->ImagePreference:[I
 
     .line 22820
     new-array v0, v5, [I
 
     fill-array-data v0, :array_10
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->LabelledClearableEditText:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->LabelledClearableEditText:[I
 
     .line 22896
     new-array v0, v3, [I
 
     fill-array-data v0, :array_11
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->LinearLayoutICS:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->LinearLayoutICS:[I
 
     .line 22962
     const/4 v0, 0x2
@@ -1031,14 +1031,14 @@
 
     fill-array-data v0, :array_12
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->MMDotView:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->MMDotView:[I
 
     .line 23013
     new-array v0, v6, [I
 
     fill-array-data v0, :array_13
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->MMPinProgressBtn:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->MMPinProgressBtn:[I
 
     .line 23115
     const/16 v0, 0x9
@@ -1047,7 +1047,7 @@
 
     fill-array-data v0, :array_14
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->MallEditText:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->MallEditText:[I
 
     .line 23261
     const/16 v0, 0x1a
@@ -1056,7 +1056,7 @@
 
     fill-array-data v0, :array_15
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->MallFormAttrs:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->MallFormAttrs:[I
 
     .line 23671
     const/16 v0, 0x8
@@ -1065,14 +1065,14 @@
 
     fill-array-data v0, :array_16
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->MallHorizontalGridView:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->MallHorizontalGridView:[I
 
     .line 23747
     new-array v0, v5, [I
 
     fill-array-data v0, :array_17
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->MallProductItemView:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->MallProductItemView:[I
 
     .line 23826
     const/16 v0, 0xe
@@ -1081,7 +1081,7 @@
 
     fill-array-data v0, :array_18
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->MapAttrs:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->MapAttrs:[I
 
     .line 24054
     const/4 v0, 0x6
@@ -1090,7 +1090,7 @@
 
     fill-array-data v0, :array_19
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->MaskLayout:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->MaskLayout:[I
 
     .line 24168
     const/4 v0, 0x6
@@ -1099,7 +1099,7 @@
 
     fill-array-data v0, :array_1a
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->MenuGroup:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->MenuGroup:[I
 
     .line 24273
     const/16 v0, 0x11
@@ -1108,7 +1108,7 @@
 
     fill-array-data v0, :array_1b
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->MenuItem:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->MenuItem:[I
 
     .line 24511
     const/16 v0, 0x8
@@ -1117,7 +1117,7 @@
 
     fill-array-data v0, :array_1c
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->MenuView:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->MenuView:[I
 
     .line 24596
     new-array v0, v4, [I
@@ -1126,14 +1126,14 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->NetStatPreference:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->NetStatPreference:[I
 
     .line 24630
     new-array v0, v3, [I
 
     fill-array-data v0, :array_1d
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->PluginTextPreference:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->PluginTextPreference:[I
 
     .line 24719
     const/16 v0, 0xe
@@ -1142,7 +1142,7 @@
 
     fill-array-data v0, :array_1e
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->Preference:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->Preference:[I
 
     .line 24985
     new-array v0, v4, [I
@@ -1151,14 +1151,14 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->ProfileNormalItemView:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->ProfileNormalItemView:[I
 
     .line 25016
     new-array v0, v3, [I
 
     fill-array-data v0, :array_1f
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->PwdAttr:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->PwdAttr:[I
 
     .line 25092
     const/4 v0, 0x2
@@ -1167,14 +1167,14 @@
 
     fill-array-data v0, :array_20
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->RoundCornerImageView:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->RoundCornerImageView:[I
 
     .line 25141
     new-array v0, v6, [I
 
     fill-array-data v0, :array_21
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->SearchView:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->SearchView:[I
 
     .line 25237
     const/16 v0, 0xa
@@ -1183,7 +1183,7 @@
 
     fill-array-data v0, :array_22
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->Spinner:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->Spinner:[I
 
     .line 25381
     const/4 v0, 0x6
@@ -1192,21 +1192,21 @@
 
     fill-array-data v0, :array_23
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->Theme:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->Theme:[I
 
     .line 25483
     new-array v0, v3, [I
 
     fill-array-data v0, :array_24
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->View:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->View:[I
 
     .line 25554
     new-array v0, v6, [I
 
     fill-array-data v0, :array_25
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->VoipButton:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->VoipButton:[I
 
     .line 25676
     const/16 v0, 0x1c
@@ -1215,14 +1215,14 @@
 
     fill-array-data v0, :array_26
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->WalletFormAttrs:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->WalletFormAttrs:[I
 
     .line 26116
     new-array v0, v5, [I
 
     fill-array-data v0, :array_27
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->WalletFragmentOptions:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->WalletFragmentOptions:[I
 
     .line 26220
     const/16 v0, 0xb
@@ -1231,14 +1231,14 @@
 
     fill-array-data v0, :array_28
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->WalletFragmentStyle:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->WalletFragmentStyle:[I
 
     .line 26439
     new-array v0, v5, [I
 
     fill-array-data v0, :array_29
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->WalletItemView:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->WalletItemView:[I
 
     .line 26508
     const/16 v0, 0x9
@@ -1247,21 +1247,21 @@
 
     fill-array-data v0, :array_2a
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->WeChatSVG:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->WeChatSVG:[I
 
     .line 26629
     new-array v0, v6, [I
 
     fill-array-data v0, :array_2b
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->mm_patternlock_view:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->mm_patternlock_view:[I
 
     .line 26722
     new-array v0, v5, [I
 
     fill-array-data v0, :array_2c
 
-    sput-object v0, Lcom/tencent/mm/Aclz$b;->verticaltextview:[I
+    sput-object v0, Lcom/tencent/mm/Aclz$SubB;->verticaltextview:[I
 
     sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
 

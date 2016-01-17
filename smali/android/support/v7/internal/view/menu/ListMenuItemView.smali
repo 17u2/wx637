@@ -70,7 +70,7 @@
     iput-object p1, p0, Landroid/support/v7/internal/view/menu/ListMenuItemView;->mContext:Landroid/content/Context;
 
     .line 67
-    sget-object v0, Lcom/tencent/mm/Aclz$b;->MenuView:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$SubB;->MenuView:[I
 
     invoke-virtual {p1, p2, v0, p3, v3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

@@ -58,7 +58,7 @@
     iput v0, p0, Lcom/tencent/mm/ui/base/MMFormSelectorView;->layout:I
 
     .line 41
-    sget-object v0, Lcom/tencent/mm/Aclz$b;->FormItemView:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$SubB;->FormItemView:[I
 
     invoke-virtual {p1, p2, v0, p3, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

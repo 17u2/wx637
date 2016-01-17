@@ -88,7 +88,7 @@
     iput-object v1, p0, Lcom/tencent/mm/ui/base/MMFormMobileInputView;->jMC:Lcom/tencent/mm/ui/base/MMFormMobileInputView$a;
 
     .line 52
-    sget-object v0, Lcom/tencent/mm/Aclz$b;->FormItemView:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$SubB;->FormItemView:[I
 
     const/4 v1, 0x0
 

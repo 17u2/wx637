@@ -91,7 +91,7 @@
     const/4 v1, 0x0
 
     .line 42
-    sget-object v0, Lcom/tencent/mm/Aclz$b;->MMDotView:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$SubB;->MMDotView:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

@@ -248,7 +248,7 @@
 
     iget-object v0, v0, Landroid/support/v7/internal/view/c;->mContext:Landroid/content/Context;
 
-    sget-object v5, Lcom/tencent/mm/Aclz$b;->MenuGroup:[I
+    sget-object v5, Lcom/tencent/mm/Aclz$SubB;->MenuGroup:[I
 
     invoke-virtual {v0, p2, v5}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -339,7 +339,7 @@
 
     iget-object v0, v0, Landroid/support/v7/internal/view/c;->mContext:Landroid/content/Context;
 
-    sget-object v5, Lcom/tencent/mm/Aclz$b;->MenuItem:[I
+    sget-object v5, Lcom/tencent/mm/Aclz$SubB;->MenuItem:[I
 
     invoke-virtual {v0, p2, v5}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

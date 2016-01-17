@@ -224,7 +224,7 @@
 
     const/4 v2, 0x0
 
-    sget-object v3, Lcom/tencent/mm/Aclz$b;->ActionBar:[I
+    sget-object v3, Lcom/tencent/mm/Aclz$SubB;->ActionBar:[I
 
     const v4, 0x7f010057
 

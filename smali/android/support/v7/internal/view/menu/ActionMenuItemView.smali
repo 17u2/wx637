@@ -80,7 +80,7 @@
     iput-boolean v0, p0, Landroid/support/v7/internal/view/menu/ActionMenuItemView;->kt:Z
 
     .line 68
-    sget-object v0, Lcom/tencent/mm/Aclz$b;->ActionMenuItemView:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$SubB;->ActionMenuItemView:[I
 
     invoke-virtual {p1, p2, v0, v2, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

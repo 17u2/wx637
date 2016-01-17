@@ -266,7 +266,7 @@
 
     iget-object v0, p0, Lcom/tencent/mm/ui/b/Bclz;->jt:Landroid/app/Activity;
 
-    sget-object v1, Lcom/tencent/mm/Aclz$b;->ActionBarWindow:[I
+    sget-object v1, Lcom/tencent/mm/Aclz$SubB;->ActionBarWindow:[I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->obtainStyledAttributes([I)Landroid/content/res/TypedArray;
 

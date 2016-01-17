@@ -28,7 +28,7 @@
     invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 47
-    sget-object v2, Lcom/tencent/mm/Aclz$b;->LinearLayoutICS:[I
+    sget-object v2, Lcom/tencent/mm/Aclz$SubB;->LinearLayoutICS:[I
 
     invoke-virtual {p1, p2, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

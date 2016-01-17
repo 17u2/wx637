@@ -263,7 +263,7 @@
 
     move-result-object v0
 
-    sget-object v1, Lcom/tencent/mm/Aclz$b;->FaceToFaceVideoLayout:[I
+    sget-object v1, Lcom/tencent/mm/Aclz$SubB;->FaceToFaceVideoLayout:[I
 
     invoke-virtual {v0, p1, v1, v5, v5}, Landroid/content/res/Resources$Theme;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

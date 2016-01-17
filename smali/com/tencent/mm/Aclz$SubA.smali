@@ -1,4 +1,4 @@
-.class public final Lcom/tencent/mm/Aclz$a;
+.class public final Lcom/tencent/mm/Aclz$SubA;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -10,7 +10,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x19
-    name = "a"
+    name = "SubA"
 .end annotation
 
 

@@ -81,7 +81,7 @@
     invoke-virtual {p0, v0}, Lcom/tencent/mm/ui/base/preference/PluginTextPreference;->setLayoutResource(I)V
 
     .line 36
-    sget-object v0, Lcom/tencent/mm/Aclz$b;->PluginTextPreference:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$SubB;->PluginTextPreference:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

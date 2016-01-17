@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/tencent/mm/Aclz$b;,
-        Lcom/tencent/mm/Aclz$a;
+        Lcom/tencent/mm/Aclz$SubB;,
+        Lcom/tencent/mm/Aclz$SubA;
     }
 .end annotation

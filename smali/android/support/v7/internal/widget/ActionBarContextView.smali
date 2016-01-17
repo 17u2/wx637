@@ -58,7 +58,7 @@
     invoke-direct {p0, p1, p2, p3}, Landroid/support/v7/internal/widget/a;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 66
-    sget-object v0, Lcom/tencent/mm/Aclz$b;->ActionMode:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$SubB;->ActionMode:[I
 
     invoke-virtual {p1, p2, v0, p3, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

@@ -42,7 +42,7 @@
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/TextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 47
-    sget-object v0, Lcom/tencent/mm/Aclz$b;->CompatTextView:[I
+    sget-object v0, Lcom/tencent/mm/Aclz$SubB;->CompatTextView:[I
 
     invoke-virtual {p1, p2, v0, p3, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
