@@ -1,24 +1,20 @@
 .class public final Lcom/tencent/mm/protocal/MMProtocalJni;
 .super Ljava/lang/Object;
-.source "SourceFile"
+.source "MMProtocalJni.java"
 
 
 # direct methods
-.method private constructor <init>()V
-    .locals 1
+.method public constructor <init>()V
+    .registers 1
 
     .prologue
-    .line 8
+    .line 10
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 10
-    sget-boolean v0, Lcom/tencent/mm/BuildConfig;->SKIP:Z
-
-    if-nez v0, :cond_0
-
+    .line 14
     invoke-static {}, Lcom/tencent/mm/Aclz;->a()V
 
-    :cond_0
+    .line 15
     return-void
 .end method
 

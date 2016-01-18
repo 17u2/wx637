@@ -11,7 +11,7 @@
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 1
+    .registers 1
 
     .prologue
     .line 11
@@ -23,7 +23,7 @@
 .end method
 
 .method public constructor <init>()V
-    .locals 0
+    .registers 1
 
     .prologue
     .line 13
@@ -37,7 +37,7 @@
 .end method
 
 .method public static aesDecrypt([B[B)[B
-    .locals 1
+    .registers 3
     .param p0, "paramArrayOfByte1"    # [B
     .param p1, "paramArrayOfByte2"    # [B
 
@@ -53,7 +53,7 @@
 .end method
 
 .method public static computerKeyWithAllStr(I[B[BLcom/tencent/mm/pointers/PByteArray;I)I
-    .locals 1
+    .registers 6
     .param p0, "paramInt1"    # I
     .param p1, "paramArrayOfByte1"    # [B
     .param p2, "paramArrayOfByte2"    # [B
@@ -72,7 +72,7 @@
 .end method
 
 .method public static decodeSecureNotifyData([BIIIIIII[B)[B
-    .locals 1
+    .registers 10
     .param p0, "paramArrayOfByte1"    # [B
     .param p1, "paramInt1"    # I
     .param p2, "paramInt2"    # I
@@ -95,7 +95,7 @@
 .end method
 
 .method public static genClientCheckKVRes(ILjava/lang/String;[B[B[BLcom/tencent/mm/pointers/PByteArray;)V
-    .locals 0
+    .registers 6
     .param p0, "paramInt"    # I
     .param p1, "paramString"    # Ljava/lang/String;
     .param p2, "paramArrayOfByte1"    # [B
@@ -112,7 +112,7 @@
 .end method
 
 .method public static generateECKey(ILcom/tencent/mm/pointers/PByteArray;Lcom/tencent/mm/pointers/PByteArray;)I
-    .locals 1
+    .registers 4
     .param p0, "paramInt"    # I
     .param p1, "paramPByteArray1"    # Lcom/tencent/mm/pointers/PByteArray;
     .param p2, "paramPByteArray2"    # Lcom/tencent/mm/pointers/PByteArray;
@@ -129,7 +129,7 @@
 .end method
 
 .method public static mergeSyncKey([B[BLcom/tencent/mm/pointers/PByteArray;)Z
-    .locals 1
+    .registers 4
     .param p0, "paramArrayOfByte1"    # [B
     .param p1, "paramArrayOfByte2"    # [B
     .param p2, "paramPByteArray"    # Lcom/tencent/mm/pointers/PByteArray;
@@ -146,7 +146,7 @@
 .end method
 
 .method public static pack([BLcom/tencent/mm/pointers/PByteArray;[B[BLjava/lang/String;III[B[B[BZ)Z
-    .locals 1
+    .registers 13
     .param p0, "paramArrayOfByte1"    # [B
     .param p1, "paramPByteArray"    # Lcom/tencent/mm/pointers/PByteArray;
     .param p2, "paramArrayOfByte2"    # [B
@@ -172,7 +172,7 @@
 .end method
 
 .method public static packDoubleHybrid(Lcom/tencent/mm/pointers/PByteArray;[BLjava/lang/String;III[B[B[B[B[BZ)Z
-    .locals 1
+    .registers 13
     .param p0, "paramPByteArray"    # Lcom/tencent/mm/pointers/PByteArray;
     .param p1, "paramArrayOfByte1"    # [B
     .param p2, "paramString"    # Ljava/lang/String;
@@ -198,7 +198,7 @@
 .end method
 
 .method public static packHybrid(Lcom/tencent/mm/pointers/PByteArray;[BLjava/lang/String;III[B[B[B[B[BZ)Z
-    .locals 1
+    .registers 13
     .param p0, "paramPByteArray"    # Lcom/tencent/mm/pointers/PByteArray;
     .param p1, "paramArrayOfByte1"    # [B
     .param p2, "paramString"    # Ljava/lang/String;
@@ -224,7 +224,7 @@
 .end method
 
 .method public static rsaPublicEncrypt([BLcom/tencent/mm/pointers/PByteArray;[B[B)Z
-    .locals 1
+    .registers 5
     .param p0, "paramArrayOfByte1"    # [B
     .param p1, "paramPByteArray"    # Lcom/tencent/mm/pointers/PByteArray;
     .param p2, "paramArrayOfByte2"    # [B
@@ -242,7 +242,7 @@
 .end method
 
 .method public static setClientPackVersion(I)Z
-    .locals 1
+    .registers 2
     .param p0, "paramInt"    # I
 
     .prologue
@@ -257,7 +257,7 @@
 .end method
 
 .method public static setIsLite(Z)V
-    .locals 0
+    .registers 1
     .param p0, "paramBoolean"    # Z
 
     .prologue
@@ -269,7 +269,7 @@
 .end method
 
 .method public static setProtocalJniLogLevel(I)Z
-    .locals 1
+    .registers 2
     .param p0, "paramInt"    # I
 
     .prologue
@@ -284,7 +284,7 @@
 .end method
 
 .method public static unpack(Lcom/tencent/mm/pointers/PByteArray;[B[BLcom/tencent/mm/pointers/PByteArray;Lcom/tencent/mm/pointers/PInt;Lcom/tencent/mm/pointers/PInt;)Z
-    .locals 1
+    .registers 7
     .param p0, "paramPByteArray1"    # Lcom/tencent/mm/pointers/PByteArray;
     .param p1, "paramArrayOfByte1"    # [B
     .param p2, "paramArrayOfByte2"    # [B
@@ -304,7 +304,7 @@
 .end method
 
 .method public static verifySyncKey([B)Z
-    .locals 1
+    .registers 2
     .param p0, "paramArrayOfByte"    # [B
 
     .prologue
